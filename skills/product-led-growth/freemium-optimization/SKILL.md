@@ -1,78 +1,96 @@
 ---
 name: freemium-optimization
 description: >-
-  Optimize freemium conversion — activation flow, paywall design, upgrade
-  triggers, free-to-paid conversion rate optimization. Use when improving
-  freemium conversion, designing upgrade prompts, or optimizing the free-to-paid
-  funnel. Triggers on: "freemium", "free to paid", "conversion optimization",
-  "upgrade flow", "paywall", "activation rate", or any freemium optimization request.
+  Freemium and free trial conversion optimization — activation flow design,
+  paywall placement, upgrade triggers, PQL scoring, time-to-value reduction,
+  and freemium monetization models. Use when optimizing freemium conversion,
+  designing free-to-paid upgrade paths, or balancing free vs premium features.
+  Triggers on: "freemium optimization", "free trial conversion", "PQL scoring",
+  "activation flow", "paywall design", "freemium to paid".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI
 metadata:
-  version: "1.0.0"
+  version: "2.0.0"
   author: LeadMagic
   category: product-led-growth
-  tags: [freemium, conversion, activation, plg]
-  frameworks: [Wes Bush PLG Framework, OpenView PLG Benchmarks, Elena Verna PLG]
+  tags: [freemium, free-trial, conversion, pql, activation, paywall, plg]
+  related_skills: [plg-strategy, growth-experimentation, onboarding-flow, pricing-psychology, a-b-testing]
+  frameworks:
+    - "OpenView — Product-Led Growth benchmarks"
+    - "Elena Verna (Reforge/Amplitude) — PLG growth models"
+    - "Wes Bush — Product-Led Onboarding"
+    - "Lenny Rachitsky — PLG conversion benchmarks"
+    - "Brian Balfour (Reforge) — Activation and retention"
 ---
 
 # Freemium Optimization
 
 ## Overview
-Freemium conversion averages 5% — meaning 95% of signups never pay. This
-skill covers systematic optimization: activation rate improvement, paywall
-timing and design, upgrade trigger identification, and A/B testing the
-free-to-paid journey. Each percentage point of conversion improvement
-compounds directly into MRR with zero additional acquisition cost.
+
+"Free" gets users. "Free" doesn't pay the bills. The gap between free and paid
+is where most PLG companies die. The mistake: giving away too much for free
+(users never upgrade) or too little (users never activate). This skill covers
+the complete freemium optimization playbook: activation design, paywall
+placement, upgrade triggers, and PQL scoring.
 
 ## When to Use
-- "Improve our freemium conversion rate"
-- "Optimize our free-to-paid upgrade flow"
-- "Design paywall triggers"
-- "Increase activation rate"
-- "Reduce free user churn"
 
-## Authoritative Foundations
-- **Wes Bush**: free trial converts at 17% vs freemium at 5%. Reverse trial
-  captures both: high initial conversion + long-tail freemium.
-- **OpenView Benchmarks**: activation rate 20-40% normal. Freemium: 53%
-  organic acquisition, 13% product-driven, 10% paid.
-- **Elena Verna (Reforge)**: PLG growth loops, PQL handoff to sales.
+Trigger phrases: "freemium conversion", "free trial optimization", "PQL score",
+"activation flow design", "paywall placement", "upgrade trigger design"
 
 ## Step-by-Step Process
-### Phase 1: Activation Funnel Audit
-Map every step from signup to aha moment. Measure drop-off at each step.
-Identify the single largest drop — that's your highest-leverage fix.
 
-### Phase 2: Upgrade Trigger Design
-Triggers based on behavior, not time. Usage approaching plan limit, feature
-gated behind paywall used 3+ times, team collaboration triggers (multiple
-users, sharing), data export limit reached.
+### Phase 1: The Freemium Model Decision
+
+**3 models (pick one):** Free plan (forever free, limited), Free trial (full
+product, time-limited), Freemium + trial (free plan + time-limited premium).
+
+**What to put in free:** Enough to activate and experience value. NOT enough
+to get the full job done forever. Usage limit. Feature limit. Support limit.
+Pick 2.
+
+### Phase 2: Activation Design
+
+**The activation moment:** The point where a free user experiences your core
+value for the first time. Define it. Measure time-to-activation. Optimize it
+ruthlessly. Target: under 7 days.
+
+**Activation flow:** Guided setup. Sample data. First value delivered within
+the flow itself. Empty states filled with "here's what you'll see."
 
 ### Phase 3: Paywall Design
-- Show value before showing the gate. Let users experience the premium
-  feature before locking it.
-- Offer annual discount prominently (20-30% off).
-- Include social proof at the paywall: "Join X,000 teams already on Pro."
-- Test: hard paywall vs soft paywall (limited free usage of premium features).
 
-### Phase 4: A/B Test Queue
-Test: paywall timing, pricing display, social proof placement, upgrade CTA
-copy, annual vs monthly default.
+**When to show the paywall:** AFTER activation, BEFORE habit. User has
+experienced value (activation complete) but isn't yet a daily user (habit
+not formed). This is the conversion sweet spot.
 
-## Output Format
-Freemium optimization plan with activation funnel audit, upgrade trigger
-definitions, paywall design, and A/B test queue.
+**Paywall triggers:** Usage limit reached. Feature in paid tier requested.
+Team invites sent (collaboration requires paid). Time-based trial expiration.
+
+### Phase 4: PQL (Product-Qualified Lead) Scoring
+
+Score = (Activation: 30) + (Usage depth: 25) + (Frequency: 20) + (ICP fit: 15) + (Expansion signals: 10).
+Score > 70: immediate sales outreach. 50-69: nurture. <50: focus on activation.
+
+## Quality Checklist
+
+- [ ] Activation moment defined and measured (time-to-activation < 7 days)
+- [ ] Free tier is "enough to love, not enough to stay forever"
+- [ ] Paywall displayed after activation, not before
+- [ ] PQL scoring model built with 5+ dimensions
+- [ ] Free-to-paid conversion funnel measured weekly
 
 ## Common Pitfalls
-1. **Paywall before value** — if the user hasn't experienced the aha moment,
-   the paywall is just an obstacle. Value first, paywall second.
-2. **No upgrade trigger** — "hope they upgrade" is not a strategy. Design
-   behavioral triggers that surface the paywall at the right moment.
-3. **Ignoring activation** — freemium conversion doesn't start at the
-   paywall. It starts at the aha moment. Fix activation first.
+
+1. **Free tier that replaces paid.** If free does 90% of what paid does, nobody
+   upgrades. Fix: Free = enough to activate. Paid = where the real work happens.
+2. **Paywall before value.** User sees a paywall before they've experienced
+   the product. They leave. Fix: Paywall AFTER activation milestone.
+3. **No PQL model.** Every freemium user treated equally. High-intent users
+   missed. Fix: PQL scoring routes high-intent users to sales.
 
 ## Related Skills
-- **plg-strategy**: Overall PLG motion design
-- **a-b-testing**: Experiment framework for paywall tests
-- **landing-pages**: Signup flow optimization
+
+- `plg-strategy` — Full PLG strategy
+- `growth-experimentation` — A/B testing paywall variants
+- `pricing-psychology` — Pricing page conversion

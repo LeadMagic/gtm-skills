@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-06-07T19:54:23Z",
-  "total_skills": 177,
+  "generated_at": "2026-06-07T19:58:26Z",
+  "total_skills": 178,
   "skills": {
     "abm/abm-1-to-1": {
       "version": "1.0.0",
@@ -332,6 +332,13 @@
       "sha256": "acfe0e106922c96c5ba6271d05e5e0750bc8c539ff4466f9d54a53d3934b09bf",
       "size_bytes": 12882,
       "last_updated": "2026-06-07T19:37:46Z"
+    },
+    "creative/landing-page-copy": {
+      "version": "1.0.0",
+      "path": "skills/creative/landing-page-copy/SKILL.md",
+      "sha256": "8daa95ec587a98ddf97d826c54a635c1c2bc25a96c082c4daf67f3b3567da6c7",
+      "size_bytes": 16714,
+      "last_updated": "2026-06-07T19:56:33Z"
     },
     "creative/social-media-strategy": {
       "version": "1.0.0",
@@ -973,9 +980,9 @@
     "management-leadership/team-management": {
       "version": "1.0.0",
       "path": "skills/management-leadership/team-management/SKILL.md",
-      "sha256": "d6223437e2dcab10bae1d9ed70f599af61af6a3cc976360f9da7a231cfb6b416",
-      "size_bytes": 2991,
-      "last_updated": "2026-06-07T18:18:17Z"
+      "sha256": "b2376b91210eaf91732c397583e04786e140aecec011b54a8e21ba4fe458907b",
+      "size_bytes": 5264,
+      "last_updated": "2026-06-07T19:57:11Z"
     },
     "outbound/cold-calling": {
       "version": "1.0.0",
@@ -1064,9 +1071,9 @@
     "product-led-growth/freemium-optimization": {
       "version": "1.0.0",
       "path": "skills/product-led-growth/freemium-optimization/SKILL.md",
-      "sha256": "3ff6ac3910863cff670956036ca2592ad62115bb38e9e02911794159630acb51",
-      "size_bytes": 3341,
-      "last_updated": "2026-06-07T18:20:49Z"
+      "sha256": "d63f6a912e6f82716df84e1ff67c2753c85dee142de1939d4f0ce873f34c5260",
+      "size_bytes": 4039,
+      "last_updated": "2026-06-07T19:57:11Z"
     },
     "product-led-growth/plg-strategy": {
       "version": "1.0.0",
