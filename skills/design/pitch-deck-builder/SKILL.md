@@ -15,7 +15,7 @@ metadata:
   category: design
   tags: [pitch-deck, presentations, slides, storytelling, sales]
   related_skills: [sales-enablement, one-pager-builder, battlecard-builder, positioning-messaging]
-  frameworks: [Force Management Command of the Message, Andy Raskin Strategic Narrative, Corporate Visions Messaging]
+  frameworks: [Force Management Command of the Message, Andy Raskin Strategic Narrative, Corporate Visions Messaging, Todd Caponi Transparency Sale]
 ---
 
 # Pitch Deck Builder

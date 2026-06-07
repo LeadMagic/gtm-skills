@@ -16,7 +16,7 @@ metadata:
   category: sales-revops
   tags: [objections, sales, handling, playbooks]
   related_skills: [battlecard-builder, competitive-intel, cold-email-copywriting, demo-scripts]
-  frameworks: [Force Management CoM, Sandler Pain Funnel, Challenger Reframing]
+  frameworks: [Force Management CoM, Sandler Pain Funnel, Challenger Reframing, Todd Caponi Transparency Sale]
 ---
 
 # Objection Handling

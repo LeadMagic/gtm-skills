@@ -1,9 +1,9 @@
 # GTM Blueprints
 
-**186 production go-to-market playbooks for AI agents.** Stop guessing. Start executing. Every playbook is grounded in named methodologies from the people who built modern revenue science — not recycled blog posts.
+**188 production go-to-market playbooks for AI agents.** Stop guessing. Start executing. Every playbook is grounded in named methodologies from the people who built modern revenue science — not recycled blog posts.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-186-blue)](skills/)
+[![Skills](https://img.shields.io/badge/skills-188-blue)](skills/)
 [![CI](https://github.com/leadmagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/leadmagic/gtm-skills/actions/workflows/validate.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](docs/CONTRIBUTING.md)
 [![Release](https://img.shields.io/badge/release-v0.3.0-green)](https://github.com/leadmagic/gtm-skills/releases)
@@ -26,11 +26,11 @@ A complete operating system for your AI agent's GTM brain. Every skill cites the
 
 | Category | Skills | What you get |
 |---|---|---|
-| `foundation` | 6 | ICP scoring, positioning, pricing, competitive intel, GTM context, skill usage guide |
+| `foundation` | 7 | ICP scoring, positioning, pricing, competitive intel, buyer psychology, GTM context, skill usage guide |
 | `prospecting` | 7 | Lead finding, enrichment, email discovery, contact verification, list building, signal scoring |
 | `outbound` | 9 | Cold email strategy + copywriting, cold calling, deliverability, domain infrastructure, inbox setup, sending platforms, multi-channel, reply handling |
 | `inbound` | 4 | Inbound triage, content marketing, social selling, landing pages |
-| `sales-revops` | 6 | Sales enablement, meeting prep, pipeline management, objection handling, demo scripts, deal desk |
+| `sales-revops` | 7 | Sales enablement, transparency selling, meeting prep, pipeline management, objection handling, demo scripts, deal desk |
 | `analytics` | 13 | Campaign analytics, GTM metrics, A/B testing, growth experimentation, attribution, proactive alerts, 1P tagging, paid advertising, marketing strategy, GTM architecture, event analytics, tracking plan |
 | `automation` | 12 | Clay, AI SDR, API enrichment, Attio/HubSpot/Salesforce CRM setup, MCP, n8n, waterfall enrichment, tool stack selection, skills lock |
 | `design` | 7 | Pitch decks, one-pagers, battlecards, ROI calculators, case studies, design systems, UI/UX |
@@ -111,6 +111,9 @@ Skills are grounded in named methodologies from the people who invented modern r
 | **SiriusDecisions** | Demand Waterfall, campaign hierarchy | GTM ops, analytics |
 | **Crossbeam** | Partner-Led Growth, account mapping | Partnerships |
 | **ColdIQ** | Trigger selling, multi-channel cadence | Sales-plays, outbound |
+| **Todd Caponi** | The Transparency Sale, 4.2-4.5 effect, "Our Flaws" | Sales-revops, foundation, design |
+| **John Ruhlin** | Giftology — strategic gifting, 3-gift system | ABM |
+| **Arthur Dunn** | Scientific Selling (1919), truth-first sales | Sales-revops, foundation |
 
 ---
 
@@ -134,7 +137,7 @@ Works with 12 AI systems: Claude Code · Cursor · OpenAI Codex · Hermes Agent 
 ## Share This
 
 ```text
-Just found the most comprehensive GTM skill library for AI agents — 186 playbooks across 26 categories. Built by operators running public GTM operating systems, not content marketers. Works with Claude Code, Cursor, Codex, Hermes. github.com/leadmagic/gtm-skills
+Just found the most comprehensive GTM skill library for AI agents — 188 playbooks across 26 categories. Built by operators running public GTM operating systems, not content marketers. Works with Claude Code, Cursor, Codex, Hermes. github.com/leadmagic/gtm-skills
 ```
 
 [Share on X/Twitter](https://twitter.com/intent/tweet?text=Just%20found%20the%20most%20comprehensive%20GTM%20skill%20library%20for%20AI%20agents%20%E2%80%94%20186%20playbooks%20across%2026%20categories.%20Sales,%20marketing,%20CS,%20ABM,%20AI%20agents.%20Works%20with%20Claude%20Code,%20Cursor,%20Codex,%20Hermes.&url=https://github.com/leadmagic/gtm-skills) · [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/leadmagic/gtm-skills)

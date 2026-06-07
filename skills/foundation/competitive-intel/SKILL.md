@@ -14,7 +14,7 @@ metadata:
   category: foundation
   tags: [competitive, battlecards, win-loss, matrix, intelligence, competitor]
   related_skills: [gtm-context, positioning-messaging, icp-scoring, battlecard-builder]
-  frameworks: [Klue FIA Framework, Force Management MEDDICC Competition Element, Gartner Magic Quadrant, Huthwaite SPIN]
+  frameworks: [Klue FIA Framework, Force Management MEDDICC Competition Element, Gartner Magic Quadrant, Huthwaite SPIN, Todd Caponi Transparency Sale]
 ---
 
 # Competitive Intel

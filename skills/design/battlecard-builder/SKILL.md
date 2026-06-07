@@ -15,7 +15,7 @@ metadata:
   category: design
   tags: [battlecards, competitive, sales-enablement, objection-handling]
   related_skills: [competitive-intel, objection-handling, sales-enablement, pitch-deck-builder]
-  frameworks: [Klue FIA Framework, Klue COMP-ACT Framework, Force Management CoM Differentiator Mapping]
+  frameworks: [Klue FIA Framework, Klue COMP-ACT Framework, Force Management CoM Differentiator Mapping, Todd Caponi Transparency Sale]
 ---
 
 # Battlecard Builder

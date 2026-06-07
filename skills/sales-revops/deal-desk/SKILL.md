@@ -15,7 +15,7 @@ metadata:
   category: sales-revops
   tags: [deal-desk, pricing, proposals, negotiation, business-case]
   related_skills: [pricing-strategy, roi-calculator, pipeline-management]
-  frameworks: [Ramanujam Monetizing Innovation, ValueSelling Framework, Force Management CoM]
+  frameworks: [Ramanujam Monetizing Innovation, ValueSelling Framework, Force Management CoM, Todd Caponi Transparency Sale]
 ---
 
 # Deal Desk

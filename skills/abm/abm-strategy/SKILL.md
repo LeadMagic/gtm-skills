@@ -12,7 +12,7 @@ metadata:
   author: LeadMagic
   category: abm
   tags: [abm, account-based-marketing, target-accounts, enterprise, b2b]
-  frameworks: [ITSMA ABM Framework, TOPO Account-Based Framework, WbD Bowtie]
+  frameworks: [ITSMA ABM Framework, TOPO Account-Based Framework, WbD Bowtie, John Ruhlin Giftology]
 ---
 
 # ABM Strategy
