@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-06-07T19:51:34Z",
-  "total_skills": 176,
+  "generated_at": "2026-06-07T19:54:23Z",
+  "total_skills": 177,
   "skills": {
     "abm/abm-1-to-1": {
       "version": "1.0.0",
@@ -542,6 +542,13 @@
       "sha256": "6eade7b45ab08216c748e792743cc58885cc9f850565f0b40104d3ddd8a64812",
       "size_bytes": 22420,
       "last_updated": "2026-06-07T17:46:51Z"
+    },
+    "foundation/using-gtm-SKILL.md": {
+      "version": "1.0.0",
+      "path": "skills/foundation/using-gtm-skills/SKILL.md",
+      "sha256": "72bc1cb630f0882cc1d42f07a2833a2a07794634008ddf6f465d6e7161be13d3",
+      "size_bytes": 13471,
+      "last_updated": "2026-06-07T19:53:49Z"
     },
     "founder-led/advisor-recruitment": {
       "version": "1.0.0",

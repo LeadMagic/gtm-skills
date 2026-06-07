@@ -130,3 +130,4 @@ event-analytics,Event Analytics,analytics,"Customer event analytics — Segment,
 skills-lock,Skills Lock,automation,"Generate SHA256-verified skills.lock — versioning, integrity tracking, dependency management, CI validation",high
 job-posting-strategy,Job Posting Strategy,founder-led,"Where to post jobs by role — GitHub, HN (eng), LinkedIn, Pavilion (sales), communities. Betts Recruiting, Bridge Group",high
 hiring-by-role,Hiring By Role,founder-led,"Role-specific interview guides — engineering, sales, marketing, CS, product, design. Scorecards, work samples, structured",high
+using-gtm-skills,Using gtm-skills,foundation,"Master guide to installing, discovering, loading, and combining gtm-skills across all AI systems",high
