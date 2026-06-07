@@ -79,7 +79,12 @@ graphic-design-gtm,Graphic Design GTM,creative,"Social graphics, ad creatives, d
 growth-experimentation,Growth Experimentation,analytics,"ICE scoring, growth sprints, Reforge, Sean Ellis Hacking Growth",high
 tool-selection-stack,Tool Selection Stack,automation,"Stage-appropriate GTM stacks, tool costs, vendor comparisons",high
 inbox-setup,Inbox Setup,outbound,"Google Workspace, M365, Azure inbox provisioning, DNS, ScaledMail, Hypertide",high
-1p-tagging-pixels,1P Tagging & Pixels,analytics,"Conversion tracking, UTMs, server-side tagging, consent, identity pixels",medium
+1p-tagging-pixels,1P Tagging & Pixels,analytics,"Conversion tracking, UTMs, server-side tagging, 1P vs 3P strategy, identity pixels",high
+paid-advertising,Paid Advertising,analytics,"LinkedIn, Google, Meta, TikTok ads platform setup, budgets, measurement",high
+marketing-strategy,Marketing Strategy,analytics,"Channel mix, budget allocation, demand gen, brand building, marketing-sales SLA",high
+gtm-system-architecture,GTM System Architecture,analytics,"WbD 6-model framework, Bowtie design, operating model, revenue architecture",high
+ad-creative-strategy,Ad Creative Strategy,creative,"Creative formats per platform, testing methodology, fatigue management, AI creative",high
+content-distribution,Content Distribution,creative,"Multi-channel distribution, content atomization, paid amplification, syndication",high
 building-saas,Building a SaaS,founder-led,"SaaS from idea to scale, architecture, pricing, hiring, infrastructure",high
 soc2-compliance,SOC2 Compliance,founder-led,"SOC2 Type II readiness, controls, auditor selection, evidence collection",medium
 exiting-company,Exiting a Company,founder-led,"Acquisition prep, valuation drivers, due diligence, exit timeline",medium
