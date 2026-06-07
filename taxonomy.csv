@@ -126,4 +126,7 @@ board-meeting-prep,Board Meeting Prep,founder-led,"Board deck structure, metrics
 advisor-recruitment,Advisor Recruitment,founder-led,"Advisor identification, FAST agreements, equity grants, value extraction",high
 content-led-growth,Content-Led Growth,founder-led,"Founder content engine: newsletter, social, podcast, community, repurposing",high
 pricing-psychology,Pricing Psychology,founder-led,"Anchoring, decoy effect, WTP research, tier design, discounting psychology",high
-||||||| 529f2dd
+event-analytics,Event Analytics,analytics,"Customer event analytics — Segment, Amplitude, Mixpanel, Intercom. Event taxonomy, CDP implementation, event-driven GTM",high
+skills-lock,Skills Lock,automation,"Generate SHA256-verified skills.lock — versioning, integrity tracking, dependency management, CI validation",high
+job-posting-strategy,Job Posting Strategy,founder-led,"Where to post jobs by role — GitHub, HN (eng), LinkedIn, Pavilion (sales), communities. Betts Recruiting, Bridge Group",high
+hiring-by-role,Hiring By Role,founder-led,"Role-specific interview guides — engineering, sales, marketing, CS, product, design. Scorecards, work samples, structured",high
