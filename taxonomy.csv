@@ -71,6 +71,11 @@ sales-coaching,Sales Coaching,management-leadership,"REKS framework, deal review
 team-management,Team Management,management-leadership,"Hiring, onboarding, performance management, team culture",medium
 cs-playbooks,CS Playbooks,customer-success,"Onboarding, health scoring, CSQLs, expansion plays, churn intervention",high
 qbr-planning,QBR Planning,customer-success,"Quarterly business reviews, value documentation, executive alignment",medium
+support-tool-stack,Support Tool Stack,customer-success,"Intercom, Zendesk, Front, Help Scout platform selection and setup by stage",high
+headless-support,Headless Support,customer-success,"AI support agents, knowledge base, ticket deflection, automated triage",high
+sla-management,SLA Management,customer-success,"Priority matrix, FRT/resolution targets, 3-tier escalation, tier-based SLAs",high
+cs-analytics-dashboards,CS Analytics Dashboards,customer-success,"Health scores, NPS/CSAT/CES, churn prediction, expansion propensity, CS KPIs",high
+customer-onboarding,Customer Onboarding,customer-success,"TTV optimization, activation milestones, kickoff, sales-to-CS handoff, 30-60-90 plans",high
 plg-strategy,PLG Strategy,product-led-growth,"Freemium vs free trial, PQL scoring, self-serve, PLG sales hybrid",high
 freemium-optimization,Freemium Optimization,product-led-growth,"Activation flow, paywall design, upgrade triggers",medium
 copywriting,Copywriting,creative,"Marketing copy, landing pages, ads, headlines, brand voice, Cialdini",high
@@ -103,3 +108,4 @@ board-meeting-prep,Board Meeting Prep,founder-led,"Board deck structure, metrics
 advisor-recruitment,Advisor Recruitment,founder-led,"Advisor identification, FAST agreements, equity grants, value extraction",high
 content-led-growth,Content-Led Growth,founder-led,"Founder content engine: newsletter, social, podcast, community, repurposing",high
 pricing-psychology,Pricing Psychology,founder-led,"Anchoring, decoy effect, WTP research, tier design, discounting psychology",high
+||||||| 529f2dd

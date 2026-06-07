@@ -1,7 +1,7 @@
 {
   "name": "gtm-skills",
-  "version": "0.2.0",
-  "description": "81 production go-to-market playbooks for AI agents. No fluff. All proven frameworks. Covers strategy, prospecting, outbound (cold email + cold calling), inbound, sales, analytics, automation (Clay, n8n), design, growth, PLG, customer success, management, and founder-led GTM. Built by LeadMagic.",
+  "version": "0.3.0",
+  "description": "141 production go-to-market playbooks for AI agents across 25 categories. No fluff. All proven frameworks. Covers strategy, prospecting, outbound, inbound, sales, analytics, automation (Clay, n8n, Attio/HubSpot/Salesforce), design, growth, PLG, customer success, ABM, sequencing tools, sales plays, demand gen, events, partnerships, GTM ops, AI agents, content/SEO, lifecycle, management, founder-led, and LeadMagic integrations. Built by LeadMagic.",
   "author": "LeadMagic",
   "license": "MIT",
   "homepage": "https://leadmagic.io",
@@ -21,6 +21,16 @@
     "skills/management-leadership/*/SKILL.md",
     "skills/customer-success/*/SKILL.md",
     "skills/product-led-growth/*/SKILL.md",
-    "skills/creative/*/SKILL.md"
+    "skills/creative/*/SKILL.md",
+    "skills/abm/*/SKILL.md",
+    "skills/sequencing-tools/*/SKILL.md",
+    "skills/sales-plays/*/SKILL.md",
+    "skills/demand-gen/*/SKILL.md",
+    "skills/events/*/SKILL.md",
+    "skills/partnerships/*/SKILL.md",
+    "skills/gtm-ops/*/SKILL.md",
+    "skills/ai-agents/*/SKILL.md",
+    "skills/content-seo/*/SKILL.md",
+    "skills/lifecycle/*/SKILL.md"
   ]
 }

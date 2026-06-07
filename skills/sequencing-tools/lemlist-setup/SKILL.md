@@ -1,0 +1,72 @@
+---
+name: lemlist-setup
+description: >-
+  Set up and optimize Lemlist — personalized images/videos, multi-channel sequences, 
+  warm-up, deliverability. Triggers on: "Lemlist", "Lemlist setup", "Lemlist campaigns",
+  "personalized cold email".
+license: MIT
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+metadata:
+  version: "1.0.0"
+  author: LeadMagic
+  category: sequencing-tools
+  tags: [lemlist, cold-email, personalization, lemwarm, multi-channel]
+  frameworks: [Lemlist Personalization Framework, ColdIQ Multi-Channel]
+---
+
+# Lemlist Setup
+
+## Overview
+Lemlist differentiates on personalization — custom images, videos, and landing
+page personalization that other platforms don't offer natively. Combined with
+lemwarm (automated warmup) and multi-channel capabilities, it's ideal for teams
+that want higher per-email engagement at lower volume.
+
+## When to Use
+- "Set up Lemlist"
+- "Lemlist campaign setup"
+- "Personalized cold email at scale"
+- "Lemlist warmup strategy"
+
+## Step-by-Step Process
+
+### Phase 1: Lemwarm Setup
+Before sending any campaign:
+- Add all sending mailboxes to lemwarm
+- Start with 2-5 warmup emails/day, auto-escalate over 3-4 weeks
+- Monitor reputation score: target >95 before launching real campaigns
+- Lemwarm sends auto-replies from warmup pool to build positive reputation
+
+### Phase 2: Campaign Architecture
+- **Sequence:** 3-7 steps, email + LinkedIn + custom tasks
+- **Personalization:** Custom images (prospect name/logo on image), custom videos
+  (screencast with prospect website), custom landing pages (dynamic text/image)
+- **Conditions:** If opened → different next step. If clicked → different follow-up.
+  If no engagement → different angle.
+- **Sending:** Max 100 emails/day/domain across all campaigns
+
+### Phase 3: Creative Personalization
+- **Custom images:** Prospect name on a whiteboard, their logo in your UI, "Hi {first_name}" graphic
+- **Custom videos:** Loom-style screencast showing their website + your product integration
+- **Custom landing pages:** Dynamic hero image with their company logo, dynamic headline
+  with their name, dynamic case study from their industry
+
+### Phase 4: Multi-Channel
+Layer LinkedIn into sequences:
+- Email Touch 1 → LinkedIn profile view 2 days later
+- Email Touch 2 → LinkedIn connection request 2 days later
+- Email Touch 3 → LinkedIn DM 2 days later
+- All tracked in Lemlist timeline
+
+### Phase 5: Analytics
+- Campaign health: reply rate, interest rate, meeting rate
+- Creative performance: which images/videos drive highest engagement
+- A/B test: personalization vs plain text, creative vs standard
+- Warmup health: per-mailbox reputation score, spam placement rate
+
+## Output Format
+Lemlist playbook with: warmup schedule, campaign configuration, creative personalization
+templates, multi-channel integration plan, and optimization framework.
+
+## Related Skills
+- cold-email-strategy, cold-email-copywriting, email-deliverability, inbox-setup, social-selling
