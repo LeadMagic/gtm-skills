@@ -337,6 +337,19 @@ POST-ACCEPTANCE:
    50+ iterations to be sharp. Fix: Start practicing your pitch in month 1.
    Iterate weekly. By month 3, it should be muscle memory.
 
+
+
+## ⚠️ Disclaimer
+
+This skill provides general informational guidance based on publicly available
+frameworks and operator experience. It is NOT legal advice, accounting advice,
+tax advice, financial advice, or professional services advice.
+
+Consult qualified professionals for your specific situation — attorneys for
+legal/equity matters, CPAs for tax, licensed brokers for insurance, certified
+security assessors for compliance. This skill does not create a professional-client
+relationship. Use as a starting point for your own research.
+
 ## Related Skills
 
 - `fundraising-strategy` — Complete fundraising process, from SAFE to Series A

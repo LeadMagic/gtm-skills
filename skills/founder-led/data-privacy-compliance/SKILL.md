@@ -240,6 +240,27 @@ ANNUAL REVIEW: [date / trigger]
    vendors (AWS, Intercom, etc.). Fix: Collect and maintain DPAs from all
    sub-processors. Share the list with enterprise customers.
 
+
+
+## ⚠️ Disclaimer
+
+This skill provides general informational guidance based on publicly available
+frameworks and operator experience. It is NOT legal advice, accounting advice,
+tax advice, financial advice, or professional services advice. Laws, regulations,
+and best practices vary by jurisdiction and change over time.
+
+- **Legal matters:** Consult a qualified attorney licensed in your jurisdiction.
+- **Tax matters:** Consult a certified tax professional or CPA.
+- **Accounting/financial matters:** Consult a qualified accountant or financial advisor.
+- **Insurance matters:** Consult a licensed insurance broker.
+- **Security/compliance matters:** Consult a qualified security assessor or compliance
+  professional for your specific infrastructure and regulatory requirements.
+
+This skill references publicly documented frameworks, standards, and operator
+experiences. It does not constitute a professional opinion or create a
+professional-client relationship. Use it as a starting point for your own
+research and always verify against current regulations and professional guidance.
+
 ## Related Skills
 
 - `legal-for-founders` — Incorporation, ToS, Privacy Policy, IP

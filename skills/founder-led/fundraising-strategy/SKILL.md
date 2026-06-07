@@ -267,6 +267,19 @@ Term Sheet Priorities:
 5. **Announcing before money hits the bank.** Term sheets fall through. Wires can
    take days. Fix: Wait until funds are in your account.
 
+
+
+## ⚠️ Disclaimer
+
+This skill provides general informational guidance based on publicly available
+frameworks and operator experience. It is NOT legal advice, accounting advice,
+tax advice, financial advice, or professional services advice.
+
+Consult qualified professionals for your specific situation — attorneys for
+legal/equity matters, CPAs for tax, licensed brokers for insurance, certified
+security assessors for compliance. This skill does not create a professional-client
+relationship. Use as a starting point for your own research.
+
 ## Related Skills
 
 - `financial-modeling` — SaaS P&L, runway, scenario planning

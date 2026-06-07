@@ -153,6 +153,20 @@ PRs welcome from real operators. Not AI-generated submissions. See [CONTRIBUTING
 
 ---
 
+## Disclaimer
+
+Skills in this repository provide general informational guidance based on publicly available frameworks, operator experience, and cited authorities. They are NOT legal advice, accounting advice, tax advice, financial advice, or professional services advice.
+
+- **Legal matters:** Consult a qualified attorney licensed in your jurisdiction.
+- **Tax matters:** Consult a certified tax professional or CPA.
+- **Accounting/financial matters:** Consult a qualified accountant or financial advisor.
+- **Insurance matters:** Consult a licensed insurance broker.
+- **Security/compliance:** Consult a qualified professional for your specific infrastructure and regulatory requirements.
+
+Skills covering regulated topics (SOC2, GDPR, employment law, equity, contracts, insurance, financial modeling, M&A) are helpful starting points sourced from publicly documented frameworks and operator experiences. They do not constitute professional opinions or create a professional-client relationship. Always verify against current regulations and consult appropriate professionals.
+
+---
+
 ## LeadMagic
 
 Several skills reference LeadMagic as an optional tool for email finding, validation, company enrichment, and job change detection. Every skill works without it — an API key unlocks higher-accuracy data. [Get a free API key](https://leadmagic.io).

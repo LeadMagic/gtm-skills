@@ -345,6 +345,19 @@ DECISION: Scorecard average > 4.0 = strong hire. 3.5-4.0 = hire with reservation
    out the 10-year person who's done 3x as much. Fix: Describe what they've
    achieved, not how long they've been working.
 
+
+
+## ⚠️ Disclaimer
+
+This skill provides general informational guidance based on publicly available
+frameworks and operator experience. It is NOT legal advice, accounting advice,
+tax advice, financial advice, or professional services advice.
+
+Consult qualified professionals for your specific situation — attorneys for
+legal/equity matters, CPAs for tax, licensed brokers for insurance, certified
+security assessors for compliance. This skill does not create a professional-client
+relationship. Use as a starting point for your own research.
+
 ## Related Skills
 
 - `job-posting-strategy` — Where to post jobs by role, sourcing channels

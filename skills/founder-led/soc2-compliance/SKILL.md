@@ -174,6 +174,27 @@ SOC2 readiness plan with: scope definition (which criteria), control matrix
 5. **No bridge letter.** If your audit gap exceeds 12 months, enterprise
    procurement teams will reject it. Get a bridge letter from your auditor.
 
+
+
+## ⚠️ Disclaimer
+
+This skill provides general informational guidance based on publicly available
+frameworks and operator experience. It is NOT legal advice, accounting advice,
+tax advice, financial advice, or professional services advice. Laws, regulations,
+and best practices vary by jurisdiction and change over time.
+
+- **Legal matters:** Consult a qualified attorney licensed in your jurisdiction.
+- **Tax matters:** Consult a certified tax professional or CPA.
+- **Accounting/financial matters:** Consult a qualified accountant or financial advisor.
+- **Insurance matters:** Consult a licensed insurance broker.
+- **Security/compliance matters:** Consult a qualified security assessor or compliance
+  professional for your specific infrastructure and regulatory requirements.
+
+This skill references publicly documented frameworks, standards, and operator
+experiences. It does not constitute a professional opinion or create a
+professional-client relationship. Use it as a starting point for your own
+research and always verify against current regulations and professional guidance.
+
 ## Related Skills
 
 - **building-saas**: SaaS architecture and scaling
