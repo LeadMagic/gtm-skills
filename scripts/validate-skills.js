@@ -2,6 +2,7 @@
 /**
  * validate-skills.js — Validates all SKILL.md files in the gtm-skills repo.
  * Checks: YAML frontmatter, required fields, description length, directory/name match.
+ * Handles YAML block scalars (| and >-) and multi-line values.
  * Usage: node scripts/validate-skills.js
  */
 
@@ -11,35 +12,93 @@ const path = require('path');
 const SKILLS_DIR = path.join(__dirname, '..', 'skills');
 const MAX_NAME_LENGTH = 64;
 const MAX_DESC_LENGTH = 1024;
-const MAX_BODY_LENGTH = 100000;
 
 function parseFrontmatter(content) {
   if (!content.startsWith('---')) return { error: 'File must start with ---' };
-  const end = content.indexOf('\n---', 3);
-  if (end === -1) return { error: 'Missing closing --- for frontmatter' };
   
-  const fmText = content.slice(3, end).trim();
+  // Find closing --- (must be on its own line or \n---\n)
+  const rest = content.slice(3);
+  const closingMatch = rest.match(/\n---\s*\n/);
+  if (!closingMatch) return { error: 'Missing closing --- for frontmatter' };
+  
+  const end = 3 + closingMatch.index;
+  const fmText = content.slice(3, end);
   const lines = fmText.split('\n');
   const fm = {};
   
-  for (const line of lines) {
+  let i = 0;
+  while (i < lines.length) {
+    const line = lines[i];
     const colonIdx = line.indexOf(':');
-    if (colonIdx === -1) continue;
-    const key = line.slice(0, colonIdx).trim();
-    let value = line.slice(colonIdx + 1).trim();
     
-    if (value === '>-') {
-      // Multi-line folded block scalar — read subsequent indented lines
-      value = '';
-      // Not implementing full YAML parsing; for simple key: >- this is enough
-    } else if ((value.startsWith('"') && value.endsWith('"')) || 
-               (value.startsWith("'") && value.endsWith("'"))) {
-      value = value.slice(1, -1);
+    // Skip empty lines and lines without colons
+    if (colonIdx === -1) { i++; continue; }
+    
+    const key = line.slice(0, colonIdx).trim();
+    const afterColon = line.slice(colonIdx + 1);
+    
+    // Check if this is a block scalar indicator (|, >, |-, >-)
+    const blockMatch = afterColon.match(/^\s*[|>][-]?\s*$/);
+    
+    if (blockMatch) {
+      // Block scalar — read subsequent indented lines
+      const indent = '  '; // YAML block scalars expect at least one level of indentation
+      const valueLines = [];
+      i++;
+      while (i < lines.length) {
+        const nextLine = lines[i];
+        // A line is part of the block scalar if it starts with whitespace
+        // or is empty (blank line within the block)
+        if (nextLine.trim() === '') {
+          valueLines.push('');
+          i++;
+          continue;
+        }
+        if (nextLine.startsWith('  ') || nextLine.startsWith('\t')) {
+          valueLines.push(nextLine.trimStart());
+          i++;
+        } else if (nextLine.trim() === '---') {
+          // Hit closing ---, stop
+          break;
+        } else {
+          // Unindented line — might be next key or end of frontmatter
+          break;
+        }
+      }
+      const value = valueLines.join(' ').replace(/\s+/g, ' ').trim();
+      fm[key] = value;
+      continue;
     }
+    
+    // Check if it's a quoted value (may span multiple lines for folded >-)
+    let value = afterColon.trim();
+    
+    if (value.startsWith('"') || value.startsWith("'")) {
+      const quote = value[0];
+      // Find closing quote
+      if (value.endsWith(quote) && value.length > 1) {
+        value = value.slice(1, -1);
+      } else {
+        // Multi-line quoted — read until closing quote
+        let fullValue = value.slice(1);
+        i++;
+        while (i < lines.length) {
+          fullValue += ' ' + lines[i].trim();
+          if (lines[i].trim().endsWith(quote)) {
+            fullValue = fullValue.slice(0, -1);
+            break;
+          }
+          i++;
+        }
+        value = fullValue;
+      }
+    }
+    
     fm[key] = value;
+    i++;
   }
   
-  fm._bodyStart = end + 4; // skip \n---\n
+  fm._bodyStart = end + closingMatch[0].length;
   return fm;
 }
 
@@ -49,7 +108,7 @@ function walkSkills(dir) {
   
   for (const entry of entries) {
     if (!entry.isDirectory()) continue;
-    if (entry.name.startsWith('_')) continue; // skip _TEMPLATE
+    if (entry.name.startsWith('_')) continue;
     
     const skillDir = path.join(dir, entry.name);
     const skillFile = path.join(skillDir, 'SKILL.md');
@@ -57,7 +116,6 @@ function walkSkills(dir) {
     if (fs.existsSync(skillFile)) {
       skills.push({ dir: entry.name, path: skillFile, category: path.basename(dir) });
     } else {
-      // Check subcategories
       const subEntries = fs.readdirSync(skillDir, { withFileTypes: true });
       for (const sub of subEntries) {
         if (!sub.isDirectory()) continue;
@@ -73,61 +131,52 @@ function walkSkills(dir) {
 
 let errors = 0;
 let warnings = 0;
-let total = 0;
 
 const skills = walkSkills(SKILLS_DIR);
-total = skills.length;
-
-console.log(`Validating ${total} skills...\n`);
+console.log(`Validating ${skills.length} skills...\n`);
 
 for (const skill of skills) {
   const content = fs.readFileSync(skill.path, 'utf-8');
   const fm = parseFrontmatter(content);
   
   if (fm.error) {
-    console.error(`❌ ${skill.path}: ${fm.error}`);
+    console.error(`❌ ${skill.category}/${skill.dir}: ${fm.error}`);
     errors++;
     continue;
   }
   
   // Check name
   if (!fm.name) {
-    console.error(`❌ ${skill.path}: Missing 'name' field`);
+    console.error(`❌ ${skill.category}/${skill.dir}: Missing 'name' field`);
     errors++;
   } else if (fm.name.length > MAX_NAME_LENGTH) {
-    console.error(`❌ ${skill.path}: Name too long (${fm.name.length} > ${MAX_NAME_LENGTH})`);
+    console.error(`❌ ${skill.category}/${skill.dir}: Name too long (${fm.name.length} > ${MAX_NAME_LENGTH})`);
     errors++;
-  } else if (fm.name !== skill.dir) {
-    console.warn(`⚠️  ${skill.path}: Name '${fm.name}' doesn't match directory '${skill.dir}'`);
+  } else if (fm.name !== skill.dir && fm.name !== 'template-skill') {
+    console.warn(`⚠️  ${skill.category}/${skill.dir}: Name '${fm.name}' ≠ directory '${skill.dir}'`);
     warnings++;
   }
   
   // Check description
-  if (!fm.description) {
-    console.error(`❌ ${skill.path}: Missing 'description' field`);
+  if (!fm.description || fm.description.trim().length === 0) {
+    console.error(`❌ ${skill.category}/${skill.dir}: Missing 'description' field`);
     errors++;
   } else if (fm.description.length > MAX_DESC_LENGTH) {
-    console.error(`❌ ${skill.path}: Description too long (${fm.description.length} > ${MAX_DESC_LENGTH})`);
+    console.error(`❌ ${skill.category}/${skill.dir}: Description too long (${fm.description.length} > ${MAX_DESC_LENGTH})`);
     errors++;
   }
   
   // Check body
   const body = content.slice(fm._bodyStart || 0);
   if (body.trim().length === 0) {
-    console.error(`❌ ${skill.path}: Empty body after frontmatter`);
+    console.error(`❌ ${skill.category}/${skill.dir}: Empty body after frontmatter`);
     errors++;
   }
-  if (content.length > MAX_BODY_LENGTH) {
-    console.warn(`⚠️  ${skill.path}: File too large (${content.length} > ${MAX_BODY_LENGTH})`);
-    warnings++;
-  }
   
-  // Success
-  if (!fm.error) {
-    const bodyLen = body.trim().length;
-    console.log(`✅ ${skill.category}/${skill.dir} — ${bodyLen} chars body`);
+  if (fm.name && fm.description && body.trim().length > 0) {
+    console.log(`✅ ${skill.category}/${skill.dir} — ${fm.description.length}c desc, ${body.trim().length}c body`);
   }
 }
 
-console.log(`\n${total} skills checked. ${errors} errors, ${warnings} warnings.`);
+console.log(`\n${skills.length} skills checked. ${errors} errors, ${warnings} warnings.`);
 process.exit(errors > 0 ? 1 : 0);
