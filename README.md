@@ -22,7 +22,7 @@ Most "GTM skills" repos are AI-generated slop — generic advice dressed up as p
 
 A complete operating system for your AI agent's GTM brain. Every skill cites the specific framework it applies. Every skill was written by someone who has done the thing — sent the cold email, built the deliverability infrastructure, ran the ABM play, closed the deal.
 
-**186 skills. 26 categories. 0 filler.**
+**188 skills. 26 categories. 0 filler.**
 
 | Category | Skills | What you get |
 |---|---|---|
@@ -140,7 +140,7 @@ Works with 12 AI systems: Claude Code · Cursor · OpenAI Codex · Hermes Agent 
 Just found the most comprehensive GTM skill library for AI agents — 188 playbooks across 26 categories. Built by operators running public GTM operating systems, not content marketers. Works with Claude Code, Cursor, Codex, Hermes. github.com/leadmagic/gtm-skills
 ```
 
-[Share on X/Twitter](https://twitter.com/intent/tweet?text=Just%20found%20the%20most%20comprehensive%20GTM%20skill%20library%20for%20AI%20agents%20%E2%80%94%20186%20playbooks%20across%2026%20categories.%20Sales,%20marketing,%20CS,%20ABM,%20AI%20agents.%20Works%20with%20Claude%20Code,%20Cursor,%20Codex,%20Hermes.&url=https://github.com/leadmagic/gtm-skills) · [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/leadmagic/gtm-skills)
+[Share on X/Twitter](https://twitter.com/intent/tweet?text=Just%20found%20the%20most%20comprehensive%20GTM%20skill%20library%20for%20AI%20agents%20%E2%80%94%20188%20playbooks%20across%2026%20categories.%20Sales,%20marketing,%20CS,%20ABM,%20AI%20agents.%20Works%20with%20Claude%20Code,%20Cursor,%20Codex,%20Hermes.&url=https://github.com/leadmagic/gtm-skills) · [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/leadmagic/gtm-skills)
 
 ---
 
