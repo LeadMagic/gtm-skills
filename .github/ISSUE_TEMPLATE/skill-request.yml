@@ -1,0 +1,46 @@
+name: Skill Request
+description: Request a new skill for the library
+labels: [enhancement]
+body:
+  - type: textarea
+    id: purpose
+    attributes:
+      label: What should this skill do?
+      description: Describe the skill's purpose and what it produces.
+    validations:
+      required: true
+  - type: textarea
+    id: triggers
+    attributes:
+      label: When should an agent use it?
+      description: What trigger phrases or situations would activate this skill?
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - foundation
+        - prospecting
+        - outbound
+        - inbound
+        - sales-revops
+        - analytics
+        - automation
+        - design
+        - growth
+        - founder-led
+        - leadmagic
+    validations:
+      required: true
+  - type: textarea
+    id: frameworks
+    attributes:
+      label: What authorities should it reference?
+      description: Which methodologies, research, or practitioners does this draw from?
+  - type: textarea
+    id: no-overlap
+    attributes:
+      label: Why does it not overlap with existing skills?
+      description: Check the catalog in README.md and explain why a new skill is needed.

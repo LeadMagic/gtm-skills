@@ -1,0 +1,29 @@
+name: Bug Report
+description: Something in a skill is wrong or outdated
+labels: [bug]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Which skill?
+      description: Name and path (e.g. skills/outbound/cold-email-copywriting/SKILL.md)
+      placeholder: skills/category/skill-name/SKILL.md
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Clear description of the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should the skill say or do instead?
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Links, references, or screenshots that help explain the issue.

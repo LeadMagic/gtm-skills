@@ -1,0 +1,42 @@
+{
+  "name": "gtm-skills",
+  "version": "0.1.0",
+  "description": "Production go-to-market playbooks for AI agents. 67 skills across sales, marketing, outbound, enrichment, design, and founder-led growth.",
+  "keywords": [
+    "gtm",
+    "go-to-market",
+    "sales",
+    "marketing",
+    "outbound",
+    "cold-email",
+    "prospecting",
+    "ai-agents",
+    "claude-code",
+    "cursor",
+    "codex",
+    "agent-skills",
+    "b2b-sales",
+    "sales-enablement",
+    "lead-generation",
+    "enrichment",
+    "deliverability",
+    "saas",
+    "founder",
+    "startup"
+  ],
+  "license": "MIT",
+  "author": "LeadMagic",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leadmagic/gtm-skills.git"
+  },
+  "homepage": "https://leadmagic.io",
+  "scripts": {
+    "validate": "node scripts/validate-skills.js",
+    "generate-indexes": "node scripts/generate-indexes.js",
+    "lint": "node scripts/validate-skills.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

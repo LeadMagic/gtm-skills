@@ -1,0 +1,31 @@
+name: Improvement
+description: Suggest an improvement to an existing skill
+labels: [improvement]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Which skill?
+      description: Name and path.
+      placeholder: skills/category/skill-name/SKILL.md
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What would you improve?
+      description: Clear description of the change.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why?
+      description: How does this make the skill better?
+    validations:
+      required: true
+  - type: textarea
+    id: diff
+    attributes:
+      label: Before / After
+      description: Current text vs. proposed text (if applicable).
