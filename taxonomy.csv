@@ -52,7 +52,12 @@ churn-prevention,Churn Prevention,growth,"Early warning signals, re-engagement c
 expansion-selling,Expansion Selling,growth,"Consumption-based upsell triggers, cross-sell, NRR growth, land-and-expand",medium
 referral-programs,Referral Programs,growth,"Partner/affiliate programs, 3-tier comp structure, platform integration",low
 customer-marketing,Customer Marketing,growth,"Case studies, testimonials, customer advocacy, NPS engagement",medium
-solo-founder-gtm,Solo Founder GTM,founder-led,"Tool stacks by stage, AI agents as org, hiring triggers, bootstrapper playbooks",high
+solo-founder-gtm,Solo Founder Gtm,founder-led,"Tool stacks by stage, AI agents as org, hiring triggers, bootstrapper playbooks",high
+co-founder-dynamics,Co-Founder Dynamics,founder-led,"Find co-founders, equity splits (static/dynamic), vesting, agreements, co-founder relationships, breakups. Covers YC and Fir",high
+yc-ecosystem,YC Ecosystem,founder-led,"YC application strategy, YC Startup School, YC Library, Co-Founder Matching, Demo Day, YC batch experience, YC partners a",high
+vc-outreach,VC Outreach,founder-led,"VC cold email templates, warm intro strategies, investor CRM, how to talk to VCs, first meeting structure, follow-up cadence",high
+engineer-to-founder,Engineer To Founder,founder-led,"Engineer's guide to becoming a founder — IC to CEO, learning to sell, hiring, build in public, quitting your job, founder ps",high
+startup-communities,Startup Communities,founder-led,"Global startup ecosystems map — Silicon Valley, NYC, London, Bangalore, accelerators beyond YC, online communities, remote-fo",high
 founder-brand,Founder Brand,founder-led,"LinkedIn strategy, content cadence, newsletter growth, personal brand",medium
 launch-planning,Launch Planning,founder-led,"Launch tiers, Product Hunt playbook, 16+ channel launches, pre-launch checklist",high
 lead-magnets,Lead Magnets,founder-led,"Free tools strategy, calculators, gated content, conversion optimization",medium
