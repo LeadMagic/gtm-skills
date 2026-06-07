@@ -1,9 +1,9 @@
 # GTM Blueprints
 
-**136 production go-to-market playbooks for AI agents.** No fluff. All proven frameworks. All science-backed methodologies. No guru nonsense. Built by operators who run real pipelines.
+**141 production go-to-market playbooks for AI agents.** No fluff. All proven frameworks. All science-backed methodologies. No guru nonsense. Built by operators who run real pipelines.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-136-blue)](skills/)
+[![Skills](https://img.shields.io/badge/skills-141-blue)](skills/)
 [![CI](https://github.com/leadmagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/leadmagic/gtm-skills/actions/workflows/validate.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](docs/CONTRIBUTING.md)
 [![Release](https://img.shields.io/badge/release-v0.3.0-green)](https://github.com/leadmagic/gtm-skills/releases)
@@ -16,15 +16,15 @@ Most "GTM skills" repos are AI-generated slop — surface-level advice dressed u
 
 Every skill here is grounded in **named, evidence-backed frameworks** from the people who built modern revenue science: Winning by Design, Force Management, Gartner/Challenger, Huthwaite/SPIN, and others. You get the methodology with the source — not a blog post rewritten as a skill file.
 
-**136 skills across 25 categories.** The most comprehensive GTM skill library on GitHub. Built by operators running public GTM operating systems, not content marketers.
+**141 skills across 25 categories.** The most comprehensive GTM skill library on GitHub. Built by operators running public GTM operating systems, not content marketers.
 
 ## Share This
 
 ```text
-Just found the most comprehensive GTM skill library for AI agents — 136 playbooks grounded in real sales methodology, not AI slop. 25 categories covering the full revenue surface. Works with Claude Code, Cursor, Codex, Hermes. github.com/leadmagic/gtm-skills
+Just found the most comprehensive GTM skill library for AI agents — 141 playbooks grounded in real sales methodology, not AI slop. 25 categories covering the full revenue surface. Works with Claude Code, Cursor, Codex, Hermes. github.com/leadmagic/gtm-skills
 ```
 
-[Share on X/Twitter](https://twitter.com/intent/tweet?text=Just%20found%20the%20most%20comprehensive%20GTM%20skill%20library%20for%20AI%20agents%20%E2%80%94%20136%20playbooks%20across%2025%20categories.%20Sales,%20marketing,%20CS,%20ABM,%20AI%20agents.%20Works%20with%20Claude%20Code,%20Cursor,%20Codex,%20Hermes.&url=https://github.com/leadmagic/gtm-skills) · [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/leadmagic/gtm-skills)
+[Share on X/Twitter](https://twitter.com/intent/tweet?text=Just%20found%20the%20most%20comprehensive%20GTM%20skill%20library%20for%20AI%20agents%20%E2%80%94%20141%20playbooks%20across%2025%20categories.%20Sales,%20marketing,%20CS,%20ABM,%20AI%20agents.%20Works%20with%20Claude%20Code,%20Cursor,%20Codex,%20Hermes.&url=https://github.com/leadmagic/gtm-skills) · [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/leadmagic/gtm-skills)
 
 ---
 
@@ -49,7 +49,7 @@ A complete library of AI agent skills covering the full revenue surface: **strat
 
 Every skill draws from established GTM authorities — not generic advice. Named frameworks applied to specific workflows with actionable outputs.
 
-**25 categories, 136 skills:**
+**25 categories, 141 skills:**
 
 | Category | Skills | For when you need to... |
 |---|---|---|
@@ -59,10 +59,10 @@ Every skill draws from established GTM authorities — not generic advice. Named
 | `inbound` | 4 | Triage inbound, content marketing, social selling, landing pages |
 | `sales-revops` | 6 | Enablement, meeting prep, pipeline, objections, demos, deal desk |
 | `analytics` | 11 | Campaign analytics, GTM metrics, A/B testing, experimentation, attribution, alerts, 1P tagging, paid ads, marketing strategy, GTM architecture |
-| `automation` | 8 | Clay, AI SDR, API enrichment, CRM, MCP, n8n, waterfall, tool stack selection |
+| `automation` | 11 | Clay, AI SDR, API enrichment, Attio/HubSpot/Salesforce setup, CRM, MCP, n8n, waterfall, tool stack selection |
 | `design` | 7 | Pitch decks, one-pagers, battlecards, ROI calculators, case studies, design systems, UI/UX |
 | `growth` | 4 | Churn prevention, expansion, referrals, customer marketing |
-| `founder-led` | 13 | Solo founder GTM, brand, launches, lead magnets, sales team building, metrics, partner programs, building SaaS, SOC2, exiting, hiring contractors/agencies, investor updates |
+| `founder-led` | 15 | Solo founder GTM, brand kit, brand building, launches, lead magnets, sales team, SaaS metrics, partner programs, building SaaS, SOC2, exiting, hiring contractors/agencies, investor updates, events planning |
 | `leadmagic` | 6 | CLI, waterfall, MCP, integrations, bulk enrichment, job change detection |
 | `management-leadership` | 2 | Sales coaching, team management |
 | `customer-success` | 2 | CS playbooks, QBR planning |
