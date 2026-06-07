@@ -7,7 +7,7 @@ description: >-
   "sales coaching", "coach reps", "REKS", "deal review", "call coaching",
   "manager coaching", "1:1", or any request about developing sellers.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

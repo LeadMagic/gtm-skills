@@ -3,7 +3,7 @@ name: ai-sdr-setup
 description: >-
   Deploy AI SDR agents — 11x, Artisan, AiSDR, Jason AI — with a 4-week launch program, signal-to-action routing, and human handoff design. Use when deploying AI SDR tools, automating outbound prospecting, or setting up AI-powered sales development. Triggers on: "AI SDR", "automated SDR", "AI sales agent", "11x", "Artisan", "AiSDR", "Jason AI", or any request about AI-powered prospecting.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

@@ -8,7 +8,7 @@ description: >-
   event-driven GTM pipelines. Triggers on: "n8n workflow", "n8n automation",
   "n8n GTM", "n8n enrichment", "n8n CRM integration".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

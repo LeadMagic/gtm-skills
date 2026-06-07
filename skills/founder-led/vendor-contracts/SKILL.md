@@ -9,7 +9,7 @@ description: >-
   templates. Triggers on: "MSA", "SLA agreement", "data processing agreement",
   "order form", "vendor security review", "enterprise contract", "procurement".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

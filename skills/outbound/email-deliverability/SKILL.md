@@ -10,7 +10,7 @@ description: >-
   going to spam," "warmup my domain," "DNS setup for cold email,"
   "bounce rate," or "DMARC setup."
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

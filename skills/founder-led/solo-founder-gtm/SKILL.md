@@ -9,7 +9,7 @@ description: >-
   "founder tools", "bootstrapped stack", or any request about building GTM without
   a team.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.1.0"
   author: LeadMagic

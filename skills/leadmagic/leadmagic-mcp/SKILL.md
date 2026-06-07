@@ -5,7 +5,7 @@ description: >-
   orchestration in Cursor, Claude, VS Code. Use when connecting LeadMagic data
   to AI coding agents via Model Context Protocol.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

@@ -8,7 +8,7 @@ description: >-
   design", "brand guidelines", "visual identity", "brand book", "rebrand",
   "brand colors", or any brand-building request.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

@@ -7,7 +7,7 @@ description: >-
   to define their ICP, or needs a 90-day plan. Run this skill before any
   downstream GTM skill — it produces the context every other skill consumes.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

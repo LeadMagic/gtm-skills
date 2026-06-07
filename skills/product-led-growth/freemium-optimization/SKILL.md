@@ -8,7 +8,7 @@ description: >-
   Triggers on: "freemium optimization", "free trial conversion", "PQL scoring",
   "activation flow", "paywall design", "freemium to paid".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "2.0.0"
   author: LeadMagic

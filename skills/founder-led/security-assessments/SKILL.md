@@ -9,7 +9,7 @@ description: >-
   program. Triggers on: "security assessment", "penetration test", "bug bounty",
   "security questionnaire", "VSAQ", "incident response", "vendor review".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

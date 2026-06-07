@@ -8,7 +8,7 @@ description: >-
   Covers YC advice for engineers, Stripe/Patrick Collison on technical
   founding, GitHub founder stories, and Indie Hackers playbook.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

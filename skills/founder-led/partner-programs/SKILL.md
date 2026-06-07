@@ -7,7 +7,7 @@ description: >-
   models (revenue share, referral fee, co-sell), tier design, enablement
   playbooks, deal registration, partner recruitment, and program measurement.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "2.0.0"
   author: LeadMagic

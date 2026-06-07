@@ -8,7 +8,7 @@ description: >-
   or automating email finding and verification at scale. Triggers on:
   "LeadMagic toolkit", "LeadMagic API", "LeadMagic setup", "LeadMagic CLI".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

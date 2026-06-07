@@ -7,7 +7,7 @@ description: >-
   accounts. Uses customizable weights, negative personas, buying committee
   mapping, and language banks. Run after gtm-context.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

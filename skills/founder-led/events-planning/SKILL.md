@@ -7,7 +7,7 @@ description: >-
   event", "host webinar", "conference strategy", "trade show", "customer dinner",
   "happy hour", "launch event", or any event-related request.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

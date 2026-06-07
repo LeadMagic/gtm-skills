@@ -5,7 +5,7 @@ description: >-
   seller, building sales process from scratch, transitioning from founder-led to
   AE-led, or designing demo/negotiation/close motions as a technical founder.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

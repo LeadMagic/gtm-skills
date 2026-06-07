@@ -3,7 +3,7 @@ name: mcp-setup
 description: >-
   Configure Model Context Protocol servers for GTM tools — multi-MCP architecture, tool orchestration, provider-neutral patterns. Use when setting up MCP servers for sales tools, connecting enrichment providers to AI agents, or building agent-accessible GTM tooling. Triggers on: "MCP", "Model Context Protocol", "MCP server", "connect tools to agent", "agent tools", or any MCP configuration request.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

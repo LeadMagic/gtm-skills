@@ -8,7 +8,7 @@ description: >-
   "LeadMagic waterfall", "LeadMagic in Clay", "waterfall enrichment LeadMagic",
   "Clay LeadMagic setup", or any request about LeadMagic-based enrichment pipelines.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.1.0"
   author: LeadMagic

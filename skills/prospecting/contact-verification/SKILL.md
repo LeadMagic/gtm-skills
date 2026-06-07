@@ -9,7 +9,7 @@ description: >-
   \"bounce prevention\", \"clean my list\", \"are these safe to send\", or any request
   to confirm email deliverability before outreach.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: \"1.0.0\"
   author: LeadMagic

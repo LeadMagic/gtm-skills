@@ -10,7 +10,7 @@ description: >-
   Triggers on: "gtm-skills", "install gtm-skills", "how to use gtm-skills",
   "skill discovery", "which skills to load", "getting started with skills".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

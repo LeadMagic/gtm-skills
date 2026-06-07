@@ -8,7 +8,7 @@ description: >-
   "LeadMagic + Clay", "LeadMagic + HubSpot", "LeadMagic + Salesforce", or any
   platform integration request.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.1.0"
   author: LeadMagic

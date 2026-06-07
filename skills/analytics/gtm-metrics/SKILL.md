@@ -9,7 +9,7 @@ description: >-
   SaaS metrics, pipeline analytics, GTM efficiency, board metrics, or investor
   reporting.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

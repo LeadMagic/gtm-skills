@@ -9,7 +9,7 @@ description: >-
   "Sculptor", "Clay enrichment", "Clay waterfall", "Clay automation", or any
   request about building workflows in Clay.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

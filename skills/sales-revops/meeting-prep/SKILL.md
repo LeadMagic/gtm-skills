@@ -8,7 +8,7 @@ description: >-
   meeting", "research this account", "pre-call research", "what should I ask",
   "discovery questions", or any request about getting ready for a prospect call.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

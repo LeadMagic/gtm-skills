@@ -7,7 +7,7 @@ description: >-
   "hire agency", "outbound agency", "dev shop", "marketing agency", "agency vs
   in-house", "outsource GTM", or any agency hiring request.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

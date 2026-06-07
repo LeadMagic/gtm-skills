@@ -7,7 +7,7 @@ description: >-
   for positioning, messaging, strategic narrative, pitch deck story, category
   creation, or value proposition. Run after gtm-context.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

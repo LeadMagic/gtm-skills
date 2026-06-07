@@ -7,7 +7,7 @@ description: >-
   battlecards, win/loss reports, or competitive positioning. Run after
   gtm-context and positioning-messaging.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

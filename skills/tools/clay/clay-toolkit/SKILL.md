@@ -8,7 +8,7 @@ description: >-
   operations. Triggers on: "Clay toolkit", "Clay setup", "Clay waterfall",
   "Claygent", "Clay enrichment", "Clay automation".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

@@ -9,7 +9,7 @@ description: >-
   team members to build with AI. Triggers on: "vibe coding", "AI dev tools",
   "build with AI", "v0 by Vercel", "Lovable", "Bolt", "Cursor AI".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

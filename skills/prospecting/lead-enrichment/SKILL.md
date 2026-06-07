@@ -7,7 +7,7 @@ description: >-
   when user needs to enrich leads, append data to contact lists, run
   enrichment waterfalls, or normalize enriched data. Run after lead-finding.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

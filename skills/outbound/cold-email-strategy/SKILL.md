@@ -8,7 +8,7 @@ description: >-
   phrases like "build me a sequence," "design a cadence," "cold email outreach
   plan," "outbound strategy," "multi-touch sequence," or "trigger-based outreach."
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

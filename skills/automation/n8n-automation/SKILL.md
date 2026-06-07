@@ -5,7 +5,7 @@ description: >-
   pipelines, error handling, Clay export replacement for complex cases. Use when
   building n8n workflows or automating GTM processes beyond Clay.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

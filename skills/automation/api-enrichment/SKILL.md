@@ -3,7 +3,7 @@ name: api-enrichment
 description: >-
   Build programmatic enrichment pipelines using REST APIs — bulk enrichment, rate limiting, webhook callbacks, error recovery. Use when building API-first enrichment, integrating enrichment providers, or creating automated data pipelines. Triggers on: "API enrichment", "programmatic enrichment", "enrichment API", "bulk enrichment", "webhook enrichment", or any request about API-driven data enrichment.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

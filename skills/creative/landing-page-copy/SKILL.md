@@ -10,7 +10,7 @@ description: >-
   or running copy A/B tests. Triggers on: "landing page copy", "hero
   copy", "CTA copywriting", "conversion copy", "sales page copy".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

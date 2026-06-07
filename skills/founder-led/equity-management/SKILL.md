@@ -9,7 +9,7 @@ description: >-
   for fundraising. Triggers on: "cap table", "409A valuation", "option pool",
   "equity grant", "ISO vs NSO", "83(b)", "equity for employees".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

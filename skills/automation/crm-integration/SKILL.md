@@ -3,7 +3,7 @@ name: crm-integration
 description: >-
   Configure CRM systems for GTM — HubSpot, Salesforce, Attio. Lifecycle stages, deal stage design, bi-directional sync, enrichment integration. Use when setting up a CRM for sales, configuring deal pipelines, or integrating enrichment with CRM. Triggers on: "CRM setup", "HubSpot setup", "Salesforce configuration", "CRM integration", "deal stages", "CRM enrichment", or any CRM configuration request.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

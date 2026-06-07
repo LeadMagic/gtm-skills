@@ -9,7 +9,7 @@ description: >-
   Triggers on: "SLA design", "support SLAs", "escalation path", "ticket
   priority matrix", "first response time", "SLA compliance".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

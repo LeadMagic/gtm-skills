@@ -5,7 +5,7 @@ description: >-
   role detection, trigger-based outreach. Use when monitoring contact career
   moves or detecting buying signals from job changes.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

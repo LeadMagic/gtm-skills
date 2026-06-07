@@ -7,7 +7,7 @@ description: >-
   HubSpot/Salesforce. Triggers on: "Attio setup", "configure Attio", "Attio CRM",
   "Attio pipeline", or any Attio configuration request.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

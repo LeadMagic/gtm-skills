@@ -9,7 +9,7 @@ description: >-
   revenue attribution. Activates when the user asks about attribution,
   marketing ROI, channel performance, UTM tracking, or campaign contribution.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

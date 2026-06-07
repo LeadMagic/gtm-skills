@@ -7,7 +7,7 @@ description: >-
   about email deliverability, bounce rates, spam issues, blacklists, DNS
   authentication, domain reputation, or inbox placement problems.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

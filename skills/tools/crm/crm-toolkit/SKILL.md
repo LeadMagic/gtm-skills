@@ -7,7 +7,7 @@ description: >-
   pipelines, or maintaining CRM data quality. Triggers on: "CRM toolkit",
   "CRM setup deep", "CRM enrichment", "CRM pipeline design".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

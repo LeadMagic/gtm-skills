@@ -4,7 +4,7 @@ description: >-
   Process CSV files at scale with LeadMagic — batching strategy, rate limit
   handling, webhook callbacks, error recovery, CRM push automation.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic
