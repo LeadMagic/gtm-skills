@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-06-07T19:58:26Z",
-  "total_skills": 178,
+  "generated_at": "2026-06-07T20:01:07Z",
+  "total_skills": 179,
   "skills": {
     "abm/abm-1-to-1": {
       "version": "1.0.0",
@@ -157,6 +157,13 @@
       "sha256": "d48e4b0a4a18a5c53d38b20a14ea37ace03cb802e35220387a7bbcd3c82059c0",
       "size_bytes": 5867,
       "last_updated": "2026-06-07T17:57:24Z"
+    },
+    "analytics/tracking-plan": {
+      "version": "1.0.0",
+      "path": "skills/analytics/tracking-plan/SKILL.md",
+      "sha256": "063859c1e729212ae2c00e06d6ab3a9e40d22045ab24539bc3a40c3da0fe863a",
+      "size_bytes": 24458,
+      "last_updated": "2026-06-07T20:00:53Z"
     },
     "automation/ai-sdr-setup": {
       "version": "1.0.0",
