@@ -1,0 +1,91 @@
+---
+name: growth-experimentation
+description: >-
+  Build a growth experimentation system — ICE scoring, growth sprints, experiment
+  design, statistical significance, and learning repositories. Use when building
+  an experimentation program, running growth sprints, prioritizing tests, or
+  establishing a data-driven growth culture. Triggers on: "experimentation",
+  "growth experiments", "A/B testing program", "ICE scoring", "growth sprint",
+  "experiment design", "test velocity", or any growth experimentation request.
+license: MIT
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode
+metadata:
+  version: "1.0.0"
+  author: LeadMagic
+  category: analytics
+  tags: [experimentation, growth, testing, ice, sprints]
+  frameworks: [Sean Ellis Hacking Growth, Brian Balfour Reforge, Andrew Chen Growth, ICE Scoring]
+---
+
+# Growth Experimentation
+
+## Overview
+The companies with the highest growth rates don't have better ideas — they
+have better systems for testing ideas. A high-velocity experimentation system
+runs 15-30 experiments per month across acquisition, activation, retention,
+and monetization. Most experiments fail. That's by design. The team that
+learns fastest from each failure wins.
+
+## When to Use
+- "Build an experimentation program"
+- "Set up growth sprints"
+- "Prioritize experiments with ICE"
+- "Increase our test velocity"
+- "Create a learning repository"
+
+## Authoritative Foundations
+- **Sean Ellis & Morgan Brown (Hacking Growth)** — coined "growth hacking."
+  North Star Metric. Growth experimentation loop: analyze → ideate →
+  prioritize → test → learn.
+- **Brian Balfour (Reforge, ex-HubSpot VP Growth)** — increasing HubSpot's
+  experiment velocity from 5 to 20/week produced 3x growth rate improvement.
+  Four Fits Framework: Market-Product, Product-Channel, Channel-Model,
+  Model-Market.
+- **Andrew Chen (a16z, ex-Uber Growth)** — The Cold Start Problem. Growth
+  teams at scale.
+- **Fareed Mosavat (Reforge, ex-Slack Growth)** — experimentation systems.
+
+## Step-by-Step Process
+### Phase 1: Set the North Star Metric
+One metric that captures core value delivery. If this moves up, the business
+is healthier. All experiments ladder to this metric.
+
+### Phase 2: ICE Scoring
+Score every experiment idea 1-10 on Impact, Confidence, Ease. Average the
+three. Prioritize by ICE score. Re-score weekly as new data arrives.
+
+### Phase 3: Growth Sprint Cadence
+Weekly cycle: idea generation (Monday), prioritization (Tuesday), build
+(Wed-Thu), launch (Fri), analyze (Mon). 2-week sprints for complex tests.
+AI compresses cycle: a single growth marketer with AI can test 10 variants
+in time it used to take to build one.
+
+### Phase 4: Experiment Design
+Every experiment: hypothesis, success metric, minimum detectable effect,
+required sample size, maximum duration. Document everything — winners
+and losers. Build a searchable learning repository.
+
+### Phase 5: 4 Layers of Experiments
+1. Channel/tactic assessment — test how channels impact conversions
+2. Offer optimization — pricing, packaging, trial length
+3. Message personalization — copy and creative by segment
+4. AI-powered — autonomous experiment generation, prediction, optimization
+
+## Output Format
+Experimentation system with North Star Metric definition, ICE backlog,
+sprint calendar, experiment design template, and learning repository structure.
+
+## Common Pitfalls
+1. **Tests too large** — redesigning entire onboarding (4 weeks to build)
+   loses to testing a single screen change (2 days). Small tests = fast
+   learning.
+2. **No learning repository** — running 50 experiments without documenting
+   learnings is running the same test twice. Document everything.
+3. **Statistical ignorance** — calling a test at 70% confidence produces
+   false positives. Wait for 95%+ confidence.
+4. **Winner's bias** — only shipping winners without understanding losers
+   means you don't know why things work.
+
+## Related Skills
+- **a-b-testing**: Statistical framework for individual tests
+- **gtm-metrics**: Growth metrics and dashboard design

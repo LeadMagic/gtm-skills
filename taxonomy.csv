@@ -66,4 +66,17 @@ leadmagic-mcp,LeadMagic MCP,leadmagic,"MCP server setup, 16 enrichment tools, mu
 leadmagic-integrations,LeadMagic Integrations,leadmagic,"LeadMagic + Clay/Apollo/Smartlead/Instantly/Salesforce/HubSpot workflows",medium
 leadmagic-bulk-enrichment,LeadMagic Bulk Enrichment,leadmagic,"CSV batch processing via API, batching strategy, webhook callbacks",medium
 leadmagic-job-change,LeadMagic Job Change,leadmagic,"Job change detection for pipeline intelligence, champion tracking",medium
-19a,cold-calling,Cold Calling,outbound,"Phone intent scoring, Buckets methodology, precision dialing, SDR calling programs",high
+cold-calling,Cold Calling,outbound,"Phone intent scoring, Buckets methodology, precision dialing, SDR calling programs",high
+sales-coaching,Sales Coaching,management-leadership,"REKS framework, deal reviews, call coaching, rep development",high
+team-management,Team Management,management-leadership,"Hiring, onboarding, performance management, team culture",medium
+cs-playbooks,CS Playbooks,customer-success,"Onboarding, health scoring, CSQLs, expansion plays, churn intervention",high
+qbr-planning,QBR Planning,customer-success,"Quarterly business reviews, value documentation, executive alignment",medium
+plg-strategy,PLG Strategy,product-led-growth,"Freemium vs free trial, PQL scoring, self-serve, PLG sales hybrid",high
+freemium-optimization,Freemium Optimization,product-led-growth,"Activation flow, paywall design, upgrade triggers",medium
+copywriting,Copywriting,creative,"Marketing copy, landing pages, ads, headlines, brand voice, Cialdini",high
+social-media-strategy,Social Media Strategy,creative,"LinkedIn, X/Twitter, posting cadence, sizing guides, engagement",high
+graphic-design-gtm,Graphic Design GTM,creative,"Social graphics, ad creatives, data visualization, brand templates",medium
+growth-experimentation,Growth Experimentation,analytics,"ICE scoring, growth sprints, Reforge, Sean Ellis Hacking Growth",high
+tool-selection-stack,Tool Selection Stack,automation,"Stage-appropriate GTM stacks, tool costs, vendor comparisons",high
+inbox-setup,Inbox Setup,outbound,"Google Workspace, M365, Azure inbox provisioning, DNS, ScaledMail, Hypertide",high
+1p-tagging-pixels,1P Tagging & Pixels,analytics,"Conversion tracking, UTMs, server-side tagging, consent, identity pixels",medium
