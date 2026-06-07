@@ -122,6 +122,16 @@ function walkSkills(dir) {
         const subSkillFile = path.join(skillDir, sub.name, 'SKILL.md');
         if (fs.existsSync(subSkillFile)) {
           skills.push({ dir: sub.name, path: subSkillFile, category: entry.name });
+        } else {
+          // Third level: tools/crm/crm-toolkit/SKILL.md pattern
+          const deepEntries = fs.readdirSync(path.join(skillDir, sub.name), { withFileTypes: true });
+          for (const deep of deepEntries) {
+            if (!deep.isDirectory()) continue;
+            const deepSkillFile = path.join(skillDir, sub.name, deep.name, 'SKILL.md');
+            if (fs.existsSync(deepSkillFile)) {
+              skills.push({ dir: deep.name, path: deepSkillFile, category: entry.name });
+            }
+          }
         }
       }
     }

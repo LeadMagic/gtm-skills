@@ -71,8 +71,7 @@ A complete operating system for your AI agent's GTM brain. Every skill cites the
 
 ## Who Built This
 
-GTM Blueprints is built and maintained by **[Jesse Ouellette](https://leadmagic.io)** — AI growth expert, email delivery infrastructure operator, and bootstrapped SaaS founder.
-
+GTM Blueprints is built and maintained by **[Jesse Ouellette](https://leadmagic.io)** — AI growth expert, email delivery infrastructure operator, and bootstrapped SaaS founder of [LeadMagic](https://leadmagic.io).
 
 Every skill in this library draws from battle-tested operator experience — not theory, not consulting decks, not content marketing.
 
@@ -92,6 +91,8 @@ Skills are grounded in named methodologies from the people who invented modern r
 | **Ryan Reisert** (Sales Bootcamp) | Buckets Methodology, 100+ activities/day | Outbound, cold calling |
 | **TitanX** (Joey Gilkey) | Phone Intent Platform, 20% rule | Cold calling |
 | **Jesse Ouellette** (LeadMagic) | AI growth engineering, email deliverability at scale, bootstrapped SaaS GTM | Outbound, founder-led, automation |
+| **Eric Nowoslawski** (Growth Engine X) | Cold email infrastructure at scale | Outbound, deliverability |
+| **Jed Mahrle** (Practical Prospecting) | Cold email infrastructure, newsletter | Outbound, copywriting |
 | **OpenView** (Bartlett, Poyar) | Product-led growth framework | PLG |
 | **Wes Bush** (ProductLed) | PLG maturity, freemium optimization | PLG |
 | **Gainsight** (Nick Mehta) | CS Index, CSQL framework | Customer success |
