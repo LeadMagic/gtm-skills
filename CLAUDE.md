@@ -1,10 +1,10 @@
 # GTM Blueprints
 
-179 go-to-market skills for AI agents. Install into Claude Code, then ask for anything.
+186 go-to-market skills for AI agents. Install into Claude Code, then ask for anything.
 
 ## Skills Index
 
-### abm
+### abm (6)
 - **abm-1-to-1** — >-
 - **abm-1-to-few** — >-
 - **abm-1-to-many** — >-
@@ -12,13 +12,13 @@
 - **account-selection** — >-
 - **multi-thread-orchestration** — >-
 
-### ai-agents
+### ai-agents (4)
 - **agent-architecture** — >-
 - **agent-guardrails** — >-
 - **agent-observability** — >-
 - **agent-tool-calling** — >-
 
-### analytics
+### analytics (13)
 - **1p-tagging-pixels** — >-
 - **a-b-testing** — >-
 - **attribution** — >-
@@ -33,7 +33,7 @@
 - **proactive-alerts** — >-
 - **tracking-plan** — >-
 
-### automation
+### automation (12)
 - **ai-sdr-setup** — >-
 - **api-enrichment** — >-
 - **attio-setup** — >-
@@ -47,7 +47,7 @@
 - **tool-selection-stack** — >-
 - **waterfall-enrichment** — >-
 
-### content-seo
+### content-seo (6)
 - **aeo-strategy** — >-
 - **citation-harvesting** — >-
 - **faq-seo** — >-
@@ -55,7 +55,7 @@
 - **pseo-strategy** — >-
 - **seo-strategy** — >-
 
-### creative
+### creative (12)
 - **ad-creative-strategy** — >-
 - **ai-content-creation** — >-
 - **ai-video-creation** — >-
@@ -69,7 +69,7 @@
 - **vibe-coding** — >-
 - **vibe-marketing** — >-
 
-### customer-success
+### customer-success (7)
 - **cs-analytics-dashboards** — >-
 - **cs-playbooks** — >-
 - **customer-onboarding** — >-
@@ -78,13 +78,13 @@
 - **sla-management** — >-
 - **support-tool-stack** — >-
 
-### demand-gen
+### demand-gen (4)
 - **content-syndication** — >-
 - **paid-social-strategy** — >-
 - **podcast-gtm** — >-
 - **webinar-strategy** — >-
 
-### design
+### design (7)
 - **battlecard-builder** — >-
 - **case-study-builder** — >-
 - **design-system-gtm** — >-
@@ -93,12 +93,12 @@
 - **roi-calculator** — >-
 - **ui-ux-gtm** — >-
 
-### events
+### events (3)
 - **conference-strategy** — >-
 - **event-driven-outreach** — >-
 - **field-marketing** — >-
 
-### foundation
+### foundation (6)
 - **competitive-intel** — >-
 - **gtm-context** — >-
 - **icp-scoring** — >-
@@ -106,7 +106,7 @@
 - **pricing-strategy** — >-
 - **using-gtm-skills** — >-
 
-### founder-led
+### founder-led (37)
 - **advisor-recruitment** — >-
 - **board-meeting-prep** — >-
 - **brand-kit** — >-
@@ -145,24 +145,24 @@
 - **vendor-contracts** — >-
 - **yc-ecosystem** — >-
 
-### growth
+### growth (4)
 - **churn-prevention** — >-
 - **customer-marketing** — >-
 - **expansion-selling** — >-
 - **referral-programs** — >-
 
-### gtm-ops
+### gtm-ops (3)
 - **campaign-governance** — >-
 - **gtm-operations** — >-
 - **revops-tech-stack** — >-
 
-### inbound
+### inbound (4)
 - **content-marketing** — >-
 - **inbound-triage** — >-
 - **landing-pages** — >-
 - **social-selling** — >-
 
-### leadmagic
+### leadmagic (6)
 - **leadmagic-bulk-enrichment** — >-
 - **leadmagic-cli** — >-
 - **leadmagic-integrations** — >-
@@ -170,18 +170,18 @@
 - **leadmagic-mcp** — >-
 - **leadmagic-waterfall** — >-
 
-### lifecycle
+### lifecycle (5)
 - **churn-prediction** — >-
 - **lifecycle-drips** — >-
 - **mql-nurture** — >-
 - **onboarding-sequences** — >-
 - **re-engagement** — >-
 
-### management-leadership
+### management-leadership (2)
 - **sales-coaching** — >-
 - **team-management** — >-
 
-### outbound
+### outbound (9)
 - **cold-calling** — >-
 - **cold-email-copywriting** — >-
 - **cold-email-strategy** — >-
@@ -192,16 +192,16 @@
 - **reply-handling** — >-
 - **sending-platforms** — >-
 
-### partnerships
+### partnerships (3)
 - **co-marketing** — >-
 - **integration-partnerships** — >-
 - **partnership-strategy** — >-
 
-### product-led-growth
+### product-led-growth (2)
 - **freemium-optimization** — >-
 - **plg-strategy** — >-
 
-### prospecting
+### prospecting (7)
 - **contact-verification** — >-
 - **data-enrichment-strategy** — >-
 - **email-finding** — >-
@@ -210,14 +210,14 @@
 - **list-building** — >-
 - **signal-scoring** — >-
 
-### sales-plays
+### sales-plays (5)
 - **earnings-signal-play** — >-
 - **funding-signal-play** — >-
 - **hiring-signal-play** — >-
 - **job-change-play** — >-
 - **product-launch-play** — >-
 
-### sales-revops
+### sales-revops (6)
 - **deal-desk** — >-
 - **demo-scripts** — >-
 - **meeting-prep** — >-
@@ -225,11 +225,20 @@
 - **pipeline-management** — >-
 - **sales-enablement** — >-
 
-### sequencing-tools
+### sequencing-tools (6)
 - **hubspot-sequences** — >-
 - **instantly-sequences** — >-
 - **lemlist-setup** — >-
 - **outreach-sequences** — >-
 - **salesloft-cadences** — >-
 - **smartlead-workflows** — >-
+
+### tools (7)
+- **analytics-toolkit** — >-
+- **clay-toolkit** — >-
+- **crm-toolkit** — >-
+- **leadmagic-toolkit** — >-
+- **n8n-toolkit** — >-
+- **sequencing-toolkit** — >-
+- **support-toolkit** — >-
 

@@ -1,26 +1,44 @@
 # GTM Blueprints — Agent Skills
 
-67 go-to-market skills for AI coding agents. Works with Cursor, Codex, Windsurf, OpenCode, and any tool that reads AGENTS.md.
+186 go-to-market skills for AI coding agents. Works with Claude Code, Cursor, Codex, Windsurf, Hermes, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose.
 
-## How to Install
+## Install
 
 ```bash
-# Clone the repo
-git clone https://github.com/leadmagic/gtm-skills.git
+# Claude Code
+claude plugins add leadmagic/gtm-skills
+claude skills install leadmagic/gtm-skills
 
-# Point your agent at the skills directory:
-# Cursor: copy skills/* to .cursor/skills/
-# Codex: copy skills/* to .agents/skills/
-# Windsurf: copy skills/* to .windsurf/skills/
-# OpenCode: copy skills/* to .opencode/skills/
+# Copy to any agent project
+cp -r skills/* .claude/skills/
 ```
 
-## What's Inside
+## Categories
 
-67 skills across 11 categories: foundation, prospecting, outbound, inbound, sales-revops, analytics, automation, design, growth, founder-led, leadmagic.
+- **abm** (6 skills)
+- **ai-agents** (4 skills)
+- **analytics** (13 skills)
+- **automation** (12 skills)
+- **content-seo** (6 skills)
+- **creative** (12 skills)
+- **customer-success** (7 skills)
+- **demand-gen** (4 skills)
+- **design** (7 skills)
+- **events** (3 skills)
+- **foundation** (6 skills)
+- **founder-led** (37 skills)
+- **growth** (4 skills)
+- **gtm-ops** (3 skills)
+- **inbound** (4 skills)
+- **leadmagic** (6 skills)
+- **lifecycle** (5 skills)
+- **management-leadership** (2 skills)
+- **outbound** (9 skills)
+- **partnerships** (3 skills)
+- **product-led-growth** (2 skills)
+- **prospecting** (7 skills)
+- **sales-plays** (5 skills)
+- **sales-revops** (6 skills)
+- **sequencing-tools** (6 skills)
+- **tools** (7 skills)
 
-Skills are grounded in established GTM authorities: Winning by Design, Force Management (MEDDICC, Command of the Message), Gartner/Challenger, Huthwaite/SPIN, Sandler, April Dunford, Andy Raskin, and others. Every skill cites its source frameworks.
-
-## LeadMagic
-
-Several skills reference LeadMagic's API for email finding, validation, company enrichment, and job change detection. These are optional tools — every skill works without them. Get a free API key at leadmagic.io to enable higher-accuracy data in the skills that reference it.
