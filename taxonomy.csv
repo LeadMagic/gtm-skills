@@ -1,97 +1,137 @@
 slug,name,category,description,priority
-gtm-context,GTM Context,foundation,"Capture company context, ICP, GTM motion, channels, metrics as reusable foundation",high
-icp-scoring,ICP Scoring,foundation,"Weighted multi-dimensional ICP scoring with firmographic/technographic/behavioral dimensions",high
-positioning-messaging,Positioning & Messaging,foundation,"Dunford positioning, Raskin strategic narrative, messaging matrix, category design",high
-competitive-intel,Competitive Intel,foundation,"Battlecards, competitive matrix, win/loss analysis, tech stack teardown",high
-pricing-strategy,Pricing Strategy,foundation,"Ramanujam pricing models, tier design, willingness-to-pay research",medium
-lead-finding,Lead Finding,prospecting,"Multi-source lead discovery across Apollo, Sales Nav, GitHub, job boards, conferences",high
-lead-enrichment,Lead Enrichment,prospecting,"Waterfall enrichment patterns, provider sequencing, confidence thresholds",high
-email-finding,Email Finding,prospecting,"Email discovery patterns, provider waterfall, always verify after finding",high
-contact-verification,Contact Verification,prospecting,"Pre-send verification strategy, bounce prevention, data decay management",high
-list-building,List Building,prospecting,"Clay list building, ICP filtering, Google Maps scraping, list hygiene",medium
-signal-scoring,Signal Scoring,prospecting,"4-category signal taxonomy, scoring formulas, tier routing",high
-data-enrichment-strategy,Data Enrichment Strategy,prospecting,"Provider landscape comparison, build-vs-buy, enrichment architecture",medium
-cold-email-strategy,Cold Email Strategy,outbound,"Sequence architecture, cadence design, channel mixing, trigger-based outreach",high
-cold-email-copywriting,Cold Email Copywriting,outbound,"3-line framework, subject lines, personalization tiers, persona variants",high
-email-deliverability,Email Deliverability,outbound,"SPF/DKIM/DMARC setup, warmup strategy, reputation monitoring, bounce handling",high
-domain-infrastructure,Domain Infrastructure,outbound,"Secondary domains, mailbox provisioning, DNS authentication, inbox rotation",medium
-sending-platforms,Sending Platforms,outbound,"Smartlead vs Instantly vs Salesforge vs Apollo comparison and setup",medium
-reply-handling,Reply Handling,outbound,"8-category reply classification, auto-reply playbooks, human escalation rules",medium
-multi-channel-outreach,Multi-Channel Outreach,outbound,"LinkedIn, cold calls, SMS, channel coordination, conditional sequences",medium
-inbound-triage,Inbound Triage,inbound,"Demo form triage, MQL→SQL routing, speed-to-lead, SLA design",high
-content-marketing,Content Marketing,inbound,"Content strategy by funnel stage, SEO/AEO, programmatic SEO, pillar pages",medium
-social-selling,Social Selling,inbound,"LinkedIn Sales Navigator, DM sequences, content-to-conversation, SSI scoring",medium
-landing-pages,Landing Pages,inbound,"CRO audits, hero/offer/proof/CTA patterns, conversion optimization, signup flows",medium
-sales-enablement,Sales Enablement,sales-revops,"Pitch decks, one-pagers, battlecards, demo scripts, playbooks",high
-meeting-prep,Meeting Prep,sales-revops,"Account research, attendee profiles, SPIN/MEDDIC discovery, meeting briefs",high
-pipeline-management,Pipeline Management,sales-revops,"CRM hygiene, forecasting, stage definitions with Goals + Exit Criteria",medium
-objection-handling,Objection Handling,sales-revops,"6-category taxonomy, AER framework, objection battlecards per competitor",high
-demo-scripts,Demo Scripts,sales-revops,"First demo, technical deep-dive, executive overview, scene-by-scene scripts",medium
-deal-desk,Deal Desk,sales-revops,"Pricing models, discount guidance, proposals, business case construction",medium
-campaign-analytics,Campaign Analytics,analytics,"6-layer metrics stack, diagnostic decision trees, winning copy extraction",medium
-deliverability-monitoring,Deliverability Monitoring,analytics,"Bounce tracking, spam placement, blacklist monitoring, DMARC reports",medium
-gtm-metrics,GTM Metrics,analytics,"Pipeline velocity, CAC/LTV, NRR, Rule of 40, WbD GTM Index, dashboards",high
-a-b-testing,A/B Testing,analytics,"Experiment design, statistical significance, stop/scale rules, ICE/PIE scoring",medium
-attribution,Attribution,analytics,"Multi-touch models, UTM hygiene, campaign ROI, source-of-truth reporting",low
-proactive-alerts,Proactive Alerts,analytics,"CRM pipeline alerts, buying signal alerts, Slack/email routing, risk scoring",medium
-clay-automation,Clay Automation,automation,"Clay table architecture, waterfalls, Claygent, Sculptor, CRM push, credit optimization",high
-ai-sdr-setup,AI SDR Setup,automation,"AI SDR deployment, 4-week program, signal-to-action routing, human handoff",medium
-api-enrichment,API Enrichment,automation,"REST API patterns, bulk enrichment, rate limiting, error recovery",medium
-crm-integration,CRM Integration,automation,"HubSpot/Salesforce/Attio setup, lifecycle stages, deal stage design",medium
-mcp-setup,MCP Setup,automation,"MCP server configuration, multi-MCP architecture, tool orchestration",low
-n8n-automation,n8n Automation,automation,"n8n workflow design, triggers, webhook-to-enrichment-to-CRM pipelines",medium
-waterfall-enrichment,Waterfall Enrichment,automation,"Multi-provider waterfall architecture, cost optimization, verification integration",high
-pitch-deck-builder,Pitch Deck Builder,design,"Slide-by-slide structure, persona-customized, speaker notes, visual direction",high
-one-pager-builder,One-Pager Builder,design,"Product overviews, leave-behinds, champion enablement, trade show handouts",high
-battlecard-builder,Battlecard Builder,design,"FIA framework battlecards, Why We Win/Lose, objection cards, pricing cards",high
-roi-calculator,ROI Calculator,design,"3-scenario projections, payback period, business case construction",medium
-case-study-builder,Case Study Builder,design,"Customer success stories, before/after metrics, sales-ready format",medium
-design-system-gtm,Design System GTM,design,"Brand-context for AI agents, visual identity, voice/tone, design tokens",medium
-ui-ux-gtm,UI/UX GTM,design,"Landing pages, forms, signup flows, dashboards, accessibility, conversion design",medium
-churn-prevention,Churn Prevention,growth,"Early warning signals, re-engagement campaigns, health scoring",medium
-expansion-selling,Expansion Selling,growth,"Consumption-based upsell triggers, cross-sell, NRR growth, land-and-expand",medium
-referral-programs,Referral Programs,growth,"Partner/affiliate programs, 3-tier comp structure, platform integration",low
-customer-marketing,Customer Marketing,growth,"Case studies, testimonials, customer advocacy, NPS engagement",medium
-solo-founder-gtm,Solo Founder GTM,founder-led,"Tool stacks by stage, AI agents as org, hiring triggers, bootstrapper playbooks",high
-founder-brand,Founder Brand,founder-led,"LinkedIn strategy, content cadence, newsletter growth, personal brand",medium
-launch-planning,Launch Planning,founder-led,"Launch tiers, Product Hunt playbook, 16+ channel launches, pre-launch checklist",high
-lead-magnets,Lead Magnets,founder-led,"Free tools strategy, calculators, gated content, conversion optimization",medium
-sales-team-building,Sales Team Building,founder-led,"Hiring sequence by ARR, POD structures, compensation models, REKS coaching",high
-partner-programs,Partner Programs,founder-led,"Co-marketing partnerships, integration partnerships, channel strategy",low
-investor-updates,Investor Updates,founder-led,"Monthly investor updates, pitch decks, fundraising narrative, metrics",medium
-saas-metrics-calculator,SaaS Metrics Calculator,founder-led,"Complete calculator with stage-aware benchmarks, all key SaaS metrics",high
-leadmagic-cli,LeadMagic CLI,leadmagic,"CLI workflows for enrichment, validation, bulk processing, outbound integrations",high
-leadmagic-waterfall,LeadMagic Waterfall,leadmagic,"Clay waterfall with LeadMagic, 95%+ coverage, provider chaining, verification",high
-leadmagic-mcp,LeadMagic MCP,leadmagic,"MCP server setup, 16 enrichment tools, multi-tool orchestration",medium
-leadmagic-integrations,LeadMagic Integrations,leadmagic,"LeadMagic + Clay/Apollo/Smartlead/Instantly/Salesforce/HubSpot workflows",medium
-leadmagic-bulk-enrichment,LeadMagic Bulk Enrichment,leadmagic,"CSV batch processing via API, batching strategy, webhook callbacks",medium
-leadmagic-job-change,LeadMagic Job Change,leadmagic,"Job change detection for pipeline intelligence, champion tracking",medium
-cold-calling,Cold Calling,outbound,"Phone intent scoring, Buckets methodology, precision dialing, SDR calling programs",high
-sales-coaching,Sales Coaching,management-leadership,"REKS framework, deal reviews, call coaching, rep development",high
-team-management,Team Management,management-leadership,"Hiring, onboarding, performance management, team culture",medium
-cs-playbooks,CS Playbooks,customer-success,"Onboarding, health scoring, CSQLs, expansion plays, churn intervention",high
-qbr-planning,QBR Planning,customer-success,"Quarterly business reviews, value documentation, executive alignment",medium
-plg-strategy,PLG Strategy,product-led-growth,"Freemium vs free trial, PQL scoring, self-serve, PLG sales hybrid",high
-freemium-optimization,Freemium Optimization,product-led-growth,"Activation flow, paywall design, upgrade triggers",medium
-copywriting,Copywriting,creative,"Marketing copy, landing pages, ads, headlines, brand voice, Cialdini",high
-social-media-strategy,Social Media Strategy,creative,"LinkedIn, X/Twitter, posting cadence, sizing guides, engagement",high
-graphic-design-gtm,Graphic Design GTM,creative,"Social graphics, ad creatives, data visualization, brand templates",medium
-growth-experimentation,Growth Experimentation,analytics,"ICE scoring, growth sprints, Reforge, Sean Ellis Hacking Growth",high
-tool-selection-stack,Tool Selection Stack,automation,"Stage-appropriate GTM stacks, tool costs, vendor comparisons",high
-inbox-setup,Inbox Setup,outbound,"Google Workspace, M365, Azure inbox provisioning, DNS, ScaledMail, Hypertide",high
-1p-tagging-pixels,1P Tagging & Pixels,analytics,"Conversion tracking, UTMs, server-side tagging, 1P vs 3P strategy, identity pixels",high
-paid-advertising,Paid Advertising,analytics,"LinkedIn, Google, Meta, TikTok ads platform setup, budgets, measurement",high
-marketing-strategy,Marketing Strategy,analytics,"Channel mix, budget allocation, demand gen, brand building, marketing-sales SLA",high
-gtm-system-architecture,GTM System Architecture,analytics,"WbD 6-model framework, Bowtie design, operating model, revenue architecture",high
-ad-creative-strategy,Ad Creative Strategy,creative,"Creative formats per platform, testing methodology, fatigue management, AI creative",high
-content-distribution,Content Distribution,creative,"Multi-channel distribution, content atomization, paid amplification, syndication",high
-building-saas,Building a SaaS,founder-led,"SaaS from idea to scale, architecture, pricing, hiring, infrastructure",high
-soc2-compliance,SOC2 Compliance,founder-led,"SOC2 Type II readiness, controls, auditor selection, evidence collection",medium
-exiting-company,Exiting a Company,founder-led,"Acquisition prep, valuation drivers, due diligence, exit timeline",medium
-hiring-contractors,Hiring Contractors,founder-led,"Freelance talent, IP assignment, rates, management practices",high
-hiring-agencies,Hiring Agencies,founder-led,"Agency selection, engagement structure, outbound, dev shops, ROI measurement",high
-hubspot-setup,HubSpot Setup,automation,"CRM, deal pipelines, lifecycle stages, marketing automation, enrichment",high
-salesforce-setup,Salesforce Setup,automation,"Object model, opportunity pipelines, Flows automation, reports, enrichment",high
-attio-setup,Attio Setup,automation,"Programmable CRM, objects, lists, workflows, enrichment integration",high
-brand-kit,Brand Kit,founder-led,"Logo design, color palette, typography, voice and tone, asset templates",high
-events-planning,Events Planning,founder-led,"Conferences, webinars, dinners, trade shows, attendee-to-pipeline ROI",high
+abm-1-to-1,ABM 1-to-1,abm,"Execute Strategic ABM (1-to-1) for 5-15 high-value accounts — custom microsites,   executive engagement, direct mail, bo",high
+abm-1-to-few,ABM 1-to-Few,abm,"Execute ABM at Scale (1-to-few) for 15-50 clustered accounts — semi-custom campaigns,   industry-specific content, perso",high
+abm-1-to-many,ABM 1-to-Many,abm,"Execute Programmatic ABM (1-to-many) for 50-200+ accounts — automated personalization,   scaled outbound, lookalike expa",high
+abm-strategy,ABM Strategy,abm,"Design and execute Account-Based Marketing strategy — tier selection, account   scoring, channel orchestration, BDR alig",high
+account-selection,Account Selection,abm,"Select and prioritize target accounts for ABM programs — scoring models, tier   assignment, TAM segmentation. Triggers o",high
+multi-thread-orchestration,Multi-Thread Orchestration,abm,"Orchestrate multi-threaded ABM engagement across buying committee members —   stakeholder mapping, parallel plays, ghost",high
+agent-architecture,Agent Architecture,ai-agents,"Design AI agent architectures for GTM workflows — agent patterns, tool selection,   multi-agent orchestration, human-in-",medium
+agent-guardrails,Agent Guardrails,ai-agents,"Implement safety guardrails for GTM agents — content filtering, approval gates,   rate limiting, budget controls, kill s",medium
+agent-observability,Agent Observability,ai-agents,"Monitor and debug AI agent performance — logging, metrics, alerting, cost tracking,   error analysis. Triggers on: ""agen",medium
+agent-tool-calling,Agent Tool Calling,ai-agents,"Design agent tool-calling strategies — MCP servers, API integration, function   calling, tool selection logic. Triggers ",medium
+1p-tagging-pixels,1P Tagging Pixels,analytics,"Set up first-party tracking and analytics — website pixels, conversion tracking,   UTM architecture, cookie consent, ser",high
+a-b-testing,A B Testing,analytics,"Designs and analyzes A/B tests for GTM campaigns with statistical rigor.   Tests subject lines, email copy, CTAs, send t",high
+attribution,Attribution,analytics,"Implements multi-touch attribution models (first-touch, last-touch, linear,   time-decay, U-shaped, W-shaped) to measure",high
+campaign-analytics,Campaign Analytics,analytics,"Analyzes campaign performance across a 6-layer metrics stack from infrastructure   to revenue. Applies diagnostic decisi",high
+deliverability-monitoring,Deliverability Monitoring,analytics,"Monitors email deliverability health through bounce tracking, spam placement   detection, blacklist monitoring, and DMAR",high
+growth-experimentation,Growth Experimentation,analytics,"Build a growth experimentation system — ICE scoring, growth sprints, experiment   design, statistical significance, and ",high
+gtm-metrics,Gtm Metrics,analytics,"Builds and analyzes the complete SaaS metrics stack: pipeline velocity,   CAC/LTV ratio, Net Revenue Retention, Magic Nu",high
+gtm-system-architecture,Gtm System Architecture,analytics,"Design a complete GTM operating system — revenue model, data model, operating   model, growth model, and GTM model per W",high
+marketing-strategy,Marketing Strategy,analytics,"Build complete B2B marketing strategies — channel mix, budget allocation,   content strategy, demand generation, brand b",high
+paid-advertising,Paid Advertising,analytics,"Build and manage paid advertising campaigns across B2B platforms — LinkedIn Ads,   Google Ads, Meta (Facebook/Instagram)",high
+proactive-alerts,Proactive Alerts,analytics,"Set up proactive GTM alert systems — CRM pipeline alerts, buying signal   notifications, Slack/email routing, risk scori",high
+ai-sdr-setup,Ai Sdr Setup,automation,"Deploy AI SDR agents — 11x, Artisan, AiSDR, Jason AI — with a 4-week launch program, signal-to-action routing, and human",high
+api-enrichment,Api Enrichment,automation,"Build programmatic enrichment pipelines using REST APIs — bulk enrichment, rate limiting, webhook callbacks, error recov",high
+clay-automation,Clay Automation,automation,"Build production-grade Clay enrichment workflows — table architecture, waterfall   configuration, Claygent AI research, ",high
+crm-integration,Crm Integration,automation,"Configure CRM systems for GTM — HubSpot, Salesforce, Attio. Lifecycle stages, deal stage design, bi-directional sync, en",high
+mcp-setup,Mcp Setup,automation,"Configure Model Context Protocol servers for GTM tools — multi-MCP architecture, tool orchestration, provider-neutral pa",high
+n8n-automation,N8N Automation,automation,"Build n8n workflows for GTM automation — triggers, webhook-to-enrichment-to-CRM   pipelines, error handling, Clay export",high
+tool-selection-stack,Tool Selection Stack,automation,"Build the right GTM tool stack for any stage — solo founder ($100/mo), small   team ($500/mo), growth team ($2K/mo), and",high
+waterfall-enrichment,Waterfall Enrichment,automation,"Design multi-provider enrichment waterfalls — provider ordering by cost-per-hit,   3 separate waterfalls for company, em",high
+aeo-strategy,AEO Strategy,content-seo,"Answer Engine Optimization — optimize content for AI search engines (ChatGPT,   Perplexity, Gemini, Claude). Triggers on",medium
+citation-harvesting,Citation Harvesting,content-seo,"Systematically build backlinks through citations, mentions, and digital PR —   HARO, source-blogger outreach, data-drive",medium
+faq-seo,FAQ SEO,content-seo,"Build FAQ pages that capture featured snippets and People Also Ask traffic —   question-driven content strategy. Trigger",medium
+pillar-pages,Pillar Pages,content-seo,"Design and build pillar pages with topic clusters — comprehensive hub pages that   rank for high-intent keywords. Trigge",medium
+pseo-strategy,pSEO Strategy,content-seo,"Programmatic SEO — build scalable, template-driven content pages for long-tail   keywords. Triggers on: ""pSEO"", ""program",medium
+seo-strategy,SEO Strategy,content-seo,"B2B SEO strategy — keyword research, content architecture, technical SEO, link   building, measurement. Triggers on: ""SE",medium
+ad-creative-strategy,Ad Creative Strategy,creative,"Develop ad creative strategy for B2B campaigns — creative formats per platform,   testing methodology, creative fatigue ",high
+content-distribution,Content Distribution,creative,"Distribute content across channels for maximum reach — multi-platform repurposing,   syndication, paid amplification, em",high
+copywriting,Copywriting,creative,"Write marketing copy that converts — landing pages, ads, emails, social,   headlines, and brand voice. Use when writing ",high
+graphic-design-gtm,Graphic Design Gtm,creative,"Create GTM visual assets — social graphics, ad creatives, pitch deck design,   one-pager layouts, email images, data vis",high
+social-media-strategy,Social Media Strategy,creative,"Build and execute social media strategy for B2B — LinkedIn, X/Twitter, posting   cadence, engagement tactics, content fo",high
+cs-playbooks,Cs Playbooks,customer-success,"Build customer success playbooks — onboarding, health scoring, CSQLs, expansion   plays, QBRs, and churn intervention. U",high
+qbr-planning,Qbr Planning,customer-success,"Plan and execute Quarterly Business Reviews — value documentation, ROI   presentation, executive alignment, and expansio",high
+content-syndication,Content Syndication,demand-gen,"Syndicate content across paid and organic channels — content atomization,   sponsored placement, newsletter sponsorships",medium
+paid-social-strategy,Paid Social Strategy,demand-gen,"B2B paid social strategy — LinkedIn, Meta, TikTok ad platform strategy, audience   building, creative testing, budget al",medium
+podcast-gtm,Podcast GTM,demand-gen,"Use podcast appearances as a GTM channel — booking strategy, interview prep,   content repurposing, pipeline conversion.",medium
+webinar-strategy,Webinar Strategy,demand-gen,"Plan and execute demand gen webinars — topic selection, speaker sourcing, promotion   cadence, follow-up sequences. Trig",medium
+battlecard-builder,Battlecard Builder,design,"Create competitive battlecards — FIA Framework (Fact → Impact → Act), Why We   Win/Why We Lose, objection handling cards",high
+case-study-builder,Case Study Builder,design,"Create customer case studies in sales-ready format — Challenge→Solution→Results   structure, before/after metrics, quote",high
+design-system-gtm,Design System Gtm,design,"Define brand-context for AI agents — visual identity, voice/tone guides, color   palettes, typography, asset templates. ",high
+one-pager-builder,One Pager Builder,design,"Create one-page sales documents — product overviews, meeting leave-behinds,   champion enablement sheets, trade show han",high
+pitch-deck-builder,Pitch Deck Builder,design,"Build investor-ready pitch decks and sales presentations — 10-11 slide structure,   persona-customized per role, storyte",high
+roi-calculator,Roi Calculator,design,"Build ROI calculators and business cases — 3-scenario projections, payback   period analysis, assumption documentation. ",high
+ui-ux-gtm,Ui Ux Gtm,design,"Design GTM UI/UX patterns — landing pages, forms, signup flows, dashboards,   accessibility, conversion-focused design. ",high
+conference-strategy,Conference Strategy,events,"Strategic conference planning — event selection, sponsorship ROI, speaking    submissions, booth strategy, team preparat",medium
+event-driven-outreach,Event-Driven Outreach,events,"Outbound sequences triggered by conference/event attendance — pre-event research,    on-site plays, post-event follow-up",medium
+field-marketing,Field Marketing,events,"Plan and execute field marketing — regional events, executive dinners, roadshows,   customer advisory boards. Triggers o",medium
+competitive-intel,Competitive Intel,foundation,"Builds competitive battlecards using Klue's Fact-Impact-Act framework,   competitive matrices, win/loss analysis, tech s",high
+gtm-context,Gtm Context,foundation,"Captures company context, ICP, GTM motion, tech stack, channels, and metrics   into a reusable foundation document. Trig",high
+icp-scoring,Icp Scoring,foundation,"Builds a weighted multi-dimensional ICP scoring model with firmographic,   technographic, behavioral, and intent dimensi",high
+positioning-messaging,Positioning Messaging,foundation,"Builds April Dunford 5-component positioning statement, Andy Raskin strategic   narrative, messaging matrix by persona, ",high
+pricing-strategy,Pricing Strategy,foundation,"Designs pricing models using Ramanujam's 2x2 framework, tier structures,   willingness-to-pay research, competitive pric",high
+building-saas,Building Saas,founder-led,"Build a SaaS company from idea to scale — product development, architecture   decisions, pricing, hiring sequence, fundr",high
+exiting-company,Exiting Company,founder-led,"Prepare a SaaS company for acquisition or exit — valuation drivers, due   diligence readiness, financial preparation, le",high
+founder-brand,Founder Brand,founder-led,"Build a founder personal brand — LinkedIn strategy, content cadence, podcast   guesting, newsletter growth, media featur",high
+hiring-agencies,Hiring Agencies,founder-led,"Evaluate, hire, and manage agencies for SaaS GTM — outbound agencies, dev   shops, marketing agencies, and design studio",high
+hiring-contractors,Hiring Contractors,founder-led,"Hire and manage contractors for SaaS startups — where to find them, how to   structure engagements, IP assignment, rates",high
+investor-updates,Investor Updates,founder-led,"Write investor updates that build confidence and surface help — monthly format,   board deck structure, fundraising narr",high
+launch-planning,Launch Planning,founder-led,"Plan product launches — launch tiers (T1/T2/T3), Product Hunt playbook, 16+   channel launches, pre-launch checklist. Us",high
+lead-magnets,Lead Magnets,founder-led,"Create lead magnets that convert — free tools, calculators, templates, gated   content strategy. Uses Cialdini reciproci",high
+partner-programs,Partner Programs,founder-led,"Design partner and channel programs — co-marketing, integration partnerships,   agency partnerships, channel strategy, r",high
+saas-metrics-calculator,Saas Metrics Calculator,founder-led,"Calculate complete SaaS metrics — MRR, ARR, ARPA, Churn, LTV, CAC, LTV:CAC,   CAC Payback, Magic Number, NRR, Rule of 40",high
+sales-team-building,Sales Team Building,founder-led,"Build a sales team from first hire to scale — hiring sequence by ARR, Winning   by Design POD structures, compensation m",high
+soc2-compliance,Soc2 Compliance,founder-led,"Achieve SOC2 Type II compliance for SaaS companies — readiness assessment,   control implementation, auditor selection, ",high
+solo-founder-gtm,Solo Founder Gtm,founder-led,"Build lean GTM as a solo founder or bootstrapper — tool stacks by revenue stage,   AI agents replacing headcount, when t",high
+churn-prevention,Churn Prevention,growth,"Build churn prevention systems — early warning signal detection, customer health   scoring, re-engagement campaigns, ris",medium
+customer-marketing,Customer Marketing,growth,"Build customer marketing programs — case studies, testimonials, customer   advocacy, reference programs, NPS-driven enga",medium
+expansion-selling,Expansion Selling,growth,"Design expansion and upsell motions — consumption-based triggers, cross-sell   identification, NRR growth, land-and-expa",medium
+referral-programs,Referral Programs,growth,"Design referral and partner programs — 3-tier comp structure, platform   integration (PartnerStack, Impact), co-marketin",medium
+campaign-governance,Campaign Governance,gtm-ops,"Establish campaign governance — naming conventions, UTM parameters, campaign   hierarchy, ROI measurement, budget tracki",medium
+gtm-operations,GTM Operations,gtm-ops,"Build GTM operations function — tech stack architecture, process design, data   governance, RevOps foundations. Triggers",medium
+revops-tech-stack,RevOps Tech Stack,gtm-ops,"Design the RevOps technology stack — CRM, enrichment, sequencing, analytics,   integration architecture. Triggers on: ""R",medium
+content-marketing,Content Marketing,inbound,"Build content marketing strategies that generate pipeline — SEO/AEO optimization,   pillar page design, programmatic SEO",high
+inbound-triage,Inbound Triage,inbound,"Design inbound lead triage workflows — demo form qualification, MQL to SQL   routing, automated enrichment on form fill,",high
+landing-pages,Landing Pages,inbound,"Audit and optimize landing pages for conversion — hero/offer/proof/CTA patterns,   CRO audits, A/B testing, signup flow ",high
+social-selling,Social Selling,inbound,"Build a LinkedIn social selling strategy — Sales Navigator, DM sequences,   content-to-conversation, profile optimizatio",high
+leadmagic-bulk-enrichment,Leadmagic Bulk Enrichment,leadmagic,"Process CSV files at scale with LeadMagic — batching strategy, rate limit   handling, webhook callbacks, error recovery,",high
+leadmagic-cli,Leadmagic Cli,leadmagic,"Use the LeadMagic CLI for enrichment automation — find emails, validate contacts,   enrich CSVs in batch, find decision-",high
+leadmagic-integrations,Leadmagic Integrations,leadmagic,"Integrate LeadMagic with GTM platforms — Clay, Apollo, Smartlead, Instantly,   Salesforce, HubSpot, Zapier, Make. Bi-dir",high
+leadmagic-job-change,Leadmagic Job Change,leadmagic,"Track job changes for pipeline intelligence — champion departure alerts, new   role detection, trigger-based outreach. U",high
+leadmagic-mcp,Leadmagic Mcp,leadmagic,"Set up the LeadMagic MCP server — 16 enrichment tools for AI agents, multi-tool   orchestration in Cursor, Claude, VS Co",high
+leadmagic-waterfall,Leadmagic Waterfall,leadmagic,"Build Clay enrichment waterfalls with LeadMagic as the primary provider — 95%+   email coverage, multi-provider chaining",high
+churn-prediction,Churn Prediction,lifecycle,"Build churn prediction models — leading indicators, risk scoring, early warning   systems, intervention playbooks. Trigg",medium
+lifecycle-drips,Lifecycle Drips,lifecycle,"Design lifecycle drip campaigns — post-purchase, renewal, expansion, milestone-based   automated email programs. Trigger",medium
+mql-nurture,MQL Nurture,lifecycle,"Build MQL nurture programs — lead scoring, nurture tracks, email drip sequences,   MQL→SQL conversion. Triggers on: ""MQL",medium
+onboarding-sequences,Onboarding Sequences,lifecycle,"Design customer onboarding sequences — time-to-first-value, activation milestones,   guided setup, onboarding emails. Tr",medium
+re-engagement,Re-Engagement,lifecycle,"Design re-engagement campaigns for dormant leads and inactive customers —   win-back sequences, reactivation offers, sun",medium
+sales-coaching,Sales Coaching,management-leadership,"Coach sales reps for consistent performance — REKS framework, deal reviews,   call coaching, pipeline inspection, and 1:",high
+team-management,Team Management,management-leadership,"Build and manage high-performing GTM teams — hiring, onboarding, performance   management, culture, and team rhythms. Us",high
+cold-calling,Cold Calling,outbound,"Build and execute B2B cold calling programs — phone intent scoring, precision   dialing, the Buckets methodology, multi-",high
+cold-email-copywriting,Cold Email Copywriting,outbound,"Writes high-converting cold email copy using the 3-line framework,   proven subject line patterns, and persona-specific ",high
+cold-email-strategy,Cold Email Strategy,outbound,"Designs high-performing cold email sequence architecture with proper cadence   timing, channel mixing, and trigger-based",high
+domain-infrastructure,Domain Infrastructure,outbound,"Designs and provisions the domain and mailbox infrastructure for cold   email outreach: secondary domains, mailbox setup",high
+email-deliverability,Email Deliverability,outbound,"Sets up and monitors email deliverability infrastructure including SPF,   DKIM, DMARC configuration, warmup strategy, re",high
+inbox-setup,Inbox Setup,outbound,"Set up cold email inbox infrastructure from scratch — Google Workspace, Microsoft   365, and Azure/Entra inbox provision",high
+multi-channel-outreach,Multi Channel Outreach,outbound,"Design and execute multi-channel outbound sequences across email, LinkedIn,   cold calls, and SMS. Use when the user wan",high
+reply-handling,Reply Handling,outbound,"Classifies and automates responses to cold email replies using an 8-category   taxonomy, auto-reply playbooks, and human",high
+sending-platforms,Sending Platforms,outbound,"Compares, selects, and configures cold email sending platforms: Smartlead,   Instantly, Salesforge, Apollo, and others. ",high
+co-marketing,Co-Marketing,partnerships,"Execute co-marketing campaigns with partners — joint webinars, co-branded content,   shared audiences, mutual promotion.",medium
+integration-partnerships,Integration Partnerships,partnerships,"Build and go-to-market with technology integration partnerships — API/integration   GTM, marketplace listing, co-selling",medium
+partnership-strategy,Partnership Strategy,partnerships,"Build a partnership program — partner types, recruitment, enablement, co-marketing,   revenue share models. Triggers on:",medium
+freemium-optimization,Freemium Optimization,product-led-growth,"Optimize freemium conversion — activation flow, paywall design, upgrade   triggers, free-to-paid conversion rate optimiz",high
+plg-strategy,Plg Strategy,product-led-growth,"Design product-led growth motions — freemium vs free trial, PQL scoring,   self-serve conversion, PLG sales hybrid, and ",high
+contact-verification,Contact Verification,prospecting,"Verify email addresses before they enter outbound sequences to prevent bounces   and protect sender reputation. Use when",high
+data-enrichment-strategy,Data Enrichment Strategy,prospecting,"Design an end-to-end B2B data enrichment architecture — provider selection,   waterfall design, cost modeling, and CRM h",high
+email-finding,Email Finding,prospecting,"Find verified work email addresses for B2B contacts using multi-provider waterfall   discovery. Use when the user wants ",high
+lead-enrichment,Lead Enrichment,prospecting,"Waterfall enrichment patterns with provider sequencing (Clay → Apollo →   ZoomInfo → PDL → Claygent → Claude normalizati",high
+lead-finding,Lead Finding,prospecting,"Multi-source lead discovery across Apollo, Sales Navigator, GitHub,   Crunchbase, job boards, conference lists, and vert",high
+list-building,List Building,prospecting,"Build qualified B2B prospect lists using Clay, LinkedIn Sales Navigator, and   multi-source discovery. Use when the user",high
+signal-scoring,Signal Scoring,prospecting,"Score and prioritize prospects using buying signals — hiring, funding, tech   stack changes, executive moves, and intent",high
+earnings-signal-play,Earnings Signal Play,sales-plays,"Outbound play triggered by public company earnings calls — strategic priority   mining, new-initiative alignment, urgenc",high
+funding-signal-play,Funding Signal Play,sales-plays,"Trigger-based outbound play when a target account raises funding — urgency   messaging, use-of-funds alignment, 7-14 day",high
+hiring-signal-play,Hiring Signal Play,sales-plays,"Outbound play triggered by specific hiring signals — VP Sales, RevOps, SDR   manager, CRO postings signal budget and str",high
+job-change-play,Job Change Play,sales-plays,"Outbound play triggered by contact job changes — champion tracking, new-role    outreach, ""new broom"" timing. Triggers o",high
+product-launch-play,Product Launch Play,sales-plays,"Outbound play triggered by competitor product launches or target account    product launches — timing-based urgency, com",high
+deal-desk,Deal Desk,sales-revops,"Structure deals, pricing, and proposals — pricing model selection, discount   guidance, business case construction, and ",high
+demo-scripts,Demo Scripts,sales-revops,"Write compelling demo scripts — first demo, technical deep-dive, and executive   overview. Scene-by-scene with timing, t",high
+meeting-prep,Meeting Prep,sales-revops,"Prepare comprehensive meeting briefs — account research, attendee profiles,   SPIN/MEDDIC discovery questions, competiti",high
+objection-handling,Objection Handling,sales-revops,"Build comprehensive objection handling playbooks — 6-category taxonomy, AER   framework, battlecards per competitor, pre",high
+pipeline-management,Pipeline Management,sales-revops,"Manage B2B sales pipelines with structured deal stages, forecasting, CRM hygiene,   and deal inspection cadences. Use wh",high
+sales-enablement,Sales Enablement,sales-revops,"Create sales collateral that reps actually use — pitch decks, one-pagers,   battlecards, objection docs, demo scripts, t",high
+hubspot-sequences,HubSpot Sequences,sequencing-tools,"Design and optimize HubSpot sequences — enrollment triggers, multi-channel steps,    task creation, analytics, A/B testi",medium
+instantly-sequences,Instantly Sequences,sequencing-tools,"Set up Instantly — unlimited accounts, warmup pool, campaign optimization, unified    inbox. Triggers on: ""Instantly"", """,medium
+lemlist-setup,Lemlist Setup,sequencing-tools,"Set up and optimize Lemlist — personalized images/videos, multi-channel sequences,    warm-up, deliverability. Triggers ",medium
+outreach-sequences,Outreach Sequences,sequencing-tools,"Design and manage Outreach sequences — multi-channel cadences, triggers, analytics,   team workflows. Triggers on: ""Outr",medium
+salesloft-cadences,Salesloft Cadences,sequencing-tools,"Build and optimize Salesloft cadences — Rhythm, Conversations, multi-channel   orchestration, analytics. Triggers on: ""S",medium
+smartlead-workflows,Smartlead Workflows,sequencing-tools,"Set up and run Smartlead — unlimited mailboxes, auto-rotation, A/B testing,   master inbox, AI categorization. Triggers ",medium

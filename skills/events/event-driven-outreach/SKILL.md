@@ -1,0 +1,73 @@
+---
+name: event-driven-outreach
+description: >-
+  Outbound sequences triggered by conference/event attendance — pre-event research, 
+  on-site plays, post-event follow-up. Triggers on: "event outreach", "conference 
+  prospecting", "trade show follow-up", "event outbound".
+license: MIT
+compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+metadata:
+  version: "1.0.0"
+  author: LeadMagic
+  category: events
+  tags: [events, conferences, outbound, trade-shows, prospecting]
+  frameworks: [Event-Led Growth, B2B Event Marketing Framework]
+---
+
+# Event-Driven Outreach
+
+## Overview
+Conferences and events are concentrated buying intent — attendees have budget,
+are actively evaluating, and are reachable in a compressed time window. This
+skill covers the pre-event, on-site, and post-event outbound motion.
+
+## When to Use
+- "Outreach around [conference]"
+- "Conference prospecting"
+- "Event follow-up sequence"
+- "Trade show outbound play"
+
+## Step-by-Step Process
+
+### Phase 1: Pre-Event (2-3 weeks before)
+- **Attendee list sourcing:** Scrape attendee lists, speaker lists, sponsor lists,
+  LinkedIn event RSVPs, hashtag engagers
+- **Account research:** For each target, determine: are they speaking? sponsoring?
+  attending? Which sessions are relevant?
+- **Pre-event outreach:** "Saw you're attending [Event]. I'll be there too —
+  would love to grab 15 minutes to share what we're seeing in [their domain]."
+  This books meetings before you arrive.
+- **Speaker outreach:** "Your talk on [topic] at [Event] — quick question."
+  Speakers are flattered by pre-event engagement.
+
+### Phase 2: On-Site (During the event)
+- **Real-time engagement:** Monitor event hashtag. Engage with prospect posts.
+- **Session targeting:** Attend sessions your prospects attend. Sit near them.
+  Ask good questions during Q&A (with your name + company intro).
+- **Expo hall:** If exhibiting, qualify booth visitors fast. Badge scan + 1-question
+  qualifier + "I'll follow up with [specific thing]."
+- **Evening events:** Happy hours, dinners, after-parties. Best networking happens
+  outside the conference center.
+
+### Phase 3: Post-Event (1-7 days after)
+Day 1: "Great meeting you at [Event]" — personalized, reference your conversation.
+Day 2-3: LinkedIn connection + "Enjoyed [specific conversation topic] at [Event]"
+Day 5-7: Value-add follow-up: "Following up on our conversation about [topic],
+  here's [specific resource/data]"
+
+### Phase 4: Non-Attendee Outreach
+"I wasn't at [Event] but I noticed [topic] was big. Teams I work with are
+seeing [related trend]." You can reference conference themes without having
+attended.
+
+### Phase 5: ROI Measurement
+Track: meetings booked from event outreach, pipeline created, deals closed.
+Cost per meeting = (event cost + outreach time) / meetings booked.
+This lets you compare events objectively — kill the ones that don't convert.
+
+## Output Format
+Event outreach playbook with: attendee sourcing method, pre-event sequence,
+on-site playbook, post-event templates, and ROI measurement framework.
+
+## Related Skills
+- cold-email-strategy, cold-email-copywriting, multi-channel-outreach, social-selling, pipeline-management
