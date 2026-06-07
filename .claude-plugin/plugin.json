@@ -1,7 +1,7 @@
 {
   "name": "gtm-skills",
-  "version": "0.1.0",
-  "description": "67 production go-to-market playbooks for AI agents. Covers strategy, prospecting, outbound (cold email + cold calling), inbound, sales, analytics, automation (Clay, n8n), design, growth, and founder-led GTM. Built by LeadMagic.",
+  "version": "0.2.0",
+  "description": "81 production go-to-market playbooks for AI agents. No fluff. All proven frameworks. Covers strategy, prospecting, outbound (cold email + cold calling), inbound, sales, analytics, automation (Clay, n8n), design, growth, PLG, customer success, management, and founder-led GTM. Built by LeadMagic.",
   "author": "LeadMagic",
   "license": "MIT",
   "homepage": "https://leadmagic.io",
@@ -17,6 +17,10 @@
     "skills/design/*/SKILL.md",
     "skills/growth/*/SKILL.md",
     "skills/founder-led/*/SKILL.md",
-    "skills/leadmagic/*/SKILL.md"
+    "skills/leadmagic/*/SKILL.md",
+    "skills/management-leadership/*/SKILL.md",
+    "skills/customer-success/*/SKILL.md",
+    "skills/product-led-growth/*/SKILL.md",
+    "skills/creative/*/SKILL.md"
   ]
 }
