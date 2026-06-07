@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-06-07T20:01:07Z",
-  "total_skills": 179,
+  "generated_at": "2026-06-07T20:05:14Z",
+  "total_skills": 186,
   "skills": {
     "abm/abm-1-to-1": {
       "version": "1.0.0",
@@ -1256,6 +1256,55 @@
       "sha256": "6e3614f4848ddd84afa69360ae69b02a93e24bd4f1ffd135dd410de8621569e9",
       "size_bytes": 3313,
       "last_updated": "2026-06-07T19:21:02Z"
+    },
+    "tools/analytics-tools/analytics-toolkit": {
+      "version": "1.0.0",
+      "path": "skills/tools/analytics-tools/analytics-toolkit/SKILL.md",
+      "sha256": "bfe7c532396b10269e5861cbec7743710af5ac78d18b231232763cf0ebc8cd36",
+      "size_bytes": 3434,
+      "last_updated": "2026-06-07T20:04:12Z"
+    },
+    "tools/clay/clay-toolkit": {
+      "version": "1.0.0",
+      "path": "skills/tools/clay/clay-toolkit/SKILL.md",
+      "sha256": "474e42f1854e5a63da9e85b49ba34cda3baa674544d0e7dea818ec75902d494f",
+      "size_bytes": 5498,
+      "last_updated": "2026-06-07T20:02:59Z"
+    },
+    "tools/crm/crm-toolkit": {
+      "version": "1.0.0",
+      "path": "skills/tools/crm/crm-toolkit/SKILL.md",
+      "sha256": "a654a50327851c6eed8bee4b424f19946f008fcad944495a804c0fb5b8c29baa",
+      "size_bytes": 4133,
+      "last_updated": "2026-06-07T20:03:37Z"
+    },
+    "tools/leadmagic/leadmagic-toolkit": {
+      "version": "1.0.0",
+      "path": "skills/tools/leadmagic/leadmagic-toolkit/SKILL.md",
+      "sha256": "2649abcad08be5b2f6817b1d620e00709df1a4813f2fa86c75e3af09fd131ab4",
+      "size_bytes": 6308,
+      "last_updated": "2026-06-07T20:02:36Z"
+    },
+    "tools/n8n/n8n-toolkit": {
+      "version": "1.0.0",
+      "path": "skills/tools/n8n/n8n-toolkit/SKILL.md",
+      "sha256": "cf8225ada67b8ee7a8eb7de3755cf030ea007691cf787c17dcbbcc4569be518c",
+      "size_bytes": 3757,
+      "last_updated": "2026-06-07T20:03:17Z"
+    },
+    "tools/sequencing/sequencing-toolkit": {
+      "version": "1.0.0",
+      "path": "skills/tools/sequencing/sequencing-toolkit/SKILL.md",
+      "sha256": "a1a477d539c101ad85b5a46ac5e9867ed5aa9bc7272db4c97d333127da13b38b",
+      "size_bytes": 4360,
+      "last_updated": "2026-06-07T20:03:57Z"
+    },
+    "tools/support-tools/support-toolkit": {
+      "version": "1.0.0",
+      "path": "skills/tools/support-tools/support-toolkit/SKILL.md",
+      "sha256": "ae4ae6563f82cbb3cb11d022f36d67ff84e00ec8a55e71511953e77a43f9dedb",
+      "size_bytes": 3639,
+      "last_updated": "2026-06-07T20:04:58Z"
     }
   }
 }
