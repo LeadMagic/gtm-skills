@@ -87,6 +87,12 @@ copywriting,Copywriting,creative,"Marketing copy, landing pages, ads, headlines,
 social-media-strategy,Social Media Strategy,creative,"LinkedIn, X/Twitter, posting cadence, sizing guides, engagement",high
 graphic-design-gtm,Graphic Design GTM,creative,"Social graphics, ad creatives, data visualization, brand templates",medium
 growth-experimentation,Growth Experimentation,analytics,"ICE scoring, growth sprints, Reforge, Sean Ellis Hacking Growth",high
+ai-content-creation,AI Content Creation,creative,"AI-powered content workflows — Claude, ChatGPT, Jasper, Perplexity for blog, social, email, ads, SEO. Step-by-step prompt chain",high
+ai-video-creation,AI Video Creation,creative,"AI video for marketing — HeyGen spokespersons, Synthesia avatars, Runway B-roll, Captions editing, ElevenLabs voiceovers, Opus Clip",high
+vibe-coding,Vibe Coding,creative,"AI dev tools for GTM — v0, Cursor, Claude Code, Lovable, Bolt, Replit. Karpathy's philosophy. Build landing pages, tools, dashboards with AI",high
+vibe-marketing,Vibe Marketing,creative,"AI-powered marketing at scale — prompt-to-publish pipeline, content atomization, AI creative, campaign generation. 4-hour sprint method",high
+v0-lander,v0 Landing Pages,creative,"Step-by-step v0 by Vercel for GTM landing pages — prompts, iteration, export, deploy. Build production pages in 2-4 hours",high
+growth-hacking-tactics,Growth Hacking Tactics,creative,"25 tactics — content loops, viral mechanics, referral flywheels, PLG hacks, community growth. Sean Ellis, Reforge, Andrew Chen",high
 tool-selection-stack,Tool Selection Stack,automation,"Stage-appropriate GTM stacks, tool costs, vendor comparisons",high
 inbox-setup,Inbox Setup,outbound,"Google Workspace, M365, Azure inbox provisioning, DNS, ScaledMail, Hypertide",high
 1p-tagging-pixels,1P Tagging & Pixels,analytics,"Conversion tracking, UTMs, server-side tagging, 1P vs 3P strategy, identity pixels",high
