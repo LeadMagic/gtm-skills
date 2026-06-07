@@ -1,0 +1,22 @@
+{
+  "name": "gtm-skills",
+  "version": "0.1.0",
+  "description": "67 production go-to-market playbooks for AI agents. Covers strategy, prospecting, outbound, inbound, sales, analytics, automation, design, growth, and founder-led GTM.",
+  "author": "LeadMagic",
+  "license": "MIT",
+  "homepage": "https://leadmagic.io",
+  "repository": "https://github.com/leadmagic/gtm-skills",
+  "skills": [
+    "skills/foundation/*/SKILL.md",
+    "skills/prospecting/*/SKILL.md",
+    "skills/outbound/*/SKILL.md",
+    "skills/inbound/*/SKILL.md",
+    "skills/sales-revops/*/SKILL.md",
+    "skills/analytics/*/SKILL.md",
+    "skills/automation/*/SKILL.md",
+    "skills/design/*/SKILL.md",
+    "skills/growth/*/SKILL.md",
+    "skills/founder-led/*/SKILL.md",
+    "skills/leadmagic/*/SKILL.md"
+  ]
+}

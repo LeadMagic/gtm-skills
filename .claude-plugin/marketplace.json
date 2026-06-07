@@ -1,0 +1,13 @@
+{
+  "name": "leadmagic",
+  "description": "GTM Blueprints — Production go-to-market playbooks for AI agents. Built by the LeadMagic team.",
+  "homepage": "https://leadmagic.io",
+  "plugins": [
+    {
+      "name": "gtm-skills",
+      "description": "67 production GTM playbooks across 11 categories: strategy, prospecting, outbound, inbound, sales, analytics, automation, design, growth, and founder-led GTM.",
+      "version": "0.1.0",
+      "source": "https://github.com/leadmagic/gtm-skills"
+    }
+  ]
+}

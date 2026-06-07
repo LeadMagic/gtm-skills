@@ -1,0 +1,68 @@
+slug,name,category,description,priority
+gtm-context,GTM Context,foundation,"Capture company context, ICP, GTM motion, channels, metrics as reusable foundation",high
+icp-scoring,ICP Scoring,foundation,"Weighted multi-dimensional ICP scoring with firmographic/technographic/behavioral dimensions",high
+positioning-messaging,Positioning & Messaging,foundation,"Dunford positioning, Raskin strategic narrative, messaging matrix, category design",high
+competitive-intel,Competitive Intel,foundation,"Battlecards, competitive matrix, win/loss analysis, tech stack teardown",high
+pricing-strategy,Pricing Strategy,foundation,"Ramanujam pricing models, tier design, willingness-to-pay research",medium
+lead-finding,Lead Finding,prospecting,"Multi-source lead discovery across Apollo, Sales Nav, GitHub, job boards, conferences",high
+lead-enrichment,Lead Enrichment,prospecting,"Waterfall enrichment patterns, provider sequencing, confidence thresholds",high
+email-finding,Email Finding,prospecting,"Email discovery patterns, provider waterfall, always verify after finding",high
+contact-verification,Contact Verification,prospecting,"Pre-send verification strategy, bounce prevention, data decay management",high
+list-building,List Building,prospecting,"Clay list building, ICP filtering, Google Maps scraping, list hygiene",medium
+signal-scoring,Signal Scoring,prospecting,"4-category signal taxonomy, scoring formulas, tier routing",high
+data-enrichment-strategy,Data Enrichment Strategy,prospecting,"Provider landscape comparison, build-vs-buy, enrichment architecture",medium
+cold-email-strategy,Cold Email Strategy,outbound,"Sequence architecture, cadence design, channel mixing, trigger-based outreach",high
+cold-email-copywriting,Cold Email Copywriting,outbound,"3-line framework, subject lines, personalization tiers, persona variants",high
+email-deliverability,Email Deliverability,outbound,"SPF/DKIM/DMARC setup, warmup strategy, reputation monitoring, bounce handling",high
+domain-infrastructure,Domain Infrastructure,outbound,"Secondary domains, mailbox provisioning, DNS authentication, inbox rotation",medium
+sending-platforms,Sending Platforms,outbound,"Smartlead vs Instantly vs Salesforge vs Apollo comparison and setup",medium
+reply-handling,Reply Handling,outbound,"8-category reply classification, auto-reply playbooks, human escalation rules",medium
+multi-channel-outreach,Multi-Channel Outreach,outbound,"LinkedIn, cold calls, SMS, channel coordination, conditional sequences",medium
+inbound-triage,Inbound Triage,inbound,"Demo form triage, MQL→SQL routing, speed-to-lead, SLA design",high
+content-marketing,Content Marketing,inbound,"Content strategy by funnel stage, SEO/AEO, programmatic SEO, pillar pages",medium
+social-selling,Social Selling,inbound,"LinkedIn Sales Navigator, DM sequences, content-to-conversation, SSI scoring",medium
+landing-pages,Landing Pages,inbound,"CRO audits, hero/offer/proof/CTA patterns, conversion optimization, signup flows",medium
+sales-enablement,Sales Enablement,sales-revops,"Pitch decks, one-pagers, battlecards, demo scripts, playbooks",high
+meeting-prep,Meeting Prep,sales-revops,"Account research, attendee profiles, SPIN/MEDDIC discovery, meeting briefs",high
+pipeline-management,Pipeline Management,sales-revops,"CRM hygiene, forecasting, stage definitions with Goals + Exit Criteria",medium
+objection-handling,Objection Handling,sales-revops,"6-category taxonomy, AER framework, objection battlecards per competitor",high
+demo-scripts,Demo Scripts,sales-revops,"First demo, technical deep-dive, executive overview, scene-by-scene scripts",medium
+deal-desk,Deal Desk,sales-revops,"Pricing models, discount guidance, proposals, business case construction",medium
+campaign-analytics,Campaign Analytics,analytics,"6-layer metrics stack, diagnostic decision trees, winning copy extraction",medium
+deliverability-monitoring,Deliverability Monitoring,analytics,"Bounce tracking, spam placement, blacklist monitoring, DMARC reports",medium
+gtm-metrics,GTM Metrics,analytics,"Pipeline velocity, CAC/LTV, NRR, Rule of 40, WbD GTM Index, dashboards",high
+a-b-testing,A/B Testing,analytics,"Experiment design, statistical significance, stop/scale rules, ICE/PIE scoring",medium
+attribution,Attribution,analytics,"Multi-touch models, UTM hygiene, campaign ROI, source-of-truth reporting",low
+proactive-alerts,Proactive Alerts,analytics,"CRM pipeline alerts, buying signal alerts, Slack/email routing, risk scoring",medium
+clay-automation,Clay Automation,automation,"Clay table architecture, waterfalls, Claygent, Sculptor, CRM push, credit optimization",high
+ai-sdr-setup,AI SDR Setup,automation,"AI SDR deployment, 4-week program, signal-to-action routing, human handoff",medium
+api-enrichment,API Enrichment,automation,"REST API patterns, bulk enrichment, rate limiting, error recovery",medium
+crm-integration,CRM Integration,automation,"HubSpot/Salesforce/Attio setup, lifecycle stages, deal stage design",medium
+mcp-setup,MCP Setup,automation,"MCP server configuration, multi-MCP architecture, tool orchestration",low
+n8n-automation,n8n Automation,automation,"n8n workflow design, triggers, webhook-to-enrichment-to-CRM pipelines",medium
+waterfall-enrichment,Waterfall Enrichment,automation,"Multi-provider waterfall architecture, cost optimization, verification integration",high
+pitch-deck-builder,Pitch Deck Builder,design,"Slide-by-slide structure, persona-customized, speaker notes, visual direction",high
+one-pager-builder,One-Pager Builder,design,"Product overviews, leave-behinds, champion enablement, trade show handouts",high
+battlecard-builder,Battlecard Builder,design,"FIA framework battlecards, Why We Win/Lose, objection cards, pricing cards",high
+roi-calculator,ROI Calculator,design,"3-scenario projections, payback period, business case construction",medium
+case-study-builder,Case Study Builder,design,"Customer success stories, before/after metrics, sales-ready format",medium
+design-system-gtm,Design System GTM,design,"Brand-context for AI agents, visual identity, voice/tone, design tokens",medium
+ui-ux-gtm,UI/UX GTM,design,"Landing pages, forms, signup flows, dashboards, accessibility, conversion design",medium
+churn-prevention,Churn Prevention,growth,"Early warning signals, re-engagement campaigns, health scoring",medium
+expansion-selling,Expansion Selling,growth,"Consumption-based upsell triggers, cross-sell, NRR growth, land-and-expand",medium
+referral-programs,Referral Programs,growth,"Partner/affiliate programs, 3-tier comp structure, platform integration",low
+customer-marketing,Customer Marketing,growth,"Case studies, testimonials, customer advocacy, NPS engagement",medium
+solo-founder-gtm,Solo Founder GTM,founder-led,"Tool stacks by stage, AI agents as org, hiring triggers, bootstrapper playbooks",high
+founder-brand,Founder Brand,founder-led,"LinkedIn strategy, content cadence, newsletter growth, personal brand",medium
+launch-planning,Launch Planning,founder-led,"Launch tiers, Product Hunt playbook, 16+ channel launches, pre-launch checklist",high
+lead-magnets,Lead Magnets,founder-led,"Free tools strategy, calculators, gated content, conversion optimization",medium
+sales-team-building,Sales Team Building,founder-led,"Hiring sequence by ARR, POD structures, compensation models, REKS coaching",high
+partner-programs,Partner Programs,founder-led,"Co-marketing partnerships, integration partnerships, channel strategy",low
+investor-updates,Investor Updates,founder-led,"Monthly investor updates, pitch decks, fundraising narrative, metrics",medium
+saas-metrics-calculator,SaaS Metrics Calculator,founder-led,"Complete calculator with stage-aware benchmarks, all key SaaS metrics",high
+leadmagic-cli,LeadMagic CLI,leadmagic,"CLI workflows for enrichment, validation, bulk processing, outbound integrations",high
+leadmagic-waterfall,LeadMagic Waterfall,leadmagic,"Clay waterfall with LeadMagic, 95%+ coverage, provider chaining, verification",high
+leadmagic-mcp,LeadMagic MCP,leadmagic,"MCP server setup, 16 enrichment tools, multi-tool orchestration",medium
+leadmagic-integrations,LeadMagic Integrations,leadmagic,"LeadMagic + Clay/Apollo/Smartlead/Instantly/Salesforce/HubSpot workflows",medium
+leadmagic-bulk-enrichment,LeadMagic Bulk Enrichment,leadmagic,"CSV batch processing via API, batching strategy, webhook callbacks",medium
+leadmagic-job-change,LeadMagic Job Change,leadmagic,"Job change detection for pipeline intelligence, champion tracking",medium
