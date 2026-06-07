@@ -11,6 +11,7 @@ metadata:
   author: LeadMagic
   category: leadmagic
   tags: [leadmagic, mcp, agents, tools]
+  frameworks: [MCP Protocol Specification, Anthropic Tool Use Patterns, Agent-Enabled GTM]
 ---
 
 # LeadMagic MCP
@@ -39,3 +40,32 @@ Configure the MCP server in your agent's mcp.json. Authentication via API key. A
 ## Common Pitfalls
 1. **Using tools without verification** — always verify emails before sending.
 2. **Too many tool calls** — batch when possible instead of calling per record.
+## Output Format
+
+The agent should produce a structured deliverable:
+
+```markdown
+# [Deliverable Title]
+
+## Summary
+[1-2 sentence summary of what was produced]
+
+## Key Outputs
+- [Output item 1]
+- [Output item 2]
+- [Output item 3]
+```
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections complete
+- [ ] Output matches the user's stated need
+- [ ] No vague or unsupported claims
+- [ ] Frameworks cited where applicable
+
+## Common Pitfalls
+
+1. **Incomplete output.** The deliverable is missing critical sections. Fix: verify against the output template before delivering.
+2. **Generic advice without specifics.** "Improve your process" without concrete steps. Fix: every recommendation must have a specific action.
+3. **Missing framework citations.** Advice without named authorities. Fix: cite the specific framework that grounds each recommendation.

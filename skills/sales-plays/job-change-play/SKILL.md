@@ -77,5 +77,22 @@ with our product]. Curious if [NewCo] is dealing with similar challenges."
 Job change playbook with: detection setup, champion replacement templates, new
 role outreach sequence, CRM update workflow, and tracking dashboard.
 
+
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
+## Common Pitfalls
+
+1. **Skipping research.** Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
+2. **Generic output.** "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
+3. **Missing framework citations.** Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
+
 ## Related Skills
 - cold-email-strategy, reply-handling, pipeline-management, leadmagic-job-change, crm-integration

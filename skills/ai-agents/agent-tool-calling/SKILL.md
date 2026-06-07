@@ -99,5 +99,22 @@ Complex workflows require chaining multiple tools:
 Tool-calling strategy with: tool inventory, tool descriptions, MCP server
 architecture, tool selection logic, and composition patterns.
 
+
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
+## Common Pitfalls
+
+1. **Agent without guardrails.** An unconstrained agent can send bad emails, exceed budgets, or damage brand reputation. Fix: every agent action that touches external systems must have human approval gates.
+2. **Over-automating relationship work.** Agents are great for research and drafting, terrible for complex negotiation and relationship building. Fix: define clear human-in-the-loop boundaries.
+3. **No observability.** Agents are non-deterministic — they make different decisions on the same input. Without logging and metrics, you're operating blind. Fix: log every tool call, decision, and output.
+
 ## Related Skills
 - agent-architecture, mcp-setup, api-enrichment, crm-integration, agent-observability

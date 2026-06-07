@@ -102,5 +102,22 @@ Document the 6 core GTM processes:
 GTM Ops blueprint with: tech stack architecture, process documentation, data
 model design, operating cadence calendar, and maturity assessment.
 
+
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
+## Common Pitfalls
+
+1. **Tool sprawl without integration.** 15+ tools that don't talk to each other. Fix: CRM is the hub — everything reads from and writes to CRM. Consolidate overlapping tools.
+2. **No naming conventions.** Campaign names like "webinar_final_v2" make attribution impossible. Fix: enforce standardized naming: [Date]-[Segment]-[Channel]-[Content].
+3. **Process documented but not enforced.** CRM has stage definitions but reps skip required fields. Fix: CRM validation rules that prevent stage advancement without required data.
+
 ## Related Skills
 - tool-selection-stack, crm-integration, pipeline-management, gtm-metrics, analytics

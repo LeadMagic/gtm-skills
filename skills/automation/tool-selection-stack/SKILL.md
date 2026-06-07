@@ -90,6 +90,16 @@ Tool stack recommendation with cost breakdown, architecture diagram,
 implementation sequence (what to set up first), and quarterly audit
 checklist.
 
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
 ## Common Pitfalls
 1. **Buying enterprise tools early** — $25K ZoomInfo at $500K ARR. Start
    with Apollo, upgrade when data volume and deal size justify it.

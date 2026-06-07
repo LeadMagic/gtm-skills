@@ -79,6 +79,16 @@ Templates enable anyone on the team to produce on-brand assets.
 Design brief with asset type, dimensions, content, and brand rules. Or
 template system specification with brand guidelines.
 
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
 ## Common Pitfalls
 1. **Wrong dimensions** — a 1920x1080 graphic on LinkedIn stories is cropped.
    Always match platform-specific dimensions.

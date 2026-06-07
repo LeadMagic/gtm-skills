@@ -14,6 +14,7 @@ metadata:
   author: LeadMagic
   category: founder-led
   tags: [brand, design, logo, identity, visual, guidelines]
+  frameworks: [Marty Neumeier Brand Gap, David Aaker Brand Identity, April Dunford Positioning]
   related_skills: [design-system-gtm, graphic-design-gtm, pitch-deck-builder, ui-ux-gtm]
 ---
 

@@ -84,6 +84,16 @@ in DMs, not just public posts.
 Social media strategy with platform mix, content calendar (weekly), sizing
 cheat sheet, engagement playbook, and 30-day posting plan.
 
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
 ## Common Pitfalls
 1. **Company page as primary** — people follow people, not companies. Founder
    and employee profiles outperform company pages 10:1.

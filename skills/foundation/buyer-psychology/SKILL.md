@@ -142,6 +142,16 @@ Buyer psychology playbook with: decision map, transparency application points,
 Cialdini principle-to-tactic mapping, friction audit, and trust mechanics
 checklist.
 
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
 ## Common Pitfalls
 
 1. **Hiding flaws creates suspicion.** Buyers fill information gaps with

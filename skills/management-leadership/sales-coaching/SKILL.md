@@ -65,6 +65,16 @@ to improve next call, one thing to keep doing.
 Coaching system with cadence calendar, REKS diagnostic template, deal
 review scorecard, call coaching rubric, and 1:1 agenda template.
 
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
 ## Common Pitfalls
 1. **Coaching without diagnosis** — telling a rep to "do more prospecting"
    when they actually don't know how to qualify is wasted coaching.

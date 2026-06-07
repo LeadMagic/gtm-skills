@@ -10,6 +10,7 @@ metadata:
   author: LeadMagic
   category: leadmagic
   tags: [leadmagic, bulk, csv, batch, enrichment]
+  frameworks: [GTMLens Bulk Enrichment, CSV Batching Best Practices]
 ---
 
 # LeadMagic Bulk Enrichment
@@ -38,6 +39,16 @@ Enriched and verified records push to CRM with status tracking. Only verified-va
 
 ## Output Format
 Enriched CSV with new columns for found emails, verification status, and enrichment metadata.
+
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
 
 ## Common Pitfalls
 1. **Batch size too large** — 25-50 per batch prevents timeouts.

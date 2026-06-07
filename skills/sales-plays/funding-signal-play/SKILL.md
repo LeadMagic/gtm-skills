@@ -92,5 +92,22 @@ have 2-3x higher reply rates due to timing relevance.
 Funding play playbook with: signal monitoring setup, research template, 5-touch
 sequence with templates, and measurement dashboard.
 
+
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
+## Common Pitfalls
+
+1. **Skipping research.** Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
+2. **Generic output.** "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
+3. **Missing framework citations.** Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
+
 ## Related Skills
 - cold-email-strategy, cold-email-copywriting, signal-scoring, list-building, multi-channel-outreach

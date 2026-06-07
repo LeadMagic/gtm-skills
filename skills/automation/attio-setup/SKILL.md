@@ -13,6 +13,7 @@ metadata:
   author: LeadMagic
   category: automation
   tags: [attio, crm, setup, programmable, modern]
+  frameworks: [Attio Programmable CRM Model, Modern CRM Architecture]
   related_skills: [crm-integration, pipeline-management, hubspot-setup, salesforce-setup]
 ---
 

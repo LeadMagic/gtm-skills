@@ -9,6 +9,7 @@ metadata:
   author: LeadMagic
   category: automation
   tags: [mcp, agents, tools, integration]
+  frameworks: [MCP Protocol Specification, Anthropic Tool Use Design Patterns]
 ---
 # MCP Setup
 
@@ -40,3 +41,32 @@ Design the agent's workflow: research account → enrich contacts → score agai
 1. **Too many tools.** An agent with 50 tools can't decide what to use. Curate.
 2. **No confirmation gates.** Agent sending email without human review = risk.
 3. **Single MCP server.** Different providers need different MCP servers.
+## Output Format
+
+The agent should produce a structured deliverable:
+
+```markdown
+# [Deliverable Title]
+
+## Summary
+[1-2 sentence summary of what was produced]
+
+## Key Outputs
+- [Output item 1]
+- [Output item 2]
+- [Output item 3]
+```
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections complete
+- [ ] Output matches the user's stated need
+- [ ] No vague or unsupported claims
+- [ ] Frameworks cited where applicable
+
+## Common Pitfalls
+
+1. **Incomplete output.** The deliverable is missing critical sections. Fix: verify against the output template before delivering.
+2. **Generic advice without specifics.** "Improve your process" without concrete steps. Fix: every recommendation must have a specific action.
+3. **Missing framework citations.** Advice without named authorities. Fix: cite the specific framework that grounds each recommendation.

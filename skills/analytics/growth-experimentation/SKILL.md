@@ -75,6 +75,16 @@ and losers. Build a searchable learning repository.
 Experimentation system with North Star Metric definition, ICE backlog,
 sprint calendar, experiment design template, and learning repository structure.
 
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
 ## Common Pitfalls
 1. **Tests too large** — redesigning entire onboarding (4 weeks to build)
    loses to testing a single screen change (2 days). Small tests = fast

@@ -173,6 +173,16 @@ Tier targeting playbook with: tier definitions, account scoring model,
 motion assignment matrix, messaging by tier, sales process by tier, and
 collision handling rules.
 
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
 ## Common Pitfalls
 
 1. **Segmenting by employee count only.** A 30-person cybersecurity company

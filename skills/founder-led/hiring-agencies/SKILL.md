@@ -13,6 +13,7 @@ metadata:
   author: LeadMagic
   category: founder-led
   tags: [agencies, outsourcing, gtm, marketing, development]
+  frameworks: [Agency Selection Framework, SaaStr Agency Hiring Guide]
   related_skills: [hiring-contractors, sales-team-building, tool-selection-stack]
 ---
 
@@ -104,6 +105,16 @@ Score agencies on 5 dimensions:
 
 Agency evaluation with: decision framework (agency vs in-house), shortlist
 with scores on 5 dimensions, pilot scope and metrics, and budget recommendation.
+
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
 
 ## Common Pitfalls
 

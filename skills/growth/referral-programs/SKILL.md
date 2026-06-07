@@ -92,6 +92,36 @@ Friendbuy. For B2B SaaS: PartnerStack or Rewardful.
 4. **Too complex.** 5-step referral funnel with verification. Fix: One
    click to generate link. One click to share. Automated tracking.
 
+
+## Output Format
+
+The agent should produce a structured deliverable:
+
+```markdown
+# [Deliverable Title]
+
+## Summary
+[1-2 sentence summary of what was produced]
+
+## Key Outputs
+- [Output item 1]
+- [Output item 2]
+- [Output item 3]
+```
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections complete
+- [ ] Output matches the user's stated need
+- [ ] No vague or unsupported claims
+- [ ] Frameworks cited where applicable
+
+## Common Pitfalls
+
+1. **Incomplete output.** The deliverable is missing critical sections. Fix: verify against the output template before delivering.
+2. **Generic advice without specifics.** "Improve your process" without concrete steps. Fix: every recommendation must have a specific action.
+3. **Missing framework citations.** Advice without named authorities. Fix: cite the specific framework that grounds each recommendation.
 ## Related Skills
 
 - `customer-marketing` — Customer advocacy ladder

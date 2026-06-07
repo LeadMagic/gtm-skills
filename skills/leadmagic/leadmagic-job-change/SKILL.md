@@ -11,6 +11,7 @@ metadata:
   author: LeadMagic
   category: leadmagic
   tags: [leadmagic, job-change, champion-tracking, signals]
+  frameworks: [Signal-Based Selling, Champion Tracking Methodology, ColdIQ Trigger Selling]
 ---
 
 # LeadMagic Job Change Detection
@@ -42,6 +43,16 @@ When a contact changes jobs:
 
 ## Output Format
 Job change alert with contact details, old role, new role, new company, and recommended action.
+
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
 
 ## Common Pitfalls
 1. **No champion tracking** — champion departure is the #1 churn predictor and missed expansion opportunity.

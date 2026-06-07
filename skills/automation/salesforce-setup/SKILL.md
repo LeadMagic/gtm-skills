@@ -13,6 +13,7 @@ metadata:
   author: LeadMagic
   category: automation
   tags: [salesforce, crm, setup, enterprise, sales]
+  frameworks: [Salesforce Architecture, Opportunity Pipeline Model, Force.com Platform]
   related_skills: [crm-integration, pipeline-management, hubspot-setup, attio-setup]
 ---
 

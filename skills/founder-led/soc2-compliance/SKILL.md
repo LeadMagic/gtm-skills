@@ -155,6 +155,16 @@ Drata, Secureframe) connect to your tools and collect evidence automatically.
 SOC2 readiness plan with: scope definition (which criteria), control matrix
 (gap analysis), implementation timeline, auditor shortlist, and budget estimate.
 
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
 ## Common Pitfalls
 
 1. **Starting too early.** SOC2 at $500K ARR with no enterprise pipeline is

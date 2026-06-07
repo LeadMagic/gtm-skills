@@ -70,6 +70,16 @@ sounds like marketing, rewrite it.
 Copy deliverable with headline variants, body copy, CTA options, and
 framework annotation explaining why each choice was made.
 
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
 ## Common Pitfalls
 1. **Writing for everyone** — copy that appeals to "business leaders"
    appeals to no one. Write for one specific person.

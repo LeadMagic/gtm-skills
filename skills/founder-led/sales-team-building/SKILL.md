@@ -146,6 +146,16 @@ Sales team building plan with: GTM Index self-assessment, hiring sequence
 timeline, org chart, POD design, compensation model per role, ramp plan
 template, and REKS coaching framework.
 
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
 ## Common Pitfalls
 
 1. **VP Sales before $2M ARR.** 70% failure rate. Cost: $300-500K in comp +

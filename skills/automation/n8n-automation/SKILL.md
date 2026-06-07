@@ -11,6 +11,7 @@ metadata:
   author: LeadMagic
   category: automation
   tags: [n8n, automation, workflows, pipelines]
+  frameworks: [n8n Workflow Automation Framework, iPaaS Integration Patterns]
   related_skills: [clay-automation, api-enrichment, crm-integration]
 ---
 
@@ -64,6 +65,16 @@ Trigger → Enrichment → Scoring → Routing → CRM Push → Notification
 
 n8n workflow JSON export with node documentation, error handling rules, and
 maintenance guide.
+
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
 
 ## Common Pitfalls
 

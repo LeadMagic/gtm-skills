@@ -107,5 +107,22 @@ Every agent action must be auditable:
 Guardrail specification with: content filtering rules, approval gate matrix,
 rate limiting configuration, kill switch architecture, and audit trail design.
 
+
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
+## Common Pitfalls
+
+1. **Agent without guardrails.** An unconstrained agent can send bad emails, exceed budgets, or damage brand reputation. Fix: every agent action that touches external systems must have human approval gates.
+2. **Over-automating relationship work.** Agents are great for research and drafting, terrible for complex negotiation and relationship building. Fix: define clear human-in-the-loop boundaries.
+3. **No observability.** Agents are non-deterministic — they make different decisions on the same input. Without logging and metrics, you're operating blind. Fix: log every tool call, decision, and output.
+
 ## Related Skills
 - agent-architecture, agent-observability, agent-tool-calling, email-deliverability, gtm-operations

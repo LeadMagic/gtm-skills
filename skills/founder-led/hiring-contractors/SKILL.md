@@ -14,6 +14,7 @@ metadata:
   author: LeadMagic
   category: founder-led
   tags: [hiring, contractors, freelance, outsourcing, startup]
+  frameworks: [Freelance Talent Management, Upwork Enterprise Patterns]
   related_skills: [hiring-agencies, building-saas, solo-founder-gtm]
 ---
 
@@ -113,6 +114,16 @@ compliance, payments), Gusto (US contractors).
 
 Contractor engagement plan with: role spec, sourcing strategy, rate range,
 contract template highlights, test project scope, and management cadence.
+
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
 
 ## Common Pitfalls
 

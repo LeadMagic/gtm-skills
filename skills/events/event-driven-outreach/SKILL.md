@@ -69,5 +69,22 @@ This lets you compare events objectively — kill the ones that don't convert.
 Event outreach playbook with: attendee sourcing method, pre-event sequence,
 on-site playbook, post-event templates, and ROI measurement framework.
 
+
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
+## Common Pitfalls
+
+1. **No pre-event outreach.** Showing up to a conference without booked meetings wastes the investment. Fix: scrape attendee lists, research targets, and book meetings 2-3 weeks before.
+2. **Booth staff without training.** Untrained staff give generic demos and fail to qualify. Fix: train on qualification questions, demo flow, and data entry before the event.
+3. **No post-event follow-up system.** Leads go cold within 48 hours. Fix: Day 1 personalized follow-up, Day 3 value-add, Day 7 soft CTA.
+
 ## Related Skills
 - cold-email-strategy, cold-email-copywriting, multi-channel-outreach, social-selling, pipeline-management

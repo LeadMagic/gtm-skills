@@ -85,6 +85,16 @@ Drop providers contributing less than 5% incremental coverage.
 Waterfall architecture document with provider ordering, conditions, credit
 costs, expected coverage per stage, and verification integration.
 
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
 ## Common Pitfalls
 
 1. **One giant waterfall for everything.** Different data types need

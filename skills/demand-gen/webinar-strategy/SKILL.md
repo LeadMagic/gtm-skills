@@ -76,5 +76,22 @@ Valid topics pass three tests:
 Webinar plan with: topic validation, speaker brief, 21-day promotion calendar,
 production run-of-show, and post-webinar pipeline sequence.
 
+
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
+## Common Pitfalls
+
+1. **Webinar as product demo.** Prospects attend for insights, not a sales pitch. Fix: 80% educational content, 20% product mention. Lead with counterintuitive insights.
+2. **One-and-done syndication.** Publishing once and moving on. Fix: one pillar piece → 15+ derivatives across channels over 30 days.
+3. **Measuring paid social on clicks.** Clicks and CPL don't equal pipeline. Fix: track pipeline generated and cost per opportunity from each channel.
+
 ## Related Skills
 - content-marketing, social-media-strategy, inbound-triage, pipeline-management, sales-enablement

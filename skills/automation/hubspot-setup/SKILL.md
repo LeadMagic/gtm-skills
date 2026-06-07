@@ -13,6 +13,7 @@ metadata:
   author: LeadMagic
   category: automation
   tags: [hubspot, crm, setup, marketing, sales]
+  frameworks: [HubSpot Smart CRM Framework, Lifecycle Stage Model]
   related_skills: [crm-integration, pipeline-management, salesforce-setup, attio-setup]
 ---
 

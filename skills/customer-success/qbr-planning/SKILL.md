@@ -61,6 +61,16 @@ about them — not you.
 QBR deck template, value documentation template, stakeholder map, and
 pre-QBR checklist.
 
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
 ## Common Pitfalls
 1. **Product update disguised as QBR** — executives don't care about
    feature releases. They care about business outcomes.

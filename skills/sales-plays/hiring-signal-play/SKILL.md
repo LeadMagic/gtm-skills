@@ -78,5 +78,22 @@ Angle: You understand their world because you've seen this transition before.
 Hiring play playbook with: signal monitoring setup, role-to-relevance mapping,
 timing strategy, CEO and new hire sequence templates, and multi-thread calendar.
 
+
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
+## Common Pitfalls
+
+1. **Skipping research.** Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
+2. **Generic output.** "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
+3. **Missing framework citations.** Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
+
 ## Related Skills
 - cold-email-strategy, signal-scoring, list-building, multi-channel-outreach, job-change-play

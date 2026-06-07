@@ -9,6 +9,7 @@ metadata:
   author: LeadMagic
   category: automation
   tags: [ai-sdr, automation, prospecting, ai-agents]
+  frameworks: [11x AI SDR Deployment Model, ColdIQ Signal-to-Action Routing]
 ---
 # AI SDR Setup
 
@@ -43,6 +44,16 @@ AI SDRs handle prospecting research, email drafting, and sequence management at 
 
 ## Output Format
 AI SDR deployment plan with 4-week timeline, signal routing rules, handoff triggers, compliance checklist, and performance baseline metrics.
+
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
 
 ## Common Pitfalls
 1. **No human review in week 1-2.** AI generates plausible-sounding but wrong content.

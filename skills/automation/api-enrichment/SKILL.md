@@ -9,6 +9,7 @@ metadata:
   author: LeadMagic
   category: automation
   tags: [api, enrichment, automation, pipelines]
+  frameworks: [REST API Best Practices, Bulk Enrichment Patterns, GTMLens Waterfall Architecture]
 ---
 # API Enrichment
 
@@ -44,3 +45,32 @@ Track: enrichment coverage %, API latency, error rate, cost per enriched record.
 2. **Single-threaded processing.** 100K records at 1s each = 27 hours. Parallelize.
 3. **Error swallowing.** Silent failures mean missing data nobody knows about.
 4. **No cost tracking.** API costs scale with volume. Track per-record cost.
+## Output Format
+
+The agent should produce a structured deliverable:
+
+```markdown
+# [Deliverable Title]
+
+## Summary
+[1-2 sentence summary of what was produced]
+
+## Key Outputs
+- [Output item 1]
+- [Output item 2]
+- [Output item 3]
+```
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections complete
+- [ ] Output matches the user's stated need
+- [ ] No vague or unsupported claims
+- [ ] Frameworks cited where applicable
+
+## Common Pitfalls
+
+1. **Incomplete output.** The deliverable is missing critical sections. Fix: verify against the output template before delivering.
+2. **Generic advice without specifics.** "Improve your process" without concrete steps. Fix: every recommendation must have a specific action.
+3. **Missing framework citations.** Advice without named authorities. Fix: cite the specific framework that grounds each recommendation.

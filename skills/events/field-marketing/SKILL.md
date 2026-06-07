@@ -83,5 +83,22 @@ opportunity of any GTM channel you run.
 Field marketing plan with: event format selection, invite list and sequence,
 venue brief, run-of-show, executive engagement plan, and pipeline tracking.
 
+
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
+## Common Pitfalls
+
+1. **No pre-event outreach.** Showing up to a conference without booked meetings wastes the investment. Fix: scrape attendee lists, research targets, and book meetings 2-3 weeks before.
+2. **Booth staff without training.** Untrained staff give generic demos and fail to qualify. Fix: train on qualification questions, demo flow, and data entry before the event.
+3. **No post-event follow-up system.** Leads go cold within 48 hours. Fix: Day 1 personalized follow-up, Day 3 value-add, Day 7 soft CTA.
+
 ## Related Skills
 - event-driven-outreach, conference-strategy, abm-strategy, pipeline-management, sales-enablement

@@ -9,6 +9,7 @@ metadata:
   author: LeadMagic
   category: automation
   tags: [crm, hubspot, salesforce, attio, integration]
+  frameworks: [HubSpot CRM Best Practices, Salesforce Architecture, Attio Object Model]
 ---
 # CRM Integration
 
@@ -43,3 +44,32 @@ Configure deal pipeline stages with required fields per stage (Amount, Close Dat
 2. **Too many required fields** — reps skip CRM updates entirely.
 3. **CRM as the process** — design the process first, then configure CRM.
 4. **No enrichment integration** — reps manually research every lead.
+## Output Format
+
+The agent should produce a structured deliverable:
+
+```markdown
+# [Deliverable Title]
+
+## Summary
+[1-2 sentence summary of what was produced]
+
+## Key Outputs
+- [Output item 1]
+- [Output item 2]
+- [Output item 3]
+```
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections complete
+- [ ] Output matches the user's stated need
+- [ ] No vague or unsupported claims
+- [ ] Frameworks cited where applicable
+
+## Common Pitfalls
+
+1. **Incomplete output.** The deliverable is missing critical sections. Fix: verify against the output template before delivering.
+2. **Generic advice without specifics.** "Improve your process" without concrete steps. Fix: every recommendation must have a specific action.
+3. **Missing framework citations.** Advice without named authorities. Fix: cite the specific framework that grounds each recommendation.

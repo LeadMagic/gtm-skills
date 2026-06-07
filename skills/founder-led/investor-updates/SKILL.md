@@ -13,6 +13,7 @@ metadata:
   author: LeadMagic
   category: founder-led
   tags: [investors, updates, fundraising, board, communication]
+  frameworks: [YC Investor Update Template, Jason Lemkin SaaStr Board Deck, David Skok VC Dashboard]
   related_skills: [saas-metrics-calculator, building-saas, exiting-company]
 ---
 

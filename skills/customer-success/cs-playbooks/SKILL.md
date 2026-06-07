@@ -71,6 +71,16 @@ questions, willingness to be a reference.
 CS playbook with journey map, health score model, CSQL definitions, and
 stage-specific play templates.
 
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
 ## Common Pitfalls
 1. **Measuring activity, not outcomes** — logins are not value. Map customer
    Desired Outcomes and measure progress toward them.

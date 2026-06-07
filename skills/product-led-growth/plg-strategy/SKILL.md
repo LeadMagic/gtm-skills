@@ -74,6 +74,16 @@ vs cash burned ratio.
 PLG strategy with model recommendation, PQL scoring model, activation
 funnel map, and PLG metrics dashboard.
 
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
 ## Common Pitfalls
 1. **PLG without product readiness** — 97% want to try before buying, but
    only if the product delivers value in the trial window.

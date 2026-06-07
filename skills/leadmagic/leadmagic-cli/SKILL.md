@@ -14,6 +14,7 @@ metadata:
   author: LeadMagic
   category: leadmagic
   tags: [leadmagic, cli, automation, enrichment, batch-processing]
+  frameworks: [CLI Design Patterns, Enrichment Workflow Automation]
   related_skills: [leadmagic-waterfall, leadmagic-integrations, api-enrichment]
 ---
 
@@ -106,6 +107,16 @@ lm integrations smartlead push --campaign main_campaign
 Commands produce structured JSON or CSV output. All results include source
 attribution and confidence indicators. Pipe into other tools or import into
 spreadsheets.
+
+
+## Quality Check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
 
 ## Common Pitfalls
 
