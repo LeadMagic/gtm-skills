@@ -20,7 +20,7 @@ metadata:
     - email-deliverability
     - domain-infrastructure
     - reply-handling
-  frameworks: []
+  frameworks: [ColdIQ Multi-Channel Cadence, Eric Nowoslawski Cold Email Infrastructure, Jed Mahrle Practical Prospecting, Jesse Ouellette Deliverability at Scale]
 ---
 
 # Sending Platforms
