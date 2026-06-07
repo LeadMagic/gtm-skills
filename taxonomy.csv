@@ -90,3 +90,8 @@ soc2-compliance,SOC2 Compliance,founder-led,"SOC2 Type II readiness, controls, a
 exiting-company,Exiting a Company,founder-led,"Acquisition prep, valuation drivers, due diligence, exit timeline",medium
 hiring-contractors,Hiring Contractors,founder-led,"Freelance talent, IP assignment, rates, management practices",high
 hiring-agencies,Hiring Agencies,founder-led,"Agency selection, engagement structure, outbound, dev shops, ROI measurement",high
+hubspot-setup,HubSpot Setup,automation,"CRM, deal pipelines, lifecycle stages, marketing automation, enrichment",high
+salesforce-setup,Salesforce Setup,automation,"Object model, opportunity pipelines, Flows automation, reports, enrichment",high
+attio-setup,Attio Setup,automation,"Programmable CRM, objects, lists, workflows, enrichment integration",high
+brand-kit,Brand Kit,founder-led,"Logo design, color palette, typography, voice and tone, asset templates",high
+events-planning,Events Planning,founder-led,"Conferences, webinars, dinners, trade shows, attendee-to-pipeline ROI",high
