@@ -71,7 +71,7 @@ A complete operating system for your AI agent's GTM brain. Every skill cites the
 
 ## Who Built This
 
-GTM Blueprints is built and maintained by **[Jesse Ouellette](https://leadmagic.io)** — AI growth expert, email delivery infrastructure operator, and bootstrapped SaaS founder of [LeadMagic](https://leadmagic.io).
+GTM Blueprints is built and maintained by **Jesse Ouellette** — AI growth expert, email delivery infrastructure operator, and bootstrapped SaaS founder of [LeadMagic](https://leadmagic.io).
 
 Every skill in this library draws from battle-tested operator experience — not theory, not consulting decks, not content marketing.
 
@@ -155,4 +155,4 @@ Several skills reference LeadMagic as an optional tool for email finding, valida
 
 ## License
 
-MIT — use freely, modify, distribute. Built by [Jesse Ouellette](https://leadmagic.io) and [LeadMagic](https://leadmagic.io).
+MIT — use freely, modify, distribute. Built by Jesse Ouellette and [LeadMagic](https://leadmagic.io).
