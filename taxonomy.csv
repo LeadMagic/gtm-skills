@@ -104,6 +104,13 @@ content-distribution,Content Distribution,creative,"Multi-channel distribution, 
 building-saas,Building a SaaS,founder-led,"SaaS from idea to scale, architecture, pricing, hiring, infrastructure",high
 soc2-compliance,SOC2 Compliance,founder-led,"SOC2 Type II readiness, controls, auditor selection, evidence collection",medium
 exiting-company,Exiting a Company,founder-led,"Acquisition prep, valuation drivers, due diligence, exit timeline",medium
+equity-management,Equity Management,founder-led,"Cap tables, 409A valuations, ISO/NSO/RSU, option pools, 83(b), dilution modeling, equity grant guidelines. Carta/Pulley",high
+business-insurance,Business Insurance,founder-led,"SaaS insurance guide — E&O, Cyber, D&O, GL, Workers Comp, EPLI, Key Person. Stage-based timelines, costs, brokers",high
+data-privacy-compliance,Data Privacy Compliance,founder-led,"GDPR, CCPA/CPRA, ePrivacy, cookie consent, DPAs, SCCs, DSARs, breach notification. Step-by-step roadmap",high
+legal-for-founders,Legal For Founders,founder-led,"Incorporation (DE C-Corp), IP assignment, ToS, Privacy Policy, NDAs, SAFEs, 83(b). YC/Clerky/CooleyGO resources",high
+security-assessments,Security Assessments,founder-led,"Pen testing, vulnerability scanning, bug bounty, security questionnaires (VSAQ/SIG/CAIQ), incident response, trust centers",high
+employment-compliance,Employment Compliance,founder-led,"Contractor vs employee, offer letters, PIIAs, employee handbooks, termination, multi-state hiring, international EOR",high
+vendor-contracts,Vendor Contracts,founder-led,"MSA, Order Form, SLA, DPA templates. Contract negotiation playbooks. Vendor procurement and security reviews",high
 hiring-contractors,Hiring Contractors,founder-led,"Freelance talent, IP assignment, rates, management practices",high
 hiring-agencies,Hiring Agencies,founder-led,"Agency selection, engagement structure, outbound, dev shops, ROI measurement",high
 hubspot-setup,HubSpot Setup,automation,"CRM, deal pipelines, lifecycle stages, marketing automation, enrichment",high
