@@ -1,6 +1,6 @@
 # GTM Blueprints
 
-**188 production go-to-market playbooks for AI agents.** Stop guessing. Start executing. Every playbook is grounded in named methodologies from the people who built modern revenue science — not recycled blog posts.
+**189 production go-to-market playbooks for AI agents.** Stop guessing. Start executing. Every playbook is grounded in named methodologies from the people who built modern revenue science — not recycled blog posts.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Skills](https://img.shields.io/badge/skills-188-blue)](skills/)
@@ -22,11 +22,11 @@ Most "GTM skills" repos are AI-generated slop — generic advice dressed up as p
 
 A complete operating system for your AI agent's GTM brain. Every skill cites the specific framework it applies. Every skill was written by someone who has done the thing — sent the cold email, built the deliverability infrastructure, ran the ABM play, closed the deal.
 
-**188 skills. 26 categories. 0 filler.**
+**189 skills. 26 categories. 0 filler.**
 
 | Category | Skills | What you get |
 |---|---|---|
-| `foundation` | 7 | ICP scoring, positioning, pricing, competitive intel, buyer psychology, GTM context, skill usage guide |
+| `foundation` | 8 | ICP scoring, ICP targeting tiers (SMB/mid-market/enterprise), positioning, pricing, competitive intel, buyer psychology, GTM context, skill usage guide |
 | `prospecting` | 7 | Lead finding, enrichment, email discovery, contact verification, list building, signal scoring |
 | `outbound` | 9 | Cold email strategy + copywriting, cold calling, deliverability, domain infrastructure, inbox setup, sending platforms, multi-channel, reply handling |
 | `inbound` | 4 | Inbound triage, content marketing, social selling, landing pages |
@@ -93,7 +93,8 @@ Skills are grounded in named methodologies from the people who invented modern r
 | **Jesse Ouellette** (LeadMagic) | AI growth engineering, email deliverability at scale, bootstrapped SaaS GTM | Outbound, founder-led, automation |
 | **Eric Nowoslawski** (Growth Engine X) | Cold email infrastructure at scale | Outbound, deliverability |
 | **Jed Mahrle** (Practical Prospecting) | Cold email infrastructure, newsletter | Outbound, copywriting |
-| **OpenView** (Bartlett, Poyar) | Product-led growth framework | PLG |
+| **OpenView** (Bartlett, Poyar) | Product-led growth framework, company size segmentation | PLG, foundation |
+| **Jason Lemkin** (SaaStr) | ACV-based sales hiring thresholds, tier-specific GTM | Founder-led, foundation |
 | **Wes Bush** (ProductLed) | PLG maturity, freemium optimization | PLG |
 | **Gainsight** (Nick Mehta) | CS Index, CSQL framework | Customer success |
 | **Lincoln Murphy** | Desired Outcome framework | Customer success |
@@ -137,10 +138,10 @@ Works with 12 AI systems: Claude Code · Cursor · OpenAI Codex · Hermes Agent 
 ## Share This
 
 ```text
-Just found the most comprehensive GTM skill library for AI agents — 188 playbooks across 26 categories. Built by operators running public GTM operating systems, not content marketers. Works with Claude Code, Cursor, Codex, Hermes. github.com/leadmagic/gtm-skills
+Just found the most comprehensive GTM skill library for AI agents — 189 playbooks across 26 categories. Built by operators running public GTM operating systems, not content marketers. Works with Claude Code, Cursor, Codex, Hermes. github.com/leadmagic/gtm-skills
 ```
 
-[Share on X/Twitter](https://twitter.com/intent/tweet?text=Just%20found%20the%20most%20comprehensive%20GTM%20skill%20library%20for%20AI%20agents%20%E2%80%94%20188%20playbooks%20across%2026%20categories.%20Sales,%20marketing,%20CS,%20ABM,%20AI%20agents.%20Works%20with%20Claude%20Code,%20Cursor,%20Codex,%20Hermes.&url=https://github.com/leadmagic/gtm-skills) · [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/leadmagic/gtm-skills)
+[Share on X/Twitter](https://twitter.com/intent/tweet?text=Just%20found%20the%20most%20comprehensive%20GTM%20skill%20library%20for%20AI%20agents%20%E2%80%94%20189%20playbooks%20across%2026%20categories.%20Sales,%20marketing,%20CS,%20ABM,%20AI%20agents.%20Works%20with%20Claude%20Code,%20Cursor,%20Codex,%20Hermes.&url=https://github.com/leadmagic/gtm-skills) · [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/leadmagic/gtm-skills)
 
 ---
 

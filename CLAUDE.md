@@ -1,6 +1,6 @@
 # GTM Blueprints
 
-188 go-to-market skills for AI agents. Install into Claude Code, then ask for anything.
+189 go-to-market skills for AI agents. Install into Claude Code, then ask for anything.
 
 ## Skills Index
 
@@ -98,11 +98,12 @@
 - **event-driven-outreach** — >-
 - **field-marketing** — >-
 
-### foundation (7)
+### foundation (8)
 - **buyer-psychology** — >-
 - **competitive-intel** — >-
 - **gtm-context** — >-
 - **icp-scoring** — >-
+- **icp-targeting-tiers** — >-
 - **positioning-messaging** — >-
 - **pricing-strategy** — >-
 - **using-gtm-skills** — >-

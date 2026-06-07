@@ -1,6 +1,6 @@
 # GTM Blueprints — Agent Skills
 
-188 go-to-market skills for AI coding agents. Works with Claude Code, Cursor, Codex, Windsurf, Hermes, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose.
+189 go-to-market skills for AI coding agents. Works with Claude Code, Cursor, Codex, Windsurf, Hermes, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose.
 
 ## Install
 
@@ -25,7 +25,7 @@ cp -r skills/* .claude/skills/
 - **demand-gen** (4 skills)
 - **design** (7 skills)
 - **events** (3 skills)
-- **foundation** (7 skills)
+- **foundation** (8 skills)
 - **founder-led** (37 skills)
 - **growth** (4 skills)
 - **gtm-ops** (3 skills)
