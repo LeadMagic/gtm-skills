@@ -51,13 +51,20 @@ on:
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       contents: read
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
@@ -65,8 +72,8 @@ jobs:
         run: |
           node --check scripts/validate-skills.js
           node --check scripts/generate-indexes.js
-          python3 -m py_compile scripts/generate-skills-lock.py scripts/install-tui.py
-      - name: Validate skills and lock
+          python3 -m py_compile scripts/generate-skills-lock.py scripts/install-tui.py scripts/public-repo-audit.py
+      - name: Validate skills, lock, installer, and public hygiene
         run: npm run check
       - name: Verify generated files are current
         run: |

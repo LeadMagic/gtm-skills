@@ -4,17 +4,33 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 5
     labels:
       - dependencies
       - github-actions
     commit-message:
       prefix: "ci"
+    groups:
+      github-actions:
+        patterns:
+          - "*"
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
+      day: "monday"
+      time: "09:15"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 5
     labels:
       - dependencies
       - npm
     commit-message:
       prefix: "deps"
+    groups:
+      npm-dependencies:
+        patterns:
+          - "*"

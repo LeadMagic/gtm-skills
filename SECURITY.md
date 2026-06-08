@@ -34,7 +34,18 @@ This repository is intentionally static:
 - No package install is required to read skills.
 - The installer is dependency-free Python.
 - `skills.lock` records SHA256 hashes for every marketplace-discoverable skill.
-- CI validates structure, lockfile integrity, generated docs drift, installer dry-run, and publish dry-run.
+- CI validates structure, lockfile integrity, generated docs drift, installer dry-run, public repository hygiene, and publish dry-run.
+
+## Public Repository Controls
+
+The public repo is expected to keep these controls enabled:
+
+- Secret scanning, non-provider pattern detection, validity checks, and push protection.
+- Dependabot alerts and security updates.
+- CodeQL/default code scanning for JavaScript/TypeScript, Python, and GitHub Actions.
+- Main-branch protection requiring status checks before merge.
+- Least-privilege GitHub Actions permissions (`contents: read`) for validation.
+- No merge commits; use squash or rebase so public history stays readable.
 
 ## No Telemetry
 

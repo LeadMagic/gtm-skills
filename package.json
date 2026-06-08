@@ -49,9 +49,10 @@
     "build": "node scripts/generate-indexes.js && python3 scripts/generate-skills-lock.py",
     "check:lock": "python3 scripts/generate-skills-lock.py --check",
     "check:install": "python3 scripts/install-tui.py --target cursor --project /tmp/gtm-skills-install-test --dry-run",
-    "check": "node scripts/validate-skills.js && python3 scripts/generate-skills-lock.py --check && python3 scripts/install-tui.py --target cursor --project /tmp/gtm-skills-install-test --dry-run",
+    "check:public": "python3 scripts/public-repo-audit.py",
+    "check": "node scripts/validate-skills.js && python3 scripts/generate-skills-lock.py --check && python3 scripts/install-tui.py --target cursor --project /tmp/gtm-skills-install-test --dry-run && python3 scripts/public-repo-audit.py",
     "publish:dry-run": "gh skill publish --dry-run",
-    "lint": "node scripts/validate-skills.js",
+    "lint": "node scripts/validate-skills.js && python3 scripts/public-repo-audit.py",
     "install:tui": "python3 scripts/install-tui.py",
     "install:dry-run": "python3 scripts/install-tui.py --target all --dry-run",
     "verify": "npm run check"
