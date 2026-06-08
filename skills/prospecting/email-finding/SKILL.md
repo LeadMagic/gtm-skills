@@ -85,7 +85,7 @@ Order providers by cost-per-hit for the user's specific ICP segment:
 | ZoomInfo | Enterprise, Fortune 5000 | 30-40% incremental | High, annual contract |
 | People Data Labs | Technical roles, EU, early-stage | 10-18% incremental | Moderate, API credits |
 | Hunter.io | Domain-pattern matching | 15-25% | Low, per-request |
-| Dropcontact | GDPR-compliant, EU | 10-20% | Moderate |
+| EU-compliant email provider | GDPR-compliant, EU | 10-20% | Moderate |
 | Claygent (Clay) | Founders, execs, web-visible | 5-15% incremental | Credits per search |
 
 Build the waterfall from cheapest + highest-coverage first, falling back to more
@@ -102,7 +102,7 @@ For each contact:
    ZoomInfo for enterprise, Hunter for domain-based lookup.
 
 3. **Fallback 2** — If still empty, run tertiary.
-   People Data Labs or Dropcontact depending on region.
+   People Data Labs or regional compliance provider depending on region.
 
 4. **AI-assisted (Claygent)** — For remaining 10-15%, use Claygent with an
    explicit prompt: \"Find the work email for [name] at [company]. Return the

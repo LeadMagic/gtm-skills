@@ -369,40 +369,7 @@ Ongoing monitoring is not optional. Set up the following:
 
 #### Step 6: Establish Bounce and Complaint Handling Procedures
 
-**Bounce handling:**
-
-Hard bounces (permanent failure — invalid address, domain doesn't exist):
-- Immediately remove from all active sequences.
-- Suppress the address permanently (or at minimum 12 months).
-- If hard bounce rate per domain exceeds 5% in any 24-hour period, pause
-  all sending from that domain and investigate.
-
-Soft bounces (temporary failure — mailbox full, server issue, rate limit):
-- Pause contact for 7 days.
-- After 3 consecutive soft bounces, treat as hard bounce and suppress.
-- If soft bounce rate exceeds 10%, investigate sending infrastructure.
-
-**Complaint handling:**
-
-- Every spam complaint is an emergency. One complaint per 1,000 sends
-  (0.1%) is already at the warning threshold.
-- When a complaint is received: immediately remove the contact from all
-  sequences, suppress permanently, and add to a "do not contact" list.
-- If complaint rate exceeds 0.3% for any domain, pause all sending from
-  that domain immediately. You are likely already being throttled or blocked
-  by major inbox providers.
-- Root cause analysis: was the email poorly targeted? No unsubscribe link?
-  Sending volume too high? Recipient didn't remember opting in?
-
-**Unsubscribe handling:**
-- Every cold email must include a one-click unsubscribe mechanism. This is
-  required by CAN-SPAM, GDPR, and CASL.
-- The unsubscribe link should be a single line at the bottom: "Unsubscribe"
-  linked to a working removal page.
-- Unsubscribe requests must be processed within 24 hours (CAN-SPAM requirement)
-  or immediately (GDPR requirement).
-- The unsubscribe rate for cold email is typically 0.5-2%. Above 3% signals
-  poor targeting or excessive sending frequency.
+Use `references/bounce-complaint-procedures.md` for the full procedure library. Main output should include bounce thresholds, complaint thresholds, owner, escalation route, and stop conditions.
 
 ### Phase 4: Delivery
 
@@ -429,55 +396,9 @@ Deliver a complete deliverability setup and monitoring plan:
 ```markdown
 # Deliverability Setup Plan for [Company]
 
-## Current State Audit
-[DNS records, blacklist status, reputation scores, bounce/complaint rates]
+## Output Artifact Details
 
-## DNS Configuration
-### SPF Record
-[Exact TXT record to add]
-
-### DKIM Configuration
-[Provider-specific setup instructions with selectors]
-
-### DMARC Record
-[Exact TXT record with phased rollout schedule]
-
-## Warmup Schedule
-### Week 1 (Days 1-7)
-[Daily volume, recipient composition, checkpoint]
-
-[Repeat Weeks 2-4]
-
-## Reputation Monitoring Dashboard
-| Metric | Source | Frequency | Target | Warning Threshold | Critical Threshold |
-|--------|--------|-----------|--------|-------------------|---------------------|
-| [Metric rows] |
-
-## Incident Response Plan
-### Bounce Spike (>5%)
-[Hour 1, Day 1, Week 1 actions]
-
-### Spam Complaint Spike (>0.3%)
-[Hour 1, Day 1, Week 1 actions]
-
-### Blacklisting
-[Immediate actions, delisting procedures]
-
-### Domain Reputation Drop
-[Diagnosis steps, recovery plan]
-
-## Quarterly Audit Checklist
-- [ ] Verify all DNS records unchanged
-- [ ] Check Postmaster Tools reputation
-- [ ] Review blacklist status
-- [ ] Audit bounce rate trends
-- [ ] Audit complaint rate trends
-- [ ] Review DMARC reports for unauthorized senders
-- [ ] Test inbox placement across Google, Microsoft, Yahoo
-- [ ] Re-verify sending limits match current volume
-- [ ] Rotate DKIM keys if older than 12 months
-- [ ] Check sending platform deliverability metrics
-```
+Use `references/output-artifacts.md` for the full audit, DNS configuration, warmup schedule, monitoring dashboard, incident response plan, and quarterly audit checklist. The main output must summarize current risk, DNS status, ramp schedule, alert thresholds, and owner.
 
 ## Quality Check
 
@@ -542,19 +463,7 @@ Before delivering, verify:
 
 ## Sending Limits Reference
 
-From `references/deliverability-primer.md` and industry best practices:
-
-| Mailbox Provider | Daily Cold Limit | Notes |
-|------------------|-----------------|-------|
-| Google Workspace | 50 | Hard limit. 40 recommended for sustained sending. |
-| Microsoft 365 | 50 | Similar to Google. Watch for outbound throttling. |
-| Zoho Mail | 30-50 | Depends on plan. Free tier has lower limits. |
-| Custom SMTP | Varies | Provider-specific. Check terms of service. |
-
-These are cold email limits. Transactional email (password resets,
-notifications) has separate, higher limits. Never mix cold and
-transactional on the same domain — the cold reputation drags down
-transactional deliverability.
+Use `references/sending-limits-reference.md` for provider-specific sending limits. Keep the primary output focused on safe ramping, monitoring thresholds, DNS auth, and incident response.
 
 ## Related Skills
 

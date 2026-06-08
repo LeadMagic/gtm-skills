@@ -198,6 +198,12 @@ for (const skill of skills) {
   const lineCount = body.split('\n').length;
   let skillErrors = 0;
 
+  const relParts = skill.rel.split(path.sep);
+  if (relParts.length !== 4 || relParts[0] !== 'skills' || relParts[3] !== 'SKILL.md') {
+    console.error(`❌ ${skillId}: path must be marketplace-discoverable: skills/<category>/<skill>/SKILL.md`);
+    errors++; skillErrors++;
+  }
+
   for (const field of REQUIRED_TOP_FIELDS) {
     if (!fm[field] || fm[field].trim().length === 0) {
       console.error(`❌ ${skillId}: Missing top-level '${field}' field`);
