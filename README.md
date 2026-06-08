@@ -32,6 +32,16 @@ cd gtm-skills
 
 Full install docs: [docs/INSTALL.md](docs/INSTALL.md).
 
+## Listed On
+
+| Directory | Status |
+|---|---|
+| [agent-skills.md](https://agent-skills.md) | [Requested](https://github.com/futantan/agent-skills.md/issues/19) |
+| [agenticskills.io](https://agenticskills.io) | [Submit](https://agenticskills.io/submit) |
+| [skills.re](https://skills.re) | [Submit](https://skills.re/submit) |
+| [skillindex.dev](https://skillindex.dev) | [PR #1](https://github.com/gabeosx/agentskillsdir/pull/1) |
+| [theskills.directory](https://theskills.directory) | [Requested](https://github.com/theskillsdirectory/skills/issues/7) |
+
 ## What Makes This Repo Different
 
 - **Artifact-first.** Skills produce copy, plans, scorecards, runbooks, dashboards, workflows, templates, scripts, and QA checklists.
