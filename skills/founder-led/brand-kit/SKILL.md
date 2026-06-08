@@ -31,6 +31,14 @@ This skill builds a complete brand kit: logo, colors, typography, voice,
 and asset templates that anyone on the team can use to produce on-brand
 materials.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Marty Neumeier Brand Gap** — used as the named operating framework for this playbook.
+- **David Aaker Brand Identity** — used as the named operating framework for this playbook.
+- **April Dunford Positioning** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "Create a brand kit"
@@ -109,7 +117,7 @@ approachable." Not "professional" — every brand claims professional.
 - **Don't:** Use jargon ("leverage," "synergy," "best-in-class"). Write passive
   voice. Make claims without evidence.
 - **Banned words:** Leverage, synergy, circle back, best-in-class, innovative,
-  game-changing, disruptive, cutting-edge. If it would sound ridiculous spoken
+  high-impact, disruptive, advanced. If it would sound ridiculous spoken
   aloud at a dinner table, don't write it.
 
 **Tone by context:**

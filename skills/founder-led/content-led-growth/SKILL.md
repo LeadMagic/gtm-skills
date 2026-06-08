@@ -238,7 +238,7 @@ Growth Targets (6 months):
 - Content-attributed revenue: $X
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Content strategy answers: who, what promise, what angle, what format, what pipeline mechanism?
 - [ ] Core asset published monthly (long-form piece with data, frameworks, templates)
@@ -250,6 +250,16 @@ Growth Targets (6 months):
 - [ ] Repurposing lattice documented (1 core → 10+ derivative pieces)
 - [ ] Podcast guesting pipeline active (5 pitches/month)
 - [ ] ROI measured in pipeline, not pageviews
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

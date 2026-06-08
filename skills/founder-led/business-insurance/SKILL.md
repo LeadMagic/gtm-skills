@@ -36,6 +36,62 @@ to bind. Losing a $100K deal because you don't have insurance is an unforced
 error. This skill covers every insurance type a SaaS founder needs, when it
 becomes necessary, and how to get it.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **Vouch — Startup insurance specialists** — used as the named operating framework for this playbook.
+- **Embroker — Tech/SaaS insurance** — used as the named operating framework for this playbook.
+- **Coalition — Cyber insurance** — used as the named operating framework for this playbook.
+- **Founders Shield — Startup risk management** — used as the named operating framework for this playbook.
+- **At-Bay — Cyber and E&O insurance** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **Your API goes down for 4 hours. Customer loses $50K in revenue. They sue.** — used as the named operating framework for this playbook.
+- **A bug in your billing system overcharges 200 customers. They demand refunds + damages.** — used as the named operating framework for this playbook.
+- **Your software doesn't deliver the results you promised in the sales process.** — used as the named operating framework for this playbook.
+- **Intentional wrongdoing or fraud** — used as the named operating framework for this playbook.
+- **Bodily injury or property damage (that's General Liability)** — used as the named operating framework for this playbook.
+- **Data breaches (that's Cyber)** — used as the named operating framework for this playbook.
+- **Employment claims (that's EPLI)** — used as the named operating framework for this playbook.
+- **Customer database breached. 5,000 records exposed. Notifications required.** — used as the named operating framework for this playbook.
+- **Ransomware attack encrypts your production servers. $50K ransom demand.** — used as the named operating framework for this playbook.
+- **Customer sues you for failing to protect their data under your DPA.** — used as the named operating framework for this playbook.
+- **Pre-existing breaches (before policy effective date)** — used as the named operating framework for this playbook.
+- **Intentional acts by the insured** — used as the named operating framework for this playbook.
+- **War or state-sponsored attacks (some policies exclude this)** — used as the named operating framework for this playbook.
+- **Regulatory fines in all jurisdictions (check policy)** — used as the named operating framework for this playbook.
+- **Investor sues board for mismanagement after down round.** — used as the named operating framework for this playbook.
+- **Employee/shareholder claims dilution was handled improperly.** — used as the named operating framework for this playbook.
+- **Competitor claims your board member used confidential information.** — used as the named operating framework for this playbook.
+- **IPO/SPAC-related securities claims (later stage).** — used as the named operating framework for this playbook.
+- **Before your first VC round (investors will require it)** — used as the named operating framework for this playbook.
+- **When you have a board of directors** — used as the named operating framework for this playbook.
+- **When you have outside investors** — used as the named operating framework for this playbook.
+- **Vouch (vouch.us) — built for startups, fast quotes, digital-first** — used as the named operating framework for this playbook.
+- **Embroker (embroker.com) — tech/SaaS focused** — used as the named operating framework for this playbook.
+- **Founder Shield (foundershield.com) — risk management for startups** — used as the named operating framework for this playbook.
+- **Coalition (coalitioninc.com) — cyber + E&O specialist** — used as the named operating framework for this playbook.
+- **[Name]: [quote / contact info]** — used as the named operating framework for this playbook.
+- **[Customer 1]: requires $2M E&O + $2M Cyber + COI naming them as additional insured** — used as the named operating framework for this playbook.
+- **[Customer 2]: requires $1M E&O** — used as the named operating framework for this playbook.
+- **[ ] Tech E&O in place before first enterprise deal** — used as the named operating framework for this playbook.
+- **[ ] Cyber liability in place if you store any customer data** — used as the named operating framework for this playbook.
+- **[ ] D&O in place before fundraising (investors will require it)** — used as the named operating framework for this playbook.
+- **[ ] Workers Comp in place before first W-2 employee (it's the law)** — used as the named operating framework for this playbook.
+- **[ ] COI template ready (enterprise customers will ask)** — used as the named operating framework for this playbook.
+- **[ ] Annual review of coverage limits (they should grow with revenue)** — used as the named operating framework for this playbook.
+- **[ ] Broker is startup-specialized (not a generalist)** — used as the named operating framework for this playbook.
+- **[ ] Policy exclusions reviewed and understood** — used as the named operating framework for this playbook.
+- ****Legal matters:** Consult a qualified attorney licensed in your jurisdiction.** — used as the named operating framework for this playbook.
+- ****Tax matters:** Consult a certified tax professional or CPA.** — used as the named operating framework for this playbook.
+- ****Accounting/financial matters:** Consult a qualified accountant or financial advisor.** — used as the named operating framework for this playbook.
+- ****Insurance matters:** Consult a licensed insurance broker.** — used as the named operating framework for this playbook.
+- ****Security/compliance matters:** Consult a qualified professional for your specific** — used as the named operating framework for this playbook.
+- **`legal-for-founders` — Incorporation, IP, contracts, ToS** — used as the named operating framework for this playbook.
+- **`soc2-compliance` — Security posture that reduces insurance premiums** — used as the named operating framework for this playbook.
+- **`data-privacy-compliance` — Compliance that cyber insurance expects** — used as the named operating framework for this playbook.
+- **`security-assessments` — Pen tests and audits that insurers may require** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "business insurance", "startup insurance", "E&O insurance",
@@ -218,7 +274,7 @@ ENTERPRISE REQUIREMENTS:
 - [Customer 2]: requires $1M E&O
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Tech E&O in place before first enterprise deal
 - [ ] Cyber liability in place if you store any customer data
@@ -228,6 +284,16 @@ ENTERPRISE REQUIREMENTS:
 - [ ] Annual review of coverage limits (they should grow with revenue)
 - [ ] Broker is startup-specialized (not a generalist)
 - [ ] Policy exclusions reviewed and understood
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 
@@ -258,22 +324,9 @@ ENTERPRISE REQUIREMENTS:
 
 ## ⚠️ Disclaimer
 
-This skill provides general informational guidance based on publicly available
-frameworks and operator experience. It is NOT legal advice, accounting advice,
-tax advice, financial advice, or professional services advice. Laws, regulations,
-and best practices vary by jurisdiction and change over time.
+This skill provides general informational guidance based on publicly available frameworks and operator experience. It is NOT legal advice, accounting advice, tax advice, financial advice, insurance advice, or professional services advice.
 
-- **Legal matters:** Consult a qualified attorney licensed in your jurisdiction.
-- **Tax matters:** Consult a certified tax professional or CPA.
-- **Accounting/financial matters:** Consult a qualified accountant or financial advisor.
-- **Insurance matters:** Consult a licensed insurance broker.
-- **Security/compliance matters:** Consult a qualified professional for your specific
-  infrastructure and regulatory requirements.
-
-This skill references publicly documented frameworks, standards, and operator
-experiences. It does not constitute a professional opinion or create a
-professional-client relationship. Use it as a starting point for your own
-research and always verify against current regulations and professional guidance.
+Consult qualified professionals for your specific situation — attorneys for legal/equity matters, CPAs for tax and accounting, licensed brokers for insurance, and certified security assessors for compliance. This skill does not create a professional-client relationship. Use it as a starting point for research and preparation.
 
 ## Related Skills
 

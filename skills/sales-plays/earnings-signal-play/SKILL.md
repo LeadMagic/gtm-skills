@@ -22,6 +22,13 @@ In 45 minutes, executives reveal: strategic priorities for the next 12 months,
 budget allocations, headwinds they're fighting, headcount plans, and specific
 initiatives. This play mines earnings calls for outbound triggers.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Signal-Based Selling** — used as the named operating framework for this playbook.
+- **Gartner Strategic Account Planning** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Mine earnings calls for signals"
 - "Earnings-based outbound"

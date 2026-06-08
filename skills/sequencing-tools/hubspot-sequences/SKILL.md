@@ -21,6 +21,13 @@ HubSpot Sequences power the SDR and AE outbound motion inside Sales Hub.
 Done right, they automate touches while maintaining personalization. Done wrong,
 they're spam cannons that burn your domain reputation.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **HubSpot Sequences Best Practices** — used as the named operating framework for this playbook.
+- **ColdIQ Multi-Channel Cadence** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Set up HubSpot sequences"
 - "Build HubSpot cadences"

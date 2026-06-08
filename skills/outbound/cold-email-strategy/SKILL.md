@@ -498,3 +498,10 @@ Reply rate by persona seniority:
 
 These are benchmarks, not guarantees. Industry, offer strength, and market
 conditions all shift these numbers. Use them as calibration, not prediction.
+
+## Related Skills
+
+- `cold-email-copywriting` — adjacent workflow to use before or after this skill
+- `email-deliverability` — adjacent workflow to use before or after this skill
+- `personalization-at-scale` — adjacent workflow to use before or after this skill
+- `sending-platforms` — adjacent workflow to use before or after this skill

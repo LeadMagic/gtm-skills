@@ -23,6 +23,13 @@ but Meta retargeting and emerging channels (TikTok for B2B, Reddit ads) are
 increasingly viable. This skill covers platform strategy, audience architecture,
 creative testing, and pipeline measurement.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **B2B Paid Social Framework** — used as the named operating framework for this playbook.
+- **LinkedIn Ads Best Practices** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Launch paid social"
 - "LinkedIn ads strategy"

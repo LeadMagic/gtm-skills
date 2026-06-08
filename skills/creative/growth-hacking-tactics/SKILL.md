@@ -255,7 +255,7 @@ KILLED (last week's losers):
 - [Experiment]: no significant impact. Learnings: [insight].
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] North Star Metric defined (ONE metric, not a dashboard)
 - [ ] Growth model mapped (equation linking inputs to North Star)
@@ -265,6 +265,16 @@ KILLED (last week's losers):
 - [ ] Results documented: metric before → after, learning, decision
 - [ ] Kill decisions are fast (underperforming experiments die within 1 week)
 - [ ] Scale decisions are data-backed (statistical significance, not randomness)
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

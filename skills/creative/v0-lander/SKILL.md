@@ -34,6 +34,82 @@ a designer + developer 1-2 weeks now takes a founder or marketer 2-4 hours.
 This skill is a step-by-step playbook for building every type of GTM landing
 page with v0.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **v0 by Vercel — Generative UI platform (Guillermo Rauch)** — used as the named operating framework for this playbook.
+- **shadcn/ui — Component library powering v0** — used as the named operating framework for this playbook.
+- **Tailwind CSS — Utility-first CSS framework** — used as the named operating framework for this playbook.
+- **Next.js — React framework for production** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **Generate full pages from a single prompt** — used as the named operating framework for this playbook.
+- **Iterate on specific sections ("change the hero headline")** — used as the named operating framework for this playbook.
+- **Generate individual components ("a testimonial card with avatar")** — used as the named operating framework for this playbook.
+- **Export code to your Next.js project** — used as the named operating framework for this playbook.
+- **Deploy directly to Vercel** — used as the named operating framework for this playbook.
+- **Company: [name]** — used as the named operating framework for this playbook.
+- **Product: [one-liner]** — used as the named operating framework for this playbook.
+- **Primary color: #0066FF** — used as the named operating framework for this playbook.
+- **Secondary: #FF6600** — used as the named operating framework for this playbook.
+- **Font: Inter** — used as the named operating framework for this playbook.
+- **Tone: Direct, data-backed, confident** — used as the named operating framework for this playbook.
+- **Reference: Stripe (clean, minimal) + Linear (dark, technical)** — used as the named operating framework for this playbook.
+- **NO: gradients, emojis, stock photos, generic SaaS tropes** — used as the named operating framework for this playbook.
+- **Dark theme (or light — pick one)** — used as the named operating framework for this playbook.
+- **Color palette: primary #0066FF, secondary #FF6600, background #0A0A0A,** — used as the named operating framework for this playbook.
+- **Typography: Inter, headings bold, body regular** — used as the named operating framework for this playbook.
+- **Spacing: generous. 80-120px between sections** — used as the named operating framework for this playbook.
+- **Cards: subtle borders, 8px radius, hover lift effect** — used as the named operating framework for this playbook.
+- **Buttons: primary (filled, white text), secondary (outlined, primary color)** — used as the named operating framework for this playbook.
+- **Max width: 1200px, centered** — used as the named operating framework for this playbook.
+- **Mobile-responsive: stack sections vertically on mobile** — used as the named operating framework for this playbook.
+- **Touch targets: 44px+ on mobile** — used as the named operating framework for this playbook.
+- **Animations: subtle fade-in on scroll (Intersection Observer)** — used as the named operating framework for this playbook.
+- **No heavy animations. Respect prefers-reduced-motion.** — used as the named operating framework for this playbook.
+- **It specifies every section in order (v0 builds top-to-bottom)** — used as the named operating framework for this playbook.
+- **It includes visual styling (colors, typography, spacing)** — used as the named operating framework for this playbook.
+- **It includes technical requirements (responsive, accessible)** — used as the named operating framework for this playbook.
+- **It gives concrete examples ("Start free trial" not "CTA here")** — used as the named operating framework for this playbook.
+- **Background: slightly lighter than page background** — used as the named operating framework for this playbook.
+- **Border: 1px, subtle** — used as the named operating framework for this playbook.
+- **Padding: 32px** — used as the named operating framework for this playbook.
+- **Quote at top: large, italic** — used as the named operating framework for this playbook.
+- **Author below: avatar (circle, 48px) + name + title + company logo** — used as the named operating framework for this playbook.
+- **Hover: subtle border accent, no lift** — used as the named operating framework for this playbook.
+- **Hero: product screenshot (Cmd+Shift+4, upload to v0)** — used as the named operating framework for this playbook.
+- **Customer logos: actual customer logos (upload)** — used as the named operating framework for this playbook.
+- **Testimonial headshots: actual customer photos** — used as the named operating framework for this playbook.
+- **Start free trial" → signup URL** — used as the named operating framework for this playbook.
+- **Book demo" → Calendly link** — used as the named operating framework for this playbook.
+- **See pricing" → pricing section anchor** — used as the named operating framework for this playbook.
+- **Footer links → actual pages** — used as the named operating framework for this playbook.
+- **Connect to form backend (ConvertKit, HubSpot, Google Forms, or API)** — used as the named operating framework for this playbook.
+- **Add validation (email format, required fields)** — used as the named operating framework for this playbook.
+- **Add success message ("Thanks! We'll be in touch.")** — used as the named operating framework for this playbook.
+- **Add error handling** — used as the named operating framework for this playbook.
+- **Analytics: [Plausible / GA / PostHog connected]** — used as the named operating framework for this playbook.
+- **Conversion rate: X% (target: Y%)** — used as the named operating framework for this playbook.
+- **Next iteration: [date / trigger]** — used as the named operating framework for this playbook.
+- **[ ] Real copy — no lorem ipsum, no AI-generated placeholder text** — used as the named operating framework for this playbook.
+- **[ ] Real images — product screenshots, customer logos, actual headshots** — used as the named operating framework for this playbook.
+- **[ ] All CTAs linked to actual URLs (not "#")** — used as the named operating framework for this playbook.
+- **[ ] Forms connected to backend (ConvertKit, HubSpot, API)** — used as the named operating framework for this playbook.
+- **[ ] Mobile-responsive (tested on iPhone SE + iPhone Pro Max + iPad)** — used as the named operating framework for this playbook.
+- **[ ] Page load under 3 seconds (Lighthouse score 90+)** — used as the named operating framework for this playbook.
+- **[ ] Analytics installed and verified (check real-time dashboard)** — used as the named operating framework for this playbook.
+- **[ ] SEO: title tag, meta description, H1, alt text on all images** — used as the named operating framework for this playbook.
+- **[ ] Legal: Privacy policy link, terms link in footer** — used as the named operating framework for this playbook.
+- **[ ] No AI "slop" — no generic SVG illustrations, no lorem ipsum** — used as the named operating framework for this playbook.
+- ****Guillermo Rauch (@rauchg)** — v0 creator, Vercel CEO. Follow for v0** — used as the named operating framework for this playbook.
+- ****v0 documentation:** v0.dev/docs — prompt guide, component library,** — used as the named operating framework for this playbook.
+- ****shadcn/ui:** ui.shadcn.com — the component library v0 generates.** — used as the named operating framework for this playbook.
+- **`vibe-coding` — Full AI dev tools comparison (v0, Lovable, Bolt, Cursor)** — used as the named operating framework for this playbook.
+- **`vibe-marketing` — AI-powered marketing content at scale** — used as the named operating framework for this playbook.
+- **`landing-pages` — CRO audits, conversion optimization patterns** — used as the named operating framework for this playbook.
+- **`design-system-gtm` — Brand tokens, CSS variables for consistent AI output** — used as the named operating framework for this playbook.
+- **`popular-web-designs` — 54 brand design systems as visual reference** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "build a landing page with v0", "v0 tutorial", "v0 landing
@@ -307,7 +383,7 @@ Post-Launch:
 - Next iteration: [date / trigger]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Real copy — no lorem ipsum, no AI-generated placeholder text
 - [ ] Real images — product screenshots, customer logos, actual headshots
@@ -319,6 +395,16 @@ Post-Launch:
 - [ ] SEO: title tag, meta description, H1, alt text on all images
 - [ ] Legal: Privacy policy link, terms link in footer
 - [ ] No AI "slop" — no generic SVG illustrations, no lorem ipsum
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

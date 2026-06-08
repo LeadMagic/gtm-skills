@@ -555,3 +555,10 @@ These are cold email limits. Transactional email (password resets,
 notifications) has separate, higher limits. Never mix cold and
 transactional on the same domain — the cold reputation drags down
 transactional deliverability.
+
+## Related Skills
+
+- `domain-infrastructure` — adjacent workflow to use before or after this skill
+- `sending-platforms` — adjacent workflow to use before or after this skill
+- `cold-email-strategy` — adjacent workflow to use before or after this skill
+- `campaign-analytics` — adjacent workflow to use before or after this skill

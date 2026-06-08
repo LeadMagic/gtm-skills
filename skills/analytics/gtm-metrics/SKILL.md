@@ -1,13 +1,9 @@
 ---
 name: gtm-metrics
 description: >-
-  Builds and analyzes the complete SaaS metrics stack: pipeline velocity,
-  CAC/LTV ratio, Net Revenue Retention, Magic Number, Rule of 40, and the
-  Winning by Design GTM Index (1-10 scoring across 6 models). Provides
-  stage-aware benchmarks and metric dashboards for board reporting, investor
-  updates, and operational decision-making. Activates when the user asks about
-  SaaS metrics, pipeline analytics, GTM efficiency, board metrics, or investor
-  reporting.
+  Gtm Metrics playbook for GTM agents — strategy, workflow, templates, operating
+  guidance, and quality checks. Use when the user asks for gtm metrics work,
+  implementation help, or an agent-ready deliverable.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -18,7 +14,6 @@ metadata:
   related_skills: [campaign-analytics, attribution, saas-metrics-calculator, pipeline-management]
   frameworks: [Winning by Design GTM Index, David Skok SaaS Metrics, ChartMogul Benchmarks, OpenView Benchmarks]
 ---
-
 # GTM Metrics
 
 ## Overview

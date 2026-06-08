@@ -1,11 +1,9 @@
 ---
 name: gtm-context
 description: >-
-  Captures company context, ICP, GTM motion, tech stack, channels, and metrics
-  into a reusable foundation document. Triggers when user describes their
-  company, asks for GTM strategy setup, mentions go-to-market planning, wants
-  to define their ICP, or needs a 90-day plan. Run this skill before any
-  downstream GTM skill — it produces the context every other skill consumes.
+  Gtm Context playbook for GTM agents — strategy, workflow, templates, operating
+  guidance, and quality checks. Use when the user asks for gtm context work,
+  implementation help, or an agent-ready deliverable.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -16,7 +14,6 @@ metadata:
   related_skills: [icp-scoring, positioning-messaging, pricing-strategy, competitive-intel]
   frameworks: [Maja Voje GTM Strategist, Moore Beachhead, Winning by Design Bowtie, Force Management MEDDICC]
 ---
-
 # GTM Context
 
 ## Overview

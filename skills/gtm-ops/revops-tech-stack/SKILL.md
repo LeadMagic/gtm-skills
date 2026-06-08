@@ -21,6 +21,13 @@ The average B2B company uses 15+ tools in their GTM stack — most overlapping,
 underutilized, or misconfigured. This skill covers stack audit, consolidation,
 integration architecture, and cost optimization across the full revenue lifecycle.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **RevOps Tech Stack Maturity Model** — used as the named operating framework for this playbook.
+- **Scott Brinker MarTech Landscape** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Audit our GTM tech stack"
 - "Design RevOps stack"

@@ -30,6 +30,14 @@ selection matters more than budget size.
 This skill covers platform selection, budget allocation, campaign structure,
 and measurement across the four major B2B ad platforms plus programmatic.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Meta Advantage+ Framework** — used as the named operating framework for this playbook.
+- **Google Performance Max** — used as the named operating framework for this playbook.
+- **LinkedIn Campaign Manager** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "Launch paid ads"

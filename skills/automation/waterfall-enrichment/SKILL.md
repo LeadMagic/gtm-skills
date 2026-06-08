@@ -27,6 +27,13 @@ This skill covers complete waterfall architecture: 3 separate waterfalls for
 company data, email, and phone — each with independently optimized provider
 ordering and verification integration.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **GTMLens 5-Layer Waterfall** — used as the named operating framework for this playbook.
+- **Ziellab 3-Waterfall Architecture** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "Build an enrichment waterfall"

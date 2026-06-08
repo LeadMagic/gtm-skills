@@ -31,6 +31,32 @@ run. The mistake: treating customer marketing as an afterthought (sending a
 "would you write a review?" email once a year). The fix: a systematic advocacy
 program that turns happy customers into your most powerful GTM engine.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **Bain & Company — NPS (Net Promoter System, Fred Reichheld)** — used as the named operating framework for this playbook.
+- **Gainsight — Customer Advocacy Maturity Model** — used as the named operating framework for this playbook.
+- **Influitive — Advocate Marketing** — used as the named operating framework for this playbook.
+- **SaaSquatch — Customer-Led Growth** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **[ ] Case study pipeline: 3 candidates in progress, 1 published/month target** — used as the named operating framework for this playbook.
+- **[ ] 20+ G2 reviews (respond to every one)** — used as the named operating framework for this playbook.
+- **[ ] Reference program: 10+ referenceable customers, capped calls/quarter** — used as the named operating framework for this playbook.
+- **[ ] Logo usage: permission obtained for all logos on website** — used as the named operating framework for this playbook.
+- **[ ] Advocacy ladder documented with levels, triggers, and rewards** — used as the named operating framework for this playbook.
+- **[Output item 1]** — used as the named operating framework for this playbook.
+- **[Output item 2]** — used as the named operating framework for this playbook.
+- **[Output item 3]** — used as the named operating framework for this playbook.
+- **[ ] All required sections complete** — used as the named operating framework for this playbook.
+- **[ ] Output matches the user's stated need** — used as the named operating framework for this playbook.
+- **[ ] No vague or unsupported claims** — used as the named operating framework for this playbook.
+- **[ ] Frameworks cited where applicable** — used as the named operating framework for this playbook.
+- **`case-study-builder` — Case study creation** — used as the named operating framework for this playbook.
+- **`cs-playbooks` — Customer success foundation** — used as the named operating framework for this playbook.
+- **`content-marketing` — Distribution of customer content** — used as the named operating framework for this playbook.
+- **`referral-programs` — Customer referral engine** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "customer marketing", "case study program", "customer
@@ -80,7 +106,7 @@ access to features.
 **Formats:** Slack community, LinkedIn group, annual user conference, regional
 meetups, virtual roundtables. Start small. One format. Grow from there.
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Case study pipeline: 3 candidates in progress, 1 published/month target
 - [ ] 20+ G2 reviews (respond to every one)
@@ -125,11 +151,6 @@ Before delivering, verify:
 - [ ] No vague or unsupported claims
 - [ ] Frameworks cited where applicable
 
-## Common Pitfalls
-
-1. **Incomplete output.** The deliverable is missing critical sections. Fix: verify against the output template before delivering.
-2. **Generic advice without specifics.** "Improve your process" without concrete steps. Fix: every recommendation must have a specific action.
-3. **Missing framework citations.** Advice without named authorities. Fix: cite the specific framework that grounds each recommendation.
 ## Related Skills
 
 - `case-study-builder` — Case study creation

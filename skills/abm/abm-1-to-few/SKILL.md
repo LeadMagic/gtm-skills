@@ -22,6 +22,13 @@ Not fully custom like 1-to-1, but not automated like 1-to-many. This is the
 sweet spot where you get 80% of 1-to-1 results at 20% of the effort — if you
 cluster correctly and build semi-custom assets that feel personalized.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **TOPO ABM Scale Framework** — used as the named operating framework for this playbook.
+- **Force Management MEDDICC** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Build ABM at scale"
 - "Create industry cluster ABM"

@@ -21,6 +21,13 @@ An agent without tools is a chatbot. An agent with tools is a GTM operator.
 This skill covers tool selection, API wrapping, function calling design,
 and MCP server architecture for GTM agents.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **MCP Protocol** — used as the named operating framework for this playbook.
+- **Anthropic Tool Use Best Practices** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Give my agent access to [CRM/enrichment/etc]"
 - "Build an MCP server for [tool]"

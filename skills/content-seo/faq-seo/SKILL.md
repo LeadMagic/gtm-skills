@@ -22,6 +22,13 @@ and voice search results. These are the highest-visibility SERP features —
 and they're often the lowest-competition ranking opportunities. This skill
 covers question-driven content strategy.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Google Featured Snippet Optimization** — used as the named operating framework for this playbook.
+- **FAQ Schema Best Practices** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Build FAQ content"
 - "Target featured snippets"

@@ -21,6 +21,13 @@ Conferences and events are concentrated buying intent — attendees have budget,
 are actively evaluating, and are reachable in a compressed time window. This
 skill covers the pre-event, on-site, and post-event outbound motion.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Event-Led Growth** — used as the named operating framework for this playbook.
+- **B2B Event Marketing Framework** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Outreach around [conference]"
 - "Conference prospecting"

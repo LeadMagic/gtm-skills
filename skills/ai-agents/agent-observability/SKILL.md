@@ -22,6 +22,13 @@ they hallucinate, they exceed rate limits, they cost money. Without observabilit
 you're operating blind. This skill covers logging, metrics, alerting, and cost
 tracking for GTM agents.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Agent Observability Framework** — used as the named operating framework for this playbook.
+- **LLM Ops Best Practices** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Monitor my agents"
 - "Set up agent observability"

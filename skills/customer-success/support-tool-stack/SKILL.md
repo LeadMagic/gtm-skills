@@ -34,6 +34,71 @@ team on a shared Gmail inbox is losing customers to slow responses. This
 skill covers platform selection, setup, and optimization across every stage
 and support philosophy.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **Intercom — Conversational Support Framework** — used as the named operating framework for this playbook.
+- **Zendesk — Omnichannel CX Maturity Model** — used as the named operating framework for this playbook.
+- **Help Scout — Support-Driven Growth (Bezos: customer obsession)** — used as the named operating framework for this playbook.
+- **Klaus/Maestro QA — Support Quality Framework** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- ****Inbox:** Shared inbox with team assignments, collision detection** — used as the named operating framework for this playbook.
+- ****Messenger:** In-app chat widget with AI Fin agent (answers from help center)** — used as the named operating framework for this playbook.
+- ****Articles:** Knowledge base, public help center** — used as the named operating framework for this playbook.
+- ****Product Tours:** In-app onboarding flows, feature announcements** — used as the named operating framework for this playbook.
+- ****Series:** Email/chat automation for onboarding, engagement, expansion** — used as the named operating framework for this playbook.
+- ****Tickets:** Back-office ticketing for complex issues** — used as the named operating framework for this playbook.
+- ****Reports:** CSAT, volume, resolution time, team performance** — used as the named operating framework for this playbook.
+- **Messenger on EVERY page (overwhelming — put on pricing, help, post-signup)** — used as the named operating framework for this playbook.
+- **Fin AI answering questions it can't handle (test thoroughly before launching)** — used as the named operating framework for this playbook.
+- **No macros (CS team retypes the same answers 50x/day)** — used as the named operating framework for this playbook.
+- ****Support:** Ticketing, SLAs, macros, triggers, automations** — used as the named operating framework for this playbook.
+- ****Guide:** Help center, knowledge base, community forums** — used as the named operating framework for this playbook.
+- ****Chat:** Live chat widget, AI Answer Bot** — used as the named operating framework for this playbook.
+- ****Talk:** Voice/phone support with screen pops** — used as the named operating framework for this playbook.
+- ****Explore:** Analytics and reporting (pre-built dashboards)** — used as the named operating framework for this playbook.
+- ****Sunshine:** CRM platform (custom objects, workflows)** — used as the named operating framework for this playbook.
+- **Too many ticket fields (agents spend more time categorizing than solving)** — used as the named operating framework for this playbook.
+- **Overly complex triggers (hard to debug, unexpected side effects)** — used as the named operating framework for this playbook.
+- **No CSAT follow-up (negative scores without follow-up = churn risk)** — used as the named operating framework for this playbook.
+- **Shared inbox with internal-only comments** — used as the named operating framework for this playbook.
+- **Collision detection (two people can't reply simultaneously)** — used as the named operating framework for this playbook.
+- **Rules engine for auto-tagging, assignment, routing** — used as the named operating framework for this playbook.
+- **Sequences for automated follow-ups** — used as the named operating framework for this playbook.
+- **Analytics: response time, resolution time, volume by channel** — used as the named operating framework for this playbook.
+- **Docs (knowledge base) tightly integrated with Inbox** — used as the named operating framework for this playbook.
+- **Beacon widget: contextual article suggestions in-app** — used as the named operating framework for this playbook.
+- **Saved replies, collision detection, workflows** — used as the named operating framework for this playbook.
+- **Lightweight CRM (customer profiles, conversation history)** — used as the named operating framework for this playbook.
+- **CRM: [HubSpot / Salesforce / Attio] — sync tickets to contact timeline** — used as the named operating framework for this playbook.
+- **Product: [Segment / Amplitude / Mixpanel] — see product usage alongside tickets** — used as the named operating framework for this playbook.
+- **Slack: ticket creation + alerts** — used as the named operating framework for this playbook.
+- **Knowledge Base: migrate existing docs to [platform] help center** — used as the named operating framework for this playbook.
+- **First response: X hours (business hours)** — used as the named operating framework for this playbook.
+- **Resolution: X hours/days (by priority)** — used as the named operating framework for this playbook.
+- **P1 (critical): X min/hours** — used as the named operating framework for this playbook.
+- **P2 (high): X hours** — used as the named operating framework for this playbook.
+- **P3 (normal): X hours/days** — used as the named operating framework for this playbook.
+- **P4 (low): X days** — used as the named operating framework for this playbook.
+- **Timing: [post-resolution / periodic]** — used as the named operating framework for this playbook.
+- **Scale: [5-point / CSAT / NPS]** — used as the named operating framework for this playbook.
+- **Follow-up: auto-escalate scores < X to manager** — used as the named operating framework for this playbook.
+- **[ ] Platform matches stage (don't overbuy — Front at $19/seat may suffice for stage 0)** — used as the named operating framework for this playbook.
+- **[ ] SLAs defined with specific time targets, not "ASAP** — used as the named operating framework for this playbook.
+- **[ ] 15+ macros/saved replies for top ticket types** — used as the named operating framework for this playbook.
+- **[ ] CSAT survey configured (post-resolution, not manual)** — used as the named operating framework for this playbook.
+- **[ ] Knowledge base has 20+ articles before launching chat widget** — used as the named operating framework for this playbook.
+- **[ ] AI agent tested with real questions before customer-facing** — used as the named operating framework for this playbook.
+- **[ ] CRM integration shows support tickets in contact timeline** — used as the named operating framework for this playbook.
+- **[ ] Business hours and auto-reply configured for after-hours** — used as the named operating framework for this playbook.
+- **[ ] Team trained on all macros, collision detection, and internal notes** — used as the named operating framework for this playbook.
+- **`cs-playbooks` — Onboarding, health scoring, CSQLs, churn intervention** — used as the named operating framework for this playbook.
+- **`sla-management` — SLA design, ticket routing, escalation, priority matrices** — used as the named operating framework for this playbook.
+- **`cs-analytics-dashboards` — CS metrics, NPS, CSAT, health scoring** — used as the named operating framework for this playbook.
+- **`customer-onboarding` — Structured onboarding, time-to-value, activation** — used as the named operating framework for this playbook.
+- **`automation/tool-selection-stack` — Stage-appropriate GTM tool stacks** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "choose support platform", "Intercom vs Zendesk", "help desk
@@ -223,7 +288,7 @@ CSAT Survey:
 - Follow-up: auto-escalate scores < X to manager
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Platform matches stage (don't overbuy — Front at $19/seat may suffice for stage 0)
 - [ ] SLAs defined with specific time targets, not "ASAP"
@@ -234,6 +299,16 @@ CSAT Survey:
 - [ ] CRM integration shows support tickets in contact timeline
 - [ ] Business hours and auto-reply configured for after-hours
 - [ ] Team trained on all macros, collision detection, and internal notes
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

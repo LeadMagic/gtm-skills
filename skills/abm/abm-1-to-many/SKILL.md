@@ -21,6 +21,13 @@ Programmatic ABM for 50-200+ accounts using automation, lookalike modeling,
 and scaled personalization. This tier uses the same methodology as 1-to-1 and
 1-to-few but replaces manual effort with AI and workflow automation.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **TOPO Programmatic ABM** — used as the named operating framework for this playbook.
+- **Clay Automation Patterns** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Scale ABM to more accounts"
 - "Programmatic ABM setup"

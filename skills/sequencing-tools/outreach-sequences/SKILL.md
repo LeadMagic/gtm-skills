@@ -21,6 +21,13 @@ Outreach is the enterprise-grade sales engagement platform. Sequences here manag
 complex multi-channel, multi-touch cadences with team routing, analytics, and
 compliance controls that simpler tools lack.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Outreach Sequence Best Practices** — used as the named operating framework for this playbook.
+- **ColdIQ Cadence Design** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Set up Outreach sequences"
 - "Design Outreach cadences"

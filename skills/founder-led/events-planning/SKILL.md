@@ -29,6 +29,13 @@ This skill covers B2B event planning: format selection, budget, promotion,
 execution, and the attendee-to-pipeline conversion that makes events pay
 for themselves.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **B2B Event ROI Framework** — used as the named operating framework for this playbook.
+- **Field Marketing Playbook** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "Plan a customer dinner"

@@ -39,6 +39,66 @@ the complete AI marketing stack: content generation, creative production,
 campaign ideation, and the "prompt-to-publish" workflow that lets solo
 marketers operate at team scale.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **Andrej Karpathy — 'Vibe coding' applied to marketing: describe, generate, iterate** — used as the named operating framework for this playbook.
+- **Gary Vaynerchuk — Content at scale: 64 pieces of content per day per platform** — used as the named operating framework for this playbook.
+- **Dave Gerhardt (Exit Five) — B2B marketing that doesn't feel like marketing** — used as the named operating framework for this playbook.
+- **Amanda Natividad (SparkToro) — Zero-click content, audience-first AI** — used as the named operating framework for this playbook.
+- **Harry Dry (Marketing Examples) — Show, don't tell (visual proof)** — used as the named operating framework for this playbook.
+- **Justin Welsh — Content operating system, repurposing lattice** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **5 long-form posts (educational frameworks)** — used as the named operating framework for this playbook.
+- **5 short-form posts (contrarian takes)** — used as the named operating framework for this playbook.
+- **5 engagement posts (questions, polls)** — used as the named operating framework for this playbook.
+- **5 case-study style posts (customer wins)** — used as the named operating framework for this playbook.
+- **5 carousel outlines (step-by-step guides)** — used as the named operating framework for this playbook.
+- **5 video scripts (60-second tutorials)** — used as the named operating framework for this playbook.
+- **10 will be great with minor edits** — used as the named operating framework for this playbook.
+- **10 will be usable with significant edits** — used as the named operating framework for this playbook.
+- **10 will be garbage** — used as the named operating framework for this playbook.
+- **Claude: Generate campaign strategy, ICP targeting, channel plan** — used as the named operating framework for this playbook.
+- **Claude: Write all copy — landing page, emails, social posts, ad copy** — used as the named operating framework for this playbook.
+- **Claude: Write nurture sequence for leads** — used as the named operating framework for this playbook.
+- **Midjourney/Canva AI: Generate hero images, ad creatives, social graphics** — used as the named operating framework for this playbook.
+- **Gamma: Generate pitch deck / one-pager for sales enablement** — used as the named operating framework for this playbook.
+- **v0/Lovable: Build landing page (or update existing)** — used as the named operating framework for this playbook.
+- **Claude: Write video scripts** — used as the named operating framework for this playbook.
+- **ElevenLabs: Generate voiceover** — used as the named operating framework for this playbook.
+- **HeyGen/Synthesia: Generate AI spokesperson video (demo, explainer)** — used as the named operating framework for this playbook.
+- **Runway: Generate B-roll** — used as the named operating framework for this playbook.
+- **Schedule all content (Buffer, Hootsuite, or native schedulers)** — used as the named operating framework for this playbook.
+- **Set up email sequence (ConvertKit, HubSpot, Customer.io)** — used as the named operating framework for this playbook.
+- **Launch ads (LinkedIn, Meta, Google)** — used as the named operating framework for this playbook.
+- **Set up analytics and tracking** — used as the named operating framework for this playbook.
+- **AI tools used: [Claude / ChatGPT]** — used as the named operating framework for this playbook.
+- **Assets created: [landing page copy, 10 social posts, 3 email drafts]** — used as the named operating framework for this playbook.
+- **AI tools: [Midjourney / Canva AI / Gamma]** — used as the named operating framework for this playbook.
+- **Assets: [hero image, 10 social graphics, pitch deck]** — used as the named operating framework for this playbook.
+- **AI tools: [HeyGen / Runway / ElevenLabs / Descript]** — used as the named operating framework for this playbook.
+- **Assets: [1 explainer video, 3 short clips, voiceover]** — used as the named operating framework for this playbook.
+- **Schedule: [all content scheduled, emails queued, ads live]** — used as the named operating framework for this playbook.
+- **Analytics: [tracking URLs, UTM parameters, dashboard]** — used as the named operating framework for this playbook.
+- **Top performers: [which content won]** — used as the named operating framework for this playbook.
+- **Next sprint: [what to double down on]** — used as the named operating framework for this playbook.
+- **[ ] AI-generated copy reviewed by human (AI writes, human edits)** — used as the named operating framework for this playbook.
+- **[ ] AI-generated images checked for brand consistency** — used as the named operating framework for this playbook.
+- **[ ] All claims fact-checked (AI hallucinates statistics)** — used as the named operating framework for this playbook.
+- **[ ] Video content reviewed for accuracy before publishing** — used as the named operating framework for this playbook.
+- **[ ] No AI "slop" — every piece earns its place or is cut** — used as the named operating framework for this playbook.
+- **[ ] UTM parameters on all links for attribution** — used as the named operating framework for this playbook.
+- **[ ] A/B test variants generated (at least 2 per ad/post)** — used as the named operating framework for this playbook.
+- **[ ] Analytics dashboard live before launch** — used as the named operating framework for this playbook.
+- **`vibe-coding` — AI dev tools for building GTM assets** — used as the named operating framework for this playbook.
+- **`ai-content-creation` — AI workflows for blog, social, email, ads** — used as the named operating framework for this playbook.
+- **`ai-video-creation` — AI video tools for marketing** — used as the named operating framework for this playbook.
+- **`content-marketing` — Content strategy, SEO, pillar pages** — used as the named operating framework for this playbook.
+- **`social-media-strategy` — Per-platform content, posting cadence** — used as the named operating framework for this playbook.
+- **`copywriting` — Marketing copy fundamentals** — used as the named operating framework for this playbook.
+- **`ad-creative-strategy` — Creative formats per platform, testing** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "vibe marketing", "AI marketing workflow", "scale content
@@ -281,7 +341,7 @@ DAY 5 — Review & Iterate:
 - Next sprint: [what to double down on]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] AI-generated copy reviewed by human (AI writes, human edits)
 - [ ] AI-generated images checked for brand consistency
@@ -291,6 +351,16 @@ DAY 5 — Review & Iterate:
 - [ ] UTM parameters on all links for attribution
 - [ ] A/B test variants generated (at least 2 per ad/post)
 - [ ] Analytics dashboard live before launch
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

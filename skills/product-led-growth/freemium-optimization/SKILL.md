@@ -33,6 +33,32 @@ is where most PLG companies die. The mistake: giving away too much for free
 the complete freemium optimization playbook: activation design, paywall
 placement, upgrade triggers, and PQL scoring.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **OpenView — Product-Led Growth benchmarks** — used as the named operating framework for this playbook.
+- **Elena Verna (Reforge/Amplitude) — PLG growth models** — used as the named operating framework for this playbook.
+- **Wes Bush — Product-Led Onboarding** — used as the named operating framework for this playbook.
+- **Lenny Rachitsky — PLG conversion benchmarks** — used as the named operating framework for this playbook.
+- **Brian Balfour (Reforge) — Activation and retention** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **[ ] Activation moment defined and measured (time-to-activation < 7 days)** — used as the named operating framework for this playbook.
+- **[ ] Free tier is "enough to love, not enough to stay forever** — used as the named operating framework for this playbook.
+- **[ ] Paywall displayed after activation, not before** — used as the named operating framework for this playbook.
+- **[ ] PQL scoring model built with 5+ dimensions** — used as the named operating framework for this playbook.
+- **[ ] Free-to-paid conversion funnel measured weekly** — used as the named operating framework for this playbook.
+- **[Output item 1]** — used as the named operating framework for this playbook.
+- **[Output item 2]** — used as the named operating framework for this playbook.
+- **[Output item 3]** — used as the named operating framework for this playbook.
+- **[ ] All required sections complete** — used as the named operating framework for this playbook.
+- **[ ] Output matches the user's stated need** — used as the named operating framework for this playbook.
+- **[ ] No vague or unsupported claims** — used as the named operating framework for this playbook.
+- **[ ] Frameworks cited where applicable** — used as the named operating framework for this playbook.
+- **`plg-strategy` — Full PLG strategy** — used as the named operating framework for this playbook.
+- **`growth-experimentation` — A/B testing paywall variants** — used as the named operating framework for this playbook.
+- **`pricing-psychology` — Pricing page conversion** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "freemium conversion", "free trial optimization", "PQL score",
@@ -72,7 +98,7 @@ Team invites sent (collaboration requires paid). Time-based trial expiration.
 Score = (Activation: 30) + (Usage depth: 25) + (Frequency: 20) + (ICP fit: 15) + (Expansion signals: 10).
 Score > 70: immediate sales outreach. 50-69: nurture. <50: focus on activation.
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Activation moment defined and measured (time-to-activation < 7 days)
 - [ ] Free tier is "enough to love, not enough to stay forever"
@@ -114,11 +140,6 @@ Before delivering, verify:
 - [ ] No vague or unsupported claims
 - [ ] Frameworks cited where applicable
 
-## Common Pitfalls
-
-1. **Incomplete output.** The deliverable is missing critical sections. Fix: verify against the output template before delivering.
-2. **Generic advice without specifics.** "Improve your process" without concrete steps. Fix: every recommendation must have a specific action.
-3. **Missing framework citations.** Advice without named authorities. Fix: cite the specific framework that grounds each recommendation.
 ## Related Skills
 
 - `plg-strategy` — Full PLG strategy

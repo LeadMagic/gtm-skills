@@ -30,6 +30,14 @@ This skill builds a complete marketing operating plan: channel mix, budget
 allocation by funnel stage, content strategy, demand generation, brand building,
 and measurement. The output is a strategy document, not a list of tactics.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Product-Led Marketing** — used as the named operating framework for this playbook.
+- **Schwartz Awareness Levels** — used as the named operating framework for this playbook.
+- **Pulizzi Content Tilt** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "Build our marketing strategy"

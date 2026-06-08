@@ -27,6 +27,13 @@ creative on a mediocre audience outperforms a mediocre creative on a perfect
 audience. This skill covers creative formats per platform, testing methodology,
 fatigue management, and scaling creative production.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Meta Creative Testing Framework** — used as the named operating framework for this playbook.
+- **ARC Ads Creative Methodology** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "Create ad creative for LinkedIn"

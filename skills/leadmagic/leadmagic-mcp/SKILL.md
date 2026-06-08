@@ -1,71 +1,130 @@
 ---
 name: leadmagic-mcp
 description: >-
-  Set up the LeadMagic MCP server — 16 enrichment tools for AI agents, multi-tool
-  orchestration in Cursor, Claude, VS Code. Use when connecting LeadMagic data
-  to AI coding agents via Model Context Protocol.
+  Set up LeadMagic MCP for AI agents — tool discovery, permission scope, safe
+  enrichment workflows, batch usage, verification steps, and agent handoff patterns.
+  Use when connecting LeadMagic data tools to Claude, Cursor, VS Code, or any MCP
+  compatible client.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: leadmagic
-  tags: [leadmagic, mcp, agents, tools]
+  tags: [leadmagic, mcp, agents, tools, enrichment]
+  related_skills: [mcp-setup, agent-tool-calling, agent-guardrails, leadmagic-integrations]
   frameworks: [MCP Protocol Specification, Anthropic Tool Use Patterns, Agent-Enabled GTM]
 ---
 
 # LeadMagic MCP
 
 ## Overview
-The LeadMagic MCP server gives AI agents direct access to enrichment tools: email finding, validation, company data, profile search, job change detection, and more. Agents can enrich contacts, research accounts, and verify data without leaving the conversation — no API coding required.
+
+LeadMagic MCP gives agents access to enrichment and GTM data tools inside the agent workflow. The value is speed: the agent can research, enrich, validate, and summarize without asking the user to switch tools. The risk is uncontrolled tool use.
+
+This skill configures LeadMagic MCP as a blackbox GTM toolset. It describes safe usage patterns and outputs, not internal implementation.
 
 ## When to Use
-- "Set up LeadMagic MCP"
-- "Connect LeadMagic to Claude/Cursor"
-- "Give my agent enrichment capabilities"
-- "Use LeadMagic tools in my AI agent"
 
-## Available Tools
-The MCP server exposes 16 enrichment tools covering email finding, email validation, company search, profile search, people search, mobile finding, job change detection, technographics, company funding, and ad intelligence.
+Use this skill when the user asks to "set up LeadMagic MCP", "connect LeadMagic to Claude", "connect LeadMagic to Cursor", "give my agent enrichment tools", "use LeadMagic inside my AI agent", "configure LeadMagic tools via MCP", "build an agent workflow with enrichment", or "research accounts with LeadMagic MCP".
 
-## Setup
-Configure the MCP server in your agent's mcp.json. Authentication via API key. Available in Cursor, Claude Desktop, VS Code, and any MCP-compatible client.
+Use `mcp-setup` first if the user has not defined the broader MCP architecture.
 
-## Usage Pattern
-1. Agent receives a research task ("find the CTO at Acme Corp")
-2. Agent calls the appropriate MCP tool
-3. Enriched data returns to the conversation
-4. Agent uses the data to complete the task
+## Authoritative Foundations
 
-## Common Pitfalls
-1. **Using tools without verification** — always verify emails before sending.
-2. **Too many tool calls** — batch when possible instead of calling per record.
+### Model Context Protocol Specification
+MCP standardizes tool discovery and invocation. Good MCP design depends on narrow tool descriptions, predictable input schemas, and clear output formats.
+
+### Anthropic — Tool Use Patterns
+Agents use tools best when each tool has a specific job, the agent has a verification step, and side-effecting operations require confirmation.
+
+### Agent-Enabled GTM
+In GTM workflows, agents should use tools to gather and verify data, then produce drafts or recommendations. External actions like sending email or mutating CRM should stay gated.
+
+## Available Tool Categories
+
+LeadMagic MCP can support workflows around email finding, email validation, company enrichment, people/contact search, job-change detection, technographic research, funding/company signal lookup, and account intelligence.
+
+Treat each tool category as a capability with its own quality check. For example: found emails must still carry a status before outbound use.
+
+## Step-by-Step Process
+
+### Phase 1: Define Agent Jobs
+
+| Agent Job | Needed Tool Category | External Side Effect? |
+|---|---|---|
+| Research target account | Company enrichment | No |
+| Find contacts | People/contact search | No |
+| Validate found emails | Email validation | No |
+| Build account brief | Company + people data | No |
+| Push to CRM | Integration tool | Yes — require confirmation |
+| Enroll sequence | Sequencer tool | Yes — require confirmation |
+
+### Phase 2: Configure MCP Client
+
+Use the client-supported MCP config format. API keys should come from environment variables or the client's secret store, never from committed config files.
+
+Document server name, environment variables required, tool categories enabled, disabled tools, and confirmation gates.
+
+### Phase 3: Define Agent Tool Rules
+
+1. Call enrichment tools only when required to complete the user request.
+2. Prefer batch calls when processing lists.
+3. Verify email status before recommending outbound use.
+4. Do not infer missing facts if a tool returns no result.
+5. Ask for confirmation before writing to CRM or enrolling contacts.
+
+### Phase 4: Test Representative Workflows
+
+Test at least three workflows: single account brief, contact enrichment for one account, and job-change signal summary. Each test should confirm the agent selected the right tool and interpreted the result correctly.
+
 ## Output Format
 
-The agent should produce a structured deliverable:
-
 ```markdown
-# [Deliverable Title]
+# LeadMagic MCP Setup
 
-## Summary
-[1-2 sentence summary of what was produced]
+## MCP Client
+- Client:
+- Server name:
+- Required env vars:
 
-## Key Outputs
-- [Output item 1]
-- [Output item 2]
-- [Output item 3]
+## Enabled Tool Categories
+| Category | Use Case | Guardrail |
+|---|---|---|
+
+## Agent Rules
+- Lookup rules:
+- Verification rules:
+- Confirmation gates:
+
+## Test Workflows
+| Workflow | Expected Tool Category | Expected Output |
+|---|---|---|
 ```
 
 ## Quality Check
 
 Before delivering, verify:
-- [ ] All required sections complete
-- [ ] Output matches the user's stated need
-- [ ] No vague or unsupported claims
-- [ ] Frameworks cited where applicable
+
+- [ ] No API key is committed or shown in plaintext
+- [ ] Enabled tool categories match the user workflow
+- [ ] Agent rules distinguish lookup from external side effects
+- [ ] Email-related workflows include validation/status handling
+- [ ] Batch use is recommended for lists
+- [ ] Test workflows cover account, contact, and signal use cases
 
 ## Common Pitfalls
 
-1. **Incomplete output.** The deliverable is missing critical sections. Fix: verify against the output template before delivering.
-2. **Generic advice without specifics.** "Improve your process" without concrete steps. Fix: every recommendation must have a specific action.
-3. **Missing framework citations.** Advice without named authorities. Fix: cite the specific framework that grounds each recommendation.
+1. **Treating MCP as magic.** Tools still need clear jobs. Fix: map tools to workflows.
+2. **Too many calls.** Per-record calls waste time and credits. Fix: batch where supported.
+3. **Skipping status interpretation.** Found data is not automatically usable. Fix: check status and confidence fields.
+4. **Hardcoding secrets.** Config files leak. Fix: environment variables or secret manager.
+5. **No confirmation gates.** Agent may mutate systems. Fix: require confirmation for writes and sends.
+6. **Inventing missing data.** Empty result means unknown, not permission to guess. Fix: return unknown or ask for more input.
+
+## Related Skills
+
+- `mcp-setup` — broader MCP architecture
+- `agent-tool-calling` — tool schema and selection rules
+- `agent-guardrails` — safe agent permissions
+- `leadmagic-integrations` — non-MCP integration paths

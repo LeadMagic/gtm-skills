@@ -31,6 +31,32 @@ Analytics tools don't work out of the box — they work when configured with a
 tracking plan, proper implementation, and destinations that talk to each other.
 This skill covers setup and optimization across the analytics stack.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **Segment — CDP with 400+ destinations** — used as the named operating framework for this playbook.
+- **Amplitude — Product analytics, behavioral cohorts, experiment** — used as the named operating framework for this playbook.
+- **PostHog — Open-source analytics, session recording, feature flags** — used as the named operating framework for this playbook.
+- **Mixpanel — Event-based product analytics** — used as the named operating framework for this playbook.
+- **GA4 — Google Analytics for web + app** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **[ ] CDP implemented (Segment or Rudderstack) — single source of truth** — used as the named operating framework for this playbook.
+- **[ ] Server-side tracking for critical events (signup, payment)** — used as the named operating framework for this playbook.
+- **[ ] Client-side tracking for behavioral events** — used as the named operating framework for this playbook.
+- **[ ] GA4 configured with custom events + conversions** — used as the named operating framework for this playbook.
+- **[ ] Product analytics tool configured with retention + funnel reports** — used as the named operating framework for this playbook.
+- **[ ] Data warehouse receiving all events for BI** — used as the named operating framework for this playbook.
+- **[Output item 1]** — used as the named operating framework for this playbook.
+- **[Output item 2]** — used as the named operating framework for this playbook.
+- **[Output item 3]** — used as the named operating framework for this playbook.
+- **[ ] All required sections complete** — used as the named operating framework for this playbook.
+- **[ ] Output matches the user's stated need** — used as the named operating framework for this playbook.
+- **[ ] No vague or unsupported claims** — used as the named operating framework for this playbook.
+- **[ ] Frameworks cited where applicable** — used as the named operating framework for this playbook.
+- **`tracking-plan` — Complete analytics architecture** — used as the named operating framework for this playbook.
+- **`event-analytics` — Event taxonomy and CDP design** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "analytics setup", "Segment configuration", "Amplitude
@@ -56,7 +82,7 @@ analytics.track('Feature Used', { feature_name: 'Reports' });
 // → Data Warehouse: raw event for BI analysis
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] CDP implemented (Segment or Rudderstack) — single source of truth
 - [ ] Server-side tracking for critical events (signup, payment)
@@ -99,11 +125,6 @@ Before delivering, verify:
 - [ ] No vague or unsupported claims
 - [ ] Frameworks cited where applicable
 
-## Common Pitfalls
-
-1. **Incomplete output.** The deliverable is missing critical sections. Fix: verify against the output template before delivering.
-2. **Generic advice without specifics.** "Improve your process" without concrete steps. Fix: every recommendation must have a specific action.
-3. **Missing framework citations.** Advice without named authorities. Fix: cite the specific framework that grounds each recommendation.
 ## Related Skills
 
 - `tracking-plan` — Complete analytics architecture

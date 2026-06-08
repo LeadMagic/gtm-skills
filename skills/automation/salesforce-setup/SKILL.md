@@ -27,6 +27,14 @@ object model for B2B SaaS, opportunity pipelines, lead management, Flows
 automation, reporting, and enrichment integration. Designed for teams that
 have outgrown HubSpot or require enterprise-grade customization.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Salesforce Architecture** — used as the named operating framework for this playbook.
+- **Opportunity Pipeline Model** — used as the named operating framework for this playbook.
+- **Force.com Platform** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "Set up Salesforce for our sales team"

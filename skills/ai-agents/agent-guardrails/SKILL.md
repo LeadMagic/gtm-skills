@@ -22,6 +22,13 @@ budgets, violate compliance, and damage your brand. Guardrails are the safety
 mechanisms that keep agents effective without letting them run wild.
 This skill covers the full guardrail stack.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **AI Safety Framework** — used as the named operating framework for this playbook.
+- **Anthropic Constitutional AI Principles** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Add guardrails to my agents"
 - "Agent safety controls"

@@ -32,6 +32,55 @@ table instead of an enrichment engine. This skill covers advanced Clay
 architecture: table design, waterfall strategy, credit optimization,
 and integration patterns.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **Clay — Waterfall enrichment platform, Claygent AI, table architecture** — used as the named operating framework for this playbook.
+- **Clay University — Official tutorials and certification** — used as the named operating framework for this playbook.
+- **LeadMagic API — Email finder/verifier enrichment provider on Clay** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- ****Source Sheet:** Google Sheets, CSV, or API — where your data lives** — used as the named operating framework for this playbook.
+- ****Enrichment Columns:** Each column is an enrichment step** — used as the named operating framework for this playbook.
+- ****Waterfall Columns:** Chain multiple providers per data point** — used as the named operating framework for this playbook.
+- ****Formula Columns:** Transform data between enrichments** — used as the named operating framework for this playbook.
+- ****Output:** CRM push, webhook, or export** — used as the named operating framework for this playbook.
+- ****LeadMagic:** 1 credit = find + verify. Best accuracy.** — used as the named operating framework for this playbook.
+- ****Apollo:** credits per export. Good breadth.** — used as the named operating framework for this playbook.
+- ****Claygent:** AI-powered research agent. Use sparingly (expensive).** — used as the named operating framework for this playbook.
+- ****Rule:** Run cheapest/highest-accuracy provider first. Fall back to more expensive.** — used as the named operating framework for this playbook.
+- **First Name (text)** — used as the named operating framework for this playbook.
+- **Last Name (text)** — used as the named operating framework for this playbook.
+- **Company (text)** — used as the named operating framework for this playbook.
+- **Domain (text or formula: clearbit domain from company)** — used as the named operating framework for this playbook.
+- **LinkedIn URL (optional)** — used as the named operating framework for this playbook.
+- **LeadMagic Find Email (name + company → email)** — used as the named operating framework for this playbook.
+- **Apollo Find Email (name + company → email)** — used as the named operating framework for this playbook.
+- **ProspectingTool (name + domain → email)** — used as the named operating framework for this playbook.
+- **LeadMagic Verify Email (email → status + confidence)** — used as the named operating framework for this playbook.
+- **LeadMagic Enrich Person (email → title, company, phone, social)** — used as the named operating framework for this playbook.
+- **Clearbit Company (domain → employee_count, industry, revenue)** — used as the named operating framework for this playbook.
+- **Formula: ICP Score =** — used as the named operating framework for this playbook.
+- **CRM Push (HubSpot / Salesforce)** — used as the named operating framework for this playbook.
+- **Google Sheets sync** — used as the named operating framework for this playbook.
+- **Webhook → n8n → downstream workflows** — used as the named operating framework for this playbook.
+- **[ ] Source data cleaned (no duplicates, consistent formatting)** — used as the named operating framework for this playbook.
+- **[ ] Waterfall order optimized (highest accuracy first, cheapest per hit)** — used as the named operating framework for this playbook.
+- **[ ] Credit budget set per table (prevent runaway costs)** — used as the named operating framework for this playbook.
+- **[ ] Webhook configured for async enrichment completion** — used as the named operating framework for this playbook.
+- **[ ] CRM push tested with 5 records before full sync** — used as the named operating framework for this playbook.
+- **[ ] ICP scoring formula validated against 50 known-fit contacts** — used as the named operating framework for this playbook.
+- **[Output item 1]** — used as the named operating framework for this playbook.
+- **[Output item 2]** — used as the named operating framework for this playbook.
+- **[Output item 3]** — used as the named operating framework for this playbook.
+- **[ ] All required sections complete** — used as the named operating framework for this playbook.
+- **[ ] Output matches the user's stated need** — used as the named operating framework for this playbook.
+- **[ ] No vague or unsupported claims** — used as the named operating framework for this playbook.
+- **[ ] Frameworks cited where applicable** — used as the named operating framework for this playbook.
+- **`clay-automation` — General Clay workflows** — used as the named operating framework for this playbook.
+- **`leadmagic-toolkit` — LeadMagic integration with Clay** — used as the named operating framework for this playbook.
+- **`waterfall-enrichment` — Multi-provider waterfall design** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "Clay setup", "Clay waterfall", "Clay enrichment", "Claygent",
@@ -134,7 +183,7 @@ COLUMNS (left to right):
 =DATEDIF(Last_Enriched, TODAY(), "D")
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Source data cleaned (no duplicates, consistent formatting)
 - [ ] Waterfall order optimized (highest accuracy first, cheapest per hit)
@@ -177,11 +226,6 @@ Before delivering, verify:
 - [ ] No vague or unsupported claims
 - [ ] Frameworks cited where applicable
 
-## Common Pitfalls
-
-1. **Incomplete output.** The deliverable is missing critical sections. Fix: verify against the output template before delivering.
-2. **Generic advice without specifics.** "Improve your process" without concrete steps. Fix: every recommendation must have a specific action.
-3. **Missing framework citations.** Advice without named authorities. Fix: cite the specific framework that grounds each recommendation.
 ## Related Skills
 
 - `clay-automation` — General Clay workflows

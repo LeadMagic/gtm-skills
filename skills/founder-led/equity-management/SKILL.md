@@ -37,6 +37,54 @@ covers the complete equity stack: cap tables, 409A valuations, option types,
 grant guidelines by role and stage, dilution modeling, and the tools that
 keep it all clean.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **Carta — Equity management platform and cap table benchmarks** — used as the named operating framework for this playbook.
+- **Pulley — Cap table management for startups** — used as the named operating framework for this playbook.
+- **Fred Wilson (Union Square Ventures) — Employee equity** — used as the named operating framework for this playbook.
+- **Andy Rachleff (Wealthfront) — Equity compensation** — used as the named operating framework for this playbook.
+- **Sam Altman — Employee equity** — used as the named operating framework for this playbook.
+- **Leo Polovets (Humba Ventures/YC) — Technical founder equity guide** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **Before granting your first stock options (required by law)** — used as the named operating framework for this playbook.
+- **After every priced fundraising round** — used as the named operating framework for this playbook.
+- **Every 12 months (or when a material event occurs)** — used as the named operating framework for this playbook.
+- **Before an acquisition (the acquirer will require a recent 409A)** — used as the named operating framework for this playbook.
+- **VP Engineering: 1.5%** — used as the named operating framework for this playbook.
+- **5 engineers: 0.25-0.5% each = 1.75%** — used as the named operating framework for this playbook.
+- **VP Sales: 1.0%** — used as the named operating framework for this playbook.
+- **3 AEs: 0.1-0.2% each = 0.45%** — used as the named operating framework for this playbook.
+- **First Marketer: 0.4%** — used as the named operating framework for this playbook.
+- **CS Lead: 0.5%** — used as the named operating framework for this playbook.
+- **Buffer (30%): 1.4%** — used as the named operating framework for this playbook.
+- **Contractors (pay cash, not equity — unless they're effectively a co-founder)** — used as the named operating framework for this playbook.
+- **Agencies (cash only)** — used as the named operating framework for this playbook.
+- **Part-time advisors who don't deliver (vesting protects you)** — used as the named operating framework for this playbook.
+- **Early stage: typically no (shares are illiquid)** — used as the named operating framework for this playbook.
+- **Series C+: sometimes. Company may run a tender offer.** — used as the named operating framework for this playbook.
+- **IPO: yes (but lockup periods apply)** — used as the named operating framework for this playbook.
+- **Allocated: X% (X shares to X recipients)** — used as the named operating framework for this playbook.
+- **Available: X% (X shares remaining)** — used as the named operating framework for this playbook.
+- **[Hire/role] — [date] — [grant size]** — used as the named operating framework for this playbook.
+- **[ ] 409A valuation current (within last 12 months)** — used as the named operating framework for this playbook.
+- **[ ] Cap table on Carta/Pulley (not Excel) and up to date** — used as the named operating framework for this playbook.
+- **[ ] All founders filed 83(b) within 30 days of share issuance** — used as the named operating framework for this playbook.
+- **[ ] Option pool sized to hiring plan + buffer through next funding round** — used as the named operating framework for this playbook.
+- **[ ] Equity grants documented with board consent** — used as the named operating framework for this playbook.
+- **[ ] Dilution model built for next 2 funding rounds** — used as the named operating framework for this playbook.
+- **[ ] Advisor grants on FAST template with vesting** — used as the named operating framework for this playbook.
+- ****Legal matters:** Consult a qualified attorney licensed in your jurisdiction.** — used as the named operating framework for this playbook.
+- ****Tax matters:** Consult a certified tax professional or CPA.** — used as the named operating framework for this playbook.
+- ****Accounting/financial matters:** Consult a qualified accountant or financial advisor.** — used as the named operating framework for this playbook.
+- ****Insurance matters:** Consult a licensed insurance broker.** — used as the named operating framework for this playbook.
+- ****Security/compliance matters:** Consult a qualified security assessor or compliance** — used as the named operating framework for this playbook.
+- **`co-founder-dynamics` — Founder equity splits** — used as the named operating framework for this playbook.
+- **`fundraising-strategy` — Dilution from SAFE/priced rounds** — used as the named operating framework for this playbook.
+- **`first-hires-playbook` — Equity as part of compensation** — used as the named operating framework for this playbook.
+- **`legal-for-founders` — 83(b), incorporation, stock plans** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "set up cap table", "409A valuation", "option pool planning",
@@ -184,7 +232,7 @@ UPCOMING GRANTS:
 - [Hire/role] — [date] — [grant size]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] 409A valuation current (within last 12 months)
 - [ ] Cap table on Carta/Pulley (not Excel) and up to date
@@ -193,6 +241,16 @@ UPCOMING GRANTS:
 - [ ] Equity grants documented with board consent
 - [ ] Dilution model built for next 2 funding rounds
 - [ ] Advisor grants on FAST template with vesting
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 
@@ -221,22 +279,9 @@ UPCOMING GRANTS:
 
 ## ⚠️ Disclaimer
 
-This skill provides general informational guidance based on publicly available
-frameworks and operator experience. It is NOT legal advice, accounting advice,
-tax advice, financial advice, or professional services advice. Laws, regulations,
-and best practices vary by jurisdiction and change over time.
+This skill provides general informational guidance based on publicly available frameworks and operator experience. It is NOT legal advice, accounting advice, tax advice, financial advice, insurance advice, or professional services advice.
 
-- **Legal matters:** Consult a qualified attorney licensed in your jurisdiction.
-- **Tax matters:** Consult a certified tax professional or CPA.
-- **Accounting/financial matters:** Consult a qualified accountant or financial advisor.
-- **Insurance matters:** Consult a licensed insurance broker.
-- **Security/compliance matters:** Consult a qualified security assessor or compliance
-  professional for your specific infrastructure and regulatory requirements.
-
-This skill references publicly documented frameworks, standards, and operator
-experiences. It does not constitute a professional opinion or create a
-professional-client relationship. Use it as a starting point for your own
-research and always verify against current regulations and professional guidance.
+Consult qualified professionals for your specific situation — attorneys for legal/equity matters, CPAs for tax and accounting, licensed brokers for insurance, and certified security assessors for compliance. This skill does not create a professional-client relationship. Use it as a starting point for research and preparation.
 
 ## Related Skills
 

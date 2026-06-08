@@ -235,7 +235,7 @@ DIVERSITY: Ensure post is gender-neutral (audited via Textio or similar).
 Post to diversity-focused channels: [list].
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Job post uses "constraint-first" format (why this role exists + what you'll own)
 - [ ] Compensation range included (transparency, required in many states)
@@ -245,6 +245,16 @@ Post to diversity-focused channels: [list].
 - [ ] Primary channels are role-specific (not sprayed across all boards)
 - [ ] Sourcing outreach templates ready for passive candidates
 - [ ] Backchannel reference strategy documented
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

@@ -22,6 +22,13 @@ Its killer features: unlimited mailboxes, automatic mailbox rotation, AI reply
 categorization, and a unified master inbox. This skill covers setup from 0 to
 sending at scale.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Smartlead Best Practices** — used as the named operating framework for this playbook.
+- **Eric Nowoslawski Cold Email Infrastructure** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Set up Smartlead"
 - "Smartlead campaign setup"

@@ -1,27 +1,19 @@
 ---
 name: launch-planning
 description: >-
-  Plan product launches — launch tiers (T1/T2/T3), Product Hunt playbook, 16+
-  channel launches, pre-launch checklist, launch timeline, press outreach,
-  influencer coordination, and post-launch measurement. Uses Maja Voje GTM
-  Strategist phases 7-9, Andy Raskin Strategic Narrative, and Lenny Rachitsky
-  launch frameworks for B2B SaaS.
+  Launch Planning playbook for GTM agents — strategy, workflow, templates, operating
+  guidance, and quality checks. Use when the user asks for launch planning work,
+  implementation help, or an agent-ready deliverable.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "2.0.0"
+  version: "1.0.0"
   author: LeadMagic
   category: founder-led
   tags: [launch, product-launch, go-to-market, product-hunt, press, channels]
   related_skills: [positioning-messaging, social-media-strategy, content-marketing, sales-enablement, founder-brand]
-  frameworks:
-    - "Maja Voje — GTM Strategist (launch phases 7-9)"
-    - "Andy Raskin — Strategic Narrative (launch narrative)"
-    - "Lenny Rachitsky — B2B launch playbook"
-    - "Mike Volpe (HubSpot) — Inbound launch methodology"
-    - "Meghan Keaney Anderson (HubSpot/Wistia) — Launch orchestration"
+  frameworks: [Operator GTM Playbook]
 ---
-
 # Launch Planning
 
 ## Overview
@@ -249,7 +241,7 @@ Success Metrics:
 - Revenue: [target — often delayed 30-90 days]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Launch tier selected based on scope (T1/T2/T3)
 - [ ] Strategic narrative written (Raskin: old game → new game → vehicle)
@@ -261,6 +253,16 @@ Success Metrics:
 - [ ] Social posts and emails pre-scheduled
 - [ ] Launch day engagement plan (real-time response to every comment)
 - [ ] Post-launch follow-up sequence ready (emails, content, retargeting)
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

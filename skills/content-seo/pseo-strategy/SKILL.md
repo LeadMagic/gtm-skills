@@ -22,6 +22,13 @@ data, targeting long-tail keywords at scale. "[Category] for [Industry]",
 "[Integration] + [Integration]", "[City] [Service]" — these patterns can
 generate massive organic traffic when done right, and penalties when done wrong.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Programmatic SEO Framework** — used as the named operating framework for this playbook.
+- **Animalz Content Strategy** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Build programmatic SEO"
 - "pSEO strategy"

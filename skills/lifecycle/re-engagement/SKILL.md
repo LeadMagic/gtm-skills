@@ -22,6 +22,13 @@ know you, and reactivation costs 5-7x less than new acquisition. But re-engageme
 requires different messaging than new prospect outreach. This skill covers win-back
 sequences for both prospects and customers.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Win-Back Campaign Framework** — used as the named operating framework for this playbook.
+- **Retention Science Methodology** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Re-engage dormant leads"
 - "Win back inactive customers"

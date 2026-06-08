@@ -30,6 +30,13 @@ specific metrics and real quotes.
 The golden rule: a case study without numbers is a testimonial. Every case
 study must answer "what changed, and by how much?"
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Challenge-Solution-Results** — used as the named operating framework for this playbook.
+- **Before-After-Bridge** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "Create a case study about [customer]"

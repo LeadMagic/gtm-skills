@@ -22,6 +22,13 @@ repeatable, measurable, and scalable. Without it, you're flying blind.
 This skill covers building the ops function from scratch — tech stack, process
 design, data governance, and operating cadence.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **WbD Revenue Architecture** — used as the named operating framework for this playbook.
+- **RevOps Maturity Model** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Set up RevOps"
 - "Build GTM operations"

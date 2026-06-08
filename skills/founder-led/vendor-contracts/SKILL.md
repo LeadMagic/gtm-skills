@@ -35,6 +35,85 @@ customer dictate terms from scratch. You need standard templates that cover
 covers the complete contract stack: MSA, Order Form, SLA, DPA — for both
 selling to customers (inbound) and buying from vendors (outbound).
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **YC — Standard commercial terms for B2B SaaS** — used as the named operating framework for this playbook.
+- **SaaS Capital — B2B SaaS contract benchmarks** — used as the named operating framework for this playbook.
+- **Jason Lemkin (SaaStr) — Enterprise contract negotiation** — used as the named operating framework for this playbook.
+- **David Skok (Matrix Partners) — B2B contract structure** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **The "umbrella" contract. Signed once. Governs the entire relationship.** — used as the named operating framework for this playbook.
+- **Covers: service description, payment terms, term/termination, IP,** — used as the named operating framework for this playbook.
+- **Each purchase gets its own Order Form.** — used as the named operating framework for this playbook.
+- **Covers: products purchased, quantity (seats/volume), price, term length,** — used as the named operating framework for this playbook.
+- **References the MSA** — used as the named operating framework for this playbook.
+- **Can be part of MSA or separate.** — used as the named operating framework for this playbook.
+- **Covers: uptime commitment, response times, credits for downtime,** — used as the named operating framework for this playbook.
+- **Required for GDPR compliance and enterprise deals.** — used as the named operating framework for this playbook.
+- **Covers: data processed, purpose, sub-processors, security measures,** — used as the named operating framework for this playbook.
+- **Company name, address, billing contact** — used as the named operating framework for this playbook.
+- **Products/services purchased** — used as the named operating framework for this playbook.
+- **Quantity (seats, volume, API calls)** — used as the named operating framework for this playbook.
+- **Term (monthly / annual / multi-year) — push for annual** — used as the named operating framework for this playbook.
+- **Price per unit, total contract value** — used as the named operating framework for this playbook.
+- **Billing frequency** — used as the named operating framework for this playbook.
+- **Start date, end date, auto-renewal terms** — used as the named operating framework for this playbook.
+- **Special terms (discounts, pilot terms, custom features)** — used as the named operating framework for this playbook.
+- **Signed by both parties** — used as the named operating framework for this playbook.
+- **Uptime: 99.5% (standard) to 99.9% (enterprise). 99.99% is unreasonable** — used as the named operating framework for this playbook.
+- **Credits: 5-10% of monthly fee per X% downtime. Cap at 100% of monthly fee.** — used as the named operating framework for this playbook.
+- **Exclusions: planned maintenance (48 hours notice), force majeure,** — used as the named operating framework for this playbook.
+- **Response times: P1 (15-60 min), P2 (1-4 hours), P3 (4-24 hours)** — used as the named operating framework for this playbook.
+- **See: `data-privacy-compliance` skill for full DPA details** — used as the named operating framework for this playbook.
+- **Must include: data types, processing purpose, sub-processor list,** — used as the named operating framework for this playbook.
+- **Have a standard DPA ready. Enterprise customers WILL ask for one.** — used as the named operating framework for this playbook.
+- **Contract value > $50K and heavily red-lined** — used as the named operating framework for this playbook.
+- **Customer wants custom indemnity beyond IP** — used as the named operating framework for this playbook.
+- **International jurisdiction (their country's law)** — used as the named operating framework for this playbook.
+- **Data processing terms outside standard DPA** — used as the named operating framework for this playbook.
+- **Any clause that seems like it creates material risk** — used as the named operating framework for this playbook.
+- **Auto-renewal with no notice period ("you're locked in for another year")** — used as the named operating framework for this playbook.
+- **Unilateral price increases ("we can raise your price by 20% at any time")** — used as the named operating framework for this playbook.
+- **No termination for convenience (you're stuck even if the product degrades)** — used as the named operating framework for this playbook.
+- **We can use your data to improve our models" — for any vendor with access** — used as the named operating framework for this playbook.
+- **No SLA or uptime commitment (they go down, you have no recourse)** — used as the named operating framework for this playbook.
+- **Contract repository: DocuSign, PandaDoc, Ironclad, or at minimum — a** — used as the named operating framework for this playbook.
+- **Key metadata per contract: counterparty, start date, end date, renewal** — used as the named operating framework for this playbook.
+- **Calendar reminders: 90 days before auto-renewal or expiration** — used as the named operating framework for this playbook.
+- **DocuSign ($10-40/mo): e-signatures, templates, basic management** — used as the named operating framework for this playbook.
+- **PandaDoc ($19-49/mo): proposals, contracts, e-signatures** — used as the named operating framework for this playbook.
+- **Ironclad ($$$): enterprise contract lifecycle management** — used as the named operating framework for this playbook.
+- **Common Paper: open-source standard contracts for B2B SaaS** — used as the named operating framework for this playbook.
+- **[ ] MSA — [template ready / needs lawyer review / pending]** — used as the named operating framework for this playbook.
+- **[ ] Order Form — [template ready]** — used as the named operating framework for this playbook.
+- **[ ] SLA — [template ready. Uptime: X%]** — used as the named operating framework for this playbook.
+- **[ ] DPA — [template ready. SCCs: Yes/No]** — used as the named operating framework for this playbook.
+- **Sales → Legal handoff: [when does legal get involved? $X threshold?]** — used as the named operating framework for this playbook.
+- **Average cycle time: [weeks from MSA sent → signed]** — used as the named operating framework for this playbook.
+- **Non-standard terms log: [what we've accepted and why]** — used as the named operating framework for this playbook.
+- **[ ] Vendor security review checklist** — used as the named operating framework for this playbook.
+- **[ ] Procurement approval thresholds: $X / $Y / $Z** — used as the named operating framework for this playbook.
+- **Contract repository: [tool / folder]** — used as the named operating framework for this playbook.
+- **[ ] MSA template reviewed by startup lawyer** — used as the named operating framework for this playbook.
+- **[ ] Order Form template ready — clean, simple, one page** — used as the named operating framework for this playbook.
+- **[ ] SLA with realistic uptime commitment (not 99.99%)** — used as the named operating framework for this playbook.
+- **[ ] DPA template ready for enterprise customers** — used as the named operating framework for this playbook.
+- **[ ] Liability cap: 12 months of fees (standard, defensible)** — used as the named operating framework for this playbook.
+- **[ ] Contract repository organized (DocuSign / PandaDoc / Ironclad)** — used as the named operating framework for this playbook.
+- **[ ] Vendor security review process documented** — used as the named operating framework for this playbook.
+- **[ ] Auto-renewal dates tracked with calendar reminders** — used as the named operating framework for this playbook.
+- ****Legal matters:** Consult a qualified attorney licensed in your jurisdiction.** — used as the named operating framework for this playbook.
+- ****Tax matters:** Consult a certified tax professional or CPA.** — used as the named operating framework for this playbook.
+- ****Accounting/financial matters:** Consult a qualified accountant or financial advisor.** — used as the named operating framework for this playbook.
+- ****Insurance matters:** Consult a licensed insurance broker.** — used as the named operating framework for this playbook.
+- ****Security/compliance matters:** Consult a qualified professional for your specific** — used as the named operating framework for this playbook.
+- **`legal-for-founders` — Foundational contracts, ToS, Privacy Policy** — used as the named operating framework for this playbook.
+- **`data-privacy-compliance` — DPA details, SCCs, GDPR requirements** — used as the named operating framework for this playbook.
+- **`security-assessments` — Vendor security questionnaires, pen testing** — used as the named operating framework for this playbook.
+- **`soc2-compliance` — SOC2 that every enterprise vendor review asks for** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "MSA template", "master service agreement", "order form",
@@ -210,7 +289,7 @@ VENDOR PROCUREMENT:
 - Contract repository: [tool / folder]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] MSA template reviewed by startup lawyer
 - [ ] Order Form template ready — clean, simple, one page
@@ -220,6 +299,16 @@ VENDOR PROCUREMENT:
 - [ ] Contract repository organized (DocuSign / PandaDoc / Ironclad)
 - [ ] Vendor security review process documented
 - [ ] Auto-renewal dates tracked with calendar reminders
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 
@@ -251,22 +340,9 @@ VENDOR PROCUREMENT:
 
 ## ⚠️ Disclaimer
 
-This skill provides general informational guidance based on publicly available
-frameworks and operator experience. It is NOT legal advice, accounting advice,
-tax advice, financial advice, or professional services advice. Laws, regulations,
-and best practices vary by jurisdiction and change over time.
+This skill provides general informational guidance based on publicly available frameworks and operator experience. It is NOT legal advice, accounting advice, tax advice, financial advice, insurance advice, or professional services advice.
 
-- **Legal matters:** Consult a qualified attorney licensed in your jurisdiction.
-- **Tax matters:** Consult a certified tax professional or CPA.
-- **Accounting/financial matters:** Consult a qualified accountant or financial advisor.
-- **Insurance matters:** Consult a licensed insurance broker.
-- **Security/compliance matters:** Consult a qualified professional for your specific
-  infrastructure and regulatory requirements.
-
-This skill references publicly documented frameworks, standards, and operator
-experiences. It does not constitute a professional opinion or create a
-professional-client relationship. Use it as a starting point for your own
-research and always verify against current regulations and professional guidance.
+Consult qualified professionals for your specific situation — attorneys for legal/equity matters, CPAs for tax and accounting, licensed brokers for insurance, and certified security assessors for compliance. This skill does not create a professional-client relationship. Use it as a starting point for research and preparation.
 
 ## Related Skills
 

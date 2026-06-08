@@ -22,6 +22,13 @@ company lost a champion and may need replacement support, (2) the contact is now
 at a new company with new budget and tool evaluation, and (3) you have a timely,
 personal reason to reconnect. This play covers all three.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Signal-Based Selling** — used as the named operating framework for this playbook.
+- **Champion Tracking Methodology** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Champion left the company"
 - "Contact changed jobs"

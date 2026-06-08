@@ -1,1331 +1,952 @@
 {
-  "version": "1.0.0",
-  "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-06-07T23:12:47Z",
+  "version": "0.21.0",
+  "generated_at": "2026-06-08T02:33:25Z",
   "total_skills": 189,
-  "skills": {
-    "abm/abm-strategy": {
-      "version": "1.0.0",
+  "skills": [
+    {
+      "path": "skills/abm/abm-1-to-1/SKILL.md",
+      "sha256": "c9e2991864b09102c48969a45e996f35609764ccf09b8997f52220f00cfb0d9e",
+      "bytes": 8681
+    },
+    {
+      "path": "skills/abm/abm-1-to-few/SKILL.md",
+      "sha256": "545312577909d493bae315bfbde25d9a03869b07c30628ede5f42ba7586c9ad5",
+      "bytes": 4387
+    },
+    {
+      "path": "skills/abm/abm-1-to-many/SKILL.md",
+      "sha256": "0c371258af27c28289d2ed2b9a536bfe293d129dcd051f95ee43c93aacc7cd8a",
+      "bytes": 4133
+    },
+    {
       "path": "skills/abm/abm-strategy/SKILL.md",
       "sha256": "5e4bd0de47e1b2b24e12906c7d23e8a3c6b8ba616eb6d7689830a1dde40c8fb8",
-      "size_bytes": 5443,
-      "last_updated": "2026-06-07T23:12:47Z"
+      "bytes": 5443
     },
-    "abm/account-selection": {
-      "version": "1.0.0",
+    {
       "path": "skills/abm/account-selection/SKILL.md",
-      "sha256": "95750ad14f51c1b71bfe27aebb0d655de7e40d665fa73e435775287f4f6404fc",
-      "size_bytes": 3799,
-      "last_updated": "2026-06-07T23:12:47Z"
+      "sha256": "90b7747d45b833d6c8d64aa0a498bac53868dd4d5bbcfa957b3681702355c3f3",
+      "bytes": 4097
     },
-    "abm/multi-thread-orchestration": {
-      "version": "1.0.0",
+    {
       "path": "skills/abm/multi-thread-orchestration/SKILL.md",
-      "sha256": "bd5d4e61e9075adfe39c45e4872839d74613f6719e6649ed8d5f8bdb697dd8ba",
-      "size_bytes": 5154,
-      "last_updated": "2026-06-07T23:12:47Z"
+      "sha256": "04a2fe3892615c9bfe82c5ab9ee8c22d034f314bf04338407405cfe10eec477c",
+      "bytes": 5480
     },
-    "abm/abm-1-to-few": {
-      "version": "1.0.0",
-      "path": "skills/abm/abm-1-to-few/SKILL.md",
-      "sha256": "6436ae246bdbeef9c153925f0444c9475f3bca59b7d1bb8f5fe9254ea19083b9",
-      "size_bytes": 4080,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "abm/abm-1-to-1": {
-      "version": "1.0.0",
-      "path": "skills/abm/abm-1-to-1/SKILL.md",
-      "sha256": "2ba80bfe17190795dbbcfbcce3d4d9848e8271d64cd81c889b61400f5f1ec75c",
-      "size_bytes": 8275,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "abm/abm-1-to-many": {
-      "version": "1.0.0",
-      "path": "skills/abm/abm-1-to-many/SKILL.md",
-      "sha256": "b91ebb9891d0dee2d964007839b2e9df8b120e64286230d7dd38fc48672edb87",
-      "size_bytes": 3829,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "design/case-study-builder": {
-      "version": "1.0.0",
-      "path": "skills/design/case-study-builder/SKILL.md",
-      "sha256": "db827f4f36cce043d4ca21c53ecb2d4d8fdaf246a7be45d862821d7ecda55ee5",
-      "size_bytes": 5921,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "design/roi-calculator": {
-      "version": "1.0.0",
-      "path": "skills/design/roi-calculator/SKILL.md",
-      "sha256": "f465e8e4f83195bab91026d7fe5cfda954ee518a0152ce86275b376db0d5b2c6",
-      "size_bytes": 10266,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "design/one-pager-builder": {
-      "version": "1.0.0",
-      "path": "skills/design/one-pager-builder/SKILL.md",
-      "sha256": "32a597ffa8c151872f3b6d13559338b5b3f1d4b8e98324770b39a861f105f576",
-      "size_bytes": 6579,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "design/ui-ux-gtm": {
-      "version": "1.0.0",
-      "path": "skills/design/ui-ux-gtm/SKILL.md",
-      "sha256": "8920f936c37d3eb43b6e1ec8f1a0d5fb866074a176c68ce1f2c297c326d56415",
-      "size_bytes": 13898,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "design/battlecard-builder": {
-      "version": "1.0.0",
-      "path": "skills/design/battlecard-builder/SKILL.md",
-      "sha256": "4ac226e0faab2c8a1aa2fba867fd5ebd433989ee291115a417d92a4e80a5b672",
-      "size_bytes": 7262,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "design/design-system-gtm": {
-      "version": "1.0.0",
-      "path": "skills/design/design-system-gtm/SKILL.md",
-      "sha256": "acc3d367136d6e8e4c1c4cb028b3e8656b5570f1dee7b67fb5f2223977a7ba4e",
-      "size_bytes": 11070,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "design/pitch-deck-builder": {
-      "version": "1.0.0",
-      "path": "skills/design/pitch-deck-builder/SKILL.md",
-      "sha256": "2ce9d4657458083d71c5e2c68ddb9f2ccb8f4e2471bf57054dab115dea55153f",
-      "size_bytes": 7421,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "demand-gen/content-syndication": {
-      "version": "1.0.0",
-      "path": "skills/demand-gen/content-syndication/SKILL.md",
-      "sha256": "d48013d3c3f0e2986496cbf721ade165469437f89a6849d5ff78ecb89e49b42d",
-      "size_bytes": 4728,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "demand-gen/webinar-strategy": {
-      "version": "1.0.0",
-      "path": "skills/demand-gen/webinar-strategy/SKILL.md",
-      "sha256": "92e4010a967643c85071741204ff9674a84664046dad8a61c868d1c7cc7a8b2e",
-      "size_bytes": 4401,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "demand-gen/podcast-gtm": {
-      "version": "1.0.0",
-      "path": "skills/demand-gen/podcast-gtm/SKILL.md",
-      "sha256": "a1d2dc7092a6eac4396e67889897a0716df0de307c061512b27789dc1478cae4",
-      "size_bytes": 4571,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "demand-gen/paid-social-strategy": {
-      "version": "1.0.0",
-      "path": "skills/demand-gen/paid-social-strategy/SKILL.md",
-      "sha256": "733cdf7f8b96988f62dd1e9ec2c7cec8fff418e91103ff851dd5d8d012c814ac",
-      "size_bytes": 4558,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "sales-plays/funding-signal-play": {
-      "version": "1.0.0",
-      "path": "skills/sales-plays/funding-signal-play/SKILL.md",
-      "sha256": "b16f7d87f0d4b7a13c1aff3259d88abf0b26dacb713fa469d5d48de6d05d5377",
-      "size_bytes": 4651,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "sales-plays/earnings-signal-play": {
-      "version": "1.0.0",
-      "path": "skills/sales-plays/earnings-signal-play/SKILL.md",
-      "sha256": "7e3ae8ab40f9535e1de3a90f80f890cfe46eb740f0bcc9dcc70c4f2da43be811",
-      "size_bytes": 4645,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "sales-plays/hiring-signal-play": {
-      "version": "1.0.0",
-      "path": "skills/sales-plays/hiring-signal-play/SKILL.md",
-      "sha256": "3a08a001dbd2639a45ac5f9a2b6611f4897b20ce88d7c1b535d5b54e888f7efb",
-      "size_bytes": 4517,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "sales-plays/product-launch-play": {
-      "version": "1.0.0",
-      "path": "skills/sales-plays/product-launch-play/SKILL.md",
-      "sha256": "df4f7b49c69b1979e0aeb5bbf04c64bcae313cd80ae67308ffb580ba0f2df0c3",
-      "size_bytes": 4601,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "sales-plays/job-change-play": {
-      "version": "1.0.0",
-      "path": "skills/sales-plays/job-change-play/SKILL.md",
-      "sha256": "6efffc7ef3e852dd5bf3ff480783b03edba61db84dbf5f7c418bb95d04554341",
-      "size_bytes": 4126,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "tools/sequencing/sequencing-toolkit": {
-      "version": "1.0.0",
-      "path": "skills/tools/sequencing/sequencing-toolkit/SKILL.md",
-      "sha256": "a4649a496a7cb4640a419a67f0aea7f017f7234a980091ef9425ccb9ebdd2c28",
-      "size_bytes": 5245,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "tools/leadmagic/leadmagic-toolkit": {
-      "version": "1.0.0",
-      "path": "skills/tools/leadmagic/leadmagic-toolkit/SKILL.md",
-      "sha256": "ea94d4e6f89d963fc167adea1f0a7b8853585dd404897f8ae5896641da2ac862",
-      "size_bytes": 7193,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "tools/analytics-tools/analytics-toolkit": {
-      "version": "1.0.0",
-      "path": "skills/tools/analytics-tools/analytics-toolkit/SKILL.md",
-      "sha256": "993b31469c39780c93cdd51f59d2472fce7d0bb75b0cf1523911035c42dbbad2",
-      "size_bytes": 4319,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "tools/crm/crm-toolkit": {
-      "version": "1.0.0",
-      "path": "skills/tools/crm/crm-toolkit/SKILL.md",
-      "sha256": "03aa6a3606035130f811a631dc358dc17090239f69e2a760b6fb69224d214bc8",
-      "size_bytes": 5018,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "tools/n8n/n8n-toolkit": {
-      "version": "1.0.0",
-      "path": "skills/tools/n8n/n8n-toolkit/SKILL.md",
-      "sha256": "3480e1dbe61ac28df50e15476c2513b06ba5420f087c927d5c0f01c11f43f985",
-      "size_bytes": 4642,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "tools/clay/clay-toolkit": {
-      "version": "1.0.0",
-      "path": "skills/tools/clay/clay-toolkit/SKILL.md",
-      "sha256": "8d35ec18160d67be14d55d40f1e633f0b41fef244b2840a012b942df46e02d98",
-      "size_bytes": 6383,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "tools/support-tools/support-toolkit": {
-      "version": "1.0.0",
-      "path": "skills/tools/support-tools/support-toolkit/SKILL.md",
-      "sha256": "5cd02d2bc14e817fdf9df059d751b1a374a0b4892cbce83dc6ae9c86d9d69879",
-      "size_bytes": 4524,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "content-seo/citation-harvesting": {
-      "version": "1.0.0",
-      "path": "skills/content-seo/citation-harvesting/SKILL.md",
-      "sha256": "4d2aa7e7d16ded98ae0744c267772aeafb4ce3c94147b8ca5c46e0ee48af9c95",
-      "size_bytes": 5169,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "content-seo/pseo-strategy": {
-      "version": "1.0.0",
-      "path": "skills/content-seo/pseo-strategy/SKILL.md",
-      "sha256": "5aa566aacca5201ef9f5b3184affecf20f3412d1a2e20a81a4c88fb14f2116dc",
-      "size_bytes": 4702,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "content-seo/aeo-strategy": {
-      "version": "1.0.0",
-      "path": "skills/content-seo/aeo-strategy/SKILL.md",
-      "sha256": "204c9fbe603ccd30bd7af61b698fa8459771b3265d99e842db3d8cd3b4f8495a",
-      "size_bytes": 5075,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "content-seo/faq-seo": {
-      "version": "1.0.0",
-      "path": "skills/content-seo/faq-seo/SKILL.md",
-      "sha256": "ea19ef13d588247aeb5fd5e37a7f68d2697c5671c34dbd16232e0a106a52776b",
-      "size_bytes": 5044,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "content-seo/pillar-pages": {
-      "version": "1.0.0",
-      "path": "skills/content-seo/pillar-pages/SKILL.md",
-      "sha256": "85a2bbca11443e55e28108cd8f344a90db6cfbeb70a4caf70a59c692e8940147",
-      "size_bytes": 4782,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "content-seo/seo-strategy": {
-      "version": "1.0.0",
-      "path": "skills/content-seo/seo-strategy/SKILL.md",
-      "sha256": "3e42750359586fa539e672c42d5aa0e4041ef2fd282a4dfeed958ea24e2506f6",
-      "size_bytes": 5192,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "leadmagic/leadmagic-integrations": {
-      "version": "1.0.0",
-      "path": "skills/leadmagic/leadmagic-integrations/SKILL.md",
-      "sha256": "92bfa079caaee5e6a122497f0c5b23ab8adbc85968888c125454743b89ef6b12",
-      "size_bytes": 4325,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "leadmagic/leadmagic-waterfall": {
-      "version": "1.0.0",
-      "path": "skills/leadmagic/leadmagic-waterfall/SKILL.md",
-      "sha256": "a32ce97b355f1566a5c7743a7d4977926139c69d4e2df837f7e7489df9e79c32",
-      "size_bytes": 6039,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "leadmagic/leadmagic-job-change": {
-      "version": "1.0.0",
-      "path": "skills/leadmagic/leadmagic-job-change/SKILL.md",
-      "sha256": "ed67ded29767538ddc9c5310f3c79fd0f806fdadc503e8a0524565b607b539b6",
-      "size_bytes": 2583,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "leadmagic/leadmagic-cli": {
-      "version": "1.0.0",
-      "path": "skills/leadmagic/leadmagic-cli/SKILL.md",
-      "sha256": "ba7ef9f13334476fb0d1a13292bf4ecf6bdbf5ccff0b13d58db80c9944ffbb0f",
-      "size_bytes": 4810,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "leadmagic/leadmagic-mcp": {
-      "version": "1.0.0",
-      "path": "skills/leadmagic/leadmagic-mcp/SKILL.md",
-      "sha256": "b3bee9dbb325ff9de67702b3dcbaaefe4f93bca18b59c265e130afc1e94c9aaf",
-      "size_bytes": 2738,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "leadmagic/leadmagic-bulk-enrichment": {
-      "version": "1.0.0",
-      "path": "skills/leadmagic/leadmagic-bulk-enrichment/SKILL.md",
-      "sha256": "56e5c32dfaab0f345b581c7160c581fb4db2b6cd8323133483a5ebd5b3696181",
-      "size_bytes": 2354,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "ai-agents/agent-observability": {
-      "version": "1.0.0",
-      "path": "skills/ai-agents/agent-observability/SKILL.md",
-      "sha256": "fbd3e6857316a01ec32a988222e0ebb2da511aef42ef15810dbab74b6a6696be",
-      "size_bytes": 4930,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "ai-agents/agent-guardrails": {
-      "version": "1.0.0",
-      "path": "skills/ai-agents/agent-guardrails/SKILL.md",
-      "sha256": "351651fe774aebda10e9bd8b79ff4eb14e6f9df5d4fe875218cc74878d324cba",
-      "size_bytes": 5154,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "ai-agents/agent-tool-calling": {
-      "version": "1.0.0",
-      "path": "skills/ai-agents/agent-tool-calling/SKILL.md",
-      "sha256": "c20179bd17902d31511c2120d948d02cf405c6b43505eeb483bf5d0cab848982",
-      "size_bytes": 5113,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "ai-agents/agent-architecture": {
-      "version": "1.0.0",
+    {
       "path": "skills/ai-agents/agent-architecture/SKILL.md",
-      "sha256": "161f8c83d8b801d902d3272f79ffe245484ccad958afda777a38703fda858d29",
-      "size_bytes": 5157,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "lifecycle/re-engagement": {
-      "version": "1.0.0",
-      "path": "skills/lifecycle/re-engagement/SKILL.md",
-      "sha256": "09d7f18032f9299ecd73edb3e807bdab6c5555043a81574af4dd6f9a5e887b1b",
-      "size_bytes": 5528,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "lifecycle/lifecycle-drips": {
-      "version": "1.0.0",
-      "path": "skills/lifecycle/lifecycle-drips/SKILL.md",
-      "sha256": "c2115700f2ff58fbb3aff8395e2e103ed52c5d386eb1a9fa7f998eba9c34322e",
-      "size_bytes": 5347,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "lifecycle/churn-prediction": {
-      "version": "1.0.0",
-      "path": "skills/lifecycle/churn-prediction/SKILL.md",
-      "sha256": "6b244a2959d8fcac74d2359f207e8078db68eec3cc6da659050e888eb80e680f",
-      "size_bytes": 6137,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "lifecycle/onboarding-sequences": {
-      "version": "1.0.0",
-      "path": "skills/lifecycle/onboarding-sequences/SKILL.md",
-      "sha256": "6301e7c85144ccbf8ce7c981577e01f1445206c4d4dacf8e367864c01feb3c99",
-      "size_bytes": 5174,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "lifecycle/mql-nurture": {
-      "version": "1.0.0",
-      "path": "skills/lifecycle/mql-nurture/SKILL.md",
-      "sha256": "2f071c2480be2bda97f9ec928b25d9bf29c150b9f0fa1674781ed75054fb48ed",
-      "size_bytes": 5376,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "foundation/icp-scoring": {
-      "version": "1.0.0",
-      "path": "skills/foundation/icp-scoring/SKILL.md",
-      "sha256": "59b9f45349f2f3134d68df3f1552f4ee15119d729f2d9fd52b652bee086d4285",
-      "size_bytes": 17893,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "foundation/using-gtm-skills": {
-      "version": "1.0.0",
-      "path": "skills/foundation/using-gtm-skills/SKILL.md",
-      "sha256": "6420c8458d579b36405f4c51ab83f092c57c0946277ea006bce25ff084eb828a",
-      "size_bytes": 13485,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "foundation/icp-targeting-tiers": {
-      "version": "1.0.0",
-      "path": "skills/foundation/icp-targeting-tiers/SKILL.md",
-      "sha256": "5cb15458e29b18f9c0a07031857a744c475b4e407fb54c329e2b729290c66d1e",
-      "size_bytes": 10674,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "foundation/pricing-strategy": {
-      "version": "1.0.0",
-      "path": "skills/foundation/pricing-strategy/SKILL.md",
-      "sha256": "b80615aeb5821e174657c9f6c5ca9d5d7374aefe7c45b0cc785fb9fb1abb769d",
-      "size_bytes": 22462,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "foundation/buyer-psychology": {
-      "version": "1.0.0",
-      "path": "skills/foundation/buyer-psychology/SKILL.md",
-      "sha256": "625210c78dfd61909b9f90b0bd412e985a5cddfc4a77428da12bd6727a4c6b1f",
-      "size_bytes": 8081,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "foundation/competitive-intel": {
-      "version": "1.0.0",
-      "path": "skills/foundation/competitive-intel/SKILL.md",
-      "sha256": "2adf12638a6ee03a8a00f6c5d65e4fb4910ae010351c9f5e64ba07c65581acc6",
-      "size_bytes": 19359,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "foundation/gtm-context": {
-      "version": "1.0.0",
-      "path": "skills/foundation/gtm-context/SKILL.md",
-      "sha256": "0f81f1cdb85d8a1e5ac691c9ded21f0405780405846424836ba0834e520e1096",
-      "size_bytes": 17613,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "foundation/positioning-messaging": {
-      "version": "1.0.0",
-      "path": "skills/foundation/positioning-messaging/SKILL.md",
-      "sha256": "9a86e9475c6b9135e9d9c26a6b3864d58bdc53ad1d8f8843e2b29772812ea9e1",
-      "size_bytes": 21535,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "gtm-ops/gtm-operations": {
-      "version": "1.0.0",
-      "path": "skills/gtm-ops/gtm-operations/SKILL.md",
-      "sha256": "70882e2ce751de5e9439557ab52ff9e7493e6b31e7c5acd33d73f0391624075d",
-      "size_bytes": 5091,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "gtm-ops/revops-tech-stack": {
-      "version": "1.0.0",
-      "path": "skills/gtm-ops/revops-tech-stack/SKILL.md",
-      "sha256": "8b5d89e7e62a9ec7b638bf75504febb5be726b30de73f9493d2f5f686f958f07",
-      "size_bytes": 4799,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "gtm-ops/campaign-governance": {
-      "version": "1.0.0",
-      "path": "skills/gtm-ops/campaign-governance/SKILL.md",
-      "sha256": "d80c8e9dafaaa4fe4608b6a68338e78033f2344338f7a6b8bcf3c9c7aa10319f",
-      "size_bytes": 4546,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "growth/referral-programs": {
-      "version": "1.0.0",
-      "path": "skills/growth/referral-programs/SKILL.md",
-      "sha256": "0328888b851c0d419c8d5487f7ac03251034167fd0038deeaf4be519eee2ed0e",
-      "size_bytes": 5035,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "growth/expansion-selling": {
-      "version": "1.0.0",
-      "path": "skills/growth/expansion-selling/SKILL.md",
-      "sha256": "4408eaf2c7fe8a1ba0883af5f251cb4131b7cce490e80afd88ef7449091dce5f",
-      "size_bytes": 7323,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "growth/churn-prevention": {
-      "version": "1.0.0",
-      "path": "skills/growth/churn-prevention/SKILL.md",
-      "sha256": "4380ac6f6a3180fcaf46d24469259c0ba1a9f0992dd3110394081a72f201a040",
-      "size_bytes": 6483,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "growth/customer-marketing": {
-      "version": "1.0.0",
-      "path": "skills/growth/customer-marketing/SKILL.md",
-      "sha256": "c90aff20a2291fafa6021e107905c602aecc3fd76155e216992ab15e75a69e31",
-      "size_bytes": 5609,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "sequencing-tools/lemlist-setup": {
-      "version": "1.0.0",
-      "path": "skills/sequencing-tools/lemlist-setup/SKILL.md",
-      "sha256": "b824bc59ccb767a6b9006c8b1c346048096b7ff4ce4b8ad99d0aa741adbd9e74",
-      "size_bytes": 3839,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "sequencing-tools/smartlead-workflows": {
-      "version": "1.0.0",
-      "path": "skills/sequencing-tools/smartlead-workflows/SKILL.md",
-      "sha256": "3944a48a3cbbf6249854fdc6708cbfe242db97e8800aeb5668ab6a0b5f9b1bd1",
-      "size_bytes": 4115,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "sequencing-tools/hubspot-sequences": {
-      "version": "1.0.0",
-      "path": "skills/sequencing-tools/hubspot-sequences/SKILL.md",
-      "sha256": "4d3e8721b78918c66a2dc7cb0560d828c4a1d5c3f4d5a89ccf593e53d650ae87",
-      "size_bytes": 3462,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "sequencing-tools/outreach-sequences": {
-      "version": "1.0.0",
-      "path": "skills/sequencing-tools/outreach-sequences/SKILL.md",
-      "sha256": "1af52b03784df9eee06c7accab50208b6ca17afc35e9fe13de84aa8d0034070c",
-      "size_bytes": 3644,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "sequencing-tools/instantly-sequences": {
-      "version": "1.0.0",
-      "path": "skills/sequencing-tools/instantly-sequences/SKILL.md",
-      "sha256": "e645fd7805ff7d5a1f99429271e13303a2238c631195d8b359231247f08d88c9",
-      "size_bytes": 3791,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "sequencing-tools/salesloft-cadences": {
-      "version": "1.0.0",
-      "path": "skills/sequencing-tools/salesloft-cadences/SKILL.md",
-      "sha256": "d95890632d1ddfa26d5873fe852b0635d8d96cf4146ef8596c8ba8884ce4a730",
-      "size_bytes": 3743,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/security-assessments": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/security-assessments/SKILL.md",
-      "sha256": "ebf2b7b630ec0955ba1ccd9825bf5678f440f2bbee4c13354ff4135c2b2439f7",
-      "size_bytes": 13821,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/co-founder-dynamics": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/co-founder-dynamics/SKILL.md",
-      "sha256": "a40cffb303573fc06fb47f8afc57175481cd9ae3672413662cbe670c7185a586",
-      "size_bytes": 17166,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/brand-kit": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/brand-kit/SKILL.md",
-      "sha256": "8cab4ab7c7fb8062afac1695411d003e8a3c31a23773eb8fa7476ee7eec34b82",
-      "size_bytes": 6931,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/board-meeting-prep": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/board-meeting-prep/SKILL.md",
-      "sha256": "f83eb006576ca4b2fc9cce89c15b6ec85526a1b79ff33aac463b4a5b50258fb0",
-      "size_bytes": 13323,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/yc-ecosystem": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/yc-ecosystem/SKILL.md",
-      "sha256": "54599927b3a3339417e72cb5f1402f82c6a39f98ed55a06f929005af1762abc2",
-      "size_bytes": 15533,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/founder-sales": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/founder-sales/SKILL.md",
-      "sha256": "eaa5c8ec252b07e57a9af8c934bea848038bd1e3b935e2c359f3b39d3e3ce3d8",
-      "size_bytes": 10690,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/legal-for-founders": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/legal-for-founders/SKILL.md",
-      "sha256": "4a495079a49823059c6ef337bbdb525fbd8630c5b9e1a9cfe7bcc3a14ca4488c",
-      "size_bytes": 16101,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/hiring-contractors": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/hiring-contractors/SKILL.md",
-      "sha256": "e4de744bebcd2320cd94cf5bc36f10a69d1069224d143a7c8520d3fa384c5c26",
-      "size_bytes": 6239,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/data-privacy-compliance": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/data-privacy-compliance/SKILL.md",
-      "sha256": "4493c3cf5fcfe50535306a426d2a3c9b71217286666f7fa9e409910e3ada170b",
-      "size_bytes": 12490,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/hiring-by-role": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/hiring-by-role/SKILL.md",
-      "sha256": "e361577b16638d85808041e707df1aa1f11201673a4caa70d6733ac366a51f44",
-      "size_bytes": 15796,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/solo-founder-gtm": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/solo-founder-gtm/SKILL.md",
-      "sha256": "e8efebadb35ab8ee426cf9060de449abaa08c5cc26cdfa559df57b39a6972896",
-      "size_bytes": 7080,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/saas-metrics-calculator": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/saas-metrics-calculator/SKILL.md",
-      "sha256": "98ab83898f4159b5e4ea43f7c07f62afefa4e253163c999a17ee28afed54d74f",
-      "size_bytes": 10777,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/job-posting-strategy": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/job-posting-strategy/SKILL.md",
-      "sha256": "a3f93d4a9ac8cab598780fba4817c0a270d36f0af9ad60d904df29359d27a482",
-      "size_bytes": 13042,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/first-hires-playbook": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/first-hires-playbook/SKILL.md",
-      "sha256": "5936528a3f694f174d5cc80813c7b598f703ae0546d80ada02208f5ab294b4dd",
-      "size_bytes": 12233,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/engineer-to-founder": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/engineer-to-founder/SKILL.md",
-      "sha256": "ad85112cb103a0652ffaddf77367025924c4df9f78b3f74467dd8875474b878d",
-      "size_bytes": 16311,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/events-planning": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/events-planning/SKILL.md",
-      "sha256": "d5de7179d86c791cd0f5f17b4e4a72724d4ea59f333e29399e4a3032cc2355fb",
-      "size_bytes": 5994,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/building-saas": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/building-saas/SKILL.md",
-      "sha256": "c8b57a02ff2d8f9ef2925a4bbfdf8a8ec0e09bbeb21ef144201d80c7885a0aa6",
-      "size_bytes": 6077,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/equity-management": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/equity-management/SKILL.md",
-      "sha256": "2fb2064c7683fd3e194faacf2d6b2e2a91bbcaa8110bbd8517615d2f6b2027ba",
-      "size_bytes": 10187,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/financial-modeling": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/financial-modeling/SKILL.md",
-      "sha256": "eb0eb1f127ce854e779ccd92866d5272f461e050f4cfd90d704263dac7410a29",
-      "size_bytes": 15607,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/vc-outreach": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/vc-outreach/SKILL.md",
-      "sha256": "7b7d698c2d8dd3679a1e7917489fd20da6093e7d49dbe00f2f8b0bbe8366be3e",
-      "size_bytes": 14643,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/fundraising-strategy": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/fundraising-strategy/SKILL.md",
-      "sha256": "db3cb0d7abb6e6c66df74cfbd764d3ef88ffe9e14b0bed62ec8689cef4b78feb",
-      "size_bytes": 11855,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/advisor-recruitment": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/advisor-recruitment/SKILL.md",
-      "sha256": "e0e9661bcd533e0a90bedc10553cc8719692a8ae7cebb2a3446bea8f49c4505f",
-      "size_bytes": 12328,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/founder-brand": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/founder-brand/SKILL.md",
-      "sha256": "4e886c510d6bdbd33f242c9f4dc628c05d1d6071986d58d3be95ac2e65c2dda4",
-      "size_bytes": 5882,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/vendor-contracts": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/vendor-contracts/SKILL.md",
-      "sha256": "4813c760806f47d6b153b23c17a1661e97dbdff669894728a87df56f28b43a81",
-      "size_bytes": 12369,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/sales-team-building": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/sales-team-building/SKILL.md",
-      "sha256": "84b90947b10520ffae5a8c3c63011ac354bb52a52d150c9d42729d0a0b57b1d7",
-      "size_bytes": 7976,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/startup-communities": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/startup-communities/SKILL.md",
-      "sha256": "5675da2a02b9d7d88c811bb3707eb685f1e884a0750dc22de9e0bcb453764aea",
-      "size_bytes": 14373,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/soc2-compliance": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/soc2-compliance/SKILL.md",
-      "sha256": "73a527b7b56763823bebbf62861c68be89476ee6e9997e075408697da19dcae3",
-      "size_bytes": 8443,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/exiting-company": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/exiting-company/SKILL.md",
-      "sha256": "b1480ee872bbadddc7d356c588e277f492e37a02a211742a3f44c6140e6a72f3",
-      "size_bytes": 7519,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/lead-magnets": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/lead-magnets/SKILL.md",
-      "sha256": "24dee07169d4ff2c281125d41966d599eac44ae7096b90c1f947cbed23c468ca",
-      "size_bytes": 10121,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/launch-planning": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/launch-planning/SKILL.md",
-      "sha256": "943178137840d1890e265c5f0ee271638ab1f6930266a64ab6ee345bb99b6814",
-      "size_bytes": 11785,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/business-insurance": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/business-insurance/SKILL.md",
-      "sha256": "dcc7c23cfec102e86d53aac16450cfb2111575d369f86ea241c8fdcb64f1a9ad",
-      "size_bytes": 12327,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/employment-compliance": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/employment-compliance/SKILL.md",
-      "sha256": "ac3d32cc0e4f83603364367a305d0c6dfedba1e9618f9ca5ec8726dcb02f7860",
-      "size_bytes": 14212,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/hiring-agencies": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/hiring-agencies/SKILL.md",
-      "sha256": "c2874e52946f213f78e1b52972356897c82983a41f3b8a9bf447f67fe918a0f8",
-      "size_bytes": 6011,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/content-led-growth": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/content-led-growth/SKILL.md",
-      "sha256": "5ce1bb60a92ed40a1109050b88c0b6bc21727db312f2fec34ce7ebf62c1f450b",
-      "size_bytes": 12292,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/partner-programs": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/partner-programs/SKILL.md",
-      "sha256": "01a081c93caf187628c1b140edfd3f86988867b77e6d55687a073ae03508054d",
-      "size_bytes": 10861,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/pricing-psychology": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/pricing-psychology/SKILL.md",
-      "sha256": "b63d0b03580b57e63f2b40df7acfc1c9df3574980c52eaad46fccfc7afa37c2d",
-      "size_bytes": 13166,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "founder-led/investor-updates": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/investor-updates/SKILL.md",
-      "sha256": "1be3f7984db3f85d26710077c0f30ef1229180b1c559744a381783ed74105192",
-      "size_bytes": 5528,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "inbound/inbound-triage": {
-      "version": "1.0.0",
-      "path": "skills/inbound/inbound-triage/SKILL.md",
-      "sha256": "d93a0c58c56e60b1879b32c8073f80b898a572b4b7fced11444851f1eacbbf87",
-      "size_bytes": 6437,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "inbound/social-selling": {
-      "version": "1.0.0",
-      "path": "skills/inbound/social-selling/SKILL.md",
-      "sha256": "264f5dae1fc11a48a5180a5c4c5198a3dea98491318dd655e0a04cbb658b600e",
-      "size_bytes": 5672,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "inbound/landing-pages": {
-      "version": "1.0.0",
-      "path": "skills/inbound/landing-pages/SKILL.md",
-      "sha256": "bf667ad31dbb266a026bdc6768c4dd16f64dab87cb9a942a5e902cbe726f620a",
-      "size_bytes": 5714,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "inbound/content-marketing": {
-      "version": "1.0.0",
-      "path": "skills/inbound/content-marketing/SKILL.md",
-      "sha256": "5be386cd650e2f905d006104568ad3053853059dd3f4c3d0f3c58a8b1f69d187",
-      "size_bytes": 5664,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "customer-success/cs-analytics-dashboards": {
-      "version": "1.0.0",
-      "path": "skills/customer-success/cs-analytics-dashboards/SKILL.md",
-      "sha256": "2889a9d60d929c1b3e3e26512a4a1d0ad7495ca892e95df5869902828ab5caef",
-      "size_bytes": 12241,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "customer-success/cs-playbooks": {
-      "version": "1.0.0",
-      "path": "skills/customer-success/cs-playbooks/SKILL.md",
-      "sha256": "05cbe153b67924befba755344350d9b3da16c7b796415322b3257ea3c23c21fa",
-      "size_bytes": 4463,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "customer-success/headless-support": {
-      "version": "1.0.0",
-      "path": "skills/customer-success/headless-support/SKILL.md",
-      "sha256": "34f3b4539012e1127d2735225f7d720c01cb551aa5dc92bfa1e8563f242a381e",
-      "size_bytes": 12342,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "customer-success/sla-management": {
-      "version": "1.0.0",
-      "path": "skills/customer-success/sla-management/SKILL.md",
-      "sha256": "5a363a700f609f376fa45d8a622bd2f685cd280b4806c274c62cdf1d69e5b543",
-      "size_bytes": 11349,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "customer-success/customer-onboarding": {
-      "version": "1.0.0",
-      "path": "skills/customer-success/customer-onboarding/SKILL.md",
-      "sha256": "c0fbbce17036e4f910807707731a78c69d24136e37b6b92cd626aa9ea1c1e025",
-      "size_bytes": 13344,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "customer-success/support-tool-stack": {
-      "version": "1.0.0",
-      "path": "skills/customer-success/support-tool-stack/SKILL.md",
-      "sha256": "a49c6cff1267c413112350202d033091fa53bb67f9e7d30d1702dd0aa464fcb0",
-      "size_bytes": 11697,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "customer-success/qbr-planning": {
-      "version": "1.0.0",
-      "path": "skills/customer-success/qbr-planning/SKILL.md",
-      "sha256": "27f37fdb86e3f1289494618e27e0bbcf364b8817a8cc80774372bdd3e58a5f41",
-      "size_bytes": 3522,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "partnerships/partnership-strategy": {
-      "version": "1.0.0",
-      "path": "skills/partnerships/partnership-strategy/SKILL.md",
-      "sha256": "279dc44ddde0510bf10b79f68c9f23ba8758c9f71a1c3f2f961e89fff5909d2f",
-      "size_bytes": 4444,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "partnerships/co-marketing": {
-      "version": "1.0.0",
-      "path": "skills/partnerships/co-marketing/SKILL.md",
-      "sha256": "54db5ef7c261ac47c8ccd50cbc6d0bdc1c52f008ec870394c9c02bf2f2cacac5",
-      "size_bytes": 4530,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "partnerships/integration-partnerships": {
-      "version": "1.0.0",
-      "path": "skills/partnerships/integration-partnerships/SKILL.md",
-      "sha256": "242d7717dda72dd4c9566577f1f7ed1116395f96375fc48780bd8c4b41f99c12",
-      "size_bytes": 5092,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "management-leadership/sales-coaching": {
-      "version": "1.0.0",
-      "path": "skills/management-leadership/sales-coaching/SKILL.md",
-      "sha256": "f58eea3f5a766cc9fc3ba9c62656f534a83d1c129612bf6e9d18812eff8c9b60",
-      "size_bytes": 3825,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "management-leadership/team-management": {
-      "version": "1.0.0",
-      "path": "skills/management-leadership/team-management/SKILL.md",
-      "sha256": "3e788cdaf15d78b8d171a3d032a2c092a356a358e2e3e7ccd2a3b1391385ff57",
-      "size_bytes": 6149,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "automation/skills-lock": {
-      "version": "1.0.0",
-      "path": "skills/automation/skills-lock/SKILL.md",
-      "sha256": "d7fd75525a928a07ba3bb1400dc9af9c9e012f4a34910bd9caea087ab68cfed2",
-      "size_bytes": 8029,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "automation/clay-automation": {
-      "version": "1.0.0",
-      "path": "skills/automation/clay-automation/SKILL.md",
-      "sha256": "7c7489ac686598442acf01e530907779df8b5c577f6c373e75e4e8e2c5b5f4ff",
-      "size_bytes": 6533,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "automation/attio-setup": {
-      "version": "1.0.0",
-      "path": "skills/automation/attio-setup/SKILL.md",
-      "sha256": "2fc3f1c0437938ecf55ecaddcbb647e6bdc40d3af3c0c1896a2783e992431c24",
-      "size_bytes": 4393,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "automation/waterfall-enrichment": {
-      "version": "1.0.0",
-      "path": "skills/automation/waterfall-enrichment/SKILL.md",
-      "sha256": "572120eacf657ce1f839dca525a3f321e3df7d7d8a0c725270457da25b3fb4c8",
-      "size_bytes": 4400,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "automation/hubspot-setup": {
-      "version": "1.0.0",
-      "path": "skills/automation/hubspot-setup/SKILL.md",
-      "sha256": "225d7b21b2f632467d56a597ba58f1ea76a06f20106a17fd70f67c2557840c41",
-      "size_bytes": 5239,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "automation/n8n-automation": {
-      "version": "1.0.0",
-      "path": "skills/automation/n8n-automation/SKILL.md",
-      "sha256": "6abcaff615fbc8f471b1c0bca936762cfb1778e6d3222f3e2d2d3476caa10c87",
-      "size_bytes": 3315,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "automation/tool-selection-stack": {
-      "version": "1.0.0",
-      "path": "skills/automation/tool-selection-stack/SKILL.md",
-      "sha256": "7468cca25e70a03f5508a58c1078d8a5dd038398984fbf6fe2dd88d7d71bc1d3",
-      "size_bytes": 4722,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "automation/api-enrichment": {
-      "version": "1.0.0",
-      "path": "skills/automation/api-enrichment/SKILL.md",
-      "sha256": "fa02c39062e378ecbebbffb66d555a11b8fef39534e387fd417dc2cea0782610",
-      "size_bytes": 3195,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "automation/salesforce-setup": {
-      "version": "1.0.0",
-      "path": "skills/automation/salesforce-setup/SKILL.md",
-      "sha256": "8136abbc1be826d7703515f6dc5dc5cbf02f84a030391aa2bb374fbe0af5d3eb",
-      "size_bytes": 5506,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "automation/ai-sdr-setup": {
-      "version": "1.0.0",
-      "path": "skills/automation/ai-sdr-setup/SKILL.md",
-      "sha256": "6da9fc5379b4b6a8bd76bb29d875f9a62190aa2acd5016d0efebf8750beb0a6b",
-      "size_bytes": 2883,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "automation/mcp-setup": {
-      "version": "1.0.0",
-      "path": "skills/automation/mcp-setup/SKILL.md",
-      "sha256": "6dd3673af68d65024dca997e23590f3b6ac35952606efd0c7fcb0ca4b491c912",
-      "size_bytes": 3019,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "automation/crm-integration": {
-      "version": "1.0.0",
-      "path": "skills/automation/crm-integration/SKILL.md",
-      "sha256": "2c34d7c3ea3a1ec6750a6664dd6794f2b00736a41101b2a83f2787feee1d72b1",
-      "size_bytes": 3264,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "outbound/sending-platforms": {
-      "version": "1.0.0",
-      "path": "skills/outbound/sending-platforms/SKILL.md",
-      "sha256": "c91c53cdc30b4b3d32c844c9bf9268f6ef01fafd3784b01423554c660c7dd193",
-      "size_bytes": 23848,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "outbound/domain-infrastructure": {
-      "version": "1.0.0",
-      "path": "skills/outbound/domain-infrastructure/SKILL.md",
-      "sha256": "94188912f83b2aeb615c3d193f38d44ccfea3c847a8380e476a2ab00364b26c6",
-      "size_bytes": 23102,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "outbound/cold-calling": {
-      "version": "1.0.0",
-      "path": "skills/outbound/cold-calling/SKILL.md",
-      "sha256": "b086f3d6b94812fb14111a93e0462cb3f13de1179cf738653c23612eb44a5512",
-      "size_bytes": 9573,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "outbound/multi-channel-outreach": {
-      "version": "1.0.0",
-      "path": "skills/outbound/multi-channel-outreach/SKILL.md",
-      "sha256": "ee9ae29bc9e62746e7a2e2f9479504b96e3432bfe1eed58fba39bfad2c6bfeae",
-      "size_bytes": 7684,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "outbound/reply-handling": {
-      "version": "1.0.0",
-      "path": "skills/outbound/reply-handling/SKILL.md",
-      "sha256": "48ebfb0fcb3b2c1cce1f544e17eeaf2677eff33271e85b690aafa38f8a350630",
-      "size_bytes": 24753,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "outbound/inbox-setup": {
-      "version": "1.0.0",
-      "path": "skills/outbound/inbox-setup/SKILL.md",
-      "sha256": "c9807cc6babeccfcb78cfe13ab920c7557cbe359fbc3d26e08240674f8ae2b77",
-      "size_bytes": 7952,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "outbound/cold-email-copywriting": {
-      "version": "1.0.0",
-      "path": "skills/outbound/cold-email-copywriting/SKILL.md",
-      "sha256": "93f25c4351a9671e8b641592152a884753d4f25215d7793cf4bef5e7d380e87d",
-      "size_bytes": 20543,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "outbound/email-deliverability": {
-      "version": "1.0.0",
-      "path": "skills/outbound/email-deliverability/SKILL.md",
-      "sha256": "764644319d5ed54061e0364aa90f12dd8ffb70faef9198570d17dc75384d13ca",
-      "size_bytes": 23555,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "outbound/cold-email-strategy": {
-      "version": "1.0.0",
-      "path": "skills/outbound/cold-email-strategy/SKILL.md",
-      "sha256": "d3c88c854796e8d7bf84d325bdbbde0cbc1dc6747199d955b2b58d40ef18f92d",
-      "size_bytes": 22170,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "creative/ai-content-creation": {
-      "version": "1.0.0",
-      "path": "skills/creative/ai-content-creation/SKILL.md",
-      "sha256": "51e019f78870e9f13ca783a2887a7615c49e8dfe4a6b025e725e553c1b757ee4",
-      "size_bytes": 11897,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "creative/vibe-marketing": {
-      "version": "1.0.0",
-      "path": "skills/creative/vibe-marketing/SKILL.md",
-      "sha256": "4f31905f9a658d60c3baee561409a895fa7b90251a09cdb62b4bdc39eab3c074",
-      "size_bytes": 13880,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "creative/landing-page-copy": {
-      "version": "1.0.0",
-      "path": "skills/creative/landing-page-copy/SKILL.md",
-      "sha256": "410f41523e4e958208a99ac578ffcf66c2a2fd18000cb1ea4a56c7860904f78f",
-      "size_bytes": 16728,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "creative/copywriting": {
-      "version": "1.0.0",
-      "path": "skills/creative/copywriting/SKILL.md",
-      "sha256": "f80a05946543106ccf9af80805698cadf8eaa723983a353a891bc8a8359a3b89",
-      "size_bytes": 3980,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "creative/social-media-strategy": {
-      "version": "1.0.0",
-      "path": "skills/creative/social-media-strategy/SKILL.md",
-      "sha256": "5aeb066b1b2544e8083f1f4737128cbddb74308d4137595a1a732e600c08e74b",
-      "size_bytes": 4739,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "creative/growth-hacking-tactics": {
-      "version": "1.0.0",
-      "path": "skills/creative/growth-hacking-tactics/SKILL.md",
-      "sha256": "1f4a43e740e3d9c8c67b4390386eb33817eb7fce402ba380040f149034b6b370",
-      "size_bytes": 12896,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "creative/ai-video-creation": {
-      "version": "1.0.0",
-      "path": "skills/creative/ai-video-creation/SKILL.md",
-      "sha256": "ad540fe4ef991beccb63cdfa975f4eb14c2f8c275ebfbe8b31dbf8dcebc22299",
-      "size_bytes": 12622,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "creative/graphic-design-gtm": {
-      "version": "1.0.0",
-      "path": "skills/creative/graphic-design-gtm/SKILL.md",
-      "sha256": "420f6dffd90a857123e301ad6350a388746f645515b83790d8f0e02385335f4b",
-      "size_bytes": 4758,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "creative/v0-lander": {
-      "version": "1.0.0",
-      "path": "skills/creative/v0-lander/SKILL.md",
-      "sha256": "a769d6209523915afa2c04ec4e09839dd2b478e092f2f8b62fa04da205c89946",
-      "size_bytes": 14279,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "creative/ad-creative-strategy": {
-      "version": "1.0.0",
-      "path": "skills/creative/ad-creative-strategy/SKILL.md",
-      "sha256": "c8e629dba481a8f09b857b58be148fd4e925fed19f5c7e74e40bd1bafa49eb8f",
-      "size_bytes": 5927,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "creative/content-distribution": {
-      "version": "1.0.0",
-      "path": "skills/creative/content-distribution/SKILL.md",
-      "sha256": "d64667d69f75f5a863be9a42fc59c94907b43932a8d706ef496f63ac49209012",
-      "size_bytes": 5828,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "creative/vibe-coding": {
-      "version": "1.0.0",
-      "path": "skills/creative/vibe-coding/SKILL.md",
-      "sha256": "f5ca49d01f69929976cdb9101cada63ab08443e4bd1b252c1456dcb8b27158e9",
-      "size_bytes": 15531,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "events/conference-strategy": {
-      "version": "1.0.0",
-      "path": "skills/events/conference-strategy/SKILL.md",
-      "sha256": "cf5c13afb9a5367423facdd70cbbb280db1e9ea8e77bf22abc4e00360428aba1",
-      "size_bytes": 4822,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "events/event-driven-outreach": {
-      "version": "1.0.0",
-      "path": "skills/events/event-driven-outreach/SKILL.md",
-      "sha256": "52488210e74fbde5c0825fba99dcf4106cfc736d659c028cc7063412956886b9",
-      "size_bytes": 4076,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "events/field-marketing": {
-      "version": "1.0.0",
-      "path": "skills/events/field-marketing/SKILL.md",
-      "sha256": "7fcbf2a3b2f2ad967b00d5b6615f8ad43016e799f74890b7543f109585645d1f",
-      "size_bytes": 4988,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "product-led-growth/plg-strategy": {
-      "version": "1.0.0",
-      "path": "skills/product-led-growth/plg-strategy/SKILL.md",
-      "sha256": "8b2b94f4d9d627bb3495f3104e3d5924bf06cf4f4481ba799f68ed1cb4a3a754",
-      "size_bytes": 4290,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "product-led-growth/freemium-optimization": {
-      "version": "1.0.0",
-      "path": "skills/product-led-growth/freemium-optimization/SKILL.md",
-      "sha256": "81ee72536bbe28b858888e4408cbd701c54115b32ab406c298fc6d3c97a277e1",
-      "size_bytes": 4924,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "analytics/tracking-plan": {
-      "version": "1.0.0",
-      "path": "skills/analytics/tracking-plan/SKILL.md",
-      "sha256": "c0758e85e610d06a2aaa60f91f9f8e4026b31a9cc3f00cf95b39367e0b898878",
-      "size_bytes": 24472,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "analytics/marketing-strategy": {
-      "version": "1.0.0",
-      "path": "skills/analytics/marketing-strategy/SKILL.md",
-      "sha256": "b365258753f2f1b482fda87aef5336646d12db6abd3937d9430e72cb3db99be4",
-      "size_bytes": 6382,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "analytics/event-analytics": {
-      "version": "1.0.0",
-      "path": "skills/analytics/event-analytics/SKILL.md",
-      "sha256": "6d1cf1a242ce9186d3294eb79777acee707d6dcd9749a7c397b021b10837d8ec",
-      "size_bytes": 10959,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "analytics/1p-tagging-pixels": {
-      "version": "1.0.0",
+      "sha256": "b6dee49b8c6f8a5d98fd05fe93201945f6d1bb3e68e19f6245d15b53a6d6de57",
+      "bytes": 5468
+    },
+    {
+      "path": "skills/ai-agents/agent-guardrails/SKILL.md",
+      "sha256": "021662643cd62fa8c1f3227b6f61e4b64ae47b799b53c5464cb67f6c6acef14d",
+      "bytes": 5470
+    },
+    {
+      "path": "skills/ai-agents/agent-observability/SKILL.md",
+      "sha256": "9da5626c191e453a96f9e6a5d251df5bbf826d287a47f1108094f2ca4a9cce5e",
+      "bytes": 5240
+    },
+    {
+      "path": "skills/ai-agents/agent-tool-calling/SKILL.md",
+      "sha256": "35e979778ac1184a82dc09e36b7a8c89d9b0520df55134b8de4c805495859387",
+      "bytes": 5417
+    },
+    {
       "path": "skills/analytics/1p-tagging-pixels/SKILL.md",
-      "sha256": "efcf2f315d88df9110cd54bebf82929561d7c005aa8c028df944e0a29f850154",
-      "size_bytes": 8756,
-      "last_updated": "2026-06-07T23:12:47Z"
+      "sha256": "50fa516b7a15b45670832b168db71be4c7f6149f55ed00823dc320551d57c900",
+      "bytes": 9156
     },
-    "analytics/proactive-alerts": {
-      "version": "1.0.0",
-      "path": "skills/analytics/proactive-alerts/SKILL.md",
-      "sha256": "6cabf7cf85dc421362b4eb93a325190666350a38fc47fc14d6376076695bd8db",
-      "size_bytes": 5909,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "analytics/a-b-testing": {
-      "version": "1.0.0",
+    {
       "path": "skills/analytics/a-b-testing/SKILL.md",
-      "sha256": "c3d03bb3497418e09fdfc019b0c965b5ee31efaa8634aaa73192666f9dbe78e0",
-      "size_bytes": 25567,
-      "last_updated": "2026-06-07T23:12:47Z"
+      "sha256": "758a37b013b55d8e962ea0d9cd75440ccaf175f1022867d179f1546fbcad07ad",
+      "bytes": 25263
     },
-    "analytics/campaign-analytics": {
-      "version": "1.0.0",
-      "path": "skills/analytics/campaign-analytics/SKILL.md",
-      "sha256": "ab242bb2fd78fd52e6951dd4b211c25d05bab55a0d56655310806753e1b572d0",
-      "size_bytes": 27775,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "analytics/attribution": {
-      "version": "1.0.0",
+    {
       "path": "skills/analytics/attribution/SKILL.md",
-      "sha256": "084042175cae7bc3ba3801b75ff4449eb334e716d1c353336a27d02dc7a40c66",
-      "size_bytes": 25504,
-      "last_updated": "2026-06-07T23:12:47Z"
+      "sha256": "aa1ecc4b57732c25d3216902f178c0e1fa3a8a777abf6fc7062b7a464e26c7af",
+      "bytes": 25201
     },
-    "analytics/paid-advertising": {
-      "version": "1.0.0",
-      "path": "skills/analytics/paid-advertising/SKILL.md",
-      "sha256": "d32ca4dbc204a49a41bcd6497deea90a2e582c8e8fdd6575c72090c8359fc830",
-      "size_bytes": 7179,
-      "last_updated": "2026-06-07T23:12:47Z"
+    {
+      "path": "skills/analytics/campaign-analytics/SKILL.md",
+      "sha256": "ed5064fa6b6c8ddc9ca87d33b78c47ed62b2802f10b2680d13d650623f4cf26a",
+      "bytes": 27484
     },
-    "analytics/deliverability-monitoring": {
-      "version": "1.0.0",
+    {
       "path": "skills/analytics/deliverability-monitoring/SKILL.md",
-      "sha256": "3c90c815467b1371df25f988aa2c4111a84557d7fef3f690d91dbe47e101fba1",
-      "size_bytes": 24697,
-      "last_updated": "2026-06-07T23:12:47Z"
+      "sha256": "62622c95fb7d807a29c8b28b0aea85636c340d8712ce40ea1a7af69655547490",
+      "bytes": 24562
     },
-    "analytics/growth-experimentation": {
-      "version": "1.0.0",
+    {
+      "path": "skills/analytics/event-analytics/SKILL.md",
+      "sha256": "c89c86bc6fe1d354760af7273fe108b0225fe6774f693b72a1dd3f9ec9718515",
+      "bytes": 19577
+    },
+    {
       "path": "skills/analytics/growth-experimentation/SKILL.md",
       "sha256": "02fce6a8c06e497844581a8e7d019cd14f60aad4adaf68ebde0cf660092586aa",
-      "size_bytes": 4452,
-      "last_updated": "2026-06-07T23:12:47Z"
+      "bytes": 4452
     },
-    "analytics/gtm-system-architecture": {
-      "version": "1.0.0",
+    {
+      "path": "skills/analytics/gtm-metrics/SKILL.md",
+      "sha256": "1c21dd5f46aadb9f06c807eed01990fb547051b90cc237a84acc68638f4c97fe",
+      "bytes": 24755
+    },
+    {
       "path": "skills/analytics/gtm-system-architecture/SKILL.md",
       "sha256": "63303549badec651e158005d0bd5a0c197c2c5d9f66b4264e8924c91ad926372",
-      "size_bytes": 7167,
-      "last_updated": "2026-06-07T23:12:47Z"
+      "bytes": 7167
     },
-    "analytics/gtm-metrics": {
-      "version": "1.0.0",
-      "path": "skills/analytics/gtm-metrics/SKILL.md",
-      "sha256": "1af00095b08fef542605061eecaad3a07f234ed0cda8771c0859333cb85f7252",
-      "size_bytes": 25009,
-      "last_updated": "2026-06-07T23:12:47Z"
+    {
+      "path": "skills/analytics/marketing-strategy/SKILL.md",
+      "sha256": "d00fec9b4de6a44255256c641a3fc76652ee2c7bb15797d33cd82e4dbc406b5a",
+      "bytes": 6775
     },
-    "prospecting/contact-verification": {
-      "version": "1.0.0",
+    {
+      "path": "skills/analytics/paid-advertising/SKILL.md",
+      "sha256": "9c9ae77bccafeeedd67a42c4c56e5801976ca34e5ac532eaa4242aa65a422ad9",
+      "bytes": 7578
+    },
+    {
+      "path": "skills/analytics/proactive-alerts/SKILL.md",
+      "sha256": "6cabf7cf85dc421362b4eb93a325190666350a38fc47fc14d6376076695bd8db",
+      "bytes": 5909
+    },
+    {
+      "path": "skills/analytics/tracking-plan/SKILL.md",
+      "sha256": "1c536e95ae158d30581fdb35f7b3e37a5c5f5dba7e9814071350336836289c02",
+      "bytes": 30947
+    },
+    {
+      "path": "skills/automation/ai-sdr-setup/SKILL.md",
+      "sha256": "fb3c5ceec0ba18e1a6beb9621fae4a5c63f191bba087c1affdf76e2150fd51e5",
+      "bytes": 7939
+    },
+    {
+      "path": "skills/automation/api-enrichment/SKILL.md",
+      "sha256": "a79f8072959f7bb1feabceaec71e58e20cedfe934a7416c1ef441efbb0d29e4d",
+      "bytes": 6336
+    },
+    {
+      "path": "skills/automation/attio-setup/SKILL.md",
+      "sha256": "8ca8659b6555fff4a2344f57135733a72c8b45d279fbfc82ee48178fc09e3ef3",
+      "bytes": 4703
+    },
+    {
+      "path": "skills/automation/clay-automation/SKILL.md",
+      "sha256": "7c7489ac686598442acf01e530907779df8b5c577f6c373e75e4e8e2c5b5f4ff",
+      "bytes": 6533
+    },
+    {
+      "path": "skills/automation/crm-integration/SKILL.md",
+      "sha256": "932df8591b71da5fec010c7853013ac609b8eb506c311f16323ed5d020f3a034",
+      "bytes": 6035
+    },
+    {
+      "path": "skills/automation/hubspot-setup/SKILL.md",
+      "sha256": "c09c0d4e2899d92c31223e00ebe40fe95cffaf716052b1673be7ab865cfa0097",
+      "bytes": 5546
+    },
+    {
+      "path": "skills/automation/mcp-setup/SKILL.md",
+      "sha256": "460254cd4e0aed061ef65f15c33b7c6b818c16881a2e9e996689766847f57cbf",
+      "bytes": 5963
+    },
+    {
+      "path": "skills/automation/n8n-automation/SKILL.md",
+      "sha256": "834814d33913b345fbdfe5c2ad037d6cd5e00b28d6897dd073275e644850309a",
+      "bytes": 3633
+    },
+    {
+      "path": "skills/automation/salesforce-setup/SKILL.md",
+      "sha256": "57b8e5fb9e6d86efe9a73cff0c4dcd60c572f8af4ba0803c380f5f6f1c0354ac",
+      "bytes": 5900
+    },
+    {
+      "path": "skills/automation/skills-lock/SKILL.md",
+      "sha256": "65e1090ed501252fd65fa207dc248320bba1bcacb78ca73f775b7ce02211055d",
+      "bytes": 10219
+    },
+    {
+      "path": "skills/automation/tool-selection-stack/SKILL.md",
+      "sha256": "71ab4e78d0068b6e4a2247e83797b3febfda52db4b2530f4458a2be4aa475689",
+      "bytes": 5036
+    },
+    {
+      "path": "skills/automation/waterfall-enrichment/SKILL.md",
+      "sha256": "889223f8245b67f369925851ff7a2740525f9d78edf25610fd29153832ad0d19",
+      "bytes": 4716
+    },
+    {
+      "path": "skills/content-seo/aeo-strategy/SKILL.md",
+      "sha256": "cee5f0e779282b91fd5d434580754290e2116b4dbd77a4d29899a4d45f6b049f",
+      "bytes": 5393
+    },
+    {
+      "path": "skills/content-seo/citation-harvesting/SKILL.md",
+      "sha256": "021e8881036f40b12745e09113a044aecbdbebef5ba166dcd4fa08b95ba4f88b",
+      "bytes": 5471
+    },
+    {
+      "path": "skills/content-seo/faq-seo/SKILL.md",
+      "sha256": "986b1c86403d5d7aa8370ab482c6a2ce44ffca6c3390af4e5981f31ccb3f4f38",
+      "bytes": 5364
+    },
+    {
+      "path": "skills/content-seo/pillar-pages/SKILL.md",
+      "sha256": "816dbaf32d7e3cb07440aa55b69815f5056b00fe000461e0c59ebac7a8698d3d",
+      "bytes": 5092
+    },
+    {
+      "path": "skills/content-seo/pseo-strategy/SKILL.md",
+      "sha256": "448c8c6da4e91c9f12bc2a4087ce0038d51ac31f79d79328e1e4f2d2363f533e",
+      "bytes": 5011
+    },
+    {
+      "path": "skills/content-seo/seo-strategy/SKILL.md",
+      "sha256": "4451fd3b43a2b3edb0aae4a39e4647e4380dc92243fb9aded69a78b366527652",
+      "bytes": 5496
+    },
+    {
+      "path": "skills/creative/ad-creative-strategy/SKILL.md",
+      "sha256": "661391fa6a2b1375b8a7edcfa319c9fd3f5f76f5f7a1ca55dd051fcc2980e502",
+      "bytes": 6245
+    },
+    {
+      "path": "skills/creative/ai-content-creation/SKILL.md",
+      "sha256": "304ec2eecfa6d6a8acd20893bd6d60a8276ef14b21b7645f55ecedbf5418b2a9",
+      "bytes": 23437
+    },
+    {
+      "path": "skills/creative/ai-video-creation/SKILL.md",
+      "sha256": "b11a47e8e10161f794990d611aa7680fcccf2dec09ca6bc815713c5feb05b90e",
+      "bytes": 25380
+    },
+    {
+      "path": "skills/creative/content-distribution/SKILL.md",
+      "sha256": "ec9738ed72a230e5d6a9d6f858e9134eea38eda7006b6dfa0c3759c785051b7f",
+      "bytes": 6143
+    },
+    {
+      "path": "skills/creative/copywriting/SKILL.md",
+      "sha256": "f80a05946543106ccf9af80805698cadf8eaa723983a353a891bc8a8359a3b89",
+      "bytes": 3980
+    },
+    {
+      "path": "skills/creative/graphic-design-gtm/SKILL.md",
+      "sha256": "377bd24099398259fe168fb7d7d9bb30c11a6764267e22938535c406448dde3a",
+      "bytes": 5067
+    },
+    {
+      "path": "skills/creative/growth-hacking-tactics/SKILL.md",
+      "sha256": "943ade0a3b5a97c55f0390c6f0f692e87de8b1775e6d53a01f0f9e8dd2cc8f13",
+      "bytes": 13280
+    },
+    {
+      "path": "skills/creative/landing-page-copy/SKILL.md",
+      "sha256": "1e0114f94e36d31bc85dcd1e15ea8f0b4e80655428427e401290d1f5acd627ff",
+      "bytes": 17108
+    },
+    {
+      "path": "skills/creative/social-media-strategy/SKILL.md",
+      "sha256": "5aeb066b1b2544e8083f1f4737128cbddb74308d4137595a1a732e600c08e74b",
+      "bytes": 4739
+    },
+    {
+      "path": "skills/creative/v0-lander/SKILL.md",
+      "sha256": "c044e1e4715b8aa67d3ee67e224b6a34c281d50646ecbba53e6b7134daf925e6",
+      "bytes": 22986
+    },
+    {
+      "path": "skills/creative/vibe-coding/SKILL.md",
+      "sha256": "1cbb26cd04d595e678e160b60a25884077fb8773c25f3e11c322c13b3e9ebec6",
+      "bytes": 15915
+    },
+    {
+      "path": "skills/creative/vibe-marketing/SKILL.md",
+      "sha256": "65a4654dbfaeef03791380733809100f46bd721a6fee3159ec6a5c73ef05c6c8",
+      "bytes": 20910
+    },
+    {
+      "path": "skills/customer-success/cs-analytics-dashboards/SKILL.md",
+      "sha256": "545e3768d370e1a55d3b6eac357708d6d84a00c3098e88d9b8a7a6916b134450",
+      "bytes": 21139
+    },
+    {
+      "path": "skills/customer-success/cs-playbooks/SKILL.md",
+      "sha256": "05cbe153b67924befba755344350d9b3da16c7b796415322b3257ea3c23c21fa",
+      "bytes": 4463
+    },
+    {
+      "path": "skills/customer-success/customer-onboarding/SKILL.md",
+      "sha256": "af23c0b5ce7c9ccf3c9b68391461eb7e9cc2ea9d388b1b297bd949ea619a4b40",
+      "bytes": 13728
+    },
+    {
+      "path": "skills/customer-success/headless-support/SKILL.md",
+      "sha256": "6e124d436015c1a3b94e2f18ed16a5603b31dc4aa330c2a34aa4d94972c7c8e8",
+      "bytes": 19672
+    },
+    {
+      "path": "skills/customer-success/qbr-planning/SKILL.md",
+      "sha256": "27f37fdb86e3f1289494618e27e0bbcf364b8817a8cc80774372bdd3e58a5f41",
+      "bytes": 3522
+    },
+    {
+      "path": "skills/customer-success/sla-management/SKILL.md",
+      "sha256": "aec4a3addb91f5f752caa19123c27144863707f1af0c81aea17a0253699f7237",
+      "bytes": 18467
+    },
+    {
+      "path": "skills/customer-success/support-tool-stack/SKILL.md",
+      "sha256": "fde4685067a14905e04946317a605c3917a743a5531cb09c8394396880efaa99",
+      "bytes": 19558
+    },
+    {
+      "path": "skills/demand-gen/content-syndication/SKILL.md",
+      "sha256": "30d6c997f4a51a59140548397893d8c59a356462e030bda38b3151abd4327191",
+      "bytes": 5048
+    },
+    {
+      "path": "skills/demand-gen/paid-social-strategy/SKILL.md",
+      "sha256": "73111730d9cbb6e78e85a991a2facd9374e90a7fa2fc49f2db6dacbf35735639",
+      "bytes": 4869
+    },
+    {
+      "path": "skills/demand-gen/podcast-gtm/SKILL.md",
+      "sha256": "e3141624eeb042c977727ab78a6caeff3f0757ae247b07c9a83a915ae68630e8",
+      "bytes": 4875
+    },
+    {
+      "path": "skills/demand-gen/webinar-strategy/SKILL.md",
+      "sha256": "1b2c676ab8b5fc576ae1a2fabe7a5cbaec71e96cdcaab9b4431797fa29e75f81",
+      "bytes": 4716
+    },
+    {
+      "path": "skills/design/battlecard-builder/SKILL.md",
+      "sha256": "4ac226e0faab2c8a1aa2fba867fd5ebd433989ee291115a417d92a4e80a5b672",
+      "bytes": 7262
+    },
+    {
+      "path": "skills/design/case-study-builder/SKILL.md",
+      "sha256": "eace0ebdd59e87a6bf3705979c6ea4601e9e159cc9f23ea0fbda814af8e43ff3",
+      "bytes": 6225
+    },
+    {
+      "path": "skills/design/design-system-gtm/SKILL.md",
+      "sha256": "811f8b38972859436b287b2073f0ca2703c8d1a097a61742cb1362f0c72a96ed",
+      "bytes": 20434
+    },
+    {
+      "path": "skills/design/one-pager-builder/SKILL.md",
+      "sha256": "4431571001258d0cb6bae24663290b51252e0282fd5dd5f6b420c08937c5d623",
+      "bytes": 6962
+    },
+    {
+      "path": "skills/design/pitch-deck-builder/SKILL.md",
+      "sha256": "2ce9d4657458083d71c5e2c68ddb9f2ccb8f4e2471bf57054dab115dea55153f",
+      "bytes": 7421
+    },
+    {
+      "path": "skills/design/roi-calculator/SKILL.md",
+      "sha256": "c048dd3d9f6fde97aa2f1dcf6b23ed5f3da7d16820475dcffd39b7bb2c1a7ab9",
+      "bytes": 15097
+    },
+    {
+      "path": "skills/design/ui-ux-gtm/SKILL.md",
+      "sha256": "8acd1325dfc4010b742e94a406f09368f03cbac976de6b866a0bc3ad4101a96a",
+      "bytes": 14282
+    },
+    {
+      "path": "skills/events/conference-strategy/SKILL.md",
+      "sha256": "f6bf9d91b44a79addb1e0eed93be08ae04f5143eb789859fb18927acce1b0780",
+      "bytes": 5132
+    },
+    {
+      "path": "skills/events/event-driven-outreach/SKILL.md",
+      "sha256": "d04a25e14fef4a48e6e271abd2000a15126a31dd2675427988e55f1ee9c65e0c",
+      "bytes": 4380
+    },
+    {
+      "path": "skills/events/field-marketing/SKILL.md",
+      "sha256": "41f865848de955e0b9ab3124e973d7eae7367b73504066a22e4dad79251fc759",
+      "bytes": 5296
+    },
+    {
+      "path": "skills/foundation/buyer-psychology/SKILL.md",
+      "sha256": "625210c78dfd61909b9f90b0bd412e985a5cddfc4a77428da12bd6727a4c6b1f",
+      "bytes": 8081
+    },
+    {
+      "path": "skills/foundation/competitive-intel/SKILL.md",
+      "sha256": "3c0406b514785c012da5962ced2f6155f9d4eeb7bbdf223416954d92748ad69a",
+      "bytes": 19251
+    },
+    {
+      "path": "skills/foundation/gtm-context/SKILL.md",
+      "sha256": "c9aa176c915b82aba9176811e43d6127320ff40e16f1f56ffaeb1893bf57fa7f",
+      "bytes": 17443
+    },
+    {
+      "path": "skills/foundation/icp-scoring/SKILL.md",
+      "sha256": "0d47209ad884c2ff57ef4187d9be184a39de6b74aec39056ba1c18e530dd2ec6",
+      "bytes": 17752
+    },
+    {
+      "path": "skills/foundation/icp-targeting-tiers/SKILL.md",
+      "sha256": "5cb15458e29b18f9c0a07031857a744c475b4e407fb54c329e2b729290c66d1e",
+      "bytes": 10674
+    },
+    {
+      "path": "skills/foundation/positioning-messaging/SKILL.md",
+      "sha256": "920c5f89380006af14c78a242d444aa50a96963785e2cece47b94a0069dde5ff",
+      "bytes": 21398
+    },
+    {
+      "path": "skills/foundation/pricing-strategy/SKILL.md",
+      "sha256": "109fa7dab5dfc589055c5db3148b2da86bb5460341c74b565610e57d58897ec5",
+      "bytes": 22350
+    },
+    {
+      "path": "skills/foundation/using-gtm-skills/SKILL.md",
+      "sha256": "3982becc863cfb70d9c30d5d875924b49efad854f5e319cd5bf49c3b31905b51",
+      "bytes": 20316
+    },
+    {
+      "path": "skills/founder-led/advisor-recruitment/SKILL.md",
+      "sha256": "44578fee887b1fdb1d0a185e004d2ac71497e7b5d81ff28ad5c58ef477d55dcf",
+      "bytes": 19116
+    },
+    {
+      "path": "skills/founder-led/board-meeting-prep/SKILL.md",
+      "sha256": "0835732c998f0b07e2a6598093e53aafd6a3e45fe8e663e5b0474a58399565cd",
+      "bytes": 22033
+    },
+    {
+      "path": "skills/founder-led/brand-kit/SKILL.md",
+      "sha256": "ee9f9b01d5d877695e39f7a9a1e14c531b3c81684bcfa6be6730afc50ef66531",
+      "bytes": 7327
+    },
+    {
+      "path": "skills/founder-led/building-saas/SKILL.md",
+      "sha256": "c8b57a02ff2d8f9ef2925a4bbfdf8a8ec0e09bbeb21ef144201d80c7885a0aa6",
+      "bytes": 6077
+    },
+    {
+      "path": "skills/founder-led/business-insurance/SKILL.md",
+      "sha256": "83e9549e20fa23d1501d960e33919b284955e2bbb1924bd08169c87b7f7c37df",
+      "bytes": 18640
+    },
+    {
+      "path": "skills/founder-led/co-founder-dynamics/SKILL.md",
+      "sha256": "14642287395985bc0c81d723e98eb134fea4c6db3b0b2601327306f0a46bbd66",
+      "bytes": 17598
+    },
+    {
+      "path": "skills/founder-led/content-led-growth/SKILL.md",
+      "sha256": "0df9d3e04d42f18971cf25327accd6b91299eda904ccd989bb78eea14b0fa997",
+      "bytes": 12676
+    },
+    {
+      "path": "skills/founder-led/data-privacy-compliance/SKILL.md",
+      "sha256": "d5a7ca2401194a193cd5bb28b21788e02884791fe640f6ac26cfe3f9b7bae166",
+      "bytes": 21873
+    },
+    {
+      "path": "skills/founder-led/employment-compliance/SKILL.md",
+      "sha256": "0e5bd30d75bb601a8e6dcfba88b83a5f2d705ee80d8c174049648da06828c846",
+      "bytes": 22508
+    },
+    {
+      "path": "skills/founder-led/engineer-to-founder/SKILL.md",
+      "sha256": "c022ed66c7efb941dffa12482f56e5b368881c75b5b50495d11a0b61f4dc9987",
+      "bytes": 16060
+    },
+    {
+      "path": "skills/founder-led/equity-management/SKILL.md",
+      "sha256": "3dde5890047226541fcd62024f66d1069b95b07b09d13590de11e6c89626c96c",
+      "bytes": 15178
+    },
+    {
+      "path": "skills/founder-led/events-planning/SKILL.md",
+      "sha256": "15250f62df667703af109d9fe864a344c4c932f515ba8321c2d5bb9c96229baa",
+      "bytes": 6300
+    },
+    {
+      "path": "skills/founder-led/exiting-company/SKILL.md",
+      "sha256": "c027d18b44f58ece1f53403ea5e06d359a5be6bdae6c60dd382840d4c2093b44",
+      "bytes": 7415
+    },
+    {
+      "path": "skills/founder-led/financial-modeling/SKILL.md",
+      "sha256": "3f1a038eeea94c8d2c8a713d83442c73fb7fcea2676ed03140e2a9d1ee2767c7",
+      "bytes": 15493
+    },
+    {
+      "path": "skills/founder-led/first-hires-playbook/SKILL.md",
+      "sha256": "81aeb0036addf83481143362e10c5121282ac793d37f272f668befd1a64e322b",
+      "bytes": 20374
+    },
+    {
+      "path": "skills/founder-led/founder-brand/SKILL.md",
+      "sha256": "4e886c510d6bdbd33f242c9f4dc628c05d1d6071986d58d3be95ac2e65c2dda4",
+      "bytes": 5882
+    },
+    {
+      "path": "skills/founder-led/founder-sales/SKILL.md",
+      "sha256": "ff23a011fba0bb24c237fcf33a299dcd9710ad5436dfc53a5abe0edd1bfc9768",
+      "bytes": 11074
+    },
+    {
+      "path": "skills/founder-led/fundraising-strategy/SKILL.md",
+      "sha256": "212a4f3f04cf9d8461923f5419bfecbcf8251d45408b43ad2988ac2d3ee1cbbf",
+      "bytes": 23690
+    },
+    {
+      "path": "skills/founder-led/hiring-agencies/SKILL.md",
+      "sha256": "679c4e6f5d116b2ce2ad9c91ccef62f9085a8772715e69ef407f340252c2f0c3",
+      "bytes": 6322
+    },
+    {
+      "path": "skills/founder-led/hiring-by-role/SKILL.md",
+      "sha256": "1cbd71184ca9f2d03aadd6333967770fee1e7c2ec512cb5efded4ba899d32570",
+      "bytes": 16228
+    },
+    {
+      "path": "skills/founder-led/hiring-contractors/SKILL.md",
+      "sha256": "407b8f61a8a69fcdae93fb50587e57e4388d2b9527df16a2240a81e3b6d0c5c5",
+      "bytes": 6551
+    },
+    {
+      "path": "skills/founder-led/investor-updates/SKILL.md",
+      "sha256": "807409a55e7e9fc0f1769df2caffd97d47e93843d86b579ade741bacdcffde8f",
+      "bytes": 5935
+    },
+    {
+      "path": "skills/founder-led/job-posting-strategy/SKILL.md",
+      "sha256": "81c0022842edb65311ded77d452d774ce258c5968871a872e66f44494b1124af",
+      "bytes": 13426
+    },
+    {
+      "path": "skills/founder-led/launch-planning/SKILL.md",
+      "sha256": "92508fc0b4bb7566b527511d1d094800d6bdaac2828ec31fb9450c05547205aa",
+      "bytes": 11771
+    },
+    {
+      "path": "skills/founder-led/lead-magnets/SKILL.md",
+      "sha256": "482fb7a90ad132daf70eecc528e2de9173296fe24ed8f0753f6c5ceb236f3883",
+      "bytes": 16820
+    },
+    {
+      "path": "skills/founder-led/legal-for-founders/SKILL.md",
+      "sha256": "06403a9425ae8221c06c2edb2f623564c79dcdbbac81e6244f71675b16cd3539",
+      "bytes": 29226
+    },
+    {
+      "path": "skills/founder-led/partner-programs/SKILL.md",
+      "sha256": "f577c0600e0b513af374a4e712e66ce77d6c489bf93475c7aba799adfa03d459",
+      "bytes": 10828
+    },
+    {
+      "path": "skills/founder-led/pricing-psychology/SKILL.md",
+      "sha256": "f39a52c236491a1b3418170c06bf32dcf31d137e624f9ad95c7aff299b1a9dbf",
+      "bytes": 13550
+    },
+    {
+      "path": "skills/founder-led/saas-metrics-calculator/SKILL.md",
+      "sha256": "70f9cd8e5134faa27c42c4ac9f1968a295f659ffe46f2e34dd29499b8ede4510",
+      "bytes": 16450
+    },
+    {
+      "path": "skills/founder-led/sales-team-building/SKILL.md",
+      "sha256": "84b90947b10520ffae5a8c3c63011ac354bb52a52d150c9d42729d0a0b57b1d7",
+      "bytes": 7976
+    },
+    {
+      "path": "skills/founder-led/security-assessments/SKILL.md",
+      "sha256": "62e02196ccdd0208ca55c8a17bb1585b80be530e54e887f641e080cc2059c4cd",
+      "bytes": 26066
+    },
+    {
+      "path": "skills/founder-led/soc2-compliance/SKILL.md",
+      "sha256": "506832d6d27051d4009ae849277928f0bb2fdbf3ad4bc005177c38584af0b9d7",
+      "bytes": 8254
+    },
+    {
+      "path": "skills/founder-led/solo-founder-gtm/SKILL.md",
+      "sha256": "e8efebadb35ab8ee426cf9060de449abaa08c5cc26cdfa559df57b39a6972896",
+      "bytes": 7080
+    },
+    {
+      "path": "skills/founder-led/startup-communities/SKILL.md",
+      "sha256": "83c8ee96f5ffe73e6bccbd0625642b1b8c9334accad775e87313af4d2be56565",
+      "bytes": 18276
+    },
+    {
+      "path": "skills/founder-led/vc-outreach/SKILL.md",
+      "sha256": "f39389e487c8dc7a70c97a2bfbf99a9401ba2caf945327adb958eb9f8feb35b0",
+      "bytes": 14469
+    },
+    {
+      "path": "skills/founder-led/vendor-contracts/SKILL.md",
+      "sha256": "7c150590ec21abf7dcd2ed189d4b7c82eb4c012e90c3147fd0b0536c24e7c99e",
+      "bytes": 21476
+    },
+    {
+      "path": "skills/founder-led/yc-ecosystem/SKILL.md",
+      "sha256": "b22627a881a0c06aa80491099dad8e34f198b6923602207b9319d489303d56f9",
+      "bytes": 31271
+    },
+    {
+      "path": "skills/growth/churn-prevention/SKILL.md",
+      "sha256": "4380ac6f6a3180fcaf46d24469259c0ba1a9f0992dd3110394081a72f201a040",
+      "bytes": 6483
+    },
+    {
+      "path": "skills/growth/customer-marketing/SKILL.md",
+      "sha256": "d7e17867a9c18df1193feb411d485b7f5b709f5d015bdda9f516859342c3fa35",
+      "bytes": 7625
+    },
+    {
+      "path": "skills/growth/expansion-selling/SKILL.md",
+      "sha256": "9f900e355342d13864d71e0baf3d75d38aa3594274f1066f978dd54fc459831c",
+      "bytes": 11904
+    },
+    {
+      "path": "skills/growth/referral-programs/SKILL.md",
+      "sha256": "7458bc0b3ff3c514da06ff496c9ec7d6cd66f9299f6da5b34fcb88a14d04792b",
+      "bytes": 7028
+    },
+    {
+      "path": "skills/gtm-ops/campaign-governance/SKILL.md",
+      "sha256": "6b046145106e09b7ede76703f23913f563d6e04682fcf37e1b9d4b89ccf15835",
+      "bytes": 4873
+    },
+    {
+      "path": "skills/gtm-ops/gtm-operations/SKILL.md",
+      "sha256": "a7d3522e9340908c344cad9a3ed5af330de249fbcc1ea9fc84f12a70afb85343",
+      "bytes": 5395
+    },
+    {
+      "path": "skills/gtm-ops/revops-tech-stack/SKILL.md",
+      "sha256": "c385c70ba5215a0e142661a6b9dd13c2947aa64dbcb32a6f73ff6b0851a3d3db",
+      "bytes": 5121
+    },
+    {
+      "path": "skills/inbound/content-marketing/SKILL.md",
+      "sha256": "5be386cd650e2f905d006104568ad3053853059dd3f4c3d0f3c58a8b1f69d187",
+      "bytes": 5664
+    },
+    {
+      "path": "skills/inbound/inbound-triage/SKILL.md",
+      "sha256": "d93a0c58c56e60b1879b32c8073f80b898a572b4b7fced11444851f1eacbbf87",
+      "bytes": 6437
+    },
+    {
+      "path": "skills/inbound/landing-pages/SKILL.md",
+      "sha256": "bf667ad31dbb266a026bdc6768c4dd16f64dab87cb9a942a5e902cbe726f620a",
+      "bytes": 5714
+    },
+    {
+      "path": "skills/inbound/social-selling/SKILL.md",
+      "sha256": "264f5dae1fc11a48a5180a5c4c5198a3dea98491318dd655e0a04cbb658b600e",
+      "bytes": 5672
+    },
+    {
+      "path": "skills/leadmagic/leadmagic-bulk-enrichment/SKILL.md",
+      "sha256": "f3a5a5081513930b70840e8ea5a556ce93e3345873782c930e9f372fa3c194fe",
+      "bytes": 6014
+    },
+    {
+      "path": "skills/leadmagic/leadmagic-cli/SKILL.md",
+      "sha256": "1b53ae0bd418d91c2ad64a9bec8580e67eacc1bb119046530eda1d555b9d2ac1",
+      "bytes": 5118
+    },
+    {
+      "path": "skills/leadmagic/leadmagic-integrations/SKILL.md",
+      "sha256": "c64863d90af963380c1829e7dba4dc7f0e3a4e33fec860f16baeb93528da18e3",
+      "bytes": 4293
+    },
+    {
+      "path": "skills/leadmagic/leadmagic-job-change/SKILL.md",
+      "sha256": "cb1edd06132b6bff819a0251ec7dd3123cf2150cedeff53d2a6e3e4e29a578c8",
+      "bytes": 6482
+    },
+    {
+      "path": "skills/leadmagic/leadmagic-mcp/SKILL.md",
+      "sha256": "229c5f83ec0657875b333e40d8295874fd7c95d9bccc00515af24896a8d6834a",
+      "bytes": 5589
+    },
+    {
+      "path": "skills/leadmagic/leadmagic-waterfall/SKILL.md",
+      "sha256": "266b7a5e298a9c70f5506aff7aa279a9df9454c6765d29e86752e20724501d82",
+      "bytes": 6355
+    },
+    {
+      "path": "skills/lifecycle/churn-prediction/SKILL.md",
+      "sha256": "a6924eac57797e2c0495475319332e515b6c0ebbbcf4c4ee3067f8a00078c1e5",
+      "bytes": 6455
+    },
+    {
+      "path": "skills/lifecycle/lifecycle-drips/SKILL.md",
+      "sha256": "a736d000550613e4e14297959b8b68b1dc82101d33d3db96bf41fd8f39bd26a2",
+      "bytes": 5659
+    },
+    {
+      "path": "skills/lifecycle/mql-nurture/SKILL.md",
+      "sha256": "a56a3b78f970b9ee5487ff2815859ca0e6719cc241cca6f928d07c1f75b7c636",
+      "bytes": 5692
+    },
+    {
+      "path": "skills/lifecycle/onboarding-sequences/SKILL.md",
+      "sha256": "a530df7b278176f4f9269bf1c31465cca3f988b13ffe2f48f7cc081909a86c30",
+      "bytes": 5493
+    },
+    {
+      "path": "skills/lifecycle/re-engagement/SKILL.md",
+      "sha256": "d1c99f6b0e4d078ee1f56fbefa2bf7e8f15f83b16de884de6c10ed9e17457030",
+      "bytes": 5843
+    },
+    {
+      "path": "skills/management-leadership/sales-coaching/SKILL.md",
+      "sha256": "f58eea3f5a766cc9fc3ba9c62656f534a83d1c129612bf6e9d18812eff8c9b60",
+      "bytes": 3825
+    },
+    {
+      "path": "skills/management-leadership/team-management/SKILL.md",
+      "sha256": "fe5ab91b72374a6ca2fe94151398bdfd98d944660a34595ff7374af9986d729d",
+      "bytes": 8462
+    },
+    {
+      "path": "skills/outbound/cold-calling/SKILL.md",
+      "sha256": "b086f3d6b94812fb14111a93e0462cb3f13de1179cf738653c23612eb44a5512",
+      "bytes": 9573
+    },
+    {
+      "path": "skills/outbound/cold-email-copywriting/SKILL.md",
+      "sha256": "a53d09230951ec8c90e836b4fe98476ed9a4f3a3c5d8d36ec58bf2d88b484ecb",
+      "bytes": 20874
+    },
+    {
+      "path": "skills/outbound/cold-email-strategy/SKILL.md",
+      "sha256": "d73720155d965b5d93fec88f5d98ee65834870fe5ca44d1207df73a79fe9fd49",
+      "bytes": 22517
+    },
+    {
+      "path": "skills/outbound/domain-infrastructure/SKILL.md",
+      "sha256": "dbaba9ddee791429c6c3c6cbcee3697e67660d189be2989dfc958ff46333ae44",
+      "bytes": 23435
+    },
+    {
+      "path": "skills/outbound/email-deliverability/SKILL.md",
+      "sha256": "1da29ae951d7478b0d71e303676f693d33bc249db8e8e45bb472295f508c65af",
+      "bytes": 23894
+    },
+    {
+      "path": "skills/outbound/inbox-setup/SKILL.md",
+      "sha256": "c9807cc6babeccfcb78cfe13ab920c7557cbe359fbc3d26e08240674f8ae2b77",
+      "bytes": 7952
+    },
+    {
+      "path": "skills/outbound/multi-channel-outreach/SKILL.md",
+      "sha256": "ee9ae29bc9e62746e7a2e2f9479504b96e3432bfe1eed58fba39bfad2c6bfeae",
+      "bytes": 7684
+    },
+    {
+      "path": "skills/outbound/reply-handling/SKILL.md",
+      "sha256": "b863e75682135596eb972c2384f786cfc79b98744980d67cf712834833b34c41",
+      "bytes": 25088
+    },
+    {
+      "path": "skills/outbound/sending-platforms/SKILL.md",
+      "sha256": "3493d1b4df8688ef36de47ee9332a61038947ba7d9d4338cb6cf28da3f8f2613",
+      "bytes": 24188
+    },
+    {
+      "path": "skills/partnerships/co-marketing/SKILL.md",
+      "sha256": "d97e09adb5598a9b2408c79d5b6784f2fea908a61d56cf5bf0b2d5d8ad00bc3f",
+      "bytes": 4838
+    },
+    {
+      "path": "skills/partnerships/integration-partnerships/SKILL.md",
+      "sha256": "0c54898a6d1dcc53e875298ae66b7fefa4b3640247ec2dca4f5889462a9362f4",
+      "bytes": 5410
+    },
+    {
+      "path": "skills/partnerships/partnership-strategy/SKILL.md",
+      "sha256": "0c91520ee0d52ddf7b9a7136d432afaf63f6ce7bb544665b84b7fccfeef905fe",
+      "bytes": 4762
+    },
+    {
+      "path": "skills/product-led-growth/freemium-optimization/SKILL.md",
+      "sha256": "800854458e52117ad15b83da72f40408ff6c23d57f36ce5e894aecbbb0629e47",
+      "bytes": 6906
+    },
+    {
+      "path": "skills/product-led-growth/plg-strategy/SKILL.md",
+      "sha256": "8b2b94f4d9d627bb3495f3104e3d5924bf06cf4f4481ba799f68ed1cb4a3a754",
+      "bytes": 4290
+    },
+    {
       "path": "skills/prospecting/contact-verification/SKILL.md",
       "sha256": "985d17c6c4d5e7a19121c1b807504aded839be0560e0a01ab4b5dc4480972be1",
-      "size_bytes": 6575,
-      "last_updated": "2026-06-07T23:12:47Z"
+      "bytes": 6575
     },
-    "prospecting/signal-scoring": {
-      "version": "1.0.0",
-      "path": "skills/prospecting/signal-scoring/SKILL.md",
-      "sha256": "1dfdf7602c55c5b4d16ace1be87c75ca08a21c35035125222774cafeb34b9e49",
-      "size_bytes": 6370,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "prospecting/email-finding": {
-      "version": "1.0.0",
-      "path": "skills/prospecting/email-finding/SKILL.md",
-      "sha256": "5ca178edc3d7b5d0b2856e700d0f5265238aa1d537839eb53bdc30b129ece26d",
-      "size_bytes": 6907,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "prospecting/lead-finding": {
-      "version": "1.0.0",
-      "path": "skills/prospecting/lead-finding/SKILL.md",
-      "sha256": "2131a9ec372a7b2f0304b1874b90af3c947341b49039cd218c52c4c1c9d47c96",
-      "size_bytes": 19186,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "prospecting/data-enrichment-strategy": {
-      "version": "1.0.0",
+    {
       "path": "skills/prospecting/data-enrichment-strategy/SKILL.md",
       "sha256": "2f8f62db841aaa4bb92660ec3c6a4baa04a41d9ec6462fe6e2fac78fbfd75439",
-      "size_bytes": 7693,
-      "last_updated": "2026-06-07T23:12:47Z"
+      "bytes": 7693
     },
-    "prospecting/list-building": {
-      "version": "1.0.0",
+    {
+      "path": "skills/prospecting/email-finding/SKILL.md",
+      "sha256": "5ca178edc3d7b5d0b2856e700d0f5265238aa1d537839eb53bdc30b129ece26d",
+      "bytes": 6907
+    },
+    {
+      "path": "skills/prospecting/lead-enrichment/SKILL.md",
+      "sha256": "210b151f3e49ad7eca3b5702e78d9f83bf926d00a2e1d90ba9cc141b33b2a9f8",
+      "bytes": 22005
+    },
+    {
+      "path": "skills/prospecting/lead-finding/SKILL.md",
+      "sha256": "0acabfdbf6dc8cd8c979647ef7a27c2982427d294b476d8102c0a735f2186cff",
+      "bytes": 19083
+    },
+    {
       "path": "skills/prospecting/list-building/SKILL.md",
       "sha256": "1fd5428af72980c0dd411ae0708f9f7e6ec078ef3a943c8e3d56a1265f9a54f1",
-      "size_bytes": 6058,
-      "last_updated": "2026-06-07T23:12:47Z"
+      "bytes": 6058
     },
-    "prospecting/lead-enrichment": {
-      "version": "1.0.0",
-      "path": "skills/prospecting/lead-enrichment/SKILL.md",
-      "sha256": "0224a3a0156650ed8c4f642fe328e4774c0ba4a1d1dc781ef48241f0226c1fba",
-      "size_bytes": 22164,
-      "last_updated": "2026-06-07T23:12:47Z"
+    {
+      "path": "skills/prospecting/signal-scoring/SKILL.md",
+      "sha256": "1dfdf7602c55c5b4d16ace1be87c75ca08a21c35035125222774cafeb34b9e49",
+      "bytes": 6370
     },
-    "sales-revops/transparency-selling": {
-      "version": "1.0.0",
-      "path": "skills/sales-revops/transparency-selling/SKILL.md",
-      "sha256": "dacb4a263bbf28318357c980b58cce55fac125f5aa3d3986065972f3f621af40",
-      "size_bytes": 8640,
-      "last_updated": "2026-06-07T23:12:47Z"
+    {
+      "path": "skills/sales-plays/earnings-signal-play/SKILL.md",
+      "sha256": "bf73c80c2bef356ba7418429fe0d0b365dd6196262ba1e2acb6bb5f7ae718cee",
+      "bytes": 4958
     },
-    "sales-revops/meeting-prep": {
-      "version": "1.0.0",
-      "path": "skills/sales-revops/meeting-prep/SKILL.md",
-      "sha256": "9da2738dc661217b1509170f223e61066aeedeb82eec7747026e292a2f80fd9c",
-      "size_bytes": 6048,
-      "last_updated": "2026-06-07T23:12:47Z"
+    {
+      "path": "skills/sales-plays/funding-signal-play/SKILL.md",
+      "sha256": "619a3ff42d3a843e58e45ca4a85c33a861f04b278faa4ce8b18eb7c152859524",
+      "bytes": 4962
     },
-    "sales-revops/pipeline-management": {
-      "version": "1.0.0",
-      "path": "skills/sales-revops/pipeline-management/SKILL.md",
-      "sha256": "fe7dba781f56fa9f9389fe74fc25ea222060d27ef935d37494f9a5007ed89d62",
-      "size_bytes": 4998,
-      "last_updated": "2026-06-07T23:12:47Z"
+    {
+      "path": "skills/sales-plays/hiring-signal-play/SKILL.md",
+      "sha256": "ff2b1367a4fd29c2818e71499c0328f802413acbb74894c940e27985caf1c072",
+      "bytes": 4818
     },
-    "sales-revops/deal-desk": {
-      "version": "1.0.0",
+    {
+      "path": "skills/sales-plays/job-change-play/SKILL.md",
+      "sha256": "e9c78d47ae3b7bea99644836b70d943f75a6e8fdcc89fc10eff8b59d238e5fa9",
+      "bytes": 4434
+    },
+    {
+      "path": "skills/sales-plays/product-launch-play/SKILL.md",
+      "sha256": "c5bfae7de8bb3fff075130e2f2619b9e1d200f40ecef66de704a23d9c4606107",
+      "bytes": 4921
+    },
+    {
       "path": "skills/sales-revops/deal-desk/SKILL.md",
       "sha256": "79fc7d2eb77639802604116be8e17956bfe571c1d90d730305636c8b6de23591",
-      "size_bytes": 5159,
-      "last_updated": "2026-06-07T23:12:47Z"
+      "bytes": 5159
     },
-    "sales-revops/sales-enablement": {
-      "version": "1.0.0",
-      "path": "skills/sales-revops/sales-enablement/SKILL.md",
-      "sha256": "69b2b400a7a7c73bca20c47ae019afb86aeeda5406ec6da5decc6e08b985f1b9",
-      "size_bytes": 6573,
-      "last_updated": "2026-06-07T23:12:47Z"
-    },
-    "sales-revops/demo-scripts": {
-      "version": "1.0.0",
+    {
       "path": "skills/sales-revops/demo-scripts/SKILL.md",
       "sha256": "e5924570b35854b29fc6dd8655decb3b862c59a2f18824a637f52187c7bb3c3c",
-      "size_bytes": 5411,
-      "last_updated": "2026-06-07T23:12:47Z"
+      "bytes": 5411
     },
-    "sales-revops/objection-handling": {
-      "version": "1.0.0",
+    {
+      "path": "skills/sales-revops/meeting-prep/SKILL.md",
+      "sha256": "9da2738dc661217b1509170f223e61066aeedeb82eec7747026e292a2f80fd9c",
+      "bytes": 6048
+    },
+    {
       "path": "skills/sales-revops/objection-handling/SKILL.md",
       "sha256": "a449a48d91dc06d61b712514e829b0c1be2a6b5e711a07e3ab61799248dafec5",
-      "size_bytes": 6312,
-      "last_updated": "2026-06-07T23:12:47Z"
+      "bytes": 6312
+    },
+    {
+      "path": "skills/sales-revops/pipeline-management/SKILL.md",
+      "sha256": "fe7dba781f56fa9f9389fe74fc25ea222060d27ef935d37494f9a5007ed89d62",
+      "bytes": 4998
+    },
+    {
+      "path": "skills/sales-revops/sales-enablement/SKILL.md",
+      "sha256": "69b2b400a7a7c73bca20c47ae019afb86aeeda5406ec6da5decc6e08b985f1b9",
+      "bytes": 6573
+    },
+    {
+      "path": "skills/sales-revops/transparency-selling/SKILL.md",
+      "sha256": "dacb4a263bbf28318357c980b58cce55fac125f5aa3d3986065972f3f621af40",
+      "bytes": 8640
+    },
+    {
+      "path": "skills/sequencing-tools/hubspot-sequences/SKILL.md",
+      "sha256": "dc21d13268e47172e29b42d9bbb180b003f467bf054c40d5cdb341957c82ce46",
+      "bytes": 3781
+    },
+    {
+      "path": "skills/sequencing-tools/instantly-sequences/SKILL.md",
+      "sha256": "e5e175d05f31a84e3bf14506933d3aeb68e8c02ac73bd1da8a7f448c96a669a1",
+      "bytes": 4109
+    },
+    {
+      "path": "skills/sequencing-tools/lemlist-setup/SKILL.md",
+      "sha256": "b32611fed6fd4c41ea1c826f950fe9ff0ecc549c4ab049db7c33658ef4ed81d3",
+      "bytes": 4151
+    },
+    {
+      "path": "skills/sequencing-tools/outreach-sequences/SKILL.md",
+      "sha256": "fd52c638beba9d231e33cacce40f6b6daa4fc1f016e820ace86a55c82fa2fd88",
+      "bytes": 3956
+    },
+    {
+      "path": "skills/sequencing-tools/salesloft-cadences/SKILL.md",
+      "sha256": "5befa86fb9dd5b499a971896e821b09ea37c892a60bcc44e74d975b2f45371b0",
+      "bytes": 4057
+    },
+    {
+      "path": "skills/sequencing-tools/smartlead-workflows/SKILL.md",
+      "sha256": "6e840ad42a49dd4ba82a03f3035bd7e22375008eaa21025d903b2421c978d825",
+      "bytes": 4440
+    },
+    {
+      "path": "skills/tools/analytics-tools/analytics-toolkit/SKILL.md",
+      "sha256": "691a61037c89619006c8a26ff67ad643a7ff11dd0f1d30aa1b9d1e1d197ae207",
+      "bytes": 6350
+    },
+    {
+      "path": "skills/tools/clay/clay-toolkit/SKILL.md",
+      "sha256": "36c417e55e33b108bf7f182361159daa4e26c7e7714092378f707d28d96bd54e",
+      "bytes": 11073
+    },
+    {
+      "path": "skills/tools/crm/crm-toolkit/SKILL.md",
+      "sha256": "90453c673c9ee9129f6417c04f7fec6db581ddafadf3cd547744164902f925a0",
+      "bytes": 7460
+    },
+    {
+      "path": "skills/tools/leadmagic/leadmagic-toolkit/SKILL.md",
+      "sha256": "12638153aca7fdbefce17aeca6e4dd1e052ea64136420b4e6dca7ad2a8f2c738",
+      "bytes": 11007
+    },
+    {
+      "path": "skills/tools/n8n/n8n-toolkit/SKILL.md",
+      "sha256": "578e4f84819a80cdbed9b5e17439392b96e5b3364ec48456b1fd1efbe64df4ff",
+      "bytes": 6560
+    },
+    {
+      "path": "skills/tools/sequencing/sequencing-toolkit/SKILL.md",
+      "sha256": "74725da6120f03c8875112f846160226805e8ed7b88ca25bcea2aaba18c00825",
+      "bytes": 7564
+    },
+    {
+      "path": "skills/tools/support-tools/support-toolkit/SKILL.md",
+      "sha256": "33c1dcc13fad525b529f4dc0eddd3e5e553924b7869cefbb666a49e6b68e21ba",
+      "bytes": 6575
     }
-  }
+  ]
 }

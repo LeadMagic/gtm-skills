@@ -267,7 +267,7 @@ Price Increase Plan:
 - Communication: [timeline, channel, messaging]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] WTP research conducted (interviews, survey, or conjoint — not guesswork)
 - [ ] 3 tiers with one clear "recommended" (the decoy/recommendation effect)
@@ -277,6 +277,16 @@ Price Increase Plan:
 - [ ] Discounting policy documented (when, how much, who approves)
 - [ ] Concession menu exists (alternatives to straight discounts)
 - [ ] Price increase process defined (notice period, grandfathering, communication)
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

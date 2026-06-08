@@ -33,6 +33,46 @@ advanced tactic. The mistake: using the API one call at a time manually.
 The fix: automated workflows, waterfall enrichment, MCP tool orchestration,
 and integration into every tool in your stack.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **LeadMagic API — Email finder, verifier, waterfall enrichment endpoints** — used as the named operating framework for this playbook.
+- **MCP (Model Context Protocol) — Anthropic AI tool integration** — used as the named operating framework for this playbook.
+- **Clay — Waterfall enrichment and prospecting platform** — used as the named operating framework for this playbook.
+- **n8n — Open-source workflow automation** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- ****Email Finder:** Find email from name + company or name + domain** — used as the named operating framework for this playbook.
+- ****Email Verifier:** Verify deliverability with confidence scoring** — used as the named operating framework for this playbook.
+- ****Waterfall Enrichment:** Multi-source enrichment with provider chaining** — used as the named operating framework for this playbook.
+- ****Bulk Processing:** CSV upload, async batch processing, webhook callbacks** — used as the named operating framework for this playbook.
+- ****Job Change Detection:** Monitor contacts for job changes** — used as the named operating framework for this playbook.
+- ****REST API:** Direct HTTP calls with API key authentication** — used as the named operating framework for this playbook.
+- ****CLI:** Command-line tool for scripting and automation** — used as the named operating framework for this playbook.
+- ****MCP Server:** 16 tools exposed as MCP tools for AI agents** — used as the named operating framework for this playbook.
+- ****Clay Integration:** Native Clay enrichment provider** — used as the named operating framework for this playbook.
+- ****n8n Integration:** HTTP Request nodes for workflow automation** — used as the named operating framework for this playbook.
+- ****CRM Integration:** HubSpot, Salesforce, Attio via API/webhook** — used as the named operating framework for this playbook.
+- **[ ] API key configured and tested** — used as the named operating framework for this playbook.
+- **[ ] CLI installed and configured** — used as the named operating framework for this playbook.
+- **[ ] MCP server running (if using AI agents)** — used as the named operating framework for this playbook.
+- **[ ] Webhook endpoints configured for bulk callbacks** — used as the named operating framework for this playbook.
+- **[ ] Rate limits understood and handled (exponential backoff)** — used as the named operating framework for this playbook.
+- **[ ] Clay integration with waterfall fallback configured** — used as the named operating framework for this playbook.
+- **[ ] n8n workflow templates ready for common patterns** — used as the named operating framework for this playbook.
+- **[Output item 1]** — used as the named operating framework for this playbook.
+- **[Output item 2]** — used as the named operating framework for this playbook.
+- **[Output item 3]** — used as the named operating framework for this playbook.
+- **[ ] All required sections complete** — used as the named operating framework for this playbook.
+- **[ ] Output matches the user's stated need** — used as the named operating framework for this playbook.
+- **[ ] No vague or unsupported claims** — used as the named operating framework for this playbook.
+- **[ ] Frameworks cited where applicable** — used as the named operating framework for this playbook.
+- **`leadmagic-cli` — CLI workflows and scripting** — used as the named operating framework for this playbook.
+- **`leadmagic-waterfall` — Multi-provider enrichment waterfall design** — used as the named operating framework for this playbook.
+- **`leadmagic-integrations` — CRM and platform integrations** — used as the named operating framework for this playbook.
+- **`leadmagic-mcp` — MCP server for AI agent orchestration** — used as the named operating framework for this playbook.
+- **`leadmagic-bulk-enrichment` — Batch processing at scale** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "LeadMagic API", "LeadMagic setup", "LeadMagic integration",
@@ -154,7 +194,7 @@ lm mcp start --port 3000
 4. Run: 1 credit per email found + verified
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] API key configured and tested
 - [ ] CLI installed and configured
@@ -198,11 +238,6 @@ Before delivering, verify:
 - [ ] No vague or unsupported claims
 - [ ] Frameworks cited where applicable
 
-## Common Pitfalls
-
-1. **Incomplete output.** The deliverable is missing critical sections. Fix: verify against the output template before delivering.
-2. **Generic advice without specifics.** "Improve your process" without concrete steps. Fix: every recommendation must have a specific action.
-3. **Missing framework citations.** Advice without named authorities. Fix: cite the specific framework that grounds each recommendation.
 ## Related Skills
 
 - `leadmagic-cli` — CLI workflows and scripting

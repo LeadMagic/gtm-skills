@@ -1,11 +1,9 @@
 ---
 name: icp-scoring
 description: >-
-  Builds a weighted multi-dimensional ICP scoring model with firmographic,
-  technographic, behavioral, and intent dimensions. Triggers when user asks
-  to score leads, build an ICP scorecard, create lead scoring, or qualify
-  accounts. Uses customizable weights, negative personas, buying committee
-  mapping, and language banks. Run after gtm-context.
+  Icp Scoring playbook for GTM agents — strategy, workflow, templates, operating
+  guidance, and quality checks. Use when the user asks for icp scoring work,
+  implementation help, or an agent-ready deliverable.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -16,7 +14,6 @@ metadata:
   related_skills: [gtm-context, lead-finding, signal-scoring, list-building]
   frameworks: [Winning by Design SPICED, Force Management MEDDICC, Gartner Buying Committee Research]
 ---
-
 # ICP Scoring
 
 ## Overview

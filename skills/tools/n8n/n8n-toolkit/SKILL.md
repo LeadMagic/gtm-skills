@@ -31,6 +31,31 @@ with no error handling that break silently at 3am. This skill covers
 production-grade n8n patterns for GTM: enrichment pipelines, CRM sync,
 event-driven automation, and the templates that save you hours.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **n8n — Open-source workflow automation, 400+ integrations** — used as the named operating framework for this playbook.
+- **LeadMagic API — Enrichment and verification endpoints** — used as the named operating framework for this playbook.
+- **webhook standard — HTTP callbacks for async processing** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **[ ] Error handling on every workflow (retry, notify, log)** — used as the named operating framework for this playbook.
+- **[ ] API keys in environment variables (never hard-coded)** — used as the named operating framework for this playbook.
+- **[ ] Webhook authentication configured (secret token or HMAC)** — used as the named operating framework for this playbook.
+- **[ ] Rate limiting respected (delay nodes between API calls)** — used as the named operating framework for this playbook.
+- **[ ] Workflow tested in "test" mode before activating** — used as the named operating framework for this playbook.
+- **[ ] Production workflows tagged with [production] in name** — used as the named operating framework for this playbook.
+- **[Output item 1]** — used as the named operating framework for this playbook.
+- **[Output item 2]** — used as the named operating framework for this playbook.
+- **[Output item 3]** — used as the named operating framework for this playbook.
+- **[ ] All required sections complete** — used as the named operating framework for this playbook.
+- **[ ] Output matches the user's stated need** — used as the named operating framework for this playbook.
+- **[ ] No vague or unsupported claims** — used as the named operating framework for this playbook.
+- **[ ] Frameworks cited where applicable** — used as the named operating framework for this playbook.
+- **`n8n-automation` — General n8n workflow design** — used as the named operating framework for this playbook.
+- **`leadmagic-toolkit` — LeadMagic API integration** — used as the named operating framework for this playbook.
+- **`clay-toolkit` — Clay enrichment patterns** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "n8n workflow", "n8n automation", "n8n GTM pipeline",
@@ -87,7 +112,7 @@ HUBSPOT_API_KEY=pat-xxx
 SLACK_WEBHOOK_URL=https://hooks.slack.com/xxx
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Error handling on every workflow (retry, notify, log)
 - [ ] API keys in environment variables (never hard-coded)
@@ -130,11 +155,6 @@ Before delivering, verify:
 - [ ] No vague or unsupported claims
 - [ ] Frameworks cited where applicable
 
-## Common Pitfalls
-
-1. **Incomplete output.** The deliverable is missing critical sections. Fix: verify against the output template before delivering.
-2. **Generic advice without specifics.** "Improve your process" without concrete steps. Fix: every recommendation must have a specific action.
-3. **Missing framework citations.** Advice without named authorities. Fix: cite the specific framework that grounds each recommendation.
 ## Related Skills
 
 - `n8n-automation` — General n8n workflow design

@@ -23,6 +23,13 @@ intervention reduces churn by 20-40% compared to waiting for cancellation.
 This skill covers modeling leading indicators, building risk scores, and
 designing intervention playbooks.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Gainsight Churn Prediction Model** — used as the named operating framework for this playbook.
+- **Retention Science Framework** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Build a churn prediction model"
 - "Predict which accounts will churn"

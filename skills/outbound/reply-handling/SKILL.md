@@ -525,3 +525,10 @@ The biggest leverage points are #3 (reply quality determines category
 distribution) and #4 (speed-to-lead determines meeting booked rate).
 A 15-minute response time vs 24-hour response time on Category 1 replies
 can improve meeting booked rate by 200-300%.
+
+## Related Skills
+
+- `objection-handling` — adjacent workflow to use before or after this skill
+- `cold-email-strategy` — adjacent workflow to use before or after this skill
+- `sales-follow-up` — adjacent workflow to use before or after this skill
+- `pipeline-management` — adjacent workflow to use before or after this skill

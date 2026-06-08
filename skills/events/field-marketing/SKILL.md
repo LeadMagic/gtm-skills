@@ -22,6 +22,13 @@ through intimate events. Executive dinners, roadshows, customer advisory boards,
 and regional meetups convert at 3-5x the rate of digital channels because trust
 is built in person. This skill covers strategy through execution.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Field Marketing ROI Framework** — used as the named operating framework for this playbook.
+- **ABM Field Engagement** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Plan a field marketing event"
 - "Executive dinner strategy"

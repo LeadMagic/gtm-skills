@@ -27,6 +27,13 @@ weeks on a piece of content and 10 minutes tweeting about it. This skill
 flips that: build a distribution engine that gives every piece of content
 maximum reach across every channel your ICP uses.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Content Distribution Matrix** — used as the named operating framework for this playbook.
+- **Gary Vaynerchuk Content Model** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "Distribute this content piece"

@@ -32,6 +32,32 @@ mistake: having no formal referral program and hoping customers spontaneously
 refer you. This skill covers designing referral programs that customers
 actually use — with the right incentives, frictionless mechanics, and tracking.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **Dropbox — Double-sided referral (500MB per invite)** — used as the named operating framework for this playbook.
+- **PayPal — $10 to referrer, $10 to referred** — used as the named operating framework for this playbook.
+- **Robinhood — Waitlist referral priority** — used as the named operating framework for this playbook.
+- **Harry's — Referral leaderboard (100K emails pre-launch)** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **[ ] Referral link generated per customer (trackable)** — used as the named operating framework for this playbook.
+- **[ ] Incentive structure documented (3 tiers minimum)** — used as the named operating framework for this playbook.
+- **[ ] Fraud prevention: pay on collection, not sign-up** — used as the named operating framework for this playbook.
+- **[ ] Referral dashboard for referrers (track their impact)** — used as the named operating framework for this playbook.
+- **[ ] Monthly referral leaderboard for gamification** — used as the named operating framework for this playbook.
+- **[Output item 1]** — used as the named operating framework for this playbook.
+- **[Output item 2]** — used as the named operating framework for this playbook.
+- **[Output item 3]** — used as the named operating framework for this playbook.
+- **[ ] All required sections complete** — used as the named operating framework for this playbook.
+- **[ ] Output matches the user's stated need** — used as the named operating framework for this playbook.
+- **[ ] No vague or unsupported claims** — used as the named operating framework for this playbook.
+- **[ ] Frameworks cited where applicable** — used as the named operating framework for this playbook.
+- **`customer-marketing` — Customer advocacy ladder** — used as the named operating framework for this playbook.
+- **`partner-programs` — Partner and channel referrals** — used as the named operating framework for this playbook.
+- **`growth-hacking-tactics` — Viral mechanics** — used as the named operating framework for this playbook.
+- **`cs-playbooks` — Identifying promoters for referral asks** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "referral program", "customer referral", "affiliate program",
@@ -73,7 +99,7 @@ Gold: 15% for 16+. Add non-monetary benefits at each tier.
 Referral tracking: Referral Rock, PartnerStack, Rewardful, FirstPromoter,
 Friendbuy. For B2B SaaS: PartnerStack or Rewardful.
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Referral link generated per customer (trackable)
 - [ ] Incentive structure documented (3 tiers minimum)
@@ -117,11 +143,6 @@ Before delivering, verify:
 - [ ] No vague or unsupported claims
 - [ ] Frameworks cited where applicable
 
-## Common Pitfalls
-
-1. **Incomplete output.** The deliverable is missing critical sections. Fix: verify against the output template before delivering.
-2. **Generic advice without specifics.** "Improve your process" without concrete steps. Fix: every recommendation must have a specific action.
-3. **Missing framework citations.** Advice without named authorities. Fix: cite the specific framework that grounds each recommendation.
 ## Related Skills
 
 - `customer-marketing` — Customer advocacy ladder

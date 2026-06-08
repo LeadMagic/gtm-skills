@@ -21,6 +21,13 @@ Conferences are the single biggest line item in many B2B marketing budgets —
 and the least measured. This skill covers event selection, sponsorship evaluation,
 speaking submission strategy, booth design, and team preparation to maximize ROI.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **B2B Event ROI Framework** — used as the named operating framework for this playbook.
+- **Conference Strategy Playbook** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Plan our conference strategy"
 - "Which events should we sponsor?"

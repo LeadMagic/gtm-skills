@@ -1,11 +1,9 @@
 ---
 name: pricing-strategy
 description: >-
-  Designs pricing models using Ramanujam's 2x2 framework, tier structures,
-  willingness-to-pay research, competitive pricing analysis, and discount
-  authority guidelines. Triggers when user asks for pricing strategy, tier
-  design, monetization model, packaging, or price optimization. Run after
-  gtm-context and competitive-intel.
+  Pricing Strategy playbook for GTM agents — strategy, workflow, templates, operating
+  guidance, and quality checks. Use when the user asks for pricing strategy work,
+  implementation help, or an agent-ready deliverable.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -16,7 +14,6 @@ metadata:
   related_skills: [gtm-context, competitive-intel, positioning-messaging, deal-desk]
   frameworks: [Madhavan Ramanujam Monetizing Innovation, Price Intelligently, ProfitWell, OpenView SaaS Benchmarks]
 ---
-
 # Pricing Strategy
 
 ## Overview

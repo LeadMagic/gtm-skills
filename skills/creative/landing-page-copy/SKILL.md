@@ -96,7 +96,7 @@ never scroll past the hero. You have 3-5 seconds before they leave.
 
 **Headline rules (Wiebe + Gardner):**
 - Under 12 words. 6-8 is the sweet spot.
-- No jargon. No "revolutionary," "cutting-edge," "best-in-class."
+- No jargon. No "revolutionary," "advanced," "best-in-class."
 - Specific over clever. "47% reply rate" > "Unlock email potential"
 - The visitor should know what you do AND why they should care in one read
 
@@ -317,7 +317,7 @@ OBJECTION HANDLING:
 FINAL CTA: [same as hero]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Headline is specific and under 12 words (test: "would my ICP stop scrolling?")
 - [ ] Hero communicates what it is and why it matters in <5 seconds
@@ -329,6 +329,16 @@ FINAL CTA: [same as hero]
 - [ ] Page passes the "grandma test": can a non-expert understand it?
 - [ ] A/B test plan ready with hypothesis and success metric
 - [ ] Every claim has evidence (number, screenshot, quote, or source)
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

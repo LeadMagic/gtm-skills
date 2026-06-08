@@ -22,6 +22,13 @@ respond to journalist and blogger source requests with expert commentary, and
 earn backlinks from high-authority publications. This skill covers the full
 citation harvesting motion.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Digital PR Framework** — used as the named operating framework for this playbook.
+- **Moz Link Building Guide** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Build backlinks"
 - "Citation harvesting"

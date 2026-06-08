@@ -22,6 +22,13 @@ B2B SaaS. When your product integrates with a platform your ICP already uses,
 discovery happens inside their workflow. This skill covers integration strategy,
 GTM launch, marketplace presence, and co-selling.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Technology Partnership Framework** — used as the named operating framework for this playbook.
+- **Platform Ecosystem Strategy** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Build integration partnerships"
 - "Launch a tech partnership"

@@ -1,13 +1,9 @@
 ---
 name: attribution
 description: >-
-  Implements multi-touch attribution models (first-touch, last-touch, linear,
-  time-decay, U-shaped, W-shaped) to measure marketing and sales channel
-  effectiveness. Enforces UTM parameter hygiene and tracking governance.
-  Calculates campaign ROI and cost per acquisition by channel. Builds
-  source-of-truth reporting that aligns marketing, sales, and finance on
-  revenue attribution. Activates when the user asks about attribution,
-  marketing ROI, channel performance, UTM tracking, or campaign contribution.
+  Attribution playbook for GTM agents — strategy, workflow, templates, operating
+  guidance, and quality checks. Use when the user asks for attribution work,
+  implementation help, or an agent-ready deliverable.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -18,7 +14,6 @@ metadata:
   related_skills: [campaign-analytics, gtm-metrics, pipeline-management, crm-integration]
   frameworks: [Bizible Multi-Touch Attribution, Google Analytics Attribution, Full Circle Insights]
 ---
-
 # Attribution
 
 ## Overview

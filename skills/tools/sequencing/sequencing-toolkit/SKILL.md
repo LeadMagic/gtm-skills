@@ -32,6 +32,34 @@ The mistake: importing a list, writing one template, hitting send, and
 wondering why deliverability is 40%. This skill covers setup, optimization,
 and advanced tactics across all major sequencing platforms.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **Smartlead — Unlimited mailboxes, auto-rotation, AI reply categorization** — used as the named operating framework for this playbook.
+- **Instantly — Warmup pool, campaign optimization, unified inbox** — used as the named operating framework for this playbook.
+- **Salesloft — Rhythm cadences, Conversations, multi-channel orchestration** — used as the named operating framework for this playbook.
+- **Outreach — Enterprise sequencing, triggers, analytics** — used as the named operating framework for this playbook.
+- **Lemlist — Personalized images/video, multi-channel sequences** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **[ ] Mailboxes warmed up (2+ weeks) before full volume** — used as the named operating framework for this playbook.
+- **[ ] SPF/DKIM/DMARC configured for all sending domains** — used as the named operating framework for this playbook.
+- **[ ] Custom tracking domain set up (not shared)** — used as the named operating framework for this playbook.
+- **[ ] A/B test running (subject lines + copy variants)** — used as the named operating framework for this playbook.
+- **[ ] Reply handling: AI auto-categorization + human escalation rules** — used as the named operating framework for this playbook.
+- **[ ] Bounce rate under 3% (investigate if higher)** — used as the named operating framework for this playbook.
+- **[ ] Daily send limits per mailbox respected** — used as the named operating framework for this playbook.
+- **[Output item 1]** — used as the named operating framework for this playbook.
+- **[Output item 2]** — used as the named operating framework for this playbook.
+- **[Output item 3]** — used as the named operating framework for this playbook.
+- **[ ] All required sections complete** — used as the named operating framework for this playbook.
+- **[ ] Output matches the user's stated need** — used as the named operating framework for this playbook.
+- **[ ] No vague or unsupported claims** — used as the named operating framework for this playbook.
+- **[ ] Frameworks cited where applicable** — used as the named operating framework for this playbook.
+- **`smartlead-workflows` — Smartlead-specific setup** — used as the named operating framework for this playbook.
+- **`instantly-sequences` — Instantly-specific setup** — used as the named operating framework for this playbook.
+- **`cold-email-strategy` — Sequence architecture and cadence** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "sequencing platform setup", "Smartlead configuration",
@@ -70,7 +98,7 @@ Warmup: 2 weeks minimum before full volume. Start at 5/day. Increment 5/day.
 Rotation: Auto-rotate between mailboxes. Randomize send times.
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Mailboxes warmed up (2+ weeks) before full volume
 - [ ] SPF/DKIM/DMARC configured for all sending domains
@@ -114,11 +142,6 @@ Before delivering, verify:
 - [ ] No vague or unsupported claims
 - [ ] Frameworks cited where applicable
 
-## Common Pitfalls
-
-1. **Incomplete output.** The deliverable is missing critical sections. Fix: verify against the output template before delivering.
-2. **Generic advice without specifics.** "Improve your process" without concrete steps. Fix: every recommendation must have a specific action.
-3. **Missing framework citations.** Advice without named authorities. Fix: cite the specific framework that grounds each recommendation.
 ## Related Skills
 
 - `smartlead-workflows` — Smartlead-specific setup

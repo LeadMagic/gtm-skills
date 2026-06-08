@@ -30,6 +30,59 @@ instead of leverage. Great advisors unlock customers, candidates, investors,
 and strategic decisions. This skill covers identifying who you need, structuring
 the relationship, compensating fairly, and extracting maximum value.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **Scott Kupor (Andreessen Horowitz) — Secrets of Sand Hill Road (advisory equity)** — used as the named operating framework for this playbook.
+- **Elad Gil — High Growth Handbook (leveraging advisors)** — used as the named operating framework for this playbook.
+- **First Round Review — High-Impact Advisory Relationships** — used as the named operating framework for this playbook.
+- **Jason Lemkin (SaaStr) — When advisors add value vs are dead weight** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **Big name" advisors who are too busy to meet (they're logos, not leverage)** — used as the named operating framework for this playbook.
+- **Advisors who advise 10+ companies (you're a line item, not a priority)** — used as the named operating framework for this playbook.
+- **Friends/family who don't fit an archetype (awkward to fire)** — used as the named operating framework for this playbook.
+- **Anyone you can't have hard conversations with** — used as the named operating framework for this playbook.
+- **Do they genuinely light up about your space? (Passion > politeness)** — used as the named operating framework for this playbook.
+- **Do they ask sharp questions? (Intellectual rigor)** — used as the named operating framework for this playbook.
+- **Do they offer unsolicited advice? (Good advisors can't help themselves —** — used as the named operating framework for this playbook.
+- **Can you imagine having hard conversations with them? (Comfort with candor)** — used as the named operating framework for this playbook.
+- ****Vesting:** 2-year standard, monthly. No cliff (advisors should earn from day 1).** — used as the named operating framework for this playbook.
+- ****Termination:** Either party can terminate with 30 days notice. Vested** — used as the named operating framework for this playbook.
+- ****Scope:** Define 3-5 specific deliverables or success metrics** — used as the named operating framework for this playbook.
+- ****Meeting cadence:** Monthly 1:1 (30 min) + ad hoc calls as needed** — used as the named operating framework for this playbook.
+- ****Confidentiality:** Standard NDA language** — used as the named operating framework for this playbook.
+- ****IP Assignment:** Standard — any IP created during advisory is company property** — used as the named operating framework for this playbook.
+- **Send pre-read 24 hours before monthly call: key metrics, top 3 challenges,** — used as the named operating framework for this playbook.
+- **Call: 20 min on their advice, 10 min on asks (intros, references, candidates)** — used as the named operating framework for this playbook.
+- **Post-call: thank-you email with action items, next call scheduled** — used as the named operating framework for this playbook.
+- **60-minute deep dive on one strategic topic** — used as the named operating framework for this playbook.
+- **This is where the real value comes — not monthly check-ins** — used as the named operating framework for this playbook.
+- **Example topics: "Should we move upmarket?" "How do we compete against** — used as the named operating framework for this playbook.
+- **BAD: "Can you help us with recruiting?" → produces nothing** — used as the named operating framework for this playbook.
+- **GOOD: "We're hiring a Head of Engineering. Here's the JD. Do you know 2-3** — used as the named operating framework for this playbook.
+- **Missed 3+ consecutive monthly calls (they don't have time — or interest)** — used as the named operating framework for this playbook.
+- **Zero introductions in 6+ months** — used as the named operating framework for this playbook.
+- **Advice is generic ("focus on product-market fit") rather than specific** — used as the named operating framework for this playbook.
+- **You dread the calls (trust your gut)** — used as the named operating framework for this playbook.
+- **Total equity allocated to advisors: X% (typically 2-5% for seed stage)** — used as the named operating framework for this playbook.
+- **Individual grants: 0.15-1.0% based on level** — used as the named operating framework for this playbook.
+- **Monthly 1:1 cadence with each advisor** — used as the named operating framework for this playbook.
+- **Quarterly strategic deep dives (60 min, one topic)** — used as the named operating framework for this playbook.
+- **Specific ask tracking: [spreadsheet of intros, references, candidates requested]** — used as the named operating framework for this playbook.
+- **[ ] Every advisor maps to a specific business gap (not a logo play)** — used as the named operating framework for this playbook.
+- **[ ] No "big name" advisors who advise 10+ companies (they won't deliver)** — used as the named operating framework for this playbook.
+- **[ ] FAST agreement used as template (industry standard)** — used as the named operating framework for this playbook.
+- **[ ] Scope includes 3-5 measurable deliverables** — used as the named operating framework for this playbook.
+- **[ ] Equity grants proportional to expected time commitment** — used as the named operating framework for this playbook.
+- **[ ] Monthly cadence established before agreement is signed** — used as the named operating framework for this playbook.
+- **[ ] Quarterly strategic deep dives scheduled** — used as the named operating framework for this playbook.
+- **[ ] Advisor performance reviewed annually (renew or release)** — used as the named operating framework for this playbook.
+- **`first-hires-playbook` — First 10 hires, compensation, interview design** — used as the named operating framework for this playbook.
+- **`fundraising-strategy` — Advisor intros are the best fundraising channel** — used as the named operating framework for this playbook.
+- **`board-meeting-prep` — Board vs advisory board — different roles, both important** — used as the named operating framework for this playbook.
+- **`founder-brand` — Building the presence that attracts top advisors to you** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "advisor recruitment", "advisory board", "advisor equity",
@@ -102,7 +155,7 @@ accomplishment you genuinely admire].
 
 I'm the founder of [company] — we're at $X ARR helping [ICP] with [problem].
 We're at the stage where your expertise in [specific domain] would be
-game-changing.
+high-impact.
 
 Would you be open to a 20-minute call to see if an advisory relationship
 makes sense? No pressure — I'd value the conversation either way.
@@ -243,7 +296,7 @@ Relationship Management:
 - Specific ask tracking: [spreadsheet of intros, references, candidates requested]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Every advisor maps to a specific business gap (not a logo play)
 - [ ] No "big name" advisors who advise 10+ companies (they won't deliver)
@@ -253,6 +306,16 @@ Relationship Management:
 - [ ] Monthly cadence established before agreement is signed
 - [ ] Quarterly strategic deep dives scheduled
 - [ ] Advisor performance reviewed annually (renew or release)
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 
@@ -281,14 +344,9 @@ Relationship Management:
 
 ## ⚠️ Disclaimer
 
-This skill provides general informational guidance based on publicly available
-frameworks and operator experience. It is NOT legal advice, accounting advice,
-tax advice, financial advice, or professional services advice.
+This skill provides general informational guidance based on publicly available frameworks and operator experience. It is NOT legal advice, accounting advice, tax advice, financial advice, insurance advice, or professional services advice.
 
-Consult qualified professionals for your specific situation — attorneys for
-legal/equity matters, CPAs for tax, licensed brokers for insurance, certified
-security assessors for compliance. This skill does not create a professional-client
-relationship. Use as a starting point for your own research.
+Consult qualified professionals for your specific situation — attorneys for legal/equity matters, CPAs for tax and accounting, licensed brokers for insurance, and certified security assessors for compliance. This skill does not create a professional-client relationship. Use it as a starting point for research and preparation.
 
 ## Related Skills
 

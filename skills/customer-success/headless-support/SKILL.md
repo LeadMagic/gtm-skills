@@ -34,6 +34,68 @@ experience. Customers want answers in seconds, not hours. The mistake: thinking
 skill covers AI agent deployment, knowledge base architecture, ticket deflection
 strategy, and the metrics to prove headless support works.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **Intercom — Fin AI Agent and Resolution Bot** — used as the named operating framework for this playbook.
+- **Zendesk — AI Agents and Answer Bot** — used as the named operating framework for this playbook.
+- **Ada — Conversational AI for Support** — used as the named operating framework for this playbook.
+- **Forethought — AI-First Customer Support** — used as the named operating framework for this playbook.
+- **Amazon — Working Backwards (deflection reduces cost and improves CSAT)** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **Article titles match search intent: "How to export contacts from [Product]** — used as the named operating framework for this playbook.
+- **Meta descriptions under 155 characters with the answer** — used as the named operating framework for this playbook.
+- **Internal linking between related articles** — used as the named operating framework for this playbook.
+- **Google indexes your help center — make it findable** — used as the named operating framework for this playbook.
+- **[ ] 30+ help center articles published (minimum for effective AI)** — used as the named operating framework for this playbook.
+- **[ ] 100+ past tickets reviewed to identify top deflection opportunities** — used as the named operating framework for this playbook.
+- **[ ] AI persona defined: "Friendly, expert, concise. Uses customer's name. Admits when it can't answer.** — used as the named operating framework for this playbook.
+- **[ ] Escalation path designed: what triggers handoff to human?** — used as the named operating framework for this playbook.
+- **[ ] Test suite: 50 real customer questions run through AI, every answer reviewed** — used as the named operating framework for this playbook.
+- **Answer from help center articles only (don't hallucinate)** — used as the named operating framework for this playbook.
+- **If unsure: "Great question — let me connect you with a specialist who can help** — used as the named operating framework for this playbook.
+- **Never: guess, make promises, give legal/security advice, be defensive** — used as the named operating framework for this playbook.
+- **Always: use customer's name, link to relevant article, offer human escalation** — used as the named operating framework for this playbook.
+- **Customer types: "talk to human", "agent", "real person** — used as the named operating framework for this playbook.
+- **Customer frustration detected: multiple rephrases, ALL CAPS, "this is useless** — used as the named operating framework for this playbook.
+- **Billing issues (high-stakes, emotional — human handles these)** — used as the named operating framework for this playbook.
+- **Security/privacy questions (never AI — legal risk)** — used as the named operating framework for this playbook.
+- **Enterprise customer + P1 issue (revenue at risk = human)** — used as the named operating framework for this playbook.
+- **Monthly tickets: X** — used as the named operating framework for this playbook.
+- **CS team size: X** — used as the named operating framework for this playbook.
+- **Current deflection: X% (KB + AI)** — used as the named operating framework for this playbook.
+- **Current cost/ticket: $X** — used as the named operating framework for this playbook.
+- **Deflection target: X%** — used as the named operating framework for this playbook.
+- **AI CSAT target: 4.X/5** — used as the named operating framework for this playbook.
+- **Human tickets to reduce by: X%** — used as the named operating framework for this playbook.
+- **Cost savings target: $X/month** — used as the named operating framework for this playbook.
+- **Audit existing articles for completeness + accuracy** — used as the named operating framework for this playbook.
+- **Write 20 new articles based on top ticket types** — used as the named operating framework for this playbook.
+- **Add contextual help to top 5 confusion points** — used as the named operating framework for this playbook.
+- **Configure AI persona and escalation rules** — used as the named operating framework for this playbook.
+- **Test with 50 historical tickets** — used as the named operating framework for this playbook.
+- **Launch canary (10% of customers)** — used as the named operating framework for this playbook.
+- **Review AI performance data** — used as the named operating framework for this playbook.
+- **Refine articles based on failed deflections** — used as the named operating framework for this playbook.
+- **Expand to 100% of customers** — used as the named operating framework for this playbook.
+- **Weekly review of AI conversations** — used as the named operating framework for this playbook.
+- **Monthly KB refresh** — used as the named operating framework for this playbook.
+- **Quarterly deflection rate target review** — used as the named operating framework for this playbook.
+- **[ ] 30+ help center articles published with screenshot + step-by-step** — used as the named operating framework for this playbook.
+- **[ ] AI persona documented (voice, escalation rules, prohibited topics)** — used as the named operating framework for this playbook.
+- **[ ] 50 historical tickets tested through AI — 95%+ correct** — used as the named operating framework for this playbook.
+- **[ ] Escalation triggers configured (frustration, billing, security, enterprise)** — used as the named operating framework for this playbook.
+- **[ ] In-product contextual help at top 10 confusion points** — used as the named operating framework for this playbook.
+- **[ ] Auto-triage rules for ticket routing by keyword, priority, customer tier** — used as the named operating framework for this playbook.
+- **[ ] Auto-responders configured for P1/P2/P3 with specific time expectations** — used as the named operating framework for this playbook.
+- **[ ] Deflection dashboard live with weekly review cadence** — used as the named operating framework for this playbook.
+- **[ ] CSAT survey collects AI-rating vs human-rating separately** — used as the named operating framework for this playbook.
+- **`support-tool-stack` — Intercom, Zendesk, Front, Help Scout comparison and setup** — used as the named operating framework for this playbook.
+- **`cs-playbooks` — Onboarding, health scoring, CSQLs, churn intervention** — used as the named operating framework for this playbook.
+- **`sla-management` — SLA design, escalation paths, priority matrices** — used as the named operating framework for this playbook.
+- **`cs-analytics-dashboards` — CS metrics, NPS, CSAT, health scoring** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "set up AI support agent", "build self-serve support",
@@ -253,7 +315,7 @@ Phase 4 (Month 4+): Continuous Improvement
   - Quarterly deflection rate target review
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] 30+ help center articles published with screenshot + step-by-step
 - [ ] AI persona documented (voice, escalation rules, prohibited topics)
@@ -264,6 +326,16 @@ Phase 4 (Month 4+): Continuous Improvement
 - [ ] Auto-responders configured for P1/P2/P3 with specific time expectations
 - [ ] Deflection dashboard live with weekly review cadence
 - [ ] CSAT survey collects AI-rating vs human-rating separately
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

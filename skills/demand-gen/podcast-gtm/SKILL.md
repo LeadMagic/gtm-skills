@@ -22,6 +22,13 @@ One 45-minute appearance → 10+ content derivatives, backlinks, social proof,
 and direct pipeline from listeners who self-qualify by listening for 30+ minutes.
 This skill covers booking strategy through pipeline conversion.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Podcast Guesting Framework** — used as the named operating framework for this playbook.
+- **Authority Marketing** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Get on podcasts"
 - "Podcast guesting strategy"

@@ -22,6 +22,13 @@ multipliers that handle research, drafting, routing, and analysis. This skill
 covers agent design patterns, tool selection, multi-agent orchestration, and
 human-in-the-loop design for GTM workflows.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Anthropic Agent Design Patterns** — used as the named operating framework for this playbook.
+- **ReAct Agent Framework** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Design an AI agent for [GTM task]"
 - "Agent architecture for sales"

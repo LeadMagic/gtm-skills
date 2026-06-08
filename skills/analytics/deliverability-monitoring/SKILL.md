@@ -1,11 +1,9 @@
 ---
 name: deliverability-monitoring
 description: >-
-  Monitors email deliverability health through bounce tracking, spam placement
-  detection, blacklist monitoring, and DMARC aggregate report analysis. Builds
-  domain health dashboards with real-time alerts. Activates when the user asks
-  about email deliverability, bounce rates, spam issues, blacklists, DNS
-  authentication, domain reputation, or inbox placement problems.
+  Deliverability Monitoring playbook for GTM agents — strategy, workflow, templates,
+  operating guidance, and quality checks. Use when the user asks for deliverability
+  monitoring work, implementation help, or an agent-ready deliverable.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -16,7 +14,6 @@ metadata:
   related_skills: [domain-infrastructure, cold-email-strategy, campaign-analytics, sending-platforms]
   frameworks: [M3AAWG Best Practices, Google Postmaster Guidelines, Microsoft SNDS]
 ---
-
 # Deliverability Monitoring
 
 ## Overview

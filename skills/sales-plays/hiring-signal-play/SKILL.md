@@ -23,6 +23,13 @@ will evaluate and change tools within their first 90 days. This play targets
 both the hiring manager (who just got budget) and the new hire (who will build
 their stack).
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Signal-Based Selling** — used as the named operating framework for this playbook.
+- **ColdIQ Trigger Selling** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Run a hiring signal play"
 - "Outreach based on job postings"

@@ -1,11 +1,9 @@
 ---
 name: lead-enrichment
 description: >-
-  Waterfall enrichment patterns with provider sequencing (Clay → Apollo →
-  ZoomInfo → PDL → Claygent → Claude normalization). Separate company and
-  person tables. Domain-based matching with confidence thresholds. Triggers
-  when user needs to enrich leads, append data to contact lists, run
-  enrichment waterfalls, or normalize enriched data. Run after lead-finding.
+  Lead Enrichment playbook for GTM agents — strategy, workflow, templates, operating
+  guidance, and quality checks. Use when the user asks for lead enrichment work,
+  implementation help, or an agent-ready deliverable.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -16,7 +14,6 @@ metadata:
   related_skills: [lead-finding, email-finding, contact-verification, data-enrichment-strategy, waterfall-enrichment]
   frameworks: [GTMLens 5-Layer Waterfall, Ziellab 3-Waterfall Architecture, Winning by Design Data Model]
 ---
-
 # Lead Enrichment
 
 ## Overview

@@ -1,11 +1,9 @@
 ---
 name: competitive-intel
 description: >-
-  Builds competitive battlecards using Klue's Fact-Impact-Act framework,
-  competitive matrices, win/loss analysis, tech stack teardowns, and market
-  dynamics assessment. Triggers when user asks for competitor analysis,
-  battlecards, win/loss reports, or competitive positioning. Run after
-  gtm-context and positioning-messaging.
+  Competitive Intel playbook for GTM agents — strategy, workflow, templates, operating
+  guidance, and quality checks. Use when the user asks for competitive intel work,
+  implementation help, or an agent-ready deliverable.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -16,7 +14,6 @@ metadata:
   related_skills: [gtm-context, positioning-messaging, icp-scoring, battlecard-builder]
   frameworks: [Klue FIA Framework, Force Management MEDDICC Competition Element, Gartner Magic Quadrant, Huthwaite SPIN, Todd Caponi Transparency Sale]
 ---
-
 # Competitive Intel
 
 ## Overview

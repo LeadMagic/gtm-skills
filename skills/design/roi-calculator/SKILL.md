@@ -35,6 +35,46 @@ outcomes that economic buyers can approve. The mistake: building a calculator
 that overclaims and destroys credibility. The fix: conservative assumptions
 with documented sources, so every number is defensible under scrutiny.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **Madhavan Ramanujam — Monetizing Innovation (WTP research)** — used as the named operating framework for this playbook.
+- **ValueSelling Framework — Value pyramid and quantified value** — used as the named operating framework for this playbook.
+- **David Skok — SaaS Unit Economics** — used as the named operating framework for this playbook.
+- **MEDDICC — Economic Buyer + Metrics (quantified value)** — used as the named operating framework for this playbook.
+- **Gartner — TCO and ROI methodology** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **Use the LOW end of customer-reported ranges** — used as the named operating framework for this playbook.
+- **Exclude value drivers that are "nice to have" rather than proven** — used as the named operating framework for this playbook.
+- **This is the safe number — every customer should beat it** — used as the named operating framework for this playbook.
+- **Use the MEDIAN of customer-reported ranges** — used as the named operating framework for this playbook.
+- **Include most value drivers with measured impact** — used as the named operating framework for this playbook.
+- **This is the expected outcome for most deployments** — used as the named operating framework for this playbook.
+- **Use the HIGH end of customer-reported ranges** — used as the named operating framework for this playbook.
+- **Include all value drivers** — used as the named operating framework for this playbook.
+- **Requires full adoption and process change** — used as the named operating framework for this playbook.
+- **Frame as "potential" not "promised** — used as the named operating framework for this playbook.
+- ****Metrics:** The calculator IS the metrics — quantified value for the economic buyer** — used as the named operating framework for this playbook.
+- ****Economic Buyer:** Send the calculator BEFORE meeting the EB. "Here's the** — used as the named operating framework for this playbook.
+- ****Champion:** Give the champion the calculator to socialize internally.** — used as the named operating framework for this playbook.
+- **[Assumption 1]: [value] — Source: [gold/silver/bronze/copper]** — used as the named operating framework for this playbook.
+- **[Assumption 2]: [value] — Source: ...** — used as the named operating framework for this playbook.
+- **[ ] 3 scenarios built (conservative, moderate, aggressive) with different assumptions** — used as the named operating framework for this playbook.
+- **[ ] Every assumption has a documented source (no "our estimate")** — used as the named operating framework for this playbook.
+- **[ ] Conservative scenario uses LOW end of customer-reported ranges** — used as the named operating framework for this playbook.
+- **[ ] Payback period calculated (months, not years — more precise)** — used as the named operating framework for this playbook.
+- **[ ] One-time costs separated from ongoing costs** — used as the named operating framework for this playbook.
+- **[ ] 1-year AND 3-year ROI calculated (3-year is the EB metric)** — used as the named operating framework for this playbook.
+- **[ ] Calculator can be shared as a slide (champion needs this)** — used as the named operating framework for this playbook.
+- **[ ] MEDDICC integration: calculator supports Metrics + Economic Buyer** — used as the named operating framework for this playbook.
+- **[ ] Numbers are defensible under CFO scrutiny** — used as the named operating framework for this playbook.
+- **`deal-desk` — Deal structuring using ROI outputs to justify price** — used as the named operating framework for this playbook.
+- **`pricing-strategy` — Pricing informed by willingness-to-pay and quantified value** — used as the named operating framework for this playbook.
+- **`saas-metrics-calculator` — SaaS-specific CAC, LTV, payback metrics** — used as the named operating framework for this playbook.
+- **`sales-enablement` — Pitch decks that use ROI data** — used as the named operating framework for this playbook.
+- **`demo-scripts` — Demo architecture that demonstrates value drivers** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "build an ROI calculator", "create a business case", "calculate
@@ -186,7 +226,7 @@ NEXT STEP:
 "Walk through assumptions with [Economic Buyer Name] to validate and refine."
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] 3 scenarios built (conservative, moderate, aggressive) with different assumptions
 - [ ] Every assumption has a documented source (no "our estimate")
@@ -197,6 +237,16 @@ NEXT STEP:
 - [ ] Calculator can be shared as a slide (champion needs this)
 - [ ] MEDDICC integration: calculator supports Metrics + Economic Buyer
 - [ ] Numbers are defensible under CFO scrutiny
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

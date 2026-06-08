@@ -22,6 +22,13 @@ company top-of-mind during the 3-12 month evaluation window, converting MQLs to
 SQLs at 2-3x the rate of "send them to sales and pray." This skill covers nurture
 strategy, track design, and optimization.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **SiriusDecisions Demand Waterfall** — used as the named operating framework for this playbook.
+- **Marketo Nurture Framework** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Build an MQL nurture program"
 - "Lead nurture strategy"

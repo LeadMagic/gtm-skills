@@ -25,6 +25,13 @@ and integrations Clay does not support. Use n8n when you need a queue you can
 pause, error recovery that does not lose data, and integrations across tools
 that Clay cannot reach.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **n8n Workflow Automation Framework** — used as the named operating framework for this playbook.
+- **iPaaS Integration Patterns** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "Build an n8n workflow for GTM"

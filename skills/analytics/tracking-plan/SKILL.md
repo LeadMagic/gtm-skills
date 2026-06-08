@@ -41,6 +41,60 @@ covers the complete analytics tracking architecture for PLG and B2B SaaS:
 event taxonomy, pixel strategy, attribution architecture, CDP implementation,
 and the analytics stack that makes it all work together.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **Segment — Customer Data Platform (CDP) and Tracking Plan spec** — used as the named operating framework for this playbook.
+- **Amplitude — Product analytics and behavioral cohorts** — used as the named operating framework for this playbook.
+- **PostHog — Open-source product analytics** — used as the named operating framework for this playbook.
+- **Mixpanel — Event-based analytics** — used as the named operating framework for this playbook.
+- **Google Analytics 4 (GA4) — Web analytics and conversions** — used as the named operating framework for this playbook.
+- **Elena Verna (Reforge/Amplitude) — PLG analytics models** — used as the named operating framework for this playbook.
+- **Brian Balfour (Reforge) — Growth models and tracking** — used as the named operating framework for this playbook.
+- **OpenView — PLG benchmarks and metrics** — used as the named operating framework for this playbook.
+- **Avo — Tracking plan governance and code generation** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **HubSpot/Salesforce: Original Source, Latest Source, Source Drill-Down** — used as the named operating framework for this playbook.
+- **GA4: Traffic Acquisition, User Acquisition reports** — used as the named operating framework for this playbook.
+- **BI Tool (Metabase/Looker/Mode): Custom multi-touch models** — used as the named operating framework for this playbook.
+- **Attribution tool (Dreamdata/HockeyStack/Attribution): B2B journey mapping** — used as the named operating framework for this playbook.
+- **Segment: Source Debugger (real-time event stream)** — used as the named operating framework for this playbook.
+- **Amplitude: Event Explorer (verify events arriving)** — used as the named operating framework for this playbook.
+- **GA4: DebugView (real-time event debug)** — used as the named operating framework for this playbook.
+- **Avo: Code-generated type-safe tracking functions** — used as the named operating framework for this playbook.
+- **CI/CD: Test that events fire correctly on critical paths** — used as the named operating framework for this playbook.
+- **No PII in event properties (name, email, IP, phone — use user_id instead)** — used as the named operating framework for this playbook.
+- **Consent management gates all marketing pixels** — used as the named operating framework for this playbook.
+- **Data retention policies documented per destination** — used as the named operating framework for this playbook.
+- **GDPR: ability to delete all events for a user on request** — used as the named operating framework for this playbook.
+- **SOC2: event tracking infrastructure within compliance scope** — used as the named operating framework for this playbook.
+- **Server-side SDK: [implemented / planned]** — used as the named operating framework for this playbook.
+- **Client-side SDK: [implemented / planned]** — used as the named operating framework for this playbook.
+- **Model: [Multi-touch — U-shaped / W-shaped]** — used as the named operating framework for this playbook.
+- **Tool: [HubSpot / Dreamdata / HockeyStack / Custom BI]** — used as the named operating framework for this playbook.
+- **UTM parameters: [enforced / not yet]** — used as the named operating framework for this playbook.
+- **Review cadence: [monthly / quarterly]** — used as the named operating framework for this playbook.
+- **Event dictionary: [link]** — used as the named operating framework for this playbook.
+- **Privacy: [GDPR consent, PII audit, data retention]** — used as the named operating framework for this playbook.
+- **[ ] Tracking plan document exists (spreadsheet or Avo) — not just code** — used as the named operating framework for this playbook.
+- **[ ] Event taxonomy covers Account, Usage, Activation, Engagement, Revenue, Milestones** — used as the named operating framework for this playbook.
+- **[ ] CDP implemented (server-side for critical events, client-side for behavioral)** — used as the named operating framework for this playbook.
+- **[ ] All marketing pixels consent-gated (no pre-ticked boxes)** — used as the named operating framework for this playbook.
+- **[ ] Server-side tracking for signup, payment, subscription changes** — used as the named operating framework for this playbook.
+- **[ ] UTM parameters captured and persisted to user profile** — used as the named operating framework for this playbook.
+- **[ ] Attribution model documented (first-touch + last-touch + multi-touch)** — used as the named operating framework for this playbook.
+- **[ ] PLG funnel measured at every stage transition** — used as the named operating framework for this playbook.
+- **[ ] Event dictionary maintained — no undocumented events** — used as the named operating framework for this playbook.
+- **[ ] PII audit complete — no personal data in event properties** — used as the named operating framework for this playbook.
+- **[ ] Monthly tracking plan review on calendar** — used as the named operating framework for this playbook.
+- **`event-analytics` — Event taxonomy design, CDP architecture, event-driven GTM** — used as the named operating framework for this playbook.
+- **`gtm-metrics` — SaaS metrics and benchmarks** — used as the named operating framework for this playbook.
+- **`campaign-analytics` — Campaign performance, 6-layer metrics stack** — used as the named operating framework for this playbook.
+- **`1p-tagging-pixels` — First-party pixel implementation** — used as the named operating framework for this playbook.
+- **`attribution` — Multi-touch attribution models** — used as the named operating framework for this playbook.
+- **`a-b-testing` — Experiment design and statistical significance** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "tracking plan", "analytics plan", "analytics architecture",
@@ -535,7 +589,7 @@ GOVERNANCE:
 - Privacy: [GDPR consent, PII audit, data retention]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Tracking plan document exists (spreadsheet or Avo) — not just code
 - [ ] Event taxonomy covers Account, Usage, Activation, Engagement, Revenue, Milestones
@@ -548,6 +602,16 @@ GOVERNANCE:
 - [ ] Event dictionary maintained — no undocumented events
 - [ ] PII audit complete — no personal data in event properties
 - [ ] Monthly tracking plan review on calendar
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

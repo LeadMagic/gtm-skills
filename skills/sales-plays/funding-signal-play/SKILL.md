@@ -21,6 +21,13 @@ A funding event is the strongest B2B buying signal that exists: budget unlocked,
 growth mandate activated, and vendor evaluation starting. This play executes
 a coordinated outbound motion within 7-14 days of a funding announcement.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Signal-Based Selling** — used as the named operating framework for this playbook.
+- **ColdIQ Trigger Selling Framework** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Run a funding signal play"
 - "Outreach to recently funded companies"

@@ -531,3 +531,10 @@ Before delivering, verify:
    cold email copy varies widely in quality. For high-value personas
    (C-suite, enterprise), always have a human review and tune AI-generated
    copy. The AI is a starting point, not a final draft.
+
+## Related Skills
+
+- `email-deliverability` — adjacent workflow to use before or after this skill
+- `domain-infrastructure` — adjacent workflow to use before or after this skill
+- `cold-email-strategy` — adjacent workflow to use before or after this skill
+- `sequencing-logic` — adjacent workflow to use before or after this skill

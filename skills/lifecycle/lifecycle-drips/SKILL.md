@@ -22,6 +22,13 @@ signup, first value, renewal window, expansion trigger, at-risk behavior.
 These run in the background, nurturing customers through their journey without
 manual intervention. This skill covers the complete lifecycle drip architecture.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Lifecycle Marketing Framework** — used as the named operating framework for this playbook.
+- **HubSpot Lifecycle Stages** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Build lifecycle emails"
 - "Customer drip campaigns"

@@ -300,7 +300,7 @@ Deploy:
 - Next iteration: [date / trigger]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Artifact solves one specific GTM need (don't vibe-code a monolith)
 - [ ] Prompt includes: layout, style, specific elements, reference (if any)
@@ -310,6 +310,16 @@ Deploy:
 - [ ] Analytics connected before launch
 - [ ] SEO basics: title tag, meta description, H1, alt text on images
 - [ ] Page speed check: under 3s load on mobile (Lighthouse)
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

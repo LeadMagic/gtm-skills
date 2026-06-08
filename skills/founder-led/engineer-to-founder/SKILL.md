@@ -1,12 +1,9 @@
 ---
 name: engineer-to-founder
 description: >-
-  Complete engineer's guide to becoming a startup founder — from IC to CEO,
-  technical founder playbook, building while coding, learning to sell as an
-  engineer, hiring when you've never managed, founder psychology, when to
-  quit your job, and resources built specifically for technical founders.
-  Covers YC advice for engineers, Stripe/Patrick Collison on technical
-  founding, GitHub founder stories, and Indie Hackers playbook.
+  Engineer To Founder playbook for GTM agents — strategy, workflow, templates,
+  operating guidance, and quality checks. Use when the user asks for engineer to
+  founder work, implementation help, or an agent-ready deliverable.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -15,16 +12,8 @@ metadata:
   category: founder-led
   tags: [engineer, technical-founder, ic-to-ceo, solo-developer, build-in-public, indie-hacker]
   related_skills: [co-founder-dynamics, solo-founder-gtm, building-saas, founder-sales, first-hires-playbook, yc-ecosystem, vc-outreach]
-  frameworks:
-    - "Patrick Collison (Stripe) — Technical founding, speed of execution"
-    - "Paul Graham — Maker's Schedule, Do Things That Don't Scale"
-    - "Pieter Levels — Indie Hacking, build in public"
-    - "Sahil Lavingia (Gumroad) — Solo building, minimalism"
-    - "DHH (37signals/Basecamp) — Bootstrapping, profitable from day 1"
-    - "YC Partners — Technical founder advice compilation"
-    - "Peter Levels — 12 startups in 12 months"
+  frameworks: [Operator GTM Playbook]
 ---
-
 # Engineer to Founder
 
 ## Overview
@@ -265,7 +254,7 @@ BUILD IN PUBLIC:
 - What to share: [MRR, learnings, technical decisions, failures]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] 12+ months of living expenses saved OR side project covering basics
 - [ ] Spoken to 5+ potential users before writing code
@@ -275,6 +264,16 @@ BUILD IN PUBLIC:
 - [ ] Founding Sales (Kazanjy) read cover to cover
 - [ ] Founder peer group established (3-5 founders, monthly)
 - [ ] Build-in-public habit started (weekly sharing minimum)
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

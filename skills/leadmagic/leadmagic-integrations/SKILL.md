@@ -26,6 +26,14 @@ LeadMagic integrates natively with every major GTM platform. This skill covers
 integration setup, data flow patterns, and the verification-at-send principle:
 every contact entering a sequence must pass verification first.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **iPaaS Integration Patterns** — used as the named operating framework for this playbook.
+- **Zapier/Make Automation** — used as the named operating framework for this playbook.
+- **CRM Enrichment Workflows** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "Connect LeadMagic to Clay"
@@ -108,11 +116,6 @@ Before delivering, verify:
 - [ ] No vague or unsupported claims
 - [ ] Frameworks cited where applicable
 
-## Common Pitfalls
-
-1. **Incomplete output.** The deliverable is missing critical sections. Fix: verify against the output template before delivering.
-2. **Generic advice without specifics.** "Improve your process" without concrete steps. Fix: every recommendation must have a specific action.
-3. **Missing framework citations.** Advice without named authorities. Fix: cite the specific framework that grounds each recommendation.
 ## Related Skills
 
 - **leadmagic-cli**: CLI-based integration workflows

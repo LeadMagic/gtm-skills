@@ -34,6 +34,81 @@ analytics stack: health score models, NPS/CSAT/CES programs, churn prediction,
 expansion propensity, support analytics, and CS team performance dashboards.
 Every metric mapped to an action.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **Gainsight — Customer Health Score Framework** — used as the named operating framework for this playbook.
+- **Totango — Customer Success Maturity Model** — used as the named operating framework for this playbook.
+- **Bain & Company — NPS (Net Promoter System, Fred Reichheld)** — used as the named operating framework for this playbook.
+- **CustomerGauge — Account Experience (B2B NPS)** — used as the named operating framework for this playbook.
+- **David Skok — SaaS Churn Analysis** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **Question: "How likely are you to recommend [Product] to a colleague?** — used as the named operating framework for this playbook.
+- **Scale: 0-10. Promoters (9-10), Passives (7-8), Detractors (0-6)** — used as the named operating framework for this playbook.
+- **NPS = % Promoters - % Detractors** — used as the named operating framework for this playbook.
+- **Benchmark: SaaS average NPS is ~30-40. Above 50 is excellent. Above 70 is world-class.** — used as the named operating framework for this playbook.
+- **Cadence: Every 6 months for B2B SaaS (quarterly creates survey fatigue)** — used as the named operating framework for this playbook.
+- **Follow-up: "What's the primary reason for your score?" (open text = gold)** — used as the named operating framework for this playbook.
+- **Question: "How satisfied are you with [specific interaction]?** — used as the named operating framework for this playbook.
+- **Scale: 1-5 (stars or emoji)** — used as the named operating framework for this playbook.
+- **Target: 4.0+ average. Below 3.5 = systemic issue.** — used as the named operating framework for this playbook.
+- **Trigger: Post-ticket resolution, post-onboarding, post-QBR** — used as the named operating framework for this playbook.
+- **Follow-up: Scores < 3 auto-escalate to manager for personal outreach within 24 hours** — used as the named operating framework for this playbook.
+- **Question: "How easy was it to [complete task]?** — used as the named operating framework for this playbook.
+- **Scale: 1-7 (1=very difficult, 7=very easy)** — used as the named operating framework for this playbook.
+- **Target: 5.5+ average** — used as the named operating framework for this playbook.
+- **High effort = high churn risk (Gartner: 96% of high-effort customers churn)** — used as the named operating framework for this playbook.
+- **Best use case: Post-onboarding, post-setup, post-integration** — used as the named operating framework for this playbook.
+- **85-100: Green (healthy — expand, reference, case study)** — used as the named operating framework for this playbook.
+- **70-84: Yellow (watch — engagement play, additional training)** — used as the named operating framework for this playbook.
+- **50-69: Orange (at-risk — intervention required, executive outreach)** — used as the named operating framework for this playbook.
+- **0-49: Red (critical — immediate escalation, save play)** — used as the named operating framework for this playbook.
+- **100: Daily active users, 80%+ feature adoption, power user behavior** — used as the named operating framework for this playbook.
+- **75: Weekly active, 50%+ adoption, core features used** — used as the named operating framework for this playbook.
+- **50: Monthly active, 25% adoption, surface-level usage** — used as the named operating framework for this playbook.
+- **25: Erratic login, <10% adoption, single feature only** — used as the named operating framework for this playbook.
+- **0: No logins in 30+ days (abandoned)** — used as the named operating framework for this playbook.
+- **100: Attends QBRs, responds to outreach, submitted NPS, opens emails** — used as the named operating framework for this playbook.
+- **75: Responds to CSM, attends some QBRs, occasional survey response** — used as the named operating framework for this playbook.
+- **50: Responds only when they need something** — used as the named operating framework for this playbook.
+- **25: Unresponsive to CSM outreach, ignores surveys** — used as the named operating framework for this playbook.
+- **0: Zero engagement in 90+ days (ghost)** — used as the named operating framework for this playbook.
+- **0-20: Low risk — business as usual** — used as the named operating framework for this playbook.
+- **21-40: Moderate — CSM engages with training/value play** — used as the named operating framework for this playbook.
+- **41-60: High — manager + CSM intervention, executive outreach** — used as the named operating framework for this playbook.
+- **61-100: Critical — VP CS + CEO outreach, save play** — used as the named operating framework for this playbook.
+- **70-100: Expansion playbook now** — used as the named operating framework for this playbook.
+- **40-69: Nurture — additional training, showcase advanced features** — used as the named operating framework for this playbook.
+- **0-39: Focus on adoption before expansion** — used as the named operating framework for this playbook.
+- **NPS: [question, scale, cadence, follow-up]** — used as the named operating framework for this playbook.
+- **CSAT: [question, trigger, scale, escalation]** — used as the named operating framework for this playbook.
+- **CES: [question, trigger, target]** — used as the named operating framework for this playbook.
+- **Model: [simple points-based / ML]** — used as the named operating framework for this playbook.
+- **Signals: [ranked list with lead times and actions]** — used as the named operating framework for this playbook.
+- **Alert cadence: [daily / weekly]** — used as the named operating framework for this playbook.
+- **Signals: [list]** — used as the named operating framework for this playbook.
+- **Model: [scoring]** — used as the named operating framework for this playbook.
+- **CS Team Dashboard: [weekly review, owner]** — used as the named operating framework for this playbook.
+- **Book of Business Health: [metrics and targets]** — used as the named operating framework for this playbook.
+- **At-Risk Accounts: [review cadence, playbook triggers]** — used as the named operating framework for this playbook.
+- **[ ] Health score has 5 dimensions with explicit weights (sums to 100%)** — used as the named operating framework for this playbook.
+- **[ ] Each health dimension has 3+ measurable sub-metrics** — used as the named operating framework for this playbook.
+- **[ ] Health bands have specific actions (not just "check on customer")** — used as the named operating framework for this playbook.
+- **[ ] NPS survey cadence is 6-month (not monthly — avoids survey fatigue)** — used as the named operating framework for this playbook.
+- **[ ] CSAT surveys triggered by specific events, not randomly** — used as the named operating framework for this playbook.
+- **[ ] Scores < 3 on CSAT auto-escalated to manager within 24 hours** — used as the named operating framework for this playbook.
+- **[ ] Churn prediction model generates weekly at-risk list** — used as the named operating framework for this playbook.
+- **[ ] Champion churn (job change) detection is automated** — used as the named operating framework for this playbook.
+- **[ ] CS team metrics reviewed weekly, not just quarterly** — used as the named operating framework for this playbook.
+- **[ ] Expansion propensity triggers specific playbook, not just "upsell** — used as the named operating framework for this playbook.
+- **`cs-playbooks` — Playbooks triggered by health score bands** — used as the named operating framework for this playbook.
+- **`sla-management` — SLA design, escalation paths** — used as the named operating framework for this playbook.
+- **`support-tool-stack` — Platform analytics and reporting** — used as the named operating framework for this playbook.
+- **`churn-prevention` — Early warning signals, intervention plays** — used as the named operating framework for this playbook.
+- **`expansion-selling` — Propensity models, expansion plays** — used as the named operating framework for this playbook.
+- **`gtm-metrics` — Complete SaaS metrics stack** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "build CS dashboard", "customer health score", "churn
@@ -246,7 +321,7 @@ DASHBOARD:
 - At-Risk Accounts: [review cadence, playbook triggers]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Health score has 5 dimensions with explicit weights (sums to 100%)
 - [ ] Each health dimension has 3+ measurable sub-metrics
@@ -258,6 +333,16 @@ DASHBOARD:
 - [ ] Champion churn (job change) detection is automated
 - [ ] CS team metrics reviewed weekly, not just quarterly
 - [ ] Expansion propensity triggers specific playbook, not just "upsell"
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

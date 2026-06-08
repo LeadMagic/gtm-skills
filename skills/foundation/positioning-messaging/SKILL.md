@@ -1,11 +1,9 @@
 ---
 name: positioning-messaging
 description: >-
-  Builds April Dunford 5-component positioning statement, Andy Raskin strategic
-  narrative, messaging matrix by persona, category design analysis, and Force
-  Management Command of the Message VMF integration. Triggers when user asks
-  for positioning, messaging, strategic narrative, pitch deck story, category
-  creation, or value proposition. Run after gtm-context.
+  Positioning Messaging playbook for GTM agents — strategy, workflow, templates,
+  operating guidance, and quality checks. Use when the user asks for positioning
+  messaging work, implementation help, or an agent-ready deliverable.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -16,7 +14,6 @@ metadata:
   related_skills: [gtm-context, icp-scoring, competitive-intel, pitch-deck-builder]
   frameworks: [April Dunford Positioning, Andy Raskin Strategic Narrative, Christopher Lochhead Category Design, Force Management Command of the Message, Challenger Sale]
 ---
-
 # Positioning & Messaging
 
 ## Overview

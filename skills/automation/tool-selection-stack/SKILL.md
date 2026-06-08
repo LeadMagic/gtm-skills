@@ -25,6 +25,13 @@ tools are expensive, but because the wrong stack wastes months of productivity.
 This skill builds stage-appropriate tool stacks with cost breakdowns and clear
 rationale for every choice.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Jesse Ouellette Lean Stack** — used as the named operating framework for this playbook.
+- **Eric Nowoslawski Agency Stack** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "What tools do I need for cold email?"
 - "Build my GTM stack"

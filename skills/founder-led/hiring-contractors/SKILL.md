@@ -30,6 +30,13 @@ This skill covers sourcing, structuring engagements, IP protection, rate
 negotiation, and management practices that make contractor relationships
 productive rather than painful.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Freelance Talent Management** — used as the named operating framework for this playbook.
+- **Upwork Enterprise Patterns** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "Hire a freelance developer"

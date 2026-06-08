@@ -21,6 +21,13 @@ Account selection is the hardest part of ABM. Pick wrong and you waste 6 months.
 Pick right and you 3x your close rate. This skill builds a weighted scoring model
 to tier your TAM into Strategic, Scale, and Programmatic accounts.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **TOPO Account Selection** — used as the named operating framework for this playbook.
+- **WbD ICP Framework** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Which accounts should we target?"
 - "Tier our target account list"

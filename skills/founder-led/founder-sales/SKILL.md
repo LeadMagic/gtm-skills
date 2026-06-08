@@ -189,7 +189,7 @@ Transition Plan:
 - Documentation checklist: [items]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] SPICED discovery questions customized to your product
 - [ ] Demo follows outcome-first architecture (show result, then path)
@@ -199,6 +199,16 @@ Transition Plan:
 - [ ] Critical Event identified before any second meeting
 - [ ] AE transition documentation exists before first AE hire
 - [ ] Pipeline is 3x quota before hiring first AE
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

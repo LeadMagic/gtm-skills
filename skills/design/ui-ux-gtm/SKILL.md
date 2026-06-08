@@ -269,7 +269,7 @@ A/B Test Readiness:
 - [Success metric]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Hero communicates value in <3 seconds (show to someone, ask "what does this do?")
 - [ ] Single primary CTA per view (no competing CTAs)
@@ -283,6 +283,16 @@ A/B Test Readiness:
 - [ ] Mobile tested — over 50% of B2B traffic is mobile
 - [ ] Empty states designed (not just "No data" — show what WILL be there)
 - [ ] `prefers-reduced-motion` respected for animations
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

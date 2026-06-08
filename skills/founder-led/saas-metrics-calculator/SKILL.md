@@ -1,28 +1,19 @@
 ---
 name: saas-metrics-calculator
 description: >-
-  Calculate complete SaaS metrics — MRR, ARR, ARPA, Churn (logo + revenue),
-  LTV (contribution margin), CAC (fully-loaded), LTV:CAC, CAC Payback,
-  Magic Number, NRR, GRR, Rule of 40, SaaS Quick Ratio, Burn Multiple,
-  ARR per Employee — with stage-aware benchmarks from ChartMogul, Baremetrics,
-  OpenView, SaaS Capital, and KeyBanc SaaS Survey 2025-2026. Uses David Skok
-  unit economics.
+  Saas Metrics Calculator playbook for GTM agents — strategy, workflow, templates,
+  operating guidance, and quality checks. Use when the user asks for saas metrics
+  calculator work, implementation help, or an agent-ready deliverable.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "2.0.0"
+  version: "1.0.0"
   author: LeadMagic
   category: founder-led
   tags: [saas, metrics, calculator, benchmarks, kpis, unit-economics]
   related_skills: [financial-modeling, gtm-metrics, pricing-strategy, churn-prevention, expansion-selling, board-meeting-prep]
-  frameworks:
-    - "David Skok (Matrix Partners) — SaaS Unit Economics"
-    - "ChartMogul/Baremetrics/OpenView Benchmarks 2025-2026"
-    - "KeyBanc SaaS Survey 2026"
-    - "Bessemer Venture Partners — Cloud 100 Benchmarks"
-    - "Jason Lemkin (SaaStr) — Rule of 40 and Burn Multiple"
+  frameworks: [Operator GTM Playbook]
 ---
-
 # SaaS Metrics Calculator
 
 ## Overview
@@ -33,6 +24,60 @@ that tells the truth (usually churn or CAC payback). This skill calculates all
 key metrics from minimal inputs, applies stage-aware benchmarks, diagnoses which
 lever to pull first, and produces board-ready, investor-ready output. Every
 formula is documented. Every benchmark is sourced.
+
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **David Skok (Matrix Partners) — SaaS Unit Economics** — used as the named operating framework for this playbook.
+- **ChartMogul/Baremetrics/OpenView Benchmarks 2025-2026** — used as the named operating framework for this playbook.
+- **KeyBanc SaaS Survey 2026** — used as the named operating framework for this playbook.
+- **Bessemer Venture Partners — Cloud 100 Benchmarks** — used as the named operating framework for this playbook.
+- **Jason Lemkin (SaaStr) — Rule of 40 and Burn Multiple** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **$0-5M ARR: $50-100K is normal (you're investing)** — used as the named operating framework for this playbook.
+- **$10-50M ARR: $100-200K is good** — used as the named operating framework for this playbook.
+- **$100M+: $200K+ is efficient** — used as the named operating framework for this playbook.
+- **>100%: Growing within existing base (good)** — used as the named operating framework for this playbook.
+- **>120%: Best-in-class enterprise SaaS** — used as the named operating framework for this playbook.
+- **<100%: Shrinking — churn > expansion** — used as the named operating framework for this playbook.
+- **Excludes expansion (purity test of retention only)** — used as the named operating framework for this playbook.
+- **>80% is good. >90% is excellent.** — used as the named operating framework for this playbook.
+- **>4x: Excellent — growing 4x faster than shrinking** — used as the named operating framework for this playbook.
+- **2-4x: Healthy** — used as the named operating framework for this playbook.
+- **<2x: Each new dollar is partially canceled by churn** — used as the named operating framework for this playbook.
+- **<1x: Shrinking** — used as the named operating framework for this playbook.
+- **3-5x: Healthy (invest more in growth)** — used as the named operating framework for this playbook.
+- **5-10x: Very efficient (you could be spending more on growth)** — used as the named operating framework for this playbook.
+- **<3x: CAC too high or LTV too low (fix before scaling)** — used as the named operating framework for this playbook.
+- **<12 months: Good (recover investment within a year)** — used as the named operating framework for this playbook.
+- **12-18 months: Acceptable for higher-ACV products** — used as the named operating framework for this playbook.
+- **>24 months: Dangerous (capital-intensive, slow returns)** — used as the named operating framework for this playbook.
+- **>1.0: Efficient growth (invest more)** — used as the named operating framework for this playbook.
+- **0.5-1.0: Moderate (optimize before scaling)** — used as the named operating framework for this playbook.
+- **<0.5: Inefficient (fix GTM before spending more)** — used as the named operating framework for this playbook.
+- **<1x: Excellent (burning less than $1 for $1 of new ARR)** — used as the named operating framework for this playbook.
+- **1-2x: Good** — used as the named operating framework for this playbook.
+- **>2x: Worrying — high burn relative to growth** — used as the named operating framework for this playbook.
+- **David Sacks: "The burn multiple is the single best measure of capital efficiency.** — used as the named operating framework for this playbook.
+- **>40%: Healthy SaaS business** — used as the named operating framework for this playbook.
+- **0-40%: Acceptable at scale** — used as the named operating framework for this playbook.
+- **<0%: Unsustainable** — used as the named operating framework for this playbook.
+- **See ARR per Employee above** — used as the named operating framework for this playbook.
+- **[ ] LTV uses contribution-margin method (NOT raw revenue)** — used as the named operating framework for this playbook.
+- **[ ] CAC includes fully-loaded S&M spend (NOT just ad spend)** — used as the named operating framework for this playbook.
+- **[ ] Same time period for spend and new customers** — used as the named operating framework for this playbook.
+- **[ ] Metrics segmented by channel and cohort where possible** — used as the named operating framework for this playbook.
+- **[ ] Benchmarks matched to current ARR stage** — used as the named operating framework for this playbook.
+- **[ ] Red-flagged metrics have specific recommended actions** — used as the named operating framework for this playbook.
+- **[ ] NRR and GRR both calculated (NRR includes expansion, GRR doesn't)** — used as the named operating framework for this playbook.
+- **[ ] Burn Multiple calculated alongside Magic Number (they tell different stories)** — used as the named operating framework for this playbook.
+- **`financial-modeling` — SaaS P&L, cash flow, runway, headcount model** — used as the named operating framework for this playbook.
+- **`gtm-metrics` — Pipeline velocity, CAC by channel, WbD GTM Index** — used as the named operating framework for this playbook.
+- **`pricing-strategy` — Pricing impact on ARPU and LTV** — used as the named operating framework for this playbook.
+- **`churn-prevention` — Early warning signals, health scoring, intervention** — used as the named operating framework for this playbook.
+- **`expansion-selling` — Consumption triggers, NRR growth** — used as the named operating framework for this playbook.
+- **`board-meeting-prep` — Board-ready metrics dashboard** — used as the named operating framework for this playbook.
 
 ## When to Use
 
@@ -236,7 +281,7 @@ PRIORITY ACTIONS (ranked by ROI):
 3. [Action 3]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] LTV uses contribution-margin method (NOT raw revenue)
 - [ ] CAC includes fully-loaded S&M spend (NOT just ad spend)
@@ -246,6 +291,16 @@ PRIORITY ACTIONS (ranked by ROI):
 - [ ] Red-flagged metrics have specific recommended actions
 - [ ] NRR and GRR both calculated (NRR includes expansion, GRR doesn't)
 - [ ] Burn Multiple calculated alongside Magic Number (they tell different stories)
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

@@ -23,6 +23,13 @@ and pray. This skill builds a systematic distribution engine that turns one piec
 of content into 15+ touchpoints across channels and extends reach through paid
 syndication and partnerships.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Content Atomization Model** — used as the named operating framework for this playbook.
+- **Ross Simmonds Distribution Framework** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Distribute our content"
 - "Syndication strategy"

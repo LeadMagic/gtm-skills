@@ -36,6 +36,77 @@ swamp instead of a data pipeline. This skill covers event analytics across
 every GTM system — how to design an event taxonomy, implement tracking, and
 unify event data across your stack to build a complete customer picture.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **Segment — Customer Data Platform (CDP) and event taxonomy** — used as the named operating framework for this playbook.
+- **Amplitude — Behavioral analytics and event design** — used as the named operating framework for this playbook.
+- **Mixpanel — Product analytics and event-based reporting** — used as the named operating framework for this playbook.
+- **Intercom — Event-driven messaging and automation** — used as the named operating framework for this playbook.
+- **Avo — Event taxonomy and governance** — used as the named operating framework for this playbook.
+- **Snowplow — Open-source event pipeline** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **Title case: "Signed Up" not "signed_up** — used as the named operating framework for this playbook.
+- **Past tense: "Viewed" not "View** — used as the named operating framework for this playbook.
+- **Object first: "Report Exported" not "Exported Report** — used as the named operating framework for this playbook.
+- **No technical jargon: "Payment Completed" not "stripe_webhook_200** — used as the named operating framework for this playbook.
+- **Signed Up (properties: plan, source, referrer, UTM params)** — used as the named operating framework for this playbook.
+- **Subscription Started (properties: plan, price, billing period)** — used as the named operating framework for this playbook.
+- **Subscription Upgraded (properties: from_plan, to_plan, reason)** — used as the named operating framework for this playbook.
+- **Subscription Downgraded (properties: from_plan, to_plan, reason)** — used as the named operating framework for this playbook.
+- **Subscription Canceled (properties: plan, reason, tenure_days)** — used as the named operating framework for this playbook.
+- **Trial Started / Trial Converted / Trial Expired** — used as the named operating framework for this playbook.
+- **Feature Used (properties: feature_name, context, duration)** — used as the named operating framework for this playbook.
+- **Search Performed (properties: query, results_count)** — used as the named operating framework for this playbook.
+- **Integration Connected (properties: integration_name)** — used as the named operating framework for this playbook.
+- **Invite Sent / Invite Accepted (properties: role)** — used as the named operating framework for this playbook.
+- **File Uploaded / Exported (properties: type, size)** — used as the named operating framework for this playbook.
+- **Email Opened / Clicked (properties: email_type, campaign_id)** — used as the named operating framework for this playbook.
+- **Notification Viewed / Clicked** — used as the named operating framework for this playbook.
+- **Support Ticket Created / Resolved (properties: category, priority)** — used as the named operating framework for this playbook.
+- **NPS Submitted (properties: score, comments)** — used as the named operating framework for this playbook.
+- **QBR Attended (properties: attendees)** — used as the named operating framework for this playbook.
+- **Invoice Created / Paid / Overdue** — used as the named operating framework for this playbook.
+- **Credit Card Added / Updated / Failed** — used as the named operating framework for this playbook.
+- **Refund Processed** — used as the named operating framework for this playbook.
+- **Activation Complete (properties: time_to_activate_hours)** — used as the named operating framework for this playbook.
+- **First Value Achieved (properties: milestone, time_to_value_days)** — used as the named operating framework for this playbook.
+- **7-Day Active / 30-Day Active** — used as the named operating framework for this playbook.
+- **Power User Threshold Reached** — used as the named operating framework for this playbook.
+- **Use as event triggers for: onboarding tours (if user does X, show tour Y),** — used as the named operating framework for this playbook.
+- **`Intercom('track', 'Feature Used', { feature: 'Reports' })`** — used as the named operating framework for this playbook.
+- **Track: Lead Status Changed, Opportunity Stage Changed, Task Completed** — used as the named operating framework for this playbook.
+- **Use for: real-time dashboards, Slack alerts on key deals, enrichment triggers** — used as the named operating framework for this playbook.
+- **Track: Form Submission, Meeting Booked, Email Clicked, Page Viewed** — used as the named operating framework for this playbook.
+- **Use for: lead scoring, workflow triggers, list membership** — used as the named operating framework for this playbook.
+- **Purpose: product analytics — not just what happened, but who did it,** — used as the named operating framework for this playbook.
+- **Key reports: retention curves, funnel analysis, behavioral cohorts,** — used as the named operating framework for this playbook.
+- **New events require: description, properties schema, destination list, owner** — used as the named operating framework for this playbook.
+- **No "track everything" — each event must have a purpose and an owner** — used as the named operating framework for this playbook.
+- **Deprecate, don't delete. Keep old events but stop sending them.** — used as the named operating framework for this playbook.
+- **Review event taxonomy quarterly. Remove unused events. Consolidate duplicates.** — used as the named operating framework for this playbook.
+- **Every event needs a test. CI/CD should verify events fire correctly.** — used as the named operating framework for this playbook.
+- **Avo (avo.app) — event taxonomy design, code generation, validation** — used as the named operating framework for this playbook.
+- **Segment Protocols — enforce event schemas, block malformed events** — used as the named operating framework for this playbook.
+- **Amplitude Data — govern events within Amplitude's ecosystem** — used as the named operating framework for this playbook.
+- **Client-side: [SDK / library]** — used as the named operating framework for this playbook.
+- **Server-side: [SDK / webhook pipeline]** — used as the named operating framework for this playbook.
+- **Testing: [how events are validated]** — used as the named operating framework for this playbook.
+- **[ ] Event taxonomy documented with naming convention (Object-Action, past tense)** — used as the named operating framework for this playbook.
+- **[ ] 20+ core events implemented across Account, Usage, Engagement, Revenue** — used as the named operating framework for this playbook.
+- **[ ] Server-side tracking for critical events (not just client-side)** — used as the named operating framework for this playbook.
+- **[ ] Group/account-level context sent for B2B (workspace ID, plan, employees)** — used as the named operating framework for this playbook.
+- **[ ] Event dictionary maintained with owner, properties schema, destinations** — used as the named operating framework for this playbook.
+- **[ ] Event-driven workflows documented (event → action mapping)** — used as the named operating framework for this playbook.
+- **[ ] Event testing in CI/CD (events fire correctly, properties valid)** — used as the named operating framework for this playbook.
+- **[ ] No PII in event properties (email, name, IP — use pseudonymous IDs)** — used as the named operating framework for this playbook.
+- **`cs-analytics-dashboards` — CS health scores and dashboards** — used as the named operating framework for this playbook.
+- **`gtm-metrics` — SaaS metrics stack** — used as the named operating framework for this playbook.
+- **`campaign-analytics` — Campaign performance analysis** — used as the named operating framework for this playbook.
+- **`1p-tagging-pixels` — First-party tracking implementation** — used as the named operating framework for this playbook.
+- **`a-b-testing` — Experiment design and analysis** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "event analytics setup", "customer event tracking",
@@ -245,7 +316,7 @@ EVENT-DRIVEN WORKFLOWS:
 2. [Event] → [Action] — [trigger condition]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Event taxonomy documented with naming convention (Object-Action, past tense)
 - [ ] 20+ core events implemented across Account, Usage, Engagement, Revenue
@@ -255,6 +326,16 @@ EVENT-DRIVEN WORKFLOWS:
 - [ ] Event-driven workflows documented (event → action mapping)
 - [ ] Event testing in CI/CD (events fire correctly, properties valid)
 - [ ] No PII in event properties (email, name, IP — use pseudonymous IDs)
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

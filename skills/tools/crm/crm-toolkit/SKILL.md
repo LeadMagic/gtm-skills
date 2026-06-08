@@ -30,6 +30,35 @@ a dumping ground instead of a revenue engine. This skill covers deep CRM
 configuration across HubSpot, Salesforce, and Attio: enrichment integration,
 pipeline design, automation rules, and data hygiene.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **HubSpot — CRM, deal pipelines, lifecycle stages, marketing automation** — used as the named operating framework for this playbook.
+- **Salesforce — Object model, Flow automation, opportunity management** — used as the named operating framework for this playbook.
+- **Attio — Programmable CRM, real-time objects, list-based architecture** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- ****Lead → Contact Auto-Convert:** When lead score > threshold, auto-convert** — used as the named operating framework for this playbook.
+- ****Enrichment Trigger:** When contact created, trigger enrichment API** — used as the named operating framework for this playbook.
+- ****Stage Validation:** Prevent skipping stages without required fields** — used as the named operating framework for this playbook.
+- **[ ] Deal stages defined with Goals + Exit Criteria per stage** — used as the named operating framework for this playbook.
+- **[ ] Required fields enforced (email, company, amount, close date)** — used as the named operating framework for this playbook.
+- **[ ] Enrichment integration live (auto-enrich on create)** — used as the named operating framework for this playbook.
+- **[ ] Duplicate detection configured** — used as the named operating framework for this playbook.
+- **[ ] Pipeline automation rules documented and tested** — used as the named operating framework for this playbook.
+- **[ ] Data hygiene audit scheduled (quarterly)** — used as the named operating framework for this playbook.
+- **[Output item 1]** — used as the named operating framework for this playbook.
+- **[Output item 2]** — used as the named operating framework for this playbook.
+- **[Output item 3]** — used as the named operating framework for this playbook.
+- **[ ] All required sections complete** — used as the named operating framework for this playbook.
+- **[ ] Output matches the user's stated need** — used as the named operating framework for this playbook.
+- **[ ] No vague or unsupported claims** — used as the named operating framework for this playbook.
+- **[ ] Frameworks cited where applicable** — used as the named operating framework for this playbook.
+- **`hubspot-setup` — HubSpot configuration** — used as the named operating framework for this playbook.
+- **`salesforce-setup` — Salesforce configuration** — used as the named operating framework for this playbook.
+- **`attio-setup` — Attio configuration** — used as the named operating framework for this playbook.
+- **`leadmagic-toolkit` — Enrichment integration** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "CRM setup", "CRM pipeline design", "CRM enrichment",
@@ -72,7 +101,7 @@ DEAL STAGES:
 4. Stale deal cleanup: deals in same stage > 60 days → auto-close or notify
 5. Enrichment on create: every new contact triggers enrichment automatically
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Deal stages defined with Goals + Exit Criteria per stage
 - [ ] Required fields enforced (email, company, amount, close date)
@@ -115,11 +144,6 @@ Before delivering, verify:
 - [ ] No vague or unsupported claims
 - [ ] Frameworks cited where applicable
 
-## Common Pitfalls
-
-1. **Incomplete output.** The deliverable is missing critical sections. Fix: verify against the output template before delivering.
-2. **Generic advice without specifics.** "Improve your process" without concrete steps. Fix: every recommendation must have a specific action.
-3. **Missing framework citations.** Advice without named authorities. Fix: cite the specific framework that grounds each recommendation.
 ## Related Skills
 
 - `hubspot-setup` — HubSpot configuration

@@ -22,6 +22,13 @@ page personalization that other platforms don't offer natively. Combined with
 lemwarm (automated warmup) and multi-channel capabilities, it's ideal for teams
 that want higher per-email engagement at lower volume.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Lemlist Personalization Framework** — used as the named operating framework for this playbook.
+- **ColdIQ Multi-Channel** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Set up Lemlist"
 - "Lemlist campaign setup"

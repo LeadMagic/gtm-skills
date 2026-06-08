@@ -1,12 +1,9 @@
 ---
 name: vc-outreach
 description: >-
-  Complete VC outreach playbook — cold email templates for investors, warm
-  intro strategies, how to talk to VCs in meetings, follow-up cadences,
-  investor CRM management, what to say (and never say), pitch structure,
-  and building investor relationships before you need money. Covers outreach
-  to angels, seed funds, and institutional VCs. Based on advice from Mark
-  Suster, Jason Lemkin, Samir Kaji, and YC partners.
+  Vc Outreach playbook for GTM agents — strategy, workflow, templates, operating
+  guidance, and quality checks. Use when the user asks for vc outreach work,
+  implementation help, or an agent-ready deliverable.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -15,15 +12,8 @@ metadata:
   category: founder-led
   tags: [vc, investor-outreach, cold-email, fundraising, warm-intros, pitch, angels]
   related_skills: [fundraising-strategy, yc-ecosystem, pitch-deck-builder, founder-brand, financial-modeling, board-meeting-prep]
-  frameworks:
-    - "Mark Suster (Upfront Ventures) — Invest in Lines, Not Dots"
-    - "Jason Lemkin (SaaStr) — How to pitch VCs"
-    - "Samir Kaji (Allocate) — LP/VC dynamics, fundraising data"
-    - "Alex Iskold (2048 Ventures) — Cold email that works"
-    - "Semil Shah (Haystack) — Angel investing, founder relationships"
-    - "YC Partners — Investor communication"
+  frameworks: [Operator GTM Playbook]
 ---
-
 # VC Outreach
 
 ## Overview
@@ -360,7 +350,7 @@ MEETING PREP:
 - Hard questions anticipated: [5+ with answers]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Monthly updates sent to 10-30 target investors for 3+ months before raising
 - [ ] Warm intro pre-written for every introducer (one-click forward)
@@ -370,6 +360,16 @@ MEETING PREP:
 - [ ] Follow-up sent within 2 hours of every meeting
 - [ ] Investor CRM tracking every interaction, status, and next step
 - [ ] No spray-and-pray ("Dear Investor" → instant delete)
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

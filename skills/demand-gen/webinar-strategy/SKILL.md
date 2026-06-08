@@ -22,6 +22,13 @@ done with a "commercial teaching" angle — not product demos disguised as conte
 This skill covers topic selection, speaker sourcing, promotion architecture,
 and post-webinar pipeline conversion.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **TOPO Webinar Framework** — used as the named operating framework for this playbook.
+- **CEB Challenger Commercial Teaching** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Plan a webinar"
 - "Build webinar strategy"

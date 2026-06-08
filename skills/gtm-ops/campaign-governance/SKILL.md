@@ -22,6 +22,13 @@ enforced naming conventions and UTM parameters, your attribution data is garbage
 your ROI reports are fiction, and you can't answer "which campaigns actually work."
 This skill builds the governance framework.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Marketing Ops Governance Framework** — used as the named operating framework for this playbook.
+- **SiriusDecisions Campaign Hierarchy** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Set up campaign naming conventions"
 - "UTM governance"

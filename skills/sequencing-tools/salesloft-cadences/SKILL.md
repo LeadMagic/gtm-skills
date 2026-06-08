@@ -21,6 +21,13 @@ Salesloft is the market leader in sales engagement. Cadences here manage Rhythm
 (multi-channel cadences), Conversations (reply management), and Deals (pipeline
 integration). This skill covers setup, optimization, and team workflows.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Salesloft Modern Selling Framework** — used as the named operating framework for this playbook.
+- **ColdIQ Cadence Design** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Set up Salesloft cadences"
 - "Build Salesloft Rhythm"

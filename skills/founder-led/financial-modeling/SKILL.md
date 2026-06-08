@@ -361,7 +361,7 @@ Key Assumptions: [10-15 key drivers documented]
 Funding Requirement: $X M at month Y, runway post-raise: X months
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Revenue modeled bottom-up (customers × ACV), not top-down (market %)
 - [ ] Headcount has every role, start date, and fully-loaded cost (1.3x salary)
@@ -375,6 +375,16 @@ Funding Requirement: $X M at month Y, runway post-raise: X months
 - [ ] Sensitivity table built (WACC ±5%, growth ±10%, terminal g ±1%)
 - [ ] Cohort analysis segmented (not just aggregate metrics)
 - [ ] ARR bridge built alongside ARR build (where growth came from)
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 
@@ -400,22 +410,9 @@ Funding Requirement: $X M at month Y, runway post-raise: X months
 
 ## ⚠️ Disclaimer
 
-This skill provides general informational guidance based on publicly available
-frameworks and operator experience. It is NOT legal advice, accounting advice,
-tax advice, financial advice, or professional services advice. Laws, regulations,
-and best practices vary by jurisdiction and change over time.
+This skill provides general informational guidance based on publicly available frameworks and operator experience. It is NOT legal advice, accounting advice, tax advice, financial advice, insurance advice, or professional services advice.
 
-- **Legal matters:** Consult a qualified attorney licensed in your jurisdiction.
-- **Tax matters:** Consult a certified tax professional or CPA.
-- **Accounting/financial matters:** Consult a qualified accountant or financial advisor.
-- **Insurance matters:** Consult a licensed insurance broker.
-- **Security/compliance matters:** Consult a qualified security assessor or compliance
-  professional for your specific infrastructure and regulatory requirements.
-
-This skill references publicly documented frameworks, standards, and operator
-experiences. It does not constitute a professional opinion or create a
-professional-client relationship. Use it as a starting point for your own
-research and always verify against current regulations and professional guidance.
+Consult qualified professionals for your specific situation — attorneys for legal/equity matters, CPAs for tax and accounting, licensed brokers for insurance, and certified security assessors for compliance. This skill does not create a professional-client relationship. Use it as a starting point for research and preparation.
 
 ## Related Skills
 

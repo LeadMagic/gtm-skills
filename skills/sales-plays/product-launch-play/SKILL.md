@@ -23,6 +23,13 @@ A target account launch signals new initiatives and budget. This play has two
 mirror-image variants: competitive displacement triggered by competitor launches,
 and initiative alignment triggered by account launches.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Signal-Based Selling** — used as the named operating framework for this playbook.
+- **Force Management Competitive Displacement** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Competitor just launched something"
 - "Run a launch response play"

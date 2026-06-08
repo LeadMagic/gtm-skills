@@ -22,6 +22,13 @@ of B2B search traffic. Traditional SEO doesn't optimize for AI answers.
 AEO ensures your content is the source AI engines cite when users ask questions
 in your domain. This skill covers the strategy.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **AEO Framework** — used as the named operating framework for this playbook.
+- **Google Search Generative Experience Guidelines** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Optimize for AI search"
 - "AEO strategy"

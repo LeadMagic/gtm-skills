@@ -22,6 +22,13 @@ churn happens in the first 90 days. A structured onboarding sequence that
 drives customers to their first value moment within 7 days reduces churn
 by 30-50%. This skill covers design and execution.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Lincoln Murphy Desired Outcome** — used as the named operating framework for this playbook.
+- **Gainsight Onboarding Framework** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Build onboarding sequence"
 - "Customer onboarding"

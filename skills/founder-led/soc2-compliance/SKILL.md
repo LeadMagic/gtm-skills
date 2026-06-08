@@ -31,6 +31,13 @@ auditor selection, evidence collection, and the ongoing monitoring that keeps
 you compliant between audits. Budget ~$20-50K for first-year audit. Timeline:
 4-6 months for Type I, 6-12 months observation period for Type II.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **AICPA Trust Services Criteria** — used as the named operating framework for this playbook.
+- **SOC2 Type II Framework** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "How do I get SOC2 compliant?"
@@ -188,22 +195,9 @@ Before delivering, verify:
 
 ## ⚠️ Disclaimer
 
-This skill provides general informational guidance based on publicly available
-frameworks and operator experience. It is NOT legal advice, accounting advice,
-tax advice, financial advice, or professional services advice. Laws, regulations,
-and best practices vary by jurisdiction and change over time.
+This skill provides general informational guidance based on publicly available frameworks and operator experience. It is NOT legal advice, accounting advice, tax advice, financial advice, insurance advice, or professional services advice.
 
-- **Legal matters:** Consult a qualified attorney licensed in your jurisdiction.
-- **Tax matters:** Consult a certified tax professional or CPA.
-- **Accounting/financial matters:** Consult a qualified accountant or financial advisor.
-- **Insurance matters:** Consult a licensed insurance broker.
-- **Security/compliance matters:** Consult a qualified security assessor or compliance
-  professional for your specific infrastructure and regulatory requirements.
-
-This skill references publicly documented frameworks, standards, and operator
-experiences. It does not constitute a professional opinion or create a
-professional-client relationship. Use it as a starting point for your own
-research and always verify against current regulations and professional guidance.
+Consult qualified professionals for your specific situation — attorneys for legal/equity matters, CPAs for tax and accounting, licensed brokers for insurance, and certified security assessors for compliance. This skill does not create a professional-client relationship. Use it as a starting point for research and preparation.
 
 ## Related Skills
 

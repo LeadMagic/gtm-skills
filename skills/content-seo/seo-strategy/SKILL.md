@@ -22,6 +22,13 @@ traffic volume, you're optimizing for pipeline. A single #1 ranking for a
 high-intent keyword like "email verification API" is worth more than 50
 rankings for informational queries. This skill covers the full B2B SEO motion.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Ahrefs SEO Framework** — used as the named operating framework for this playbook.
+- **Google E-E-A-T Guidelines** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Build our SEO strategy"
 - "Keyword research"

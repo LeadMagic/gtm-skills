@@ -308,7 +308,7 @@ DECISION: Scorecard average > 4.0 = strong hire. 3.5-4.0 = hire with reservation
 < 3.5 = no hire. No exceptions for "gut feeling."
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Structured process documented (same questions, same scorecard per role)
 - [ ] Work sample designed (real task, not brainteaser)
@@ -319,6 +319,16 @@ DECISION: Scorecard average > 4.0 = strong hire. 3.5-4.0 = hire with reservation
 - [ ] No questions about age, family, religion, health, or other protected
   characteristics (illegal and irrelevant)
 - [ ] Decision thresholds defined (scorecard > X = hire)
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 
@@ -349,14 +359,9 @@ DECISION: Scorecard average > 4.0 = strong hire. 3.5-4.0 = hire with reservation
 
 ## ⚠️ Disclaimer
 
-This skill provides general informational guidance based on publicly available
-frameworks and operator experience. It is NOT legal advice, accounting advice,
-tax advice, financial advice, or professional services advice.
+This skill provides general informational guidance based on publicly available frameworks and operator experience. It is NOT legal advice, accounting advice, tax advice, financial advice, insurance advice, or professional services advice.
 
-Consult qualified professionals for your specific situation — attorneys for
-legal/equity matters, CPAs for tax, licensed brokers for insurance, certified
-security assessors for compliance. This skill does not create a professional-client
-relationship. Use as a starting point for your own research.
+Consult qualified professionals for your specific situation — attorneys for legal/equity matters, CPAs for tax and accounting, licensed brokers for insurance, and certified security assessors for compliance. This skill does not create a professional-client relationship. Use it as a starting point for research and preparation.
 
 ## Related Skills
 

@@ -33,6 +33,73 @@ covers when to hire each critical first role, how to write job descriptions
 that attract builders (not corporate ladder-climbers), interview design,
 compensation, and offer construction.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **SaaStr/Jason Lemkin — First VP hiring benchmarks** — used as the named operating framework for this playbook.
+- **Elad Gil — High Growth Handbook (hiring executives)** — used as the named operating framework for this playbook.
+- **Molly Graham — Giving away your Legos (scaling teams)** — used as the named operating framework for this playbook.
+- **Patty McCord — Powerful (Netflix culture, hiring for density)** — used as the named operating framework for this playbook.
+- **Claire Hughes Johnson — Scaling People (Stripe COO)** — used as the named operating framework for this playbook.
+- **First Round Review — Hiring playbooks** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **I'm the bottleneck on product velocity" → Founding Engineer** — used as the named operating framework for this playbook.
+- **I can't do enough discovery calls" → First SDR** — used as the named operating framework for this playbook.
+- **I'm closing deals but churn is killing NRR" → First CSM** — used as the named operating framework for this playbook.
+- **No one knows we exist" → First Marketer** — used as the named operating framework for this playbook.
+- **I'm making decisions without data" → First Analyst** — used as the named operating framework for this playbook.
+- **Rockstar/Ninja/Wizard" (cringe, filters out serious candidates)** — used as the named operating framework for this playbook.
+- **7+ years of experience" (irrelevant for early stage — what did you BUILD?)** — used as the named operating framework for this playbook.
+- **Nice to have: MBA" (filters out operators)** — used as the named operating framework for this playbook.
+- **Generic company description (candidates judge your writing — show taste)** — used as the named operating framework for this playbook.
+- **Blames previous employer/team for failures** — used as the named operating framework for this playbook.
+- **Can't articulate what they specifically built vs what their team built** — used as the named operating framework for this playbook.
+- **I managed X" — you need builders, not managers (for first hires)** — used as the named operating framework for this playbook.
+- **No questions about the business (not curious = not invested)** — used as the named operating framework for this playbook.
+- **Takes more than 24 hours to return the work sample** — used as the named operating framework for this playbook.
+- **4-year vest, 1-year cliff, monthly thereafter** — used as the named operating framework for this playbook.
+- **Early exercise options (83b election — let them buy equity before it's** — used as the named operating framework for this playbook.
+- **Extended exercise window (10 years post-departure, not 90 days — this is** — used as the named operating framework for this playbook.
+- **Be transparent: tell them the company's 409A valuation, total shares,** — used as the named operating framework for this playbook.
+- **Role, start date, reporting structure** — used as the named operating framework for this playbook.
+- **Salary, equity (number of shares + % of company), any variable comp** — used as the named operating framework for this playbook.
+- **Benefits summary** — used as the named operating framework for this playbook.
+- **At-will employment statement** — used as the named operating framework for this playbook.
+- **Confidentiality and IP assignment (attached separately)** — used as the named operating framework for this playbook.
+- **Speed matters. Top candidates get 3+ offers. Move from final interview to** — used as the named operating framework for this playbook.
+- **Give a deadline: "Offer is open until Friday at 5pm." Avoid exploding offers** — used as the named operating framework for this playbook.
+- **Sell the stage: "At your last company you were hire #200. Here you'll be** — used as the named operating framework for this playbook.
+- **Involve your investors: Have lead investor call the candidate. It signals** — used as the named operating framework for this playbook.
+- **Here's everything: metrics, customers, problems, constraints.** — used as the named operating framework for this playbook.
+- **Meet every team member 1:1** — used as the named operating framework for this playbook.
+- **Read every customer call recording from last 30 days** — used as the named operating framework for this playbook.
+- **Shadow you for 2 days** — used as the named operating framework for this playbook.
+- **Give them a project they can ship in week 1-2. Something visible. Build** — used as the named operating framework for this playbook.
+- **Define their metrics: "You own X. We'll review weekly.** — used as the named operating framework for this playbook.
+- **Give them budget authority within their domain** — used as the named operating framework for this playbook.
+- **Let them make mistakes — don't micromanage** — used as the named operating framework for this playbook.
+- **They should be operating independently by day 60** — used as the named operating framework for this playbook.
+- **Weekly 1:1s (30 min) with CEO** — used as the named operating framework for this playbook.
+- **They start documenting their process (for their future hires)** — used as the named operating framework for this playbook.
+- **Job description (link)** — used as the named operating framework for this playbook.
+- **Interview panel: [names]** — used as the named operating framework for this playbook.
+- **Target start date: [date]** — used as the named operating framework for this playbook.
+- **Sourcing channels: [specific communities, networks, outbound targets]** — used as the named operating framework for this playbook.
+- **[ ] Every role solves a specific business constraint, not general "help** — used as the named operating framework for this playbook.
+- **[ ] Job descriptions are constraint-first, not generic** — used as the named operating framework for this playbook.
+- **[ ] Work sample is a real problem from your business** — used as the named operating framework for this playbook.
+- **[ ] Interview process designed and panel assigned before sourcing begins** — used as the named operating framework for this playbook.
+- **[ ] Compensation benchmarked against stage, not public company bands** — used as the named operating framework for this playbook.
+- **[ ] Equity communicated as % of company, not just number of shares** — used as the named operating framework for this playbook.
+- **[ ] Offer-to-close timeline under 48 hours from final interview** — used as the named operating framework for this playbook.
+- **[ ] 90-day onboarding plan written before offer goes out** — used as the named operating framework for this playbook.
+- **[ ] Extended exercise window (10-year) in equity docs** — used as the named operating framework for this playbook.
+- **`sales-team-building` — Hiring SDRs, AEs, compensation, POD structure** — used as the named operating framework for this playbook.
+- **`hiring-contractors` — Freelance talent, IP assignment, management** — used as the named operating framework for this playbook.
+- **`hiring-agencies` — Agency selection, engagement, measurement** — used as the named operating framework for this playbook.
+- **`solo-founder-gtm` — Tool stacks by stage, AI agents, hiring triggers** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "first hire", "first engineer", "first CS hire", "hiring
@@ -236,7 +303,7 @@ Per-Role Plan:
 - Sourcing channels: [specific communities, networks, outbound targets]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Every role solves a specific business constraint, not general "help"
 - [ ] Job descriptions are constraint-first, not generic
@@ -247,6 +314,16 @@ Per-Role Plan:
 - [ ] Offer-to-close timeline under 48 hours from final interview
 - [ ] 90-day onboarding plan written before offer goes out
 - [ ] Extended exercise window (10-year) in equity docs
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 
@@ -277,14 +354,9 @@ Per-Role Plan:
 
 ## ⚠️ Disclaimer
 
-This skill provides general informational guidance based on publicly available
-frameworks and operator experience. It is NOT legal advice, accounting advice,
-tax advice, financial advice, or professional services advice.
+This skill provides general informational guidance based on publicly available frameworks and operator experience. It is NOT legal advice, accounting advice, tax advice, financial advice, insurance advice, or professional services advice.
 
-Consult qualified professionals for your specific situation — attorneys for
-legal/equity matters, CPAs for tax, licensed brokers for insurance, certified
-security assessors for compliance. This skill does not create a professional-client
-relationship. Use as a starting point for your own research.
+Consult qualified professionals for your specific situation — attorneys for legal/equity matters, CPAs for tax and accounting, licensed brokers for insurance, and certified security assessors for compliance. This skill does not create a professional-client relationship. Use it as a starting point for research and preparation.
 
 ## Related Skills
 

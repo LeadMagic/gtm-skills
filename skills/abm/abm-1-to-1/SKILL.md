@@ -22,6 +22,14 @@ This is custom, high-touch, relationship-driven — not automated sequences.
 You research the account like you're writing a case study about them, then design
 interactions that feel like the entire company exists to serve this one account.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **ITSMA Strategic ABM** — used as the named operating framework for this playbook.
+- **Force Management Command of the Message** — used as the named operating framework for this playbook.
+- **John Ruhlin Giftology** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Run 1-to-1 ABM on [account]"
 - "Build strategic account plan"

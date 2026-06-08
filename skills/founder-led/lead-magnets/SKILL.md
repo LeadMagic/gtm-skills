@@ -1,26 +1,19 @@
 ---
 name: lead-magnets
 description: >-
-  Create lead magnets that convert — free tools, ROI calculators, templates,
-  assessments, benchmark reports, swipe files, mini-courses, gated content
-  strategy. Uses Cialdini reciprocity principle, Miller StoryBrand, and
-  Nail Rodriguez Copywriting. Covers magnet ideation, build-vs-buy, landing
-  page optimization, nurture sequences, and conversion measurement.
+  Lead Magnets playbook for GTM agents — strategy, workflow, templates, operating
+  guidance, and quality checks. Use when the user asks for lead magnets work,
+  implementation help, or an agent-ready deliverable.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "2.0.0"
+  version: "1.0.0"
   author: LeadMagic
   category: founder-led
   tags: [lead-magnets, content, conversion, gated-content, lead-gen, free-tools]
   related_skills: [content-marketing, landing-pages, copywriting, roi-calculator, founder-brand]
-  frameworks:
-    - "Robert Cialdini — Reciprocity (Influence)"
-    - "Donald Miller — StoryBrand (clarify the value)"
-    - "Nail Rodriguez — Copywriting for conversion"
-    - "Andy Crestodina (Orbit Media) — Content ROI"
+  frameworks: [Operator GTM Playbook]
 ---
-
 # Lead Magnets
 
 ## Overview
@@ -32,6 +25,67 @@ magnets solve an immediate, specific problem so well the prospect would pay for
 it — but you give it away free because the LTV of a qualified lead exceeds the
 cost. This skill covers magnet ideation, 7 proven formats, build-vs-buy decisions,
 landing page optimization, and the nurture-to-pipeline funnel.
+
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **Robert Cialdini — Reciprocity (Influence)** — used as the named operating framework for this playbook.
+- **Donald Miller — StoryBrand (clarify the value)** — used as the named operating framework for this playbook.
+- **Nail Rodriguez — Copywriting for conversion** — used as the named operating framework for this playbook.
+- **Andy Crestodina (Orbit Media) — Content ROI** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **Customer onboarding questions (most common = lead magnet topic)** — used as the named operating framework for this playbook.
+- **Sales objections (answer the objection as a tool/template)** — used as the named operating framework for this playbook.
+- **Support tickets (recurring problems = magnet opportunities)** — used as the named operating framework for this playbook.
+- **Competitor gated content (see what works, make it 10x better)** — used as the named operating framework for this playbook.
+- **Internal processes (your team's playbook = someone's lead magnet)** — used as the named operating framework for this playbook.
+- **Calculator/tool unique to your space (ROI, savings, scoring)** — used as the named operating framework for this playbook.
+- **Template specific to your methodology** — used as the named operating framework for this playbook.
+- **Assessment that feeds your sales process** — used as the named operating framework for this playbook.
+- **Generic calculators (use off-the-shelf + white label)** — used as the named operating framework for this playbook.
+- **Common templates (adapt existing, add your methodology)** — used as the named operating framework for this playbook.
+- **Benchmark reports (partner with a data provider)** — used as the named operating framework for this playbook.
+- **Simple calculator (single formula): $2-5K dev, 2-3 weeks** — used as the named operating framework for this playbook.
+- **Interactive tool (multi-step, personalized output): $10-25K, 4-8 weeks** — used as the named operating framework for this playbook.
+- **Assessment/quiz (scoring logic, personalized results): $5-15K, 3-6 weeks** — used as the named operating framework for this playbook.
+- **Templates/swipe files: $0-1K (design), 1-2 weeks** — used as the named operating framework for this playbook.
+- **Deliver the magnet (on-page redirect or instant email)** — used as the named operating framework for this playbook.
+- **While you explore the [magnet], check out [related case study/blog]** — used as the named operating framework for this playbook.
+- **Email: "How are you using the [magnet]? Here's a pro tip...** — used as the named operating framework for this playbook.
+- **Email: "Customers who used this [magnet] also found [related resource] useful** — used as the named operating framework for this playbook.
+- **Email: "The [magnet] shows you X. Our product automates X with [specific feature].** — used as the named operating framework for this playbook.
+- **CTA: Demo/trial, not "buy now** — used as the named operating framework for this playbook.
+- **Email: Case study of customer who used magnet → product → result** — used as the named operating framework for this playbook.
+- **CTA: Demo with social proof framing** — used as the named operating framework for this playbook.
+- **Problem it solves: [one sentence]** — used as the named operating framework for this playbook.
+- **Outcome: [one sentence]** — used as the named operating framework for this playbook.
+- **Why they'd pay for it: [one sentence]** — used as the named operating framework for this playbook.
+- **Dev time: [hours/weeks]** — used as the named operating framework for this playbook.
+- **Design needs: [list]** — used as the named operating framework for this playbook.
+- **Cost estimate: $[range]** — used as the named operating framework for this playbook.
+- **Immediate: [delivery + next step]** — used as the named operating framework for this playbook.
+- **Day 3: [pro tip]** — used as the named operating framework for this playbook.
+- **Day 7: [product bridge]** — used as the named operating framework for this playbook.
+- **Day 14: [social proof + demo CTA]** — used as the named operating framework for this playbook.
+- **Conversion rate target: X%** — used as the named operating framework for this playbook.
+- **Leads/month target: X** — used as the named operating framework for this playbook.
+- **Lead → Demo conversion: X%** — used as the named operating framework for this playbook.
+- **Pipeline/month from magnet: $X** — used as the named operating framework for this playbook.
+- **[ ] Magnet solves a specific, acute problem your ICP loses sleep over** — used as the named operating framework for this playbook.
+- **[ ] Passes "would I pay for this?" test (if no, it's not valuable enough)** — used as the named operating framework for this playbook.
+- **[ ] Consumable in under 10 minutes (tools: instant; templates: 5 min; reports: 10 min)** — used as the named operating framework for this playbook.
+- **[ ] Landing page has single CTA, no navigation, email-only form** — used as the named operating framework for this playbook.
+- **[ ] Magnet delivered instantly (on-page or email within 60 seconds)** — used as the named operating framework for this playbook.
+- **[ ] Nurture sequence built (4+ emails, bridge to product)** — used as the named operating framework for this playbook.
+- **[ ] Distribution plan covers 4+ channels** — used as the named operating framework for this playbook.
+- **[ ] UTM tracking on all distribution links** — used as the named operating framework for this playbook.
+- **[ ] Lead → opportunity conversion tracked in CRM** — used as the named operating framework for this playbook.
+- **`content-marketing` — Content strategy, SEO, pillar pages for distribution** — used as the named operating framework for this playbook.
+- **`landing-pages` — CRO audits, hero/offer/proof/CTA patterns** — used as the named operating framework for this playbook.
+- **`copywriting` — Headlines, body copy, CTA copy** — used as the named operating framework for this playbook.
+- **`roi-calculator` — Build calculators that demonstrate value** — used as the named operating framework for this playbook.
+- **`founder-brand` — Social distribution of lead magnets** — used as the named operating framework for this playbook.
 
 ## When to Use
 
@@ -181,7 +235,7 @@ Success Metrics:
 - Pipeline/month from magnet: $X
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Magnet solves a specific, acute problem your ICP loses sleep over
 - [ ] Passes "would I pay for this?" test (if no, it's not valuable enough)
@@ -192,6 +246,16 @@ Success Metrics:
 - [ ] Distribution plan covers 4+ channels
 - [ ] UTM tracking on all distribution links
 - [ ] Lead → opportunity conversion tracked in CRM
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

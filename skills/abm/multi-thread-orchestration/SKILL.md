@@ -22,6 +22,13 @@ Multi-threading means engaging multiple stakeholders in the buying committee wit
 role-relevant messaging — so the deal survives any individual departure and builds
 organizational consensus. This is an enterprise sales superpower.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Force Management MEDDICC** — used as the named operating framework for this playbook.
+- **Gartner Challenger Sale Stakeholder Mapping** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Multi-thread this deal"
 - "Map the buying committee"

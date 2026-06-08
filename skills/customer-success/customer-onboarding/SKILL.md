@@ -311,7 +311,7 @@ Metrics Dashboard:
 - TTFV, completion rate, CSAT, 90-day churn, expansion rate
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Onboarding segmented by ACV (no one-size-fits-all program)
 - [ ] Activation milestones are measurable (not "customer is happy")
@@ -323,6 +323,16 @@ Metrics Dashboard:
 - [ ] Automated sequence for SMB (doesn't require CSM manual emails)
 - [ ] Onboarding CSAT survey at Day 14 and Day 30
 - [ ] 90-day churn tracked separately (distinct from overall churn)
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

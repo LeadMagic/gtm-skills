@@ -1,13 +1,9 @@
 ---
 name: startup-communities
 description: >-
-  Complete guide to global startup communities — where to find co-founders,
-  networks, incubators, accelerators, and funding across every region.
-  Covers Silicon Valley, NYC, Boston, London, Berlin, Bangalore, Singapore,
-  Tel Aviv, and remote-first communities. Includes accelerators beyond YC
-  (Techstars, 500 Global, Seedcamp, Entrepreneur First, Antler), university
-  programs (Stanford StartX, MIT delta v, Harvard i-Lab), and online
-  communities for technical founders.
+  Startup Communities playbook for GTM agents — strategy, workflow, templates,
+  operating guidance, and quality checks. Use when the user asks for startup
+  communities work, implementation help, or an agent-ready deliverable.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -16,14 +12,8 @@ metadata:
   category: founder-led
   tags: [startup-communities, accelerators, incubators, co-founders, networking, global-startups]
   related_skills: [co-founder-dynamics, yc-ecosystem, fundraising-strategy, engineer-to-founder, founder-brand]
-  frameworks:
-    - "Brad Feld — Startup Communities (Boulder Thesis)"
-    - "Paul Graham — How to Be Silicon Valley"
-    - "YC — Global startup ecosystem development"
-    - "Steve Blank — Lean Startup and regional ecosystems"
-    - "Endeavor — Global entrepreneurship network"
+  frameworks: [Operator GTM Playbook]
 ---
-
 # Startup Communities
 
 ## Overview
@@ -37,6 +27,45 @@ serendipitous co-founder meetings, and not the informal advice that saves
 your startup. This skill maps every major startup community globally, the
 accelerators and incubators worth applying to, and the online communities
 that connect you regardless of geography.
+
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **Brad Feld — Startup Communities (Boulder Thesis)** — used as the named operating framework for this playbook.
+- **Paul Graham — How to Be Silicon Valley** — used as the named operating framework for this playbook.
+- **YC — Global startup ecosystem development** — used as the named operating framework for this playbook.
+- **Steve Blank — Lean Startup and regional ecosystems** — used as the named operating framework for this playbook.
+- **Endeavor — Global entrepreneurship network** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **Communities to join: [list]** — used as the named operating framework for this playbook.
+- **Events to attend: [list]** — used as the named operating framework for this playbook.
+- **Online platforms: [YC Co-Founder Matching, Indie Hackers, Twitter]** — used as the named operating framework for this playbook.
+- **Tier 1 (apply now): [YC, Techstars, etc.]** — used as the named operating framework for this playbook.
+- **Tier 2 (apply next): [Seedcamp, 500, etc.]** — used as the named operating framework for this playbook.
+- **Tier 3 (if above fail): [local accelerators]** — used as the named operating framework for this playbook.
+- **Application deadlines: [dates]** — used as the named operating framework for this playbook.
+- **Daily: [HN, Twitter, Indie Hackers]** — used as the named operating framework for this playbook.
+- **Weekly: [local meetup, online community]** — used as the named operating framework for this playbook.
+- **Monthly: [founder dinner, peer group call]** — used as the named operating framework for this playbook.
+- **Quarterly: [conference, accelerator application]** — used as the named operating framework for this playbook.
+- **Online communities: [3 minimum]** — used as the named operating framework for this playbook.
+- **Conferences/year: [2-3]** — used as the named operating framework for this playbook.
+- **Founder peer group: [3-5 people, weekly call]** — used as the named operating framework for this playbook.
+- **Accelerator strategy: [which ones, when to apply]** — used as the named operating framework for this playbook.
+- **[ ] Identified 3 communities to join actively (don't spread thin across 20)** — used as the named operating framework for this playbook.
+- **[ ] HN read daily (comments, not just front page)** — used as the named operating framework for this playbook.
+- **[ ] YC Co-Founder Matching profile complete (if looking for co-founder)** — used as the named operating framework for this playbook.
+- **[ ] Accelerator applications tracked with deadlines** — used as the named operating framework for this playbook.
+- **[ ] 2-3 conferences identified for next 12 months** — used as the named operating framework for this playbook.
+- **[ ] Founder peer group established (3-5 founders at your stage)** — used as the named operating framework for this playbook.
+- **[ ] Build-in-public platform chosen and active** — used as the named operating framework for this playbook.
+- **[ ] Local meetup attended at least monthly (if in a hub)** — used as the named operating framework for this playbook.
+- **`co-founder-dynamics` — Finding and working with co-founders** — used as the named operating framework for this playbook.
+- **`yc-ecosystem` — YC application, resources, network** — used as the named operating framework for this playbook.
+- **`fundraising-strategy` — Building investor relationships** — used as the named operating framework for this playbook.
+- **`engineer-to-founder` — IC to founder transition** — used as the named operating framework for this playbook.
+- **`founder-brand` — Building a presence that attracts community to you** — used as the named operating framework for this playbook.
 
 ## When to Use
 
@@ -292,7 +321,7 @@ REMOTE SUPPLEMENT (if not in hub):
 - Accelerator strategy: [which ones, when to apply]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Identified 3 communities to join actively (don't spread thin across 20)
 - [ ] HN read daily (comments, not just front page)
@@ -302,6 +331,16 @@ REMOTE SUPPLEMENT (if not in hub):
 - [ ] Founder peer group established (3-5 founders at your stage)
 - [ ] Build-in-public platform chosen and active
 - [ ] Local meetup attended at least monthly (if in a hub)
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

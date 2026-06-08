@@ -31,6 +31,32 @@ the tool your last company used instead of the tool that matches your stage,
 team, and support philosophy. This skill covers deep configuration across
 the support stack.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **Intercom — Conversational support, Fin AI, Product Tours** — used as the named operating framework for this playbook.
+- **Zendesk — Omnichannel CX, AI Agents, Explore analytics** — used as the named operating framework for this playbook.
+- **Front — Collaborative inbox, rule-based routing** — used as the named operating framework for this playbook.
+- **Help Scout — Docs-first support, Beacon widget** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **[ ] Knowledge base: 30+ articles before launching chat/AI agent** — used as the named operating framework for this playbook.
+- **[ ] AI agent trained and tested with 50 real questions (95%+ correct)** — used as the named operating framework for this playbook.
+- **[ ] Macros: 15+ for top ticket types** — used as the named operating framework for this playbook.
+- **[ ] SLA policies documented with FRT + resolution targets** — used as the named operating framework for this playbook.
+- **[ ] CSAT survey: post-resolution, scores < 3 auto-escalated** — used as the named operating framework for this playbook.
+- **[ ] Escalation path: L1 → L2 → L3 documented with triggers** — used as the named operating framework for this playbook.
+- **[Output item 1]** — used as the named operating framework for this playbook.
+- **[Output item 2]** — used as the named operating framework for this playbook.
+- **[Output item 3]** — used as the named operating framework for this playbook.
+- **[ ] All required sections complete** — used as the named operating framework for this playbook.
+- **[ ] Output matches the user's stated need** — used as the named operating framework for this playbook.
+- **[ ] No vague or unsupported claims** — used as the named operating framework for this playbook.
+- **[ ] Frameworks cited where applicable** — used as the named operating framework for this playbook.
+- **`support-tool-stack` — Platform selection by stage** — used as the named operating framework for this playbook.
+- **`headless-support` — AI support agents and KB architecture** — used as the named operating framework for this playbook.
+- **`sla-management` — SLA design and escalation** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "support platform setup", "Intercom configuration",
@@ -61,7 +87,7 @@ Setup checklist:
 7. Explore: team performance dashboard, CSAT trends, volume by channel
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Knowledge base: 30+ articles before launching chat/AI agent
 - [ ] AI agent trained and tested with 50 real questions (95%+ correct)
@@ -104,11 +130,6 @@ Before delivering, verify:
 - [ ] No vague or unsupported claims
 - [ ] Frameworks cited where applicable
 
-## Common Pitfalls
-
-1. **Incomplete output.** The deliverable is missing critical sections. Fix: verify against the output template before delivering.
-2. **Generic advice without specifics.** "Improve your process" without concrete steps. Fix: every recommendation must have a specific action.
-3. **Missing framework citations.** Advice without named authorities. Fix: cite the specific framework that grounds each recommendation.
 ## Related Skills
 
 - `support-tool-stack` — Platform selection by stage

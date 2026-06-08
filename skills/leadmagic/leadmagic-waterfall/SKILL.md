@@ -29,6 +29,13 @@ verified-at-lookup results), fallback providers for the 25-40% any single
 provider misses, verification as the final gate, and catch-all domain
 resolution for enterprise accounts.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **GTMLens 5-Layer Waterfall** — used as the named operating framework for this playbook.
+- **Ziellab 3-Waterfall Architecture** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "Set up LeadMagic in a Clay waterfall"

@@ -20,6 +20,13 @@ Instantly competes with Smartlead in the high-volume cold email space. Key featu
 unlimited email accounts, built-in warmup pool, campaign optimization, and a unified
 inbox. This skill covers setup from infrastructure through optimization.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Instantly Best Practices** — used as the named operating framework for this playbook.
+- **Cold Email Infrastructure Standards** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Set up Instantly"
 - "Instantly campaign setup"

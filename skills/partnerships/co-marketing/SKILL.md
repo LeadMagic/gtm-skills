@@ -22,6 +22,13 @@ When a partner promotes you to their list, you borrow their credibility.
 This skill covers campaign design, asset creation, promotion coordination,
 and pipeline splitting.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Co-Marketing Playbook** — used as the named operating framework for this playbook.
+- **Crossbeam Partner-Led Growth** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Run a co-marketing campaign"
 - "Joint webinar with partner"

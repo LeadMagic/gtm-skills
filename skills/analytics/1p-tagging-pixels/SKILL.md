@@ -33,6 +33,14 @@ implementation, UTM architecture, server-side tagging, consent management,
 and identity resolution. The output is a privacy-resilient analytics
 infrastructure that works when cookies don't.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Privacy-First Measurement** — used as the named operating framework for this playbook.
+- **Server-Side Tagging Architecture** — used as the named operating framework for this playbook.
+- **1P Data Strategy** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "Set up conversion tracking"

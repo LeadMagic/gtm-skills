@@ -29,6 +29,14 @@ their boss.
 
 The constraint is the value. One page forces clarity. No room for fluff.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **AIDA Framework** — used as the named operating framework for this playbook.
+- **3W Framework** — used as the named operating framework for this playbook.
+- **Cialdini Persuasion Principles** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "Create a one-pager for our product"

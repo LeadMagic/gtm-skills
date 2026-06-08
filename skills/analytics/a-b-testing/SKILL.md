@@ -1,13 +1,9 @@
 ---
 name: a-b-testing
 description: >-
-  Designs and analyzes A/B tests for GTM campaigns with statistical rigor.
-  Tests subject lines, email copy, CTAs, send times, sequences, landing pages,
-  and offers. Applies statistical significance testing at 95% confidence using
-  chi-square and t-test methods. Uses ICE and PIE scoring to prioritize test
-  ideas. Manages experiment cadence with 30/60/90-day testing roadmaps.
-  Activates when the user wants to run experiments, test copy variants,
-  optimize campaigns, or measure what's statistically working.
+  A B Testing playbook for GTM agents — strategy, workflow, templates, operating
+  guidance, and quality checks. Use when the user asks for a b testing work,
+  implementation help, or an agent-ready deliverable.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -18,7 +14,6 @@ metadata:
   related_skills: [campaign-analytics, cold-email-copywriting, landing-pages, cold-email-strategy]
   frameworks: [GrowthHackers ICE, Sean Ellis Experimentation, Optimizely Statistical Engine]
 ---
-
 # A/B Testing
 
 ## Overview

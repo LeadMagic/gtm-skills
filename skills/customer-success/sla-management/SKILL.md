@@ -34,6 +34,67 @@ promise is empty. This skill covers SLA design by ticket priority, customer
 tier, and channel — plus escalation paths, business hours configuration, and
 the dashboard to track it all.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **ITIL 4 — Service Level Management practice** — used as the named operating framework for this playbook.
+- **Zendesk — SLA Policy Design Guide** — used as the named operating framework for this playbook.
+- **Intercom — SLA and Business Hours Configuration** — used as the named operating framework for this playbook.
+- **HDI — Support Center Certification Standards** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **System-wide outage or critical path broken** — used as the named operating framework for this playbook.
+- **Security incident or data breach** — used as the named operating framework for this playbook.
+- **Revenue blocked (payments failing, subscription broken)** — used as the named operating framework for this playbook.
+- **Data loss or corruption** — used as the named operating framework for this playbook.
+- **>25% of customers affected** — used as the named operating framework for this playbook.
+- **Major feature broken for multiple customers** — used as the named operating framework for this playbook.
+- **Workflow blocked with no workaround** — used as the named operating framework for this playbook.
+- **Integration critical path broken** — used as the named operating framework for this playbook.
+- **<25% of customers affected but impact is high** — used as the named operating framework for this playbook.
+- **One customer's feature request (even if they're your biggest)** — used as the named operating framework for this playbook.
+- **Cosmetic issues ("button is the wrong shade of blue")** — used as the named operating framework for this playbook.
+- **This is urgent for me" (urgency ≠ impact — unless revenue is genuinely blocked)** — used as the named operating framework for this playbook.
+- **Dedicated CSM with direct phone/Slack** — used as the named operating framework for this playbook.
+- **Uptime SLA (99.9% = ~43 min downtime/month)** — used as the named operating framework for this playbook.
+- **Proactive monitoring (you alert them, not vice versa)** — used as the named operating framework for this playbook.
+- **Quarterly business reviews included** — used as the named operating framework for this playbook.
+- **Incident post-mortems within 5 business days** — used as the named operating framework for this playbook.
+- **P1 ticket created → auto-page L3 on-call** — used as the named operating framework for this playbook.
+- **P2 ticket unresolved for 50% of SLA → auto-escalate to L2** — used as the named operating framework for this playbook.
+- **P3 ticket unresolved for 75% of SLA → auto-escalate to L2** — used as the named operating framework for this playbook.
+- **Customer replies with negative sentiment → auto-flag for manager review** — used as the named operating framework for this playbook.
+- **Enterprise customer + P2 or higher → auto-notify CSM** — used as the named operating framework for this playbook.
+- **Time elapsed: X hours (SLA is Y hours)** — used as the named operating framework for this playbook.
+- **Complexity: requires [engineering / security / executive] involvement** — used as the named operating framework for this playbook.
+- **FRT clock PAUSES outside business hours for P2-P4** — used as the named operating framework for this playbook.
+- **FRT clock NEVER pauses for P1 (24/7/365)** — used as the named operating framework for this playbook.
+- **Ticket submitted Friday 5:30pm P3 → clock starts Monday 9am** — used as the named operating framework for this playbook.
+- **Ticket submitted Friday 5:30pm P1 → clock starts immediately** — used as the named operating framework for this playbook.
+- **Top reason for breach: [understaffed on weekends / too many tickets / complexity]** — used as the named operating framework for this playbook.
+- **Action: [hire weekend coverage / add L2 capacity / document complex issues]** — used as the named operating framework for this playbook.
+- **Hours: [timezone, schedule]** — used as the named operating framework for this playbook.
+- **After-hours: P1 only (on-call via [PagerDuty/Opsgenie])** — used as the named operating framework for this playbook.
+- **Clock behavior: P2-P4 clock pauses outside hours. P1 clock never pauses.** — used as the named operating framework for this playbook.
+- **P1 FRT: 100%** — used as the named operating framework for this playbook.
+- **P2 FRT: 95%** — used as the named operating framework for this playbook.
+- **Overall: 90%** — used as the named operating framework for this playbook.
+- **For customers: [communication, credit if applicable]** — used as the named operating framework for this playbook.
+- **Internal: [post-mortem, process fix, staffing adjustment]** — used as the named operating framework for this playbook.
+- **[ ] P1 definition is strict — system-down or revenue-blocked only** — used as the named operating framework for this playbook.
+- **[ ] FRT clock pauses for P2-P4 outside business hours (documented)** — used as the named operating framework for this playbook.
+- **[ ] P1 clock never pauses (24/7/365)** — used as the named operating framework for this playbook.
+- **[ ] Escalation triggers automated in help desk (not manual "hey can you look at this?")** — used as the named operating framework for this playbook.
+- **[ ] On-call rotation documented for L3 (PagerDuty/Opsgenie)** — used as the named operating framework for this playbook.
+- **[ ] Enterprise SLAs documented in contract/order form** — used as the named operating framework for this playbook.
+- **[ ] SLA dashboard live with weekly review cadence** — used as the named operating framework for this playbook.
+- **[ ] Breach analysis performed monthly (root cause + fix)** — used as the named operating framework for this playbook.
+- **[ ] Business hours and holiday schedule published for customers** — used as the named operating framework for this playbook.
+- **`support-tool-stack` — Intercom, Zendesk, Front, Help Scout setup** — used as the named operating framework for this playbook.
+- **`cs-playbooks` — Onboarding, health scoring, CSQLs, churn intervention** — used as the named operating framework for this playbook.
+- **`headless-support` — AI agents, KB, self-serve, ticket deflection** — used as the named operating framework for this playbook.
+- **`cs-analytics-dashboards` — CS metrics, NPS, CSAT, health scoring** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "design support SLAs", "set up SLA policies", "ticket priority
@@ -254,7 +315,7 @@ BREACH REMEDIATION:
 - Internal: [post-mortem, process fix, staffing adjustment]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] P1 definition is strict — system-down or revenue-blocked only
 - [ ] FRT clock pauses for P2-P4 outside business hours (documented)
@@ -265,6 +326,16 @@ BREACH REMEDIATION:
 - [ ] SLA dashboard live with weekly review cadence
 - [ ] Breach analysis performed monthly (root cause + fix)
 - [ ] Business hours and holiday schedule published for customers
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

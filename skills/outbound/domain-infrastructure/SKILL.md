@@ -538,3 +538,10 @@ For most B2B outbound, Google Workspace is the default choice. M365 is
 preferred when a high percentage of targets use Outlook/Office 365. Zoho
 is a cost-effective supplement for additional domains or budget-constrained
 setups.
+
+## Related Skills
+
+- `email-deliverability` — adjacent workflow to use before or after this skill
+- `sending-platforms` — adjacent workflow to use before or after this skill
+- `cold-email-strategy` — adjacent workflow to use before or after this skill
+- `technical-seo` — adjacent workflow to use before or after this skill

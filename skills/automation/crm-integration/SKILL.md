@@ -1,75 +1,143 @@
 ---
 name: crm-integration
 description: >-
-  Configure CRM systems for GTM — HubSpot, Salesforce, Attio. Lifecycle stages, deal stage design, bi-directional sync, enrichment integration. Use when setting up a CRM for sales, configuring deal pipelines, or integrating enrichment with CRM. Triggers on: "CRM setup", "HubSpot setup", "Salesforce configuration", "CRM integration", "deal stages", "CRM enrichment", or any CRM configuration request.
+  Configure CRM systems for GTM — lifecycle stages, deal stages, field ownership,
+  enrichment sync, dedupe, required fields, and reporting. Use when setting up
+  HubSpot, Salesforce, Attio, or any CRM integration for sales and marketing teams.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: automation
-  tags: [crm, hubspot, salesforce, attio, integration]
-  frameworks: [HubSpot CRM Best Practices, Salesforce Architecture, Attio Object Model]
+  tags: [crm, hubspot, salesforce, attio, integration, revops]
+  related_skills: [hubspot-setup, salesforce-setup, attio-setup, gtm-operations]
+  frameworks: [HubSpot CRM Best Practices, Salesforce Architecture, Attio Object Model, Winning by Design Bowtie]
 ---
+
 # CRM Integration
 
 ## Overview
-The CRM is the system of record for your GTM motion. Configured well, it accelerates deals. Configured poorly, it creates administrative overhead that reps resent. This skill covers CRM setup for GTM teams: lifecycle stages, deal stages, enrichment integration, and data hygiene.
+
+Most CRM problems are process problems disguised as software problems. Teams add fields, automations, and sync rules before deciding what the CRM is supposed to be the source of truth for.
+
+This skill designs a CRM integration that supports GTM execution without turning into rep admin theater: clear lifecycle stages, field ownership, enrichment sync, dedupe, and stage-gate rules.
 
 ## When to Use
-- "Set up our CRM for sales"
-- "Configure deal stages in HubSpot"
-- "Integrate enrichment with our CRM"
-- "Design our CRM data model for GTM"
+
+Use this skill when the user asks to "set up our CRM for sales", "configure HubSpot", "configure Salesforce", "set up Attio", "design deal stages", "integrate enrichment with CRM", "clean up CRM data", "define lifecycle stages", or "build CRM reporting".
+
+Use platform-specific skills (`hubspot-setup`, `salesforce-setup`, `attio-setup`) after this skill defines the operating model.
+
+## Authoritative Foundations
+
+### Winning by Design — Bowtie Model
+CRM design should cover the full bowtie: acquisition, conversion, retention, expansion, and advocacy. Most teams only model pipeline and ignore post-sale stages.
+
+### HubSpot — Lifecycle Stage Model
+HubSpot's lifecycle model is useful for SMB and mid-market teams because it connects marketing, sales, and CS handoffs with clear stage definitions.
+
+### Salesforce — Opportunity and Object Architecture
+Salesforce works best when object relationships, required fields, and automation rules are designed before admins start customizing pages.
+
+### Attio — Programmable CRM Model
+Attio's flexible object model works well for teams that need relationship intelligence, custom objects, and lightweight GTM workflows without Salesforce overhead.
+
+## Prerequisites
+
+- Defined GTM motion: PLG, sales-led, founder-led, or hybrid
+- ICP tiers and segments
+- Sales stages and exit criteria
+- CRM owner/admin
+- Enrichment sources
+- Sequencer and marketing automation tools
+- Reporting requirements
 
 ## Step-by-Step Process
-### Phase 1: CRM Selection
-- **HubSpot**: Best for SMB/mid-market. Strong marketing integration.
-- **Salesforce**: Enterprise standard. Most customizable, most complex.
-- **Attio**: Modern, flexible. Best for teams that want a programmable CRM.
 
-### Phase 2: Lifecycle Stages
-Define clear stages with criteria: Lead → MQL → SQL → Opportunity → Customer → Evangelist.
+### Phase 1: Define Source-of-Truth Rules
 
-### Phase 3: Deal Stages
-Configure deal pipeline stages with required fields per stage (Amount, Close Date, Next Step, Competitors). Use MEDDICC fields for enterprise.
+| Data Type | Source of Truth | Write Access |
+|---|---|---|
+| Contact identity | CRM | CRM + enrichment upsert |
+| Lifecycle stage | CRM | Automation + owner override |
+| Deal stage | CRM | Deal owner |
+| Enrichment fields | Enrichment pipeline | Enrichment system only |
+| Suppression/opt-out | CRM/compliance | Compliance automation only |
+| Activity history | CRM | Integrated tools |
 
-### Phase 4: Enrichment Integration
-- **One-direction push from Clay**: Clay enriches, pushes to CRM. CRM does not push back to Clay.
-- **clay_status property**: pending → enriched → verified → exported
-- **Only verified records enter sequences**
+No integration should write fields it does not own.
 
-## Common Pitfalls
-1. **Two-way sync with enrichment platforms** — creates data conflicts.
-2. **Too many required fields** — reps skip CRM updates entirely.
-3. **CRM as the process** — design the process first, then configure CRM.
-4. **No enrichment integration** — reps manually research every lead.
+### Phase 2: Build Lifecycle Stages
+
+Recommended stages: subscriber/raw lead, lead, MQL, SQL, opportunity, customer, expansion candidate, evangelist/referral source. Each stage needs entry criteria and exit criteria.
+
+### Phase 3: Design Deal Stages
+
+| Stage | Required Exit Criteria |
+|---|---|
+| Discovery | Pain, persona, account fit captured |
+| Qualified | Need, authority, timeline, next step confirmed |
+| Demo / Evaluation | Success criteria and stakeholders documented |
+| Proposal | Scope, pricing, decision process known |
+| Negotiation | Procurement/legal path identified |
+| Closed Won/Lost | Reason code and next action captured |
+
+Enterprise motions can add MEDDICC fields. SMB motions should keep required fields lighter.
+
+### Phase 4: Integrate Enrichment
+
+Enrichment writes only enrichment-owned fields, never overwrites manually corrected CRM fields without confirmation, uses source + timestamp columns, and exposes failed enrichment as a visible status.
+
+### Phase 5: Reporting and Governance
+
+Minimum dashboards: funnel conversion by lifecycle stage, pipeline by stage and owner, stage aging, source-to-revenue attribution, data completeness, enrichment coverage and freshness.
+
 ## Output Format
 
-The agent should produce a structured deliverable:
-
 ```markdown
-# [Deliverable Title]
+# CRM Integration Blueprint
 
-## Summary
-[1-2 sentence summary of what was produced]
+## Source-of-Truth Rules
+| Field Group | Source | Allowed Writers | Overwrite Rule |
+|---|---|---|---|
 
-## Key Outputs
-- [Output item 1]
-- [Output item 2]
-- [Output item 3]
+## Lifecycle Stages
+| Stage | Entry Criteria | Exit Criteria | Owner |
+|---|---|---|---|
+
+## Deal Pipeline
+| Stage | Required Fields | Exit Criteria | Automation |
+|---|---|---|---|
+
+## Integration Map
+| Tool | Reads From CRM | Writes To CRM | Risk |
+|---|---|---|---|
 ```
 
 ## Quality Check
 
 Before delivering, verify:
-- [ ] All required sections complete
-- [ ] Output matches the user's stated need
-- [ ] No vague or unsupported claims
-- [ ] Frameworks cited where applicable
+
+- [ ] Every stage has entry and exit criteria
+- [ ] Field ownership is defined
+- [ ] Enrichment cannot overwrite human-owned fields silently
+- [ ] Required fields are minimal enough reps will use them
+- [ ] CRM supports marketing, sales, and CS handoffs
+- [ ] Dashboards cover funnel, pipeline, stage aging, and data quality
 
 ## Common Pitfalls
 
-1. **Incomplete output.** The deliverable is missing critical sections. Fix: verify against the output template before delivering.
-2. **Generic advice without specifics.** "Improve your process" without concrete steps. Fix: every recommendation must have a specific action.
-3. **Missing framework citations.** Advice without named authorities. Fix: cite the specific framework that grounds each recommendation.
+1. **Two-way sync everywhere.** Creates conflicts and loops. Fix: define read/write ownership per tool.
+2. **Too many required fields.** Reps stop updating CRM. Fix: require only fields needed for the next stage.
+3. **No stage exit criteria.** Pipeline becomes subjective. Fix: write objective exit rules.
+4. **CRM as the process.** Tools do not create process. Fix: define process first, configure second.
+5. **No data freshness.** Old enriched fields linger forever. Fix: source and timestamp every enrichment field.
+6. **No lost reason taxonomy.** Closed-lost learning disappears. Fix: standardized lost reasons with notes.
+
+## Related Skills
+
+- `hubspot-setup` — HubSpot-specific implementation
+- `salesforce-setup` — Salesforce-specific implementation
+- `attio-setup` — Attio-specific implementation
+- `gtm-operations` — governance and operating cadence

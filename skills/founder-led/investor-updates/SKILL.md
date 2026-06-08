@@ -29,6 +29,14 @@ when they are.
 
 Send monthly. Every month. Even when (especially when) things are hard.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **YC Investor Update Template** — used as the named operating framework for this playbook.
+- **Jason Lemkin SaaStr Board Deck** — used as the named operating framework for this playbook.
+- **David Skok VC Dashboard** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "Write my monthly investor update"

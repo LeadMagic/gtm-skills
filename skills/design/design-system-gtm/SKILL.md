@@ -34,6 +34,91 @@ your brand erodes across every customer touchpoint. This skill defines a
 complete AI-consumable design system with visual identity, voice/tone,
 templates, and guardrails. Designed to be read by both humans and AI agents.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **Google DESIGN.md Specification** — used as the named operating framework for this playbook.
+- **Stitch 9-Section Brand Format** — used as the named operating framework for this playbook.
+- **Brad Frost — Atomic Design** — used as the named operating framework for this playbook.
+- **Nathan Curtis — Design System Monorepo Architecture** — used as the named operating framework for this playbook.
+- **Dan Mall — Design System Governance** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **-color-primary: #0066FF;** — used as the named operating framework for this playbook.
+- **-color-primary-dark: #0044CC;** — used as the named operating framework for this playbook.
+- **-color-primary-light: #3388FF;** — used as the named operating framework for this playbook.
+- **-color-accent: #FF6600;** — used as the named operating framework for this playbook.
+- **-color-ink: #1A1A2E;** — used as the named operating framework for this playbook.
+- **-color-muted: #6B7280;** — used as the named operating framework for this playbook.
+- **-color-surface: #FFFFFF;** — used as the named operating framework for this playbook.
+- **-color-bg: #F9FAFB;** — used as the named operating framework for this playbook.
+- **-color-border: #E5E7EB;** — used as the named operating framework for this playbook.
+- **-color-success: #10B981;** — used as the named operating framework for this playbook.
+- **-color-warning: #F59E0B;** — used as the named operating framework for this playbook.
+- **-color-danger: #EF4444;** — used as the named operating framework for this playbook.
+- **Buttons, inputs: 8px** — used as the named operating framework for this playbook.
+- **Cards: 12px** — used as the named operating framework for this playbook.
+- **Modals: 16px** — used as the named operating framework for this playbook.
+- **Card: 0 1px 3px rgba(0,0,0,0.08)** — used as the named operating framework for this playbook.
+- **Elevated: 0 4px 12px rgba(0,0,0,0.1)** — used as the named operating framework for this playbook.
+- **Modal: 0 8px 32px rgba(0,0,0,0.12)** — used as the named operating framework for this playbook.
+- **Revolutionary," "high-impact," "disruptive" (vague, overused)** — used as the named operating framework for this playbook.
+- **Best-in-class," "industry-leading" (meaningless without data)** — used as the named operating framework for this playbook.
+- **Synergize," "leverage" (as a verb), "holistic" (jargon)** — used as the named operating framework for this playbook.
+- **We're excited to announce" (nobody cares if you're excited)** — used as the named operating framework for this playbook.
+- **Passive voice: "Results were achieved" → "We achieved results** — used as the named operating framework for this playbook.
+- **Active voice always. "We built" not "It was built.** — used as the named operating framework for this playbook.
+- **Present tense. "The platform processes" not "The platform will process.** — used as the named operating framework for this playbook.
+- **Short sentences. Under 25 words when possible.** — used as the named operating framework for this playbook.
+- **Bullets over paragraphs in decks and one-pagers.** — used as the named operating framework for this playbook.
+- **16:9 aspect ratio** — used as the named operating framework for this playbook.
+- **Header: Inter 36px, primary color, left-aligned** — used as the named operating framework for this playbook.
+- **Body: Inter 18px, ink color** — used as the named operating framework for this playbook.
+- **Footer: company logo (bottom-right), slide number (bottom-left), 12px muted** — used as the named operating framework for this playbook.
+- **Data slides: charts in primary + accent palette, no decorative elements** — used as the named operating framework for this playbook.
+- **A4/US Letter** — used as the named operating framework for this playbook.
+- **Header: logo + product name** — used as the named operating framework for this playbook.
+- **Hero: value prop (H2), one-line description, hero image** — used as the named operating framework for this playbook.
+- **Body: 3-column feature grid** — used as the named operating framework for this playbook.
+- **Social proof: 3 customer logos + 1 testimonial** — used as the named operating framework for this playbook.
+- **CTA: prominent button/contact info** — used as the named operating framework for this playbook.
+- **Footer: company info, legal** — used as the named operating framework for this playbook.
+- **Primary + neutral palette (limit to 5 data colors)** — used as the named operating framework for this playbook.
+- **No 3D charts, no pie charts (use bar/line/scatter)** — used as the named operating framework for this playbook.
+- **Direct labels (no legends when possible)** — used as the named operating framework for this playbook.
+- **Source line: "Source: [name], [date]" in 10px muted** — used as the named operating framework for this playbook.
+- **Social graphics using brand colors, typography, and voice** — used as the named operating framework for this playbook.
+- **Email copy following tone guidelines** — used as the named operating framework for this playbook.
+- **Blog post drafts (human reviews before publishing)** — used as the named operating framework for this playbook.
+- **Data visualizations in brand style** — used as the named operating framework for this playbook.
+- **Landing page sections following template** — used as the named operating framework for this playbook.
+- **Customer-facing decks (check data accuracy)** — used as the named operating framework for this playbook.
+- **Pricing pages (legal/commercial review)** — used as the named operating framework for this playbook.
+- **Press releases (legal review)** — used as the named operating framework for this playbook.
+- **Customer quotes/testimonials (customer approval)** — used as the named operating framework for this playbook.
+- **Any content referencing specific customers** — used as the named operating framework for this playbook.
+- **Competitive claims without cited sources** — used as the named operating framework for this playbook.
+- **Revenue/growth numbers not publicly disclosed** — used as the named operating framework for this playbook.
+- **Customer names without explicit permission** — used as the named operating framework for this playbook.
+- **Guarantees or promises ("100% deliverability")** — used as the named operating framework for this playbook.
+- **Any content that implies endorsement by a named authority** — used as the named operating framework for this playbook.
+- **[ ] All colors have hex, RGB, and HSL values** — used as the named operating framework for this playbook.
+- **[ ] CSS variable block is copy-pasteable into any project** — used as the named operating framework for this playbook.
+- **[ ] Typography includes Google Fonts import URL and font stack** — used as the named operating framework for this playbook.
+- **[ ] Voice attributes are specific and testable ("direct" > "professional")** — used as the named operating framework for this playbook.
+- **[ ] Banned words list exists (10+ entries)** — used as the named operating framework for this playbook.
+- **[ ] Tone guide covers at least 5 contexts** — used as the named operating framework for this playbook.
+- **[ ] Asset templates include specific dimensions and specs** — used as the named operating framework for this playbook.
+- **[ ] Guardrails have 3 clear tiers (always acceptable / review / never)** — used as the named operating framework for this playbook.
+- **[ ] AI agent usage instructions included (how to reference, what to load)** — used as the named operating framework for this playbook.
+- **[ ] File is version-controlled and linked from README** — used as the named operating framework for this playbook.
+- **`claude-design` — Design process for one-off HTML artifacts** — used as the named operating framework for this playbook.
+- **`popular-web-designs` — 54 known-brand design systems for visual vocabulary** — used as the named operating framework for this playbook.
+- **`design-system-builder` — Build complete design systems from references** — used as the named operating framework for this playbook.
+- **`brand-kit` — Logo design, color palette, typography, asset templates** — used as the named operating framework for this playbook.
+- **`ui-ux-gtm` — Landing pages, forms, signup flows, dashboards** — used as the named operating framework for this playbook.
+- **`effective-ui-design` — Professional UI design guidelines** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "create a design system for our AI-generated content", "define
@@ -143,7 +228,7 @@ CSS:
 | Social media | Punchy, shareable | "Stop guessing your ICP. Start scoring it." |
 
 **Banned Words and Phrases:**
-- "Revolutionary," "game-changing," "disruptive" (vague, overused)
+- "Revolutionary," "high-impact," "disruptive" (vague, overused)
 - "Best-in-class," "industry-leading" (meaningless without data)
 - "Synergize," "leverage" (as a verb), "holistic" (jargon)
 - "We're excited to announce" (nobody cares if you're excited)
@@ -242,7 +327,7 @@ Sections:
 7. AI Agent Usage (how agents should reference this system)
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] All colors have hex, RGB, and HSL values
 - [ ] CSS variable block is copy-pasteable into any project
@@ -254,6 +339,16 @@ Sections:
 - [ ] Guardrails have 3 clear tiers (always acceptable / review / never)
 - [ ] AI agent usage instructions included (how to reference, what to load)
 - [ ] File is version-controlled and linked from README
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

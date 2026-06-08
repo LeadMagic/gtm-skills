@@ -1,13 +1,9 @@
 ---
 name: campaign-analytics
 description: >-
-  Analyzes campaign performance across a 6-layer metrics stack from infrastructure
-  to revenue. Applies diagnostic decision trees to identify root causes of
-  underperformance. Extracts winning copy patterns through statistical comparison.
-  Benchmarks against industry, segment, and portfolio averages. Delivers actionable
-  optimization recommendations. Activates when the user asks about campaign
-  performance, email metrics, copy testing, A/B results, or wants to understand why
-  a campaign is underperforming.
+  Campaign Analytics playbook for GTM agents — strategy, workflow, templates,
+  operating guidance, and quality checks. Use when the user asks for campaign
+  analytics work, implementation help, or an agent-ready deliverable.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -18,7 +14,6 @@ metadata:
   related_skills: [a-b-testing, deliverability-monitoring, attribution, gtm-metrics]
   frameworks: [Winning by Design Bowtie Model, David Skok SaaS Metrics]
 ---
-
 # Campaign Analytics
 
 ## Overview

@@ -211,7 +211,7 @@ touch, then apply the touch-specific framework.
 4. **Voice:** "You/your" should outnumber "I/we" by 3:1. Use contractions.
    Read it aloud — if it sounds like marketing copy, rewrite it. Never use:
    "leverage," "synergy," "circle back," "best-in-class," "leading provider,"
-   "robust," "innovative," "cutting-edge."
+   "robust," "innovative," "advanced."
 
 5. **CTA:** Low friction. For Touch 1-2: a question mark ("Worth a
    conversation?" "Seeing the same?" "Open to a thought?"). For Touch 3-4:
@@ -462,7 +462,7 @@ Before delivering, verify:
 - [ ] Personalization tier correct: T3 has a specific signal? T2 has
   industry/role context? T1 has merge fields?
 - [ ] No banned words: "leverage," "synergy," "circle back," "best-in-class,"
-  "leading provider," "robust," "innovative," "cutting-edge"?
+  "leading provider," "robust," "innovative," "advanced"?
 - [ ] No HTML, images, bold, italics? Plain text only?
 - [ ] CTA appropriate for touch number? (Touch 1-2: question mark, Touch
   3-4: small ask, Touch 5-6: slightly larger ask)
@@ -529,3 +529,10 @@ but," "most [roles] miss this"
 **Direct:** "[topic]?" Example: "pipeline velocity?" "hiring plan?" "eng
 velocity?" — One word, question mark, lowercase. Extremely high open rates
 when the topic is top-of-mind for the persona.
+
+## Related Skills
+
+- `cold-email-strategy` — adjacent workflow to use before or after this skill
+- `personalization-at-scale` — adjacent workflow to use before or after this skill
+- `pain-point-mapping` — adjacent workflow to use before or after this skill
+- `reply-handling` — adjacent workflow to use before or after this skill

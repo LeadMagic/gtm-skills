@@ -36,6 +36,109 @@ insight, experience, and voice. This skill covers step-by-step AI content
 workflows for every format: blog posts, social, email, ads, landing pages,
 and SEO content.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+
+- **Justin Welsh — Content Operating System (repurposing lattice)** — used as the named operating framework for this playbook.
+- **Harry Dry (Marketing Examples) — Show, don't tell** — used as the named operating framework for this playbook.
+- **Amanda Natividad (SparkToro) — Zero-click content** — used as the named operating framework for this playbook.
+- **Ross Simmonds — Content distribution at scale** — used as the named operating framework for this playbook.
+- **Nail Rodriguez — Conversion copywriting** — used as the named operating framework for this playbook.
+- **--** — used as the named operating framework for this playbook.
+- **Top 5 recent articles/posts on this topic** — used as the named operating framework for this playbook.
+- **Key statistics (with sources)** — used as the named operating framework for this playbook.
+- **Common opinions and contrarian takes** — used as the named operating framework for this playbook.
+- **What's missing from existing coverage** — used as the named operating framework for this playbook.
+- **Your unique data/experience** — used as the named operating framework for this playbook.
+- **Specific customer examples** — used as the named operating framework for this playbook.
+- **Contrarian or original opinions** — used as the named operating framework for this playbook.
+- **Frameworks you've developed** — used as the named operating framework for this playbook.
+- **Short sentences. Under 25 words.** — used as the named operating framework for this playbook.
+- **Active voice. No passive constructions.** — used as the named operating framework for this playbook.
+- **Specific over generic. '47% reply rate' not 'industry-leading engagement** — used as the named operating framework for this playbook.
+- **Show, don't tell. Every claim with evidence.** — used as the named operating framework for this playbook.
+- **No: 'In current world...' 'We're excited to announce...** — used as the named operating framework for this playbook.
+- **Include: [specific data, examples, frameworks from outline]** — used as the named operating framework for this playbook.
+- **In current digital landscape...** — used as the named operating framework for this playbook.
+- **Unlock the power of...** — used as the named operating framework for this playbook.
+- **Delve into...** — used as the named operating framework for this playbook.
+- **It's important to note that...** — used as the named operating framework for this playbook.
+- **Furthermore..." / "Moreover..." / "Additionally...** — used as the named operating framework for this playbook.
+- **In conclusion...** — used as the named operating framework for this playbook.
+- **Revolutionary," "high-impact," "advanced** — used as the named operating framework for this playbook.
+- **Overuse of em-dashes and semicolons** — used as the named operating framework for this playbook.
+- **Every sentence the same length (AI loves ~20-word sentences)** — used as the named operating framework for this playbook.
+- **Benefit-focused: '[Get Outcome]** — used as the named operating framework for this playbook.
+- **Curiosity: '[Question they want answered]** — used as the named operating framework for this playbook.
+- **Social proof: 'How [Company] achieved [Result]** — used as the named operating framework for this playbook.
+- **Contrarian: 'Why [common belief] is wrong** — used as the named operating framework for this playbook.
+- **Urgency: 'Stop [pain] before [consequence]** — used as the named operating framework for this playbook.
+- **Perplexity: Research topic, collect stats, find sources (15 min)** — used as the named operating framework for this playbook.
+- **Claude: Generate outline from research + unique angle (10 min)** — used as the named operating framework for this playbook.
+- **Claude: Write first draft from outline (15 min)** — used as the named operating framework for this playbook.
+- **Claude: Generate 5 headline variants (5 min)** — used as the named operating framework for this playbook.
+- **Human: 4-pass edit (15 min)** — used as the named operating framework for this playbook.
+- **Claude: Generate meta description, social descriptions (5 min)** — used as the named operating framework for this playbook.
+- **Canva/Midjourney: Hero image + in-post graphics (20 min)** — used as the named operating framework for this playbook.
+- **WordPress/Webflow: Format, add images, internal links (20 min)** — used as the named operating framework for this playbook.
+- **Claude: Generate 5 social post variants for promotion (5 min)** — used as the named operating framework for this playbook.
+- **Schedule social posts (10 min)** — used as the named operating framework for this playbook.
+- **Hook (line 1): bold claim or surprising stat** — used as the named operating framework for this playbook.
+- **Body (4-6 short paragraphs): one idea per paragraph. White space between.** — used as the named operating framework for this playbook.
+- **CTA: question that invites comments** — used as the named operating framework for this playbook.
+- **Single idea. Not 3 ideas.** — used as the named operating framework for this playbook.
+- **First line must stop the scroll. Test with: 'Would you stop scrolling?** — used as the named operating framework for this playbook.
+- **Every paragraph 1-2 sentences max.** — used as the named operating framework for this playbook.
+- **No hashtags at end (put 3-5 relevant hashtags in a comment)** — used as the named operating framework for this playbook.
+- **No 'I'm excited to share' — just share the thing** — used as the named operating framework for this playbook.
+- **Write at 8th grade reading level** — used as the named operating framework for this playbook.
+- **Deliver the promised resource** — used as the named operating framework for this playbook.
+- **One insight from it** — used as the named operating framework for this playbook.
+- **What to do next** — used as the named operating framework for this playbook.
+- **One specific tip related to the resource** — used as the named operating framework for this playbook.
+- **How a customer used this to achieve [result]** — used as the named operating framework for this playbook.
+- **Link to related content** — used as the named operating framework for this playbook.
+- **The problem the resource helps with** — used as the named operating framework for this playbook.
+- **Why manual/current solutions fail** — used as the named operating framework for this playbook.
+- **How our product automates/solves this** — used as the named operating framework for this playbook.
+- **CTA: start trial / book demo** — used as the named operating framework for this playbook.
+- **Subject lines under 50 chars. Preview text under 100 chars.** — used as the named operating framework for this playbook.
+- **Each email: one CTA. Not three.** — used as the named operating framework for this playbook.
+- **Plain text feel. No heavy HTML.** — used as the named operating framework for this playbook.
+- **From: [real person name] not 'The [Company] Team** — used as the named operating framework for this playbook.
+- **150-250 words per email** — used as the named operating framework for this playbook.
+- **Headline (under 150 chars)** — used as the named operating framework for this playbook.
+- **Body (under 300 chars)** — used as the named operating framework for this playbook.
+- **CTA (under 20 chars)** — used as the named operating framework for this playbook.
+- **Ahrefs/Semrush: Identify target keyword + 10 related keywords** — used as the named operating framework for this playbook.
+- **Perplexity: Research competitor content for this keyword** — used as the named operating framework for this playbook.
+- **Claude: "Analyze the top 5 ranking pages for [keyword]. What do they** — used as the named operating framework for this playbook.
+- **Claude: "Write a comprehensive pillar page targeting [keyword].** — used as the named operating framework for this playbook.
+- **Claude: Generate meta title, meta description, H1, URL slug** — used as the named operating framework for this playbook.
+- **SurferSEO/Clearscope: Optimize for keyword density, LSI keywords** — used as the named operating framework for this playbook.
+- **Add internal links to related content** — used as the named operating framework for this playbook.
+- **Add external links to authoritative sources** — used as the named operating framework for this playbook.
+- **Add CTAs (lead magnet, trial, demo) at natural break points** — used as the named operating framework for this playbook.
+- **Pass 1 (substance): [changes made]** — used as the named operating framework for this playbook.
+- **Pass 2 (structure): [changes]** — used as the named operating framework for this playbook.
+- **Pass 3 (voice): [changes]** — used as the named operating framework for this playbook.
+- **Pass 4 (polish): [changes]** — used as the named operating framework for this playbook.
+- **[ ] Research phase completed before drafting (don't ask AI to write blind)** — used as the named operating framework for this playbook.
+- **[ ] Outline includes unique human insight (not just AI summary of existing content)** — used as the named operating framework for this playbook.
+- **[ ] 4-pass human edit completed (substance, structure, voice, polish)** — used as the named operating framework for this playbook.
+- **[ ] AI-isms deleted ("delve," "unlock," "furthermore," "in conclusion")** — used as the named operating framework for this playbook.
+- **[ ] Every claim has evidence or source (statistics, customer quotes, data)** — used as the named operating framework for this playbook.
+- **[ ] Voice matches brand guidelines (paste them into every content prompt)** — used as the named operating framework for this playbook.
+- **[ ] Headlines are specific, not clever ("47% more replies" > "Unlock email potential")** — used as the named operating framework for this playbook.
+- **[ ] SEO: target keyword in title, H1, first 100 words, meta description** — used as the named operating framework for this playbook.
+- **`vibe-marketing` — Full AI marketing stack and workflow** — used as the named operating framework for this playbook.
+- **`copywriting` — Marketing copy fundamentals and frameworks** — used as the named operating framework for this playbook.
+- **`blog-writing` — Blog post structure and SEO** — used as the named operating framework for this playbook.
+- **`social-media-strategy` — Per-platform content and cadence** — used as the named operating framework for this playbook.
+- **`ad-creative-strategy` — Creative formats, testing methodology** — used as the named operating framework for this playbook.
+- **`seo-content-strategy` — Keyword research, content clusters** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 Trigger phrases: "AI content creation", "ChatGPT for blog writing", "AI
@@ -92,7 +195,7 @@ Rules:
 - Active voice. No passive constructions.
 - Specific over generic. '47% reply rate' not 'industry-leading engagement'
 - Show, don't tell. Every claim with evidence.
-- No: 'In today's fast-paced world...' 'We're excited to announce...'
+- No: 'In current world...' 'We're excited to announce...'
 - Include: [specific data, examples, frameworks from outline]"
 ```
 
@@ -108,13 +211,13 @@ Rules:
 | **Pass 4: Polish** | Typos, grammar, links, CTAs, formatting | 5 min |
 
 **AI-isms to delete (common ChatGPT/Claude tells):**
-- "In today's fast-paced digital landscape..."
+- "In current digital landscape..."
 - "Unlock the power of..."
 - "Delve into..."
 - "It's important to note that..."
 - "Furthermore..." / "Moreover..." / "Additionally..."
 - "In conclusion..."
-- "Revolutionary," "game-changing," "cutting-edge"
+- "Revolutionary," "high-impact," "advanced"
 - Overuse of em-dashes and semicolons
 - Every sentence the same length (AI loves ~20-word sentences)
 
@@ -288,7 +391,7 @@ VARIANTS (for testing):
 3. [Headline variant 3]
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Research phase completed before drafting (don't ask AI to write blind)
 - [ ] Outline includes unique human insight (not just AI summary of existing content)
@@ -298,6 +401,16 @@ VARIANTS (for testing):
 - [ ] Voice matches brand guidelines (paste them into every content prompt)
 - [ ] Headlines are specific, not clever ("47% more replies" > "Unlock email potential")
 - [ ] SEO: target keyword in title, H1, first 100 words, meta description
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 

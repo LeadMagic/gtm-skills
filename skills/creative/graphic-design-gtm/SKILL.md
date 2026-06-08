@@ -26,6 +26,13 @@ a poorly designed one is invisible. This skill covers GTM visual asset
 creation: social graphics, ad creatives, data visualization, and brand
 templates that maintain consistency across every touchpoint.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Cialdini Visual Persuasion** — used as the named operating framework for this playbook.
+- **Tufte Data Visualization** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Create a social media graphic"
 - "Design LinkedIn carousel slides"

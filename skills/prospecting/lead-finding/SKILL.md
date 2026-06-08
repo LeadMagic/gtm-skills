@@ -1,11 +1,9 @@
 ---
 name: lead-finding
 description: >-
-  Multi-source lead discovery across Apollo, Sales Navigator, GitHub,
-  Crunchbase, job boards, conference lists, and vertical-specific sources.
-  Triggers when user needs to find leads, build prospect lists, discover
-  companies matching ICP, or source accounts for outbound. Run after
-  gtm-context and icp-scoring.
+  Lead Finding playbook for GTM agents — strategy, workflow, templates, operating
+  guidance, and quality checks. Use when the user asks for lead finding work,
+  implementation help, or an agent-ready deliverable.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -16,7 +14,6 @@ metadata:
   related_skills: [gtm-context, icp-scoring, lead-enrichment, list-building, signal-scoring]
   frameworks: [Winning by Design SPICED, Force Management MEDDICC, Gartner Buying Committee Research]
 ---
-
 # Lead Finding
 
 ## Overview

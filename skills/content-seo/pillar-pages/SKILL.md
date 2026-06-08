@@ -22,6 +22,13 @@ and link to detailed cluster content on specific subtopics. This architecture
 signals to Google that you're the authority on the topic, boosting rankings
 across the entire cluster.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **HubSpot Topic Cluster Model** — used as the named operating framework for this playbook.
+- **Animalz Content Strategy** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Build a pillar page"
 - "Topic cluster strategy"

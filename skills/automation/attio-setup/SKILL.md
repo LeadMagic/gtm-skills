@@ -27,6 +27,13 @@ a CRM that works like a database — flexible objects, real-time collaboration,
 and API-first architecture. Best for startups and growth-stage B2B SaaS that
 find HubSpot too rigid and Salesforce too heavy.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Attio Programmable CRM Model** — used as the named operating framework for this playbook.
+- **Modern CRM Architecture** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "Set up Attio for our sales team"

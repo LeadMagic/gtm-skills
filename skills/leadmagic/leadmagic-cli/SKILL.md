@@ -27,6 +27,13 @@ enrichment, and outbound platform integration. Use it to automate enrichment
 workflows, batch-process CSV files, and push verified contacts to sending
 platforms — all without leaving the terminal.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **CLI Design Patterns** — used as the named operating framework for this playbook.
+- **Enrichment Workflow Automation** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "Use the LeadMagic CLI to find emails"

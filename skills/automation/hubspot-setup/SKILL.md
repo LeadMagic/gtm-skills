@@ -27,6 +27,13 @@ weakness is that it's easy to configure poorly and hard to fix later. This skill
 covers setup for GTM teams: deal pipelines, lifecycle stages, marketing
 automation, reporting, and enrichment integration.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **HubSpot Smart CRM Framework** — used as the named operating framework for this playbook.
+- **Lifecycle Stage Model** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "Set up HubSpot for our sales team"

@@ -21,6 +21,13 @@ Partnerships are the most underleveraged GTM channel in B2B SaaS. A well-run
 partner program can generate 20-40% of pipeline at near-zero CAC. But "partnerships"
 means different things at different stages — this skill covers the full ecosystem.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Partnership Ecosystem Framework** — used as the named operating framework for this playbook.
+- **Crossbeam Partner-Led Growth** — used as the named operating framework for this playbook.
+
 ## When to Use
 - "Build a partner program"
 - "Partnership strategy"

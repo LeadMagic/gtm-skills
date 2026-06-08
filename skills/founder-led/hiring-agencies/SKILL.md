@@ -27,6 +27,13 @@ realize it's not working. This skill covers agency selection, engagement
 structure, and the metrics that separate productive partnerships from
 expensive mistakes.
 
+## Frameworks Referenced
+
+This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+
+- **Agency Selection Framework** — used as the named operating framework for this playbook.
+- **SaaStr Agency Hiring Guide** — used as the named operating framework for this playbook.
+
 ## When to Use
 
 - "Should I hire an outbound agency?"

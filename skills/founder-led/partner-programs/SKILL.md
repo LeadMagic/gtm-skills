@@ -1,26 +1,19 @@
 ---
 name: partner-programs
 description: >-
-  Design partner and channel programs — integration partnerships, agency
-  partnerships, reseller programs, co-marketing partnerships, referral
-  programs, technology alliances. Covers partner type selection, economic
-  models (revenue share, referral fee, co-sell), tier design, enablement
-  playbooks, deal registration, partner recruitment, and program measurement.
+  Partner Programs playbook for GTM agents — strategy, workflow, templates, operating
+  guidance, and quality checks. Use when the user asks for partner programs work,
+  implementation help, or an agent-ready deliverable.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "2.0.0"
+  version: "1.0.0"
   author: LeadMagic
   category: founder-led
   tags: [partners, channel, co-marketing, integrations, reseller, agency, referral]
   related_skills: [sales-team-building, fundraising-strategy, content-led-growth, launching-planning]
-  frameworks:
-    - "Jay McBain (Forrester/Canalys) — Channel economics and ecosystem strategy"
-    - "Jared Fuller (PartnerHacker/Nearbound) — Nearbound GTM"
-    - "Asher Matthew (Partnership Leaders) — Partnership operating models"
-    - "Peter Caputa (HubSpot/Databox) — Agency channel playbook"
+  frameworks: [Operator GTM Playbook]
 ---
-
 # Partner Programs
 
 ## Overview
@@ -199,7 +192,7 @@ Success Metrics:
 - Y1 target: X% partner-attributed revenue
 ```
 
-## Quality Checklist
+## Implementation Checklist
 
 - [ ] Partner type selected based on product complexity and sales motion
 - [ ] Economic model defined (rev share %, duration, tier bonuses)
@@ -210,6 +203,16 @@ Success Metrics:
 - [ ] Partner manager assigned (even if part-time)
 - [ ] Pipeline tracking in CRM (partner-attributed revenue tracked)
 - [ ] Monthly pipeline reviews scheduled with active partners
+
+## Quality Check
+
+Before delivering, verify:
+
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
 
 ## Common Pitfalls
 
