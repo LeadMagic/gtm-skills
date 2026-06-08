@@ -11,6 +11,7 @@ const path = require('path');
 const ROOT = path.join(__dirname, '..');
 const SKILLS_DIR = path.join(ROOT, 'skills');
 const PLUGIN_DIR = path.join(ROOT, '.claude-plugin');
+const VERSION = '0.24.0';
 
 function csvEscape(value) {
   const s = String(value ?? '');
@@ -42,43 +43,67 @@ function parseFrontmatter(filePath) {
     }
     fm[key] = value.replace(/^['"]|['"]$/g, '');
   }
-  return fm;
+  return { fm, fmText, content };
+}
+
+function parseFrameworks(fmText) {
+  const frameworks = [];
+  const inline = fmText.match(/^\s*frameworks:\s*\[([^\]]*)\]/m);
+  if (inline) {
+    for (const item of inline[1].split(',')) {
+      const cleaned = item.trim().replace(/^['"]|['"]$/g, '');
+      if (cleaned) frameworks.push(cleaned);
+    }
+  }
+  const block = fmText.match(/^\s*frameworks:\s*\n([\s\S]*?)(?=^\s*[A-Za-z_][A-Za-z0-9_-]*:\s*|\s*$)/m);
+  if (block) {
+    for (const line of block[1].split('\n')) {
+      const m = line.match(/^\s*-\s*["']?(.+?)["']?\s*$/);
+      if (m) frameworks.push(m[1].trim());
+    }
+  }
+  return frameworks.filter(Boolean);
 }
 
 function discoverSkills() {
-  const all = [];
+  const skills = [];
   const missed = [];
-  for (const file of fs.readdirSync(SKILLS_DIR, { withFileTypes: true })) {
-    if (!file.isDirectory() || file.name.startsWith('_')) continue;
-    const category = file.name;
+  for (const catEntry of fs.readdirSync(SKILLS_DIR, { withFileTypes: true })) {
+    if (!catEntry.isDirectory() || catEntry.name.startsWith('_')) continue;
+    const category = catEntry.name;
     const categoryDir = path.join(SKILLS_DIR, category);
-    for (const entry of fs.readdirSync(categoryDir, { withFileTypes: true })) {
-      if (!entry.isDirectory() || entry.name.startsWith('_')) continue;
-      const skillFile = path.join(categoryDir, entry.name, 'SKILL.md');
+    for (const skillEntry of fs.readdirSync(categoryDir, { withFileTypes: true })) {
+      if (!skillEntry.isDirectory() || skillEntry.name.startsWith('_')) continue;
+      const skillFile = path.join(categoryDir, skillEntry.name, 'SKILL.md');
       if (fs.existsSync(skillFile)) {
-        const fm = parseFrontmatter(skillFile);
-        all.push({
-          slug: entry.name,
-          name: fm.name || entry.name,
+        const { fm, fmText } = parseFrontmatter(skillFile);
+        skills.push({
+          slug: skillEntry.name,
+          name: fm.name || skillEntry.name,
           category,
           description: fm.description || '',
           compatibility: fm.compatibility || '',
           priority: fm.priority || 'medium',
+          frameworks: parseFrameworks(fmText),
           path: path.relative(ROOT, skillFile).replace(/\\/g, '/'),
         });
       } else {
-        for (const deep of fs.readdirSync(path.join(categoryDir, entry.name), { withFileTypes: true })) {
+        const nestedBase = path.join(categoryDir, skillEntry.name);
+        for (const deep of fs.readdirSync(nestedBase, { withFileTypes: true })) {
           if (!deep.isDirectory()) continue;
-          const deepFile = path.join(categoryDir, entry.name, deep.name, 'SKILL.md');
+          const deepFile = path.join(nestedBase, deep.name, 'SKILL.md');
           if (fs.existsSync(deepFile)) missed.push(path.relative(ROOT, deepFile).replace(/\\/g, '/'));
         }
       }
     }
   }
-  if (missed.length) {
-    throw new Error(`Non-marketplace-discoverable skills:\n${missed.join('\n')}`);
-  }
-  return all.sort((a, b) => a.category.localeCompare(b.category) || a.slug.localeCompare(b.slug));
+  if (missed.length) throw new Error(`Non-marketplace-discoverable skills:\n${missed.join('\n')}`);
+  return skills.sort((a, b) => a.category.localeCompare(b.category) || a.slug.localeCompare(b.slug));
+}
+
+function truncate(s, n) {
+  const text = String(s || '').replace(/\s+/g, ' ').trim();
+  return text.length <= n ? text : text.slice(0, n - 1).trimEnd() + '…';
 }
 
 const skills = discoverSkills();
@@ -87,37 +112,55 @@ const byCategory = {};
 for (const s of skills) (byCategory[s.category] ||= []).push(s);
 const categories = Object.keys(byCategory).sort();
 
+const authorityCounts = new Map();
+for (const s of skills) {
+  for (const framework of s.frameworks) {
+    const normalized = framework.replace(/\s+/g, ' ').trim();
+    if (!normalized || normalized === '[]') continue;
+    authorityCounts.set(normalized, (authorityCounts.get(normalized) || 0) + 1);
+  }
+}
+const topAuthorities = [...authorityCounts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 30);
+
 const taxonomy = ['slug,name,category,path,description,priority,compatibility'];
 for (const s of skills) taxonomy.push([s.slug, s.name, s.category, s.path, s.description, s.priority, s.compatibility].map(csvEscape).join(','));
 fs.writeFileSync(path.join(ROOT, 'taxonomy.csv'), taxonomy.join('\n') + '\n');
 
-let claude = `# GTM Skills\n\n${total} production go-to-market skills for Claude-compatible agents. Skills are self-contained folders with instructions, scripts, references, assets/templates, and metadata that agents load through progressive disclosure.\n\n`;
-claude += `## Anthropic / agentskills Alignment\n\n- Every skill is a folder with required SKILL.md and optional scripts/, references/, templates/, or assets/.\n- Discovery loads name + description; activation loads SKILL.md; execution loads support files only when needed.\n- Marketplace-visible paths are exactly skills/<category>/<skill>/SKILL.md.\n- Use the narrowest skill that matches the task; combine skills only when the workflow requires it.\n\n## Skills Index\n\n`;
+let claude = `# GTM Skills\n\n${total} production go-to-market skills for Claude-compatible agents. Skills are self-contained folders with instructions, scripts, references, templates, assets, and metadata that agents load through progressive disclosure.\n\n`;
+claude += `## Install\n\n\`/plugin marketplace add LeadMagic/gtm-skills\` then \`/plugin install gtm-skills@gtm-skills\`. agentskills CLI: \`gh skill install LeadMagic/gtm-skills\`.\n\n`;
+claude += `## Operating Model\n\n- Discovery loads skill name + description.\n- Activation loads SKILL.md.\n- Execution loads references/, templates/, scripts/, and assets/ on demand.\n- Use the narrowest skill that matches the task; chain skills for full GTM workflows.\n- Verify integrity with \`skills.lock\` when installing from source.\n\n## Top Authority Signals\n\n`;
+for (const [authority, count] of topAuthorities.slice(0, 12)) claude += `- ${authority} (${count} skills)\n`;
+claude += `\n## Skills Index\n\n`;
 for (const cat of categories) {
   claude += `### ${cat} (${byCategory[cat].length})\n`;
-  for (const s of byCategory[cat]) claude += `- **${s.slug}** — ${s.description.slice(0, 180).trimEnd()}\n`;
+  for (const s of byCategory[cat]) claude += `- **${s.slug}** — ${truncate(s.description, 180)}\n`;
   claude += '\n';
 }
 fs.writeFileSync(path.join(ROOT, 'CLAUDE.md'), claude);
 
-let agents = `# gtm-skills — Agent Skills Index\n\n${total} production GTM skills for AI agents. This repo follows the Anthropic/agentskills model: portable skill folders with SKILL.md plus optional scripts/, references/, templates/, and assets/.\n\n## Install\n\nClaude Code marketplace style:\n\n\`\`\`text\n/plugin marketplace add LeadMagic/gtm-skills\n/plugin install gtm-skills@gtm-skills\n\`\`\`\n\nagentskills CLI style:\n\n\`\`\`bash\ngh skill install LeadMagic/gtm-skills\ngh skill install LeadMagic/gtm-skills pricing-strategy\ngh skill install LeadMagic/gtm-skills --category outbound\n\`\`\`\n\nLocal installer:\n\n\`\`\`bash\n./install.sh\n./install.sh --target hermes\n./install.sh --target cursor --project /path/to/project\n./install.sh --target all --dry-run\n\`\`\`\n\n## Skill Folder Standard\n\n\`\`\`text\nskill-name/\n├── SKILL.md\n├── references/\n├── scripts/\n├── templates/\n└── assets/\n\`\`\`\n\n## Categories\n\n`;
+let agents = `# gtm-skills — Agent Skills Index\n\n${total} production GTM skills for AI agents. This repo follows the Anthropic/agentskills pattern: portable skill folders with SKILL.md plus optional scripts/, references/, templates/, and assets/.\n\n`;
+agents += `## Install\n\nClaude Code marketplace style:\n\n\`\`\`text\n/plugin marketplace add LeadMagic/gtm-skills\n/plugin install gtm-skills@gtm-skills\n\`\`\`\n\nagentskills CLI style:\n\n\`\`\`bash\ngh skill install LeadMagic/gtm-skills\ngh skill install LeadMagic/gtm-skills pricing-strategy\ngh skill install LeadMagic/gtm-skills --category outbound\n\`\`\`\n\nLocal installer:\n\n\`\`\`bash\n./install.sh\n./install.sh --target hermes\n./install.sh --target cursor --project /path/to/project\n./install.sh --target all --dry-run\n\`\`\`\n\n`;
+agents += `## Repository Contract\n\n- Marketplace-visible skills live at \`skills/<category>/<skill>/SKILL.md\`.\n- Support artifacts live inside the skill folder.\n- Generated catalog files come from disk, not hand edits.\n- \`skills.lock\` verifies SHA256 integrity.\n- CI must pass before release.\n\n## Categories\n\n`;
 for (const cat of categories) agents += `- **${cat}** — ${byCategory[cat].length} skills\n`;
-agents += `\n## Quality Standard\n\nEvery skill must be tactical, artifact-first, framework-cited, marketplace-discoverable, and clean for a public repository.\n`;
+agents += `\n## Quality Standard\n\nEvery skill must be tactical, artifact-first, framework-cited, marketplace-discoverable, and clean for a public repository. See docs/SKILL_AUTHORING.md.\n`;
 fs.writeFileSync(path.join(ROOT, 'AGENTS.md'), agents);
 
-let readme = `# GTM Skills\n\n[![Skills](https://img.shields.io/badge/skills-${total}-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-${categories.length}-green)](skills/)\n\n${total} production go-to-market skills for Claude Code and other AI agents. Built for sales, marketing, PLG, analytics, automation, customer success, RevOps, founder-led GTM, and tool operations.\n\nThis repo follows the Anthropic/agentskills pattern: skills are self-contained folders of instructions, scripts, references, templates/assets, and metadata that agents load dynamically through progressive disclosure.\n\n## Install\n\nClaude Code marketplace style:\n\n\`\`\`text\n/plugin marketplace add LeadMagic/gtm-skills\n/plugin install gtm-skills@gtm-skills\n\`\`\`\n\nagentskills CLI style:\n\n\`\`\`bash\ngh skill install LeadMagic/gtm-skills\n\`\`\`\n\nInteractive installer:\n\n\`\`\`bash\n./install.sh\n./install.sh --target all --dry-run\n\`\`\`\n\n## What makes this repo different\n\n- Artifact-first: skills produce copy, plans, scorecards, runbooks, dashboards, workflows, templates, or scripts.\n- Anthropic-style folders: SKILL.md for instructions; scripts/, references/, templates/, and assets/ for execution resources.\n- Authority-backed: skills cite named operators, vendors, books, and frameworks instead of vague best practices.\n- Progressive disclosure: SKILL.md stays focused; deep tables/templates live in support files.\n- Marketplace-ready: every skill is discoverable by agentskills.io patterns and validated in CI.\n- Supply-chain aware: skills.lock tracks SHA256 for every skill.\n\n## Categories\n\n`;
+const categoryRows = categories.map(cat => `| ${cat} | ${byCategory[cat].length} | ${truncate(byCategory[cat].map(s => s.slug).slice(0, 5).join(', '), 90)} |`).join('\n');
+const authorityRows = topAuthorities.slice(0, 24).map(([authority, count]) => `| ${authority.replace(/\|/g, '/')} | ${count} |`).join('\n');
+
+let readme = `# GTM Skills\n\n[![Skills](https://img.shields.io/badge/skills-${total}-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-${categories.length}-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE)\n\n${total} production go-to-market skills for AI agents. Built for sales, marketing, outbound, prospecting, enrichment, PLG, analytics, automation, customer success, RevOps, founder-led GTM, and tool operations.\n\nThis is not a prompt pack. It is an agent-skills repository: portable skill folders with instructions, scripts, references, templates, assets, metadata, marketplace publishing, install tooling, and SHA256 integrity verification.\n\n## Install\n\nClaude Code marketplace style:\n\n\`\`\`text\n/plugin marketplace add LeadMagic/gtm-skills\n/plugin install gtm-skills@gtm-skills\n\`\`\`\n\nagentskills CLI style:\n\n\`\`\`bash\ngh skill install LeadMagic/gtm-skills\n\`\`\`\n\nInteractive installer:\n\n\`\`\`bash\ngit clone https://github.com/LeadMagic/gtm-skills.git\ncd gtm-skills\n./install.sh\n./install.sh --target all --dry-run\n\`\`\`\n\nFull install docs: [docs/INSTALL.md](docs/INSTALL.md).\n\n## What Makes This Repo Different\n\n- **Artifact-first.** Skills produce copy, plans, scorecards, runbooks, dashboards, workflows, templates, scripts, and QA checklists.\n- **Authority-backed.** Every skill cites named operators, vendors, books, or frameworks instead of vague best practices.\n- **Anthropic-style folders.** SKILL.md for instructions; references/, templates/, scripts/, and assets/ for execution resources.\n- **Progressive disclosure.** SKILL.md stays focused; deep tables and templates live in support files.\n- **Marketplace-ready.** Every skill is discoverable by agentskills.io-compatible patterns and validated in CI.\n- **Supply-chain aware.** skills.lock tracks SHA256 for every marketplace-discoverable skill.\n- **No telemetry.** Static skills and local scripts only; no analytics SDKs or hidden network behavior.\n\n## Repository Quality Signals\n\n| Signal | Status |\n|---|---|\n| Marketplace-discoverable skills | ${total}/${total} |\n| Categories | ${categories.length} |\n| CI validation | \`npm run check\` |\n| Publish verification | \`gh skill publish --dry-run\` |\n| Integrity manifest | \`skills.lock\` |\n| Public governance | CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, GOVERNANCE |\n\n## Category Map\n\n| Category | Skills | Examples |\n|---|---:|---|\n${categoryRows}\n\n## Authority Catalog\n\nThe skills cite named methodologies, operators, vendor docs, and frameworks. Top recurring sources in the catalog:\n\n| Authority / Framework | Skills |\n|---|---:|\n${authorityRows}\n\n## Documentation\n\n- [Install guide](docs/INSTALL.md)\n- [Architecture](docs/ARCHITECTURE.md)\n- [Skill authoring standard](docs/SKILL_AUTHORING.md)\n- [Integrity verification](docs/INTEGRITY.md)\n- [Release process](docs/RELEASE_PROCESS.md)\n- [Contributing](CONTRIBUTING.md)\n- [Security](SECURITY.md)\n\n## Validate Locally\n\n\`\`\`bash\nnpm run build\nnpm run check\ngh skill publish --dry-run\n\`\`\`\n\nExpected result: ${total} skills checked, 0 errors, 0 warnings, lock verified, installer dry-run OK.\n\n## Skills Catalog\n\n`;
 for (const cat of categories) {
   readme += `### ${cat} (${byCategory[cat].length})\n\n`;
-  for (const s of byCategory[cat]) readme += `- [${s.slug}](${s.path}) — ${s.description.slice(0, 220).trimEnd()}\n`;
+  for (const s of byCategory[cat]) readme += `- [${s.slug}](${s.path}) — ${truncate(s.description, 220)}\n`;
   readme += '\n';
 }
-readme += `## Validate\n\n\`\`\`bash\nnpm run build\nnpm run check\ngh skill publish --dry-run\n\`\`\`\n`;
+readme += `## Contributing\n\nSee [CONTRIBUTING.md](CONTRIBUTING.md). New skills must cite named authorities, produce concrete artifacts, pass validation, and avoid private/internal details.\n`;
 fs.writeFileSync(path.join(ROOT, 'README.md'), readme);
 
 fs.mkdirSync(PLUGIN_DIR, { recursive: true });
 const plugin = {
   name: 'gtm-skills',
-  version: '0.23.0',
+  version: VERSION,
   description: `${total} production go-to-market playbooks for AI agents across ${categories.length} categories.`,
   author: 'LeadMagic',
   license: 'MIT',

@@ -8,10 +8,18 @@ on:
       - 'scripts/**'
       - 'docs/**'
       - '.claude-plugin/**'
-      - '.github/workflows/validate.yml'
+      - '.github/**'
       - 'AGENTS.md'
       - 'CLAUDE.md'
       - 'README.md'
+      - 'CONTRIBUTING.md'
+      - 'SECURITY.md'
+      - 'CODE_OF_CONDUCT.md'
+      - 'GOVERNANCE.md'
+      - 'SUPPORT.md'
+      - 'CHANGELOG.md'
+      - 'CITATION.cff'
+      - 'LICENSE'
       - 'package.json'
       - 'skills.lock'
       - 'taxonomy.csv'
@@ -23,10 +31,18 @@ on:
       - 'scripts/**'
       - 'docs/**'
       - '.claude-plugin/**'
-      - '.github/workflows/validate.yml'
+      - '.github/**'
       - 'AGENTS.md'
       - 'CLAUDE.md'
       - 'README.md'
+      - 'CONTRIBUTING.md'
+      - 'SECURITY.md'
+      - 'CODE_OF_CONDUCT.md'
+      - 'GOVERNANCE.md'
+      - 'SUPPORT.md'
+      - 'CHANGELOG.md'
+      - 'CITATION.cff'
+      - 'LICENSE'
       - 'package.json'
       - 'skills.lock'
       - 'taxonomy.csv'
@@ -38,6 +54,8 @@ env:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

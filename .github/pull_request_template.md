@@ -1,32 +1,42 @@
-## What
+## Summary
 
-<!-- What does this PR change or add? -->
+<!-- What changed? -->
 
-## Why
+## Change Type
 
-<!-- Why is this change valuable? -->
+- [ ] Skill content
+- [ ] New skill
+- [ ] Docs
+- [ ] Installer / tooling
+- [ ] CI / validation
+- [ ] Release metadata
 
 ## Validation
 
-- [ ] `npm run validate` passes
-- [ ] New skills follow the template in `skills/_TEMPLATE.md`
-- [ ] `taxonomy.csv` updated for new skills
-- [ ] Frontmatter fields are correct (`name` matches directory, `description` ≤ 1024 chars)
-- [ ] Skill is grounded in real GTM practices with authorities cited
-- [ ] No internal tooling details exposed (tools are blackbox)
-- [ ] Skill works without any specific paid tool
+- [ ] `npm run build` passes
+- [ ] `npm run check` passes
+- [ ] `gh skill publish --dry-run` passes
+- [ ] Generated files are current: README.md, AGENTS.md, CLAUDE.md, taxonomy.csv, skills.lock, `.claude-plugin/*`
+- [ ] All new or changed skills cite named authorities/frameworks
+- [ ] All new or changed support files are linked from SKILL.md
+- [ ] No private/internal details, secrets, customer data, or credentials
+- [ ] No telemetry/tracking/crash analytics dependencies added
 
-## Checklist for New Skills
+## Skill Checklist
 
-- [ ] 300-600 lines of actionable content
-- [ ] "When to Use" section with trigger phrases
-- [ ] "Authoritative Foundations" section
-- [ ] Step-by-step process
-- [ ] Output format specification
-- [ ] Quality checklist
-- [ ] Common pitfalls section
-- [ ] Related skills cross-references
+For new or substantially changed skills:
 
-## Screenshots / Examples
+- [ ] Path is `skills/<category>/<skill>/SKILL.md`
+- [ ] `name` matches directory
+- [ ] `description` says what the skill does and when to use it
+- [ ] Trigger phrases included
+- [ ] Authoritative foundations included
+- [ ] Step-by-step process included
+- [ ] Output format included
+- [ ] Quality checks included
+- [ ] Common pitfalls included
+- [ ] Related skills included
 
-<!-- If applicable -->
+## Notes
+
+<!-- Any tradeoffs, screenshots, sample outputs, or follow-up work. -->

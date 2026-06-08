@@ -1,6 +1,6 @@
 # gtm-skills — Agent Skills Index
 
-189 production GTM skills for AI agents. This repo follows the Anthropic/agentskills model: portable skill folders with SKILL.md plus optional scripts/, references/, templates/, and assets/.
+189 production GTM skills for AI agents. This repo follows the Anthropic/agentskills pattern: portable skill folders with SKILL.md plus optional scripts/, references/, templates/, and assets/.
 
 ## Install
 
@@ -28,16 +28,13 @@ Local installer:
 ./install.sh --target all --dry-run
 ```
 
-## Skill Folder Standard
+## Repository Contract
 
-```text
-skill-name/
-├── SKILL.md
-├── references/
-├── scripts/
-├── templates/
-└── assets/
-```
+- Marketplace-visible skills live at `skills/<category>/<skill>/SKILL.md`.
+- Support artifacts live inside the skill folder.
+- Generated catalog files come from disk, not hand edits.
+- `skills.lock` verifies SHA256 integrity.
+- CI must pass before release.
 
 ## Categories
 
@@ -70,4 +67,4 @@ skill-name/
 
 ## Quality Standard
 
-Every skill must be tactical, artifact-first, framework-cited, marketplace-discoverable, and clean for a public repository.
+Every skill must be tactical, artifact-first, framework-cited, marketplace-discoverable, and clean for a public repository. See docs/SKILL_AUTHORING.md.

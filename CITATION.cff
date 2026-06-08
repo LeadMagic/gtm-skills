@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use GTM Skills, cite the repository."
+title: "GTM Skills"
+type: software
+repository-code: "https://github.com/LeadMagic/gtm-skills"
+url: "https://github.com/LeadMagic/gtm-skills"
+license: MIT
+authors:
+  - name: "LeadMagic"
+keywords:
+  - agent-skills
+  - go-to-market
+  - sales
+  - marketing
+  - claude-code
+  - cursor
+  - codex
+  - ai-agents
+abstract: "A public library of production go-to-market skills for AI agents, covering sales, marketing, outbound, analytics, PLG, customer success, RevOps, automation, and tool operations."
+version: "0.24.0"
+date-released: "2026-06-08"
