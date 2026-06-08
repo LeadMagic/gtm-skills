@@ -16,7 +16,10 @@ metadata:
   category: prospecting
   tags: [verification, email, deliverability, bounce-prevention, data-quality]
   related_skills: [email-finding, lead-enrichment, email-deliverability, list-building]
-  frameworks: [Email Deliverability Best Practices]
+  frameworks:
+    - "Email Deliverability Best Practices"
+    - "Aaron Ross — Predictable Revenue"
+    - "Winning by Design — ICP Segmentation"
 ---
 
 # Contact Verification

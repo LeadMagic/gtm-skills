@@ -137,6 +137,16 @@ Before delivering, verify:
 5. **Implying creepy monitoring.** "We saw you moved" can feel invasive. Fix: keep the note natural and relationship-led.
 6. **No replacement mapping.** When a champion leaves, the old account still matters. Fix: identify successor and stakeholder gaps.
 
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
 ## Related Skills
 
 - `job-change-play` — outbound play for job-change triggers

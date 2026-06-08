@@ -11,7 +11,10 @@ metadata:
   author: LeadMagic
   category: lifecycle
   tags: [lifecycle, churn-prediction, risk-scoring, retention, analytics]
-  frameworks: [Gainsight Churn Prediction Model, Retention Science Framework]
+  frameworks:
+    - "Gainsight Churn Prediction Model"
+    - "Retention Science Framework"
+    - "Reforge — Lifecycle Marketing"
 ---
 
 # Churn Prediction

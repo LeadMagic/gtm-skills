@@ -11,7 +11,10 @@ metadata:
   author: LeadMagic
   category: ai-agents
   tags: [ai-agents, agent-architecture, multi-agent, orchestration, gtm-automation]
-  frameworks: [Anthropic Agent Design Patterns, ReAct Agent Framework]
+  frameworks:
+    - "Anthropic Agent Design Patterns"
+    - "ReAct Agent Framework"
+    - "Anthropic — Agent Skills Progressive Disclosure"
 ---
 
 # AI Agent Architecture for GTM

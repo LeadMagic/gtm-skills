@@ -15,7 +15,10 @@ metadata:
   category: inbound
   tags: [linkedin, social-selling, sales-navigator, outreach]
   related_skills: [multi-channel-outreach, cold-email-strategy, founder-brand]
-  frameworks: [LinkedIn SSI Methodology]
+  frameworks:
+    - "LinkedIn SSI Methodology"
+    - "HubSpot Academy — Inbound Methodology"
+    - "Marcus Sheridan — They Ask You Answer"
 ---
 
 # Social Selling

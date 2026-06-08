@@ -374,6 +374,16 @@ Before delivering, verify:
 
 7. **Misdiagnosing low open rates.** Low open rates can be caused by spam placement (invisible to open tracking), image blocking (open pixel doesn't load), Apple Mail Privacy Protection (pre-fetches all images, inflating open rates), or genuinely uninterested recipients. Cross-reference with click rates, reply rates, and seed-list tests to determine actual cause.
 
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
 ## Related Skills
 
 - **domain-infrastructure**: Run first if DNS authentication is incomplete or misconfigured. Handles SPF/DKIM/DMARC setup, secondary domains, and inbox rotation.

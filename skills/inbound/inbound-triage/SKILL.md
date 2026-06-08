@@ -15,7 +15,10 @@ metadata:
   category: inbound
   tags: [inbound, triage, routing, qualification, lead-management]
   related_skills: [lead-scoring, pipeline-management, crm-integration, sales-enablement]
-  frameworks: [Winning by Design SPICED Lifecycle, SiriusDecisions Demand Waterfall]
+  frameworks:
+    - "Winning by Design SPICED Lifecycle"
+    - "SiriusDecisions Demand Waterfall"
+    - "HubSpot Academy — Inbound Methodology"
 ---
 
 # Inbound Triage

@@ -11,7 +11,10 @@ metadata:
   author: LeadMagic
   category: gtm-ops
   tags: [gtm-ops, revops, revenue-operations, sales-ops, process-design]
-  frameworks: [WbD Revenue Architecture, RevOps Maturity Model]
+  frameworks:
+    - "WbD Revenue Architecture"
+    - "RevOps Maturity Model"
+    - "Winning by Design — Revenue Architecture"
 ---
 
 # GTM Operations

@@ -11,7 +11,10 @@ metadata:
   author: LeadMagic
   category: gtm-ops
   tags: [gtm-ops, revops, tech-stack, tools, audit, integration]
-  frameworks: [RevOps Tech Stack Maturity Model, Scott Brinker MarTech Landscape]
+  frameworks:
+    - "RevOps Tech Stack Maturity Model"
+    - "Scott Brinker MarTech Landscape"
+    - "Winning by Design — Revenue Architecture"
 ---
 
 # RevOps Tech Stack Design

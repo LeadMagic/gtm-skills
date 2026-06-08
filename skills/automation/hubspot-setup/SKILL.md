@@ -13,7 +13,10 @@ metadata:
   author: LeadMagic
   category: automation
   tags: [hubspot, crm, setup, marketing, sales]
-  frameworks: [HubSpot Smart CRM Framework, Lifecycle Stage Model]
+  frameworks:
+    - "HubSpot Smart CRM Framework"
+    - "Lifecycle Stage Model"
+    - "HubSpot Academy — CRM Automation"
   related_skills: [crm-integration, pipeline-management, salesforce-setup, attio-setup]
 ---
 
@@ -128,6 +131,16 @@ and enrichment integration setup.
 
 5. **No data hygiene cadence.** Quarterly: deduplicate contacts, re-verify
    emails >90 days old, audit required fields completion.
+
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills
 

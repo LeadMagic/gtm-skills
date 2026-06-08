@@ -11,7 +11,10 @@ metadata:
   author: LeadMagic
   category: partnerships
   tags: [partnerships, integrations, technology-partners, marketplace, API]
-  frameworks: [Technology Partnership Framework, Platform Ecosystem Strategy]
+  frameworks:
+    - "Technology Partnership Framework"
+    - "Platform Ecosystem Strategy"
+    - "Crossbeam — Ecosystem-Led Growth"
 ---
 
 # Integration Partnerships
@@ -109,6 +112,43 @@ Before delivering, verify:
 1. **Skipping research.** Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
 2. **Generic output.** "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
 3. **Missing framework citations.** Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
+
+## Implementation Depth
+
+Use this section when the user asks for a finished asset, not a high-level explanation.
+
+### Diagnostic Questions
+
+1. What is the primary motion: founder-led, sales-led, product-led, partner-led, or lifecycle-led?
+2. Which ICP tier is the output for: small business, mid-market, enterprise, or mixed?
+3. What proof is available today: customer stories, usage data, third-party validation, screenshots, or none?
+4. What system will execute the work: CRM, sequencer, warehouse, support desk, product analytics, or manual workflow?
+5. What decision will the user make from this output: launch, prioritize, route, rewrite, score, coach, or measure?
+
+### Framework Application
+
+Map the recommendation explicitly to the named frameworks in this skill:
+
+- Technology Partnership Framework: apply only the part that directly improves the requested deliverable.
+- Platform Ecosystem Strategy: apply only the part that directly improves the requested deliverable.
+- Crossbeam — Ecosystem-Led Growth: apply only the part that directly improves the requested deliverable.
+
+### Deliverable Standard
+
+A strong output from this skill includes:
+
+- A crisp diagnosis of the current situation
+- A recommended path with tradeoffs, not a generic list
+- A concrete artifact the user can use immediately: table, script, checklist, scorecard, sequence, dashboard spec, or implementation plan
+- A measurement plan with leading and lagging indicators
+- Risks and edge cases called out before execution
+
+### Adaptation Rules
+
+- For small business: reduce complexity, shorten time-to-value, and prioritize owner/operator clarity.
+- For mid-market: include workflow ownership, handoffs, integrations, and enablement assets.
+- For enterprise: include governance, risk, procurement, stakeholder mapping, and proof requirements.
+
 
 ## Related Skills
 - partnership-strategy, co-marketing, leadmagic-integrations, api-enrichment, sales-enablement

@@ -12,7 +12,10 @@ metadata:
   category: founder-led
   tags: [partners, channel, co-marketing, integrations, reseller, agency, referral]
   related_skills: [sales-team-building, fundraising-strategy, content-led-growth, launching-planning]
-  frameworks: [Operator GTM Playbook]
+  frameworks:
+    - "Operator GTM Playbook"
+    - "Paul Graham — Do Things That Do Not Scale"
+    - "Eric Ries — Lean Startup"
 ---
 # Partner Programs
 

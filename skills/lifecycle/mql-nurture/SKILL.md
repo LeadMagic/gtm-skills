@@ -11,7 +11,10 @@ metadata:
   author: LeadMagic
   category: lifecycle
   tags: [lifecycle, nurture, MQL, lead-scoring, email-drips]
-  frameworks: [SiriusDecisions Demand Waterfall, Marketo Nurture Framework]
+  frameworks:
+    - "SiriusDecisions Demand Waterfall"
+    - "Marketo Nurture Framework"
+    - "Reforge — Lifecycle Marketing"
 ---
 
 # MQL Nurture Programs

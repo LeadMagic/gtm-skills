@@ -191,6 +191,16 @@ Complete deck outline delivered as:
 6. **No clear CTA.** "Let us know if you're interested" is not a next step.
    "Does Thursday at 2pm work for a technical deep-dive?" is.
 
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
 ## Related Skills
 
 - **sales-enablement**: Complete enablement package

@@ -16,7 +16,10 @@ metadata:
   category: sales-revops
   tags: [sales-enablement, pitch-decks, battlecards, collateral]
   related_skills: [pitch-deck-builder, one-pager-builder, battlecard-builder, demo-scripts, objection-handling]
-  frameworks: [Force Management Command of the Message, Corporate Visions Messaging Frameworks]
+  frameworks:
+    - "Force Management Command of the Message"
+    - "Corporate Visions Messaging Frameworks"
+    - "MEDDICC — Qualification"
 ---
 
 # Sales Enablement

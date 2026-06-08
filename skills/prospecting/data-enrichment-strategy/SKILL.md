@@ -16,7 +16,10 @@ metadata:
   category: prospecting
   tags: [enrichment, data-strategy, providers, architecture, build-vs-buy]
   related_skills: [lead-enrichment, waterfall-enrichment, clay-automation, api-enrichment]
-  frameworks: [GTMLens Provider Comparison, Ziellab 3-Waterfall Architecture]
+  frameworks:
+    - "GTMLens Provider Comparison"
+    - "Ziellab 3-Waterfall Architecture"
+    - "Aaron Ross — Predictable Revenue"
 ---
 
 # Data Enrichment Strategy

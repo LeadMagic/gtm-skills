@@ -12,7 +12,10 @@ metadata:
   category: founder-led
   tags: [vc, investor-outreach, cold-email, fundraising, warm-intros, pitch, angels]
   related_skills: [fundraising-strategy, yc-ecosystem, pitch-deck-builder, founder-brand, financial-modeling, board-meeting-prep]
-  frameworks: [Operator GTM Playbook]
+  frameworks:
+    - "Operator GTM Playbook"
+    - "Paul Graham — Do Things That Do Not Scale"
+    - "Eric Ries — Lean Startup"
 ---
 # VC Outreach
 

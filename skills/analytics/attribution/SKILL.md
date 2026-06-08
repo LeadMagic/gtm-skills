@@ -355,6 +355,16 @@ Before delivering, verify:
 
 7. **Treating attribution as a one-time setup.** Attribution models should be reviewed quarterly. Channel mix changes, buyer behavior evolves, campaign types shift. A model built on 2023 data may be wrong for 2024. Schedule quarterly model reviews.
 
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
 ## Related Skills
 
 - **campaign-analytics**: Use campaign-level metrics to validate attribution model outputs. If attribution says email drives 50% of revenue but campaign analytics shows low meeting rates, investigate.

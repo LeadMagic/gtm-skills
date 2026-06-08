@@ -15,7 +15,10 @@ metadata:
   category: prospecting
   tags: [list-building, prospecting, clay, leads, targeting]
   related_skills: [icp-scoring, lead-finding, lead-enrichment, clay-automation]
-  frameworks: [Clay Waterfall Architecture, Ziellab Lead Quality Framework]
+  frameworks:
+    - "Clay Waterfall Architecture"
+    - "Ziellab Lead Quality Framework"
+    - "Aaron Ross — Predictable Revenue"
 ---
 
 # List Building

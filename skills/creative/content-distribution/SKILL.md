@@ -15,7 +15,10 @@ metadata:
   category: creative
   tags: [content, distribution, repurposing, syndication, amplification]
   related_skills: [content-marketing, social-media-strategy, marketing-strategy, paid-advertising]
-  frameworks: [Content Distribution Matrix, Gary Vaynerchuk Content Model]
+  frameworks:
+    - "Content Distribution Matrix"
+    - "Gary Vaynerchuk Content Model"
+    - "Ann Handley — Everybody Writes"
 ---
 
 # Content Distribution

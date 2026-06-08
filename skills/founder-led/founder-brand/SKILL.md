@@ -15,7 +15,10 @@ metadata:
   category: founder-led
   tags: [personal-brand, linkedin, content, founder, thought-leadership]
   related_skills: [social-media-strategy, copywriting, solo-founder-gtm, launch-planning]
-  frameworks: [Charlie Hills Social Media, Brendan Gahan Creator Economy]
+  frameworks:
+    - "Charlie Hills Social Media"
+    - "Brendan Gahan Creator Economy"
+    - "Paul Graham — Do Things That Do Not Scale"
 ---
 
 # Founder Brand

@@ -19,6 +19,8 @@ metadata:
   related_skills: [skills-lock]
   frameworks:
     - "LeadMagic/gtm-skills — 176+ GTM agent skills"
+    - "April Dunford — Obviously Awesome Positioning"
+    - "Winning by Design — GTM Operating Model"
 ---
 
 # Using gtm-skills

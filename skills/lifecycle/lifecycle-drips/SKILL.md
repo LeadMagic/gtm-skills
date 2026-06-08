@@ -11,7 +11,10 @@ metadata:
   author: LeadMagic
   category: lifecycle
   tags: [lifecycle, drips, automation, triggered-emails, lifecycle-marketing]
-  frameworks: [Lifecycle Marketing Framework, HubSpot Lifecycle Stages]
+  frameworks:
+    - "Lifecycle Marketing Framework"
+    - "HubSpot Lifecycle Stages"
+    - "Reforge — Lifecycle Marketing"
 ---
 
 # Lifecycle Drip Campaigns

@@ -21,8 +21,9 @@ metadata:
     - sending-platforms
     - objection-handling
   frameworks:
-    - Command of the Message
-    - SPICED
+    - "Command of the Message"
+    - "SPICED"
+    - "Aaron Ross — Predictable Revenue"
 ---
 
 # Reply Handling

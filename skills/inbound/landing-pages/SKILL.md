@@ -16,7 +16,10 @@ metadata:
   category: inbound
   tags: [cro, landing-pages, conversion, optimization, ux]
   related_skills: [a-b-testing, ui-ux-gtm, content-marketing, lead-magnets]
-  frameworks: [Cialdini Persuasion Principles, Wiebe Conversion Copywriting]
+  frameworks:
+    - "Cialdini Persuasion Principles"
+    - "Wiebe Conversion Copywriting"
+    - "HubSpot Academy — Inbound Methodology"
 ---
 
 # Landing Pages

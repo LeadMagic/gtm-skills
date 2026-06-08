@@ -14,7 +14,10 @@ metadata:
   author: LeadMagic
   category: leadmagic
   tags: [leadmagic, cli, automation, enrichment, batch-processing]
-  frameworks: [CLI Design Patterns, Enrichment Workflow Automation]
+  frameworks:
+    - "CLI Design Patterns"
+    - "Enrichment Workflow Automation"
+    - "LeadMagic Public Documentation — B2B Data Enrichment"
   related_skills: [leadmagic-waterfall, leadmagic-integrations, api-enrichment]
 ---
 
@@ -138,6 +141,16 @@ Before delivering, verify:
 
 4. **Wrong CSV column mapping.** Use `--batch-size` to control throughput.
    Check column auto-detection before running full batches.
+
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills
 

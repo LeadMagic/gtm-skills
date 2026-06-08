@@ -15,7 +15,10 @@ metadata:
   category: leadmagic
   tags: [leadmagic, clay, waterfall, enrichment, email-finding]
   related_skills: [clay-automation, email-finding, contact-verification, waterfall-enrichment]
-  frameworks: [GTMLens 5-Layer Waterfall, Ziellab 3-Waterfall Architecture]
+  frameworks:
+    - "GTMLens 5-Layer Waterfall"
+    - "Ziellab 3-Waterfall Architecture"
+    - "LeadMagic Public Documentation — B2B Data Enrichment"
 ---
 
 # LeadMagic Waterfall
@@ -138,6 +141,16 @@ conditions, credit budget, and monitoring plan.
 
 5. **Enriching before filtering.** Running email enrichment on non-ICP companies
    wastes budget. Filter on firmographics first.
+
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills
 

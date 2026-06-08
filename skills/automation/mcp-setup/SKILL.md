@@ -146,6 +146,16 @@ Before delivering, verify:
 5. **No logging.** You cannot debug a tool call after the fact. Fix: log every call.
 6. **Ambiguous tool descriptions.** Agents misuse tools with overlapping names. Fix: make tool names and descriptions specific.
 
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
 ## Related Skills
 
 - `agent-tool-calling` — tool selection and schemas

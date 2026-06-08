@@ -15,7 +15,10 @@ metadata:
   category: creative
   tags: [ads, creative, testing, design, ugc]
   related_skills: [paid-advertising, a-b-testing, graphic-design-gtm, copywriting]
-  frameworks: [Meta Creative Testing Framework, ARC Ads Creative Methodology]
+  frameworks:
+    - "Meta Creative Testing Framework"
+    - "ARC Ads Creative Methodology"
+    - "Ann Handley — Everybody Writes"
 ---
 
 # Ad Creative Strategy

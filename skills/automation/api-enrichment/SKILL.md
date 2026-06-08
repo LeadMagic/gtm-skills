@@ -137,6 +137,16 @@ Before delivering, verify:
 5. **No freshness rule.** Old data overwrites newer CRM data. Fix: compare timestamps and source priority.
 6. **Polling huge jobs.** Polling wastes compute and API calls. Fix: signed webhooks with retry handling.
 
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
 ## Related Skills
 
 - `waterfall-enrichment` — multi-provider enrichment design

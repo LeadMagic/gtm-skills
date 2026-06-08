@@ -173,6 +173,16 @@ For each major competitor, produce:
 6. **One card for all competitors.** Different competitors attack from different
    angles. A battlecard for Salesforce looks different from one for a startup.
 
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
 ## Related Skills
 
 - **competitive-intel**: Research to populate battlecards

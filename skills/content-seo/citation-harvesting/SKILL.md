@@ -11,7 +11,10 @@ metadata:
   author: LeadMagic
   category: content-seo
   tags: [content-seo, citations, backlinks, HARO, digital-pr, link-building]
-  frameworks: [Digital PR Framework, Moz Link Building Guide]
+  frameworks:
+    - "Digital PR Framework"
+    - "Moz Link Building Guide"
+    - "Google Search Central — SEO Starter Guide"
 ---
 
 # Citation Harvesting & Link Building

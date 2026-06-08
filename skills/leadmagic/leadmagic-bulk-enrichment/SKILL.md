@@ -131,6 +131,16 @@ Before delivering, verify:
 5. **Blind overwrite.** Enrichment overwrites rep-maintained CRM data. Fix: field ownership rules.
 6. **No batch ledger.** Failed jobs are impossible to replay safely. Fix: log batch ID, record count, status, and retry rule.
 
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
 ## Related Skills
 
 - `leadmagic-cli` — command-line workflows for smaller jobs

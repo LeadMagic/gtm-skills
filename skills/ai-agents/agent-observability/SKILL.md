@@ -11,7 +11,10 @@ metadata:
   author: LeadMagic
   category: ai-agents
   tags: [ai-agents, observability, monitoring, logging, analytics]
-  frameworks: [Agent Observability Framework, LLM Ops Best Practices]
+  frameworks:
+    - "Agent Observability Framework"
+    - "LLM Ops Best Practices"
+    - "Anthropic — Agent Skills Progressive Disclosure"
 ---
 
 # Agent Observability

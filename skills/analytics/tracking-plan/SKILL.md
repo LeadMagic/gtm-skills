@@ -643,6 +643,16 @@ Before delivering, verify:
    Store PII in your database, not your event pipeline. Only `identify()` call
    carries user traits — regular `track()` calls do not.
 
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
 ## Related Skills
 
 - `event-analytics` — Event taxonomy design, CDP architecture, event-driven GTM

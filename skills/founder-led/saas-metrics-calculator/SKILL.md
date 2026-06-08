@@ -12,7 +12,10 @@ metadata:
   category: founder-led
   tags: [saas, metrics, calculator, benchmarks, kpis, unit-economics]
   related_skills: [financial-modeling, gtm-metrics, pricing-strategy, churn-prevention, expansion-selling, board-meeting-prep]
-  frameworks: [Operator GTM Playbook]
+  frameworks:
+    - "Operator GTM Playbook"
+    - "Paul Graham — Do Things That Do Not Scale"
+    - "Eric Ries — Lean Startup"
 ---
 # SaaS Metrics Calculator
 

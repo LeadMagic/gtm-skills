@@ -11,7 +11,10 @@ metadata:
   author: LeadMagic
   category: ai-agents
   tags: [ai-agents, guardrails, safety, compliance, controls]
-  frameworks: [AI Safety Framework, Anthropic Constitutional AI Principles]
+  frameworks:
+    - "AI Safety Framework"
+    - "Anthropic Constitutional AI Principles"
+    - "Anthropic — Agent Skills Progressive Disclosure"
 ---
 
 # Agent Guardrails

@@ -377,6 +377,16 @@ Before delivering, verify:
    AI agents can't read it. Fix: DESIGN.md in markdown, version controlled,
    linked from all agent configuration files.
 
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
 ## Related Skills
 
 - `claude-design` — Design process for one-off HTML artifacts

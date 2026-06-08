@@ -15,7 +15,10 @@ metadata:
   category: founder-led
   tags: [soc2, compliance, security, enterprise, saas]
   related_skills: [building-saas, saas-metrics-calculator]
-  frameworks: [AICPA Trust Services Criteria, SOC2 Type II Framework]
+  frameworks:
+    - "AICPA Trust Services Criteria"
+    - "SOC2 Type II Framework"
+    - "Paul Graham — Do Things That Do Not Scale"
 ---
 
 # SOC2 Compliance

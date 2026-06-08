@@ -275,6 +275,16 @@ Before delivering, verify:
    opportunity cost of the transition period are real costs. Fix: Include all
    costs in Year 1. Model 3 years to amortize one-time costs.
 
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
 ## Related Skills
 
 - `deal-desk` — Deal structuring using ROI outputs to justify price

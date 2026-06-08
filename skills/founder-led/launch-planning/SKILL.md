@@ -12,7 +12,10 @@ metadata:
   category: founder-led
   tags: [launch, product-launch, go-to-market, product-hunt, press, channels]
   related_skills: [positioning-messaging, social-media-strategy, content-marketing, sales-enablement, founder-brand]
-  frameworks: [Operator GTM Playbook]
+  frameworks:
+    - "Operator GTM Playbook"
+    - "Paul Graham — Do Things That Do Not Scale"
+    - "Eric Ries — Lean Startup"
 ---
 # Launch Planning
 

@@ -3,10 +3,10 @@
 **189 production go-to-market playbooks for AI agents.** Stop guessing. Start executing. Every playbook is grounded in named methodologies from the people who built modern revenue science — not recycled blog posts.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-188-blue)](skills/)
-[![CI](https://github.com/leadmagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/leadmagic/gtm-skills/actions/workflows/validate.yml)
+[![Skills](https://img.shields.io/badge/skills-189-blue)](skills/)
+[![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](docs/CONTRIBUTING.md)
-[![Release](https://img.shields.io/badge/release-v0.3.0-green)](https://github.com/leadmagic/gtm-skills/releases)
+[![Release](https://img.shields.io/badge/release-v0.22.0-green)](https://github.com/LeadMagic/gtm-skills/releases)
 
 ---
 
@@ -59,11 +59,11 @@ A complete operating system for your AI agent's GTM brain. Every skill cites the
 
 **All methodology, no mysticism.** Every skill cites the specific framework it applies. Dunford's 5-component positioning, Reisert's Buckets Methodology, Force Management's MEDDICC, WbD's SPICED. You can read the source material because we tell you what it is.
 
-**Built by operators.** People running public GTM operating systems at scale — large-scale GTM programs, production GTM systems, production GTM systems. Not content marketers who read about GTM on LinkedIn and repackaged it.
+**Built by operators.** Practical playbooks from people who have run SaaS GTM systems end-to-end — research, messaging, outbound, inbound, RevOps, customer success, analytics, and expansion. Not content marketers repackaging LinkedIn advice.
 
 **Not AI-generated.** Every skill was hand-written. You'll know the difference the first time a skill produces a cold email opener that actually sounds like a human, not a marketing automation platform.
 
-**Cross-platform.** One SKILL.md file works with Claude Code, Cursor, OpenAI Codex, Hermes Agent, Windsurf, OpenCode, Gemini CLI, GitHub Copilot, Zed, VS Code, Goose — 12 systems total.
+**Cross-platform.** One SKILL.md file works with Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, and Goose.
 
 **The full bowtie.** Most GTM libraries stop at acquisition. This one covers the complete revenue surface: marketing → sales → customer success → expansion.
 
@@ -71,7 +71,7 @@ A complete operating system for your AI agent's GTM brain. Every skill cites the
 
 ## Who Built This
 
-GTM Blueprints is built and maintained by **Jesse Ouellette** — AI growth expert, email delivery infrastructure operator, and bootstrapped SaaS founder of [LeadMagic](https://leadmagic.io).
+GTM Blueprints is built and maintained by **Jesse Ouellette** — AI growth expert, SaaS GTM operator, and founder of [LeadMagic](https://leadmagic.io).
 
 Every skill in this library draws from battle-tested operator experience — not theory, not consulting decks, not content marketing.
 
@@ -122,26 +122,25 @@ Skills are grounded in named methodologies from the people who invented modern r
 
 ```bash
 # Claude Code — full library
-claude plugins add leadmagic/gtm-skills
-claude skills install leadmagic/gtm-skills
+./install.sh
 
-# Install a specific category only
-claude skills install leadmagic/gtm-skills --category outbound
-claude skills install leadmagic/gtm-skills --category abm
-claude skills install leadmagic/gtm-skills --category founder-led
+# Non-interactive examples
+./install.sh --target hermes
+./install.sh --target cursor --project /path/to/project
+./install.sh --target all --dry-run
 ```
 
-Works with 12 AI systems: Claude Code · Cursor · OpenAI Codex · Hermes Agent · Windsurf · OpenCode · Gemini CLI · GitHub Copilot · Zed · VS Code · Goose. See [install docs](docs/INSTALL.md).
+Works with Claude Code · Cursor · Codex · Hermes · Windsurf · OpenCode · Gemini CLI · Copilot · Zed · VS Code · Goose. See [install docs](docs/INSTALL.md).
 
 ---
 
 ## Share This
 
 ```text
-Just found the most comprehensive GTM skill library for AI agents — 189 playbooks across 26 categories. Built by operators running public GTM operating systems, not content marketers. Works with Claude Code, Cursor, Codex, Hermes. github.com/leadmagic/gtm-skills
+Just found a serious GTM skill library for AI agents — 189 playbooks across 26 categories. Framework-cited sales, marketing, CS, ABM, PLG, RevOps, analytics, and founder-led SaaS workflows. github.com/LeadMagic/gtm-skills
 ```
 
-[Share on X/Twitter](https://twitter.com/intent/tweet?text=Just%20found%20the%20most%20comprehensive%20GTM%20skill%20library%20for%20AI%20agents%20%E2%80%94%20189%20playbooks%20across%2026%20categories.%20Sales,%20marketing,%20CS,%20ABM,%20AI%20agents.%20Works%20with%20Claude%20Code,%20Cursor,%20Codex,%20Hermes.&url=https://github.com/leadmagic/gtm-skills) · [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/leadmagic/gtm-skills)
+[Share on X/Twitter](https://twitter.com/intent/tweet?text=Just%20found%20a%20serious%20GTM%20skill%20library%20for%20AI%20agents%20%E2%80%94%20189%20playbooks%20across%2026%20categories.%20Framework-cited%20sales,%20marketing,%20CS,%20ABM,%20PLG,%20RevOps,%20analytics,%20and%20founder-led%20SaaS%20workflows.&url=https://github.com/LeadMagic/gtm-skills) · [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/LeadMagic/gtm-skills)
 
 ---
 

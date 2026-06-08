@@ -12,7 +12,10 @@ metadata:
   category: founder-led
   tags: [lead-magnets, content, conversion, gated-content, lead-gen, free-tools]
   related_skills: [content-marketing, landing-pages, copywriting, roi-calculator, founder-brand]
-  frameworks: [Operator GTM Playbook]
+  frameworks:
+    - "Operator GTM Playbook"
+    - "Paul Graham — Do Things That Do Not Scale"
+    - "Eric Ries — Lean Startup"
 ---
 # Lead Magnets
 

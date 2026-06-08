@@ -12,7 +12,10 @@ metadata:
   category: founder-led
   tags: [startup-communities, accelerators, incubators, co-founders, networking, global-startups]
   related_skills: [co-founder-dynamics, yc-ecosystem, fundraising-strategy, engineer-to-founder, founder-brand]
-  frameworks: [Operator GTM Playbook]
+  frameworks:
+    - "Operator GTM Playbook"
+    - "Paul Graham — Do Things That Do Not Scale"
+    - "Eric Ries — Lean Startup"
 ---
 # Startup Communities
 

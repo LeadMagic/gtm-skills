@@ -2,147 +2,136 @@
 
 GTM Blueprints follow the [Agent Skills open standard](https://agentskills.io/specification). Every skill is a `SKILL.md` file with YAML frontmatter and Markdown body. Skills work anywhere the standard is supported.
 
-## Supported Systems — 15 Platforms
+## Supported Systems — 11 Platforms
 
-| # | System | Install Method | Skill Path | Auto-Discovery |
+These are the systems in the repo compatibility string. The TUI installer supports all of them.
+
+| # | System | TUI Key | Install Method | Path / Behavior |
 |---|---|---|---|---|
-| 1 | **Claude Code** | `claude plugins add leadmagic/gtm-skills` | `.claude/skills/` or `~/.claude/skills/` | Yes — reads all descriptions at startup |
-| 2 | **Cursor** | Copy to `.cursor/skills/` or reads `.claude/skills/` | `.cursor/skills/` | Yes — Cursor 0.46+ supports Agent Skills |
-| 3 | **OpenAI Codex** | Copy to `.agents/skills/` or `~/.agents/skills/` | `.agents/skills/` | Yes — reads `AGENTS.md` at project root |
-| 4 | **Hermes Agent** | `hermes skills install leadmagic/gtm-skills` | `~/.hermes/skills/` or `.hermes/skills/` | Yes — full spec compliance |
-| 5 | **Windsurf** | Copy to `.windsurf/skills/` | `.windsurf/skills/` | Yes |
-| 6 | **OpenCode** | Copy to `.opencode/skills/` or `~/.config/opencode/skills/` | `.opencode/skills/` | Yes |
-| 7 | **GitHub Copilot** | Copy to `.github/copilot/skills/` | `.github/copilot/skills/` | Yes |
-| 8 | **Gemini CLI** | Copy to `.claude/skills/` (standard path) | `.claude/skills/` | Yes |
-| 9 | **Zed** | Reads `AGENTS.md` at project root | Project root | Partial — reads AGENTS.md index |
-| 10 | **VS Code (Copilot)** | Copy to `.github/copilot/skills/` | `.github/copilot/skills/` | Yes — via Copilot extension |
-| 11 | **Goose (Block)** | Copy to `.goose/skills/` | `.goose/skills/` | Yes |
-| 12 | **Antigravity (Google)** | Copy to `.agent/skills/` or `~/.gemini/antigravity/skills/` | `.agent/skills/` | Yes |
-| 13 | **Claude.ai (Projects)** | Upload `skills/` directory into project knowledge | Project → Add content | Manual — upload per project |
-| 14 | **Junie (JetBrains)** | Copy to `.claude/skills/` | `.claude/skills/` | Yes |
-| 15 | **Amp (Sourcegraph)** | Copy to `.claude/skills/` | `.claude/skills/` | Yes |
+| 1 | **Claude Code** | `claude` | `claude plugins add LeadMagic/gtm-skills` | Preferred plugin install |
+| 2 | **Cursor** | `cursor` | Project-local copy | `.cursor/skills/gtm-skills/` |
+| 3 | **Codex** | `codex` | `codex skills install LeadMagic/gtm-skills` or local copy | `~/.codex/skills/gtm-skills/` fallback |
+| 4 | **Hermes** | `hermes` | `hermes skills install LeadMagic/gtm-skills` or local copy | `~/.hermes/skills/gtm-skills/` fallback |
+| 5 | **Windsurf** | `windsurf` | Project-local copy | `.windsurf/skills/gtm-skills/` |
+| 6 | **OpenCode** | `opencode` | Project-local copy | `.opencode/skills/gtm-skills/` |
+| 7 | **Gemini CLI** | `gemini` | Project-local copy | `.gemini/skills/gtm-skills/` |
+| 8 | **GitHub Copilot** | `copilot` | Copy + instructions | `.github/skills/gtm-skills/` and `.github/copilot-instructions.md` |
+| 9 | **Zed** | `zed` | AGENTS.md + local copy | `AGENTS.md` and `.zed/skills/gtm-skills/` |
+| 10 | **VS Code** | `vscode` | Copy + instructions | same path as Copilot agent mode |
+| 11 | **Goose** | `goose` | Local copy | `~/.config/goose/skills/gtm-skills/` |
 
 ## How Skills Get Discovered
 
 Each system reads `name` and `description` from every skill's YAML frontmatter at startup. When your request matches a skill's description, the system loads the full skill body. You don't invoke skills by name — describe what you need and the right skill activates automatically.
 
-**Progressive disclosure:** Level 1 loads metadata (~100 tokens per skill). Level 2 loads the full SKILL.md body (<5K tokens). Level 3 loads references, scripts, and assets on demand.
+**Progressive disclosure:** Level 1 loads metadata (~100 tokens per skill). Level 2 loads the full SKILL.md body. Level 3 loads references, templates, scripts, and assets on demand.
 
-## Quick Install
+## Quick Install — TUI
 
 ```bash
-# Clone the repo
-git clone https://github.com/leadmagic/gtm-skills.git
+git clone https://github.com/LeadMagic/gtm-skills.git
 cd gtm-skills
+./install.sh
 
-# === Claude Code (recommended) ===
-claude plugins add leadmagic/gtm-skills
-claude skills install leadmagic/gtm-skills
-# Install a specific category
-claude skills install leadmagic/gtm-skills --category outbound
+# Non-interactive examples
+./install.sh --target hermes
+./install.sh --target cursor --project /path/to/project
+./install.sh --target all --dry-run
+```
 
-# === Claude Code (manual) ===
-cp -r skills/* .claude/skills/
+The installer is dependency-free Python. It uses official CLIs when available and safe local-copy fallbacks when they are not.
 
-# === Cursor ===
-cp -r skills/* .cursor/skills/
+## Quick Install — Manual
 
-# === Codex ===
-cp -r skills/* .agents/skills/
+```bash
+# Claude Code
+claude plugins add LeadMagic/gtm-skills
 
-# === Hermes Agent ===
-hermes skills install leadmagic/gtm-skills
+# Hermes Agent
+hermes skills install LeadMagic/gtm-skills
 
-# === Windsurf ===
-cp -r skills/* .windsurf/skills/
-
-# === OpenCode ===
-cp -r skills/* .opencode/skills/
-
-# === GitHub Copilot ===
-cp -r skills/* .github/copilot/skills/
-
-# === Gemini CLI ===
-cp -r skills/* .claude/skills/
-
-# === Goose ===
-cp -r skills/* .goose/skills/
-
-# === Antigravity ===
-cp -r skills/* .agent/skills/
+# Project-local systems
+cp -R . .cursor/skills/gtm-skills
+cp -R . .windsurf/skills/gtm-skills
+cp -R . .opencode/skills/gtm-skills
+cp -R . .gemini/skills/gtm-skills
 ```
 
 ## Per-System Detail
 
-### Claude Code (Anthropic)
-The primary target. Marketplace install is the cleanest path. Claude Code auto-discovers all skills at session start. Use natural language — the right skill activates based on your request.
+### Claude Code
+
+Preferred path:
 
 ```bash
-claude plugins add leadmagic/gtm-skills
-# Then just ask:
-# "Build a cold email sequence for VP Sales at Series B SaaS companies"
-# "Score this company list against our ICP"
-# "Set up a Clay waterfall enrichment workflow"
+claude plugins add LeadMagic/gtm-skills
 ```
 
-### Cursor (Anysphere)
-Cursor 0.46+ supports the Agent Skills spec natively. Place skills in `.cursor/skills/` or Cursor will read from `.claude/skills/` if present. Works with Cursor's Agent mode.
+### Cursor
 
-### OpenAI Codex
-Codex discovers skills via `AGENTS.md` at the project root. This repo's `AGENTS.md` points to the `skills/` directory. Global install: `~/.agents/skills/`. Project install: `./.agents/skills/`.
+Use the installer or copy the repo into `.cursor/skills/gtm-skills/` for project-local discovery.
 
-### Hermes Agent (Nous Research)
-Full spec compliance. Install via `hermes skills install` or copy to `~/.hermes/skills/`. Hermes reads frontmatter at session start and loads skills on trigger match.
+```bash
+./install.sh --target cursor --project /path/to/project
+```
 
-### Windsurf
-Copy skills to `.windsurf/skills/`. Windsurf's agent mode respects the Agent Skills spec.
+### Codex
 
-### OpenCode
-Copy to `.opencode/skills/` (project) or `~/.config/opencode/skills/` (global). OpenCode auto-discovers at session start.
+Use the Codex CLI if available. The installer falls back to a local copy under `~/.codex/skills/gtm-skills/`.
 
-### GitHub Copilot
-Copy to `.github/copilot/skills/`. Works in VS Code and JetBrains via the Copilot extension.
+```bash
+./install.sh --target codex
+```
 
-### Gemini CLI (Google)
-Uses the standard `.claude/skills/` directory. Copy skills there. Gemini CLI supports the full Agent Skills spec.
+### Hermes
+
+Use the Hermes CLI if available. The installer falls back to a local copy under `~/.hermes/skills/gtm-skills/`.
+
+```bash
+./install.sh --target hermes
+```
+
+### Windsurf / OpenCode / Gemini CLI
+
+Use project-local copies:
+
+```bash
+./install.sh --target windsurf --project /path/to/project
+./install.sh --target opencode --project /path/to/project
+./install.sh --target gemini --project /path/to/project
+```
+
+### Copilot / VS Code
+
+The installer copies the skills under `.github/skills/gtm-skills/` and writes `.github/copilot-instructions.md` pointing the agent to the repo index.
+
+```bash
+./install.sh --target copilot --project /path/to/project
+./install.sh --target vscode --project /path/to/project
+```
 
 ### Zed
-Zed reads `AGENTS.md` at the project root. The repo's `AGENTS.md` provides the skill index. Full skill loading is partial — Claude Code or Cursor are recommended for full skill execution.
 
-### VS Code with Copilot
-Copy skills to `.github/copilot/skills/`. The Copilot extension discovers and loads skills automatically.
+The installer writes `AGENTS.md` and copies the full skill repo under `.zed/skills/gtm-skills/`.
 
-### Goose (Block)
-Copy to `.goose/skills/`. Full spec compliance.
+```bash
+./install.sh --target zed --project /path/to/project
+```
 
-### Antigravity (Google)
-Copy to `.agent/skills/` (project) or `~/.gemini/antigravity/skills/` (global). Google's IDE with full Agent Skills support.
+### Goose
 
-### Claude.ai Projects
-Upload the `skills/` directory into a Claude.ai Project via "Add content." Skills are available within that project's conversations. No auto-install — manual upload per project.
+The installer copies the full repo under `~/.config/goose/skills/gtm-skills/`.
 
-### Junie (JetBrains)
-JetBrains' AI agent. Copy to `.claude/skills/`. Full spec compliance.
-
-### Amp (Sourcegraph)
-Copy to `.claude/skills/`. Full spec compliance.
+```bash
+./install.sh --target goose
+```
 
 ## Category Quick Reference
 
-| Category | Skills | For when you need to... |
-|---|---|---|
-| `foundation` | 5 | Define ICP, positioning, pricing, competitive intel |
-| `prospecting` | 7 | Find leads, enrich data, verify contacts, score signals |
-| `outbound` | 9 | Cold email, cold calling, deliverability, domains, inbox setup, platforms |
-| `inbound` | 4 | Triage inbound, content marketing, social selling, landing pages |
-| `sales-revops` | 6 | Enablement, meeting prep, pipeline, objections, demos, deal desk |
-| `analytics` | 8 | Campaign analytics, GTM metrics, A/B testing, experimentation, alerts, tagging |
-| `automation` | 8 | Clay, AI SDR, API enrichment, CRM, MCP, n8n, waterfall, tool stack selection |
-| `design` | 7 | Pitch decks, one-pagers, battlecards, ROI calculators, case studies, UI/UX |
-| `growth` | 4 | Churn prevention, expansion, referrals, customer marketing |
-| `founder-led` | 13 | Solo founder, brand, launches, lead magnets, sales team, metrics, SaaS building, SOC2, exit, hiring |
-| `leadmagic` | 6 | CLI, waterfall, MCP, integrations, bulk enrichment, job change |
-| `management-leadership` | 2 | Sales coaching, team management |
-| `customer-success` | 2 | CS playbooks, QBR planning |
-| `product-led-growth` | 2 | PLG strategy, freemium optimization |
-| `creative` | 3 | Copywriting, social media, graphic design |
+Run this to regenerate the complete category index from the current repository state:
+
+```bash
+node scripts/generate-indexes.js
+```
+
+The generated `AGENTS.md`, `CLAUDE.md`, `taxonomy.csv`, and `skills.lock` are the source of truth for the complete 189-skill catalog.

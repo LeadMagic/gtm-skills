@@ -11,7 +11,10 @@ metadata:
   author: LeadMagic
   category: sales-plays
   tags: [sales-plays, trigger-based, funding, signals, outbound]
-  frameworks: [Signal-Based Selling, ColdIQ Trigger Selling Framework]
+  frameworks:
+    - "Signal-Based Selling"
+    - "ColdIQ Trigger Selling Framework"
+    - "Winning by Design — SPICED"
 ---
 
 # Funding Signal Outbound Play

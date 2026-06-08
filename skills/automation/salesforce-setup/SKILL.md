@@ -141,6 +141,16 @@ catalog, dashboard specs, and enrichment integration architecture.
 5. **Report sprawl.** 50 reports nobody reads. Build 5-7 dashboards that
    answer the most important questions. Archive the rest.
 
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
 ## Related Skills
 
 - **crm-integration**: CRM configuration principles

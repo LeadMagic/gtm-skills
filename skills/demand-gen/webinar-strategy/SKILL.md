@@ -11,7 +11,10 @@ metadata:
   author: LeadMagic
   category: demand-gen
   tags: [demand-gen, webinar, virtual-event, content-marketing, lead-gen]
-  frameworks: [TOPO Webinar Framework, CEB Challenger Commercial Teaching]
+  frameworks:
+    - "TOPO Webinar Framework"
+    - "CEB Challenger Commercial Teaching"
+    - "SiriusDecisions — Demand Waterfall"
 ---
 
 # Webinar Strategy
@@ -99,6 +102,53 @@ Before delivering, verify:
 1. **Webinar as product demo.** Prospects attend for insights, not a sales pitch. Fix: 80% educational content, 20% product mention. Lead with counterintuitive insights.
 2. **One-and-done syndication.** Publishing once and moving on. Fix: one pillar piece → 15+ derivatives across channels over 30 days.
 3. **Measuring paid social on clicks.** Clicks and CPL don't equal pipeline. Fix: track pipeline generated and cost per opportunity from each channel.
+
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
+## Implementation Depth
+
+Use this section when the user asks for a finished asset, not a high-level explanation.
+
+### Diagnostic Questions
+
+1. What is the primary motion: founder-led, sales-led, product-led, partner-led, or lifecycle-led?
+2. Which ICP tier is the output for: small business, mid-market, enterprise, or mixed?
+3. What proof is available today: customer stories, usage data, third-party validation, screenshots, or none?
+4. What system will execute the work: CRM, sequencer, warehouse, support desk, product analytics, or manual workflow?
+5. What decision will the user make from this output: launch, prioritize, route, rewrite, score, coach, or measure?
+
+### Framework Application
+
+Map the recommendation explicitly to the named frameworks in this skill:
+
+- TOPO Webinar Framework: apply only the part that directly improves the requested deliverable.
+- CEB Challenger Commercial Teaching: apply only the part that directly improves the requested deliverable.
+- SiriusDecisions — Demand Waterfall: apply only the part that directly improves the requested deliverable.
+
+### Deliverable Standard
+
+A strong output from this skill includes:
+
+- A crisp diagnosis of the current situation
+- A recommended path with tradeoffs, not a generic list
+- A concrete artifact the user can use immediately: table, script, checklist, scorecard, sequence, dashboard spec, or implementation plan
+- A measurement plan with leading and lagging indicators
+- Risks and edge cases called out before execution
+
+### Adaptation Rules
+
+- For small business: reduce complexity, shorten time-to-value, and prioritize owner/operator clarity.
+- For mid-market: include workflow ownership, handoffs, integrations, and enablement assets.
+- For enterprise: include governance, risk, procurement, stakeholder mapping, and proof requirements.
+
 
 ## Related Skills
 - content-marketing, social-media-strategy, inbound-triage, pipeline-management, sales-enablement

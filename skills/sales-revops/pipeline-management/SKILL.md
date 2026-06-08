@@ -14,7 +14,10 @@ metadata:
   category: sales-revops
   tags: [pipeline, forecasting, crm, deal-management]
   related_skills: [meeting-prep, proactive-alerts, crm-integration, gtm-metrics]
-  frameworks: [Winning by Design GTM Playbook Kit, Miller Heiman Blue Sheet]
+  frameworks:
+    - "Winning by Design GTM Playbook Kit"
+    - "Miller Heiman Blue Sheet"
+    - "MEDDICC — Qualification"
 ---
 
 # Pipeline Management

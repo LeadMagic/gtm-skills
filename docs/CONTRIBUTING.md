@@ -5,7 +5,7 @@ Thanks for contributing. These skills are used by founders, sellers, and GTM ope
 ## Quick Start
 
 ```bash
-git clone https://github.com/leadmagic/gtm-skills.git
+git clone https://github.com/LeadMagic/gtm-skills.git
 cd gtm-skills
 npm run validate
 ```

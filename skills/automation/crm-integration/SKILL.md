@@ -135,6 +135,16 @@ Before delivering, verify:
 5. **No data freshness.** Old enriched fields linger forever. Fix: source and timestamp every enrichment field.
 6. **No lost reason taxonomy.** Closed-lost learning disappears. Fix: standardized lost reasons with notes.
 
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
 ## Related Skills
 
 - `hubspot-setup` — HubSpot-specific implementation

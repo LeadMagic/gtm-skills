@@ -14,7 +14,10 @@ metadata:
   category: sales-revops
   tags: [demo, scripts, presentations, product-demo]
   related_skills: [sales-enablement, meeting-prep, objection-handling, pitch-deck-builder]
-  frameworks: [Force Management CoM, Challenger Teach-Tailor-Take Control]
+  frameworks:
+    - "Force Management CoM"
+    - "Challenger Teach-Tailor-Take Control"
+    - "MEDDICC — Qualification"
 ---
 
 # Demo Scripts

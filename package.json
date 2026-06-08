@@ -1,6 +1,6 @@
 {
   "name": "gtm-skills",
-  "version": "0.21.0",
+  "version": "0.22.0",
   "description": "189 production go-to-market playbooks for AI agents across 26 categories. Framework-cited GTM skills for Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, and Goose.",
   "keywords": [
     "abm",
@@ -40,13 +40,16 @@
   "author": "LeadMagic",
   "repository": {
     "type": "git",
-    "url": "https://github.com/leadmagic/gtm-skills.git"
+    "url": "https://github.com/LeadMagic/gtm-skills.git"
   },
   "homepage": "https://leadmagic.io",
   "scripts": {
     "validate": "node scripts/validate-skills.js",
     "generate-indexes": "node scripts/generate-indexes.js",
-    "lint": "node scripts/validate-skills.js"
+    "lint": "node scripts/validate-skills.js",
+    "install:tui": "python3 scripts/install-tui.py",
+    "install:dry-run": "python3 scripts/install-tui.py --target all --dry-run",
+    "verify": "node scripts/validate-skills.js && python3 scripts/install-tui.py --target cursor --project /tmp/gtm-skills-install-test --dry-run"
   },
   "engines": {
     "node": ">=24.0.0"

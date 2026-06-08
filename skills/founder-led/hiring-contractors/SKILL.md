@@ -14,7 +14,10 @@ metadata:
   author: LeadMagic
   category: founder-led
   tags: [hiring, contractors, freelance, outsourcing, startup]
-  frameworks: [Freelance Talent Management, Upwork Enterprise Patterns]
+  frameworks:
+    - "Freelance Talent Management"
+    - "Upwork Enterprise Patterns"
+    - "Paul Graham — Do Things That Do Not Scale"
   related_skills: [hiring-agencies, building-saas, solo-founder-gtm]
 ---
 

@@ -14,7 +14,10 @@ metadata:
   author: LeadMagic
   category: automation
   tags: [tools, stack, comparison, budget, gtm-tech]
-  frameworks: [Jesse Ouellette Lean Stack, Eric Nowoslawski Agency Stack]
+  frameworks:
+    - "Jesse Ouellette Lean Stack"
+    - "Eric Nowoslawski Agency Stack"
+    - "HubSpot Academy — CRM Automation"
 ---
 
 # Tool Selection & Stack Builder
@@ -117,6 +120,16 @@ Before delivering, verify:
    before the send step.
 4. **Tool as strategy** — tools execute strategy, not define it. Build the
    process first, then select tools that support it.
+
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills
 - **clay-automation**: Clay-specific workflow design

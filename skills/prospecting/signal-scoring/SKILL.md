@@ -16,7 +16,10 @@ metadata:
   category: prospecting
   tags: [signals, scoring, intent, prioritization, triggers]
   related_skills: [icp-scoring, lead-enrichment, proactive-alerts]
-  frameworks: [ColdIQ Signal Taxonomy, Explorium Signal-Based Selling]
+  frameworks:
+    - "ColdIQ Signal Taxonomy"
+    - "Explorium Signal-Based Selling"
+    - "Aaron Ross — Predictable Revenue"
 ---
 
 # Signal Scoring

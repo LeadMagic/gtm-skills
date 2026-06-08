@@ -376,6 +376,16 @@ Before delivering, verify:
 
 8. **Running tests without a hypothesis.** "Let's just test some different subject lines and see what happens" is experimentation theater, not experimentation. Every test needs a hypothesis grounded in a behavioral rationale. Test results should update your understanding, not just tell you which random variant happened to win.
 
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
 ## Related Skills
 
 - **campaign-analytics**: Identifies what to test. Run before this skill to diagnose which metrics are underperforming and need experimentation.

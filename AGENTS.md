@@ -5,12 +5,13 @@
 ## Install
 
 ```bash
-# Claude Code
-claude plugins add leadmagic/gtm-skills
-claude skills install leadmagic/gtm-skills
+# Interactive TUI installer
+./install.sh
 
-# Copy to any agent project
-cp -r skills/* .claude/skills/
+# Non-interactive examples
+./install.sh --target hermes
+./install.sh --target cursor --project /path/to/project
+./install.sh --target all --dry-run
 ```
 
 ## Categories

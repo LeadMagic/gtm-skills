@@ -122,6 +122,16 @@ Before delivering, verify:
 5. **No confirmation gates.** Agent may mutate systems. Fix: require confirmation for writes and sends.
 6. **Inventing missing data.** Empty result means unknown, not permission to guess. Fix: return unknown or ask for more input.
 
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
 ## Related Skills
 
 - `mcp-setup` — broader MCP architecture

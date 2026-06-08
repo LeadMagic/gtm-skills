@@ -5,7 +5,7 @@
  * Enforces:
  * - AgentSkills/Claude SKILL.md structure
  * - frontmatter fields + metadata completeness
- * - exact 12-system compatibility string
+ * - exact supported-system compatibility string
  * - named framework attribution in frontmatter and body
  * - output format, quality check, pitfalls, related skills
  * - no duplicate core sections
@@ -35,6 +35,19 @@ const REQUIRED_SECTIONS = [
   '## Related Skills',
 ];
 const ATTRIBUTION_SECTIONS = ['## Authoritative Foundations', '## Frameworks Referenced'];
+const ARTIFACT_REQUIRED_CATEGORIES = new Set([
+  'analytics',
+  'automation',
+  'design',
+  'leadmagic',
+  'sequencing-tools',
+  'tools',
+]);
+const REQUIRED_ARTIFACTS = [
+  'references/framework-notes.md',
+  'templates/output-template.md',
+  'scripts/check-output.py',
+];
 const DUPLICATE_CHECK_SECTIONS = [
   ...REQUIRED_SECTIONS,
   '## Authoritative Foundations',
@@ -220,7 +233,7 @@ for (const skill of skills) {
   }
 
   if (fm.compatibility !== EXPECTED_COMPATIBILITY) {
-    console.error(`❌ ${skillId}: compatibility must exactly match the 12-system compatibility string`);
+    console.error(`❌ ${skillId}: compatibility must exactly match the supported-system compatibility string`);
     errors++; skillErrors++;
   }
 
@@ -237,8 +250,8 @@ for (const skill of skills) {
     console.error(`❌ ${skillId}: metadata.tags must contain at least 3 tags`);
     errors++; skillErrors++;
   }
-  if (frameworks.length < 1) {
-    console.error(`❌ ${skillId}: metadata.frameworks must contain at least 1 named framework/source`);
+  if (frameworks.length < 3) {
+    console.error(`❌ ${skillId}: metadata.frameworks must contain at least 3 named frameworks/sources`);
     errors++; skillErrors++;
   }
 
@@ -261,6 +274,20 @@ for (const skill of skills) {
   if (!ATTRIBUTION_SECTIONS.some(section => content.includes(section))) {
     console.error(`❌ ${skillId}: missing body-level attribution section (${ATTRIBUTION_SECTIONS.join(' or ')})`);
     errors++; skillErrors++;
+  }
+
+  if (ARTIFACT_REQUIRED_CATEGORIES.has(skill.category)) {
+    if (!content.includes('## Execution Artifacts')) {
+      console.error(`❌ ${skillId}: artifact-heavy category missing '## Execution Artifacts' section`);
+      errors++; skillErrors++;
+    }
+    for (const relArtifact of REQUIRED_ARTIFACTS) {
+      const artifactPath = path.join(path.dirname(skill.path), relArtifact);
+      if (!fs.existsSync(artifactPath)) {
+        console.error(`❌ ${skillId}: missing required artifact '${relArtifact}'`);
+        errors++; skillErrors++;
+      }
+    }
   }
 
   for (const section of DUPLICATE_CHECK_SECTIONS) {

@@ -217,6 +217,16 @@ setup, and conversion event map.
 5. **3P dependency without 1P transition.** 3P data is dying. 1P data is the
    future. Run both now, actively build 1P infrastructure.
 
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
 ## Related Skills
 
 - **attribution**: Multi-touch attribution models

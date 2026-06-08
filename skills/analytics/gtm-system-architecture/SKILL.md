@@ -158,6 +158,16 @@ implementation roadmap with 90-day priorities, and measurement dashboard.
 5. **GTM model owned by one function.** GTM alignment requires sales,
    marketing, and CS leadership in the same room with shared metrics.
 
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
 ## Related Skills
 
 - **gtm-metrics**: Model measurement and dashboards

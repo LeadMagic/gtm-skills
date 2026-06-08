@@ -12,7 +12,10 @@ metadata:
   category: analytics
   tags: [campaign, analytics, metrics, copy-analysis, benchmarking, optimization]
   related_skills: [a-b-testing, deliverability-monitoring, attribution, gtm-metrics]
-  frameworks: [Winning by Design Bowtie Model, David Skok SaaS Metrics]
+  frameworks:
+    - "Winning by Design Bowtie Model"
+    - "David Skok SaaS Metrics"
+    - "Avinash Kaushik — Digital Marketing Measurement Model"
 ---
 # Campaign Analytics
 
@@ -407,6 +410,16 @@ Single-touch attribution overstates the importance of first and last touches:
 2. **Assign weighted credit**: Email 1 (10%), Email 2 (15%), Email 3 (25%), LinkedIn (20%), Call (30%). Weight later touches higher but don't zero out early touches.
 3. **Calculate touch efficiency**: touches per meeting. If average is 8+ touches per meeting, sequence may be too long or targeting too broad.
 4. **Identify optimal sequence length**: at which touch does marginal reply rate drop below 0.2%? Cut the sequence there.
+
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills
 

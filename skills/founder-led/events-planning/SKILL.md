@@ -13,7 +13,10 @@ metadata:
   author: LeadMagic
   category: founder-led
   tags: [events, conferences, webinars, community, field-marketing]
-  frameworks: [B2B Event ROI Framework, Field Marketing Playbook]
+  frameworks:
+    - "B2B Event ROI Framework"
+    - "Field Marketing Playbook"
+    - "Paul Graham — Do Things That Do Not Scale"
   related_skills: [marketing-strategy, launch-planning, content-distribution]
 ---
 

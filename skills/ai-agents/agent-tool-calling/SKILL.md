@@ -11,7 +11,10 @@ metadata:
   author: LeadMagic
   category: ai-agents
   tags: [ai-agents, tool-calling, MCP, function-calling, API]
-  frameworks: [MCP Protocol, Anthropic Tool Use Best Practices]
+  frameworks:
+    - "MCP Protocol"
+    - "Anthropic Tool Use Best Practices"
+    - "Anthropic — Agent Skills Progressive Disclosure"
 ---
 
 # Agent Tool Calling

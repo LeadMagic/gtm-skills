@@ -11,7 +11,10 @@ metadata:
   author: LeadMagic
   category: lifecycle
   tags: [lifecycle, re-engagement, win-back, reactivation, dormant]
-  frameworks: [Win-Back Campaign Framework, Retention Science Methodology]
+  frameworks:
+    - "Win-Back Campaign Framework"
+    - "Retention Science Methodology"
+    - "Reforge — Lifecycle Marketing"
 ---
 
 # Re-Engagement Campaigns

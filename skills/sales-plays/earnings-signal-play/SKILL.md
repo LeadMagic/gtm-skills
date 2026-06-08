@@ -11,7 +11,10 @@ metadata:
   author: LeadMagic
   category: sales-plays
   tags: [sales-plays, earnings, public-companies, trigger-based, enterprise]
-  frameworks: [Signal-Based Selling, Gartner Strategic Account Planning]
+  frameworks:
+    - "Signal-Based Selling"
+    - "Gartner Strategic Account Planning"
+    - "Winning by Design — SPICED"
 ---
 
 # Earnings Call Signal Play

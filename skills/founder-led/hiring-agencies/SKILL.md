@@ -13,7 +13,10 @@ metadata:
   author: LeadMagic
   category: founder-led
   tags: [agencies, outsourcing, gtm, marketing, development]
-  frameworks: [Agency Selection Framework, SaaStr Agency Hiring Guide]
+  frameworks:
+    - "Agency Selection Framework"
+    - "SaaStr Agency Hiring Guide"
+    - "Paul Graham — Do Things That Do Not Scale"
   related_skills: [hiring-contractors, sales-team-building, tool-selection-stack]
 ---
 

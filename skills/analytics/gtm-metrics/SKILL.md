@@ -415,6 +415,16 @@ Before delivering, verify:
 
 7. **Reporting metrics without cohort context.** "NRR improved from 95% to 105%" sounds great — unless the improvement is because you stopped acquiring new customers and only retained the best ones. Cohort analysis reveals whether metric improvements reflect genuine business improvement or composition effects.
 
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
 ## Related Skills
 
 - **saas-metrics-calculator**: Interactive calculator for scenario modeling. Use this skill for board-ready dashboards; use the calculator for what-if analysis.

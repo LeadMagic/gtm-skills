@@ -1,0 +1,18 @@
+# Local agent/session state
+.hermes/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Node/cache artifacts
+node_modules/
+.npm/
+
+# OS/editor noise
+.DS_Store
+*.swp
+*.swo
+
+# Local installer smoke-test output
+gtm-skills-install-test/

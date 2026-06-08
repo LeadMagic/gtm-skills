@@ -11,7 +11,10 @@ metadata:
   author: LeadMagic
   category: content-seo
   tags: [content-seo, pillar-pages, topic-clusters, cornerstone-content, seo]
-  frameworks: [HubSpot Topic Cluster Model, Animalz Content Strategy]
+  frameworks:
+    - "HubSpot Topic Cluster Model"
+    - "Animalz Content Strategy"
+    - "Google Search Central — SEO Starter Guide"
 ---
 
 # Pillar Pages & Topic Clusters
@@ -107,6 +110,43 @@ Before delivering, verify:
 1. **Writing for search engines, not humans.** Keyword-stuffed content that reads like a robot wrote it. Fix: write for your ICP first, optimize for search second.
 2. **Publishing and praying.** Creating content without a distribution plan. Fix: every piece gets a 30-day promotion calendar across email, social, and paid.
 3. **Ignoring content freshness.** 2-year-old content with outdated data and examples still ranking. Fix: quarterly content audit — update or retire stale pieces.
+
+## Implementation Depth
+
+Use this section when the user asks for a finished asset, not a high-level explanation.
+
+### Diagnostic Questions
+
+1. What is the primary motion: founder-led, sales-led, product-led, partner-led, or lifecycle-led?
+2. Which ICP tier is the output for: small business, mid-market, enterprise, or mixed?
+3. What proof is available today: customer stories, usage data, third-party validation, screenshots, or none?
+4. What system will execute the work: CRM, sequencer, warehouse, support desk, product analytics, or manual workflow?
+5. What decision will the user make from this output: launch, prioritize, route, rewrite, score, coach, or measure?
+
+### Framework Application
+
+Map the recommendation explicitly to the named frameworks in this skill:
+
+- HubSpot Topic Cluster Model: apply only the part that directly improves the requested deliverable.
+- Animalz Content Strategy: apply only the part that directly improves the requested deliverable.
+- Google Search Central — SEO Starter Guide: apply only the part that directly improves the requested deliverable.
+
+### Deliverable Standard
+
+A strong output from this skill includes:
+
+- A crisp diagnosis of the current situation
+- A recommended path with tradeoffs, not a generic list
+- A concrete artifact the user can use immediately: table, script, checklist, scorecard, sequence, dashboard spec, or implementation plan
+- A measurement plan with leading and lagging indicators
+- Risks and edge cases called out before execution
+
+### Adaptation Rules
+
+- For small business: reduce complexity, shorten time-to-value, and prioritize owner/operator clarity.
+- For mid-market: include workflow ownership, handoffs, integrations, and enablement assets.
+- For enterprise: include governance, risk, procurement, stakeholder mapping, and proof requirements.
+
 
 ## Related Skills
 - seo-strategy, content-marketing, faq-seo, citation-harvesting, landing-pages

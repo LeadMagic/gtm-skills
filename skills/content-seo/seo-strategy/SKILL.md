@@ -11,7 +11,10 @@ metadata:
   author: LeadMagic
   category: content-seo
   tags: [content-seo, seo, keyword-research, search-optimization, b2b]
-  frameworks: [Ahrefs SEO Framework, Google E-E-A-T Guidelines]
+  frameworks:
+    - "Ahrefs SEO Framework"
+    - "Google E-E-A-T Guidelines"
+    - "Google Search Central — SEO Starter Guide"
 ---
 
 # B2B SEO Strategy

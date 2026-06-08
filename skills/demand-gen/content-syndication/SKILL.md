@@ -12,7 +12,10 @@ metadata:
   author: LeadMagic
   category: demand-gen
   tags: [demand-gen, content-syndication, distribution, amplification, paid-media]
-  frameworks: [Content Atomization Model, Ross Simmonds Distribution Framework]
+  frameworks:
+    - "Content Atomization Model"
+    - "Ross Simmonds Distribution Framework"
+    - "SiriusDecisions — Demand Waterfall"
 ---
 
 # Content Syndication & Distribution

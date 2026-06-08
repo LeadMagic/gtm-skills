@@ -134,11 +134,12 @@ let agents = '# GTM Blueprints — Agent Skills\n\n';
 agents += `${allSkills.length} go-to-market skills for AI coding agents. Works with Claude Code, Cursor, Codex, Windsurf, Hermes, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose.\n\n`;
 agents += '## Install\n\n';
 agents += '```bash\n';
-agents += '# Claude Code\n';
-agents += 'claude plugins add leadmagic/gtm-skills\n';
-agents += 'claude skills install leadmagic/gtm-skills\n\n';
-agents += '# Copy to any agent project\n';
-agents += 'cp -r skills/* .claude/skills/\n';
+agents += '# Interactive TUI installer\n';
+agents += './install.sh\n\n';
+agents += '# Non-interactive examples\n';
+agents += './install.sh --target hermes\n';
+agents += './install.sh --target cursor --project /path/to/project\n';
+agents += './install.sh --target all --dry-run\n';
 agents += '```\n\n';
 agents += '## Categories\n\n';
 

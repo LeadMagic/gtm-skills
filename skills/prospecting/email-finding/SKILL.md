@@ -16,7 +16,10 @@ metadata:
   category: prospecting
   tags: [email, prospecting, enrichment, discovery, contact-data]
   related_skills: [lead-finding, lead-enrichment, contact-verification, list-building]
-  frameworks: [GTMLens Waterfall, Ziellab 3-Waterfall Architecture]
+  frameworks:
+    - "GTMLens Waterfall"
+    - "Ziellab 3-Waterfall Architecture"
+    - "Aaron Ross — Predictable Revenue"
 ---
 
 # Email Finding

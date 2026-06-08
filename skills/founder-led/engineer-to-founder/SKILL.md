@@ -12,7 +12,10 @@ metadata:
   category: founder-led
   tags: [engineer, technical-founder, ic-to-ceo, solo-developer, build-in-public, indie-hacker]
   related_skills: [co-founder-dynamics, solo-founder-gtm, building-saas, founder-sales, first-hires-playbook, yc-ecosystem, vc-outreach]
-  frameworks: [Operator GTM Playbook]
+  frameworks:
+    - "Operator GTM Playbook"
+    - "Paul Graham — Do Things That Do Not Scale"
+    - "Eric Ries — Lean Startup"
 ---
 # Engineer to Founder
 

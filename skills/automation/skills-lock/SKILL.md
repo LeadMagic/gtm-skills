@@ -278,6 +278,16 @@ no way to detect it. skills.lock provides:
 This is unique to `gtm-skills` — a first-of-its-kind lock file for agent
 skills repositories.
 
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
 ## Related Skills
 
 - `agent-skills-repo-authoring` — Repository scaffolding and CI/CD

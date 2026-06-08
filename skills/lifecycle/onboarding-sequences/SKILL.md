@@ -11,7 +11,10 @@ metadata:
   author: LeadMagic
   category: lifecycle
   tags: [lifecycle, onboarding, activation, time-to-value, customer-success]
-  frameworks: [Lincoln Murphy Desired Outcome, Gainsight Onboarding Framework]
+  frameworks:
+    - "Lincoln Murphy Desired Outcome"
+    - "Gainsight Onboarding Framework"
+    - "Reforge — Lifecycle Marketing"
 ---
 
 # Customer Onboarding Sequences

@@ -11,7 +11,10 @@ metadata:
   author: LeadMagic
   category: content-seo
   tags: [content-seo, faq, featured-snippets, people-also-ask, questions]
-  frameworks: [Google Featured Snippet Optimization, FAQ Schema Best Practices]
+  frameworks:
+    - "Google Featured Snippet Optimization"
+    - "FAQ Schema Best Practices"
+    - "Google Search Central — SEO Starter Guide"
 ---
 
 # FAQ SEO

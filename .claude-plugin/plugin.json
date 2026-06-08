@@ -5,7 +5,7 @@
   "author": "LeadMagic",
   "license": "MIT",
   "homepage": "https://leadmagic.io",
-  "repository": "https://github.com/leadmagic/gtm-skills",
+  "repository": "https://github.com/LeadMagic/gtm-skills",
   "skills": [
     "skills/foundation/*/SKILL.md",
     "skills/prospecting/*/SKILL.md",

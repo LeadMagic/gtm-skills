@@ -12,7 +12,10 @@ metadata:
   category: founder-led
   tags: [yc, y-combinator, startup-school, accelerator, fundraising, demo-day, paul-graham]
   related_skills: [fundraising-strategy, co-founder-dynamics, building-saas, solo-founder-gtm, pitch-deck-builder, first-hires-playbook]
-  frameworks: [Operator GTM Playbook]
+  frameworks:
+    - "Operator GTM Playbook"
+    - "Paul Graham — Do Things That Do Not Scale"
+    - "Eric Ries — Lean Startup"
 ---
 # YC Ecosystem
 

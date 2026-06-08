@@ -15,7 +15,10 @@ metadata:
   category: design
   tags: [case-studies, customer-stories, proof, content, sales]
   related_skills: [customer-marketing, sales-enablement, roi-calculator]
-  frameworks: [Challenge-Solution-Results, Before-After-Bridge]
+  frameworks:
+    - "Challenge-Solution-Results"
+    - "Before-After-Bridge"
+    - "Nielsen Norman Group — Usability Heuristics"
 ---
 
 # Case Study Builder
@@ -144,6 +147,16 @@ full version (for late-stage deals, website, sales portal).
 
 5. **One format for everything.** Sales needs a 1-pager. Marketing needs a
    story. Website needs both. Build both formats.
+
+## Execution Artifacts
+
+This skill includes lightweight artifacts the agent can load on demand:
+
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
+
+Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills
 
