@@ -26,10 +26,11 @@ and scaled personalization. This tier uses the same methodology as 1-to-1 and
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **TOPO Programmatic ABM** — used as the named operating framework for this playbook.
-- **Clay Automation Patterns** — used as the named operating framework for this playbook.
+- **TOPO Programmatic ABM.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Clay Automation Patterns.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **ITSMA — Account-Based Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Scale ABM to more accounts"

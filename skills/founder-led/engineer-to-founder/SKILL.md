@@ -1,9 +1,7 @@
 ---
 name: engineer-to-founder
 description: >-
-  Engineer To Founder playbook for GTM agents — strategy, workflow, templates,
-  operating guidance, and quality checks. Use when the user asks for engineer to
-  founder work, implementation help, or an agent-ready deliverable.
+  Translate engineering strengths into founder-led GTM: customer discovery, positioning, demos, technical proof, founder sales habits, and first repeatable motion. Use when a technical founder needs to sell, do customer interviews, explain value without feature dumping, or build GTM confidence.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -13,9 +11,9 @@ metadata:
   tags: [engineer, technical-founder, ic-to-ceo, solo-developer, build-in-public, indie-hacker]
   related_skills: [co-founder-dynamics, solo-founder-gtm, building-saas, founder-sales, first-hires-playbook, yc-ecosystem, vc-outreach]
   frameworks:
-    - "Operator GTM Playbook"
-    - "Paul Graham — Do Things That Do Not Scale"
-    - "Eric Ries — Lean Startup"
+    - "Steve Blank — Customer Development"
+    - "Paul Graham — Founder Mode"
+    - "April Dunford — Positioning"
 ---
 # Engineer to Founder
 

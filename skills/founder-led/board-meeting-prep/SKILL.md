@@ -34,75 +34,13 @@ conversations.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Brad Feld — Startup Boards (board mechanics and dynamics)** — used as the named operating framework for this playbook.
-- **Fred Wilson (Union Square Ventures) — Board meeting philosophy** — used as the named operating framework for this playbook.
-- **Matt Blumberg — Startup CEO (board management chapter)** — used as the named operating framework for this playbook.
-- **Elad Gil — High Growth Handbook (working with boards)** — used as the named operating framework for this playbook.
-- **Jason Lemkin (SaaStr) — What VCs actually want in board decks** — used as the named operating framework for this playbook.
-- **--** — used as the named operating framework for this playbook.
-- **Send draft metrics and 3 key topics** — used as the named operating framework for this playbook.
-- **Ask: "What are you most concerned about? What would make this a great meeting for you?** — used as the named operating framework for this playbook.
-- **Surface disagreements BEFORE the meeting — never ambush a board member in front of others** — used as the named operating framework for this playbook.
-- **Identify who needs pre-alignment on specific decisions** — used as the named operating framework for this playbook.
-- **Board deck (PDF — no live Google Slides surprises)** — used as the named operating framework for this playbook.
-- **Financial package (P&L, cash flow, headcount)** — used as the named operating framework for this playbook.
-- **Agenda with time allocations** — used as the named operating framework for this playbook.
-- **Any decisions requiring a vote** — used as the named operating framework for this playbook.
-- **Ask: "Please read before the meeting. We'll spend 5 minutes on review, then dive into discussion.** — used as the named operating framework for this playbook.
-- ****Green:** On or above plan** — used as the named operating framework for this playbook.
-- ****Yellow:** 5-15% below plan, or declining trend** — used as the named operating framework for this playbook.
-- ****Red:** >15% below plan, or critical risk** — used as the named operating framework for this playbook.
-- **Hit $5.2M ARR (+22% QoQ, ahead of $5.0M plan)** — used as the named operating framework for this playbook.
-- **Launched Enterprise tier — 3 logo wins, average $85K ACV** — used as the named operating framework for this playbook.
-- **Hired VP Engineering (ex-Stripe, starts July 1)** — used as the named operating framework for this playbook.
-- **Logo churn increased 1.8% → 2.8% (SMB segment). Root cause identified:** — used as the named operating framework for this playbook.
-- **Pipeline coverage dropped 3.2x → 2.5x. AE hiring behind schedule.** — used as the named operating framework for this playbook.
-- **Approve $500K incremental S&M spend for Q3 pipeline acceleration** — used as the named operating framework for this playbook.
-- **Approve option pool increase from 12% to 15%** — used as the named operating framework for this playbook.
-- **Approve VP Engineering offer ($200K salary, 1.2%)** — used as the named operating framework for this playbook.
-- **Intros to 3 target accounts (list attached)** — used as the named operating framework for this playbook.
-- **Reference calls for Enterprise pipeline (2 deals in negotiation)** — used as the named operating framework for this playbook.
-- **12 of 16 churned customers cited "price" as reason** — used as the named operating framework for this playbook.
-- **Win rates vs Competitor X: 70% → 45% in SMB segment** — used as the named operating framework for this playbook.
-- **SMB = 35% of revenue, 60% of churn** — used as the named operating framework for this playbook.
-- **Mid-market and Enterprise segments unaffected** — used as the named operating framework for this playbook.
-- **SMB acquired customers have 6-month CAC payback vs 14-month for mid-market** — used as the named operating framework for this playbook.
-- **SMB churn makes LTV/CAC 2.1x (below 3x threshold)** — used as the named operating framework for this playbook.
-- **Mid-market LTV/CAC is 5.8x and growing** — used as the named operating framework for this playbook.
-- **Start and end on time — respect is shown in minutes** — used as the named operating framework for this playbook.
-- **Talk 50% of the time or less — the board's job is to advise, not spectate** — used as the named operating framework for this playbook.
-- **Say "I don't know" when you don't know — guessing destroys credibility** — used as the named operating framework for this playbook.
-- **Name the elephant: "The biggest risk we face right now is X** — used as the named operating framework for this playbook.
-- **Ask for specific help: "Can you intro us to [company/person]?** — used as the named operating framework for this playbook.
-- **Take notes on their advice — even if you disagree, show you heard them** — used as the named operating framework for this playbook.
-- ****Dominating board member:** "Great points, let's make sure we hear from** — used as the named operating framework for this playbook.
-- ****Side conversations:** Pause. Wait. Let silence do the work.** — used as the named operating framework for this playbook.
-- ****Rabbithole discussions:** "This is important — let's take it offline after** — used as the named operating framework for this playbook.
-- ****Disagreement on strategy:** "I'm hearing two perspectives. Let me summarize** — used as the named operating framework for this playbook.
-- **Wins: [3 headlines]** — used as the named operating framework for this playbook.
-- **Concerns: [2-3 headlines]** — used as the named operating framework for this playbook.
-- **Decisions Needed: [list]** — used as the named operating framework for this playbook.
-- **Ask of Board: [specific asks]** — used as the named operating framework for this playbook.
-- **Minutes sent: [date]** — used as the named operating framework for this playbook.
-- **Action items: [list with owners]** — used as the named operating framework for this playbook.
-- **Next meeting: [date]** — used as the named operating framework for this playbook.
-- **[ ] Pre-read sent 48-72 hours before meeting** — used as the named operating framework for this playbook.
-- **[ ] 1:1s completed with each board member before meeting** — used as the named operating framework for this playbook.
-- **[ ] Deck is 15-20 slides, not 50+ (they can read, you don't need to present every slide)** — used as the named operating framework for this playbook.
-- **[ ] Metrics are color-coded and trended (single data point is useless)** — used as the named operating framework for this playbook.
-- **[ ] Every strategic topic has options + recommendation (not just "what do you think?")** — used as the named operating framework for this playbook.
-- **[ ] Bad news is on slide 3, not slide 18** — used as the named operating framework for this playbook.
-- **[ ] Specific asks of board members (intros, candidates, advice — not generic "help us grow")** — used as the named operating framework for this playbook.
-- **[ ] Time allocations on every agenda item (and you stick to them)** — used as the named operating framework for this playbook.
-- **[ ] Executive session scheduled (standard governance practice)** — used as the named operating framework for this playbook.
-- **[ ] Minutes and action items sent within 24 hours** — used as the named operating framework for this playbook.
-- **`financial-modeling` — SaaS P&L, runway, scenario planning** — used as the named operating framework for this playbook.
-- **`saas-metrics-calculator` — Complete metrics with stage benchmarks** — used as the named operating framework for this playbook.
-- **`fundraising-strategy` — Fundraising process, term sheets** — used as the named operating framework for this playbook.
-- **`investor-updates` — Monthly investor communications** — used as the named operating framework for this playbook.
-- **`pitch-deck-builder` — Slide-by-slide deck construction** — used as the named operating framework for this playbook.
+- **Brad Feld — Startup Boards (board mechanics and dynamics).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Fred Wilson (Union Square Ventures) — Board meeting philosophy.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Matt Blumberg — Startup CEO (board management chapter).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Elad Gil — High Growth Handbook (working with boards).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Jason Lemkin (SaaStr) — What VCs actually want in board decks.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

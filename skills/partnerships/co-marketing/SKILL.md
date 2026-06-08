@@ -27,10 +27,11 @@ and pipeline splitting.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Co-Marketing Playbook** — used as the named operating framework for this playbook.
-- **Crossbeam Partner-Led Growth** — used as the named operating framework for this playbook.
+- **Co-Marketing Playbook.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Crossbeam Partner-Led Growth.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Crossbeam — Ecosystem-Led Growth.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Run a co-marketing campaign"

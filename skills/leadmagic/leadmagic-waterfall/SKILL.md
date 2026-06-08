@@ -16,7 +16,7 @@ metadata:
   tags: [leadmagic, clay, waterfall, enrichment, email-finding]
   related_skills: [clay-automation, email-finding, contact-verification, waterfall-enrichment]
   frameworks:
-    - "GTMLens 5-Layer Waterfall"
+    - "DAMA-DMBOK Data Quality Dimensions"
     - "Ziellab 3-Waterfall Architecture"
     - "LeadMagic Public Documentation — B2B Data Enrichment"
 ---
@@ -34,10 +34,11 @@ resolution for enterprise accounts.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **GTMLens 5-Layer Waterfall** — used as the named operating framework for this playbook.
-- **Ziellab 3-Waterfall Architecture** — used as the named operating framework for this playbook.
+- **DAMA-DMBOK Data Quality Dimensions.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Ziellab 3-Waterfall Architecture.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **LeadMagic Public Documentation — B2B Data Enrichment.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

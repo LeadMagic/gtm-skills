@@ -35,11 +35,11 @@ infrastructure that works when cookies don't.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Privacy-First Measurement** — used as the named operating framework for this playbook.
-- **Server-Side Tagging Architecture** — used as the named operating framework for this playbook.
-- **1P Data Strategy** — used as the named operating framework for this playbook.
+- **Privacy-First Measurement.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Server-Side Tagging Architecture.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **1P Data Strategy.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

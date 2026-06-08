@@ -27,10 +27,11 @@ by 30-50%. This skill covers design and execution.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Lincoln Murphy Desired Outcome** — used as the named operating framework for this playbook.
-- **Gainsight Onboarding Framework** — used as the named operating framework for this playbook.
+- **Lincoln Murphy Desired Outcome.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Gainsight Onboarding Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Reforge — Lifecycle Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Build onboarding sequence"

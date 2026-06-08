@@ -32,10 +32,11 @@ find HubSpot too rigid and Salesforce too heavy.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Attio Programmable CRM Model** — used as the named operating framework for this playbook.
-- **Modern CRM Architecture** — used as the named operating framework for this playbook.
+- **Attio Programmable CRM Model.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Modern CRM Architecture.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **HubSpot Academy — CRM Automation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

@@ -17,7 +17,7 @@ metadata:
   tags: [email, prospecting, enrichment, discovery, contact-data]
   related_skills: [lead-finding, lead-enrichment, contact-verification, list-building]
   frameworks:
-    - "GTMLens Waterfall"
+    - "DAMA-DMBOK Data Quality Dimensions"
     - "Ziellab 3-Waterfall Architecture"
     - "Aaron Ross — Predictable Revenue"
 ---
@@ -50,7 +50,7 @@ Do NOT use for:
 
 ## Authoritative Foundations
 
-Email finding follows waterfall enrichment principles from GTMLens (5-layer
+Email finding follows waterfall enrichment principles from DAMA-DMBOK data-quality dimensions (waterfall
 waterfall: Apollo → ZoomInfo → PDL → Claygent → Claude normalization) and
 Ziellab's 3-waterfall architecture (separate company, email, and phone
 waterfalls run independently).

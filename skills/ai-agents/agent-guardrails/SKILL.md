@@ -27,10 +27,11 @@ This skill covers the full guardrail stack.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **AI Safety Framework** — used as the named operating framework for this playbook.
-- **Anthropic Constitutional AI Principles** — used as the named operating framework for this playbook.
+- **AI Safety Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Anthropic Constitutional AI Principles.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Anthropic — Agent Skills Progressive Disclosure.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Add guardrails to my agents"

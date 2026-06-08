@@ -27,10 +27,11 @@ sequences for both prospects and customers.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Win-Back Campaign Framework** — used as the named operating framework for this playbook.
-- **Retention Science Methodology** — used as the named operating framework for this playbook.
+- **Win-Back Campaign Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Retention Science Methodology.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Reforge — Lifecycle Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Re-engage dormant leads"

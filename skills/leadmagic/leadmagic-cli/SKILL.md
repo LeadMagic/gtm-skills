@@ -32,10 +32,11 @@ platforms — all without leaving the terminal.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **CLI Design Patterns** — used as the named operating framework for this playbook.
-- **Enrichment Workflow Automation** — used as the named operating framework for this playbook.
+- **CLI Design Patterns.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Enrichment Workflow Automation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **LeadMagic Public Documentation — B2B Data Enrichment.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

@@ -67,4 +67,4 @@ Local installer:
 
 ## Quality Standard
 
-Every skill must be tactical, artifact-first, framework-cited, marketplace-discoverable, and clean for a public repository. See docs/SKILL_AUTHORING.md.
+Every skill must be tactical, artifact-first, source-backed, marketplace-discoverable, and clean for a public repository. See docs/SKILL_AUTHORING.md and docs/SOURCE_STANDARDS.md. Benchmark positioning and known adjacent repos are tracked in docs/BENCHMARKS.md.

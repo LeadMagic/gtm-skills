@@ -13,7 +13,7 @@ metadata:
   tags: [waterfall, enrichment, providers, coverage]
   related_skills: [lead-enrichment, clay-automation, email-finding, contact-verification]
   frameworks:
-    - "GTMLens 5-Layer Waterfall"
+    - "DAMA-DMBOK Data Quality Dimensions"
     - "Ziellab 3-Waterfall Architecture"
     - "HubSpot Academy — CRM Automation"
 ---
@@ -32,10 +32,11 @@ ordering and verification integration.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **GTMLens 5-Layer Waterfall** — used as the named operating framework for this playbook.
-- **Ziellab 3-Waterfall Architecture** — used as the named operating framework for this playbook.
+- **DAMA-DMBOK Data Quality Dimensions.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Ziellab 3-Waterfall Architecture.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **HubSpot Academy — CRM Automation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

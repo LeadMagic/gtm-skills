@@ -30,6 +30,7 @@ Rules:
 - `compatibility` must be under 500 characters.
 - Descriptions must include trigger language so agents know when to load the skill.
 - Every skill must cite named authorities, frameworks, vendor docs, or primary sources.
+- Source coverage must pass the rubric in [SOURCE_STANDARDS.md](SOURCE_STANDARDS.md): no anonymous "best practices", no placeholder framework names, no internal/private sources.
 
 ## Body Structure
 

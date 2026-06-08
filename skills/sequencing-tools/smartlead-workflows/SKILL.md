@@ -27,10 +27,11 @@ sending at scale.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Smartlead Best Practices** — used as the named operating framework for this playbook.
-- **Eric Nowoslawski Cold Email Infrastructure** — used as the named operating framework for this playbook.
+- **Smartlead Best Practices.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Eric Nowoslawski Cold Email Infrastructure.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Outreach — Sales Engagement Cadence Design.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Set up Smartlead"

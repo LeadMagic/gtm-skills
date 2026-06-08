@@ -17,7 +17,7 @@ metadata:
   tags: [enrichment, data-strategy, providers, architecture, build-vs-buy]
   related_skills: [lead-enrichment, waterfall-enrichment, clay-automation, api-enrichment]
   frameworks:
-    - "GTMLens Provider Comparison"
+    - "DAMA-DMBOK Data Quality Dimensions"
     - "Ziellab 3-Waterfall Architecture"
     - "Aaron Ross — Predictable Revenue"
 ---
@@ -44,7 +44,7 @@ enrichment architecture tailored to the user's ICP, budget, and volume.
 
 ## Authoritative Foundations
 
-The enrichment provider landscape is well-documented by GTMLens, Ziellab, and
+The enrichment provider landscape is well-documented by DAMA-DMBOK, Open Data Institute, Ziellab, and
 the GTM engineering community. The core design principle: no single provider
 covers more than 60-75% of B2B contacts. Waterfall enrichment — chaining
 multiple providers in sequence — is the standard pattern for hitting 85-92%

@@ -27,10 +27,11 @@ tracking for GTM agents.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Agent Observability Framework** — used as the named operating framework for this playbook.
-- **LLM Ops Best Practices** — used as the named operating framework for this playbook.
+- **Agent Observability Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **LLM Ops Best Practices.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Anthropic — Agent Skills Progressive Disclosure.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Monitor my agents"

@@ -1,9 +1,7 @@
 ---
 name: startup-communities
 description: >-
-  Startup Communities playbook for GTM agents — strategy, workflow, templates,
-  operating guidance, and quality checks. Use when the user asks for startup
-  communities work, implementation help, or an agent-ready deliverable.
+  Use startup communities as a GTM channel without spamming: community selection, trust-building, founder asks, launch posts, feedback loops, and referral capture. Use when entering founder communities, posting launches, finding early adopters, or turning community participation into pipeline.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -13,9 +11,9 @@ metadata:
   tags: [startup-communities, accelerators, incubators, co-founders, networking, global-startups]
   related_skills: [co-founder-dynamics, yc-ecosystem, fundraising-strategy, engineer-to-founder, founder-brand]
   frameworks:
-    - "Operator GTM Playbook"
-    - "Paul Graham — Do Things That Do Not Scale"
-    - "Eric Ries — Lean Startup"
+    - "David Spinks — Community-Led Growth"
+    - "CMX Community Strategy"
+    - "Seth Godin — Tribes"
 ---
 # Startup Communities
 
@@ -33,42 +31,11 @@ that connect you regardless of geography.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Brad Feld — Startup Communities (Boulder Thesis)** — used as the named operating framework for this playbook.
-- **Paul Graham — How to Be Silicon Valley** — used as the named operating framework for this playbook.
-- **YC — Global startup ecosystem development** — used as the named operating framework for this playbook.
-- **Steve Blank — Lean Startup and regional ecosystems** — used as the named operating framework for this playbook.
-- **Endeavor — Global entrepreneurship network** — used as the named operating framework for this playbook.
-- **--** — used as the named operating framework for this playbook.
-- **Communities to join: [list]** — used as the named operating framework for this playbook.
-- **Events to attend: [list]** — used as the named operating framework for this playbook.
-- **Online platforms: [YC Co-Founder Matching, Indie Hackers, Twitter]** — used as the named operating framework for this playbook.
-- **Tier 1 (apply now): [YC, Techstars, etc.]** — used as the named operating framework for this playbook.
-- **Tier 2 (apply next): [Seedcamp, 500, etc.]** — used as the named operating framework for this playbook.
-- **Tier 3 (if above fail): [local accelerators]** — used as the named operating framework for this playbook.
-- **Application deadlines: [dates]** — used as the named operating framework for this playbook.
-- **Daily: [HN, Twitter, Indie Hackers]** — used as the named operating framework for this playbook.
-- **Weekly: [local meetup, online community]** — used as the named operating framework for this playbook.
-- **Monthly: [founder dinner, peer group call]** — used as the named operating framework for this playbook.
-- **Quarterly: [conference, accelerator application]** — used as the named operating framework for this playbook.
-- **Online communities: [3 minimum]** — used as the named operating framework for this playbook.
-- **Conferences/year: [2-3]** — used as the named operating framework for this playbook.
-- **Founder peer group: [3-5 people, weekly call]** — used as the named operating framework for this playbook.
-- **Accelerator strategy: [which ones, when to apply]** — used as the named operating framework for this playbook.
-- **[ ] Identified 3 communities to join actively (don't spread thin across 20)** — used as the named operating framework for this playbook.
-- **[ ] HN read daily (comments, not just front page)** — used as the named operating framework for this playbook.
-- **[ ] YC Co-Founder Matching profile complete (if looking for co-founder)** — used as the named operating framework for this playbook.
-- **[ ] Accelerator applications tracked with deadlines** — used as the named operating framework for this playbook.
-- **[ ] 2-3 conferences identified for next 12 months** — used as the named operating framework for this playbook.
-- **[ ] Founder peer group established (3-5 founders at your stage)** — used as the named operating framework for this playbook.
-- **[ ] Build-in-public platform chosen and active** — used as the named operating framework for this playbook.
-- **[ ] Local meetup attended at least monthly (if in a hub)** — used as the named operating framework for this playbook.
-- **`co-founder-dynamics` — Finding and working with co-founders** — used as the named operating framework for this playbook.
-- **`yc-ecosystem` — YC application, resources, network** — used as the named operating framework for this playbook.
-- **`fundraising-strategy` — Building investor relationships** — used as the named operating framework for this playbook.
-- **`engineer-to-founder` — IC to founder transition** — used as the named operating framework for this playbook.
-- **`founder-brand` — Building a presence that attracts community to you** — used as the named operating framework for this playbook.
+- **David Spinks — Community-Led Growth.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **CMX Community Strategy.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Seth Godin — Tribes.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

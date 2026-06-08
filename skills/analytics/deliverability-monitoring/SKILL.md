@@ -1,9 +1,7 @@
 ---
 name: deliverability-monitoring
 description: >-
-  Deliverability Monitoring playbook for GTM agents — strategy, workflow, templates,
-  operating guidance, and quality checks. Use when the user asks for deliverability
-  monitoring work, implementation help, or an agent-ready deliverable.
+  Monitor outbound deliverability health across domains, inboxes, DNS, bounces, spam placement, reply rates, and reputation signals. Produces alert thresholds, dashboard spec, weekly QA checklist, and remediation playbook. Use when inboxing drops, bounce rates rise, campaigns underperform, or new infrastructure launches.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:

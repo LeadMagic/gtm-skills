@@ -27,10 +27,11 @@ cluster correctly and build semi-custom assets that feel personalized.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **TOPO ABM Scale Framework** — used as the named operating framework for this playbook.
-- **Force Management MEDDICC** — used as the named operating framework for this playbook.
+- **TOPO ABM Scale Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Force Management MEDDICC.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **ITSMA — Account-Based Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Build ABM at scale"

@@ -26,10 +26,11 @@ and MCP server architecture for GTM agents.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **MCP Protocol** — used as the named operating framework for this playbook.
-- **Anthropic Tool Use Best Practices** — used as the named operating framework for this playbook.
+- **MCP Protocol.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Anthropic Tool Use Best Practices.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Anthropic — Agent Skills Progressive Disclosure.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Give my agent access to [CRM/enrichment/etc]"

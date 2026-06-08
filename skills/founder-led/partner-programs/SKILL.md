@@ -1,9 +1,7 @@
 ---
 name: partner-programs
 description: >-
-  Partner Programs playbook for GTM agents — strategy, workflow, templates, operating
-  guidance, and quality checks. Use when the user asks for partner programs work,
-  implementation help, or an agent-ready deliverable.
+  Design partner programs for startups: partner ICP, co-marketing offers, referral mechanics, integration partners, attribution, enablement, and compensation. Use when building affiliates, referral partners, ecosystem channels, agencies, or integration-led growth.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -13,9 +11,9 @@ metadata:
   tags: [partners, channel, co-marketing, integrations, reseller, agency, referral]
   related_skills: [sales-team-building, fundraising-strategy, content-led-growth, launching-planning]
   frameworks:
-    - "Operator GTM Playbook"
-    - "Paul Graham — Do Things That Do Not Scale"
-    - "Eric Ries — Lean Startup"
+    - "Crossbeam — Partner-Led Growth"
+    - "Jay McBain — Ecosystem-Led Growth"
+    - "HubSpot Partner Program Model"
 ---
 # Partner Programs
 

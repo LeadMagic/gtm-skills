@@ -38,31 +38,14 @@ built the best-managed companies in tech.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Andy Grove — High Output Management (1:1s, task-relevant maturity)** — used as the named operating framework for this playbook.
-- **Kim Scott — Radical Candor (care personally, challenge directly)** — used as the named operating framework for this playbook.
-- **John Doerr — Measure What Matters (OKRs)** — used as the named operating framework for this playbook.
-- **Molly Graham — Giving Away Your Legos (delegation)** — used as the named operating framework for this playbook.
-- **Patty McCord — Powerful (Netflix culture, talent density)** — used as the named operating framework for this playbook.
-- **Claire Hughes Johnson — Scaling People (Stripe COO)** — used as the named operating framework for this playbook.
-- **--** — used as the named operating framework for this playbook.
-- **[ ] Weekly 1:1s with every direct report (30 min, never canceled)** — used as the named operating framework for this playbook.
-- **[ ] Feedback given in the moment (not saved for review cycle)** — used as the named operating framework for this playbook.
-- **[ ] Quarterly OKRs set with 3-5 KRs per objective** — used as the named operating framework for this playbook.
-- **[ ] Delegation ladder used for every new responsibility** — used as the named operating framework for this playbook.
-- **[ ] Team rituals documented (standup, retro, planning, all-hands)** — used as the named operating framework for this playbook.
-- **[Output item 1]** — used as the named operating framework for this playbook.
-- **[Output item 2]** — used as the named operating framework for this playbook.
-- **[Output item 3]** — used as the named operating framework for this playbook.
-- **[ ] All required sections complete** — used as the named operating framework for this playbook.
-- **[ ] Output matches the user's stated need** — used as the named operating framework for this playbook.
-- **[ ] No vague or unsupported claims** — used as the named operating framework for this playbook.
-- **[ ] Frameworks cited where applicable** — used as the named operating framework for this playbook.
-- **`sales-coaching` — Coaching framework for sales teams** — used as the named operating framework for this playbook.
-- **`first-hires-playbook` — First 10 hires** — used as the named operating framework for this playbook.
-- **`hiring-by-role` — Role-specific interview guides** — used as the named operating framework for this playbook.
-- **`employment-compliance` — Legal requirements for managing** — used as the named operating framework for this playbook.
+- **Andy Grove — High Output Management (1:1s, task-relevant maturity).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Kim Scott — Radical Candor (care personally, challenge directly).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **John Doerr — Measure What Matters (OKRs).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Molly Graham — Giving Away Your Legos (delegation).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Patty McCord — Powerful (Netflix culture, talent density).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Claire Hughes Johnson — Scaling People (Stripe COO).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

@@ -34,104 +34,14 @@ building pipeline, running the process, evaluating terms, and closing.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Jason Lemkin (SaaStr) — ARR-based fundraising benchmarks** — used as the named operating framework for this playbook.
-- **Christoph Janz (Point Nine) — SaaS napkin to unicorn** — used as the named operating framework for this playbook.
-- **Brad Feld — Venture Deals (term sheet mechanics)** — used as the named operating framework for this playbook.
-- **Mark Suster (Upfront Ventures) — VC relationship building** — used as the named operating framework for this playbook.
-- **Rob Walling — Stair Step Method (bootstrapper path)** — used as the named operating framework for this playbook.
-- **Samir Kaji (Allocate) — Fundraising data and LP dynamics** — used as the named operating framework for this playbook.
-- **--** — used as the named operating framework for this playbook.
-- **Market is winner-take-most (network effects, data moats)** — used as the named operating framework for this playbook.
-- **You need capital to capture market before competitors** — used as the named operating framework for this playbook.
-- **Your growth rate can support VC expectations (3x+ YoY at seed, 2-3x at Series A)** — used as the named operating framework for this playbook.
-- **You're building a $1B+ outcome company** — used as the named operating framework for this playbook.
-- **You want/need the network, brand, and pressure of institutional capital** — used as the named operating framework for this playbook.
-- **Market is fragmented (many winners possible)** — used as the named operating framework for this playbook.
-- **You can reach profitability on customer revenue** — used as the named operating framework for this playbook.
-- **You value control and independence above growth speed** — used as the named operating framework for this playbook.
-- **Your lifestyle business can hit $5-20M ARR without outside capital** — used as the named operating framework for this playbook.
-- **You'd rather optimize for profit than valuation** — used as the named operating framework for this playbook.
-- **Build to $1-2M ARR on customer revenue** — used as the named operating framework for this playbook.
-- **Raise from a position of strength (not desperation)** — used as the named operating framework for this playbook.
-- **Keep most equity, raise on better terms** — used as the named operating framework for this playbook.
-- **This is increasingly common and fundable** — used as the named operating framework for this playbook.
-- **MRR/ARR growth (monthly, last 6 months)** — used as the named operating framework for this playbook.
-- **Net Revenue Retention (NRR) — above 100% is excellent** — used as the named operating framework for this playbook.
-- **CAC Payback Period (months) — under 12 is good, under 6 is great** — used as the named operating framework for this playbook.
-- **Gross Margin — 70%+ for SaaS** — used as the named operating framework for this playbook.
-- **Logo churn (monthly) — under 2% is good** — used as the named operating framework for this playbook.
-- **Magic Number (net new ARR / S&M spend) — above 1.0 is efficient** — used as the named operating framework for this playbook.
-- **Fund name, partner name, check size, stage focus** — used as the named operating framework for this playbook.
-- **Thesis fit (why them specifically)** — used as the named operating framework for this playbook.
-- **Introduction source and status** — used as the named operating framework for this playbook.
-- **Meeting date, follow-up date** — used as the named operating framework for this playbook.
-- **Notes, concerns, next steps** — used as the named operating framework for this playbook.
-- **Batch first meetings into a 2-week window** — used as the named operating framework for this playbook.
-- **Tier investors: A (dream), B (strong fit), C (fallback)** — used as the named operating framework for this playbook.
-- **Meet B-tier first (practice), A-tier second (when you're sharp)** — used as the named operating framework for this playbook.
-- **Aim for 30-50 first meetings to close one round** — used as the named operating framework for this playbook.
-- **Expect 20-30% conversion from first meeting to partner meeting** — used as the named operating framework for this playbook.
-- **Expect 10-20% from partner meeting to term sheet** — used as the named operating framework for this playbook.
-- **Is this a big market? (TAM > $1B for VC-scale)** — used as the named operating framework for this playbook.
-- **Is the team exceptional? (Founder-market fit, grit, speed)** — used as the named operating framework for this playbook.
-- **Is there real traction? (Revenue, growth rate, retention, customer love)** — used as the named operating framework for this playbook.
-- **Is the timing right? (Why now, not 2 years ago or 2 years from now)** — used as the named operating framework for this playbook.
-- **Can I add value? (Network, expertise, portfolio fit)** — used as the named operating framework for this playbook.
-- **Schedule all partner meetings within a 1-week window if possible** — used as the named operating framework for this playbook.
-- **Create a sense of process: "We're in active conversations and expect terms by [date]** — used as the named operating framework for this playbook.
-- **Update all interested investors simultaneously** — used as the named operating framework for this playbook.
-- **If one term sheet arrives, notify all others immediately: "We've received a term** — used as the named operating framework for this playbook.
-- **Send updated metrics 24 hours before** — used as the named operating framework for this playbook.
-- **Prepare customer references (3-5 customers who'll take the call)** — used as the named operating framework for this playbook.
-- **Anticipate hard questions: competition, churn, CAC, market size, team gaps** — used as the named operating framework for this playbook.
-- **Have your ask ready: "We're raising $XM at $YM pre-money** — used as the named operating framework for this playbook.
-- **Reference calls: Expect 5-10 customer references. Prep your references.** — used as the named operating framework for this playbook.
-- **Legal: Your attorney reviews. NOT their attorney.** — used as the named operating framework for this playbook.
-- **No-shop clause: 30-45 days standard. Push for 30.** — used as the named operating framework for this playbook.
-- **Announcement: Coordinate with VC. Don't announce until money is in the bank.** — used as the named operating framework for this playbook.
-- **No valuation set now — converts at next priced round** — used as the named operating framework for this playbook.
-- **Usually has a valuation cap and/or discount** — used as the named operating framework for this playbook.
-- **No board seat, no governance rights** — used as the named operating framework for this playbook.
-- **Faster, cheaper legal process ($5-10K vs $30-50K)** — used as the named operating framework for this playbook.
-- **Common for pre-seed and seed** — used as the named operating framework for this playbook.
-- **Risk: over-raising on SAFEs creates a "valuation stack" that crushes Series A** — used as the named operating framework for this playbook.
-- **Sets valuation and share price now** — used as the named operating framework for this playbook.
-- **Board seat, governance rights, investor protections** — used as the named operating framework for this playbook.
-- **More legal cost and time** — used as the named operating framework for this playbook.
-- **Usually Series A and beyond** — used as the named operating framework for this playbook.
-- **Signal: priced seed rounds command premium valuations** — used as the named operating framework for this playbook.
-- ****Revenue-based financing:** Pipe, Capchase, FounderPath. Borrow against ARR.** — used as the named operating framework for this playbook.
-- ****Profit-sharing notes:** Calm Company Fund model. Share profits, not equity.** — used as the named operating framework for this playbook.
-- ****TinySeed / Earnest Capital:** Bootstrapper-friendly funds. Smaller checks,** — used as the named operating framework for this playbook.
-- ****Customer-funded growth:** Annual prepay discounts, implementation fees,** — used as the named operating framework for this playbook.
-- **Tier A: [count] funds — [names]** — used as the named operating framework for this playbook.
-- **Tier B: [count] funds** — used as the named operating framework for this playbook.
-- **Tier C: [count] funds** — used as the named operating framework for this playbook.
-- **Prep complete: [date]** — used as the named operating framework for this playbook.
-- **First meetings: [date range]** — used as the named operating framework for this playbook.
-- **Partner meetings: [date range]** — used as the named operating framework for this playbook.
-- **Term sheets expected: [date]** — used as the named operating framework for this playbook.
-- **Close: [date]** — used as the named operating framework for this playbook.
-- **NRR: X%** — used as the named operating framework for this playbook.
-- **CAC Payback: X months** — used as the named operating framework for this playbook.
-- **Gross Margin: X%** — used as the named operating framework for this playbook.
-- **Magic Number: X** — used as the named operating framework for this playbook.
-- **[ ] Pitch deck is 12-15 slides, rehearsed, customized for each meeting** — used as the named operating framework for this playbook.
-- **[ ] Financial model includes 3-year projections with assumptions documented** — used as the named operating framework for this playbook.
-- **[ ] Data room is complete and organized** — used as the named operating framework for this playbook.
-- **[ ] Investor list is researched for thesis fit, not sprayed randomly** — used as the named operating framework for this playbook.
-- **[ ] Warm introductions secured for all Tier A targets** — used as the named operating framework for this playbook.
-- **[ ] Brad Feld's Venture Deals read cover to cover** — used as the named operating framework for this playbook.
-- **[ ] SAFE vs priced round decision made with legal counsel** — used as the named operating framework for this playbook.
-- **[ ] Reference customers prepped and available** — used as the named operating framework for this playbook.
-- **[ ] Fundraising CRM tracking every interaction** — used as the named operating framework for this playbook.
-- **`financial-modeling` — SaaS P&L, runway, scenario planning** — used as the named operating framework for this playbook.
-- **`investor-updates` — Monthly investor updates, metrics, narrative** — used as the named operating framework for this playbook.
-- **`pitch-deck-builder` — Slide-by-slide structure, narrative, speaker notes** — used as the named operating framework for this playbook.
-- **`pricing-strategy` — Tier design, monetization models** — used as the named operating framework for this playbook.
-- **`cap-table-management` — Equity, option pools, dilution modeling** — used as the named operating framework for this playbook.
+- **Jason Lemkin (SaaStr) — ARR-based fundraising benchmarks.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Christoph Janz (Point Nine) — SaaS napkin to unicorn.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Brad Feld — Venture Deals (term sheet mechanics).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Mark Suster (Upfront Ventures) — VC relationship building.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Rob Walling — Stair Step Method (bootstrapper path).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Samir Kaji (Allocate) — Fundraising data and LP dynamics.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

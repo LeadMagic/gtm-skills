@@ -32,32 +32,11 @@ pipeline design, automation rules, and data hygiene.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **HubSpot — CRM, deal pipelines, lifecycle stages, marketing automation** — used as the named operating framework for this playbook.
-- **Salesforce — Object model, Flow automation, opportunity management** — used as the named operating framework for this playbook.
-- **Attio — Programmable CRM, real-time objects, list-based architecture** — used as the named operating framework for this playbook.
-- **--** — used as the named operating framework for this playbook.
-- ****Lead → Contact Auto-Convert:** When lead score > threshold, auto-convert** — used as the named operating framework for this playbook.
-- ****Enrichment Trigger:** When contact created, trigger enrichment API** — used as the named operating framework for this playbook.
-- ****Stage Validation:** Prevent skipping stages without required fields** — used as the named operating framework for this playbook.
-- **[ ] Deal stages defined with Goals + Exit Criteria per stage** — used as the named operating framework for this playbook.
-- **[ ] Required fields enforced (email, company, amount, close date)** — used as the named operating framework for this playbook.
-- **[ ] Enrichment integration live (auto-enrich on create)** — used as the named operating framework for this playbook.
-- **[ ] Duplicate detection configured** — used as the named operating framework for this playbook.
-- **[ ] Pipeline automation rules documented and tested** — used as the named operating framework for this playbook.
-- **[ ] Data hygiene audit scheduled (quarterly)** — used as the named operating framework for this playbook.
-- **[Output item 1]** — used as the named operating framework for this playbook.
-- **[Output item 2]** — used as the named operating framework for this playbook.
-- **[Output item 3]** — used as the named operating framework for this playbook.
-- **[ ] All required sections complete** — used as the named operating framework for this playbook.
-- **[ ] Output matches the user's stated need** — used as the named operating framework for this playbook.
-- **[ ] No vague or unsupported claims** — used as the named operating framework for this playbook.
-- **[ ] Frameworks cited where applicable** — used as the named operating framework for this playbook.
-- **`hubspot-setup` — HubSpot configuration** — used as the named operating framework for this playbook.
-- **`salesforce-setup` — Salesforce configuration** — used as the named operating framework for this playbook.
-- **`attio-setup` — Attio configuration** — used as the named operating framework for this playbook.
-- **`leadmagic-toolkit` — Enrichment integration** — used as the named operating framework for this playbook.
+- **HubSpot — CRM, deal pipelines, lifecycle stages, marketing automation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Salesforce — Object model, Flow automation, opportunity management.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Attio — Programmable CRM, real-time objects, list-based architecture.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

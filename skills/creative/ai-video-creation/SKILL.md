@@ -38,112 +38,13 @@ at scale.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Gary Vaynerchuk — Volume of content wins. AI makes volume possible.** — used as the named operating framework for this playbook.
-- **HeyGen/Synthesia — AI spokesperson technology** — used as the named operating framework for this playbook.
-- **Runway — Generative AI video** — used as the named operating framework for this playbook.
-- **Opus Clip — AI-powered video clipping** — used as the named operating framework for this playbook.
-- **Descript — AI-first video editing** — used as the named operating framework for this playbook.
-- **--** — used as the named operating framework for this playbook.
-- **0:00-0:10: Hook — the problem they face** — used as the named operating framework for this playbook.
-- **0:10-0:30: How [product] solves it (3 key features, outcomes-based)** — used as the named operating framework for this playbook.
-- **0:30-0:60: Screen recording + walkthrough (you record this)** — used as the named operating framework for this playbook.
-- **0:60-0:80: Social proof + results ('X teams use us, achieving Y')** — used as the named operating framework for this playbook.
-- **0:80-0:90: CTA — 'Start free trial at [URL]** — used as the named operating framework for this playbook.
-- **Paste script into ElevenLabs Text-to-Speech** — used as the named operating framework for this playbook.
-- **Pick a natural voice (Adam, Bella, or similar — test 3+)** — used as the named operating framework for this playbook.
-- **Generate. Listen. Re-generate with pacing adjustments if needed.** — used as the named operating framework for this playbook.
-- **Download .mp3** — used as the named operating framework for this playbook.
-- **Select AI avatar (matching your target audience's expectations)** — used as the named operating framework for this playbook.
-- **Upload script text** — used as the named operating framework for this playbook.
-- **Upload ElevenLabs voiceover (or use built-in TTS)** — used as the named operating framework for this playbook.
-- **Add: background (office, studio, or branded), on-screen text overlays** — used as the named operating framework for this playbook.
-- **Generate** — used as the named operating framework for this playbook.
-- **Record product walkthrough (Loom, OBS, or QuickTime)** — used as the named operating framework for this playbook.
-- **Edit to match script timing** — used as the named operating framework for this playbook.
-- **Layer 1: AI avatar video (talking head)** — used as the named operating framework for this playbook.
-- **Layer 2: Screen recording (when script references product)** — used as the named operating framework for this playbook.
-- **Layer 3: B-roll from Runway (generated visuals)** — used as the named operating framework for this playbook.
-- **Add: captions (auto-generated), background music (low, instrumental)** — used as the named operating framework for this playbook.
-- **Add: intro/outro branding** — used as the named operating framework for this playbook.
-- **Export: 1080p, 16:9** — used as the named operating framework for this playbook.
-- **Hey [first_name] — [relevant observation about their company/role]** — used as the named operating framework for this playbook.
-- **The reason I'm reaching out: [pain_point is common in their industry]** — used as the named operating framework for this playbook.
-- **We built [product] to solve exactly that. Here's what it does in 10 sec** — used as the named operating framework for this playbook.
-- **I'd love 10 minutes to show you how it works. [Calendly] in comments** — used as the named operating framework for this playbook.
-- **Record the template script with all personalization tokens clearly marked** — used as the named operating framework for this playbook.
-- **OR: Use HeyGen to generate an AI avatar video template** — used as the named operating framework for this playbook.
-- **Research prospect: company, role, recent news, common connection** — used as the named operating framework for this playbook.
-- **Customize the observation: "I saw you just raised your Series A — congrats!** — used as the named operating framework for this playbook.
-- **Record personalized intro (10 sec on Loom) or use HeyGen's personalization** — used as the named operating framework for this playbook.
-- **Replace template intro with personalized intro** — used as the named operating framework for this playbook.
-- **Add prospect's name as on-screen text in opening frame** — used as the named operating framework for this playbook.
-- **Export. Upload. Send via email or LinkedIn DM.** — used as the named operating framework for this playbook.
-- **Hook (0-3 sec): bold claim, surprising stat, or provocative question** — used as the named operating framework for this playbook.
-- **Body (3-50 sec): one key insight explained with example** — used as the named operating framework for this playbook.
-- **CTA (50-60 sec): 'Follow for more [topic] insights** — used as the named operating framework for this playbook.
-- **All 5 scripts → ElevenLabs. Same voice.** — used as the named operating framework for this playbook.
-- **Generate as a batch.** — used as the named operating framework for this playbook.
-- **Download .mp3 files.** — used as the named operating framework for this playbook.
-- **Generate 3-5 short clips per script (prompt: B-roll concept)** — used as the named operating framework for this playbook.
-- **OR: Use stock footage (Pexels, Pixabay — free)** — used as the named operating framework for this playbook.
-- **Template: voiceover + B-roll + captions + branding** — used as the named operating framework for this playbook.
-- **Apply template to all 5 videos** — used as the named operating framework for this playbook.
-- **Auto-generate captions (Captions does this natively)** — used as the named operating framework for this playbook.
-- **Add: semi-transparent overlay at bottom with your handle** — used as the named operating framework for this playbook.
-- **Add: captions with word-by-word highlighting (95%+ watch time increase)** — used as the named operating framework for this playbook.
-- **Upload all 5 to scheduling tool (Buffer, Hootsuite, native schedulers)** — used as the named operating framework for this playbook.
-- **Post 1/day for a workweek** — used as the named operating framework for this playbook.
-- **HeyGen: Generate AI avatar delivering scripts 1, 2, 4** — used as the named operating framework for this playbook.
-- **Loom: Record screen for variant 3** — used as the named operating framework for this playbook.
-- **Runway: Generate B-roll for all variants** — used as the named operating framework for this playbook.
-- **Add captions (non-negotiable — 85% of social video watched on mute)** — used as the named operating framework for this playbook.
-- **Add branding (logo, colors, end card)** — used as the named operating framework for this playbook.
-- **Add background music (low, instrumental)** — used as the named operating framework for this playbook.
-- **Launch all 5. $50-100/day each.** — used as the named operating framework for this playbook.
-- **After 48 hours: kill bottom 3. Scale top 2.** — used as the named operating framework for this playbook.
-- **After 1 week: if CPA too high, iterate creative. Repeat.** — used as the named operating framework for this playbook.
-- **Upload your podcast episode (30-60 min)** — used as the named operating framework for this playbook.
-- **AI auto-identifies "viral moments" — high-energy, quotable segments** — used as the named operating framework for this playbook.
-- **Opus Clip suggests 5-10 clips. Pick the best 3-5.** — used as the named operating framework for this playbook.
-- **Each: 30-90 seconds** — used as the named operating framework for this playbook.
-- **Captions: auto-generated, reviewed for accuracy (names, terms)** — used as the named operating framework for this playbook.
-- **Add: intro frame with episode title** — used as the named operating framework for this playbook.
-- **Add: end card with "Full episode → [link]** — used as the named operating framework for this playbook.
-- **Adjust: start/end trim points** — used as the named operating framework for this playbook.
-- **1 clip/day on LinkedIn, X/Twitter, TikTok, Instagram** — used as the named operating framework for this playbook.
-- **Link to full episode in comments/bio** — used as the named operating framework for this playbook.
-- **AI spokesperson videos with real voiceover (ElevenLabs or human)** — used as the named operating framework for this playbook.
-- **Screen recordings with AI narration** — used as the named operating framework for this playbook.
-- **Social clips from longer content** — used as the named operating framework for this playbook.
-- **AI-generated B-roll (abstract concepts, data visualization support)** — used as the named operating framework for this playbook.
-- **Customer testimonials (real people > AI avatars for trust)** — used as the named operating framework for this playbook.
-- **Complex product demos (AI can't anticipate all questions)** — used as the named operating framework for this playbook.
-- **Brand films (emotional storytelling needs real footage)** — used as the named operating framework for this playbook.
-- **Executive communications (your face > AI face for trust)** — used as the named operating framework for this playbook.
-- **Voiceover: [ElevenLabs / human / HeyGen TTS]** — used as the named operating framework for this playbook.
-- **Avatar: [HeyGen / Synthesia / real human]** — used as the named operating framework for this playbook.
-- **B-Roll: [Runway / stock / screen recording]** — used as the named operating framework for this playbook.
-- **Editing: [Descript / Captions / CapCut]** — used as the named operating framework for this playbook.
-- **Captions: [auto / reviewed]** — used as the named operating framework for this playbook.
-- **Music: [source / none]** — used as the named operating framework for this playbook.
-- **Tokens: [first_name, company, pain_point]** — used as the named operating framework for this playbook.
-- **Custom intro: [recorded / AI-generated]** — used as the named operating framework for this playbook.
-- **[ ] Script under 90 seconds (attention falls off a cliff after 90s)** — used as the named operating framework for this playbook.
-- **[ ] Hook in first 3 seconds (the most important 3 seconds of any video)** — used as the named operating framework for this playbook.
-- **[ ] Captions on every video (85% of social video watched without sound)** — used as the named operating framework for this playbook.
-- **[ ] Voiceover quality checked (natural pacing, correct pronunciation)** — used as the named operating framework for this playbook.
-- **[ ] AI avatar matches audience expectations (professional for enterprise, casual for SMB)** — used as the named operating framework for this playbook.
-- **[ ] Background music low enough to not compete with voice (-18dB to -24dB)** — used as the named operating framework for this playbook.
-- **[ ] End card with CTA (URL, follow, subscribe)** — used as the named operating framework for this playbook.
-- **[ ] File size optimized for platform (<100MB for email, <1GB for social)** — used as the named operating framework for this playbook.
-- **[ ] Thumbnail generated (Canva — face + text overlay)** — used as the named operating framework for this playbook.
-- **`vibe-marketing` — Full AI marketing stack** — used as the named operating framework for this playbook.
-- **`ai-content-creation` — AI for text-based content** — used as the named operating framework for this playbook.
-- **`ad-creative-strategy` — Creative formats per platform, testing** — used as the named operating framework for this playbook.
-- **`social-media-strategy` — Per-platform posting and engagement** — used as the named operating framework for this playbook.
-- **`content-distribution` — Distribution of video content across channels** — used as the named operating framework for this playbook.
+- **Gary Vaynerchuk — Volume of content wins. AI makes volume possible..** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **HeyGen/Synthesia — AI spokesperson technology.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Runway — Generative AI video.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Opus Clip — AI-powered video clipping.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Descript — AI-first video editing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

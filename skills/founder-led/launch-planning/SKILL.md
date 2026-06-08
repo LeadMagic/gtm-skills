@@ -1,9 +1,7 @@
 ---
 name: launch-planning
 description: >-
-  Launch Planning playbook for GTM agents — strategy, workflow, templates, operating
-  guidance, and quality checks. Use when the user asks for launch planning work,
-  implementation help, or an agent-ready deliverable.
+  Plan product and feature launches across owned, earned, community, partner, and outbound channels. Produces launch narrative, audience map, asset checklist, channel calendar, risk plan, and measurement dashboard. Use when launching a startup, feature, campaign, Product Hunt post, or category narrative.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -13,9 +11,9 @@ metadata:
   tags: [launch, product-launch, go-to-market, product-hunt, press, channels]
   related_skills: [positioning-messaging, social-media-strategy, content-marketing, sales-enablement, founder-brand]
   frameworks:
-    - "Operator GTM Playbook"
-    - "Paul Graham — Do Things That Do Not Scale"
-    - "Eric Ries — Lean Startup"
+    - "Maja Voje — Go-to-Market Strategist"
+    - "Lenny Rachitsky — B2B Launch Playbook"
+    - "Andy Raskin — Strategic Narrative"
 ---
 # Launch Planning
 

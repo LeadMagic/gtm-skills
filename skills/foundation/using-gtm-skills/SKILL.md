@@ -18,7 +18,7 @@ metadata:
   tags: [gtm-skills, installation, discovery, taxonomy, getting-started, master-guide]
   related_skills: [skills-lock]
   frameworks:
-    - "LeadMagic/gtm-skills — 176+ GTM agent skills"
+    - "LeadMagic/gtm-skills — 189 GTM agent skills"
     - "April Dunford — Obviously Awesome Positioning"
     - "Winning by Design — GTM Operating Model"
 ---
@@ -27,7 +27,7 @@ metadata:
 
 ## Overview
 
-176 skills. 20+ categories. Every GTM discipline. This is the master key.
+189 skills. 26 categories. Every GTM discipline. This is the master key.
 The mistake: cloning the repo and not knowing where to start — loading random
 skills, missing dependencies, or treating skills as documentation instead of
 executable playbooks. This skill covers the complete usage guide: installation,
@@ -36,53 +36,11 @@ getting maximum value from the gtm-skills library.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **LeadMagic/gtm-skills — 176+ GTM agent skills** — used as the named operating framework for this playbook.
-- **--** — used as the named operating framework for this playbook.
-- **I need to build a pitch deck" → pitch-deck-builder** — used as the named operating framework for this playbook.
-- **I need to set up cold email infrastructure" → domain-infrastructure, email-deliverability** — used as the named operating framework for this playbook.
-- **I need to raise a seed round" → fundraising-strategy, yc-ecosystem, vc-outreach** — used as the named operating framework for this playbook.
-- **I need to build a landing page with AI" → v0-lander, vibe-coding** — used as the named operating framework for this playbook.
-- **I need to hire my first salesperson" → sales-team-building, hiring-by-role, job-posting-strategy** — used as the named operating framework for this playbook.
-- **lead-finding, lead-enrichment, email-finding, contact-verification (prospecting)** — used as the named operating framework for this playbook.
-- **cold-email-strategy, email-deliverability, domain-infrastructure (outbound)** — used as the named operating framework for this playbook.
-- **clay-automation (automation)** — used as the named operating framework for this playbook.
-- **gtm-metrics (analytics)** — used as the named operating framework for this playbook.
-- ****Principle-first** — Opens with the mistake it prevents, not a description** — used as the named operating framework for this playbook.
-- ****Authority-anchored** — Names specific practitioners and frameworks** — used as the named operating framework for this playbook.
-- ****Executable** — Step-by-step. You can follow it without asking questions** — used as the named operating framework for this playbook.
-- ****Pitfall-aware** — Teaches what goes wrong, not just what goes right** — used as the named operating framework for this playbook.
-- ****Artifact-producing** — Every skill produces something (document, deck, calculator, dashboard)** — used as the named operating framework for this playbook.
-- ****Non-fluff** — No guru nonsense. No AI-generated filler. No "one weird trick.** — used as the named operating framework for this playbook.
-- **Use the template: `skills/_TEMPLATE.md`** — used as the named operating framework for this playbook.
-- **Every skill cites named authorities** — used as the named operating framework for this playbook.
-- **No internal tool internals exposed (blackbox rule)** — used as the named operating framework for this playbook.
-- **Every new skill → update `taxonomy.csv`** — used as the named operating framework for this playbook.
-- **Run `node scripts/validate-skills.js` before PR** — used as the named operating framework for this playbook.
-- **Run `bash scripts/generate-skills-lock.sh` after adding skills** — used as the named operating framework for this playbook.
-- **Every skill must work without paid tools** — used as the named operating framework for this playbook.
-- **[ ] Identified the right skills for the task (use taxonomy or discovery)** — used as the named operating framework for this playbook.
-- **[ ] Loaded skill dependencies (check `related_skills` in frontmatter)** — used as the named operating framework for this playbook.
-- **[ ] Followed the skill's step-by-step process (not just read the overview)** — used as the named operating framework for this playbook.
-- **[ ] Produced the expected output format** — used as the named operating framework for this playbook.
-- **[ ] Checked against the skill's quality checklist before considering it done** — used as the named operating framework for this playbook.
-- **[ ] Reviewed the common pitfalls section (prevents known mistakes)** — used as the named operating framework for this playbook.
-- **[ ] Verified skills.lock integrity before executing** — used as the named operating framework for this playbook.
-- **[ ] Combined skills when the task spans multiple domains** — used as the named operating framework for this playbook.
-- ****Winning by Design** — SPICED methodology, Bowtie funnel, POD structures** — used as the named operating framework for this playbook.
-- ****Reforge** — Growth loops, experimentation, retention frameworks** — used as the named operating framework for this playbook.
-- ****YC Partners** — Paul Graham, Sam Altman, Michael Seibel, Dalton Caldwell** — used as the named operating framework for this playbook.
-- ****SaaStr / Jason Lemkin** — SaaS benchmarks, founder sales, hiring** — used as the named operating framework for this playbook.
-- ****David Skok (Matrix)** — SaaS unit economics, CAC payback, sales learning curve** — used as the named operating framework for this playbook.
-- ****Betts Recruiting** — GTM hiring and talent strategy** — used as the named operating framework for this playbook.
-- ****Bridge Group** — SaaS sales compensation and hiring data** — used as the named operating framework for this playbook.
-- ****Andrej Karpathy** — Vibe coding philosophy** — used as the named operating framework for this playbook.
-- ****Pieter Levels, Sahil Lavingia, Marc Lou** — AI-assisted solo building** — used as the named operating framework for this playbook.
-- ****Brian Balfour, Andrew Chen, Sean Ellis** — Growth hacking** — used as the named operating framework for this playbook.
-- ****Nielsen Norman Group, Baymard Institute, Steve Krug** — UX research** — used as the named operating framework for this playbook.
-- ****Ben Murray (SaaS CFO), Aswath Damodaran (NYU)** — Financial modeling** — used as the named operating framework for this playbook.
-- ****Brad Feld, Fred Wilson** — Venture capital and board governance** — used as the named operating framework for this playbook.
+- **LeadMagic/gtm-skills — 189 GTM agent skills.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **April Dunford — Obviously Awesome Positioning.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Winning by Design — GTM Operating Model.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 
@@ -294,7 +252,7 @@ Every gtm-skills skill is:
 ```
 gtm-skills/
 ├── README.md              # Hero, install, category overview, authority catalog
-├── skills.lock             # SHA256-verified integrity for all 176+ skills
+├── skills.lock             # SHA256-verified integrity for all 189 skills
 ├── taxonomy.csv            # slug → name → category → description → priority
 ├── AGENTS.md              # Cross-tool skill index
 ├── CLAUDE.md              # Claude Code-specific index

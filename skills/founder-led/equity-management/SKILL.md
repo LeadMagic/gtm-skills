@@ -39,51 +39,14 @@ keep it all clean.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Carta — Equity management platform and cap table benchmarks** — used as the named operating framework for this playbook.
-- **Pulley — Cap table management for startups** — used as the named operating framework for this playbook.
-- **Fred Wilson (Union Square Ventures) — Employee equity** — used as the named operating framework for this playbook.
-- **Andy Rachleff (Wealthfront) — Equity compensation** — used as the named operating framework for this playbook.
-- **Sam Altman — Employee equity** — used as the named operating framework for this playbook.
-- **Leo Polovets (Humba Ventures/YC) — Technical founder equity guide** — used as the named operating framework for this playbook.
-- **--** — used as the named operating framework for this playbook.
-- **Before granting your first stock options (required by law)** — used as the named operating framework for this playbook.
-- **After every priced fundraising round** — used as the named operating framework for this playbook.
-- **Every 12 months (or when a material event occurs)** — used as the named operating framework for this playbook.
-- **Before an acquisition (the acquirer will require a recent 409A)** — used as the named operating framework for this playbook.
-- **VP Engineering: 1.5%** — used as the named operating framework for this playbook.
-- **5 engineers: 0.25-0.5% each = 1.75%** — used as the named operating framework for this playbook.
-- **VP Sales: 1.0%** — used as the named operating framework for this playbook.
-- **3 AEs: 0.1-0.2% each = 0.45%** — used as the named operating framework for this playbook.
-- **First Marketer: 0.4%** — used as the named operating framework for this playbook.
-- **CS Lead: 0.5%** — used as the named operating framework for this playbook.
-- **Buffer (30%): 1.4%** — used as the named operating framework for this playbook.
-- **Contractors (pay cash, not equity — unless they're effectively a co-founder)** — used as the named operating framework for this playbook.
-- **Agencies (cash only)** — used as the named operating framework for this playbook.
-- **Part-time advisors who don't deliver (vesting protects you)** — used as the named operating framework for this playbook.
-- **Early stage: typically no (shares are illiquid)** — used as the named operating framework for this playbook.
-- **Series C+: sometimes. Company may run a tender offer.** — used as the named operating framework for this playbook.
-- **IPO: yes (but lockup periods apply)** — used as the named operating framework for this playbook.
-- **Allocated: X% (X shares to X recipients)** — used as the named operating framework for this playbook.
-- **Available: X% (X shares remaining)** — used as the named operating framework for this playbook.
-- **[Hire/role] — [date] — [grant size]** — used as the named operating framework for this playbook.
-- **[ ] 409A valuation current (within last 12 months)** — used as the named operating framework for this playbook.
-- **[ ] Cap table on Carta/Pulley (not Excel) and up to date** — used as the named operating framework for this playbook.
-- **[ ] All founders filed 83(b) within 30 days of share issuance** — used as the named operating framework for this playbook.
-- **[ ] Option pool sized to hiring plan + buffer through next funding round** — used as the named operating framework for this playbook.
-- **[ ] Equity grants documented with board consent** — used as the named operating framework for this playbook.
-- **[ ] Dilution model built for next 2 funding rounds** — used as the named operating framework for this playbook.
-- **[ ] Advisor grants on FAST template with vesting** — used as the named operating framework for this playbook.
-- ****Legal matters:** Consult a qualified attorney licensed in your jurisdiction.** — used as the named operating framework for this playbook.
-- ****Tax matters:** Consult a certified tax professional or CPA.** — used as the named operating framework for this playbook.
-- ****Accounting/financial matters:** Consult a qualified accountant or financial advisor.** — used as the named operating framework for this playbook.
-- ****Insurance matters:** Consult a licensed insurance broker.** — used as the named operating framework for this playbook.
-- ****Security/compliance matters:** Consult a qualified security assessor or compliance** — used as the named operating framework for this playbook.
-- **`co-founder-dynamics` — Founder equity splits** — used as the named operating framework for this playbook.
-- **`fundraising-strategy` — Dilution from SAFE/priced rounds** — used as the named operating framework for this playbook.
-- **`first-hires-playbook` — Equity as part of compensation** — used as the named operating framework for this playbook.
-- **`legal-for-founders` — 83(b), incorporation, stock plans** — used as the named operating framework for this playbook.
+- **Carta — Equity management platform and cap table benchmarks.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Pulley — Cap table management for startups.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Fred Wilson (Union Square Ventures) — Employee equity.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Andy Rachleff (Wealthfront) — Equity compensation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Sam Altman — Employee equity.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Leo Polovets (Humba Ventures/YC) — Technical founder equity guide.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

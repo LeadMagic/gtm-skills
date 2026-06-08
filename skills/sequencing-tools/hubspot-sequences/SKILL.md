@@ -26,10 +26,11 @@ they're spam cannons that burn your domain reputation.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **HubSpot Sequences Best Practices** — used as the named operating framework for this playbook.
-- **ColdIQ Multi-Channel Cadence** — used as the named operating framework for this playbook.
+- **HubSpot Sequences Best Practices.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **ColdIQ Multi-Channel Cadence.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Outreach — Sales Engagement Cadence Design.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Set up HubSpot sequences"

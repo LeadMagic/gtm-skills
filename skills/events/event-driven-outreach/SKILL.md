@@ -26,10 +26,11 @@ skill covers the pre-event, on-site, and post-event outbound motion.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Event-Led Growth** — used as the named operating framework for this playbook.
-- **B2B Event Marketing Framework** — used as the named operating framework for this playbook.
+- **Event-Led Growth.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **B2B Event Marketing Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Bizzabo — Event Experience Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Outreach around [conference]"

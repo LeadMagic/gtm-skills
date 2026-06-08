@@ -40,111 +40,14 @@ security questionnaires, and incident response.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **OWASP Top 10 — Web application security risks** — used as the named operating framework for this playbook.
-- **NIST Cybersecurity Framework** — used as the named operating framework for this playbook.
-- **VSAQ (Vendor Security Assessment Questionnaire) — Google** — used as the named operating framework for this playbook.
-- **SIG (Standardized Information Gathering) — Shared Assessments** — used as the named operating framework for this playbook.
-- **CAIQ (Consensus Assessments Initiative Questionnaire) — CSA** — used as the named operating framework for this playbook.
-- **ISO 27001 — Information Security Management** — used as the named operating framework for this playbook.
-- **--** — used as the named operating framework for this playbook.
-- **Before first enterprise deal (required by most procurement teams)** — used as the named operating framework for this playbook.
-- **Annually thereafter (most enterprise contracts require annual pen tests)** — used as the named operating framework for this playbook.
-- **After major architectural changes** — used as the named operating framework for this playbook.
-- **After a security incident** — used as the named operating framework for this playbook.
-- **Look for: CREST, OSCP/OSCE certified testers** — used as the named operating framework for this playbook.
-- **Ask: "Show me a sample report." Good reports are detailed, actionable, and** — used as the named operating framework for this playbook.
-- **Red flags: gives a quote without understanding your architecture, promises** — used as the named operating framework for this playbook.
-- **Recommended: Cobalt, HackerOne, Synack, Bishop Fox, NCC Group, Cure53** — used as the named operating framework for this playbook.
-- **Executive summary (for leadership)** — used as the named operating framework for this playbook.
-- **Technical findings with: CVSS score, steps to reproduce, proof of concept,** — used as the named operating framework for this playbook.
-- **Prioritization: Critical / High / Medium / Low / Informational** — used as the named operating framework for this playbook.
-- **Retest: after fixing, the firm retests to confirm closure** — used as the named operating framework for this playbook.
-- ****SAST (static):** Snyk, Semgrep, SonarQube — scans your code** — used as the named operating framework for this playbook.
-- ****DAST (dynamic):** OWASP ZAP, Burp Suite, Detectify — scans your running app** — used as the named operating framework for this playbook.
-- ****Dependency:** Snyk, Dependabot, npm audit — scans your libraries** — used as the named operating framework for this playbook.
-- ****Container:** Trivy, Snyk — scans your Docker images** — used as the named operating framework for this playbook.
-- ****Infrastructure:** AWS Inspector, Prowler, ScoutSuite — scans your cloud** — used as the named operating framework for this playbook.
-- **Dependencies: on every PR (automated in CI)** — used as the named operating framework for this playbook.
-- **Dynamic scanning: weekly** — used as the named operating framework for this playbook.
-- **Infrastructure: monthly** — used as the named operating framework for this playbook.
-- **Full pen test: annually + after major changes** — used as the named operating framework for this playbook.
-- **You've passed at least one pen test (fix the known stuff first)** — used as the named operating framework for this playbook.
-- **You have internal security expertise to triage reports** — used as the named operating framework for this playbook.
-- **You have budget for bounties ($500-5,000 per valid report)** — used as the named operating framework for this playbook.
-- **You have a process for responding to reports (SLA: acknowledge within 24** — used as the named operating framework for this playbook.
-- **HackerOne (most common, enterprise-friendly)** — used as the named operating framework for this playbook.
-- **Bugcrowd (similar to HackerOne)** — used as the named operating framework for this playbook.
-- **Intigriti (European-focused)** — used as the named operating framework for this playbook.
-- **Private: invite-only. Lower volume, higher quality. Start here.** — used as the named operating framework for this playbook.
-- **Public: open to anyone. Higher volume, more noise. Scale to this.** — used as the named operating framework for this playbook.
-- **Low severity: $100-500** — used as the named operating framework for this playbook.
-- **Medium: $500-1,500** — used as the named operating framework for this playbook.
-- **High: $1,500-5,000** — used as the named operating framework for this playbook.
-- **Critical: $5,000-15,000+** — used as the named operating framework for this playbook.
-- ****VSAQ (Google):** 50-100 questions, web-based, self-service** — used as the named operating framework for this playbook.
-- ****SIG (Shared Assessments):** 200-400 questions, spreadsheet** — used as the named operating framework for this playbook.
-- ****CAIQ (CSA):** 300+ questions, cloud-focused** — used as the named operating framework for this playbook.
-- ****Custom:** Every enterprise has their own version (sigh)** — used as the named operating framework for this playbook.
-- **SafeBase — trust center + auto-answer questionnaires ($)** — used as the named operating framework for this playbook.
-- **SecurityPal — done-for-you questionnaire response ($$)** — used as the named operating framework for this playbook.
-- **Vanta / Drata — compliance automation + questionnaire support ($$$)** — used as the named operating framework for this playbook.
-- **Conveyor — AI-powered security questionnaire response ($)** — used as the named operating framework for this playbook.
-- **Sev 1 (Critical): Data breach, system compromise, active attack** — used as the named operating framework for this playbook.
-- **Sev 2 (High): Vulnerability with known exploit, suspicious activity** — used as the named operating framework for this playbook.
-- **Sev 3 (Medium): Policy violation, minor security concern** — used as the named operating framework for this playbook.
-- **Sev 4 (Low): Informational event, false positive** — used as the named operating framework for this playbook.
-- **Incident Commander: [name] — coordinates response** — used as the named operating framework for this playbook.
-- **Technical Lead: [name] — investigates and remediates** — used as the named operating framework for this playbook.
-- **Communications Lead: [name] — internal + external comms** — used as the named operating framework for this playbook.
-- **Legal: [name] — regulatory obligations** — used as the named operating framework for this playbook.
-- **Executive Sponsor: [CEO/CTO]** — used as the named operating framework for this playbook.
-- **GDPR: Supervisory authority within 72 hours** — used as the named operating framework for this playbook.
-- **Customers: "Without undue delay" if high risk** — used as the named operating framework for this playbook.
-- **Cyber insurance: As soon as practical (they provide legal + forensic support)** — used as the named operating framework for this playbook.
-- **Law enforcement: If criminal activity (FBI, local police)** — used as the named operating framework for this playbook.
-- **Customer notification: [template — what happened, what data, what we're doing,** — used as the named operating framework for this playbook.
-- **Internal notification: [template — incident declared, response team activated,** — used as the named operating framework for this playbook.
-- **SOC2 report (or status if in progress)** — used as the named operating framework for this playbook.
-- **Penetration test summary (not the full report — that's confidential)** — used as the named operating framework for this playbook.
-- **Sub-processor list (who handles customer data)** — used as the named operating framework for this playbook.
-- **Security certifications (SOC2, ISO 27001, GDPR, etc.)** — used as the named operating framework for this playbook.
-- **Encryption details (in transit: TLS 1.2+. At rest: AES-256)** — used as the named operating framework for this playbook.
-- **Uptime and status page** — used as the named operating framework for this playbook.
-- **Vulnerability disclosure policy (how to report a bug)** — used as the named operating framework for this playbook.
-- **Contact: security@[company].com** — used as the named operating framework for this playbook.
-- **Last test: [date / pending]** — used as the named operating framework for this playbook.
-- **Provider: [firm]** — used as the named operating framework for this playbook.
-- **Next test: [date — annually]** — used as the named operating framework for this playbook.
-- **Findings: [X Critical, Y High, Z Medium, N Low]** — used as the named operating framework for this playbook.
-- **Remediation status: [X% fixed]** — used as the named operating framework for this playbook.
-- **SAST: [tool, cadence]** — used as the named operating framework for this playbook.
-- **DAST: [tool, cadence]** — used as the named operating framework for this playbook.
-- **Dependency: [tool, cadence]** — used as the named operating framework for this playbook.
-- **Knowledge base: [doc link]** — used as the named operating framework for this playbook.
-- **Response tool: [SafeBase / SecurityPal / manual]** — used as the named operating framework for this playbook.
-- **Average response time: [X days]** — used as the named operating framework for this playbook.
-- **Plan: [documented / needed]** — used as the named operating framework for this playbook.
-- **Team: [assigned / needed]** — used as the named operating framework for this playbook.
-- **Last tested: [date of last tabletop exercise]** — used as the named operating framework for this playbook.
-- **[ ] Penetration test completed (web app minimum) — retest confirmed fixes** — used as the named operating framework for this playbook.
-- **[ ] Vulnerability scanning automated (SAST + dependency + DAST)** — used as the named operating framework for this playbook.
-- **[ ] Bug bounty program launched (private preferred for early stage)** — used as the named operating framework for this playbook.
-- **[ ] Security questionnaire knowledge base built (100+ questions answered)** — used as the named operating framework for this playbook.
-- **[ ] Incident response plan documented and team assigned** — used as the named operating framework for this playbook.
-- **[ ] Trust center published (or SOC2 report available on request)** — used as the named operating framework for this playbook.
-- **[ ] Sub-processor list maintained and publicly available** — used as the named operating framework for this playbook.
-- **[ ] Annual security review scheduled** — used as the named operating framework for this playbook.
-- ****Legal matters:** Consult a qualified attorney licensed in your jurisdiction.** — used as the named operating framework for this playbook.
-- ****Tax matters:** Consult a certified tax professional or CPA.** — used as the named operating framework for this playbook.
-- ****Accounting/financial matters:** Consult a qualified accountant or financial advisor.** — used as the named operating framework for this playbook.
-- ****Insurance matters:** Consult a licensed insurance broker.** — used as the named operating framework for this playbook.
-- ****Security/compliance matters:** Consult a qualified professional for your specific** — used as the named operating framework for this playbook.
-- **`soc2-compliance` — SOC2 Type II certification** — used as the named operating framework for this playbook.
-- **`data-privacy-compliance` — GDPR, CCPA, privacy programs** — used as the named operating framework for this playbook.
-- **`legal-for-founders` — Legal foundations** — used as the named operating framework for this playbook.
-- **`vendor-contracts` — DPAs, vendor security agreements** — used as the named operating framework for this playbook.
+- **OWASP Top 10 — Web application security risks.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **NIST Cybersecurity Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **VSAQ (Vendor Security Assessment Questionnaire) — Google.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **SIG (Standardized Information Gathering) — Shared Assessments.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **CAIQ (Consensus Assessments Initiative Questionnaire) — CSA.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **ISO 27001 — Information Security Management.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

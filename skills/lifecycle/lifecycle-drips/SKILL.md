@@ -27,10 +27,11 @@ manual intervention. This skill covers the complete lifecycle drip architecture.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Lifecycle Marketing Framework** — used as the named operating framework for this playbook.
-- **HubSpot Lifecycle Stages** — used as the named operating framework for this playbook.
+- **Lifecycle Marketing Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **HubSpot Lifecycle Stages.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Reforge — Lifecycle Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Build lifecycle emails"

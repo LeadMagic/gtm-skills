@@ -1,9 +1,7 @@
 ---
 name: gtm-metrics
 description: >-
-  Gtm Metrics playbook for GTM agents — strategy, workflow, templates, operating
-  guidance, and quality checks. Use when the user asks for gtm metrics work,
-  implementation help, or an agent-ready deliverable.
+  Build a GTM metrics system for SaaS: funnel conversion, pipeline velocity, win rates, CAC, payback, NRR, sales efficiency, growth accounting, and executive dashboards. Use when creating metrics dashboards, board reports, revenue reviews, operating cadence, or diagnosing growth constraints.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:

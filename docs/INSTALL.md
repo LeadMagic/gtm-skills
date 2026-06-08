@@ -134,4 +134,4 @@ Run this to regenerate the complete category index from the current repository s
 node scripts/generate-indexes.js
 ```
 
-The generated `AGENTS.md`, `CLAUDE.md`, `taxonomy.csv`, and `skills.lock` are the source of truth for the complete 189-skill catalog.
+The generated `AGENTS.md`, `CLAUDE.md`, `taxonomy.csv`, and `skills.lock` are the source of truth for the complete 218-skill catalog.

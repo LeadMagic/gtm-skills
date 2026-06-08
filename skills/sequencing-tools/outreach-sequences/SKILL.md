@@ -26,10 +26,11 @@ compliance controls that simpler tools lack.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Outreach Sequence Best Practices** — used as the named operating framework for this playbook.
-- **ColdIQ Cadence Design** — used as the named operating framework for this playbook.
+- **Outreach Sequence Best Practices.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **ColdIQ Cadence Design.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Outreach — Sales Engagement Cadence Design.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Set up Outreach sequences"

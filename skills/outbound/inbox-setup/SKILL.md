@@ -16,7 +16,7 @@ metadata:
   category: outbound
   tags: [inbox-setup, infrastructure, deliverability, google, microsoft, domains]
   related_skills: [email-deliverability, domain-infrastructure, sending-platforms]
-  frameworks: [Jesse Ouellette Deliverability Practices, Eric Nowoslawski Sending Volume Strategy, Jed Mahrle Cold Email Infrastructure]
+  frameworks: [Google Bulk Sender Guidelines, Microsoft Email Sender Guidelines, Eric Nowoslawski Sending Volume Strategy, Jed Mahrle Cold Email Infrastructure]
 ---
 
 # Inbox Setup
@@ -40,9 +40,9 @@ and Azure/Entra, plus DNS authentication, warmup, and infrastructure scaling.
 
 ## Authoritative Foundations
 
-- **Jesse Ouellette (LeadMagic)** — deliverability infrastructure at scale.
-  Domain isolation is non-negotiable. Never send cold from primary business
-  domain. Separate sending domains with independent reputation.
+- **Google Bulk Sender Guidelines** — sender authentication, low spam complaint rates, and authenticated alignment are baseline requirements for sustainable outbound.
+  Domain isolation is non-negotiable: never send cold from the primary business domain; use separate sending domains with independent reputation.
+- **Microsoft Email Sender Guidelines** — maintain authenticated mail, clean lists, low complaints, and conservative volume ramps to protect sender reputation.
 - **Eric Nowoslawski (Growth Engine X)** — inbox infrastructure at scale
   emails/month. Strategy: 2 inboxes per domain, 30 emails/day per inbox,
   3-week warmup minimum, keep 50% spare capacity warming at all times.

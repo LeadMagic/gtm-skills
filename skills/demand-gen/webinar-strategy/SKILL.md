@@ -27,10 +27,11 @@ and post-webinar pipeline conversion.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **TOPO Webinar Framework** — used as the named operating framework for this playbook.
-- **CEB Challenger Commercial Teaching** — used as the named operating framework for this playbook.
+- **TOPO Webinar Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **CEB Challenger Commercial Teaching.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **SiriusDecisions — Demand Waterfall.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Plan a webinar"

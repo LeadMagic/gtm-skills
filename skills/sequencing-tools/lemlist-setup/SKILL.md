@@ -27,10 +27,11 @@ that want higher per-email engagement at lower volume.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Lemlist Personalization Framework** — used as the named operating framework for this playbook.
-- **ColdIQ Multi-Channel** — used as the named operating framework for this playbook.
+- **Lemlist Personalization Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **ColdIQ Multi-Channel.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Outreach — Sales Engagement Cadence Design.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Set up Lemlist"

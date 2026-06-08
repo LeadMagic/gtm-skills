@@ -2,6 +2,16 @@
 
 All notable changes to GTM Skills are documented here.
 
+## v0.25.0 — Design Expansion, Source Standards, and Benchmark Hardening
+
+- Added 29 public-safe design skills from the local design stack: typography, color systems, frontend design, shadcn/ui, data visualization, charts, mobile, dashboards, animation, social publishing, diagrams, critique, and reference-design-contract workflows.
+- Expanded the design category to 36 skills and regenerated README, AGENTS, CLAUDE, taxonomy, plugin metadata, and lockfile for 218 marketplace-discoverable skills across 26 categories.
+- Added public source/authority standards and benchmark notes for adjacent GTM/marketing skill repositories.
+- Replaced generic skill descriptions with artifact-specific trigger descriptions across foundation, analytics, founder-led, and prospecting skills.
+- Rebuilt corrupted framework sections so source lists no longer include checklist/output placeholders.
+- Replaced weak/internal-sounding source labels with named public authorities and platform guidance.
+- Fixed stale catalog count references and kept non-design skills aligned to progressive-disclosure expectations.
+
 ## v0.24.0 — Public Repository Polish
 
 - Added high-end public repository infrastructure: SECURITY, CONTRIBUTING, governance, code of conduct, citation metadata, editor config, Dependabot, and docs.

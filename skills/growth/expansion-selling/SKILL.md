@@ -36,49 +36,12 @@ complete expansion playbook: triggers, scoring, execution, and measurement.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Winning by Design — Bowtie Funnel (post-sale expansion)** — used as the named operating framework for this playbook.
-- **Reforge — Expansion Revenue and Product-Qualified Accounts** — used as the named operating framework for this playbook.
-- **Gainsight — Expansion Selling Framework** — used as the named operating framework for this playbook.
-- **Jason Lemkin (SaaStr) — NRR as the ultimate SaaS metric** — used as the named operating framework for this playbook.
-- **--** — used as the named operating framework for this playbook.
-- **Trigger: Customer adds team members. Usage per seat increasing.** — used as the named operating framework for this playbook.
-- **Play: "Your team has grown. 5 new team members will benefit from [product].** — used as the named operating framework for this playbook.
-- **Economics: ACV increases linearly with seats. Simple. Predictable.** — used as the named operating framework for this playbook.
-- **Trigger: Customer requests feature in higher tier, or usage exceeds plan limits.** — used as the named operating framework for this playbook.
-- **Play: "All the features you've asked for are in Growth. Here's a side-by-side** — used as the named operating framework for this playbook.
-- **Economics: ARPU increases. Margin typically improves at higher tiers.** — used as the named operating framework for this playbook.
-- **Trigger: Customer buys Product A. Complementary Product B solves adjacent need.** — used as the named operating framework for this playbook.
-- **Play: "Customers who use [Product A] typically add [Product B] within 6 months.** — used as the named operating framework for this playbook.
-- **Economics: New product line revenue without new logo acquisition cost.** — used as the named operating framework for this playbook.
-- **Trigger: Multi-team usage, SSO request, API access, security review.** — used as the named operating framework for this playbook.
-- **Play: Enterprise tier with dedicated CSM, SSO, API access, custom SLA, volume** — used as the named operating framework for this playbook.
-- **Economics: 3-10x ACV increase. Stickier customer. Higher retention.** — used as the named operating framework for this playbook.
-- **Seed: 100%+ (aspirational)** — used as the named operating framework for this playbook.
-- **Series A: 105%+** — used as the named operating framework for this playbook.
-- **Series B: 110%+** — used as the named operating framework for this playbook.
-- **Growth: 115%+** — used as the named operating framework for this playbook.
-- **Month 1-2: Onboarding. No expansion talk. Deliver value first.** — used as the named operating framework for this playbook.
-- **Month 3: Identify expansion triggers. Document use cases.** — used as the named operating framework for this playbook.
-- **Month 4-6: First expansion conversation. Plant the seed.** — used as the named operating framework for this playbook.
-- **Month 6-12: Execute expansion. Close upgrade or cross-sell.** — used as the named operating framework for this playbook.
-- **[ ] Expansion triggers automated (usage approaching limit = alert)** — used as the named operating framework for this playbook.
-- **[ ] Expansion propensity scored for every account** — used as the named operating framework for this playbook.
-- **[ ] NRR tracked monthly with target by customer segment** — used as the named operating framework for this playbook.
-- **[ ] CSM comp tied to NRR (not just retention)** — used as the named operating framework for this playbook.
-- **[ ] Expansion plays documented for each trigger type** — used as the named operating framework for this playbook.
-- **[Output item 1]** — used as the named operating framework for this playbook.
-- **[Output item 2]** — used as the named operating framework for this playbook.
-- **[Output item 3]** — used as the named operating framework for this playbook.
-- **[ ] All required sections complete** — used as the named operating framework for this playbook.
-- **[ ] Output matches the user's stated need** — used as the named operating framework for this playbook.
-- **[ ] No vague or unsupported claims** — used as the named operating framework for this playbook.
-- **[ ] Frameworks cited where applicable** — used as the named operating framework for this playbook.
-- **`churn-prevention` — Retention is the foundation of expansion** — used as the named operating framework for this playbook.
-- **`cs-playbooks` — Customer success framework** — used as the named operating framework for this playbook.
-- **`cs-analytics-dashboards` — Health scores, expansion propensity** — used as the named operating framework for this playbook.
-- **`pricing-strategy` — Tier design that enables expansion** — used as the named operating framework for this playbook.
+- **Winning by Design — Bowtie Funnel (post-sale expansion).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Reforge — Expansion Revenue and Product-Qualified Accounts.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Gainsight — Expansion Selling Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Jason Lemkin (SaaStr) — NRR as the ultimate SaaS metric.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

@@ -6,7 +6,7 @@ Use these references to ground outputs in named, repeatable methodology.
 
 - REST API Best Practices
 - Bulk Enrichment Patterns
-- GTMLens Waterfall Architecture
+- DAMA-DMBOK Data Quality Dimensions
 - Idempotent API Design
 
 ## Operating Assumptions

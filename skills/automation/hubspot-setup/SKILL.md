@@ -32,10 +32,11 @@ automation, reporting, and enrichment integration.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **HubSpot Smart CRM Framework** — used as the named operating framework for this playbook.
-- **Lifecycle Stage Model** — used as the named operating framework for this playbook.
+- **HubSpot Smart CRM Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Lifecycle Stage Model.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **HubSpot Academy — CRM Automation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

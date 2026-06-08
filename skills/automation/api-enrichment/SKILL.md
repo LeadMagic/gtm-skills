@@ -13,7 +13,7 @@ metadata:
   category: automation
   tags: [api, enrichment, automation, pipelines, data-quality]
   related_skills: [waterfall-enrichment, data-enrichment-strategy, crm-integration, campaign-analytics]
-  frameworks: [REST API Best Practices, Bulk Enrichment Patterns, GTMLens Waterfall Architecture, Idempotent API Design]
+  frameworks: [REST API Best Practices, Bulk Enrichment Patterns, DAMA-DMBOK Data Quality Dimensions, Idempotent API Design]
 ---
 
 # API Enrichment
@@ -35,7 +35,7 @@ Do not use this for tool-specific no-code workflows. Use `clay-automation` or `n
 ### REST API Best Practices — Idempotency and Retries
 Any bulk enrichment job needs idempotent writes and retry-safe requests. A retry should never create duplicate contacts, duplicate CRM notes, or duplicate sequence enrollment.
 
-### GTMLens — Waterfall Enrichment Architecture
+### DAMA-DMBOK — Data Quality Dimensions
 Provider waterfalls improve coverage and cost control by trying the best-fit source first, then falling back only when needed. This avoids paying multiple providers for the same field.
 
 ### Data Quality Management — Source Priority and Freshness

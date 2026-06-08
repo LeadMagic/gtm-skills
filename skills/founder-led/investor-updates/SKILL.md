@@ -31,11 +31,11 @@ Send monthly. Every month. Even when (especially when) things are hard.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **YC Investor Update Template** — used as the named operating framework for this playbook.
-- **Jason Lemkin SaaStr Board Deck** — used as the named operating framework for this playbook.
-- **David Skok VC Dashboard** — used as the named operating framework for this playbook.
+- **YC Investor Update Template.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Jason Lemkin SaaStr Board Deck.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **David Skok VC Dashboard.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

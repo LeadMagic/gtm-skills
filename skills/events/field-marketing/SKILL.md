@@ -27,10 +27,11 @@ is built in person. This skill covers strategy through execution.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Field Marketing ROI Framework** — used as the named operating framework for this playbook.
-- **ABM Field Engagement** — used as the named operating framework for this playbook.
+- **Field Marketing ROI Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **ABM Field Engagement.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Bizzabo — Event Experience Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Plan a field marketing event"

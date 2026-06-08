@@ -35,10 +35,11 @@ productive rather than painful.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Freelance Talent Management** — used as the named operating framework for this playbook.
-- **Upwork Enterprise Patterns** — used as the named operating framework for this playbook.
+- **Freelance Talent Management.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Upwork Enterprise Patterns.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Paul Graham — Do Things That Do Not Scale.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

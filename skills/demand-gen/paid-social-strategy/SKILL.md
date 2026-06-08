@@ -28,10 +28,11 @@ creative testing, and pipeline measurement.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **B2B Paid Social Framework** — used as the named operating framework for this playbook.
-- **LinkedIn Ads Best Practices** — used as the named operating framework for this playbook.
+- **B2B Paid Social Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **LinkedIn Ads Best Practices.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **SiriusDecisions — Demand Waterfall.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Launch paid social"

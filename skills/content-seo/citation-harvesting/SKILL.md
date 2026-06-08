@@ -27,10 +27,11 @@ citation harvesting motion.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Digital PR Framework** — used as the named operating framework for this playbook.
-- **Moz Link Building Guide** — used as the named operating framework for this playbook.
+- **Digital PR Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Moz Link Building Guide.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Google Search Central — SEO Starter Guide.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Build backlinks"

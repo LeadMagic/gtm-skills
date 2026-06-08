@@ -13,7 +13,7 @@ metadata:
   category: leadmagic
   tags: [leadmagic, bulk, csv, batch, enrichment, validation]
   related_skills: [leadmagic-cli, leadmagic-integrations, api-enrichment, waterfall-enrichment]
-  frameworks: [GTMLens Bulk Enrichment, CSV Batching Best Practices, Data Quality Management]
+  frameworks: [DAMA-DMBOK Data Quality Management, CSV Batching Best Practices, Data Quality Management]
 ---
 
 # LeadMagic Bulk Enrichment
@@ -32,7 +32,7 @@ Do not use this for single-contact lookup. Use `leadmagic-cli` or the relevant f
 
 ## Authoritative Foundations
 
-### GTMLens — Waterfall and Batch Enrichment
+### DAMA-DMBOK — Data Quality Management
 Bulk enrichment should prioritize the highest-confidence result and avoid duplicate provider spend. Batch design matters because failure recovery is easier when jobs are small enough to rerun safely.
 
 ### Data Quality Management — Source, Status, Freshness

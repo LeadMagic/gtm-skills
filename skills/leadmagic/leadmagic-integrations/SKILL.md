@@ -28,11 +28,11 @@ every contact entering a sequence must pass verification first.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **iPaaS Integration Patterns** — used as the named operating framework for this playbook.
-- **Zapier/Make Automation** — used as the named operating framework for this playbook.
-- **CRM Enrichment Workflows** — used as the named operating framework for this playbook.
+- **iPaaS Integration Patterns.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Zapier/Make Automation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **CRM Enrichment Workflows.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

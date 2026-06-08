@@ -27,10 +27,11 @@ This skill covers booking strategy through pipeline conversion.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Podcast Guesting Framework** — used as the named operating framework for this playbook.
-- **Authority Marketing** — used as the named operating framework for this playbook.
+- **Podcast Guesting Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Authority Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **SiriusDecisions — Demand Waterfall.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Get on podcasts"

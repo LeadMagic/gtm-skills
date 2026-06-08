@@ -32,11 +32,11 @@ and measurement across the four major B2B ad platforms plus programmatic.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Meta Advantage+ Framework** — used as the named operating framework for this playbook.
-- **Google Performance Max** — used as the named operating framework for this playbook.
-- **LinkedIn Campaign Manager** — used as the named operating framework for this playbook.
+- **Meta Advantage+ Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Google Performance Max.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **LinkedIn Campaign Manager.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

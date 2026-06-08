@@ -29,11 +29,11 @@ have outgrown HubSpot or require enterprise-grade customization.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Salesforce Architecture** — used as the named operating framework for this playbook.
-- **Opportunity Pipeline Model** — used as the named operating framework for this playbook.
-- **Force.com Platform** — used as the named operating framework for this playbook.
+- **Salesforce Architecture.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Opportunity Pipeline Model.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Force.com Platform.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

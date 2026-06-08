@@ -31,11 +31,11 @@ The constraint is the value. One page forces clarity. No room for fluff.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **AIDA Framework** — used as the named operating framework for this playbook.
-- **3W Framework** — used as the named operating framework for this playbook.
-- **Cialdini Persuasion Principles** — used as the named operating framework for this playbook.
+- **AIDA Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **3W Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Cialdini Persuasion Principles.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

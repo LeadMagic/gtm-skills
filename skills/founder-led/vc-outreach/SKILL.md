@@ -1,9 +1,7 @@
 ---
 name: vc-outreach
 description: >-
-  Vc Outreach playbook for GTM agents — strategy, workflow, templates, operating
-  guidance, and quality checks. Use when the user asks for vc outreach work,
-  implementation help, or an agent-ready deliverable.
+  Plan investor outreach for startups: target investor list, warm intro paths, cold email, update cadence, CRM tracking, meeting prep, and follow-up. Use when raising a round, contacting angels or VCs, building a fundraising pipeline, or improving investor reply rates.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -13,9 +11,9 @@ metadata:
   tags: [vc, investor-outreach, cold-email, fundraising, warm-intros, pitch, angels]
   related_skills: [fundraising-strategy, yc-ecosystem, pitch-deck-builder, founder-brand, financial-modeling, board-meeting-prep]
   frameworks:
-    - "Operator GTM Playbook"
-    - "Paul Graham — Do Things That Do Not Scale"
-    - "Eric Ries — Lean Startup"
+    - "NFX — Fundraising Playbooks"
+    - "Y Combinator — Fundraising Guide"
+    - "DocSend — Fundraising Benchmarks"
 ---
 # VC Outreach
 

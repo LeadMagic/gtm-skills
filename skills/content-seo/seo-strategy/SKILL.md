@@ -27,10 +27,11 @@ rankings for informational queries. This skill covers the full B2B SEO motion.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Ahrefs SEO Framework** — used as the named operating framework for this playbook.
-- **Google E-E-A-T Guidelines** — used as the named operating framework for this playbook.
+- **Ahrefs SEO Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Google E-E-A-T Guidelines.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Google Search Central — SEO Starter Guide.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Build our SEO strategy"

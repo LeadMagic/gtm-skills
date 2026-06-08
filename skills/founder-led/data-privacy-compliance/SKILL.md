@@ -40,85 +40,14 @@ program that passes enterprise security reviews.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **GDPR (EU General Data Protection Regulation 2016/679)** — used as the named operating framework for this playbook.
-- **CCPA/CPRA (California Consumer Privacy Act / California Privacy Rights Act)** — used as the named operating framework for this playbook.
-- **ePrivacy Directive (EU Cookie Law)** — used as the named operating framework for this playbook.
-- **IAPP (International Association of Privacy Professionals)** — used as the named operating framework for this playbook.
-- **NIST Privacy Framework** — used as the named operating framework for this playbook.
-- **Termly / Iubenda — Privacy compliance tools** — used as the named operating framework for this playbook.
-- **--** — used as the named operating framework for this playbook.
-- **Document: what data you collect, where it's stored, who has access, where** — used as the named operating framework for this playbook.
-- **Tools: spreadsheets work for early stage. OneTrust, DataGrail, or Securiti** — used as the named operating framework for this playbook.
-- ****Data Controller:** You decide what data to collect and why. Most SaaS** — used as the named operating framework for this playbook.
-- ****Data Processor:** You process data on behalf of someone else. AWS is** — used as the named operating framework for this playbook.
-- ****Sub-Processor:** Your vendors who process data (AWS, Stripe, Intercom,** — used as the named operating framework for this playbook.
-- ****Consent:** User explicitly agrees (checkbox, not pre-ticked)** — used as the named operating framework for this playbook.
-- ****Contractual necessity:** Processing required to fulfill a contract** — used as the named operating framework for this playbook.
-- ****Legitimate interest:** You have a valid business reason that doesn't** — used as the named operating framework for this playbook.
-- ****Legal obligation:** Required by law** — used as the named operating framework for this playbook.
-- ****Vital interests:** Protecting life (rare for SaaS)** — used as the named operating framework for this playbook.
-- **Must be: concise, transparent, in plain language, easily accessible** — used as the named operating framework for this playbook.
-- **Must include: what data, why, how long, who it's shared with, user rights,** — used as the named operating framework for this playbook.
-- **See: `legal-for-founders` skill for Privacy Policy template** — used as the named operating framework for this playbook.
-- **Required between Controller and Processor** — used as the named operating framework for this playbook.
-- **Must include: subject matter, duration, nature, purpose, types of data,** — used as the named operating framework for this playbook.
-- **Your sub-processors (AWS, etc.) provide DPAs to you** — used as the named operating framework for this playbook.
-- **You provide a DPA to your enterprise customers** — used as the named operating framework for this playbook.
-- ****Have a DPA template ready before enterprise customers ask for it**** — used as the named operating framework for this playbook.
-- **Required for transferring personal data from EU to "third countries** — used as the named operating framework for this playbook.
-- **New SCCs (June 2021): modular format, must complete a Transfer Impact** — used as the named operating framework for this playbook.
-- **Most US SaaS companies need SCCs for EU customer data** — used as the named operating framework for this playbook.
-- **Right to access, rectify, erase, restrict processing, data portability,** — used as the named operating framework for this playbook.
-- **Must respond within 30 days (extendable to 90)** — used as the named operating framework for this playbook.
-- **Must verify identity before fulfilling** — used as the named operating framework for this playbook.
-- **Build a process: how will you find, extract, and delete a user's data?** — used as the named operating framework for this playbook.
-- **Notify supervisory authority within 72 hours of becoming aware** — used as the named operating framework for this playbook.
-- **Notify affected data subjects "without undue delay" if high risk** — used as the named operating framework for this playbook.
-- **Have an incident response plan with breach notification procedures** — used as the named operating framework for this playbook.
-- **Required if: public authority, large-scale systematic monitoring, or** — used as the named operating framework for this playbook.
-- **Most early-stage B2B SaaS does NOT need a DPO** — used as the named operating framework for this playbook.
-- **Can outsource DPO-as-a-Service if needed** — used as the named operating framework for this playbook.
-- **What cookies you use and why** — used as the named operating framework for this playbook.
-- **Option to accept all, reject all, or customize** — used as the named operating framework for this playbook.
-- **Accept All" and "Reject All" must be equally prominent** — used as the named operating framework for this playbook.
-- **NO pre-ticked boxes (illegal under GDPR)** — used as the named operating framework for this playbook.
-- **NO "by continuing to browse, you accept" (illegal)** — used as the named operating framework for this playbook.
-- **Necessary: can't be disabled (session, auth, CSRF)** — used as the named operating framework for this playbook.
-- **All others: must be opt-in** — used as the named operating framework for this playbook.
-- **CookieYes (free-$10/mo)** — used as the named operating framework for this playbook.
-- **Cookiebot ($12/mo+)** — used as the named operating framework for this playbook.
-- **Termly ($10/mo+)** — used as the named operating framework for this playbook.
-- **OneTrust (free basic, enterprise pricing)** — used as the named operating framework for this playbook.
-- **[ ] Privacy Policy — [published / draft / needs review]** — used as the named operating framework for this playbook.
-- **[ ] Cookie Consent Banner — [implemented / needed]** — used as the named operating framework for this playbook.
-- **[ ] DPA (outbound to customers) — [template ready / needed]** — used as the named operating framework for this playbook.
-- **[ ] DPAs (inbound from vendors) — [collected from: list]** — used as the named operating framework for this playbook.
-- **[ ] SCCs — [in place / not needed / needed for: list]** — used as the named operating framework for this playbook.
-- **[ ] DSAR procedure — [documented / needed]** — used as the named operating framework for this playbook.
-- **[ ] Breach notification procedure — [documented / needed]** — used as the named operating framework for this playbook.
-- **Cookie consent: [tool]** — used as the named operating framework for this playbook.
-- **Privacy policy: [tool]** — used as the named operating framework for this playbook.
-- **DSAR management: [tool]** — used as the named operating framework for this playbook.
-- **[ ] Data map completed (know what data you have and where)** — used as the named operating framework for this playbook.
-- **[ ] Privacy policy published — accurate, not copy-pasted** — used as the named operating framework for this playbook.
-- **[ ] Cookie consent banner live (if EU visitors)** — used as the named operating framework for this playbook.
-- **[ ] DPA template ready for enterprise customers** — used as the named operating framework for this playbook.
-- **[ ] SCCs in place for EU→US data transfers (if applicable)** — used as the named operating framework for this playbook.
-- **[ ] DSAR procedure documented (how to handle access/deletion requests)** — used as the named operating framework for this playbook.
-- **[ ] Breach notification procedure documented (72-hour clock)** — used as the named operating framework for this playbook.
-- **[ ] Sub-processor list maintained (DPA from each vendor)** — used as the named operating framework for this playbook.
-- **[ ] Annual privacy review scheduled** — used as the named operating framework for this playbook.
-- ****Legal matters:** Consult a qualified attorney licensed in your jurisdiction.** — used as the named operating framework for this playbook.
-- ****Tax matters:** Consult a certified tax professional or CPA.** — used as the named operating framework for this playbook.
-- ****Accounting/financial matters:** Consult a qualified accountant or financial advisor.** — used as the named operating framework for this playbook.
-- ****Insurance matters:** Consult a licensed insurance broker.** — used as the named operating framework for this playbook.
-- ****Security/compliance matters:** Consult a qualified security assessor or compliance** — used as the named operating framework for this playbook.
-- **`legal-for-founders` — Incorporation, ToS, Privacy Policy, IP** — used as the named operating framework for this playbook.
-- **`soc2-compliance` — Security compliance that supports privacy** — used as the named operating framework for this playbook.
-- **`security-assessments` — Vendor security reviews, pen testing** — used as the named operating framework for this playbook.
-- **`vendor-contracts` — DPAs, vendor security agreements** — used as the named operating framework for this playbook.
+- **GDPR (EU General Data Protection Regulation 2016/679).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **CCPA/CPRA (California Consumer Privacy Act / California Privacy Rights Act).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **ePrivacy Directive (EU Cookie Law).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **IAPP (International Association of Privacy Professionals).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **NIST Privacy Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Termly / Iubenda — Privacy compliance tools.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

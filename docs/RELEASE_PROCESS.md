@@ -13,8 +13,8 @@ gh skill publish --dry-run
 
 Required results:
 
-- `189 skills checked. 0 errors, 0 warnings.`
-- `skills.lock verified: 189 skills`
+- `218 skills checked. 0 errors, 0 warnings.`
+- `skills.lock verified: 218 skills`
 - Installer dry-run succeeds.
 - Publish dry-run succeeds.
 - Git status contains only intentional changes.

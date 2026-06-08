@@ -1,9 +1,7 @@
 ---
 name: lead-finding
 description: >-
-  Lead Finding playbook for GTM agents — strategy, workflow, templates, operating
-  guidance, and quality checks. Use when the user asks for lead finding work,
-  implementation help, or an agent-ready deliverable.
+  Find qualified prospects and decision-makers from ICP criteria using public research, company signals, role mapping, and source confidence. Produces a prospect list spec, search strategy, qualification rubric, source log, and QA checklist. Use when building target lists or finding buyers at named accounts.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:

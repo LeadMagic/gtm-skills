@@ -28,10 +28,11 @@ designing intervention playbooks.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Gainsight Churn Prediction Model** — used as the named operating framework for this playbook.
-- **Retention Science Framework** — used as the named operating framework for this playbook.
+- **Gainsight Churn Prediction Model.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Retention Science Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Reforge — Lifecycle Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Build a churn prediction model"

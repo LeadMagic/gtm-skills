@@ -34,22 +34,11 @@ is warned. This skill covers generating, validating, and maintaining skills.lock
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **npm package-lock.json — deterministic dependency resolution** — used as the named operating framework for this playbook.
-- **Cargo.lock (Rust) — version pinning and integrity** — used as the named operating framework for this playbook.
-- **SHA-256 — cryptographic hash for file integrity verification** — used as the named operating framework for this playbook.
-- **--** — used as the named operating framework for this playbook.
-- **name: Validate skills.lock** — used as the named operating framework for this playbook.
-- **[ ] skills.lock generated after every skill change (automated in CI)** — used as the named operating framework for this playbook.
-- **[ ] SHA256 verified for every skill (no hash mismatches)** — used as the named operating framework for this playbook.
-- **[ ] skills.lock committed to repo alongside skills** — used as the named operating framework for this playbook.
-- **[ ] Validation runs in CI on every push and PR** — used as the named operating framework for this playbook.
-- **[ ] Consumer instructions documented (how to verify a skill's integrity)** — used as the named operating framework for this playbook.
-- **[ ] Version field matches skill's frontmatter version** — used as the named operating framework for this playbook.
-- **[ ] Total count matches actual skill count** — used as the named operating framework for this playbook.
-- **`agent-skills-repo-authoring` — Repository scaffolding and CI/CD** — used as the named operating framework for this playbook.
-- **`hermes-agent-skill-authoring` — Skill authoring standards** — used as the named operating framework for this playbook.
+- **npm package-lock.json — deterministic dependency resolution.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Cargo.lock (Rust) — version pinning and integrity.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **SHA-256 — cryptographic hash for file integrity verification.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

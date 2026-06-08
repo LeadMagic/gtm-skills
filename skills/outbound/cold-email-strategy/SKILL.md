@@ -442,65 +442,49 @@ Before delivering, verify:
   crammed into one?
 - [ ] Are reply rate benchmarks realistic for the sequence type
   (trigger-based 8-15%, segment-specific 5-8%, list-blast 1-3%)?
-
 ## Common Pitfalls
-
 1. **Too many touches.** Beyond 7 touches, each additional touch has
    negative marginal value. Prospects who haven't responded by Touch 7
    are not going to respond to Touch 8. Honor the breakup.
-
 2. **Touch 1 product pitch.** The biggest mistake in cold outreach. Touch 1
    should surface a problem, not pitch a solution. If the prospect doesn't
    agree they have a problem, no amount of product detail helps.
-
 3. **Same message, different channel.** Copy-pasting the email into a LinkedIn
    DM is not multi-channel — it's annoying. Each channel touch must be written
    for that channel's conventions.
-
 4. **Ignoring sending limits.** 50 emails/day/mailbox is a hard ceiling.
    Google and Microsoft enforce this algorithmically. Pushing to 60-70/day
    gets your domain blacklisted regardless of authentication quality.
-
 5. **No trigger branching.** Sending the same Touch 1 to everyone regardless
    of signal produces list-blast results. If you're investing in trigger
    detection, the sequence must reward that investment with signal-specific
    openings.
-
 6. **No A/B testing.** Sequences degrade over time as prospects see similar
    messaging from competitors. Without ongoing testing, reply rates trend
    toward zero over 6-12 months.
-
 7. **No governance rules.** Without clear rules for when to pause or escalate,
    SDRs default to "keep sending" — which burns domains and annoys prospects.
-
 8. **Wrong gap timing.** 1-day gaps feel aggressive and trigger spam filters.
    5+ day gaps lose the prospect's context. 3 days is the research-backed
    sweet spot.
-
 ## Benchmarks Reference
-
 Reply rate benchmarks by approach type (sourced from ColdIQ campaign data
 across thousands of B2B sequences, 2024-2025):
-
 | Approach | Reply Rate | Positive Reply Rate | Meeting Booked Rate |
 |----------|-----------|--------------------|--------------------|
 | List-blast (Tier 1 personalization) | 1-3% | 0.5-1.5% | 0.2-0.8% |
 | Segment-specific (Tier 2) | 3-8% | 2-5% | 1-3% |
 | Trigger-based (Tier 3 per-lead) | 8-15% | 5-10% | 3-8% |
 | Multi-channel trigger-based | 12-20% | 8-15% | 5-12% |
-
 Reply rate by persona seniority:
 - C-suite: 3-8% (lower volume, higher quality)
 - VP: 5-12% (sweet spot for cold outreach)
 - Director: 5-10% (consistent across industries)
 - Manager: 3-7% (more outreach volume, lower individual rates)
 - IC: 2-5% (budget authority limits reduce response motivation)
-
 These are benchmarks, not guarantees. Industry, offer strength, and market
 conditions all shift these numbers. Use them as calibration, not prediction.
-
 ## Related Skills
-
 - `cold-email-copywriting` — adjacent workflow to use before or after this skill
 - `email-deliverability` — adjacent workflow to use before or after this skill
 - `personalization-at-scale` — adjacent workflow to use before or after this skill

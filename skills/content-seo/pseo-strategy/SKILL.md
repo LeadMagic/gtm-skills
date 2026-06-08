@@ -27,10 +27,11 @@ generate massive organic traffic when done right, and penalties when done wrong.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Programmatic SEO Framework** — used as the named operating framework for this playbook.
-- **Animalz Content Strategy** — used as the named operating framework for this playbook.
+- **Programmatic SEO Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Animalz Content Strategy.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Google Search Central — SEO Starter Guide.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Build programmatic SEO"

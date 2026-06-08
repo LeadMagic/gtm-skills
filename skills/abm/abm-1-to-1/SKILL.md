@@ -24,11 +24,11 @@ interactions that feel like the entire company exists to serve this one account.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **ITSMA Strategic ABM** — used as the named operating framework for this playbook.
-- **Force Management Command of the Message** — used as the named operating framework for this playbook.
-- **John Ruhlin Giftology** — used as the named operating framework for this playbook.
+- **ITSMA Strategic ABM.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Force Management Command of the Message.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **John Ruhlin Giftology.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Run 1-to-1 ABM on [account]"

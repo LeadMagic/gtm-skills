@@ -33,11 +33,11 @@ materials.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Marty Neumeier Brand Gap** — used as the named operating framework for this playbook.
-- **David Aaker Brand Identity** — used as the named operating framework for this playbook.
-- **April Dunford Positioning** — used as the named operating framework for this playbook.
+- **Marty Neumeier Brand Gap.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **David Aaker Brand Identity.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **April Dunford Positioning.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

@@ -27,10 +27,11 @@ design, data governance, and operating cadence.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **WbD Revenue Architecture** — used as the named operating framework for this playbook.
-- **RevOps Maturity Model** — used as the named operating framework for this playbook.
+- **WbD Revenue Architecture.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **RevOps Maturity Model.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Winning by Design — Revenue Architecture.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Set up RevOps"

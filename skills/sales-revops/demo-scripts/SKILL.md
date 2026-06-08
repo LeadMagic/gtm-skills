@@ -15,7 +15,7 @@ metadata:
   tags: [demo, scripts, presentations, product-demo]
   related_skills: [sales-enablement, meeting-prep, objection-handling, pitch-deck-builder]
   frameworks:
-    - "Force Management CoM"
+    - "Force Management Command of the Message"
     - "Challenger Teach-Tailor-Take Control"
     - "MEDDICC — Qualification"
 ---

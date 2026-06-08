@@ -15,7 +15,7 @@ metadata:
   category: sales-revops
   tags: [deal-desk, pricing, proposals, negotiation, business-case]
   related_skills: [pricing-strategy, roi-calculator, pipeline-management]
-  frameworks: [Ramanujam Monetizing Innovation, ValueSelling Framework, Force Management CoM, Todd Caponi Transparency Sale]
+  frameworks: [Ramanujam Monetizing Innovation, ValueSelling Framework, Force Management Command of the Message, Todd Caponi Transparency Sale]
 ---
 
 # Deal Desk
@@ -51,7 +51,7 @@ ValueSelling Framework: every deal conversation should ladder up to
 quantifiable business impact. "What's this worth to you?" is the
 question that determines pricing power.
 
-Force Management CoM: premium pricing is defendable when value
+Force Management Command of the Message: premium pricing is defendable when value
 differentiation is clear and provable.
 
 ## Step-by-Step Process

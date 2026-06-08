@@ -1,9 +1,7 @@
 ---
 name: campaign-analytics
 description: >-
-  Campaign Analytics playbook for GTM agents — strategy, workflow, templates,
-  operating guidance, and quality checks. Use when the user asks for campaign
-  analytics work, implementation help, or an agent-ready deliverable.
+  Analyze campaign performance from deliverability through revenue: delivery, engagement, replies, meetings, SQOs, pipeline, CAC, and payback. Produces diagnostic scorecard, root-cause analysis, benchmark comparison, and next-action plan. Use when deciding whether to scale, fix, or kill campaigns.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:

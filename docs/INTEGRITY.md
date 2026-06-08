@@ -42,7 +42,7 @@ npm run check:lock
 Expected output:
 
 ```text
-skills.lock verified: 189 skills
+skills.lock verified: 218 skills
 ```
 
 ## Consumer Verification

@@ -34,10 +34,11 @@ for themselves.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **B2B Event ROI Framework** — used as the named operating framework for this playbook.
-- **Field Marketing Playbook** — used as the named operating framework for this playbook.
+- **B2B Event ROI Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Field Marketing Playbook.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Paul Graham — Do Things That Do Not Scale.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

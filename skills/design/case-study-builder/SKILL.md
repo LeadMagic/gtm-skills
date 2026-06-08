@@ -35,10 +35,11 @@ study must answer "what changed, and by how much?"
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Challenge-Solution-Results** — used as the named operating framework for this playbook.
-- **Before-After-Bridge** — used as the named operating framework for this playbook.
+- **Challenge-Solution-Results.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Before-After-Bridge.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Nielsen Norman Group — Usability Heuristics.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

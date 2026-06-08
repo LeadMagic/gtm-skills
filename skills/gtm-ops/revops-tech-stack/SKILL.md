@@ -26,10 +26,11 @@ integration architecture, and cost optimization across the full revenue lifecycl
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **RevOps Tech Stack Maturity Model** — used as the named operating framework for this playbook.
-- **Scott Brinker MarTech Landscape** — used as the named operating framework for this playbook.
+- **RevOps Tech Stack Maturity Model.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Scott Brinker MarTech Landscape.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Winning by Design — Revenue Architecture.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Audit our GTM tech stack"

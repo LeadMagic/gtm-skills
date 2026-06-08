@@ -33,29 +33,12 @@ program that turns happy customers into your most powerful GTM engine.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Bain & Company — NPS (Net Promoter System, Fred Reichheld)** — used as the named operating framework for this playbook.
-- **Gainsight — Customer Advocacy Maturity Model** — used as the named operating framework for this playbook.
-- **Influitive — Advocate Marketing** — used as the named operating framework for this playbook.
-- **SaaSquatch — Customer-Led Growth** — used as the named operating framework for this playbook.
-- **--** — used as the named operating framework for this playbook.
-- **[ ] Case study pipeline: 3 candidates in progress, 1 published/month target** — used as the named operating framework for this playbook.
-- **[ ] 20+ G2 reviews (respond to every one)** — used as the named operating framework for this playbook.
-- **[ ] Reference program: 10+ referenceable customers, capped calls/quarter** — used as the named operating framework for this playbook.
-- **[ ] Logo usage: permission obtained for all logos on website** — used as the named operating framework for this playbook.
-- **[ ] Advocacy ladder documented with levels, triggers, and rewards** — used as the named operating framework for this playbook.
-- **[Output item 1]** — used as the named operating framework for this playbook.
-- **[Output item 2]** — used as the named operating framework for this playbook.
-- **[Output item 3]** — used as the named operating framework for this playbook.
-- **[ ] All required sections complete** — used as the named operating framework for this playbook.
-- **[ ] Output matches the user's stated need** — used as the named operating framework for this playbook.
-- **[ ] No vague or unsupported claims** — used as the named operating framework for this playbook.
-- **[ ] Frameworks cited where applicable** — used as the named operating framework for this playbook.
-- **`case-study-builder` — Case study creation** — used as the named operating framework for this playbook.
-- **`cs-playbooks` — Customer success foundation** — used as the named operating framework for this playbook.
-- **`content-marketing` — Distribution of customer content** — used as the named operating framework for this playbook.
-- **`referral-programs` — Customer referral engine** — used as the named operating framework for this playbook.
+- **Bain & Company — NPS (Net Promoter System, Fred Reichheld).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Gainsight — Customer Advocacy Maturity Model.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Influitive — Advocate Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **SaaSquatch — Customer-Led Growth.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

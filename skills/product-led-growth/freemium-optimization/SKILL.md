@@ -35,29 +35,13 @@ placement, upgrade triggers, and PQL scoring.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **OpenView — Product-Led Growth benchmarks** — used as the named operating framework for this playbook.
-- **Elena Verna (Reforge/Amplitude) — PLG growth models** — used as the named operating framework for this playbook.
-- **Wes Bush — Product-Led Onboarding** — used as the named operating framework for this playbook.
-- **Lenny Rachitsky — PLG conversion benchmarks** — used as the named operating framework for this playbook.
-- **Brian Balfour (Reforge) — Activation and retention** — used as the named operating framework for this playbook.
-- **--** — used as the named operating framework for this playbook.
-- **[ ] Activation moment defined and measured (time-to-activation < 7 days)** — used as the named operating framework for this playbook.
-- **[ ] Free tier is "enough to love, not enough to stay forever** — used as the named operating framework for this playbook.
-- **[ ] Paywall displayed after activation, not before** — used as the named operating framework for this playbook.
-- **[ ] PQL scoring model built with 5+ dimensions** — used as the named operating framework for this playbook.
-- **[ ] Free-to-paid conversion funnel measured weekly** — used as the named operating framework for this playbook.
-- **[Output item 1]** — used as the named operating framework for this playbook.
-- **[Output item 2]** — used as the named operating framework for this playbook.
-- **[Output item 3]** — used as the named operating framework for this playbook.
-- **[ ] All required sections complete** — used as the named operating framework for this playbook.
-- **[ ] Output matches the user's stated need** — used as the named operating framework for this playbook.
-- **[ ] No vague or unsupported claims** — used as the named operating framework for this playbook.
-- **[ ] Frameworks cited where applicable** — used as the named operating framework for this playbook.
-- **`plg-strategy` — Full PLG strategy** — used as the named operating framework for this playbook.
-- **`growth-experimentation` — A/B testing paywall variants** — used as the named operating framework for this playbook.
-- **`pricing-psychology` — Pricing page conversion** — used as the named operating framework for this playbook.
+- **OpenView — Product-Led Growth benchmarks.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Elena Verna (Reforge/Amplitude) — PLG growth models.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Wes Bush — Product-Led Onboarding.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Lenny Rachitsky — PLG conversion benchmarks.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Brian Balfour (Reforge) — Activation and retention.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

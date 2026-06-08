@@ -4,7 +4,7 @@ Use these references to ground outputs in named, repeatable methodology.
 
 ## Primary Frameworks
 
-- GTMLens Bulk Enrichment
+- DAMA-DMBOK Data Quality Management
 - CSV Batching Best Practices
 - Data Quality Management
 

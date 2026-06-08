@@ -32,10 +32,11 @@ maximum reach across every channel your ICP uses.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Content Distribution Matrix** — used as the named operating framework for this playbook.
-- **Gary Vaynerchuk Content Model** — used as the named operating framework for this playbook.
+- **Content Distribution Matrix.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Gary Vaynerchuk Content Model.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Ann Handley — Everybody Writes.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

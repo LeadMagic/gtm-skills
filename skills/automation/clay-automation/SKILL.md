@@ -16,7 +16,7 @@ metadata:
   category: automation
   tags: [clay, automation, enrichment, waterfall, workflows]
   related_skills: [waterfall-enrichment, lead-enrichment, list-building, n8n-automation]
-  frameworks: [GTMLens 5-Layer Waterfall, Ziellab 3-Waterfall Architecture, GTME Pulse Clay Templates]
+  frameworks: [DAMA-DMBOK Data Quality Dimensions, Ziellab 3-Waterfall Architecture, GTME Pulse Clay Templates]
 ---
 
 # Clay Automation
@@ -44,7 +44,7 @@ patterns, credit optimization, and n8n export for complex cases.
 
 ## Authoritative Foundations
 
-Clay workflow design follows patterns from GTMLens (5-layer waterfall),
+Clay workflow design follows patterns from DAMA-DMBOK data-quality dimensions,
 Ziellab (3 separate waterfalls: company, email, phone), and GTME Pulse
 (10 production templates tested at $5M-$100M ARR companies).
 

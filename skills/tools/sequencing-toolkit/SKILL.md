@@ -34,31 +34,13 @@ and advanced tactics across all major sequencing platforms.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Smartlead — Unlimited mailboxes, auto-rotation, AI reply categorization** — used as the named operating framework for this playbook.
-- **Instantly — Warmup pool, campaign optimization, unified inbox** — used as the named operating framework for this playbook.
-- **Salesloft — Rhythm cadences, Conversations, multi-channel orchestration** — used as the named operating framework for this playbook.
-- **Outreach — Enterprise sequencing, triggers, analytics** — used as the named operating framework for this playbook.
-- **Lemlist — Personalized images/video, multi-channel sequences** — used as the named operating framework for this playbook.
-- **--** — used as the named operating framework for this playbook.
-- **[ ] Mailboxes warmed up (2+ weeks) before full volume** — used as the named operating framework for this playbook.
-- **[ ] SPF/DKIM/DMARC configured for all sending domains** — used as the named operating framework for this playbook.
-- **[ ] Custom tracking domain set up (not shared)** — used as the named operating framework for this playbook.
-- **[ ] A/B test running (subject lines + copy variants)** — used as the named operating framework for this playbook.
-- **[ ] Reply handling: AI auto-categorization + human escalation rules** — used as the named operating framework for this playbook.
-- **[ ] Bounce rate under 3% (investigate if higher)** — used as the named operating framework for this playbook.
-- **[ ] Daily send limits per mailbox respected** — used as the named operating framework for this playbook.
-- **[Output item 1]** — used as the named operating framework for this playbook.
-- **[Output item 2]** — used as the named operating framework for this playbook.
-- **[Output item 3]** — used as the named operating framework for this playbook.
-- **[ ] All required sections complete** — used as the named operating framework for this playbook.
-- **[ ] Output matches the user's stated need** — used as the named operating framework for this playbook.
-- **[ ] No vague or unsupported claims** — used as the named operating framework for this playbook.
-- **[ ] Frameworks cited where applicable** — used as the named operating framework for this playbook.
-- **`smartlead-workflows` — Smartlead-specific setup** — used as the named operating framework for this playbook.
-- **`instantly-sequences` — Instantly-specific setup** — used as the named operating framework for this playbook.
-- **`cold-email-strategy` — Sequence architecture and cadence** — used as the named operating framework for this playbook.
+- **Smartlead — Unlimited mailboxes, auto-rotation, AI reply categorization.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Instantly — Warmup pool, campaign optimization, unified inbox.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Salesloft — Rhythm cadences, Conversations, multi-channel orchestration.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Outreach — Enterprise sequencing, triggers, analytics.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Lemlist — Personalized images/video, multi-channel sequences.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

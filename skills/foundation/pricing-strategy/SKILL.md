@@ -1,9 +1,7 @@
 ---
 name: pricing-strategy
 description: >-
-  Pricing Strategy playbook for GTM agents — strategy, workflow, templates, operating
-  guidance, and quality checks. Use when the user asks for pricing strategy work,
-  implementation help, or an agent-ready deliverable.
+  Design SaaS pricing strategy using willingness-to-pay research, packaging, value metrics, competitive anchors, and expansion paths. Produces pricing hypotheses, package architecture, discount guardrails, and test plan. Use when setting prices, changing packages, evaluating usage-based pricing, or fixing monetization.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:

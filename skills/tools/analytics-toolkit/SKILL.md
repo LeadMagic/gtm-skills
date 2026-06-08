@@ -33,29 +33,13 @@ This skill covers setup and optimization across the analytics stack.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Segment — CDP with 400+ destinations** — used as the named operating framework for this playbook.
-- **Amplitude — Product analytics, behavioral cohorts, experiment** — used as the named operating framework for this playbook.
-- **PostHog — Open-source analytics, session recording, feature flags** — used as the named operating framework for this playbook.
-- **Mixpanel — Event-based product analytics** — used as the named operating framework for this playbook.
-- **GA4 — Google Analytics for web + app** — used as the named operating framework for this playbook.
-- **--** — used as the named operating framework for this playbook.
-- **[ ] CDP implemented (Segment or Rudderstack) — single source of truth** — used as the named operating framework for this playbook.
-- **[ ] Server-side tracking for critical events (signup, payment)** — used as the named operating framework for this playbook.
-- **[ ] Client-side tracking for behavioral events** — used as the named operating framework for this playbook.
-- **[ ] GA4 configured with custom events + conversions** — used as the named operating framework for this playbook.
-- **[ ] Product analytics tool configured with retention + funnel reports** — used as the named operating framework for this playbook.
-- **[ ] Data warehouse receiving all events for BI** — used as the named operating framework for this playbook.
-- **[Output item 1]** — used as the named operating framework for this playbook.
-- **[Output item 2]** — used as the named operating framework for this playbook.
-- **[Output item 3]** — used as the named operating framework for this playbook.
-- **[ ] All required sections complete** — used as the named operating framework for this playbook.
-- **[ ] Output matches the user's stated need** — used as the named operating framework for this playbook.
-- **[ ] No vague or unsupported claims** — used as the named operating framework for this playbook.
-- **[ ] Frameworks cited where applicable** — used as the named operating framework for this playbook.
-- **`tracking-plan` — Complete analytics architecture** — used as the named operating framework for this playbook.
-- **`event-analytics` — Event taxonomy and CDP design** — used as the named operating framework for this playbook.
+- **Segment — CDP with 400+ destinations.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Amplitude — Product analytics, behavioral cohorts, experiment.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **PostHog — Open-source analytics, session recording, feature flags.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Mixpanel — Event-based product analytics.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **GA4 — Google Analytics for web + app.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

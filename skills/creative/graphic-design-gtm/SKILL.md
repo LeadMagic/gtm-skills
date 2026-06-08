@@ -31,10 +31,11 @@ templates that maintain consistency across every touchpoint.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Cialdini Visual Persuasion** — used as the named operating framework for this playbook.
-- **Tufte Data Visualization** — used as the named operating framework for this playbook.
+- **Cialdini Visual Persuasion.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Tufte Data Visualization.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Ann Handley — Everybody Writes.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Create a social media graphic"

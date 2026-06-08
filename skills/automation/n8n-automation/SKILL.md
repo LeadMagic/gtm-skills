@@ -30,10 +30,11 @@ that Clay cannot reach.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **n8n Workflow Automation Framework** — used as the named operating framework for this playbook.
-- **iPaaS Integration Patterns** — used as the named operating framework for this playbook.
+- **n8n Workflow Automation Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **iPaaS Integration Patterns.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **HubSpot Academy — CRM Automation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

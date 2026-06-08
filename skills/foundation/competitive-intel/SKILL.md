@@ -1,9 +1,7 @@
 ---
 name: competitive-intel
 description: >-
-  Competitive Intel playbook for GTM agents — strategy, workflow, templates, operating
-  guidance, and quality checks. Use when the user asks for competitive intel work,
-  implementation help, or an agent-ready deliverable.
+  Research competitors and turn findings into GTM assets: positioning map, win/loss themes, battlecard inputs, trap-setting questions, pricing comparison, and displacement angles. Use when evaluating a competitor, preparing sales enablement, building alternative pages, or entering a crowded category.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:

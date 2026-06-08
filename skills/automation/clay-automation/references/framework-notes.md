@@ -4,7 +4,7 @@ Use these references to ground outputs in named, repeatable methodology.
 
 ## Primary Frameworks
 
-- GTMLens 5-Layer Waterfall
+- DAMA-DMBOK Data Quality Dimensions
 - Ziellab 3-Waterfall Architecture
 - GTME Pulse Clay Templates
 

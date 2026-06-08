@@ -30,11 +30,11 @@ require.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **SaaS Valuation Multiples** — used as the named operating framework for this playbook.
-- **David Skok Unit Economics** — used as the named operating framework for this playbook.
-- **KeyBanc SaaS Survey** — used as the named operating framework for this playbook.
+- **SaaS Valuation Multiples.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **David Skok Unit Economics.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **KeyBanc SaaS Survey.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

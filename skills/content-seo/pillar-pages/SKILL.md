@@ -27,10 +27,11 @@ across the entire cluster.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **HubSpot Topic Cluster Model** — used as the named operating framework for this playbook.
-- **Animalz Content Strategy** — used as the named operating framework for this playbook.
+- **HubSpot Topic Cluster Model.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Animalz Content Strategy.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Google Search Central — SEO Starter Guide.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Build a pillar page"

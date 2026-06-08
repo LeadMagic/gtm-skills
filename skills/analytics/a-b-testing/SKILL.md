@@ -1,9 +1,7 @@
 ---
 name: a-b-testing
 description: >-
-  A B Testing playbook for GTM agents — strategy, workflow, templates, operating
-  guidance, and quality checks. Use when the user asks for a b testing work,
-  implementation help, or an agent-ready deliverable.
+  Design statistically sound GTM experiments for copy, channels, landing pages, sequencing, pricing, and funnel conversion. Produces hypothesis, sample-size logic, success metrics, test plan, analysis method, and scale/stop/kill recommendation. Use when planning A/B tests, split tests, or experiment roadmaps.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:

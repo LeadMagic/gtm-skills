@@ -27,10 +27,11 @@ organizational consensus. This is an enterprise sales superpower.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Force Management MEDDICC** — used as the named operating framework for this playbook.
-- **Gartner Challenger Sale Stakeholder Mapping** — used as the named operating framework for this playbook.
+- **Force Management MEDDICC.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Gartner Challenger Sale Stakeholder Mapping.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **ITSMA — Account-Based Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Multi-thread this deal"

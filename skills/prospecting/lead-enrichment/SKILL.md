@@ -1,9 +1,7 @@
 ---
 name: lead-enrichment
 description: >-
-  Lead Enrichment playbook for GTM agents — strategy, workflow, templates, operating
-  guidance, and quality checks. Use when the user asks for lead enrichment work,
-  implementation help, or an agent-ready deliverable.
+  Enrich prospect and account lists with company, contact, role, technographic, intent, funding, hiring, and confidence fields. Produces enrichment schema, waterfall order, QA thresholds, dedupe rules, and CRM-ready output. Use when turning raw lists into usable GTM data or improving data quality.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
@@ -12,7 +10,7 @@ metadata:
   category: prospecting
   tags: [enrichment, data, waterfall, normalization, clay, apollo, zoominfo]
   related_skills: [lead-finding, email-finding, contact-verification, data-enrichment-strategy, waterfall-enrichment]
-  frameworks: [GTMLens 5-Layer Waterfall, Ziellab 3-Waterfall Architecture, Winning by Design Data Model]
+  frameworks: [DAMA-DMBOK Data Quality Dimensions, Ziellab 3-Waterfall Architecture, Winning by Design Data Model]
 ---
 # Lead Enrichment
 
@@ -22,7 +20,7 @@ The most common lead enrichment failure is sending every record to every provide
 
 This skill provides a complete waterfall enrichment methodology that chains multiple data providers in a cost-optimized sequence. It specifies separate enrichment strategies for company data (firmographics, technographics, funding, revenue) and person data (contact details, job history, social profiles), with domain-based matching as the primary join key. Confidence thresholds determine when a record is "good enough" versus when it needs the next provider in the waterfall.
 
-The deliverables include a Waterfall Configuration (provider sequence with trigger conditions), a Company Enrichment Table schema, a Person Enrichment Table schema, Confidence Threshold Rules for data quality gating, and a Normalization Protocol for reconciling conflicting data across providers. The methodology draws from GTMLens' 5-layer enrichment waterfall and Ziellab's 3-waterfall architecture for production-grade enrichment pipelines.
+The deliverables include a Waterfall Configuration (provider sequence with trigger conditions), a Company Enrichment Table schema, a Person Enrichment Table schema, Confidence Threshold Rules for data quality gating, and a Normalization Protocol for reconciling conflicting data across providers. The methodology draws from DAMA-DMBOK data-quality dimensions and Ziellab's 3-waterfall architecture for production-grade enrichment pipelines.
 
 ## When to Use
 
@@ -41,7 +39,7 @@ Do NOT use for:
 
 ## Authoritative Foundations
 
-- **GTMLens — 5-Layer Enrichment Waterfall.** The five-layer framework for enrichment data quality: Layer 1 (seed data you already have), Layer 2 (free/public sources), Layer 3 (broad-coverage paid providers), Layer 4 (specialist providers for gaps), Layer 5 (AI agent research for remaining gaps). This skill implements all five layers.
+- **DAMA-DMBOK — Data Quality Dimensions.** Use accuracy, completeness, consistency, timeliness, uniqueness, validity, and lineage as the quality model for enrichment waterfalls and provider arbitration.
 
 - **Ziellab — 3-Waterfall Architecture.** The pattern of running three parallel waterfalls (Company, Contact, Technographic) that feed into a unified enriched record. This skill adopts the separate-company-and-person-tables architecture.
 

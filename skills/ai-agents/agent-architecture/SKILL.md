@@ -27,10 +27,11 @@ human-in-the-loop design for GTM workflows.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Anthropic Agent Design Patterns** — used as the named operating framework for this playbook.
-- **ReAct Agent Framework** — used as the named operating framework for this playbook.
+- **Anthropic Agent Design Patterns.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **ReAct Agent Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Anthropic — Agent Skills Progressive Disclosure.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Design an AI agent for [GTM task]"

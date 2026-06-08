@@ -39,77 +39,13 @@ from classification to termination.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **IRS — Worker classification (20-factor test, ABC test)** — used as the named operating framework for this playbook.
-- **California AB5 / Prop 22 — Gig economy classification** — used as the named operating framework for this playbook.
-- **DLSE (California) — Employment regulations** — used as the named operating framework for this playbook.
-- **SixFifty — Employment law automation (Wilson Sonsini)** — used as the named operating framework for this playbook.
-- **Rippling / Gusto — HR compliance platforms** — used as the named operating framework for this playbook.
-- **--** — used as the named operating framework for this playbook.
-- **Back taxes (both halves of FICA — you'd owe the employer AND employee share)** — used as the named operating framework for this playbook.
-- **Penalties: $50-5,000 per misclassified worker** — used as the named operating framework for this playbook.
-- **Benefits owed: health insurance, retirement, stock options** — used as the named operating framework for this playbook.
-- **Overtime wages if applicable** — used as the named operating framework for this playbook.
-- **California: additional PAGA penalties ($100-200 per employee per pay period)** — used as the named operating framework for this playbook.
-- **Class action risk** — used as the named operating framework for this playbook.
-- **Specific project with defined deliverables and end date** — used as the named operating framework for this playbook.
-- **Worker has their own business (LLC, other clients, website)** — used as the named operating framework for this playbook.
-- **Worker sets their own schedule and methods** — used as the named operating framework for this playbook.
-- **Worker invoices you (not on your payroll)** — used as the named operating framework for this playbook.
-- **[ ] Signed offer letter** — used as the named operating framework for this playbook.
-- **[ ] Signed PIIA (IP assignment) — CRITICAL** — used as the named operating framework for this playbook.
-- **[ ] I-9 (employment eligibility verification) within 3 days of start** — used as the named operating framework for this playbook.
-- **[ ] W-4 (tax withholding)** — used as the named operating framework for this playbook.
-- **[ ] Direct deposit form** — used as the named operating framework for this playbook.
-- **[ ] Emergency contact** — used as the named operating framework for this playbook.
-- **[ ] Benefits enrollment** — used as the named operating framework for this playbook.
-- **[ ] Employee handbook acknowledgment** — used as the named operating framework for this playbook.
-- **SixFifty (Wilson Sonsini) — AI-generated, state-specific handbooks** — used as the named operating framework for this playbook.
-- **Gusto — Built-in handbook builder for customers** — used as the named operating framework for this playbook.
-- **Rippling — HR + IT + compliance platform** — used as the named operating framework for this playbook.
-- **Orrick — Free startup forms library** — used as the named operating framework for this playbook.
-- **Minimum wage** — used as the named operating framework for this playbook.
-- **Overtime rules** — used as the named operating framework for this playbook.
-- **Paid sick leave (mandatory in CA, NY, MA, CO, and many others)** — used as the named operating framework for this playbook.
-- **Paid family leave (state-by-state)** — used as the named operating framework for this playbook.
-- **Final paycheck timing after termination (immediate in CA, next payday in TX)** — used as the named operating framework for this playbook.
-- **Non-compete enforceability (banned in CA, restricted in many others)** — used as the named operating framework for this playbook.
-- **Pay transparency requirements (salary ranges in job postings)** — used as the named operating framework for this playbook.
-- **Local employment laws (notice periods, severance, vacation minimums)** — used as the named operating framework for this playbook.
-- **Mandatory benefits (many countries require more than US)** — used as the named operating framework for this playbook.
-- **Data privacy (GDPR for EU employees)** — used as the named operating framework for this playbook.
-- **Equity: granting stock options internationally is complex — use a platform** — used as the named operating framework for this playbook.
-- **[Worker 1]: [Employee / Contractor] — proper classification? [Yes / Review]** — used as the named operating framework for this playbook.
-- **[Worker 2]: [Employee / Contractor] — proper classification? [Yes / Review]** — used as the named operating framework for this playbook.
-- **[ ] Offer letter template — [created / needs update]** — used as the named operating framework for this playbook.
-- **[ ] PIIA (IP Assignment) — [all employees signed? all contractors signed?]** — used as the named operating framework for this playbook.
-- **[ ] Employee Handbook — [published / draft / needed]** — used as the named operating framework for this playbook.
-- **[ ] Harassment Policy — [in handbook / separate / needed]** — used as the named operating framework for this playbook.
-- **[ ] Termination procedure — [documented / needed]** — used as the named operating framework for this playbook.
-- **Payroll: [Gusto / Rippling / Justworks]** — used as the named operating framework for this playbook.
-- **Handbook: [SixFifty / Gusto / Custom]** — used as the named operating framework for this playbook.
-- **International: [Deel / Remote / N/A]** — used as the named operating framework for this playbook.
-- **[ ] Annual handbook review — [date]** — used as the named operating framework for this playbook.
-- **[ ] Multi-state compliance check — [date]** — used as the named operating framework for this playbook.
-- **[ ] All workers properly classified (employee vs contractor)** — used as the named operating framework for this playbook.
-- **[ ] PIIAs signed by ALL employees and contractors (no exceptions)** — used as the named operating framework for this playbook.
-- **[ ] Employee handbook published and acknowledged by all employees** — used as the named operating framework for this playbook.
-- **[ ] Harassment policy includes reporting procedure and non-retaliation** — used as the named operating framework for this playbook.
-- **[ ] Workers comp insurance in place for all states with employees** — used as the named operating framework for this playbook.
-- **[ ] Payroll tax registrations complete for all states with employees** — used as the named operating framework for this playbook.
-- **[ ] Employment posters posted (physical or digital) in all states** — used as the named operating framework for this playbook.
-- **[ ] I-9 forms complete for all employees** — used as the named operating framework for this playbook.
-- **[ ] Termination procedure documented** — used as the named operating framework for this playbook.
-- ****Legal matters:** Consult a qualified attorney licensed in your jurisdiction.** — used as the named operating framework for this playbook.
-- ****Tax matters:** Consult a certified tax professional or CPA.** — used as the named operating framework for this playbook.
-- ****Accounting/financial matters:** Consult a qualified accountant or financial advisor.** — used as the named operating framework for this playbook.
-- ****Insurance matters:** Consult a licensed insurance broker.** — used as the named operating framework for this playbook.
-- ****Security/compliance matters:** Consult a qualified security assessor or compliance** — used as the named operating framework for this playbook.
-- **`first-hires-playbook` — First 10 hires, compensation, interview process** — used as the named operating framework for this playbook.
-- **`hiring-contractors` — Contractor management, rates, IP assignment** — used as the named operating framework for this playbook.
-- **`legal-for-founders` — Foundational legal docs and compliance** — used as the named operating framework for this playbook.
-- **`equity-management` — Stock options, cap tables, 409A** — used as the named operating framework for this playbook.
+- **IRS — Worker classification (20-factor test, ABC test).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **California AB5 / Prop 22 — Gig economy classification.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **DLSE (California) — Employment regulations.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **SixFifty — Employment law automation (Wilson Sonsini).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Rippling / Gusto — HR compliance platforms.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

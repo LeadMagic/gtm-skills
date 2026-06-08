@@ -27,10 +27,11 @@ in your domain. This skill covers the strategy.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **AEO Framework** — used as the named operating framework for this playbook.
-- **Google Search Generative Experience Guidelines** — used as the named operating framework for this playbook.
+- **AEO Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Google Search Generative Experience Guidelines.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Google Search Central — SEO Starter Guide.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Optimize for AI search"

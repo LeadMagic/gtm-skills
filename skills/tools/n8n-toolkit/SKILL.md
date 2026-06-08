@@ -33,28 +33,11 @@ event-driven automation, and the templates that save you hours.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **n8n — Open-source workflow automation, 400+ integrations** — used as the named operating framework for this playbook.
-- **LeadMagic API — Enrichment and verification endpoints** — used as the named operating framework for this playbook.
-- **webhook standard — HTTP callbacks for async processing** — used as the named operating framework for this playbook.
-- **--** — used as the named operating framework for this playbook.
-- **[ ] Error handling on every workflow (retry, notify, log)** — used as the named operating framework for this playbook.
-- **[ ] API keys in environment variables (never hard-coded)** — used as the named operating framework for this playbook.
-- **[ ] Webhook authentication configured (secret token or HMAC)** — used as the named operating framework for this playbook.
-- **[ ] Rate limiting respected (delay nodes between API calls)** — used as the named operating framework for this playbook.
-- **[ ] Workflow tested in "test" mode before activating** — used as the named operating framework for this playbook.
-- **[ ] Production workflows tagged with [production] in name** — used as the named operating framework for this playbook.
-- **[Output item 1]** — used as the named operating framework for this playbook.
-- **[Output item 2]** — used as the named operating framework for this playbook.
-- **[Output item 3]** — used as the named operating framework for this playbook.
-- **[ ] All required sections complete** — used as the named operating framework for this playbook.
-- **[ ] Output matches the user's stated need** — used as the named operating framework for this playbook.
-- **[ ] No vague or unsupported claims** — used as the named operating framework for this playbook.
-- **[ ] Frameworks cited where applicable** — used as the named operating framework for this playbook.
-- **`n8n-automation` — General n8n workflow design** — used as the named operating framework for this playbook.
-- **`leadmagic-toolkit` — LeadMagic API integration** — used as the named operating framework for this playbook.
-- **`clay-toolkit` — Clay enrichment patterns** — used as the named operating framework for this playbook.
+- **n8n — Open-source workflow automation, 400+ integrations.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **LeadMagic API — Enrichment and verification endpoints.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **webhook standard — HTTP callbacks for async processing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

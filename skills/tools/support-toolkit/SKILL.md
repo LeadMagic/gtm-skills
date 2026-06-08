@@ -33,29 +33,12 @@ the support stack.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks, public methodologies, and vendor documentation where relevant:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Intercom — Conversational support, Fin AI, Product Tours** — used as the named operating framework for this playbook.
-- **Zendesk — Omnichannel CX, AI Agents, Explore analytics** — used as the named operating framework for this playbook.
-- **Front — Collaborative inbox, rule-based routing** — used as the named operating framework for this playbook.
-- **Help Scout — Docs-first support, Beacon widget** — used as the named operating framework for this playbook.
-- **--** — used as the named operating framework for this playbook.
-- **[ ] Knowledge base: 30+ articles before launching chat/AI agent** — used as the named operating framework for this playbook.
-- **[ ] AI agent trained and tested with 50 real questions (95%+ correct)** — used as the named operating framework for this playbook.
-- **[ ] Macros: 15+ for top ticket types** — used as the named operating framework for this playbook.
-- **[ ] SLA policies documented with FRT + resolution targets** — used as the named operating framework for this playbook.
-- **[ ] CSAT survey: post-resolution, scores < 3 auto-escalated** — used as the named operating framework for this playbook.
-- **[ ] Escalation path: L1 → L2 → L3 documented with triggers** — used as the named operating framework for this playbook.
-- **[Output item 1]** — used as the named operating framework for this playbook.
-- **[Output item 2]** — used as the named operating framework for this playbook.
-- **[Output item 3]** — used as the named operating framework for this playbook.
-- **[ ] All required sections complete** — used as the named operating framework for this playbook.
-- **[ ] Output matches the user's stated need** — used as the named operating framework for this playbook.
-- **[ ] No vague or unsupported claims** — used as the named operating framework for this playbook.
-- **[ ] Frameworks cited where applicable** — used as the named operating framework for this playbook.
-- **`support-tool-stack` — Platform selection by stage** — used as the named operating framework for this playbook.
-- **`headless-support` — AI support agents and KB architecture** — used as the named operating framework for this playbook.
-- **`sla-management` — SLA design and escalation** — used as the named operating framework for this playbook.
+- **Intercom — Conversational support, Fin AI, Product Tours.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Zendesk — Omnichannel CX, AI Agents, Explore analytics.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Front — Collaborative inbox, rule-based routing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Help Scout — Docs-first support, Beacon widget.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

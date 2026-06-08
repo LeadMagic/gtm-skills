@@ -36,10 +36,11 @@ you compliant between audits. Budget ~$20-50K for first-year audit. Timeline:
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **AICPA Trust Services Criteria** — used as the named operating framework for this playbook.
-- **SOC2 Type II Framework** — used as the named operating framework for this playbook.
+- **AICPA Trust Services Criteria.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **SOC2 Type II Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Paul Graham — Do Things That Do Not Scale.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 

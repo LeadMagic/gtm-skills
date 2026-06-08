@@ -27,10 +27,11 @@ covers question-driven content strategy.
 
 ## Frameworks Referenced
 
-This skill is grounded in named GTM frameworks and operator methodologies, not generic advice:
+This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Google Featured Snippet Optimization** — used as the named operating framework for this playbook.
-- **FAQ Schema Best Practices** — used as the named operating framework for this playbook.
+- **Google Featured Snippet Optimization.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **FAQ Schema Best Practices.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Google Search Central — SEO Starter Guide.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
 - "Build FAQ content"
