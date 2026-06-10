@@ -42,6 +42,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 | Rob Walling | [robwalling](https://www.linkedin.com/in/robwalling/) | [@robwalling](https://x.com/robwalling) | [Rob Walling](https://www.youtube.com/@robwalling) · [MicroConf](https://www.youtube.com/c/MicroConf) | [robwalling.com](https://robwalling.com/) |
 | Nathan Latka | [nathanlatka](https://www.linkedin.com/in/nathanlatka/) | [@NathanLatka](https://x.com/NathanLatka) | [@NathanLatka](https://www.youtube.com/@NathanLatka) | [getlatka.com](https://getlatka.com/) |
 | Eric Nowoslawski | [outboundphd](https://www.linkedin.com/in/outboundphd/) | [@ENowoslawski](https://x.com/ENowoslawski) | [Eric Nowoslawski](https://www.youtube.com/channel/UC6ef5yDFz7gm8rARwX3HaDw) | [growthenginex.com](https://www.growthenginex.com/) |
+| Leslie Venetz | [leslievenetz](https://www.linkedin.com/in/leslievenetz/) | — | [@LeslieVenetz](https://www.youtube.com/@LeslieVenetz) | [salesledgtm.com](https://salesledgtm.com/) · [Profit-Generating Pipeline](https://salesledgtm.com/book) |
 | Keenan | [jimkeenan](https://www.linkedin.com/in/jimkeenan/) | — | [A Sales Growth Co. videos](https://salesgrowth.com/videos/) | [salesgrowth.com](https://salesgrowth.com/) · [Gap Selling book](https://www.amazon.com/Gap-Selling-Getting-Customer-Problem-Centric/dp/173266060X) |
 | Becc Holland | [beccholland-flipthescript](https://www.linkedin.com/in/beccholland-flipthescript/) | — | [GTMnow — Diagnostic Selling](https://gtmnow.com/webinar-discovery-call-diagnostic-selling-secrets/) | [flipthescript.com](https://www.flipthescript.com/) |
 | Guillaume Moubeche | [guillaume-moubeche-a026541b2](https://www.linkedin.com/in/guillaume-moubeche-a026541b2/) | [@GuillaumeMbh](https://x.com/GuillaumeMbh) | [@GuillaumeMoubeche](https://www.youtube.com/@GuillaumeMoubeche) | [guillaumemoubeche.com](https://www.guillaumemoubeche.com/) · [lemlist blog](https://www.lemlist.com/blog/) |
@@ -2103,7 +2104,7 @@ Founder-specific comp (payroll % ARR, offer walkthrough, negotiation scripts) �
 | Relationship / enterprise trust | Randy Seidl (Sales Community), Benioff |
 | ABM gifting | John Ruhlin (Giftology), Sendoso |
 | Pipeline / discovery | Jacco (WbD), Keenan (Gap Selling), Whyte, Barrows, Becc Holland (Diagnostic) |
-| Outbound / SDR (email) | Jason Bay, Becc Holland, Guillaume Moubeche, Jordan Crawford, Pat Spielmann, Jed Mahrle, Eric Nowoslawski, Justin Michael |
+| Outbound / SDR (email) | Jason Bay, Becc Holland, Guillaume Moubeche, Jordan Crawford, Pat Spielmann, Jed Mahrle, Eric Nowoslawski, Justin Michael, Leslie Venetz (Earn the Right / buyer-first) |
 | Outbound / SDR (phone) | Joey Gilkey, Ryan Reisert, Ronen Pessar, Tom Slocum, Jeb Blount — `cold-calling-experts-index.md` |
 | Outbound / SDR (scale) | Henry Schuck (ZoomInfo SDR machine), Tito Bohrt (AltiSales SDR economics & science), Lars Nilsson (ABSD, Cloudera/Snowflake) |
 | ABM / targeted outbound | Lars Nilsson (ABSD), ITSMA, TOPO — `abm-strategy` → `lars-nilsson-absd.md` |
