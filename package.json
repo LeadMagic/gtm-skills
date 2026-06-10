@@ -1,7 +1,7 @@
 {
   "name": "gtm-skills",
   "version": "0.26.0",
-  "description": "203 production go-to-market playbooks for AI agents across 25 categories. Framework-cited GTM skills for Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, and Goose.",
+  "description": "204 production go-to-market playbooks for AI agents across 25 categories. Framework-cited GTM skills for Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, and Goose.",
   "keywords": [
     "abm",
     "agent-skills",

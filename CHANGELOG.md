@@ -2,6 +2,12 @@
 
 All notable changes to GTM Skills are documented here.
 
+## v0.26.1 — LinkedIn Live Strategy (Jessie Lizak / Reveting)
+
+- Added `linkedin-live-strategy` skill (inbound) with Jessie Lizak's Reveting playbook — weekly livestream content engine, WinsDay model, repurposing flywheel, and relationship-first Live execution.
+- Cross-linked from `linkedin-algorithm`, `social-selling`, `founder-brand`, `social-media-strategy`, and `references/experts.md`.
+- **204 skills / 25 categories** — catalog, lockfile, and taxonomy regenerated.
+
 ## v0.26.0 — Toolkit Flattening, Reference Repair, and Validation/CI Hardening
 
 - **203 skills / 25 categories** — catalog, lockfile, taxonomy, and public metadata synced to disk.

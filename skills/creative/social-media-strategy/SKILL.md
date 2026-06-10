@@ -14,8 +14,8 @@ metadata:
   author: LeadMagic
   category: creative
   tags: [social-media, linkedin, twitter, x, content, engagement]
-  related_skills: [linkedin-algorithm, founder-brand, social-selling, content-distribution]
-  frameworks: [Charlie Hills Social Media, Brendan Gahan Creator Economy, "Richard van der Blom (Just Connecting) — LinkedIn Algorithm Insights Report"]
+  related_skills: [linkedin-algorithm, linkedin-live-strategy, founder-brand, social-selling, content-distribution]
+  frameworks: [Charlie Hills Social Media, Brendan Gahan Creator Economy, "Richard van der Blom (Just Connecting) — LinkedIn Algorithm Insights Report", "Jessie Lizak (Reveting) — LinkedIn Live & livestream content engine"]
 ---
 
 # Social Media Strategy
@@ -46,6 +46,8 @@ tactics for LinkedIn (primary B2B channel) and X/Twitter (secondary).
   post body, hashtag stuffing (posts without hashtags now outperform by
   5-10%), 5+ person tags, over-posting (>1/day), AI-sounding text. Full data
   and format rankings → `linkedin-algorithm`.
+- **Jessie Lizak (Reveting)** — weekly LinkedIn Live as anchor content; repurpose
+  into clips, carousels, and feed posts. → `linkedin-live-strategy`.
 
 ## Step-by-Step Process
 ### Phase 1: Platform Selection

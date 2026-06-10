@@ -16,10 +16,11 @@ metadata:
   author: LeadMagic
   category: founder-led
   tags: [personal-brand, linkedin, content, founder, thought-leadership]
-  related_skills: [social-media-strategy, linkedin-algorithm, social-selling, copywriting, solo-founder-gtm, launch-planning]
+  related_skills: [social-media-strategy, linkedin-algorithm, linkedin-live-strategy, social-selling, copywriting, solo-founder-gtm, launch-planning]
   frameworks:
     - "Adam Robinson (RB2B / Retention.com) — Founder-led LinkedIn playbook"
     - "Richard van der Blom (Just Connecting) — LinkedIn Algorithm Insights Report"
+    - "Jessie Lizak (Reveting) — LinkedIn Live & livestream content engine"
     - "Charlie Hills Social Media"
     - "Brendan Gahan Creator Economy"
     - "Paul Graham — Do Things That Do Not Scale"
@@ -61,6 +62,10 @@ pipeline for years.
   Report; the reach mechanics (interest graph, format rankings, dwell time,
   link penalties) that make the posting system work. Load `linkedin-algorithm`
   for the full data.
+- **Jessie Lizak (Reveting)** — when daily writing is the bottleneck, run a
+  **weekly LinkedIn Live** as the primary content engine (WinsDay model): record
+  conversations, repurpose into clips, carousels, and posts. Load
+  `linkedin-live-strategy` → `skills/inbound/linkedin-live-strategy/references/jessie-lizak-linkedin-live.md`.
 - **Charlie Hills** — social media strategy for B2B. Multi-channel content
   distribution. Personal brand as growth lever.
 - **Brendan Gahan** — creator economy principles applied to founders. Community
@@ -180,6 +185,7 @@ calendar, audience growth plan, media pitch list, and voice guidelines.
 ## Related Skills
 
 - **linkedin-algorithm**: Reach mechanics — van der Blom Algorithm Insights Report
+- **linkedin-live-strategy**: Weekly LinkedIn Live content engine (Jessie Lizak / Reveting)
 - **social-selling**: Turning content engagement into conversations and pipeline
 - **social-media-strategy**: Platform-specific content formats and sizing
 - **copywriting**: Headlines and persuasive writing

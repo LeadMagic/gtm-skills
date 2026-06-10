@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-06-10T02:30:12+00:00",
-  "total_skills": 203,
+  "generated_at": "2026-06-10T02:37:09+00:00",
+  "total_skills": 204,
   "skills": {
     "abm/abm-1-to-1": {
       "path": [
@@ -424,8 +424,8 @@
         "social-media-strategy",
         "SKILL.md"
       ],
-      "sha256": "88865b3690799481622582361261bc21d69cca119bdaf712bdc14331f7172626",
-      "size_bytes": 7393
+      "sha256": "4ef793182463e0e75f885c90417db3574582970315e7103c337944357edc39b5",
+      "size_bytes": 7645
     },
     "creative/v0-lander": {
       "path": [
@@ -712,8 +712,8 @@
         "using-gtm-skills",
         "SKILL.md"
       ],
-      "sha256": "002fd3f057429b8327e0af373d3b91d5219fc67ac96ab75ec74ce658353195b2",
-      "size_bytes": 91199
+      "sha256": "0faa2caca5c93b9b6951f8158db2ad795bc911170296400100f63717c234ccee",
+      "size_bytes": 91364
     },
     "founder-led/advisor-recruitment": {
       "path": [
@@ -856,8 +856,8 @@
         "founder-brand",
         "SKILL.md"
       ],
-      "sha256": "49251e171c4beec5069075537f4ad0a0bbebbb6760012fc1201f53d5e99abe07",
-      "size_bytes": 8453
+      "sha256": "32230a28f2e82a4da1cbd6aff9627670eff6845f28112980ed3a8c1e06429b05",
+      "size_bytes": 8985
     },
     "founder-led/founder-comp-playbook": {
       "path": [
@@ -1207,8 +1207,17 @@
         "linkedin-algorithm",
         "SKILL.md"
       ],
-      "sha256": "8e046a2859f4c409b8414f3148ad28481e36f6bb75fe4f61b08b0e2804aa5cdb",
-      "size_bytes": 8775
+      "sha256": "7ff1589956f46deff723b15e762933b776a19d40605b860791d56ef5f2f83adc",
+      "size_bytes": 9458
+    },
+    "inbound/linkedin-live-strategy": {
+      "path": [
+        "inbound",
+        "linkedin-live-strategy",
+        "SKILL.md"
+      ],
+      "sha256": "b4318225258eb7e191875440f032dd10ade251693d707a497a399d21a4835a74",
+      "size_bytes": 8315
     },
     "inbound/social-selling": {
       "path": [
@@ -1216,8 +1225,8 @@
         "social-selling",
         "SKILL.md"
       ],
-      "sha256": "248ed1d1f095fd2f76bcbcae7f3a7e763d98753f273761b9a08f631ac68cb0d9",
-      "size_bytes": 8794
+      "sha256": "33cbbd5616f57ea6089c9a31d6cb31c86a4eea4e6dbf41dd9df5aa0fe49466c5",
+      "size_bytes": 9123
     },
     "inbound/website-visitor-identification": {
       "path": [

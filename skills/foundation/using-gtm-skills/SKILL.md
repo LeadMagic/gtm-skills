@@ -352,6 +352,7 @@ Examples:
 - "Marketing frequency / revenue leader development" → references/chris-walker-mental-models.md, gtm-leadership
 - "B2B influencer / LinkedIn creator / Wishly / Aneesh Lal" → Pattern 21 (customer-marketing → social-selling → gtm-metrics)
 - "LinkedIn algorithm / reach drop / carousel vs video / van der Blom" → linkedin-algorithm (richard-van-der-blom-algorithm.md), social-selling
+- "LinkedIn Live / livestream / WinsDay / Jessie Lizak / Reveting / weekly live show" → linkedin-live-strategy (jessie-lizak-linkedin-live.md), linkedin-algorithm
 - "Founder LinkedIn / build in public / Adam Robinson / zero-click content" → founder-brand (adam-robinson-founder-brand.md), linkedin-algorithm
 - "Influencer ROI / creator attribution / influencer UTM" → references/b2b-influencer-measurement.md, campaign-governance
 - "Employee advocacy vs paid creators" → customer-marketing Phase 6, references/b2b-influencer-strategy.md
