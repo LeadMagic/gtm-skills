@@ -7,7 +7,6 @@
   "homepage": "https://leadmagic.io",
   "repository": "https://github.com/LeadMagic/gtm-skills",
   "skills": [
-    "skills/*/SKILL.md",
     "skills/*/*/SKILL.md"
   ]
 }

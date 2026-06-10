@@ -53,6 +53,7 @@ Expected result (count matches the current catalog):
 203 skills checked. 0 errors, 0 warnings.
 Reference audit passed: 203 skills, all reference targets resolve, layout and frontmatter names clean.
 skills.lock verified: 203 skills
+npm run check:generated — no drift in README, CLAUDE, AGENTS, taxonomy.csv, skills.lock, pitfalls-index, skill-index-master, plugin metadata
 ```
 
 ## Adding a Skill

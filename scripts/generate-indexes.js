@@ -13,6 +13,35 @@ const SKILLS_DIR = path.join(ROOT, 'skills');
 const PLUGIN_DIR = path.join(ROOT, '.claude-plugin');
 const VERSION = '0.26.0';
 
+// Human-facing category guide for references/skill-index-master.md (generated).
+const CATEGORY_GUIDE = {
+  abm: { title: 'Account-Based Marketing', blurb: 'Tiered ABM plays, gifting, multi-thread orchestration.', start: 'abm-strategy' },
+  analytics: { title: 'Analytics & Measurement', blurb: 'Attribution, experiments, GTM metrics, tracking plans.', start: 'gtm-metrics' },
+  automation: { title: 'Automation & Integrations', blurb: 'Clay, n8n, CRM setup, enrichment waterfalls.', start: 'clay-automation' },
+  'content-seo': { title: 'Content & SEO', blurb: 'SEO strategy, pillars, pSEO, AEO, citation harvesting.', start: 'seo-strategy' },
+  creative: { title: 'Creative & AI Content', blurb: 'Vibe marketing, AI content/video, copywriting, growth hacks.', start: 'vibe-marketing' },
+  'customer-success': { title: 'Customer Success', blurb: 'Onboarding, CS playbooks, SLAs, headless support.', start: 'customer-onboarding' },
+  'demand-gen': { title: 'Demand Generation', blurb: 'Webinars, podcasts, paid social, syndication.', start: 'webinar-strategy' },
+  design: { title: 'Design & Collateral', blurb: 'Pitch decks, battlecards, ROI calculators, brand systems.', start: 'pitch-deck-builder' },
+  events: { title: 'Events & Field', blurb: 'Conferences, field marketing, event-driven outreach.', start: 'conference-strategy' },
+  foundation: { title: 'Foundation & ICP', blurb: 'ICP, positioning, pricing, master router.', start: 'using-gtm-skills' },
+  'founder-led': { title: 'Founder-Led GTM', blurb: 'Fundraising, hiring, legal, founder sales, solo GTM.', start: 'solo-founder-gtm' },
+  'gtm-ops': { title: 'GTM Operations', blurb: 'RevOps stack, spend, PM/RACI, campaign governance.', start: 'gtm-operations' },
+  growth: { title: 'Growth & Expansion', blurb: 'Referrals, expansion, churn prevention, reviews.', start: 'expansion-selling' },
+  inbound: { title: 'Inbound & PLG-adjacent', blurb: 'Content marketing, triage, landing pages, LinkedIn, visitor ID.', start: 'inbound-triage' },
+  leadmagic: { title: 'LeadMagic Product', blurb: 'CLI, MCP, waterfall, bulk enrichment integrations.', start: 'leadmagic-waterfall' },
+  'management-leadership': { title: 'Leadership & Coaching', blurb: 'GTM leadership, coaching, onboarding, exec comp.', start: 'gtm-leadership' },
+  lifecycle: { title: 'Lifecycle Marketing', blurb: 'MQL nurture, onboarding drips, churn, re-engagement.', start: 'mql-nurture' },
+  outbound: { title: 'Outbound', blurb: 'Cold email, calling, deliverability, domains, replies.', start: 'cold-email-strategy' },
+  partnerships: { title: 'Partnerships', blurb: 'Co-marketing, integrations, partner strategy.', start: 'partnership-strategy' },
+  'product-led-growth': { title: 'Product-Led Growth', blurb: 'PLG strategy, freemium optimization, developer GTM.', start: 'plg-strategy' },
+  prospecting: { title: 'Prospecting & Data', blurb: 'Lead finding, enrichment, verification, signals.', start: 'lead-finding' },
+  'sales-revops': { title: 'Sales & RevOps', blurb: 'Pipeline, demos, deal desk, enablement, objections.', start: 'pipeline-management' },
+  'sequencing-tools': { title: 'Sequencing Platforms', blurb: 'Instantly, Smartlead, lemlist, Outreach, Salesloft.', start: 'smartlead-workflows' },
+  'sales-plays': { title: 'Signal Sales Plays', blurb: 'Funding, hiring, job change, earnings plays.', start: 'funding-signal-play' },
+  tools: { title: 'Toolkits', blurb: 'Clay, CRM, n8n, sequencing, analytics, support toolkits.', start: 'clay-toolkit' },
+};
+
 function csvEscape(value) {
   const s = String(value ?? '');
   return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
@@ -109,6 +138,38 @@ function truncate(s, n) {
   return text.length <= n ? text : `${text.slice(0, n - 1).trimEnd()}…`;
 }
 
+function buildSkillIndexMaster(total, categories, byCategory) {
+  let out = `# GTM Skills — Master Skill Index\n\n`;
+  out += `One-page map of **${total} skills** across **${categories.length} categories**. Load \`foundation/using-gtm-skills\` first for patterns and workflows.\n\n`;
+  out += `**Master router:** \`skills/foundation/using-gtm-skills/SKILL.md\`\n\n`;
+  out += `## Cross-repo indexes\n\n`;
+  out += `| Index | Path | Use when |\n|---|---|---|\n`;
+  out += `| Expert catalog | \`references/experts.md\` | Named practitioner lookup (~110 entries) |\n`;
+  out += `| Outbound experts | \`references/gtm-experts-outbound-index.md\` | Cold email + discovery routing |\n`;
+  out += `| Cold calling experts | \`references/cold-calling-experts-index.md\` | Phone-first outbound |\n`;
+  out += `| Automation playbooks | \`references/automation-playbook-index.md\` | Clay, n8n, sequencing, LeadMagic (38 playbooks) |\n`;
+  out += `| Lifecycle router | \`references/lifecycle-skill-index.md\` | Stage-based skill selection |\n`;
+  out += `| Lifecycle stages | \`references/gtm-lifecycle-stages.md\` | Canonical 7-stage definitions |\n`;
+  out += `| GTM ops router | \`skills/gtm-ops/gtm-operations/references/gtm-ops-skill-index.md\` | RevOps + spend cluster |\n`;
+  out += `| Pitfalls catalog | \`references/pitfalls-index.md\` | Cross-skill mistake patterns |\n`;
+  out += `| GTM glossary | \`references/gtm-glossary.md\` | Shared terminology |\n`;
+  out += `| SaaS metrics ref | \`references/saas-metrics-reference.md\` | Benchmark formulas |\n`;
+  out += `| SEO playbook | \`references/seo-strategy-playbook.md\` | Product-led SEO stack |\n\n`;
+  out += `## Categories (${categories.length})\n\n`;
+  for (const cat of categories) {
+    const guide = CATEGORY_GUIDE[cat] || { title: cat, blurb: '', start: byCategory[cat][0]?.slug || cat };
+    const n = byCategory[cat].length;
+    out += `### ${guide.title} (\`${cat}/\`) — ${n} skills\n\n`;
+    out += `${guide.blurb} **Start skill:** \`${guide.start}\`\n\n`;
+    out += `| Skill | One-line |\n|---|---|\n`;
+    for (const s of byCategory[cat]) {
+      out += `| \`${s.slug}\` | ${truncate(s.description, 90)} |\n`;
+    }
+    out += '\n';
+  }
+  return out;
+}
+
 function parseExpertsCatalog() {
   const expertsFile = path.join(ROOT, 'references', 'experts.md');
   if (!fs.existsSync(expertsFile)) return [];
@@ -175,6 +236,7 @@ const authorityCatalog = buildAuthorityCatalog(skills, authorityCounts, 24);
 const taxonomy = ['slug,name,category,path,description,priority,compatibility'];
 for (const s of skills) taxonomy.push([s.slug, s.name, s.category, s.path, s.description, s.priority, s.compatibility].map(csvEscape).join(','));
 fs.writeFileSync(path.join(ROOT, 'taxonomy.csv'), `${taxonomy.join('\n')}\n`);
+fs.writeFileSync(path.join(ROOT, 'references', 'skill-index-master.md'), buildSkillIndexMaster(total, categories, byCategory));
 
 let claude = `# GTM Skills\n\n${total} production go-to-market skills for Claude-compatible agents. Skills are self-contained folders with instructions, scripts, references, templates, assets, and metadata that agents load through progressive disclosure.\n\n`;
 claude += `## Install\n\n\`/plugin marketplace add LeadMagic/gtm-skills\` then \`/plugin install gtm-skills@gtm-skills\`. agentskills CLI: \`gh skill install LeadMagic/gtm-skills\`.\n\n`;
@@ -220,7 +282,7 @@ const plugin = {
   license: 'MIT',
   homepage: 'https://leadmagic.io',
   repository: 'https://github.com/LeadMagic/gtm-skills',
-  skills: ['skills/*/SKILL.md', 'skills/*/*/SKILL.md'],
+  skills: ['skills/*/*/SKILL.md'],
 };
 fs.writeFileSync(path.join(PLUGIN_DIR, 'plugin.json'), `${JSON.stringify(plugin, null, 2)}\n`);
 const marketplace = {
@@ -235,4 +297,4 @@ const marketplace = {
 };
 fs.writeFileSync(path.join(PLUGIN_DIR, 'marketplace.json'), `${JSON.stringify(marketplace, null, 2)}\n`);
 
-console.log(`Generated taxonomy.csv, CLAUDE.md, AGENTS.md, README.md, plugin metadata for ${total} skills across ${categories.length} categories.`);
+console.log(`Generated taxonomy.csv, skill-index-master.md, CLAUDE.md, AGENTS.md, README.md, plugin metadata for ${total} skills across ${categories.length} categories.`);

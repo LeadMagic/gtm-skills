@@ -110,13 +110,12 @@ def main() -> int:
     if not skills:
         fail("no skills found", failures)
 
-    # Marketplace discovery: skills/<category>/<skill>/SKILL.md or skills/<category>/<group>/<skill>/SKILL.md
+    # Marketplace discovery: skills/<category>/<skill>/SKILL.md only (flat depth).
     bad_paths = []
     for path in skills:
         rel_parts = path.relative_to(ROOT).parts
         flat = len(rel_parts) == 4 and rel_parts[0] == "skills" and rel_parts[3] == "SKILL.md"
-        grouped = len(rel_parts) == 5 and rel_parts[0] == "skills" and rel_parts[4] == "SKILL.md"
-        if not flat and not grouped:
+        if not flat:
             bad_paths.append(str(path.relative_to(ROOT)))
     if bad_paths:
         fail(f"non-marketplace-discoverable skill paths: {', '.join(bad_paths[:20])}", failures)
@@ -131,9 +130,8 @@ def main() -> int:
         name = yaml_scalar(fm, "name")
         compatibility = yaml_scalar(fm, "compatibility")
         rel_skill_parts = path.relative_to(ROOT / "skills").parts
-        skill_dir = "/".join(rel_skill_parts[1:-1])  # drop category + SKILL.md
-        grouped_name = skill_dir.replace("/", "-") if "/" in skill_dir else None
-        name_ok = name == skill_dir or name == grouped_name or name == rel_skill_parts[-2]
+        skill_dir = rel_skill_parts[1]  # skills/<category>/<skill>/SKILL.md
+        name_ok = name == skill_dir
         if not name_ok:
             bad_skills.append(f"{rel}: name {name!r} does not match directory {skill_dir!r}")
         if compatibility != STANDARD_COMPATIBILITY:
@@ -179,6 +177,7 @@ def main() -> int:
         "AGENTS.md": read(ROOT / "AGENTS.md") if (ROOT / "AGENTS.md").exists() else "",
         "CLAUDE.md": read(ROOT / "CLAUDE.md") if (ROOT / "CLAUDE.md").exists() else "",
         "package.json": read(ROOT / "package.json") if (ROOT / "package.json").exists() else "",
+        "references/skill-index-master.md": read(ROOT / "references/skill-index-master.md") if (ROOT / "references/skill-index-master.md").exists() else "",
         ".claude-plugin/plugin.json": read(ROOT / ".claude-plugin/plugin.json") if (ROOT / ".claude-plugin/plugin.json").exists() else "",
         ".claude-plugin/marketplace.json": read(ROOT / ".claude-plugin/marketplace.json") if (ROOT / ".claude-plugin/marketplace.json").exists() else "",
     }
@@ -218,8 +217,17 @@ def main() -> int:
             fail("validate workflow must use least-privilege contents: read permissions", failures)
         if "gh skill publish --dry-run" not in workflow:
             fail("validate workflow must run gh skill publish --dry-run", failures)
+        if "references/skill-index-master.md" not in workflow:
+            fail("validate workflow must verify references/skill-index-master.md drift", failures)
         if "concurrency:" not in workflow:
             fail("validate workflow missing concurrency guard", failures)
+
+    plugin_path = ROOT / ".claude-plugin/plugin.json"
+    if plugin_path.exists():
+        plugin = json.loads(read(plugin_path))
+        globs = plugin.get("skills", [])
+        if globs != ["skills/*/*/SKILL.md"]:
+            fail(f"plugin.json skills globs must be flat-only ['skills/*/*/SKILL.md'], got {globs}", failures)
 
     if failures:
         print(f"\nPublic repo audit failed: {len(failures)} issue(s).")

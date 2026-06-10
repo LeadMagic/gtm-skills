@@ -51,12 +51,13 @@
     "check:install": "python3 scripts/install-tui.py --target cursor --project /tmp/gtm-skills-install-test --dry-run",
     "check:public": "python3 scripts/public-repo-audit.py",
     "check:references": "python3 scripts/audit-references.py",
+    "check:generated": "npm run build && git diff --exit-code -- AGENTS.md CLAUDE.md README.md taxonomy.csv skills.lock references/pitfalls-index.md references/skill-index-master.md .claude-plugin/plugin.json .claude-plugin/marketplace.json",
     "check": "node scripts/validate-skills.js && python3 scripts/audit-references.py && python3 scripts/generate-skills-lock.py --check && python3 scripts/install-tui.py --target cursor --project /tmp/gtm-skills-install-test --dry-run && python3 scripts/public-repo-audit.py",
     "publish:dry-run": "gh skill publish --dry-run",
     "lint": "node scripts/validate-skills.js && python3 scripts/public-repo-audit.py",
     "install:tui": "python3 scripts/install-tui.py",
     "install:dry-run": "python3 scripts/install-tui.py --target all --dry-run",
-    "verify": "npm run check"
+    "verify": "npm run check && npm run check:generated"
   },
   "engines": {
     "node": ">=24.0.0"

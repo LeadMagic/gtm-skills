@@ -52,6 +52,16 @@ on:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  GENERATED_ARTIFACTS: >-
+    AGENTS.md
+    CLAUDE.md
+    README.md
+    taxonomy.csv
+    skills.lock
+    references/pitfalls-index.md
+    references/skill-index-master.md
+    .claude-plugin/plugin.json
+    .claude-plugin/marketplace.json
 
 concurrency:
   group: validate-${{ github.workflow }}-${{ github.ref }}
@@ -60,27 +70,34 @@ concurrency:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     permissions:
       contents: read
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
+
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
+
       - name: Syntax check scripts
         run: |
           node --check scripts/validate-skills.js
           node --check scripts/generate-indexes.js
           node --check scripts/generate-pitfalls-index.js
-          python3 -m py_compile scripts/generate-skills-lock.py scripts/install-tui.py scripts/public-repo-audit.py scripts/audit-references.py
-      - name: Validate skills, lock, installer, and public hygiene
+          python3 -m py_compile \
+            scripts/generate-skills-lock.py \
+            scripts/install-tui.py \
+            scripts/public-repo-audit.py \
+            scripts/audit-references.py
+
+      - name: Skill structure, references, lock, installer, public hygiene
         run: npm run check
-      - name: Verify generated files are current
-        run: |
-          npm run build
-          git diff --exit-code -- AGENTS.md CLAUDE.md README.md taxonomy.csv skills.lock references/pitfalls-index.md .claude-plugin/plugin.json .claude-plugin/marketplace.json
+
+      - name: Regenerate catalogs and fail on drift
+        run: npm run check:generated
+
       - name: Publish dry-run
         run: gh skill publish --dry-run
