@@ -8,9 +8,9 @@ description: >-
   phrases like "build me a sequence," "design a cadence," "cold email outreach
   plan," "outbound strategy," "multi-touch sequence," or "trigger-based outreach."
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.2.0"
+  version: "1.3.0"
   author: LeadMagic
   category: outbound
   tags: [cold-email, sequence-design, cadence, outbound, prospecting]
@@ -29,6 +29,7 @@ metadata:
     - SPIN
     - "Lars Nilsson (Cloudera/Snowflake) — Account-Based Sales Development (ABSD)"
     - Becc Holland — Stellar Cold Email / Diagnostic Selling
+    - "Leslie Venetz — Earn the Right / Profit-Generating Pipeline"
     - Guillaume Moubeche — lemlist Multichannel Outbound
     - Jordan Crawford — PQS / PVP / FIND (Cannonball GTM)
     - Justin Michael — Sales Borg / Tech-Powered Sales
@@ -191,6 +192,17 @@ This skill draws from the following established methodologies:
   prospect). Complements Jordan/Becc/Pat/Guillaume on message — Eric owns infra
   + economics + offer-led scale. Playbook →
   `references/eric-nowoslawski-outbound.md`.
+
+- **Leslie Venetz — Sales-Led GTM Agency / *Profit-Generating Pipeline*.** The
+  **buyer-first "Earn the Right"** gate: before sending any touch, ask "have I
+  said something relevant/valuable enough to earn this ask?" — if not, audit
+  again before sending. Reject **Legacy Outbound** (spam-the-TAM, entitled,
+  AI-scaled slop) in favor of **deep segmentation + signal stacking** ("only the
+  moose"), a **three-channel minimum** with double-taps, and **trust/buyer-led
+  signals** as the KPI (not just booked meetings). Her 9-step *Profit-Generating
+  Pipeline* and problem-centric copy audit gate relevance before volume — pair
+  with Eric (infra/economics), Pat (copy skeleton + enrichment), Jordan (segment
+  research). Playbook → `references/leslie-venetz-buyer-first-outbound.md`.
 
 ## Prerequisites
 
@@ -600,6 +612,7 @@ conditions all shift these numbers. Use them as calibration, not prediction.
 - `references/jordan-crawford-blueprint-gtm.md` — PQS, PVP, FIND, Cannonball GTM
 - `references/justin-michael-sales-borg.md` — Sales Borg, TQ, trigger events
 - `references/eric-nowoslawski-outbound.md` — Infra at scale, Creative Ideas, Crawl Walk Run, unit economics (Eric Nowoslawski)
+- `references/leslie-venetz-buyer-first-outbound.md` — Earn-the-Right gate, problem-centric audit, segmentation, three-channel-minimum, Profit-Generating Pipeline (Leslie Venetz)
 - `references/expert-frameworks.md` — Outbound expert subsidiary map
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator

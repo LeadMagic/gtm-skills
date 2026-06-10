@@ -24,7 +24,7 @@ Local installer:
 ```bash
 ./install.sh
 ./install.sh --target hermes
-./install.sh --target cursor --project /path/to/project
+./install.sh --target jesse --project /path/to/project
 ./install.sh --target all --dry-run
 ```
 

@@ -19,6 +19,7 @@ Quick router for outbound, discovery, and pipeline experts. Full bios → `refer
 | **Tom Slocum** | 3Rs / 3×3, sell-the-meeting, dial blocks | `references/tom-slocum-cold-calling.md` | `cold-calling`, `sales-coaching`, `revenue-team-onboarding` |
 | **Jeb Blount** | Fanatical Prospecting, Golden Hours, Law of Replacement | `references/jeb-blount-prospecting.md` | `cold-calling`, `multi-channel-outreach`, `pipeline-management` |
 | **Josh Braun** | Problem-first, sort don't sell | — (inline in `cold-email-copywriting`) | `cold-email-copywriting` |
+| **Leslie Venetz** | Earn the Right gate, Profit-Generating Pipeline (9-step), three-channel minimum, buyer-first / anti-Legacy Outbound | `cold-email-strategy/references/leslie-venetz-buyer-first-outbound.md` | `cold-email-strategy`, `cold-email-copywriting`, `founder-sales` |
 | **Eric Nowoslawski** | Infra at scale, Creative Ideas, Crawl Walk Run, unit economics | `cold-email-strategy/references/eric-nowoslawski-outbound.md` | `email-deliverability`, `domain-infrastructure`, `smartlead-workflows`, `instantly-sequences`, `clay-automation` |
 | **Jacco (WbD)** | SPICED discovery | `meeting-prep/references/framework-notes.md` | `meeting-prep`, `pipeline-management` |
 | **Andy Whyte** | MEDDICC qualification | `meeting-prep/references/framework-notes.md` | `meeting-prep`, `pipeline-management` |
@@ -30,6 +31,8 @@ Quick router for outbound, discovery, and pipeline experts. Full bios → `refer
 **Discovery call prep:** Keenan Gap Selling → SPICED fields → MEDDICC gaps (`meeting-prep`)
 
 **Creative outbound (low reply rates):** Jordan Crawford PQS/PVP → Becc Holland email structure → Guillaume multichannel sequence
+
+**Buyer-first / fix broken outbound:** Leslie Venetz Earn-the-Right gate → problem-centric audit → three-channel minimum (pair Eric for infra)
 
 **Phone-first outbound:** Gilkey Phone Intent list → Reisert CRM Buckets → Pessar ColdCall-Market Fit → Slocum 3×3 prep → Blount Golden Hours (`cold-calling`)
 

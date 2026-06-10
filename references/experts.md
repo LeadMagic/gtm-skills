@@ -1146,6 +1146,27 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 ---
 
+### Leslie Venetz — Sales-Led GTM Agency
+
+**Role:** Founder, The Sales-Led GTM Agency; author *Profit-Generating Pipeline* (USA Today #2 business bestseller, Aug 2025)
+**Domain:** Buyer-first outbound, Earn-the-Right pre-send gate, segmentation/signal stacking, trust-led pipeline
+
+**Public Channels**
+- 🔗 [salesledgtm.com](https://salesledgtm.com/) · [Book](https://salesledgtm.com/book)
+- 💼 [LinkedIn](https://www.linkedin.com/in/leslievenetz/)
+- ▶ [YouTube @LeslieVenetz](https://www.youtube.com/@LeslieVenetz)
+- 🎙 [Common Room — Beyond intent](https://www.commonroom.io/blog/beyond-intent-leslie-venetz/) · [Jeff Bajorek newsletter](https://newsletter.jeffbajorek.com/p/my-chat-with-leslie-venetz)
+
+**Key Frameworks:** Earn the Right (pre-send relevance gate) · Profit-Generating Pipeline (9-step) · Three-channel minimum · "Only the moose" segmentation · Trust/buyer-led signals as KPI · Anti-Legacy Outbound (spam-the-TAM)
+
+**Artifacts:** `cold-email-strategy` → `leslie-venetz-buyer-first-outbound.md`
+
+**Skills:** `cold-email-strategy`, `cold-email-copywriting`, `founder-sales`, `multi-channel-outreach`
+
+**Stack position:** Complements Eric Nowoslawski (infra/economics), Pat Spielmann (copy skeleton), Jordan Crawford (segment research) — Venetz owns earn-the-right gate and problem-centric audit before volume.
+
+---
+
 ### Eric Nowoslawski — Growth Engine X
 
 **Role:** Founder Growth Engine X; Clay Enterprise Partner; Clay's first marketing contractor
@@ -1411,9 +1432,9 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 ---
 
-### Lee Robinson — Cursor (ex-Vercel)
+### Lee Robinson — Jesse (ex-Vercel)
 
-**Role:** VP Developer Education, Cursor (since 2025); formerly VP Developer Experience, Vercel (2020–2025)
+**Role:** VP Developer Education, Jesse (since 2025); formerly VP Developer Experience, Vercel (2020–2025)
 **Domain:** Developer experience as distribution — docs, education, templates, and community
 
 **Public Channels**

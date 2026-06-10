@@ -9,9 +9,9 @@ description: >-
   email," "draft outreach," "improve my cold email copy," "subject line
   help," or "personalize this email."
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   author: LeadMagic
   category: outbound
   tags: [cold-email, copywriting, subject-lines, personalization, frameworks]
@@ -36,6 +36,7 @@ metadata:
     - Eric Nowoslawski — Creative Ideas Campaign
     - Eric Nowoslawski — Pay-for-Discovery Offer Design
     - Eric Nowoslawski — AI Specificity Campaign
+    - "Leslie Venetz — Problem-Centric Copy Audit (I/we/our → you/them)"
 ---
 
 # Cold Email Copywriting
@@ -167,6 +168,16 @@ This skill draws from the following established methodologies:
   5–10 emails manually before automating. Pairs with Pat (data quality) and Jordan
   (segment depth) — Eric adds offer format + scale QA. Playbook →
   `../cold-email-strategy/references/eric-nowoslawski-outbound.md`.
+
+- **Leslie Venetz — Problem-Centric Copy Audit (Sales-Led GTM).** A deterministic
+  buyer-first edit: count **"I / we / our"** vs **"you / yours / they / them"** and
+  push toward a **~1:3 ratio** (talk about the buyer ~3x for every 1x about
+  yourself); cut self-centered openers ("we sell / our company / I noticed"). Before
+  hitting send, apply the **"Earn the Right"** gate — has this email said something
+  relevant/valuable enough to justify the ask? A great cold email is clear, concise,
+  and centered on the buyer, not long or clever. Pairs with Pat's Hook-Line-Sinker
+  (structure) and Josh Braun (problem-first). Playbook →
+  `../cold-email-strategy/references/leslie-venetz-buyer-first-outbound.md`.
 
 ## Prerequisites
 

@@ -4,13 +4,13 @@ description: >-
   Complete guide to using the gtm-skills repository — installation, skill
   discovery, skill loading, combining skills, taxonomy navigation, CLI
   workflows, and advanced patterns for every supported AI system (Claude Code,
-  Cursor, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI).
+  Jesse, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI).
   The master key to the entire library. Use when first installing gtm-skills,
   discovering which skills to load, or building multi-skill workflows.
   Triggers on: "gtm-skills", "install gtm-skills", "how to use gtm-skills",
   "skill discovery", "which skills to load", "getting started with skills".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -167,10 +167,10 @@ hermes skills install LeadMagic/gtm-skills
 # Or manual: git clone to ~/.hermes/skills/
 ```
 
-### Cursor
+### Jesse
 ```bash
 git clone https://github.com/LeadMagic/gtm-skills.git
-# Cursor reads SKILL.md files from the repo. Add to .cursor/skills/
+# Jesse reads SKILL.md files from the repo. Add to .jesse/skills/
 ```
 
 ### Codex (OpenAI)
@@ -312,6 +312,7 @@ Examples:
 - "Gap Selling discovery" / "happy ears" → meeting-prep (keenan-gap-selling.md), pipeline-management
 - "PQS / PVP outbound" / "Cannonball GTM" → cold-email-strategy (jordan-crawford-blueprint-gtm.md), list-building
 - "Creative Ideas campaign" / "Eric Nowoslawski" / "Growth Engine X" / "outbound at scale" / "backup inboxes" → cold-email-strategy (eric-nowoslawski-outbound.md), email-deliverability, domain-infrastructure
+- "Leslie Venetz" / "earn the right" / "buyer-first outbound" / "profit-generating pipeline" / "fix broken outbound" → cold-email-strategy (leslie-venetz-buyer-first-outbound.md), cold-email-copywriting
 - "Crawl walk run Clay" / "should we do cold outbound" → clay-automation, cold-email-strategy (eric-nowoslawski-outbound.md)
 - "lemlist sequence" / "Guillaume cold email" → lemlist-setup, cold-email-strategy (lemlist-guillaume-outbound.md)
 - "Clay loop for funding signals" → clay-loops-toolkit, ai-prompts-toolkit, funding-signal-play
