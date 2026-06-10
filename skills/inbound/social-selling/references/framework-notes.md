@@ -5,6 +5,7 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 ## Primary frameworks
 
 - **LinkedIn SSI Methodology** — Four dimensions: brand, find, engage, build relationships
+- **Morgan J. Ingram (AMP Social) — Sales Navigator** — Filter-specific messaging, saved-search alerts. `skills/inbound/sales-navigator-prospecting/references/morgan-ingram-sales-navigator.md`
 - **Randy Seidl — Three Plays + relationship map** — Enterprise trust beyond DM volume. `sales-coaching/references/randy-seidl-relationship-selling.md`
 - **Varun Anand — Community infiltration** — Slack/WhatsApp practitioner communities. `customer-marketing/references/community-selling-varun.md`
 - **Chris Walker — Dark social awareness** — Not all influence is attributable; pair with SSI activity. `references/chris-walker-mental-models.md`

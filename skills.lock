@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-06-10T02:46:09+00:00",
-  "total_skills": 204,
+  "generated_at": "2026-06-10T02:51:13+00:00",
+  "total_skills": 205,
   "skills": {
     "abm/abm-1-to-1": {
       "path": [
@@ -712,8 +712,8 @@
         "using-gtm-skills",
         "SKILL.md"
       ],
-      "sha256": "0faa2caca5c93b9b6951f8158db2ad795bc911170296400100f63717c234ccee",
-      "size_bytes": 91364
+      "sha256": "2a3a264cdbc31a0afa2547e9fd5f27e3cfabe9c5e7ea404cee01a16638be478f",
+      "size_bytes": 91613
     },
     "founder-led/advisor-recruitment": {
       "path": [
@@ -1219,14 +1219,23 @@
       "sha256": "b4318225258eb7e191875440f032dd10ade251693d707a497a399d21a4835a74",
       "size_bytes": 8315
     },
+    "inbound/sales-navigator-prospecting": {
+      "path": [
+        "inbound",
+        "sales-navigator-prospecting",
+        "SKILL.md"
+      ],
+      "sha256": "54614e55952473a866a800220bb763fc69a6204b001e641b9635020b9d49f367",
+      "size_bytes": 7789
+    },
     "inbound/social-selling": {
       "path": [
         "inbound",
         "social-selling",
         "SKILL.md"
       ],
-      "sha256": "33cbbd5616f57ea6089c9a31d6cb31c86a4eea4e6dbf41dd9df5aa0fe49466c5",
-      "size_bytes": 9123
+      "sha256": "f6771e85f2db900b7c2f1725920e5f7df7feb9be761bc1ad40f307616e4d636a",
+      "size_bytes": 10088
     },
     "inbound/website-visitor-identification": {
       "path": [
@@ -1441,8 +1450,8 @@
         "multi-channel-outreach",
         "SKILL.md"
       ],
-      "sha256": "33c2b429cf28b980d0faf8fe7f797a4104947f1a6a7fb07eddb380c58b55280b",
-      "size_bytes": 8253
+      "sha256": "1e3ef383e052cf407085f45757c27dc7eb82ad1fe6d9feee8c600fcc277e2433",
+      "size_bytes": 8376
     },
     "outbound/reply-handling": {
       "path": [
@@ -1558,8 +1567,8 @@
         "lead-finding",
         "SKILL.md"
       ],
-      "sha256": "1327ea9890ecb32c02082c475f750c03fb7dbaa97e4b8f1256775bb8dd42967e",
-      "size_bytes": 19416
+      "sha256": "de2b2e6db0a01cdae237b655c5b9f840ceb06ebda20bcb31043519ea212e8204",
+      "size_bytes": 19445
     },
     "prospecting/list-building": {
       "path": [
@@ -1567,8 +1576,8 @@
         "list-building",
         "SKILL.md"
       ],
-      "sha256": "33e87ec1ef192fe13124de59495c91c7df848b007755c61cc98b55883c707704",
-      "size_bytes": 6949
+      "sha256": "24f3c997037b01898a5b74f629d8cabb978095459b62c387b7a16988e877593c",
+      "size_bytes": 7090
     },
     "prospecting/signal-scoring": {
       "path": [

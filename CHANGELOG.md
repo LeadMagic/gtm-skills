@@ -2,6 +2,13 @@
 
 All notable changes to GTM Skills are documented here.
 
+## v0.27.0 — Sales Navigator Prospecting (Morgan J. Ingram / AMP Social)
+
+- Added `sales-navigator-prospecting` skill (inbound) — Morgan Ingram's filter-specific Sales Nav playbook, executive insight+question engagement, saved-search alerts, and 15-minute daily workflow.
+- Cross-linked from `social-selling`, `list-building`, `references/experts.md`, and README Start Here / LinkedIn stack.
+- Synced stale skill-count references in `using-gtm-skills`, `CONTRIBUTING.md`, and `docs/INTEGRITY.md`.
+- **205 skills / 25 categories** — catalog, lockfile, taxonomy regenerated.
+
 ## v0.26.1 — LinkedIn Live Strategy (Jessie Lizak / Reveting)
 
 - Added `linkedin-live-strategy` skill (inbound) with Jessie Lizak's Reveting playbook — weekly livestream content engine, WinsDay model, repurposing flywheel, and relationship-first Live execution.

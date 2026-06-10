@@ -9,7 +9,7 @@ metadata:
   author: LeadMagic
   category: prospecting
   tags: [lead-generation, prospecting, list-building, sourcing, discovery]
-  related_skills: [gtm-context, icp-scoring, lead-enrichment, list-building, signal-scoring]
+  related_skills: [gtm-context, icp-scoring, lead-enrichment, list-building, signal-scoring, sales-navigator-prospecting]
   frameworks: [Winning by Design SPICED, Force Management MEDDICC, Gartner Buying Committee Research]
 ---
 # Lead Finding

@@ -11,7 +11,7 @@ const path = require('node:path');
 const ROOT = path.join(__dirname, '..');
 const SKILLS_DIR = path.join(ROOT, 'skills');
 const PLUGIN_DIR = path.join(ROOT, '.claude-plugin');
-const VERSION = '0.26.1';
+const VERSION = '0.27.0';
 
 // Human-facing category guide for references/skill-index-master.md (generated).
 const CATEGORY_GUIDE = {
@@ -271,12 +271,13 @@ const startHere = `## Start Here
 | Route any GTM task | [using-gtm-skills](skills/foundation/using-gtm-skills/SKILL.md) |
 | LinkedIn feed reach (van der Blom) | [linkedin-algorithm](skills/inbound/linkedin-algorithm/SKILL.md) |
 | LinkedIn Live / weekly show (Jessie Lizak / Reveting) | [linkedin-live-strategy](skills/inbound/linkedin-live-strategy/SKILL.md) |
+| Sales Navigator prospecting (Morgan Ingram / AMP) | [sales-navigator-prospecting](skills/inbound/sales-navigator-prospecting/SKILL.md) |
 | Cold outbound architecture | [cold-email-strategy](skills/outbound/cold-email-strategy/SKILL.md) |
 | Named expert lookup | [references/experts.md](references/experts.md) |
 
 ## LinkedIn Inbound Stack
 
-The **inbound** category (${byCategory.inbound?.length ?? 0} skills) covers organic LinkedIn end-to-end: **Richard van der Blom** feed mechanics in \`linkedin-algorithm\`, **Jessie Lizak** Live content engine in \`linkedin-live-strategy\`, plus \`social-selling\`, \`founder-brand\`, and \`website-visitor-identification\`. Release history: [CHANGELOG.md](CHANGELOG.md).
+The **inbound** category (${byCategory.inbound?.length ?? 0} skills) covers LinkedIn GTM end-to-end: **van der Blom** feed mechanics (\`linkedin-algorithm\`), **Jessie Lizak** Live engine (\`linkedin-live-strategy\`), **Morgan Ingram** Sales Nav prospecting (\`sales-navigator-prospecting\`), plus \`social-selling\`, \`founder-brand\`, and \`website-visitor-identification\`. Release history: [CHANGELOG.md](CHANGELOG.md).
 
 `;
 

@@ -15,7 +15,7 @@ metadata:
   author: LeadMagic
   category: outbound
   tags: [multi-channel, linkedin, cold-calling, sms, sequences, coordination]
-  related_skills: [cold-email-strategy, cold-email-copywriting, reply-handling, social-selling]
+  related_skills: [cold-email-strategy, cold-email-copywriting, reply-handling, social-selling, sales-navigator-prospecting]
   frameworks: [Saleshandy Multi-Channel Architecture, Reply.io Conditional Sequencing, Sandler Up-Front Contracts, Guillaume Moubeche — lemlist Multichannel]
 ---
 
@@ -189,5 +189,6 @@ Conditional Rules:
 - **cold-email-strategy**: Email-specific sequence design
 - **cold-email-copywriting**: Email content for each touch
 - **social-selling**: LinkedIn profile and outreach optimization
+- **sales-navigator-prospecting**: Sales Nav filter-specific LinkedIn touches (Morgan Ingram)
 - **reply-handling**: Handle responses from any channel
 - **sending-platforms**: Platform selection for multi-channel execution

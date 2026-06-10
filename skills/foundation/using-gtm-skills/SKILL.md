@@ -18,7 +18,7 @@ metadata:
   tags: [gtm-skills, installation, discovery, taxonomy, getting-started, master-guide]
   related_skills: [gtm-context, gtm-system-architecture, pipeline-management, sales-enablement, hiring-agencies, founder-sales, sales-team-building, skills-lock]
   frameworks:
-    - "LeadMagic/gtm-skills — 203 GTM agent skills"
+    - "LeadMagic/gtm-skills — GTM agent skills catalog"
     - "Jacco van der Kooij (Winning by Design) — SPICED, Bowtie, GTM Index"
     - "Sam Jacobs (Pavilion) — CRO Council executive comp standards"
     - "Mark Roberge — The Sales Acceleration Formula"
@@ -32,7 +32,7 @@ metadata:
 
 ## Overview
 
-203 skills. 25 categories. Every GTM discipline. This is the master key.
+205 skills. 25 categories. Every GTM discipline. This is the master key.
 The mistake: cloning the repo and not knowing where to start — loading random
 skills, missing dependencies, or treating skills as documentation instead of
 executable playbooks. This skill covers the complete usage guide: installation,
@@ -87,7 +87,7 @@ getting maximum value from the gtm-skills library.
 | **Security** | `founder-led/` (soc2, privacy), `deal-desk` | 16, 29 |
 | **Automation strategy** | `automation/`, `gtm-ops/` | 6, 6b, 30 |
 
-Full category map (all 203 skills): `references/skill-index-master.md`
+Full category map (all skills): `references/skill-index-master.md`
 
 ## Pattern Index (1–30)
 
@@ -134,7 +134,7 @@ Full category map (all 203 skills): `references/skill-index-master.md`
 
 This skill is grounded in public frameworks and source material relevant to the task:
 
-- **LeadMagic/gtm-skills — 203 GTM agent skills.** Skill maps in this guide route tasks to the right playbook.
+- **LeadMagic/gtm-skills — GTM agent skills catalog.** Skill maps in this guide route tasks to the right playbook. Counts: `taxonomy.csv` / `skills.lock`.
 - **Jacco van der Kooij (Winning by Design).** SPICED discovery, Bowtie lifecycle, GTM Index, REKS coaching — primary WbD cite.
 - **Sam Jacobs (Pavilion).** CRO Council exec comp; multi-gate variable (ARR + NRR + efficiency).
 - **Mark Roberge — The Sales Acceleration Formula.** Data-driven hiring, training, demand gen, and sales process design — the science behind scaling a B2B sales org.
@@ -353,6 +353,7 @@ Examples:
 - "B2B influencer / LinkedIn creator / Wishly / Aneesh Lal" → Pattern 21 (customer-marketing → social-selling → gtm-metrics)
 - "LinkedIn algorithm / reach drop / carousel vs video / van der Blom" → linkedin-algorithm (richard-van-der-blom-algorithm.md), social-selling
 - "LinkedIn Live / livestream / WinsDay / Jessie Lizak / Reveting / weekly live show" → linkedin-live-strategy (jessie-lizak-linkedin-live.md), linkedin-algorithm
+- "Sales Navigator / Sales Nav / Morgan Ingram / AMP Social / filter-specific messaging / posted in last 30 days" → sales-navigator-prospecting (morgan-ingram-sales-navigator.md), social-selling
 - "Founder LinkedIn / build in public / Adam Robinson / zero-click content" → founder-brand (adam-robinson-founder-brand.md), linkedin-algorithm
 - "Influencer ROI / creator attribution / influencer UTM" → references/b2b-influencer-measurement.md, campaign-governance
 - "Employee advocacy vs paid creators" → customer-marketing Phase 6, references/b2b-influencer-strategy.md
@@ -1280,7 +1281,7 @@ Every gtm-skills skill is:
 ```
 gtm-skills/
 ├── README.md              # Hero, install, category overview, authority catalog
-├── skills.lock             # SHA256-verified integrity for all 203 skills
+├── skills.lock             # SHA256-verified integrity for all marketplace skills
 ├── taxonomy.csv            # slug → name → category → description → priority
 ├── references/
 │   ├── skill-index-master.md  # One-page map of all 25 categories

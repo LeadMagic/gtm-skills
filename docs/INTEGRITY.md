@@ -42,7 +42,7 @@ npm run check:lock
 Expected output (count matches the current catalog):
 
 ```text
-skills.lock verified: 203 skills
+skills.lock verified: 205 skills
 ```
 
 ## Consumer Verification

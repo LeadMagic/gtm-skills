@@ -14,7 +14,7 @@ metadata:
   author: LeadMagic
   category: prospecting
   tags: [list-building, prospecting, clay, leads, targeting]
-  related_skills: [icp-scoring, lead-finding, lead-enrichment, clay-automation]
+  related_skills: [icp-scoring, lead-finding, lead-enrichment, clay-automation, sales-navigator-prospecting]
   frameworks:
     - "Clay Waterfall Architecture"
     - "Ziellab Lead Quality Framework"
@@ -169,3 +169,4 @@ Deliver a CSV with:
 - **lead-finding**: Find individual contacts at target companies
 - **lead-enrichment**: Enrich contacts after list is built
 - **clay-automation**: Full Clay workflow for automated list building
+- **sales-navigator-prospecting**: Morgan Ingram filter-specific Sales Nav workflow after list criteria are set

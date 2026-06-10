@@ -17,6 +17,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 | Adam Robinson | [retentionadam](https://www.linkedin.com/in/retentionadam/) | — | — | [rb2b.com](https://www.rb2b.com/) · [retention.com](https://www.retention.com/) |
 | Richard van der Blom | [richardvanderblom](https://www.linkedin.com/in/richardvanderblom/) | — | — | [justconnecting.nl](https://www.justconnecting.nl/) |
 | Jessie Lizak | [jessie-lizak](https://www.linkedin.com/in/jessie-lizak/) | — | — | [reveting.com](https://www.reveting.com/) · [WinsDay](https://www.reveting.com/weekly-winsday) |
+| Morgan J. Ingram | [morganjingramamp](https://www.linkedin.com/in/morganjingramamp/) | — | [Sales Navigator 101](https://www.linkedin.com/showcase/linkedin-for-sales/) | [theampsocial.com](https://www.theampsocial.com/) |
 | Dominique Levin | [dominiquelevin](https://www.linkedin.com/in/dominiquelevin/) | [@dominiquelevin](https://x.com/dominiquelevin) | [Winning by Design](https://www.youtube.com/@winningbydesign) | [winningbydesign.com](https://winningbydesign.com/) |
 | Mark Roberge | [markroberge](https://www.linkedin.com/in/markroberge/) | [@markroberge](https://x.com/markroberge) | [Talks at Google](https://www.youtube.com/watch?v=RG_eyn0fRXs) | [salesaccelerationformula.com](https://www.salesaccelerationformula.com/) |
 | John McMahon | [john-mcmahon-5x-cro](https://www.linkedin.com/in/john-mcmahon-5x-cro/) | — | [Revenue Builders Podcast](https://www.revenuebuilders.io/) · [Logan Bartlett Show](https://www.theloganbartlettshow.com/archive/ep-76-john-mcmahon-5x-cro-and-enterprise-sales-expert-on-the-startup-sales-playbook-every-founder-needs) | [The Qualified Sales Leader](https://www.businessfloss.com/books/the-qualified-sales-leader) |
@@ -1802,6 +1803,26 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 ---
 
+### Morgan J. Ingram — AMP Social
+
+**Role:** Founder AMP Social; 4x LinkedIn Top Sales Voice; Sales Navigator trainer (Zoom, HubSpot, Snowflake — public positioning)
+**Domain:** LinkedIn Sales Navigator prospecting, filter-specific messaging, executive engagement, saved-search workflows, SDR social selling systems
+
+**Public Channels**
+- 🔗 [theampsocial.com](https://www.theampsocial.com/) · [Sales Nav Starter Kit](https://theampsocial.com/sales-nav-resource-guide)
+- 💼 [LinkedIn](https://www.linkedin.com/in/morganjingramamp/)
+- ▶ [Sales Navigator 101](https://www.linkedin.com/showcase/linkedin-for-sales/) (LinkedIn for Sales)
+
+**Key Frameworks:** Filter-specific messaging (not one template) · High-intent filter stack (Posted 30d, Following company, Viewed profile, tenure <1yr / 6–12mo) · Insight + question comment → 24–48h wait → connect → DM · 10-minute saved-search setup with weekly alerts · 15-minute daily prospecting rhythm · 12+ message variants tied to filter signals · Multi-thread filter plays per account · Boolean decision-maker search
+
+**Artifacts:** `sales-navigator-prospecting` → `references/morgan-ingram-sales-navigator.md` (canonical)
+
+**Skills:** `sales-navigator-prospecting`, `social-selling`, `list-building`, `multi-channel-outreach`, `linkedin-algorithm`
+
+**Pair with:** `social-selling` (profile/SSI/DM basics); `linkedin-algorithm` (when reps also publish); Ingram owns Sales Nav **prospecting ops**, not organic feed theory.
+
+---
+
 ## Visitor Identification & Intent
 
 ### Alex MacCaw — Clearbit (HubSpot Breeze Intelligence heritage)
@@ -2153,6 +2174,7 @@ Founder-specific comp (payroll % ARR, offer walkthrough, negotiation scripts) �
 | B2B influencer / LinkedIn creators | Aneesh Lal (Wishly Group), Todd Clouser (Show Me The Money) |
 | LinkedIn algorithm / organic reach | Richard van der Blom (Just Connecting) — `linkedin-algorithm` |
 | LinkedIn Live / livestream content engine | Jessie Lizak (Reveting) — `linkedin-live-strategy` |
+| Sales Navigator / filter-specific prospecting | Morgan J. Ingram (AMP Social) — `sales-navigator-prospecting` |
 | Founder-led LinkedIn / build in public | Adam Robinson (RB2B) — `adam-robinson-founder-brand.md` |
 | SEO / content | Eli Schwartz, Rand Fishkin, Ahrefs/Backlinko methodology |
 | Reviews / advocacy | Gainsight model (`customer-marketing`, `review-platforms`) |

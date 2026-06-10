@@ -1,6 +1,6 @@
 # GTM Skills — Common Pitfalls Index
 
-Auto-generated from skill `## Common Pitfalls` sections. **1026 pitfalls** across **204** skills (204 total). Regenerate: `npm run build`.
+Auto-generated from skill `## Common Pitfalls` sections. **1032 pitfalls** across **205** skills (205 total). Regenerate: `npm run build`.
 
 Agents: load the source skill for full context, fixes, and quality checks — this index is for discovery and cross-skill pattern matching.
 
@@ -1132,6 +1132,15 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Pitch theater.** — Product demos dressed as conversations kill comment depth.
 - **AI voice on repurposed posts.** — Draft with AI, edit for human voice — AI-sounding feed copy is penalized in van der Blom's data.
 - **Measuring only viewer count.** — Comment quality, DMs, and 30-day meetings matter more than peak live attendance.
+
+### [sales-navigator-prospecting](skills/inbound/sales-navigator-prospecting/SKILL.md)
+
+- **One script for every filter.** — Wastes the strongest Sales Nav signals; Ingram's 5× pipeline lift illustration comes from filter-message matching.
+- **Instant connect after comment.** — Reads as automation; breaks trust.
+- **Skipping "viewed your profile" and "following company."** — Highest-intent free signals in the stack.
+- **No tenure-based plays.** — New leaders (< 1 year) and month-6–12 operators have different pains — same message misses both.
+- **Sales Nav without profile investment.** — Prospects check your profile; empty activity kills accept rates.
+- **Attribution only in last-touch CRM.** — LinkedIn pipeline is often dark social — add self-reported source fields.
 
 ### [social-selling](skills/inbound/social-selling/SKILL.md)
 
