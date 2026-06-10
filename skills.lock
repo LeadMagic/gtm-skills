@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-06-10T02:37:09+00:00",
+  "generated_at": "2026-06-10T02:46:09+00:00",
   "total_skills": 204,
   "skills": {
     "abm/abm-1-to-1": {
@@ -397,8 +397,8 @@
         "graphic-design-gtm",
         "SKILL.md"
       ],
-      "sha256": "d32d9ceaa1e8857aeb062cdcc20e587468ff8655fe7c4b1b73513e95e053c12b",
-      "size_bytes": 7450
+      "sha256": "9f2bea793d63c99229ff1e70002d0027358409cd8e04798cf1142be58423cfe2",
+      "size_bytes": 7681
     },
     "creative/growth-hacking-tactics": {
       "path": [

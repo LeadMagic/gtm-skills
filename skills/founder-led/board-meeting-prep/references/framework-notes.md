@@ -4,7 +4,11 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Brad Feld — Startup Boards (board mechanics and dynamics)
+- Fred Wilson (Union Square Ventures) — Board meeting philosophy
+- Matt Blumberg — Startup CEO (board management chapter)
+- Elad Gil — High Growth Handbook (working with boards)
+- Jason Lemkin (SaaStr) — What VCs actually want in board decks
 
 ## Authoritative foundations
 

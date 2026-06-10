@@ -4,7 +4,10 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- YC — Standard commercial terms for B2B SaaS
+- SaaS Capital — B2B SaaS contract benchmarks
+- Jason Lemkin (SaaStr) — Enterprise contract negotiation
+- David Skok (Matrix Partners) — B2B contract structure
 
 ## Authoritative foundations
 

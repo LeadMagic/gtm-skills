@@ -4,7 +4,11 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Justin Welsh — Content Operating System (repurposing lattice)
+- Harry Dry (Marketing Examples) — Show, don't tell
+- Amanda Natividad (SparkToro) — Zero-click content
+- Ross Simmonds — Content distribution at scale
+- Nail Rodriguez — Conversion copywriting
 
 ## Authoritative foundations
 

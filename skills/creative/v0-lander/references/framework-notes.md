@@ -4,7 +4,10 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- v0 by Vercel — Generative UI platform (Guillermo Rauch)
+- shadcn/ui — Component library powering v0
+- Tailwind CSS — Utility-first CSS framework
+- Next.js — React framework for production
 
 ## Authoritative foundations
 

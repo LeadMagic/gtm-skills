@@ -4,7 +4,9 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Y Combinator Startup School
+- Paul Graham — Do Things That Do Not Scale
+- Michael Seibel — Startup Advice
 
 ## Authoritative foundations
 

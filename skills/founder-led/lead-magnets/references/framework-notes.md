@@ -4,7 +4,9 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Brian Balfour — Growth Loops
+- Dan Martell — SaaS Lead Magnets
+- SparkToro — Audience Research
 
 ## Authoritative foundations
 

@@ -72,8 +72,11 @@ This skill is grounded in public frameworks and source material relevant to the 
 - **CTAs**: high contrast, clear action, positioned at natural eye path
 
 ### Phase 3: High-Performance Formats
-- **Text-only posts** on LinkedIn: highest reach, no design needed
-- **Document carousels**: PDF uploaded as carousel, slide-by-slide narrative
+- **Document carousels**: PDF uploaded as carousel, slide-by-slide narrative —
+  the top LinkedIn format for reach (~1.39x) and engagement (~6.6%) per Richard
+  van der Blom's Algorithm Insights Report. See `linkedin-algorithm`.
+- **Text + single image**: the volume workhorse. Text-only works only when
+  short and sharp (under ~600 characters), not as a reach maximizer.
 - **Data visualization**: single-number stat cards, before/after comparisons,
   trend line charts, bar charts (horizontal, labeled)
 - **Quote graphics**: pull quote from customer or article, clean background,

@@ -4,7 +4,9 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Technology Partnership Framework
+- Platform Ecosystem Strategy
+- Crossbeam — Ecosystem-Led Growth
 
 ## Authoritative foundations
 

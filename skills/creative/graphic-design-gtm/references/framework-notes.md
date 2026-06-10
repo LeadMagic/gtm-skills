@@ -4,7 +4,9 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Cialdini Visual Persuasion
+- Tufte Data Visualization
+- Ann Handley — Everybody Writes
 
 ## Authoritative foundations
 

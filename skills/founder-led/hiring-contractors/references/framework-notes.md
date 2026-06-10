@@ -4,7 +4,9 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Freelance Talent Management
+- Upwork Enterprise Patterns
+- Paul Graham — Do Things That Do Not Scale
 
 ## Authoritative foundations
 

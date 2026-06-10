@@ -4,7 +4,12 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Andy Grove — High Output Management (1:1s, task-relevant maturity)
+- Kim Scott — Radical Candor (care personally, challenge directly)
+- John Doerr — Measure What Matters (OKRs)
+- Molly Graham — Giving Away Your Legos (delegation)
+- Patty McCord — Powerful (Netflix culture, talent density)
+- Claire Hughes Johnson — Scaling People (Stripe COO)
 
 ## Authoritative foundations
 

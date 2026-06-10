@@ -4,7 +4,10 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Andy Whyte — MEDDICC Champion & Economic Buyer
+- Force Management MEDDICC Methodology
+- Gartner Challenger Sale Stakeholder Mapping
+- ITSMA — Account-Based Marketing
 
 ## Authoritative foundations
 

@@ -4,7 +4,11 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- AICPA Trust Services Criteria
+- SOC2 Type II Framework
+- Paul Graham — Do Things That Do Not Scale
+- Jason Lemkin (SaaStr) — SOC 2 as enterprise sales gate
+- Eunice Buhler (G2) — Sales-legal alignment on security review timing
 
 ## Authoritative foundations
 

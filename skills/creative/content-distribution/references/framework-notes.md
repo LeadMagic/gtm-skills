@@ -4,7 +4,9 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Content Distribution Matrix
+- Gary Vaynerchuk Content Model
+- Ann Handley — Everybody Writes
 
 ## Authoritative foundations
 

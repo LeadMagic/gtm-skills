@@ -4,7 +4,12 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- GDPR (EU General Data Protection Regulation 2016/679)
+- CCPA/CPRA (California Consumer Privacy Act / California Privacy Rights Act)
+- ePrivacy Directive (EU Cookie Law)
+- IAPP (International Association of Privacy Professionals)
+- NIST Privacy Framework
+- Termly / Iubenda — Privacy compliance tools
 
 ## Authoritative foundations
 

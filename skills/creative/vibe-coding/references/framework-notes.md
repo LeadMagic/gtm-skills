@@ -4,7 +4,11 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Andrej Karpathy — Vibe Coding (2025): 'fully give in to the vibes, embrace exponentials, forget the code exists
+- Pieter Levels (@levelsio) — AI-assisted solo building, 12 startups in 12 months
+- Sahil Lavingia (Gumroad) — AI-first design and development
+- Marc Lou (@marc_lou) — AI-shipping machine, 20+ products
+- Guillermo Rauch (Vercel) — v0: generative UI for the next billion developers
 
 ## Authoritative foundations
 

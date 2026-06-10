@@ -4,7 +4,12 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Carta — Equity management platform and cap table benchmarks
+- Pulley — Cap table management for startups
+- Fred Wilson (Union Square Ventures) — Employee equity
+- Andy Rachleff (Wealthfront) — Equity compensation
+- Sam Altman — Employee equity
+- Leo Polovets (Humba Ventures/YC) — Technical founder equity guide
 
 ## Authoritative foundations
 

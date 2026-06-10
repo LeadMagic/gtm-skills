@@ -4,7 +4,13 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- YC Startup School — Co-Founder Matching and Equity
+- Sam Altman — Co-founder equity splits
+- Michael Seibel (YC) — How to find a co-founder
+- Dalton Caldwell (YC) — Co-founder relationships
+- First Round Review — The co-founder relationship
+- Noam Wasserman (HBS) — The Founder's Dilemmas
+- a16z — Founding team dynamics
 
 ## Authoritative foundations
 

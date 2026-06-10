@@ -4,7 +4,10 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- ITIL 4 — Service Level Management practice
+- Zendesk — SLA Policy Design Guide
+- Intercom — SLA and Business Hours Configuration
+- HDI — Support Center Certification Standards
 
 ## Authoritative foundations
 

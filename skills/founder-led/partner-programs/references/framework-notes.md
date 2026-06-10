@@ -4,7 +4,9 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Crossbeam — Partner-Led Growth
+- Jay McBain — Ecosystem-Led Growth
+- HubSpot Partner Program Model
 
 ## Authoritative foundations
 

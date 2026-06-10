@@ -4,7 +4,9 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- B2B Event ROI Framework
+- Field Marketing Playbook
+- Paul Graham — Do Things That Do Not Scale
 
 ## Authoritative foundations
 

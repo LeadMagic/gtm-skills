@@ -4,7 +4,11 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Gary Vaynerchuk — Volume of content wins. AI makes volume possible.
+- HeyGen/Synthesia — AI spokesperson technology
+- Runway — Generative AI video
+- Opus Clip — AI-powered video clipping
+- Descript — AI-first video editing
 
 ## Authoritative foundations
 

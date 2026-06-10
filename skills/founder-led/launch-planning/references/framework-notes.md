@@ -4,7 +4,9 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Maja Voje — Go-to-Market Strategist
+- Lenny Rachitsky — B2B Launch Playbook
+- Andy Raskin — Strategic Narrative
 
 ## Authoritative foundations
 

@@ -4,7 +4,12 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Betts Recruiting — SaaS go-to-market hiring specialists
+- Bridge Group — SaaS sales hiring benchmarks and compensation data
+- YC — Hiring advice (Sam Altman, Michael Seibel)
+- SaaStr — Jason Lemkin on hiring and recruiting
+- Pavilion — Revenue leader hiring standards
+- Molly Graham — Giving Away Your Legos (team scaling)
 
 ## Authoritative foundations
 

@@ -4,7 +4,11 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Vouch — Startup insurance specialists
+- Embroker — Tech/SaaS insurance
+- Coalition — Cyber insurance
+- Founders Shield — Startup risk management
+- At-Bay — Cyber and E&O insurance
 
 ## Authoritative foundations
 

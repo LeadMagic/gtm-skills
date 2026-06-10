@@ -4,7 +4,9 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- David Spinks — Community-Led Growth
+- CMX Community Strategy
+- Seth Godin — Tribes
 
 ## Authoritative foundations
 

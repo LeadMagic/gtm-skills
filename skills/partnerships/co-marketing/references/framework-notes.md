@@ -4,7 +4,9 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Co-Marketing Playbook
+- Crossbeam Partner-Led Growth
+- Crossbeam — Ecosystem-Led Growth
 
 ## Authoritative foundations
 

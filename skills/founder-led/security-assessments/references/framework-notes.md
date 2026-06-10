@@ -4,7 +4,14 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- OWASP Top 10 — Web application security risks
+- NIST Cybersecurity Framework
+- VSAQ (Vendor Security Assessment Questionnaire) — Google
+- SIG (Standardized Information Gathering) — Shared Assessments
+- CAIQ (Consensus Assessments Initiative Questionnaire) — CSA
+- ISO 27001 — Information Security Management
+- Vanta Trust Center — Sales handoff methodology
+- Eunice Buhler (G2) — Sales-legal coordination on vendor risk reviews
 
 ## Authoritative foundations
 

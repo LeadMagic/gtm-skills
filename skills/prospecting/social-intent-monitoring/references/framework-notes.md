@@ -4,7 +4,9 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Max Mitchum — Signal, Context, Action Framework (Trigify)
+- Trigify Workflow Patterns — Agentic Social Listening
+- ColdIQ Signal Taxonomy — Trigger-Based Selling
 
 ## Authoritative foundations
 

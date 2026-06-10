@@ -4,7 +4,11 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Gainsight — Customer Health Score Framework
+- Totango — Customer Success Maturity Model
+- Bain & Company — NPS (Net Promoter System, Fred Reichheld)
+- CustomerGauge — Account Experience (B2B NPS)
+- David Skok — SaaS Churn Analysis
 
 ## Authoritative foundations
 
