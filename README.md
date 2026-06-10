@@ -96,7 +96,7 @@ The **inbound** category (8 skills) covers LinkedIn GTM end-to-end: **van der Bl
 | Integrity manifest | `skills.lock` |
 | Public governance | CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, GOVERNANCE |
 | Source standard | docs/SOURCE_STANDARDS.md |
-| Quality bar notes | docs/BENCHMARKS.md |
+| Quality bar notes | docs/QUALITY_BAR.md |
 
 ## Category Map
 
@@ -129,7 +129,7 @@ The **inbound** category (8 skills) covers LinkedIn GTM end-to-end: **van der Bl
 
 ## Quality Bar
 
-This repo is built on breadth, source hygiene, public governance, installability, and artifact-first execution rather than raw prompt count. See [docs/BENCHMARKS.md](docs/BENCHMARKS.md) for the quality bar and hardening notes.
+This repo is built on breadth, source hygiene, public governance, installability, and artifact-first execution rather than raw prompt count. See [docs/QUALITY_BAR.md](docs/QUALITY_BAR.md) for the quality bar and hardening notes.
 
 ## Authority Catalog
 
@@ -170,7 +170,7 @@ Full expert catalog — bios, public channels, and skill clusters: [references/e
 - [Architecture](docs/ARCHITECTURE.md)
 - [Skill authoring standard](docs/SKILL_AUTHORING.md)
 - [Source and authority standard](docs/SOURCE_STANDARDS.md)
-- [Quality bar notes](docs/BENCHMARKS.md)
+- [Quality bar notes](docs/QUALITY_BAR.md)
 - [Integrity verification](docs/INTEGRITY.md)
 - [Release process](docs/RELEASE_PROCESS.md)
 - [GitHub topics](docs/REPO_TOPICS.md)

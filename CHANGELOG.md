@@ -2,6 +2,12 @@
 
 All notable changes to GTM Skills are documented here.
 
+## v0.27.1 — Quality Bar Docs Cleanup
+
+- Replaced the competitive benchmark notes with neutral quality bar notes: removed the adjacent-repo comparison table and competitive framing from the doc, generators, and generated catalogs.
+- Renamed `docs/BENCHMARKS.md` to `docs/QUALITY_BAR.md` and repointed README, AGENTS, CLAUDE, and generator references.
+- De-hardcoded the skill/category counts in the quality bar doc; generated catalogs remain the source of truth.
+
 ## v0.27.0 — Sales Navigator Prospecting (Morgan J. Ingram / AMP Social)
 
 - Flattened `sequencing-tools/` into `tools/` — six platform sequencer skills (`instantly-sequences`, `smartlead-workflows`, `lemlist-setup`, `salesloft-cadences`, `outreach-sequences`, `hubspot-sequences`) now sit beside `sequencing-toolkit` under one category (24 categories total, 205 skills unchanged).
