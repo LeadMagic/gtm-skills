@@ -16,6 +16,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 | Jacco van der Kooij | [jaccovanderkooij](https://www.linkedin.com/in/jaccovanderkooij/) | — | [Winning by Design](https://www.youtube.com/@winningbydesign) | [winningbydesign.com](https://winningbydesign.com/) |
 | Adam Robinson | [retentionadam](https://www.linkedin.com/in/retentionadam/) | — | — | [rb2b.com](https://www.rb2b.com/) · [retention.com](https://www.retention.com/) |
 | Richard van der Blom | [richardvanderblom](https://www.linkedin.com/in/richardvanderblom/) | — | — | [justconnecting.nl](https://www.justconnecting.nl/) |
+| Jessie Lizak | [jessie-lizak](https://www.linkedin.com/in/jessie-lizak/) | — | — | [reveting.com](https://www.reveting.com/) · [WinsDay](https://www.reveting.com/weekly-winsday) |
 | Dominique Levin | [dominiquelevin](https://www.linkedin.com/in/dominiquelevin/) | [@dominiquelevin](https://x.com/dominiquelevin) | [Winning by Design](https://www.youtube.com/@winningbydesign) | [winningbydesign.com](https://winningbydesign.com/) |
 | Mark Roberge | [markroberge](https://www.linkedin.com/in/markroberge/) | [@markroberge](https://x.com/markroberge) | [Talks at Google](https://www.youtube.com/watch?v=RG_eyn0fRXs) | [salesaccelerationformula.com](https://www.salesaccelerationformula.com/) |
 | John McMahon | [john-mcmahon-5x-cro](https://www.linkedin.com/in/john-mcmahon-5x-cro/) | — | [Revenue Builders Podcast](https://www.revenuebuilders.io/) · [Logan Bartlett Show](https://www.theloganbartlettshow.com/archive/ep-76-john-mcmahon-5x-cro-and-enterprise-sales-expert-on-the-startup-sales-playbook-every-founder-needs) | [The Qualified Sales Leader](https://www.businessfloss.com/books/the-qualified-sales-leader) |
@@ -1782,6 +1783,25 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 ---
 
+### Jessie Lizak — Reveting
+
+**Role:** Founder Reveting; host **WinsDay** (weekly B2B livestream); fractional CMO; livestream/podcast content engine for founders and executives
+**Domain:** LinkedIn Live strategy, weekly livestream shows, conversation-first content engines, live-to-podcast repurposing, B2B personal brand revenue
+
+**Public Channels**
+- 🔗 [reveting.com](https://www.reveting.com/) · [Weekly WinsDay](https://www.reveting.com/weekly-winsday)
+- 💼 [LinkedIn](https://www.linkedin.com/in/jessie-lizak/)
+
+**Key Frameworks:** Conversation-first content (record vs manufacture) · Weekly livestream as primary engine · WinsDay show model (CEO interviews → clips → sponsored show) · Live → podcast → clips → feed posts flywheel · Real relationships over algorithm tricks · Low-production "hit record" barrier · Reveting scaled livestream podcasts for B2B clients (10+ shows)
+
+**Artifacts:** `linkedin-live-strategy` → `references/jessie-lizak-linkedin-live.md` (canonical)
+
+**Skills:** `linkedin-live-strategy`, `linkedin-algorithm`, `social-selling`, `founder-brand`, `social-media-strategy`, `content-distribution`
+
+**Pair with:** Richard van der Blom (`linkedin-algorithm`) — van der Blom: guest on Lives often, host rarely for reach; Lizak: host weekly when building a full content engine with repurposing discipline.
+
+---
+
 ## Visitor Identification & Intent
 
 ### Alex MacCaw — Clearbit (HubSpot Breeze Intelligence heritage)
@@ -2132,6 +2152,7 @@ Founder-specific comp (payroll % ARR, offer walkthrough, negotiation scripts) �
 | Demand creation | Chris Walker (Refine Labs) — contrast with inbound flywheel |
 | B2B influencer / LinkedIn creators | Aneesh Lal (Wishly Group), Todd Clouser (Show Me The Money) |
 | LinkedIn algorithm / organic reach | Richard van der Blom (Just Connecting) — `linkedin-algorithm` |
+| LinkedIn Live / livestream content engine | Jessie Lizak (Reveting) — `linkedin-live-strategy` |
 | Founder-led LinkedIn / build in public | Adam Robinson (RB2B) — `adam-robinson-founder-brand.md` |
 | SEO / content | Eli Schwartz, Rand Fishkin, Ahrefs/Backlinko methodology |
 | Reviews / advocacy | Gainsight model (`customer-marketing`, `review-platforms`) |
