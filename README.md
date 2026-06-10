@@ -63,7 +63,7 @@ Agent-skills directories and submission status:
 
 - **Artifact-first.** Skills produce copy, plans, scorecards, runbooks, dashboards, workflows, templates, scripts, and QA checklists.
 - **Authority-backed.** Every skill cites named operators, vendors, books, frameworks, platform docs, or primary sources instead of vague best practices.
-- **Benchmark-aware.** Public benchmark notes compare this repo against adjacent GTM/marketing skill packs and define where this project must stay stronger.
+- **Quality-bar driven.** Public quality bar notes define the standard every skill must meet and track hardening work over time.
 - **Anthropic-style folders.** SKILL.md for instructions; references/, templates/, scripts/, and assets/ for execution resources.
 - **Progressive disclosure.** SKILL.md stays focused; deep tables and templates live in support files.
 - **Marketplace-ready.** Every skill is discoverable by agentskills.io-compatible patterns and validated in CI.
@@ -96,7 +96,7 @@ The **inbound** category (8 skills) covers LinkedIn GTM end-to-end: **van der Bl
 | Integrity manifest | `skills.lock` |
 | Public governance | CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, GOVERNANCE |
 | Source standard | docs/SOURCE_STANDARDS.md |
-| Benchmark notes | docs/BENCHMARKS.md |
+| Quality bar notes | docs/BENCHMARKS.md |
 
 ## Category Map
 
@@ -127,9 +127,9 @@ The **inbound** category (8 skills) covers LinkedIn GTM end-to-end: **van der Bl
 | sales-revops | 8 | buyer-indecision, deal-desk, demo-scripts, meeting-prep, objection-handling |
 | tools | 15 | ai-prompts-toolkit, analytics-toolkit, clay-loops-toolkit, clay-toolkit, crm-toolkit |
 
-## Benchmark Positioning
+## Quality Bar
 
-Adjacent public repos include marketing-focused packs, GTM methodology packs, and dense sales playbooks. This repo is designed to compete on breadth, source hygiene, public governance, installability, and artifact-first execution rather than raw prompt count. See [docs/BENCHMARKS.md](docs/BENCHMARKS.md) for the current comparison set and hardening notes.
+This repo is built on breadth, source hygiene, public governance, installability, and artifact-first execution rather than raw prompt count. See [docs/BENCHMARKS.md](docs/BENCHMARKS.md) for the quality bar and hardening notes.
 
 ## Authority Catalog
 
@@ -170,7 +170,7 @@ Full expert catalog — bios, public channels, and skill clusters: [references/e
 - [Architecture](docs/ARCHITECTURE.md)
 - [Skill authoring standard](docs/SKILL_AUTHORING.md)
 - [Source and authority standard](docs/SOURCE_STANDARDS.md)
-- [Public benchmark notes](docs/BENCHMARKS.md)
+- [Quality bar notes](docs/BENCHMARKS.md)
 - [Integrity verification](docs/INTEGRITY.md)
 - [Release process](docs/RELEASE_PROCESS.md)
 - [GitHub topics](docs/REPO_TOPICS.md)

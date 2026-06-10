@@ -34,7 +34,7 @@ All notable changes to GTM Skills are documented here.
 - Added 29 public-safe design skills from the local design stack: typography, color systems, frontend design, shadcn/ui, data visualization, charts, mobile, dashboards, animation, social publishing, diagrams, critique, and reference-design-contract workflows.
 - Expanded the design category and regenerated README, AGENTS, CLAUDE, taxonomy, plugin metadata, and lockfile for 202 marketplace-discoverable skills across 25 categories.
 - Removed the `ai-agents` category; agent implementation guidance lives under `automation/` and `tools/` skills.
-- Added public source/authority standards and benchmark notes for adjacent GTM/marketing skill repositories.
+- Added public source/authority standards and quality bar notes.
 - Replaced generic skill descriptions with artifact-specific trigger descriptions across foundation, analytics, founder-led, and prospecting skills.
 - Rebuilt corrupted framework sections so source lists no longer include checklist/output placeholders.
 - Replaced weak/internal-sounding source labels with named public authorities and platform guidance.

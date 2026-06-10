@@ -14,7 +14,7 @@
 - Use the narrowest skill that matches the task; chain skills for full GTM workflows.
 - Verify integrity with `skills.lock` when installing from source.
 - Apply docs/SOURCE_STANDARDS.md: named public authorities, primary docs, and no placeholder framework labels.
-- Use docs/BENCHMARKS.md to understand adjacent public GTM skill packs and the quality bar this repo is designed to beat.
+- Use docs/BENCHMARKS.md to understand the quality bar every skill in this repo must meet.
 
 ## Top Authority Signals
 
