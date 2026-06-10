@@ -4,7 +4,9 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- **Plain — API-first headless support and BYOAI via MCP** — composable stack with Attio + agent IDE; see `byoai-headless-stack.md`
+- **Intercom — Fin AI Agent** — vendor-locked AI when CS lives in Messenger
+- **Amazon — Working Backwards** — deflection reduces cost and improves CSAT
 
 ## Authoritative foundations
 
@@ -18,11 +20,11 @@ This skill is grounded in public frameworks and source material relevant to the 
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
+- Phase 1 — Knowledge base architecture (30+ articles)
+- Phase 2 — AI deployment (Path A: vendor AI / Path B: Plain BYOAI + MCP)
+- Phase 3 — In-product self-serve (Level 0 deflection)
+- Phase 4 — Automated triage and routing
+- Phase 5 — Deflection metrics dashboard
 
 ## Key reference tables
 

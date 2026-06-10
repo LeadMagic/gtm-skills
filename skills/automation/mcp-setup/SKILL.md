@@ -12,7 +12,7 @@ metadata:
   author: LeadMagic
   category: automation
   tags: [mcp, agents, tools, integration, automation]
-  related_skills: [ai-sdr-setup, leadmagic-mcp, n8n-toolkit, crm-integration, api-enrichment]
+  related_skills: [ai-sdr-setup, leadmagic-mcp, headless-support, n8n-toolkit, crm-integration, api-enrichment]
   frameworks: [MCP Protocol Specification, Anthropic Tool Use Design Patterns, Least Privilege Access Control]
 ---
 
@@ -61,7 +61,7 @@ Log every tool call: tool name, who triggered it, timestamp, and a short summary
 | CRM | accounts, contacts, deals | Read-only first |
 | Sequencing | campaign creation, enrollment | Draft-only |
 | Analytics | dashboards, event data | Read-only |
-| Support | tickets, helpdesk | Read-only or draft |
+| Support | Plain MCP (threads, customers, tenants, help center) | Read + draft replies; confirm before send |
 
 ### Phase 2: Define Tool Scope
 
@@ -86,6 +86,12 @@ Typical configuration fields:
 ```
 
 Never hardcode API keys in repo files. Use environment variables or the agent platform's secret manager.
+
+**Plain MCP (BYOAI support):** Remote server `https://mcp.plain.com/mcp` — OAuth via
+Plain account (same permissions as the user). Tools cover thread search, customer lookup,
+help center, draft replies (`addGeneratedReply`), and state changes (assign, label, done)
+with human approval before customer-facing sends. Pair with `headless-support` →
+`references/byoai-headless-stack.md` when stacking Attio + Plain + agent IDE.
 
 ### Phase 4: Add Guardrails
 
@@ -165,5 +171,6 @@ Use the artifacts when the user asks for an implementation-ready deliverable, a 
 
 - `ai-sdr-setup` — guardrails, pilot scope, and human handoff for agent workflows
 - `leadmagic-mcp` — LeadMagic-specific MCP setup
+- `headless-support` — Plain BYOAI stack, deflection funnel, KB requirements
 - `crm-integration` — CRM read/write patterns and field mapping
 - `api-enrichment` — enrichment API usage and batch patterns

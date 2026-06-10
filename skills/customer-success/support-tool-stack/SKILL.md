@@ -14,9 +14,10 @@ metadata:
   author: LeadMagic
   category: customer-success
   tags: [support, intercom, zendesk, help-desk, ticketing, chatbots, customer-service, macros]
-  related_skills: [cs-playbooks, sla-management, cs-analytics-dashboards, customer-onboarding, automation/tool-selection-stack]
+  related_skills: [cs-playbooks, headless-support, mcp-setup, sla-management, cs-analytics-dashboards, customer-onboarding, automation/tool-selection-stack]
   frameworks:
     - "Intercom — Conversational Support Framework"
+    - "Plain — API-first headless support and BYOAI via MCP"
     - "Zendesk — Omnichannel CX Maturity Model"
     - "Help Scout — Support-Driven Growth (Bezos: customer obsession)"
     - "Klaus/Maestro QA — Support Quality Framework"
@@ -48,7 +49,16 @@ This skill is grounded in public frameworks and source material relevant to the 
 Trigger phrases: "choose support platform", "Intercom vs Zendesk", "help desk
 setup", "support tool stack", "migrate support platform", "set up ticketing",
 "customer support software", "Front vs Help Scout", "AI support tools",
-"help desk comparison"
+"help desk comparison", "Plain vs Intercom", "BYOAI support", "headless support stack"
+
+## Headless / BYOAI path
+
+**API-first stack (often with Attio CRM):** Plain for support infrastructure —
+GraphQL API, embedded headless portal, Slack/email channels, native MCP for
+Cursor/Claude agents. BYOAI instead of vendor AI (Fin). Full pattern:
+`skills/customer-success/headless-support/references/byoai-headless-stack.md`. MCP config: `mcp-setup`.
+
+Choose Intercom when you need Messenger + Fin without engineering a custom portal.
 
 ## Platform Selection by Stage
 
@@ -60,8 +70,10 @@ setup", "support tool stack", "migrate support platform", "set up ticketing",
 | **Front** | $19-59/seat/mo | Shared inbox with internal comments, assignment |
 | **Help Scout** | $20-65/seat/mo | Docs-first support, clean UX, Beacon widget |
 | **Linear** | $8-14/seat/mo | If support = bug reports / feature requests |
+| **Plain** | Custom / startup program | API-first product, embed support in-app, BYOAI via MCP |
 
 **Recommendation:** Front if team has Slack workflow. Help Scout if docs-heavy.
+Plain if engineering team owns support UX and uses Attio-style composable stack.
 
 ### Stage 1: $500K-3M ARR (First CS Hire)
 **You need:** Ticketing, SLAs, basic reporting, knowledge base, chat widget.
@@ -181,10 +193,33 @@ surfaces relevant articles BEFORE the customer messages you.
 **Best for:** Startups that want clean, affordable support without Intercom's
 complexity. Companies with strong documentation culture.
 
+### Plain — Best for API-First and BYOAI Support
+
+**Philosophy:** API-first support infrastructure — build your portal, wire your agent.
+UI is optional; GraphQL API and MCP are primary interfaces.
+
+**Key features:**
+- Headless customer portal (embed in your product)
+- Threads, customers, tenants, labels, help center
+- Native MCP server for Cursor, Claude, ChatGPT
+- Slack, email, in-app forms, live chat into one queue
+
+**Setup checklist:**
+1. Publish 30+ help center articles (same deflection bar as Fin)
+2. Connect Plain MCP in agent IDE (`mcp-setup` — OAuth, read-first)
+3. Configure draft → approve → send workflow for `replyToThread`
+4. Embed headless portal or in-app form for ticket creation
+5. Webhook → n8n → Attio/HubSpot for tier and account sync
+6. Escalation labels for billing, security, enterprise (human-only)
+
+**Best for:** Dev tools, API products, teams on Attio + Cursor already.
+Not a shortcut for non-technical CS — still need KB, SLAs, and human escalation.
+
 ## AI Support Tools
 
 | Tool | What It Does | Best For |
 |---|---|---|
+| **Plain MCP** | BYOAI: agent reads threads/KB, drafts replies | Cursor/Claude + headless stack |
 | **Intercom Fin** | AI agent answers from help center | Deflecting tier-1 questions |
 | **Zendesk AI Agents** | Auto-resolve, suggest macros, triage | Enterprise auto-resolution |
 | **Ada** | No-code chatbot builder | Complex conversation flows |

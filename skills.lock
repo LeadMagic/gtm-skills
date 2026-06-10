@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-06-10T01:59:43+00:00",
+  "generated_at": "2026-06-10T02:17:20+00:00",
   "total_skills": 203,
   "skills": {
     "abm/abm-1-to-1": {
@@ -244,8 +244,8 @@
         "mcp-setup",
         "SKILL.md"
       ],
-      "sha256": "bbf4e5fe203e2cd7ba6ea72245dc7e9cfeb45523cc364765de5dc8050c339482",
-      "size_bytes": 6727
+      "sha256": "f80c40017ef78300224e6ec8509c60b1a18ee30debc32f478f124bdc831c68cc",
+      "size_bytes": 7311
     },
     "automation/n8n-automation": {
       "path": [
@@ -487,8 +487,8 @@
         "headless-support",
         "SKILL.md"
       ],
-      "sha256": "17802ff11f98d183488c9483f9b5629dabab8f11d64d73e163f301a9e66123ab",
-      "size_bytes": 13954
+      "sha256": "29a4f974136a1fcb7a0185bb068e99d72f3f1b7e617815995486f2ba5c02aea9",
+      "size_bytes": 15401
     },
     "customer-success/qbr-planning": {
       "path": [
@@ -514,8 +514,8 @@
         "support-tool-stack",
         "SKILL.md"
       ],
-      "sha256": "94cd462ebab5417b55f352df2b8e6edf40f5e670d4b5871924ee82b5f7523716",
-      "size_bytes": 13146
+      "sha256": "0028c47b721e870ed2e36a99f2827f9e35aec93bb3a74f5c241bcfde622a2cb6",
+      "size_bytes": 15021
     },
     "demand-gen/content-syndication": {
       "path": [
@@ -712,8 +712,8 @@
         "using-gtm-skills",
         "SKILL.md"
       ],
-      "sha256": "79fba7f7375b4a703684d185331d4c25bf0b395232657b183dfd7e3add88d468",
-      "size_bytes": 90641
+      "sha256": "cb6bd2fdaed331d97b7bfce22c08b0b5b9d1e6259cc14aebfff56def4cdfdd7b",
+      "size_bytes": 90998
     },
     "founder-led/advisor-recruitment": {
       "path": [

@@ -10,14 +10,15 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   author: LeadMagic
   category: customer-success
   tags: [headless-support, ai-chatbot, self-serve, knowledge-base, ticket-deflection, automation, fin-ai, conversational-ai]
-  related_skills: [support-tool-stack, cs-playbooks, sla-management, cs-analytics-dashboards, customer-onboarding]
+  related_skills: [support-tool-stack, mcp-setup, attio-setup, cs-playbooks, sla-management, cs-analytics-dashboards, customer-onboarding]
   frameworks:
     - "Intercom — Fin AI Agent and Resolution Bot"
     - "Zendesk — AI Agents and Answer Bot"
+    - "Plain — API-first headless support and BYOAI via MCP"
     - "Ada — Conversational AI for Support"
     - "Forethought — AI-First Customer Support"
     - "Amazon — Working Backwards (deflection reduces cost and improves CSAT)"
@@ -34,12 +35,18 @@ experience. Customers want answers in seconds, not hours. The mistake: thinking
 skill covers AI agent deployment, knowledge base architecture, ticket deflection
 strategy, and the metrics to prove headless support works.
 
+**BYOAI / headless stack:** Technical teams often pair **Attio** (programmable CRM)
+with **Plain** (API-first support + native MCP) and connect **Cursor / Claude Code**
+instead of vendor AI (Fin, Zendesk AI). Load `references/byoai-headless-stack.md`
+for integration map, MCP setup, and when to choose Plain vs Intercom.
+
 ## Frameworks Referenced
 
 This skill is grounded in public frameworks and source material relevant to the task:
 
 - **Intercom — Fin AI Agent and Resolution Bot.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **Zendesk — AI Agents and Answer Bot.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Plain — API-first headless support and BYOAI via MCP.** Use when embedding support in-product or wiring Cursor/Claude to threads, customers, and help center — not as a Fin replacement for non-technical teams.
 - **Ada — Conversational AI for Support.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **Forethought — AI-First Customer Support.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **Amazon — Working Backwards (deflection reduces cost and improves CSAT).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
@@ -49,7 +56,9 @@ This skill is grounded in public frameworks and source material relevant to the 
 Trigger phrases: "set up AI support agent", "build self-serve support",
 "ticket deflection strategy", "headless customer support", "automated support",
 "Fin AI setup", "knowledge base optimization", "reduce support tickets",
-"chatbot for support", "automated onboarding support", "self-serve portal"
+"chatbot for support", "automated onboarding support", "self-serve portal",
+"BYOAI support", "bring your own AI support", "headless CRM stack",
+"Plain support", "Plain MCP", "API-first support", "embed support in app"
 
 ## The Deflection Funnel
 
@@ -107,7 +116,16 @@ content they're trained on.
 
 ### Phase 2: AI Agent Deployment
 
-**Pre-deployment checklist:**
+**Path A — Vendor AI (Intercom Fin, Zendesk AI):** Train on help center, configure
+persona and escalation in-platform. Best when CS team lives in one UI.
+
+**Path B — BYOAI (Plain + MCP):** Plain as support infrastructure; your agent
+(Cursor, Claude Code, Codex) connects via Plain MCP (`https://mcp.plain.com/mcp`).
+Agent reads threads and help center, drafts with `addGeneratedReply`, human approves
+before `replyToThread`. Load `references/byoai-headless-stack.md` and `mcp-setup`
+for tool scope and write gates. Best for dev-tool products and Attio-style composable stacks.
+
+**Pre-deployment checklist (both paths):**
 - [ ] 30+ help center articles published (minimum for effective AI)
 - [ ] 100+ past tickets reviewed to identify top deflection opportunities
 - [ ] AI persona defined: "Friendly, expert, concise. Uses customer's name. Admits when it can't answer."
@@ -314,6 +332,7 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
+- `references/byoai-headless-stack.md` — Attio + Plain + MCP BYOAI stack pattern
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator

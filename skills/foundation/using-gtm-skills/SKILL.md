@@ -244,7 +244,7 @@ print('All skills verified.')
 | **n8n flows (inbound/outbound/signals)** | `tools/n8n-toolkit` (flow catalog, MCP patterns) → motion skill (`inbound-triage`, `reply-handling`, signal plays) |
 | **Clay + AI prompts (tools)** | `tools/clay-toolkit`, `tools/clay-loops-toolkit`, `tools/ai-prompts-toolkit`, `tools/sequencing-toolkit`, `leadmagic/` |
 | **Content, social, creative** | `creative/` (vibe-marketing, ai-content-creation, copywriting, social-media-strategy), `content-seo/` |
-| **Customer success and support** | `customer-success/` (cs-playbooks, customer-onboarding, sla-management, headless-support) |
+| **Customer success and support** | `customer-success/` (cs-playbooks, customer-onboarding, sla-management, headless-support, support-tool-stack) — BYOAI: Plain MCP + `byoai-headless-stack.md` |
 | **Lifecycle stages & activation monitoring** | `references/gtm-lifecycle-stages.md` → Pattern 18 · `references/activation-playbook.md` · `references/lifecycle-skill-index.md` |
 | **Analytics and metrics** | `analytics/` (gtm-metrics, event-analytics, campaign-analytics, attribution) |
 | **AI-native GTM (vibe coding/marketing)** | `creative/` (vibe-coding, vibe-marketing, v0-lander, ai-content-creation, ai-video-creation) |
@@ -321,6 +321,8 @@ Examples:
 - "n8n outbound enrichment pipeline" → n8n-toolkit (OUT-01), leadmagic-toolkit
 - "n8n reply classification webhook" → n8n-toolkit (LIF-03), reply-handling, ai-prompts-toolkit
 - "Connect MCP agent to n8n batch job" → mcp-setup, n8n-toolkit (MCP-01), leadmagic-mcp
+- "Headless support / BYOAI / Plain MCP / embed support in app" → headless-support (byoai-headless-stack.md), mcp-setup, support-tool-stack
+- "Attio + support stack / API-first CRM and support" → crm-toolkit (crm-selection.md), attio-setup, headless-support (byoai-headless-stack.md)
 - "Signal automation funding/job change" → n8n-toolkit (SIG-01/02) or clay-loops-toolkit
 - "Clay reverse demo / Varun Anand demo" → demo-scripts → reverse-demo-varun reference
 - "Community selling / Slack GTM / ecosystem-led growth" → customer-marketing → community-selling-varun reference

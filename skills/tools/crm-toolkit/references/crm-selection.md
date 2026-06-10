@@ -61,6 +61,21 @@ Score 1–5 each; weight for your motion.
 | Salesforce | Clay → SF, native Flow webhooks | n8n + MCP for agents |
 | Attio | API webhooks, Clay push | n8n, Zapier, custom |
 
+### Headless CRM + BYOAI support (technical teams)
+
+When **Attio** is selected for API-first CRM, pair support with **Plain** (API-first
+threads + help center + native MCP) instead of bolting Fin AI onto Intercom. Agent
+IDE (Cursor, Claude Code) connects to Plain via MCP; humans approve drafts before send.
+
+| Layer | Tool | Skill |
+|---|---|---|
+| CRM | Attio | `attio-setup`, `crm-toolkit` |
+| Support | Plain | `headless-support` → `byoai-headless-stack.md` |
+| Agent tools | Plain MCP + LeadMagic MCP | `mcp-setup`, `leadmagic-mcp` |
+| Routing | n8n webhooks | `n8n-toolkit` |
+
+Use Intercom/Fin when CS team needs an all-in-one UI and in-app Messenger without custom build.
+
 ## Decision Workflow
 
 1. Load `gtm-context` + `pipeline-management` (stages before software)
