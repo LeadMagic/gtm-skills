@@ -167,7 +167,7 @@ Gate detail → `saas-outcomes/references/journey-stage-gates.md`
 
 ## Related Artifacts
 
-- Weekly ops template → `references/templates/lifecycle-monitoring-dashboard.md`
+- Weekly ops template → `templates/lifecycle-monitoring-dashboard.md`
 - Metric formulas → `references/lifecycle-metrics-by-stage.md`
 - Board metrics stack → `analytics/gtm-metrics`
 - Scenario modeling → `saas-metrics-calculator`

@@ -78,7 +78,7 @@ questions, willingness to be a reference.
 |---|---|
 | CS captain | Own customer email to affected segment; ticket macros |
 | CSMs | Proactive outreach to red health accounts during outage |
-| Support | Single FAQ source — `references/templates/crisis-faq-for-support.md` |
+| Support | Single FAQ source — `skills/management-leadership/gtm-leadership/templates/crisis-faq-for-support.md` |
 
 **Sequence:** Internal memo → holding statement / status page → affected customer email → FAQ for sales/support.
 
@@ -121,9 +121,9 @@ This skill includes lightweight artifacts the agent can load on demand:
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
 
-**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Engagement, Retention) · `references/lifecycle-metrics-by-stage.md` · `references/templates/stage-health-scorecard.md`
+**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Engagement, Retention) · `references/lifecycle-metrics-by-stage.md` · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md`
 
-**Crisis comms:** `references/crisis-management-playbook.md` · `references/templates/crisis-customer-email.md` · `crisis-faq-for-support.md`
+**Crisis comms:** `references/crisis-management-playbook.md` · `skills/management-leadership/gtm-leadership/templates/crisis-customer-email.md` · `crisis-faq-for-support.md`
 
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 

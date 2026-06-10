@@ -187,7 +187,7 @@ Social selling playbook with profile optimization checklist, DM sequences
 - `references/aneesh-wishly-b2b-influencer.md` — B2B LinkedIn creator partnerships (Wishly / Aneesh Lal)
 - `references/b2b-influencer-strategy.md` — Program design, ICP creator selection
 - `references/b2b-influencer-measurement.md` — Dark social, influencer ROI, UTM limits
-- `references/templates/influencer-partnership-scorecard.md` — Creator evaluation
+- `skills/growth/customer-marketing/templates/influencer-partnership-scorecard.md` — Creator evaluation
 - `skills/management-leadership/sales-coaching/references/randy-seidl-relationship-selling.md` — Enterprise relationship map, Three Plays, trust scorecard (canonical)
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator

@@ -2,7 +2,7 @@
 
 Metric definitions, formulas, and **R/Y/G thresholds** by lifecycle stage.  
 **Canonical stage index:** `references/gtm-lifecycle-stages.md`  
-**Dashboard template:** `references/templates/lifecycle-monitoring-dashboard.md`  
+**Dashboard template:** `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md`  
 **Calculator:** `saas-metrics-calculator` · **Board stack:** `analytics/gtm-metrics`
 
 Stage-aware benchmarks follow David Skok, ChartMogul/OpenView, and WbD bowtie economics. Adjust for ACV and motion (PLG vs sales-led).
@@ -153,5 +153,5 @@ Parallel internal lifecycle — `revenue-team-onboarding`:
 | Interactive what-if / investor package | `saas-metrics-calculator` |
 | Exit-weighted metrics | `saas-metrics-calculator/references/metric-definitions-exit-weight.md` |
 | Public company KPI discipline | `gtm-metrics/references/public-company-gtm-metrics.md` |
-| Weekly ops dashboard shell | `references/templates/lifecycle-monitoring-dashboard.md` |
-| Stage R/Y/G rollup | `references/templates/stage-health-scorecard.md` |
+| Weekly ops dashboard shell | `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md` |
+| Stage R/Y/G rollup | `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md` |

@@ -196,7 +196,7 @@ Before delivering, verify:
 **Lifecycle (Revenue stage):** `references/gtm-lifecycle-stages.md` · `references/lifecycle-skill-index.md` · Pattern 18 in `using-gtm-skills`  
 **Cross-skill:** `saas-metrics-calculator/references/metric-definitions-exit-weight.md` (NRR exit weight) · `references/saas-metrics-reference.md`
 
-**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Revenue) · `references/lifecycle-metrics-by-stage.md` · `references/templates/stage-health-scorecard.md`
+**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Revenue) · `references/lifecycle-metrics-by-stage.md` · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md`
 
 ## Related Skills
 

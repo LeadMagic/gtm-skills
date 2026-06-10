@@ -165,4 +165,4 @@ UTMs work for **clickable** destinations. They fail for:
 - [Refine Labs — Chris Walker demand creation](https://www.refinelabs.com/)
 - Repo: `references/chris-walker-mental-models.md`
 
-**Template:** `references/templates/influencer-partnership-scorecard.md`
+**Template:** `skills/growth/customer-marketing/templates/influencer-partnership-scorecard.md`

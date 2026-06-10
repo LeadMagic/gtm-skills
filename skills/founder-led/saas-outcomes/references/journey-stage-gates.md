@@ -126,5 +126,5 @@ Each stage has parallel tracks (product, GTM, team, capital). **Advance only whe
 **Customer lifecycle (orthogonal track):**
 - Stage index → `references/gtm-lifecycle-stages.md` (founder ↔ lifecycle overlay table)
 - Activation → `references/activation-playbook.md`
-- Monitoring → `references/templates/lifecycle-monitoring-dashboard.md`, `references/templates/stage-health-scorecard.md`
+- Monitoring → `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md`, `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md`
 - Metrics → `references/lifecycle-metrics-by-stage.md`

@@ -436,8 +436,8 @@ Board and revenue metrics map to lifecycle stages via `references/lifecycle-metr
 - **Activation:** TTA, activation rate (pair with `references/activation-playbook.md`)
 - **Revenue / Retention:** NRR, GRR, CAC payback, Rule of 40
 
-Weekly/monthly ops cadence → `references/templates/lifecycle-monitoring-dashboard.md`.  
-Stage rollup R/Y/G → `references/templates/stage-health-scorecard.md`.  
+Weekly/monthly ops cadence → `templates/lifecycle-monitoring-dashboard.md`.  
+Stage rollup R/Y/G → `templates/stage-health-scorecard.md`.  
 Canonical stage index → `references/gtm-lifecycle-stages.md`.
 
 ## Execution Artifacts
@@ -449,17 +449,18 @@ This skill includes lightweight artifacts the agent can load on demand:
 - `references/public-company-gtm-metrics.md` — Henry Schuck / ZoomInfo earnings-season KPI stack
 - `references/saas-mrr-accounting-nuances.md` — MRR variants, consumption, GAAP reconcile (repo root)
 - `references/bookings-billings-revenue-matrix.md` — CRM vs finance ledger (repo root)
-- `references/templates/mrr-bridge-template.md` — bridge worksheet (repo root)
+- `skills/founder-led/saas-metrics-calculator/templates/mrr-bridge-template.md` — bridge worksheet (saas-metrics-calculator skill)
 - `../../management-leadership/gtm-leadership/references/cro-enterprise-strategy.md` — McMahon board metrics, Snowflake consumption KPIs (Pattern 31)
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `references/gtm-metrics-scorecard.md` — standardized metric formulas by motion (sales-led, PLG, CS)
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
 
-**Canonical lifecycle (repo root):**
-- `references/lifecycle-metrics-by-stage.md` — Per-stage formulas + R/Y/G
-- `references/templates/lifecycle-monitoring-dashboard.md` — Weekly/monthly review
-- `references/templates/stage-health-scorecard.md` — Leadership rollup
-- `references/gtm-lifecycle-stages.md` — 7-stage index + Bowtie
+**Canonical lifecycle:**
+- `references/lifecycle-metrics-by-stage.md` — Per-stage formulas + R/Y/G (repo root)
+- `templates/lifecycle-monitoring-dashboard.md` — Weekly/monthly review
+- `templates/stage-health-scorecard.md` — Leadership rollup
+- `references/gtm-lifecycle-stages.md` — 7-stage index + Bowtie (repo root)
 
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 

@@ -103,4 +103,4 @@ Full index also in `references/experts.md` (Crisis Communications section).
 
 - `references/crisis-management-playbook.md` — canonical response
 - `references/crisis-preparedness-checklist.md` — before crisis
-- `references/templates/crisis-*.md` — statement shells
+- `skills/management-leadership/gtm-leadership/templates/crisis-*.md` — statement shells

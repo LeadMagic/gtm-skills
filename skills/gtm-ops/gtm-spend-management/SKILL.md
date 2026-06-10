@@ -235,7 +235,7 @@ Vendor comparison + pilot scorecard:
 - `references/ramp-playbook.md` — Ramp setup for GTM stacks
 - `references/spend-by-stage.md` — ARR-stage tool + payroll guardrails (canonical table)
 - `references/gtm-budget-playbook.md` — **annual budget canonical** (repo root; vendor section here)
-- `references/templates/annual-gtm-budget-worksheet.md` — budget worksheet (repo root)
+- `templates/annual-gtm-budget-worksheet.md` — budget worksheet
 - `website-visitor-identification/references/visitor-id-vendor-comparison.md` — Intent vendor roster reference
 - `references/spend-governance.md` — Policies, thresholds, compliance
 - `references/spend-by-stage.md` — Tool unlock order tied to ARR / scale gates

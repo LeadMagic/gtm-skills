@@ -31,10 +31,10 @@
 
 Store in shared drive / Notion — link from this checklist.
 
-- [ ] `templates/crisis-holding-statement.md` — outage, security, general
-- [ ] `templates/crisis-customer-email.md` — affected customer segment
-- [ ] `templates/crisis-internal-memo.md` — all-hands
-- [ ] `templates/crisis-faq-for-support.md` — sales + CS macros
+- [ ] `skills/management-leadership/gtm-leadership/templates/crisis-holding-statement.md` — outage, security, general
+- [ ] `skills/management-leadership/gtm-leadership/templates/crisis-customer-email.md` — affected customer segment
+- [ ] `skills/management-leadership/gtm-leadership/templates/crisis-internal-memo.md` — all-hands
+- [ ] `skills/management-leadership/gtm-leadership/templates/crisis-faq-for-support.md` — sales + CS macros
 - [ ] Legal pre-review of shells (annual refresh)
 - [ ] **[ ]** shells findable in **< 60 seconds** by on-call comms lead
 

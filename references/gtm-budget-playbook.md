@@ -2,7 +2,7 @@
 
 **Canonical home:** `financial-modeling` (operating model & P&L).  
 **Vendor/tool line detail:** `gtm-spend-management` (Ramp, roster, approvals).  
-**Template:** `references/templates/annual-gtm-budget-worksheet.md`.
+**Template:** `skills/gtm-ops/gtm-spend-management/templates/annual-gtm-budget-worksheet.md`.
 
 **Audience:** Founders and RevOps building an **annual operating budget** with finance credibility — not a CPA engagement.
 

@@ -251,7 +251,7 @@ No live outbound until:
 - `templates/output-template.md`
 - `scripts/check-output.py`
 
-**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Revenue Team Lifecycle) · `references/templates/lifecycle-monitoring-dashboard.md` (Ramp panel) · `references/lifecycle-metrics-by-stage.md` (ramp metrics)
+**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Revenue Team Lifecycle) · `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md` (Ramp panel) · `references/lifecycle-metrics-by-stage.md` (ramp metrics)
 
 ## Related Skills
 

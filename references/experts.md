@@ -1748,7 +1748,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Awareness → Education → Conversion · ICP audience over vanity followers · Multi-channel creator bundles (LinkedIn + newsletter + podcast + co-authored assets) · Problem-first software hooks · Per-creator landing pages + Clay engagement scrape + CRM lookback · Agency-as-mediator · 90-day campaign evaluation · Bi-weekly brand reviews
 
-**Artifacts:** `references/aneesh-wishly-b2b-influencer.md` (canonical) · `references/b2b-influencer-strategy.md` · `references/b2b-influencer-measurement.md` · `references/templates/b2b-influencer-program-brief.md` · `references/templates/influencer-partnership-scorecard.md`
+**Artifacts:** `references/aneesh-wishly-b2b-influencer.md` (canonical) · `references/b2b-influencer-strategy.md` · `references/b2b-influencer-measurement.md` · `skills/growth/customer-marketing/templates/b2b-influencer-program-brief.md` · `skills/growth/customer-marketing/templates/influencer-partnership-scorecard.md`
 
 **Skills:** `customer-marketing`, `social-selling`, `gtm-metrics`, `campaign-governance`, `content-marketing`
 

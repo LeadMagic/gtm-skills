@@ -174,7 +174,7 @@ Use for customer-facing statements. **Legal reviews all Sev 3+ wording.**
 | Investor cadence in hard months | `founder-led/investor-updates` |
 | Onboarding / trust rebuild | `customer-success/customer-onboarding` |
 | Preparedness checklist | `references/crisis-preparedness-checklist.md` |
-| Statement templates | `references/templates/crisis-*.md` |
+| Statement templates | `skills/management-leadership/gtm-leadership/templates/crisis-*.md` |
 | PR expert voices | `references/saas-pr-crisis-experts.md`, `references/experts.md` |
 | Benchmark / board context | `references/benchmark-reconciliation.md` |
 

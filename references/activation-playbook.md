@@ -4,7 +4,7 @@
 
 **Canonical stage index:** `references/gtm-lifecycle-stages.md` (Activation row)  
 **Metrics & thresholds:** `references/lifecycle-metrics-by-stage.md`  
-**Monitoring:** `references/templates/lifecycle-monitoring-dashboard.md` · `references/templates/stage-health-scorecard.md`
+**Monitoring:** `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md` · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md`
 
 ---
 
@@ -83,7 +83,7 @@ Load `event-analytics` for instrumentation. Load `cs-analytics-dashboards` for f
 | Template library | Pre-built config improves D7 activation | Activation rate | 100 users |
 | Reverse demo (PLG sales) | Buyer-led demo → faster first win | TTA for sales-assisted | 15 demos |
 
-Run via `pmf-testing-playbook` discipline (hypothesis → metric → ship/kill). Document in `references/templates/lifecycle-monitoring-dashboard.md` experiment log.
+Run via `pmf-testing-playbook` discipline (hypothesis → metric → ship/kill). Document in `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md` experiment log.
 
 ---
 

@@ -45,7 +45,7 @@ This skill is grounded in public frameworks and source material relevant to the 
 
 **Retention** (stage 6). Canonical index → `references/gtm-lifecycle-stages.md`.  
 Metrics → `references/lifecycle-metrics-by-stage.md` (Retention).  
-Scorecard → `references/templates/stage-health-scorecard.md` (Retention panel).
+Scorecard → `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md` (Retention panel).
 
 ## Core Principle
 > The best churn signal is not "they stopped paying" — it's the behavior
@@ -167,7 +167,7 @@ Before delivering, verify:
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
 
-**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Retention) · `references/lifecycle-metrics-by-stage.md` · `references/templates/stage-health-scorecard.md`
+**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Retention) · `references/lifecycle-metrics-by-stage.md` · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md`
 
 ## Related Skills
 - churn-prevention, cs-playbooks, onboarding-sequences, lifecycle-drips, expansion-selling

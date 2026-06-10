@@ -138,7 +138,7 @@ Cash-zero date is NOT when you start fundraising — it's when you're dead.
 
 Load `references/gtm-budget-playbook.md` for annual S&M/R&D/G&A structure,
 headcount-driven build, vendor budget tie to `gtm-spend-management`, and monthly
-variance cadence. Worksheet → `references/templates/annual-gtm-budget-worksheet.md`.
+variance cadence. Worksheet → `skills/gtm-ops/gtm-spend-management/templates/annual-gtm-budget-worksheet.md`.
 
 | Driver | Conservative | Base Case | Aggressive |
 |---|---|---|---|
@@ -455,7 +455,7 @@ Before delivering, verify:
 ## Execution Artifacts
 
 - `references/gtm-budget-playbook.md` — **canonical** annual GTM budget (repo root)
-- `references/templates/annual-gtm-budget-worksheet.md` — budget worksheet (repo root)
+- `skills/gtm-ops/gtm-spend-management/templates/annual-gtm-budget-worksheet.md` — budget worksheet (gtm-spend-management skill)
 - `references/saas-mrr-accounting-nuances.md` — MRR/recognition reconcile (repo root)
 - `references/saas-tax-founder-awareness.md` — tax/409A/QSBS handoffs (repo root)
 - `references/bookings-billings-revenue-matrix.md` — cash vs committed ARR (repo root)

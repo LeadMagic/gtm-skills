@@ -37,7 +37,7 @@ This skill is grounded in public frameworks and source material relevant to the 
 
 **Acquisition** (stage 2). Canonical index → `references/gtm-lifecycle-stages.md`.  
 Metrics → `references/lifecycle-metrics-by-stage.md` (Acquisition).  
-Monitoring → `references/templates/lifecycle-monitoring-dashboard.md`.
+Monitoring → `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md`.
 
 ## When to Use
 - "Build an MQL nurture program"

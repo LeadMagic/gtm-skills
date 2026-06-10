@@ -16,8 +16,8 @@ Use these references to ground outputs in named, repeatable methodology.
 - `references/gtm-lifecycle-stages.md` — 7 customer stages + team ramp
 - `references/lifecycle-metrics-by-stage.md` — R/Y/G thresholds per stage
 - `references/activation-playbook.md` — Activation neck of bowtie
-- `references/templates/lifecycle-monitoring-dashboard.md` — Weekly/monthly cadence
-- `references/templates/stage-health-scorecard.md` — Leadership rollup
+- `templates/lifecycle-monitoring-dashboard.md` — Weekly/monthly cadence
+- `templates/stage-health-scorecard.md` — Leadership rollup
 
 ## Operating Assumptions
 

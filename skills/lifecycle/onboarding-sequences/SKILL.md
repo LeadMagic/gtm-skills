@@ -44,7 +44,7 @@ This skill is grounded in public frameworks and source material relevant to the 
 
 **Activation** (stage 3). Canonical definitions → `references/gtm-lifecycle-stages.md`.  
 Deep dive (TTA benchmarks, audit, anti-patterns) → `references/activation-playbook.md`.  
-Metrics & monitoring → `references/lifecycle-metrics-by-stage.md`, `references/templates/lifecycle-monitoring-dashboard.md`.
+Metrics & monitoring → `references/lifecycle-metrics-by-stage.md`, `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md`.
 
 ## Core Principle
 > Customers don't churn because your product is bad — they churn because they
@@ -136,7 +136,7 @@ Before delivering, verify:
 - `references/gtm-lifecycle-stages.md` — Stage index (Activation row)
 - `references/activation-playbook.md` — First value event, TTA, audit checklist
 - `references/lifecycle-metrics-by-stage.md` — Activation metrics + thresholds
-- `references/templates/lifecycle-monitoring-dashboard.md` — Weekly activation panel
+- `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md` — Weekly activation panel
 - `references/lifecycle-skill-index.md` — Lifecycle cluster router
 
 ## Related Skills

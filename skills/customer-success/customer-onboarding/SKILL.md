@@ -400,8 +400,8 @@ security timing (if review still open) → `references/security-questionnaire-de
 - `references/activation-playbook.md` — First value event, handoff, audit checklist
 - `references/gtm-lifecycle-stages.md` — Activation row + Bowtie neck
 - `references/lifecycle-metrics-by-stage.md` — TTA, activation rate thresholds
-- `references/templates/lifecycle-monitoring-dashboard.md` — Weekly activation panel
-- `references/templates/stage-health-scorecard.md` — Activation R/Y/G
+- `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md` — Weekly activation panel
+- `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md` — Activation R/Y/G
 - `references/gtm-data-exchange-playbook.md` — Customer data exchange SOP (repo root)
 - `references/crisis-management-playbook.md` — Post-incident trust rebuild; activation recovery (Pattern 33)
 - `deal-desk/templates/customer-data-exchange-checklist.md` — Pre/on/post-sale checklist

@@ -77,7 +77,7 @@ Ending MRR = Starting MRR
 | **Contraction** | Downgrade, seat remove, tier down | Partial churn mis-bucketed |
 | **Churn** | Full logo cancel; MRR to zero | Pending cancel still in base |
 
-Template → `references/templates/mrr-bridge-template.md`.
+Template → `skills/founder-led/saas-metrics-calculator/templates/mrr-bridge-template.md`.
 
 **Logo vs dollar:** Track **logo churn** and **revenue churn** separately. NRR/GRR use **dollar** cohort on starting MRR base — see `saas-metrics-calculator`.
 

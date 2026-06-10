@@ -312,7 +312,7 @@ Refs: `references/bessemer-cloud-atlas.md` · `references/david-sacks-saas-metri
 | **Consumption usage** | **Seat-based MRR** | Hybrid: platform MRR + usage true-up; McMahon/Slootman: track commit vs consumption run-rate |
 | **Earn-out / exit ARR** | **Internal dashboard ARR** | Diligence uses **committed recurring** + definitions in LOI — EBITDA earn-out ≠ MRR earn-out (`negotiating-earn-out.md`) |
 
-**Canonical deep dive:** `references/saas-mrr-accounting-nuances.md` · bridge template → `references/templates/mrr-bridge-template.md`
+**Canonical deep dive:** `references/saas-mrr-accounting-nuances.md` · bridge template → `skills/founder-led/saas-metrics-calculator/templates/mrr-bridge-template.md`
 
 **Footnote — saas-metrics-calculator vs financial-modeling:** Calculator = committed MRR formulas. Financial model revenue row may use **recognized** revenue for P&L — link both in board pack.
 

@@ -87,8 +87,8 @@ Router for the **lifecycle** skill cluster and cross-category lifecycle work.
 | `references/gtm-lifecycle-stages.md` | Stage definitions, owners, skill routing |
 | `references/activation-playbook.md` | Activation deep-dive + audit |
 | `references/lifecycle-metrics-by-stage.md` | Formulas + R/Y/G thresholds |
-| `references/templates/lifecycle-monitoring-dashboard.md` | Weekly/monthly review template |
-| `references/templates/stage-health-scorecard.md` | Stage rollup R/Y/G |
+| `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md` | Weekly/monthly review template |
+| `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md` | Stage rollup R/Y/G |
 
 ---
 
@@ -103,7 +103,7 @@ references/activation-playbook.md → customer-onboarding → onboarding-sequenc
 **Lifecycle metrics system:**
 ```
 references/gtm-lifecycle-stages.md → references/lifecycle-metrics-by-stage.md
-→ gtm-metrics → references/templates/lifecycle-monitoring-dashboard.md
+→ gtm-metrics → skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md
 ```
 
 **Reduce early churn:**

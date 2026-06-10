@@ -108,7 +108,7 @@ When incidents threaten advocacy and pipeline trust — load **`references/crisi
 
 **Chris Walker — dark social:** Buyers discuss vendor failures in Slack/DMs — monitor via CS/sales, not just public mentions. → `references/chris-walker-mental-models.md`
 
-**Templates:** `references/templates/crisis-holding-statement.md`, `crisis-faq-for-support.md`  
+**Templates:** `skills/management-leadership/gtm-leadership/templates/crisis-holding-statement.md`, `crisis-faq-for-support.md`  
 **Experts:** `references/saas-pr-crisis-experts.md` (Highwire, Offleash for retained PR)
 
 ### Phase 7: B2B Creator & Influencer Partnerships
@@ -125,7 +125,7 @@ champions** (advocacy ladder) — three different programs; do not conflate.
 **Wishly-aligned minimum:** 90-day bundle (posts + newsletter + co-authored asset);
 ICP overlap check before sign; bi-weekly reviews; measurement →
 `references/b2b-influencer-measurement.md`. Brief template →
-`references/templates/b2b-influencer-program-brief.md`.
+`templates/b2b-influencer-program-brief.md`.
 
 ## Implementation Checklist
 
@@ -173,13 +173,13 @@ Before delivering, verify:
 
 - `references/crisis-management-playbook.md` — external comms during incidents (Pattern 33)
 - `references/saas-pr-crisis-experts.md` — B2B SaaS PR voices
-- `references/templates/crisis-holding-statement.md` · `crisis-customer-email.md` · `crisis-faq-for-support.md`
+- `skills/management-leadership/gtm-leadership/templates/crisis-holding-statement.md` · `crisis-customer-email.md` · `crisis-faq-for-support.md`
 - `references/community-selling-varun.md` — Clay ecosystem GTM, Slack-first, community infiltration
 - `references/aneesh-wishly-b2b-influencer.md` — Wishly Group / Aneesh Lal canonical playbook
 - `references/b2b-influencer-strategy.md` — Master B2B influencer guide (program types, ICP selection)
 - `references/b2b-influencer-measurement.md` — ROI, dark social, UTM limits
-- `references/templates/b2b-influencer-program-brief.md` — Campaign brief
-- `references/templates/influencer-partnership-scorecard.md` — Creator evaluation
+- `templates/b2b-influencer-program-brief.md` — Campaign brief
+- `templates/influencer-partnership-scorecard.md` — Creator evaluation
 - `references/advocacy-program.md` — Ladder, CRM fields, review triggers
 - `references/framework-notes.md` — Expert anchors + skill routing
 - `templates/case-study-interview-questions.md`

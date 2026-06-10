@@ -58,7 +58,7 @@
 | Past B2B SaaS sponsorships | |
 | Exclusivity window | days |
 
-Score creators with `references/templates/influencer-partnership-scorecard.md`.
+Score creators with `templates/influencer-partnership-scorecard.md`.
 
 ---
 

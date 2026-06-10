@@ -101,7 +101,7 @@ Approval matrix → `gtm-spend-management/templates/spend-approval-matrix.md`.
 - Journey stage → `saas-outcomes/references/journey-stage-gates.md`
 - Customer lifecycle health → `references/gtm-lifecycle-stages.md` (Activation + Acquisition must be green)
 - Activation audit → `references/activation-playbook.md`
-- Lifecycle monitoring → `references/templates/stage-health-scorecard.md`
+- Lifecycle monitoring → `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md`
 - Comp affordability → `founder-comp-playbook`
 - Spend governance → `gtm-spend-management/references/spend-governance.md`
 - ARR-stage spend table → `gtm-spend-management/references/spend-by-stage.md`

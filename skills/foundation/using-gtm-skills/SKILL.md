@@ -837,7 +837,7 @@ For complex GTM projects, load the entire stack:
 1. references/crisis-management-playbook.md (canonical — severity matrix, first 60 min, war room)
 2. gtm-leadership (executive home — CEO voice, layoffs, difficult stakeholder truth)
 3. references/crisis-preparedness-checklist.md (before crisis — contact tree, status page, tabletop)
-4. references/templates/crisis-holding-statement.md + crisis-customer-email.md + crisis-internal-memo.md + crisis-faq-for-support.md
+4. skills/management-leadership/gtm-leadership/templates/crisis-holding-statement.md + crisis-customer-email.md + crisis-internal-memo.md + crisis-faq-for-support.md
 5. cs-playbooks + customer-marketing (customer email, G2/TR, advocacy pause)
 6. investor-updates (Sev 3+ investor/board addendum — Lemkin: never skip bad months)
 7. deal-desk/references/legal-gtm-playbook.md (counsel before statements — Pattern 29)
@@ -858,11 +858,11 @@ For complex GTM projects, load the entire stack:
 ```
 1. references/gtm-budget-playbook.md (canonical budget — S&M/R&D/G&A, scenarios, variance cadence)
 2. financial-modeling (bottom-up P&L, headcount, runway, accounting stack timing)
-3. references/templates/annual-gtm-budget-worksheet.md
+3. skills/gtm-ops/gtm-spend-management/templates/annual-gtm-budget-worksheet.md
 4. gtm-spend-management (vendor/tool lines, Ramp roster, spend-by-stage caps)
 5. saas-metrics-calculator (committed MRR formulas, benchmarks)
 6. references/saas-mrr-accounting-nuances.md (canonical — committed vs recognized vs billings)
-7. references/templates/mrr-bridge-template.md
+7. skills/founder-led/saas-metrics-calculator/templates/mrr-bridge-template.md
 8. references/bookings-billings-revenue-matrix.md (CRM vs GAAP gap)
 9. references/saas-tax-founder-awareness.md (nexus, VAT, R&D credit, QSBS, 409A — CPA handoffs)
 10. references/benchmark-reconciliation.md (MRR/ARR definition row, Meritech implied ARR)
@@ -1162,8 +1162,8 @@ Clay enriches; n8n routes at SLA; MCP agents draft/research — never loop
 1. references/gtm-lifecycle-stages.md (canonical 7 stages + Bowtie + team ramp)
 2. references/activation-playbook.md (first value event, TTA benchmarks, audit)
 3. references/lifecycle-metrics-by-stage.md (formulas + R/Y/G thresholds)
-4. references/templates/lifecycle-monitoring-dashboard.md (weekly/monthly cadence)
-5. references/templates/stage-health-scorecard.md (leadership rollup)
+4. skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md (weekly/monthly cadence)
+5. skills/analytics/gtm-metrics/templates/stage-health-scorecard.md (leadership rollup)
 6. Stage skills — load by need (see routing table below)
 ```
 
@@ -1222,7 +1222,7 @@ visitor ID is attributable; dark social is not. Pair Pattern 26 + 20.
 2. references/b2b-influencer-strategy.md (program types: paid creators, employee advocates, affiliates)
 3. customer-marketing (canonical skill — Phase 6; distinguish external vs employee vs customer champions)
 4. social-selling (LinkedIn visibility, post-engagement nurture, SSI for employee advocates)
-5. references/templates/b2b-influencer-program-brief.md + influencer-partnership-scorecard.md
+5. skills/growth/customer-marketing/templates/b2b-influencer-program-brief.md + influencer-partnership-scorecard.md
 6. campaign-governance (per-creator UTMs, landing pages — utm_medium=influencer)
 7. references/b2b-influencer-measurement.md + gtm-metrics (CRM lookback, Clay scrape, dark social)
 8. references/chris-walker-mental-models.md (90-day eval; do not kill at 2 weeks on last-click)

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-06-10T03:12:16+00:00",
+  "generated_at": "2026-06-10T03:32:45+00:00",
   "total_skills": 205,
   "skills": {
     "abm/abm-1-to-1": {
@@ -136,8 +136,8 @@
         "gtm-metrics",
         "SKILL.md"
       ],
-      "sha256": "a8068d9e6ff05ee85b83187b5f16346896c24406263588dc4b479f5dced69f6e",
-      "size_bytes": 30106
+      "sha256": "9ada5c636d8bd0b5111df14a4c8c6dc006dd61ec86bfe1165039b0ca5c77a53b",
+      "size_bytes": 30230
     },
     "analytics/gtm-system-architecture": {
       "path": [
@@ -460,8 +460,8 @@
         "cs-analytics-dashboards",
         "SKILL.md"
       ],
-      "sha256": "e38d0c889977171d83a9ef6d7104f8b5584362e7d7033af472c62da20b47a5d4",
-      "size_bytes": 14066
+      "sha256": "066454170c2ccfa3474ba230f37f0589376751e5b8cee9cbf0ef3d9d49ed5a6d",
+      "size_bytes": 14084
     },
     "customer-success/cs-playbooks": {
       "path": [
@@ -469,8 +469,8 @@
         "cs-playbooks",
         "SKILL.md"
       ],
-      "sha256": "52562423203729f71749bbffa2a0b4f83856c86f4c77b5e0b230cc26cfb77328",
-      "size_bytes": 8485
+      "sha256": "a01e2da2884219c0944b89400dba27b9ce3e154309fb023fc178bb3461e25d1f",
+      "size_bytes": 8569
     },
     "customer-success/customer-onboarding": {
       "path": [
@@ -478,8 +478,8 @@
         "customer-onboarding",
         "SKILL.md"
       ],
-      "sha256": "ce15fc46aae44354cfdbc12a09d36daf43c0182fbdde089a27b27f5ba3ba867c",
-      "size_bytes": 16546
+      "sha256": "0879748f9bd5126eb7e55e0eae2c60f2dc0d57fbe8f5b700f54743cdf9eac7f4",
+      "size_bytes": 16582
     },
     "customer-success/headless-support": {
       "path": [
@@ -685,8 +685,8 @@
         "icp-targeting-tiers",
         "SKILL.md"
       ],
-      "sha256": "196fb976fbc0df8912805ad632787ddfc3f8598f03f1471e84703504a918abb6",
-      "size_bytes": 11405
+      "sha256": "4d7a94565065611f0126f626533b852ac4ab432c66fb9683e2bea0722b23a9e9",
+      "size_bytes": 11524
     },
     "foundation/positioning-messaging": {
       "path": [
@@ -712,8 +712,8 @@
         "using-gtm-skills",
         "SKILL.md"
       ],
-      "sha256": "e871cd20c242d4d568414d62b52013b0ea45de78fab3b1abdc288439318a24aa",
-      "size_bytes": 92449
+      "sha256": "b9bffa1f504452057d63a3e0c7149a5f68183b8da79fb7e8228074f442125abf",
+      "size_bytes": 92597
     },
     "founder-led/advisor-recruitment": {
       "path": [
@@ -838,8 +838,8 @@
         "financial-modeling",
         "SKILL.md"
       ],
-      "sha256": "cd5cb4132ddf57dc32662864c2cc884c8bfe7e4246127fd8955edc9ee86fd30a",
-      "size_bytes": 19871
+      "sha256": "0a609aaa99bb9a902e769d59eee928323dd146d9f4ba597285f4f623eb754e62",
+      "size_bytes": 19938
     },
     "founder-led/first-hires-playbook": {
       "path": [
@@ -1000,8 +1000,8 @@
         "saas-metrics-calculator",
         "SKILL.md"
       ],
-      "sha256": "bde4599718c380b9120b818e69201c3de8da1d35caaf09184b79f33209e26eea",
-      "size_bytes": 13705
+      "sha256": "483231d5ee8e1c8d273b650e85b9281068f315b793488605db133434cc605460",
+      "size_bytes": 13689
     },
     "founder-led/saas-outcomes": {
       "path": [
@@ -1009,8 +1009,8 @@
         "saas-outcomes",
         "SKILL.md"
       ],
-      "sha256": "be0c006224b37b4acb11b7d1def308e4cb8ef3643e49d269269364087c142be9",
-      "size_bytes": 14928
+      "sha256": "13b75c989db293443ce0004c147c3ff3e27099a7982728c59433cd3935feb17b",
+      "size_bytes": 14946
     },
     "founder-led/sales-team-building": {
       "path": [
@@ -1090,8 +1090,8 @@
         "churn-prevention",
         "SKILL.md"
       ],
-      "sha256": "d2b4dcc3d1e393bf7485acee663a5bde974fbeeaa4724df90b09deb5bf23f01c",
-      "size_bytes": 6906
+      "sha256": "340637c3262bd24e0ac526276dfbc198477b0666f2b3dfdc0078148424a6ae52",
+      "size_bytes": 6924
     },
     "growth/customer-marketing": {
       "path": [
@@ -1099,8 +1099,8 @@
         "customer-marketing",
         "SKILL.md"
       ],
-      "sha256": "0569bc8980c6c615e9cab69f47cf3a05e0c4a8f7bf30b979c4f6188ea87817c6",
-      "size_bytes": 11136
+      "sha256": "6b0383de6f2299267027661e2c1b42ce32ebf8bf8375e9a92e95358291ba951f",
+      "size_bytes": 11169
     },
     "growth/expansion-selling": {
       "path": [
@@ -1108,8 +1108,8 @@
         "expansion-selling",
         "SKILL.md"
       ],
-      "sha256": "795cc7f4193137cdcd77abadf282e86d20440924c0dd453f8db9ffc33993196a",
-      "size_bytes": 10332
+      "sha256": "c3b0de05f2c493f572caf3924ecaa95a2c5cd03f6a881d0cfd134ff77a0e6f36",
+      "size_bytes": 10350
     },
     "growth/referral-programs": {
       "path": [
@@ -1117,8 +1117,8 @@
         "referral-programs",
         "SKILL.md"
       ],
-      "sha256": "6f1df428ea8aa7c608ba7d8f3d3b50db6d2402eb6aecbcc4a7cdbd2cf48a3cf0",
-      "size_bytes": 14382
+      "sha256": "e759b050895533e06f1440038f0975fa9609cb5c1ccf9f12c954468705a63957",
+      "size_bytes": 14400
     },
     "growth/review-platforms": {
       "path": [
@@ -1135,8 +1135,8 @@
         "campaign-governance",
         "SKILL.md"
       ],
-      "sha256": "6074f89ec273a89887a1a5099951680e587101ab278b2db0728fcb7c98e243c9",
-      "size_bytes": 10305
+      "sha256": "cc45d4039d35f7a0f5d936edf4276dbd9afff2f9c07156e5b547b0a74aa3d9a0",
+      "size_bytes": 10327
     },
     "gtm-ops/gtm-operations": {
       "path": [
@@ -1153,8 +1153,8 @@
         "gtm-spend-management",
         "SKILL.md"
       ],
-      "sha256": "015ddd270ee14514eb1a1e7613eefbde066dac56a5f2cb3192791102f78270a2",
-      "size_bytes": 10207
+      "sha256": "9c245911fa6874db3097237d3f4431f1c5d00d3d8292e4644ed1c4bc5171dbd3",
+      "size_bytes": 10184
     },
     "gtm-ops/gtm-tool-cost-model": {
       "path": [
@@ -1234,8 +1234,8 @@
         "social-selling",
         "SKILL.md"
       ],
-      "sha256": "1f57773fd5cd3d09ab57b0fdf419b741eb16ac85265cfc21ae860bedd5f5187f",
-      "size_bytes": 10087
+      "sha256": "aabcb0437cb5c04e5f8295004fb86da25c6c69378ebb841eaa77b5197bdead33",
+      "size_bytes": 10109
     },
     "inbound/website-visitor-identification": {
       "path": [
@@ -1306,8 +1306,8 @@
         "churn-prediction",
         "SKILL.md"
       ],
-      "sha256": "c1c4f6e804a59af2b2a17897a580e2740cef5f0ad30754fe5565b0ef9c47f96f",
-      "size_bytes": 7462
+      "sha256": "35e67cb5e28e9366c5e41181904827819954b70db7febde2bc5ea544dbfb6b78",
+      "size_bytes": 7498
     },
     "lifecycle/lifecycle-drips": {
       "path": [
@@ -1324,8 +1324,8 @@
         "mql-nurture",
         "SKILL.md"
       ],
-      "sha256": "1bd6a503630ba0c2c96f19020d29c5606dcc589abd184ceacdb947d07dae45d0",
-      "size_bytes": 6685
+      "sha256": "f1b8c7732910d4c5545796fd9c78041881c81dc3f4945bd01410cd73f805bc09",
+      "size_bytes": 6703
     },
     "lifecycle/onboarding-sequences": {
       "path": [
@@ -1333,8 +1333,8 @@
         "onboarding-sequences",
         "SKILL.md"
       ],
-      "sha256": "dc6bfc038445aa6c9afd541c8a120ef51d802622416ab5be9f0386dc3c101858",
-      "size_bytes": 6818
+      "sha256": "4502981320831c4e6d61b28dd3622588a1cf7b60988439654fd4fb67ed708a0d",
+      "size_bytes": 6854
     },
     "lifecycle/re-engagement": {
       "path": [
@@ -1360,8 +1360,8 @@
         "gtm-leadership",
         "SKILL.md"
       ],
-      "sha256": "ca672ff3c3036ee05bf1bac1902b8b9107d163c116b2263f8cbc81ba9d7e9ed9",
-      "size_bytes": 20165
+      "sha256": "f921de5bfe097567803d3e2f084ac6850dc750419a2a0aec49ef48bbb5776dd8",
+      "size_bytes": 20143
     },
     "management-leadership/revenue-team-onboarding": {
       "path": [
@@ -1369,8 +1369,8 @@
         "revenue-team-onboarding",
         "SKILL.md"
       ],
-      "sha256": "24b156ed772a7019b9cd4e7a7232361f65158340b773f09bf90dc44139135639",
-      "size_bytes": 12001
+      "sha256": "68922e1474d27cb2cf8234c8bf22f2d988619fedbe92d9e8127dc27c95e8029b",
+      "size_bytes": 12019
     },
     "management-leadership/sales-coaching": {
       "path": [

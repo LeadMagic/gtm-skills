@@ -135,7 +135,7 @@ Do not use for buyer-side indecision — load `buyer-indecision` (JOLT).
 6. **Post-crisis** — blameless post-mortem; retention vs 90-day baseline; quarterly tabletop
 
 **Preparedness (before crisis):** `references/crisis-preparedness-checklist.md`  
-**Statement shells:** `references/templates/crisis-holding-statement.md`, `crisis-customer-email.md`, `crisis-internal-memo.md`  
+**Statement shells:** `templates/crisis-holding-statement.md`, `crisis-customer-email.md`, `crisis-internal-memo.md`  
 **PR expert context:** `references/saas-pr-crisis-experts.md`  
 **Breach path:** `references/gtm-data-exchange-playbook.md`, `gtm-security-hygiene-basics.md`
 
@@ -351,7 +351,7 @@ Load `references/cro-enterprise-strategy.md` for full checklists. Summary:
 - `references/crisis-management-playbook.md` — **canonical crisis home** (severity matrix, war room, channels)
 - `references/crisis-preparedness-checklist.md` — contact tree, status page, tabletop cadence
 - `references/saas-pr-crisis-experts.md` — Lemkin, Highwire, Offleash, Ruettimann
-- `references/templates/crisis-holding-statement.md` · `crisis-customer-email.md` · `crisis-internal-memo.md` · `crisis-faq-for-support.md`
+- `templates/crisis-holding-statement.md` · `crisis-customer-email.md` · `crisis-internal-memo.md` · `crisis-faq-for-support.md`
 - `references/cro-enterprise-strategy.md` — **canonical CRO home** (McMahon, Snowflake, Databricks)
 - `references/expert-frameworks.md` — GTM leader experts map
 - `gtm-operations/references/team-design-gtm-projects.md` — DRI, launch pods, project span of control

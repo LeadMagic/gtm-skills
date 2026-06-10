@@ -130,7 +130,7 @@ Load `references/b2b-influencer-measurement.md` for KPI definitions.
 
 ## Cross-Links
 
-- Program brief: `references/templates/b2b-influencer-program-brief.md`
+- Program brief: `templates/b2b-influencer-program-brief.md`
 - UTM limits: `campaign-governance`
 - Dark social: `references/chris-walker-mental-models.md`
 - Employee advocates (different scorecard): `customer-marketing` advocacy ladder

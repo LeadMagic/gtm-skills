@@ -44,7 +44,7 @@
 | Multi-channel reach | 15% | Newsletter subs, podcast downloads |
 | Reliability & brand fit | 10% | Reference checks; prior brand renewals |
 
-Use `references/templates/influencer-partnership-scorecard.md` for evaluations.
+Use `skills/growth/customer-marketing/templates/influencer-partnership-scorecard.md` for evaluations.
 
 ### Red flags
 
@@ -99,7 +99,7 @@ Nurture (engage commenters; CRM match; SDR follow-up)
 
 **Brief must contain:** ICP definition, 3 problem hooks, proof points, landing page URL, UTM convention (`campaign-governance`), forbidden claims, sample posts.
 
-Template → `references/templates/b2b-influencer-program-brief.md`.
+Template → `skills/growth/customer-marketing/templates/b2b-influencer-program-brief.md`.
 
 ---
 

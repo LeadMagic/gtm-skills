@@ -263,7 +263,7 @@ Deliver based on request:
 - `templates/bootstrap-capital-plan.md` — monthly burn, tool cap, hire gates
 - `scripts/check-output.py` — section validator
 
-**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (founder ↔ customer overlay) · `references/activation-playbook.md` · `references/templates/stage-health-scorecard.md` · `references/lifecycle-metrics-by-stage.md`
+**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (founder ↔ customer overlay) · `references/activation-playbook.md` · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md` · `references/lifecycle-metrics-by-stage.md`
 
 **Cross-skill artifacts:** `solo-founder-gtm/references/pmf-signal-checklist.md`, `solo-founder-gtm/references/scale-readiness-gates.md`, `exiting-company/references/buyer-readiness-checklist.md`, `exiting-company/templates/exit-readiness-scorecard.md`, `exiting-company/templates/valuation-sensitivity-table.md`, `financial-modeling/references/unit-economics-exit-bridge.md`, `saas-metrics-calculator/references/metric-definitions-exit-weight.md`, `fundraising-strategy/references/vc-milestone-gates.md`
 

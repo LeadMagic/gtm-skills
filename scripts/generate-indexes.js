@@ -11,7 +11,7 @@ const path = require('node:path');
 const ROOT = path.join(__dirname, '..');
 const SKILLS_DIR = path.join(ROOT, 'skills');
 const PLUGIN_DIR = path.join(ROOT, '.claude-plugin');
-const VERSION = '0.27.1';
+const VERSION = '0.27.2';
 
 // Human-facing category guide for references/skill-index-master.md (generated).
 const CATEGORY_GUIDE = {

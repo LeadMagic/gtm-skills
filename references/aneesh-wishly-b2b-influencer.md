@@ -181,4 +181,4 @@ Full bios → `references/experts.md`.
 - Distinguishing employee advocacy from paid creator partnerships
 - Pairing influencer spend with ABM account lists
 
-**Templates:** `references/templates/b2b-influencer-program-brief.md` · `references/templates/influencer-partnership-scorecard.md`
+**Templates:** `skills/growth/customer-marketing/templates/b2b-influencer-program-brief.md` · `skills/growth/customer-marketing/templates/influencer-partnership-scorecard.md`

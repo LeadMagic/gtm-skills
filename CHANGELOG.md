@@ -2,6 +2,13 @@
 
 All notable changes to GTM Skills are documented here.
 
+## v0.27.2 — Templates Centralized into Skills
+
+- Moved all shared templates out of `references/templates/` into their owning skills: crisis comms shells → `gtm-leadership`, influencer brief/scorecard → `customer-marketing`, lifecycle dashboard + stage scorecard → `gtm-metrics`, MRR bridge → `saas-metrics-calculator`, budget worksheet → `gtm-spend-management`.
+- Moved `references/artifacts/` into skills: GTM metrics scorecard → `gtm-metrics`, ICP tiering cheatsheet → `icp-targeting-tiers` — and wired both into their SKILL.md execution artifacts so the information is discoverable from the skill.
+- Rewrote every cross-reference (38 files) to the new skill paths; `references/` now holds shared source/expert references and cross-skill indexes only.
+- `skills.lock` regenerated for the updated skill folders.
+
 ## v0.27.1 — Quality Bar Docs Cleanup
 
 - Replaced the competitive benchmark notes with neutral quality bar notes: removed the adjacent-repo comparison table and competitive framing from the doc, generators, and generated catalogs.

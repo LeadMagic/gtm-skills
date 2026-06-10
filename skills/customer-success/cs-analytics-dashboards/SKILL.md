@@ -316,7 +316,7 @@ Before delivering, verify:
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
 
-**Canonical lifecycle (repo root):** `references/activation-playbook.md` · `references/lifecycle-metrics-by-stage.md` (Activation, Engagement, Retention) · `references/templates/lifecycle-monitoring-dashboard.md`
+**Canonical lifecycle (repo root):** `references/activation-playbook.md` · `references/lifecycle-metrics-by-stage.md` (Activation, Engagement, Retention) · `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md`
 
 ## Related Skills
 

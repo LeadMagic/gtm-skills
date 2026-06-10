@@ -185,7 +185,7 @@ A strong output from this skill includes:
 - `references/campaign-naming-conventions.md` — Hierarchy + naming pattern
 - `references/utm-governance.md` — UTM dictionary and audit
 - `references/b2b-influencer-measurement.md` — Influencer UTM limits, landing pages, dark social
-- `references/templates/b2b-influencer-program-brief.md` — Per-creator UTM + landing page spec
+- `skills/growth/customer-marketing/templates/b2b-influencer-program-brief.md` — Per-creator UTM + landing page spec
 - `references/framework-notes.md` — SiriusDecisions + ops controls
 - `gtm-operations/templates/raci-matrix-template.md` — Campaign launch RACI (Example 1)
 - `gtm-operations/templates/gtm-project-charter.md` — Launch charter

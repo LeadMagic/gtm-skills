@@ -34,7 +34,7 @@ Copy this template into your spreadsheet. **One tab per scenario** (Downside / B
 | PS revenue (non-ARR) | | | | | | Exclude from SaaS metrics |
 | Recognized revenue (finance) | | | | | | Optional reconcile |
 
-MRR bridge template → `references/templates/mrr-bridge-template.md`.
+MRR bridge template → `skills/founder-led/saas-metrics-calculator/templates/mrr-bridge-template.md`.
 
 ---
 
