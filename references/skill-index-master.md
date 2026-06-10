@@ -245,7 +245,7 @@ RevOps stack, spend, PM/RACI, campaign governance. **Start skill:** `gtm-operati
 
 ### Inbound & PLG-adjacent (`inbound/`) — 7 skills
 
-Content marketing, triage, landing pages, LinkedIn, visitor ID. **Start skill:** `inbound-triage`
+Content marketing, triage, landing pages, LinkedIn algorithm + Live, social selling, visitor ID. **Start skill:** `linkedin-algorithm`
 
 | Skill | One-line |
 |---|---|
