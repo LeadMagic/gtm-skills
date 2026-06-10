@@ -11,8 +11,11 @@ metadata:
   author: LeadMagic
   category: content-seo
   tags: [content-seo, seo, keyword-research, search-optimization, b2b]
+  related_skills: [pillar-pages, pseo-strategy, faq-seo, aeo-strategy, citation-harvesting, content-marketing, content-syndication]
   frameworks:
-    - "Ahrefs SEO Framework"
+    - "Eli Schwartz — Product-Led SEO"
+    - "Rand Fishkin — SparkToro Audience Research"
+    - "Ahrefs / Backlinko — Content Cluster Methodology"
     - "Google E-E-A-T Guidelines"
     - "Google Search Central — SEO Starter Guide"
 ---
@@ -27,11 +30,12 @@ rankings for informational queries. This skill covers the full B2B SEO motion.
 
 ## Frameworks Referenced
 
-This skill is grounded in public frameworks and source material relevant to the task:
+- **Eli Schwartz — Product-Led SEO** ([productledseo.com](https://www.productledseo.com/)). Build content around buyer jobs-to-be-done and product capabilities — not generic category definitions. Free tools on high-intent pages.
+- **Rand Fishkin — SparkToro** ([sparktoro.com](https://sparktoro.com/)). Audience research before keyword volume — where ICP spends time, what language they use, who influences them.
+- **Ahrefs / Backlinko** ([ahrefs.com/blog](https://ahrefs.com/blog/)). Three-tier keyword architecture, pillar-cluster structure, technical audit checklist.
+- **Google E-E-A-T + Search Central** ([developers.google.com/search](https://developers.google.com/search/docs)). Experience signals, schema, indexability.
 
-- **Ahrefs SEO Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Google E-E-A-T Guidelines.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Google Search Central — SEO Starter Guide.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+**Deep playbook:** `references/seo-strategy-playbook.md` (repo root) — technical SEO, content clusters, programmatic SEO, measurement.
 
 ## When to Use
 - "Build our SEO strategy"
@@ -122,6 +126,14 @@ Before delivering, verify:
 1. **Writing for search engines, not humans.** Keyword-stuffed content that reads like a robot wrote it. Fix: write for your ICP first, optimize for search second.
 2. **Publishing and praying.** Creating content without a distribution plan. Fix: every piece gets a 30-day promotion calendar across email, social, and paid.
 3. **Ignoring content freshness.** 2-year-old content with outdated data and examples still ranking. Fix: quarterly content audit — update or retire stale pieces.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Schwartz, Fishkin, Ahrefs keyword tiers and routing
+- `references/seo-strategy-playbook.md` — Repo root: full SEO playbook (Schwartz, Fishkin, Ahrefs)
+- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 1)
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 - aeo-strategy, pseo-strategy, pillar-pages, content-marketing, content-syndication

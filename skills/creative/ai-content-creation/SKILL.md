@@ -345,6 +345,12 @@ Before delivering, verify:
    nonsense. "Data visualization" with made-up numbers. Charts with
    impossible scales. Fix: Review every AI image for accuracy.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - `vibe-marketing` — Full AI marketing stack and workflow

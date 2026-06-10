@@ -10,11 +10,11 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   author: LeadMagic
   category: tools
   tags: [analytics, segment, amplitude, mixpanel, posthog, ga4]
-  related_skills: [tracking-plan, event-analytics, gtm-metrics, campaign-analytics, a-b-testing]
+  related_skills: [tracking-plan, event-analytics, gtm-metrics, campaign-analytics, a-b-testing, gtm-spend-management, gtm-tool-cost-model]
   frameworks:
     - "Segment — CDP with 400+ destinations"
     - "Amplitude — Product analytics, behavioral cohorts, experiment"
@@ -45,6 +45,9 @@ This skill is grounded in public frameworks and source material relevant to the 
 
 Trigger phrases: "analytics setup", "Segment configuration", "Amplitude
 implementation", "PostHog setup", "GA4 for B2B", "analytics stack comparison"
+
+Stage-based recommendations: `references/analytics-stack-by-stage.md`.  
+Spend tracking: `gtm-spend-management` vendor register.
 
 ## Tool Comparison
 
@@ -87,19 +90,13 @@ analytics.track('Feature Used', { feature_name: 'Reports' });
 
 ## Output Format
 
-The agent should produce a structured deliverable:
+The agent delivers an analytics stack configuration plan matched to the user's stage, team, and tool question:
 
-```markdown
-# [Deliverable Title]
-
-## Summary
-[1-2 sentence summary of what was produced]
-
-## Key Outputs
-- [Output item 1]
-- [Output item 2]
-- [Output item 3]
-```
+- **Stack Recommendation:** recommended combination (CDP + product analytics + web analytics) with 1-line rationale per tool choice relative to the user's company size, budget, and use case
+- **Implementation Priority Order:** phased rollout sequence — CDP as single-collection layer first, product analytics second, web analytics third, data warehouse fourth — with reasoning for the ordering
+- **Event Taxonomy Sample:** 5–10 prioritized events with property schema (event name, user ID, account properties, outcome it measures) aligned to the user's funnel
+- **Destination Routing Map:** which events route to which tools (e.g., behavioral events → Amplitude for retention cohorts; conversion events → GA4 for ad attribution; all events → warehouse for BI)
+- **Implementation Checklist:** 6-point verification covering server-side tracking for critical events, custom conversion configuration, single-source-of-truth designation, client-side redundancy, QA event audit, and stakeholder dashboard setup
 
 ## Quality Check
 
@@ -113,6 +110,7 @@ Before delivering, verify:
 
 This skill includes lightweight artifacts the agent can load on demand:
 
+- `references/analytics-stack-by-stage.md` — CDP + product + web by ARR
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections

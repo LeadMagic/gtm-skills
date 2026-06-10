@@ -1,6 +1,8 @@
 # SaaS Metrics Reference
 
-Shared reference for analytics, founder-led, and deal desk skills. Benchmarks sourced from ChartMogul Open Benchmarks, Baremetrics Open Benchmarks, OpenView SaaS Benchmarks 2024, and SaaS Capital's annual survey.
+Shared reference for analytics, founder-led, and deal desk skills. **Formulas are canonical here.** **Benchmark thresholds** when sources conflict → `references/benchmark-reconciliation.md`.
+
+Sources: ChartMogul, Baremetrics, OpenView, SaaS Capital, KeyBanc/Benchmarkit (private), **Meritech Capital** (public) — see `references/meritech-saas-benchmarks.md`.
 
 ## Core Metrics
 
@@ -73,11 +75,13 @@ Series A deal-breaker threshold: 18+ months.
 NRR = (Starting MRR + Expansion − Contraction − Churned MRR) ÷ Starting MRR
 ```
 
-| Stage | Good |
-|---|---|
-| SMB | >100% |
-| Mid-market | >110% |
-| Enterprise | >120% |
+| Stage | Good | Notes |
+|---|---|---|
+| SMB | >100% | Private median ~101% (KeyBanc) — see reconciliation |
+| Mid-market | >110% | Series A gate ≥105% |
+| Enterprise | >120% | Public leaders 120%+; Meritech public median ~108–111% |
+
+Full threshold reconciliation → `references/benchmark-reconciliation.md`
 
 ### Magic Number
 

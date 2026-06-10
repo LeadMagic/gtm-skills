@@ -152,6 +152,12 @@ ROI tracking template.
 5. **Measuring vanity metrics.** "200 attendees" means nothing if zero become
    pipeline. Track conversations → meetings → pipeline → revenue.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - **marketing-strategy**: Event as part of channel mix

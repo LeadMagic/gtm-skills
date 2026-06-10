@@ -20,7 +20,7 @@ metadata:
     - domain-infrastructure
     - sending-platforms
     - cold-email-strategy
-  frameworks: [ColdIQ Multi-Channel Cadence, Eric Nowoslawski Cold Email Infrastructure, Jed Mahrle Practical Prospecting, Google Bulk Sender Guidelines]
+  frameworks: [ColdIQ Multi-Channel Cadence, Eric Nowoslawski Cold Email Infrastructure, Eric Nowoslawski 1:1 Backup Inbox Strategy, Jed Mahrle Practical Prospecting, Google Bulk Sender Guidelines]
 ---
 
 # Email Deliverability
@@ -99,6 +99,18 @@ This skill draws from the following established methodologies:
 - **RFC 7208 (SPF), RFC 6376 (DKIM), RFC 7489 (DMARC)** — The IETF standards
   that define these protocols. This skill describes compliant configurations,
   not every possible variation.
+
+- **Eric Nowoslawski (Growth Engine X)** — Agency-scale deliverability defaults:
+  2 inboxes/domain, 30 sends/inbox/day baseline, 3-week warmup, 50% backup
+  capacity, 1:1 active-to-backup inbox ratio. → `../cold-email-strategy/references/eric-nowoslawski-outbound.md`
+
+- **Eric Nowoslawski — Growth Engine X Cold Email Infrastructure.** Operational
+  defaults for agency-scale outbound: **2 inboxes per domain**, **30 sends/day/inbox**
+  baseline (escalate only on winning campaigns with ~1 positive per 50 sends),
+  **3-week warmup minimum**, **50% spare capacity** always warming, **1:1 backup
+  rule** (backup inboxes = active sending capacity for zero-downtime swap). Burned
+  inboxes are not reliably recyclable — provision fresh capacity. Canonical playbook →
+  `../cold-email-strategy/references/eric-nowoslawski-outbound.md`.
 
 ## Prerequisites
 
@@ -464,6 +476,16 @@ Before delivering, verify:
 ## Sending Limits Reference
 
 Use `references/sending-limits-reference.md` for provider-specific sending limits. Keep the primary output focused on safe ramping, monitoring thresholds, DNS auth, and incident response.
+
+## Execution Artifacts
+
+- `../cold-email-strategy/references/eric-nowoslawski-outbound.md` — Infra at scale, backup inbox strategy, volume escalation rules (Eric Nowoslawski)
+- `references/bounce-complaint-procedures.md` — Bounce and complaint handling SOP
+- `references/deliverability-primer.md` — Deliverability fundamentals
+- `references/output-artifacts.md` — Extended output tables and inventories
+- `references/sending-limits-reference.md` — Provider sending limits reference
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 

@@ -33,6 +33,12 @@ This skill is grounded in public frameworks and source material relevant to the 
 - **HubSpot Lifecycle Stages.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **Reforge — Lifecycle Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
+## Lifecycle Stage
+
+Spans **Activation → Referral** (stages 3–7). Stage map → `references/gtm-lifecycle-stages.md`.  
+Post-activation triggers → `references/activation-playbook.md` (handoff to engagement).  
+Router → `references/lifecycle-skill-index.md`.
+
 ## When to Use
 - "Build lifecycle emails"
 - "Customer drip campaigns"
@@ -119,6 +125,14 @@ Before delivering, verify:
 1. **Skipping research.** Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
 2. **Generic output.** "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
 3. **Missing framework citations.** Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
+**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` · `references/activation-playbook.md` (post-activation triggers) · `references/lifecycle-skill-index.md`
 
 ## Related Skills
 - mql-nurture, onboarding-sequences, re-engagement, churn-prevention, cs-playbooks

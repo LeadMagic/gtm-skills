@@ -2,10 +2,23 @@
 
 All notable changes to GTM Skills are documented here.
 
+## v0.26.0 — Toolkit Flattening, Reference Repair, and Validation/CI Hardening
+
+- **203 skills / 25 categories** — catalog, lockfile, taxonomy, and public metadata synced to disk.
+- Added the `linkedin-algorithm` skill (Richard van der Blom's LinkedIn algorithm research) and an Adam Robinson founder-brand playbook under `founder-led/founder-brand`, with cross-links from social-selling and social-media-strategy.
+- Added Lars Nilsson ABSD, Tito Bohrt SDR science, Leslie Venetz buyer-first outbound, `developer-gtm`, and Plain BYOAI headless-support stack documentation.
+- Flattened the grouped `tools/clay/*` and `tools/crm/*` toolkit skills to the documented `skills/<category>/<skill>/SKILL.md` depth (`clay-toolkit`, `clay-loops-toolkit`, `crm-toolkit`) and rewrote every repo path that referenced the old grouped layout.
+- Repaired broken cross-skill references across SKILL.md and artifact files; extended `audit-references.py` to scan `references/` and `templates/`.
+- Hardened `scripts/validate-skills.js` to enforce flat skill depth, require `name` to equal the directory, and verify resolvable reference targets.
+- Added `scripts/generated-artifacts.txt`, `regenerate.yml` (auto-commit catalogs on `main`), and `npm run verify` as the full quality gate.
+- Auto-generate `references/skill-index-master.md`; fixed Authority Catalog aggregation in `generate-indexes.js`.
+- README public links, agent-skills directory listing table, and GitHub repository metadata updated for discoverability.
+
 ## v0.25.0 — Design Expansion, Source Standards, and Benchmark Hardening
 
 - Added 29 public-safe design skills from the local design stack: typography, color systems, frontend design, shadcn/ui, data visualization, charts, mobile, dashboards, animation, social publishing, diagrams, critique, and reference-design-contract workflows.
-- Expanded the design category to 36 skills and regenerated README, AGENTS, CLAUDE, taxonomy, plugin metadata, and lockfile for 218 marketplace-discoverable skills across 26 categories.
+- Expanded the design category and regenerated README, AGENTS, CLAUDE, taxonomy, plugin metadata, and lockfile for 202 marketplace-discoverable skills across 25 categories.
+- Removed the `ai-agents` category; agent implementation guidance lives under `automation/` and `tools/` skills.
 - Added public source/authority standards and benchmark notes for adjacent GTM/marketing skill repositories.
 - Replaced generic skill descriptions with artifact-specific trigger descriptions across foundation, analytics, founder-led, and prospecting skills.
 - Rebuilt corrupted framework sections so source lists no longer include checklist/output placeholders.

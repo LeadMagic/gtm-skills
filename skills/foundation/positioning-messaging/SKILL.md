@@ -309,6 +309,12 @@ Before delivering, verify:
 
 8. **Messaging that sounds like it was written by a committee.** Strong positioning has a point of view. It deliberately excludes some buyers. It takes a stance. If the messaging tries to appeal to everyone, it appeals to no one. The target customer section should make it clear who this is NOT for.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - **gtm-context**: Run before this skill. Provides ICP definition, competitive landscape, and product overview.

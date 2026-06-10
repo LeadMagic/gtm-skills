@@ -340,6 +340,12 @@ Before delivering, verify:
    is still the bottleneck. Fix: Spend 20% of time creating, 80%
    distributing. AI can help with distribution copy too.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - `vibe-coding` — AI dev tools for building GTM assets

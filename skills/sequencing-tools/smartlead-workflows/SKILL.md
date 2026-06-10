@@ -103,9 +103,15 @@ Before delivering, verify:
 
 This skill includes lightweight artifacts the agent can load on demand:
 
-- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
-- `templates/output-template.md` — copy-paste deliverable structure for the user
-- `scripts/check-output.py` — local checklist validator for required sections
+- `references/framework-notes.md` — Eric Smartlead scale, Pat verify gate, AI categorization
+- `references/clay-enrollment-handoff.md` — Clay/loops → Smartlead push + custom variables
+- `../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md` — Eric Nowoslawski agency infra (canonical Smartlead operator)
+- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify-before-send (Pat Spielmann)
+- `../../tools/clay-loops-toolkit/references/leadmagic-waterfall.md` — loop enrich chain before push
+- `../../leadmagic/leadmagic-cli/references/cli-workflow-patterns.md` — `lm integrations smartlead push`
+- `../../../../references/gtm-experts-outbound-index.md` — expert router
+- `templates/output-template.md` — infrastructure + AI labels + Clay gate deliverable
+- `scripts/check-output.py` — local checklist validator
 
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 

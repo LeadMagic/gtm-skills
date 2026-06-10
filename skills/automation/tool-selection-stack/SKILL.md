@@ -14,7 +14,9 @@ metadata:
   author: LeadMagic
   category: automation
   tags: [tools, stack, comparison, budget, gtm-tech]
+  related_skills: [revops-tech-stack, gtm-tool-cost-model, gtm-spend-management, solo-founder-gtm, clay-automation]
   frameworks:
+    - "Jen Igartua (Go Nimbly) — Must-have basics / performance boosters / delighters stack layering"
     - "Jesse Ouellette Lean Stack"
     - "Eric Nowoslawski Agency Stack"
     - "HubSpot Academy — CRM Automation"
@@ -27,6 +29,10 @@ Choosing GTM tools is the most expensive decision most teams make — not becaus
 tools are expensive, but because the wrong stack wastes months of productivity.
 This skill builds stage-appropriate tool stacks with cost breakdowns and clear
 rationale for every choice.
+
+**Automation strategy:** Load `references/gtm-automation-expert-playbook.md` (Jen Igartua)
+for maturity assessment before adding tools. Clay = enrichment; n8n = orchestration;
+Cargo category = persistent routing at scale — see playbook decision matrix.
 
 ## Frameworks Referenced
 
@@ -99,7 +105,7 @@ you send, regardless of which sequencer you use.
 ## Output Format
 Tool stack recommendation with cost breakdown, architecture diagram,
 implementation sequence (what to set up first), and quarterly audit
-checklist.
+checklist. Operationalize spend → `gtm-spend-management` after stack selection.
 
 
 ## Quality Check
@@ -126,6 +132,7 @@ Before delivering, verify:
 
 This skill includes lightweight artifacts the agent can load on demand:
 
+- `references/gtm-automation-expert-playbook.md` — Jen Igartua stack layering / maturity (repo root; Pattern 30)
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections

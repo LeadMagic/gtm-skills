@@ -12,7 +12,7 @@ metadata:
   author: LeadMagic
   category: leadmagic
   tags: [leadmagic, mcp, agents, tools, enrichment]
-  related_skills: [mcp-setup, agent-tool-calling, agent-guardrails, leadmagic-integrations]
+  related_skills: [mcp-setup, ai-sdr-setup, leadmagic-integrations]
   frameworks: [MCP Protocol Specification, Anthropic Tool Use Patterns, Agent-Enabled GTM]
 ---
 
@@ -126,15 +126,18 @@ Before delivering, verify:
 
 This skill includes lightweight artifacts the agent can load on demand:
 
-- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
-- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `references/framework-notes.md` — MCP tool boundaries, Pat data-before-action, n8n MCP-01 handoff
+- `references/agent-tool-guardrails.md` — confirmation gates, batch discipline, test matrix
+- `../../tools/n8n-toolkit/references/mcp-patterns.md` — approved batch jobs via n8n
+- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify status in agent outputs (Pat Spielmann)
+- `../../../../references/gtm-experts-outbound-index.md` — expert router
+- `templates/output-template.md` — MCP client config + agent rules deliverable
 - `scripts/check-output.py` — local checklist validator for required sections
 
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills
 
-- `mcp-setup` — broader MCP architecture
-- `agent-tool-calling` — tool schema and selection rules
-- `agent-guardrails` — safe agent permissions
+- `mcp-setup` — broader MCP architecture and permission design
+- `ai-sdr-setup` — guardrails, pilot scope, and human handoff for agent workflows
 - `leadmagic-integrations` — non-MCP integration paths

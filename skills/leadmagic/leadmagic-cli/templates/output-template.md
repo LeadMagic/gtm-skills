@@ -1,37 +1,40 @@
-# Leadmagic Cli Deliverable
+# LeadMagic CLI Workflow Deliverable
 
 ## Context
-- Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Input file:
+- Target action: find / validate / push
+- Destination platform:
 
 ## Framework Basis
-- Frameworks used:
-- Why these apply:
+- Pat Spielmann — validate before push
+- CLI pipeline patterns
 
-## Recommendation
-1.
-2.
-3.
+## Selected Pattern
+- [ ] A: CSV scrub (find → validate → filter)
+- [ ] B: Push to sequencer
+- [ ] C: Role-based find
+- [ ] D: Scheduled re-verify
+- [ ] E: Clay export post-process
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+Spec: `references/cli-workflow-patterns.md`
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+## Command Sequence
+```bash
+# Document actual commands
+```
 
-## Risks / Pitfalls
--
+## Output Files
+| Stage | File | Row Count |
+|---|---|---:|
+| Input |  |  |
+| Verified |  |  |
+| Send-ready |  |  |
+
+## Verify Gate
+- [ ] Every send-ready row has verify_status = valid
+- [ ] Invalid rows suppressed
 
 ## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+- [ ] ICP filter before find (large lists)
+- [ ] Sequencer handoff doc cross-referenced
+- [ ] Error handling documented

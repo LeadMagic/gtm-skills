@@ -148,5 +148,14 @@ A strong output from this skill includes:
 - For enterprise: include governance, risk, procurement, stakeholder mapping, and proof requirements.
 
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Walker dark social, SparkToro show selection, repurposing map
+- `references/chris-walker-mental-models.md` — Repo root: demand creation, frequency, influenced pipeline
+- `references/seo-strategy-playbook.md` — Repo root: §6 podcast tour backlinks
+- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 26: Demand Creation (step 4)
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 - founder-brand, content-marketing, social-media-strategy, pitch-deck-builder, cold-email-strategy

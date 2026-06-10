@@ -19,6 +19,8 @@ metadata:
     - "DAMA-DMBOK Data Quality Dimensions"
     - "Ziellab 3-Waterfall Architecture"
     - "LeadMagic Public Documentation — B2B Data Enrichment"
+    - "Pat Spielmann — Cold to Gold (enrichment before copy)"
+    - "Pat Spielmann — Research → Angle → Copy"
 ---
 
 # LeadMagic Waterfall
@@ -39,6 +41,7 @@ This skill is grounded in public frameworks and source material relevant to the 
 - **DAMA-DMBOK Data Quality Dimensions.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **Ziellab 3-Waterfall Architecture.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **LeadMagic Public Documentation — B2B Data Enrichment.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Pat Spielmann — Cold to Gold (LeadMagic GTM).** Verified enrichment is the prerequisite for contextual outbound copy — waterfall → validate → personalization column → sequencer. Canonical operator playbook → `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`.
 
 ## When to Use
 
@@ -147,8 +150,14 @@ conditions, credit budget, and monitoring plan.
 
 This skill includes lightweight artifacts the agent can load on demand:
 
-- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
-- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — enrichment-led outbound stack, Clay waterfall pattern, copy/data gates (Pat Spielmann — LeadMagic internal expert)
+- `references/framework-notes.md` — Pat Cold to Gold, Ziellab waterfall, clay-toolkit boundaries
+- `references/waterfall-column-spec.md` — copy-paste Clay column config (Find → Verify → Enrich)
+- `../../tools/clay-toolkit/SKILL.md` — clay-toolkit table architecture + ICP filter
+- `../../tools/clay-loops-toolkit/references/leadmagic-waterfall.md` — loops variant (signal-triggered)
+- `../../sequencing-tools/smartlead-workflows/references/clay-enrollment-handoff.md` — post-waterfall sequencer handoff
+- `../../../../references/gtm-experts-outbound-index.md` — expert router
+- `templates/output-template.md` — waterfall diagram + credit budget deliverable
 - `scripts/check-output.py` — local checklist validator for required sections
 
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.

@@ -1,13 +1,12 @@
 {
   "name": "gtm-skills",
-  "version": "0.25.0",
-  "description": "189 production go-to-market playbooks for AI agents across 26 categories. Framework-cited GTM skills for Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, and Goose.",
+  "version": "0.26.0",
+  "description": "203 production go-to-market playbooks for AI agents across 25 categories. Framework-cited GTM skills for Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, and Goose.",
   "keywords": [
     "abm",
     "agent-skills",
     "agentic-gtm",
     "agentskills",
-    "ai-agents",
     "ai-sales",
     "b2b-sales",
     "claude-code",
@@ -42,20 +41,24 @@
     "type": "git",
     "url": "https://github.com/LeadMagic/gtm-skills.git"
   },
-  "homepage": "https://leadmagic.io",
+  "homepage": "https://github.com/LeadMagic/gtm-skills",
   "scripts": {
     "validate": "node scripts/validate-skills.js",
     "generate-indexes": "node scripts/generate-indexes.js",
-    "build": "node scripts/generate-indexes.js && python3 scripts/generate-skills-lock.py",
+    "generate-pitfalls": "node scripts/generate-pitfalls-index.js",
+    "build": "bash scripts/regenerate.sh",
+    "regenerate": "bash scripts/regenerate.sh",
     "check:lock": "python3 scripts/generate-skills-lock.py --check",
     "check:install": "python3 scripts/install-tui.py --target cursor --project /tmp/gtm-skills-install-test --dry-run",
     "check:public": "python3 scripts/public-repo-audit.py",
-    "check": "node scripts/validate-skills.js && python3 scripts/generate-skills-lock.py --check && python3 scripts/install-tui.py --target cursor --project /tmp/gtm-skills-install-test --dry-run && python3 scripts/public-repo-audit.py",
+    "check:references": "python3 scripts/audit-references.py",
+    "check:generated": "bash scripts/check-generated.sh",
+    "check": "node scripts/validate-skills.js && python3 scripts/audit-references.py && python3 scripts/generate-skills-lock.py --check && python3 scripts/install-tui.py --target cursor --project /tmp/gtm-skills-install-test --dry-run && python3 scripts/public-repo-audit.py",
     "publish:dry-run": "gh skill publish --dry-run",
     "lint": "node scripts/validate-skills.js && python3 scripts/public-repo-audit.py",
     "install:tui": "python3 scripts/install-tui.py",
     "install:dry-run": "python3 scripts/install-tui.py --target all --dry-run",
-    "verify": "npm run check"
+    "verify": "npm run check && npm run check:generated"
   },
   "engines": {
     "node": ">=24.0.0"

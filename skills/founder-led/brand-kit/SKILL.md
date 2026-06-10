@@ -169,6 +169,12 @@ and tone guidelines with banned words, and asset templates.
 5. **Templates that nobody uses.** If templates require a designer to operate,
    they won't be used. Build templates that a non-designer can fill in.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - **design-system-gtm**: Full design system specification

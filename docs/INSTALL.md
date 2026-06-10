@@ -1,6 +1,6 @@
 # AI System Install Guide
 
-GTM Blueprints follow the [Agent Skills open standard](https://agentskills.io/specification). Every skill is a `SKILL.md` file with YAML frontmatter and Markdown body. Skills work anywhere the standard is supported.
+GTM Skills follows the [Agent Skills open standard](https://agentskills.io/specification). Every skill is a `SKILL.md` file with YAML frontmatter and Markdown body. Skills work anywhere the standard is supported.
 
 ## Supported Systems — 11 Platforms
 
@@ -134,4 +134,4 @@ Run this to regenerate the complete category index from the current repository s
 node scripts/generate-indexes.js
 ```
 
-The generated `AGENTS.md`, `CLAUDE.md`, `taxonomy.csv`, and `skills.lock` are the source of truth for the complete 218-skill catalog.
+The generated `AGENTS.md`, `CLAUDE.md`, `taxonomy.csv`, and `skills.lock` are the source of truth for the complete skill catalog.

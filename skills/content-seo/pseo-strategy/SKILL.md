@@ -152,5 +152,13 @@ A strong output from this skill includes:
 - For enterprise: include governance, risk, procurement, stakeholder mapping, and proof requirements.
 
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Ahrefs pSEO patterns, Schwartz product-led gates, Pattern 25 routing
+- `references/seo-strategy-playbook.md` — Repo root: §5 programmatic SEO and thin-content gates
+- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 3)
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 - seo-strategy, aeo-strategy, content-marketing, list-building, data-enrichment-strategy

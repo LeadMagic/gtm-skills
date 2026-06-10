@@ -33,6 +33,12 @@ This skill is grounded in public frameworks and source material relevant to the 
 - **Marketo Nurture Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **Reforge — Lifecycle Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
+## Lifecycle Stage
+
+**Acquisition** (stage 2). Canonical index → `references/gtm-lifecycle-stages.md`.  
+Metrics → `references/lifecycle-metrics-by-stage.md` (Acquisition).  
+Monitoring → `references/templates/lifecycle-monitoring-dashboard.md`.
+
 ## When to Use
 - "Build an MQL nurture program"
 - "Lead nurture strategy"
@@ -135,6 +141,14 @@ Before delivering, verify:
 1. **Skipping research.** Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
 2. **Generic output.** "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
 3. **Missing framework citations.** Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
+**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Acquisition) · `references/lifecycle-metrics-by-stage.md` · `references/lifecycle-skill-index.md`
 
 ## Related Skills
 - inbound-triage, lifecycle-drips, re-engagement, email-deliverability, campaign-analytics

@@ -1,37 +1,52 @@
-# Leadmagic Waterfall Deliverable
+# LeadMagic Waterfall Deliverable
 
 ## Context
-- Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Clay table purpose:
+- ICP tier:
+- Target coverage %:
+- Sequencer destination:
 
 ## Framework Basis
-- Frameworks used:
-- Why these apply:
+- Pat Spielmann — Cold to Gold (verify before copy/sequencer)
+- Ziellab 3-waterfall architecture
+- clay-toolkit table patterns
 
-## Recommendation
-1.
-2.
-3.
+## Waterfall Diagram
+| Step | Provider | Credits | Run Condition |
+|---:|---|---:|---|
+| 0 | ICP filter | 0 | always |
+| 1 | LM Find | 1 | ICP pass |
+| 2 | Fallback | 1 | previous empty |
+| 5 | LM Verify | 1 | email found |
+| 7 | LM Enrich | 2 | valid |
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+Full spec: `references/waterfall-column-spec.md`
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+## Clay Column Config
+- [ ] COALESCE formula for Best Email
+- [ ] email_valid formula
+- [ ] Catch-all branch defined
+- [ ] Claygent for why_now only (not email find)
 
-## Risks / Pitfalls
--
+## Credit Budget
+| Metric | Value |
+|---|---:|
+| Est. rows/month |  |
+| Credits/row (avg) |  |
+| Monthly total |  |
+| Cap/row | ≤6 |
+
+## Verification Gate
+- [ ] LM Verify on every found email
+- [ ] Valid-only filter before sequencer push
+- [ ] Catch-all routed separately
+
+## Sequencer Handoff
+- Platform:
+- Export fields mapped:
+- Cross-ref: instantly/smartlead/lemlist clay-enrollment-handoff
 
 ## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+- [ ] ICP filter before enrichment
+- [ ] Test batch 50 rows validated
+- [ ] Pat verify-before-send documented

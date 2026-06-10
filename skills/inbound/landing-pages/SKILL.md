@@ -153,6 +153,12 @@ CRO audit report:
 5. **Ignoring mobile.** Over 50% of B2B traffic is mobile. A page that's
    hard to use on mobile loses half its potential conversions.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - **a-b-testing**: Test the changes this skill recommends

@@ -10,7 +10,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.3.0"
   author: LeadMagic
   category: outbound
   tags: [cold-email, sequence-design, cadence, outbound, prospecting]
@@ -20,10 +20,30 @@ metadata:
     - domain-infrastructure
     - sending-platforms
     - multi-channel-outreach
+    - website-visitor-identification
+    - icp-scoring
+    - lead-enrichment
   frameworks:
     - Command of the Message
     - SPICED
     - SPIN
+    - "Lars Nilsson (Cloudera/Snowflake) — Account-Based Sales Development (ABSD)"
+    - Becc Holland — Stellar Cold Email / Diagnostic Selling
+    - "Leslie Venetz — Earn the Right / Profit-Generating Pipeline"
+    - Guillaume Moubeche — lemlist Multichannel Outbound
+    - Jordan Crawford — PQS / PVP / FIND (Cannonball GTM)
+    - Justin Michael — Sales Borg / Tech-Powered Sales
+    - Justin Michael — Technology Quotient (TQ)
+    - Justin Michael — Attributes vs Trigger Events
+    - Henry Schuck (ZoomInfo) — Data-lake outbound SDR motion
+    - Pat Spielmann — Cold to Gold
+    - Pat Spielmann — Full-Circle Multichannel
+    - Pat Spielmann — ACE (Agile Cold Email)
+    - Eric Nowoslawski — Cold Email Infrastructure at Scale
+    - Eric Nowoslawski — Creative Ideas Campaign
+    - Eric Nowoslawski — Crawl Walk Run
+    - Eric Nowoslawski — Outbound Unit Economics Gate
+    - Randy Seidl (Sales Community) — When relationships beat sequences (contrast)
 ---
 
 # Cold Email Strategy
@@ -100,6 +120,89 @@ This skill draws from the following established methodologies:
   know they have a problem." Sequences must open with problem awareness, not
   solution awareness. The first touch should never mention your product — it
   should only surface a problem the prospect may not have articulated yet.
+
+- **Becc Holland — Flip the Script.** Stellar cold email architecture: five
+  delivery questions (get/open/read/relevance/psychology), 7 Pillars / 7 Deadly
+  Sins, lead-weighted KPIs by motion. Diagnostic Selling extends to discovery
+  prep when sequences convert to meetings. Playbook →
+  `references/becc-holland-playbook.md`.
+
+- **Guillaume Moubeche — lemlist / lempire.** Problem-first email structure
+  (Situation/Problem → Value → Proof → **CTC**), 4–9 multichannel touches,
+  trigger→problem mapping, Decision Hill sequencing. Canonical for lemlist
+  execution — see also `lemlist-setup`. Playbook →
+  `references/lemlist-guillaume-outbound.md`.
+
+- **Jordan Crawford — Blueprint GTM / Cannonball.** **PQS** (Pain-Qualified
+  Segments from closed-won analysis) and **PVP** (Permissionless Value
+  Proposition — pay-to-receive message quality). **FIND**: Focus segment →
+  Investigate data → Narrate message → Deploy. Use when reply rates stall despite
+  good infra — fix the atomic message before scaling volume. Playbook →
+  `references/jordan-crawford-blueprint-gtm.md`.
+
+- **Justin Michael — *Tech-Powered Sales* (Sales Borg)** — Part I (*Sales-borg
+  Theory*) and Part II (*Salesborg Action*) define the human+machine outbound
+  operating model: machines handle data volume, signal detection, SEP cadences,
+  and A/B tests; humans handle empathy, storytelling, referrals, and strategic
+  touches. **Attributes** size ICP; **trigger events** supply *why now* (role
+  change, incumbent pain, strategy shift, environment change). One sequencing
+  superuser with high **technology quotient (TQ)** can outproduce a small SDR
+  pod when messaging is proven — but automating broken ICP/messaging only
+  amplifies failure. See `references/justin-michael-sales-borg.md`.
+
+- **Pat Spielmann — Cold to Gold & Full-Circle Multichannel (LeadMagic).** Outbound
+  architecture: higher-intent signals over static lists → enrichment waterfall →
+  contextual copy → consistent volume with ACE-style iteration. **Full-Circle:**
+  email raises hands, LinkedIn builds reputation pre-pitch, phone closes (call
+  within 5 min of positive reply). Data quality gate before copy scale — see
+  `../cold-email-copywriting/references/pat-spielmann-outbound-copy.md`. Pairs with
+  Jordan Crawford (segment research), Guillaume (SEP cadence), Justin Michael (automation).
+
+- **Henry Schuck (ZoomInfo) — Data-lake outbound SDR motion.** At scale,
+  outbound sequences are not list-blasts — a merged data lake (intent, job
+  changes, technographics, product usage) surfaces **who to contact now** and
+  **why now**, with a targeted message per record. Sequence architecture should
+  branch on signal type, not persona alone. See `sales-team-building` →
+  `henry-schuck-sdr-model.md`.
+
+- **Lars Nilsson (Cloudera/Snowflake) — Account-Based Sales Development.** The
+  original account-based sequence design: SDR + AE + vertical SME co-author a
+  **3-email sequence** from a 10–15-use-case-per-vertical library (vertical hook →
+  layered story → Hail Mary), sent to multi-persona chunks of 50–250 contacts at
+  signal-surging accounts. Public first-campaign results: ~70% open / ~30% reply
+  vs 5–8% / 2–3% for nurture blasts — proof that account-targeted beats volume.
+  For enterprise/ABM-tier accounts, design the sequence per account, not per
+  persona. Canonical → `skills/abm/abm-strategy/references/lars-nilsson-absd.md`.
+
+- **Randy Seidl (Sales Community) — When relationships beat sequences.**
+  Outbound sequences create *access* at scale; they do not replace *trust* in
+  enterprise deals. For $100K+ ACV, 6+ month cycles, and multi-stakeholder
+  accounts, route to `social-selling` + `sales-coaching` →
+  `skills/management-leadership/sales-coaching/references/randy-seidl-relationship-selling.md` after the first reply —
+  build relationship maps and Three Plays (self, product, outcome), not more
+  touches. Sequences win for net-new SMB/mid-market; relationship selling wins
+  when the buyer chooses *you*. See `foundation/using-gtm-skills` Pattern 15.
+
+- **Eric Nowoslawski — Growth Engine X.** **Outbound Unit Economics Gate**
+  (TAM >100k, LTV >$10k, CAC:LTV 1:10 ideal) before scaling. **Cold Email
+  Infrastructure at Scale:** 2 inboxes/domain, 30 sends/day/inbox baseline,
+  3-week warmup, **1:1 backup inboxes** = active capacity. **Crawl Walk Run**
+  for Clay rollout — manual examples before AI automation. **Creative Ideas
+  Campaign** — GEX's highest-performing offer format (3 constrained ideas per
+  prospect). Complements Jordan/Becc/Pat/Guillaume on message — Eric owns infra
+  + economics + offer-led scale. Playbook →
+  `references/eric-nowoslawski-outbound.md`.
+
+- **Leslie Venetz — Sales-Led GTM Agency / *Profit-Generating Pipeline*.** The
+  **buyer-first "Earn the Right"** gate: before sending any touch, ask "have I
+  said something relevant/valuable enough to earn this ask?" — if not, audit
+  again before sending. Reject **Legacy Outbound** (spam-the-TAM, entitled,
+  AI-scaled slop) in favor of **deep segmentation + signal stacking** ("only the
+  moose"), a **three-channel minimum** with double-taps, and **trust/buyer-led
+  signals** as the KPI (not just booked meetings). Her 9-step *Profit-Generating
+  Pipeline* and problem-centric copy audit gate relevance before volume — pair
+  with Eric (infra/economics), Pat (copy skeleton + enrichment), Jordan (segment
+  research). Playbook → `references/leslie-venetz-buyer-first-outbound.md`.
 
 ## Prerequisites
 
@@ -331,6 +434,14 @@ touch or even a different full sequence:
 - **Bad review trigger:** Touch 1 opens with "Saw some recent feedback about
   [competitor]'s [specific issue]. Curious if [pain point] is something
   you're actively working to solve."
+- **Website visitor trigger (person ID — guardrailed):** Only when
+  `website-visitor-identification` privacy checklist passes, ICP tier ≤2,
+  confidence tier = High, and email verified via `lead-enrichment`. Touch 1
+  references **relevant business context** (e.g., scaling [function] at
+  [company]) — never "I saw you on our website." Cap at **2 automated touches**
+  on visitor-only signal; human handoff on reply. Copy tone →
+  `cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
+  (signal-anchored, not surveillance). Suppression list required before enroll.
 
 #### Step 5: Set Sending Limits and Mailbox Allocation
 
@@ -458,13 +569,18 @@ Before delivering, verify:
 5. **No trigger branching.** Sending the same Touch 1 to everyone regardless
    of signal produces list-blast results. If you're investing in trigger
    detection, the sequence must reward that investment with signal-specific
-   openings.
-6. **No A/B testing.** Sequences degrade over time as prospects see similar
+   opening lines.
+6. **Customer PII in sequences.** Never paste customer exports, support tickets,
+   or onboarding files into sequencer fields, merge tags, or AI prompt batches.
+   Sequences are for **lawful prospecting data** only — not file exchange.
+   Customer data handling → `references/gtm-data-exchange-playbook.md`.
+   Rep hygiene → `references/gtm-security-hygiene-basics.md`.
+7. **No A/B testing.** Sequences degrade over time as prospects see similar
    messaging from competitors. Without ongoing testing, reply rates trend
    toward zero over 6-12 months.
-7. **No governance rules.** Without clear rules for when to pause or escalate,
+8. **No governance rules.** Without clear rules for when to pause or escalate,
    SDRs default to "keep sending" — which burns domains and annoys prospects.
-8. **Wrong gap timing.** 1-day gaps feel aggressive and trigger spam filters.
+9. **Wrong gap timing.** 1-day gaps feel aggressive and trigger spam filters.
    5+ day gaps lose the prospect's context. 3 days is the research-backed
    sweet spot.
 ## Benchmarks Reference
@@ -484,8 +600,29 @@ Reply rate by persona seniority:
 - IC: 2-5% (budget authority limits reduce response motivation)
 These are benchmarks, not guarantees. Industry, offer strength, and market
 conditions all shift these numbers. Use them as calibration, not prediction.
+## Execution Artifacts
+
+- `../cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — Cold to Gold operating model, Full-Circle multichannel, enrichment-led sequence inputs, message audit checklist (Pat Spielmann)
+- `references/justin-michael-sales-borg.md` — Sales Borg philosophy, human/bot division of labor, TQ stack, triggers, metrics, setup checklist (Justin Michael / *Tech-Powered Sales*)
+- `sales-coaching/references/randy-seidl-relationship-selling.md` — When sequences end and relationship selling begins (contrast)
+- `references/deliverability-primer.md` — Deliverability fundamentals
+- `references/email-frameworks.md` — Cold email copy frameworks and rules
+- `references/becc-holland-playbook.md` — Diagnostic Selling, stellar email, SDR KPIs
+- `references/lemlist-guillaume-outbound.md` — Problem-first structure, CTC, multichannel
+- `references/jordan-crawford-blueprint-gtm.md` — PQS, PVP, FIND, Cannonball GTM
+- `references/justin-michael-sales-borg.md` — Sales Borg, TQ, trigger events
+- `references/eric-nowoslawski-outbound.md` — Infra at scale, Creative Ideas, Crawl Walk Run, unit economics (Eric Nowoslawski)
+- `references/leslie-venetz-buyer-first-outbound.md` — Earn-the-Right gate, problem-centric audit, segmentation, three-channel-minimum, Profit-Generating Pipeline (Leslie Venetz)
+- `references/expert-frameworks.md` — Outbound expert subsidiary map
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
-- `cold-email-copywriting` — adjacent workflow to use before or after this skill
-- `email-deliverability` — adjacent workflow to use before or after this skill
-- `personalization-at-scale` — adjacent workflow to use before or after this skill
-- `sending-platforms` — adjacent workflow to use before or after this skill
+- `website-visitor-identification` — person ID → trigger branch with privacy guardrails
+- `cold-email-copywriting` — REPLY messaging and brevity rules from Sales Borg Action
+- `deal-desk`, `revenue-team-onboarding` — customer data exchange and rep security hygiene
+- `ai-sdr-setup` — Human-in-loop automation guardrails for Borg-style outbound
+- `email-deliverability` — Sending caps before scaling SEP cadences
+- `sending-platforms` — SEP selection and orchestration (Outreach, SalesLoft, etc.)
+- `multi-channel-outreach` — Channel-native touches; avoid copy-paste automation
+- `clay-automation` — Enrichment + trigger feeds into SEP enrollment

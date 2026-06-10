@@ -10,11 +10,11 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   author: LeadMagic
   category: product-led-growth
   tags: [plg, freemium, self-serve, growth, product]
-  frameworks: [OpenView PLG Framework, Wes Bush Product-Led Growth, Kyle Poyar Growth Unhinged, Blake Bartlett PLG Traits]
+  frameworks: [OpenView PLG Framework, Wes Bush Product-Led Growth, Kyle Poyar Growth Unhinged, Elena Verna PLG Growth Loops, Blake Bartlett PLG Traits, Guillermo Rauch Vercel Developer GTM]
 ---
 
 # Product-Led Growth Strategy
@@ -40,6 +40,14 @@ PLG is no longer a competitive advantage — it's table stakes.
   self-serve revenue. Freemium conversion: 5%. Free trial conversion: 17%.
 - **Kyle Poyar (Growth Unhinged)** — PLG benchmarks, pricing, product-led
   marketing. Activation rate benchmarks: 20-40% normal.
+  → `references/kyle-poyar-growth-unhinged.md`
+- **Elena Verna (Reforge / Amplitude advisor)** — Growth **loops** over funnels;
+  PQL routing; product-led + sales-assist hybrid. Pair Wes Bush onboarding
+  with Verna loop design. → `references/elena-verna-plg-growth.md`
+- **Guillermo Rauch (Vercel)** — when the buyer is a developer, PLG runs through
+  developer experience: open-source/framework flywheel, ungated docs, and
+  self-serve that pulls enterprise sales. For the developer-specific motion, use
+  `developer-gtm`.
 
 ## Step-by-Step Process
 ### Phase 1: Model Selection
@@ -96,6 +104,8 @@ Before delivering, verify:
 This skill includes lightweight artifacts the agent can load on demand:
 
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `references/elena-verna-plg-growth.md` — growth loops, PQL routing (repo root)
+- `references/kyle-poyar-growth-unhinged.md` — PLG benchmarks (repo root)
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
 
@@ -120,6 +130,7 @@ Map the recommendation explicitly to the named frameworks in this skill:
 - OpenView PLG Framework: apply only the part that directly improves the requested deliverable.
 - Wes Bush Product-Led Growth: apply only the part that directly improves the requested deliverable.
 - Kyle Poyar Growth Unhinged: apply only the part that directly improves the requested deliverable.
+- Elena Verna PLG Growth Loops: apply only the part that directly improves the requested deliverable.
 - Blake Bartlett PLG Traits: apply only the part that directly improves the requested deliverable.
 
 ### Deliverable Standard
@@ -140,6 +151,7 @@ A strong output from this skill includes:
 
 
 ## Related Skills
+- **developer-gtm**: PLG when the buyer is a developer (Vercel/Stripe motion)
 - **freemium-optimization**: Deep dive on freemium conversion
 - **pricing-strategy**: PLG-specific pricing and packaging
 - **saas-metrics-calculator**: PLG-specific metric calculations

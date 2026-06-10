@@ -40,17 +40,23 @@ See `docs/SKILL_AUTHORING.md` for the full standard.
 Run all checks before opening a PR:
 
 ```bash
-npm run build
-npm run check
+npm run regenerate   # or: npm run build
+npm run verify       # check + generated drift gate
 gh skill publish --dry-run
 ```
 
-Expected result:
+`npm run check` runs the skill validator, the reference audit (`scripts/audit-references.py`, which confirms every reference target resolves, skill paths are flat, and frontmatter `name` matches the directory), the lock check, the installer dry-run, and the public-repo hygiene audit.
+
+Expected result (count matches the current catalog):
 
 ```text
-189 skills checked. 0 errors, 0 warnings.
-skills.lock verified: 189 skills
+203 skills checked. 0 errors, 0 warnings.
+Reference audit passed: 203 skills, all reference targets resolve, layout and frontmatter names clean.
+skills.lock verified: 203 skills
+npm run check:generated — no drift in files listed in scripts/generated-artifacts.txt
 ```
+
+After merge to `main`, `.github/workflows/regenerate.yml` auto-commits catalog updates if anything drifted. On PRs, drift fails CI — run `npm run regenerate` locally first.
 
 ## Adding a Skill
 

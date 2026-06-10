@@ -317,6 +317,12 @@ Before delivering, verify:
 
 8. **Job board scraping that produces stale data.** Job postings expire. Conference lists age out. Source data has a half-life. Track the date of data collection per source and flag leads from sources where the data is more than 90 days old for re-verification.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - **gtm-context**: Run before this skill. Provides the ICP definition that drives search criteria.

@@ -1,37 +1,37 @@
-# Leadmagic Mcp Deliverable
+# LeadMagic MCP Setup Deliverable
 
 ## Context
-- Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- MCP client (Claude/Cursor/other):
+- Agent jobs:
+- Batch size expected:
 
 ## Framework Basis
-- Frameworks used:
-- Why these apply:
+- MCP Protocol + Anthropic tool use
+- Pat Spielmann — cite verify status in agent outputs
 
-## Recommendation
-1.
-2.
-3.
+## Enabled Tool Categories
+| Category | Use Case | Confirmation Required |
+|---|---|---|
+| Email find |  | No |
+| Email validate |  | No |
+| CRM write |  | Yes |
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+Guardrails: `references/agent-tool-guardrails.md`
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+## Agent Rules
+- Lookup rules:
+- Verification rules:
+- Confirmation gates:
+- Batch redirect (>100 rows → n8n MCP-01):
 
-## Risks / Pitfalls
--
+## Test Workflows
+| Workflow | Expected Tool | Pass? |
+|---|---|---|
+| Single account brief |  |  |
+| Email validate |  |  |
+| CRM push request | asks confirm |  |
 
 ## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+- [ ] No API key in config files
+- [ ] Side-effect tools gated
+- [ ] n8n handoff documented for batch

@@ -20,7 +20,7 @@ metadata:
     - email-deliverability
     - sending-platforms
     - cold-email-strategy
-  frameworks: [ColdIQ Multi-Channel Cadence, Eric Nowoslawski Cold Email Infrastructure, Jed Mahrle Practical Prospecting, Google Bulk Sender Guidelines]
+  frameworks: [ColdIQ Multi-Channel Cadence, Eric Nowoslawski Cold Email Infrastructure, Eric Nowoslawski 1:1 Backup Inbox Strategy, Jed Mahrle Practical Prospecting, Google Bulk Sender Guidelines]
 ---
 
 # Domain Infrastructure
@@ -95,6 +95,13 @@ This skill draws from the following established methodologies:
 - **Validity / Return Path — Sender Score** — Domain-level reputation scoring
   that informs domain rotation decisions. A domain with a Sender Score below
   70 should be rotated out of active sending.
+
+- **Eric Nowoslawski — Growth Engine X.** Capacity planning for scale: **2
+  inboxes per domain** (contain blast radius), **1:1 backup inboxes** matching
+  active send capacity, **50% spare warming** at all times. Scale math: target
+  daily volume ÷ 30 sends/inbox ÷ 2 inboxes/domain = domains needed. Pair with
+  `email-deliverability` for warmup and monitoring. Playbook →
+  `../cold-email-strategy/references/eric-nowoslawski-outbound.md`.
 
 ## Prerequisites
 
@@ -469,6 +476,15 @@ Before delivering, verify:
 ## Provider Decision Matrix
 
 Use `references/provider-decision-matrix.md` when the task requires provider comparison. Keep the primary output focused on the chosen provider, DNS records, inbox allocation, and monitoring plan.
+
+## Execution Artifacts
+
+- `../cold-email-strategy/references/eric-nowoslawski-outbound.md` — Inbox/domain ratio, backup capacity, scale math (Eric Nowoslawski)
+- `references/deliverability-primer.md` — Deliverability fundamentals
+- `references/output-artifacts.md` — Extended output tables and inventories
+- `references/provider-decision-matrix.md` — Mailbox provider comparison
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 

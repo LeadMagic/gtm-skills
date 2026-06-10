@@ -15,7 +15,7 @@ metadata:
   author: LeadMagic
   category: customer-success
   tags: [onboarding, time-to-value, activation, customer-success, kickoff, handoff, ttv]
-  related_skills: [cs-playbooks, sla-management, cs-analytics-dashboards, support-tool-stack, churn-prevention]
+  related_skills: [cs-playbooks, sla-management, cs-analytics-dashboards, support-tool-stack, churn-prevention, deal-desk, revops-tech-stack, revenue-team-onboarding, data-privacy-compliance]
   frameworks:
     - "Gainsight — Time-to-Value (TTV) Framework"
     - "ChurnZero — Customer Onboarding Maturity Model"
@@ -34,6 +34,9 @@ that delivers measurable value in week 1. Customers who achieve their "first
 value moment" within 7 days retain at 3x the rate of those who take 30+ days.
 This skill covers onboarding architecture by segment, sales-to-CS handoff,
 kickoff calls, activation milestones, and the metrics to prove it works.
+
+**Lifecycle stage:** Activation (stage 3). Canonical index → `references/gtm-lifecycle-stages.md`.  
+Activation deep-dive (TTA benchmarks, experiments, audit) → `references/activation-playbook.md`.
 
 ## When to Use
 
@@ -122,7 +125,18 @@ Technical Setup Needed:
 - [Integrations to configure]
 - [Data to import]
 - [SSO/custom domain/etc.]
+
+Data Exchange Handoff (required for any customer data):
+- Data already received in sales/POC: [yes/no — what, via which channel]
+- Retention / deletion date from POC: [date]
+- DPA / security review status: [complete / N/A]
+- Approved import method for go-live: [in-app / customer SFTP / secure share]
+- Fields approved for import (not "full dump"): [list]
 ```
+
+Load `references/gtm-data-exchange-playbook.md` before requesting imports.
+Checklist → `deal-desk` → `skills/sales-revops/deal-desk/templates/customer-data-exchange-checklist.md`.
+CS must **not** re-request data sales already collected via email.
 
 **Handoff meeting (30 min, Sales + CSM + AE):**
 1. Sales presents the account (10 min — from handoff doc)
@@ -361,11 +375,46 @@ Before delivering, verify:
    silence. Customer wonders if you still exist. Fix: Structured cadence.
    Weekly calls for month 1, biweekly for month 2, monthly thereafter.
 
+## Customer Data Exchange (GTM)
+
+Onboarding is when CS most often requests customer exports, credentials, and
+integration access. Same rules as sales — minimum data, approved channels,
+documented retention.
+
+| Do | Don't |
+|---|---|
+| Re-use sales-approved channel and scope | Re-request same export via email attachment |
+| Confirm DPA before ongoing PII processing | Ask for production passwords to "speed setup" |
+| Log import fields in kickoff doc | Slack-file customer CSVs to implementation |
+
+Canonical playbook → `references/gtm-data-exchange-playbook.md`. Enterprise
+security timing (if review still open) → `references/security-questionnaire-deal-guide.md`.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
+**Canonical lifecycle (repo root):**
+- `references/activation-playbook.md` — First value event, handoff, audit checklist
+- `references/gtm-lifecycle-stages.md` — Activation row + Bowtie neck
+- `references/lifecycle-metrics-by-stage.md` — TTA, activation rate thresholds
+- `references/templates/lifecycle-monitoring-dashboard.md` — Weekly activation panel
+- `references/templates/stage-health-scorecard.md` — Activation R/Y/G
+- `references/gtm-data-exchange-playbook.md` — Customer data exchange SOP (repo root)
+- `references/crisis-management-playbook.md` — Post-incident trust rebuild; activation recovery (Pattern 33)
+- `deal-desk/templates/customer-data-exchange-checklist.md` — Pre/on/post-sale checklist
+
 ## Related Skills
 
+- `deal-desk` — Enterprise security review + pre-sale data boundaries
+- `revops-tech-stack` — Where customer data lives in the GTM stack
+- `revenue-team-onboarding` — CSM security hygiene basics
 - `cs-playbooks` — Playbooks for health scoring, CSQLs, churn intervention
 - `sla-management` — Onboarding support SLAs, escalation
 - `cs-analytics-dashboards` — TTFV metrics, onboarding funnel, health scores
 - `support-tool-stack` — Platform for onboarding comms and tracking
 - `churn-prevention` — 90-day churn is an onboarding metric
+- `gtm-leadership` — Crisis comms; re-onboarding at-risk accounts after incidents
 - `expansion-selling` — Onboarding → expansion handoff

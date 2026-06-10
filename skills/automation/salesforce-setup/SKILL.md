@@ -9,12 +9,15 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.2.0"
   author: LeadMagic
   category: automation
-  tags: [salesforce, crm, setup, enterprise, sales]
-  frameworks: [Salesforce Architecture, Opportunity Pipeline Model, Force.com Platform]
-  related_skills: [crm-integration, pipeline-management, hubspot-setup, attio-setup]
+  tags: [salesforce, crm, setup, enterprise, sales, leads, contacts]
+  frameworks:
+    - "Salesforce Architecture — Lead/Account/Contact/Opportunity"
+    - "Marc Benioff — Trust selling, land-and-expand, customer success in CRM"
+    - "Force.com Platform — Flows, validation, reporting"
+  related_skills: [crm-toolkit, crm-integration, pipeline-management, hubspot-setup, attio-setup, hiring-agencies]
 ---
 
 # Salesforce Setup
@@ -45,9 +48,21 @@ This skill is grounded in public frameworks and source material relevant to the 
 
 ## Step-by-Step Process
 
+Load **crm-toolkit** first — crm-selection, contacts-vs-leads (**Lead vs Contact**
+decision), salesforce-blueprint, and implementation-partners (Salesforce almost always needs SI help).
+
 ### Phase 1: Object Model
 
 Standard B2B SaaS object hierarchy: Lead → Account → Contact → Opportunity.
+
+**Contacts vs leads:** Use the **Lead** object when SDRs qualify inbound before
+opportunities exist. Convert Lead → Account + Contact + (optional) Opportunity.
+Skip Leads only for low-volume founder-led motions — see **crm-toolkit**
+contacts-vs-leads reference. Do not mirror HubSpot lifecycle as custom Lead fields
+without a conversion path.
+
+**Enterprise motion:** Load **crm-toolkit** → benioff-enterprise-playbook — land-and-expand
+opp structure, CS fields, trust/commitment logging on Opportunity.
 
 Custom objects for SaaS-specific needs: Subscription (track recurring revenue),
 Customer Success Plan (health score, QBRs), Integration (partner tracking).
@@ -153,7 +168,9 @@ Use the artifacts when the user asks for an implementation-ready deliverable, a 
 
 ## Related Skills
 
+- **crm-toolkit**: Selection, contacts-vs-leads, salesforce-blueprint, benioff-enterprise-playbook, partners
 - **crm-integration**: CRM configuration principles
 - **pipeline-management**: Deal stage design
-- **hubspot-setup**: HubSpot alternative
-- **attio-setup**: Attio alternative
+- **hubspot-setup**: HubSpot alternative (no Lead object)
+- **attio-setup**: Attio alternative (status + lists)
+- **hiring-agencies**: SI / RevOps agency pilot

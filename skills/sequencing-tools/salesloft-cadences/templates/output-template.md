@@ -2,36 +2,41 @@
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- ICP tier: enterprise
+- CRM: Salesforce / HubSpot / other
+- Signal loops? Y/N
 
 ## Framework Basis
-- Frameworks used:
-- Why these apply:
+- Salesloft Rhythm — email + call + LinkedIn
+- Pat Spielmann — verify-before-enroll via CRM fields
 
-## Recommendation
-1.
-2.
-3.
+## CRM Custom Fields
+| Field | Populated By | Used In |
+|---|---|---|
+| lm_email_status | LeadMagic verify | Enrollment rule |
+| last_verified | Timestamp | Stale re-verify |
+| personalization_snippet | Clay | Cadence merge |
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+## Enrollment Gate
+- [ ] Workflow: verify before cadence enroll
+- [ ] Invalid email → SDR task (not auto-enroll)
+- Spec: `references/enrichment-enrollment-gate.md`
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+## Cadence Design
+| Step | Type | Day | Task Required? |
+|---:|---|---:|---|
+| 1 | Email | 0 |  |
+| 2 | Call | 2 | Y |
 
-## Risks / Pitfalls
--
+## Signal Loop Integration (if applicable)
+- clay-loops-toolkit → CRM → cadence trigger
+- One signal → one cadence
+
+## Governance
+- [ ] Admin approval if >500 contacts
+- [ ] Conversation intelligence for coaching only
 
 ## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+- [ ] CRM fields exist before cadence build
+- [ ] Pat verify gate in enrollment rules
+- [ ] clay-toolkit / leadmagic-waterfall cross-ref if enrichment upstream

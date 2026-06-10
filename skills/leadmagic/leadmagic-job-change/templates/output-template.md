@@ -1,37 +1,43 @@
-# Leadmagic Job Change Deliverable
+# LeadMagic Job Change Deliverable
 
 ## Context
-- Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Contact source (CRM/list):
+- Primary scenario: champion / risk / net-new / former user
+- Clay loop? Y/N
 
 ## Framework Basis
-- Frameworks used:
-- Why these apply:
+- Signal-based selling + champion tracking
+- ColdIQ one signal → one play
+- Pat Spielmann — verify at new email
 
-## Recommendation
-1.
-2.
-3.
-
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
+## Route Matrix
+| Scenario | Detected By | Route | Owner |
+|---|---|---|---|
 |  |  |  |  |
 
-## Risks / Pitfalls
--
+Spec: `references/champion-loop-pattern.md`
+
+## Clay Loop (if applicable)
+| Table | Purpose |
+|---|---|
+| SOURCE |  |
+| MONITOR | Job Change column |
+| ENRICH | Find → Verify → Enrich |
+| ACTION | Route matrix |
+
+Cross-ref: `../../../tools/clay-loops-toolkit/references/loop-catalog.md` L03
+
+## CRM Rules
+- Champion left open opp → risk alert within 24h
+- Valid email required before sequence enroll
+
+## Metrics
+| Metric | Target |
+|---|---:|
+| Signal-to-meeting (champion) | >15% |
+| False positive rate | <5% |
 
 ## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+- [ ] No generic congrats-only messaging
+- [ ] Verify gate on new company email
+- [ ] job-change-play linked for copy if sequencer route

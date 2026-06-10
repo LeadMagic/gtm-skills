@@ -179,7 +179,8 @@ delay is a week your revenue isn't starting.
 2. Security review: DPA + SOC2 + sub-processors
 3. Commercial review: pricing, terms, auto-renewal
 4. Legal review: MSA, DPA, any red flags
-5. Approval: based on spend threshold ($1K: manager. $10K: VP. $50K: CEO)
+5. Approval: based on spend threshold — see `gtm-spend-management` → spend-approval-matrix ($2K / $10K / $50K tiers)
+6. Payment: Ramp bill pay or virtual card per vendor roster
 
 ### Phase 4: Contract Management
 
@@ -273,6 +274,12 @@ Before delivering, verify:
 This skill provides general informational guidance based on publicly available frameworks and operator experience. It is NOT legal advice, accounting advice, tax advice, financial advice, insurance advice, or professional services advice.
 
 Consult qualified professionals for your specific situation — attorneys for legal/equity matters, CPAs for tax and accounting, licensed brokers for insurance, and certified security assessors for compliance. This skill does not create a professional-client relationship. Use it as a starting point for research and preparation.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 

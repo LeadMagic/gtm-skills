@@ -304,6 +304,12 @@ Before delivering, verify:
    result. 3 months of momentum lost. Fix: Kill threshold: if confidence
    interval suggests it won't hit target, kill immediately. Move on.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - `growth-experimentation` — ICE scoring, growth sprints, experiment design

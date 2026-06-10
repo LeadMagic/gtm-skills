@@ -1,51 +1,66 @@
 ---
 name: hiring-agencies
 description: >-
-  Evaluate, hire, and manage agencies for SaaS GTM — outbound agencies, dev
-  shops, marketing agencies, and design studios. When to use an agency vs hiring
-  in-house, how to structure engagements, and how to measure ROI. Triggers on:
-  "hire agency", "outbound agency", "dev shop", "marketing agency", "agency vs
-  in-house", "outsource GTM", or any agency hiring request.
+  Evaluate, hire, and manage GTM agencies — outbound, RevOps/Clay, demand gen,
+  design, and dev shops. Agency vs in-house decision framework, pilot structure,
+  scorecards, kill switches, and handoff to internal teams. Use when outsourcing
+  GTM execution, evaluating an outbound agency, or deciding agency vs first hire.
+  Triggers on: "hire agency", "outbound agency", "GTM agency", "Clay agency",
+  "RevOps agency", "agency vs in-house", "outsource GTM", "marketing agency",
+  "dev shop", "manage agency".
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   author: LeadMagic
   category: founder-led
-  tags: [agencies, outsourcing, gtm, marketing, development]
+  tags: [agencies, outsourcing, gtm, revops, outbound, contractors]
   frameworks:
-    - "Agency Selection Framework"
-    - "SaaStr Agency Hiring Guide"
+    - "Winning by Design — GTM Index (Operating Model score)"
+    - "Jason Lemkin — SaaStr Agency vs Hire Guidance"
     - "Paul Graham — Do Things That Do Not Scale"
-  related_skills: [hiring-contractors, sales-team-building, tool-selection-stack]
+  related_skills: [hiring-contractors, sales-team-building, pipeline-management, cold-email-strategy, clay-automation, tool-selection-stack]
 ---
 
 # Hiring Agencies
 
 ## Overview
 
-Agencies give you a team without building one. The right agency accelerates
-GTM faster than hiring. The wrong agency burns cash for months before you
-realize it's not working. This skill covers agency selection, engagement
-structure, and the metrics that separate productive partnerships from
-expensive mistakes.
+Agencies buy speed, not strategy. The right agency proves a channel or builds
+a workflow faster than hiring. The wrong agency burns 90 days and your domain
+reputation with nothing to show for it.
 
-## Frameworks Referenced
-
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Agency Selection Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **SaaStr Agency Hiring Guide.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Paul Graham — Do Things That Do Not Scale.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+You cannot outsource your ICP, positioning, or sales process — those are yours.
+Agencies execute within a process you define (`pipeline-management`,
+`gtm-context`). This skill covers agency vs in-house decisions, GTM agency
+types, evaluation, pilot structure, weekly management, and when to bring
+the function in-house (`sales-team-building`).
 
 ## When to Use
 
 - "Should I hire an outbound agency?"
-- "Find a dev shop for our SaaS"
 - "Agency vs building an in-house team"
-- "Evaluate a marketing agency"
-- "How much should an agency cost?"
-- "Structure an agency engagement"
+- "Find a Clay / RevOps agency"
+- "Evaluate a marketing or demand gen agency"
+- "How to manage an agency engagement"
+- "Structure an agency pilot"
+- "When to fire an agency"
+
+Do not use for individual freelancers — use `hiring-contractors`. Do not use
+for partner/reseller programs — use `partner-programs`.
+
+## Authoritative Foundations
+
+- **Winning by Design — GTM Index (Operating Model).** Score your Operating
+  Model 1–10 before outsourcing. Below 6: you lack the process for an agency to
+  execute against. Fix `pipeline-management` first — agencies amplify process,
+  they do not create it.
+- **Jason Lemkin (SaaStr).** Agencies work for channel testing and specialized
+  execution. Core sales motion and customer relationships stay in-house. Never
+  outsource strategy; outsource labor on a defined playbook.
+- **Paul Graham — Do Things That Do Not Scale.** Founders must do unscalable
+  work first (sell, define ICP, write messaging). Agencies scale what you've
+  already proven — not discovery of what works.
 
 ## Step-by-Step Process
 
@@ -53,101 +68,146 @@ This skill is grounded in public frameworks and source material relevant to the 
 
 | Factor | Agency | In-House |
 |---|---|---|
-| Time to start | 1-4 weeks | 3-6 months to hire + ramp |
-| Monthly cost | $3-15K (outbound), $10-50K (dev) | $8-15K/employee fully loaded |
-| Commitment | Month-to-month or quarterly | Long-term employment |
-| Domain knowledge | Broad (multiple clients) | Deep (your business only) |
-| Control | Lower (they own the process) | Higher (you own the process) |
-| Best for | Testing a channel, scaling fast, specialized work | Core functions, ongoing work |
+| Time to start | 1–4 weeks | 3–6 months hire + ramp |
+| Monthly cost | $3–15K (GTM ops), $5–20K (outbound) | $8–15K/employee fully loaded |
+| Commitment | Month-to-month or 90-day pilot | Employment |
+| Process control | You define playbook; they execute | You own process end-to-end |
+| Best for | Channel test, overflow, specialized tooling | Core revenue function |
 
-**Agency makes sense when:** Testing a new channel, need to move faster than
-hiring allows, specialized work your team can't do, variable capacity needs.
+**Choose agency when:** Operating Model ≥6, playbook documented, you need
+capacity or a channel test, specialized skill (Clay, paid media) you won't
+hire for yet.
 
-**In-house makes sense when:** Core business function, ongoing work, deep
-domain knowledge required, competitive differentiation depends on it.
+**Choose in-house when:** Core sales motion, ongoing customer relationships,
+competitive differentiation, or agency pilot proved the channel and ROI justifies
+a hire (`sales-team-building`).
 
-### Phase 2: Agency Types and Costs
+### Phase 2: GTM Agency Types
 
-| Agency Type | What They Do | Monthly Cost | Expected ROI Timeline |
+| Agency Type | What They Do | Monthly Cost | Prove By Day 90 |
 |---|---|---|---|
-| Outbound / Lead Gen | Cold email, LinkedIn, cold calling, pipeline generation | $3-15K/mo + tool costs | 3-6 months to prove |
-| Dev Shop | Build product, features, integrations | $10-50K/mo | Depends on scope |
-| Marketing / Growth | Content, SEO, paid ads, CRO | $5-20K/mo | 3-12 months |
-| Design Studio | Brand, UI/UX, web design | $5-15K/project or $3-10K/mo retainer | Project-dependent |
-| RevOps / GTM Ops | Clay workflows, CRM, automation | $3-8K/mo | 1-3 months |
+| **Outbound / SDR** | Cold email, LinkedIn, calling, meeting booking | $3–15K + tools | Qualified meetings at target CPA |
+| **RevOps / Clay** | Enrichment workflows, CRM hygiene, automation | $3–8K | Pipeline data quality, workflow uptime |
+| **Demand gen / Growth** | Content, SEO, paid ads, CRO | $5–20K | MQL→SQL conversion, CAC by channel |
+| **Sales consulting** | Playbook design, process audit, training | Project: $10–30K | Documented process + rep certification |
+| **Design studio** | Brand, UI/UX, web | $5–15K/project | On-brand assets, conversion lift |
+| **Dev shop** | Product features, integrations | $10–50K | Shipped, reviewed, owned code |
 
-### Phase 3: Evaluation Framework
+Match agency type to gap. Do not hire an outbound agency to fix a broken ICP.
 
-Score agencies on 5 dimensions:
+### Phase 3: Evaluation Scorecard
 
-1. **Relevant case studies** — Have they produced results in YOUR industry,
-   with YOUR deal size, for YOUR ICP? Generic case studies are noise.
+Score each candidate 1–5 on six dimensions:
 
-2. **Process transparency** — Can they explain exactly what they'll do, when,
-   and how they'll measure success? "We have a proven process" without
-   specifics is a red flag.
+| Dimension | What to Verify | Red Flag |
+|---|---|---|
+| **Relevant case studies** | Your industry, ACV, ICP — not generic logos | "We've worked with 200 SaaS companies" |
+| **Process transparency** | Weekly deliverables, tools, data sources named | "Proprietary process" |
+| **Reference calls** | 2–3 clients: actual results, what failed | No references or only cherry-picked |
+| **Contract flexibility** | 90-day pilot, 30-day out | 12-month lock-in |
+| **Data hygiene** | Verified contacts, suppression lists, opt-out | Purchased/scraped lists |
+| **Your playbook fit** | Will execute YOUR stages and messaging | Insists on their own messaging |
 
-3. **Reference calls** — Talk to 2-3 current or former clients. Ask: What
-   results did you actually get? What went wrong? Would you hire them again?
+### Phase 4: Pilot Structure (30–90 Days)
 
-4. **Contract flexibility** — Month-to-month or 90-day out. Never sign
-   12-month contracts with untested agencies. If they're confident in their
-   results, they'll agree to a trial period.
+**Scope (specific, measurable):**
+- Bad: "Generate pipeline"
+- Good: "Book 8 qualified meetings/month with VP+ at Series B fintech, $20K+ ACV"
 
-5. **Cultural fit** — Do they communicate the way you do? Do they push back
-   on bad ideas or just say yes? The best agencies act as partners, not
-   order-takers.
+**Your inputs (non-negotiable):**
+- ICP definition and exclusion list
+- Approved messaging and `pipeline-management` stage definitions
+- CRM access (they log activity in YOUR system)
+- Suppression list (customers, competitors, opted-out)
+- Weekly reporting template
 
-### Phase 4: Engagement Structure
+**Weekly agency scorecard:**
 
-**The Pilot (first 30-90 days):**
-- Specific, measurable goals. "Book 10 qualified meetings" not "generate pipeline."
-- Weekly reporting: activities completed, results, what they're learning.
-- Monthly review: is this working? Should we continue, adjust, or stop?
-- Kill switch: if results aren't there by day 90, end the engagement. No hard
-  feelings — it's a test, not a marriage.
+| Metric | Target | Actual | Notes |
+|---|---:|---:|---|
+| Activities completed |  |  |  |
+| Qualified meetings booked |  |  |  |
+| Cost per qualified meeting |  |  |  |
+| Data quality (% verified) |  |  |  |
+| CRM hygiene (% logged) |  |  |  |
 
-**Scaling (after pilot succeeds):**
-- Increase budget or scope based on proven ROI.
-- Move to quarterly contract with 30-day out.
-- Consider bringing the function in-house if the agency proved the channel works.
+**Kill switch:** End at day 90 if targets missed by >30%. No extensions without
+a written remediation plan.
+
+### Phase 5: Ongoing Management
+
+- **You own:** ICP, positioning, messaging, sales process, approval on copy
+- **Agency owns:** Execution, tooling, activity volume, reporting
+- **Cadence:** 30-min weekly review (scorecard + pipeline inspection)
+- **Access:** Agency works in your CRM and sequencer — not a black box spreadsheet
+- **Graduation:** If pilot succeeds, either scale agency budget or hire in-house
+  using proven playbook (`sales-team-building`, `hiring-by-role`). Clay/RevOps
+  agency → **GTM Engineer FTE**: `gtm-role-descriptions` → `gtm-engineer-hiring.md`
+
+### Phase 6: Agency → In-House Transition
+
+When an agency proves a channel:
+
+1. Document their playbook (stages, templates, targeting rules)
+2. Hire for the proven role — not the agency's account manager
+3. Run 30-day overlap: agency + new hire parallel
+4. Cut agency scope as internal team ramps
+5. Keep agency for overflow or specialized work only
 
 ## Output Format
 
-Agency evaluation with: decision framework (agency vs in-house), shortlist
-with scores on 5 dimensions, pilot scope and metrics, and budget recommendation.
+Agency plan containing: agency vs in-house recommendation, agency type selection,
+shortlist scorecard, 90-day pilot scope with measurable targets, weekly scorecard
+template, kill switch criteria, and in-house transition plan.
 
+Use `templates/output-template.md` for structure. Run `scripts/check-output.py`
+before delivery.
 
 ## Quality Check
 
 Before delivering, verify:
-- [ ] All required sections are complete
-- [ ] Output matches the user's stated need
-- [ ] Named frameworks are cited for key recommendations
-- [ ] No vague claims — every recommendation has a specific action
-- [ ] Deliverable is ready for operational use, not just conceptual
+- [ ] Operating Model readiness assessed (process exists before outsourcing)
+- [ ] Agency type matches the actual gap (not defaulting to outbound)
+- [ ] Pilot goals are measurable with numeric targets and deadlines
+- [ ] Suppression list and data verification requirements included
+- [ ] Weekly scorecard template provided
+- [ ] Kill switch defined at day 90
+- [ ] In-house transition path documented if pilot succeeds
+- [ ] Founder/strategy ownership explicit — agency executes, not decides
 
 ## Common Pitfalls
 
-1. **No pilot period.** Signing a 12-month contract with an untested agency
-   locks you into a relationship that may not work. Always pilot first.
+1. **Agency before process.** Without `pipeline-management` stages and SPICED
+   fields, the agency invents its own motion. Fix: document process first.
 
-2. **Vague success metrics.** "Generate pipeline" is not measurable. "Book
-   10 qualified meetings per month with VP-and-above at Series B SaaS companies"
-   is measurable.
+2. **Outsourcing strategy.** Agencies write messaging from scratch without your
+   positioning. Fix: provide approved copy, ICP, and talk tracks.
 
-3. **Outbound agency without verified data.** An agency sending to unverified
-   emails burns your domain reputation. Require verification before sending.
-   LeadMagic Email Validation in the workflow is non-negotiable.
+3. **Black-box reporting.** Activity counts without pipeline impact. Fix: score
+   on qualified meetings and cost-per-meeting, logged in your CRM.
 
-4. **Dev shop without code review.** Same as contractors — review everything
-   before merge. You own the codebase long after the agency is gone.
+4. **Unverified data.** Bad lists burn domain reputation. Fix: require verified
+   emails and suppression checks before any send.
 
-5. **Abandoning the function after outsourcing.** You can outsource execution,
-   not strategy. Stay involved in messaging, targeting, and positioning.
+5. **No kill switch.** Sunk-cost extensions for 6+ months. Fix: 90-day pilot
+   with explicit stop criteria.
+
+6. **Never bringing in-house.** Perpetual agency dependency at 2–3x employee
+   cost. Fix: graduate proven channels to hires.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — agency types, scorecard, WbD readiness gate
+- `templates/output-template.md` — agency evaluation and pilot plan
+- `scripts/check-output.py` — validates deliverable sections
 
 ## Related Skills
 
-- **hiring-contractors**: Individual contractors vs agencies
-- **sales-team-building**: Building an in-house team as alternative
-- **cold-email-strategy**: Outbound agency evaluation criteria
+- `hiring-contractors` — Individual freelancers vs agency teams
+- `sales-team-building` — In-house alternative and graduation path
+- `gtm-role-descriptions` — GTM Engineer JD when graduating Clay agency work
+- `hiring-by-role` — GTM Engineer scorecard after agency pilot
+- `pipeline-management` — Process agencies execute against
+- `cold-email-strategy` — Outbound agency messaging standards
+- `clay-automation` — RevOps agency workflow requirements
+- `tool-selection-stack` — Tool budget when agency brings their own stack

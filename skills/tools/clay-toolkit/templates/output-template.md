@@ -1,37 +1,41 @@
-# Clay Toolkit Deliverable
+# Clay Table Blueprint: [Name]
 
 ## Context
-- Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- GTM use case: outbound / ABM / signal / hygiene
+- ICP tier:
+- Blueprint base: (1 Outbound / 2 ABM / 3 Signal / 4 Hygiene)
+- Est. row volume:
 
-## Framework Basis
-- Frameworks used:
-- Why these apply:
+## Table Architecture
 
-## Recommendation
-1.
-2.
-3.
-
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
+| # | Column | Type | Provider/Prompt | Conditional |
 |---|---|---|---|---|
 | 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+## Waterfall
 
-## Risks / Pitfalls
--
+| Field | Provider 1 | Provider 2 | Provider 3 | Verify |
+|---|---|---|---|---|
+| Email |  |  |  | Y |
+
+## Formulas
+- ICP score:
+- Suppression check:
+- clay_status:
+
+## Output
+| Destination | Condition | Fields pushed |
+|---|---|---|
+| CRM |  |  |
+| Sequencer |  |  |
+
+## Credit Estimate
+- Per row:
+- Monthly total:
 
 ## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+- [ ] Company/person tables separated (if contacts)
+- [ ] Waterfall conditional logic set
+- [ ] clay_status gate before export
+- [ ] AI prompts from ai-prompts-toolkit (if LLM columns)
+- [ ] Suppression before sequencer

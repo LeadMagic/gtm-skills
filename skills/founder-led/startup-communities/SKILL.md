@@ -341,6 +341,12 @@ Before delivering, verify:
    has founders. Find them. Meet monthly. The density is lower, but the
    depth can be higher — people outside the hype cycle are often more genuine.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - `co-founder-dynamics` — Finding and working with co-founders

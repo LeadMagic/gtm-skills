@@ -1,6 +1,6 @@
 # Email Deliverability Reference
 
-Shared reference for deliverability skills in the GTM Blueprints library.
+Shared reference for deliverability skills in the GTM Skills library.
 
 ## DNS Authentication (Non-Negotiable)
 

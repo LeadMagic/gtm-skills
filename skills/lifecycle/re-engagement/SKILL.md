@@ -40,6 +40,11 @@ This skill is grounded in public frameworks and source material relevant to the 
 - "Sunset policy"
 - "Re-engagement sequence"
 
+## Lifecycle Stage
+
+**Engagement** (dormant users) and **Retention** (win-back). Index → `references/gtm-lifecycle-stages.md`.  
+Metrics → `references/lifecycle-metrics-by-stage.md` (Engagement + Retention).
+
 ## Core Principle
 > The biggest mistake in re-engagement is sending "We miss you!" emails.
 > Nobody cares that you miss them. They care about what's changed since
@@ -128,6 +133,14 @@ Before delivering, verify:
 1. **Skipping research.** Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
 2. **Generic output.** "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
 3. **Missing framework citations.** Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
+**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Engagement, Retention) · `references/lifecycle-metrics-by-stage.md`
 
 ## Related Skills
 - mql-nurture, churn-prevention, email-deliverability, cold-email-strategy, lifecycle-drips

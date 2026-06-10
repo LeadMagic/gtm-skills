@@ -96,9 +96,14 @@ Before delivering, verify:
 
 This skill includes lightweight artifacts the agent can load on demand:
 
-- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
-- `templates/output-template.md` — copy-paste deliverable structure for the user
-- `scripts/check-output.py` — local checklist validator for required sections
+- `references/framework-notes.md` — HubSpot workflow enrollment, rep-triggered rules
+- `references/enrichment-enrollment-gate.md` — lm_email_status workflow gate
+- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify-before-enroll (Pat Spielmann)
+- `../../tools/clay-toolkit/references/gtm-table-blueprints.md` — clay-toolkit property map
+- `../../tools/clay-loops-toolkit/references/leadmagic-waterfall.md` — loop list → workflow pattern
+- `../../../../references/gtm-experts-outbound-index.md` — expert router
+- `templates/output-template.md` — properties + workflow + sequence deliverable
+- `scripts/check-output.py` — local checklist validator
 
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 

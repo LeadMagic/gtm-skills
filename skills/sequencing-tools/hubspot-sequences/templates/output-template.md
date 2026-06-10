@@ -1,37 +1,47 @@
-# Hubspot Sequences Deliverable
+# HubSpot Sequences Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- ICP tier:
+- Enrollment: rep-triggered / workflow / both
+- Clay loops? Y/N
 
 ## Framework Basis
-- Frameworks used:
-- Why these apply:
+- HubSpot Sequences best practices
+- Pat Spielmann — verify-before-enroll
+- Guillaume — multichannel task principles
 
-## Recommendation
-1.
-2.
-3.
+## CRM Properties
+| Property | Type | Source |
+|---|---|---|
+| lm_email_status | Dropdown | LeadMagic verify |
+| last_verified | Date | Auto |
+| personalization_snippet | Text | Clay |
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+## Workflow Enrollment Gate
+```
+IF lm_email_status = valid AND last_verified < 90d
+  → enroll sequence by persona
+ELSE → create task
+```
+Spec: `references/enrichment-enrollment-gate.md`
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+## Sequence Template
+| Step | Type | Delay |
+|---:|---|---|
+| 1 | Email | Day 0 |
 
-## Risks / Pitfalls
--
+Merge token: {{personalization_snippet}}
+
+## Clay Loops → HubSpot (if applicable)
+- ACTION table → HubSpot list → workflow → Sequence
+- Champion job change → AE task (not Sequence)
+
+## Rep-Triggered Rules
+- [ ] Sidebar shows verify status
+- [ ] Block enroll if invalid/stale
 
 ## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+- [ ] Properties created before workflow
+- [ ] Pair hubspot-setup for workflow limits
+- [ ] clay-loops-toolkit if signal-driven

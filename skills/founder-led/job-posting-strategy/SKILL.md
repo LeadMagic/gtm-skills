@@ -15,7 +15,7 @@ metadata:
   author: LeadMagic
   category: founder-led
   tags: [hiring, recruiting, job-boards, sourcing, talent-acquisition, job-posting]
-  related_skills: [first-hires-playbook, hiring-by-role, hiring-contractors, hiring-agencies, sales-team-building, employment-compliance]
+  related_skills: [gtm-recruiting, gtm-role-descriptions, first-hires-playbook, hiring-by-role, hiring-contractors, hiring-agencies, sales-team-building, employment-compliance]
   frameworks:
     - "Betts Recruiting — SaaS go-to-market hiring specialists"
     - "Bridge Group — SaaS sales hiring benchmarks and compensation data"
@@ -80,21 +80,32 @@ your thing is the thing they should be doing." — Sam Altman
 **Best strategy for engineering:** GitHub search + HN "Who's Hiring" + Wellfound.
 DO NOT post on Indeed/LinkedIn as your primary channel — you'll be buried.
 
-### Sales (SDR, AE, VP Sales)
+### Sales (SDR, AE, VP Sales, RevOps)
+
+Write the JD first with `gtm-role-descriptions` (role template, org placement,
+transparent OTE/quota). Then distribute here.
 
 | Channel | Signal/Noise | Best For | Cost |
 |---|---|---|---|
-| **LinkedIn** | Medium-High | The primary platform for sales talent. Use Sales Navigator for sourcing. | $495/post |
-| **Pavilion (Revenue Leaders)** | Very High | VP Sales, CRO, experienced AEs — member community | Member referral |
-| **RevGenius** | High | Sales professionals at all levels — active Slack community | Free |
-| **Betts Recruiting** | Very High | GTM roles across SaaS — retained or contingency search | 20-30% of first-year comp |
-| ** ** | High | Bootstrapped SaaS founders, GTM operators | Community referral |
-| **Modern Sales Pros** | High | Sales operations and strategy professionals | Free (Slack) |
-| **Compgauge / RepVue** | Medium | Sales professionals researching companies by comp | Free to post |
+| **LinkedIn** | Medium-High | Primary platform for SDR/AE. Sales Navigator for passive sourcing. | $495/post |
+| **Pavilion (Revenue Collective)** | Very High | VP Sales, CRO, experienced AEs — member referrals beat job boards | Member referral |
+| **Betts Recruiting** | Very High | GTM roles across SaaS — Comp Engine, unicorn offers | 20-30% of first-year comp |
+| **It's Destiny Recruiting** | Very High | Founding GTM teams (pre-seed–B); inclusive bench; passive sellers | ~25% base contingency |
+| **RevGenius** | High | SDR/AE/RevOps at all stages — active Slack community | Free |
+| **SaaStr** | High | Bootstrapped SaaS founders, GTM operators, VP-level network | Community referral |
+| **Modern Sales Pros** | High | Sales ops, enablement, RevOps strategy | Free (Slack) |
+| **RevOps Co-op** | High | RevOps, Sales Ops, GTM systems roles | Free (Slack) |
+| **RepVue** | Medium-High | Candidates research your comp before applying — publish honest ranges | Company profile |
+| **Compgauge** | Medium | Comp transparency; pairs with RepVue for sales talent research | Company profile |
+| **Revenue.io / Selling Power** | Medium | Sales methodology community; good for enablement-minded AEs | Content + network |
+| **Bridge Group reports** | N/A (benchmark) | Set realistic OTE/quota before posting — not a board, essential prep | Free reports |
 | **Indeed** | Low | High volume, low signal — skip for specialized sales roles | $ |
 
-**Best strategy for sales:** LinkedIn + Pavilion/RevGenius communities + Betts
-for senior roles. Sales talent lives on LinkedIn — use it right.
+**Best strategy for sales:** `gtm-role-descriptions` → `gtm-recruiting` (active
+sourcing + offer close) → LinkedIn + RevGenius for IC; Pavilion + Betts + It's
+Destiny Recruiting for founding teams and inclusive benches; investor network
+for VP+. Candidates on RepVue/Compgauge compare OTE to attainment — misalignment
+kills accept rate.
 
 ### Marketing
 
@@ -131,6 +142,10 @@ their work publicly. Find them. DM them.
 | **Mind the Product** | High | Product managers | Free-$499/post |
 
 ## Job Posting Template
+
+For GTM roles (SDR, AE, VP Sales, RevOps, CSM, Demand Gen), use the full
+templates in `gtm-role-descriptions` — includes org context, comp plan, and
+quota math. The constraint-first skeleton below works for all roles:
 
 **The "constraint-first" job post (works across all roles):**
 
@@ -280,8 +295,16 @@ Before delivering, verify:
    dynamic team..." Every company says this. Zero differentiation. Fix:
    Constraint-first format. Why this role exists NOW. What they'll OWN.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
+- `gtm-recruiting` — Active sourcing, offer negotiation, Betts & It's Destiny partnerships
+- `gtm-role-descriptions` — GTM JD templates, org charts, comp benchmarks (Betts, Bridge Group, RepVue)
 - `first-hires-playbook` — First 10 hires, compensation, interview design
 - `hiring-by-role` — Role-specific interview questions and evaluation
 - `hiring-contractors` — Freelance talent, IP assignment

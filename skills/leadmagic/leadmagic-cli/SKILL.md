@@ -147,8 +147,13 @@ Before delivering, verify:
 
 This skill includes lightweight artifacts the agent can load on demand:
 
-- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
-- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `references/framework-notes.md` — CLI patterns, Pat validate-before-push, Eric scale ops
+- `references/cli-workflow-patterns.md` — find → validate → push pipelines (Patterns A–E)
+- `../leadmagic-waterfall/references/waterfall-column-spec.md` — Clay alternative for recurring
+- `../../sequencing-tools/smartlead-workflows/references/clay-enrollment-handoff.md` — post-CLI sequencer handoff
+- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify-before-send (Pat Spielmann)
+- `../../../../references/gtm-experts-outbound-index.md` — expert router
+- `templates/output-template.md` — command sequence + verify gate deliverable
 - `scripts/check-output.py` — local checklist validator for required sections
 
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.

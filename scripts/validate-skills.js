@@ -13,8 +13,8 @@
  * - public-safe content hygiene
  */
 
-const fs = require('fs');
-const path = require('path');
+const fs = require('node:fs');
+const path = require('node:path');
 
 const ROOT = path.join(__dirname, '..');
 const SKILLS_DIR = path.join(ROOT, 'skills');
@@ -118,7 +118,7 @@ function walkSkills(dir) {
       if (fs.existsSync(skillFile)) {
         const relParts = [...parts, entry.name];
         const category = relParts[0];
-        const dir = entry.name;
+        const dir = relParts.length === 2 ? relParts[1] : relParts.slice(1).join('/');
         skills.push({ category, dir, path: skillFile, rel: path.relative(ROOT, skillFile) });
       } else {
         walk(p, [...parts, entry.name]);
@@ -177,8 +177,55 @@ function countSection(content, section) {
   return (content.match(re) || []).length;
 }
 
+const CHECKABLE_EXT = /\.(?:md|py|js|csv|json)$/;
+const BACKTICK_PATH = /^(?:\.\.\/|references|templates|scripts|assets|skills)\/[A-Za-z0-9._/-]+\.(?:md|py|js|csv|json)$/;
+
+// Extract reference targets from a SKILL.md body: markdown links and
+// backtick-quoted repo paths. Shared contract with scripts/audit-references.py.
+function extractLinkTargets(content) {
+  const targets = new Set();
+  for (const m of content.matchAll(/\]\(([^)]+)\)/g)) {
+    let target = m[1].trim();
+    const space = target.search(/\s/);
+    if (space !== -1) target = target.slice(0, space);
+    if (!target || /^(?:https?:|mailto:|#)/i.test(target)) continue;
+    target = target.split('#')[0];
+    if (CHECKABLE_EXT.test(target)) targets.add(target);
+  }
+  for (const m of content.matchAll(/`([^`]+)`/g)) {
+    const target = m[1].trim();
+    if (BACKTICK_PATH.test(target)) targets.add(target);
+  }
+  return [...targets];
+}
+
+// A target resolves if it exists relative to the skill dir (skill-local
+// artifact) OR relative to the repo root (shared catalog / full skills/ path).
+function targetResolves(target, skillDir, filePath = null) {
+  const candidates = [];
+  if (target.startsWith('skills/')) {
+    candidates.push(path.resolve(ROOT, target));
+  } else if (target.startsWith('../') && filePath) {
+    let cur = path.dirname(filePath);
+    let rel = target;
+    while (rel.startsWith('../')) {
+      rel = rel.slice(3);
+      cur = path.dirname(cur);
+    }
+    candidates.push(path.resolve(cur, rel));
+  } else if (/^(?:references|templates|scripts|assets)\//.test(target)) {
+    candidates.push(path.resolve(skillDir, target));
+    candidates.push(path.resolve(ROOT, target));
+  } else {
+    if (filePath) candidates.push(path.resolve(path.dirname(filePath), target));
+    candidates.push(path.resolve(skillDir, target));
+    candidates.push(path.resolve(ROOT, target));
+  }
+  return candidates.some(p => fs.existsSync(p));
+}
+
 let errors = 0;
-let warnings = 0;
+const warnings = 0;
 const skills = walkSkills(SKILLS_DIR);
 console.log(`Validating ${skills.length} skills...\n`);
 
@@ -199,8 +246,9 @@ for (const skill of skills) {
   let skillErrors = 0;
 
   const relParts = skill.rel.split(path.sep);
-  if (relParts.length !== 4 || relParts[0] !== 'skills' || relParts[3] !== 'SKILL.md') {
-    console.error(`❌ ${skillId}: path must be marketplace-discoverable: skills/<category>/<skill>/SKILL.md`);
+  const flatPath = relParts.length === 4 && relParts[0] === 'skills' && relParts[3] === 'SKILL.md';
+  if (!flatPath) {
+    console.error(`❌ ${skillId}: path must be marketplace-discoverable and flat: skills/<category>/<skill>/SKILL.md`);
     errors++; skillErrors++;
   }
 
@@ -216,8 +264,8 @@ for (const skill of skills) {
       console.error(`❌ ${skillId}: name too long (${fm.name.length} > ${MAX_NAME_LENGTH})`);
       errors++; skillErrors++;
     }
-    if (fm.name !== skill.dir && fm.name !== 'template-skill') {
-      console.error(`❌ ${skillId}: name '${fm.name}' must match directory '${skill.dir}'`);
+    if (fm.name !== skill.dir) {
+      console.error(`❌ ${skillId}: frontmatter name '${fm.name}' must equal skill directory name '${skill.dir}'`);
       errors++; skillErrors++;
     }
   }
@@ -341,6 +389,14 @@ for (const skill of skills) {
   for (const pattern of QUESTIONABLE_PATTERNS) {
     if (pattern.test(content)) {
       console.error(`❌ ${skillId}: questionable/gray-hat pattern found: ${pattern}`);
+      errors++; skillErrors++;
+    }
+  }
+
+  const skillDir = path.dirname(skill.path);
+  for (const target of extractLinkTargets(content)) {
+    if (!targetResolves(target, skillDir, skill.path)) {
+      console.error(`❌ ${skillId}: unresolvable reference target '${target}' (not found relative to skill dir or repo root)`);
       errors++; skillErrors++;
     }
   }

@@ -7,7 +7,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   author: LeadMagic
   category: abm
   tags: [abm, account-selection, scoring, tiering, target-accounts]
@@ -15,6 +15,7 @@ metadata:
     - "TOPO Account Selection"
     - "WbD ICP Framework"
     - "ITSMA — Account-Based Marketing"
+    - "Lars Nilsson (Cloudera/Snowflake) — ABSD signal-based account selection"
 ---
 
 # Account Selection & Tiering
@@ -31,6 +32,7 @@ This skill is grounded in public frameworks and source material relevant to the 
 - **TOPO Account Selection.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **WbD ICP Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **ITSMA — Account-Based Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Lars Nilsson — ABSD signal-based selection.** "Base account selection on buying signals, not a hunch": intent surge (Bombora-style) joined with CRM data, job-post alerts at target accounts, and funding/exec-change triggers decide which account gets worked next — not territory intuition. Canonical → `skills/abm/abm-strategy/references/lars-nilsson-absd.md`.
 
 ## When to Use
 - "Which accounts should we target?"
@@ -70,6 +72,7 @@ Weight each dimension (must total 100 points):
 - **Below 40:** Not ABM. Generic inbound/outbound only.
 
 ### Phase 3: Ongoing Refinement
+- Idle whitespace pull (ABSD): filter high-fit prospects with zero prior business and zero open pipeline — that list is the targeted-outbound campaign queue (`skills/abm/abm-strategy/references/lars-nilsson-absd.md`)
 - Monthly: Re-score based on new signals
 - Quarterly: Review tier assignments, promote/demote accounts
 - After wins: Analyze what made winners score high — adjust weights
@@ -125,6 +128,7 @@ Map the recommendation explicitly to the named frameworks in this skill:
 - TOPO Account Selection: apply only the part that directly improves the requested deliverable.
 - WbD ICP Framework: apply only the part that directly improves the requested deliverable.
 - ITSMA — Account-Based Marketing: apply only the part that directly improves the requested deliverable.
+- Lars Nilsson ABSD signal-based selection: apply only the part that directly improves the requested deliverable.
 
 ### Deliverable Standard
 

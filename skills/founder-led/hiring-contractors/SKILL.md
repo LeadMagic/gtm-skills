@@ -18,7 +18,7 @@ metadata:
     - "Freelance Talent Management"
     - "Upwork Enterprise Patterns"
     - "Paul Graham — Do Things That Do Not Scale"
-  related_skills: [hiring-agencies, building-saas, solo-founder-gtm]
+  related_skills: [hiring-agencies, sales-team-building, building-saas, solo-founder-gtm]
 ---
 
 # Hiring Contractors
@@ -154,6 +154,12 @@ Before delivering, verify:
 5. **Treating contractors like employees.** They have other clients. They don't
    attend your standups unless you're paying for that time. Set clear
    expectations and respect boundaries.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 

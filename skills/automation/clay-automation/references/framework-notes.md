@@ -7,6 +7,9 @@ Use these references to ground outputs in named, repeatable methodology.
 - DAMA-DMBOK Data Quality Dimensions
 - Ziellab 3-Waterfall Architecture
 - GTME Pulse Clay Templates
+- Eric Nowoslawski Crawl Walk Run
+- Eric Nowoslawski Creative Ideas Campaign
+- Eric Nowoslawski GEX Agency Stack
 
 ## Operating Assumptions
 

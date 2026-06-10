@@ -144,6 +144,14 @@ thresholds), re-engagement playbook per risk tier, and monitoring dashboard spec
 4. **Equal treatment of all churn risks.** A $500/month customer and a
    $50,000/year customer don't get the same intervention. Tier by revenue.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
+**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Retention) · `references/lifecycle-metrics-by-stage.md` · `references/templates/stage-health-scorecard.md`
+
 ## Related Skills
 
 - **cs-playbooks**: Full customer success operating system

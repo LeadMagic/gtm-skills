@@ -293,6 +293,12 @@ Before delivering, verify:
    pay bills. Fix: Measure pipeline and revenue. Content → signup → demo →
    close. Launch is a GTM motion, not a vanity contest.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - `positioning-messaging` — Dunford positioning, Raskin narrative, messaging matrix

@@ -10,11 +10,11 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   author: LeadMagic
   category: tools
   tags: [sequencing, smartlead, instantly, salesloft, outreach, lemlist, cold-email, mailbox-rotation]
-  related_skills: [smartlead-workflows, instantly-sequences, salesloft-cadences, outreach-sequences, lemlist-setup, email-deliverability, domain-infrastructure, inbox-setup]
+  related_skills: [smartlead-workflows, instantly-sequences, salesloft-cadences, outreach-sequences, lemlist-setup, email-deliverability, domain-infrastructure, inbox-setup, gtm-spend-management]
   frameworks:
     - "Smartlead — Unlimited mailboxes, auto-rotation, AI reply categorization"
     - "Instantly — Warmup pool, campaign optimization, unified inbox"
@@ -47,6 +47,8 @@ This skill is grounded in public frameworks and source material relevant to the 
 Trigger phrases: "sequencing platform setup", "Smartlead configuration",
 "Instantly optimization", "Salesloft cadences", "Outreach setup",
 "Lemlist sequences", "sequence optimization"
+
+Comparison: `references/platform-comparison.md` · Sequence template: `templates/sequence-architecture.md`
 
 ## Platform Selection
 
@@ -102,19 +104,13 @@ Rotation: Auto-rotate between mailboxes. Randomize send times.
 
 ## Output Format
 
-The agent should produce a structured deliverable:
+The agent delivers a sequencing platform setup and optimization plan matched to the user's volume, persona, and budget:
 
-```markdown
-# [Deliverable Title]
-
-## Summary
-[1-2 sentence summary of what was produced]
-
-## Key Outputs
-- [Output item 1]
-- [Output item 2]
-- [Output item 3]
-```
+- **Platform Recommendation** (when selection is requested): side-by-side comparison of Smartlead, Instantly, Salesloft, Outreach, and Lemlist on mailbox limits, warmup capability, multi-channel support, and price per seat/mailbox
+- **Mailbox Configuration Plan:** domain count, mailboxes-per-domain (max 3), daily send cap per mailbox (30), warmup timeline (2-week minimum with daily increment schedule), and auto-rotation setup
+- **Sequence Architecture:** 4-email + 2 multi-channel touchpoint plan with day-gap, word-count target, and stated objective per step (intro → value → social proof → break-up + LinkedIn connect + call)
+- **A/B Test Setup:** subject line and copy variants, split percentage (50/50 or 33/33/33), winning metric (positive-reply rate), and minimum sample size before declaring winner
+- **Deliverability Checklist:** SPF/DKIM/DMARC status per sending domain, custom tracking domain confirmation, warmup progress gate, bounce rate threshold (< 3%), and spam-trap monitoring setup
 
 ## Quality Check
 
@@ -128,6 +124,8 @@ Before delivering, verify:
 
 This skill includes lightweight artifacts the agent can load on demand:
 
+- `references/platform-comparison.md` — Smartlead, Instantly, Salesloft, Outreach, Lemlist
+- `templates/sequence-architecture.md` — 14-day multi-channel cadence
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
