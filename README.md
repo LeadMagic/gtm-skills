@@ -157,6 +157,7 @@ Full expert catalog — bios, public channels, and skill clusters: [references/e
 - [Public benchmark notes](docs/BENCHMARKS.md)
 - [Integrity verification](docs/INTEGRITY.md)
 - [Release process](docs/RELEASE_PROCESS.md)
+- [GitHub topics](docs/REPO_TOPICS.md)
 - [Contributing](CONTRIBUTING.md)
 - [Security](SECURITY.md)
 

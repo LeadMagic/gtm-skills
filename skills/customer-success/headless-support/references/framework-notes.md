@@ -12,6 +12,7 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 This skill is grounded in public frameworks and source material relevant to the task:
 
+- **Plain — API-first headless support and BYOAI via MCP.** Use for embedded portals and Cursor/Claude thread triage — see `byoai-headless-stack.md`.
 - **Intercom — Fin AI Agent and Resolution Bot.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **Zendesk — AI Agents and Answer Bot.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **Ada — Conversational AI for Support.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
