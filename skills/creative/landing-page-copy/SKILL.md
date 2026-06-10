@@ -367,6 +367,12 @@ Before delivering, verify:
    daily. They never talk. Fix: Interview 3 salespeople. Ask: "What are the
    top 5 objections you hear?" Address every one of them on the landing page.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - `copywriting` — Marketing copy fundamentals, Cialdini principles

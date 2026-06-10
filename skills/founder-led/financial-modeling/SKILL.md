@@ -11,7 +11,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "2.0.0"
+  version: "2.2.0"
   author: LeadMagic
   category: founder-led
   tags: [financial-model, saas-metrics, runway, unit-economics, dcf, valuation, consumption-pricing]
@@ -23,6 +23,9 @@ metadata:
     - "Bessemer Venture Partners — Cloud 100 Benchmarks"
     - "Christoph Janz (Point Nine) — SaaS Napkin"
     - "Jason Lemkin (SaaStr) — Growth Efficiency, Burn Multiple"
+    - "KeyBanc SaaS Survey — ARR multiple comps"
+    - "Meritech Capital — Public SaaS Benchmarks & Meritech Rule of 40"
+    - "Force Management — Pod Economics & Headcount Planning"
 ---
 
 # SaaS Financial Modeling
@@ -41,7 +44,8 @@ pricing models, cohort analysis, and full ARR bridge/build methodology.
 
 Trigger phrases: "financial model", "SaaS P&L", "runway calculation", "DCF
 valuation", "consumption pricing model", "cohort analysis", "ARR bridge",
-"headcount plan", "revenue forecast", "409A valuation", "unit economics model"
+"headcount plan", "revenue forecast", "409A valuation", "unit economics model",
+"annual GTM budget", "operating budget", "variance review", "QuickBooks vs NetSuite"
 
 ## Authoritative Foundations
 
@@ -55,7 +59,17 @@ For startups: high growth + high risk = high WACC (20-30% for early stage).
 
 ### Ben Murray — The SaaS CFO
 Three P&L layers: Revenue (new + expansion - churn), COGS (20-30%), OpEx
-(S&M + R&D + G&A). Model per-head where possible.
+(S&M + R&D + G&A). Model per-head where possible. PE exits require EBITDA
+bridge — see `references/unit-economics-exit-bridge.md`.
+
+### Meritech Capital — Public SaaS Benchmarks
+For IPO-track scenarios, compare implied ARR growth, FCF margin, and Meritech Rule of 40 to public medians. `references/meritech-saas-benchmarks.md`. Private stage gates remain in `references/benchmark-reconciliation.md`.
+
+### Force Management — Pod Economics & Headcount Planning
+Bottom-up headcount from pod economics: group SDR/AE/SE/CSM into pods, run
+pod cost % of ARR (target ≤35% at 80% ramp), link quota attainment distribution
+to hiring triggers. See `references/force-management-playbook.md` (repo root)
+and `references/unit-economics-exit-bridge.md`.
 
 ## Step-by-Step Process
 
@@ -121,6 +135,10 @@ Runway (months) = Cash ÷ |Monthly Net Cash Burn|
 Cash-zero date is NOT when you start fundraising — it's when you're dead.
 
 ### Phase 5: Scenario Planning
+
+Load `references/gtm-budget-playbook.md` for annual S&M/R&D/G&A structure,
+headcount-driven build, vendor budget tie to `gtm-spend-management`, and monthly
+variance cadence. Worksheet → `references/templates/annual-gtm-budget-worksheet.md`.
 
 | Driver | Conservative | Base Case | Aggressive |
 |---|---|---|---|
@@ -280,6 +298,15 @@ SENSITIVITY TABLE (WACC × Terminal Growth):
 - Mature: 5-10× forward ARR
 If your DCF is outside these bands, check your assumptions.
 
+For exit planning, connect unit economics → P&L → ARR and EBITDA multiples via
+`references/unit-economics-exit-bridge.md`. Sensitivity template →
+`exiting-company/templates/valuation-sensitivity-table.md`.
+
+**Earn-out / deferred consideration:** Model **cash at close**, earn-out scenarios
+(base / max), and 3-year hold — not headline EV alone. Worksheet →
+`exiting-company/templates/earn-out-term-sheet-review.md`. Structure norms →
+`references/benchmark-reconciliation.md`. **Typical not guaranteed** — CPA for tax timing.
+
 ### DCF Pitfalls for Startups
 
 1. **Terminal value dominates.** 80-90% of startup DCF = terminal value (most
@@ -329,6 +356,25 @@ Starting ARR + New ARR + Expansion - Churned - Contraction = Ending ARR
 Starting ARR + New Logo + Expansion - Logo Churn - Contraction - Downsell = Ending
 
 The bridge tells WHERE growth came from. The build projects WHERE it will come from.
+
+**Revenue lens:** Model **recognized revenue** in P&L; use **committed MRR bridge** for
+board ARR/NRR. Reconcile gaps (prepay, PS, implementation delay) via
+`references/saas-mrr-accounting-nuances.md` and `references/bookings-billings-revenue-matrix.md`.
+
+## Accounting Stack for SaaS (Founder Timing)
+
+| Stage | Stack | Hire trigger |
+|---|---|---|
+| Pre-$500K ARR | QuickBooks Online or Xero + Stripe/billing + bookkeeper (Pilot/Bench class) | Founder + part-time bookkeeper |
+| $500K–$3M ARR | QBO/Xero + billing + fractional CFO | First finance hire = controller or strong fractional CFO |
+| $3M–$15M ARR | Evaluate NetSuite; dedicated controller | VP Finance when board/investor reporting >20 hrs/mo founder |
+| $15M+ / multi-entity | NetSuite or ERP | Full-time CFO |
+
+**Chart of accounts (minimum):** Subscription revenue, PS revenue, COGS (hosting), S&M, R&D, G&A, deferred revenue.
+
+**Tax / 409A / QSBS awareness (not advice):** `references/saas-tax-founder-awareness.md` · Carta 409A · CPA handoff triggers.
+
+**Bootstrap path:** `solo-founder-gtm` · `saas-outcomes/templates/bootstrap-capital-plan.md`.
 
 ## Output Format
 
@@ -406,7 +452,19 @@ Before delivering, verify:
 6. **Aggregate metrics hiding segment problems.** 2% churn average hides 5%
    SMB churn and 0.5% Enterprise. Fix: Segment everything.
 
+## Execution Artifacts
 
+- `references/gtm-budget-playbook.md` — **canonical** annual GTM budget (repo root)
+- `references/templates/annual-gtm-budget-worksheet.md` — budget worksheet (repo root)
+- `references/saas-mrr-accounting-nuances.md` — MRR/recognition reconcile (repo root)
+- `references/saas-tax-founder-awareness.md` — tax/409A/QSBS handoffs (repo root)
+- `references/bookings-billings-revenue-matrix.md` — cash vs committed ARR (repo root)
+- `references/unit-economics-exit-bridge.md` — LTV/NRR/EBITDA → valuation multiple bridge
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
+**Cross-skill (journey / exit):** `gtm-spend-management` (vendor budget) · `saas-metrics-calculator` (MRR bridge) · `saas-outcomes/references/journey-stage-gates.md`, `saas-outcomes/references/bootstrap-founder-playbook.md`, `saas-outcomes/templates/bootstrap-capital-plan.md`, `saas-outcomes/templates/journey-planning-worksheet.md`, `saas-outcomes/references/valuation-multiples.md`, `exiting-company/templates/valuation-sensitivity-table.md`, `exiting-company/templates/earn-out-term-sheet-review.md`, `exiting-company/references/negotiating-earn-out.md`, `exiting-company/references/buyer-readiness-checklist.md`, `saas-metrics-calculator/references/metric-definitions-exit-weight.md`, `references/benchmark-reconciliation.md`
 
 ## ⚠️ Disclaimer
 

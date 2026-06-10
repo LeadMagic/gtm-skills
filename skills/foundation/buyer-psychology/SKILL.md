@@ -166,6 +166,12 @@ Before delivering, verify:
    to inaction or choose the cheapest. Offer 3 options max with a clear
    recommended path.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 - transparency-selling: Caponi's full methodology for sales execution
 - positioning-messaging: Apply transparency to narrative and positioning

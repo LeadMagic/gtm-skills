@@ -2,20 +2,24 @@
 name: founder-brand
 description: >-
   Build a founder personal brand — LinkedIn strategy, content cadence, podcast
-  guesting, newsletter growth, media features, and community building. Use when
-  building personal brand, growing audience, or establishing thought leadership
-  as a founder. Triggers on: "personal brand", "founder brand", "LinkedIn strategy",
-  "thought leadership", "build audience", "get on podcasts", "newsletter growth",
-  or any founder content request.
+  guesting, newsletter growth, media features, and community building. Includes
+  Adam Robinson's (RB2B) founder-led LinkedIn playbook: daily posting, hooks,
+  zero-click content, and build-in-public. Use when building personal brand,
+  growing audience, or establishing thought leadership as a founder. Triggers on:
+  "personal brand", "founder brand", "LinkedIn strategy", "thought leadership",
+  "build audience", "build in public", "Adam Robinson", "get on podcasts",
+  "newsletter growth", or any founder content request.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.1.0"
+  version: "1.2.0"
   author: LeadMagic
   category: founder-led
   tags: [personal-brand, linkedin, content, founder, thought-leadership]
-  related_skills: [social-media-strategy, copywriting, solo-founder-gtm, launch-planning]
+  related_skills: [social-media-strategy, linkedin-algorithm, social-selling, copywriting, solo-founder-gtm, launch-planning]
   frameworks:
+    - "Adam Robinson (RB2B / Retention.com) — Founder-led LinkedIn playbook"
+    - "Richard van der Blom (Just Connecting) — LinkedIn Algorithm Insights Report"
     - "Charlie Hills Social Media"
     - "Brendan Gahan Creator Economy"
     - "Paul Graham — Do Things That Do Not Scale"
@@ -46,6 +50,17 @@ pipeline for years.
 
 ## Authoritative Foundations
 
+- **Adam Robinson (RB2B / Retention.com)** — the reference case for founder-led
+  LinkedIn distribution: bootstrapped RB2B from $0 → $1M ARR in 16 weeks and
+  ~$5M in its first year with LinkedIn as the only channel. Daily posting,
+  hook discipline (25% of writing time), 3-4 repeated content pillars,
+  zero-click content with profile-link conversion, ~1-in-10 hard CTAs, and
+  radical build-in-public transparency. Full playbook →
+  `references/adam-robinson-founder-brand.md`.
+- **Richard van der Blom (Just Connecting)** — LinkedIn Algorithm Insights
+  Report; the reach mechanics (interest graph, format rankings, dwell time,
+  link penalties) that make the posting system work. Load `linkedin-algorithm`
+  for the full data.
 - **Charlie Hills** — social media strategy for B2B. Multi-channel content
   distribution. Personal brand as growth lever.
 - **Brendan Gahan** — creator economy principles applied to founders. Community
@@ -55,9 +70,13 @@ pipeline for years.
 
 ### Phase 1: Platform Strategy
 
-**LinkedIn (primary B2B):** Where your customers are. Post 2-3x/week. Content
+**LinkedIn (primary B2B):** Where your customers are. Post 2-3x/week minimum
+(Adam Robinson posts daily — frequency compounds once pillars are set). Content
 types: lessons from building, data from your business, contrarian takes on
-industry wisdom, customer stories (anonymized).
+industry wisdom, customer stories (anonymized). Verify content-market fit
+early: an audience that loves your posts but can't buy your product is a
+vanity asset (Robinson's Retention.com → RB2B lesson,
+`references/adam-robinson-founder-brand.md`).
 
 **Newsletter (depth):** Substack or beehiiv. Weekly or bi-weekly. Long-form
 thinking that LinkedIn posts can't contain. This is where you develop ideas.
@@ -80,6 +99,17 @@ Content pillars (pick 3-4):
 
 **Cadence:** LinkedIn 2-3x/week, newsletter 1x/week or bi-weekly, podcasts
 1-2x/month. Consistency matters more than frequency.
+
+**Hook discipline (Adam Robinson):** spend ~25% of writing time on the
+opening line — don't publish without a strong hook. Checklist: credibility
+maximized, numbers/data used, something provocative, in your prolific zone,
+brokering valuable information. Write every post as if nobody knows you:
+~85% of viewers didn't see your previous post, so reintroduce context and
+credibility each time.
+
+**Zero-click rule:** put the full insight in the post — no teaser links
+(external links are reach-penalized, see `linkedin-algorithm`). Let your
+profile link and warm DMs convert; cap hard CTAs at ~1 in 10 posts.
 
 **Voice guidelines:** Direct, opinionated, specific. No corporate language.
 Read like you talk. If you wouldn't say it at dinner, don't write it.
@@ -140,8 +170,17 @@ calendar, audience growth plan, media pitch list, and voice guidelines.
 5. **Engagement without pipeline tracking.** Likes don't pay bills. Track:
    content → profile views → website visits → demo requests → closed revenue.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `references/adam-robinson-founder-brand.md` — Adam Robinson (RB2B) founder-led LinkedIn playbook
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
+- **linkedin-algorithm**: Reach mechanics — van der Blom Algorithm Insights Report
+- **social-selling**: Turning content engagement into conversations and pipeline
 - **social-media-strategy**: Platform-specific content formats and sizing
 - **copywriting**: Headlines and persuasive writing
 - **launch-planning**: Coordinating content around launches

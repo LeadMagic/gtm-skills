@@ -23,6 +23,7 @@ metadata:
     - "DLSE (California) — Employment regulations"
     - "SixFifty — Employment law automation (Wilson Sonsini)"
     - "Rippling / Gusto — HR compliance platforms"
+    - "Stacey Nordwall (Culture Amp / Pyn) — Revenue-team HR ops (onboarding, manager enablement)"
 ---
 
 # Employment Compliance
@@ -93,6 +94,13 @@ misclassification are severe.
 - Worker has their own business (LLC, other clients, website)
 - Worker sets their own schedule and methods
 - Worker invoices you (not on your payroll)
+
+**GTM-specific — SDR/BDR classification:** Full-time SDRs on your sequencer, your
+CRM, manager-assigned lists, and team quotas are **employees (W-2)** in virtually
+all US scenarios. "1099 SDR" models fail ABC test in California and invite federal
+misclassification penalties. Commission plan documentation → `gtm-role-descriptions`
+comp templates. HR onboarding system → `gtm-role-descriptions/references/hr-gtm-playbook.md`.
+Escalate borderline cases to qualified counsel — this skill is not legal advice.
 
 ### Phase 2: Hiring Employees
 
@@ -315,6 +323,13 @@ Before delivering, verify:
 This skill provides general informational guidance based on publicly available frameworks and operator experience. It is NOT legal advice, accounting advice, tax advice, financial advice, insurance advice, or professional services advice.
 
 Consult qualified professionals for your specific situation — attorneys for legal/equity matters, CPAs for tax and accounting, licensed brokers for insurance, and certified security assessors for compliance. This skill does not create a professional-client relationship. Use it as a starting point for research and preparation.
+
+## Execution Artifacts
+
+- `../gtm-role-descriptions/references/hr-gtm-playbook.md` — Revenue-team HR ops (Stacey Nordwall; Pattern 28)
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 

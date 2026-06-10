@@ -9,15 +9,15 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   author: LeadMagic
   category: automation
-  tags: [attio, crm, setup, programmable, modern]
+  tags: [attio, crm, setup, programmable, modern, contacts]
   frameworks:
     - "Attio Programmable CRM Model"
     - "Modern CRM Architecture"
     - "HubSpot Academy — CRM Automation"
-  related_skills: [crm-integration, pipeline-management, hubspot-setup, salesforce-setup]
+  related_skills: [crm-toolkit, crm-integration, pipeline-management, hubspot-setup, salesforce-setup]
 ---
 
 # Attio Setup
@@ -48,10 +48,17 @@ This skill is grounded in public frameworks and source material relevant to the 
 
 ## Step-by-Step Process
 
+Load **crm-toolkit** first — crm-selection, contacts-vs-leads (Attio has **no Lead object**
+— use `status` on People + **lists as SDR queues**), and attio-blueprint.
+
 ### Phase 1: Object Model
 
 Attio is object-based. Standard: Companies, People, Deals. Custom objects
 for anything: Subscriptions, Customer Success Plans, Partner relationships.
+
+**Contacts vs leads:** No Lead object and no conversion step. Inbound → Person
+with `status=inbound`; SDR list filters the queue; qualified → create Deal.
+See **crm-toolkit** → contacts-vs-leads reference.
 
 **Key difference vs Salesforce:** No rigid Lead→Account→Contact hierarchy.
 Everything is a flat object that can be linked. A Person can belong to multiple
@@ -131,7 +138,8 @@ Use the artifacts when the user asks for an implementation-ready deliverable, a 
 
 ## Related Skills
 
+- **crm-toolkit**: Selection, contacts-vs-leads, attio-blueprint, partners
 - **crm-integration**: CRM configuration principles
 - **pipeline-management**: Deal stage design
-- **hubspot-setup**: HubSpot alternative
-- **salesforce-setup**: Salesforce alternative
+- **hubspot-setup**: HubSpot alternative (lifecycle stages)
+- **salesforce-setup**: Salesforce alternative (Lead convert)

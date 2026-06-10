@@ -16,7 +16,7 @@ metadata:
   category: outbound
   tags: [multi-channel, linkedin, cold-calling, sms, sequences, coordination]
   related_skills: [cold-email-strategy, cold-email-copywriting, reply-handling, social-selling]
-  frameworks: [Saleshandy Multi-Channel Architecture, Reply.io Conditional Sequencing, Sandler Up-Front Contracts]
+  frameworks: [Saleshandy Multi-Channel Architecture, Reply.io Conditional Sequencing, Sandler Up-Front Contracts, Guillaume Moubeche — lemlist Multichannel]
 ---
 
 # Multi-Channel Outreach
@@ -50,6 +50,11 @@ and Sandler's Up-Front Contract principles for phone outreach.
 Research consistently shows multi-channel sequences outperform single-channel:
 adding LinkedIn to email increases reply rates by 30-50%, and adding phone
 calls can double connection rates for high-value accounts.
+
+- **Guillaume Moubeche — lemlist multichannel.** Email + LinkedIn + phone in one
+  coordinated flow; 4–9 touches; channel-native copy (not email pasted to LI).
+  Playbook → `../cold-email-strategy/references/lemlist-guillaume-outbound.md`.
+  Platform setup → `lemlist-setup`.
 
 ## Prerequisites
 
@@ -172,6 +177,12 @@ Conditional Rules:
 
 6. **SMS without consent.** TCPA (US) and GDPR (EU) require explicit opt-in.
    SMS to prospects who haven't consented creates legal liability.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 

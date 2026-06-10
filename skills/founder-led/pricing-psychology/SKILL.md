@@ -314,6 +314,12 @@ Before delivering, verify:
    = 12 months of committed revenue, lower churn, better cash flow. Fix:
    Always offer annual with 10-20% discount. Default to annual on pricing page.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - `pricing-strategy` — Ramanujam pricing models, tier design, packaging

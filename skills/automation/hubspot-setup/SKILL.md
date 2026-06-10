@@ -9,15 +9,15 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   author: LeadMagic
   category: automation
-  tags: [hubspot, crm, setup, marketing, sales]
+  tags: [hubspot, crm, setup, marketing, sales, lifecycle, contacts]
   frameworks:
     - "HubSpot Smart CRM Framework"
     - "Lifecycle Stage Model"
     - "HubSpot Academy — CRM Automation"
-  related_skills: [crm-integration, pipeline-management, salesforce-setup, attio-setup]
+  related_skills: [crm-toolkit, crm-integration, pipeline-management, salesforce-setup, attio-setup]
 ---
 
 # HubSpot Setup
@@ -48,7 +48,15 @@ This skill is grounded in public frameworks and source material relevant to the 
 
 ## Step-by-Step Process
 
+Load **crm-toolkit** first — confirm HubSpot fit (crm-selection), contacts-vs-leads
+(HubSpot uses **Contacts only** — lifecycle stages replace Salesforce Leads), and
+hubspot-blueprint (field and workflow catalog).
+
 ### Phase 1: CRM Foundation
+
+**Contacts vs leads:** HubSpot has no Lead object. Inbound records are **Contacts**
+with lifecycle stage = Lead until qualified. Do not duplicate records. See
+**crm-toolkit** → contacts-vs-leads reference.
 
 **Lifecycle stages:** Subscriber → Lead → MQL → SQL → Opportunity → Customer →
 Evangelist. Define clear criteria for stage advancement. Never use "Other."
@@ -145,7 +153,8 @@ Use the artifacts when the user asks for an implementation-ready deliverable, a 
 
 ## Related Skills
 
+- **crm-toolkit**: Selection, contacts-vs-leads, hubspot-blueprint, partners
 - **crm-integration**: CRM configuration principles
 - **pipeline-management**: Deal stage design
-- **salesforce-setup**: Salesforce alternative
-- **attio-setup**: Attio alternative
+- **salesforce-setup**: Salesforce alternative (Lead object model)
+- **attio-setup**: Attio alternative (lists + status)

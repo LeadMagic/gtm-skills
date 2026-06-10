@@ -15,7 +15,11 @@ metadata:
   category: foundation
   tags: [icp, targeting, small-business, mid-market, enterprise, segmentation]
   related_skills: [icp-scoring, positioning-messaging, pricing-strategy, gtm-context, sales-team-building]
-  frameworks: [OpenView Company Size Segmentation, Winning by Design GTM by ACV, Jason Lemkin SaaStr ACV Thresholds]
+  frameworks:
+    - "Jason Lemkin & Mark Roberge — From Survival to Thrival (enterprise upmarket)"
+    - "OpenView Company Size Segmentation"
+    - "Winning by Design GTM by ACV"
+    - "Jason Lemkin SaaStr ACV Thresholds"
 ---
 
 # ICP Targeting by Tier
@@ -36,6 +40,11 @@ defines the targeting differences and builds tier-specific plays.
 - "Enterprise vs SMB ICP"
 
 ## Authoritative Foundations
+- **Jason Lemkin & Mark Roberge — From Survival to Thrival.** Moving upmarket
+  to enterprise is a Thrival-stage decision — only after Survival ($0–$2M) and
+  early Thrival ($2M+) motions are repeatable. Enterprise requires different ACV,
+  cycle length, stakeholders, and sales capacity. Load `abm-strategy` and
+  `multi-thread-orchestration` when targeting the enterprise tier.
 - **OpenView (Bartlett, Poyar)** — Company size segmentation for PLG. SMB:
   self-serve, product-led. Mid-market: product-led + sales assist. Enterprise:
   sales-led with product support.
@@ -197,6 +206,12 @@ Before delivering, verify:
 3. **Enterprise features for SMB customers.** "We have SSO and audit logs!"
    SMB buyer: "I don't know what SSO is. Can I import a CSV?" Build for
    your buyer's sophistication level, not your engineering team's pride.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 - icp-scoring: Define weighted scoring model for ICP qualification

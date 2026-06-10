@@ -419,6 +419,13 @@ Before delivering, verify:
 
 Use `references/reply-funnel-reference.md` for funnel diagnostics. Main output should include reply category distribution, meeting conversion, and the next experiment.
 
+## Execution Artifacts
+
+- `references/reply-funnel-reference.md` — Reply routing funnel reference
+- `references/reply-taxonomy.md` — Reply classification taxonomy
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - `objection-handling` — adjacent workflow to use before or after this skill

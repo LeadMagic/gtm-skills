@@ -18,7 +18,7 @@ metadata:
 
 The single biggest mistake GTM teams make is launching tactics without first establishing a shared, documented understanding of who they sell to, how they sell, and what they're optimizing for. Disconnected context produces misaligned messaging, wasted prospecting effort, pricing that doesn't match willingness-to-pay, and competitive positioning that misses the actual battlefield. This skill prevents that fragmentation.
 
-GTM Context is the foundational skill in the GTM Blueprints library. It captures your company's identity, Ideal Customer Profile, go-to-market motion, technology stack, channel mix, and core metrics into a single reusable document. Every downstream skill — from ICP scoring to cold email copywriting to competitive intel — references this context as its source of truth. Without it, downstream skills operate on assumptions that decay into misalignment within weeks.
+GTM Context is the foundational skill in the GTM Skills library. It captures your company's identity, Ideal Customer Profile, go-to-market motion, technology stack, channel mix, and core metrics into a single reusable document. Every downstream skill — from ICP scoring to cold email copywriting to competitive intel — references this context as its source of truth. Without it, downstream skills operate on assumptions that decay into misalignment within weeks.
 
 This skill produces three deliverables: a comprehensive GTM Context document covering all dimensions of your go-to-market operation, an OPE (Objectives-Process-Execution) canvas for strategic alignment, and a 90-day action plan mapping tactics to the context. The process draws from Maja Voje's GTM Strategist methodology (phases 1-3: strategy, positioning, execution readiness) and Geoffrey Moore's beachhead market selection framework.
 
@@ -54,7 +54,7 @@ This skill draws from the following established methodologies:
 
 ## Prerequisites
 
-- **Upstream skills:** None. This is the entry point for the entire GTM Blueprints library.
+- **Upstream skills:** None. This is the entry point for the entire GTM Skills library.
 - **Required inputs from user:** Company name, product description, target market description, existing customer data (at minimum: 3-5 best customers with revenue, industry, size, and why they bought).
 - **Optional:** Existing pitch deck, website URL, CRM export of current customers, any prior ICP documentation, competitor names.
 - **Optional tools:** LeadMagic Company Search API can help validate and enrich company data during the ICP research phase, but the skill works entirely without it.
@@ -266,6 +266,12 @@ Before delivering, verify:
 7. **The 90-day plan tries to do everything at once.** A common failure mode is listing 20 tactics across 5 channels for Phase 1. The 90-day plan should have at most 3-5 objectives total and focus each phase on the highest-leverage activities. Sequencing matters more than comprehensiveness.
 
 8. **Context is treated as a one-time deliverable rather than living documentation.** GTM context decays. ICPs shift. Competitors enter. Channels saturate. The context document should include a "Last Updated" date and a review cadence (recommended: quarterly). Without this, the document loses trust and teams stop referencing it.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 

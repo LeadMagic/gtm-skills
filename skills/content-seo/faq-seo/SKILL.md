@@ -134,5 +134,13 @@ Before delivering, verify:
 2. **Publishing and praying.** Creating content without a distribution plan. Fix: every piece gets a 30-day promotion calendar across email, social, and paid.
 3. **Ignoring content freshness.** 2-year-old content with outdated data and examples still ranking. Fix: quarterly content audit — update or retire stale pieces.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — PAA/snippet format, FAQ schema, AEO overlap, Pattern 25 routing
+- `references/seo-strategy-playbook.md` — Repo root: §4 schema, §8 AEO overlap
+- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 4)
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 - seo-strategy, aeo-strategy, pillar-pages, content-marketing, landing-pages

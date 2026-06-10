@@ -10,11 +10,16 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.1.0"
+  version: "1.1.1"
   author: LeadMagic
   category: leadmagic
   tags: [leadmagic, integrations, clay, smartlead, hubspot, salesforce, zapier]
-  frameworks: [iPaaS Integration Patterns, Zapier/Make Automation, CRM Enrichment Workflows]
+  frameworks:
+    - iPaaS Integration Patterns
+    - Zapier/Make Automation
+    - CRM Enrichment Workflows
+    - Pat Spielmann — Cold to Gold
+    - Pat Spielmann — Full-Circle Multichannel
   related_skills: [leadmagic-cli, leadmagic-waterfall, crm-integration, clay-automation]
 ---
 
@@ -33,6 +38,7 @@ This skill is grounded in public frameworks and source material relevant to the 
 - **iPaaS Integration Patterns.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **Zapier/Make Automation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **CRM Enrichment Workflows.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Pat Spielmann — Cold to Gold & Full-Circle Multichannel.** Integrations exist to feed **verify-before-send** pipelines into Clay, Smartlead, Instantly, and CRM — then route positive replies to phone quickly. Playbook → `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`.
 
 ## When to Use
 
@@ -94,19 +100,13 @@ replace the verification step.
 
 ## Output Format
 
-The agent should produce a structured deliverable:
+The agent delivers an integration setup guide for the requested platform(s):
 
-```markdown
-# [Deliverable Title]
-
-## Summary
-[1-2 sentence summary of what was produced]
-
-## Key Outputs
-- [Output item 1]
-- [Output item 2]
-- [Output item 3]
-```
+- **Integration Configuration:** step-by-step connection setup for the target platform — Clay column config, HubSpot/Salesforce workflow rules, Zapier zap structure, or n8n node sequence with authentication
+- **Data Flow Diagram:** plain-text flow showing Source → LeadMagic enrichment → LeadMagic verification → destination system (CRM, sequencer, or webhook)
+- **Verification Gate:** explicit before-send confirmation that LeadMagic validation fires before contacts enter any sequence or automation
+- **Webhook Setup (if real-time):** endpoint URL format, expected payload schema, success/failure handling, and retry pattern
+- **Platform-Specific Pitfall Checklist:** 3–5 integration-specific anti-patterns to avoid (e.g., two-way sync conflicts, skipping the verification step, batch-only when real-time is needed)
 
 ## Quality Check
 
@@ -120,8 +120,14 @@ Before delivering, verify:
 
 This skill includes lightweight artifacts the agent can load on demand:
 
-- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
-- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — stack integration + outbound message audit (Pat Spielmann — LeadMagic)
+- `references/framework-notes.md` — platform matrix, iPaaS patterns, Eric Clay agency stack
+- `references/integration-checklist.md` — go-live checklist per platform (Clay, Smartlead, CRM, n8n)
+- `../leadmagic-waterfall/references/waterfall-column-spec.md` — Clay column spec
+- `../../tools/clay-toolkit/SKILL.md` — clay-toolkit native integration
+- `../../sequencing-tools/smartlead-workflows/references/clay-enrollment-handoff.md` — sequencer handoff
+- `../../../../references/gtm-experts-outbound-index.md` — expert router
+- `templates/output-template.md` — integration config + verify gate deliverable
 - `scripts/check-output.py` — local checklist validator for required sections
 
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.

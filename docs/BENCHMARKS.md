@@ -10,7 +10,7 @@ Last benchmark refresh: 2026-06-07.
 |---|---|---|---|
 | `pfoy/growth-skills` | 197 Claude Code skills for B2B sales, outbound, inbound, ABM, and growth engineering. | Comparable breadth and clear plugin install story. | Keep stronger public governance, integrity lock, category coverage beyond growth/outbound, and source hygiene. |
 | `coreyhaines31/marketingskills` | Marketing skills for Claude Code and AI agents across CRO, copywriting, SEO, analytics, and growth engineering. | Strong marketing focus, shared product-marketing context, high visibility. | Maintain deeper sales/RevOps/outbound/founder-led/CS coverage and stricter marketplace/disclosure standards. |
-| `manojbajaj95/claude-gtm-plugin` | 54 GTM skills with bootstrap/project-context workflow. | Excellent workspace bootstrap and durable brand/context pattern. | Add optional context bootstrap without sacrificing the 218-skill breadth or source-standard QA. |
+| `manojbajaj95/claude-gtm-plugin` | 54 GTM skills with bootstrap/project-context workflow. | Excellent workspace bootstrap and durable brand/context pattern. | Add optional context bootstrap without sacrificing full-catalog breadth or source-standard QA. |
 | `GTM-Strategist/gtm-strategist-skills` | 12 skills around Maja Voje's GTM Strategist methodology. | Clear end-to-end GTM phase model and user-friendly onboarding. | Preserve methodology depth while covering the operational edge cases that phase-based packs skip. |
 | `Othmane-Khadri/gtm-engineer-playbook` | 10 installable Claude Code skills for GTM engineers. | Strong artifact outputs and GTM-engineer framing. | Keep better category breadth, install tooling, and QA gates. |
 | `chadboyda/agent-gtm-skills` forks | 18 dense AI-era GTM skills. | Opinionated, current, dense per-skill content. | Match density in key skills while keeping SKILL.md progressive-disclosure under 500 lines. |
@@ -20,8 +20,8 @@ Last benchmark refresh: 2026-06-07.
 
 ## Where This Repository Is Strong
 
-- 218 marketplace-discoverable skills across 26 categories.
-- Covers sales, marketing, outbound, prospecting, enrichment, PLG, analytics, automation, customer success, RevOps, founder-led GTM, events, partnerships, design, AI agents, and tooling.
+- 202 marketplace-discoverable skills across 25 categories.
+- Covers sales, marketing, outbound, prospecting, enrichment, PLG, analytics, automation, customer success, RevOps, founder-led GTM, events, partnerships, design, and tooling.
 - Uses Anthropic-style progressive disclosure: `SKILL.md` plus `references/`, `templates/`, `scripts/`, and `assets/`.
 - Includes `skills.lock` for SHA256 integrity.
 - Includes generated `README.md`, `AGENTS.md`, `CLAUDE.md`, taxonomy, plugin metadata, validation, installer dry-runs, governance docs, and release process.
@@ -32,7 +32,7 @@ Last benchmark refresh: 2026-06-07.
 1. **Generic descriptions.** Several generated descriptions said "playbook for GTM agents" instead of declaring an artifact and trigger. Fixed with specific, operator-grade descriptions.
 2. **Weak source labels.** Internal or vague labels such as "Operator GTM Playbook" were replaced with named public sources and methods.
 3. **Framework-section cruft.** Some generated framework sections included checklist bullets and output placeholders. Fixed by rebuilding sections from frontmatter frameworks only.
-4. **Stale catalog count.** `using-gtm-skills` and generated docs were updated to the current 218 skills / 26 categories.
+4. **Stale catalog count.** `using-gtm-skills` and generated docs were aligned to the generated catalog; docs now avoid hardcoding counts where the generators are the source of truth.
 5. **Progressive-disclosure drift.** Oversized non-design skills were split or trimmed. Dense design reference skills may intentionally exceed 500 lines when they carry reusable source guidance plus required execution artifacts.
 6. **Missing public benchmark doc.** Added this file so future maintainers know the competitive bar.
 7. **Missing source standard.** Added `docs/SOURCE_STANDARDS.md` to define what qualifies as authority coverage.

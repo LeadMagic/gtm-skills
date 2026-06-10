@@ -9,7 +9,7 @@ metadata:
   author: LeadMagic
   category: founder-led
   tags: [vc, investor-outreach, cold-email, fundraising, warm-intros, pitch, angels]
-  related_skills: [fundraising-strategy, yc-ecosystem, pitch-deck-builder, founder-brand, financial-modeling, board-meeting-prep]
+  related_skills: [fundraising-strategy, yc-ecosystem, pitch-deck-builder, founder-brand, financial-modeling, board-meeting-prep, saas-metrics-calculator]
   frameworks:
     - "NFX — Fundraising Playbooks"
     - "Y Combinator — Fundraising Guide"
@@ -45,6 +45,9 @@ your target investors BEFORE you're raising.
 ### Jason Lemkin — How to Pitch VCs
 "You don't pitch VCs. You update them on what you've built. The best 'pitch'
 is traction. If you have traction, you don't need to pitch."
+
+Before outreach, confirm round-fit metrics → `fundraising-strategy/references/vc-milestone-gates.md`
+and `saas-metrics-calculator/references/metric-definitions-exit-weight.md`.
 
 ### Alex Iskold — Cold Email That Works
 "The best cold email to a VC is 5 sentences. Any longer and it won't be read.
@@ -398,6 +401,14 @@ Before delivering, verify:
    Friday." This works exactly once: when it's true. VCs have seen it faked
    1,000 times. Fix: Real urgency is traction and competing term sheets, not
    fabricated deadlines.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
+**Cross-skill:** `fundraising-strategy/references/vc-milestone-gates.md`, `saas-metrics-calculator/references/metric-definitions-exit-weight.md`
 
 ## Related Skills
 

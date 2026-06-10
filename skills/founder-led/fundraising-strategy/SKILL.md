@@ -8,17 +8,18 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.2.0"
   author: LeadMagic
   category: founder-led
   tags: [fundraising, venture capital, SAFE, term sheet, pitch deck, seed, series-a, bootstrapper]
-  related_skills: [financial-modeling, investor-updates, pitch-deck-builder, pricing-strategy, cap-table-management]
+  related_skills: [financial-modeling, investor-updates, pitch-deck-builder, pricing-strategy, cap-table-management, saas-outcomes, saas-metrics-calculator, vc-outreach]
   frameworks:
     - "Jason Lemkin (SaaStr) — ARR-based fundraising benchmarks"
     - "Christoph Janz (Point Nine) — SaaS napkin to unicorn"
     - "Brad Feld — Venture Deals (term sheet mechanics)"
     - "Mark Suster (Upfront Ventures) — VC relationship building"
     - "Rob Walling — Stair Step Method (bootstrapper path)"
+    - "Tyler Tringas (Calm Company Fund) — Bootstrapper-friendly shared earnings"
     - "Samir Kaji (Allocate) — Fundraising data and LP dynamics"
 ---
 
@@ -32,16 +33,20 @@ for capital, and like any sale, it has a funnel, close rate, and negotiation.
 This skill covers the full fundraising motion — deciding whether to raise,
 building pipeline, running the process, evaluating terms, and closing.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
+- **Jason Lemkin (SaaStr).** 3x YoY at seed; burn multiple gates at A/B;
+  VP Sales hiring ~$2M ARR.
+- **Christoph Janz (Point Nine).** ARR napkin — stage-appropriate growth expectations.
+- **David Skok.** Unit economics before scale — LTV:CAC, payback.
+- **Rob Walling (TinySeed).** Bootstrap-first path; raise from strength at $1–2M ARR.
+- **Brad Feld — Venture Deals.** Term sheet mechanics (not valuation advice).
 
-- **Jason Lemkin (SaaStr) — ARR-based fundraising benchmarks.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Christoph Janz (Point Nine) — SaaS napkin to unicorn.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Brad Feld — Venture Deals (term sheet mechanics).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Mark Suster (Upfront Ventures) — VC relationship building.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Rob Walling — Stair Step Method (bootstrapper path).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Samir Kaji (Allocate) — Fundraising data and LP dynamics.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+Load `references/vc-milestone-gates.md` for round-by-round metric gates.
+
+**Investor diligence:** Present **committed ARR bridge** (not bookings TCV) aligned with
+`references/saas-mrr-accounting-nuances.md`. Clean books handoff → `references/saas-tax-founder-awareness.md`.
+Annual budget scenario → `references/gtm-budget-playbook.md` + `financial-modeling`.
 
 ## When to Use
 
@@ -70,6 +75,18 @@ Trigger phrases: "fundraising strategy", "raise seed round", "Series A prep",
 - Raise from a position of strength (not desperation)
 - Keep most equity, raise on better terms
 - This is increasingly common and fundable
+
+**Bootstrap vs raise decision (canonical):** Load `saas-outcomes/references/bootstrap-vs-vc-paths.md`
+and `saas-outcomes/references/bootstrap-founder-playbook.md` before starting a process.
+Fill `saas-outcomes/templates/bootstrap-capital-plan.md` to test whether revenue can fund
+the next 12 months without dilution.
+
+**Sensibility:** Defaulting to VC without a $100M credible path often ends in down rounds
+or founder replacement. Defaulting to bootstrap in winner-take-all markets burns the
+window. Name one primary path in `saas-outcomes/references/end-goal-matrix.md`.
+
+**Exit alternative to raise:** If growth is decelerating and inbound acquirers exist,
+model hold vs sale (`financial-modeling`) before raising a "bridge" round.
 
 ## Fundraising Benchmarks (SaaStr)
 
@@ -203,8 +220,8 @@ terms unless you have leverage.
 
 - **Revenue-based financing:** Pipe, Capchase, FounderPath. Borrow against ARR.
 - **Profit-sharing notes:** Calm Company Fund model. Share profits, not equity.
-- **TinySeed / Earnest Capital:** Bootstrapper-friendly funds. Smaller checks,
-  longer horizons.
+- **TinySeed / Calm Company Fund (Earnest):** Bootstrapper-friendly funds. Smaller checks,
+  longer horizons, profitability-aligned terms. Cross-ref: `bootstrap-founder-playbook.md`.
 - **Customer-funded growth:** Annual prepay discounts, implementation fees,
   marketplace models. Zero dilution.
 
@@ -295,6 +312,18 @@ Before delivering, verify:
 This skill provides general informational guidance based on publicly available frameworks and operator experience. It is NOT legal advice, accounting advice, tax advice, financial advice, insurance advice, or professional services advice.
 
 Consult qualified professionals for your specific situation — attorneys for legal/equity matters, CPAs for tax and accounting, licensed brokers for insurance, and certified security assessors for compliance. This skill does not create a professional-client relationship. Use it as a starting point for research and preparation.
+
+## Execution Artifacts
+
+- `references/vc-milestone-gates.md` — metric gates by round
+- `references/saas-mrr-accounting-nuances.md` — ARR definitions for diligence (repo root)
+- `references/gtm-budget-playbook.md` — operating budget for data room (repo root)
+- `references/saas-tax-founder-awareness.md` — CPA handoffs pre-close (repo root)
+- `references/framework-notes.md` — routing index
+- `templates/output-template.md` — deliverable shell
+- `scripts/check-output.py` — deliverable validator
+
+**Cross-skill (journey / exit):** `saas-outcomes/references/journey-stage-gates.md`, `saas-outcomes/references/bootstrap-vs-vc-paths.md`, `saas-outcomes/references/bootstrap-founder-playbook.md`, `saas-outcomes/templates/bootstrap-capital-plan.md`, `saas-outcomes/references/end-goal-matrix.md`, `saas-outcomes/templates/journey-planning-worksheet.md`, `financial-modeling/references/unit-economics-exit-bridge.md`, `saas-metrics-calculator/references/metric-definitions-exit-weight.md`, `exiting-company/references/buyer-readiness-checklist.md`, `exiting-company/references/negotiating-earn-out.md`, `references/benchmark-reconciliation.md`
 
 ## Related Skills
 

@@ -148,5 +148,11 @@ A strong output from this skill includes:
 - For enterprise: include governance, risk, procurement, stakeholder mapping, and proof requirements.
 
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 - event-driven-outreach, conference-strategy, abm-strategy, pipeline-management, sales-enablement

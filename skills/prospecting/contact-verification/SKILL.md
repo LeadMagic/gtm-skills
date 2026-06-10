@@ -154,6 +154,12 @@ Bounce rate projection: 0.8-1.5%
 5. **Not updating CRM with verification status.** Verification without recording
    the result means the data decays silently. Update CRM fields immediately.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - **email-finding**: Find emails before verifying them

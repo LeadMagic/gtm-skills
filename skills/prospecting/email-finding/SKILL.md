@@ -163,6 +163,12 @@ For batch enrichment, produce a CSV with columns:
    by 15-25 percentage points across all providers. Run a LinkedIn URL finder
    column before email finding when URLs are missing.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - **lead-finding**: Finds the contacts this skill enriches with email addresses

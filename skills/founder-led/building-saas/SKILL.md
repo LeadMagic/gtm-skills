@@ -157,6 +157,12 @@ Before delivering, verify:
 5. **No unit economics tracking.** CAC, LTV, churn, payback period. If you
    can't answer these in 30 seconds, you're flying blind.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - **solo-founder-gtm**: Lean GTM for early-stage SaaS

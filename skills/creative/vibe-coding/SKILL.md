@@ -357,6 +357,12 @@ Before delivering, verify:
 | **Mckay Wrigley** | @mckaywrigley (X) | AI coding, Claude Code workflows |
 | **Sully Omarr** | @SullyOmarr (X) | Lovable, Bolt, AI app building |
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - `vibe-marketing` — AI-powered marketing content at scale

@@ -15,7 +15,7 @@ keywords:
   - claude-code
   - cursor
   - codex
-  - ai-agents
+  - gtm-skills
 abstract: "A public library of production go-to-market skills for AI agents, covering sales, marketing, outbound, analytics, PLG, customer success, RevOps, automation, and tool operations."
-version: "0.24.0"
-date-released: "2026-06-08"
+version: "0.26.0"
+date-released: "2026-06-09"

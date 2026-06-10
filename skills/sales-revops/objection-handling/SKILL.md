@@ -15,8 +15,8 @@ metadata:
   author: LeadMagic
   category: sales-revops
   tags: [objections, sales, handling, playbooks]
-  related_skills: [battlecard-builder, competitive-intel, cold-email-copywriting, demo-scripts]
-  frameworks: [Force Management Command of the Message, Sandler Pain Funnel, Challenger Reframing, Todd Caponi Transparency Sale]
+  related_skills: [buyer-indecision, battlecard-builder, competitive-intel, cold-email-copywriting, demo-scripts, pipeline-management]
+  frameworks: [Force Management Command of the Message, Sandler Pain Funnel, Brent Adamson Challenger Sale, Todd Caponi Transparency Sale, Matthew Dixon JOLT Effect, Anthony Iannarino Eat Their Lunch]
 ---
 
 # Objection Handling
@@ -40,6 +40,9 @@ pre-handling objections in outreach sequences before they're raised.
 - "Handle the 'too expensive' objection"
 - "What do I say when they mention [competitor]?"
 
+For **"I need to think about it"** after verbal fit — load `buyer-indecision` (JOLT).
+Objections are pushback; indecision is FOMU (fear of messing up).
+
 ## Authoritative Foundations
 
 Force Management's Command of the Message framework teaches that objections
@@ -53,6 +56,13 @@ objections. Never answer the first objection — explore what's behind it.
 
 Challenger's reframing principle: when a prospect objects from a mistaken
 assumption, teach them something that changes how they see the problem.
+**Brent Adamson (Challenger Sale)** — Teach-Tailor-Take Control with a
+**Commercial Teaching Insight** before pitching. → `references/brent-adamson-challenger.md`
+
+**Anthony Iannarino (*Eat Their Lunch*)** — Level up value vs incumbents:
+match → differentiate → teach why status quo costs them → strategic partner.
+Pair Challenger insight with Iannarino **discipline** on pipeline honesty.
+→ `references/anthony-iannarino-sales-discipline.md`
 
 ## Step-by-Step Process
 
@@ -140,6 +150,14 @@ objection battlecards.
 
 5. **One-size responses.** A CTO's security objection needs a different
    response than a VP Sales' budget objection. Tailor by persona.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `references/brent-adamson-challenger.md` — Challenger reframing (repo root)
+- `references/anthony-iannarino-sales-discipline.md` — Competitive leveling (repo root)
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 

@@ -1,0 +1,101 @@
+# Shared Reference Library
+
+Cross-repo catalogs, canonical definitions, expert profiles, and reusable templates used by multiple skills. Skill-specific references live inside each skill folder (`skills/<category>/<skill>/references/`); only material shared across skills belongs here.
+
+Start with [`skill-index-master.md`](skill-index-master.md) — the one-page map of every category and skill.
+
+## Indexes and Routers
+
+| File | Use when |
+|---|---|
+| [`skill-index-master.md`](skill-index-master.md) | Map any GTM task to the right skill |
+| [`experts.md`](experts.md) | Look up a named practitioner or framework author |
+| [`gtm-experts-outbound-index.md`](gtm-experts-outbound-index.md) | Route cold email and discovery questions to the right expert |
+| [`cold-calling-experts-index.md`](cold-calling-experts-index.md) | Route phone-first outbound questions |
+| [`automation-playbook-index.md`](automation-playbook-index.md) | Find Clay, n8n, sequencing, and LeadMagic playbooks |
+| [`lifecycle-skill-index.md`](lifecycle-skill-index.md) | Pick skills by customer lifecycle stage |
+| [`pitfalls-index.md`](pitfalls-index.md) | Browse every documented pitfall (generated — do not hand-edit) |
+
+## Canonical Definitions and Benchmarks
+
+| File | Contents |
+|---|---|
+| [`gtm-glossary.md`](gtm-glossary.md) | Shared GTM terminology |
+| [`gtm-lifecycle-stages.md`](gtm-lifecycle-stages.md) | Canonical 7-stage lifecycle definitions |
+| [`saas-metrics-reference.md`](saas-metrics-reference.md) | Metric formulas: churn, LTV, NRR, CAC payback |
+| [`benchmark-reconciliation.md`](benchmark-reconciliation.md) | Canonical thresholds when public sources disagree |
+| [`meritech-saas-benchmarks.md`](meritech-saas-benchmarks.md) | Public SaaS index benchmarks (Meritech Capital) |
+| [`bessemer-cloud-atlas.md`](bessemer-cloud-atlas.md) | Cloud company benchmarks (Bessemer) |
+| [`bookings-billings-revenue-matrix.md`](bookings-billings-revenue-matrix.md) | Bookings vs billings vs revenue distinctions |
+| [`saas-mrr-accounting-nuances.md`](saas-mrr-accounting-nuances.md) | MRR accounting edge cases |
+| [`saas-tax-founder-awareness.md`](saas-tax-founder-awareness.md) | Founder-level SaaS tax awareness |
+| [`lifecycle-metrics-by-stage.md`](lifecycle-metrics-by-stage.md) | Metrics to track per lifecycle stage |
+
+## Shared Playbooks
+
+| File | Contents |
+|---|---|
+| [`gtm-budget-playbook.md`](gtm-budget-playbook.md) | GTM budget construction and governance |
+| [`gtm-automation-expert-playbook.md`](gtm-automation-expert-playbook.md) | Automation patterns from named operators |
+| [`force-management-playbook.md`](force-management-playbook.md) | Command of the Message / MEDDICC operating notes |
+| [`seo-strategy-playbook.md`](seo-strategy-playbook.md) | Product-led SEO stack |
+| [`email-frameworks.md`](email-frameworks.md) | Cold email copy frameworks |
+| [`deliverability-primer.md`](deliverability-primer.md) | Email deliverability fundamentals |
+| [`activation-playbook.md`](activation-playbook.md) | Product activation patterns |
+| [`gtm-data-exchange-playbook.md`](gtm-data-exchange-playbook.md) | Data sharing between GTM systems |
+| [`gtm-security-hygiene-basics.md`](gtm-security-hygiene-basics.md) | Security hygiene for GTM teams |
+| [`security-questionnaire-deal-guide.md`](security-questionnaire-deal-guide.md) | Handling security reviews in deals |
+| [`crisis-management-playbook.md`](crisis-management-playbook.md) | PR/incident crisis response |
+| [`crisis-preparedness-checklist.md`](crisis-preparedness-checklist.md) | Pre-crisis readiness checklist |
+| [`b2b-influencer-strategy.md`](b2b-influencer-strategy.md) | B2B influencer program design |
+| [`b2b-influencer-measurement.md`](b2b-influencer-measurement.md) | Measuring influencer programs |
+
+## Expert Profiles
+
+Deep profiles of named practitioners cited across skills. Master catalog: [`experts.md`](experts.md).
+
+- [`anthony-iannarino-sales-discipline.md`](anthony-iannarino-sales-discipline.md)
+- [`aneesh-wishly-b2b-influencer.md`](aneesh-wishly-b2b-influencer.md)
+- [`brent-adamson-challenger.md`](brent-adamson-challenger.md)
+- [`chris-walker-mental-models.md`](chris-walker-mental-models.md)
+- [`dave-gerhardt-exit-five.md`](dave-gerhardt-exit-five.md)
+- [`david-sacks-saas-metrics.md`](david-sacks-saas-metrics.md)
+- [`dharmesh-shah-hubspot-inbound.md`](dharmesh-shah-hubspot-inbound.md)
+- [`elena-verna-plg-growth.md`](elena-verna-plg-growth.md)
+- [`jeb-blount-prospecting.md`](jeb-blount-prospecting.md)
+- [`joey-gilkey-bucketing.md`](joey-gilkey-bucketing.md)
+- [`kyle-poyar-growth-unhinged.md`](kyle-poyar-growth-unhinged.md)
+- [`lincoln-murphy-customer-success.md`](lincoln-murphy-customer-success.md)
+- [`peter-cohan-great-demo.md`](peter-cohan-great-demo.md)
+- [`ronen-pessar-cold-calling.md`](ronen-pessar-cold-calling.md)
+- [`ryan-reisert-cold-calling.md`](ryan-reisert-cold-calling.md)
+- [`saas-pr-crisis-experts.md`](saas-pr-crisis-experts.md)
+- [`tom-slocum-cold-calling.md`](tom-slocum-cold-calling.md)
+
+## Templates (`templates/`)
+
+Copy-paste output formats shared by multiple skills.
+
+- [`annual-gtm-budget-worksheet.md`](templates/annual-gtm-budget-worksheet.md)
+- [`b2b-influencer-program-brief.md`](templates/b2b-influencer-program-brief.md)
+- [`crisis-customer-email.md`](templates/crisis-customer-email.md)
+- [`crisis-faq-for-support.md`](templates/crisis-faq-for-support.md)
+- [`crisis-holding-statement.md`](templates/crisis-holding-statement.md)
+- [`crisis-internal-memo.md`](templates/crisis-internal-memo.md)
+- [`influencer-partnership-scorecard.md`](templates/influencer-partnership-scorecard.md)
+- [`lifecycle-monitoring-dashboard.md`](templates/lifecycle-monitoring-dashboard.md)
+- [`mrr-bridge-template.md`](templates/mrr-bridge-template.md)
+- [`stage-health-scorecard.md`](templates/stage-health-scorecard.md)
+
+## Artifacts (`artifacts/`)
+
+Ready-to-use scorecards and cheatsheets.
+
+- [`gtm-metrics-scorecard.md`](artifacts/gtm-metrics-scorecard.md)
+- [`icp-tiering-cheatsheet.md`](artifacts/icp-tiering-cheatsheet.md)
+
+## Maintenance Rules
+
+- `pitfalls-index.md` is generated by `npm run build`. Everything else is hand-maintained.
+- New shared references must be linked from at least one skill and listed here.
+- Keep skill-specific material inside the skill folder, not in this directory.

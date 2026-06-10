@@ -6,17 +6,18 @@ description: >-
   economics, and the WbD GTM Index for self-assessment. Use when building GTM
   as a solo founder, bootstrapper, or small team. Triggers on: "solo founder",
   "bootstrapper GTM", "lean GTM", "founder sales", "DIY GTM", "when to hire",
-  "founder tools", "bootstrapped stack", or any request about building GTM without
+  "founder tools", "bootstrapped stack", "product market fit", "PMF test",
+  "when to scale", "scale too early", or any request about building GTM without
   a team.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.1.0"
+  version: "1.2.0"
   author: LeadMagic
   category: founder-led
   tags: [solo-founder, bootstrapper, lean, startup, gtm, tools]
-  related_skills: [sales-team-building, founder-brand, tool-selection-stack, saas-metrics-calculator]
-  frameworks: [Winning by Design GTM Index, SaaStr ACV Thresholds, David Skok Unit Economics]
+  related_skills: [founder-comp-playbook, sales-team-building, founder-brand, tool-selection-stack, saas-metrics-calculator, gtm-tool-cost-model, gtm-spend-management, saas-outcomes, financial-modeling]
+  frameworks: [Winning by Design GTM Index, SaaStr ACV Thresholds, David Skok Unit Economics, Sean Ellis PMF Survey, Rob Walling Bootstrap Path]
 ---
 
 # Solo Founder GTM
@@ -30,7 +31,8 @@ who knows the product deeply selling to people who need it.
 
 This skill builds lean GTM for founders: tool stacks at each revenue stage
 ($0-10K MRR through $50K+), AI agents replacing headcount, and clear
-triggers for when to make the first hire.
+triggers for when to make the first hire. Track tool spend → `gtm-tool-cost-model`;
+operationalize on Ramp → `gtm-spend-management`.
 
 ## When to Use
 
@@ -41,6 +43,9 @@ triggers for when to make the first hire.
 - "Replace SDR work with AI"
 - "Run GTM without a team"
 - "Lean GTM for bootstrappers"
+- "Bootstrap founder path" / "bootstrap capital plan" / "when not to bootstrap"
+- "Do we have product-market fit?"
+- "When should we scale GTM spend / headcount?"
 
 ## Authoritative Foundations
 
@@ -51,24 +56,36 @@ triggers for when to make the first hire.
   10-20 deals before hiring. VP Sales before $2M ARR: 70% failure rate.
 - **David Skok** — Unit economics. CAC payback, LTV:CAC ratios by stage.
   Bootstrapped SaaS often hits 5-10x LTV:CAC organically.
+- **Sean Ellis** — PMF survey: ≥40% "very disappointed" among active users signals
+  must-have product. Run before scaling spend or hires (`pmf-testing-playbook.md`).
+- **Rob Walling (TinySeed/MicroConf).** Bootstrap path: profitable growth,
+  acquisition optionality without default VC. See `saas-outcomes/references/bootstrap-vs-vc-paths.md`
+  and `saas-outcomes/references/bootstrap-founder-playbook.md`.
+- **Tyler Tringas (Calm Company Fund).** Bootstrapper-friendly capital; profitability
+  before blitz — pairs with `saas-outcomes/templates/bootstrap-capital-plan.md`.
 
 ## Step-by-Step Process
 
 ### Phase 1: Stage Assessment
 
-Determine your revenue stage and GTM maturity:
+Determine your revenue stage and GTM maturity. Align with company journey
+(`saas-outcomes/references/journey-stage-gates.md`):
 
-**$0-10K MRR — Validation:**
-You're proving the motion works. Your job: talk to customers, not set up
-infrastructure. Minimum tooling. Maximum conversations.
+| Journey stage | MRR band | Focus |
+|---|---|---|
+| **PMF search** | $0–$10K MRR | Prove retention and pull — not infrastructure |
+| **GTM fit** | $10–50K MRR | Document repeatable motion; founder still sells |
+| **Scale** | $50K+ MRR | Add capacity — AI first, then people — only if scale gates pass |
 
-**$10-50K MRR — Repeatability:**
-The motion works. Your job: document it so it's repeatable. Still founder-led
-sales. Add tooling that saves time without adding complexity.
+**PMF search ($0-10K MRR):** Talk to customers, not tools. Run
+`references/pmf-testing-playbook.md` and `references/pmf-signal-checklist.md`
+before advancing. False PMF traps (one big customer, channel dependency) block scale.
 
-**$50K+ MRR — Scalability:**
-You're hitting the ceiling of founder-led sales. Time to add capacity — AI
-first, then people.
+**GTM fit ($10-50K MRR):** Document playbook. Still founder-led sales.
+Score `references/scale-readiness-gates.md` before first AE hire.
+
+**Scale ($50K+ MRR):** Hit ceiling of founder-led sales. If
+`references/when-not-to-scale.md` stop signals are active — hold, do not hire.
 
 ### Phase 2: Tool Stack by Stage
 
@@ -104,7 +121,21 @@ Before hiring anyone:
 One founder + AI agents can outproduce a 3-person team at a fraction of the
 cost. The founder does the human conversations. AI does everything else.
 
-### Phase 4: Hiring Triggers
+### Phase 4: Comp Budget Before First Hire
+
+Before posting a JD, model **fully loaded cost** (base + taxes + benefits +
+target variable + tools). Bootstrap guardrails (`founder-comp-playbook`):
+
+| MRR / ARR | Max sales payroll % ARR | First hire OTE band (H1 2026) |
+|---|---|---|
+| $50K MRR (~$600K ARR) | 15–20% | Delay or contractor |
+| $80K MRR (~$1M ARR) | 15–25% | 1 AE $120–150K OTE |
+| $150K+ MRR (~$1.8M ARR) | 20–30% | AE + optional SDR |
+
+**Negotiation:** Set +10% reserve before finals. Publish narrow comp range in JD —
+candidates check RepVue. Tool cost per rep: `gtm-tool-cost-model`.
+
+### Phase 5: Hiring Triggers
 
 Don't hire until you've proven the motion personally:
 
@@ -119,7 +150,7 @@ Don't hire until you've proven the motion personally:
 **Never:** VP Sales before $2M ARR (70% failure rate). SDR as first hire
 (founder closes + manages junior rep = neither done well).
 
-### Phase 5: WbD GTM Index Self-Assessment
+### Phase 6: WbD GTM Index Self-Assessment
 
 Score yourself 1-10 on each:
 
@@ -166,9 +197,27 @@ triggers with ARR thresholds, and GTM Index self-assessment scorecard.
 5. **Skipping self-assessment.** The GTM Index surfaces what's broken before
    you scale it. Fix the system, then add people.
 
+## Execution Artifacts
+
+- `references/pmf-testing-playbook.md` — Sean Ellis, cohort retention, payback tests
+- `references/pmf-signal-checklist.md` — PMF go/no-go signals and false-PMF traps
+- `references/scale-readiness-gates.md` — when to scale GTM headcount and spend
+- `references/when-not-to-scale.md` — anti-patterns and stop signals
+- `gtm-spend-management/references/spend-by-stage.md` — ARR-stage tool + payroll guardrails
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
+**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` · `references/activation-playbook.md` · `references/lifecycle-metrics-by-stage.md`
+
+**Cross-skill artifacts:** `saas-outcomes/references/journey-stage-gates.md`, `saas-outcomes/references/bootstrap-founder-playbook.md`, `saas-outcomes/templates/bootstrap-capital-plan.md`, `saas-outcomes/templates/journey-planning-worksheet.md`, `saas-outcomes/references/exit-potential-scorecard.md`, `gtm-role-descriptions/references/gtm-engineer-hiring.md`
+
 ## Related Skills
 
-- **sales-team-building**: Hiring sequence and POD design
+- **saas-outcomes**: Journey stages, end goal, exit optionality
+- **sales-team-building**: Hiring sequence and POD design after scale gates pass
+- **financial-modeling**: Runway and unit economics before scale
 - **founder-brand**: Build personal brand as founder
 - **tool-selection-stack**: Detailed tool comparison
 - **saas-metrics-calculator**: Unit economics for your stage
+- **gtm-spend-management**: Stage-appropriate spend and vendor roster

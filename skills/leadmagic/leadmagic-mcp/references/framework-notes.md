@@ -1,20 +1,41 @@
-# Leadmagic Mcp — Framework Notes
+# LeadMagic MCP — Framework Notes
 
-Use these references to ground outputs in named, repeatable methodology.
+**Category:** `leadmagic` · Agent tool layer for enrichment lookups.
 
 ## Primary Frameworks
 
-- MCP Protocol Specification
-- Anthropic Tool Use Patterns
-- Agent-Enabled GTM
+- **MCP Protocol Specification** — Tool discovery, schemas, invocation
+- **Anthropic Tool Use Patterns** — Narrow tools, confirmation gates, batch discipline
+- **Pat Spielmann — Data before action** — Agent must cite verify status before recommending send → `../../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
 
-## Operating Assumptions
+## Tool Boundaries
 
-- Adapt recommendations by ICP tier: small business, mid-market, and enterprise.
-- Separate strategy from execution: define the decision rule before creating assets.
-- Prefer measurable outputs: fields, templates, scores, dashboards, or checklists.
-- Avoid legal, tax, accounting, insurance, or compliance conclusions unless the skill explicitly says to consult qualified professionals.
+| Layer | Skill | Role |
+|---|---|---|
+| MCP config | leadmagic-mcp (this) | Agent tool rules |
+| Architecture | mcp-setup | Server design |
+| Batch execution | n8n-toolkit MCP-01 | Approved jobs at scale |
+| CLI alternative | leadmagic-cli | Terminal batch (no agent loop) |
+
+## Guardrails
+
+Load `references/agent-tool-guardrails.md` — confirmation required for CRM write and sequencer enroll.
+
+## Agent Jobs vs Side Effects
+
+| Job | Side Effect? | Gate |
+|---|---|---|
+| Find / validate / enrich | No | Status in output |
+| CRM upsert | Yes | User confirm |
+| Sequencer enroll | Yes | User confirm |
+| Batch >100 rows | Prefer n8n | Redirect to MCP-01 |
 
 ## Agent Use
 
-Before final output, cite which framework shaped the recommendation and identify any assumptions that need user confirmation.
+1. Map agent jobs to tool categories.
+2. Load agent-tool-guardrails for deliverable.
+3. Recommend n8n for batch; MCP for research samples.
+4. Never commit API keys.
+5. Run `check-output.py`.
+
+Expert router → `references/gtm-experts-outbound-index.md`

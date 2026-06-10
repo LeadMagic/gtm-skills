@@ -41,6 +41,12 @@ This skill is grounded in public frameworks and source material relevant to the 
 - "Early warning system"
 - "Retention analytics"
 
+## Lifecycle Stage
+
+**Retention** (stage 6). Canonical index → `references/gtm-lifecycle-stages.md`.  
+Metrics → `references/lifecycle-metrics-by-stage.md` (Retention).  
+Scorecard → `references/templates/stage-health-scorecard.md` (Retention panel).
+
 ## Core Principle
 > The best churn signal is not "they stopped paying" — it's the behavior
 > pattern they exhibit 60-90 days before they stop paying. Your job is to
@@ -154,6 +160,14 @@ Before delivering, verify:
 1. **Skipping research.** Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
 2. **Generic output.** "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
 3. **Missing framework citations.** Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
+**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Retention) · `references/lifecycle-metrics-by-stage.md` · `references/templates/stage-health-scorecard.md`
 
 ## Related Skills
 - churn-prevention, cs-playbooks, onboarding-sequences, lifecycle-drips, expansion-selling

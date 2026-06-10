@@ -282,6 +282,12 @@ Before delivering, verify:
    Write articles from actual tickets. Every ticket that gets the same answer
    3x becomes a help center article.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - `cs-playbooks` — Onboarding, health scoring, CSQLs, churn intervention

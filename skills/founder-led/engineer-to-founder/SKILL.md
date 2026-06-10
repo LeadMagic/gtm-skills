@@ -82,6 +82,11 @@ worked? I built them in public, got feedback from day 0, and iterated fast."
 
 ### Phase 2: Building Your First Startup as an Engineer
 
+**Validate PMF before scaling build.** Run `solo-founder-gtm/references/pmf-testing-playbook.md`
+and score `solo-founder-gtm/references/pmf-signal-checklist.md` before adding headcount
+or GTM spend. Do not hire or scale until `solo-founder-gtm/references/scale-readiness-gates.md`
+passes — see `solo-founder-gtm` for stage-appropriate spend.
+
 **The engineer's anti-pattern (and how to avoid it):**
 
 | Anti-Pattern | Why It Fails | Fix |
@@ -332,10 +337,21 @@ Before delivering, verify:
 - Auth: Clerk, NextAuth (don't build auth yourself)
 - Email: Resend, Loops, SendGrid
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Quit matrix, anti-patterns, PMF cross-links
+- `solo-founder-gtm/references/pmf-signal-checklist.md` — PMF signals before scale
+- `solo-founder-gtm/references/pmf-testing-playbook.md` — Smoke test methodology
+- `saas-outcomes/references/journey-stage-gates.md` — Company stage gates
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
+**Cross-skill (PMF → scale):** `solo-founder-gtm/references/pmf-testing-playbook.md`, `solo-founder-gtm/references/pmf-signal-checklist.md`, `solo-founder-gtm/references/scale-readiness-gates.md`
+
 ## Related Skills
 
 - `co-founder-dynamics` — Finding a co-founder, equity splits, working together
-- `solo-founder-gtm` — GTM strategies for solo founders
+- `solo-founder-gtm` — GTM strategies for solo founders; PMF tests and scale gates
 - `building-saas` — Complete SaaS building playbook
 - `founder-sales` — Sales for founders who've never sold
 - `first-hires-playbook` — First 10 hires

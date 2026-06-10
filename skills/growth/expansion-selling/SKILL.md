@@ -11,16 +11,20 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "2.0.0"
+  version: "2.1.0"
   author: LeadMagic
   category: growth
   tags: [expansion, upsell, cross-sell, nrr, land-expand, revenue-growth]
-  related_skills: [churn-prevention, cs-playbooks, cs-analytics-dashboards, pricing-strategy, customer-onboarding]
+  related_skills: [churn-prevention, cs-playbooks, cs-analytics-dashboards, pricing-strategy, customer-onboarding, saas-metrics-calculator, saas-outcomes]
   frameworks:
     - "Winning by Design — Bowtie Funnel (post-sale expansion)"
     - "Reforge — Expansion Revenue and Product-Qualified Accounts"
     - "Gainsight — Expansion Selling Framework"
     - "Jason Lemkin (SaaStr) — NRR as the ultimate SaaS metric"
+    - "Marc Benioff — Land-and-expand enterprise motion"
+    - "Randy Seidl (Sales Community) — Relationship-led expansion, stakeholder trust"
+    - "Frank Slootman / Snowflake — Consumption land-expand, use-case tracking, rep usage incentive"
+    - "Databricks — DBU consumption expansion, workload-based growth"
 ---
 
 # Expansion Selling
@@ -36,12 +40,21 @@ complete expansion playbook: triggers, scoring, execution, and measurement.
 
 ## Frameworks Referenced
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Winning by Design — Bowtie Funnel (post-sale expansion).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Reforge — Expansion Revenue and Product-Qualified Accounts.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Gainsight — Expansion Selling Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Jason Lemkin (SaaStr) — NRR as the ultimate SaaS metric.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Winning by Design — Bowtie Funnel** — Post-sale expansion as revenue system
+- **Jason Lemkin (SaaStr)** — NRR drives exit multiples (PE/strategic)
+- **Marc Benioff** — Land-and-expand enterprise motion
+- **Randy Seidl** — Relationship-led expansion: map stakeholders beyond the
+  original champion; score trust before upsell. Load `sales-coaching` →
+  `skills/management-leadership/sales-coaching/references/randy-seidl-relationship-selling.md`. Complements Benioff CRM
+  land-expand structure (`crm-toolkit` → land-expand-account-plan).
+- **Snowflake consumption model (Slootman, Degnan).** Land with **paid pilot**
+  (low ACV entry); expand via **use cases** tracked in CRM; rep comp on booking
+  **and** consumption so hit-and-run deals are penalized. Slootman aligned entire
+  exec team to usage metrics. See `gtm-leadership/references/cro-enterprise-strategy.md`.
+- **Databricks DBU expansion.** Revenue grows with data volume and query
+  analysis — expansion triggers are **workload adoption**, not seat adds.
+  Technical sellers drive POC → production workloads. Gabrisko: structure field
+  vs inside by ACV and buyer complexity.
 
 ## When to Use
 
@@ -109,11 +122,14 @@ Score < 40: Focus on adoption before expansion
 **NRR Formula:**
 NRR = (Starting MRR + Expansion - Contraction - Churn) / Starting MRR
 
-**Target NRR by stage:**
+**Target NRR by stage** (reconcile with `references/benchmark-reconciliation.md`):
 - Seed: 100%+ (aspirational)
 - Series A: 105%+
 - Series B: 110%+
 - Growth: 115%+
+- Public-company comp (Meritech): median ~108–111%; leaders 120%+
+
+**Flywheel note (Dharmesh Shah / HubSpot):** Expansion + advocacy = Delight stage fuel. See `references/dharmesh-shah-hubspot-inbound.md`.
 
 **Expansion as % of New Revenue:**
 Best-in-class SaaS: 30-40% of net new ARR comes from expansion
@@ -149,19 +165,17 @@ Median SaaS: 15-25%
 
 ## Output Format
 
-The agent should produce a structured deliverable:
-
-```markdown
-# [Deliverable Title]
-
-## Summary
-[1-2 sentence summary of what was produced]
-
-## Key Outputs
-- [Output item 1]
-- [Output item 2]
-- [Output item 3]
-```
+Expansion playbook containing: (1) expansion propensity score formula with
+threshold bands (expand now / nurture / focus on adoption) applied to the
+target account set; (2) trigger table — each expansion signal mapped to the
+corresponding play, conversion rate benchmark, and recommended action with
+timing; (3) NRR formula with stage-appropriate targets (Seed through Growth)
+and expansion-as-percentage-of-new-ARR benchmarks; (4) four named expansion
+plays (Seat Expansion, Tier Upgrade, Cross-Sell, Enterprise Expansion) with
+trigger conditions, talk-track outline, and economics per play; (5) CSM
+expansion cadence by month (1-2 onboarding, 3 trigger identification, 4-6
+first conversation, 6-12 close); (6) implementation checklist with automated
+trigger alerts, comp structure tied to NRR, and monthly measurement cadence.
 
 ## Quality Check
 
@@ -170,6 +184,19 @@ Before delivering, verify:
 - [ ] Output matches the user's stated need
 - [ ] No vague or unsupported claims
 - [ ] Frameworks cited where applicable
+
+## Execution Artifacts
+
+- `../../management-leadership/gtm-leadership/references/cro-enterprise-strategy.md` — Snowflake consumption + Databricks workload expansion (Pattern 31)
+- `references/framework-notes.md` — Bowtie expansion, propensity score, NRR benchmarks
+- `sales-coaching/references/randy-seidl-relationship-selling.md` — Stakeholder trust map for expansion (canonical)
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
+**Lifecycle (Revenue stage):** `references/gtm-lifecycle-stages.md` · `references/lifecycle-skill-index.md` · Pattern 18 in `using-gtm-skills`  
+**Cross-skill:** `saas-metrics-calculator/references/metric-definitions-exit-weight.md` (NRR exit weight) · `references/saas-metrics-reference.md`
+
+**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Revenue) · `references/lifecycle-metrics-by-stage.md` · `references/templates/stage-health-scorecard.md`
 
 ## Related Skills
 

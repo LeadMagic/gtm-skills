@@ -321,6 +321,12 @@ Before delivering, verify:
    9:16 vertical, under 3 min. YouTube Shorts: 9:16, under 60 sec. Fix:
    Export in the correct aspect ratio and duration for each platform.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - `vibe-marketing` — Full AI marketing stack

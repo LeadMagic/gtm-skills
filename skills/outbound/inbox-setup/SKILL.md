@@ -171,6 +171,13 @@ dashboard setup.
 6. **DNS misconfiguration.** A missing DKIM record or incorrect SPF syntax
    is caught by every major inbox provider. Triple-check all records.
 
+## Execution Artifacts
+
+- `../cold-email-strategy/references/eric-nowoslawski-outbound.md` — Sending volume strategy, 1:1 backups (Eric Nowoslawski)
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - **email-deliverability**: Full deliverability strategy beyond infrastructure

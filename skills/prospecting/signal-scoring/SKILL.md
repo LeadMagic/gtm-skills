@@ -20,6 +20,7 @@ metadata:
     - "ColdIQ Signal Taxonomy"
     - "Explorium Signal-Based Selling"
     - "Aaron Ross — Predictable Revenue"
+    - "Joey Gilkey — Phone Intent (reachability scoring)"
 ---
 
 # Signal Scoring
@@ -52,6 +53,10 @@ decided to run a campaign.
 The priority rule is recency + specificity. A website pricing page visit from
 yesterday beats a Bombora intent surge from last week. The signal with the
 clearest, most recent tie to purchase intent leads the outreach.
+
+For **phone-led** outbound, layer **Joey Gilkey Phone Intent** on top of buying
+signals — reachability is a separate dimension from purchase intent. High intent
++ low phone intent → email/LI first. → `references/joey-gilkey-bucketing.md`
 
 ## Prerequisites
 
@@ -152,6 +157,14 @@ stage struggle with ramp time. We helped [similar company] cut it by 40%."
 5. **Equal-weight scoring.** Not all signals are equal. A company hiring
    for a role your product directly supports is worth more than a generic
    intent signal. Weight accordingly.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `references/joey-gilkey-bucketing.md` — Phone Intent scoring layer (repo root)
+- `references/cold-calling-experts-index.md` — Phone vs email signal router (repo root)
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 

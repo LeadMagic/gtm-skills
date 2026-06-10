@@ -45,11 +45,14 @@ npm run check
 gh skill publish --dry-run
 ```
 
-Expected result:
+`npm run check` runs the skill validator, the reference audit (`scripts/audit-references.py`, which confirms every reference target resolves, skill paths are flat, and frontmatter `name` matches the directory), the lock check, the installer dry-run, and the public-repo hygiene audit.
+
+Expected result (count matches the current catalog):
 
 ```text
-189 skills checked. 0 errors, 0 warnings.
-skills.lock verified: 189 skills
+202 skills checked. 0 errors, 0 warnings.
+Reference audit passed: 202 skills, all reference targets resolve, layout and frontmatter names clean.
+skills.lock verified: 202 skills
 ```
 
 ## Adding a Skill

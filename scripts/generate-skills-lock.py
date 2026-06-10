@@ -25,7 +25,7 @@ def discover_skills() -> list[Path]:
     missed = []
     for p in skills:
         rel = p.relative_to(SKILLS_DIR).parts
-        if len(rel) != 3 or rel[-1] != "SKILL.md":
+        if rel[-1] != "SKILL.md" or len(rel) not in (3, 4):
             missed.append(str(p.relative_to(ROOT)))
     if missed:
         raise SystemExit("Non-marketplace-discoverable skill paths:\n" + "\n".join(missed))
@@ -43,11 +43,10 @@ def sha256_file(path: Path) -> str:
 def build_lock() -> dict:
     skills = {}
     for path in discover_skills():
-        rel = path.relative_to(ROOT).as_posix()
-        category, slug, _ = path.relative_to(SKILLS_DIR).parts
-        key = f"{category}/{slug}"
+        rel_parts = path.relative_to(SKILLS_DIR).parts
+        key = "/".join(rel_parts[:-1])  # e.g. tools/clay-loops-toolkit
         skills[key] = {
-            "path": rel,
+            "path": list(rel_parts),
             "sha256": sha256_file(path),
             "size_bytes": path.stat().st_size,
         }

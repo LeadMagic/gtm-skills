@@ -311,6 +311,12 @@ Before delivering, verify:
    communication is a churn event. Fix: Auto-notify manager on breach.
    Template for customer communication. Post-mortem for root cause.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - `support-tool-stack` — Intercom, Zendesk, Front, Help Scout setup

@@ -2,36 +2,55 @@
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- ICP tier:
+- Mailbox count target:
+- Clay source? Y/N
 
 ## Framework Basis
-- Frameworks used:
-- Why these apply:
+- Eric Nowoslawski — Smartlead at scale (15-25 mailboxes/campaign)
+- Pat Spielmann — verify-before-send
+- Smartlead — AI categorization, master inbox
 
-## Recommendation
-1.
-2.
-3.
+## Infrastructure Checklist
+| Item | Status |
+|---|---|
+| Domains + mailboxes connected |  |
+| DNS verified |  |
+| Warmup 2-3 weeks |  |
+| Master inbox configured |  |
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+## Campaign Configuration
+| Setting | Value |
+|---|---|
+| Mailboxes in rotation |  |
+| Sends/day/mailbox | 30-50 |
+| Sequence steps |  |
+| Plain text only | Y |
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+## Clay Enrollment Gate
+- [ ] Pre-push verify gate documented
+- [ ] Custom variables: why_now, verify_status, signal_url
+- Spec: `references/clay-enrollment-handoff.md`
 
-## Risks / Pitfalls
--
+## AI Reply Categorization
+| Category | Label | Auto-Action |
+|---|---|---|
+| Positive | INTERESTED |  |
+| Neutral | NOT NOW |  |
+| Negative | UNSUBSCRIBE | block |
+
+## A/B Test Plan
+| Variable | Variants | Sample Size |
+|---|---|---|
+| Subject |  | 500+ |
+
+## Optimization Cadence
+| Metric | Target |
+|---|---:|
+| Reply rate | >2% |
+| Bounce rate | <3% |
 
 ## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+- [ ] Eric mailbox math documented
+- [ ] AI categories trained before scale
+- [ ] Clay handoff if enrichment upstream

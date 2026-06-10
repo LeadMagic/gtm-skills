@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'skills/**'
+      - 'references/**'
       - 'scripts/**'
       - 'docs/**'
       - '.claude-plugin/**'
@@ -28,6 +29,7 @@ on:
     branches: [main]
     paths:
       - 'skills/**'
+      - 'references/**'
       - 'scripts/**'
       - 'docs/**'
       - '.claude-plugin/**'
@@ -72,12 +74,13 @@ jobs:
         run: |
           node --check scripts/validate-skills.js
           node --check scripts/generate-indexes.js
-          python3 -m py_compile scripts/generate-skills-lock.py scripts/install-tui.py scripts/public-repo-audit.py
+          node --check scripts/generate-pitfalls-index.js
+          python3 -m py_compile scripts/generate-skills-lock.py scripts/install-tui.py scripts/public-repo-audit.py scripts/audit-references.py
       - name: Validate skills, lock, installer, and public hygiene
         run: npm run check
       - name: Verify generated files are current
         run: |
           npm run build
-          git diff --exit-code -- AGENTS.md CLAUDE.md README.md taxonomy.csv skills.lock .claude-plugin/plugin.json .claude-plugin/marketplace.json
+          git diff --exit-code -- AGENTS.md CLAUDE.md README.md taxonomy.csv skills.lock references/pitfalls-index.md .claude-plugin/plugin.json .claude-plugin/marketplace.json
       - name: Publish dry-run
         run: gh skill publish --dry-run

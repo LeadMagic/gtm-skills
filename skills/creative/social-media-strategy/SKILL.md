@@ -10,11 +10,12 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   author: LeadMagic
   category: creative
   tags: [social-media, linkedin, twitter, x, content, engagement]
-  frameworks: [Charlie Hills Social Media, Brendan Gahan Creator Economy, LinkedIn Algorithm Best Practices]
+  related_skills: [linkedin-algorithm, founder-brand, social-selling, content-distribution]
+  frameworks: [Charlie Hills Social Media, Brendan Gahan Creator Economy, "Richard van der Blom (Just Connecting) — LinkedIn Algorithm Insights Report"]
 ---
 
 # Social Media Strategy
@@ -39,9 +40,12 @@ tactics for LinkedIn (primary B2B channel) and X/Twitter (secondary).
   content distribution. Personal brand as growth lever.
 - **Brendan Gahan** — creator economy and social engagement. Community over
   audience.
-- **LinkedIn algorithm** — rewards: dwell time, comments (especially replies
-  from author), relevant hashtags (3 max), native documents (carousels).
-  Punishes: external links in post body, engagement bait, over-posting.
+- **Richard van der Blom (Just Connecting) — Algorithm Insights Report** —
+  rewards: dwell time + completion rate, comment threads (especially author
+  replies), saves, native documents (carousels). Punishes: external links in
+  post body, hashtag stuffing (posts without hashtags now outperform by
+  5-10%), 5+ person tags, over-posting (>1/day), AI-sounding text. Full data
+  and format rankings → `linkedin-algorithm`.
 
 ## Step-by-Step Process
 ### Phase 1: Platform Selection
@@ -55,8 +59,10 @@ tactics for LinkedIn (primary B2B channel) and X/Twitter (secondary).
 ### Phase 2: LinkedIn Content Strategy
 Content mix: 40% insights from your work, 30% reactions to industry news,
 20% personal stories/lessons, 10% promotion. Never: 100% company content.
-Best formats: text-only posts (highest reach), document carousels (highest
-engagement), polls (fastest growth).
+Best formats per van der Blom's 2026 data: document carousels (top reach
+~1.39x and engagement ~6.6%), image + text (volume workhorse), short sharp
+text posts (under 600 characters trending up). See `linkedin-algorithm` for
+the full ranking.
 
 Posting time: Tuesday-Thursday, 8-10am or 12-1pm local time. Test what
 works for your audience.
@@ -122,7 +128,7 @@ Map the recommendation explicitly to the named frameworks in this skill:
 
 - Charlie Hills Social Media: apply only the part that directly improves the requested deliverable.
 - Brendan Gahan Creator Economy: apply only the part that directly improves the requested deliverable.
-- LinkedIn Algorithm Best Practices: apply only the part that directly improves the requested deliverable.
+- Richard van der Blom — Algorithm Insights Report: apply only the part that directly improves the requested deliverable.
 
 ### Deliverable Standard
 
@@ -141,8 +147,15 @@ A strong output from this skill includes:
 - For enterprise: include governance, risk, procurement, stakeholder mapping, and proof requirements.
 
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
-- **founder-brand**: Personal brand strategy for founders
+- **linkedin-algorithm**: LinkedIn reach mechanics (van der Blom report data)
+- **founder-brand**: Personal brand strategy for founders (Adam Robinson playbook)
 - **social-selling**: LinkedIn for prospecting and sales
 - **copywriting**: Social media copy frameworks
 - **graphic-design-gtm**: Visual asset creation for social

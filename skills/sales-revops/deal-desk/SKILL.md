@@ -10,12 +10,12 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   author: LeadMagic
   category: sales-revops
   tags: [deal-desk, pricing, proposals, negotiation, business-case]
-  related_skills: [pricing-strategy, roi-calculator, pipeline-management]
-  frameworks: [Ramanujam Monetizing Innovation, ValueSelling Framework, Force Management Command of the Message, Todd Caponi Transparency Sale]
+  related_skills: [pricing-strategy, roi-calculator, pipeline-management, transparency-selling, expansion-selling, crm-toolkit, customer-onboarding, security-assessments, soc2-compliance, data-privacy-compliance, revenue-team-onboarding]
+  frameworks: [Ramanujam Monetizing Innovation, ValueSelling Framework, Force Management Command of the Message, Todd Caponi Transparency Sale, Jason Lemkin SaaStr SOC2 as enterprise sales gate, Vanta Trust Center sales handoff, Eunice Buhler G2 sales-legal alignment, Ironclad deal desk swimlanes, a16z commercial counsel hiring]
 ---
 
 # Deal Desk
@@ -77,12 +77,8 @@ Ask the user:
 
 ### Phase 3: Business Case Construction
 
-Structure:
-1. **Current State Cost**: What the problem costs today (time, money, risk)
-2. **Future State Value**: What solving it delivers (revenue, efficiency, risk reduction)
-3. **Investment Required**: Your pricing, implementation costs, training
-4. **ROI Timeline**: Payback period, 1-year ROI, 3-year ROI
-5. **Risk of Inaction**: What happens if they don't solve it now
+Template: `templates/business-case.md` — current state cost, future value,
+investment, ROI, risk of inaction. Deep ROI → `roi-calculator`.
 
 ### Phase 4: Discount Authority
 
@@ -95,6 +91,48 @@ Structure:
 
 Never discount without getting something in return: multi-year commit,
 case study permission, reference call, logo rights, or expansion commitment.
+
+Document every request in `templates/discount-authority.md`. Land-and-expand
+deals: `crm-toolkit` land-expand-account-plan — protect expansion ACV.
+
+### Phase 5: Enterprise Security & Customer Data (GTM)
+
+Enterprise deals often stall on **security review** and **data exchange** —
+not price. This is GTM coordination, not infra engineering.
+
+**When security review enters the deal:**
+
+| Stage | AE / deal desk action |
+|---|---|
+| Discovery | Ask when procurement runs security; share trust center link |
+| Evaluation | Prefer synthetic POC data; log questionnaire receipt same day |
+| Negotiation | DPA + order form in parallel; don't discount to "skip" security |
+| Closed-won | Hand off artifacts + data boundaries to CS |
+
+Full timing playbook → `references/security-questionnaire-deal-guide.md`
+( repo root ). SOC 2 / pen test *implementation* → `soc2-compliance`,
+`security-assessments`.
+
+**Legal GTM (commercial velocity):** Eunice Buhler (G2 GC) — legal as deal
+accelerator via availability, published SLAs, and "get to yes" commercial mindset.
+Ironclad CLM — situational approval swimlanes, legal-pre-approved MSA variants,
+CRM-native order forms. Canonical → `references/legal-gtm-playbook.md` (Pattern 29).
+DPA timing aligned with `references/gtm-data-exchange-playbook.md` — enterprise
+DPA during negotiation, before production data intake.
+
+**Customer data exchange (what reps request from buyers):**
+
+- Minimum data for the next milestone — not "send everything"
+- Approved channels only: customer-owned upload, secure file share, in-app
+  import — **never email attachments or Slack files with PII**
+- Go/no-go before production data: contract scope, DPA status, retention date
+
+Canonical SOP → `references/gtm-data-exchange-playbook.md`. Checklist →
+`templates/customer-data-exchange-checklist.md`.
+
+**Red flags that kill deals:** full CRM export in discovery; AE solo-filling
+security questionnaires; POC on production when sandbox exists; no handoff of
+what data was already exchanged.
 
 ## Output Format
 
@@ -125,8 +163,23 @@ framework, and negotiation strategy.
    to-pay. A 10-person startup and a 500-person enterprise shouldn't see
    the same pricing.
 
+## Execution Artifacts
+
+- `templates/business-case.md` — ROI business case structure
+- `templates/discount-authority.md` — Approval + trade documentation
+- `templates/customer-data-exchange-checklist.md` — Pre/on/post-sale data exchange gates
+- `references/legal-gtm-playbook.md` — Eunice Buhler + Ironclad commercial counsel for sales (Pattern 29)
+- `references/framework-notes.md`
+- `templates/output-template.md`
+- `scripts/check-output.py`
+- `references/gtm-data-exchange-playbook.md` — Canonical customer data exchange SOP (repo root)
+- `references/security-questionnaire-deal-guide.md` — When security review enters the deal (repo root)
+
 ## Related Skills
 
 - **pricing-strategy**: Overall pricing model design
 - **roi-calculator**: Detailed ROI calculation and business case tools
 - **pipeline-management**: Track deals through negotiation and close
+- **customer-onboarding**: Post-sale data handoff and implementation boundaries
+- **soc2-compliance**, **security-assessments**: Building trust artifacts (founder-led)
+- **revenue-team-onboarding**: Rep security hygiene before customer contact

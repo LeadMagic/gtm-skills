@@ -1,20 +1,31 @@
 # Sales Coaching — Framework Notes
 
-Use these references to ground outputs in named, repeatable methodology.
+**Last updated:** June 2025
 
 ## Primary Frameworks
 
-- Winning by Design REKS
-- Force Management MEDDICC Deal Review
-- Keith Rosen — Sales Coaching
+| Framework | Author | Coaching use |
+|---|---|---|
+| **REKS** | Jacco van der Kooij / WbD | Diagnose before prescribe |
+| **SPICED** | WbD | Discovery coaching |
+| **MEDDICC** | Andy Whyte | Deal review evidence |
+| **JOLT** | Dixon & McKenna | Late-stage indecision |
+| **PVP** | Jason Bay | SDR messaging |
+| **Sell Better drills** | Jon Barrows | Call skill reps |
+| **Manager cadence** | Kevin Dorsey | 1:1 + accountability |
+| **Radical Candor** | Kim Scott | Hard feedback → `gtm-leadership` |
 
-## Operating Assumptions
+## Coaching Stack
 
-- Adapt recommendations by ICP tier: small business, mid-market, and enterprise.
-- Separate strategy from execution: define the decision rule before creating assets.
-- Prefer measurable outputs: fields, templates, scores, dashboards, or checklists.
-- Avoid legal, tax, accounting, insurance, or compliance conclusions unless the skill explicitly says to consult qualified professionals.
+```
+REKS diagnose → SPICED (early) / MEDDICC (pipeline) / JOLT (stall)
+→ call rubric (one keep / one fix) → 1:1 (no status updates)
+```
 
 ## Agent Use
 
-Before final output, cite which framework shaped the recommendation and identify any assumptions that need user confirmation.
+1. Always REKS before coaching action
+2. Deal reviews = scorecard + evidence, not narrative
+3. Indecision → JOLT, not more ROI
+4. Founders → `founder-coaching.md` until manager hired
+5. Cite **Jacco van der Kooij** for REKS/SPICED — not generic "WbD"

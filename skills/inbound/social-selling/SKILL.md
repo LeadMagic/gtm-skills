@@ -10,15 +10,19 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.3.0"
   author: LeadMagic
   category: inbound
   tags: [linkedin, social-selling, sales-navigator, outreach]
-  related_skills: [multi-channel-outreach, cold-email-strategy, founder-brand]
+  related_skills: [multi-channel-outreach, cold-email-strategy, founder-brand, linkedin-algorithm]
   frameworks:
     - "LinkedIn SSI Methodology"
+    - "Richard van der Blom (Just Connecting) — LinkedIn Algorithm Insights Report"
     - "HubSpot Academy — Inbound Methodology"
     - "Marcus Sheridan — They Ask You Answer"
+    - "Randy Seidl (Sales Community) — Relationship selling, Three Plays, trust-building"
+    - "Varun Anand (Clay) — Community infiltration & creator flywheel"
+    - "Aneesh Lal (Wishly Group) — LinkedIn B2B creator partnerships & executive visibility"
 ---
 
 # Social Selling
@@ -49,6 +53,28 @@ LinkedIn's own Social Selling Index (SSI) measures four dimensions: professional
 brand, finding the right people, engaging with insights, and building relationships.
 LinkedIn data shows that SSI leaders create 45% more opportunities and are 51%
 more likely to hit quota.
+
+**Varun Anand (Clay) — Community infiltration.** Social selling extends beyond
+LinkedIn DMs: join Slack, WhatsApp, and practitioner communities where buyers
+already discuss problems (Modern Sales Pros, niche agency groups). Respond to
+keyword-triggered threads with value-first help — not pitches. Clay's motion
+seeded LinkedIn creator flywheels from agency owners posting workflows. Full
+playbook → `customer-marketing` → `community-selling-varun.md`.
+
+**Randy Seidl** (Sales Community) — for **enterprise** social selling, go beyond
+SSI metrics to **relationship capital**. His **Three Plays** (self, company/product,
+customer outcome) and **relationship map** discipline apply when LinkedIn builds
+trust for $100K+ deals — not volume DMs. Load `sales-coaching` →
+`skills/management-leadership/sales-coaching/references/randy-seidl-relationship-selling.md`. Pair with **Chris Walker**
+(demand creation / dark social) for pre-meeting awareness.
+
+**Aneesh Lal (Wishly Group) — B2B creator GTM.** When the motion is **paid
+creator partnerships** (not rep DMs), load `references/aneesh-wishly-b2b-influencer.md`.
+Key distinctions: ICP-aligned creator selection over vanity followers; Awareness →
+Education → Conversion bundles; post-engagement nurture (commenters → SDR). Executive
+visibility for founders overlaps `founder-brand` — creators accelerate **awareness**
+lifecycle stage (`references/gtm-lifecycle-stages.md`). Measurement →
+`references/b2b-influencer-measurement.md` (dark social + UTM limits).
 
 ## Prerequisites
 
@@ -97,7 +123,9 @@ No "I'd love to tell you about my company." Give before you ask.
 ### Phase 4: Content-to-Conversation
 
 Posting isn't about going viral. It's about creating conversation starters
-with your ICP. Post about:
+with your ICP. For reach mechanics — format rankings, dwell time, link
+penalties, golden hour — load `linkedin-algorithm` (Richard van der Blom's
+Algorithm Insights Report). Post about:
 - Problems your ICP faces (not your product)
 - Data and insights from your work
 - Customer stories (anonymized, with permission)
@@ -136,8 +164,21 @@ Social selling playbook with profile optimization checklist, DM sequences
 5. **Inconsistent activity.** Posting once a month looks like you're not
    serious. 2-3 posts/week minimum to maintain visibility.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `references/aneesh-wishly-b2b-influencer.md` — B2B LinkedIn creator partnerships (Wishly / Aneesh Lal)
+- `references/b2b-influencer-strategy.md` — Program design, ICP creator selection
+- `references/b2b-influencer-measurement.md` — Dark social, influencer ROI, UTM limits
+- `references/templates/influencer-partnership-scorecard.md` — Creator evaluation
+- `skills/management-leadership/sales-coaching/references/randy-seidl-relationship-selling.md` — Enterprise relationship map, Three Plays, trust scorecard (canonical)
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - **multi-channel-outreach**: Coordinate LinkedIn with email and calls
-- **founder-brand**: For founders building personal brand on LinkedIn
+- **linkedin-algorithm**: Organic reach mechanics (van der Blom report data)
+- **founder-brand**: For founders building personal brand on LinkedIn (Adam Robinson playbook)
 - **cold-email-strategy**: The email side of the outreach motion
+- **customer-marketing**: Community selling playbook (`community-selling-varun.md`)

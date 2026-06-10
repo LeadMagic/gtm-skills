@@ -12,10 +12,11 @@ metadata:
   category: automation
   tags: [n8n, automation, workflows, pipelines]
   frameworks:
+    - "Jen Igartua (Go Nimbly) — RevOps automation maturity and orchestration roadmap"
     - "n8n Workflow Automation Framework"
     - "iPaaS Integration Patterns"
     - "HubSpot Academy — CRM Automation"
-  related_skills: [clay-automation, api-enrichment, crm-integration]
+  related_skills: [n8n-toolkit, clay-automation, mcp-setup, api-enrichment, crm-integration]
 ---
 
 # n8n Automation
@@ -27,6 +28,14 @@ pipelines, multi-step automation with proper error handling and retry logic,
 and integrations Clay does not support. Use n8n when you need a queue you can
 pause, error recovery that does not lose data, and integrations across tools
 that Clay cannot reach.
+
+**Implementation detail:** Load `n8n-toolkit` for flow blueprints (inbound,
+outbound, signals, MCP triggers), node patterns, and production deployment.
+This skill covers *when* to use n8n; the toolkit covers *how* to build.
+
+**Playbook index:** `references/automation-playbook-index.md` — all 38 automation + tool + gtm-ops playbooks.
+
+**Strategy first:** `references/gtm-automation-expert-playbook.md` (Jen Igartua — Pattern 30) before flow build.
 
 ## Frameworks Referenced
 
@@ -63,14 +72,19 @@ Trigger → Enrichment → Scoring → Routing → CRM Push → Notification
 
 ### Phase 3: Common GTM Workflows
 
-1. **Inbound lead processing**: Form fill webhook → enrich → score → route to
-   rep → Slack notification. Total latency: 15-45 seconds.
+Full node-level specs in `n8n-toolkit` → `references/gtm-flow-catalog.md`:
 
-2. **Batch enrichment**: CSV upload → split into batches → enrich each batch
-   → verify → push to CRM. Process 5K records in 2-4 hours.
+| Flow ID | Motion | Summary |
+|---|---|---|
+| INB-01 | Inbound | Form → enrich → score → route (<60s) |
+| OUT-01 | Outbound | Batch enrich → CRM (5K in 2–4h) |
+| OUT-02 | Outbound | Clay/n8n → sequencer (human gate) |
+| SIG-01–04 | Signal | Funding, job change, hiring, stale opp |
+| LIF-03 | Lifecycle | Reply webhook → classify → route |
+| MCP-01 | Agent | Approved batch jobs via webhook |
 
-3. **Signal-to-action**: Job change detected → enrich new company → score →
-   create CRM task → notify rep in Slack.
+**n8n vs Clay vs MCP:** See decision matrix in `n8n-toolkit`. Agents (MCP)
+research and draft; n8n executes deterministic pipelines.
 
 ## Output Format
 
@@ -105,6 +119,7 @@ Before delivering, verify:
 
 This skill includes lightweight artifacts the agent can load on demand:
 
+- `references/gtm-automation-expert-playbook.md` — Jen Igartua RevOps automation strategy (repo root; Pattern 30)
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
@@ -150,6 +165,9 @@ A strong output from this skill includes:
 
 ## Related Skills
 
+- **n8n-toolkit**: Flow catalog, MCP patterns, node configs (primary implementation)
+- **mcp-setup**: Agent-side MCP; pairs with MCP-01 n8n webhook
 - **clay-automation**: Clay workflows for enrichment
 - **api-enrichment**: API enrichment patterns
 - **crm-integration**: CRM configuration for receiving n8n data
+- **gtm-role-descriptions**: GTM Engineer hiring — n8n listed in JD and scorecard

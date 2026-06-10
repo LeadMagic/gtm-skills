@@ -12,7 +12,7 @@ metadata:
   author: LeadMagic
   category: automation
   tags: [mcp, agents, tools, integration, automation]
-  related_skills: [agent-tool-calling, agent-guardrails, agent-observability, leadmagic-mcp]
+  related_skills: [ai-sdr-setup, leadmagic-mcp, n8n-toolkit, crm-integration, api-enrichment]
   frameworks: [MCP Protocol Specification, Anthropic Tool Use Design Patterns, Least Privilege Access Control]
 ---
 
@@ -28,8 +28,6 @@ This skill configures MCP for GTM workflows where agents research accounts, enri
 
 Use this skill when the user asks to "set up MCP for sales tools", "connect our CRM to Claude/Cursor", "give my agent enrichment capabilities", "build an MCP server for GTM tools", "configure MCP permissions", "connect LeadMagic MCP", "orchestrate multiple MCP servers", or "make agent tool use safer".
 
-Do not use this for general agent architecture. Use `agent-architecture` first when the workflow itself is undefined.
-
 ## Authoritative Foundations
 
 ### Model Context Protocol Specification
@@ -41,8 +39,8 @@ Tools should be narrowly described, unambiguous, and paired with verification st
 ### Least Privilege Access Control
 Agents should receive the minimum access needed for the current task. Read-only first, write access only where the business process explicitly requires it.
 
-### Observability for Non-Deterministic Systems
-Agent tool use must be logged. Without logs, you cannot debug why a tool was called, what data was returned, or which action changed a system.
+### Audit Logging
+Log every tool call: tool name, who triggered it, timestamp, and a short summary of inputs/outputs. Without this, you cannot debug mistaken CRM writes or sequence enrollments.
 
 ## Prerequisites
 
@@ -93,7 +91,14 @@ Never hardcode API keys in repo files. Use environment variables or the agent pl
 
 Minimum policies: read-only by default, confirmation before CRM writes, confirmation before sequence enrollment, no autonomous sends, rate limits per tool, audit log for every tool call, and surfaced errors.
 
-### Phase 5: Test End-to-End
+### Phase 5: Pair with n8n for Batch Execution
+
+MCP agents should not loop hundreds of enrich or CRM writes in chat. For
+approved batch jobs, agents POST to n8n webhook `MCP-01` (`n8n-toolkit`) with
+HMAC + one-time `approval_token`. n8n runs deterministic pipelines with audit
+logs; agent uses MCP read tools to verify results.
+
+### Phase 6: Test End-to-End
 
 Run a test workflow: research one account → enrich one contact → read CRM record → draft outreach → stop before sending → verify logs contain every tool call.
 
@@ -158,7 +163,7 @@ Use the artifacts when the user asks for an implementation-ready deliverable, a 
 
 ## Related Skills
 
-- `agent-tool-calling` — tool selection and schemas
-- `agent-guardrails` — human approval and safety rules
-- `agent-observability` — logs and traces for agent actions
+- `ai-sdr-setup` — guardrails, pilot scope, and human handoff for agent workflows
 - `leadmagic-mcp` — LeadMagic-specific MCP setup
+- `crm-integration` — CRM read/write patterns and field mapping
+- `api-enrichment` — enrichment API usage and batch patterns

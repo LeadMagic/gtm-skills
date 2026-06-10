@@ -312,6 +312,12 @@ Before delivering, verify:
    product feedback. Fix: Deflect repetitive questions. Keep product feedback
    and enterprise escalations human-handled.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - `support-tool-stack` — Intercom, Zendesk, Front, Help Scout comparison and setup

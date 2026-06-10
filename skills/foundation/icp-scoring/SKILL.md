@@ -281,6 +281,12 @@ Before delivering, verify:
 
 8. **Scoring on data you can't actually obtain at scale.** A scoring dimension that requires a manual research step per lead doesn't scale. Ensure each attribute in the model can be sourced from enrichment APIs, public data, or automated signals.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - **gtm-context**: Run before this skill. Provides the ICP definition, beachhead segment, and competitive landscape this skill operationalizes.

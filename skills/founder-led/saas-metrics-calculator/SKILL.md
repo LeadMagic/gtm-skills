@@ -5,15 +5,19 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.2.0"
   author: LeadMagic
   category: founder-led
   tags: [saas, metrics, calculator, benchmarks, kpis, unit-economics]
-  related_skills: [financial-modeling, gtm-metrics, pricing-strategy, churn-prevention, expansion-selling, board-meeting-prep]
+  related_skills: [financial-modeling, gtm-metrics, pricing-strategy, churn-prevention, expansion-selling, board-meeting-prep, saas-outcomes, exiting-company]
   frameworks:
     - "David Skok — SaaS Metrics 2.0"
+    - "Jason Lemkin (SaaStr) — Burn Multiple"
+    - "David Sacks — Burn Multiple (via SaaStr)"
+    - "Bessemer Venture Partners — Rule of 40"
     - "SaaS Capital — B2B SaaS Benchmarks"
-    - "ChartMogul — SaaS Benchmarks"
+    - "KeyBanc — Private SaaS Survey"
+    - "Meritech Capital — Public SaaS Benchmarks"
 ---
 # SaaS Metrics Calculator
 
@@ -24,15 +28,19 @@ the metric that makes you look good (usually ARR growth) and ignoring the metric
 that tells the truth (usually churn or CAC payback). This skill calculates all
 key metrics from minimal inputs, applies stage-aware benchmarks, diagnoses which
 lever to pull first, and produces board-ready, investor-ready output. Every
-formula is documented. Every benchmark is sourced.
+formula is documented. Every benchmark is sourced. For **exit weight by buyer
+type**, load `references/metric-definitions-exit-weight.md`.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **David Skok — SaaS Metrics 2.0.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **SaaS Capital — B2B SaaS Benchmarks.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **ChartMogul — SaaS Benchmarks.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **David Skok (forEntrepreneurs).** LTV:CAC, CAC payback, fully loaded S&M —
+  canonical formulas for diligence.
+- **Jason Lemkin / David Sacks.** Burn multiple = net burn ÷ net new ARR;
+  primary capital-efficiency gate at Series A+. → `references/david-sacks-saas-metrics.md`
+- **Bessemer Cloud Atlas.** Rule of 40, stage benchmarks, PLG essays.
+  → `references/bessemer-cloud-atlas.md`
+- **SaaS Capital / KeyBanc.** Stage benchmarks for private B2B SaaS.
+- **Meritech Capital.** Public SaaS cohort — implied ARR, Rule of 40 composition, NRR medians. `references/meritech-saas-benchmarks.md`. Reconcile private vs public → `references/benchmark-reconciliation.md`.
 
 ## When to Use
 
@@ -46,8 +54,14 @@ analysis", "what should my metrics be at this stage?", "SaaS benchmarks",
 ### Revenue Metrics
 
 **MRR (Monthly Recurring Revenue)**
-= Sum of all monthly subscription revenue. Normalize annual contracts to
-monthly: Annual ÷ 12.
+= Sum of all **committed** monthly subscription revenue. Normalize annual contracts to
+monthly: Annual ÷ 12. Exclude one-time PS unless board asks for total revenue.
+
+**Deep dive:** definition variants (committed vs recognized vs billings), ASC 606 summary,
+consumption, deferred revenue → `references/saas-mrr-accounting-nuances.md`.
+Bridge template → `references/templates/mrr-bridge-template.md`.
+Bookings vs billings vs revenue → `references/bookings-billings-revenue-matrix.md`.
+Definition conflicts → `references/benchmark-reconciliation.md` (MRR / ARR row).
 
 **ARR (Annual Run Rate)**
 = MRR × 12 (for monthly businesses) OR sum of annual contract values
@@ -191,7 +205,10 @@ Calculate all 18 metrics using the formulas above. Present in three buckets:
 4. **If Magic Number < 0.5:** Stop spending on growth. Fix conversion rates,
    target better ICP, or increase ACV.
 5. **If Burn Multiple > 2x:** You're burning too much per dollar of growth.
-   Either growth is too slow or costs are too high.
+   Either growth is too slow or costs are too high. PE and late-stage buyers
+   discount above 1.5x (Lemkin).
+
+Load `references/metric-definitions-exit-weight.md` for exit/raise weight by metric.
 
 **The lever order (highest ROI first):**
 1. Reduce churn (1% monthly churn reduction = 10-20% LTV increase)
@@ -282,6 +299,22 @@ Before delivering, verify:
 6. **Annualizing monthly churn wrong.** Monthly churn of 2% ≠ 24% annual churn.
    It compounds: 1 - (1 - 0.02)^12 = 21.5%. Fix: Use the compound formula or
    track actual annual churn from cohort data.
+
+## Execution Artifacts
+
+- `references/metric-definitions-exit-weight.md` — formulas, benchmarks, exit weight by buyer
+- `references/david-sacks-saas-metrics.md` — burn multiple, efficiency gates (repo root)
+- `references/bessemer-cloud-atlas.md` — Rule of 40, VC-stage benchmarks (repo root)
+- `references/saas-mrr-accounting-nuances.md` — **canonical** MRR/ARR accounting deep dive (repo root)
+- `references/bookings-billings-revenue-matrix.md` — bookings vs billings vs GAAP revenue (repo root)
+- `references/templates/mrr-bridge-template.md` — logo + expansion − contraction − churn (repo root)
+- `references/framework-notes.md` — routing index
+- `templates/output-template.md` — deliverable shell
+- `scripts/check-output.py` — deliverable validator
+
+**Canonical lifecycle (repo root):** `references/lifecycle-metrics-by-stage.md` (per-stage formulas) · `references/gtm-lifecycle-stages.md` · `references/templates/stage-health-scorecard.md`
+
+**Cross-skill:** `exiting-company/references/due-diligence-metrics-pack.md`, `fundraising-strategy/references/vc-milestone-gates.md`, `financial-modeling/references/unit-economics-exit-bridge.md`
 
 ## Related Skills
 

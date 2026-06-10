@@ -19,6 +19,8 @@ metadata:
     - "Clay Waterfall Architecture"
     - "Ziellab Lead Quality Framework"
     - "Aaron Ross — Predictable Revenue"
+    - "Jordan Crawford — Pain-Qualified Segments (PQS)"
+    - "Joey Gilkey — Phone Intent & Disposition Science (list prioritization)"
 ---
 
 # List Building
@@ -46,8 +48,10 @@ out non-fits before running enrichment cuts costs by 30-40%.
 ## Authoritative Foundations
 
 List building follows the Ziellab framework: filter first, enrich second.
-The single largest cost savings in any enrichment workflow comes from
-running a lightweight qualification gate before expensive contact lookups.
+For **phone-led** outbound, add Joey Gilkey **Phone Intent** scoring after ICP
+filter — prioritize P1 contacts before expensive rep time. Pair pain-based
+segments (Jordan Crawford PQS) with disposition-driven list iteration
+(Gilkey Disposition Science). → `references/joey-gilkey-bucketing.md`
 
 Clay's native table architecture supports this naturally — company enrichment
 runs first, ICP filters gate the contact enrichment, and only qualified
@@ -149,6 +153,15 @@ Deliver a CSV with:
 
 5. **Single-source dependency.** One source never covers your full TAM.
    Cross-reference at least two sources and reconcile differences.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `references/cold-calling-experts-index.md` — Phone Intent + bucketing router (repo root)
+- `references/joey-gilkey-bucketing.md` — Phone Intent + disposition list diagnostics (repo root)
+- `../../outbound/cold-email-strategy/references/jordan-crawford-blueprint-gtm.md` — PQS pain-based segments
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 

@@ -8,11 +8,11 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   author: LeadMagic
   category: abm
   tags: [abm, account-based-marketing, target-accounts, enterprise, b2b]
-  frameworks: [ITSMA ABM Framework, TOPO Account-Based Framework, WbD Bowtie, John Ruhlin Giftology]
+  frameworks: [ITSMA ABM Framework, TOPO Account-Based Framework, WbD Bowtie, John Ruhlin Giftology, Sendoso Sending Platform]
 ---
 
 # ABM Strategy
@@ -65,8 +65,8 @@ For each Tier 1/2 account, build an account brief:
 
 ### Phase 3: Channel Orchestration
 Map channels by tier:
-- **Tier 1:** Executive mailers, custom microsites, direct mail, in-person events,
-  executive-to-executive calls, board-level connections
+- **Tier 1:** Executive mailers, Giftology gifts (`strategic-gifting`), custom microsites,
+  direct mail, in-person events, executive-to-executive calls
 - **Tier 2:** Personalized email + LinkedIn, industry roundtables, webinar invites,
   direct mail, SDR outbound
 - **Tier 3:** Automated email sequences, LinkedIn ads, content syndication,
@@ -147,6 +147,12 @@ A strong output from this skill includes:
 - For mid-market: include workflow ownership, handoffs, integrations, and enablement assets.
 - For enterprise: include governance, risk, procurement, stakeholder mapping, and proof requirements.
 
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 - abm-1-to-1, abm-1-to-few, abm-1-to-many, account-selection, multi-thread-orchestration

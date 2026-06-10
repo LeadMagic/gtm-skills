@@ -12,8 +12,8 @@ metadata:
   author: LeadMagic
   category: automation
   tags: [ai-sdr, automation, prospecting, ai-agents, outbound]
-  related_skills: [agent-guardrails, cold-email-strategy, signal-scoring, reply-handling]
-  frameworks: [11x AI SDR Deployment Model, ColdIQ Signal-to-Action Routing, Anthropic Tool Use Patterns, Winning by Design Bowtie]
+  related_skills: [cold-email-strategy, signal-scoring, reply-handling, mcp-setup]
+  frameworks: [11x AI SDR Deployment Model, ColdIQ Signal-to-Action Routing, Anthropic Tool Use Patterns, Winning by Design Bowtie, Justin Michael — Sales Borg Human+Machine Model, Justin Michael — Technology Quotient (TQ), Justin Michael — Semi-Automation Ceiling]
 ---
 
 # AI SDR Setup
@@ -53,6 +53,9 @@ Outbound is only one stage of the revenue bowtie. AI SDRs should optimize for qu
 
 ### 11x / Artisan / AiSDR / Jason AI — AI SDR Category Patterns
 AI SDR platforms converge around the same operating model: data input, account/contact research, sequence generation, reply classification, and human handoff. Vendor choice matters less than workflow control.
+
+### Justin Michael — Sales Borg (*Tech-Powered Sales*)
+Michael's first book frames outbound automation as **semi-automation**, not full replacement: machines handle data, triggers, cadence execution, and A/B tests; humans handle empathy, referrals, strategic accounts, and all high-stakes replies. RevOps **orchestrates bots** — CRM, enrichment, and SEP must sync with suppression governance. AI SDR pilots should mirror this split: automate Tier 1–2 workflow steps, keep humans on send approval (week 1), positive replies, pricing, and legal threads. Part III caveat: bots can replace humans for commodity buying, not complex B2B value selling. Playbook → `cold-email-strategy/references/justin-michael-sales-borg.md`.
 
 ## Prerequisites
 
@@ -98,7 +101,22 @@ The key: the agent does not decide the play from scratch. It selects from approv
 
 ### Phase 4: Set Guardrails (Day 3-4)
 
-Hard rules: no sending without approval during pilot, no invented facts, no unsourced claims, no sensitive personal attributes, no suppressed domains, no commitments on price/security/legal/procurement, and no replies after positive intent without human handoff.
+Hard rules the pilot must enforce before anyone gets send access:
+
+| Guardrail | What It Means in Practice |
+|---|---|
+| Draft-only pilot | Week 1: agent writes drafts only. A human approves every message before it leaves the sequencer. |
+| Send caps | Cap daily and weekly sends per inbox and per segment. Start low (e.g., 20-30/day per mailbox) and raise only after quality holds. |
+| Suppression | Block customers, competitors, opted-out contacts, and do-not-contact domains before any enrollment. Re-check suppression on every batch. |
+| Kill switch | One owner can pause all agent sends instantly — disable the sequencer connection, revoke API keys, or flip the vendor "pause" toggle. Document who holds the switch and how to trigger it. |
+| Budget caps | Set monthly credit/API spend limits on enrichment and AI SDR vendor accounts. Alert at 80%; hard stop at 100%. |
+| No invented facts | Every personalized claim needs a source URL or verified data field. If the agent cannot cite it, cut the line. |
+| No sensitive attributes | Do not reference health, religion, politics, family status, or other protected personal details — even if public. |
+| No commitments | Agent cannot promise pricing, discounts, security certifications, legal terms, or procurement timelines. |
+| Human handoff | Positive replies, pricing questions, security reviews, legal requests, and procurement threads go to a named human within one business day. |
+| CAN-SPAM basics | Include a physical mailing address, working unsubscribe link, and accurate "From" identity. Honor opt-outs within 10 business days. No deceptive subject lines. |
+
+These are operational controls, not optional nice-to-haves. If any guardrail cannot be enforced with the current tooling, fix the tooling before scaling.
 
 ### Phase 5: Pilot and QA (Week 1-2)
 
@@ -175,6 +193,7 @@ Before delivering, verify:
 
 This skill includes lightweight artifacts the agent can load on demand:
 
+- `../../outbound/cold-email-strategy/references/justin-michael-sales-borg.md` — Sales Borg human/bot division, TQ, guardrails alignment (canonical)
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
@@ -183,7 +202,7 @@ Use the artifacts when the user asks for an implementation-ready deliverable, a 
 
 ## Related Skills
 
-- `agent-guardrails` — safety gates for autonomous workflows
 - `cold-email-strategy` — sequence and message architecture
 - `signal-scoring` — which triggers should activate outreach
 - `reply-handling` — classification and escalation rules
+- `mcp-setup` — tool permissions and audit logging for agent workflows

@@ -110,11 +110,13 @@ def main() -> int:
     if not skills:
         fail("no skills found", failures)
 
-    # Marketplace discovery must be exactly skills/<category>/<skill>/SKILL.md.
+    # Marketplace discovery: skills/<category>/<skill>/SKILL.md or skills/<category>/<group>/<skill>/SKILL.md
     bad_paths = []
     for path in skills:
         rel_parts = path.relative_to(ROOT).parts
-        if len(rel_parts) != 4 or rel_parts[0] != "skills" or rel_parts[3] != "SKILL.md":
+        flat = len(rel_parts) == 4 and rel_parts[0] == "skills" and rel_parts[3] == "SKILL.md"
+        grouped = len(rel_parts) == 5 and rel_parts[0] == "skills" and rel_parts[4] == "SKILL.md"
+        if not flat and not grouped:
             bad_paths.append(str(path.relative_to(ROOT)))
     if bad_paths:
         fail(f"non-marketplace-discoverable skill paths: {', '.join(bad_paths[:20])}", failures)
@@ -128,8 +130,12 @@ def main() -> int:
         fm = frontmatter(path)
         name = yaml_scalar(fm, "name")
         compatibility = yaml_scalar(fm, "compatibility")
-        if name != path.parent.name:
-            bad_skills.append(f"{rel}: name {name!r} does not match directory {path.parent.name!r}")
+        rel_skill_parts = path.relative_to(ROOT / "skills").parts
+        skill_dir = "/".join(rel_skill_parts[1:-1])  # drop category + SKILL.md
+        grouped_name = skill_dir.replace("/", "-") if "/" in skill_dir else None
+        name_ok = name == skill_dir or name == grouped_name or name == rel_skill_parts[-2]
+        if not name_ok:
+            bad_skills.append(f"{rel}: name {name!r} does not match directory {skill_dir!r}")
         if compatibility != STANDARD_COMPATIBILITY:
             bad_skills.append(f"{rel}: non-standard compatibility")
         if re.search(r"^\s*frameworks:\s*\[\s*\]\s*$", fm, re.M):
@@ -155,7 +161,11 @@ def main() -> int:
         if len(lock_skills) != len(skills):
             fail(f"skills.lock entries {len(lock_skills)} != skill count {len(skills)}", failures)
         for name, meta in lock_skills.items():
-            skill_path = ROOT / str(meta.get("path", ""))
+            raw_path = meta.get("path", "")
+            if isinstance(raw_path, list):
+                skill_path = ROOT / "skills" / Path(*raw_path)
+            else:
+                skill_path = ROOT / str(raw_path)
             if not skill_path.exists():
                 fail(f"skills.lock missing path for {name}: {meta.get('path')}", failures)
                 continue

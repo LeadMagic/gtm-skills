@@ -10,11 +10,11 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: LeadMagic
   category: management-leadership
   tags: [management, team, 1-1, performance-review, okrs, delegation, remote]
-  related_skills: [sales-coaching, first-hires-playbook, hiring-by-role, employment-compliance]
+  related_skills: [gtm-leadership, sales-coaching, first-hires-playbook, hiring-by-role, employment-compliance]
   frameworks:
     - "Andy Grove — High Output Management (1:1s, task-relevant maturity)"
     - "Kim Scott — Radical Candor (care personally, challenge directly)"
@@ -126,19 +126,13 @@ is to work on things ONLY you can do.
 
 ## Output Format
 
-The agent should produce a structured deliverable:
+The agent delivers a management artifact matched to the user's specific request:
 
-```markdown
-# [Deliverable Title]
-
-## Summary
-[1-2 sentence summary of what was produced]
-
-## Key Outputs
-- [Output item 1]
-- [Output item 2]
-- [Output item 3]
-```
+- **1:1 Template** (when requested): 30-minute agenda with ownership notes (report owns the agenda), a 10-question bank for blocking/challenge discovery, and a follow-up tracker for action items
+- **OKR Draft:** Objective statement (qualitative, inspiring) + 3–5 Key Results with measurement method, baseline, target, and rationale for the 70% achievement threshold (Grove/Doerr standard)
+- **Feedback Script:** Behavior → Impact → Ask phrasing using Radical Candor quadrant placement (Kim Scott framework) — includes one positive and one corrective example
+- **Delegation Plan:** task-relevant maturity assessment per direct report using Grove's spectrum (low-medium-high autonomy) and recommended delegation ladder level (Molly Graham)
+- **Team Ritual Calendar:** recurring cadences (standup, retro, planning, all-hands, 1:1) with duration, facilitator, agenda format, and async-first alternatives for remote teams
 
 ## Quality Check
 
@@ -148,9 +142,16 @@ Before delivering, verify:
 - [ ] No vague or unsupported claims
 - [ ] Frameworks cited where applicable
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - `sales-coaching` — Coaching framework for sales teams
 - `first-hires-playbook` — First 10 hires
 - `hiring-by-role` — Role-specific interview guides
 - `employment-compliance` — Legal requirements for managing
+- `gtm-leadership` — GTM-specific hire/fire, PIP, difficult conversations, comp approval

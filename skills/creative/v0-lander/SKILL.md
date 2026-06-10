@@ -373,6 +373,12 @@ Before delivering, verify:
 - **shadcn/ui:** ui.shadcn.com — the component library v0 generates.
   Learn it to understand what v0 is building.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - `vibe-coding` — Full AI dev tools comparison (v0, Lovable, Bolt, Cursor)
