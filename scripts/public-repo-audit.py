@@ -50,6 +50,11 @@ ALLOWED_URL_HOSTS = {
     "leadmagic.io",
     "www.leadmagic.io",
     "agentskills.io",
+    "agent-skills.md",
+    "agenticskills.io",
+    "skills.re",
+    "skillindex.dev",
+    "theskills.directory",
 }
 JUNK_SUFFIXES = (".orig", ".rej", "~")
 JUNK_NAMES = {".DS_Store"}

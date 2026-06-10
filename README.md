@@ -2,9 +2,22 @@
 
 [![Skills](https://img.shields.io/badge/skills-203-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-25-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE)
 
+**Public repository:** [github.com/LeadMagic/gtm-skills](https://github.com/LeadMagic/gtm-skills)
+
 203 production go-to-market skills for AI agents. Built for sales, marketing, outbound, prospecting, enrichment, PLG, analytics, automation, customer success, RevOps, founder-led GTM, and tool operations.
 
 This is not a prompt pack. It is an agent-skills repository: portable skill folders with instructions, scripts, references, templates, assets, metadata, marketplace publishing, install tooling, and SHA256 integrity verification.
+
+## Public Links
+
+| Resource | URL |
+|---|---|
+| Source & issues | [github.com/LeadMagic/gtm-skills](https://github.com/LeadMagic/gtm-skills) |
+| Install guide | [docs/INSTALL.md](docs/INSTALL.md) |
+| Master skill index | [references/skill-index-master.md](references/skill-index-master.md) |
+| Expert catalog | [references/experts.md](references/experts.md) |
+| Citation metadata | [CITATION.cff](CITATION.cff) |
+| Marketplace install | `gh skill install LeadMagic/gtm-skills` |
 
 ## Install
 
@@ -31,6 +44,18 @@ cd gtm-skills
 ```
 
 Full install docs: [docs/INSTALL.md](docs/INSTALL.md).
+
+## Listed On
+
+Agent-skills directories and submission status:
+
+| Directory | Status |
+|---|---|
+| [agent-skills.md](https://agent-skills.md) | [Requested](https://github.com/futantan/agent-skills.md/issues/19) |
+| [agenticskills.io](https://agenticskills.io) | [Submit](https://agenticskills.io/submit) |
+| [skills.re](https://skills.re) | [Submit](https://skills.re/submit) |
+| [skillindex.dev](https://skillindex.dev) | [PR #1](https://github.com/gabeosx/agentskillsdir/pull/1) |
+| [theskills.directory](https://theskills.directory) | [Requested](https://github.com/theskillsdirectory/skills/issues/7) |
 
 ## What Makes This Repo Different
 
@@ -138,12 +163,12 @@ Full expert catalog — bios, public channels, and skill clusters: [references/e
 ## Validate Locally
 
 ```bash
-npm run build
-npm run check
+npm run regenerate
+npm run verify
 gh skill publish --dry-run
 ```
 
-Expected result: 203 skills checked, 0 errors, 0 warnings, lock verified, installer dry-run OK.
+Expected result: 203 skills checked, 0 errors, 0 warnings, generated artifacts current, lock verified, installer dry-run OK.
 
 ## Skills Catalog
 

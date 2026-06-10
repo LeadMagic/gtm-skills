@@ -4,13 +4,15 @@ All notable changes to GTM Skills are documented here.
 
 ## v0.26.0 — Toolkit Flattening, Reference Repair, and Validation/CI Hardening
 
+- **203 skills / 25 categories** — catalog, lockfile, taxonomy, and public metadata synced to disk.
 - Added the `linkedin-algorithm` skill (Richard van der Blom's LinkedIn algorithm research) and an Adam Robinson founder-brand playbook under `founder-led/founder-brand`, with cross-links from social-selling and social-media-strategy.
+- Added Lars Nilsson ABSD, Tito Bohrt SDR science, Leslie Venetz buyer-first outbound, `developer-gtm`, and Plain BYOAI headless-support stack documentation.
 - Flattened the grouped `tools/clay/*` and `tools/crm/*` toolkit skills to the documented `skills/<category>/<skill>/SKILL.md` depth (`clay-toolkit`, `clay-loops-toolkit`, `crm-toolkit`) and rewrote every repo path that referenced the old grouped layout.
-- Repaired 14 broken cross-skill references and fixed relative-link depth bugs in skill subdirectory references/templates.
-- Hardened `scripts/validate-skills.js` to enforce flat skill depth, require `name` to equal the directory, and verify that every reference target resolves relative to the skill dir or the repo root.
-- Added `scripts/audit-references.py` to `npm run check` and CI, plus a generated-file drift check, so catalog skew fails CI.
-- Fixed Biome lint issues in the generator scripts (node: imports, template literals, statement extraction) with byte-identical generated output.
-- Synced documentation, counts, and the reference-path convention across docs.
+- Repaired broken cross-skill references across SKILL.md and artifact files; extended `audit-references.py` to scan `references/` and `templates/`.
+- Hardened `scripts/validate-skills.js` to enforce flat skill depth, require `name` to equal the directory, and verify resolvable reference targets.
+- Added `scripts/generated-artifacts.txt`, `regenerate.yml` (auto-commit catalogs on `main`), and `npm run verify` as the full quality gate.
+- Auto-generate `references/skill-index-master.md`; fixed Authority Catalog aggregation in `generate-indexes.js`.
+- README public links, agent-skills directory listing table, and GitHub repository metadata updated for discoverability.
 
 ## v0.25.0 — Design Expansion, Source Standards, and Benchmark Hardening
 

@@ -41,7 +41,7 @@
     "type": "git",
     "url": "https://github.com/LeadMagic/gtm-skills.git"
   },
-  "homepage": "https://leadmagic.io",
+  "homepage": "https://github.com/LeadMagic/gtm-skills",
   "scripts": {
     "validate": "node scripts/validate-skills.js",
     "generate-indexes": "node scripts/generate-indexes.js",
