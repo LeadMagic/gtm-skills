@@ -1,43 +1,34 @@
-# Clay Loops — Framework Notes
+# Clay Loops Toolkit — Framework Notes
 
-**Tool path:** `tools/clay-loops-toolkit` · **Category:** `tools` (not automation/process)
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
-## Tool vs Process
+## Primary Frameworks
 
-| Layer | Skill | Location |
+- **Clay — Loops recurring GTM automation**
+- **LeadMagic — Email find, verify, job change, person enrich on Clay**
+- **ColdIQ — Signal-to-Action Routing**
+- **Winning by Design — SPICED Critical Event**
+- **GTME Pulse — Production Clay signal templates**
+
+## Deep-dive references
+
+| File | Authority | Use when |
 |---|---|---|
-| Tool — loops | `clay-loops-toolkit` | `tools/clay-loops-toolkit` |
-| Tool — tables | `clay-toolkit` | `tools/clay-toolkit` |
-| Process — rollout | `clay-automation` | `automation/clay-automation` |
+| `references/leadmagic-waterfall.md` | Clay Loops Toolkit reference | Extended leadmagic waterfall detail |
+| `references/loop-catalog.md` | Clay Loops Toolkit reference | Extended loop catalog detail |
 
-## LeadMagic Default
+## Templates
 
-Loops use LeadMagic as primary email waterfall on enrich table:
-Find (1) → Verify (1) → Enrich Person (2). Job change loops add Job Change column first.
+- `templates/output-template.md` — Primary deliverable shell
+- `templates/loop-blueprint.md` — Role-specific deliverable
+- `templates/routing-matrix.md` — Role-specific deliverable
 
-Do not use Claygent to guess emails in loops — use `ai-prompts-toolkit` only for
-`why_now` and draft copy columns after verification.
+## Agent routing
 
-## Signal-to-Action (ColdIQ)
-
-One signal → one play → one message template. Loop ID maps to play skill in catalog.
-
-## SPICED in Loops
-
-| Clay Field | SPICED Element |
+| Question | Action |
 |---|---|
-| `signal_type` + `source_url` | Critical Event |
-| `why_now` | Situation hook for outbound |
-| `icp_tier` | Pain context (tier routing) |
+| Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
 
-## 4-Table Pattern
-
-SOURCE → MONITOR (cheap) → ENRICH (LeadMagic if signal) → ACTION (route)
-
-## Agent Use
-
-1. Confirm loop type from `loop-catalog.md` (L01–L07).
-2. Copy LeadMagic columns from `leadmagic-waterfall.md`.
-3. Match play skill before building action table.
-4. Document routing in `routing-matrix.md`.
-5. Run `check-output.py` on blueprint.
+Before final output, cite which framework shaped the recommendation.

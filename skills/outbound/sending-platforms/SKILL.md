@@ -386,10 +386,11 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-- `references/deliverability-primer.md` — Deliverability fundamentals
-- `references/platform-comparison.md` — Sending platform evaluation matrix
+- `references/framework-notes.md` — Framework index and authority routing
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/deliverability-primer.md` — Deliverability fundamentals
+- `references/platform-comparison.md` — Sending platform evaluation matrix
 
 ## Related Skills
 

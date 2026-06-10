@@ -341,7 +341,6 @@ Before delivering, verify:
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-
 **Cross-skill:** `saas-metrics-calculator/references/metric-definitions-exit-weight.md`, `exiting-company/templates/valuation-sensitivity-table.md`
 
 ## Related Skills

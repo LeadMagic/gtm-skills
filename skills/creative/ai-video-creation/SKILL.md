@@ -36,15 +36,13 @@ Generative AI creates B-roll from prompts. This skill covers every AI video
 workflow relevant to B2B GTM — from personalized outreach to social content
 at scale.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Gary Vaynerchuk — Volume of content wins. AI makes volume possible..** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **HeyGen/Synthesia — AI spokesperson technology.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Runway — Generative AI video.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Opus Clip — AI-powered video clipping.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Descript — AI-first video editing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Gary Vaynerchuk — Volume of content wins. AI makes volume possible.** — Volume of content wins. AI makes volume possible.
+- **HeyGen/Synthesia — AI spokesperson technology** — AI spokesperson technology
+- **Runway — Generative AI video** — Generative AI video
+- **Opus Clip — AI-powered video clipping** — AI-powered video clipping
+- **Descript — AI-first video editing** — AI-first video editing
 
 ## When to Use
 

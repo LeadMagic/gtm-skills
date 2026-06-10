@@ -25,13 +25,11 @@ data, targeting long-tail keywords at scale. "[Category] for [Industry]",
 "[Integration] + [Integration]", "[City] [Service]" — these patterns can
 generate massive organic traffic when done right, and penalties when done wrong.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Programmatic SEO Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Animalz Content Strategy.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Google Search Central — SEO Starter Guide.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Programmatic SEO Framework** — Named methodology governing recommendations in this skill's process.
+- **Animalz Content Strategy** — Named methodology governing recommendations in this skill's process.
+- **Google Search Central — SEO Starter Guide** — SEO Starter Guide
 
 ## When to Use
 - "Build programmatic SEO"
@@ -155,10 +153,10 @@ A strong output from this skill includes:
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Ahrefs pSEO patterns, Schwartz product-led gates, Pattern 25 routing
-- `references/seo-strategy-playbook.md` — Repo root: §5 programmatic SEO and thin-content gates
-- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 3)
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/seo-strategy-playbook.md` — Repo root: §5 programmatic SEO and thin-content gates
+- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 3)
 
 ## Related Skills
 - seo-strategy, aeo-strategy, content-marketing, list-building, data-enrichment-strategy

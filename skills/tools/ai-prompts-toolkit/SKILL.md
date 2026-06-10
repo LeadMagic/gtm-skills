@@ -190,12 +190,13 @@ point (Clay column, n8n node, or agent skill).
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — design rules and SPICED/MEDDICC mapping
+- `templates/output-template.md` — Primary deliverable shell
+- `scripts/check-output.py` — validates prompt specs and loop blueprints
 - `references/prompt-library.md` — full GTM prompt catalog (P01–P10+)
 - `references/prompt-loop-patterns.md` — loop diagrams and gate rules
-- `references/framework-notes.md` — design rules and SPICED/MEDDICC mapping
 - `templates/prompt-spec.md` — single prompt documentation template
 - `templates/prompt-loop-blueprint.md` — multi-step loop template
-- `scripts/check-output.py` — validates prompt specs and loop blueprints
 
 ## Related Skills
 

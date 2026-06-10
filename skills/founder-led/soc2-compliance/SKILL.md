@@ -36,19 +36,13 @@ auditor selection, evidence collection, and the ongoing monitoring that keeps
 you compliant between audits. Budget ~$20-50K for first-year audit. Timeline:
 4-6 months for Type I, 6-12 months observation period for Type II.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **AICPA Trust Services Criteria.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **SOC2 Type II Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Paul Graham — Do Things That Do Not Scale.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-
-**GTM sales timing (not implementation):** When enterprise buyers ask for SOC 2,
-coordinate through `deal-desk` + `references/security-questionnaire-deal-guide.md`.
-Legal velocity framing → `deal-desk/references/legal-gtm-playbook.md` (Eunice Buhler).
-Phase gates reconciled in `references/benchmark-reconciliation.md` — build controls
-when enterprise pipeline >20%; share trust center at evaluation.
+- **AICPA Trust Services Criteria** — Shapes deliverables for this skill — SOC2 Type II is the standard security compliance framework for B2B SaaS.
+- **SOC2 Type II Framework** — Shapes deliverables for this skill — SOC2 Type II is the standard security compliance framework for B2B SaaS.
+- **Paul Graham — Do Things That Do Not Scale** — Do Things That Do Not Scale
+- **Jason Lemkin (SaaStr) — SOC 2 as enterprise sales gate** — Trust service criteria — security, availability, confidentiality controls.
+- **Eunice Buhler (G2) — Sales-legal alignment on security review timing** — Review recency and volume drive Grid placement; ethical ask timing only.
 
 ## When to Use
 

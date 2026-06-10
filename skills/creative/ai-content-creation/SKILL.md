@@ -36,15 +36,13 @@ insight, experience, and voice. This skill covers step-by-step AI content
 workflows for every format: blog posts, social, email, ads, landing pages,
 and SEO content.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Justin Welsh — Content Operating System (repurposing lattice).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Harry Dry (Marketing Examples) — Show, don't tell.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Amanda Natividad (SparkToro) — Zero-click content.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Ross Simmonds — Content distribution at scale.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Nail Rodriguez — Conversion copywriting.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Justin Welsh — Content Operating System (repurposing lattice)** — Content Operating System (repurposing lattice)
+- **Harry Dry (Marketing Examples) — Show, don't tell** — Show, don't tell
+- **Amanda Natividad (SparkToro) — Zero-click content** — Zero-click content
+- **Ross Simmonds — Content distribution at scale** — Content distribution at scale
+- **Nail Rodriguez — Conversion copywriting** — Conversion copywriting
 
 ## When to Use
 

@@ -208,6 +208,9 @@ When **founder is the candidate** (advisor, operating partner, post-exit):
 
 ## Execution Artifacts
 
+- `references/framework-notes.md`
+- `templates/output-template.md`
+- `scripts/check-output.py`
 - `../../management-leadership/executive-compensation/references/gtm-compensation-strategy.md` — master playbook (cross-link)
 - `../../management-leadership/executive-compensation/references/comp-by-role-stage.md` — stage matrix
 - `../../management-leadership/executive-compensation/templates/ote-calculator-template.md` — quota math
@@ -216,17 +219,10 @@ When **founder is the candidate** (advisor, operating partner, post-exit):
 - `references/comp-benchmarks-2026.md` — dated ranges (sync with role-descriptions)
 - `templates/founder-offer-walkthrough.md` — candidate-facing package explainer
 - `templates/founder-counter-offer.md` — structured counter template
-- `references/framework-notes.md`
-- `templates/output-template.md`
-- `scripts/check-output.py`
-
 **Cross-skill:** `saas-outcomes/references/exit-metrics-matrix.md` (payroll vs ARR at exit scale)
-
 ### Post-Close Retention (Earn-Out Context)
-
 When sale includes earn-out + employment, model **total package** — base, bonus,
 rollover, earn-out — not salary alone. Load `exiting-company/references/negotiating-earn-out.md`:
-
 - Prefer **retention bonus** (time-based) separate from performance earn-out
 - Negotiate role/title before close; comp band should match `founder-comp-budget.md` guardrails
 - At-will termination with full earn-out forfeiture → walk or re-trade (counsel required)

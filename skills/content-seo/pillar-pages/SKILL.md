@@ -27,13 +27,12 @@ and link to detailed cluster content on specific subtopics. This architecture
 signals to Google that you're the authority on the topic, boosting rankings
 across the entire cluster.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **HubSpot Topic Cluster Model.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Animalz Content Strategy.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Google Search Central — SEO Starter Guide.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Ahrefs / Backlinko — Content Cluster Model** — Content Cluster Model
+- **Eli Schwartz — Product-Led SEO** — Product-Led SEO
+- **HubSpot Topic Cluster Model** — Lifecycle stages, object model, and workflow enrollment patterns.
+- **Google Search Central — SEO Starter Guide** — SEO Starter Guide
 
 ## When to Use
 - "Build a pillar page"
@@ -154,10 +153,10 @@ A strong output from this skill includes:
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Ahrefs cluster model, Schwartz product-led pillars, Pattern 25 routing
-- `references/seo-strategy-playbook.md` — Repo root: §3 keyword tiers and cluster structure
-- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 2)
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/seo-strategy-playbook.md` — Repo root: §3 keyword tiers and cluster structure
+- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 2)
 
 ## Related Skills
 - seo-strategy, content-marketing, faq-seo, citation-harvesting, landing-pages

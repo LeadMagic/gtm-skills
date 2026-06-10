@@ -24,13 +24,11 @@ Conferences are the single biggest line item in many B2B marketing budgets —
 and the least measured. This skill covers event selection, sponsorship evaluation,
 speaking submission strategy, booth design, and team preparation to maximize ROI.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **B2B Event ROI Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Conference Strategy Playbook.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Bizzabo — Event Experience Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **B2B Event ROI Framework** — Named methodology governing recommendations in this skill's process.
+- **Conference Strategy Playbook** — Named methodology governing recommendations in this skill's process.
+- **Bizzabo — Event Experience Framework** — Event Experience Framework
 
 ## When to Use
 - "Plan our conference strategy"

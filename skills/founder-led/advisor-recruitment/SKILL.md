@@ -30,14 +30,12 @@ instead of leverage. Great advisors unlock customers, candidates, investors,
 and strategic decisions. This skill covers identifying who you need, structuring
 the relationship, compensating fairly, and extracting maximum value.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Scott Kupor (Andreessen Horowitz) — Secrets of Sand Hill Road (advisory equity).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Elad Gil — High Growth Handbook (leveraging advisors).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **First Round Review — High-Impact Advisory Relationships.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Jason Lemkin (SaaStr) — When advisors add value vs are dead weight.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Scott Kupor (Andreessen Horowitz) — Secrets of Sand Hill Road (advisory equity)** — Secrets of Sand Hill Road (advisory equity)
+- **Elad Gil — High Growth Handbook (leveraging advisors)** — High Growth Handbook (leveraging advisors)
+- **First Round Review — High-Impact Advisory Relationships** — High-Impact Advisory Relationships
+- **Jason Lemkin (SaaStr) — When advisors add value vs are dead weight** — When advisors add value vs are dead weight
 
 ## When to Use
 

@@ -91,7 +91,9 @@ The **inbound** category (8 skills) covers LinkedIn GTM end-to-end: **van der Bl
 |---|---|
 | Marketplace-discoverable skills | 205/205 |
 | Categories | 24 |
-| CI validation | `npm run check` |
+| AgentSkills spec | [agentskills.io/specification](https://agentskills.io/specification) via `validate-skills.js` |
+| Artifact triad | `framework-notes.md` + `output-template.md` + `check-output.py` on every skill |
+| CI validation | `npm run verify` |
 | Publish verification | `gh skill publish --dry-run` |
 | Integrity manifest | `skills.lock` |
 | Public governance | CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, GOVERNANCE |

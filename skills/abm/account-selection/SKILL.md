@@ -25,14 +25,12 @@ Account selection is the hardest part of ABM. Pick wrong and you waste 6 months.
 Pick right and you 3x your close rate. This skill builds a weighted scoring model
 to tier your TAM into Strategic, Scale, and Programmatic accounts.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **TOPO Account Selection.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **WbD ICP Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **ITSMA — Account-Based Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Lars Nilsson — ABSD signal-based selection.** "Base account selection on buying signals, not a hunch": intent surge (Bombora-style) joined with CRM data, job-post alerts at target accounts, and funding/exec-change triggers decide which account gets worked next — not territory intuition. Canonical → `skills/abm/abm-strategy/references/lars-nilsson-absd.md`.
+- **TOPO Account Selection** — Named methodology governing recommendations in this skill's process.
+- **WbD ICP Framework** — Named methodology governing recommendations in this skill's process.
+- **ITSMA — Account-Based Marketing** — Tier-based ABM (1:1 / 1:few / 1:many); measure pipeline from target accounts, not lead volume.
+- **Lars Nilsson (Cloudera/Snowflake) — ABSD signal-based account selection** — ABSD signal-based account selection
 
 ## When to Use
 - "Which accounts should we target?"
@@ -101,12 +99,10 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

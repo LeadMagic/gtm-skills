@@ -27,14 +27,11 @@ but Meta retargeting and emerging channels (TikTok for B2B, Reddit ads) are
 increasingly viable. This skill covers platform strategy, audience architecture,
 creative testing, and pipeline measurement.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **B2B Paid Social Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **LinkedIn Ads Best Practices.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Chris Walker (Refine Labs)** — LinkedIn for *education*, not lead forms; measure
-  cohort revenue not last-click ROAS. See `references/chris-walker-mental-models.md`.
+- **Chris Walker — Demand Creation & Paid Social Education** — Dark social demand — self-reported attribution; LinkedIn influence is unmeasurable in last-touch.
+- **B2B Paid Social Framework** — Named methodology governing recommendations in this skill's process.
+- **LinkedIn Ads Best Practices** — Named methodology governing recommendations in this skill's process.
 
 ## When to Use
 - "Launch paid social"
@@ -110,13 +107,11 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
-- `references/chris-walker-mental-models.md` — Repo root: demand creation, paid social philosophy
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
+- `references/chris-walker-mental-models.md` — Repo root: demand creation, paid social philosophy
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

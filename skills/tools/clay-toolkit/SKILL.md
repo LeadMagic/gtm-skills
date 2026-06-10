@@ -244,12 +244,12 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — Clay waterfall → copy pipeline, Claygent vs LeadMagic roles (Pat Spielmann)
 - `references/framework-notes.md` — Clay architecture principles
-- `references/gtm-table-blueprints.md` — Outbound, ABM, signal, hygiene tables
 - `templates/output-template.md` — table design deliverable
-- `templates/waterfall-config.md` — provider order per field
 - `scripts/check-output.py` — validates table blueprint output
+- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — Clay waterfall → copy pipeline, Claygent vs LeadMagic roles (Pat Spielmann)
+- `references/gtm-table-blueprints.md` — Outbound, ABM, signal, hygiene tables
+- `templates/waterfall-config.md` — provider order per field
 
 ## Related Skills
 

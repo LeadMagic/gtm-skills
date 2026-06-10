@@ -25,13 +25,11 @@ and voice search results. These are the highest-visibility SERP features —
 and they're often the lowest-competition ranking opportunities. This skill
 covers question-driven content strategy.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Google Featured Snippet Optimization.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **FAQ Schema Best Practices.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Google Search Central — SEO Starter Guide.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Google Featured Snippet Optimization** — Named methodology governing recommendations in this skill's process.
+- **FAQ Schema Best Practices** — Named methodology governing recommendations in this skill's process.
+- **Google Search Central — SEO Starter Guide** — SEO Starter Guide
 
 ## When to Use
 - "Build FAQ content"
@@ -137,10 +135,10 @@ Before delivering, verify:
 ## Execution Artifacts
 
 - `references/framework-notes.md` — PAA/snippet format, FAQ schema, AEO overlap, Pattern 25 routing
-- `references/seo-strategy-playbook.md` — Repo root: §4 schema, §8 AEO overlap
-- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 4)
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/seo-strategy-playbook.md` — Repo root: §4 schema, §8 AEO overlap
+- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 4)
 
 ## Related Skills
 - seo-strategy, aeo-strategy, pillar-pages, content-marketing, landing-pages

@@ -25,13 +25,11 @@ of B2B search traffic. Traditional SEO doesn't optimize for AI answers.
 AEO ensures your content is the source AI engines cite when users ask questions
 in your domain. This skill covers the strategy.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **AEO Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Google Search Generative Experience Guidelines.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Google Search Central — SEO Starter Guide.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **AEO Framework** — Named methodology governing recommendations in this skill's process.
+- **Google Search Generative Experience Guidelines** — Named methodology governing recommendations in this skill's process.
+- **Google Search Central — SEO Starter Guide** — SEO Starter Guide
 
 ## When to Use
 - "Optimize for AI search"
@@ -155,10 +153,10 @@ A strong output from this skill includes:
 ## Execution Artifacts
 
 - `references/framework-notes.md` — AEO content principles, schema checklist, Pattern 25 routing
-- `references/seo-strategy-playbook.md` — Repo root: §8 AEO / AI search overlap
-- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 4)
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/seo-strategy-playbook.md` — Repo root: §8 AEO / AI search overlap
+- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 4)
 
 ## Related Skills
 - seo-strategy, pseo-strategy, content-marketing, pillar-pages, faq-seo

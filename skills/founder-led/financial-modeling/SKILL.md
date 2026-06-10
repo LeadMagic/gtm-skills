@@ -454,16 +454,15 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 - `references/gtm-budget-playbook.md` — **canonical** annual GTM budget (repo root)
 - `skills/gtm-ops/gtm-spend-management/templates/annual-gtm-budget-worksheet.md` — budget worksheet (gtm-spend-management skill)
 - `references/saas-mrr-accounting-nuances.md` — MRR/recognition reconcile (repo root)
 - `references/saas-tax-founder-awareness.md` — tax/409A/QSBS handoffs (repo root)
 - `references/bookings-billings-revenue-matrix.md` — cash vs committed ARR (repo root)
 - `references/unit-economics-exit-bridge.md` — LTV/NRR/EBITDA → valuation multiple bridge
-- `references/framework-notes.md` — Named frameworks and reference tables
-- `templates/output-template.md` — Deliverable shell for agent output
-- `scripts/check-output.py` — Lightweight deliverable validator
-
 **Cross-skill (journey / exit):** `gtm-spend-management` (vendor budget) · `saas-metrics-calculator` (MRR bridge) · `saas-outcomes/references/journey-stage-gates.md`, `saas-outcomes/references/bootstrap-founder-playbook.md`, `saas-outcomes/templates/bootstrap-capital-plan.md`, `saas-outcomes/templates/journey-planning-worksheet.md`, `saas-outcomes/references/valuation-multiples.md`, `exiting-company/templates/valuation-sensitivity-table.md`, `exiting-company/templates/earn-out-term-sheet-review.md`, `exiting-company/references/negotiating-earn-out.md`, `exiting-company/references/buyer-readiness-checklist.md`, `saas-metrics-calculator/references/metric-definitions-exit-weight.md`, `references/benchmark-reconciliation.md`
 
 ## ⚠️ Disclaimer

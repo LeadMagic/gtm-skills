@@ -265,6 +265,8 @@ Before delivering, verify:
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Audit scorecard, consolidation matrix, savings math
+- `templates/output-template.md` — Deliverable shell
+- `scripts/check-output.py`
 - `website-visitor-identification/references/visitor-id-vendor-comparison.md` — Intent/deanonymization vendors
 - `website-visitor-identification/templates/visitor-id-vendor-eval-scorecard.md` — Pilot scorecard
 - `references/gtm-data-exchange-playbook.md` — Customer data exchange SOP (repo root)
@@ -273,8 +275,6 @@ Before delivering, verify:
 - `gtm-operations/references/gtm-project-management-playbook.md` — Tool rollout milestones
 - `templates/stack-audit-scorecard.md` — Tool inventory worksheet
 - `templates/target-state-architecture.md` — Category-owner target stack
-- `templates/output-template.md` — Deliverable shell
-- `scripts/check-output.py`
 
 ## Related Skills
 

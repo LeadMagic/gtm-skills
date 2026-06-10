@@ -39,16 +39,14 @@ the complete AI marketing stack: content generation, creative production,
 campaign ideation, and the "prompt-to-publish" workflow that lets solo
 marketers operate at team scale.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Andrej Karpathy — 'Vibe coding' applied to marketing: describe, generate, iterate.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Gary Vaynerchuk — Content at scale: 64 pieces of content per day per platform.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Dave Gerhardt (Exit Five) — B2B marketing that doesn't feel like marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Amanda Natividad (SparkToro) — Zero-click content, audience-first AI.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Harry Dry (Marketing Examples) — Show, don't tell (visual proof).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Justin Welsh — Content operating system, repurposing lattice.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Andrej Karpathy — 'Vibe coding' applied to marketing: describe, generate, iterate** — 'Vibe coding' applied to marketing: describe, generate, iterate
+- **Gary Vaynerchuk — Content at scale: 64 pieces of content per day per platform** — Content at scale: 64 pieces of content per day per platform
+- **Dave Gerhardt (Exit Five) — B2B marketing that doesn't feel like marketing** — B2B marketing that doesn't feel like marketing
+- **Amanda Natividad (SparkToro) — Zero-click content, audience-first AI** — Zero-click content, audience-first AI
+- **Harry Dry (Marketing Examples) — Show, don't tell (visual proof)** — Show, don't tell (visual proof)
+- **Justin Welsh — Content operating system, repurposing lattice** — Content operating system, repurposing lattice
 
 ## When to Use
 

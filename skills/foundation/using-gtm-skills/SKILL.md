@@ -1257,6 +1257,20 @@ Every gtm-skills skill is:
 - **Artifact-producing** — Every skill produces something (document, deck, calculator, dashboard)
 - **Non-fluff** — No guru nonsense. No AI-generated filler. No "one weird trick."
 
+CI enforces this via `scripts/validate-skills.js` (agentskills.io spec + GTM bar):
+
+| Requirement | Every skill |
+|---|---|
+| Frontmatter | `name` matches directory; `description` has triggers; `metadata.frameworks` ≥ 3 |
+| Authority | `## Authoritative Foundations` with named sources (no decoration filler) |
+| Process | Step-by-step, implementation checklist, or workflow section |
+| Artifact triad | `references/framework-notes.md`, `templates/output-template.md`, `scripts/check-output.py` |
+| Execution Artifacts | SKILL.md lists all three paths above |
+| References | Every `` `references/...` `` and `` `skills/...` `` path resolves |
+
+Repair scripts: `npm run fix:authority`, `npm run fix:artifacts`, `npm run sync:artifacts`.
+Release gate: `npm run verify`.
+
 ## Navigating the Repo
 
 ```
@@ -1424,11 +1438,11 @@ Before delivering, verify:
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 - `references/gtm-experts-outbound-index.md` — Outbound + discovery expert router (email + phone stacks)
 - `references/cold-calling-experts-index.md` — Phone-first expert router (Gilkey, Reisert, Pessar, Slocum)
 - `references/experts.md` — Full expert bios and subsidiary maps
-- `templates/output-template.md` — Deliverable shell for agent output
-- `scripts/check-output.py` — Lightweight deliverable validator
 - `references/pitfalls-index.md` — Repo-wide `## Common Pitfalls` aggregator (generated; see `scripts/generate-pitfalls-index.js`)
 
 ## Related Skills

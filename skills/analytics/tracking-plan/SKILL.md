@@ -41,19 +41,17 @@ covers the complete analytics tracking architecture for PLG and B2B SaaS:
 event taxonomy, pixel strategy, attribution architecture, CDP implementation,
 and the analytics stack that makes it all work together.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Segment — Customer Data Platform (CDP) and Tracking Plan spec.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Amplitude — Product analytics and behavioral cohorts.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **PostHog — Open-source product analytics.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Mixpanel — Event-based analytics.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Google Analytics 4 (GA4) — Web analytics and conversions.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Elena Verna (Reforge/Amplitude) — PLG analytics models.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Brian Balfour (Reforge) — Growth models and tracking.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **OpenView — PLG benchmarks and metrics.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Avo — Tracking plan governance and code generation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Segment — Customer Data Platform (CDP) and Tracking Plan spec** — Customer Data Platform (CDP) and Tracking Plan spec
+- **Amplitude — Product analytics and behavioral cohorts** — Product analytics and behavioral cohorts
+- **PostHog — Open-source product analytics** — Open-source product analytics
+- **Mixpanel — Event-based analytics** — Event-based analytics
+- **Google Analytics 4 (GA4) — Web analytics and conversions** — Web analytics and conversions
+- **Elena Verna (Reforge/Amplitude) — PLG analytics models** — PLG analytics models
+- **Brian Balfour (Reforge) — Growth models and tracking** — Growth loops — acquisition/retention loops, not funnel-only thinking.
+- **OpenView — PLG benchmarks and metrics** — Expansion SaaS benchmarks — PLG, sales-assist, and GTM efficiency.
+- **Avo — Tracking plan governance and code generation** — Tracking plan governance and code generation
 
 ## When to Use
 
@@ -423,12 +421,10 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

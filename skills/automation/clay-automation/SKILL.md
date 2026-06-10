@@ -185,14 +185,12 @@ and maintenance schedule.
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
-- `references/gtm-automation-expert-playbook.md` — Jen Igartua RevOps automation strategy (repo root; Pattern 30)
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
-- `../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md` — Crawl Walk Run, Creative Ideas, GEX stack (Eric Nowoslawski)
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
+- `references/gtm-automation-expert-playbook.md` — Jen Igartua RevOps automation strategy (repo root; Pattern 30)
+- `../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md` — Crawl Walk Run, Creative Ideas, GEX stack (Eric Nowoslawski)
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

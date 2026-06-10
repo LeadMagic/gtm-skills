@@ -34,14 +34,15 @@ verified-at-lookup results), fallback providers for the 25-40% any single
 provider misses, verification as the final gate, and catch-all domain
 resolution for enterprise accounts.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **DAMA-DMBOK Data Quality Dimensions.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Ziellab 3-Waterfall Architecture.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **LeadMagic Public Documentation — B2B Data Enrichment.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Pat Spielmann — Cold to Gold (LeadMagic GTM).** Verified enrichment is the prerequisite for contextual outbound copy — waterfall → validate → personalization column → sequencer. Canonical operator playbook → `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`.
+- **DAMA-DMBOK Data Quality Dimensions** — Shapes deliverables for this skill — LeadMagic as the primary enrichment provider in a multi-source waterfall
+routinely achieves 95%+ email coverage with bou.
+- **Ziellab 3-Waterfall Architecture** — Shapes deliverables for this skill — LeadMagic as the primary enrichment provider in a multi-source waterfall
+routinely achieves 95%+ email coverage with bou.
+- **LeadMagic Public Documentation — B2B Data Enrichment** — B2B Data Enrichment
+- **Pat Spielmann — Cold to Gold (enrichment before copy)** — Cold to Gold (enrichment before copy)
+- **Pat Spielmann — Research → Angle → Copy** — Research → Angle → Copy
 
 ## When to Use
 
@@ -148,18 +149,16 @@ conditions, credit budget, and monitoring plan.
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
-- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — enrichment-led outbound stack, Clay waterfall pattern, copy/data gates (Pat Spielmann — LeadMagic internal expert)
 - `references/framework-notes.md` — Pat Cold to Gold, Ziellab waterfall, clay-toolkit boundaries
+- `templates/output-template.md` — waterfall diagram + credit budget deliverable
+- `scripts/check-output.py` — local checklist validator for required sections
+- Additional references the agent can load on demand:
+- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — enrichment-led outbound stack, Clay waterfall pattern, copy/data gates (Pat Spielmann — LeadMagic internal expert)
 - `references/waterfall-column-spec.md` — copy-paste Clay column config (Find → Verify → Enrich)
 - `../../tools/clay-toolkit/SKILL.md` — clay-toolkit table architecture + ICP filter
 - `../../tools/clay-loops-toolkit/references/leadmagic-waterfall.md` — loops variant (signal-triggered)
 - `../../tools/smartlead-workflows/references/clay-enrollment-handoff.md` — post-waterfall sequencer handoff
 - `../../../../references/gtm-experts-outbound-index.md` — expert router
-- `templates/output-template.md` — waterfall diagram + credit budget deliverable
-- `scripts/check-output.py` — local checklist validator for required sections
-
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

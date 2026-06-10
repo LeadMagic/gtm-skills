@@ -254,6 +254,9 @@ Run `scripts/check-output.py` before delivery.
 
 ## Execution Artifacts
 
+| `../../outbound/cold-calling/references/framework-notes.md` | Phone coaching framework anchors |
+| `templates/output-template.md` | Deliverable structure |
+| `scripts/check-output.py` | Validator |
 | File | Use |
 |---|---|
 | `references/reks-diagnostic.md` | REKS layer signals and fixes |
@@ -263,18 +266,14 @@ Run `scripts/check-output.py` before delivery.
 | `references/founder-coaching.md` | Founder-as-coach by ARR stage |
 | `references/coaching-experts.md` | Expert map (Jacco, Dorsey, Barrows, Bay, Seidl, Slocum, Reisert) |
 | `references/randy-seidl-relationship-selling.md` | Relationship map, Three Plays, trust scorecard |
-| `../../outbound/cold-calling/references/framework-notes.md` | Phone coaching framework anchors |
 | `references/tom-slocum-cold-calling.md` | 3×3, sell-the-meeting, call blocks (repo root) |
 | `references/ryan-reisert-cold-calling.md` | CRM Buckets, CallBlitz live coaching (repo root) |
 | `references/cold-calling-experts-index.md` | Phone expert router (repo root) |
-| `references/framework-notes.md` | Quick framework anchors |
 | `templates/1-1-agenda.md` | Weekly 1:1 structure |
 | `templates/reks-diagnostic.md` | Per-rep diagnostic form |
 | `templates/deal-review-scorecard.md` | MEDDICC deal review |
 | `templates/call-coaching-form.md` | Per-call feedback |
 | `templates/coaching-plan-30-day.md` | Underperformer plan |
-| `templates/output-template.md` | Deliverable structure |
-| `scripts/check-output.py` | Validator |
 
 ## Related Skills
 

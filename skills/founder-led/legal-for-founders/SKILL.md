@@ -38,16 +38,14 @@ covers every legal foundation a SaaS founder needs: incorporation, IP,
 contracts, privacy, and fundraising legal — with resources to do it right
 without spending $50K on lawyers.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **YC Startup Documents (YC SAFE, Series Seed, incorporation docs).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Clerky — Standard incorporation, equity, and fundraising docs.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **CooleyGO — Free startup legal resources (Cooley LLP).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Orrick — Startup legal toolkit.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Fenwick & West — Startup legal guides.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Alex Macgillivray (Twitter, Google GC) — Platform legal.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **YC Startup Documents (YC SAFE, Series Seed, incorporation docs)** — Startup operating cadence — default alive, talk to users, launch fast.
+- **Clerky — Standard incorporation, equity, and fundraising docs** — Standard incorporation, equity, and fundraising docs
+- **CooleyGO — Free startup legal resources (Cooley LLP)** — Free startup legal resources (Cooley LLP)
+- **Orrick — Startup legal toolkit** — Startup legal toolkit
+- **Fenwick & West — Startup legal guides** — Startup legal guides
+- **Alex Macgillivray (Twitter, Google GC) — Platform legal** — Platform legal
 
 ## When to Use
 

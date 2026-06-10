@@ -34,14 +34,12 @@ promise is empty. This skill covers SLA design by ticket priority, customer
 tier, and channel — plus escalation paths, business hours configuration, and
 the dashboard to track it all.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **ITIL 4 — Service Level Management practice.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Zendesk — SLA Policy Design Guide.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Intercom — SLA and Business Hours Configuration.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **HDI — Support Center Certification Standards.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **ITIL 4 — Service Level Management practice** — Service Level Management practice
+- **Zendesk — SLA Policy Design Guide** — SLA Policy Design Guide
+- **Intercom — SLA and Business Hours Configuration** — SLA and Business Hours Configuration
+- **HDI — Support Center Certification Standards** — Support Center Certification Standards
 
 ## When to Use
 

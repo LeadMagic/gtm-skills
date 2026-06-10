@@ -1,51 +1,45 @@
-# SaaS Outcomes — Framework Notes
+# Saas Outcomes — Framework Notes
 
-Reference tables for `SKILL.md`. Apply named frameworks to justify recommendations — do not cite as decoration.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
-## Primary frameworks
+## Primary Frameworks
 
-- **Rob Walling (TinySeed/MicroConf)** — Bootstrap path, ownership, optionality
-- **Jason Lemkin (SaaStr)** — Venture scale, burn multiple, hire triggers
-- **David Skok** — Unit economics gates all paths
-- **Bessemer** — Rule of 40
-- **KeyBanc SaaS Survey** — Private multiples by growth tier
-- **Christoph Janz (Point Nine)** — SaaS Napkin
-- **Sean Ellis** — PMF survey (via `solo-founder-gtm` artifacts)
+- **Jason Lemkin (SaaStr) — Growth Efficiency, Burn Multiple, Survival to Thrival**
+- **Rob Walling (TinySeed/MicroConf) — Bootstrapper Path**
+- **David Skok — SaaS Unit Economics**
+- **Sean Ellis — PMF Survey (40% rule)**
+- **Bessemer Venture Partners — Rule of 40, Cloud 100**
+- **KeyBanc SaaS Survey — Private Company Multiples**
+- **Meritech Capital — Public SaaS Benchmarks & IPO Cohort Analysis**
+- **Christoph Janz (Point Nine) — SaaS Napkin**
+- **Nathan Latka (GetLatka) — Bootstrap M&A and acquisition optionality**
+- **Tyler Tringas (Calm Company Fund) — Bootstrapper-friendly capital**
 
-## Journey stages
+## Deep-dive references
 
-| Stage | ARR band (indicative) | Canonical artifact |
+| File | Authority | Use when |
 |---|---|---|
-| Idea | $0 | `journey-stage-gates.md` |
-| PMF search | $0–$500K | `solo-founder-gtm/references/pmf-signal-checklist.md` |
-| GTM fit | $500K–$2M | `solo-founder-gtm/references/scale-readiness-gates.md` |
-| Scale | $2M–$10M+ | `sales-team-building`, `when-not-to-scale.md` |
-| Optimize | $5M–$50M+ | `exit-potential-scorecard.md` |
-| Exit optionality | Path-dependent | `exiting-company` |
+| `references/bootstrap-founder-playbook.md` | Saas Outcomes reference | Extended bootstrap founder playbook detail |
+| `references/bootstrap-vs-vc-paths.md` | Saas Outcomes reference | Extended bootstrap vs vc paths detail |
+| `references/end-goal-matrix.md` | Vendor research | Selection and tradeoff matrix |
+| `references/exit-metrics-matrix.md` | Vendor research | Selection and tradeoff matrix |
+| `references/exit-potential-scorecard.md` | Saas Outcomes reference | Extended exit potential scorecard detail |
+| `references/journey-stage-gates.md` | Saas Outcomes reference | Extended journey stage gates detail |
+| `references/valuation-multiples.md` | Saas Outcomes reference | Extended valuation multiples detail |
 
-## End goals
+## Templates
 
-| End goal | Success metric | Reference |
-|---|---|---|
-| Bootstrap cash-flow | Distributions + control | `end-goal-matrix.md` |
-| Venture scale | Ownership % × exit $ | `bootstrap-vs-vc-paths.md` |
-| Strategic sale | EV at close | `exit-potential-scorecard.md` |
-| Secondary liquidity | Cash without full exit | `equity-management` |
-
-## Valuation methods
-
-| Method | Best for | Reference |
-|---|---|---|
-| ARR multiple | Comps, fundraise, LOI range | `valuation-multiples.md` |
-| DCF | Hold vs sell | `financial-modeling` |
-| EBITDA multiple | PE | `exit-metrics-matrix.md` |
+- `templates/output-template.md` — Primary deliverable shell
+- `templates/bootstrap-capital-plan.md` — Role-specific deliverable
+- `templates/journey-planning-worksheet.md` — Role-specific deliverable
+- `templates/outcome-memo.md` — Role-specific deliverable
 
 ## Agent routing
 
 | Question | Action |
 |---|---|
-| Where am I on the journey? | `templates/journey-planning-worksheet.md` |
-| Can I advance stage? | `journey-stage-gates.md` |
-| Is exit realistic? | `exit-potential-scorecard.md` |
-| Bootstrap vs VC | `templates/outcome-memo.md` |
-| Validate output | `scripts/check-output.py` |
+| Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
+
+Before final output, cite which framework shaped the recommendation.

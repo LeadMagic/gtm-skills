@@ -194,9 +194,9 @@ Date | Attendees | Deal stage | MEDDICC score: __/14
 ## Execution Artifacts
 
 - `references/framework-notes.md` — SPICED/MEDDICC map, Champion test, question banks
-- `references/keenan-gap-selling.md` — Gap Selling discovery, PIC, happy ears, checklists
 - `templates/output-template.md` — one-page brief structure
 - `scripts/check-output.py` — validates brief sections
+- `references/keenan-gap-selling.md` — Gap Selling discovery, PIC, happy ears, checklists
 
 ## Related Skills
 

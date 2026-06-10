@@ -3,7 +3,9 @@
  * validate-skills.js — strict validation for LeadMagic/gtm-skills.
  *
  * Enforces:
- * - AgentSkills/Claude SKILL.md structure
+ * - agentskills.io SKILL.md spec (name, description, optional license/compatibility)
+ * - AgentSkills progressive-disclosure layout (flat skills/<category>/<skill>/)
+ * - GTM quality bar: authority, process, artifacts, execution routing
  * - frontmatter fields + metadata completeness
  * - exact supported-system compatibility string
  * - named framework attribution in frontmatter and body
@@ -11,6 +13,10 @@
  * - no duplicate core sections
  * - sensitive/professional-domain disclaimers
  * - public-safe content hygiene
+ *
+ * @see https://agentskills.io/specification
+ * @see docs/SKILL_AUTHORING.md
+ * @see docs/SOURCE_STANDARDS.md
  */
 
 const fs = require('node:fs');
@@ -21,9 +27,16 @@ const ROOT = path.join(__dirname, '..');
 const SKILLS_DIR = path.join(ROOT, 'skills');
 const MAX_NAME_LENGTH = 64;
 const MAX_DESC_LENGTH = 1024;
+const MAX_COMPATIBILITY_LENGTH = 500;
+const MIN_DESCRIPTION_CHARS = 40;
 const MIN_BODY_CHARS = 1200;
 const MIN_BODY_LINES = 60;
+const MAX_SKILL_LINES = 500;
+const MIN_FRAMEWORK_NOTES_CHARS = 300;
 const EXPECTED_COMPATIBILITY = STANDARD_COMPATIBILITY;
+const AGENTSKILLS_NAME_PATTERN = /^[a-z0-9]+(-[a-z0-9]+)*$/;
+const DECORATION_PHRASE = 'do not cite it as decoration';
+const EXEMPT_SKILLS = new Set(['using-gtm-skills']);
 
 const REQUIRED_TOP_FIELDS = ['name', 'description', 'license', 'compatibility'];
 const REQUIRED_METADATA_FIELDS = ['version', 'author', 'category', 'tags', 'frameworks'];
@@ -36,13 +49,6 @@ const REQUIRED_SECTIONS = [
   '## Related Skills',
 ];
 const ATTRIBUTION_SECTIONS = ['## Authoritative Foundations', '## Frameworks Referenced'];
-const ARTIFACT_REQUIRED_CATEGORIES = new Set([
-  'analytics',
-  'automation',
-  'design',
-  'leadmagic',
-  'tools',
-]);
 const REQUIRED_ARTIFACTS = [
   'references/framework-notes.md',
   'templates/output-template.md',
@@ -177,6 +183,65 @@ function countSection(content, section) {
   return (content.match(re) || []).length;
 }
 
+function extractSection(content, heading) {
+  const title = heading.replace(/^##\s+/, '').trim();
+  const lines = content.split('\n');
+  let start = -1;
+  for (let i = 0; i < lines.length; i += 1) {
+    if (lines[i].trim() === heading.trim()) {
+      start = i + 1;
+      break;
+    }
+  }
+  if (start === -1) return '';
+  const out = [];
+  for (let i = start; i < lines.length; i += 1) {
+    if (lines[i].startsWith('## ')) break;
+    out.push(lines[i]);
+  }
+  return out.join('\n').trim();
+}
+
+function hasAuthoritySection(content) {
+  return ATTRIBUTION_SECTIONS.some(section => content.includes(section));
+}
+
+function authorityIsSubstantive(content, frameworks = []) {
+  const section = extractSection(content, '## Authoritative Foundations')
+    || extractSection(content, '## Frameworks Referenced');
+  if (!section) return false;
+  if (section.includes(DECORATION_PHRASE)) return false;
+  const named = section.match(/(?:^|\n)(?:- )?\*\*[^*]+\*\*/gm) || [];
+  if (named.length >= 3) return true;
+  if (frameworks.length >= 3 && section.length >= 120) {
+    const hits = frameworks.filter(fw => {
+      const token = fw.split(/[—–-]/)[0].trim().slice(0, 24);
+      return token.length > 3 && section.toLowerCase().includes(token.toLowerCase());
+    });
+    if (hits.length >= 2 || section.length >= 200) return true;
+  }
+  return false;
+}
+
+function hasProcessSection(content, skillName) {
+  if (/^## Step-by-Step/im.test(content)) return true;
+  if (content.includes('## Step-by-Step Process')) return true;
+  if (content.includes('## Implementation Checklist')) return true;
+  if (skillName.endsWith('-toolkit')) {
+    return content.includes('## Platform Selection')
+      || content.includes('## Implementation Checklist')
+      || content.includes('## Prompt Design Rules')
+      || content.includes('## GTM Prompt Catalog');
+  }
+  if (content.includes('## Platform-Specific Guides') || content.includes('## Data Flow Pattern')) {
+    return true;
+  }
+  if (/^## .*(?:Workflow|Framework|Playbook|Process|Design Rules|Prompt Catalog)\b/im.test(content) && /^### /m.test(content)) {
+    return true;
+  }
+  return false;
+}
+
 const CHECKABLE_EXT = /\.(?:md|py|js|csv|json)$/;
 const BACKTICK_PATH = /^(?:\.\.\/|references|templates|scripts|assets|skills)\/[A-Za-z0-9._/-]+\.(?:md|py|js|csv|json)$/;
 
@@ -268,11 +333,19 @@ for (const skill of skills) {
       console.error(`❌ ${skillId}: frontmatter name '${fm.name}' must equal skill directory name '${skill.dir}'`);
       errors++; skillErrors++;
     }
+    if (!AGENTSKILLS_NAME_PATTERN.test(fm.name)) {
+      console.error(`❌ ${skillId}: name must match agentskills.io pattern (lowercase a-z0-9 and single hyphens only)`);
+      errors++; skillErrors++;
+    }
   }
 
   if (fm.description) {
     if (fm.description.length > MAX_DESC_LENGTH) {
       console.error(`❌ ${skillId}: description too long (${fm.description.length} > ${MAX_DESC_LENGTH})`);
+      errors++; skillErrors++;
+    }
+    if (fm.description.length < MIN_DESCRIPTION_CHARS) {
+      console.error(`❌ ${skillId}: description too short (${fm.description.length} < ${MIN_DESCRIPTION_CHARS})`);
       errors++; skillErrors++;
     }
     if (!/\b(use when|triggers on|when to use)\b/i.test(fm.description)) {
@@ -288,6 +361,10 @@ for (const skill of skills) {
 
   if (fm.compatibility !== EXPECTED_COMPATIBILITY) {
     console.error(`❌ ${skillId}: compatibility must exactly match the supported-system compatibility string`);
+    errors++; skillErrors++;
+  }
+  if (fm.compatibility && fm.compatibility.length > MAX_COMPATIBILITY_LENGTH) {
+    console.error(`❌ ${skillId}: compatibility exceeds agentskills.io max (${fm.compatibility.length} > ${MAX_COMPATIBILITY_LENGTH})`);
     errors++; skillErrors++;
   }
 
@@ -325,23 +402,77 @@ for (const skill of skills) {
     }
   }
 
-  if (!ATTRIBUTION_SECTIONS.some(section => content.includes(section))) {
+  if (!hasAuthoritySection(content)) {
     console.error(`❌ ${skillId}: missing body-level attribution section (${ATTRIBUTION_SECTIONS.join(' or ')})`);
     errors++; skillErrors++;
   }
 
-  if (ARTIFACT_REQUIRED_CATEGORIES.has(skill.category)) {
-    if (!content.includes('## Execution Artifacts')) {
-      console.error(`❌ ${skillId}: artifact-heavy category missing '## Execution Artifacts' section`);
+  if (!EXEMPT_SKILLS.has(fm.name) && !authorityIsSubstantive(content, frameworks)) {
+    console.error(`❌ ${skillId}: attribution section needs at least 3 substantive named-framework bullets`);
+    errors++; skillErrors++;
+  }
+
+  if (!EXEMPT_SKILLS.has(fm.name) && !hasProcessSection(content, fm.name)) {
+    console.error(`❌ ${skillId}: missing process section (Step-by-Step, Implementation Checklist, or toolkit workflow)`);
+    errors++; skillErrors++;
+  }
+
+  if (content.includes(DECORATION_PHRASE)) {
+    console.error(`❌ ${skillId}: generic authority filler found — run scripts/fix-decoration-authority.py`);
+    errors++; skillErrors++;
+  }
+
+  if (!content.includes('## Execution Artifacts')) {
+    console.error(`❌ ${skillId}: missing '## Execution Artifacts' section`);
+    errors++; skillErrors++;
+  }
+
+  for (const relArtifact of REQUIRED_ARTIFACTS) {
+    const artifactPath = path.join(path.dirname(skill.path), relArtifact);
+    if (!fs.existsSync(artifactPath)) {
+      console.error(`❌ ${skillId}: missing required artifact '${relArtifact}'`);
       errors++; skillErrors++;
     }
-    for (const relArtifact of REQUIRED_ARTIFACTS) {
-      const artifactPath = path.join(path.dirname(skill.path), relArtifact);
-      if (!fs.existsSync(artifactPath)) {
-        console.error(`❌ ${skillId}: missing required artifact '${relArtifact}'`);
-        errors++; skillErrors++;
-      }
+  }
+
+  const frameworkNotesPath = path.join(path.dirname(skill.path), 'references/framework-notes.md');
+  if (fs.existsSync(frameworkNotesPath)) {
+    const notes = fs.readFileSync(frameworkNotesPath, 'utf8');
+    if (notes.length < MIN_FRAMEWORK_NOTES_CHARS) {
+      console.error(`❌ ${skillId}: references/framework-notes.md too thin (${notes.length} < ${MIN_FRAMEWORK_NOTES_CHARS} chars)`);
+      errors++; skillErrors++;
     }
+    if (notes.includes(DECORATION_PHRASE)) {
+      console.error(`❌ ${skillId}: references/framework-notes.md contains generic decoration filler`);
+      errors++; skillErrors++;
+    }
+    if (notes.includes('`references/framework-notes.md`')) {
+      console.error(`❌ ${skillId}: references/framework-notes.md must not self-reference in its index table`);
+      errors++; skillErrors++;
+    }
+  }
+
+  const skillDir = path.dirname(skill.path);
+  const refFileCount = fs.existsSync(path.join(skillDir, 'references'))
+    ? fs.readdirSync(path.join(skillDir, 'references')).filter(f => f.endsWith('.md')).length
+    : 0;
+  if (!EXEMPT_SKILLS.has(fm.name) && lineCount > MAX_SKILL_LINES && refFileCount < 5) {
+    console.error(`❌ ${skillId}: SKILL.md exceeds agentskills.io recommended length (${lineCount} > ${MAX_SKILL_LINES} lines) with only ${refFileCount} reference files — move detail to references/`);
+    errors++; skillErrors++;
+  }
+
+  const execArtifacts = extractSection(content, '## Execution Artifacts');
+  if (execArtifacts && !execArtifacts.includes('framework-notes.md')) {
+    console.error(`❌ ${skillId}: Execution Artifacts must list references/framework-notes.md`);
+    errors++; skillErrors++;
+  }
+  if (execArtifacts && !execArtifacts.includes('output-template.md')) {
+    console.error(`❌ ${skillId}: Execution Artifacts must list templates/output-template.md`);
+    errors++; skillErrors++;
+  }
+  if (execArtifacts && !execArtifacts.includes('check-output.py')) {
+    console.error(`❌ ${skillId}: Execution Artifacts must list scripts/check-output.py`);
+    errors++; skillErrors++;
   }
 
   for (const section of DUPLICATE_CHECK_SECTIONS) {
@@ -393,7 +524,6 @@ for (const skill of skills) {
     }
   }
 
-  const skillDir = path.dirname(skill.path);
   for (const target of extractLinkTargets(content)) {
     if (!targetResolves(target, skillDir, skill.path)) {
       console.error(`❌ ${skillId}: unresolvable reference target '${target}' (not found relative to skill dir or repo root)`);

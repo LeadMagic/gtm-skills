@@ -33,13 +33,11 @@ This skill covers sourcing, structuring engagements, IP protection, rate
 negotiation, and management practices that make contractor relationships
 productive rather than painful.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Freelance Talent Management.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Upwork Enterprise Patterns.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Paul Graham — Do Things That Do Not Scale.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Freelance Talent Management** — Shapes deliverables for this skill — Contractors give you talent without full-time commitment.
+- **Upwork Enterprise Patterns** — Shapes deliverables for this skill — Contractors give you talent without full-time commitment.
+- **Paul Graham — Do Things That Do Not Scale** — Do Things That Do Not Scale
 
 ## When to Use
 

@@ -166,9 +166,10 @@ dashboard (attendance, commenters, DMs, meetings), and 8-week iteration review.
 
 ## Execution Artifacts
 
-- `references/jessie-lizak-linkedin-live.md` — Flywheel, checklists, repurposing tables
+- `references/framework-notes.md` — Framework index and authority routing
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/jessie-lizak-linkedin-live.md` — Flywheel, checklists, repurposing tables
 
 ## Related Skills
 

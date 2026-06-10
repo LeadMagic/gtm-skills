@@ -25,13 +25,11 @@ Its killer features: unlimited mailboxes, automatic mailbox rotation, AI reply
 categorization, and a unified master inbox. This skill covers setup from 0 to
 sending at scale.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Smartlead Best Practices.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Eric Nowoslawski Cold Email Infrastructure.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Outreach — Sales Engagement Cadence Design.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Smartlead Best Practices** — Unlimited mailboxes, master inbox, and agency-scale cold email ops.
+- **Eric Nowoslawski Cold Email Infrastructure** — Cold email infra at scale — 2 inboxes/domain, backup inboxes, Creative Ideas testing.
+- **Outreach — Sales Engagement Cadence Design** — Sequence governance, task-based selling, and CRM-locked cadences.
 
 ## When to Use
 - "Set up Smartlead"
@@ -101,18 +99,16 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — Eric Smartlead scale, Pat verify gate, AI categorization
+- `templates/output-template.md` — infrastructure + AI labels + Clay gate deliverable
+- `scripts/check-output.py` — local checklist validator
+This skill includes lightweight artifacts the agent can load on demand:
 - `references/clay-enrollment-handoff.md` — Clay/loops → Smartlead push + custom variables
 - `../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md` — Eric Nowoslawski agency infra (canonical Smartlead operator)
 - `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify-before-send (Pat Spielmann)
 - `../../tools/clay-loops-toolkit/references/leadmagic-waterfall.md` — loop enrich chain before push
 - `../../leadmagic/leadmagic-cli/references/cli-workflow-patterns.md` — `lm integrations smartlead push`
 - `../../../../references/gtm-experts-outbound-index.md` — expert router
-- `templates/output-template.md` — infrastructure + AI labels + Clay gate deliverable
-- `scripts/check-output.py` — local checklist validator
-
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

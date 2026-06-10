@@ -31,14 +31,13 @@ LeadMagic integrates natively with every major GTM platform. This skill covers
 integration setup, data flow patterns, and the verification-at-send principle:
 every contact entering a sequence must pass verification first.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **iPaaS Integration Patterns.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Zapier/Make Automation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **CRM Enrichment Workflows.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Pat Spielmann — Cold to Gold & Full-Circle Multichannel.** Integrations exist to feed **verify-before-send** pipelines into Clay, Smartlead, Instantly, and CRM — then route positive replies to phone quickly. Playbook → `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`.
+- **iPaaS Integration Patterns** — Shapes deliverables for this skill — LeadMagic integrates natively with every major GTM platform.
+- **Zapier/Make Automation** — Shapes deliverables for this skill — LeadMagic integrates natively with every major GTM platform.
+- **CRM Enrichment Workflows** — Shapes deliverables for this skill — LeadMagic integrates natively with every major GTM platform.
+- **Pat Spielmann — Cold to Gold** — Cold to Gold
+- **Pat Spielmann — Full-Circle Multichannel** — Full-Circle Multichannel
 
 ## When to Use
 
@@ -118,18 +117,16 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
-- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — stack integration + outbound message audit (Pat Spielmann — LeadMagic)
 - `references/framework-notes.md` — platform matrix, iPaaS patterns, Eric Clay agency stack
+- `templates/output-template.md` — integration config + verify gate deliverable
+- `scripts/check-output.py` — local checklist validator for required sections
+This skill includes lightweight artifacts the agent can load on demand:
+- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — stack integration + outbound message audit (Pat Spielmann — LeadMagic)
 - `references/integration-checklist.md` — go-live checklist per platform (Clay, Smartlead, CRM, n8n)
 - `../leadmagic-waterfall/references/waterfall-column-spec.md` — Clay column spec
 - `../../tools/clay-toolkit/SKILL.md` — clay-toolkit native integration
 - `../../tools/smartlead-workflows/references/clay-enrollment-handoff.md` — sequencer handoff
 - `../../../../references/gtm-experts-outbound-index.md` — expert router
-- `templates/output-template.md` — integration config + verify gate deliverable
-- `scripts/check-output.py` — local checklist validator for required sections
-
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

@@ -395,6 +395,9 @@ Use `references/subject-line-patterns.md` when the task needs subject-line patte
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — Framework index and authority routing
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 - `references/pat-spielmann-outbound-copy.md` — Hook-Line-Sinker, Cold to Gold, enrichment-led copy, anti-patterns, review checklists (Pat Spielmann — canonical)
 - `../cold-email-strategy/references/justin-michael-sales-borg.md` — REPLY methodology, brevity rules, trigger-linked personalization (canonical)
 - `../cold-email-strategy/references/becc-holland-playbook.md` — Stellar email pillars, structure
@@ -404,8 +407,6 @@ Use `references/subject-line-patterns.md` when the task needs subject-line patte
 - `references/email-frameworks.md` — Cold email copy frameworks and rules
 - `references/sequence-touch-library.md` — Multi-touch email templates
 - `references/subject-line-patterns.md` — Subject line pattern library
-- `templates/output-template.md` — Deliverable shell for agent output
-- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 

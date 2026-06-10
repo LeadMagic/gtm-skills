@@ -35,15 +35,14 @@ advanced tactic. The mistake: using the API one call at a time manually.
 The fix: automated workflows, waterfall enrichment, MCP tool orchestration,
 and integration into every tool in your stack.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **LeadMagic API — Email finder, verifier, waterfall enrichment endpoints.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **MCP (Model Context Protocol) — Anthropic AI tool integration.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Clay — Waterfall enrichment and prospecting platform.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **n8n — Open-source workflow automation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Pat Spielmann — Portable data layer & Cold to Gold.** LeadMagic as agnostic enrichment API feeding Clay/sequencers — data quality before copy scale. Operator playbook → `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`.
+- **LeadMagic API — Email finder, verifier, waterfall enrichment endpoints** — Email finder, verifier, waterfall enrichment endpoints
+- **MCP (Model Context Protocol) — Anthropic AI tool integration** — Model Context Protocol — tool servers for agent-safe CRM and enrichment access.
+- **Clay — Waterfall enrichment and prospecting platform** — Waterfall enrichment, Claygent research, and table-based GTM automation.
+- **n8n — Open-source workflow automation** — Workflow automation — HTTP nodes, webhooks, and GTM glue between tools.
+- **Pat Spielmann — Portable data layer** — Portable data layer
+- **Pat Spielmann — Cold to Gold** — Cold to Gold
 
 ## When to Use
 
@@ -207,13 +206,11 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
-- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — GTM stack + outbound copy integration patterns (Pat Spielmann)
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
+- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — GTM stack + outbound copy integration patterns (Pat Spielmann)
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

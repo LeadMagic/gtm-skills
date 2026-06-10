@@ -30,13 +30,11 @@ a CRM that works like a database — flexible objects, real-time collaboration,
 and API-first architecture. Best for startups and growth-stage B2B SaaS that
 find HubSpot too rigid and Salesforce too heavy.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Attio Programmable CRM Model.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Modern CRM Architecture.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **HubSpot Academy — CRM Automation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Attio Programmable CRM Model** — Shapes deliverables for this skill — Attio is the modern programmable CRM.
+- **Modern CRM Architecture** — Shapes deliverables for this skill — Attio is the modern programmable CRM.
+- **HubSpot Academy — CRM Automation** — Lifecycle stages, object model, and workflow enrollment patterns.
 
 ## When to Use
 
@@ -128,12 +126,10 @@ guidelines.
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

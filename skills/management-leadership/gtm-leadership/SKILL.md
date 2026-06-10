@@ -348,6 +348,9 @@ Load `references/cro-enterprise-strategy.md` for full checklists. Summary:
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — Framework index and authority routing
+- `templates/output-template.md` — Primary deliverable shell
+- `scripts/check-output.py` — Validates hire, coach, PIP, fire, resignation, and crisis deliverables
 - `references/crisis-management-playbook.md` — **canonical crisis home** (severity matrix, war room, channels)
 - `references/crisis-preparedness-checklist.md` — contact tree, status page, tabletop cadence
 - `references/saas-pr-crisis-experts.md` — Lemkin, Highwire, Offleash, Ruettimann
@@ -366,7 +369,6 @@ Load `references/cro-enterprise-strategy.md` for full checklists. Summary:
 - `templates/resignation-conversation-script.md` — manager receiving notice
 - `templates/resignation-handoff-checklist.md` — pipeline + account transfer
 - `templates/exit-interview-questions.md` — HR / skip-level exit interview
-- `scripts/check-output.py` — Validates hire, coach, PIP, fire, resignation, and crisis deliverables
 
 ## Related Skills
 

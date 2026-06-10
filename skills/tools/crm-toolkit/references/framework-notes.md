@@ -1,34 +1,39 @@
-# CRM Toolkit — Framework Notes
+# Crm Toolkit — Framework Notes
+
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
 ## Primary Frameworks
 
-- **Winning by Design — Bowtie.** CRM spans acquisition through expansion; pipeline-only configs fail CS handoff.
-- **HubSpot Lifecycle Model.** Subscriber → Lead → MQL → SQL → Opportunity → Customer; single Contact record.
-- **Salesforce Lead Conversion.** Lead → Account + Contact + Opportunity; assignment and dedupe at Lead.
-- **Attio List Architecture.** Dynamic lists as SDR queues; flat People ↔ Companies linking.
-- **Marc Benioff (Salesforce).** V2MOM alignment, trust selling, land-and-expand CRM structure, customer success objects — `benioff-enterprise-playbook.md`.
+- **Winning by Design — Bowtie lifecycle**
+- **HubSpot — Lifecycle Stage Model**
+- **Salesforce — Lead/Account/Contact/Opportunity**
+- **Marc Benioff — V2MOM, trust selling, land-and-expand, customer success**
+- **Attio — Programmable object + list model**
 
-## Contacts vs Leads — Decision Rule
+## Deep-dive references
 
-| Need quarantine for unqualified inbound? | Platform pattern |
+| File | Authority | Use when |
+|---|---|---|
+| `references/attio-blueprint.md` | Crm Toolkit reference | Extended attio blueprint detail |
+| `references/benioff-enterprise-playbook.md` | Crm Toolkit reference | Extended benioff enterprise playbook detail |
+| `references/contacts-vs-leads.md` | Crm Toolkit reference | Extended contacts vs leads detail |
+| `references/crm-selection.md` | Crm Toolkit reference | Extended crm selection detail |
+| `references/hubspot-blueprint.md` | Crm Toolkit reference | Extended hubspot blueprint detail |
+| `references/implementation-partners.md` | Crm Toolkit reference | Extended implementation partners detail |
+| `references/platform-setup-index.md` | Crm Toolkit reference | Extended platform setup index detail |
+| `references/salesforce-blueprint.md` | Crm Toolkit reference | Extended salesforce blueprint detail |
+
+## Templates
+
+- `templates/output-template.md` — Primary deliverable shell
+- `templates/land-expand-account-plan.md` — Role-specific deliverable
+
+## Agent routing
+
+| Question | Action |
 |---|---|
-| Yes, SDR team, high volume | Salesforce Leads OR HubSpot lifecycle + scoring OR Attio status=inbound |
-| No, low volume, founder-led | Direct Contact/Account (SF) or lifecycle Lead stage (HS) or Attio qualified path |
+| Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
 
-Full guide: `references/contacts-vs-leads.md`
-
-## Operating Assumptions
-
-- Process before config: `pipeline-management` + `crm-integration` precede blueprints.
-- Enrichment flows one direction into CRM (`clay-toolkit`, `leadmagic-toolkit`).
-- Bootstrap <$5M ARR: default Attio or HubSpot unless enterprise procurement requires Salesforce.
-- Partners execute documented playbooks (`hiring-agencies`) — not strategy discovery.
-
-## Agent Use
-
-1. If platform unknown → `crm-selection.md`
-2. If Salesforce or "leads" mentioned → `contacts-vs-leads.md`
-3. If platform chosen → matching `*-blueprint.md` + setup skill
-4. If migration or SI → `implementation-partners.md`
-5. If enterprise land-expand or NRR-led → `benioff-enterprise-playbook.md` + land-expand template
-6. Cite framework that drove object model recommendation
+Before final output, cite which framework shaped the recommendation.

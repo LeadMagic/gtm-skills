@@ -221,6 +221,9 @@ Do not pay CRO on bookings alone when GAAP revenue trails contracts.
 
 ## Execution Artifacts
 
+- `references/framework-notes.md`
+- `templates/output-template.md`
+- `scripts/check-output.py`
 - `references/gtm-compensation-strategy.md` — **canonical master playbook** (Pattern 35)
 - `references/comp-by-role-stage.md` — role × ARR stage matrix
 - `templates/comp-plan-design-worksheet.md` — plan design worksheet
@@ -231,10 +234,6 @@ Do not pay CRO on bookings alone when GAAP revenue trails contracts.
 - `references/pavilion-cro-comp.md` — Sam Jacobs / CRO Council patterns
 - `templates/executive-offer-package.md` — offer + comp + equity summary
 - `templates/board-comp-memo.md` — board approval format
-- `references/framework-notes.md`
-- `templates/output-template.md`
-- `scripts/check-output.py`
-
 **Cross-skill:** CRO variable gates align with `saas-outcomes/references/exit-metrics-matrix.md` (NRR, Rule of 40, burn multiple)
 
 ## Related Skills

@@ -1,20 +1,18 @@
 # Conference Strategy — Framework Notes
 
-Reference tables for `SKILL.md`. Apply named frameworks to justify recommendations — do not cite as decoration.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations.
 
-## Primary frameworks
+## Primary Frameworks
 
-- B2B Event ROI Framework
-- Conference Strategy Playbook
-- Bizzabo — Event Experience Framework
+- **B2B Event ROI Framework**
+- **Conference Strategy Playbook**
+- **Bizzabo — Event Experience Framework**
 
 ## Authoritative foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **B2B Event ROI Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Conference Strategy Playbook.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Bizzabo — Event Experience Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **B2B Event ROI Framework** — Named methodology governing recommendations in this skill's process.
+- **Conference Strategy Playbook** — Named methodology governing recommendations in this skill's process.
+- **Bizzabo — Event Experience Framework** — Event Experience Framework
 
 ## Process phases
 
@@ -28,6 +26,6 @@ This skill is grounded in public frameworks and source material relevant to the 
 
 | Question | Action |
 |---|---|
+| Full process | Follow `SKILL.md` step-by-step |
 | Build deliverable | Use `templates/output-template.md` |
 | Validate output | Run `scripts/check-output.py` |
-| Full process | Follow `SKILL.md` step-by-step |

@@ -1,37 +1,29 @@
 # Salesloft Cadences — Framework Notes
 
-**Category:** `tools` · Enterprise SEP — Rhythm cadences + Conversations.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
 ## Primary Frameworks
 
-- **Salesloft Rhythm Cadences** — Email + call + LinkedIn orchestration, task-gated steps
-- **Pat Spielmann — Verify-before-enroll** — CRM field gate before cadence → `../../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
-- **Eric Nowoslawski — Infra at scale** — If using connected mailboxes for outbound volume → `../../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md`
+- **Salesloft Modern Selling Framework**
+- **ColdIQ Cadence Design**
+- **Outreach — Sales Engagement Cadence Design**
 
-## Tool Boundaries
+## Deep-dive references
 
-| Layer | Skill | Role |
+| File | Authority | Use when |
 |---|---|---|
-| Enrichment | clay-toolkit / leadmagic-waterfall | CRM field population |
-| Loops | clay-loops-toolkit | Signal → CRM → cadence trigger |
-| SEP | salesloft-cadences (this skill) | Rhythm + rep tasks |
-| CRM sync | crm-integration | Field mapping |
+| `references/enrichment-enrollment-gate.md` | Salesloft Cadences reference | Extended enrichment enrollment gate detail |
 
-## Enrollment Gate
+## Templates
 
-Load `references/enrichment-enrollment-gate.md` — lm_email_status must be valid in CRM before auto-enroll.
+- `templates/output-template.md` — Primary deliverable shell
 
-## Enterprise Assumptions
+## Agent routing
 
-- Admin approval on cadences >500 contacts
-- Conversation intelligence for coaching, not auto-send
-- Persona-based cadence selection via CRM fields
+| Question | Action |
+|---|---|
+| Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
 
-## Agent Use
-
-1. CRM custom fields (verify status, last_verified) before cadence design.
-2. Pat verify gate in enrollment rules.
-3. clay-loops-toolkit for signal-triggered cadences.
-4. Run `check-output.py`.
-
-Expert router → `references/gtm-experts-outbound-index.md`
+Before final output, cite which framework shaped the recommendation.

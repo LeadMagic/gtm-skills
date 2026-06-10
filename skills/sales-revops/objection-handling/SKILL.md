@@ -154,10 +154,10 @@ objection battlecards.
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Named frameworks and reference tables
-- `references/brent-adamson-challenger.md` — Challenger reframing (repo root)
-- `references/anthony-iannarino-sales-discipline.md` — Competitive leveling (repo root)
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/brent-adamson-challenger.md` — Challenger reframing (repo root)
+- `references/anthony-iannarino-sales-discipline.md` — Competitive leveling (repo root)
 
 ## Related Skills
 

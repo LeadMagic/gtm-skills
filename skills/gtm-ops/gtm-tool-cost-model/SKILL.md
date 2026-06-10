@@ -168,12 +168,12 @@ TCO is the plan; **Ramp + vendor register** is actuals:
 
 ## Execution Artifacts
 
-- `references/cost-model-templates.md` — formulas and benchmarks
-- `references/licensing-models.md` — seat vs usage vs platform
-- `templates/tool-cost-sheet.md` — budget template
 - `references/framework-notes.md`
 - `templates/output-template.md`
 - `scripts/check-output.py`
+- `references/cost-model-templates.md` — formulas and benchmarks
+- `references/licensing-models.md` — seat vs usage vs platform
+- `templates/tool-cost-sheet.md` — budget template
 
 ## Related Skills
 

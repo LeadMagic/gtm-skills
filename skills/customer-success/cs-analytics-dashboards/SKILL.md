@@ -34,15 +34,13 @@ analytics stack: health score models, NPS/CSAT/CES programs, churn prediction,
 expansion propensity, support analytics, and CS team performance dashboards.
 Every metric mapped to an action.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Gainsight — Customer Health Score Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Totango — Customer Success Maturity Model.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Bain & Company — NPS (Net Promoter System, Fred Reichheld).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **CustomerGauge — Account Experience (B2B NPS).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **David Skok — SaaS Churn Analysis.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Gainsight — Customer Health Score Framework** — Customer Health Score Framework
+- **Totango — Customer Success Maturity Model** — Customer Success Maturity Model
+- **Bain & Company — NPS (Net Promoter System, Fred Reichheld)** — NPS (Net Promoter System, Fred Reichheld)
+- **CustomerGauge — Account Experience (B2B NPS)** — Account Experience (B2B NPS)
+- **David Skok — SaaS Churn Analysis** — SaaS metrics — CAC payback, LTV/CAC, unit economics by stage.
 
 ## When to Use
 
@@ -315,7 +313,6 @@ Before delivering, verify:
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-
 **Canonical lifecycle (repo root):** `references/activation-playbook.md` · `references/lifecycle-metrics-by-stage.md` (Activation, Engagement, Retention) · `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md`
 
 ## Related Skills

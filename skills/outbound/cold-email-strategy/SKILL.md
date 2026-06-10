@@ -602,6 +602,9 @@ These are benchmarks, not guarantees. Industry, offer strength, and market
 conditions all shift these numbers. Use them as calibration, not prediction.
 ## Execution Artifacts
 
+- `references/framework-notes.md` — Framework index and authority routing
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 - `../cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — Cold to Gold operating model, Full-Circle multichannel, enrichment-led sequence inputs, message audit checklist (Pat Spielmann)
 - `references/justin-michael-sales-borg.md` — Sales Borg philosophy, human/bot division of labor, TQ stack, triggers, metrics, setup checklist (Justin Michael / *Tech-Powered Sales*)
 - `sales-coaching/references/randy-seidl-relationship-selling.md` — When sequences end and relationship selling begins (contrast)
@@ -614,8 +617,6 @@ conditions all shift these numbers. Use them as calibration, not prediction.
 - `references/eric-nowoslawski-outbound.md` — Infra at scale, Creative Ideas, Crawl Walk Run, unit economics (Eric Nowoslawski)
 - `references/leslie-venetz-buyer-first-outbound.md` — Earn-the-Right gate, problem-centric audit, segmentation, three-channel-minimum, Profit-Generating Pipeline (Leslie Venetz)
 - `references/expert-frameworks.md` — Outbound expert subsidiary map
-- `templates/output-template.md` — Deliverable shell for agent output
-- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 - `website-visitor-identification` — person ID → trigger branch with privacy guardrails

@@ -40,16 +40,14 @@ with **Plain** (API-first support + native MCP) and connect **Jesse / Claude Cod
 instead of vendor AI (Fin, Zendesk AI). Load `references/byoai-headless-stack.md`
 for integration map, MCP setup, and when to choose Plain vs Intercom.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Intercom — Fin AI Agent and Resolution Bot.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Zendesk — AI Agents and Answer Bot.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Plain — API-first headless support and BYOAI via MCP.** Use when embedding support in-product or wiring Jesse/Claude to threads, customers, and help center — not as a Fin replacement for non-technical teams.
-- **Ada — Conversational AI for Support.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Forethought — AI-First Customer Support.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Amazon — Working Backwards (deflection reduces cost and improves CSAT).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Intercom — Fin AI Agent and Resolution Bot** — Fin AI Agent and Resolution Bot
+- **Zendesk — AI Agents and Answer Bot** — AI Agents and Answer Bot
+- **Plain — API-first headless support and BYOAI via MCP** — Model Context Protocol — tool servers for agent-safe CRM and enrichment access.
+- **Ada — Conversational AI for Support** — Conversational AI for Support
+- **Forethought — AI-First Customer Support** — AI-First Customer Support
+- **Amazon — Working Backwards (deflection reduces cost and improves CSAT)** — Working Backwards (deflection reduces cost and improves CSAT)
 
 ## When to Use
 
@@ -332,10 +330,10 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-- `references/byoai-headless-stack.md` — Attio + Plain + MCP BYOAI stack pattern
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/byoai-headless-stack.md` — Attio + Plain + MCP BYOAI stack pattern
 
 ## Related Skills
 

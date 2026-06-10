@@ -13,10 +13,8 @@ gtm-skills/
 │       ├── templates/              # Copy-paste output formats
 │       ├── scripts/                # Deterministic local checks/helpers
 │       └── assets/                 # Static artifacts
-├── references/                     # Cross-repo catalogs (experts, pitfalls index)
-│   ├── templates/                  # Shared, cross-skill output templates
-│   └── artifacts/                  # Shared, cross-skill reference artifacts
-├── scripts/                        # Repo maintenance tools
+├── references/                     # Shared catalogs only (experts, playbooks, indexes)
+├── scripts/                        # Repo maintenance + validation tools
 ├── docs/                           # Human documentation
 ├── .claude-plugin/                 # Claude Code marketplace metadata
 ├── AGENTS.md                       # Agent-facing index
@@ -98,15 +96,17 @@ gh skill publish --dry-run
 
 GitHub Actions validates:
 
-- JavaScript/Python syntax.
-- Skill metadata and body quality.
+- JavaScript/Python syntax (including `validate-skills.js`, `fix-decoration-authority.py`, `sync-execution-artifacts.py`).
+- [agentskills.io](https://agentskills.io/specification) frontmatter + GTM quality bar (`scripts/validate-skills.js`): authority, process, artifact triad, Execution Artifacts routing.
 - Marketplace discovery depth (flat `skills/<category>/<skill>/SKILL.md` only).
 - Reference audit (`scripts/audit-references.py`): every reference target resolves, skill depth is flat, and frontmatter `name` matches the directory.
-- `skills.lock` consistency.
-- Installer dry-run.
+- `skills.lock` SHA256 consistency.
+- Installer dry-run (Jesse path smoke test).
 - Public repository hygiene audit.
-- Generated file drift (`npm run build` followed by `git diff --exit-code` on generated catalogs).
+- Generated file drift (`npm run check:generated`).
 - `gh skill publish --dry-run`.
+
+Maintenance scripts: `npm run fix:authority`, `npm run fix:artifacts`, `npm run sync:artifacts`.
 
 ## Reference Path Convention
 

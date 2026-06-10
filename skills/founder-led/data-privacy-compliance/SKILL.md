@@ -38,16 +38,14 @@ operational program. This skill covers the complete privacy compliance roadmap
 for B2B SaaS: GDPR, CCPA, cookie consent, DPAs, SCCs, and building a privacy
 program that passes enterprise security reviews.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **GDPR (EU General Data Protection Regulation 2016/679).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **CCPA/CPRA (California Consumer Privacy Act / California Privacy Rights Act).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **ePrivacy Directive (EU Cookie Law).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **IAPP (International Association of Privacy Professionals).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **NIST Privacy Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Termly / Iubenda — Privacy compliance tools.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **GDPR (EU General Data Protection Regulation 2016/679)** — Lawful basis, data minimization, DPA requirements for EU buyers.
+- **CCPA/CPRA (California Consumer Privacy Act / California Privacy Rights Act)** — Shapes deliverables for this skill — Privacy compliance went from "nice to have" to "existential requirement.
+- **ePrivacy Directive (EU Cookie Law)** — Shapes deliverables for this skill — Privacy compliance went from "nice to have" to "existential requirement.
+- **IAPP (International Association of Privacy Professionals)** — Shapes deliverables for this skill — Privacy compliance went from "nice to have" to "existential requirement.
+- **NIST Privacy Framework** — Shapes deliverables for this skill — Privacy compliance went from "nice to have" to "existential requirement.
+- **Termly / Iubenda — Privacy compliance tools** — Privacy compliance tools
 
 ## When to Use
 

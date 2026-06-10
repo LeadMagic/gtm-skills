@@ -1,27 +1,23 @@
 # Abm Strategy — Framework Notes
 
-Reference tables for `SKILL.md`. Apply named frameworks to justify recommendations — do not cite as decoration.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
-## Primary frameworks
+## Deep-dive references
 
-- **ITSMA ABM Framework**
-- **TOPO Account-Based Framework**
-- **WbD Bowtie**
-- **John Ruhlin Giftology**
-- **Sendoso Sending Platform**
+| File | Authority | Use when |
+|---|---|---|
+| `references/lars-nilsson-absd.md` | Abm Strategy reference | Extended lars nilsson absd detail |
 
-## Process phases
+## Templates
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
+- `templates/output-template.md` — Primary deliverable shell
 
 ## Agent routing
 
 | Question | Action |
 |---|---|
-| Build deliverable | Use `templates/output-template.md` |
-| Validate output | Run `scripts/check-output.py` |
 | Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
+
+Before final output, cite which framework shaped the recommendation.

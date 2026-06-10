@@ -270,6 +270,9 @@ customer/prospect data and approved exchange paths — see
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — Gartner/Forrester/WbD notes
+- `templates/output-template.md` — Deliverable shell
+- `scripts/check-output.py`
 - `references/gtm-ops-skill-index.md` — Ops skill router
 - `references/gtm-data-exchange-playbook.md` — Customer data exchange SOP (repo root)
 - `references/gtm-project-management-playbook.md` — **Canonical PM home** (cadence, milestones, project types)
@@ -277,13 +280,10 @@ customer/prospect data and approved exchange paths — see
 - `references/gtm-organization-principles.md` — SSOT, docs/tasks/data/dashboards IA
 - `references/team-design-gtm-projects.md` — DRI, launch pods, span of control
 - `references/gtm-automation-expert-playbook.md` — Jen Igartua RevOps automation maturity (repo root; Pattern 30)
-- `references/framework-notes.md` — Gartner/Forrester/WbD notes
 - `templates/gtm-project-charter.md` — One-page charter
 - `templates/raci-matrix-template.md` — RACI + filled GTM examples
 - `templates/revops-maturity-assessment.md` — Maturity scorecard
 - `templates/operating-cadence-calendar.md` — Meeting rhythm
-- `templates/output-template.md` — Deliverable shell
-- `scripts/check-output.py`
 
 ## Related Skills
 

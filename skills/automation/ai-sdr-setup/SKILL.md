@@ -191,13 +191,11 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
-- `../../outbound/cold-email-strategy/references/justin-michael-sales-borg.md` — Sales Borg human/bot division, TQ, guardrails alignment (canonical)
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
+- `../../outbound/cold-email-strategy/references/justin-michael-sales-borg.md` — Sales Borg human/bot division, TQ, guardrails alignment (canonical)
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

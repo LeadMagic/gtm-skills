@@ -30,13 +30,13 @@ enrichment, and outbound platform integration. Use it to automate enrichment
 workflows, batch-process CSV files, and push verified contacts to sending
 platforms — all without leaving the terminal.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **CLI Design Patterns.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Enrichment Workflow Automation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **LeadMagic Public Documentation — B2B Data Enrichment.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **CLI Design Patterns** — Shapes deliverables for this skill — The LeadMagic CLI provides terminal access to email finding, validation, company
+enrichment, and outbound platform integ.
+- **Enrichment Workflow Automation** — Shapes deliverables for this skill — The LeadMagic CLI provides terminal access to email finding, validation, company
+enrichment, and outbound platform integ.
+- **LeadMagic Public Documentation — B2B Data Enrichment** — B2B Data Enrichment
 
 ## When to Use
 
@@ -145,17 +145,15 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — CLI patterns, Pat validate-before-push, Eric scale ops
+- `templates/output-template.md` — command sequence + verify gate deliverable
+- `scripts/check-output.py` — local checklist validator for required sections
+This skill includes lightweight artifacts the agent can load on demand:
 - `references/cli-workflow-patterns.md` — find → validate → push pipelines (Patterns A–E)
 - `../leadmagic-waterfall/references/waterfall-column-spec.md` — Clay alternative for recurring
 - `../../tools/smartlead-workflows/references/clay-enrollment-handoff.md` — post-CLI sequencer handoff
 - `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify-before-send (Pat Spielmann)
 - `../../../../references/gtm-experts-outbound-index.md` — expert router
-- `templates/output-template.md` — command sequence + verify gate deliverable
-- `scripts/check-output.py` — local checklist validator for required sections
-
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

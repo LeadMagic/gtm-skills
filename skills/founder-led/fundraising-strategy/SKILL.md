@@ -315,14 +315,13 @@ Consult qualified professionals for your specific situation — attorneys for le
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — routing index
+- `templates/output-template.md` — deliverable shell
+- `scripts/check-output.py` — deliverable validator
 - `references/vc-milestone-gates.md` — metric gates by round
 - `references/saas-mrr-accounting-nuances.md` — ARR definitions for diligence (repo root)
 - `references/gtm-budget-playbook.md` — operating budget for data room (repo root)
 - `references/saas-tax-founder-awareness.md` — CPA handoffs pre-close (repo root)
-- `references/framework-notes.md` — routing index
-- `templates/output-template.md` — deliverable shell
-- `scripts/check-output.py` — deliverable validator
-
 **Cross-skill (journey / exit):** `saas-outcomes/references/journey-stage-gates.md`, `saas-outcomes/references/bootstrap-vs-vc-paths.md`, `saas-outcomes/references/bootstrap-founder-playbook.md`, `saas-outcomes/templates/bootstrap-capital-plan.md`, `saas-outcomes/references/end-goal-matrix.md`, `saas-outcomes/templates/journey-planning-worksheet.md`, `financial-modeling/references/unit-economics-exit-bridge.md`, `saas-metrics-calculator/references/metric-definitions-exit-weight.md`, `exiting-company/references/buyer-readiness-checklist.md`, `exiting-company/references/negotiating-earn-out.md`, `references/benchmark-reconciliation.md`
 
 ## Related Skills

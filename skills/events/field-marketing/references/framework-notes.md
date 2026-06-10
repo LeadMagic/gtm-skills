@@ -1,20 +1,18 @@
 # Field Marketing — Framework Notes
 
-Reference tables for `SKILL.md`. Apply named frameworks to justify recommendations — do not cite as decoration.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations.
 
-## Primary frameworks
+## Primary Frameworks
 
-- Field Marketing ROI Framework
-- ABM Field Engagement
-- Bizzabo — Event Experience Framework
+- **Field Marketing ROI Framework**
+- **ABM Field Engagement**
+- **Bizzabo — Event Experience Framework**
 
 ## Authoritative foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Field Marketing ROI Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **ABM Field Engagement.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Bizzabo — Event Experience Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Field Marketing ROI Framework** — Named methodology governing recommendations in this skill's process.
+- **ABM Field Engagement** — Named methodology governing recommendations in this skill's process.
+- **Bizzabo — Event Experience Framework** — Event Experience Framework
 
 ## Process phases
 
@@ -28,6 +26,6 @@ This skill is grounded in public frameworks and source material relevant to the 
 
 | Question | Action |
 |---|---|
+| Full process | Follow `SKILL.md` step-by-step |
 | Build deliverable | Use `templates/output-template.md` |
 | Validate output | Run `scripts/check-output.py` |
-| Full process | Follow `SKILL.md` step-by-step |

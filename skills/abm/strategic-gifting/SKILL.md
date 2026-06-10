@@ -218,6 +218,9 @@ Run `scripts/check-output.py` before delivery.
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — Framework index and authority routing
+| `templates/output-template.md` | Deliverable structure |
+| `scripts/check-output.py` | Validator |
 | File | Use |
 |---|---|
 | `references/giftology-ruhlin.md` | Core principles + 3-gift system |
@@ -229,9 +232,6 @@ Run `scripts/check-output.py` before delivery.
 | `templates/gift-brief.md` | Per-recipient plan |
 | `templates/gift-crm-log.md` | CRM field spec |
 | `templates/sendoso-campaign.md` | Campaign checklist |
-| `references/framework-notes.md` | Quick anchors |
-| `templates/output-template.md` | Deliverable structure |
-| `scripts/check-output.py` | Validator |
 
 ## Related Skills
 

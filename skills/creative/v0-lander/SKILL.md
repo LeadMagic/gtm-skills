@@ -34,14 +34,12 @@ a designer + developer 1-2 weeks now takes a founder or marketer 2-4 hours.
 This skill is a step-by-step playbook for building every type of GTM landing
 page with v0.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **v0 by Vercel — Generative UI platform (Guillermo Rauch).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **shadcn/ui — Component library powering v0.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Tailwind CSS — Utility-first CSS framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Next.js — React framework for production.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **v0 by Vercel — Generative UI platform (Guillermo Rauch)** — Generative UI platform (Guillermo Rauch)
+- **shadcn/ui — Component library powering v0** — Component library powering v0
+- **Tailwind CSS — Utility-first CSS framework** — Utility-first CSS framework
+- **Next.js — React framework for production** — React framework for production
 
 ## When to Use
 

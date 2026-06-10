@@ -30,13 +30,11 @@ weeks on a piece of content and 10 minutes tweeting about it. This skill
 flips that: build a distribution engine that gives every piece of content
 maximum reach across every channel your ICP uses.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Content Distribution Matrix.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Gary Vaynerchuk Content Model.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Ann Handley — Everybody Writes.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Content Distribution Matrix** — Shapes deliverables for this skill — Creating content is 20% of the work.
+- **Gary Vaynerchuk Content Model** — Shapes deliverables for this skill — Creating content is 20% of the work.
+- **Ann Handley — Everybody Writes** — Everybody Writes
 
 ## When to Use
 

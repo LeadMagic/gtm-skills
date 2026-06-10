@@ -340,12 +340,11 @@ Before delivering, verify:
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Quit matrix, anti-patterns, PMF cross-links
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 - `solo-founder-gtm/references/pmf-signal-checklist.md` — PMF signals before scale
 - `solo-founder-gtm/references/pmf-testing-playbook.md` — Smoke test methodology
 - `saas-outcomes/references/journey-stage-gates.md` — Company stage gates
-- `templates/output-template.md` — Deliverable shell for agent output
-- `scripts/check-output.py` — Lightweight deliverable validator
-
 **Cross-skill (PMF → scale):** `solo-founder-gtm/references/pmf-testing-playbook.md`, `solo-founder-gtm/references/pmf-signal-checklist.md`, `solo-founder-gtm/references/scale-readiness-gates.md`
 
 ## Related Skills

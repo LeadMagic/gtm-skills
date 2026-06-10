@@ -30,13 +30,11 @@ object model for B2B SaaS, opportunity pipelines, lead management, Flows
 automation, reporting, and enrichment integration. Designed for teams that
 have outgrown HubSpot or require enterprise-grade customization.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Salesforce Architecture.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Opportunity Pipeline Model.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Force.com Platform.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Salesforce Architecture — Lead/Account/Contact/Opportunity** — Opportunity stages, forecasting categories, and RevOps object hygiene.
+- **Marc Benioff — Trust selling, land-and-expand, customer success in CRM** — Trust selling, land-and-expand, customer success in CRM
+- **Force.com Platform — Flows, validation, reporting** — Flows, validation, reporting
 
 ## When to Use
 
@@ -158,12 +156,10 @@ catalog, dashboard specs, and enrichment integration architecture.
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

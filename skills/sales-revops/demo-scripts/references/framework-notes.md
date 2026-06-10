@@ -1,33 +1,34 @@
 # Demo Scripts — Framework Notes
 
-Reference tables for `SKILL.md`. Apply named frameworks to justify recommendations — do not cite as decoration.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
-## Primary frameworks
+## Primary Frameworks
 
-- **Peter Cohan — Great Demo!** — Discovery-first demo flow. `references/peter-cohan-great-demo.md`
-- **Varun Anand — Reverse demo (PLG)** — Prospect-led product session. `references/reverse-demo-varun.md`
-- **Force Management — Command of the Message** — Demo maps to required capabilities
-- **Brent Adamson — Challenger** — Teach before show
-- **Jon Barrows — Sell Better** — Tactical demo drills
+- **Force Management Command of the Message**
+- **Challenger Teach-Tailor-Take Control**
+- **MEDDICC — Qualification**
+- **Varun Anand (Clay) — Reverse Demo**
+- **Peter Cohan — Great Demo! Reverse Demo (incumbent walkthrough)**
 
-## Authoritative foundations
+## Deep-dive references
 
-Two reverse-demo traditions: **Cohan** = incumbent walkthrough in discovery;
-**Anand/Clay** = prospect drives your product UI. Never feature-tour — scenario
-from discovered pain → proof → next step.
+| File | Authority | Use when |
+|---|---|---|
+| `references/reverse-demo-varun.md` | Demo Scripts reference | Extended reverse demo varun detail |
 
-## Process phases
+## Templates
 
-- **Phase 1 — Variant select:** First demo / technical / executive / reverse
-- **Phase 2 — Discovery recap:** Open every demo with buyer-stated pains
-- **Phase 3 — Scenario demo:** 3 pains → 3 proofs → differentiator moment
-- **Phase 4 — MAP:** Mutual action plan before leaving call
+- `templates/output-template.md` — Primary deliverable shell
+- `templates/executive-demo-outline.md` — Role-specific deliverable
+- `templates/first-demo-script.md` — Role-specific deliverable
+- `templates/technical-demo-outline.md` — Role-specific deliverable
 
 ## Agent routing
 
 | Question | Action |
 |---|---|
-| Build deliverable | Use `templates/first-demo-script.md` |
-| Reverse demo PLG | `references/reverse-demo-varun.md` |
-| Incumbent displacement | `references/peter-cohan-great-demo.md` |
+| Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
 | Validate output | Run `scripts/check-output.py` |
+
+Before final output, cite which framework shaped the recommendation.

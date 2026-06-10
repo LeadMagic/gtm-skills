@@ -259,9 +259,9 @@ Before delivering, verify:
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Named frameworks and reference tables
-- `skills/outbound/cold-email-strategy/references/leslie-venetz-buyer-first-outbound.md` — Founder buyer-first outbound, TAM→ICP narrowing, Earn-the-Right gate (Leslie Venetz)
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `skills/outbound/cold-email-strategy/references/leslie-venetz-buyer-first-outbound.md` — Founder buyer-first outbound, TAM→ICP narrowing, Earn-the-Right gate (Leslie Venetz)
 
 ## Related Skills
 

@@ -1,34 +1,34 @@
-# SaaS Metrics Calculator — Framework Notes
+# Saas Metrics Calculator — Framework Notes
 
-Reference index for `SKILL.md`. Primary detail → `metric-definitions-exit-weight.md`.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
-## Primary references
+## Primary Frameworks
 
-- **`metric-definitions-exit-weight.md`** — Formulas, stage benchmarks, exit weight by buyer
-- **`SKILL.md`** — Calculation workflow and diagnostic tree
+- **David Skok — SaaS Metrics 2.0**
+- **Jason Lemkin (SaaStr) — Burn Multiple**
+- **David Sacks — Burn Multiple (via SaaStr)**
+- **Bessemer Venture Partners — Rule of 40**
+- **SaaS Capital — B2B SaaS Benchmarks**
+- **KeyBanc — Private SaaS Survey**
+- **Meritech Capital — Public SaaS Benchmarks**
 
-## Authoritative foundations
+## Deep-dive references
 
-- **David Skok (forEntrepreneurs)** — LTV, CAC, fully loaded S&M
-- **Jason Lemkin / David Sacks** — Burn multiple
-- **Bessemer** — Rule of 40
-- **SaaS Capital / KeyBanc** — Private B2B benchmarks
+| File | Authority | Use when |
+|---|---|---|
+| `references/metric-definitions-exit-weight.md` | Saas Metrics Calculator reference | Extended metric definitions exit weight detail |
 
-## Cross-skill routing
+## Templates
 
-| Need | Skill / artifact |
-|---|---|
-| VC round gates | `fundraising-strategy/references/vc-milestone-gates.md` |
-| M&A metrics pack | `exiting-company/references/due-diligence-metrics-pack.md` |
-| P&L → valuation | `financial-modeling/references/unit-economics-exit-bridge.md` |
-| Buyer weighting | `saas-outcomes/references/exit-metrics-matrix.md` |
-| GTM funnel metrics | `gtm-metrics` |
+- `templates/output-template.md` — Primary deliverable shell
+- `templates/mrr-bridge-template.md` — Role-specific deliverable
 
 ## Agent routing
 
 | Question | Action |
 |---|---|
-| Exit-weighted analysis | Load `metric-definitions-exit-weight.md` |
-| Build deliverable | Use `templates/output-template.md` |
-| Validate output | Run `scripts/check-output.py` |
 | Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
+
+Before final output, cite which framework shaped the recommendation.

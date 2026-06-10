@@ -23,13 +23,11 @@ Instantly competes with Smartlead in the high-volume cold email space. Key featu
 unlimited email accounts, built-in warmup pool, campaign optimization, and a unified
 inbox. This skill covers setup from infrastructure through optimization.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Instantly Best Practices.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Cold Email Infrastructure Standards.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Outreach — Sales Engagement Cadence Design.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Instantly Best Practices** — Mailbox rotation, campaign caps, and deliverability-first sending setup.
+- **Cold Email Infrastructure Standards** — Named methodology governing recommendations in this skill's process.
+- **Outreach — Sales Engagement Cadence Design** — Sequence governance, task-based selling, and CRM-locked cadences.
 
 ## When to Use
 - "Set up Instantly"
@@ -96,18 +94,16 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — Eric infra, Pat verify gate, tool boundaries
+- `templates/output-template.md` — infrastructure + campaign + Clay gate deliverable
+- `scripts/check-output.py` — local checklist validator for required sections
+This skill includes lightweight artifacts the agent can load on demand:
 - `references/clay-enrollment-handoff.md` — Clay/loops → Instantly field map + verify gate
 - `../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md` — infra at scale (Eric Nowoslawski)
 - `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify-before-send (Pat Spielmann)
 - `../../tools/clay-toolkit/SKILL.md` — clay-toolkit upstream enrichment
 - `../../tools/clay-loops-toolkit/references/loop-catalog.md` — signal loop routing
 - `../../../../references/gtm-experts-outbound-index.md` — expert router
-- `templates/output-template.md` — infrastructure + campaign + Clay gate deliverable
-- `scripts/check-output.py` — local checklist validator for required sections
-
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

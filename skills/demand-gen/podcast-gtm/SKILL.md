@@ -25,13 +25,11 @@ One 45-minute appearance → 10+ content derivatives, backlinks, social proof,
 and direct pipeline from listeners who self-qualify by listening for 30+ minutes.
 This skill covers booking strategy through pipeline conversion.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Podcast Guesting Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Authority Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **SiriusDecisions — Demand Waterfall.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Podcast Guesting Framework** — Named methodology governing recommendations in this skill's process.
+- **Authority Marketing** — Named methodology governing recommendations in this skill's process.
+- **SiriusDecisions — Demand Waterfall** — Demand Waterfall
 
 ## When to Use
 - "Get on podcasts"
@@ -151,11 +149,11 @@ A strong output from this skill includes:
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Walker dark social, SparkToro show selection, repurposing map
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 - `references/chris-walker-mental-models.md` — Repo root: demand creation, frequency, influenced pipeline
 - `references/seo-strategy-playbook.md` — Repo root: §6 podcast tour backlinks
 - `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 26: Demand Creation (step 4)
-- `templates/output-template.md` — Deliverable shell for agent output
-- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 - founder-brand, content-marketing, social-media-strategy, pitch-deck-builder, cold-email-strategy

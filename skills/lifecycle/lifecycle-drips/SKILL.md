@@ -25,13 +25,11 @@ signup, first value, renewal window, expansion trigger, at-risk behavior.
 These run in the background, nurturing customers through their journey without
 manual intervention. This skill covers the complete lifecycle drip architecture.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Lifecycle Marketing Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **HubSpot Lifecycle Stages.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Reforge — Lifecycle Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Lifecycle Marketing Framework** — Startup operating cadence — default alive, talk to users, launch fast.
+- **HubSpot Lifecycle Stages** — Lifecycle stages, object model, and workflow enrollment patterns.
+- **Reforge — Lifecycle Marketing** — Startup operating cadence — default alive, talk to users, launch fast.
 
 ## Lifecycle Stage
 
@@ -131,7 +129,6 @@ Before delivering, verify:
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-
 **Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` · `references/activation-playbook.md` (post-activation triggers) · `references/lifecycle-skill-index.md`
 
 ## Related Skills

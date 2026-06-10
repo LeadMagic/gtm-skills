@@ -28,13 +28,12 @@ that benefit every founder, whether you're accepted or not. This skill covers
 the entire YC ecosystem: free resources, application strategy, interview prep,
 the YC batch experience, Demo Day playbook, and post-YC growth.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Y Combinator Startup School.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Paul Graham — Do Things That Do Not Scale.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Michael Seibel — Startup Advice.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Y Combinator Startup School** — Shapes deliverables for this skill — Y Combinator is the most influential startup institution in the world —
+$400B+ combined portfolio value, 4,000+ companie.
+- **Paul Graham — Do Things That Do Not Scale** — Do Things That Do Not Scale
+- **Michael Seibel — Startup Advice** — Startup Advice
 
 ## When to Use
 

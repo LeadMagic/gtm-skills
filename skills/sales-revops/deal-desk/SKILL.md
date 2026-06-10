@@ -165,13 +165,13 @@ framework, and negotiation strategy.
 
 ## Execution Artifacts
 
+- `references/framework-notes.md`
+- `templates/output-template.md`
+- `scripts/check-output.py`
 - `templates/business-case.md` — ROI business case structure
 - `templates/discount-authority.md` — Approval + trade documentation
 - `templates/customer-data-exchange-checklist.md` — Pre/on/post-sale data exchange gates
 - `references/legal-gtm-playbook.md` — Eunice Buhler + Ironclad commercial counsel for sales (Pattern 29)
-- `references/framework-notes.md`
-- `templates/output-template.md`
-- `scripts/check-output.py`
 - `references/gtm-data-exchange-playbook.md` — Canonical customer data exchange SOP (repo root)
 - `references/security-questionnaire-deal-guide.md` — When security review enters the deal (repo root)
 

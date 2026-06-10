@@ -130,10 +130,10 @@ Before delivering, verify:
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Schwartz, Fishkin, Ahrefs keyword tiers and routing
-- `references/seo-strategy-playbook.md` — Repo root: full SEO playbook (Schwartz, Fishkin, Ahrefs)
-- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 1)
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/seo-strategy-playbook.md` — Repo root: full SEO playbook (Schwartz, Fishkin, Ahrefs)
+- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 1)
 
 ## Related Skills
 - aeo-strategy, pseo-strategy, pillar-pages, content-marketing, content-syndication

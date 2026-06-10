@@ -479,13 +479,14 @@ Use `references/sending-limits-reference.md` for provider-specific sending limit
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — Framework index and authority routing
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 - `../cold-email-strategy/references/eric-nowoslawski-outbound.md` — Infra at scale, backup inbox strategy, volume escalation rules (Eric Nowoslawski)
 - `references/bounce-complaint-procedures.md` — Bounce and complaint handling SOP
 - `references/deliverability-primer.md` — Deliverability fundamentals
 - `references/output-artifacts.md` — Extended output tables and inventories
 - `references/sending-limits-reference.md` — Provider sending limits reference
-- `templates/output-template.md` — Deliverable shell for agent output
-- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 

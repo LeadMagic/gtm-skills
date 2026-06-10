@@ -205,15 +205,15 @@ See `templates/output-template.md`.
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — frameworks and cross-links
+- `templates/output-template.md` — deliverable shell
+- `scripts/check-output.py` — deliverable validator
 - `references/visitor-identification-playbook.md` — **master guide**
 - `references/person-vs-business-identification.md` — decision matrix
 - `references/visitor-id-privacy-gtm.md` — GDPR/CCPA operational checklist
 - `references/visitor-id-vendor-comparison.md` — Clearbit, RB2B, 6sense, etc.
-- `references/framework-notes.md` — frameworks and cross-links
 - `templates/visitor-alert-triage-checklist.md` — Slack triage SOP
 - `templates/visitor-id-vendor-eval-scorecard.md` — vendor pilot scorecard
-- `templates/output-template.md` — deliverable shell
-- `scripts/check-output.py` — deliverable validator
 
 ## Related Skills
 

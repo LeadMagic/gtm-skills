@@ -37,16 +37,14 @@ covers the complete equity stack: cap tables, 409A valuations, option types,
 grant guidelines by role and stage, dilution modeling, and the tools that
 keep it all clean.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Carta — Equity management platform and cap table benchmarks.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Pulley — Cap table management for startups.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Fred Wilson (Union Square Ventures) — Employee equity.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Andy Rachleff (Wealthfront) — Equity compensation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Sam Altman — Employee equity.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Leo Polovets (Humba Ventures/YC) — Technical founder equity guide.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Carta — Equity management platform and cap table benchmarks** — Equity management platform and cap table benchmarks
+- **Pulley — Cap table management for startups** — Cap table management for startups
+- **Fred Wilson (Union Square Ventures) — Employee equity** — Employee equity
+- **Andy Rachleff (Wealthfront) — Equity compensation** — Equity compensation
+- **Sam Altman — Employee equity** — Employee equity
+- **Leo Polovets (Humba Ventures/YC) — Technical founder equity guide** — Startup operating cadence — default alive, talk to users, launch fast.
 
 ## When to Use
 

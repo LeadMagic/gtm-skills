@@ -32,13 +32,11 @@ This skill covers B2B event planning: format selection, budget, promotion,
 execution, and the attendee-to-pipeline conversion that makes events pay
 for themselves.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **B2B Event ROI Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Field Marketing Playbook.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Paul Graham — Do Things That Do Not Scale.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **B2B Event ROI Framework** — Shapes deliverables for this skill — Events are the highest-trust channel in B2B.
+- **Field Marketing Playbook** — Shapes deliverables for this skill — Events are the highest-trust channel in B2B.
+- **Paul Graham — Do Things That Do Not Scale** — Do Things That Do Not Scale
 
 ## When to Use
 

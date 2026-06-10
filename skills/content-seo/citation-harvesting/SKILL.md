@@ -25,13 +25,11 @@ respond to journalist and blogger source requests with expert commentary, and
 earn backlinks from high-authority publications. This skill covers the full
 citation harvesting motion.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Digital PR Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Moz Link Building Guide.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Google Search Central — SEO Starter Guide.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Digital PR Framework** — Named methodology governing recommendations in this skill's process.
+- **Moz Link Building Guide** — Named methodology governing recommendations in this skill's process.
+- **Google Search Central — SEO Starter Guide** — SEO Starter Guide
 
 ## When to Use
 - "Build backlinks"
@@ -135,10 +133,10 @@ Before delivering, verify:
 ## Execution Artifacts
 
 - `references/framework-notes.md` — B2B link tactics, HARO ops, data PR, Pattern 25 routing
-- `references/seo-strategy-playbook.md` — Repo root: §6 link building, §8 LLM citations
-- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 5)
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/seo-strategy-playbook.md` — Repo root: §6 link building, §8 LLM citations
+- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 5)
 
 ## Related Skills
 - seo-strategy, content-marketing, social-media-strategy, founder-brand, podcast-gtm

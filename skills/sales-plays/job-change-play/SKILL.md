@@ -25,13 +25,11 @@ company lost a champion and may need replacement support, (2) the contact is now
 at a new company with new budget and tool evaluation, and (3) you have a timely,
 personal reason to reconnect. This play covers all three.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Signal-Based Selling.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Champion Tracking Methodology.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Winning by Design — SPICED.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Signal-Based Selling** — Named methodology governing recommendations in this skill's process.
+- **Champion Tracking Methodology** — Named methodology governing recommendations in this skill's process.
+- **Winning by Design — SPICED** — Bowtie lifecycle model — align sales, marketing, and CS on stage-based outcomes.
 
 ## When to Use
 - "Champion left the company"
@@ -107,12 +105,10 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

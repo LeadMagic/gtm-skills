@@ -33,13 +33,11 @@ implementation, UTM architecture, server-side tagging, consent management,
 and identity resolution. The output is a privacy-resilient analytics
 infrastructure that works when cookies don't.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Privacy-First Measurement.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Server-Side Tagging Architecture.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **1P Data Strategy.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Privacy-First Measurement** — Shapes deliverables for this skill — Third-party cookies are dead.
+- **Server-Side Tagging Architecture** — Shapes deliverables for this skill — Third-party cookies are dead.
+- **1P Data Strategy** — Shapes deliverables for this skill — Third-party cookies are dead.
 
 ## When to Use
 
@@ -223,12 +221,10 @@ setup, and conversion event map.
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

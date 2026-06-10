@@ -272,15 +272,15 @@ scorecard with per-metric targets.
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 - `references/cold-calling-experts-index.md` — Phone expert router (repo root)
 - `references/joey-gilkey-bucketing.md` — Disposition Science + Phone Intent
 - `references/ryan-reisert-cold-calling.md` — CRM Activity Buckets + call structure
 - `references/ronen-pessar-cold-calling.md` — ColdCall-Market Fit + tonality
 - `references/tom-slocum-cold-calling.md` — 3Rs, sell-the-meeting, call blocks
 - `references/jeb-blount-prospecting.md` — Golden Hours, Law of Replacement
-- `references/framework-notes.md` — Named frameworks and reference tables
-- `templates/output-template.md` — Deliverable shell for agent output
-- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 

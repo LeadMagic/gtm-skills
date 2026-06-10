@@ -1,22 +1,31 @@
 # Analytics Toolkit — Framework Notes
 
-Use these references to ground outputs in named, repeatable methodology.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
 ## Primary Frameworks
 
-- Segment — CDP with 400+ destinations
-- Amplitude — Product analytics, behavioral cohorts, experiment
-- PostHog — Open-source analytics, session recording, feature flags
-- Mixpanel — Event-based product analytics
-- GA4 — Google Analytics for web + app
+- **Segment — CDP with 400+ destinations**
+- **Amplitude — Product analytics, behavioral cohorts, experiment**
+- **PostHog — Open-source analytics, session recording, feature flags**
+- **Mixpanel — Event-based product analytics**
+- **GA4 — Google Analytics for web + app**
 
-## Operating Assumptions
+## Deep-dive references
 
-- Adapt recommendations by ICP tier: small business, mid-market, and enterprise.
-- Separate strategy from execution: define the decision rule before creating assets.
-- Prefer measurable outputs: fields, templates, scores, dashboards, or checklists.
-- Avoid legal, tax, accounting, insurance, or compliance conclusions unless the skill explicitly says to consult qualified professionals.
+| File | Authority | Use when |
+|---|---|---|
+| `references/analytics-stack-by-stage.md` | Analytics Toolkit reference | Extended analytics stack by stage detail |
 
-## Agent Use
+## Templates
 
-Before final output, cite which framework shaped the recommendation and identify any assumptions that need user confirmation.
+- `templates/output-template.md` — Primary deliverable shell
+
+## Agent routing
+
+| Question | Action |
+|---|---|
+| Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
+
+Before final output, cite which framework shaped the recommendation.

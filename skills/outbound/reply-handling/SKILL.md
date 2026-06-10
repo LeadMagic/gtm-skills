@@ -421,10 +421,11 @@ Use `references/reply-funnel-reference.md` for funnel diagnostics. Main output s
 
 ## Execution Artifacts
 
-- `references/reply-funnel-reference.md` — Reply routing funnel reference
-- `references/reply-taxonomy.md` — Reply classification taxonomy
+- `references/framework-notes.md` — Framework index and authority routing
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/reply-funnel-reference.md` — Reply routing funnel reference
+- `references/reply-taxonomy.md` — Reply classification taxonomy
 
 ## Related Skills
 

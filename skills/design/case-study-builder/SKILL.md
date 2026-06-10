@@ -33,13 +33,11 @@ specific metrics and real quotes.
 The golden rule: a case study without numbers is a testimonial. Every case
 study must answer "what changed, and by how much?"
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Challenge-Solution-Results.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Before-After-Bridge.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Nielsen Norman Group — Usability Heuristics.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Challenge-Solution-Results** — Shapes deliverables for this skill — A case study is the most versatile proof asset in B2B.
+- **Before-After-Bridge** — Shapes deliverables for this skill — A case study is the most versatile proof asset in B2B.
+- **Nielsen Norman Group — Usability Heuristics** — Usability Heuristics
 
 ## When to Use
 
@@ -151,12 +149,10 @@ full version (for late-stage deals, website, sales portal).
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

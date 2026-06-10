@@ -172,9 +172,7 @@ framework.
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-
 **Cross-skill:** `saas-metrics-calculator/references/metric-definitions-exit-weight.md`, `fundraising-strategy/references/vc-milestone-gates.md`, `exiting-company/references/due-diligence-metrics-pack.md`
-
 **Crisis:** `references/crisis-management-playbook.md` · `references/saas-pr-crisis-experts.md` (Lemkin transparency)
 
 ## Related Skills

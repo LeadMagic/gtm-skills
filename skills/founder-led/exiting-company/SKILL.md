@@ -180,17 +180,16 @@ with method named), diligence gaps, 24-month timeline, scorecard summary.
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — named frameworks and agent routing
+- `templates/output-template.md` — deliverable shell
+- `scripts/check-output.py` — lightweight validator
 - `references/valuation-drivers.md` — strategic vs PE criteria, EBITDA vs ARR, adjustment table
 - `references/buyer-readiness-checklist.md` — 24-month prep timeline
 - `references/due-diligence-metrics-pack.md` — standard metrics export for M&A
 - `references/negotiating-earn-out.md` — earn-out playbook, levers, decision tree, anti-patterns
-- `references/framework-notes.md` — named frameworks and agent routing
 - `templates/exit-readiness-scorecard.md` — 1–5 scoring worksheet
 - `templates/valuation-sensitivity-table.md` — ARR, EBITDA, DCF, hold vs sell
 - `templates/earn-out-term-sheet-review.md` — founder worksheet for LOI/term sheet
-- `templates/output-template.md` — deliverable shell
-- `scripts/check-output.py` — lightweight validator
-
 **Cross-skill artifacts:** `saas-outcomes/references/exit-potential-scorecard.md`, `saas-outcomes/references/exit-metrics-matrix.md`, `saas-outcomes/references/bootstrap-founder-playbook.md`, `financial-modeling/references/unit-economics-exit-bridge.md`, `references/benchmark-reconciliation.md`
 
 ## Related Skills

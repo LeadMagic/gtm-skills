@@ -24,13 +24,11 @@ Conferences and events are concentrated buying intent — attendees have budget,
 are actively evaluating, and are reachable in a compressed time window. This
 skill covers the pre-event, on-site, and post-event outbound motion.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Event-Led Growth.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **B2B Event Marketing Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Bizzabo — Event Experience Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Event-Led Growth** — Named methodology governing recommendations in this skill's process.
+- **B2B Event Marketing Framework** — Named methodology governing recommendations in this skill's process.
+- **Bizzabo — Event Experience Framework** — Event Experience Framework
 
 ## When to Use
 - "Outreach around [conference]"
@@ -99,12 +97,10 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

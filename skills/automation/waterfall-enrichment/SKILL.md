@@ -30,13 +30,11 @@ This skill covers complete waterfall architecture: 3 separate waterfalls for
 company data, email, and phone — each with independently optimized provider
 ordering and verification integration.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **DAMA-DMBOK Data Quality Dimensions.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Ziellab 3-Waterfall Architecture.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **HubSpot Academy — CRM Automation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **DAMA-DMBOK Data Quality Dimensions** — Shapes deliverables for this skill — No single B2B data provider covers more than 60-75% of contacts.
+- **Ziellab 3-Waterfall Architecture** — Shapes deliverables for this skill — No single B2B data provider covers more than 60-75% of contacts.
+- **HubSpot Academy — CRM Automation** — Lifecycle stages, object model, and workflow enrollment patterns.
 
 ## When to Use
 
@@ -125,12 +123,10 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

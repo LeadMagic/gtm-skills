@@ -171,9 +171,10 @@ from the economic buyer.
 
 ## Execution Artifacts
 
-- `references/vercel-developer-selling.md` — Vercel case deep-dive, sourced specifics, agent-routing table
+- `references/framework-notes.md` — Framework index and authority routing
 - `templates/output-template.md` — Deliverable shell for the developer GTM plan
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/vercel-developer-selling.md` — Vercel case deep-dive, sourced specifics, agent-routing table
 
 ## Related Skills
 

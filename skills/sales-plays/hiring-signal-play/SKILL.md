@@ -26,13 +26,11 @@ will evaluate and change tools within their first 90 days. This play targets
 both the hiring manager (who just got budget) and the new hire (who will build
 their stack).
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Signal-Based Selling.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **ColdIQ Trigger Selling.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Winning by Design — SPICED.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Signal-Based Selling** — Named methodology governing recommendations in this skill's process.
+- **ColdIQ Trigger Selling** — Named methodology governing recommendations in this skill's process.
+- **Winning by Design — SPICED** — Bowtie lifecycle model — align sales, marketing, and CS on stage-based outcomes.
 
 ## When to Use
 - "Run a hiring signal play"
@@ -108,12 +106,10 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

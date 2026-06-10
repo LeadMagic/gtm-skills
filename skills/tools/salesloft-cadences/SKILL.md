@@ -24,13 +24,11 @@ Salesloft is the market leader in sales engagement. Cadences here manage Rhythm
 (multi-channel cadences), Conversations (reply management), and Deals (pipeline
 integration). This skill covers setup, optimization, and team workflows.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Salesloft Modern Selling Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **ColdIQ Cadence Design.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Outreach — Sales Engagement Cadence Design.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Salesloft Modern Selling Framework** — Cadence + coaching rhythm; rhythm-based pipeline management.
+- **ColdIQ Cadence Design** — Named methodology governing recommendations in this skill's process.
+- **Outreach — Sales Engagement Cadence Design** — Sequence governance, task-based selling, and CRM-locked cadences.
 
 ## When to Use
 - "Set up Salesloft cadences"
@@ -96,17 +94,15 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — Rhythm cadences, CRM verify gate, enterprise governance
+- `templates/output-template.md` — CRM fields + cadence + enrollment gate deliverable
+- `scripts/check-output.py` — local checklist validator
+This skill includes lightweight artifacts the agent can load on demand:
 - `references/enrichment-enrollment-gate.md` — CRM lm_email_status before cadence enroll
 - `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify-before-enroll (Pat Spielmann)
 - `../../tools/clay-toolkit/references/gtm-table-blueprints.md` — clay-toolkit CRM field patterns
 - `../../tools/clay-loops-toolkit/SKILL.md` — clay-loops-toolkit signal cadences
 - `../../../../references/gtm-experts-outbound-index.md` — expert router
-- `templates/output-template.md` — CRM fields + cadence + enrollment gate deliverable
-- `scripts/check-output.py` — local checklist validator
-
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

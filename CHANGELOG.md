@@ -2,6 +2,20 @@
 
 All notable changes to GTM Skills are documented here.
 
+## v0.27.3 — Weak Skill Artifact Cleanup
+
+- Audited 205 skills for missing or thin artifacts; added `references/framework-notes.md` to 15 skills that had expert refs but no framework index (outbound stack, inbound LinkedIn skills, recruiting, leadership, JOLT).
+- Added missing `templates/output-template.md` to `gtm-recruiting`, `gtm-role-descriptions`, `gtm-leadership`, `saas-outcomes`, and `buyer-indecision`.
+- Expanded 5 thin framework-notes (`review-platforms`, `gtm-tool-cost-model`, `revenue-team-onboarding`, `founder-comp-playbook`, `strategic-gifting`) with named authority tables and operating rules.
+- Upgraded 50 generic batch-generated framework-notes to deep-dive reference indexes with authority routing tables.
+- Added `scripts/fix-weak-skill-artifacts.py` and `scripts/fix-decoration-authority.py` for repeatable artifact hygiene.
+- Replaced generic "decoration" authority filler in **86 SKILL.md** files with substantive `Authoritative Foundations` bullets tied to named frameworks.
+- Wired `framework-notes.md` into Execution Artifacts sections on all touched skills.
+- Hardened `scripts/validate-skills.js` to enforce agentskills.io name/description rules plus GTM artifact triad, authority substance, process sections, and Execution Artifacts routing on all **205** skills.
+- Added `scripts/sync-execution-artifacts.py`; synced **143** skills to list the standard artifact triad.
+- Added `npm run fix:authority`, `fix:artifacts`, `sync:artifacts`; updated CI, `SKILL_AUTHORING.md`, and `QUALITY_BAR.md`.
+- Root cleanup: `generate-indexes.js` reads version from `package.json`; `ARCHITECTURE.md` and `CONTRIBUTING.md` synced; `CITATION.cff` and plugin metadata at v0.27.3.
+
 ## v0.27.2 — Templates Centralized into Skills
 
 - Moved all shared templates out of `references/templates/` into their owning skills: crisis comms shells → `gtm-leadership`, influencer brief/scorecard → `customer-marketing`, lifecycle dashboard + stage scorecard → `gtm-metrics`, MRR bridge → `saas-metrics-calculator`, budget worksheet → `gtm-spend-management`.

@@ -233,6 +233,9 @@ No live outbound until:
 
 ## Execution Artifacts
 
+- `references/framework-notes.md`
+- `templates/output-template.md`
+- `scripts/check-output.py`
 - `references/security-access-checklist.md`
 - `references/gtm-security-hygiene-basics.md` — Passwords, 2FA, phishing, demo screen share (repo root)
 - `references/gtm-data-exchange-playbook.md` — Customer data exchange SOP (repo root)
@@ -247,10 +250,6 @@ No live outbound until:
 - `references/ryan-reisert-cold-calling.md` — CRM Buckets certification (repo root)
 - `references/ronen-pessar-cold-calling.md` — ColdCall-Market Fit gate (repo root)
 - `references/tom-slocum-cold-calling.md` — 3×3 + sell-the-meeting (repo root)
-- `references/framework-notes.md`
-- `templates/output-template.md`
-- `scripts/check-output.py`
-
 **Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Revenue Team Lifecycle) · `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md` (Ramp panel) · `references/lifecycle-metrics-by-stage.md` (ramp metrics)
 
 ## Related Skills

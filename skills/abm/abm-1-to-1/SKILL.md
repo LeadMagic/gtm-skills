@@ -22,13 +22,12 @@ This is custom, high-touch, relationship-driven — not automated sequences.
 You research the account like you're writing a case study about them, then design
 interactions that feel like the entire company exists to serve this one account.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **ITSMA Strategic ABM.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Force Management Command of the Message.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **John Ruhlin Giftology.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **ITSMA Strategic ABM** — Tier-based ABM (1:1 / 1:few / 1:many); measure pipeline from target accounts, not lead volume.
+- **Force Management Command of the Message** — Command of the Message — persona-specific value narrative and differentiation per stakeholder.
+- **John Ruhlin Giftology** — Go-deep-not-wide relationship gifting; remarkable personalization beats logo swag.
+- **Sendoso Sending Platform** — Sending platform for physical touchpoints — address verify, warehouse, CRM triggers.
 
 ## When to Use
 - "Run 1-to-1 ABM on [account]"

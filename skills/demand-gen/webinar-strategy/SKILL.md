@@ -25,13 +25,11 @@ done with a "commercial teaching" angle — not product demos disguised as conte
 This skill covers topic selection, speaker sourcing, promotion architecture,
 and post-webinar pipeline conversion.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **TOPO Webinar Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **CEB Challenger Commercial Teaching.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **SiriusDecisions — Demand Waterfall.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **TOPO Webinar Framework** — Named methodology governing recommendations in this skill's process.
+- **CEB Challenger Commercial Teaching** — Teach-tailor-take control — reframe buyer thinking with insight-led conversations.
+- **SiriusDecisions — Demand Waterfall** — Demand Waterfall
 
 ## When to Use
 - "Plan a webinar"
@@ -107,10 +105,10 @@ Before delivering, verify:
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Challenger teaching, TOPO promotion, Walker measurement, Pattern 26 routing
-- `references/chris-walker-mental-models.md` — Repo root: ungated education, 90-day program eval
-- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 26: Demand Creation
 - `templates/output-template.md` — 21-day calendar, run-of-show, post-event pipeline sequence
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/chris-walker-mental-models.md` — Repo root: ungated education, 90-day program eval
+- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 26: Demand Creation
 
 ## Implementation Depth
 

@@ -336,13 +336,13 @@ Deliverable package:
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — Framework anchors
+- `templates/output-template.md` — Deliverable structure
+- `scripts/check-output.py` — Validates workflow deliverables
 - `references/gtm-flow-catalog.md` — Full flow blueprints by motion
 - `references/mcp-patterns.md` — MCP + n8n integration patterns
 - `references/node-patterns.md` — HTTP, webhook, batch, AI, error nodes
 - `templates/workflow-blueprint.md` — Design doc template
-- `templates/output-template.md` — Deliverable structure
-- `references/framework-notes.md` — Framework anchors
-- `scripts/check-output.py` — Validates workflow deliverables
 
 ## Related Skills
 

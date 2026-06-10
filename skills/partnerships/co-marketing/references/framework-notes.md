@@ -1,20 +1,18 @@
 # Co Marketing — Framework Notes
 
-Reference tables for `SKILL.md`. Apply named frameworks to justify recommendations — do not cite as decoration.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations.
 
-## Primary frameworks
+## Primary Frameworks
 
-- Co-Marketing Playbook
-- Crossbeam Partner-Led Growth
-- Crossbeam — Ecosystem-Led Growth
+- **Co-Marketing Playbook**
+- **Crossbeam Partner-Led Growth**
+- **Crossbeam — Ecosystem-Led Growth**
 
 ## Authoritative foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Co-Marketing Playbook.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Crossbeam Partner-Led Growth.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Crossbeam — Ecosystem-Led Growth.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Co-Marketing Playbook** — Named methodology governing recommendations in this skill's process.
+- **Crossbeam Partner-Led Growth** — Named methodology governing recommendations in this skill's process.
+- **Crossbeam — Ecosystem-Led Growth** — Ecosystem-Led Growth
 
 ## Process phases
 
@@ -28,6 +26,6 @@ This skill is grounded in public frameworks and source material relevant to the 
 
 | Question | Action |
 |---|---|
+| Full process | Follow `SKILL.md` step-by-step |
 | Build deliverable | Use `templates/output-template.md` |
 | Validate output | Run `scripts/check-output.py` |
-| Full process | Follow `SKILL.md` step-by-step |

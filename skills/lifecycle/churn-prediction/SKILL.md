@@ -26,13 +26,11 @@ intervention reduces churn by 20-40% compared to waiting for cancellation.
 This skill covers modeling leading indicators, building risk scores, and
 designing intervention playbooks.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Gainsight Churn Prediction Model.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Retention Science Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Reforge — Lifecycle Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Gainsight Churn Prediction Model** — Named methodology governing recommendations in this skill's process.
+- **Retention Science Framework** — Named methodology governing recommendations in this skill's process.
+- **Reforge — Lifecycle Marketing** — Startup operating cadence — default alive, talk to users, launch fast.
 
 ## When to Use
 - "Build a churn prediction model"
@@ -166,7 +164,6 @@ Before delivering, verify:
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-
 **Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Retention) · `references/lifecycle-metrics-by-stage.md` · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md`
 
 ## Related Skills

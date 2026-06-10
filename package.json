@@ -1,6 +1,6 @@
 {
   "name": "gtm-skills",
-  "version": "0.27.2",
+  "version": "0.27.3",
   "description": "205 production go-to-market playbooks for AI agents across 24 categories. Framework-cited GTM skills for Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, and Goose.",
   "keywords": [
     "abm",
@@ -54,6 +54,9 @@
     "check:references": "python3 scripts/audit-references.py",
     "check:generated": "bash scripts/check-generated.sh",
     "check": "node scripts/validate-skills.js && python3 scripts/audit-references.py && python3 scripts/generate-skills-lock.py --check && python3 scripts/install-tui.py --target jesse --project /tmp/gtm-skills-install-test --dry-run && python3 scripts/public-repo-audit.py",
+    "fix:authority": "python3 scripts/fix-decoration-authority.py",
+    "fix:artifacts": "python3 scripts/fix-weak-skill-artifacts.py && python3 scripts/sync-execution-artifacts.py",
+    "sync:artifacts": "python3 scripts/sync-execution-artifacts.py",
     "publish:dry-run": "gh skill publish --dry-run",
     "lint": "node scripts/validate-skills.js && python3 scripts/public-repo-audit.py",
     "install:tui": "python3 scripts/install-tui.py",

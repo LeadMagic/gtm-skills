@@ -232,6 +232,9 @@ Vendor comparison + pilot scorecard:
 
 ## Execution Artifacts
 
+- `references/framework-notes.md`
+- `templates/output-template.md`
+- `scripts/check-output.py`
 - `references/ramp-playbook.md` — Ramp setup for GTM stacks
 - `references/spend-by-stage.md` — ARR-stage tool + payroll guardrails (canonical table)
 - `references/gtm-budget-playbook.md` — **annual budget canonical** (repo root; vendor section here)
@@ -243,9 +246,6 @@ Vendor comparison + pilot scorecard:
 - `templates/vendor-spend-register.md` — Master vendor inventory
 - `templates/spend-approval-matrix.md` — Who approves what
 - `templates/ramp-card-policy-gtm.md` — Card-per-vendor map
-- `references/framework-notes.md`
-- `templates/output-template.md`
-- `scripts/check-output.py`
 
 ## Related Skills
 

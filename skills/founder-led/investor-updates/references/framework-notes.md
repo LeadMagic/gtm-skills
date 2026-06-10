@@ -1,20 +1,12 @@
 # Investor Updates — Framework Notes
 
-Reference tables for `SKILL.md`. Apply named frameworks to justify recommendations — do not cite as decoration.
-
-## Primary frameworks
-
-- **YC Investor Update Template**
-- **Jason Lemkin SaaStr Board Deck**
-- **David Skok VC Dashboard**
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations.
 
 ## Authoritative foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **YC Investor Update Template.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Jason Lemkin SaaStr Board Deck.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **David Skok VC Dashboard.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **YC Investor Update Template** — Consistent monthly structure
+- **Jason Lemkin (SaaStr)** — Board metrics: growth, burn multiple, NRR
+- **David Skok** — VC dashboard metrics (LTV:CAC, payback)
 
 ## Process phases
 
@@ -22,11 +14,12 @@ This skill is grounded in public frameworks and source material relevant to the 
 - Phase 2
 - Phase 3
 - Phase 4
+- Phase 5
 
 ## Agent routing
 
 | Question | Action |
 |---|---|
+| Full process | Follow `SKILL.md` step-by-step |
 | Build deliverable | Use `templates/output-template.md` |
 | Validate output | Run `scripts/check-output.py` |
-| Full process | Follow `SKILL.md` step-by-step |

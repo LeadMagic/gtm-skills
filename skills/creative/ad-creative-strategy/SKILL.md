@@ -30,13 +30,11 @@ creative on a mediocre audience outperforms a mediocre creative on a perfect
 audience. This skill covers creative formats per platform, testing methodology,
 fatigue management, and scaling creative production.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Meta Creative Testing Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **ARC Ads Creative Methodology.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Ann Handley — Everybody Writes.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Meta Creative Testing Framework** — Shapes deliverables for this skill — Creative is the single biggest lever in paid advertising performance.
+- **ARC Ads Creative Methodology** — Shapes deliverables for this skill — Creative is the single biggest lever in paid advertising performance.
+- **Ann Handley — Everybody Writes** — Everybody Writes
 
 ## When to Use
 

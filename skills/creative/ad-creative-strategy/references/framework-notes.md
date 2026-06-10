@@ -1,20 +1,18 @@
 # Ad Creative Strategy — Framework Notes
 
-Reference tables for `SKILL.md`. Apply named frameworks to justify recommendations — do not cite as decoration.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations.
 
-## Primary frameworks
+## Primary Frameworks
 
-- Meta Creative Testing Framework
-- ARC Ads Creative Methodology
-- Ann Handley — Everybody Writes
+- **Meta Creative Testing Framework**
+- **ARC Ads Creative Methodology**
+- **Ann Handley — Everybody Writes**
 
 ## Authoritative foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Meta Creative Testing Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **ARC Ads Creative Methodology.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Ann Handley — Everybody Writes.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Meta Creative Testing Framework** — Shapes deliverables for this skill — Creative is the single biggest lever in paid advertising performance.
+- **ARC Ads Creative Methodology** — Shapes deliverables for this skill — Creative is the single biggest lever in paid advertising performance.
+- **Ann Handley — Everybody Writes** — Everybody Writes
 
 ## Process phases
 
@@ -27,6 +25,6 @@ This skill is grounded in public frameworks and source material relevant to the 
 
 | Question | Action |
 |---|---|
+| Full process | Follow `SKILL.md` step-by-step |
 | Build deliverable | Use `templates/output-template.md` |
 | Validate output | Run `scripts/check-output.py` |
-| Full process | Follow `SKILL.md` step-by-step |

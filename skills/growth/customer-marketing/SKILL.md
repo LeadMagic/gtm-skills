@@ -34,17 +34,15 @@ run. The mistake: treating customer marketing as an afterthought (sending a
 "would you write a review?" email once a year). The fix: a systematic advocacy
 program that turns happy customers into your most powerful GTM engine.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Bain & Company — NPS (Net Promoter System, Fred Reichheld).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Gainsight — Customer Advocacy Maturity Model.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Influitive — Advocate Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **SaaSquatch — Customer-Led Growth.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Varun Anand (Clay) — Community Selling.** Infiltrate existing Slack/WhatsApp/MSP groups before building your own; value-first problem responses; reverse demo → mandatory Slack join; education layer (University, Clubs) before scaled sales. Load `references/community-selling-varun.md`. Pairs with `demo-scripts` → `reverse-demo-varun.md`.
-- **Aneesh Lal (Wishly Group) — B2B Creator Partnerships.** External LinkedIn creators for awareness → education → conversion; ICP-aligned selection (not vanity followers); multi-channel bundles (newsletter, podcast, co-authored assets). Distinct from **employee advocacy** (advocacy ladder below) and **customer champions** (levels 4–8). Load `references/aneesh-wishly-b2b-influencer.md` + `references/b2b-influencer-strategy.md`. Pair with Chris Walker dark social for attribution reality (`references/chris-walker-mental-models.md`).
-- **Dharmesh Shah (HubSpot) — Flywheel Delight.** Customer marketing is the **Delight** leg of the inbound flywheel — reviews, references, and champions reduce friction for Attract (SEO, social proof) and Engage (faster trust). Load `references/dharmesh-shah-hubspot-inbound.md`. Pattern 27 step 5.
+- **Bain & Company — NPS (Net Promoter System, Fred Reichheld)** — NPS (Net Promoter System, Fred Reichheld)
+- **Gainsight — Customer Advocacy Maturity Model** — Customer Advocacy Maturity Model
+- **Influitive — Advocate Marketing** — Advocate Marketing
+- **SaaSquatch — Customer-Led Growth** — Customer-Led Growth
+- **Varun Anand (Clay) — Community Selling & Ecosystem GTM** — Waterfall enrichment, Claygent research, and table-based GTM automation.
+- **Aneesh Lal (Wishly Group) — B2B Creator Partnerships & Advocacy** — B2B Creator Partnerships & Advocacy
+- **Dharmesh Shah (HubSpot) — Flywheel Delight & Customer Advocacy** — Lifecycle stages, object model, and workflow enrollment patterns.
 
 ## When to Use
 
@@ -171,6 +169,9 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — Expert anchors + skill routing
+- `templates/output-template.md`
+- `scripts/check-output.py`
 - `references/crisis-management-playbook.md` — external comms during incidents (Pattern 33)
 - `references/saas-pr-crisis-experts.md` — B2B SaaS PR voices
 - `skills/management-leadership/gtm-leadership/templates/crisis-holding-statement.md` · `crisis-customer-email.md` · `crisis-faq-for-support.md`
@@ -181,11 +182,8 @@ Before delivering, verify:
 - `templates/b2b-influencer-program-brief.md` — Campaign brief
 - `templates/influencer-partnership-scorecard.md` — Creator evaluation
 - `references/advocacy-program.md` — Ladder, CRM fields, review triggers
-- `references/framework-notes.md` — Expert anchors + skill routing
 - `templates/case-study-interview-questions.md`
 - `templates/reference-program-spec.md`
-- `templates/output-template.md`
-- `scripts/check-output.py`
 
 ## Related Skills
 

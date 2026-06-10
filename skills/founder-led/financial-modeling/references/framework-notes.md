@@ -1,32 +1,35 @@
 # Financial Modeling — Framework Notes
 
-Reference tables for `SKILL.md`. Apply named frameworks to justify recommendations — do not cite as decoration.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
-## Primary frameworks
+## Primary Frameworks
 
-- **David Skok — forEntrepreneurs** — LTV:CAC, payback, S&M machine. `references/saas-metrics-reference.md`
-- **David Sacks — Burn multiple** — Capital efficiency gate. `references/david-sacks-saas-metrics.md`
-- **Bessemer Cloud Atlas — Rule of 40** — Growth + margin trajectory. `references/bessemer-cloud-atlas.md`
-- **Ben Murray — SaaS CFO** — Vendor spend and forecast discipline
-- **Meritech — Public comps** — IPO-track benchmark overlay. `references/meritech-saas-benchmarks.md`
+- **David Skok (Matrix Partners) — SaaS Unit Economics**
+- **Ben Murray (The SaaS CFO) — SaaS Financial Operations**
+- **Aswath Damodaran (NYU Stern) — DCF Valuation**
+- **Bessemer Venture Partners — Cloud 100 Benchmarks**
+- **Christoph Janz (Point Nine) — SaaS Napkin**
+- **Jason Lemkin (SaaStr) — Growth Efficiency, Burn Multiple**
+- **KeyBanc SaaS Survey — ARR multiple comps**
+- **Meritech Capital — Public SaaS Benchmarks & Meritech Rule of 40**
+- **Force Management — Pod Economics & Headcount Planning**
 
-## Authoritative foundations
+## Deep-dive references
 
-Financial models for GTM must tie **headcount plan → quota capacity → ARR
-forecast → burn**. Reconcile assumptions to `benchmark-reconciliation.md` —
-private medians differ from aspiration benchmarks.
+| File | Authority | Use when |
+|---|---|---|
+| `references/unit-economics-exit-bridge.md` | Financial Modeling reference | Extended unit economics exit bridge detail |
 
-## Process phases
+## Templates
 
-- **Phase 1 — Baseline:** Current ARR, churn, ACV, cash, burn
-- **Phase 2 — Capacity model:** Reps × quota × ramp × attainment
-- **Phase 3 — Scenario build:** Base / upside / downside with explicit drivers
-- **Phase 4 — Investor/board view:** Burn multiple, Rule of 40 path, hiring triggers
+- `templates/output-template.md` — Primary deliverable shell
 
 ## Agent routing
 
 | Question | Action |
 |---|---|
-| Build deliverable | Use `templates/output-template.md` |
-| Validate output | Run `scripts/check-output.py` |
 | Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
+
+Before final output, cite which framework shaped the recommendation.

@@ -157,9 +157,11 @@ Maps to WbD Bowtie — left side onboarding promise reduces FOMU.
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — Framework index and authority routing
+- `templates/output-template.md` — Primary deliverable shell
+- `scripts/check-output.py` — Validates JOLT deliverables (Judge, Offer, Limit, Take risk)
 - `references/jolt-playbook.md` — Full J/O/L/T tactics and talk tracks
 - `templates/jolt-deal-review.md` — Deal review scorecard
-- `scripts/check-output.py` — Validates JOLT deliverables (Judge, Offer, Limit, Take risk)
 
 ## Related Skills
 

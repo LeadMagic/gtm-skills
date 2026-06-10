@@ -201,6 +201,9 @@ Deliver based on request:
 
 ## Execution Artifacts
 
+| `references/framework-notes.md` | Framework anchors |
+| `templates/output-template.md` | Deliverable structure |
+| `scripts/check-output.py` | Section validator |
 | File | Use |
 |---|---|
 | `references/crm-selection.md` | HubSpot vs Salesforce vs Attio |
@@ -212,9 +215,6 @@ Deliver based on request:
 | `references/platform-setup-index.md` | Skill routing table |
 | `references/benioff-enterprise-playbook.md` | V2MOM, trust, land-expand, CS in CRM |
 | `templates/land-expand-account-plan.md` | Account expansion whitespace |
-| `references/framework-notes.md` | Framework anchors |
-| `templates/output-template.md` | Deliverable structure |
-| `scripts/check-output.py` | Section validator |
 
 ## Related Skills
 

@@ -86,7 +86,10 @@ jobs:
             scripts/public-repo-audit.py \
             scripts/audit-references.py \
             scripts/strip-commit-trailers.py \
-            scripts/check-commit-attribution.py
+            scripts/check-commit-attribution.py \
+            scripts/fix-decoration-authority.py \
+            scripts/fix-weak-skill-artifacts.py \
+            scripts/sync-execution-artifacts.py
 
       - name: Block agent co-author commit trailers
         run: python3 scripts/check-commit-attribution.py

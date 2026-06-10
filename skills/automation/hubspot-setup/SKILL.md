@@ -30,13 +30,11 @@ weakness is that it's easy to configure poorly and hard to fix later. This skill
 covers setup for GTM teams: deal pipelines, lifecycle stages, marketing
 automation, reporting, and enrichment integration.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **HubSpot Smart CRM Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Lifecycle Stage Model.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **HubSpot Academy — CRM Automation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **HubSpot Smart CRM Framework** — Lifecycle stages, object model, and workflow enrollment patterns.
+- **Lifecycle Stage Model** — Startup operating cadence — default alive, talk to users, launch fast.
+- **HubSpot Academy — CRM Automation** — Lifecycle stages, object model, and workflow enrollment patterns.
 
 ## When to Use
 
@@ -143,12 +141,10 @@ and enrichment integration setup.
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

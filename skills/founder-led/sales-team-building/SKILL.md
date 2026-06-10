@@ -271,6 +271,9 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 - `../../management-leadership/gtm-leadership/references/cro-enterprise-strategy.md` — McMahon hiring/inspection, Snowflake/Databricks GTM models (Pattern 31)
 - `references/henry-schuck-sdr-model.md` — ZoomInfo SDR:AE scale, data-lake outbound, feeder system
 - `references/tito-bohrt-sdr-science.md` — AltiSales SDR economics (cost per meeting), funnel-inversion benchmarks, assembly-line org, hiring simulations, AI SDR skepticism
@@ -278,11 +281,7 @@ Before delivering, verify:
 - `references/ronen-pessar-cold-calling.md` — ColdCall-Market Fit install (repo root)
 - `references/tom-slocum-cold-calling.md` — SD Lab SDR coaching (repo root)
 - `../../outbound/cold-email-strategy/references/justin-michael-sales-borg.md` — Sales Borg TQ, SDR benchmarks, bot orchestration (canonical)
-- `references/framework-notes.md` — Named frameworks and reference tables
 - `references/force-management-playbook.md` — Repo root: alignment cadence, reporting structures, pod economics worksheet
-- `templates/output-template.md` — Deliverable shell for agent output
-- `scripts/check-output.py` — Lightweight deliverable validator
-
 **Cross-skill artifacts:** `solo-founder-gtm/references/scale-readiness-gates.md`, `solo-founder-gtm/references/when-not-to-scale.md`, `saas-outcomes/references/journey-stage-gates.md`, `gtm-spend-management/references/spend-governance.md`
 
 ## Related Skills

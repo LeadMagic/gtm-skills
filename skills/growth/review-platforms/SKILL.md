@@ -155,14 +155,14 @@ Load `templates/review-response-playbook.md`.
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — Framework index and authority routing
+- `templates/output-template.md`
+- `scripts/check-output.py`
 - `references/g2-playbook.md`
 - `references/trustradius-playbook.md`
 - `references/review-platform-comparison.md`
 - `templates/review-response-playbook.md`
 - `templates/review-ask-email.md`
-- `references/framework-notes.md`
-- `templates/output-template.md`
-- `scripts/check-output.py`
 
 ## Related Skills
 

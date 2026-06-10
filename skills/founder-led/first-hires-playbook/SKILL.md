@@ -33,16 +33,14 @@ covers when to hire each critical first role, how to write job descriptions
 that attract builders (not corporate ladder-climbers), interview design,
 compensation, and offer construction.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **SaaStr/Jason Lemkin — First VP hiring benchmarks.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Elad Gil — High Growth Handbook (hiring executives).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Molly Graham — Giving away your Legos (scaling teams).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Patty McCord — Powerful (Netflix culture, hiring for density).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Claire Hughes Johnson — Scaling People (Stripe COO).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **First Round Review — Hiring playbooks.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **SaaStr/Jason Lemkin — First VP hiring benchmarks** — First VP hiring benchmarks
+- **Elad Gil — High Growth Handbook (hiring executives)** — High Growth Handbook (hiring executives)
+- **Molly Graham — Giving away your Legos (scaling teams)** — Giving away your Legos (scaling teams)
+- **Patty McCord — Powerful (Netflix culture, hiring for density)** — Powerful (Netflix culture, hiring for density)
+- **Claire Hughes Johnson — Scaling People (Stripe COO)** — Scaling People (Stripe COO)
+- **First Round Review — Hiring playbooks** — Hiring playbooks
 
 ## When to Use
 

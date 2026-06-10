@@ -210,9 +210,9 @@ Before delivering, verify:
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Named frameworks and reference tables
-- `references/icp-tiering-cheatsheet.md` — SMB / mid-market / enterprise tier traits, buying motion, proof, and risk
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/icp-tiering-cheatsheet.md` — SMB / mid-market / enterprise tier traits, buying motion, proof, and risk
 
 ## Related Skills
 - icp-scoring: Define weighted scoring model for ICP qualification

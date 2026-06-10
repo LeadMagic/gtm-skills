@@ -24,13 +24,11 @@ Outreach is the enterprise-grade sales engagement platform. Sequences here manag
 complex multi-channel, multi-touch cadences with team routing, analytics, and
 compliance controls that simpler tools lack.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Outreach Sequence Best Practices.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **ColdIQ Cadence Design.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Outreach — Sales Engagement Cadence Design.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Outreach Sequence Best Practices** — Sequence governance, task-based selling, and CRM-locked cadences.
+- **ColdIQ Cadence Design** — Named methodology governing recommendations in this skill's process.
+- **Outreach — Sales Engagement Cadence Design** — Sequence governance, task-based selling, and CRM-locked cadences.
 
 ## When to Use
 - "Set up Outreach sequences"
@@ -97,18 +95,16 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — Outreach triggers, Clay→CRM path, Eric agency scale
+- `templates/output-template.md` — CRM map + triggers + sequence deliverable
+- `scripts/check-output.py` — local checklist validator
+This skill includes lightweight artifacts the agent can load on demand:
 - `references/enrichment-enrollment-gate.md` — verify gate + trigger architecture
 - `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify-before-enroll (Pat Spielmann)
 - `../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md` — Clay agency execution (Eric Nowoslawski)
 - `../../tools/clay-toolkit/references/gtm-table-blueprints.md` — clay-toolkit table → CRM upsert
 - `../../tools/n8n-toolkit/references/gtm-flow-catalog.md` — OUT-01 API enrollment
 - `../../../../references/gtm-experts-outbound-index.md` — expert router
-- `templates/output-template.md` — CRM map + triggers + sequence deliverable
-- `scripts/check-output.py` — local checklist validator
-
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

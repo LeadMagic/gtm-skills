@@ -30,13 +30,11 @@ selection matters more than budget size.
 This skill covers platform selection, budget allocation, campaign structure,
 and measurement across the four major B2B ad platforms plus programmatic.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Meta Advantage+ Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Google Performance Max.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **LinkedIn Campaign Manager.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Meta Advantage+ Framework** — Shapes deliverables for this skill — Paid advertising is a dial, not a switch.
+- **Google Performance Max** — Shapes deliverables for this skill — Paid advertising is a dial, not a switch.
+- **LinkedIn Campaign Manager** — Shapes deliverables for this skill — Paid advertising is a dial, not a switch.
 
 ## When to Use
 
@@ -171,12 +169,10 @@ requirements, pixel/tracking setup, and KPI dashboard.
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

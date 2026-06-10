@@ -26,13 +26,11 @@ A target account launch signals new initiatives and budget. This play has two
 mirror-image variants: competitive displacement triggered by competitor launches,
 and initiative alignment triggered by account launches.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Signal-Based Selling.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Force Management Competitive Displacement.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Winning by Design — SPICED.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Signal-Based Selling** — Named methodology governing recommendations in this skill's process.
+- **Force Management Competitive Displacement** — Command of the Message — persona-specific value narrative and differentiation per stakeholder.
+- **Winning by Design — SPICED** — Bowtie lifecycle model — align sales, marketing, and CS on stage-based outcomes.
 
 ## When to Use
 - "Competitor just launched something"

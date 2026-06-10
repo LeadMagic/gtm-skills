@@ -178,9 +178,9 @@ calendar, audience growth plan, media pitch list, and voice guidelines.
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Named frameworks and reference tables
-- `references/adam-robinson-founder-brand.md` — Adam Robinson (RB2B) founder-led LinkedIn playbook
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/adam-robinson-founder-brand.md` — Adam Robinson (RB2B) founder-led LinkedIn playbook
 
 ## Related Skills
 

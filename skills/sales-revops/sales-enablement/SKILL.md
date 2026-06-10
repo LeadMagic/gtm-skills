@@ -174,9 +174,9 @@ Sales enablement package:
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Named frameworks and reference tables
-- `references/force-management-playbook.md` — Repo root: Command of the Message, alignment cadence
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/force-management-playbook.md` — Repo root: Command of the Message, alignment cadence
 
 ## Related Skills
 

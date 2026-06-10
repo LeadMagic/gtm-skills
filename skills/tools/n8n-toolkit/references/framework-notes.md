@@ -1,33 +1,34 @@
-# n8n Toolkit — Framework Notes
+# N8N Toolkit — Framework Notes
+
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
 ## Primary Frameworks
 
-- **n8n** — Open-source iPaaS; webhooks, cron, HTTP, AI Agent node, sub-workflows, queue mode, Error Trigger.
-- **Model Context Protocol (MCP)** — Agent tool layer; n8n is execution plane beneath agents for batch/deterministic jobs.
-- **iPaaS Integration Patterns** — Idempotency, dead-letter queue, circuit breaker, webhook + poll hybrid.
-- **Winning by Design Bowtie** — Marketing → Sales → CS handoffs; n8n enforces required fields at stage gates.
-- **ColdIQ Signal-to-Action** — One signal type → one play; Switch node routing in SIG flows.
+- **n8n — Open-source workflow automation, 400+ integrations, queue mode**
+- **Model Context Protocol — Agent tool access and orchestration**
+- **iPaaS Integration Patterns — Event-driven, webhook, batch ETL**
+- **Winning by Design — Bowtie handoffs (marketing → sales → CS)**
+- **ColdIQ — Signal-to-action routing**
 
-## Tool Boundaries
+## Deep-dive references
 
-| Layer | Tool | Role |
+| File | Authority | Use when |
 |---|---|---|
-| Enrichment UI | Clay | Waterfalls, Loops, credits |
-| Orchestration | n8n | Routing, sync, SLA inbound, batch |
-| Interactive agent | MCP | Research, draft, read CRM |
-| Batch from agent | MCP → n8n webhook | Approved jobs only |
+| `references/gtm-flow-catalog.md` | N8N Toolkit reference | Extended gtm flow catalog detail |
+| `references/mcp-patterns.md` | N8N Toolkit reference | Extended mcp patterns detail |
+| `references/node-patterns.md` | N8N Toolkit reference | Extended node patterns detail |
 
-## Operating Assumptions
+## Templates
 
-- US B2B SaaS GTM motions unless user specifies otherwise.
-- HubSpot or Salesforce as CRM default; adapt node names.
-- LeadMagic as enrichment default; swap HTTP patterns for other APIs.
-- No autonomous cold send without `human_approved` flag.
-- Separate strategy (flow catalog) from build (node patterns).
+- `templates/output-template.md` — Primary deliverable shell
+- `templates/workflow-blueprint.md` — Role-specific deliverable
 
-## Agent Use
+## Agent routing
 
-1. Select flow ID from `gtm-flow-catalog.md` before designing nodes.
-2. Cite MCP pattern (A–E) if agent integration requested.
-3. Load motion skill (`inbound-triage`, `reply-handling`, signal plays) for routing rules.
-4. Run `check-output.py` on deliverable markdown.
+| Question | Action |
+|---|---|
+| Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
+
+Before final output, cite which framework shaped the recommendation.

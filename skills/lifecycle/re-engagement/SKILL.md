@@ -25,13 +25,11 @@ know you, and reactivation costs 5-7x less than new acquisition. But re-engageme
 requires different messaging than new prospect outreach. This skill covers win-back
 sequences for both prospects and customers.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Win-Back Campaign Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Retention Science Methodology.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Reforge — Lifecycle Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Win-Back Campaign Framework** — Named methodology governing recommendations in this skill's process.
+- **Retention Science Methodology** — Named methodology governing recommendations in this skill's process.
+- **Reforge — Lifecycle Marketing** — Startup operating cadence — default alive, talk to users, launch fast.
 
 ## When to Use
 - "Re-engage dormant leads"
@@ -139,7 +137,6 @@ Before delivering, verify:
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-
 **Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Engagement, Retention) · `references/lifecycle-metrics-by-stage.md`
 
 ## Related Skills

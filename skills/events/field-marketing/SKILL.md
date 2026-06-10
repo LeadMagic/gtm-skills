@@ -25,13 +25,11 @@ through intimate events. Executive dinners, roadshows, customer advisory boards,
 and regional meetups convert at 3-5x the rate of digital channels because trust
 is built in person. This skill covers strategy through execution.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Field Marketing ROI Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **ABM Field Engagement.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Bizzabo — Event Experience Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Field Marketing ROI Framework** — Named methodology governing recommendations in this skill's process.
+- **ABM Field Engagement** — Named methodology governing recommendations in this skill's process.
+- **Bizzabo — Event Experience Framework** — Event Experience Framework
 
 ## When to Use
 - "Plan a field marketing event"

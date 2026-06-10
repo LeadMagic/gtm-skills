@@ -1,35 +1,33 @@
 # Fundraising Strategy — Framework Notes
 
-Reference index for `SKILL.md`. Primary detail → `vc-milestone-gates.md`.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
-## Primary references
+## Primary Frameworks
 
-- **`vc-milestone-gates.md`** — Metric gates by round (pre-seed → C+)
-- **`SKILL.md`** — Process, term sheets, pipeline
+- **Jason Lemkin (SaaStr) — ARR-based fundraising benchmarks**
+- **Christoph Janz (Point Nine) — SaaS napkin to unicorn**
+- **Brad Feld — Venture Deals (term sheet mechanics)**
+- **Mark Suster (Upfront Ventures) — VC relationship building**
+- **Rob Walling — Stair Step Method (bootstrapper path)**
+- **Tyler Tringas (Calm Company Fund) — Bootstrapper-friendly shared earnings**
+- **Samir Kaji (Allocate) — Fundraising data and LP dynamics**
 
-## Authoritative foundations
+## Deep-dive references
 
-- **Jason Lemkin (SaaStr)** — 3x seed; burn multiple at A/B
-- **Christoph Janz (Point Nine)** — ARR napkin stages
-- **David Skok** — Unit economics before scale
-- **Rob Walling (TinySeed)** — Bootstrap-first, raise from strength
-- **Brad Feld — Venture Deals** — Term sheet mechanics
+| File | Authority | Use when |
+|---|---|---|
+| `references/vc-milestone-gates.md` | Fundraising Strategy reference | Extended vc milestone gates detail |
 
-## Cross-skill routing
+## Templates
 
-| Need | Skill / artifact |
-|---|---|
-| Bootstrap vs VC path | `saas-outcomes/references/bootstrap-vs-vc-paths.md` |
-| Metric formulas | `saas-metrics-calculator/references/metric-definitions-exit-weight.md` |
-| Exit alternative | `exiting-company/references/valuation-drivers.md` |
-| Financial model | `financial-modeling` |
-| Investor outreach | `vc-outreach` |
+- `templates/output-template.md` — Primary deliverable shell
 
 ## Agent routing
 
 | Question | Action |
 |---|---|
-| "Do we qualify for Series A?" | Load `vc-milestone-gates.md` |
-| Build deliverable | Use `templates/output-template.md` |
-| Validate output | Run `scripts/check-output.py` |
 | Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
+
+Before final output, cite which framework shaped the recommendation.

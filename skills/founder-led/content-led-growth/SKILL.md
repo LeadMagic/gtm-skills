@@ -296,9 +296,9 @@ Before delivering, verify:
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Named frameworks and reference tables
-- `references/dave-gerhardt-exit-five.md` — Exit Five B2B brand voice (repo root)
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/dave-gerhardt-exit-five.md` — Exit Five B2B brand voice (repo root)
 
 ## Related Skills
 

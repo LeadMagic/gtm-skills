@@ -1,43 +1,32 @@
 # Meeting Prep — Framework Notes
 
-## SPICED (Discovery) — Winning by Design
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
-Use on Connect and Discovery calls. Progressive — not all five in one call.
+## Primary Frameworks
 
-| Letter | Uncover | Feeds MEDDICC |
+- **Winning by Design — SPICED**
+- **Keenan — Gap Selling**
+- **Andy Whyte — MEDDICC Qualification**
+- **Force Management — MEDDICC Methodology**
+- **Huthwaite — SPIN Selling**
+- **Gartner — Challenger Sale**
+
+## Deep-dive references
+
+| File | Authority | Use when |
 |---|---|---|
-| S | Current state | Context · Gap Selling situation |
-| P | What's broken | I — Identify Pain · Gap problem |
-| I | Cost of pain ($, time, risk) | M — Metrics · Gap impact |
-| C | Why now, deadline | Decision Process timing |
-| D | Who decides, how | E + D + D |
+| `references/keenan-gap-selling.md` | Meeting Prep reference | Extended keenan gap selling detail |
 
-## MEDDICC (Qualification) — Andy Whyte
+## Templates
 
-Score 0/1/2 per dimension. Max 14. Re-score every meeting.
+- `templates/output-template.md` — Primary deliverable shell
 
-**Champion test (all four for score 2):**
-1. Power to influence
-2. Personal win
-3. Articulates problem unaided
-4. Commits to internal selling
+## Agent routing
 
-**Economic Buyer:** Must be met (score 2) before Proposal stage.
+| Question | Action |
+|---|---|
+| Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
 
-**Competition:** Includes status quo and build-vs-buy — not just named vendors.
-
-## Call Type Guide
-
-| Meeting | Primary Framework | Target Outcome |
-|---|---|---|
-| First discovery | SPICED + Keenan Gap (current state) | Pain + Impact + root cause |
-| Follow-up discovery | SPICED gaps + MEDDICC | Score ≥6/14 |
-| Demo | Challenger + MEDDICC | Champion test, Metrics |
-| Exec / EB meeting | MEDDICC | EB score 2, Metrics 2 |
-| Deal review (internal) | MEDDICC evidence | No zeros on E/I/C for Commit |
-
-## Agent Use
-
-1. Match question bank to call type — don't dump all 12 dimensions on call one.
-2. Map answers to CRM fields in `pipeline-management` — one source of truth.
-3. Include MEDDICC gap analysis for any deal past Discovery stage.
+Before final output, cite which framework shaped the recommendation.

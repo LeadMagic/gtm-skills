@@ -25,13 +25,11 @@ churn happens in the first 90 days. A structured onboarding sequence that
 drives customers to their first value moment within 7 days reduces churn
 by 30-50%. This skill covers design and execution.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Lincoln Murphy Desired Outcome.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Gainsight Onboarding Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Reforge — Lifecycle Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Lincoln Murphy Desired Outcome** — Named methodology governing recommendations in this skill's process.
+- **Gainsight Onboarding Framework** — Named methodology governing recommendations in this skill's process.
+- **Reforge — Lifecycle Marketing** — Startup operating cadence — default alive, talk to users, launch fast.
 
 ## When to Use
 - "Build onboarding sequence"
@@ -131,7 +129,6 @@ Before delivering, verify:
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-
 **Canonical lifecycle (repo root):**
 - `references/gtm-lifecycle-stages.md` — Stage index (Activation row)
 - `references/activation-playbook.md` — First value event, TTA, audit checklist

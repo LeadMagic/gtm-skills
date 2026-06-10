@@ -31,14 +31,12 @@ the tool your last company used instead of the tool that matches your stage,
 team, and support philosophy. This skill covers deep configuration across
 the support stack.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Intercom — Conversational support, Fin AI, Product Tours.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Zendesk — Omnichannel CX, AI Agents, Explore analytics.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Front — Collaborative inbox, rule-based routing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Help Scout — Docs-first support, Beacon widget.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Intercom — Conversational support, Fin AI, Product Tours** — Conversational support, Fin AI, Product Tours
+- **Zendesk — Omnichannel CX, AI Agents, Explore analytics** — Omnichannel CX, AI Agents, Explore analytics
+- **Front — Collaborative inbox, rule-based routing** — Collaborative inbox, rule-based routing
+- **Help Scout — Docs-first support, Beacon widget** — Docs-first support, Beacon widget
 
 ## When to Use
 
@@ -111,14 +109,12 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
-- `references/platform-comparison.md` — Intercom vs Zendesk vs Front vs Help Scout
-- `templates/sla-matrix.md` — P1–P4 FRT and resolution targets
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
+- `references/platform-comparison.md` — Intercom vs Zendesk vs Front vs Help Scout
+- `templates/sla-matrix.md` — P1–P4 FRT and resolution targets
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

@@ -34,13 +34,12 @@ rationale for every choice.
 for maturity assessment before adding tools. Clay = enrichment; n8n = orchestration;
 Cargo category = persistent routing at scale — see playbook decision matrix.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Jesse Ouellette Lean Stack.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Eric Nowoslawski Agency Stack.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **HubSpot Academy — CRM Automation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Jen Igartua (Go Nimbly) — Must-have basics / performance boosters / delighters stack layering** — Must-have basics / performance boosters / delighters stack layering
+- **Jesse Ouellette Lean Stack** — Named methodology governing recommendations in this skill's process.
+- **Eric Nowoslawski Agency Stack** — Cold email infra at scale — 2 inboxes/domain, backup inboxes, Creative Ideas testing.
+- **HubSpot Academy — CRM Automation** — Lifecycle stages, object model, and workflow enrollment patterns.
 
 ## When to Use
 - "What tools do I need for cold email?"
@@ -130,13 +129,11 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
-- `references/gtm-automation-expert-playbook.md` — Jen Igartua stack layering / maturity (repo root; Pattern 30)
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
+- `references/gtm-automation-expert-playbook.md` — Jen Igartua stack layering / maturity (repo root; Pattern 30)
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

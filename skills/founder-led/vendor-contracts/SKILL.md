@@ -35,14 +35,12 @@ customer dictate terms from scratch. You need standard templates that cover
 covers the complete contract stack: MSA, Order Form, SLA, DPA — for both
 selling to customers (inbound) and buying from vendors (outbound).
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **YC — Standard commercial terms for B2B SaaS.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **SaaS Capital — B2B SaaS contract benchmarks.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Jason Lemkin (SaaStr) — Enterprise contract negotiation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **David Skok (Matrix Partners) — B2B contract structure.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **YC — Standard commercial terms for B2B SaaS** — Startup operating cadence — default alive, talk to users, launch fast.
+- **SaaS Capital — B2B SaaS contract benchmarks** — B2B SaaS contract benchmarks
+- **Jason Lemkin (SaaStr) — Enterprise contract negotiation** — Enterprise contract negotiation
+- **David Skok (Matrix Partners) — B2B contract structure** — SaaS metrics — CAC payback, LTV/CAC, unit economics by stage.
 
 ## When to Use
 

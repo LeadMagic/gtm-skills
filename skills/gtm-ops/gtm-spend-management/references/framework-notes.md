@@ -1,27 +1,37 @@
-# GTM Spend Management — Framework Notes
+# Gtm Spend Management — Framework Notes
 
-## Primary frameworks
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
-- **Ben Murray (SaaS CFO).** Vendor spend as % of ARR; departmental ownership; monthly visibility.
-- **Scott Brinker.** Consolidate MarTech before approving new vendors.
-- **Ramp.** Cards + virtual cards + bill pay + accounting sync = control plane.
-- **Jason Lemkin.** Stage-appropriate GTM spend — don't enterprise-procure at $500K ARR.
+## Primary Frameworks
 
-## Skill routing
+- **Ben Murray (The SaaS CFO) — Vendor spend as % of ARR**
+- **Scott Brinker — MarTech consolidation before new spend**
+- **Ramp — Corporate cards, bill pay, spend controls**
+- **Jason Lemkin (SaaStr) — GTM spend discipline by stage**
 
-| Question | Load |
+## Deep-dive references
+
+| File | Authority | Use when |
+|---|---|---|
+| `references/ramp-playbook.md` | Gtm Spend Management reference | Extended ramp playbook detail |
+| `references/saas-vendor-roster.md` | Gtm Spend Management reference | Extended saas vendor roster detail |
+| `references/spend-by-stage.md` | Gtm Spend Management reference | Extended spend by stage detail |
+| `references/spend-governance.md` | Gtm Spend Management reference | Extended spend governance detail |
+
+## Templates
+
+- `templates/output-template.md` — Primary deliverable shell
+- `templates/annual-gtm-budget-worksheet.md` — Role-specific deliverable
+- `templates/ramp-card-policy-gtm.md` — Role-specific deliverable
+- `templates/spend-approval-matrix.md` — Role-specific deliverable
+- `templates/vendor-spend-register.md` — Role-specific deliverable
+
+## Agent routing
+
+| Question | Action |
 |---|---|
-| Ramp setup | `ramp-playbook.md` |
-| Who approves? | `spend-approval-matrix.md` |
-| Vendor list | `vendor-spend-register.md` |
-| TCO math | `gtm-tool-cost-model` |
-| Contract renewal | `vendor-contracts` |
-| Stack overlap | `revops-tech-stack` |
-| Gifting caps | `strategic-gifting` |
+| Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
 
-## Agent use
-
-1. If no control plane → Ramp playbook + card policy
-2. If new tool purchase → approval matrix + stack check + TCO row
-3. If renewal panic → vendor roster + vendor-contracts
-4. If spend creep → quarterly review + zombie cleanup
+Before final output, cite which framework shaped the recommendation.

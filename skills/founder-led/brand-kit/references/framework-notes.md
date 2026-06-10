@@ -1,20 +1,14 @@
 # Brand Kit — Framework Notes
 
-Reference tables for `SKILL.md`. Apply named frameworks to justify recommendations — do not cite as decoration.
-
-## Primary frameworks
-
-- **Marty Neumeier Brand Gap**
-- **David Aaker Brand Identity**
-- **April Dunford Positioning**
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations.
 
 ## Authoritative foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Marty Neumeier Brand Gap.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **David Aaker Brand Identity.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **April Dunford Positioning.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Marty Neumeier Brand Gap** — Shapes deliverables for this skill — A brand kit is the operating manual for your company's visual and verbal
+identity.
+- **David Aaker Brand Identity** — Shapes deliverables for this skill — A brand kit is the operating manual for your company's visual and verbal
+identity.
+- **April Dunford Positioning** — Positioning — competitive alternatives, differentiated value, target segment.
 
 ## Process phases
 
@@ -28,6 +22,6 @@ This skill is grounded in public frameworks and source material relevant to the 
 
 | Question | Action |
 |---|---|
+| Full process | Follow `SKILL.md` step-by-step |
 | Build deliverable | Use `templates/output-template.md` |
 | Validate output | Run `scripts/check-output.py` |
-| Full process | Follow `SKILL.md` step-by-step |

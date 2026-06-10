@@ -34,15 +34,15 @@ your brand erodes across every customer touchpoint. This skill defines a
 complete AI-consumable design system with visual identity, voice/tone,
 templates, and guardrails. Designed to be read by both humans and AI agents.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Google DESIGN.md Specification.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Stitch 9-Section Brand Format.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Brad Frost — Atomic Design.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Nathan Curtis — Design System Monorepo Architecture.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Dan Mall — Design System Governance.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Google DESIGN.md Specification** — Shapes deliverables for this skill — When AI agents generate sales collateral, pitch decks, one-pagers, social
+graphics, and emails, they need a brand system.
+- **Stitch 9-Section Brand Format** — Shapes deliverables for this skill — When AI agents generate sales collateral, pitch decks, one-pagers, social
+graphics, and emails, they need a brand system.
+- **Brad Frost — Atomic Design** — Atomic Design
+- **Nathan Curtis — Design System Monorepo Architecture** — Design System Monorepo Architecture
+- **Dan Mall — Design System Governance** — Design System Governance
 
 ## When to Use
 
@@ -304,12 +304,10 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

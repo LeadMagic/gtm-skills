@@ -22,6 +22,19 @@ Last refresh: 2026-06-09.
 5. **Progressive-disclosure drift.** Oversized non-design skills were split or trimmed. Dense design reference skills may intentionally exceed 500 lines when they carry reusable source guidance plus required execution artifacts.
 6. **Missing quality bar doc.** Added this file so future maintainers know the standard.
 7. **Missing source standard.** Added `docs/SOURCE_STANDARDS.md` to define what qualifies as authority coverage.
+8. **Weak artifact coverage.** CI now requires every skill to ship `framework-notes.md`, `output-template.md`, and `check-output.py`, with all three listed in `## Execution Artifacts`.
+9. **Generic authority filler.** `validate-skills.js` rejects decoration placeholder text; `npm run fix:authority` repairs SKILL.md bodies.
+
+## CI Enforcement (agentskills.io + GTM bar)
+
+`npm run verify` runs:
+
+1. `validate-skills.js` — agentskills.io name/description rules + GTM authority/process/artifact checks
+2. `audit-references.py` — resolvable reference paths
+3. `generate-skills-lock.py --check` — SHA256 integrity
+4. Installer dry-run — Jesse path smoke test
+5. `public-repo-audit.py` — community files and catalog drift
+6. `check-generated.sh` — regenerated README/AGENTS/CLAUDE/taxonomy/lock
 
 ## Strategic Bar Going Forward
 

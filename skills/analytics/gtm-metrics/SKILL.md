@@ -442,8 +442,10 @@ Canonical stage index → `references/gtm-lifecycle-stages.md`.
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `templates/output-template.md` — copy-paste deliverable structure for the user
+- `scripts/check-output.py` — local checklist validator for required sections
 This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/b2b-influencer-measurement.md` — Influencer ROI, dark social, UTM limits (Wishly + Walker)
 - `references/chris-walker-mental-models.md` — Dark social, demand creation frequency
 - `references/public-company-gtm-metrics.md` — Henry Schuck / ZoomInfo earnings-season KPI stack
@@ -451,19 +453,13 @@ This skill includes lightweight artifacts the agent can load on demand:
 - `references/bookings-billings-revenue-matrix.md` — CRM vs finance ledger (repo root)
 - `skills/founder-led/saas-metrics-calculator/templates/mrr-bridge-template.md` — bridge worksheet (saas-metrics-calculator skill)
 - `../../management-leadership/gtm-leadership/references/cro-enterprise-strategy.md` — McMahon board metrics, Snowflake consumption KPIs (Pattern 31)
-- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `references/gtm-metrics-scorecard.md` — standardized metric formulas by motion (sales-led, PLG, CS)
-- `templates/output-template.md` — copy-paste deliverable structure for the user
-- `scripts/check-output.py` — local checklist validator for required sections
-
 **Canonical lifecycle:**
 - `references/lifecycle-metrics-by-stage.md` — Per-stage formulas + R/Y/G (repo root)
 - `templates/lifecycle-monitoring-dashboard.md` — Weekly/monthly review
 - `templates/stage-health-scorecard.md` — Leadership rollup
 - `references/gtm-lifecycle-stages.md` — 7-stage index + Bowtie (repo root)
-
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
-
 **Cross-skill (exit/valuation):** `saas-metrics-calculator/references/metric-definitions-exit-weight.md`, `financial-modeling/references/unit-economics-exit-bridge.md`, `saas-outcomes/references/exit-metrics-matrix.md`
 
 ## Related Skills

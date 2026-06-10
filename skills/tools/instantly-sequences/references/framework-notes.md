@@ -1,38 +1,29 @@
 # Instantly Sequences — Framework Notes
 
-**Category:** `tools` · **Tool path:** platform-specific sequencer (not sequencing-toolkit)
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
 ## Primary Frameworks
 
-- **Eric Nowoslawski — Cold Email Infrastructure** — 2 inboxes/domain, 30 sends/day/inbox, warmup before launch, unit economics gate. Canonical → `../../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md`
-- **Instantly Best Practices** — Warmup pool, account rotation, unified inbox, A/B testing (26 variants)
-- **Pat Spielmann — Cold to Gold** — Verify-before-send from Clay; data quality before copy scale → `../../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
+- **Instantly Best Practices**
+- **Cold Email Infrastructure Standards**
+- **Outreach — Sales Engagement Cadence Design**
 
-## Tool Boundaries
+## Deep-dive references
 
-| Layer | Skill | Role |
+| File | Authority | Use when |
 |---|---|---|
-| Enrichment | clay-toolkit / leadmagic-waterfall | Find → Verify → Enrich |
-| Loops | clay-loops-toolkit | Signal → enrich → route |
-| Sequencer | instantly-sequences (this skill) | Send + unified inbox |
-| Architecture | sequencing-toolkit | Cross-platform comparison |
+| `references/clay-enrollment-handoff.md` | Instantly Sequences reference | Extended clay enrollment handoff detail |
 
-## Clay Enrollment
+## Templates
 
-Load `references/clay-enrollment-handoff.md` before pushing Clay rows to Instantly.
+- `templates/output-template.md` — Primary deliverable shell
 
-## Eric Infra Defaults
+## Agent routing
 
-- Secondary domains only; 2-3 mailboxes per domain
-- 30-50 sends/day/mailbox; Instantly auto-rotation
-- 2-3 week warmup pool before campaigns
-- Open tracking OFF; reply tracking ON
+| Question | Action |
+|---|---|
+| Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
 
-## Agent Use
-
-1. Confirm infra (`domain-infrastructure`, `email-deliverability`) before campaign build.
-2. Load clay-enrollment-handoff if source is Clay table or loop.
-3. Cite Eric for volume/infra; Pat for verify gate.
-4. Run `check-output.py` on deliverable.
-
-Expert router → `references/gtm-experts-outbound-index.md`
+Before final output, cite which framework shaped the recommendation.

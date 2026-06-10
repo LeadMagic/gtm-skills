@@ -38,15 +38,14 @@ COBRA for 18 months plus a settlement. The mistake: thinking "we're too small
 for HR." You need compliance from employee #1. This skill covers everything
 from classification to termination.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **IRS — Worker classification (20-factor test, ABC test).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **California AB5 / Prop 22 — Gig economy classification.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **DLSE (California) — Employment regulations.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **SixFifty — Employment law automation (Wilson Sonsini).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Rippling / Gusto — HR compliance platforms.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **IRS — Worker classification (20-factor test, ABC test)** — Worker classification (20-factor test, ABC test)
+- **California AB5 / Prop 22 — Gig economy classification** — Gig economy classification
+- **DLSE (California) — Employment regulations** — Employment regulations
+- **SixFifty — Employment law automation (Wilson Sonsini)** — Employment law automation (Wilson Sonsini)
+- **Rippling / Gusto — HR compliance platforms** — HR compliance platforms
+- **Stacey Nordwall (Culture Amp / Pyn) — Revenue-team HR ops (onboarding, manager enablement)** — Revenue-team HR ops (onboarding, manager enablement)
 
 ## When to Use
 
@@ -326,10 +325,10 @@ Consult qualified professionals for your specific situation — attorneys for le
 
 ## Execution Artifacts
 
-- `../gtm-role-descriptions/references/hr-gtm-playbook.md` — Revenue-team HR ops (Stacey Nordwall; Pattern 28)
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `../gtm-role-descriptions/references/hr-gtm-playbook.md` — Revenue-team HR ops (Stacey Nordwall; Pattern 28)
 
 ## Related Skills
 

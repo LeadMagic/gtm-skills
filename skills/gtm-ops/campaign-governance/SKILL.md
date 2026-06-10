@@ -30,14 +30,14 @@ your ROI reports are fiction, and you can't answer "which campaigns actually wor
 This skill builds the governance framework. Marketing budget caps and Ramp
 card policy → `gtm-spend-management`.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Marketing Ops Governance Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **SiriusDecisions Campaign Hierarchy.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Winning by Design — Revenue Architecture.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Aneesh Lal (Wishly Group) — Influencer attribution.** Per-creator landing pages; `utm_medium=influencer`; UTMs cover clicks only — LinkedIn comment engagement and dark social require CRM influenced fields. Load `references/b2b-influencer-measurement.md` for limits. Pair with Chris Walker dark social (`references/chris-walker-mental-models.md`).
+- **Marketing Ops Governance Framework** — Named methodology governing recommendations in this skill's process.
+- **SiriusDecisions Campaign Hierarchy** — Named methodology governing recommendations in this skill's process.
+- **Winning by Design — Revenue Architecture** — Bowtie lifecycle model — align sales, marketing, and CS on stage-based outcomes.
+- **Atlassian Team Playbook — RACI chart** — RACI chart
+- **PMI — RACI matrix responsibility assignment** — RACI matrix responsibility assignment
+- **Aneesh Lal (Wishly Group) — Influencer UTM & landing-page attribution** — Influencer UTM & landing-page attribution
 
 ## When to Use
 - "Set up campaign naming conventions"
@@ -182,17 +182,17 @@ A strong output from this skill includes:
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — SiriusDecisions + ops controls
+- `templates/output-template.md`
+- `scripts/check-output.py`
 - `references/campaign-naming-conventions.md` — Hierarchy + naming pattern
 - `references/utm-governance.md` — UTM dictionary and audit
 - `references/b2b-influencer-measurement.md` — Influencer UTM limits, landing pages, dark social
 - `skills/growth/customer-marketing/templates/b2b-influencer-program-brief.md` — Per-creator UTM + landing page spec
-- `references/framework-notes.md` — SiriusDecisions + ops controls
 - `gtm-operations/templates/raci-matrix-template.md` — Campaign launch RACI (Example 1)
 - `gtm-operations/templates/gtm-project-charter.md` — Launch charter
 - `templates/campaign-hierarchy-register.md` — Program/campaign/tactic register
 - `templates/utm-parameter-sheet.md` — Per-launch UTM QA
-- `templates/output-template.md`
-- `scripts/check-output.py`
 
 ## Related Skills
 - gtm-operations, gtm-spend-management, campaign-analytics, attribution, crm-integration, gtm-metrics, revops-tech-stack

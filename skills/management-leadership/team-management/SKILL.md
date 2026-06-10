@@ -36,16 +36,14 @@ core management practices every founder needs: 1:1s, feedback, goal-setting,
 delegation, and scaling yourself as a leader. Based on the operators who
 built the best-managed companies in tech.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Andy Grove — High Output Management (1:1s, task-relevant maturity).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Kim Scott — Radical Candor (care personally, challenge directly).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **John Doerr — Measure What Matters (OKRs).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Molly Graham — Giving Away Your Legos (delegation).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Patty McCord — Powerful (Netflix culture, talent density).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Claire Hughes Johnson — Scaling People (Stripe COO).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Andy Grove — High Output Management (1:1s, task-relevant maturity)** — High Output Management (1:1s, task-relevant maturity)
+- **Kim Scott — Radical Candor (care personally, challenge directly)** — Radical Candor (care personally, challenge directly)
+- **John Doerr — Measure What Matters (OKRs)** — Measure What Matters (OKRs)
+- **Molly Graham — Giving Away Your Legos (delegation)** — Giving Away Your Legos (delegation)
+- **Patty McCord — Powerful (Netflix culture, talent density)** — Powerful (Netflix culture, talent density)
+- **Claire Hughes Johnson — Scaling People (Stripe COO)** — Scaling People (Stripe COO)
 
 ## When to Use
 

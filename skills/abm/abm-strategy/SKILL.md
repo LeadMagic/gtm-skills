@@ -163,9 +163,9 @@ A strong output from this skill includes:
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Named frameworks and reference tables
-- `references/lars-nilsson-absd.md` — Lars Nilsson (Cloudera/Snowflake) ABSD playbook: signal-based selection, SME sequence design, stack, benchmarks
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/lars-nilsson-absd.md` — Lars Nilsson (Cloudera/Snowflake) ABSD playbook: signal-based selection, SME sequence design, stack, benchmarks
 
 ## Related Skills
 - abm-1-to-1, abm-1-to-few, abm-1-to-many, account-selection, multi-thread-orchestration

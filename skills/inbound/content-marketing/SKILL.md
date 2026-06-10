@@ -163,13 +163,13 @@ During Sev 2+ incidents (Pattern 33): pause scheduled campaigns, paid social, an
 
 ## Execution Artifacts
 
-- `references/crisis-management-playbook.md` — when to pause content (Pattern 33)
 - `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+- `references/crisis-management-playbook.md` — when to pause content (Pattern 33)
 - `references/dharmesh-shah-hubspot-inbound.md` — Repo root: flywheel, attract-engage-delight
 - `references/chris-walker-mental-models.md` — Repo root: demand creation, dark social, frequency
 - `references/seo-strategy-playbook.md` — Repo root: Product-Led SEO, content clusters
-- `templates/output-template.md` — Deliverable shell for agent output
-- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 

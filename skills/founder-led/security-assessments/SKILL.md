@@ -40,21 +40,16 @@ and the deal stalls. This skill covers the complete security assessment
 playbook: penetration testing, vulnerability management, bug bounties,
 security questionnaires, and incident response.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **OWASP Top 10 — Web application security risks.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **NIST Cybersecurity Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **VSAQ (Vendor Security Assessment Questionnaire) — Google.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **SIG (Standardized Information Gathering) — Shared Assessments.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **CAIQ (Consensus Assessments Initiative Questionnaire) — CSA.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **ISO 27001 — Information Security Management.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-
-**GTM deal coordination:** Questionnaire *responses* are security/engineering work;
-*when* to share artifacts in the deal cycle is GTM — `references/security-questionnaire-deal-guide.md`,
-`deal-desk`, `skills/sales-revops/deal-desk/references/legal-gtm-playbook.md`. AE coordinates timeline; does not
-solo-fill CAIQ/SIG answers (see pitfalls in `references/pitfalls-index.md`).
+- **OWASP Top 10 — Web application security risks** — Web application security risks
+- **NIST Cybersecurity Framework** — Shapes deliverables for this skill — Every enterprise customer will ask: "Are you secure? Prove it.
+- **VSAQ (Vendor Security Assessment Questionnaire) — Google** — Google
+- **SIG (Standardized Information Gathering) — Shared Assessments** — Shared Assessments
+- **CAIQ (Consensus Assessments Initiative Questionnaire) — CSA** — CSA
+- **ISO 27001 — Information Security Management** — Information Security Management
+- **Vanta Trust Center — Sales handoff methodology** — Sales handoff methodology
+- **Eunice Buhler (G2) — Sales-legal coordination on vendor risk reviews** — Review recency and volume drive Grid placement; ethical ask timing only.
 
 ## When to Use
 

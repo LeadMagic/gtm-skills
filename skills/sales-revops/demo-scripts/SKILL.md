@@ -141,14 +141,14 @@ actions, and interaction prompts for each demo variant.
 
 ## Execution Artifacts
 
+- `references/framework-notes.md`
+- `templates/output-template.md`
+- `scripts/check-output.py`
 - `templates/first-demo-script.md` — 10–15 min discovery-led demo
 - `templates/technical-demo-outline.md` — SE deep-dive
 - `templates/executive-demo-outline.md` — Economic buyer overview
 - `references/reverse-demo-varun.md` — Varun Anand / Clay buyer-led demo playbook
 - `references/peter-cohan-great-demo.md` — Great Demo! + incumbent reverse demo
-- `references/framework-notes.md`
-- `templates/output-template.md`
-- `scripts/check-output.py`
 
 ## Related Skills
 

@@ -31,15 +31,13 @@ Analytics tools don't work out of the box — they work when configured with a
 tracking plan, proper implementation, and destinations that talk to each other.
 This skill covers setup and optimization across the analytics stack.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Segment — CDP with 400+ destinations.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Amplitude — Product analytics, behavioral cohorts, experiment.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **PostHog — Open-source analytics, session recording, feature flags.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Mixpanel — Event-based product analytics.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **GA4 — Google Analytics for web + app.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Segment — CDP with 400+ destinations** — CDP with 400+ destinations
+- **Amplitude — Product analytics, behavioral cohorts, experiment** — Product analytics, behavioral cohorts, experiment
+- **PostHog — Open-source analytics, session recording, feature flags** — Open-source analytics, session recording, feature flags
+- **Mixpanel — Event-based product analytics** — Event-based product analytics
+- **GA4 — Google Analytics for web + app** — Google Analytics for web + app
 
 ## When to Use
 
@@ -108,13 +106,11 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
-- `references/analytics-stack-by-stage.md` — CDP + product + web by ARR
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
+- `references/analytics-stack-by-stage.md` — CDP + product + web by ARR
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

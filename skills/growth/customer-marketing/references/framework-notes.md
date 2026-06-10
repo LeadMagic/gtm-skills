@@ -1,18 +1,38 @@
 # Customer Marketing — Framework Notes
 
-## Frameworks
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
-- **Bain NPS (Reichheld)** — Promoter identification for advocacy asks
-- **Gainsight Advocacy Maturity** — Ladder from logo → advisory
-- **Influitive** — Advocate rewards and program structure
-- **SaaSquatch** — Customer-led growth loops
+## Primary Frameworks
 
-## Skill routing
+- **Bain & Company — NPS (Net Promoter System, Fred Reichheld)**
+- **Gainsight — Customer Advocacy Maturity Model**
+- **Influitive — Advocate Marketing**
+- **SaaSquatch — Customer-Led Growth**
+- **Varun Anand (Clay) — Community Selling & Ecosystem GTM**
+- **Aneesh Lal (Wishly Group) — B2B Creator Partnerships & Advocacy**
+- **Dharmesh Shah (HubSpot) — Flywheel Delight & Customer Advocacy**
 
-| Task | Load |
+## Deep-dive references
+
+| File | Authority | Use when |
+|---|---|---|
+| `references/advocacy-program.md` | Customer Marketing reference | Extended advocacy program detail |
+| `references/community-selling-varun.md` | Customer Marketing reference | Extended community selling varun detail |
+
+## Templates
+
+- `templates/output-template.md` — Primary deliverable shell
+- `templates/b2b-influencer-program-brief.md` — Role-specific deliverable
+- `templates/case-study-interview-questions.md` — Role-specific deliverable
+- `templates/influencer-partnership-scorecard.md` — Role-specific deliverable
+- `templates/reference-program-spec.md` — Role-specific deliverable
+
+## Agent routing
+
+| Question | Action |
 |---|---|
-| G2/TR campaigns | `review-platforms` |
-| Case study write-up | `case-study-builder` |
-| CS foundation | `cs-playbooks` |
-| Advocacy rewards spend | `gtm-spend-management` |
-| Referrals | `referral-programs` |
+| Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
+
+Before final output, cite which framework shaped the recommendation.

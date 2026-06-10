@@ -35,15 +35,13 @@ outcomes that economic buyers can approve. The mistake: building a calculator
 that overclaims and destroys credibility. The fix: conservative assumptions
 with documented sources, so every number is defensible under scrutiny.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Madhavan Ramanujam — Monetizing Innovation (WTP research).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **ValueSelling Framework — Value pyramid and quantified value.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **David Skok — SaaS Unit Economics.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **MEDDICC — Economic Buyer + Metrics (quantified value).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Gartner — TCO and ROI methodology.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Madhavan Ramanujam — Monetizing Innovation (WTP research)** — Monetizing Innovation (WTP research)
+- **ValueSelling Framework — Value pyramid and quantified value** — Value pyramid and quantified value
+- **David Skok — SaaS Unit Economics** — SaaS metrics — CAC payback, LTV/CAC, unit economics by stage.
+- **MEDDICC — Economic Buyer + Metrics (quantified value)** — Qualification scorecard — Metrics, Economic buyer, Decision criteria, Champion, Competition.
+- **Gartner — TCO and ROI methodology** — TCO and ROI methodology
 
 ## When to Use
 
@@ -247,12 +245,10 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

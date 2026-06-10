@@ -1,36 +1,32 @@
 # Founder Brand — Framework Notes
 
-Reference tables for `SKILL.md`. Apply named frameworks to justify recommendations — do not cite as decoration.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
-## Primary frameworks
+## Primary Frameworks
 
-- **Adam Robinson (RB2B) — Founder-led LinkedIn playbook** — daily posting,
-  hook checklist, zero-click content, build-in-public. Full detail →
-  `adam-robinson-founder-brand.md`
-- **Richard van der Blom — Algorithm Insights Report** — reach mechanics
-  behind the posting system. Load `linkedin-algorithm`.
+- **Adam Robinson (RB2B / Retention.com) — Founder-led LinkedIn playbook**
+- **Richard van der Blom (Just Connecting) — LinkedIn Algorithm Insights Report**
+- **Jessie Lizak (Reveting) — LinkedIn Live & livestream content engine**
+- **Charlie Hills Social Media**
+- **Brendan Gahan Creator Economy**
+- **Paul Graham — Do Things That Do Not Scale**
 
-## Authoritative foundations
+## Deep-dive references
 
-- **Adam Robinson (RB2B / Retention.com)** — bootstrapped to ~$25M+ combined ARR
-  with LinkedIn as the only distribution channel. See
-  `adam-robinson-founder-brand.md`.
-- **Charlie Hills** — social media strategy for B2B. Multi-channel content
-  distribution. Personal brand as growth lever.
-- **Brendan Gahan** — creator economy principles applied to founders. Community
-  over audience. Trust over reach.
+| File | Authority | Use when |
+|---|---|---|
+| `references/adam-robinson-founder-brand.md` | Founder Brand reference | Extended adam robinson founder brand detail |
 
-## Process phases
+## Templates
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
+- `templates/output-template.md` — Primary deliverable shell
 
 ## Agent routing
 
 | Question | Action |
 |---|---|
-| Build deliverable | Use `templates/output-template.md` |
-| Validate output | Run `scripts/check-output.py` |
 | Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
+
+Before final output, cite which framework shaped the recommendation.

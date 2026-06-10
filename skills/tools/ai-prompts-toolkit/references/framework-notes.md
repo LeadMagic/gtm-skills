@@ -1,20 +1,33 @@
-# AI Prompts Toolkit — Framework Notes
+# Ai Prompts Toolkit — Framework Notes
 
-## GTM Prompt Requirements
-Every prompt: role, inputs, JSON output, constraints, null-if-unknown, source URLs for facts.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
-## SPICED Mapping
-- P01, P08 → discovery structure
-- P03 → Critical Event line
-- P04 → Pain + proof in body
+## Primary Frameworks
 
-## MEDDICC Mapping
-- P09 → Champion dimension
-- P01 decision_notes → Economic Buyer / Decision Process
+- **Anthropic — Prompt Engineering for Tool Use**
+- **Clay — Claygent and AI column patterns**
+- **Winning by Design — SPICED discovery structure**
+- **Andy Whyte — MEDDICC evidence in prompts**
 
-## Loops vs Single Shots
-Single shot: one column, one task
-Loop: gated chain with max iterations — use templates/prompt-loop-blueprint.md
+## Deep-dive references
 
-## Agent Use
-Load prompt-library.md by ID. Never improvise Claygent email-finder prompts without P02 rules.
+| File | Authority | Use when |
+|---|---|---|
+| `references/prompt-library.md` | Ai Prompts Toolkit reference | Extended prompt library detail |
+| `references/prompt-loop-patterns.md` | Ai Prompts Toolkit reference | Extended prompt loop patterns detail |
+
+## Templates
+
+- `templates/output-template.md` — Primary deliverable shell
+- `templates/prompt-loop-blueprint.md` — Role-specific deliverable
+- `templates/prompt-spec.md` — Role-specific deliverable
+
+## Agent routing
+
+| Question | Action |
+|---|---|
+| Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
+
+Before final output, cite which framework shaped the recommendation.

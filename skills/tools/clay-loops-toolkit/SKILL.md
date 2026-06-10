@@ -196,12 +196,13 @@ Run `scripts/check-output.py` before delivery.
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — SPICED + signal-to-action mapping
+- `templates/output-template.md` — Primary deliverable shell
+- `scripts/check-output.py` — Blueprint validator
 - `references/loop-catalog.md` — Loop types, cadences, LeadMagic columns
 - `references/leadmagic-waterfall.md` — Find → verify → enrich for loops
-- `references/framework-notes.md` — SPICED + signal-to-action mapping
 - `templates/loop-blueprint.md` — Loop design doc
 - `templates/routing-matrix.md` — Score → action table
-- `scripts/check-output.py` — Blueprint validator
 
 ## Related Skills
 

@@ -1,22 +1,22 @@
 # Soc2 Compliance — Framework Notes
 
-Reference tables for `SKILL.md`. Apply named frameworks to justify recommendations — do not cite as decoration.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations.
 
-## Primary frameworks
+## Primary Frameworks
 
-- AICPA Trust Services Criteria
-- SOC2 Type II Framework
-- Paul Graham — Do Things That Do Not Scale
-- Jason Lemkin (SaaStr) — SOC 2 as enterprise sales gate
-- Eunice Buhler (G2) — Sales-legal alignment on security review timing
+- **AICPA Trust Services Criteria**
+- **SOC2 Type II Framework**
+- **Paul Graham — Do Things That Do Not Scale**
+- **Jason Lemkin (SaaStr) — SOC 2 as enterprise sales gate**
+- **Eunice Buhler (G2) — Sales-legal alignment on security review timing**
 
 ## Authoritative foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **AICPA Trust Services Criteria.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **SOC2 Type II Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Paul Graham — Do Things That Do Not Scale.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **AICPA Trust Services Criteria** — Shapes deliverables for this skill — SOC2 Type II is the standard security compliance framework for B2B SaaS.
+- **SOC2 Type II Framework** — Shapes deliverables for this skill — SOC2 Type II is the standard security compliance framework for B2B SaaS.
+- **Paul Graham — Do Things That Do Not Scale** — Do Things That Do Not Scale
+- **Jason Lemkin (SaaStr) — SOC 2 as enterprise sales gate** — Trust service criteria — security, availability, confidentiality controls.
+- **Eunice Buhler (G2) — Sales-legal alignment on security review timing** — Review recency and volume drive Grid placement; ethical ask timing only.
 
 ## Process phases
 
@@ -31,6 +31,6 @@ This skill is grounded in public frameworks and source material relevant to the 
 
 | Question | Action |
 |---|---|
+| Full process | Follow `SKILL.md` step-by-step |
 | Build deliverable | Use `templates/output-template.md` |
 | Validate output | Run `scripts/check-output.py` |
-| Full process | Follow `SKILL.md` step-by-step |

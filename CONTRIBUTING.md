@@ -31,9 +31,11 @@ Every skill must include:
 7. Output format the agent can actually produce.
 8. Quality checks and common pitfalls.
 9. Related skills.
-10. Support files in `references/`, `templates/`, `scripts/`, or `assets/` when the skill has long tables, reusable artifacts, or deterministic checks.
+10. **Artifact triad** on every skill: `references/framework-notes.md`, `templates/output-template.md`, `scripts/check-output.py`.
+11. `## Execution Artifacts` listing all three paths above.
+12. Support files in `references/`, `templates/`, `scripts/`, or `assets/` when the skill has long tables, reusable artifacts, or deterministic checks.
 
-See `docs/SKILL_AUTHORING.md` for the full standard.
+See `docs/SKILL_AUTHORING.md` and `docs/QUALITY_BAR.md` for the full standard.
 
 ## Local Validation
 
@@ -45,7 +47,9 @@ npm run verify       # check + generated drift gate
 gh skill publish --dry-run
 ```
 
-`npm run check` runs the skill validator, the reference audit (`scripts/audit-references.py`, which confirms every reference target resolves, skill paths are flat, and frontmatter `name` matches the directory), the lock check, the installer dry-run, and the public-repo hygiene audit.
+`npm run check` runs the agentskills.io + GTM validator (`scripts/validate-skills.js`), the reference audit (`scripts/audit-references.py`), the lock check, the installer dry-run, and the public-repo hygiene audit.
+
+Repair helpers: `npm run fix:authority`, `npm run fix:artifacts`, `npm run sync:artifacts`.
 
 Expected result (count matches the current catalog):
 

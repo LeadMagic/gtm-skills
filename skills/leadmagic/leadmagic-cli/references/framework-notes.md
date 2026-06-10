@@ -1,41 +1,29 @@
-# LeadMagic CLI — Framework Notes
+# Leadmagic Cli — Framework Notes
 
-**Category:** `leadmagic` · Terminal automation for find, validate, push pipelines.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
 ## Primary Frameworks
 
-- **CLI Design Patterns** — Pipeline stages, checkpoint files, exit codes
-- **Pat Spielmann — Verify-before-send** — validate before `lm integrations push` → `../../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
-- **Eric Nowoslawski — Scale ops** — CLI for batch verify before Smartlead scale → `../../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md`
+- **CLI Design Patterns**
+- **Enrichment Workflow Automation**
+- **LeadMagic Public Documentation — B2B Data Enrichment**
 
-## Workflow Patterns
+## Deep-dive references
 
-Load `references/cli-workflow-patterns.md`:
-
-- Pattern A: CSV scrub (find → validate → filter)
-- Pattern B: Push to Smartlead/Instantly
-- Pattern C: Role-based find
-- Pattern D: Scheduled re-verify
-- Pattern E: Clay export post-process
-
-## Tool Boundaries
-
-| Layer | Skill | Role |
+| File | Authority | Use when |
 |---|---|---|
-| CLI (this) | leadmagic-cli | Terminal batch |
-| Clay | leadmagic-waterfall | Visual waterfall |
-| Integrations | leadmagic-integrations | Platform-specific setup |
-| Sequencer | smartlead/instantly | Receives push |
+| `references/cli-workflow-patterns.md` | Leadmagic Cli reference | Extended cli workflow patterns detail |
 
-## Credit Discipline
+## Templates
 
-Find + validate = 2 credits min/contact. ICP filter before find on large lists.
+- `templates/output-template.md` — Primary deliverable shell
 
-## Agent Use
+## Agent routing
 
-1. Select pattern from cli-workflow-patterns.
-2. Always validate before push commands.
-3. Cross-link sequencer clay-enrollment-handoff docs.
-4. Run `check-output.py`.
+| Question | Action |
+|---|---|
+| Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
 
-Expert router → `references/gtm-experts-outbound-index.md`
+Before final output, cite which framework shaped the recommendation.

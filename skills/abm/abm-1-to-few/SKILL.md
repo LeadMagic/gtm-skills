@@ -25,13 +25,11 @@ Not fully custom like 1-to-1, but not automated like 1-to-many. This is the
 sweet spot where you get 80% of 1-to-1 results at 20% of the effort — if you
 cluster correctly and build semi-custom assets that feel personalized.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **TOPO ABM Scale Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Force Management MEDDICC.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **ITSMA — Account-Based Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **TOPO ABM Scale Framework** — Named methodology governing recommendations in this skill's process.
+- **Force Management MEDDICC** — Command of the Message — persona-specific value narrative and differentiation per stakeholder.
+- **ITSMA — Account-Based Marketing** — Tier-based ABM (1:1 / 1:few / 1:many); measure pipeline from target accounts, not lead volume.
 
 ## When to Use
 - "Build ABM at scale"
@@ -96,12 +94,10 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

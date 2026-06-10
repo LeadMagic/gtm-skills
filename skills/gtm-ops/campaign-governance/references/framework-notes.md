@@ -1,25 +1,35 @@
 # Campaign Governance — Framework Notes
 
-## SiriusDecisions demand waterfall alignment
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
-Campaign hierarchy maps to demand stages: anonymous → known → engaged → MQL → SQL.
-Governance ensures **one campaign ID** traces from first touch through opportunity.
+## Primary Frameworks
 
-## Marketing ops governance
+- **Marketing Ops Governance Framework**
+- **SiriusDecisions Campaign Hierarchy**
+- **Winning by Design — Revenue Architecture**
+- **Atlassian Team Playbook — RACI chart**
+- **PMI — RACI matrix responsibility assignment**
+- **Aneesh Lal (Wishly Group) — Influencer UTM & landing-page attribution**
 
-| Control | Mechanism | Review |
+## Deep-dive references
+
+| File | Authority | Use when |
 |---|---|---|
-| Naming | CRM regex | Weekly |
-| UTMs | Builder + audit | Quarterly |
-| Budget | Ramp / approval matrix | Monthly |
-| ROI | Attributed pipeline $ | Monthly |
+| `references/campaign-naming-conventions.md` | Campaign Governance reference | Extended campaign naming conventions detail |
+| `references/utm-governance.md` | Campaign Governance reference | Extended utm governance detail |
 
-## WbD bowtie link
+## Templates
 
-| Bowtie stage | Typical campaign types |
+- `templates/output-template.md` — Primary deliverable shell
+- `templates/campaign-hierarchy-register.md` — Role-specific deliverable
+- `templates/utm-parameter-sheet.md` — Role-specific deliverable
+
+## Agent routing
+
+| Question | Action |
 |---|---|
-| Educate | Content, webinar, nurture |
-| Select | Demo, trial, comparison |
-| Expand | Customer marketing, advocacy |
+| Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
 
-Cross-skills: `campaign-analytics`, `attribution`, `gtm-spend-management`
+Before final output, cite which framework shaped the recommendation.

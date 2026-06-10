@@ -31,13 +31,13 @@ This skill builds a complete brand kit: logo, colors, typography, voice,
 and asset templates that anyone on the team can use to produce on-brand
 materials.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Marty Neumeier Brand Gap.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **David Aaker Brand Identity.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **April Dunford Positioning.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Marty Neumeier Brand Gap** — Shapes deliverables for this skill — A brand kit is the operating manual for your company's visual and verbal
+identity.
+- **David Aaker Brand Identity** — Shapes deliverables for this skill — A brand kit is the operating manual for your company's visual and verbal
+identity.
+- **April Dunford Positioning** — Positioning — competitive alternatives, differentiated value, target segment.
 
 ## When to Use
 

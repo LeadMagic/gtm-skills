@@ -99,11 +99,33 @@ Avoid:
 
 ## Validation
 
-Run:
+`scripts/validate-skills.js` enforces the [agentskills.io specification](https://agentskills.io/specification) plus the GTM quality bar:
+
+| Check | Standard |
+|---|---|
+| `name` | Lowercase `a-z0-9` + hyphens; matches directory; max 64 chars |
+| `description` | 40–1024 chars; includes trigger language |
+| `compatibility` | Exact repo string; max 500 chars |
+| Authority | `Authoritative Foundations` or `Frameworks Referenced` with ≥3 named sources |
+| Process | `Step-by-Step`, `Implementation Checklist`, or documented workflow section |
+| Artifacts | Every skill: `references/framework-notes.md`, `templates/output-template.md`, `scripts/check-output.py` |
+| Execution Artifacts | SKILL.md lists all three artifacts above |
+| Hygiene | No decoration filler, AI-slop phrases, or broken reference paths |
+| Length | ≤500 lines unless ≥5 reference files (move detail to `references/`) |
+
+Maintenance scripts:
+
+```bash
+npm run fix:authority   # replace generic authority filler in SKILL.md
+npm run fix:artifacts   # add missing framework-notes / output templates
+npm run sync:artifacts  # align Execution Artifacts sections
+```
+
+Release gate:
 
 ```bash
 npm run build
-npm run check
+npm run verify          # check + generated-artifact drift
 gh skill publish --dry-run
 ```
 

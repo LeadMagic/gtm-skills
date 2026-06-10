@@ -1,45 +1,23 @@
-# LeadMagic Bulk Enrichment — Framework Notes
+# Leadmagic Bulk Enrichment — Framework Notes
 
-**Category:** `leadmagic` · CSV batch pipelines at scale.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
-## Primary Frameworks
+## Deep-dive references
 
-- **DAMA-DMBOK Data Quality Management** — Completeness, validity, consistency across batch stages
-- **Pat Spielmann — Verify gate** — Only valid/deliverable export to send → `../../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
-- **CSV Batching Best Practices** — Chunked jobs, checkpoint files, idempotent CRM upsert
-
-## Pipeline Spec
-
-Load `references/batch-pipeline-spec.md`:
-
-```
-INTAKE → DEDUPE → ICP FILTER → ENRICH → VERIFY → QA → EXPORT → SUPPRESS
-```
-
-## Tool Boundaries
-
-| Layer | Skill | Role |
+| File | Authority | Use when |
 |---|---|---|
-| Bulk (this) | leadmagic-bulk-enrichment | CSV pipeline design |
-| CLI execution | leadmagic-cli | Run batch commands |
-| Clay alternative | clay-toolkit | Visual for recurring |
-| Integrations | leadmagic-integrations | CRM + sequencer export |
+| `references/batch-pipeline-spec.md` | Leadmagic Bulk Enrichment reference | Extended batch pipeline spec detail |
 
-## Status Handling (Non-Negotiable)
+## Templates
 
-| Status | Route |
+- `templates/output-template.md` — Primary deliverable shell
+
+## Agent routing
+
+| Question | Action |
 |---|---|
-| valid | send-ready |
-| invalid | suppress |
-| risky | catch_all_queue |
-| unknown | manual review |
+| Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
 
-## Agent Use
-
-1. Intake QA before batch design.
-2. ICP filter stage mandatory.
-3. Load batch-pipeline-spec for deliverable.
-4. Webhook pattern for async jobs (n8n).
-5. Run `check-output.py`.
-
-Expert router → `references/gtm-experts-outbound-index.md`
+Before final output, cite which framework shaped the recommendation.

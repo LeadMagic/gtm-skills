@@ -25,13 +25,11 @@ company top-of-mind during the 3-12 month evaluation window, converting MQLs to
 SQLs at 2-3x the rate of "send them to sales and pray." This skill covers nurture
 strategy, track design, and optimization.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **SiriusDecisions Demand Waterfall.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Marketo Nurture Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Reforge — Lifecycle Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **SiriusDecisions Demand Waterfall** — Named methodology governing recommendations in this skill's process.
+- **Marketo Nurture Framework** — Named methodology governing recommendations in this skill's process.
+- **Reforge — Lifecycle Marketing** — Startup operating cadence — default alive, talk to users, launch fast.
 
 ## Lifecycle Stage
 
@@ -147,7 +145,6 @@ Before delivering, verify:
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-
 **Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Acquisition) · `references/lifecycle-metrics-by-stage.md` · `references/lifecycle-skill-index.md`
 
 ## Related Skills

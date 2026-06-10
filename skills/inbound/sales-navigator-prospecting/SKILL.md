@@ -164,9 +164,10 @@ rate by filter, meetings per search).
 
 ## Execution Artifacts
 
-- `references/morgan-ingram-sales-navigator.md` — Filters, messages, workflows
+- `references/framework-notes.md` — Framework index and authority routing
 - `templates/output-template.md` — Deliverable shell
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/morgan-ingram-sales-navigator.md` — Filters, messages, workflows
 
 ## Related Skills
 

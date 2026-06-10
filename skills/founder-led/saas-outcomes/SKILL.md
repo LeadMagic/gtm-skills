@@ -248,6 +248,9 @@ Deliver based on request:
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — Framework index and authority routing
+- `templates/output-template.md` — Primary deliverable shell
+- `scripts/check-output.py` — section validator
 - `references/journey-stage-gates.md` — stage gates: idea → PMF → GTM fit → scale → optimize → exit
 - `templates/journey-planning-worksheet.md` — current stage, next gate, blockers
 - `references/exit-potential-scorecard.md` — exit optionality scorecard; realistic vs distraction
@@ -258,13 +261,9 @@ Deliver based on request:
 - `references/bootstrap-founder-playbook.md` — bootstrap stages, capital rules, exit paths, walk-away thresholds
 - `references/saas-mrr-accounting-nuances.md` — ARR for exit multiples vs EBITDA earn-out (repo root)
 - `references/saas-tax-founder-awareness.md` — QSBS / exit tax handoffs (repo root)
-- `references/framework-notes.md` — named frameworks and agent routing
 - `templates/outcome-memo.md` — one-page bootstrap vs VC / valuation memo
 - `templates/bootstrap-capital-plan.md` — monthly burn, tool cap, hire gates
-- `scripts/check-output.py` — section validator
-
 **Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (founder ↔ customer overlay) · `references/activation-playbook.md` · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md` · `references/lifecycle-metrics-by-stage.md`
-
 **Cross-skill artifacts:** `solo-founder-gtm/references/pmf-signal-checklist.md`, `solo-founder-gtm/references/scale-readiness-gates.md`, `exiting-company/references/buyer-readiness-checklist.md`, `exiting-company/templates/exit-readiness-scorecard.md`, `exiting-company/templates/valuation-sensitivity-table.md`, `financial-modeling/references/unit-economics-exit-bridge.md`, `saas-metrics-calculator/references/metric-definitions-exit-weight.md`, `fundraising-strategy/references/vc-milestone-gates.md`
 
 ## Related Skills

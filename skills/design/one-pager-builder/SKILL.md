@@ -29,13 +29,11 @@ their boss.
 
 The constraint is the value. One page forces clarity. No room for fluff.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **AIDA Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **3W Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Cialdini Persuasion Principles.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **AIDA Framework** — Attention, Interest, Desire, Action — email structure for cold outreach.
+- **3W Framework** — Shapes deliverables for this skill — A one-pager is exactly one page.
+- **Cialdini Persuasion Principles** — Influence principles — reciprocity, social proof, authority in copy.
 
 ## When to Use
 
@@ -185,12 +183,10 @@ One-pager copy with layout guidance:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

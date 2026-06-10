@@ -24,13 +24,11 @@ HubSpot Sequences power the SDR and AE outbound motion inside Sales Hub.
 Done right, they automate touches while maintaining personalization. Done wrong,
 they're spam cannons that burn your domain reputation.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **HubSpot Sequences Best Practices.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **ColdIQ Multi-Channel Cadence.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Outreach — Sales Engagement Cadence Design.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **HubSpot Sequences Best Practices** — Lifecycle stages, object model, and workflow enrollment patterns.
+- **ColdIQ Multi-Channel Cadence** — Named methodology governing recommendations in this skill's process.
+- **Outreach — Sales Engagement Cadence Design** — Sequence governance, task-based selling, and CRM-locked cadences.
 
 ## When to Use
 - "Set up HubSpot sequences"
@@ -94,17 +92,15 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — HubSpot workflow enrollment, rep-triggered rules
+- `templates/output-template.md` — properties + workflow + sequence deliverable
+- `scripts/check-output.py` — local checklist validator
+This skill includes lightweight artifacts the agent can load on demand:
 - `references/enrichment-enrollment-gate.md` — lm_email_status workflow gate
 - `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify-before-enroll (Pat Spielmann)
 - `../../tools/clay-toolkit/references/gtm-table-blueprints.md` — clay-toolkit property map
 - `../../tools/clay-loops-toolkit/references/leadmagic-waterfall.md` — loop list → workflow pattern
 - `../../../../references/gtm-experts-outbound-index.md` — expert router
-- `templates/output-template.md` — properties + workflow + sequence deliverable
-- `scripts/check-output.py` — local checklist validator
-
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

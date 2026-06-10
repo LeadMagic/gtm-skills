@@ -32,13 +32,11 @@ surprises. When a CI pipeline or agent loads skills, it verifies the lock file
 first. If a hash doesn't match, the skill has been modified and the consumer
 is warned. This skill covers generating, validating, and maintaining skills.lock.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **npm package-lock.json — deterministic dependency resolution.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Cargo.lock (Rust) — version pinning and integrity.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **SHA-256 — cryptographic hash for file integrity verification.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **npm package-lock.json — deterministic dependency resolution** — deterministic dependency resolution
+- **Cargo.lock (Rust) — version pinning and integrity** — version pinning and integrity
+- **SHA-256 — cryptographic hash for file integrity verification** — cryptographic hash for file integrity verification
 
 ## When to Use
 
@@ -269,12 +267,10 @@ skills repositories.
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

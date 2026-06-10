@@ -25,13 +25,11 @@ When a partner promotes you to their list, you borrow their credibility.
 This skill covers campaign design, asset creation, promotion coordination,
 and pipeline splitting.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Co-Marketing Playbook.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Crossbeam Partner-Led Growth.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Crossbeam — Ecosystem-Led Growth.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Co-Marketing Playbook** — Named methodology governing recommendations in this skill's process.
+- **Crossbeam Partner-Led Growth** — Named methodology governing recommendations in this skill's process.
+- **Crossbeam — Ecosystem-Led Growth** — Ecosystem-Led Growth
 
 ## When to Use
 - "Run a co-marketing campaign"

@@ -29,13 +29,11 @@ a poorly designed one is invisible. This skill covers GTM visual asset
 creation: social graphics, ad creatives, data visualization, and brand
 templates that maintain consistency across every touchpoint.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Cialdini Visual Persuasion.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Tufte Data Visualization.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Ann Handley — Everybody Writes.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Cialdini Visual Persuasion** — Influence principles — reciprocity, social proof, authority in copy.
+- **Tufte Data Visualization** — Named methodology governing recommendations in this skill's process.
+- **Ann Handley — Everybody Writes** — Everybody Writes
 
 ## When to Use
 - "Create a social media graphic"

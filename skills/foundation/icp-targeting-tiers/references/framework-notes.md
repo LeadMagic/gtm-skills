@@ -1,31 +1,30 @@
-# ICP Targeting Tiers — Framework Notes
+# Icp Targeting Tiers — Framework Notes
 
-Reference tables for `SKILL.md`. Apply named frameworks to justify recommendations — do not cite as decoration.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
-## Primary frameworks
+## Primary Frameworks
 
-- **April Dunford — Beachhead segment** — Narrow ICP for positioning clarity. `positioning-messaging`
-- **Geoffrey Moore — Crossing the Chasm** — Beachhead before adjacent segments (reference)
-- **Henry Schuck — ZoomInfo tier model** — Enterprise vs commercial segmentation pattern
-- **Winning by Design — GTM Index** — Segment-level unit economics fit
+- **Jason Lemkin & Mark Roberge — From Survival to Thrival (enterprise upmarket)**
+- **OpenView Company Size Segmentation**
+- **Winning by Design GTM by ACV**
+- **Jason Lemkin SaaStr ACV Thresholds**
 
-## Authoritative foundations
+## Deep-dive references
 
-Tier ICP by **fit + economics + win rate** — not TAM size alone. Tier 1 =
-highest win rate + shortest cycle; Tier 3 = experimental or low fit. Resource
-allocation (AE, ABM, outbound) follows tier priority.
+| File | Authority | Use when |
+|---|---|---|
+| `references/icp-tiering-cheatsheet.md` | Icp Targeting Tiers reference | Extended icp tiering cheatsheet detail |
 
-## Process phases
+## Templates
 
-- **Phase 1 — Segment hypotheses:** Firmographics, use case, trigger events
-- **Phase 2 — Win-loss backtest:** Last 30–50 deals by segment
-- **Phase 3 — Tier assignment:** Tier 1/2/3 with motion per tier
-- **Phase 4 — Operationalize:** Scoring rules, list sources, comp plans per tier
+- `templates/output-template.md` — Primary deliverable shell
 
 ## Agent routing
 
 | Question | Action |
 |---|---|
-| Build deliverable | Use `templates/output-template.md` |
-| Validate output | Run `scripts/check-output.py` |
 | Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
+
+Before final output, cite which framework shaped the recommendation.

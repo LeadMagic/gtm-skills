@@ -29,13 +29,12 @@ your startup. This skill maps every major startup community globally, the
 accelerators and incubators worth applying to, and the online communities
 that connect you regardless of geography.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **David Spinks — Community-Led Growth.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **CMX Community Strategy.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Seth Godin — Tribes.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **David Spinks — Community-Led Growth** — Community-Led Growth
+- **CMX Community Strategy** — Shapes deliverables for this skill — Your location and network determine your startup's trajectory more than you
+think.
+- **Seth Godin — Tribes** — Tribes
 
 ## When to Use
 

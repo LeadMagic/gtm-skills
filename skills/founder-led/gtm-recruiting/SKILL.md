@@ -231,6 +231,9 @@ Run `scripts/check-output.py` on recruiting plans.
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — Framework index and authority routing
+- `templates/output-template.md` — Primary deliverable shell
+- `scripts/check-output.py` — Validates recruiting deliverables
 - `references/recruiter-partners.md` — Betts, It's Destiny, when to use each
 - `references/offer-negotiation.md` — Employer + candidate negotiation playbook
 - `references/inclusive-recruiting.md` — Destiny model + re:Work alignment
@@ -241,7 +244,6 @@ Run `scripts/check-output.py` on recruiting plans.
 - `hiring-by-role` → interviewer-questions-gtm, candidate-questions-to-ask, interview-experts
 - `revenue-team-onboarding` → onboarding-questions (post-hire)
 - `gtm-leadership` → resignation-playbook (attrition learnings)
-- `scripts/check-output.py` — Validates recruiting deliverables
 
 ## Related Skills
 

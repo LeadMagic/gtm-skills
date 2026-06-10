@@ -36,15 +36,13 @@ For platform-specific setup, load the sibling skills under `tools/`:
 `instantly-sequences`, `smartlead-workflows`, `lemlist-setup`, `salesloft-cadences`,
 `outreach-sequences`, `hubspot-sequences`.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Smartlead — Unlimited mailboxes, auto-rotation, AI reply categorization.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Instantly — Warmup pool, campaign optimization, unified inbox.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Salesloft — Rhythm cadences, Conversations, multi-channel orchestration.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Outreach — Enterprise sequencing, triggers, analytics.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Lemlist — Personalized images/video, multi-channel sequences.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Smartlead — Unlimited mailboxes, auto-rotation, AI reply categorization** — Unlimited mailboxes, master inbox, and agency-scale cold email ops.
+- **Instantly — Warmup pool, campaign optimization, unified inbox** — Mailbox rotation, campaign caps, and deliverability-first sending setup.
+- **Salesloft — Rhythm cadences, Conversations, multi-channel orchestration** — Cadence + coaching rhythm; rhythm-based pipeline management.
+- **Outreach — Enterprise sequencing, triggers, analytics** — Sequence governance, task-based selling, and CRM-locked cadences.
+- **Lemlist — Personalized images/video, multi-channel sequences** — Multichannel sequences — email, LinkedIn, calls in one enrollment.
 
 ## When to Use
 
@@ -126,14 +124,12 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
-- `references/platform-comparison.md` — Smartlead, Instantly, Salesloft, Outreach, Lemlist
-- `templates/sequence-architecture.md` — 14-day multi-channel cadence
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
+- `references/platform-comparison.md` — Smartlead, Instantly, Salesloft, Outreach, Lemlist
+- `templates/sequence-architecture.md` — 14-day multi-channel cadence
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

@@ -1,20 +1,18 @@
 # Integration Partnerships — Framework Notes
 
-Reference tables for `SKILL.md`. Apply named frameworks to justify recommendations — do not cite as decoration.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations.
 
-## Primary frameworks
+## Primary Frameworks
 
-- Technology Partnership Framework
-- Platform Ecosystem Strategy
-- Crossbeam — Ecosystem-Led Growth
+- **Technology Partnership Framework**
+- **Platform Ecosystem Strategy**
+- **Crossbeam — Ecosystem-Led Growth**
 
 ## Authoritative foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Technology Partnership Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Platform Ecosystem Strategy.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Crossbeam — Ecosystem-Led Growth.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Technology Partnership Framework** — Named methodology governing recommendations in this skill's process.
+- **Platform Ecosystem Strategy** — Named methodology governing recommendations in this skill's process.
+- **Crossbeam — Ecosystem-Led Growth** — Ecosystem-Led Growth
 
 ## Process phases
 
@@ -28,6 +26,6 @@ This skill is grounded in public frameworks and source material relevant to the 
 
 | Question | Action |
 |---|---|
+| Full process | Follow `SKILL.md` step-by-step |
 | Build deliverable | Use `templates/output-template.md` |
 | Validate output | Run `scripts/check-output.py` |
-| Full process | Follow `SKILL.md` step-by-step |

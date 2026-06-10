@@ -26,14 +26,12 @@ page personalization that other platforms don't offer natively. Combined with
 lemwarm (automated warmup) and multi-channel capabilities, it's ideal for teams
 that want higher per-email engagement at lower volume.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Lemlist Personalization Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Guillaume Moubeche — lemlist Outbound.** Problem-first email structure, 4–9 touch multichannel sequences, CTC, lemwarm deliverability, trigger→problem mapping. Canonical playbook → `../outbound/cold-email-strategy/references/lemlist-guillaume-outbound.md`.
-- **ColdIQ Multi-Channel.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Outreach — Sales Engagement Cadence Design.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Lemlist Personalization Framework** — Multichannel sequences — email, LinkedIn, calls in one enrollment.
+- **Guillaume Moubeche — lemlist Outbound** — Multichannel sequences — email, LinkedIn, calls in one enrollment.
+- **ColdIQ Multi-Channel** — Named methodology governing recommendations in this skill's process.
+- **Outreach — Sales Engagement Cadence Design** — Sequence governance, task-based selling, and CRM-locked cadences.
 
 ## When to Use
 - "Set up Lemlist"
@@ -100,17 +98,15 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — Guillaume multichannel, Pat Full-Circle, lemwarm gates
+- `templates/output-template.md` — lemwarm + multichannel + Clay gate deliverable
+- `scripts/check-output.py` — local checklist validator
+This skill includes lightweight artifacts the agent can load on demand:
 - `references/clay-enrollment-handoff.md` — Clay → Lemlist variables + problem_hook mapping
 - `../../outbound/cold-email-strategy/references/lemlist-guillaume-outbound.md` — Guillaume Moubeche canonical playbook
 - `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify + multichannel (Pat Spielmann)
 - `../../tools/clay-loops-toolkit/references/routing-matrix.md` — signal → campaign map
 - `../../../../references/gtm-experts-outbound-index.md` — expert router
-- `templates/output-template.md` — lemwarm + multichannel + Clay gate deliverable
-- `scripts/check-output.py` — local checklist validator
-
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

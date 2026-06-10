@@ -1,35 +1,29 @@
 # Smartlead Workflows — Framework Notes
 
-**Category:** `tools` · Eric Nowoslawski runs largest Smartlead deployments.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
 ## Primary Frameworks
 
-- **Eric Nowoslawski — Cold Email Infrastructure** — Unlimited mailboxes, 30-50/day/mailbox, master inbox, unit economics. Canonical → `../../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md`
-- **Smartlead Best Practices** — Auto-rotation, AI reply categorization, A/B at campaign level
-- **Pat Spielmann — Cold to Gold** — Verify-before-send from Clay → `../../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
+- **Smartlead Best Practices**
+- **Eric Nowoslawski Cold Email Infrastructure**
+- **Outreach — Sales Engagement Cadence Design**
 
-## Tool Boundaries
+## Deep-dive references
 
-| Layer | Skill | Role |
+| File | Authority | Use when |
 |---|---|---|
-| Enrichment | leadmagic-waterfall / clay-toolkit | Verify gate upstream |
-| Loops | clay-loops-toolkit | Signal → Smartlead campaign map |
-| Sequencer | smartlead-workflows (this skill) | Scale send + master inbox |
-| CLI push | leadmagic-cli | `lm integrations smartlead push` |
+| `references/clay-enrollment-handoff.md` | Smartlead Workflows reference | Extended clay enrollment handoff detail |
 
-## Clay Enrollment
+## Templates
 
-Load `references/clay-enrollment-handoff.md` — Eric-scale patterns use 15-25 mailboxes per campaign.
+- `templates/output-template.md` — Primary deliverable shell
 
-## AI Reply Categories (train before scale)
+## Agent routing
 
-INTERESTED · NOT NOW · OOO · UNSUBSCRIBE · WRONG CONTACT
+| Question | Action |
+|---|---|
+| Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
 
-## Agent Use
-
-1. Infrastructure checklist before first campaign.
-2. Verify gate documented if Clay is source.
-3. Cite Eric for mailbox math; Pat for data quality.
-4. Run `check-output.py`.
-
-Expert router → `references/gtm-experts-outbound-index.md`
+Before final output, cite which framework shaped the recommendation.

@@ -182,9 +182,10 @@ findings, format mix recommendation with multipliers, post anatomy checklist
 
 ## Execution Artifacts
 
-- `references/richard-van-der-blom-algorithm.md` — Report findings, format rankings, tactical tables
+- `references/framework-notes.md` — Framework index and authority routing
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/richard-van-der-blom-algorithm.md` — Report findings, format rankings, tactical tables
 
 ## Related Skills
 

@@ -25,13 +25,11 @@ B2B SaaS. When your product integrates with a platform your ICP already uses,
 discovery happens inside their workflow. This skill covers integration strategy,
 GTM launch, marketplace presence, and co-selling.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Technology Partnership Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Platform Ecosystem Strategy.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Crossbeam — Ecosystem-Led Growth.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Technology Partnership Framework** — Named methodology governing recommendations in this skill's process.
+- **Platform Ecosystem Strategy** — Named methodology governing recommendations in this skill's process.
+- **Crossbeam — Ecosystem-Led Growth** — Ecosystem-Led Growth
 
 ## When to Use
 - "Build integration partnerships"

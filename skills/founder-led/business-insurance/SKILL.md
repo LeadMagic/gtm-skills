@@ -36,15 +36,13 @@ to bind. Losing a $100K deal because you don't have insurance is an unforced
 error. This skill covers every insurance type a SaaS founder needs, when it
 becomes necessary, and how to get it.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Vouch — Startup insurance specialists.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Embroker — Tech/SaaS insurance.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Coalition — Cyber insurance.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Founders Shield — Startup risk management.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **At-Bay — Cyber and E&O insurance.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Vouch — Startup insurance specialists** — Startup insurance specialists
+- **Embroker — Tech/SaaS insurance** — Tech/SaaS insurance
+- **Coalition — Cyber insurance** — Cyber insurance
+- **Founders Shield — Startup risk management** — Startup risk management
+- **At-Bay — Cyber and E&O insurance** — Cyber and E&O insurance
 
 ## When to Use
 

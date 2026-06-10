@@ -241,9 +241,7 @@ Before delivering, verify:
 - `references/framework-notes.md` — Conversion benchmarks, PQL triggers, activation template
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-
 **Lifecycle (Acquisition → Activation):** `references/activation-playbook.md` · `references/gtm-lifecycle-stages.md` · Pattern 18 in `using-gtm-skills`
-
 **Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Acquisition, Activation) · `references/activation-playbook.md` · `references/lifecycle-metrics-by-stage.md`
 
 ## Related Skills

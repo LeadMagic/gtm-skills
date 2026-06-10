@@ -161,10 +161,10 @@ stage struggle with ramp time. We helped [similar company] cut it by 40%."
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Named frameworks and reference tables
-- `references/joey-gilkey-bucketing.md` — Phone Intent scoring layer (repo root)
-- `references/cold-calling-experts-index.md` — Phone vs email signal router (repo root)
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
+- `references/joey-gilkey-bucketing.md` — Phone Intent scoring layer (repo root)
+- `references/cold-calling-experts-index.md` — Phone vs email signal router (repo root)
 
 ## Related Skills
 

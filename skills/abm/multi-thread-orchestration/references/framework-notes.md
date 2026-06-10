@@ -1,26 +1,20 @@
 # Multi Thread Orchestration — Framework Notes
 
-Reference tables for `SKILL.md`. Apply named frameworks to justify recommendations — do not cite as decoration.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations.
 
-## Primary frameworks
+## Primary Frameworks
 
-- Andy Whyte — MEDDICC Champion & Economic Buyer
-- Force Management MEDDICC Methodology
-- Gartner Challenger Sale Stakeholder Mapping
-- ITSMA — Account-Based Marketing
+- **Andy Whyte — MEDDICC Champion & Economic Buyer**
+- **Force Management MEDDICC Methodology**
+- **Gartner Challenger Sale Stakeholder Mapping**
+- **ITSMA — Account-Based Marketing**
 
 ## Authoritative foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Andy Whyte — MEDDICC Champion & Economic Buyer.** Champion must pass the
-  four-part test (power, personal win, articulates pain, sells internally).
-  Economic Buyer must be engaged directly — not accessed only through Champion.
-  Multi-threading closes MEDDICC gaps when Champion cannot reach EB alone.
-- **Force Management MEDDICC Methodology.** Stakeholder roles map to MEDDICC
-  dimensions; aligns with SPICED Decision field — no conflicting qualification model.
-- **Gartner Challenger Sale Stakeholder Mapping.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **ITSMA — Account-Based Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Andy Whyte — MEDDICC Champion & Economic Buyer** — Qualification scorecard — Metrics, Economic buyer, Decision criteria, Champion, Competition.
+- **Force Management MEDDICC Methodology** — Command of the Message — persona-specific value narrative and differentiation per stakeholder.
+- **Gartner Challenger Sale Stakeholder Mapping** — Teach-tailor-take control — reframe buyer thinking with insight-led conversations.
+- **ITSMA — Account-Based Marketing** — Tier-based ABM (1:1 / 1:few / 1:many); measure pipeline from target accounts, not lead volume.
 
 ## Process phases
 
@@ -34,6 +28,6 @@ This skill is grounded in public frameworks and source material relevant to the 
 
 | Question | Action |
 |---|---|
+| Full process | Follow `SKILL.md` step-by-step |
 | Build deliverable | Use `templates/output-template.md` |
 | Validate output | Run `scripts/check-output.py` |
-| Full process | Follow `SKILL.md` step-by-step |

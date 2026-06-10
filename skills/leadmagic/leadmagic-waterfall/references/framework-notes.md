@@ -1,46 +1,31 @@
-# LeadMagic Waterfall — Framework Notes
+# Leadmagic Waterfall — Framework Notes
 
-**Category:** `leadmagic` · Primary Clay waterfall configuration skill.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
 ## Primary Frameworks
 
-- **Pat Spielmann — Cold to Gold** — Enrichment before copy; verify gate → `../../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
-- **Ziellab 3-Waterfall Architecture** — Primary → fallback → verify → consolidate
-- **DAMA-DMBOK Data Quality** — Completeness, validity, timeliness on email fields
+- **DAMA-DMBOK Data Quality Dimensions**
+- **Ziellab 3-Waterfall Architecture**
+- **LeadMagic Public Documentation — B2B Data Enrichment**
+- **Pat Spielmann — Cold to Gold (enrichment before copy)**
+- **Pat Spielmann — Research → Angle → Copy**
 
-## Tool Boundaries
+## Deep-dive references
 
-| Layer | Skill | Role |
+| File | Authority | Use when |
 |---|---|---|
-| Waterfall (this) | leadmagic-waterfall | Clay column config |
-| Toolkit | leadmagic-toolkit / tools/leadmagic-toolkit | API patterns |
-| Loops variant | clay-loops-toolkit/references/leadmagic-waterfall.md | Signal-triggered shorter chain |
-| Tables | clay-toolkit | ICP filter + table architecture |
-| Sequencer | instantly/smartlead/lemlist | Post-verify enrollment |
+| `references/waterfall-column-spec.md` | Leadmagic Waterfall reference | Extended waterfall column spec detail |
 
-## Column Spec
+## Templates
 
-Load `references/waterfall-column-spec.md` for copy-paste Clay configuration.
+- `templates/output-template.md` — Primary deliverable shell
 
-## Default Provider Order
+## Agent routing
 
-1. LeadMagic Find (verified at lookup)
-2. Apollo → Hunter → PDL fallbacks (conditional)
-3. COALESCE → LeadMagic Verify → Enrich Person
-4. Claygent for why_now only — never email find
+| Question | Action |
+|---|---|
+| Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
 
-## Credit Discipline
-
-- ICP filter first (30-40% savings)
-- Max 5-6 credits/row cap
-- Batch Claygent overnight
-
-## Agent Use
-
-1. Confirm ICP filter before waterfall columns.
-2. Load waterfall-column-spec for deliverable.
-3. Cite Pat for verify-before-sequencer rule.
-4. Cross-link clay-toolkit for table blueprints.
-5. Run `check-output.py`.
-
-Expert router → `references/gtm-experts-outbound-index.md`
+Before final output, cite which framework shaped the recommendation.

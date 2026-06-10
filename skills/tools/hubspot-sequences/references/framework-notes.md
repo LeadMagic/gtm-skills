@@ -1,37 +1,29 @@
-# HubSpot Sequences — Framework Notes
+# Hubspot Sequences — Framework Notes
 
-**Category:** `tools` · CRM-native sequences — rep-triggered + workflow-enrolled.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
 ## Primary Frameworks
 
-- **HubSpot Sequences Best Practices** — Enrollment caps, task steps, tracking settings
-- **Pat Spielmann — Verify-before-enroll** — Workflow checks lm_email_status → `../../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
-- **Guillaume Moubeche — Multichannel principles** — LinkedIn + email coordination (adapt to HubSpot tasks) → `../../../outbound/cold-email-strategy/references/lemlist-guillaume-outbound.md`
+- **HubSpot Sequences Best Practices**
+- **ColdIQ Multi-Channel Cadence**
+- **Outreach — Sales Engagement Cadence Design**
 
-## Tool Boundaries
+## Deep-dive references
 
-| Layer | Skill | Role |
+| File | Authority | Use when |
 |---|---|---|
-| Enrichment | leadmagic-waterfall / clay-toolkit | Populate CRM properties |
-| Loops | clay-loops-toolkit | List membership → workflow |
-| CRM automation | hubspot-setup | Workflow + property limits |
-| Sequences | hubspot-sequences (this skill) | Rep + automated enroll |
+| `references/enrichment-enrollment-gate.md` | Hubspot Sequences reference | Extended enrichment enrollment gate detail |
 
-## Enrollment Gate
+## Templates
 
-Load `references/enrichment-enrollment-gate.md` — workflow must verify before sequence enrollment.
+- `templates/output-template.md` — Primary deliverable shell
 
-## HubSpot-Specific
+## Agent routing
 
-- Rep-triggered: show verify status in sidebar; block if invalid
-- Workflow-enrolled: branch on lm_email_status + signal_tag
-- Pair with hubspot-setup for object/property governance
+| Question | Action |
+|---|---|
+| Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
 
-## Agent Use
-
-1. Custom properties (lm_email_status, last_verified, personalization_snippet).
-2. Workflow diagram before sequence template.
-3. clay-loops list → workflow pattern for signals.
-4. Run `check-output.py`.
-
-Expert router → `references/gtm-experts-outbound-index.md`
+Before final output, cite which framework shaped the recommendation.

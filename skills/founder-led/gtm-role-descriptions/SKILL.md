@@ -258,6 +258,9 @@ Run `scripts/check-output.py` before delivery.
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — Framework index and authority routing
+- `templates/output-template.md` — Primary deliverable shell
+- `scripts/check-output.py` — validates JD deliverables
 - `references/hr-gtm-playbook.md` — Stacey Nordwall + Pavilion People Ops for revenue hiring, comp, ramp HR systems
 - `references/gtm-engineer-hiring.md` — role definition, timing, comp, tools, handoff
 - `templates/gtm-engineer-jd.md` — constraint-first GTM Engineer JD
@@ -269,7 +272,6 @@ Run `scripts/check-output.py` before delivery.
 - `templates/job-description.md` — master JD template
 - `templates/comp-plan.md` — OTE, quota, accelerators
 - `templates/org-chart.md` — reporting structure template
-- `scripts/check-output.py` — validates JD deliverables
 
 ## Related Skills
 

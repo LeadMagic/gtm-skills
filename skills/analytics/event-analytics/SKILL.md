@@ -36,16 +36,14 @@ swamp instead of a data pipeline. This skill covers event analytics across
 every GTM system — how to design an event taxonomy, implement tracking, and
 unify event data across your stack to build a complete customer picture.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Segment — Customer Data Platform (CDP) and event taxonomy.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Amplitude — Behavioral analytics and event design.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Mixpanel — Product analytics and event-based reporting.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Intercom — Event-driven messaging and automation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Avo — Event taxonomy and governance.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Snowplow — Open-source event pipeline.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Segment — Customer Data Platform (CDP) and event taxonomy** — Customer Data Platform (CDP) and event taxonomy
+- **Amplitude — Behavioral analytics and event design** — Behavioral analytics and event design
+- **Mixpanel — Product analytics and event-based reporting** — Product analytics and event-based reporting
+- **Intercom — Event-driven messaging and automation** — Event-driven messaging and automation
+- **Avo — Event taxonomy and governance** — Event taxonomy and governance
+- **Snowplow — Open-source event pipeline** — Open-source event pipeline
 
 ## When to Use
 
@@ -302,12 +300,10 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

@@ -24,13 +24,11 @@ Partnerships are the most underleveraged GTM channel in B2B SaaS. A well-run
 partner program can generate 20-40% of pipeline at near-zero CAC. But "partnerships"
 means different things at different stages — this skill covers the full ecosystem.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Partnership Ecosystem Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Crossbeam Partner-Led Growth.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Crossbeam — Ecosystem-Led Growth.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Partnership Ecosystem Framework** — Named methodology governing recommendations in this skill's process.
+- **Crossbeam Partner-Led Growth** — Named methodology governing recommendations in this skill's process.
+- **Crossbeam — Ecosystem-Led Growth** — Ecosystem-Led Growth
 
 ## When to Use
 - "Build a partner program"
@@ -106,12 +104,10 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

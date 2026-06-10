@@ -1,22 +1,20 @@
 # V0 Lander — Framework Notes
 
-Reference tables for `SKILL.md`. Apply named frameworks to justify recommendations — do not cite as decoration.
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations.
 
-## Primary frameworks
+## Primary Frameworks
 
-- v0 by Vercel — Generative UI platform (Guillermo Rauch)
-- shadcn/ui — Component library powering v0
-- Tailwind CSS — Utility-first CSS framework
-- Next.js — React framework for production
+- **v0 by Vercel — Generative UI platform (Guillermo Rauch)**
+- **shadcn/ui — Component library powering v0**
+- **Tailwind CSS — Utility-first CSS framework**
+- **Next.js — React framework for production**
 
 ## Authoritative foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **v0 by Vercel — Generative UI platform (Guillermo Rauch).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **shadcn/ui — Component library powering v0.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Tailwind CSS — Utility-first CSS framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Next.js — React framework for production.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **v0 by Vercel — Generative UI platform (Guillermo Rauch)** — Generative UI platform (Guillermo Rauch)
+- **shadcn/ui — Component library powering v0** — Component library powering v0
+- **Tailwind CSS — Utility-first CSS framework** — Utility-first CSS framework
+- **Next.js — React framework for production** — React framework for production
 
 ## Process phases
 
@@ -32,6 +30,6 @@ This skill is grounded in public frameworks and source material relevant to the 
 
 | Question | Action |
 |---|---|
+| Full process | Follow `SKILL.md` step-by-step |
 | Build deliverable | Use `templates/output-template.md` |
 | Validate output | Run `scripts/check-output.py` |
-| Full process | Follow `SKILL.md` step-by-step |

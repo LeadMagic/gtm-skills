@@ -410,13 +410,14 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — Framework index and authority routing
+- `templates/output-template.md` — interview plan deliverable
+- `scripts/check-output.py` — validates interview plan sections
 - `references/interview-experts.md` — re:Work, Betts, Roberge, Destiny, Bock, Nordwall handoff
 - `../gtm-role-descriptions/references/hr-gtm-playbook.md` — post-hire onboarding system (Pattern 28)
 - `templates/gtm-engineer-scorecard.md` — full loop + work sample for GTM Engineer
 - `templates/interviewer-questions-gtm.md` — SDR, AE, manager, VP, RevOps, GTM Engineer, CS
 - `templates/candidate-questions-to-ask.md` — both sides; offer-stage + panel
-- `templates/output-template.md` — interview plan deliverable
-- `scripts/check-output.py` — validates interview plan sections
 
 ## ⚠️ Disclaimer
 

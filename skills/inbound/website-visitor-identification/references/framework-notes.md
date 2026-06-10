@@ -1,42 +1,37 @@
-# Framework Notes — Website Visitor Identification
+# Website Visitor Identification — Framework Notes
 
-## Named frameworks
+Reference index for `SKILL.md`. Apply named frameworks to justify recommendations — not as decoration.
 
-| Framework | Source | Application |
+## Primary Frameworks
+
+- **HubSpot Breeze Intelligence (Clearbit heritage) — Reveal & enrichment**
+- **Dharmesh Shah (HubSpot) — Inbound Attract + measurable intent**
+- **Chris Walker (Refine Labs) — Measurable demand vs dark social**
+- **Scott Brinker — MarTech consolidation before new intent vendors**
+- **Winning by Design — Bowtie acquisition stage instrumentation**
+- **SiriusDecisions Demand Waterfall — MQL definitions from intent**
+
+## Deep-dive references
+
+| File | Authority | Use when |
 |---|---|---|
-| **Company vs Person ID decision tree** | GTM Skills — `person-vs-business-identification.md` | Choose identification level before vendor purchase |
-| **Confidence tier routing** | GTM Skills — `visitor-identification-playbook.md` | High/Medium/Low gates for CRM + sequences |
-| **Privacy go/no-go checklist** | GTM Skills — `visitor-id-privacy-gtm.md` | Operational GDPR/CCPA gates (not legal advice) |
-| **SiriusDecisions Demand Waterfall** | Forrester / SiriusDecisions | Visitor intent feeds MQL definitions — pair with `inbound-triage` |
-| **Winning by Design Bowtie** | Jacco van der Kooij | Visitor ID instruments **acquisition** stage |
-| **Chris Walker — measurable vs dark social** | Refine Labs | Visitor ID = measurable counterpart to unmeasurable influence |
-| **HubSpot Breeze Intelligence** | HubSpot (Clearbit heritage) | Reveal + enrichment in HubSpot-native stacks |
-| **Scott Brinker — consolidation** | chiefmartec.com | One company ID + one person ID max until ROI proven |
+| `references/person-vs-business-identification.md` | Website Visitor Identification reference | Extended person vs business identification detail |
+| `references/visitor-id-privacy-gtm.md` | Website Visitor Identification reference | Extended visitor id privacy gtm detail |
+| `references/visitor-id-vendor-comparison.md` | Vendor research | Selection and tradeoff matrix |
+| `references/visitor-identification-playbook.md` | Website Visitor Identification reference | Extended visitor identification playbook detail |
 
-## Citation anchors
+## Templates
 
-- **Clearbit → HubSpot Breeze:** HubSpot acquired Clearbit; Reveal and enrichment live under Breeze Intelligence branding.
-- **RB2B:** Person-level LinkedIn visitor identification — US B2B outbound trigger use case.
-- **6sense / Demandbase:** Enterprise account-level intent — not lightweight person reveal.
-- **EU deployment:** Consent-first per `1p-tagging-pixels`; person ID requires counsel per `visitor-id-privacy-gtm.md`.
+- `templates/output-template.md` — Primary deliverable shell
+- `templates/visitor-alert-triage-checklist.md` — Role-specific deliverable
+- `templates/visitor-id-vendor-eval-scorecard.md` — Role-specific deliverable
 
-## Operating assumptions
+## Agent routing
 
-1. Company ID is default; person ID is opt-in with privacy review.
-2. ICP filter runs before any CRM write or sequence enrollment.
-3. Visitor ID vendors are `GTM-Data` spend (`gtm-spend-management`).
-4. False positives are expected — operate with confidence tiers, not binary trust.
-5. Opt-out suppression is non-negotiable across CRM, sequencer, and alerts.
-
-## Cross-skill map
-
-| Need | Skill |
+| Question | Action |
 |---|---|
-| Vendor selection | `revops-tech-stack` |
-| Spend / renewal | `gtm-spend-management` |
-| Consent + pixels | `1p-tagging-pixels` |
-| MQL routing | `inbound-triage` |
-| Outbound trigger | `cold-email-strategy` |
-| ICP definition | `icp-scoring` |
-| Data security | `references/gtm-data-exchange-playbook.md` |
-| UTM source | `campaign-governance` |
+| Full process | Follow `SKILL.md` step-by-step |
+| Build deliverable | Start from `templates/output-template.md` |
+| Validate output | Run `scripts/check-output.py` |
+
+Before final output, cite which framework shaped the recommendation.

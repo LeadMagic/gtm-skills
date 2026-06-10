@@ -27,13 +27,11 @@ it — but you give it away free because the LTV of a qualified lead exceeds the
 cost. This skill covers magnet ideation, 7 proven formats, build-vs-buy decisions,
 landing page optimization, and the nurture-to-pipeline funnel.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **Brian Balfour — Growth Loops.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Dan Martell — SaaS Lead Magnets.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **SparkToro — Audience Research.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Brian Balfour — Growth Loops** — Growth loops — acquisition/retention loops, not funnel-only thinking.
+- **Dan Martell — SaaS Lead Magnets** — SaaS Lead Magnets
+- **SparkToro — Audience Research** — Audience Research
 
 ## When to Use
 

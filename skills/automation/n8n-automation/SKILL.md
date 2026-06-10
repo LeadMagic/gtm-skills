@@ -37,13 +37,12 @@ This skill covers *when* to use n8n; the toolkit covers *how* to build.
 
 **Strategy first:** `references/gtm-automation-expert-playbook.md` (Jen Igartua — Pattern 30) before flow build.
 
-## Frameworks Referenced
+## Authoritative Foundations
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **n8n Workflow Automation Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **iPaaS Integration Patterns.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **HubSpot Academy — CRM Automation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Jen Igartua (Go Nimbly) — RevOps automation maturity and orchestration roadmap** — RevOps automation maturity and orchestration roadmap
+- **n8n Workflow Automation Framework** — Workflow automation — HTTP nodes, webhooks, and GTM glue between tools.
+- **iPaaS Integration Patterns** — Shapes deliverables for this skill — Clay handles enrichment workflows well.
+- **HubSpot Academy — CRM Automation** — Lifecycle stages, object model, and workflow enrollment patterns.
 
 ## When to Use
 
@@ -117,13 +116,11 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
-- `references/gtm-automation-expert-playbook.md` — Jen Igartua RevOps automation strategy (repo root; Pattern 30)
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-
+This skill includes lightweight artifacts the agent can load on demand:
+- `references/gtm-automation-expert-playbook.md` — Jen Igartua RevOps automation strategy (repo root; Pattern 30)
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

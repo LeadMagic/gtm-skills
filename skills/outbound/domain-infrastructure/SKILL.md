@@ -479,12 +479,13 @@ Use `references/provider-decision-matrix.md` when the task requires provider com
 
 ## Execution Artifacts
 
+- `references/framework-notes.md` — Framework index and authority routing
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 - `../cold-email-strategy/references/eric-nowoslawski-outbound.md` — Inbox/domain ratio, backup capacity, scale math (Eric Nowoslawski)
 - `references/deliverability-primer.md` — Deliverability fundamentals
 - `references/output-artifacts.md` — Extended output tables and inventories
 - `references/provider-decision-matrix.md` — Mailbox provider comparison
-- `templates/output-template.md` — Deliverable shell for agent output
-- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 
