@@ -1,0 +1,11 @@
+# Files produced by `npm run build` / `scripts/regenerate.sh`.
+# CI drift checks and auto-regenerate on main both read this manifest.
+AGENTS.md
+CLAUDE.md
+README.md
+taxonomy.csv
+skills.lock
+references/pitfalls-index.md
+references/skill-index-master.md
+.claude-plugin/plugin.json
+.claude-plugin/marketplace.json

@@ -39,6 +39,8 @@ REQUIRED_PUBLIC_FILES = [
     ".github/pull_request_template.md",
     ".github/dependabot.yml",
     ".github/workflows/validate.yml",
+    ".github/workflows/regenerate.yml",
+    "scripts/generated-artifacts.txt",
     ".claude-plugin/plugin.json",
     ".claude-plugin/marketplace.json",
 ]
@@ -236,6 +238,24 @@ def main() -> int:
             if name.lower() in package_blob:
                 fail(f"telemetry dependency present in package.json: {name}", failures)
 
+    manifest_path = ROOT / "scripts/generated-artifacts.txt"
+    manifest_entries: list[str] = []
+    if manifest_path.exists():
+        for raw in read(manifest_path).splitlines():
+            line = raw.split("#", 1)[0].strip()
+            if line:
+                manifest_entries.append(line)
+    if len(manifest_entries) < 8:
+        fail("scripts/generated-artifacts.txt must list all generated catalog paths", failures)
+
+    package_path = ROOT / "package.json"
+    if package_path.exists() and manifest_entries:
+        package_text = read(package_path)
+        if "scripts/check-generated.sh" not in package_text:
+            fail("package.json check:generated must use scripts/check-generated.sh", failures)
+        if "scripts/regenerate.sh" not in package_text:
+            fail("package.json build/regenerate must use scripts/regenerate.sh", failures)
+
     workflow_path = ROOT / ".github/workflows/validate.yml"
     if workflow_path.exists():
         workflow = read(workflow_path)
@@ -243,10 +263,22 @@ def main() -> int:
             fail("validate workflow must use least-privilege contents: read permissions", failures)
         if "gh skill publish --dry-run" not in workflow:
             fail("validate workflow must run gh skill publish --dry-run", failures)
-        if "references/skill-index-master.md" not in workflow:
-            fail("validate workflow must verify references/skill-index-master.md drift", failures)
+        if "check:generated" not in workflow:
+            fail("validate workflow must run npm run check:generated", failures)
         if "concurrency:" not in workflow:
             fail("validate workflow missing concurrency guard", failures)
+
+    regen_path = ROOT / ".github/workflows/regenerate.yml"
+    if regen_path.exists():
+        regen = read(regen_path)
+        if "permissions:\n  contents: write" not in regen:
+            fail("regenerate workflow must request contents: write", failures)
+        if "scripts/regenerate.sh" not in regen:
+            fail("regenerate workflow must run scripts/regenerate.sh", failures)
+        if "workflow_dispatch" not in regen:
+            fail("regenerate workflow must support workflow_dispatch", failures)
+        if "generated-artifacts.txt" not in regen:
+            fail("regenerate workflow must read scripts/generated-artifacts.txt", failures)
 
     plugin_path = ROOT / ".claude-plugin/plugin.json"
     if plugin_path.exists():

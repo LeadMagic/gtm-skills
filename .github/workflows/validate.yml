@@ -52,16 +52,6 @@ on:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-  GENERATED_ARTIFACTS: >-
-    AGENTS.md
-    CLAUDE.md
-    README.md
-    taxonomy.csv
-    skills.lock
-    references/pitfalls-index.md
-    references/skill-index-master.md
-    .claude-plugin/plugin.json
-    .claude-plugin/marketplace.json
 
 concurrency:
   group: validate-${{ github.workflow }}-${{ github.ref }}
