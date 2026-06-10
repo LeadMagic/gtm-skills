@@ -1,7 +1,7 @@
 # GTM Engineer — Interview Scorecard
 
 *Google re:Work structured interview — score independently before panel debrief.*  
-*JD + role definition: `gtm-role-descriptions` → `references/gtm-engineer-hiring.md`, `templates/gtm-engineer-jd.md`*
+*JD + role definition: `skills/founder-led/gtm-role-descriptions/references/gtm-engineer-hiring.md`, `skills/founder-led/gtm-role-descriptions/templates/gtm-engineer-jd.md`*
 
 **Candidate:** ___ **Role level:** ☐ IC3 GTM Engineer ☐ IC4 Senior ☐ IC5 Staff  
 **Interviewer:** ___ **Stage:** ___ **Date:** ___

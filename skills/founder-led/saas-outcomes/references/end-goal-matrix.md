@@ -64,4 +64,4 @@ Use after `gtm-context` and basic unit economics are known. Pick **one primary p
 | Venture early | HubSpot or Attio + strict data model | Salesforce at $5–10M ARR with RevOps hire |
 | Venture scale | Salesforce + CPQ/BI | Dedicated RevOps team |
 
-See `crm-toolkit` and `references/crm-selection.md`.
+See `crm-toolkit` and `skills/tools/crm-toolkit/references/crm-selection.md`.

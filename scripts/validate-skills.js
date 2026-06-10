@@ -178,7 +178,7 @@ function countSection(content, section) {
 }
 
 const CHECKABLE_EXT = /\.(?:md|py|js|csv|json)$/;
-const BACKTICK_PATH = /^(?:references|templates|scripts|assets|skills)\/[A-Za-z0-9._/-]+\.(?:md|py|js|csv|json)$/;
+const BACKTICK_PATH = /^(?:\.\.\/|references|templates|scripts|assets|skills)\/[A-Za-z0-9._/-]+\.(?:md|py|js|csv|json)$/;
 
 // Extract reference targets from a SKILL.md body: markdown links and
 // backtick-quoted repo paths. Shared contract with scripts/audit-references.py.
@@ -201,8 +201,27 @@ function extractLinkTargets(content) {
 
 // A target resolves if it exists relative to the skill dir (skill-local
 // artifact) OR relative to the repo root (shared catalog / full skills/ path).
-function targetResolves(target, skillDir) {
-  return fs.existsSync(path.resolve(skillDir, target)) || fs.existsSync(path.resolve(ROOT, target));
+function targetResolves(target, skillDir, filePath = null) {
+  const candidates = [];
+  if (target.startsWith('skills/')) {
+    candidates.push(path.resolve(ROOT, target));
+  } else if (target.startsWith('../') && filePath) {
+    let cur = path.dirname(filePath);
+    let rel = target;
+    while (rel.startsWith('../')) {
+      rel = rel.slice(3);
+      cur = path.dirname(cur);
+    }
+    candidates.push(path.resolve(cur, rel));
+  } else if (/^(?:references|templates|scripts|assets)\//.test(target)) {
+    candidates.push(path.resolve(skillDir, target));
+    candidates.push(path.resolve(ROOT, target));
+  } else {
+    if (filePath) candidates.push(path.resolve(path.dirname(filePath), target));
+    candidates.push(path.resolve(skillDir, target));
+    candidates.push(path.resolve(ROOT, target));
+  }
+  return candidates.some(p => fs.existsSync(p));
 }
 
 let errors = 0;
@@ -376,7 +395,7 @@ for (const skill of skills) {
 
   const skillDir = path.dirname(skill.path);
   for (const target of extractLinkTargets(content)) {
-    if (!targetResolves(target, skillDir)) {
+    if (!targetResolves(target, skillDir, skill.path)) {
       console.error(`❌ ${skillId}: unresolvable reference target '${target}' (not found relative to skill dir or repo root)`);
       errors++; skillErrors++;
     }

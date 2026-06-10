@@ -1,7 +1,7 @@
 # GTM Engineer Hiring — Role Definition, Timing, and Handoff
 
 **Canonical home:** `gtm-role-descriptions` (JD + comp + org placement).  
-**Interview loop:** `hiring-by-role` → `templates/gtm-engineer-scorecard.md`, `templates/interviewer-questions-gtm.md`.  
+**Interview loop:** `hiring-by-role` → `skills/founder-led/hiring-by-role/templates/gtm-engineer-scorecard.md`, `skills/founder-led/hiring-by-role/templates/interviewer-questions-gtm.md`.  
 **Onboarding:** `revenue-team-onboarding` (systems access + 30-60-90 for ops roles).
 
 ---
@@ -67,7 +67,7 @@ hiring-agencies (90-day Clay/outbound pilot)
 | **GTM judgment** | 15% | Ties automation to pipeline metric (SQOs, speed-to-lead) | Builds cool tables with no revenue outcome |
 | **Documentation** | 10% | Runbook + owner + rollback for each production workflow | Tribal knowledge only |
 
-Full scorecard: `../templates/gtm-engineer-scorecard.md`.
+Full scorecard: `skills/founder-led/hiring-by-role/templates/gtm-engineer-scorecard.md`.
 
 ---
 
@@ -111,7 +111,7 @@ Load `revops-tech-stack` for audit methodology. Minimum proficiency by level:
 
 ## Job Description and Posting
 
-- **JD template:** `../templates/gtm-engineer-jd.md`
+- **JD template:** `templates/gtm-engineer-jd.md`
 - **Role catalog block:** `role-catalog.md` → GTM Engineer section
 - **Posting channels:** RevOps Co-op job board, LinkedIn, Pavilion referrals, Clay community, niche Twitter/LinkedIn GTM eng circles — not generic RepVue (sales-quota audience)
 

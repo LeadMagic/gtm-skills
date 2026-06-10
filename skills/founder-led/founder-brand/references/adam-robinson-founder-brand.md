@@ -101,6 +101,6 @@ Organic is the A/B test, paid is the multiplier (see `paid-social-strategy`).
 | Question | Action |
 |---|---|
 | Full founder brand process | Follow `SKILL.md` step-by-step |
-| Reach mechanics behind the playbook | `linkedin-algorithm` → `references/richard-van-der-blom-algorithm.md` |
+| Reach mechanics behind the playbook | `skills/inbound/linkedin-algorithm/references/richard-van-der-blom-algorithm.md` |
 | Turning engagement into pipeline | `social-selling` |
 | Visitor ID product category (RB2B) | `website-visitor-identification` |

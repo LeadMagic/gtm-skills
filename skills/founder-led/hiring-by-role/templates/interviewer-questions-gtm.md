@@ -110,7 +110,7 @@ use GTM Engineer section below.
 ## GTM Engineer — additional
 
 *Full scorecard + work sample rubric: `gtm-engineer-scorecard.md`*  
-*Role definition: `gtm-role-descriptions` → `references/gtm-engineer-hiring.md`*
+*Role definition: `skills/founder-led/gtm-role-descriptions/references/gtm-engineer-hiring.md`*
 
 ### Screen + portfolio
 

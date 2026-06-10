@@ -31,8 +31,8 @@ Revenue leaders should cascade a **GTM V2MOM** from company vision.
 | **O — Obstacles** | What blocks us (honest) | "No RevOps owner; 40% opps missing EB" |
 | **M — Measures** | Numbers that prove progress | "NRR 115%; SQO→Opp 25%; forecast accuracy ±10%" |
 
-Template: **gtm-leadership** → `templates/v2mom-gtm.md`  
-Deep guide: **gtm-leadership** → `references/benioff-v2mom-guide.md`
+Template: **gtm-leadership** → `skills/management-leadership/gtm-leadership/templates/v2mom-gtm.md`  
+Deep guide: **gtm-leadership** → `skills/management-leadership/gtm-leadership/references/benioff-v2mom-guide.md`
 
 ---
 

@@ -112,5 +112,5 @@ Notes:
 | Build deliverable | Use `templates/output-template.md` |
 | Validate output | Run `scripts/check-output.py` |
 | Full process | Follow `SKILL.md` step-by-step |
-| Founder posting system | `founder-brand` → `references/adam-robinson-founder-brand.md` |
+| Founder posting system | `skills/founder-led/founder-brand/references/adam-robinson-founder-brand.md` |
 | Reach → pipeline conversion | `social-selling` |

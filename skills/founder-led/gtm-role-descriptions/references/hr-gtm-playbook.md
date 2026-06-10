@@ -5,7 +5,7 @@
 **Canonical expert:** Stacey Nordwall (Culture Amp, Pyn) — onboarding, manager enablement, employee experience for SaaS.  
 **Comp & exec standards:** Sam Jacobs / Pavilion — `executive-compensation`, Compensation Planning 101.  
 **Comp benchmarks:** Bridge Group — `references/comp-benchmarks.md`.  
-**Ramp execution:** `revenue-team-onboarding` → `references/ramp-benchmarks.md`.
+**Ramp execution:** `revenue-team-onboarding` → `skills/management-leadership/revenue-team-onboarding/references/ramp-benchmarks.md`.
 
 **Disclaimer:** Operational GTM guidance only — escalate employment law, classification, and termination to qualified counsel (`employment-compliance`).
 
@@ -18,7 +18,7 @@
 | Design revenue hiring process | Pattern 28 · `gtm-role-descriptions` · `hiring-by-role` |
 | Build comp bands / OTE ranges | `comp-benchmarks.md` · `founder-comp-playbook` · Pavilion benchmarks |
 | Onboard SDR/AE/RevOps cohort | `revenue-team-onboarding` · Nordwall onboarding survey patterns |
-| Remote/distributed GTM team | Section below + `references/slack-engagement.md` |
+| Remote/distributed GTM team | Section below + `skills/management-leadership/revenue-team-onboarding/references/slack-engagement.md` |
 | SDR contractor vs employee | `employment-compliance` — default **employee** for full-time SDR |
 | Performance / PIP on revenue role | Kim Scott (`gtm-leadership`) + REKS (`sales-coaching`) + HR documentation |
 
@@ -111,7 +111,7 @@
 |---|---|
 | Document "golden hours" per region | Pipeline handoffs don't stall |
 | Record top rep calls (Gong) for async shadow | Nordwall: connect across time zones |
-| Slack channel charter | `references/slack-engagement.md` |
+| Slack channel charter | `skills/management-leadership/revenue-team-onboarding/references/slack-engagement.md` |
 | Quarterly in-person for enterprise AEs | Relationship selling still matters |
 | Single comp geo band or explicit tiers | Avoid opaque "we'll figure it out" |
 

@@ -149,6 +149,32 @@ def main() -> int:
             taxonomy_rows = list(csv.DictReader(handle))
         if len(taxonomy_rows) != len(skills):
             fail(f"taxonomy count {len(taxonomy_rows)} != skill count {len(skills)}", failures)
+        disk_slugs = {
+            f"{p.relative_to(ROOT / 'skills').parts[0]}/{p.relative_to(ROOT / 'skills').parts[1]}"
+            for p in skills
+        }
+        csv_slugs: set[str] = set()
+        for row in taxonomy_rows:
+            slug = row.get("slug", "").strip()
+            name = row.get("name", "").strip()
+            category = row.get("category", "").strip()
+            path = row.get("path", "").strip()
+            expected_path = f"skills/{category}/{slug}/SKILL.md"
+            key = f"{category}/{slug}"
+            if slug != name:
+                fail(f"taxonomy.csv slug != name for {key}: {slug!r} vs {name!r}", failures)
+            if path != expected_path:
+                fail(f"taxonomy.csv path mismatch for {key}: {path!r} != {expected_path!r}", failures)
+            if not (ROOT / path).exists():
+                fail(f"taxonomy.csv path missing on disk: {path}", failures)
+            csv_slugs.add(key)
+        if csv_slugs != disk_slugs:
+            missing = sorted(disk_slugs - csv_slugs)[:5]
+            extra = sorted(csv_slugs - disk_slugs)[:5]
+            fail(
+                f"taxonomy.csv keys != disk skills (missing sample: {missing}, extra sample: {extra})",
+                failures,
+            )
 
     lock_path = ROOT / "skills.lock"
     if lock_path.exists():
