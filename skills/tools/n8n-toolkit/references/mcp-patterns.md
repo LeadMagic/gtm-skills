@@ -7,7 +7,7 @@ webhooks. They complement each other — not substitutes.
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│  Agent Layer (Cursor, Claude, Codex)                    │
+│  Agent Layer (Jesse, Claude, Codex)                    │
 │  MCP: CRM read, enrichment lookup, draft email          │
 │  Guardrails: read-only default, confirm writes          │
 └───────────────────────┬─────────────────────────────────┘
@@ -152,7 +152,7 @@ Aligns with `mcp-setup` audit logging requirements.
 
 ---
 
-## Cursor / Claude Desktop Config (Agent Side)
+## Jesse / Claude Desktop Config (Agent Side)
 
 n8n is **not** configured in `mcp.json` directly unless you build a custom
 MCP server that wraps n8n webhooks. Standard setup:
@@ -167,7 +167,7 @@ MCP server that wraps n8n webhooks. Standard setup:
 }
 ```
 
-**Agent instruction** (Cursor rule or skill):
+**Agent instruction** (Jesse rule or skill):
 ```
 To run batch GTM jobs, never loop enrich calls in chat.
 Instead: confirm job params → POST to n8n MCP-01 webhook with approval.

@@ -8,7 +8,7 @@ description: >-
   "LeadMagic + Clay", "LeadMagic + HubSpot", "LeadMagic + Salesforce", or any
   platform integration request.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.1.1"
   author: LeadMagic
@@ -125,7 +125,7 @@ This skill includes lightweight artifacts the agent can load on demand:
 - `references/integration-checklist.md` — go-live checklist per platform (Clay, Smartlead, CRM, n8n)
 - `../leadmagic-waterfall/references/waterfall-column-spec.md` — Clay column spec
 - `../../tools/clay-toolkit/SKILL.md` — clay-toolkit native integration
-- `../../sequencing-tools/smartlead-workflows/references/clay-enrollment-handoff.md` — sequencer handoff
+- `../../tools/smartlead-workflows/references/clay-enrollment-handoff.md` — sequencer handoff
 - `../../../../references/gtm-experts-outbound-index.md` — expert router
 - `templates/output-template.md` — integration config + verify gate deliverable
 - `scripts/check-output.py` — local checklist validator for required sections

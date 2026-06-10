@@ -3,7 +3,7 @@ name: attribution
 description: >-
   Build practical B2B attribution models across first touch, lead creation, opportunity creation, multi-touch, account-based influence, and sales-sourced revenue. Produces model comparison, UTM governance, source-of-truth rules, and channel ROI view. Use when marketing and sales disagree on source or ROI.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

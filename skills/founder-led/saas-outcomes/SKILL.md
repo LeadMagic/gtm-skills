@@ -10,7 +10,7 @@ description: >-
   "founder journey", "stage gates", "exit optionality", "when to sell",
   "bootstrap founder path", "earn-out", "lifestyle vs exit bootstrap".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.2.0"
   author: LeadMagic

@@ -5,7 +5,7 @@
 VIBE CODING ARTIFACT PLAN
 
 Artifact: [landing page / calculator / tool / dashboard]
-Platform: [v0 / Lovable / Bolt / Cursor / Claude Code / Replit]
+Platform: [v0 / Lovable / Bolt / Jesse / Claude Code / Replit]
 Audience: [ICP]
 Success Metric: [conversion rate / signups / demos]
 

@@ -9,7 +9,7 @@ description: >-
   B2B", "Jessie Lizak", "Reveting", "WinsDay", "go live on LinkedIn", "live video
   strategy", "repurpose livestream", "weekly live show", "podcast from LinkedIn Live".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

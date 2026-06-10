@@ -1,6 +1,6 @@
 # Lemlist Setup — Framework Notes
 
-**Category:** `sequencing-tools` · Personalization + multichannel (Guillaume Moubeche stack).
+**Category:** `tools` · Personalization + multichannel (Guillaume Moubeche stack).
 
 ## Primary Frameworks
 

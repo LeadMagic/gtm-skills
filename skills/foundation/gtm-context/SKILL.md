@@ -3,7 +3,7 @@ name: gtm-context
 description: >-
   Capture reusable GTM context for every other skill: product, ICP, personas, pains, proof, competitors, pricing, channels, constraints, and source-of-truth files. Use when starting a project, onboarding an agent to a company, or fixing generic outputs caused by missing context.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

@@ -3,7 +3,7 @@ name: engineer-to-founder
 description: >-
   Translate engineering strengths into founder-led GTM: customer discovery, positioning, demos, technical proof, founder sales habits, and first repeatable motion. Use when a technical founder needs to sell, do customer interviews, explain value without feature dumping, or build GTM confidence.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

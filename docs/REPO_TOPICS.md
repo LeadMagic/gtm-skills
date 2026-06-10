@@ -9,7 +9,7 @@ GitHub allows **20 topics** per repository. These are the canonical topics for [
 | `agent-skills` | Core agentskills.io / Anthropic pattern |
 | `agentskills` | Marketplace discovery alias |
 | `claude-code` | Primary Claude Code marketplace install |
-| `cursor` | Cursor agent compatibility |
+| `jesse` | Jesse agent compatibility |
 | `codex` | OpenAI Codex / agent IDE |
 | `copilot` | GitHub Copilot agent surface |
 | `go-to-market` | Full GTM scope |
@@ -38,6 +38,6 @@ GitHub allows **20 topics** per repository. These are the canonical topics for [
 
 ```bash
 gh api repos/LeadMagic/gtm-skills/topics -X PUT --input - <<'EOF'
-{"names":["agent-skills","agentskills","claude-code","cursor","codex","copilot","go-to-market","gtm","b2b-saas","sales","outbound","cold-email","revops","customer-success","plg","lead-generation","prospecting","marketing","sales-enablement","mcp"]}
+{"names":["agent-skills","agentskills","claude-code","jesse","codex","copilot","go-to-market","gtm","b2b-saas","sales","outbound","cold-email","revops","customer-success","plg","lead-generation","prospecting","marketing","sales-enablement","mcp"]}
 EOF
 ```

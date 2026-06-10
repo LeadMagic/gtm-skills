@@ -4,10 +4,12 @@ All notable changes to GTM Skills are documented here.
 
 ## v0.27.0 — Sales Navigator Prospecting (Morgan J. Ingram / AMP Social)
 
+- Flattened `sequencing-tools/` into `tools/` — six platform sequencer skills (`instantly-sequences`, `smartlead-workflows`, `lemlist-setup`, `salesloft-cadences`, `outreach-sequences`, `hubspot-sequences`) now sit beside `sequencing-toolkit` under one category (24 categories total, 205 skills unchanged).
+- Updated automation playbook index, master router, and cross-links to treat sequencers as tool skills, not a separate category.
 - Added `sales-navigator-prospecting` skill (inbound) — Morgan Ingram's filter-specific Sales Nav playbook, executive insight+question engagement, saved-search alerts, and 15-minute daily workflow.
 - Cross-linked from `social-selling`, `list-building`, `references/experts.md`, and README Start Here / LinkedIn stack.
 - Synced stale skill-count references in `using-gtm-skills`, `CONTRIBUTING.md`, and `docs/INTEGRITY.md`.
-- **205 skills / 25 categories** — catalog, lockfile, taxonomy regenerated.
+- **205 skills / 24 categories** — catalog, lockfile, taxonomy regenerated.
 
 ## v0.26.1 — LinkedIn Live Strategy (Jessie Lizak / Reveting)
 

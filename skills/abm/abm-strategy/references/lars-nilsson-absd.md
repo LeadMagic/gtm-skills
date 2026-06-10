@@ -83,7 +83,7 @@ Org context from public talks: Cloudera grew from 11 to ~75 quota-carrying reps 
 | Intent | Bombora Company Surge + SFDC + Tableau | Account prioritization by surge topics |
 | Phone | Talkdesk (CTI) | Call follow-up on email opens |
 
-Modernization note: map layers, not logos — today this is your sequencer (`skills/sequencing-tools/`), enrichment waterfall (`skills/tools/clay-toolkit/SKILL.md`, `skills/leadmagic/leadmagic-waterfall/SKILL.md`), and intent/signal loops (`skills/tools/clay-loops-toolkit/SKILL.md`). Nilsson's later public advocacy: the **GTM Engineer** is the next hire to operationalize this stack (see `skills/founder-led/gtm-role-descriptions/references/gtm-engineer-hiring.md`).
+Modernization note: map layers, not logos — today this is your sequencer (`skills/tools/`), enrichment waterfall (`skills/tools/clay-toolkit/SKILL.md`, `skills/leadmagic/leadmagic-waterfall/SKILL.md`), and intent/signal loops (`skills/tools/clay-loops-toolkit/SKILL.md`). Nilsson's later public advocacy: the **GTM Engineer** is the next hire to operationalize this stack (see `skills/founder-led/gtm-role-descriptions/references/gtm-engineer-hiring.md`).
 
 ---
 

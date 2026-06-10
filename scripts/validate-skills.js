@@ -15,6 +15,7 @@
 
 const fs = require('node:fs');
 const path = require('node:path');
+const { STANDARD_COMPATIBILITY } = require('./lib/compatibility');
 
 const ROOT = path.join(__dirname, '..');
 const SKILLS_DIR = path.join(ROOT, 'skills');
@@ -22,7 +23,7 @@ const MAX_NAME_LENGTH = 64;
 const MAX_DESC_LENGTH = 1024;
 const MIN_BODY_CHARS = 1200;
 const MIN_BODY_LINES = 60;
-const EXPECTED_COMPATIBILITY = 'Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose';
+const EXPECTED_COMPATIBILITY = STANDARD_COMPATIBILITY;
 
 const REQUIRED_TOP_FIELDS = ['name', 'description', 'license', 'compatibility'];
 const REQUIRED_METADATA_FIELDS = ['version', 'author', 'category', 'tags', 'frameworks'];
@@ -40,7 +41,6 @@ const ARTIFACT_REQUIRED_CATEGORIES = new Set([
   'automation',
   'design',
   'leadmagic',
-  'sequencing-tools',
   'tools',
 ]);
 const REQUIRED_ARTIFACTS = [

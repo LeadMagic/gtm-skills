@@ -50,4 +50,4 @@ Quick router for outbound, discovery, and pipeline experts. Full bios → `refer
 
 **Account-based outbound / enterprise break-in (ABSD):** Nilsson signal-based account selection → `account-selection` (tier scoring) → SDR+AE+SME 3-email sequence (`abm-strategy` → `lars-nilsson-absd.md`) → `cold-email-strategy` (trigger architecture) → `multi-thread-orchestration` (persona coverage)
 
-**Automation index:** `references/automation-playbook-index.md` (38 playbooks — includes `sequencing-tools/` + `leadmagic/`)
+**Automation index:** `references/automation-playbook-index.md` (38 playbooks — includes `tools/` + `leadmagic/`)

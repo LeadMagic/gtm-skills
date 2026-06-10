@@ -3,7 +3,7 @@ name: vc-outreach
 description: >-
   Plan investor outreach for startups: target investor list, warm intro paths, cold email, update cadence, CRM tracking, meeting prep, and follow-up. Use when raising a round, contacting angels or VCs, building a fundraising pipeline, or improving investor reply rates.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

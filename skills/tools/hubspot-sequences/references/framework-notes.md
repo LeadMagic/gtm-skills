@@ -1,6 +1,6 @@
 # HubSpot Sequences — Framework Notes
 
-**Category:** `sequencing-tools` · CRM-native sequences — rep-triggered + workflow-enrolled.
+**Category:** `tools` · CRM-native sequences — rep-triggered + workflow-enrolled.
 
 ## Primary Frameworks
 

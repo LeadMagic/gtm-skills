@@ -4,11 +4,11 @@ description: >-
   Set up Instantly — unlimited accounts, warmup pool, campaign optimization, unified 
   inbox. Triggers on: "Instantly", "Instantly setup", "Instantly campaigns", "Instantly warmup".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic
-  category: sequencing-tools
+  category: tools
   tags: [instantly, cold-email, warmup, outbound, campaigns]
   frameworks:
     - "Instantly Best Practices"

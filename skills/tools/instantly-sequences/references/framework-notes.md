@@ -1,6 +1,6 @@
 # Instantly Sequences — Framework Notes
 
-**Category:** `sequencing-tools` · **Tool path:** platform-specific sequencer (not sequencing-toolkit)
+**Category:** `tools` · **Tool path:** platform-specific sequencer (not sequencing-toolkit)
 
 ## Primary Frameworks
 

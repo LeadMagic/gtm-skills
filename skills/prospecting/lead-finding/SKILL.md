@@ -3,7 +3,7 @@ name: lead-finding
 description: >-
   Find qualified prospects and decision-makers from ICP criteria using public research, company signals, role mapping, and source confidence. Produces a prospect list spec, search strategy, qualification rubric, source log, and QA checklist. Use when building target lists or finding buyers at named accounts.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

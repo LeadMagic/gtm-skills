@@ -5,11 +5,11 @@ description: >-
   warm-up, deliverability. Triggers on: "Lemlist", "Lemlist setup", "Lemlist campaigns",
   "personalized cold email".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic
-  category: sequencing-tools
+  category: tools
   tags: [lemlist, cold-email, personalization, lemwarm, multi-channel]
   frameworks:
     - "Lemlist Personalization Framework"

@@ -8,7 +8,7 @@ description: >-
   selling", "Sales Navigator", "LinkedIn outreach", "LinkedIn DMs", "profile
   optimization", "SSI", "LinkedIn strategy", or any request about LinkedIn for sales.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.3.0"
   author: LeadMagic

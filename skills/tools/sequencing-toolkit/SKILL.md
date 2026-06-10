@@ -8,7 +8,7 @@ description: >-
   outreach sequencing platform. Triggers on: "sequencing toolkit",
   "Smartlead setup", "Instantly optimization", "outreach platform comparison".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.1.0"
   author: LeadMagic
@@ -29,8 +29,12 @@ metadata:
 
 Sequencing platforms send your cold emails — but only if configured correctly.
 The mistake: importing a list, writing one template, hitting send, and
-wondering why deliverability is 40%. This skill covers setup, optimization,
-and advanced tactics across all major sequencing platforms.
+wondering why deliverability is 40%. This skill is the **cross-platform router**:
+platform selection, sequence architecture, and shared best practices.
+
+For platform-specific setup, load the sibling skills under `tools/`:
+`instantly-sequences`, `smartlead-workflows`, `lemlist-setup`, `salesloft-cadences`,
+`outreach-sequences`, `hubspot-sequences`.
 
 ## Frameworks Referenced
 

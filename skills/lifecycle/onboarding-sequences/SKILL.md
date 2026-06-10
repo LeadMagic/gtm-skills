@@ -5,7 +5,7 @@ description: >-
   guided setup, onboarding emails. Triggers on: "onboarding sequence", "customer
   onboarding", "time to value", "activation flow", "new customer setup".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

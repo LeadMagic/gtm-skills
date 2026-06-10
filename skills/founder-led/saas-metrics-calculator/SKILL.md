@@ -3,7 +3,7 @@ name: saas-metrics-calculator
 description: >-
   Calculate and interpret SaaS metrics for founders: MRR, ARR, NRR, GRR, churn, CAC payback, LTV:CAC, burn multiple, Rule of 40, cohort retention, and scenario models. Use when building investor updates, dashboards, board materials, pricing decisions, or growth diagnostics.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.2.0"
   author: LeadMagic

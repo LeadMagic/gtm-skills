@@ -5,4 +5,4 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 chmod +x "$ROOT/.githooks/commit-msg" "$ROOT/.githooks/prepare-commit-msg"
 git -C "$ROOT" config core.hooksPath .githooks
 echo "Git hooks enabled: core.hooksPath=.githooks"
-echo "Agent co-author trailers (e.g. Co-authored-by: Cursor) will be stripped from commit messages."
+echo "Agent co-author trailers (e.g. Co-authored-by) will be stripped from commit messages."

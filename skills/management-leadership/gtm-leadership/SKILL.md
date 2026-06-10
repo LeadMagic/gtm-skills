@@ -11,7 +11,7 @@ description: >-
   evaluation", "when to fire", "how to hire sales leader", "crisis management",
   "incident comms", "outage communication", "holding statement", "PR crisis".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.7.0"
   author: LeadMagic

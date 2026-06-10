@@ -9,7 +9,7 @@ These are the systems in the repo compatibility string. The TUI installer suppor
 | # | System | TUI Key | Install Method | Path / Behavior |
 |---|---|---|---|---|
 | 1 | **Claude Code** | `claude` | `claude plugins add LeadMagic/gtm-skills` | Preferred plugin install |
-| 2 | **Cursor** | `cursor` | Project-local copy | `.cursor/skills/gtm-skills/` |
+| 2 | **Jesse** | `jesse` | Project-local copy | `.jesse/skills/gtm-skills/` |
 | 3 | **Codex** | `codex` | `codex skills install LeadMagic/gtm-skills` or local copy | `~/.codex/skills/gtm-skills/` fallback |
 | 4 | **Hermes** | `hermes` | `hermes skills install LeadMagic/gtm-skills` or local copy | `~/.hermes/skills/gtm-skills/` fallback |
 | 5 | **Windsurf** | `windsurf` | Project-local copy | `.windsurf/skills/gtm-skills/` |
@@ -35,7 +35,7 @@ cd gtm-skills
 
 # Non-interactive examples
 ./install.sh --target hermes
-./install.sh --target cursor --project /path/to/project
+./install.sh --target jesse --project /path/to/project
 ./install.sh --target all --dry-run
 ```
 
@@ -51,7 +51,7 @@ claude plugins add LeadMagic/gtm-skills
 hermes skills install LeadMagic/gtm-skills
 
 # Project-local systems
-cp -R . .cursor/skills/gtm-skills
+cp -R . .jesse/skills/gtm-skills
 cp -R . .windsurf/skills/gtm-skills
 cp -R . .opencode/skills/gtm-skills
 cp -R . .gemini/skills/gtm-skills
@@ -67,12 +67,12 @@ Preferred path:
 claude plugins add LeadMagic/gtm-skills
 ```
 
-### Cursor
+### Jesse
 
-Use the installer or copy the repo into `.cursor/skills/gtm-skills/` for project-local discovery.
+Use the installer or copy the repo into `.jesse/skills/gtm-skills/` for project-local discovery.
 
 ```bash
-./install.sh --target cursor --project /path/to/project
+./install.sh --target jesse --project /path/to/project
 ```
 
 ### Codex

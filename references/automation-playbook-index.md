@@ -2,7 +2,7 @@
 
 Master index of **every** GTM automation skill and toolkit playbook. Load `using-gtm-skills` Pattern 6 / 6b / 17 for orchestration order.
 
-**Rule:** Process skills (`automation/`) define *when and why*. Tool skills (`tools/`, `sequencing-tools/`, `leadmagic/`) define *how to configure*. Never skip data quality (`waterfall-enrichment`, `contact-verification`, `leadmagic-waterfall`) before routing automation.
+**Rule:** Process skills (`automation/`) define *when and why*. Tool skills (`tools/`, `leadmagic/`) define *how to configure*. Never skip data quality (`waterfall-enrichment`, `contact-verification`, `leadmagic-waterfall`) before routing automation.
 
 ---
 
@@ -25,28 +25,21 @@ Master index of **every** GTM automation skill and toolkit playbook. Load `using
 
 ---
 
-## Category: `tools/` (9 toolkits)
+## Category: `tools/` (15 playbooks — 9 toolkits + 6 sequencer platforms)
+
+Cross-platform toolkits and platform-specific sequencer skills live in the same category. Use `sequencing-toolkit` for architecture and comparison; use a platform skill (`instantly-sequences`, `smartlead-workflows`, etc.) for deep setup. Upstream with `leadmagic-waterfall` + `clay-toolkit` before enrollment.
 
 | # | Skill | Playbook focus | Key artifacts |
 |---|---|---|---|
-| 13 | `clay-toolkit` (`tools/clay-toolkit`) | Table blueprints, waterfall columns | `references/gtm-table-blueprints.md`, `templates/waterfall-config.md` |
+| 13 | `clay-toolkit` | Table blueprints, waterfall columns | `references/gtm-table-blueprints.md`, `templates/waterfall-config.md` |
 | 14 | `clay-loops-toolkit` | Signal loops (funding, hiring, job change) | `references/loop-catalog.md`, `references/leadmagic-waterfall.md`, `templates/loop-blueprint.md` |
 | 15 | `n8n-toolkit` | Flow IDs: INB / OUT / SIG / LIF / REV / MCP | `references/gtm-flow-catalog.md`, `templates/workflow-blueprint.md` |
 | 16 | `ai-prompts-toolkit` | Claygent / LLM prompt loops P01–P10 | `references/prompt-library.md`, `templates/prompt-spec.md` |
-| 17 | `sequencing-toolkit` | Multi-channel sequence architecture | `references/platform-comparison.md`, `templates/sequence-architecture.md` |
+| 17 | `sequencing-toolkit` | Multi-channel sequence architecture (router) | `references/platform-comparison.md`, `templates/sequence-architecture.md` |
 | 18 | `crm-toolkit` | CRM selection, blueprints, land-expand | `references/salesforce-blueprint.md`, `references/hubspot-blueprint.md` |
 | 19 | `leadmagic-toolkit` | Find → Verify → Enrich column patterns | `references/framework-notes.md` |
 | 20 | `analytics-toolkit` | Stack by stage, event taxonomy | `references/analytics-stack-by-stage.md` |
 | 21 | `support-toolkit` | Headless support automation | `references/platform-comparison.md` |
-
----
-
-## Category: `sequencing-tools/` (6 platform playbooks)
-
-Platform-specific sequencer configuration. Pair with `sequencing-toolkit` for architecture; upstream with `leadmagic-waterfall` + `clay-toolkit`.
-
-| # | Skill | Playbook focus | Key artifacts |
-|---|---|---|---|
 | 22 | `instantly-sequences` | Warmup pool, rotation, unified inbox | `references/clay-enrollment-handoff.md`, `references/framework-notes.md` |
 | 23 | `smartlead-workflows` | Unlimited mailboxes, AI reply labels, Eric-scale infra | `references/clay-enrollment-handoff.md`, `references/framework-notes.md` |
 | 24 | `lemlist-setup` | lemwarm, Guillaume multichannel, personalization | `references/clay-enrollment-handoff.md`, `references/framework-notes.md` |
@@ -112,7 +105,7 @@ These skills **consume** automation outputs — pair with toolkits above:
 3. `leadmagic-waterfall` + `contact-verification` — data quality
 4. Motion toolkit (clay / n8n / prompts)
 5. `crm-integration` — sync rules
-6. Platform skill (`sequencing-tools/*` or `leadmagic-integrations`)
+6. Platform skill (`tools/instantly-sequences`, `tools/smartlead-workflows`, etc., or `leadmagic-integrations`)
 7. `gtm-metrics` — measure pipeline impact
 
 ### Enrichment → sequencer (Pat Spielmann Cold to Gold)
@@ -140,4 +133,4 @@ These skills **consume** automation outputs — pair with toolkits above:
 - Automation strategy: `references/gtm-automation-expert-playbook.md` (Jen Igartua — Pattern 30)
 - Master router: `foundation/using-gtm-skills` → Pattern 6, 6b, 17, 30
 
-**Total indexed playbooks: 38** (12 automation + 9 tools + 6 sequencing-tools + 6 leadmagic + 5 gtm-ops) + 8 motion consumer skills
+**Total indexed playbooks: 38** (12 automation + 15 tools + 6 leadmagic + 5 gtm-ops) + 8 motion consumer skills

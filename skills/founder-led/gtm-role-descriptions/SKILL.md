@@ -11,7 +11,7 @@ description: >-
   "OTE quota", "revenue org chart", "hire SDR", "hire AE", "VP Sales job description",
   "RevOps role", "GTM Engineer", "hire GTM engineer", "org structure GTM".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.5.0"
   author: LeadMagic

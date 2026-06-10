@@ -3,7 +3,7 @@ name: startup-communities
 description: >-
   Use startup communities as a GTM channel without spamming: community selection, trust-building, founder asks, launch posts, feedback loops, and referral capture. Use when entering founder communities, posting launches, finding early adopters, or turning community participation into pipeline.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

@@ -24,7 +24,7 @@ Local installer:
 ```bash
 ./install.sh
 ./install.sh --target hermes
-./install.sh --target cursor --project /path/to/project
+./install.sh --target jesse --project /path/to/project
 ./install.sh --target all --dry-run
 ```
 
@@ -61,8 +61,7 @@ Local installer:
 - **prospecting** — 8 skills
 - **sales-plays** — 5 skills
 - **sales-revops** — 8 skills
-- **sequencing-tools** — 6 skills
-- **tools** — 9 skills
+- **tools** — 15 skills
 
 ## Quality Standard
 

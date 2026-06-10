@@ -8,7 +8,7 @@ description: >-
   structuring a founding team, negotiating equity, or navigating co-founder
   relationship challenges. Covers YC advice, First Round, and a16z resources.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

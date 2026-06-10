@@ -1437,9 +1437,9 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 ---
 
-### Lee Robinson — Jesse (ex-Vercel)
+### Lee Robinson (ex-Vercel)
 
-**Role:** VP Developer Education, Jesse (since 2025); formerly VP Developer Experience, Vercel (2020–2025)
+**Role:** VP Developer Education (2025–present); formerly VP Developer Experience, Vercel (2020–2025)
 **Domain:** Developer experience as distribution — docs, education, templates, and community
 
 **Public Channels**
@@ -2132,7 +2132,7 @@ Organic reach, Live content engines, and Sales Navigator prospecting — three l
 
 **Public Channels:** [sendoso.com](https://sendoso.com/) · [LinkedIn](https://www.linkedin.com/company/sendoso/)
 
-**Skills:** `strategic-gifting`, `abm-1-to-few`, `sequencing-tools/salesloft-cadences`
+**Skills:** `strategic-gifting`, `abm-1-to-few`, `salesloft-cadences`
 
 ---
 

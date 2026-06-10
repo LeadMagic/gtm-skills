@@ -8,7 +8,7 @@ description: >-
   "n8n workflow", "n8n GTM flow", "n8n inbound", "n8n outbound", "n8n MCP",
   "build n8n automation", "n8n webhook CRM", "n8n enrichment pipeline".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "2.0.0"
   author: LeadMagic
@@ -152,7 +152,7 @@ Three patterns — detail in `references/mcp-patterns.md`:
 
 **Pattern A — Agent triggers n8n (recommended)**
 ```
-Cursor/Claude agent (MCP: CRM read, enrichment lookup)
+Jesse/Claude agent (MCP: CRM read, enrichment lookup)
   → Human approves "run enrichment job"
   → HTTP POST to n8n webhook (MCP-01)
   → n8n executes batch pipeline with audit log

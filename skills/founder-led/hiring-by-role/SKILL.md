@@ -9,7 +9,7 @@ description: >-
   systematically. Triggers on: "interview questions for [role]", "how to
   hire [role]", "scorecard for [role]", "evaluate [role] candidates".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.3.0"
   author: LeadMagic

@@ -9,7 +9,7 @@ description: >-
   "Microsoft inbox", "Azure inbox", "cold email setup", "sending infrastructure",
   "provision inboxes", "DNS setup", or any request about building cold email infra.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

@@ -5,7 +5,7 @@ No dependencies. Supports every system in the repo compatibility string.
 Run:
   python3 scripts/install-tui.py
   python3 scripts/install-tui.py --target hermes --dry-run
-  python3 scripts/install-tui.py --target cursor --project /path/to/project
+  python3 scripts/install-tui.py --target jesse --project /path/to/project
 """
 from __future__ import annotations
 
@@ -36,7 +36,7 @@ class Target:
 
 TARGETS: list[Target] = [
     Target("claude", "Claude Code", "cli", ["claude", "plugins", "add", REPO], notes="Preferred path: Claude plugin install."),
-    Target("cursor", "Cursor", "copy", path_template="{project}/.cursor/skills/gtm-skills", notes="Project-local skills directory."),
+    Target("jesse", "Jesse", "copy", path_template="{project}/.jesse/skills/gtm-skills", notes="Project-local skills directory."),
     Target("codex", "Codex", "cli", ["codex", "skills", "install", REPO], path_template="{home}/.codex/skills/gtm-skills", notes="Uses Codex CLI when available; falls back to local copy."),
     Target("hermes", "Hermes", "cli", ["hermes", "skills", "install", REPO], path_template="{home}/.hermes/skills/gtm-skills", notes="Uses Hermes CLI when available; falls back to local copy."),
     Target("windsurf", "Windsurf", "copy", path_template="{project}/.windsurf/skills/gtm-skills", notes="Project-local Windsurf skill directory."),
@@ -136,12 +136,12 @@ Load individual `SKILL.md` files only when they match the task.
 
 def choose_targets() -> list[Target]:
     print("\nLeadMagic GTM Skills Installer")
-    print("Select targets. Use comma-separated numbers, 'all', or Enter for Hermes + Claude + Cursor.\n")
+    print("Select targets. Use comma-separated numbers, 'all', or Enter for Hermes + Claude + Jesse.\n")
     for i, t in enumerate(TARGETS, 1):
         print(f"{i:2d}. {t.label:18} {t.notes}")
     raw = input("\nInstall targets: ").strip().lower()
     if not raw:
-        wanted = {"hermes", "claude", "cursor"}
+        wanted = {"hermes", "claude", "jesse"}
         return [t for t in TARGETS if t.key in wanted]
     if raw == "all":
         return TARGETS

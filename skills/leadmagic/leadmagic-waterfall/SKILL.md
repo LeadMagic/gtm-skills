@@ -8,7 +8,7 @@ description: >-
   "LeadMagic waterfall", "LeadMagic in Clay", "waterfall enrichment LeadMagic",
   "Clay LeadMagic setup", or any request about LeadMagic-based enrichment pipelines.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.1.0"
   author: LeadMagic
@@ -155,7 +155,7 @@ This skill includes lightweight artifacts the agent can load on demand:
 - `references/waterfall-column-spec.md` — copy-paste Clay column config (Find → Verify → Enrich)
 - `../../tools/clay-toolkit/SKILL.md` — clay-toolkit table architecture + ICP filter
 - `../../tools/clay-loops-toolkit/references/leadmagic-waterfall.md` — loops variant (signal-triggered)
-- `../../sequencing-tools/smartlead-workflows/references/clay-enrollment-handoff.md` — post-waterfall sequencer handoff
+- `../../tools/smartlead-workflows/references/clay-enrollment-handoff.md` — post-waterfall sequencer handoff
 - `../../../../references/gtm-experts-outbound-index.md` — expert router
 - `templates/output-template.md` — waterfall diagram + credit budget deliverable
 - `scripts/check-output.py` — local checklist validator for required sections

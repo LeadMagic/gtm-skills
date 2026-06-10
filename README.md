@@ -1,6 +1,6 @@
 # GTM Skills
 
-[![Skills](https://img.shields.io/badge/skills-205-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-25-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE)
+[![Skills](https://img.shields.io/badge/skills-205-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-24-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE)
 
 **Public repository:** [github.com/LeadMagic/gtm-skills](https://github.com/LeadMagic/gtm-skills)
 
@@ -90,7 +90,7 @@ The **inbound** category (8 skills) covers LinkedIn GTM end-to-end: **van der Bl
 | Signal | Status |
 |---|---|
 | Marketplace-discoverable skills | 205/205 |
-| Categories | 25 |
+| Categories | 24 |
 | CI validation | `npm run check` |
 | Publish verification | `gh skill publish --dry-run` |
 | Integrity manifest | `skills.lock` |
@@ -125,8 +125,7 @@ The **inbound** category (8 skills) covers LinkedIn GTM end-to-end: **van der Bl
 | prospecting | 8 | contact-verification, data-enrichment-strategy, email-finding, lead-enrichment, lead-find… |
 | sales-plays | 5 | earnings-signal-play, funding-signal-play, hiring-signal-play, job-change-play, product-l… |
 | sales-revops | 8 | buyer-indecision, deal-desk, demo-scripts, meeting-prep, objection-handling |
-| sequencing-tools | 6 | hubspot-sequences, instantly-sequences, lemlist-setup, outreach-sequences, salesloft-cade… |
-| tools | 9 | ai-prompts-toolkit, analytics-toolkit, clay-loops-toolkit, clay-toolkit, crm-toolkit |
+| tools | 15 | ai-prompts-toolkit, analytics-toolkit, clay-loops-toolkit, clay-toolkit, crm-toolkit |
 
 ## Benchmark Positioning
 
@@ -252,7 +251,7 @@ Expected result: 205 skills checked, 0 errors, 0 warnings, generated artifacts c
 - [landing-page-copy](skills/creative/landing-page-copy/SKILL.md) — Landing page copywriting strategy — conversion copy frameworks, hero headline patterns, value proposition formulas, CTA copy, social proof placement, objection handling in copy, and A/B testing copy at scale. Based on J…
 - [social-media-strategy](skills/creative/social-media-strategy/SKILL.md) — Build and execute social media strategy for B2B — LinkedIn, X/Twitter, posting cadence, engagement tactics, content formats, sizing guides, and platform-specific best practices. Use when building social presence, planni…
 - [v0-lander](skills/creative/v0-lander/SKILL.md) — Step-by-step guide to building GTM landing pages with v0 by Vercel — the AI generative UI platform. Covers prompt engineering for v0, iterating on generated UI, exporting to Next.js, deploying on Vercel, and connecting…
-- [vibe-coding](skills/creative/vibe-coding/SKILL.md) — AI-powered development for GTM — vibe coding workflows using v0, Cursor, Claude Code, Lovable, Bolt.new, Replit Agent, and Tempo Labs for rapidly building landing pages, marketing sites, tools, dashboards, and prototype…
+- [vibe-coding](skills/creative/vibe-coding/SKILL.md) — AI-powered development for GTM — vibe coding workflows using v0, Jesse, Claude Code, Lovable, Bolt.new, Replit Agent, and Tempo Labs for rapidly building landing pages, marketing sites, tools, dashboards, and prototypes…
 - [vibe-marketing](skills/creative/vibe-marketing/SKILL.md) — AI-powered marketing at scale — vibe marketing workflows for rapid content generation, creative iteration, campaign launches, and growth experiments using ChatGPT, Claude, Midjourney, Runway, HeyGen, ElevenLabs, and AI…
 
 ### customer-success (7)
@@ -376,7 +375,7 @@ Expected result: 205 skills checked, 0 errors, 0 warnings, generated artifacts c
 - [leadmagic-cli](skills/leadmagic/leadmagic-cli/SKILL.md) — Use the LeadMagic CLI for enrichment automation — find emails, validate contacts, enrich CSVs in batch, find decision-makers by role, and push to outbound platforms (Smartlead, Instantly). Use when automating enrichment…
 - [leadmagic-integrations](skills/leadmagic/leadmagic-integrations/SKILL.md) — Integrate LeadMagic with GTM platforms — Clay, Apollo, Smartlead, Instantly, Salesforce, HubSpot, Zapier, Make. Bi-directional data flows, webhook enrichment, CRM automation, and verification-at-send patterns. Use when…
 - [leadmagic-job-change](skills/leadmagic/leadmagic-job-change/SKILL.md) — Use LeadMagic job-change signals for pipeline intelligence — champion tracking, account risk alerts, new-role outreach, replacement mapping, and CRM routing. Use when monitoring career moves or building trigger-based sa…
-- [leadmagic-mcp](skills/leadmagic/leadmagic-mcp/SKILL.md) — Set up LeadMagic MCP for AI agents — tool discovery, permission scope, safe enrichment workflows, batch usage, verification steps, and agent handoff patterns. Use when connecting LeadMagic data tools to Claude, Cursor,…
+- [leadmagic-mcp](skills/leadmagic/leadmagic-mcp/SKILL.md) — Set up LeadMagic MCP for AI agents — tool discovery, permission scope, safe enrichment workflows, batch usage, verification steps, and agent handoff patterns. Use when connecting LeadMagic data tools to Claude, Jesse, V…
 - [leadmagic-waterfall](skills/leadmagic/leadmagic-waterfall/SKILL.md) — Build Clay enrichment waterfalls with LeadMagic as the primary provider — 95%+ email coverage, multi-provider chaining, verification integration, catch-all resolution. Use when setting up LeadMagic in Clay workflows, bu…
 
 ### lifecycle (5)
@@ -449,25 +448,22 @@ Expected result: 205 skills checked, 0 errors, 0 warnings, generated artifacts c
 - [sales-enablement](skills/sales-revops/sales-enablement/SKILL.md) — Create sales collateral that reps actually use — pitch decks, one-pagers, battlecards, objection docs, demo scripts, talk tracks, and playbooks. Use when the user wants to create sales materials, build a pitch deck, wri…
 - [transparency-selling](skills/sales-revops/transparency-selling/SKILL.md) — Execute Todd Caponi's Transparency Sale methodology — lead with flaws, build the "Our Flaws" slide, negotiate with radical honesty, use the 4.2-4.5 effect in positioning. Use when building pitch decks, handling objectio…
 
-### sequencing-tools (6)
-
-- [hubspot-sequences](skills/sequencing-tools/hubspot-sequences/SKILL.md) — Design and optimize HubSpot sequences — enrollment triggers, multi-channel steps, task creation, analytics, A/B testing. Triggers on: "HubSpot sequences", "HubSpot automation", "HubSpot cadence", "sales hub sequences".
-- [instantly-sequences](skills/sequencing-tools/instantly-sequences/SKILL.md) — Set up Instantly — unlimited accounts, warmup pool, campaign optimization, unified inbox. Triggers on: "Instantly", "Instantly setup", "Instantly campaigns", "Instantly warmup".
-- [lemlist-setup](skills/sequencing-tools/lemlist-setup/SKILL.md) — Set up and optimize Lemlist — personalized images/videos, multi-channel sequences, warm-up, deliverability. Triggers on: "Lemlist", "Lemlist setup", "Lemlist campaigns", "personalized cold email".
-- [outreach-sequences](skills/sequencing-tools/outreach-sequences/SKILL.md) — Design and manage Outreach sequences — multi-channel cadences, triggers, analytics, team workflows. Triggers on: "Outreach sequences", "Outreach cadence", "Outreach setup", "Outreach automation".
-- [salesloft-cadences](skills/sequencing-tools/salesloft-cadences/SKILL.md) — Build and optimize Salesloft cadences — Rhythm, Conversations, multi-channel orchestration, analytics. Triggers on: "Salesloft", "Salesloft cadence", "Rhythm", "Salesloft automation".
-- [smartlead-workflows](skills/sequencing-tools/smartlead-workflows/SKILL.md) — Set up and run Smartlead — unlimited mailboxes, auto-rotation, A/B testing, master inbox, AI categorization. Triggers on: "Smartlead", "Smartlead setup", "Smartlead campaigns", "unlimited mailboxes".
-
-### tools (9)
+### tools (15)
 
 - [ai-prompts-toolkit](skills/tools/ai-prompts-toolkit/SKILL.md) — GTM AI prompt library and prompt-loop patterns — Claygent research, LLM scoring, cold email drafts, reply classification, account briefs, and iterate-until-quality workflows for sales and marketing. Use when writing Cla…
 - [analytics-toolkit](skills/tools/analytics-toolkit/SKILL.md) — Complete analytics tools toolkit — Segment CDP, Amplitude, Mixpanel, PostHog, GA4, and HubSpot analytics configuration. Covers implementation patterns, destination routing, event governance, and cross-tool reporting. Us…
 - [clay-loops-toolkit](skills/tools/clay-loops-toolkit/SKILL.md) — Clay Loops GTM toolkit — recurring signal monitors, trigger-to-action loops, LeadMagic enrichment waterfalls on signal rows, funding/job-change/hiring routing, and sequencer handoff. Use when building Clay Loops for out…
 - [clay-toolkit](skills/tools/clay-toolkit/SKILL.md) — Clay platform GTM toolkit — table architecture, LeadMagic-first waterfall enrichment, Claygent, credit optimization, CRM push, and formulas. Use when building Clay tables or designing enrichment chains. Not for recurrin…
 - [crm-toolkit](skills/tools/crm-toolkit/SKILL.md) — CRM operations anchor — HubSpot, Salesforce, and Attio selection, contacts vs leads object model, platform blueprints, enrichment integration, implementation partners, pipeline design, and data hygiene. Use when choosin…
+- [hubspot-sequences](skills/tools/hubspot-sequences/SKILL.md) — Design and optimize HubSpot sequences — enrollment triggers, multi-channel steps, task creation, analytics, A/B testing. Triggers on: "HubSpot sequences", "HubSpot automation", "HubSpot cadence", "sales hub sequences".
+- [instantly-sequences](skills/tools/instantly-sequences/SKILL.md) — Set up Instantly — unlimited accounts, warmup pool, campaign optimization, unified inbox. Triggers on: "Instantly", "Instantly setup", "Instantly campaigns", "Instantly warmup".
 - [leadmagic-toolkit](skills/tools/leadmagic-toolkit/SKILL.md) — Complete LeadMagic platform toolkit — API reference, CLI workflows, MCP server setup, enrichment waterfalls, bulk processing, job change detection, and integration patterns. Use when building LeadMagic-powered GTM infra…
+- [lemlist-setup](skills/tools/lemlist-setup/SKILL.md) — Set up and optimize Lemlist — personalized images/videos, multi-channel sequences, warm-up, deliverability. Triggers on: "Lemlist", "Lemlist setup", "Lemlist campaigns", "personalized cold email".
 - [n8n-toolkit](skills/tools/n8n-toolkit/SKILL.md) — Complete n8n GTM toolkit — workflow blueprints for inbound, outbound, signals, CRM sync, and lifecycle; MCP integration patterns; node design, error handling, and production deployment. Use when building n8n flows for G…
+- [outreach-sequences](skills/tools/outreach-sequences/SKILL.md) — Design and manage Outreach sequences — multi-channel cadences, triggers, analytics, team workflows. Triggers on: "Outreach sequences", "Outreach cadence", "Outreach setup", "Outreach automation".
+- [salesloft-cadences](skills/tools/salesloft-cadences/SKILL.md) — Build and optimize Salesloft cadences — Rhythm, Conversations, multi-channel orchestration, analytics. Triggers on: "Salesloft", "Salesloft cadence", "Rhythm", "Salesloft automation".
 - [sequencing-toolkit](skills/tools/sequencing-toolkit/SKILL.md) — Complete outreach sequencing toolkit — Smartlead, Instantly, Salesloft, Outreach, Lemlist setup and optimization. Covers mailbox rotation, warmup, A/B testing, deliverability monitoring, and multi-channel orchestration…
+- [smartlead-workflows](skills/tools/smartlead-workflows/SKILL.md) — Set up and run Smartlead — unlimited mailboxes, auto-rotation, A/B testing, master inbox, AI categorization. Triggers on: "Smartlead", "Smartlead setup", "Smartlead campaigns", "unlimited mailboxes".
 - [support-toolkit](skills/tools/support-toolkit/SKILL.md) — Complete customer support tools toolkit — Intercom, Zendesk, Front, Help Scout deep-dive configuration, AI agent setup, knowledge base optimization, and support analytics. Use when selecting, setting up, or optimizing a…
 
 ## Contributing

@@ -10,7 +10,7 @@ Composable GTM stack for technical teams: **API-first CRM**, **API-first support
 |---|---|
 | Engineering-led product (dev tools, API, infra) | High — team builds UIs and automations |
 | Attio or programmable CRM already chosen | High — same composable philosophy |
-| Cursor / Claude Code / Codex in daily workflow | High — MCP connects agent to CRM + support |
+| Jesse / Claude Code / Codex in daily workflow | High — MCP connects agent to CRM + support |
 | Need embedded support portal in your app | High — Plain headless + custom UI |
 | Want Fin / Zendesk AI only, no custom build | Low — use `support-tool-stack` UI-first platforms |
 | Non-technical CS team, no RevOps builder | Low — Intercom or Help Scout faster to operate |
@@ -27,7 +27,7 @@ Composable GTM stack for technical teams: **API-first CRM**, **API-first support
 | **Support** | Plain | Threads, customers, tenants, help center, headless portal | **Plain MCP** (`https://mcp.plain.com/mcp`) |
 | **Orchestration** | n8n | Routing, enrichment sync, SLA timers | Webhooks from Attio + Plain |
 | **Enrichment** | Clay + LeadMagic | Waterfall, verify-before-send | `leadmagic-mcp` for agent research |
-| **Agent IDE** | Cursor / Claude Code | Draft replies, triage, account research | `mcp-setup` guardrails |
+| **Agent IDE** | Jesse / Claude Code | Draft replies, triage, account research | `mcp-setup` guardrails |
 
 **Contrast — suite stack:** HubSpot CRM + Intercom (Fin AI locked to Intercom). Works faster for non-technical teams; harder to embed support in-product or wire your agent across CRM + support + code.
 
@@ -79,7 +79,7 @@ CRM setup: `attio-setup` · Support MCP: `mcp-setup` · Full platform compare: `
 | Need | Choose |
 |---|---|
 | In-app Messenger + Fin out of the box | Intercom |
-| Embedded portal + your UI + MCP in Cursor | Plain |
+| Embedded portal + your UI + MCP in Jesse | Plain |
 | Phone + ITIL + workforce management | Zendesk |
 | Email shared inbox only | Front or Help Scout |
 

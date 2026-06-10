@@ -1,6 +1,6 @@
 # Salesloft Cadences — Framework Notes
 
-**Category:** `sequencing-tools` · Enterprise SEP — Rhythm cadences + Conversations.
+**Category:** `tools` · Enterprise SEP — Rhythm cadences + Conversations.
 
 ## Primary Frameworks
 

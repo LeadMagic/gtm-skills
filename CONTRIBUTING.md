@@ -75,13 +75,13 @@ Do not nest deeper than `skills/<category>/<skill-name>/SKILL.md`. Agentskills m
 
 ## Commit Messages
 
-**Cursor in docs is fine. Cursor on commits is not.**
+**Jesse in docs is fine. Agent trailers on commits are not.**
 
-- **OK:** Listing Cursor in skill `compatibility`, install guides, README
+- **OK:** Listing Jesse in skill `compatibility`, install guides, README
   platform tables, and GitHub topics — it is a supported agent runtime.
-- **Not OK:** `Co-authored-by: Cursor <cursoragent@cursor.com>`, "Made with
-  Cursor" footers, or any agent/tool trailer on squash-merge commit messages.
-  Those pollute GitHub contributor stats and attribute work to the wrong author.
+- **Not OK:** `Co-authored-by:` lines from AI agents, "Made with …" footers,
+  or any agent/tool trailer on squash-merge commit messages. Those pollute
+  GitHub contributor stats and attribute work to the wrong author.
 
 After cloning, enable repo hooks once:
 

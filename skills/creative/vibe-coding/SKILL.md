@@ -1,20 +1,20 @@
 ---
 name: vibe-coding
 description: >-
-  AI-powered development for GTM — vibe coding workflows using v0, Cursor,
+  AI-powered development for GTM — vibe coding workflows using v0, Jesse,
   Claude Code, Lovable, Bolt.new, Replit Agent, and Tempo Labs for rapidly
   building landing pages, marketing sites, tools, dashboards, and prototypes.
   Based on Andrej Karpathy's "vibe coding" philosophy. Use when building GTM
   assets with AI, shipping marketing sites fast, or teaching non-technical
   team members to build with AI. Triggers on: "vibe coding", "AI dev tools",
-  "build with AI", "v0 by Vercel", "Lovable", "Bolt", "Cursor AI".
+  "build with AI", "v0 by Vercel", "Lovable", "Bolt", "Jesse IDE".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: creative
-  tags: [vibe-coding, ai-development, v0, cursor, claude-code, lovable, bolt, replit, karpathy, building-with-ai]
+  tags: [vibe-coding, ai-development, v0, jesse, claude-code, lovable, bolt, replit, karpathy, building-with-ai]
   related_skills: [vibe-marketing, v0-lander, ai-content-creation, claude-design, landing-pages, design-system-gtm, popular-web-designs]
   frameworks:
     - "Andrej Karpathy — Vibe Coding (2025): 'fully give in to the vibes, embrace exponentials, forget the code exists'"
@@ -39,7 +39,7 @@ across 6 platforms, ranked by GTM utility.
 
 ## When to Use
 
-Trigger phrases: "vibe coding", "build with v0", "AI landing page", "Cursor
+Trigger phrases: "vibe coding", "build with v0", "AI landing page", "Jesse
 for marketing site", "Lovable app", "Bolt build", "Replit Agent", "AI dev
 tool", "build without coding", "Claude Code for GTM", "AI website builder"
 
@@ -81,7 +81,7 @@ If it doesn't, I describe the problem and the AI fixes it."
 | **v0 by Vercel** | Landing pages, UI components, React apps | Free-$20/mo | Zero code | Production React/Next.js |
 | **Lovable** | Full-stack apps, tools, SaaS MVPs | Free-$20/mo | Zero code | Full-stack apps with backend |
 | **Bolt.new** | Rapid prototyping, full apps | Free-$20/mo | Zero code | Full-stack apps |
-| **Cursor + Claude** | Codebase-level changes, complex features | $20/mo | Some code | Any codebase |
+| **Jesse + Claude** | Codebase-level changes, complex features | $20/mo | Some code | Any codebase |
 | **Claude Code** | Terminal-based, agentic development | API usage | Technical | Full codebases |
 | **Replit Agent** | Quick tools, internal dashboards | $25/mo | Minimal code | Hosted apps |
 | **Tempo Labs** | React UI components, design-to-code | Free-$15/mo | Zero code | React components |
@@ -158,7 +158,7 @@ faster iteration cycles. Best for "show me something in 60 seconds."
    referral links. Add a leaderboard showing top referrers."
 4. **Deploy:** One-click deploy to Netlify or similar.
 
-### Cursor + Claude (Best for Complex GTM Codebases)
+### Jesse + Claude (Best for Complex GTM Codebases)
 
 **What it is:** AI-native IDE. Claude/GPT integrated into your editor.
 Full codebase awareness. Best for developers who want AI acceleration,
@@ -171,7 +171,7 @@ not replacement.
 - Complex landing pages with dynamic content
 
 **Workflow:**
-1. **Open your GTM codebase in Cursor**
+1. **Open your GTM codebase in Jesse**
 2. **Cmd+K:** "Build a landing page component that pulls customer logos
    from a JSON file and displays them in a responsive grid."
 3. **Cmd+L (chat):** "Now add a modal that opens when you click a logo,
@@ -225,7 +225,7 @@ Write a detailed prompt. Include:
 - Reference sites ("looks like Stripe's pricing page")
 
 ### Step 3: Generate (1 min)
-Paste into v0 / Lovable / Bolt / Cursor / Claude Code.
+Paste into v0 / Lovable / Bolt / Jesse / Claude Code.
 
 ### Step 4: Iterate (15-30 min)
 - "Change the hero headline to be more benefit-focused"
@@ -281,7 +281,7 @@ processing cannot.
 VIBE CODING ARTIFACT PLAN
 
 Artifact: [landing page / calculator / tool / dashboard]
-Platform: [v0 / Lovable / Bolt / Cursor / Claude Code / Replit]
+Platform: [v0 / Lovable / Bolt / Jesse / Claude Code / Replit]
 Audience: [ICP]
 Success Metric: [conversion rate / signups / demos]
 
@@ -353,7 +353,7 @@ Before delivering, verify:
 | **Sahil Lavingia** | @shl (X) | Gumroad, AI-first product building |
 | **Marc Lou** | @marc_lou (X) | AI shipping machine, 20+ products |
 | **Guillermo Rauch** | @rauchg (X) | v0, Vercel, generative UI |
-| **Riley Brown** | @rileybrown_ai (X) | AI coding tutorials, Cursor workflows |
+| **Riley Brown** | @rileybrown_ai (X) | AI coding tutorials, Jesse workflows |
 | **Mckay Wrigley** | @mckaywrigley (X) | AI coding, Claude Code workflows |
 | **Sully Omarr** | @SullyOmarr (X) | Lovable, Bolt, AI app building |
 

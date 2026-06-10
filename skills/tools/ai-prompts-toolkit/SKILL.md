@@ -5,11 +5,11 @@ description: >-
   scoring, cold email drafts, reply classification, account briefs, and
   iterate-until-quality workflows for sales and marketing. Use when writing
   Clay AI prompts, designing prompt chains, or building research→draft→score
-  loops in Clay, n8n, or Cursor. Triggers on: "GTM prompts", "Claygent prompt",
+  loops in Clay, n8n, or Jesse. Triggers on: "GTM prompts", "Claygent prompt",
   "AI prompt loop", "cold email prompt", "reply classification prompt", "LLM
   column Clay", "prompt chain GTM", "research prompt sales".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -33,7 +33,7 @@ source URLs, word limits, banned claims, ICP context, and explicit failure
 behavior when data is missing.
 
 This skill is the GTM prompt library: copy-paste prompts for Claygent, Clay AI
-columns, n8n LLM nodes, and Cursor agents — plus **prompt loops** that iterate
+columns, n8n LLM nodes, and Jesse agents — plus **prompt loops** that iterate
 research → draft → score → revise until quality gates pass.
 
 ## When to Use
@@ -82,7 +82,7 @@ Load full copy-paste prompts from `references/prompt-library.md`.
 | `P05` | Email quality score (1–10) | LLM column |
 | `P06` | Reply classify (interested/objection/OOO) | LLM / n8n |
 | `P07` | ICP fit score with reasoning | LLM column |
-| `P08` | Meeting brief pre-call | Cursor / LLM |
+| `P08` | Meeting brief pre-call | Jesse / LLM |
 | `P09` | Champion identification | Claygent |
 | `P10` | Competitor mention extractor | Claygent |
 
