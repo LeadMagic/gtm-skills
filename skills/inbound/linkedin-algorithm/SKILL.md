@@ -9,7 +9,7 @@ description: >-
   "best time to post LinkedIn", "LinkedIn format", "carousel vs video", "hashtags
   LinkedIn", "van der Blom", "dwell time", "LinkedIn engagement drop".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

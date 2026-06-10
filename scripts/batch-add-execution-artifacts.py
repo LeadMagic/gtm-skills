@@ -15,7 +15,6 @@ ARTIFACT_REQUIRED_CATEGORIES = {
     "automation",
     "design",
     "leadmagic",
-    "sequencing-tools",
     "tools",
 }
 

@@ -8,7 +8,7 @@ description: >-
   "exit strategy", "sell company", "acquisition prep", "M&A", "due diligence",
   "company valuation", "exit planning", "PE acquisition", "bootstrap exit".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.1.0"
   author: LeadMagic

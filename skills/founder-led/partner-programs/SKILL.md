@@ -3,7 +3,7 @@ name: partner-programs
 description: >-
   Design partner programs for startups: partner ICP, co-marketing offers, referral mechanics, integration partners, attribution, enablement, and compensation. Use when building affiliates, referral partners, ecosystem channels, agencies, or integration-led growth.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

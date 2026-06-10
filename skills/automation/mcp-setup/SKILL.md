@@ -6,7 +6,7 @@ description: >-
   Use when connecting CRM, enrichment, sequencing, analytics, or support tools to
   AI agents through MCP.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -26,7 +26,7 @@ This skill configures MCP for GTM workflows where agents research accounts, enri
 
 ## When to Use
 
-Use this skill when the user asks to "set up MCP for sales tools", "connect our CRM to Claude/Cursor", "give my agent enrichment capabilities", "build an MCP server for GTM tools", "configure MCP permissions", "connect LeadMagic MCP", "orchestrate multiple MCP servers", or "make agent tool use safer".
+Use this skill when the user asks to "set up MCP for sales tools", "connect our CRM to Claude/Jesse", "give my agent enrichment capabilities", "build an MCP server for GTM tools", "configure MCP permissions", "connect LeadMagic MCP", "orchestrate multiple MCP servers", or "make agent tool use safer".
 
 ## Authoritative Foundations
 

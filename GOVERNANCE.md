@@ -47,4 +47,4 @@ Maintainers are responsible for:
 
 ## Compatibility Policy
 
-Skills should remain portable across Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, and Goose unless a skill explicitly requires a specific tool.
+Skills should remain portable across Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, and Goose unless a skill explicitly requires a specific tool.

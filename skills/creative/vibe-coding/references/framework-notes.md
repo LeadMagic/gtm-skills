@@ -43,7 +43,7 @@ writes 80% of the code. I g
 | **v0 by Vercel** | Landing pages, UI components, React apps | Free-$20/mo | Zero code | Production React/Next.js |
 | **Lovable** | Full-stack apps, tools, SaaS MVPs | Free-$20/mo | Zero code | Full-stack apps with backend |
 | **Bolt.new** | Rapid prototyping, full apps | Free-$20/mo | Zero code | Full-stack apps |
-| **Cursor + Claude** | Codebase-level changes, complex features | $20/mo | Some code | Any codebase |
+| **Jesse + Claude** | Codebase-level changes, complex features | $20/mo | Some code | Any codebase |
 | **Claude Code** | Terminal-based, agentic development | API usage | Technical | Full codebases |
 | **Replit Agent** | Quick tools, internal dashboards | $25/mo | Minimal code | Hosted apps |
 | **Tempo Labs** | React UI components, design-to-code | Free-$15/mo | Zero code | React components |
@@ -55,7 +55,7 @@ writes 80% of the code. I g
 | **Sahil Lavingia** | @shl (X) | Gumroad, AI-first product building |
 | **Marc Lou** | @marc_lou (X) | AI shipping machine, 20+ products |
 | **Guillermo Rauch** | @rauchg (X) | v0, Vercel, generative UI |
-| **Riley Brown** | @rileybrown_ai (X) | AI coding tutorials, Cursor workflows |
+| **Riley Brown** | @rileybrown_ai (X) | AI coding tutorials, Jesse workflows |
 | **Mckay Wrigley** | @mckaywrigley (X) | AI coding, Claude Code workflows |
 | **Sully Omarr** | @SullyOmarr (X) | Lovable, Bolt, AI app building |
 

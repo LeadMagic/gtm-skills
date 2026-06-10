@@ -1,6 +1,6 @@
 # GTM Skills — Master Skill Index
 
-One-page map of **204 skills** across **25 categories**. Load `foundation/using-gtm-skills` first for patterns and workflows.
+One-page map of **205 skills** across **24 categories**. Load `foundation/using-gtm-skills` first for patterns and workflows.
 
 **Master router:** `skills/foundation/using-gtm-skills/SKILL.md`
 
@@ -20,7 +20,7 @@ One-page map of **204 skills** across **25 categories**. Load `foundation/using-
 | SaaS metrics ref | `references/saas-metrics-reference.md` | Benchmark formulas |
 | SEO playbook | `references/seo-strategy-playbook.md` | Product-led SEO stack |
 
-## Categories (25)
+## Categories (24)
 
 ### Account-Based Marketing (`abm/`) — 7 skills
 
@@ -104,7 +104,7 @@ Vibe marketing, AI content/video, copywriting, growth hacks. **Start skill:** `v
 | `landing-page-copy` | Landing page copywriting strategy — conversion copy frameworks, hero headline patterns, v… |
 | `social-media-strategy` | Build and execute social media strategy for B2B — LinkedIn, X/Twitter, posting cadence, e… |
 | `v0-lander` | Step-by-step guide to building GTM landing pages with v0 by Vercel — the AI generative UI… |
-| `vibe-coding` | AI-powered development for GTM — vibe coding workflows using v0, Cursor, Claude Code, Lov… |
+| `vibe-coding` | AI-powered development for GTM — vibe coding workflows using v0, Jesse, Claude Code, Lova… |
 | `vibe-marketing` | AI-powered marketing at scale — vibe marketing workflows for rapid content generation, cr… |
 
 ### Customer Success (`customer-success/`) — 7 skills
@@ -243,9 +243,9 @@ RevOps stack, spend, PM/RACI, campaign governance. **Start skill:** `gtm-operati
 | `gtm-tool-cost-model` | GTM tool cost modeling — per-seat licensing, usage-based fees, cloud infra, enrichment cr… |
 | `revops-tech-stack` | Design, audit, and consolidate the RevOps technology stack — CRM, enrichment, sequencing,… |
 
-### Inbound & PLG-adjacent (`inbound/`) — 7 skills
+### Inbound & PLG-adjacent (`inbound/`) — 8 skills
 
-Content marketing, triage, landing pages, LinkedIn algorithm + Live, social selling, visitor ID. **Start skill:** `linkedin-algorithm`
+Content marketing, triage, landing pages, LinkedIn algorithm + Live, Sales Navigator, social selling, visitor ID. **Start skill:** `linkedin-algorithm`
 
 | Skill | One-line |
 |---|---|
@@ -254,6 +254,7 @@ Content marketing, triage, landing pages, LinkedIn algorithm + Live, social sell
 | `landing-pages` | Audit and optimize landing pages for conversion — hero/offer/proof/CTA patterns, CRO audi… |
 | `linkedin-algorithm` | Optimize LinkedIn organic reach using Richard van der Blom's Algorithm Insights Report (J… |
 | `linkedin-live-strategy` | Launch and scale B2B LinkedIn Live using Jessie Lizak's Reveting playbook — weekly livest… |
+| `sales-navigator-prospecting` | Run LinkedIn Sales Navigator prospecting using Morgan J. Ingram's AMP playbook — high-int… |
 | `social-selling` | Build a LinkedIn social selling strategy — Sales Navigator, DM sequences, content-to-conv… |
 | `website-visitor-identification` | Design website visitor identification and deanonymization programs — company vs person-le… |
 
@@ -372,22 +373,9 @@ Pipeline, demos, deal desk, enablement, objections. **Start skill:** `pipeline-m
 | `sales-enablement` | Create sales collateral that reps actually use — pitch decks, one-pagers, battlecards, ob… |
 | `transparency-selling` | Execute Todd Caponi's Transparency Sale methodology — lead with flaws, build the "Our Fla… |
 
-### Sequencing Platforms (`sequencing-tools/`) — 6 skills
+### GTM Toolkits & Sequencers (`tools/`) — 15 skills
 
-Instantly, Smartlead, lemlist, Outreach, Salesloft. **Start skill:** `smartlead-workflows`
-
-| Skill | One-line |
-|---|---|
-| `hubspot-sequences` | Design and optimize HubSpot sequences — enrollment triggers, multi-channel steps, task cr… |
-| `instantly-sequences` | Set up Instantly — unlimited accounts, warmup pool, campaign optimization, unified inbox.… |
-| `lemlist-setup` | Set up and optimize Lemlist — personalized images/videos, multi-channel sequences, warm-u… |
-| `outreach-sequences` | Design and manage Outreach sequences — multi-channel cadences, triggers, analytics, team… |
-| `salesloft-cadences` | Build and optimize Salesloft cadences — Rhythm, Conversations, multi-channel orchestratio… |
-| `smartlead-workflows` | Set up and run Smartlead — unlimited mailboxes, auto-rotation, A/B testing, master inbox,… |
-
-### Toolkits (`tools/`) — 9 skills
-
-Clay, CRM, n8n, sequencing, analytics, support toolkits. **Start skill:** `clay-toolkit`
+Clay, CRM, n8n, analytics, support toolkits; sequencing-toolkit plus Instantly, Smartlead, lemlist, Outreach, Salesloft, HubSpot platform skills. **Start skill:** `clay-toolkit`
 
 | Skill | One-line |
 |---|---|
@@ -396,8 +384,14 @@ Clay, CRM, n8n, sequencing, analytics, support toolkits. **Start skill:** `clay-
 | `clay-loops-toolkit` | Clay Loops GTM toolkit — recurring signal monitors, trigger-to-action loops, LeadMagic en… |
 | `clay-toolkit` | Clay platform GTM toolkit — table architecture, LeadMagic-first waterfall enrichment, Cla… |
 | `crm-toolkit` | CRM operations anchor — HubSpot, Salesforce, and Attio selection, contacts vs leads objec… |
+| `hubspot-sequences` | Design and optimize HubSpot sequences — enrollment triggers, multi-channel steps, task cr… |
+| `instantly-sequences` | Set up Instantly — unlimited accounts, warmup pool, campaign optimization, unified inbox.… |
 | `leadmagic-toolkit` | Complete LeadMagic platform toolkit — API reference, CLI workflows, MCP server setup, enr… |
+| `lemlist-setup` | Set up and optimize Lemlist — personalized images/videos, multi-channel sequences, warm-u… |
 | `n8n-toolkit` | Complete n8n GTM toolkit — workflow blueprints for inbound, outbound, signals, CRM sync,… |
+| `outreach-sequences` | Design and manage Outreach sequences — multi-channel cadences, triggers, analytics, team… |
+| `salesloft-cadences` | Build and optimize Salesloft cadences — Rhythm, Conversations, multi-channel orchestratio… |
 | `sequencing-toolkit` | Complete outreach sequencing toolkit — Smartlead, Instantly, Salesloft, Outreach, Lemlist… |
+| `smartlead-workflows` | Set up and run Smartlead — unlimited mailboxes, auto-rotation, A/B testing, master inbox,… |
 | `support-toolkit` | Complete customer support tools toolkit — Intercom, Zendesk, Front, Help Scout deep-dive… |
 

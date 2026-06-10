@@ -8,15 +8,16 @@ description: >-
   selling", "Sales Navigator", "LinkedIn outreach", "LinkedIn DMs", "profile
   optimization", "SSI", "LinkedIn strategy", or any request about LinkedIn for sales.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.3.0"
   author: LeadMagic
   category: inbound
   tags: [linkedin, social-selling, sales-navigator, outreach]
-  related_skills: [multi-channel-outreach, cold-email-strategy, founder-brand, linkedin-algorithm, linkedin-live-strategy]
+  related_skills: [sales-navigator-prospecting, multi-channel-outreach, cold-email-strategy, founder-brand, linkedin-algorithm, linkedin-live-strategy]
   frameworks:
     - "LinkedIn SSI Methodology"
+    - "Morgan J. Ingram (AMP Social) — Sales Navigator filter-specific prospecting"
     - "Richard van der Blom (Just Connecting) — LinkedIn Algorithm Insights Report"
     - "Jessie Lizak (Reveting) — LinkedIn Live & livestream content engine"
     - "HubSpot Academy — Inbound Methodology"
@@ -54,6 +55,14 @@ LinkedIn's own Social Selling Index (SSI) measures four dimensions: professional
 brand, finding the right people, engaging with insights, and building relationships.
 LinkedIn data shows that SSI leaders create 45% more opportunities and are 51%
 more likely to hit quota.
+
+**Morgan J. Ingram (AMP Social) — Sales Navigator prospecting.** For the
+**tactical Sales Nav layer** (saved searches, filter-specific messages, insight +
+question executive engagement, 15-minute daily alert workflow), load
+`sales-navigator-prospecting` →
+`skills/inbound/sales-navigator-prospecting/references/morgan-ingram-sales-navigator.md`.
+This skill covers profile, SSI, and general DM sequencing; Ingram covers intent
+filters and message-variant systems.
 
 **Varun Anand (Clay) — Community infiltration.** Social selling extends beyond
 LinkedIn DMs: join Slack, WhatsApp, and practitioner communities where buyers
@@ -97,6 +106,11 @@ It must build trust in under 10 seconds:
 - **Recommendations**: 5+ from clients or colleagues. Social proof wins
 
 ### Phase 2: Sales Navigator Workflows
+
+For filter stacks, saved-search alerts, and filter-specific message libraries,
+load `sales-navigator-prospecting` (Morgan J. Ingram / AMP). Minimum high-intent
+filters: Posted last 30 days, Following your company, Viewed your profile, tenure
+< 1 year and 6–12 months.
 
 1. **Lead search**: Filter by title, company size, industry, geography, and
    recent activity (posted in last 30 days = active user = more likely to respond)
@@ -180,6 +194,7 @@ Social selling playbook with profile optimization checklist, DM sequences
 
 ## Related Skills
 
+- **sales-navigator-prospecting**: Sales Nav filters, saved searches, filter-specific messages (Morgan Ingram)
 - **multi-channel-outreach**: Coordinate LinkedIn with email and calls
 - **linkedin-algorithm**: Organic reach mechanics (van der Blom report data)
 - **linkedin-live-strategy**: Weekly LinkedIn Live shows and repurposing (Jessie Lizak / Reveting)

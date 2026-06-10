@@ -8,7 +8,7 @@ description: >-
   "marketing strategy", "marketing plan", "demand generation", "brand strategy",
   "marketing budget", "channel strategy", or any marketing planning request.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

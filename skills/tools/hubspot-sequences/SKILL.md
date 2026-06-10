@@ -5,11 +5,11 @@ description: >-
   task creation, analytics, A/B testing. Triggers on: "HubSpot sequences", "HubSpot 
   automation", "HubSpot cadence", "sales hub sequences".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic
-  category: sequencing-tools
+  category: tools
   tags: [hubspot, sequences, sales-hub, crm, cadence]
   frameworks:
     - "HubSpot Sequences Best Practices"

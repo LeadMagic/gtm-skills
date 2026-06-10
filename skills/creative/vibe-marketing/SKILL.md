@@ -10,7 +10,7 @@ description: >-
   on prompts. Triggers on: "vibe marketing", "AI marketing", "AI content",
   "scale content with AI", "AI campaign generation".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -62,7 +62,7 @@ with AI", "AI campaign generation", "prompt to publish", "AI creative",
 | Tool | Marketing Use | Cost | Output Quality |
 |---|---|---|---|
 | **Claude 4 / ChatGPT 4o** | Copywriting, strategy, outlines, email, social, ads | $20/mo | Production-ready with review |
-| **Claude Code / Cursor** | Landing pages, interactive tools | $20/mo | Production-ready |
+| **Claude Code / Jesse** | Landing pages, interactive tools | $20/mo | Production-ready |
 | **Midjourney / DALL-E 3** | Ad creatives, social graphics, hero images | $10-30/mo | Production-ready |
 | **Runway / Pika** | Short-form video ads, social video | $15-95/mo | Needs editing |
 | **HeyGen / Synthesia** | AI spokesperson videos, personalized demos | $29-89/mo | Near-production |

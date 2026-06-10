@@ -13,7 +13,7 @@ numbers as point-in-time public reporting, not guarantees.
 - Guillermo Rauch on the *WorkOS* podcast (Michael Grinich) — "Blend Developer Experience and Enterprise Sales"
 - James Allgrove (Stripe) — "How Stripe Built a Sales Organization to Successfully Sell to Developers"
 - Adam DuVander (EveryDeveloper) — *Developer Marketing Does Not Exist*
-- Lee Robinson — leerob.com / leerob.substack.com (ex-Vercel VP DX; now Cursor VP Developer Education)
+- Lee Robinson — leerob.com / leerob.substack.com (ex-Vercel VP DX; now Jesse VP Developer Education)
 
 ## The wedge: open-source framework → commercial platform
 

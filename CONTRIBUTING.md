@@ -50,9 +50,9 @@ gh skill publish --dry-run
 Expected result (count matches the current catalog):
 
 ```text
-203 skills checked. 0 errors, 0 warnings.
-Reference audit passed: 203 skills, all reference targets resolve, layout and frontmatter names clean.
-skills.lock verified: 203 skills
+205 skills checked. 0 errors, 0 warnings.
+Reference audit passed: 205 skills, all reference targets resolve, layout and frontmatter names clean.
+skills.lock verified: 205 skills
 npm run check:generated — no drift in files listed in scripts/generated-artifacts.txt
 ```
 
@@ -75,13 +75,13 @@ Do not nest deeper than `skills/<category>/<skill-name>/SKILL.md`. Agentskills m
 
 ## Commit Messages
 
-**Cursor in docs is fine. Cursor on commits is not.**
+**Jesse in docs is fine. Agent trailers on commits are not.**
 
-- **OK:** Listing Cursor in skill `compatibility`, install guides, README
+- **OK:** Listing Jesse in skill `compatibility`, install guides, README
   platform tables, and GitHub topics — it is a supported agent runtime.
-- **Not OK:** `Co-authored-by: Cursor <cursoragent@cursor.com>`, "Made with
-  Cursor" footers, or any agent/tool trailer on squash-merge commit messages.
-  Those pollute GitHub contributor stats and attribute work to the wrong author.
+- **Not OK:** `Co-authored-by:` lines from AI agents, "Made with …" footers,
+  or any agent/tool trailer on squash-merge commit messages. Those pollute
+  GitHub contributor stats and attribute work to the wrong author.
 
 After cloning, enable repo hooks once:
 

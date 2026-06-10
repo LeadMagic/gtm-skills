@@ -5,7 +5,7 @@ description: >-
   building, measurement. Triggers on: "SEO strategy", "search engine optimization",
   "B2B SEO", "keyword research", "SEO plan".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

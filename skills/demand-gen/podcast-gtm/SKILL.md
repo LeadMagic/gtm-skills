@@ -5,7 +5,7 @@ description: >-
   content repurposing, pipeline conversion. Triggers on: "podcast GTM", "podcast
   appearances", "be a podcast guest", "podcast marketing".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

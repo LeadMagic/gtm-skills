@@ -21,7 +21,7 @@
 - [ ] All new or changed support files are linked from SKILL.md
 - [ ] No private/internal details, secrets, customer data, or credentials
 - [ ] No telemetry/tracking/crash analytics dependencies added
-- [ ] No `Co-authored-by: Cursor` or "Made with Cursor" in squash-merge commit message
+- [ ] No agent co-author trailers (`Co-authored-by:`, "Made with …") in squash-merge commit message
 
 ## Skill Checklist
 

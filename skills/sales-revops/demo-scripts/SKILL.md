@@ -7,7 +7,7 @@ description: >-
   demonstrations. Triggers on: "demo script", "product demo", "demo flow",
   "how to demo", "demo structure", "demo talk track", or any demo-related request.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.2.0"
   author: LeadMagic

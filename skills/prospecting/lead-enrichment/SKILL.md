@@ -3,7 +3,7 @@ name: lead-enrichment
 description: >-
   Enrich prospect and account lists with company, contact, role, technographic, intent, funding, hiring, and confidence fields. Produces enrichment schema, waterfall order, QA thresholds, dedupe rules, and CRM-ready output. Use when turning raw lists into usable GTM data or improving data quality.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

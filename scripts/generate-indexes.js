@@ -11,7 +11,7 @@ const path = require('node:path');
 const ROOT = path.join(__dirname, '..');
 const SKILLS_DIR = path.join(ROOT, 'skills');
 const PLUGIN_DIR = path.join(ROOT, '.claude-plugin');
-const VERSION = '0.26.1';
+const VERSION = '0.27.0';
 
 // Human-facing category guide for references/skill-index-master.md (generated).
 const CATEGORY_GUIDE = {
@@ -28,7 +28,7 @@ const CATEGORY_GUIDE = {
   'founder-led': { title: 'Founder-Led GTM', blurb: 'Fundraising, hiring, legal, founder sales, solo GTM.', start: 'solo-founder-gtm' },
   'gtm-ops': { title: 'GTM Operations', blurb: 'RevOps stack, spend, PM/RACI, campaign governance.', start: 'gtm-operations' },
   growth: { title: 'Growth & Expansion', blurb: 'Referrals, expansion, churn prevention, reviews.', start: 'expansion-selling' },
-  inbound: { title: 'Inbound & PLG-adjacent', blurb: 'Content marketing, triage, landing pages, LinkedIn algorithm + Live, social selling, visitor ID.', start: 'linkedin-algorithm' },
+  inbound: { title: 'Inbound & PLG-adjacent', blurb: 'Content marketing, triage, landing pages, LinkedIn algorithm + Live, Sales Navigator, social selling, visitor ID.', start: 'linkedin-algorithm' },
   leadmagic: { title: 'LeadMagic Product', blurb: 'CLI, MCP, waterfall, bulk enrichment integrations.', start: 'leadmagic-waterfall' },
   'management-leadership': { title: 'Leadership & Coaching', blurb: 'GTM leadership, coaching, onboarding, exec comp.', start: 'gtm-leadership' },
   lifecycle: { title: 'Lifecycle Marketing', blurb: 'MQL nurture, onboarding drips, churn, re-engagement.', start: 'mql-nurture' },
@@ -37,9 +37,12 @@ const CATEGORY_GUIDE = {
   'product-led-growth': { title: 'Product-Led Growth', blurb: 'PLG strategy, freemium optimization, developer GTM.', start: 'plg-strategy' },
   prospecting: { title: 'Prospecting & Data', blurb: 'Lead finding, enrichment, verification, signals.', start: 'lead-finding' },
   'sales-revops': { title: 'Sales & RevOps', blurb: 'Pipeline, demos, deal desk, enablement, objections.', start: 'pipeline-management' },
-  'sequencing-tools': { title: 'Sequencing Platforms', blurb: 'Instantly, Smartlead, lemlist, Outreach, Salesloft.', start: 'smartlead-workflows' },
   'sales-plays': { title: 'Signal Sales Plays', blurb: 'Funding, hiring, job change, earnings plays.', start: 'funding-signal-play' },
-  tools: { title: 'Toolkits', blurb: 'Clay, CRM, n8n, sequencing, analytics, support toolkits.', start: 'clay-toolkit' },
+  tools: {
+    title: 'GTM Toolkits & Sequencers',
+    blurb: 'Clay, CRM, n8n, analytics, support toolkits; sequencing-toolkit plus Instantly, Smartlead, lemlist, Outreach, Salesloft, HubSpot platform skills.',
+    start: 'clay-toolkit',
+  },
 };
 
 function csvEscape(value) {
@@ -255,7 +258,7 @@ claude = claude.replace(
 fs.writeFileSync(path.join(ROOT, 'CLAUDE.md'), claude);
 
 let agents = `# gtm-skills — Agent Skills Index\n\n${total} production GTM skills for AI agents. This repo follows the Anthropic/agentskills pattern: portable skill folders with SKILL.md plus optional scripts/, references/, templates/, and assets/.\n\n`;
-agents += `## Install\n\nClaude Code marketplace style:\n\n\`\`\`text\n/plugin marketplace add LeadMagic/gtm-skills\n/plugin install gtm-skills@gtm-skills\n\`\`\`\n\nagentskills CLI style:\n\n\`\`\`bash\ngh skill install LeadMagic/gtm-skills\ngh skill install LeadMagic/gtm-skills pricing-strategy\ngh skill install LeadMagic/gtm-skills --category outbound\n\`\`\`\n\nLocal installer:\n\n\`\`\`bash\n./install.sh\n./install.sh --target hermes\n./install.sh --target cursor --project /path/to/project\n./install.sh --target all --dry-run\n\`\`\`\n\n`;
+agents += `## Install\n\nClaude Code marketplace style:\n\n\`\`\`text\n/plugin marketplace add LeadMagic/gtm-skills\n/plugin install gtm-skills@gtm-skills\n\`\`\`\n\nagentskills CLI style:\n\n\`\`\`bash\ngh skill install LeadMagic/gtm-skills\ngh skill install LeadMagic/gtm-skills pricing-strategy\ngh skill install LeadMagic/gtm-skills --category outbound\n\`\`\`\n\nLocal installer:\n\n\`\`\`bash\n./install.sh\n./install.sh --target hermes\n./install.sh --target jesse --project /path/to/project\n./install.sh --target all --dry-run\n\`\`\`\n\n`;
 agents += `## Repository Contract\n\n- Marketplace-visible skills live at \`skills/<category>/<skill>/SKILL.md\`.\n- Support artifacts live inside the skill folder.\n- Generated catalog files come from disk, not hand edits.\n- \`skills.lock\` verifies SHA256 integrity.\n- CI must pass before release.\n\n## Categories\n\n`;
 for (const cat of categories) agents += `- **${cat}** — ${byCategory[cat].length} skills\n`;
 agents += `\n## Quality Standard\n\nEvery skill must be tactical, artifact-first, source-backed, marketplace-discoverable, and clean for a public repository. See docs/SKILL_AUTHORING.md and docs/SOURCE_STANDARDS.md. Benchmark positioning and known adjacent repos are tracked in docs/BENCHMARKS.md.\n`;
@@ -271,12 +274,13 @@ const startHere = `## Start Here
 | Route any GTM task | [using-gtm-skills](skills/foundation/using-gtm-skills/SKILL.md) |
 | LinkedIn feed reach (van der Blom) | [linkedin-algorithm](skills/inbound/linkedin-algorithm/SKILL.md) |
 | LinkedIn Live / weekly show (Jessie Lizak / Reveting) | [linkedin-live-strategy](skills/inbound/linkedin-live-strategy/SKILL.md) |
+| Sales Navigator prospecting (Morgan Ingram / AMP) | [sales-navigator-prospecting](skills/inbound/sales-navigator-prospecting/SKILL.md) |
 | Cold outbound architecture | [cold-email-strategy](skills/outbound/cold-email-strategy/SKILL.md) |
 | Named expert lookup | [references/experts.md](references/experts.md) |
 
 ## LinkedIn Inbound Stack
 
-The **inbound** category (${byCategory.inbound?.length ?? 0} skills) covers organic LinkedIn end-to-end: **Richard van der Blom** feed mechanics in \`linkedin-algorithm\`, **Jessie Lizak** Live content engine in \`linkedin-live-strategy\`, plus \`social-selling\`, \`founder-brand\`, and \`website-visitor-identification\`. Release history: [CHANGELOG.md](CHANGELOG.md).
+The **inbound** category (${byCategory.inbound?.length ?? 0} skills) covers LinkedIn GTM end-to-end: **van der Blom** feed mechanics (\`linkedin-algorithm\`), **Jessie Lizak** Live engine (\`linkedin-live-strategy\`), **Morgan Ingram** Sales Nav prospecting (\`sales-navigator-prospecting\`), plus \`social-selling\`, \`founder-brand\`, and \`website-visitor-identification\`. Release history: [CHANGELOG.md](CHANGELOG.md).
 
 `;
 

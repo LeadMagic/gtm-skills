@@ -3,7 +3,7 @@ name: launch-planning
 description: >-
   Plan product and feature launches across owned, earned, community, partner, and outbound channels. Produces launch narrative, audience map, asset checklist, channel calendar, risk plan, and measurement dashboard. Use when launching a startup, feature, campaign, Product Hunt post, or category narrative.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

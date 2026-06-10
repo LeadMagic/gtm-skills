@@ -11,7 +11,7 @@ description: >-
   Use when the user asks for specific outcome, mentions specific trigger phrases,
   or needs a concrete GTM artifact. Include what the skill produces.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

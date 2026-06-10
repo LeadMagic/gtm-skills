@@ -1,6 +1,6 @@
 # GTM Skills — Common Pitfalls Index
 
-Auto-generated from skill `## Common Pitfalls` sections. **1026 pitfalls** across **204** skills (204 total). Regenerate: `npm run build`.
+Auto-generated from skill `## Common Pitfalls` sections. **1032 pitfalls** across **205** skills (205 total). Regenerate: `npm run build`.
 
 Agents: load the source skill for full context, fixes, and quality checks — this index is for discovery and cross-skill pattern matching.
 
@@ -1133,6 +1133,15 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **AI voice on repurposed posts.** — Draft with AI, edit for human voice — AI-sounding feed copy is penalized in van der Blom's data.
 - **Measuring only viewer count.** — Comment quality, DMs, and 30-day meetings matter more than peak live attendance.
 
+### [sales-navigator-prospecting](skills/inbound/sales-navigator-prospecting/SKILL.md)
+
+- **One script for every filter.** — Wastes the strongest Sales Nav signals; Ingram's 5× pipeline lift illustration comes from filter-message matching.
+- **Instant connect after comment.** — Reads as automation; breaks trust.
+- **Skipping "viewed your profile" and "following company."** — Highest-intent free signals in the stack.
+- **No tenure-based plays.** — New leaders (< 1 year) and month-6–12 operators have different pains — same message misses both.
+- **Sales Nav without profile investment.** — Prospects check your profile; empty activity kills accept rates.
+- **Attribution only in last-touch CRM.** — LinkedIn pipeline is often dark social — add self-reported source fields.
+
 ### [social-selling](skills/inbound/social-selling/SKILL.md)
 
 - **Pitching in the first DM.** — LinkedIn is a relationship platform. Pitching before giving value gets you ignored or blocked.
@@ -1589,44 +1598,6 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Leading with flaws but not context.** — "We're expensive" without "here's why" is just bad marketing. Every flaw must include: who it matters to, who it doesn't, and why your customers still choose you.
 - **Transparency as a phase, not a system.** — Doing transparency in the first call and then reverting to traditional selling destroys trust. Consistency is the mechanism — one inconsistency erases ten consistencies.
 
-## sequencing-tools
-
-### [hubspot-sequences](skills/sequencing-tools/hubspot-sequences/SKILL.md)
-
-- **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
-- **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
-- **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
-
-### [instantly-sequences](skills/sequencing-tools/instantly-sequences/SKILL.md)
-
-- **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
-- **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
-- **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
-
-### [lemlist-setup](skills/sequencing-tools/lemlist-setup/SKILL.md)
-
-- **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
-- **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
-- **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
-
-### [outreach-sequences](skills/sequencing-tools/outreach-sequences/SKILL.md)
-
-- **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
-- **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
-- **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
-
-### [salesloft-cadences](skills/sequencing-tools/salesloft-cadences/SKILL.md)
-
-- **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
-- **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
-- **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
-
-### [smartlead-workflows](skills/sequencing-tools/smartlead-workflows/SKILL.md)
-
-- **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
-- **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
-- **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
-
 ## tools
 
 ### [ai-prompts-toolkit](skills/tools/ai-prompts-toolkit/SKILL.md)
@@ -1666,11 +1637,29 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Salesforce at $500K ARR.** — Admin tax without RevOps owner. Use Attio/HubSpot until $5M+.
 - **Agency without playbook.** — Partners configure chaos faster. Document first.
 
+### [hubspot-sequences](skills/tools/hubspot-sequences/SKILL.md)
+
+- **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
+- **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
+- **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
+
+### [instantly-sequences](skills/tools/instantly-sequences/SKILL.md)
+
+- **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
+- **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
+- **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
+
 ### [leadmagic-toolkit](skills/tools/leadmagic-toolkit/SKILL.md)
 
 - **No waterfall fallback.** — LeadMagic → nothing. Apollo would have found it. Fix: Always chain providers. LeadMagic first. Apollo/Clearbit second.
 - **No webhook for bulk.** — Poll status in a loop. Timeout. Job lost. Fix: Webhook callbacks. Job ID → webhook notifies on completion.
 - **Hard-coding API keys in n8n.** — Committed to repo. Leaked. Fix: n8n credentials store. Environment variables. Never hard-code.
+
+### [lemlist-setup](skills/tools/lemlist-setup/SKILL.md)
+
+- **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
+- **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
+- **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
 
 ### [n8n-toolkit](skills/tools/n8n-toolkit/SKILL.md)
 
@@ -1682,11 +1671,29 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Silent failures.** — Error branch empty. Fix: global Error Trigger + row log.
 - **Mixed signal routing.** — One branch for all signals. Fix: Switch on `signal_type`; load play skill per type.
 
+### [outreach-sequences](skills/tools/outreach-sequences/SKILL.md)
+
+- **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
+- **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
+- **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
+
+### [salesloft-cadences](skills/tools/salesloft-cadences/SKILL.md)
+
+- **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
+- **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
+- **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
+
 ### [sequencing-toolkit](skills/tools/sequencing-toolkit/SKILL.md)
 
 - **No warmup.** — New mailbox sends 50 emails/day day 1. Spam folder. Burned domain. Fix: 2-week warmup. Start at 5/day. Increment slowly.
 - **One mailbox doing everything.** — 200 emails/day from one mailbox. Instant spam. Fix: Multiple mailboxes per domain. 30/day per mailbox max.
 - **No A/B testing.** — Same copy forever. Ignorance about what works. Fix: Always run at least one A/B test per sequence.
+
+### [smartlead-workflows](skills/tools/smartlead-workflows/SKILL.md)
+
+- **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
+- **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
+- **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
 
 ### [support-toolkit](skills/tools/support-toolkit/SKILL.md)
 

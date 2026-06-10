@@ -9,7 +9,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 ---
 
-## Quick Reference — Social & Video
+## Quick Reference — Social, Video & LinkedIn
 
 | Expert | LinkedIn | X | YouTube | Site / podcast |
 |---|---|---|---|---|
@@ -17,6 +17,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 | Adam Robinson | [retentionadam](https://www.linkedin.com/in/retentionadam/) | — | — | [rb2b.com](https://www.rb2b.com/) · [retention.com](https://www.retention.com/) |
 | Richard van der Blom | [richardvanderblom](https://www.linkedin.com/in/richardvanderblom/) | — | — | [justconnecting.nl](https://www.justconnecting.nl/) |
 | Jessie Lizak | [jessie-lizak](https://www.linkedin.com/in/jessie-lizak/) | — | — | [reveting.com](https://www.reveting.com/) · [WinsDay](https://www.reveting.com/weekly-winsday) |
+| Morgan J. Ingram | [morganjingramamp](https://www.linkedin.com/in/morganjingramamp/) | — | [Sales Navigator 101](https://www.linkedin.com/showcase/linkedin-for-sales/) | [theampsocial.com](https://www.theampsocial.com/) |
 | Dominique Levin | [dominiquelevin](https://www.linkedin.com/in/dominiquelevin/) | [@dominiquelevin](https://x.com/dominiquelevin) | [Winning by Design](https://www.youtube.com/@winningbydesign) | [winningbydesign.com](https://winningbydesign.com/) |
 | Mark Roberge | [markroberge](https://www.linkedin.com/in/markroberge/) | [@markroberge](https://x.com/markroberge) | [Talks at Google](https://www.youtube.com/watch?v=RG_eyn0fRXs) | [salesaccelerationformula.com](https://www.salesaccelerationformula.com/) |
 | John McMahon | [john-mcmahon-5x-cro](https://www.linkedin.com/in/john-mcmahon-5x-cro/) | — | [Revenue Builders Podcast](https://www.revenuebuilders.io/) · [Logan Bartlett Show](https://www.theloganbartlettshow.com/archive/ep-76-john-mcmahon-5x-cro-and-enterprise-sales-expert-on-the-startup-sales-playbook-every-founder-needs) | [The Qualified Sales Leader](https://www.businessfloss.com/books/the-qualified-sales-leader) |
@@ -91,6 +92,8 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 | David Sacks | [davidsacks](https://www.linkedin.com/in/davidsacks/) | [@DavidSacks](https://x.com/DavidSacks) | [SaaStr / All-In clips](https://www.saastr.com/) | [craftventures.com](https://www.craftventures.com/) |
 | Dave Gerhardt | [davegerhardt](https://www.linkedin.com/in/davegerhardt/) | [@davegerhardt](https://x.com/davegerhardt) | [Exit Five podcast](https://exitfive.com/podcast) | [exitfive.com](https://exitfive.com/) |
 | Bessemer (Atlas) | [bessemer-venture-partners](https://www.linkedin.com/company/bessemer-venture-partners/) | — | [Cloud Atlas](https://www.bvp.com/atlas) | [bvp.com/atlas](https://www.bvp.com/atlas) |
+
+**LinkedIn GTM stack (read order):** `linkedin-algorithm` (van der Blom — feed reach) → `linkedin-live-strategy` (Lizak — weekly Live engine) → `sales-navigator-prospecting` (Ingram — Sales Nav ops) · Hub skill: `social-selling` · Founder channel: `founder-brand` (Robinson).
 
 ---
 
@@ -1434,9 +1437,9 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 ---
 
-### Lee Robinson — Jesse (ex-Vercel)
+### Lee Robinson (ex-Vercel)
 
-**Role:** VP Developer Education, Jesse (since 2025); formerly VP Developer Experience, Vercel (2020–2025)
+**Role:** VP Developer Education (2025–present); formerly VP Developer Experience, Vercel (2020–2025)
 **Domain:** Developer experience as distribution — docs, education, templates, and community
 
 **Public Channels**
@@ -1749,7 +1752,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Skills:** `customer-marketing`, `social-selling`, `gtm-metrics`, `campaign-governance`, `content-marketing`
 
-**Cross-links:** Chris Walker (dark social) · Varun Anand (creator flywheel) · `strategic-gifting` · `references/gtm-lifecycle-stages.md` (Awareness)
+**Cross-links:** Chris Walker (dark social) · Varun Anand (creator flywheel) · Morgan J. Ingram (Wishly roster + `sales-navigator-prospecting`) · `strategic-gifting` · `references/gtm-lifecycle-stages.md` (Awareness)
 
 ---
 
@@ -1766,6 +1769,10 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 ---
 
+## LinkedIn GTM Practitioners
+
+Organic reach, Live content engines, and Sales Navigator prospecting — three layers, three canonical skills. Load `social-selling` for profile/SSI/DM foundations across all three.
+
 ### Richard van der Blom — Just Connecting
 
 **Role:** Founder Just Connecting; LinkedIn strategist; author of the annual **Algorithm Insights Report** (7th edition, 2026 — 1.3M+ posts, 80,000+ profiles analyzed)
@@ -1780,6 +1787,8 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 **Artifacts:** `linkedin-algorithm` → `references/richard-van-der-blom-algorithm.md` (canonical)
 
 **Skills:** `linkedin-algorithm`, `social-selling`, `founder-brand`, `social-media-strategy`, `content-distribution`
+
+**Pair with:** Morgan J. Ingram (`sales-navigator-prospecting`) when reps publish **and** run Sales Nav outreach — feed mechanics convert profile traffic from Ingram's connect/DM motion.
 
 ---
 
@@ -1799,6 +1808,26 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 **Skills:** `linkedin-live-strategy`, `linkedin-algorithm`, `social-selling`, `founder-brand`, `social-media-strategy`, `content-distribution`
 
 **Pair with:** Richard van der Blom (`linkedin-algorithm`) — van der Blom: guest on Lives often, host rarely for reach; Lizak: host weekly when building a full content engine with repurposing discipline.
+
+---
+
+### Morgan J. Ingram — AMP Social
+
+**Role:** Founder AMP Social; 4x LinkedIn Top Sales Voice; Sales Navigator trainer (Zoom, HubSpot, Snowflake — public positioning)
+**Domain:** LinkedIn Sales Navigator prospecting, filter-specific messaging, executive engagement, saved-search workflows, SDR social selling systems
+
+**Public Channels**
+- 🔗 [theampsocial.com](https://www.theampsocial.com/) · [Sales Nav Starter Kit](https://theampsocial.com/sales-nav-resource-guide)
+- 💼 [LinkedIn](https://www.linkedin.com/in/morganjingramamp/)
+- ▶ [Sales Navigator 101](https://www.linkedin.com/showcase/linkedin-for-sales/) (LinkedIn for Sales)
+
+**Key Frameworks:** Filter-specific messaging (not one template) · High-intent filter stack (Posted 30d, Following company, Viewed profile, tenure <1yr / 6–12mo) · Insight + question comment → 24–48h wait → connect → DM · 10-minute saved-search setup with weekly alerts · 15-minute daily prospecting rhythm · 12+ message variants tied to filter signals · Multi-thread filter plays per account · Boolean decision-maker search
+
+**Artifacts:** `sales-navigator-prospecting` → `references/morgan-ingram-sales-navigator.md` (canonical)
+
+**Skills:** `sales-navigator-prospecting`, `social-selling`, `list-building`, `lead-finding`, `multi-channel-outreach`
+
+**Pair with:** `social-selling` (profile/SSI/DM basics) · `linkedin-algorithm` (when reps also publish) · `list-building` / `lead-finding` (ICP list criteria before filter stacks). Ingram owns Sales Nav **prospecting ops**, not organic feed theory or Live production.
 
 ---
 
@@ -2103,7 +2132,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Public Channels:** [sendoso.com](https://sendoso.com/) · [LinkedIn](https://www.linkedin.com/company/sendoso/)
 
-**Skills:** `strategic-gifting`, `abm-1-to-few`, `sequencing-tools/salesloft-cadences`
+**Skills:** `strategic-gifting`, `abm-1-to-few`, `salesloft-cadences`
 
 ---
 
@@ -2125,6 +2154,7 @@ Founder-specific comp (payroll % ARR, offer walkthrough, negotiation scripts) �
 | ABM gifting | John Ruhlin (Giftology), Sendoso |
 | Pipeline / discovery | Jacco (WbD), Keenan (Gap Selling), Whyte, Barrows, Becc Holland (Diagnostic) |
 | Outbound / SDR (email) | Jason Bay, Becc Holland, Guillaume Moubeche, Jordan Crawford, Pat Spielmann, Jed Mahrle, Eric Nowoslawski, Justin Michael, Leslie Venetz (Earn the Right / buyer-first) |
+| Outbound / SDR (LinkedIn Sales Nav) | Morgan J. Ingram (AMP Social) — `sales-navigator-prospecting`; layer with `social-selling` |
 | Outbound / SDR (phone) | Joey Gilkey, Ryan Reisert, Ronen Pessar, Tom Slocum, Jeb Blount — `cold-calling-experts-index.md` |
 | Outbound / SDR (scale) | Henry Schuck (ZoomInfo SDR machine), Tito Bohrt (AltiSales SDR economics & science), Lars Nilsson (ABSD, Cloudera/Snowflake) |
 | ABM / targeted outbound | Lars Nilsson (ABSD), ITSMA, TOPO — `abm-strategy` → `lars-nilsson-absd.md` |
@@ -2150,9 +2180,10 @@ Founder-specific comp (payroll % ARR, offer walkthrough, negotiation scripts) �
 | Org design / alignment | Force Management (Holland), Jacco (WbD PODs), Roberge |
 | Inbound / flywheel | Dharmesh Shah (HubSpot), Mark Roberge (sales machine), Pulizzi, Schwartz awareness |
 | Demand creation | Chris Walker (Refine Labs) — contrast with inbound flywheel |
-| B2B influencer / LinkedIn creators | Aneesh Lal (Wishly Group), Todd Clouser (Show Me The Money) |
+| B2B influencer / LinkedIn creators | Aneesh Lal (Wishly Group), Todd Clouser (Show Me The Money); roster includes Morgan Ingram — also `sales-navigator-prospecting` |
 | LinkedIn algorithm / organic reach | Richard van der Blom (Just Connecting) — `linkedin-algorithm` |
 | LinkedIn Live / livestream content engine | Jessie Lizak (Reveting) — `linkedin-live-strategy` |
+| Sales Navigator / filter-specific prospecting | Morgan J. Ingram (AMP Social) — `sales-navigator-prospecting` |
 | Founder-led LinkedIn / build in public | Adam Robinson (RB2B) — `adam-robinson-founder-brand.md` |
 | SEO / content | Eli Schwartz, Rand Fishkin, Ahrefs/Backlinko methodology |
 | Reviews / advocacy | Gainsight model (`customer-marketing`, `review-platforms`) |
@@ -2175,4 +2206,5 @@ Founder-specific comp (payroll % ARR, offer walkthrough, negotiation scripts) �
 - **Keith Rosen** is cited in `sales-coaching` → `coaching-experts.md` — add to deliverables for manager-coach accountability.
 - Subsidiary maps: `coaching-experts.md`, `interview-experts.md`, `gtm-leadership/expert-frameworks.md`, `gtm-ops-skill-index.md`, `gtm-experts-outbound-index.md` — link back here for channels.
 - **Pat Spielmann** is the primary cite for LeadMagic enrichment-powered outbound copy — canonical playbook `cold-email-copywriting/references/pat-spielmann-outbound-copy.md`.
+- **Morgan J. Ingram** is the primary cite for Sales Navigator filter-specific prospecting — canonical playbook `sales-navigator-prospecting/references/morgan-ingram-sales-navigator.md`. Pair with van der Blom when reps also post; pair with Lizak only when building a Live content engine (different motion).
 - Pitfalls aggregator: `references/pitfalls-index.md` — auto-generated from skill `## Common Pitfalls` sections (`npm run build`).

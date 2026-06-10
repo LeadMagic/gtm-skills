@@ -1,7 +1,7 @@
 # GTM AI Prompts Deliverable
 
 ## Context
-- Tool: Claygent / Clay AI / n8n / Cursor
+- Tool: Claygent / Clay AI / n8n / Jesse
 - GTM use case:
 - Related GTM skill:
 

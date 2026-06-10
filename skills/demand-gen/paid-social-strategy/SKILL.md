@@ -5,7 +5,7 @@ description: >-
   building, creative testing, budget allocation. Triggers on: "paid social", "LinkedIn
   ads", "social advertising", "paid media strategy", "B2B ads".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

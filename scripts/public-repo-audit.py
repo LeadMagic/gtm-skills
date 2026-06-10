@@ -18,8 +18,9 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
+# Keep in sync with scripts/lib/compatibility.js
 STANDARD_COMPATIBILITY = (
-    "Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, "
+    "Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, "
     "Copilot, Zed, VS Code, Goose"
 )
 REQUIRED_PUBLIC_FILES = [

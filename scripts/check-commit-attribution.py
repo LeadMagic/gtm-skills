@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fail CI when commits include agent co-author trailers (e.g. Cursor)."""
+"""Fail CI when commits include agent co-author trailers."""
 
 from __future__ import annotations
 
@@ -63,7 +63,7 @@ def main() -> int:
         for item in violations:
             print(f"  - {item}", file=sys.stderr)
         print(
-            "\nCursor is fine in skill compatibility docs; do not add Co-authored-by: Cursor on commits.",
+            "\nDo not add agent co-author trailers (Co-authored-by, Made-with) on commits.",
             file=sys.stderr,
         )
         print("Fix: git commit --amend, or run scripts/strip-commit-trailers.py on .git/COMMIT_EDITMSG", file=sys.stderr)

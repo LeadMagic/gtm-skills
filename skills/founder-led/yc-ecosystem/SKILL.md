@@ -3,7 +3,7 @@ name: yc-ecosystem
 description: >-
   Navigate the public YC ecosystem for founder GTM: company research, batch mapping, outreach angles, application positioning, founder network use, and launch leverage. Use when researching YC companies, preparing YC applications, planning YC-style launch motion, or mapping startup ecosystem opportunities.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

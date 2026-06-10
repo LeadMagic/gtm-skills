@@ -1,6 +1,6 @@
 # Smartlead Workflows — Framework Notes
 
-**Category:** `sequencing-tools` · Eric Nowoslawski runs largest Smartlead deployments.
+**Category:** `tools` · Eric Nowoslawski runs largest Smartlead deployments.
 
 ## Primary Frameworks
 

@@ -1,82 +1,81 @@
 ---
-name: outreach-sequences
+name: salesloft-cadences
 description: >-
-  Design and manage Outreach sequences — multi-channel cadences, triggers, analytics,
-  team workflows. Triggers on: "Outreach sequences", "Outreach cadence", "Outreach 
-  setup", "Outreach automation".
+  Build and optimize Salesloft cadences — Rhythm, Conversations, multi-channel
+  orchestration, analytics. Triggers on: "Salesloft", "Salesloft cadence", "Rhythm",
+  "Salesloft automation".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic
-  category: sequencing-tools
-  tags: [outreach, sequences, cadence, sales-engagement, outbound]
+  category: tools
+  tags: [salesloft, cadence, rhythm, sales-engagement, outbound]
   frameworks:
-    - "Outreach Sequence Best Practices"
+    - "Salesloft Modern Selling Framework"
     - "ColdIQ Cadence Design"
     - "Outreach — Sales Engagement Cadence Design"
 ---
 
-# Outreach Sequences
+# Salesloft Cadences
 
 ## Overview
-Outreach is the enterprise-grade sales engagement platform. Sequences here manage
-complex multi-channel, multi-touch cadences with team routing, analytics, and
-compliance controls that simpler tools lack.
+Salesloft is the market leader in sales engagement. Cadences here manage Rhythm
+(multi-channel cadences), Conversations (reply management), and Deals (pipeline
+integration). This skill covers setup, optimization, and team workflows.
 
 ## Frameworks Referenced
 
 This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Outreach Sequence Best Practices.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Salesloft Modern Selling Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **ColdIQ Cadence Design.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **Outreach — Sales Engagement Cadence Design.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
 ## When to Use
-- "Set up Outreach sequences"
-- "Design Outreach cadences"
-- "Outreach sequence optimization"
-- "Build Outreach workflows"
+- "Set up Salesloft cadences"
+- "Build Salesloft Rhythm"
+- "Salesloft optimization"
+- "Salesloft team setup"
 
 ## Step-by-Step Process
 
-### Phase 1: Sequence Design
-Outreach supports complex branching:
-- **Linear:** A → B → C → D → E. Simple, predictable. Best for SDR outbound.
-- **Branching:** If reply positive → AE handoff. If OOO → pause and retry. If no reply → continue.
-- **Multi-channel:** Email → Call → LinkedIn → Email → Call → Social
-- **Trigger-based:** Enroll on Salesforce field change, intent signal, or event
+### Phase 1: Cadence Architecture
+Design by motion type:
+- **Prospecting Cadence:** 6-8 touches over 14 days, email + call + LinkedIn
+- **Inbound Cadence:** 4 touches over 7 days, fast follow-up (speed-to-lead)
+- **Re-engagement Cadence:** 3 touches over 10 days, "still relevant?" angle
+- **Event Follow-up Cadence:** 2 touches over 5 days, reference the event
+- **AE Cadence:** 3 touches over 7 days, discovery-focused, less volume
 
-### Phase 2: Cadence Architecture
-Standard 5-touch cold outbound cadence:
-- **Day 1:** Email (problem hypothesis, 50-90 words)
-- **Day 3:** LinkedIn connection + note (reference email hint)
-- **Day 5:** Call + voicemail (if number available)
-- **Day 8:** Email (different angle, proof point)
-- **Day 14:** Email (breakup, "closing your file")
+### Phase 2: Step Types
+- **Email step:** Template with merge fields, plain text, from individual sender
+- **Call step:** Auto-logged, call script + talk track linked, voicemail drop
+- **Social step:** LinkedIn view, connection, or DM (manual task with template)
+- **Custom step:** Slack message, direct mail, gift send
+- **Wait step:** 2-5 business days between touches, skip weekends
 
-### Phase 3: Deliverability Controls
-- Max 50 emails/day per mailbox in Outreach
-- Rotate across 3-5 mailboxes per rep
-- 45-second minimum between sends
-- Custom tracking domain for open/click tracking
-- Sunset sequences after 3 consecutive bounces
+### Phase 3: Team Configuration
+- **Persona-based cadences:** Different cadences for C-suite vs Director vs Manager
+- **Industry variants:** Different opener templates by industry
+- **Rep assignment rules:** Round-robin, territory-based, or account-owner
+- **Manager approval gates:** Require approval before high-touch sequences
 
-### Phase 4: Team Workflows
-- Round-robin assignment from inbound queues
-- AE handoff triggers: positive reply, meeting booked, opportunity created
-- Manager approval gates for sequences targeting C-suite
-- Daily task dashboards per rep with prioritized actions
+### Phase 4: Conversation Intelligence
+- Auto-categorize replies: positive, negative, OOO, referral, unsubscribe
+- Route positive replies to AE for immediate follow-up
+- Auto-pause cadence on OOO, resume when they're back
+- Flag negative replies for sequence refinement
 
-### Phase 5: Analytics & Optimization
-- Funnel metrics: emails sent → opened → replied → meetings → opportunities
-- Sequence comparison: which sequence has highest meeting rate per persona
-- Rep performance: meetings per 100 touches by rep
-- A/B test: subject line and opener variants
+### Phase 5: Analytics
+- Cadence performance: meetings booked per 100 enrollments
+- Step performance: which step type/timing drives most replies
+- Rep leaderboard: meetings, reply rates, cadence completion
+- A/B testing: subject lines, openers, send times
 
 ## Output Format
-Sequence blueprint with: cadence map, step configuration, routing rules, deliverability
-settings, and analytics dashboard design.
+Salesloft setup guide with: cadence library, step configuration, team routing rules,
+analytics dashboard, and A/B test plan.
 
 
 
@@ -99,14 +98,13 @@ Before delivering, verify:
 
 This skill includes lightweight artifacts the agent can load on demand:
 
-- `references/framework-notes.md` — Outreach triggers, Clay→CRM path, Eric agency scale
-- `references/enrichment-enrollment-gate.md` — verify gate + trigger architecture
+- `references/framework-notes.md` — Rhythm cadences, CRM verify gate, enterprise governance
+- `references/enrichment-enrollment-gate.md` — CRM lm_email_status before cadence enroll
 - `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify-before-enroll (Pat Spielmann)
-- `../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md` — Clay agency execution (Eric Nowoslawski)
-- `../../tools/clay-toolkit/references/gtm-table-blueprints.md` — clay-toolkit table → CRM upsert
-- `../../tools/n8n-toolkit/references/gtm-flow-catalog.md` — OUT-01 API enrollment
+- `../../tools/clay-toolkit/references/gtm-table-blueprints.md` — clay-toolkit CRM field patterns
+- `../../tools/clay-loops-toolkit/SKILL.md` — clay-loops-toolkit signal cadences
 - `../../../../references/gtm-experts-outbound-index.md` — expert router
-- `templates/output-template.md` — CRM map + triggers + sequence deliverable
+- `templates/output-template.md` — CRM fields + cadence + enrollment gate deliverable
 - `scripts/check-output.py` — local checklist validator
 
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
@@ -127,7 +125,7 @@ Use this section when the user asks for a finished asset, not a high-level expla
 
 Map the recommendation explicitly to the named frameworks in this skill:
 
-- Outreach Sequence Best Practices: apply only the part that directly improves the requested deliverable.
+- Salesloft Modern Selling Framework: apply only the part that directly improves the requested deliverable.
 - ColdIQ Cadence Design: apply only the part that directly improves the requested deliverable.
 - Outreach — Sales Engagement Cadence Design: apply only the part that directly improves the requested deliverable.
 
@@ -149,4 +147,4 @@ A strong output from this skill includes:
 
 
 ## Related Skills
-- cold-email-strategy, multi-channel-outreach, email-deliverability, sending-platforms, pipeline-management
+- cold-email-strategy, cold-calling, reply-handling, pipeline-management, multi-channel-outreach

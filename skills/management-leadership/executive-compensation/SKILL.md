@@ -11,7 +11,7 @@ description: >-
   comp", "CRO compensation", "VP Sales offer", "accelerators", "SPIF vs plan
   change", "Pavilion comp", "Sam Jacobs comp", "revenue leader compensation".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.2.0"
   author: LeadMagic

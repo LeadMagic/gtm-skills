@@ -11,7 +11,7 @@ description: >-
   marketing", "open source GTM", "Vercel GTM", "bottom-up developer adoption",
   "API product GTM", "PLG for dev tools".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -22,7 +22,7 @@ metadata:
     - "Guillermo Rauch (Vercel) — Framework-defined infrastructure & DX-led growth flywheel"
     - "James Allgrove (Stripe) — Self-serve signup + build-with-developers sales motion"
     - "Adam DuVander (EveryDeveloper) — Developer Marketing Does Not Exist (education over promotion)"
-    - "Lee Robinson (ex-Vercel VP DX, now Cursor VP Developer Education) — Docs, education, community as distribution"
+    - "Lee Robinson (ex-Vercel VP DX, now Jesse VP Developer Education) — Docs, education, community as distribution"
     - "Wes Bush / Elena Verna (ProductLed / Reforge) — PQL signals + product-led + sales-assist hybrid"
 ---
 
@@ -72,7 +72,7 @@ the top-down purchase (the economic buyer).
   specific not generic, with docs, tutorials, guides, open source, and tools as
   the marketing surface. Never waste a developer's time.
 - **Lee Robinson (formerly VP of Developer Experience at Vercel, 2020–2025; now
-  VP of Developer Education at Cursor).** DX as community + education + docs;
+  VP of Developer Education at Jesse).** DX as community + education + docs;
   templates and learning content as the top of the funnel.
 - **Wes Bush (ProductLed) / Elena Verna (Reforge).** PQL signals and the
   product-led + sales-assist hybrid that routes self-serve usage into sales at

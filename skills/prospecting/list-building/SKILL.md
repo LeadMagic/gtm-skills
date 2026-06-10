@@ -8,13 +8,13 @@ description: >-
   list", "target accounts", "find companies", "scrape leads", "list building",
   "who should we reach out to", or any request to compile prospect data.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: prospecting
   tags: [list-building, prospecting, clay, leads, targeting]
-  related_skills: [icp-scoring, lead-finding, lead-enrichment, clay-automation]
+  related_skills: [icp-scoring, lead-finding, lead-enrichment, clay-automation, sales-navigator-prospecting]
   frameworks:
     - "Clay Waterfall Architecture"
     - "Ziellab Lead Quality Framework"
@@ -169,3 +169,4 @@ Deliver a CSV with:
 - **lead-finding**: Find individual contacts at target companies
 - **lead-enrichment**: Enrich contacts after list is built
 - **clay-automation**: Full Clay workflow for automated list building
+- **sales-navigator-prospecting**: Morgan Ingram filter-specific Sales Nav workflow after list criteria are set

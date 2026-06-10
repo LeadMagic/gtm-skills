@@ -5,7 +5,7 @@ description: >-
   on-site plays, post-event follow-up. Triggers on: "event outreach", "conference 
   prospecting", "trade show follow-up", "event outbound".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

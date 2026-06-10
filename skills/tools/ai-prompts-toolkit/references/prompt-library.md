@@ -1,6 +1,6 @@
 # GTM Prompt Library
 
-Copy-paste into Clay AI columns, Claygent, n8n LLM nodes, or Cursor.
+Copy-paste into Clay AI columns, Claygent, n8n LLM nodes, or Jesse.
 
 ---
 

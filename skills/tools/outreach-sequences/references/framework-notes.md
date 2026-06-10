@@ -1,6 +1,6 @@
 # Outreach Sequences — Framework Notes
 
-**Category:** `sequencing-tools` · Enterprise sequencing engine + triggers + analytics.
+**Category:** `tools` · Enterprise sequencing engine + triggers + analytics.
 
 ## Primary Frameworks
 

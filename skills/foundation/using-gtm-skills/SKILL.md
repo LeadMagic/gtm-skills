@@ -10,7 +10,7 @@ description: >-
   Triggers on: "gtm-skills", "install gtm-skills", "how to use gtm-skills",
   "skill discovery", "which skills to load", "getting started with skills".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -18,7 +18,7 @@ metadata:
   tags: [gtm-skills, installation, discovery, taxonomy, getting-started, master-guide]
   related_skills: [gtm-context, gtm-system-architecture, pipeline-management, sales-enablement, hiring-agencies, founder-sales, sales-team-building, skills-lock]
   frameworks:
-    - "LeadMagic/gtm-skills — 203 GTM agent skills"
+    - "LeadMagic/gtm-skills — GTM agent skills catalog"
     - "Jacco van der Kooij (Winning by Design) — SPICED, Bowtie, GTM Index"
     - "Sam Jacobs (Pavilion) — CRO Council executive comp standards"
     - "Mark Roberge — The Sales Acceleration Formula"
@@ -32,7 +32,7 @@ metadata:
 
 ## Overview
 
-203 skills. 25 categories. Every GTM discipline. This is the master key.
+205 skills. 24 categories. Every GTM discipline. This is the master key.
 The mistake: cloning the repo and not knowing where to start — loading random
 skills, missing dependencies, or treating skills as documentation instead of
 executable playbooks. This skill covers the complete usage guide: installation,
@@ -77,7 +77,7 @@ getting maximum value from the gtm-skills library.
 |---|---|---|
 | **Foundation** | `foundation/` | — (load first for ICP, positioning, pricing) |
 | **Founder** | `founder-led/` | 2, 12, 15 |
-| **Outbound** | `outbound/`, `prospecting/`, `sequencing-tools/` | 15b, 15c, 17, 23 |
+| **Outbound** | `outbound/`, `prospecting/`, `tools/` (sequencers) | 15b, 15c, 17, 23 |
 | **Inbound** | `inbound/`, `content-seo/`, `demand-gen/` | 25, 26, 27, 20 |
 | **Ops** | `gtm-ops/`, `automation/`, `tools/`, `leadmagic/` | 6, 6b, 11, 19 |
 | **Lifecycle** | `lifecycle/`, `customer-success/`, `growth/`, `product-led-growth/` | 18 |
@@ -87,7 +87,7 @@ getting maximum value from the gtm-skills library.
 | **Security** | `founder-led/` (soc2, privacy), `deal-desk` | 16, 29 |
 | **Automation strategy** | `automation/`, `gtm-ops/` | 6, 6b, 30 |
 
-Full category map (all 203 skills): `references/skill-index-master.md`
+Full category map (all skills): `references/skill-index-master.md`
 
 ## Pattern Index (1–30)
 
@@ -134,7 +134,7 @@ Full category map (all 203 skills): `references/skill-index-master.md`
 
 This skill is grounded in public frameworks and source material relevant to the task:
 
-- **LeadMagic/gtm-skills — 203 GTM agent skills.** Skill maps in this guide route tasks to the right playbook.
+- **LeadMagic/gtm-skills — GTM agent skills catalog.** Skill maps in this guide route tasks to the right playbook. Counts: `taxonomy.csv` / `skills.lock`.
 - **Jacco van der Kooij (Winning by Design).** SPICED discovery, Bowtie lifecycle, GTM Index, REKS coaching — primary WbD cite.
 - **Sam Jacobs (Pavilion).** CRO Council exec comp; multi-gate variable (ARR + NRR + efficiency).
 - **Mark Roberge — The Sales Acceleration Formula.** Data-driven hiring, training, demand gen, and sales process design — the science behind scaling a B2B sales org.
@@ -155,54 +155,35 @@ Trigger phrases: "gtm-skills", "install gtm-skills", "how to use gtm-skills",
 
 ## Installation
 
-### Claude Code (Primary)
-```bash
-claude plugins add LeadMagic/gtm-skills
-# Skills auto-discover. Ask: "list gtm skills"
-```
+Use `./install.sh` (wraps `scripts/install-tui.py`). Full per-system guide: `docs/INSTALL.md`.
 
-### Hermes Agent
-```bash
-hermes skills install LeadMagic/gtm-skills
-# Or manual: git clone to ~/.hermes/skills/
-```
+| # | System | TUI key | Install path / method |
+|---|---|---|---|
+| 1 | Claude Code | `claude` | `claude plugins add LeadMagic/gtm-skills` |
+| 2 | Jesse | `jesse` | `{project}/.jesse/skills/gtm-skills/` |
+| 3 | Codex | `codex` | `codex skills install …` or `~/.codex/skills/gtm-skills/` |
+| 4 | Hermes | `hermes` | `hermes skills install …` or `~/.hermes/skills/gtm-skills/` |
+| 5 | Windsurf | `windsurf` | `{project}/.windsurf/skills/gtm-skills/` |
+| 6 | OpenCode | `opencode` | `{project}/.opencode/skills/gtm-skills/` |
+| 7 | Gemini CLI | `gemini` | `{project}/.gemini/skills/gtm-skills/` |
+| 8 | GitHub Copilot | `copilot` | `{project}/.github/skills/gtm-skills/` + `copilot-instructions.md` |
+| 9 | Zed | `zed` | `AGENTS.md` + `{project}/.zed/skills/gtm-skills/` |
+| 10 | VS Code | `vscode` | Same as Copilot agent mode |
+| 11 | Goose | `goose` | `~/.config/goose/skills/gtm-skills/` |
 
-### Jesse
-```bash
-git clone https://github.com/LeadMagic/gtm-skills.git
-# Jesse reads SKILL.md files from the repo. Add to .jesse/skills/
-```
+### Quick install
 
-### Codex (OpenAI)
-```bash
-codex skills install LeadMagic/gtm-skills
-```
-
-### OpenCode
 ```bash
 git clone https://github.com/LeadMagic/gtm-skills.git
-# OpenCode auto-discovers SKILL.md files. Point config to repo.
+cd gtm-skills
+./install.sh                                              # default: Hermes + Claude + Jesse
+./install.sh --target jesse --project /path/to/project
+./install.sh --target hermes
+./install.sh --target all --dry-run
 ```
 
-### Windsurf
-```bash
-git clone https://github.com/LeadMagic/gtm-skills.git
-# Add path to Windsurf skills directory
-```
+### Verify installation
 
-### GitHub Copilot
-```bash
-git clone https://github.com/LeadMagic/gtm-skills.git
-# Add skills/ path to .github/copilot-instructions.md
-```
-
-### Gemini CLI
-```bash
-git clone https://github.com/LeadMagic/gtm-skills.git ~/.claude/skills/
-# Gemini reads Claude-format skills
-```
-
-### Verify Installation
 After install, ask your agent: "list gtm skills" or "what skills are available for [task]?"
 
 ### Integrity Check (skills.lock)
@@ -235,8 +216,8 @@ print('All skills verified.')
 | **Build outbound / cold email** | `outbound/` (cold-email-strategy, cold-email-copywriting, email-deliverability, domain-infrastructure) — Pattern 23 (Justin Michael / Sales Borg), Pattern 15c (Eric Nowoslawski infra), or Pattern 17 (Pat Spielmann / enrichment-powered Cold to Gold) · router → `references/gtm-experts-outbound-index.md` |
 | **Build outbound / cold calling (phone-first)** | `outbound/cold-calling` — Pattern 15b (Gilkey + Reisert + Pessar + Slocum); `references/cold-calling-experts-index.md` |
 | **Find and enrich leads** | `prospecting/` (lead-finding, lead-enrichment, email-finding, contact-verification) |
-| **Automate GTM workflows** | `references/automation-playbook-index.md` (38 playbooks) → `automation/` + `tools/` + `sequencing-tools/` + `leadmagic/` + `gtm-ops/` |
-| **Configure outreach sequencers** | `sequencing-tools/` (instantly, smartlead, lemlist, salesloft, outreach, hubspot) + `tools/sequencing-toolkit` — Pattern 17 clay-enrollment-handoff |
+| **Automate GTM workflows** | `references/automation-playbook-index.md` (38 playbooks) → `automation/` + `tools/` + `leadmagic/` + `gtm-ops/` |
+| **Configure outreach sequencers** | `tools/sequencing-toolkit` (router) + platform skills: `instantly-sequences`, `smartlead-workflows`, `lemlist-setup`, `salesloft-cadences`, `outreach-sequences`, `hubspot-sequences` — Pattern 17 clay-enrollment-handoff |
 | **LeadMagic enrichment & integrations** | `leadmagic/` (waterfall, integrations, cli, bulk, mcp, job-change) + `clay-toolkit` + `clay-loops-toolkit` |
 | **SEO / content clusters** | `content-seo/` (seo-strategy, pillar-pages, pseo-strategy, aeo-strategy) + `references/seo-strategy-playbook.md` |
 | **Demand creation (not lead gen)** | `content-marketing`, `paid-social-strategy`, `attribution` + `references/chris-walker-mental-models.md` |
@@ -353,6 +334,7 @@ Examples:
 - "B2B influencer / LinkedIn creator / Wishly / Aneesh Lal" → Pattern 21 (customer-marketing → social-selling → gtm-metrics)
 - "LinkedIn algorithm / reach drop / carousel vs video / van der Blom" → linkedin-algorithm (richard-van-der-blom-algorithm.md), social-selling
 - "LinkedIn Live / livestream / WinsDay / Jessie Lizak / Reveting / weekly live show" → linkedin-live-strategy (jessie-lizak-linkedin-live.md), linkedin-algorithm
+- "Sales Navigator / Sales Nav / Morgan Ingram / AMP Social / filter-specific messaging / posted in last 30 days" → sales-navigator-prospecting (morgan-ingram-sales-navigator.md), social-selling
 - "Founder LinkedIn / build in public / Adam Robinson / zero-click content" → founder-brand (adam-robinson-founder-brand.md), linkedin-algorithm
 - "Influencer ROI / creator attribution / influencer UTM" → references/b2b-influencer-measurement.md, campaign-governance
 - "Employee advocacy vs paid creators" → customer-marketing Phase 6, references/b2b-influencer-strategy.md
@@ -1014,7 +996,7 @@ security review timing: `references/security-questionnaire-deal-guide.md`.
 1. leadmagic-waterfall OR clay-toolkit (LeadMagic-first waterfall + validate gate)
 2. cold-email-copywriting (Hook-Line-Sinker + copy review checklist — pat-spielmann-outbound-copy.md)
 3. cold-email-strategy (Full-Circle multichannel: email → LinkedIn → phone <5 min on positive reply)
-4. sequencing-tools/* (instantly-sequences / smartlead-workflows / lemlist-setup) — clay-enrollment-handoff.md verify gate
+4. `tools/instantly-sequences` / `tools/smartlead-workflows` / `tools/lemlist-setup` — clay-enrollment-handoff.md verify gate
 5. email-deliverability + sending-platforms (Eric Nowoslawski infra before scale)
 6. multi-channel-outreach (channel-native touches — not email paste to LinkedIn)
 7. reply-handling (positive reply → immediate call routing)
@@ -1029,7 +1011,7 @@ security review timing: `references/security-questionnaire-deal-guide.md`.
 3. clay-loops-toolkit — tools/clay-loops-toolkit (signal loops)
 4. ai-prompts-toolkit (Claygent/LLM prompts P01–P10)
 5. leadmagic-toolkit + leadmagic-waterfall (Find → Verify → Enrich columns)
-6. sequencing-toolkit OR sequencing-tools/* OR crm-toolkit (output — verify gate before enroll)
+6. `sequencing-toolkit` OR platform sequencer skill OR `crm-toolkit` (output — verify gate before enroll)
 7. signal play skill (funding/job-change/hiring message)
 ```
 
@@ -1280,10 +1262,12 @@ Every gtm-skills skill is:
 ```
 gtm-skills/
 ├── README.md              # Hero, install, category overview, authority catalog
-├── skills.lock             # SHA256-verified integrity for all 203 skills
-├── taxonomy.csv            # slug → name → category → description → priority
+├── install.sh             # TUI installer entrypoint (all 11 agent runtimes)
+├── docs/INSTALL.md        # Per-system install paths and directory layout
+├── skills.lock            # SHA256-verified integrity for all marketplace skills
+├── taxonomy.csv           # slug → name → category → description → priority
 ├── references/
-│   ├── skill-index-master.md  # One-page map of all 25 categories
+│   ├── skill-index-master.md  # One-page map of all 24 categories
 │   ├── experts.md          # Master expert catalog (channels + skill clusters)
 │   ├── gtm-lifecycle-stages.md  # Canonical 7-stage customer lifecycle + Bowtie
 │   ├── activation-playbook.md   # Activation deep-dive + audit
@@ -1303,14 +1287,17 @@ gtm-skills/
 │   ├── tools/              # Toolkits (clay-toolkit, crm-toolkit, n8n-toolkit)
 │   ├── creative/           # AI content, vibe coding/marketing, growth hacks
 │   ├── design/             # Pitch decks, ROI calculators, brand systems
+│   ├── inbound/            # LinkedIn algorithm, Live, Sales Nav, social selling (8 skills)
 │   ├── sales-revops/       # Sales enablement, demo scripts, deal desk
 │   ├── analytics/          # Metrics, event analytics, attribution
-│   └── ...                 # 25 categories total
+│   └── ...                 # 24 categories — full map: references/skill-index-master.md
 ├── scripts/
+│   ├── install-tui.py      # Installer implementation (11 targets)
 │   ├── validate-skills.js  # YAML validator — runs in CI
 │   ├── generate-indexes.js # README, AGENTS.md, CLAUDE.md, taxonomy.csv
 │   ├── generate-pitfalls-index.js
-│   └── generate-skills-lock.py
+│   ├── generate-skills-lock.py
+│   └── lib/compatibility.js # Canonical compatibility string for all skills
 └── .github/workflows/
     └── validate.yml        # CI: validates all skills on push and PR
 ```
@@ -1319,7 +1306,7 @@ gtm-skills/
 
 | Map | Path | Use when |
 |---|---|---|
-| **Master skill index** | `references/skill-index-master.md` | One-page map of all 25 categories |
+| **Master skill index** | `references/skill-index-master.md` | One-page map of all 24 categories |
 | Expert catalog | `references/experts.md` | Named practitioner lookup (~110 entries incl. methodology orgs) |
 | GTM glossary | `references/gtm-glossary.md` | MEDDICC, SPICED, Bowtie terminology |
 | SaaS metrics ref | `references/saas-metrics-reference.md` | Churn, LTV, NRR formulas |

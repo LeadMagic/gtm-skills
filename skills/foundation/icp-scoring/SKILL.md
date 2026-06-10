@@ -3,7 +3,7 @@ name: icp-scoring
 description: >-
   Score and tier ICP-fit accounts using firmographic, technographic, intent, pain, and timing signals. Produces a weighted ICP scorecard, tiering rules, anti-ICP exclusions, routing thresholds, and validation checklist. Use when defining target accounts, ranking TAM lists, prioritizing ABM accounts, or building fit scores.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

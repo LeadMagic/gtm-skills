@@ -5,7 +5,7 @@ description: >-
   industry-specific content, persona-based plays. Triggers on: "1-to-few ABM", "ABM scale",
   "cluster ABM", "industry ABM".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

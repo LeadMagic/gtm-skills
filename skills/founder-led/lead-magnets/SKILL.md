@@ -3,7 +3,7 @@ name: lead-magnets
 description: >-
   Create lead magnets that convert qualified buyers: calculators, checklists, teardown offers, templates, benchmarks, reports, and free tools. Produces concept shortlist, landing page outline, capture flow, nurture path, and qualification logic. Use when building demand capture assets or content-to-pipeline offers.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

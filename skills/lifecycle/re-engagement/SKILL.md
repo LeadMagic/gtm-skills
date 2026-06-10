@@ -5,7 +5,7 @@ description: >-
   win-back sequences, reactivation offers, sunset policies. Triggers on:
   "re-engagement", "win-back", "reactivation", "dormant leads", "inactive customers".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

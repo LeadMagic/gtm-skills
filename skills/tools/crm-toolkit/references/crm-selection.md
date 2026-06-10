@@ -65,7 +65,7 @@ Score 1–5 each; weight for your motion.
 
 When **Attio** is selected for API-first CRM, pair support with **Plain** (API-first
 threads + help center + native MCP) instead of bolting Fin AI onto Intercom. Agent
-IDE (Cursor, Claude Code) connects to Plain via MCP; humans approve drafts before send.
+IDE (Jesse, Claude Code) connects to Plain via MCP; humans approve drafts before send.
 
 | Layer | Tool | Skill |
 |---|---|---|

@@ -3,7 +3,7 @@ name: positioning-messaging
 description: >-
   Build positioning and messaging from category, ICP, alternatives, differentiated value, proof, and buyer language. Produces a positioning statement, message hierarchy, persona messaging matrix, homepage narrative, and sales talk tracks. Use when messaging sounds generic, launches need positioning, or competitors blur differentiation.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic

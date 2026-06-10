@@ -8,7 +8,7 @@ description: >-
   "LeadMagic CLI", "lm find", "lm validate", "lm enrich", "LeadMagic command line",
   or any request about CLI-based enrichment.
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.1.0"
   author: LeadMagic
@@ -150,7 +150,7 @@ This skill includes lightweight artifacts the agent can load on demand:
 - `references/framework-notes.md` — CLI patterns, Pat validate-before-push, Eric scale ops
 - `references/cli-workflow-patterns.md` — find → validate → push pipelines (Patterns A–E)
 - `../leadmagic-waterfall/references/waterfall-column-spec.md` — Clay alternative for recurring
-- `../../sequencing-tools/smartlead-workflows/references/clay-enrollment-handoff.md` — post-CLI sequencer handoff
+- `../../tools/smartlead-workflows/references/clay-enrollment-handoff.md` — post-CLI sequencer handoff
 - `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify-before-send (Pat Spielmann)
 - `../../../../references/gtm-experts-outbound-index.md` — expert router
 - `templates/output-template.md` — command sequence + verify gate deliverable

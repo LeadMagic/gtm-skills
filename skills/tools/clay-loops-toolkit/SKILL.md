@@ -9,7 +9,7 @@ description: >-
   "signal loop", "funding loop Clay", "job change loop", "account monitor Clay",
   "GTM loops", "Clay signal routing".
 license: MIT
-compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "2.0.0"
   author: LeadMagic

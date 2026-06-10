@@ -1,7 +1,7 @@
 # LeadMagic MCP Setup Deliverable
 
 ## Context
-- MCP client (Claude/Cursor/other):
+- MCP client (Claude/Jesse/other):
 - Agent jobs:
 - Batch size expected:
 
