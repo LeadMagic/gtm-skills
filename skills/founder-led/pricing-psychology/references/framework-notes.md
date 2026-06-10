@@ -4,7 +4,12 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Madhavan Ramanujam (Monetizing Innovation) — Willingness-to-pay research
+- Dan Ariely — Predictably Irrational (anchoring, decoy effect, relativity)
+- Patrick Campbell (ProfitWell/Price Intelligently) — SaaS pricing data
+- Richard Thaler — Nudge (choice architecture, default effects)
+- Robert Cialdini — Influence (scarcity, social proof in pricing)
+- Jason Cohen (WP Engine) — The 3-tier trap and Goldilocks pricing
 
 ## Authoritative foundations
 

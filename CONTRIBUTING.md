@@ -75,10 +75,22 @@ Do not nest deeper than `skills/<category>/<skill-name>/SKILL.md`. Agentskills m
 
 ## Commit Messages
 
-Squash-merge PRs with **LeadMagic-authored messages only**. Do not add
-`Co-authored-by: Cursor` or other agent/tool co-author trailers — they pollute
-GitHub contributor stats. Keep PR bodies factual; skip "Made with Cursor"
-footers.
+**Cursor in docs is fine. Cursor on commits is not.**
+
+- **OK:** Listing Cursor in skill `compatibility`, install guides, README
+  platform tables, and GitHub topics — it is a supported agent runtime.
+- **Not OK:** `Co-authored-by: Cursor <cursoragent@cursor.com>`, "Made with
+  Cursor" footers, or any agent/tool trailer on squash-merge commit messages.
+  Those pollute GitHub contributor stats and attribute work to the wrong author.
+
+After cloning, enable repo hooks once:
+
+```bash
+bash scripts/setup-githooks.sh
+```
+
+Hooks strip agent co-author lines from commit messages automatically. CI also
+runs `python3 scripts/check-commit-attribution.py` on every PR.
 
 ## Pull Request Checklist
 

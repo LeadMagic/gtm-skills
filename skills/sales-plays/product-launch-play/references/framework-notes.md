@@ -4,7 +4,9 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Signal-Based Selling
+- Force Management Competitive Displacement
+- Winning by Design — SPICED
 
 ## Authoritative foundations
 

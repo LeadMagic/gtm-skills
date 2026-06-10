@@ -4,7 +4,9 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Field Marketing ROI Framework
+- ABM Field Engagement
+- Bizzabo — Event Experience Framework
 
 ## Authoritative foundations
 

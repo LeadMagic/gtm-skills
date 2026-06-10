@@ -4,7 +4,9 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Meta Creative Testing Framework
+- ARC Ads Creative Methodology
+- Ann Handley — Everybody Writes
 
 ## Authoritative foundations
 

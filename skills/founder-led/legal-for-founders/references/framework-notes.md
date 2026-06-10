@@ -4,7 +4,12 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- YC Startup Documents (YC SAFE, Series Seed, incorporation docs)
+- Clerky — Standard incorporation, equity, and fundraising docs
+- CooleyGO — Free startup legal resources (Cooley LLP)
+- Orrick — Startup legal toolkit
+- Fenwick & West — Startup legal guides
+- Alex Macgillivray (Twitter, Google GC) — Platform legal
 
 ## Authoritative foundations
 

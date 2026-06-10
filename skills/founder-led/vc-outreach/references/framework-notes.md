@@ -4,7 +4,9 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- NFX — Fundraising Playbooks
+- Y Combinator — Fundraising Guide
+- DocSend — Fundraising Benchmarks
 
 ## Authoritative foundations
 

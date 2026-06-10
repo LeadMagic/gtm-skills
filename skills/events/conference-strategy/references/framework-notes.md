@@ -4,7 +4,9 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- B2B Event ROI Framework
+- Conference Strategy Playbook
+- Bizzabo — Event Experience Framework
 
 ## Authoritative foundations
 

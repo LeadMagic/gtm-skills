@@ -4,7 +4,12 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Sean Ellis — Hacking Growth (growth hacking process, ICE scoring)
+- Brian Balfour (Reforge) — Growth Loops vs Funnels
+- Andrew Chen (a16z) — Viral growth mechanics, cold start problem
+- Elena Verna (Reforge/Amplitude) — Growth models, PLG
+- Casey Winters (Eventbrite/Pinterest/Grubhub) — Growth frameworks
+- Gustaf Alströmer (YC) — Growth for startups
 
 ## Authoritative foundations
 

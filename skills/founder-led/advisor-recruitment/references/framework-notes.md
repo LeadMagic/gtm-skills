@@ -4,7 +4,10 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Scott Kupor (Andreessen Horowitz) — Secrets of Sand Hill Road (advisory equity)
+- Elad Gil — High Growth Handbook (leveraging advisors)
+- First Round Review — High-Impact Advisory Relationships
+- Jason Lemkin (SaaStr) — When advisors add value vs are dead weight
 
 ## Authoritative foundations
 

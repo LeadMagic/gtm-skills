@@ -4,7 +4,11 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Intercom — Conversational Support Framework
+- Plain — API-first headless support and BYOAI via MCP
+- Zendesk — Omnichannel CX Maturity Model
+- Help Scout — Support-Driven Growth (Bezos: customer obsession)
+- Klaus/Maestro QA — Support Quality Framework
 
 ## Authoritative foundations
 

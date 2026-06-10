@@ -4,7 +4,12 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- SaaStr/Jason Lemkin — First VP hiring benchmarks
+- Elad Gil — High Growth Handbook (hiring executives)
+- Molly Graham — Giving away your Legos (scaling teams)
+- Patty McCord — Powerful (Netflix culture, hiring for density)
+- Claire Hughes Johnson — Scaling People (Stripe COO)
+- First Round Review — Hiring playbooks
 
 ## Authoritative foundations
 

@@ -4,7 +4,12 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Andrej Karpathy — 'Vibe coding' applied to marketing: describe, generate, iterate
+- Gary Vaynerchuk — Content at scale: 64 pieces of content per day per platform
+- Dave Gerhardt (Exit Five) — B2B marketing that doesn't feel like marketing
+- Amanda Natividad (SparkToro) — Zero-click content, audience-first AI
+- Harry Dry (Marketing Examples) — Show, don't tell (visual proof)
+- Justin Welsh — Content operating system, repurposing lattice
 
 ## Authoritative foundations
 

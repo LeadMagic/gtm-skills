@@ -4,7 +4,9 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Email Deliverability Best Practices
+- Aaron Ross — Predictable Revenue
+- Winning by Design — ICP Segmentation
 
 ## Authoritative foundations
 

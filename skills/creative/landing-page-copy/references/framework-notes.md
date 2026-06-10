@@ -4,7 +4,13 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Primary frameworks
 
-- ****
+- Joanna Wiebe (Copyhackers) — Conversion copywriting, 'Start with the problem, not the product
+- Oli Gardner (Unbounce) — Attention-driven design, conversion-centered design
+- Peep Laja (CXL/Wynter) — Data-driven copy, message testing
+- Harry Dry (Marketing Examples) — Show, don't tell. Visual proof over claims.
+- Claude Hopkins — Scientific Advertising (1923). 'The only purpose of advertising is to make sales.
+- Eugene Schwartz — Breakthrough Advertising. 'Copy cannot create desire. It can only channel it.
+- Nielsen Norman Group — How Users Read on the Web (F-shaped pattern)
 
 ## Authoritative foundations
 
