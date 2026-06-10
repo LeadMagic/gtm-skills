@@ -1,6 +1,6 @@
 # GTM Skills
 
-203 production go-to-market skills for Claude-compatible agents. Skills are self-contained folders with instructions, scripts, references, templates, assets, and metadata that agents load through progressive disclosure.
+204 production go-to-market skills for Claude-compatible agents. Skills are self-contained folders with instructions, scripts, references, templates, assets, and metadata that agents load through progressive disclosure.
 
 ## Install
 
@@ -27,9 +27,9 @@
 - Todd Caponi Transparency Sale (6 skills)
 - Ziellab 3-Waterfall Architecture (6 skills)
 - HubSpot Academy — CRM Automation (5 skills)
+- Jessie Lizak (Reveting) — LinkedIn Live & livestream content engine (5 skills)
 - Pat Spielmann — Cold to Gold (5 skills)
 - Reforge — Lifecycle Marketing (5 skills)
-- Winning by Design Bowtie (5 skills)
 
 ## Skills Index
 
@@ -189,11 +189,12 @@
 - **gtm-tool-cost-model** — GTM tool cost modeling — per-seat licensing, usage-based fees, cloud infra, enrichment credits, annual vs monthly contracts, and fully-loaded RevOps stack TCO. Use when budgeting…
 - **revops-tech-stack** — Design, audit, and consolidate the RevOps technology stack — CRM, enrichment, sequencing, analytics, integration architecture, and cost optimization. Use when auditing GTM tools,…
 
-### inbound (6)
+### inbound (7)
 - **content-marketing** — Build content marketing strategies that generate pipeline — SEO/AEO optimization, pillar page design, programmatic SEO, content-to-pipeline mapping. Use when the user wants to pla…
 - **inbound-triage** — Design inbound lead triage workflows — demo form qualification, MQL to SQL routing, automated enrichment on form fill, speed-to-lead SLAs. Use when the user wants to handle inboun…
 - **landing-pages** — Audit and optimize landing pages for conversion — hero/offer/proof/CTA patterns, CRO audits, A/B testing, signup flow optimization. Use when the user wants to improve conversion r…
 - **linkedin-algorithm** — Optimize LinkedIn organic reach using Richard van der Blom's Algorithm Insights Report (Just Connecting) — interest graph mechanics, format rankings, post anatomy, dwell time, gol…
+- **linkedin-live-strategy** — Launch and scale B2B LinkedIn Live using Jessie Lizak's Reveting playbook — weekly livestream shows, conversation-first content engines, pre-live promotion, live engagement, and r…
 - **social-selling** — Build a LinkedIn social selling strategy — Sales Navigator, DM sequences, content-to-conversation, profile optimization, and SSI scoring. Use when the user wants to sell on Linked…
 - **website-visitor-identification** — Design website visitor identification and deanonymization programs — company vs person-level ID, vendor selection (Clearbit/Breeze, RB2B, 6sense, etc.), privacy guardrails (GDPR/C…
 

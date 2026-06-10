@@ -84,6 +84,13 @@ def install(target: Target, project: Path, dry: bool) -> None:
     print(target.notes)
 
     if target.kind == "cli" and target.command:
+        if dry:
+            run(target.command, dry)
+            print(f"OK (dry-run): {target.label} installs via `{target.command[0]}` when the CLI is available.")
+            if target.path_template:
+                print("Fallback if the CLI is unavailable:")
+                copy_tree(ROOT, expand(target.path_template, project), dry)
+            return
         if shutil.which(target.command[0]):
             code = run(target.command, dry)
             if code == 0:

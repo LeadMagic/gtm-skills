@@ -1,6 +1,6 @@
 # GTM Skills — Common Pitfalls Index
 
-Auto-generated from skill `## Common Pitfalls` sections. **1019 pitfalls** across **203** skills (203 total). Regenerate: `npm run build`.
+Auto-generated from skill `## Common Pitfalls` sections. **1026 pitfalls** across **204** skills (204 total). Regenerate: `npm run build`.
 
 Agents: load the source skill for full context, fixes, and quality checks — this index is for discovery and cross-skill pattern matching.
 
@@ -1122,6 +1122,16 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Publishing AI-sounding content.** — AI-generated text is measurably penalized in both reach and engagement. Use AI for research and editing, not voice.
 - **Treating engagement as optional.** — Ignoring comments in the first hour wastes the algorithm's evaluation window. Nurturing is part of the post, not an afterthought.
 - **Chasing every algorithm rumor.** — The report debunks 20 LinkedIn myths per edition. If a tactic isn't backed by data, treat it as folklore.
+
+### [linkedin-live-strategy](skills/inbound/linkedin-live-strategy/SKILL.md)
+
+- **Treating Live as a one-off webinar.** — Without weekly cadence, the algorithm and your network forget the show exists.
+- **Over-production paralysis.** — Lizak's origin story started with CEO interviews and a record button — not a studio budget.
+- **Skipping repurposing.** — One Live without clips and carousels leaves feed reach on the table (carousels ~1.39x per van der Blom).
+- **Monologue mode.** — Ignoring live chat wastes the format's trust advantage.
+- **Pitch theater.** — Product demos dressed as conversations kill comment depth.
+- **AI voice on repurposed posts.** — Draft with AI, edit for human voice — AI-sounding feed copy is penalized in van der Blom's data.
+- **Measuring only viewer count.** — Comment quality, DMs, and 30-day meetings matter more than peak live attendance.
 
 ### [social-selling](skills/inbound/social-selling/SKILL.md)
 

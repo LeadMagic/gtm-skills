@@ -15,9 +15,10 @@ metadata:
   author: LeadMagic
   category: inbound
   tags: [linkedin, algorithm, organic-reach, content, social-media]
-  related_skills: [social-selling, founder-brand, social-media-strategy, content-distribution]
+  related_skills: [linkedin-live-strategy, social-selling, founder-brand, social-media-strategy, content-distribution]
   frameworks:
     - "Richard van der Blom (Just Connecting) — LinkedIn Algorithm Insights Report"
+    - "Jessie Lizak (Reveting) — LinkedIn Live & livestream content engine"
     - "Adam Robinson (RB2B) — Founder-led LinkedIn distribution"
     - "Chris Walker — Dark social demand creation"
 ---
@@ -63,6 +64,14 @@ conversion scaled RB2B to $5M ARR with LinkedIn as the only channel. Playbook �
 **Chris Walker (Refine Labs)** — dark social context: most LinkedIn influence
 is unmeasurable in attribution tools. Pair algorithm optimization with
 self-reported attribution (`references/chris-walker-mental-models.md`).
+
+**Jessie Lizak (Reveting)** — when feed posts are not enough and you need a
+**weekly LinkedIn Live** as the content engine (WinsDay model): record
+conversations, repurpose into clips/carousels/posts, prioritize relationships
+over tricks. Full runbook → `linkedin-live-strategy` →
+`skills/inbound/linkedin-live-strategy/references/jessie-lizak-linkedin-live.md`.
+Report default: guest on Lives
+often; Lizak's playbook for **hosting** when repurposing is disciplined.
 
 ## Prerequisites
 
@@ -179,6 +188,7 @@ findings, format mix recommendation with multipliers, post anatomy checklist
 
 ## Related Skills
 
+- **linkedin-live-strategy**: Weekly LinkedIn Live shows and repurposing flywheel (Jessie Lizak / Reveting)
 - **social-selling**: Turning LinkedIn visibility into conversations and pipeline
 - **founder-brand**: Founder-led posting system (Adam Robinson playbook)
 - **social-media-strategy**: Platform-wide content formats and sizing

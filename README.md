@@ -1,10 +1,10 @@
 # GTM Skills
 
-[![Skills](https://img.shields.io/badge/skills-203-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-25-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE)
+[![Skills](https://img.shields.io/badge/skills-204-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-25-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE)
 
 **Public repository:** [github.com/LeadMagic/gtm-skills](https://github.com/LeadMagic/gtm-skills)
 
-203 production go-to-market skills for AI agents. Built for sales, marketing, outbound, prospecting, enrichment, PLG, analytics, automation, customer success, RevOps, founder-led GTM, and tool operations.
+204 production go-to-market skills for AI agents. Built for sales, marketing, outbound, prospecting, enrichment, PLG, analytics, automation, customer success, RevOps, founder-led GTM, and tool operations.
 
 This is not a prompt pack. It is an agent-skills repository: portable skill folders with instructions, scripts, references, templates, assets, metadata, marketplace publishing, install tooling, and SHA256 integrity verification.
 
@@ -72,7 +72,7 @@ Agent-skills directories and submission status:
 
 | Signal | Status |
 |---|---|
-| Marketplace-discoverable skills | 203/203 |
+| Marketplace-discoverable skills | 204/204 |
 | Categories | 25 |
 | CI validation | `npm run check` |
 | Publish verification | `gh skill publish --dry-run` |
@@ -98,7 +98,7 @@ Agent-skills directories and submission status:
 | founder-led | 41 | advisor-recruitment, board-meeting-prep, brand-kit, building-saas, business-insurance |
 | growth | 5 | churn-prevention, customer-marketing, expansion-selling, referral-programs, review-platfo… |
 | gtm-ops | 5 | campaign-governance, gtm-operations, gtm-spend-management, gtm-tool-cost-model, revops-te… |
-| inbound | 6 | content-marketing, inbound-triage, landing-pages, linkedin-algorithm, social-selling |
+| inbound | 7 | content-marketing, inbound-triage, landing-pages, linkedin-algorithm, linkedin-live-strat… |
 | leadmagic | 6 | leadmagic-bulk-enrichment, leadmagic-cli, leadmagic-integrations, leadmagic-job-change, l… |
 | lifecycle | 5 | churn-prediction, lifecycle-drips, mql-nurture, onboarding-sequences, re-engagement |
 | management-leadership | 5 | executive-compensation, gtm-leadership, revenue-team-onboarding, sales-coaching, team-man… |
@@ -129,13 +129,15 @@ The skills cite named methodologies, operators, vendor docs, and frameworks. Top
 | Andy Whyte | 8 |
 | Bridge Group | 7 |
 | Todd Caponi | 7 |
+| Chris Walker | 6 |
 | Dharmesh Shah | 6 |
 | Pat Spielmann | 6 |
 | Pavilion | 6 |
 | Ben Murray | 5 |
 | Betts Recruiting | 5 |
-| Chris Walker | 5 |
+| Jessie Lizak | 5 |
 | John McMahon | 5 |
+| Richard van der Blom | 5 |
 | Ryan Reisert | 5 |
 | Sean Ellis | 5 |
 | a16z | 4 |
@@ -143,8 +145,6 @@ The skills cite named methodologies, operators, vendor docs, and frameworks. Top
 | April Dunford | 4 |
 | Elena Verna | 4 |
 | Eunice Buhler | 4 |
-| Frank Slootman | 4 |
-| Guillaume Moubeche | 4 |
 
 Full expert catalog — bios, public channels, and skill clusters: [references/experts.md](references/experts.md). Outbound/discovery routing: [references/gtm-experts-outbound-index.md](references/gtm-experts-outbound-index.md).
 
@@ -169,7 +169,7 @@ npm run verify
 gh skill publish --dry-run
 ```
 
-Expected result: 203 skills checked, 0 errors, 0 warnings, generated artifacts current, lock verified, installer dry-run OK.
+Expected result: 204 skills checked, 0 errors, 0 warnings, generated artifacts current, lock verified, installer dry-run OK.
 
 ## Skills Catalog
 
@@ -342,12 +342,13 @@ Expected result: 203 skills checked, 0 errors, 0 warnings, generated artifacts c
 - [gtm-tool-cost-model](skills/gtm-ops/gtm-tool-cost-model/SKILL.md) — GTM tool cost modeling — per-seat licensing, usage-based fees, cloud infra, enrichment credits, annual vs monthly contracts, and fully-loaded RevOps stack TCO. Use when budgeting GTM tools, calculating cost per rep, ven…
 - [revops-tech-stack](skills/gtm-ops/revops-tech-stack/SKILL.md) — Design, audit, and consolidate the RevOps technology stack — CRM, enrichment, sequencing, analytics, integration architecture, and cost optimization. Use when auditing GTM tools, designing revenue technology, or consoli…
 
-### inbound (6)
+### inbound (7)
 
 - [content-marketing](skills/inbound/content-marketing/SKILL.md) — Build content marketing strategies that generate pipeline — SEO/AEO optimization, pillar page design, programmatic SEO, content-to-pipeline mapping. Use when the user wants to plan content strategy, build a content cale…
 - [inbound-triage](skills/inbound/inbound-triage/SKILL.md) — Design inbound lead triage workflows — demo form qualification, MQL to SQL routing, automated enrichment on form fill, speed-to-lead SLAs. Use when the user wants to handle inbound leads, route demo requests, qualify fo…
 - [landing-pages](skills/inbound/landing-pages/SKILL.md) — Audit and optimize landing pages for conversion — hero/offer/proof/CTA patterns, CRO audits, A/B testing, signup flow optimization. Use when the user wants to improve conversion rates, audit a landing page, optimize a s…
 - [linkedin-algorithm](skills/inbound/linkedin-algorithm/SKILL.md) — Optimize LinkedIn organic reach using Richard van der Blom's Algorithm Insights Report (Just Connecting) — interest graph mechanics, format rankings, post anatomy, dwell time, golden hour engagement, and company page st…
+- [linkedin-live-strategy](skills/inbound/linkedin-live-strategy/SKILL.md) — Launch and scale B2B LinkedIn Live using Jessie Lizak's Reveting playbook — weekly livestream shows, conversation-first content engines, pre-live promotion, live engagement, and repurposing into podcasts, clips, and fee…
 - [social-selling](skills/inbound/social-selling/SKILL.md) — Build a LinkedIn social selling strategy — Sales Navigator, DM sequences, content-to-conversation, profile optimization, and SSI scoring. Use when the user wants to sell on LinkedIn, build a LinkedIn presence, use Sales…
 - [website-visitor-identification](skills/inbound/website-visitor-identification/SKILL.md) — Design website visitor identification and deanonymization programs — company vs person-level ID, vendor selection (Clearbit/Breeze, RB2B, 6sense, etc.), privacy guardrails (GDPR/CCPA operational), Slack alert triage, an…
 

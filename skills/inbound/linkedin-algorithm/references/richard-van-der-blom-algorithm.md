@@ -47,7 +47,11 @@ Notes:
 - Engagement = (reactions + comments + shares + saves) / impressions.
 - Video watch volume is growing platform-wide, but average feed reach per
   video post underperforms — use video for trust, not reach.
-- LinkedIn Live: guest frequently, host rarely (infrastructure-heavy).
+- LinkedIn Live: guest frequently, host rarely (infrastructure-heavy). When
+  hosting a weekly show with full repurposing (clips → carousels → posts), see
+  `linkedin-live-strategy` →
+  `skills/inbound/linkedin-live-strategy/references/jessie-lizak-linkedin-live.md`
+  (Jessie Lizak / Reveting WinsDay model).
 
 ## Post anatomy and timing (Chapter 4 — four phases)
 

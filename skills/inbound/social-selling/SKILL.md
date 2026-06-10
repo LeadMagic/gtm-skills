@@ -14,10 +14,11 @@ metadata:
   author: LeadMagic
   category: inbound
   tags: [linkedin, social-selling, sales-navigator, outreach]
-  related_skills: [multi-channel-outreach, cold-email-strategy, founder-brand, linkedin-algorithm]
+  related_skills: [multi-channel-outreach, cold-email-strategy, founder-brand, linkedin-algorithm, linkedin-live-strategy]
   frameworks:
     - "LinkedIn SSI Methodology"
     - "Richard van der Blom (Just Connecting) — LinkedIn Algorithm Insights Report"
+    - "Jessie Lizak (Reveting) — LinkedIn Live & livestream content engine"
     - "HubSpot Academy — Inbound Methodology"
     - "Marcus Sheridan — They Ask You Answer"
     - "Randy Seidl (Sales Community) — Relationship selling, Three Plays, trust-building"
@@ -125,7 +126,9 @@ No "I'd love to tell you about my company." Give before you ask.
 Posting isn't about going viral. It's about creating conversation starters
 with your ICP. For reach mechanics — format rankings, dwell time, link
 penalties, golden hour — load `linkedin-algorithm` (Richard van der Blom's
-Algorithm Insights Report). Post about:
+Algorithm Insights Report). For weekly **LinkedIn Live** as the content engine
+(WinsDay / Reveting model) — load `linkedin-live-strategy` (Jessie Lizak).
+Post about:
 - Problems your ICP faces (not your product)
 - Data and insights from your work
 - Customer stories (anonymized, with permission)
@@ -179,6 +182,7 @@ Social selling playbook with profile optimization checklist, DM sequences
 
 - **multi-channel-outreach**: Coordinate LinkedIn with email and calls
 - **linkedin-algorithm**: Organic reach mechanics (van der Blom report data)
+- **linkedin-live-strategy**: Weekly LinkedIn Live shows and repurposing (Jessie Lizak / Reveting)
 - **founder-brand**: For founders building personal brand on LinkedIn (Adam Robinson playbook)
 - **cold-email-strategy**: The email side of the outreach motion
 - **customer-marketing**: Community selling playbook (`community-selling-varun.md`)

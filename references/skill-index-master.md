@@ -1,6 +1,6 @@
 # GTM Skills — Master Skill Index
 
-One-page map of **203 skills** across **25 categories**. Load `foundation/using-gtm-skills` first for patterns and workflows.
+One-page map of **204 skills** across **25 categories**. Load `foundation/using-gtm-skills` first for patterns and workflows.
 
 **Master router:** `skills/foundation/using-gtm-skills/SKILL.md`
 
@@ -243,7 +243,7 @@ RevOps stack, spend, PM/RACI, campaign governance. **Start skill:** `gtm-operati
 | `gtm-tool-cost-model` | GTM tool cost modeling — per-seat licensing, usage-based fees, cloud infra, enrichment cr… |
 | `revops-tech-stack` | Design, audit, and consolidate the RevOps technology stack — CRM, enrichment, sequencing,… |
 
-### Inbound & PLG-adjacent (`inbound/`) — 6 skills
+### Inbound & PLG-adjacent (`inbound/`) — 7 skills
 
 Content marketing, triage, landing pages, LinkedIn, visitor ID. **Start skill:** `inbound-triage`
 
@@ -253,6 +253,7 @@ Content marketing, triage, landing pages, LinkedIn, visitor ID. **Start skill:**
 | `inbound-triage` | Design inbound lead triage workflows — demo form qualification, MQL to SQL routing, autom… |
 | `landing-pages` | Audit and optimize landing pages for conversion — hero/offer/proof/CTA patterns, CRO audi… |
 | `linkedin-algorithm` | Optimize LinkedIn organic reach using Richard van der Blom's Algorithm Insights Report (J… |
+| `linkedin-live-strategy` | Launch and scale B2B LinkedIn Live using Jessie Lizak's Reveting playbook — weekly livest… |
 | `social-selling` | Build a LinkedIn social selling strategy — Sales Navigator, DM sequences, content-to-conv… |
 | `website-visitor-identification` | Design website visitor identification and deanonymization programs — company vs person-le… |
 
