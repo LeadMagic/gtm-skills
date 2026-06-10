@@ -7,11 +7,11 @@ description: >-
   when planning first sales hire, designing sales org, or scaling a team.
   Triggers on: "build sales team", "first sales hire", "sales org design",
   "sales compensation", "sales POD", "scale sales team", "hire AE", "hire SDR",
-  or any sales team building request.
+  "SDR economics", "Tito Bohrt", or any sales team building request.
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.4.0"
+  version: "1.5.0"
   author: LeadMagic
   category: founder-led
   tags: [sales-team, hiring, compensation, org-design, pods, coaching]
@@ -31,6 +31,7 @@ metadata:
     - "Tom Slocum — The SD Lab SDR coaching"
     - "John McMahon — A-player hiring, manager-before-rep scaling, 6-mo enterprise ramp"
     - "Ron Gabrisko (Databricks) — inside + field hybrid, technical seller profile"
+    - "Tito Bohrt (AltiSales) — SDR economics & hiring simulations"
 ---
 
 # Sales Team Building
@@ -121,6 +122,15 @@ and operator data.
   for velocity + **field enterprise** for large ACV — run both when profitable.
   Hire sellers who can run POCs, not only demos. Consumption pricing aligns with
   cloud infra buyers. See `cro-enterprise-strategy.md` (Databricks section).
+- **Tito Bohrt (AltiSales) — SDR as a science.** Treat sales development as a
+  measurable revenue engine: manage **leading indicators** via funnel inversion
+  (meetings completed → set → conversations → dials), hold a ~**80–85% show rate**,
+  and price the role on **fully-loaded cost per *qualified* meeting** with sales-cycle
+  lag — not base salary ÷ dialed meetings (his "Dear CFO" critique). Split **Data
+  Research** from **SDR engagement**, hire proven craft + screen with work-simulation
+  roleplays, and measure any AI SDR on *incremental* cost per meeting. Load
+  `references/tito-bohrt-sdr-science.md` when modeling SDR economics, designing the
+  assembly-line org, or rebutting a naive SDR cost model.
 
 ## Step-by-Step Process
 
@@ -263,6 +273,7 @@ Before delivering, verify:
 
 - `../../management-leadership/gtm-leadership/references/cro-enterprise-strategy.md` — McMahon hiring/inspection, Snowflake/Databricks GTM models (Pattern 31)
 - `references/henry-schuck-sdr-model.md` — ZoomInfo SDR:AE scale, data-lake outbound, feeder system
+- `references/tito-bohrt-sdr-science.md` — AltiSales SDR economics (cost per meeting), funnel-inversion benchmarks, assembly-line org, hiring simulations, AI SDR skepticism
 - `references/ryan-reisert-cold-calling.md` — CRM Activity Buckets + CallBlitz (repo root)
 - `references/ronen-pessar-cold-calling.md` — ColdCall-Market Fit install (repo root)
 - `references/tom-slocum-cold-calling.md` — SD Lab SDR coaching (repo root)

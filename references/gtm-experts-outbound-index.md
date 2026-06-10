@@ -11,6 +11,7 @@ Quick router for outbound, discovery, and pipeline experts. Full bios → `refer
 | **Pat Spielmann** | Cold to Gold, Hook-Line-Sinker, Full-Circle multichannel, verify-before-send | `cold-email-copywriting/references/pat-spielmann-outbound-copy.md` | `leadmagic-waterfall`, `leadmagic-integrations`, `leadmagic-cli`, `clay-toolkit`, `cold-email-copywriting`, `cold-email-strategy` |
 | **Jason Bay** | PVP (messaging relevance) | `cold-email-strategy/references/email-frameworks.md` | `cold-email-strategy`, `cold-email-copywriting` |
 | **Justin Michael** | Sales Borg, TQ, trigger-based outbound | `cold-email-strategy/references/justin-michael-sales-borg.md` | `cold-email-strategy`, `multi-channel-outreach` |
+| **Tito Bohrt** | SDR-as-a-science, cost-per-qualified-meeting economics ("Dear CFO"), funnel-inversion benchmarks (80–85% show rate), data-research/engagement split, AI-SDR skepticism | `sales-team-building/references/tito-bohrt-sdr-science.md` | `sales-team-building`, `gtm-role-descriptions`, `revenue-team-onboarding` |
 | **Joey Gilkey** | Disposition Science, Phone Intent, conversation-as-KPI | `references/joey-gilkey-bucketing.md` | `cold-calling`, `list-building`, `signal-scoring` |
 | **Ryan Reisert** | CRM Activity Buckets, No Fluff call structure, CallBlitz | `references/ryan-reisert-cold-calling.md` | `cold-calling`, `multi-channel-outreach`, `sales-team-building` |
 | **Ronen Pessar** | ColdCall-Market Fit, Call Pilot, tonality script | `references/ronen-pessar-cold-calling.md` | `cold-calling`, `sales-team-building`, `revenue-team-onboarding` |
@@ -40,5 +41,7 @@ Quick router for outbound, discovery, and pipeline experts. Full bios → `refer
 **High-scale outbound (agency volume):** Eric unit economics gate → Jordan/Becc/Pat (segment + message) → Eric infra (2 inboxes/domain, 1:1 backups) → `smartlead-workflows` or Creative Ideas → `clay-automation` (Crawl Walk Run)
 
 **SDR ramp (phone):** Pessar pilot → Reisert buckets in CRM → Slocum call blocks → `revenue-team-onboarding`
+
+**SDR economics / "should we build SDRs?":** Bohrt fully-loaded cost-per-qualified-meeting + funnel-inversion benchmarks → `sales-team-building` (`tito-bohrt-sdr-science.md`) → `gtm-role-descriptions` (comp) → `revenue-team-onboarding` (ramp)
 
 **Automation index:** `references/automation-playbook-index.md` (38 playbooks — includes `sequencing-tools/` + `leadmagic/`)

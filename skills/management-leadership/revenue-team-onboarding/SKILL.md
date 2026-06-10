@@ -10,7 +10,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.5.0"
+  version: "1.6.0"
   author: LeadMagic
   category: management-leadership
   tags: [onboarding, ramp, security, slack, enablement, sdr, ae]
@@ -38,6 +38,7 @@ metadata:
     - "Ronen Pessar — ColdCall-Market Fit certification gate"
     - "Tom Slocum — 3×3 research & sell-the-meeting standards"
     - "Stacey Nordwall (Culture Amp / Pyn) — Culture-first onboarding, onboarding surveys, remote GTM norms"
+    - "Tito Bohrt (AltiSales) — Leading-indicator SDR ramp & call-recording coaching"
 ---
 
 # Revenue Team Onboarding
@@ -91,6 +92,12 @@ Process → `pipeline-management`.
 - **Tom Slocum — 3×3 + sell-the-meeting.** Week 1 cert: 3 insights in 3 minutes
   on mock accounts; intro calls reviewed for meeting-sell (not product pitch).
   → `references/tom-slocum-cold-calling.md`
+- **Tito Bohrt (AltiSales).** Ramp to **leading indicators**, not dials: certify the
+  funnel bottom-up (meetings completed → set → conversations → dials) to a ~**80–85%
+  show rate**, and coach from **call recordings** (AltiSales reviews ~100% of a new
+  rep's calls, then samples). Treat ramp as a **system output** (data + scripts +
+  coaching). Canonical →
+  `skills/founder-led/sales-team-building/references/tito-bohrt-sdr-science.md`.
 
 **Phone SDR ramp (weeks 2–4):** Shadow live calls → CallBlitz or manager listen-in
 → 3×3 prep on every block → CRM Buckets + Gilkey disposition fields live →

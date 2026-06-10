@@ -13,7 +13,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.4.0"
+  version: "1.5.0"
   author: LeadMagic
   category: founder-led
   tags: [hiring, job-description, compensation, org-design, revenue, gtm-roles, betts]
@@ -30,6 +30,7 @@ metadata:
     - "Clay — GTM Engineer market role definition (clay.com/careers)"
     - "Stacey Nordwall (Culture Amp / Pyn) — Culture-first onboarding and manager enablement for revenue teams"
     - "Pavilion — Compensation Planning 101 and GTM comp benchmarks (with Sam Jacobs)"
+    - "Tito Bohrt (AltiSales) — SDR economics & cost-per-meeting comp logic"
 ---
 
 # GTM Role Descriptions
@@ -82,6 +83,11 @@ where to distribute posts — use `job-posting-strategy`.
   `references/hr-gtm-playbook.md`. Pair with Roberge ramp metrics — not interchangeable.
 - **Pavilion (Sam Jacobs).** Compensation Planning 101 for AE/SDR/manager modeling;
   interactive comp benchmarks at offer time. VP+ → `executive-compensation`.
+- **Tito Bohrt (AltiSales).** Price the SDR role on **fully-loaded cost per qualified
+  meeting** (not base ÷ dials) and reject under-comped plans — his public "Dear CFO"
+  argument is that *"$50K base / $70K OTE won't bring the right talent."* Comp SDRs on
+  qualified meetings **held** and document the SDR→AE path. Canonical →
+  `skills/founder-led/sales-team-building/references/tito-bohrt-sdr-science.md`.
 
 **Comp strategy (canonical):** `executive-compensation/references/gtm-compensation-strategy.md`
 (Pattern 35). **Bands:** `references/comp-benchmarks.md`. **Stage matrix:**

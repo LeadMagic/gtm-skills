@@ -324,6 +324,7 @@ Examples:
 - "Clay reverse demo / Varun Anand demo" → demo-scripts → reverse-demo-varun reference
 - "Community selling / Slack GTM / ecosystem-led growth" → customer-marketing → community-selling-varun reference
 - "ZoomInfo GTM / Henry Schuck SDR model" → sales-team-building → henry-schuck-sdr-model reference
+- "SDR economics / cost per meeting / Tito Bohrt / SDR hiring simulation" → sales-team-building (tito-bohrt-sdr-science.md), gtm-role-descriptions
 - "Hire GTM engineer / RevOps engineer" → gtm-role-descriptions → hiring-by-role (gtm-engineer scorecard)
 - "GTM stack TCO / Ramp / vendor spend audit" → Pattern 11 (revops-tech-stack → gtm-spend-management)
 - "Lifecycle stages / activation / time-to-value / monitor lifecycle" → Pattern 18 (`references/gtm-lifecycle-stages.md` → `activation-playbook.md` → monitoring dashboard)

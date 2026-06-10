@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-06-10T01:23:49+00:00",
+  "generated_at": "2026-06-10T01:36:11+00:00",
   "total_skills": 202,
   "skills": {
     "abm/abm-1-to-1": {
@@ -712,8 +712,8 @@
         "using-gtm-skills",
         "SKILL.md"
       ],
-      "sha256": "d50b02686fdd0182aaa37aa53c7f9e49fa3431e915fe32c522e97e2bb6069454",
-      "size_bytes": 90177
+      "sha256": "186fc9f6fd3124d71e4c4f27f46ee57df8c58d906101ca4528f6cb8104727acf",
+      "size_bytes": 90326
     },
     "founder-led/advisor-recruitment": {
       "path": [
@@ -901,8 +901,8 @@
         "gtm-role-descriptions",
         "SKILL.md"
       ],
-      "sha256": "aabc7b269498bf022f5d2a33872774336ea074045cce5549b56635d761fb29a7",
-      "size_bytes": 13677
+      "sha256": "ec01622971c64822851b376d2209562223a259201ae3a27df5d8b4066b3df5bd",
+      "size_bytes": 14174
     },
     "founder-led/hiring-agencies": {
       "path": [
@@ -1018,8 +1018,8 @@
         "sales-team-building",
         "SKILL.md"
       ],
-      "sha256": "06c50b14093ca0e2bf06d90547563ad5fcecf19a0b7500ba6a1a0e6d6659523f",
-      "size_bytes": 15669
+      "sha256": "4609c606911d682a7c71b5e5a3d2b778d993e7a5958abc128e2a390058258e45",
+      "size_bytes": 16673
     },
     "founder-led/security-assessments": {
       "path": [
@@ -1351,8 +1351,8 @@
         "revenue-team-onboarding",
         "SKILL.md"
       ],
-      "sha256": "70ff07d40246c10db7576b0366534dfe7c2005ecd244e312916cf8225c9a91ee",
-      "size_bytes": 11462
+      "sha256": "3c700497d2b94b6661f4b1a98aab77efbce96931d67940c776cdc532fb4af946",
+      "size_bytes": 12002
     },
     "management-leadership/sales-coaching": {
       "path": [

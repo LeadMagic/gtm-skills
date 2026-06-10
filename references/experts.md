@@ -58,6 +58,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 | Claire Hughes Johnson | [clairehj](https://www.linkedin.com/in/clairehj/) | [@chughesjohnson](https://x.com/chughesjohnson) | [Stripe Press / interviews](https://www.youtube.com/results?search_query=Claire+Hughes+Johnson+Scaling+People) | [press.stripe.com/scaling-people](https://press.stripe.com/scaling-people) |
 | Molly Graham | [mograham](https://www.linkedin.com/in/mograham/) | — | [Lenny's Podcast / TED](https://www.youtube.com/results?search_query=Molly+Graham+Give+Away+Your+Legos) | [mollygraham.com](https://mollygraham.com/) |
 | Henry Schuck | [hschuck](https://www.linkedin.com/in/hschuck/) | [@henrylschuck](https://x.com/henrylschuck) | [Hit Your Number deck](https://www.slideshare.net/slideshow/henry-schuck-hit-your-number-how-zoominfo-developed-a-winning-and-leading-gotomarket-strategy/236147433) · [OpenView talks](https://openviewpartners.com/blog/go-to-market-zoominfo/) | [pipeline.zoominfo.com](https://pipeline.zoominfo.com/) |
+| Tito Bohrt | [titobohrt](https://www.linkedin.com/in/titobohrt/) | — | — | [altisales.com](https://www.altisales.com/) · [Sales Hacker library](https://www.saleshacker.com/library/?author=Tito%20Bohrt) |
 | Varun Anand | [vaanand](https://www.linkedin.com/in/vaanand/) | [@vxanand](https://x.com/vxanand) | [Clay reverse demo](https://www.clay.com/blog/reverse-demo) · [First Round podcast](https://review.firstround.com/podcast/inside-clays-unconventional-path-to-1-25b/) | [clay.com](https://www.clay.com/) |
 | John Holland | [johnholland](https://www.linkedin.com/in/johnholland/) | — | [Force Management](https://www.youtube.com/@ForceManagement) | [forcemanagement.com](https://www.forcemanagement.com/) |
 | Dharmesh Shah | [dharmesh](https://www.linkedin.com/in/dharmesh/) | [@dharmesh](https://x.com/dharmesh) | [HubSpot / INBOUND keynotes](https://www.youtube.com/user/HubSpot) | [onstartups.com](https://onstartups.com/) · [hubspot.com](https://www.hubspot.com/) |
@@ -505,6 +506,25 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 **Key Frameworks:** **PVP** — Permissionless Value Proposition · messaging relevance over volume
 
 **Skills:** `cold-email-strategy`, `cold-email-copywriting`, `revenue-team-onboarding`
+
+---
+
+### Tito Bohrt — AltiSales (Sales Development as a Science)
+
+**Role:** Founder & CEO, **AltiSales** (outsourced SDR / GTM agency); "The Sales Mad Scientist"; Best SDR Leader 2018 (Sales Development Conference); Sales Hacker Certified Sales Expert
+**Domain:** SDR unit economics (cost per qualified meeting), leading-indicator management, assembly-line SDR org (data-research + engagement split), hiring by work-simulation, SDR ramp + SDR→AE handoff SLA, AI-SDR skepticism
+
+**Public Channels**
+- 🔗 [altisales.com](https://www.altisales.com/) · [blog](https://www.altisales.com/blog)
+- 💼 [LinkedIn](https://www.linkedin.com/in/titobohrt/)
+- ✍ [Sales Hacker library](https://www.saleshacker.com/library/?author=Tito%20Bohrt)
+- 🎙 [Stratyve — building SDR teams](https://www.stratyve.com/podcast/sales-development-tito-bohrt) · [HockeyStack — Psychology of Outbound](https://www.hockeystack.com/podcast/where-ai-fails-in-modern-sales-development) · [GTMnow — SDR→AE handoff](https://gtmnow.com/sdr-ae-handoff/)
+
+**Key Frameworks:** "SDRs solve problems, not solutions" · Funnel-inversion diagnostic (meetings completed → set → conversations → dials) · Show-rate benchmark 80–85% · Fully-loaded cost-per-qualified-meeting math ("Dear CFO") · Data-research / SDR-engagement split · Call-recording coaching (~100% early, sample later) · AI-SDR-as-oxymoron (measure *incremental* cost/meeting)
+
+**Artifacts:** `sales-team-building` → tito-bohrt-sdr-science
+
+**Skills:** `sales-team-building`, `gtm-role-descriptions`, `revenue-team-onboarding`, `cold-calling`, `ai-sdr-setup`
 
 ---
 
@@ -2009,7 +2029,7 @@ Founder-specific comp (payroll % ARR, offer walkthrough, negotiation scripts) �
 | Pipeline / discovery | Jacco (WbD), Keenan (Gap Selling), Whyte, Barrows, Becc Holland (Diagnostic) |
 | Outbound / SDR (email) | Jason Bay, Becc Holland, Guillaume Moubeche, Jordan Crawford, Pat Spielmann, Jed Mahrle, Eric Nowoslawski, Justin Michael |
 | Outbound / SDR (phone) | Joey Gilkey, Ryan Reisert, Ronen Pessar, Tom Slocum, Jeb Blount — `cold-calling-experts-index.md` |
-| Outbound / SDR (scale) | Henry Schuck (ZoomInfo SDR machine) |
+| Outbound / SDR (scale) | Henry Schuck (ZoomInfo SDR machine), Tito Bohrt (AltiSales SDR economics & science) |
 | Reverse demo / PLG sales | Varun Anand (Clay), Peter Cohan (incumbent discovery), Jon Barrows |
 | Customer Success | Lincoln Murphy, Nick Mehta (Gainsight) — `lincoln-murphy-customer-success.md` |
 | PLG growth | Elena Verna, Kyle Poyar, Wes Bush, Sean Ellis (PMF) |
