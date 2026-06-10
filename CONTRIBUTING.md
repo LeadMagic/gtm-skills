@@ -73,6 +73,13 @@ skills/<category>/<skill-name>/
 
 Do not nest deeper than `skills/<category>/<skill-name>/SKILL.md`. Agentskills marketplace discovery only sees that layout.
 
+## Commit Messages
+
+Squash-merge PRs with **LeadMagic-authored messages only**. Do not add
+`Co-authored-by: Cursor` or other agent/tool co-author trailers — they pollute
+GitHub contributor stats. Keep PR bodies factual; skip "Made with Cursor"
+footers.
+
 ## Pull Request Checklist
 
 - [ ] `npm run check` passes.
