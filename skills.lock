@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-06-10T02:23:28+00:00",
+  "generated_at": "2026-06-10T02:30:12+00:00",
   "total_skills": 203,
   "skills": {
     "abm/abm-1-to-1": {
@@ -874,7 +874,7 @@
         "founder-sales",
         "SKILL.md"
       ],
-      "sha256": "18538f94c39b0f0483aa1434121f7dd016c7d905467cc1d9b326b9b64097dbab",
+      "sha256": "8d22af806ff8251c14ccd18ebbbd0a9a34e1d03e767e27306f1a121905360229",
       "size_bytes": 13136
     },
     "founder-led/fundraising-strategy": {
