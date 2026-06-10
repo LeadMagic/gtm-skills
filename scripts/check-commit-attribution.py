@@ -7,10 +7,12 @@ import re
 import subprocess
 import sys
 
-BLOCKED = (
-    re.compile(r"co-authored-by:\s*cursor\b", re.I),
-    re.compile(r"made with \[cursor\]", re.I),
-)
+def is_blocked_trailer(line: str) -> bool:
+    stripped = line.strip()
+    return bool(
+        re.match(r"^co-authored-by:\s*cursor\b", stripped, re.I)
+        or re.match(r"^made with \[cursor\]", stripped, re.I)
+    )
 
 
 def commits_to_check() -> list[tuple[str, str]]:
@@ -54,7 +56,7 @@ def main() -> int:
     for short_sha, body in commits_to_check():
         for line in body.splitlines():
             stripped = line.strip()
-            if any(p.search(stripped) for p in BLOCKED):
+            if is_blocked_trailer(line):
                 violations.append(f"{short_sha}: {stripped}")
     if violations:
         print("FAIL — agent co-author trailers found in commit message(s):", file=sys.stderr)

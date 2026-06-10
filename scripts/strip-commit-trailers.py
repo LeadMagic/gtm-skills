@@ -7,15 +7,17 @@ import re
 import sys
 from pathlib import Path
 
-BLOCKED_PATTERNS = (
-    re.compile(r"^co-authored-by:\s*cursor\b", re.I),
-    re.compile(r"^made with \[cursor\]", re.I),
-)
+def is_blocked_trailer(line: str) -> bool:
+    stripped = line.strip()
+    return bool(
+        re.match(r"^co-authored-by:\s*cursor\b", stripped, re.I)
+        or re.match(r"^made with \[cursor\]", stripped, re.I)
+    )
 
 
 def strip_message(text: str) -> str:
     lines = text.splitlines()
-    kept = [line for line in lines if not any(p.search(line.strip()) for p in BLOCKED_PATTERNS)]
+    kept = [line for line in lines if not is_blocked_trailer(line)]
     while kept and not kept[-1].strip():
         kept.pop()
     return "\n".join(kept).rstrip() + ("\n" if kept else "")
