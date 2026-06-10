@@ -16,6 +16,6 @@ keywords:
   - cursor
   - codex
   - gtm-skills
-abstract: "A public library of 203 production go-to-market skills across 25 categories for AI agents (Claude Code, Cursor, Codex, Copilot, and more), covering sales, marketing, outbound, analytics, PLG, customer success, RevOps, automation, and tool operations."
-version: "0.26.0"
+abstract: "A public library of 204 production go-to-market skills across 25 categories for AI agents (Claude Code, Cursor, Codex, Copilot, and more), covering sales, marketing, outbound, analytics, PLG, customer success, RevOps, automation, and tool operations."
+version: "0.26.1"
 date-released: "2026-06-10"

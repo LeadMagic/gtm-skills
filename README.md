@@ -13,9 +13,11 @@ This is not a prompt pack. It is an agent-skills repository: portable skill fold
 | Resource | URL |
 |---|---|
 | Source & issues | [github.com/LeadMagic/gtm-skills](https://github.com/LeadMagic/gtm-skills) |
+| Releases & changelog | [CHANGELOG.md](CHANGELOG.md) |
 | Install guide | [docs/INSTALL.md](docs/INSTALL.md) |
 | Master skill index | [references/skill-index-master.md](references/skill-index-master.md) |
 | Expert catalog | [references/experts.md](references/experts.md) |
+| Pitfalls index | [references/pitfalls-index.md](references/pitfalls-index.md) |
 | Citation metadata | [CITATION.cff](CITATION.cff) |
 | Marketplace install | `gh skill install LeadMagic/gtm-skills` |
 
@@ -67,6 +69,20 @@ Agent-skills directories and submission status:
 - **Marketplace-ready.** Every skill is discoverable by agentskills.io-compatible patterns and validated in CI.
 - **Supply-chain aware.** skills.lock tracks SHA256 for every marketplace-discoverable skill.
 - **No telemetry.** Static skills and local scripts only; no analytics SDKs or hidden network behavior.
+
+## Start Here
+
+| Goal | Skill |
+|---|---|
+| Route any GTM task | [using-gtm-skills](skills/foundation/using-gtm-skills/SKILL.md) |
+| LinkedIn feed reach (van der Blom) | [linkedin-algorithm](skills/inbound/linkedin-algorithm/SKILL.md) |
+| LinkedIn Live / weekly show (Jessie Lizak / Reveting) | [linkedin-live-strategy](skills/inbound/linkedin-live-strategy/SKILL.md) |
+| Cold outbound architecture | [cold-email-strategy](skills/outbound/cold-email-strategy/SKILL.md) |
+| Named expert lookup | [references/experts.md](references/experts.md) |
+
+## LinkedIn Inbound Stack
+
+The **inbound** category (7 skills) covers organic LinkedIn end-to-end: **Richard van der Blom** feed mechanics in `linkedin-algorithm`, **Jessie Lizak** Live content engine in `linkedin-live-strategy`, plus `social-selling`, `founder-brand`, and `website-visitor-identification`. Release history: [CHANGELOG.md](CHANGELOG.md).
 
 ## Repository Quality Signals
 
