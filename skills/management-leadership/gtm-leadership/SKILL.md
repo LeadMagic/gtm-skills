@@ -366,6 +366,7 @@ Load `references/cro-enterprise-strategy.md` for full checklists. Summary:
 - `templates/resignation-conversation-script.md` — manager receiving notice
 - `templates/resignation-handoff-checklist.md` — pipeline + account transfer
 - `templates/exit-interview-questions.md` — HR / skip-level exit interview
+- `scripts/check-output.py` — Validates hire, coach, PIP, fire, resignation, and crisis deliverables
 
 ## Related Skills
 

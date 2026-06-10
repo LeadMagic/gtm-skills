@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-06-10T01:36:11+00:00",
+  "generated_at": "2026-06-10T01:43:38+00:00",
   "total_skills": 202,
   "skills": {
     "abm/abm-1-to-1": {
@@ -1342,8 +1342,8 @@
         "gtm-leadership",
         "SKILL.md"
       ],
-      "sha256": "4653a945c140407086dc0e004043ed50b6e6872ff8ef04863cf9e55311047920",
-      "size_bytes": 20063
+      "sha256": "14bd5091797a9c7504e677beb5915db4f9841dc8e562588f3dd8a5644c68248d",
+      "size_bytes": 20166
     },
     "management-leadership/revenue-team-onboarding": {
       "path": [
@@ -1621,8 +1621,8 @@
         "buyer-indecision",
         "SKILL.md"
       ],
-      "sha256": "1284222547691fc7c04e382e0f9e7327955738ec5e101330f2da0d113ddcb381",
-      "size_bytes": 7137
+      "sha256": "a402deffbcbcb6ce127366199aaaa3f26fff8dfc1ee6b7fab81f03b1264a414e",
+      "size_bytes": 7230
     },
     "sales-revops/deal-desk": {
       "path": [

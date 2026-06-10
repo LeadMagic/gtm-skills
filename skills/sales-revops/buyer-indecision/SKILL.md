@@ -159,6 +159,7 @@ Maps to WbD Bowtie — left side onboarding promise reduces FOMU.
 
 - `references/jolt-playbook.md` — Full J/O/L/T tactics and talk tracks
 - `templates/jolt-deal-review.md` — Deal review scorecard
+- `scripts/check-output.py` — Validates JOLT deliverables (Judge, Offer, Limit, Take risk)
 
 ## Related Skills
 

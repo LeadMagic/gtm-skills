@@ -292,10 +292,10 @@ def insert_execution_artifacts(content: str, artifact_lines: list[str]) -> str:
     return content + "\n\n" + section
 
 
-def process_skill(skill_dir: Path) -> dict:
+def process_skill(skill_dir: Path, scripts_only: bool = False) -> dict:
     skill_md = skill_dir / "SKILL.md"
     content = skill_md.read_text(encoding="utf-8")
-    if "## Execution Artifacts" in content:
+    if "## Execution Artifacts" in content and not scripts_only:
         return {"skipped": True}
 
     fm = parse_frontmatter(content)
@@ -337,6 +337,7 @@ def process_skill(skill_dir: Path) -> dict:
         category in ARTIFACT_REQUIRED_CATEGORIES
         or existing_scripts
         or (tmpl_dir.exists() and existing_tmpls)
+        or scripts_only
     )
     has_check = any(p.name == "check-output.py" for p in existing_scripts)
     if need_script and not has_check:
@@ -357,10 +358,19 @@ def process_skill(skill_dir: Path) -> dict:
         desc = artifact_description(p, skill_dir)
         artifact_lines.append(f"- `{rel}` — {desc}")
 
-    new_content = insert_execution_artifacts(content, artifact_lines)
-    if new_content != content:
-        skill_md.write_text(new_content, encoding="utf-8")
-        created.append(str(skill_md.relative_to(ROOT)))
+    if not scripts_only:
+        new_content = insert_execution_artifacts(content, artifact_lines)
+        if new_content != content:
+            skill_md.write_text(new_content, encoding="utf-8")
+            created.append(str(skill_md.relative_to(ROOT)))
+    elif created and "scripts/check-output.py" in [Path(c).name for c in created]:
+        if "check-output.py" not in content:
+            rel_script = "scripts/check-output.py"
+            desc = artifact_description(scripts_dir / "check-output.py", skill_dir)
+            line = f"- `{rel_script}` — {desc}"
+            if "## Execution Artifacts" in content:
+                skill_md.write_text(content.replace("## Execution Artifacts\n\n", f"## Execution Artifacts\n\n{line}\n", 1), encoding="utf-8")
+                created.append(str(skill_md.relative_to(ROOT)))
 
     return {"skill": str(skill_dir.relative_to(SKILLS_DIR)), "created": created}
 
@@ -383,10 +393,11 @@ def fix_stray_backticks():
 
 
 def main() -> int:
+    scripts_only = "--scripts-only" in sys.argv
     fixes = fix_stray_backticks()
     results = []
     for skill_md in sorted(SKILLS_DIR.rglob("SKILL.md")):
-        r = process_skill(skill_md.parent)
+        r = process_skill(skill_md.parent, scripts_only=scripts_only)
         if not r.get("skipped"):
             results.append(r)
 
