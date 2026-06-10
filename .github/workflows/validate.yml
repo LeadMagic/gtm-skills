@@ -25,6 +25,7 @@ on:
       - 'skills.lock'
       - 'taxonomy.csv'
       - 'install.sh'
+      - '.githooks/**'
   pull_request:
     branches: [main]
     paths:
@@ -49,6 +50,7 @@ on:
       - 'skills.lock'
       - 'taxonomy.csv'
       - 'install.sh'
+      - '.githooks/**'
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -66,6 +68,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
         with:
+          fetch-depth: 0
           persist-credentials: false
 
       - uses: actions/setup-node@v6
@@ -81,7 +84,12 @@ jobs:
             scripts/generate-skills-lock.py \
             scripts/install-tui.py \
             scripts/public-repo-audit.py \
-            scripts/audit-references.py
+            scripts/audit-references.py \
+            scripts/strip-commit-trailers.py \
+            scripts/check-commit-attribution.py
+
+      - name: Block agent co-author commit trailers
+        run: python3 scripts/check-commit-attribution.py
 
       - name: Skill structure, references, lock, installer, public hygiene
         run: npm run check

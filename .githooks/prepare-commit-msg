@@ -1,0 +1,5 @@
+#!/bin/sh
+# Second pass: some tools append trailers after the template is written.
+set -eu
+ROOT="$(git rev-parse --show-toplevel)"
+python3 "$ROOT/scripts/strip-commit-trailers.py" "$1"
