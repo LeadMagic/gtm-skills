@@ -50,9 +50,9 @@ gh skill publish --dry-run
 Expected result (count matches the current catalog):
 
 ```text
-202 skills checked. 0 errors, 0 warnings.
-Reference audit passed: 202 skills, all reference targets resolve, layout and frontmatter names clean.
-skills.lock verified: 202 skills
+203 skills checked. 0 errors, 0 warnings.
+Reference audit passed: 203 skills, all reference targets resolve, layout and frontmatter names clean.
+skills.lock verified: 203 skills
 ```
 
 ## Adding a Skill

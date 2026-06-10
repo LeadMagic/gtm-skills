@@ -25,7 +25,7 @@ def discover_skills() -> list[Path]:
     missed = []
     for p in skills:
         rel = p.relative_to(SKILLS_DIR).parts
-        if rel[-1] != "SKILL.md" or len(rel) not in (3, 4):
+        if rel[-1] != "SKILL.md" or len(rel) != 3:
             missed.append(str(p.relative_to(ROOT)))
     if missed:
         raise SystemExit("Non-marketplace-discoverable skill paths:\n" + "\n".join(missed))

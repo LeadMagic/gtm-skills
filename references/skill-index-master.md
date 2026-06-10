@@ -1,6 +1,6 @@
 # GTM Skills — Master Skill Index
 
-One-page map of **202 skills** across **25 categories**. Load `foundation/using-gtm-skills` first for patterns and workflows.
+One-page map of **203 skills** across **25 categories**. Load `foundation/using-gtm-skills` first for patterns and workflows.
 
 **Master router:** `skills/foundation/using-gtm-skills/SKILL.md`
 
@@ -8,7 +8,7 @@ One-page map of **202 skills** across **25 categories**. Load `foundation/using-
 
 | Index | Path | Use when |
 |---|---|---|
-| Expert catalog | `references/experts.md` | Named practitioner lookup (~75 entries) |
+| Expert catalog | `references/experts.md` | Named practitioner lookup (~110 entries) |
 | Outbound experts | `references/gtm-experts-outbound-index.md` | Cold email + discovery routing |
 | Cold calling experts | `references/cold-calling-experts-index.md` | Phone-first outbound |
 | Automation playbooks | `references/automation-playbook-index.md` | Clay, n8n, sequencing, LeadMagic (38 playbooks) |
@@ -319,12 +319,13 @@ Co-marketing, integrations, partner strategy. **Start skill:** `partnership-stra
 | `integration-partnerships` | Build and go-to-market with technology integration partnerships — API/integration GTM, mar |
 | `partnership-strategy` | Build a partnership program — partner types, recruitment, enablement, co-marketing, revenu |
 
-### Product-Led Growth (`product-led-growth/`) — 2 skills
+### Product-Led Growth (`product-led-growth/`) — 3 skills
 
-PLG strategy, freemium optimization. **Start skill:** `plg-strategy`
+PLG strategy, freemium optimization, developer GTM. **Start skill:** `plg-strategy`
 
 | Skill | One-line |
 |---|---|
+| `developer-gtm` | Build a developer go-to-market motion (Vercel/Stripe) — open-source flywheel, ungated docs |
 | `freemium-optimization` | Freemium and free trial conversion optimization — model selection with full-funnel math, a |
 | `plg-strategy` | Design product-led growth motions — freemium vs free trial, PQL scoring, self-serve conver |
 

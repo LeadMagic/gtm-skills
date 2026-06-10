@@ -18,7 +18,7 @@ metadata:
   tags: [gtm-skills, installation, discovery, taxonomy, getting-started, master-guide]
   related_skills: [gtm-context, gtm-system-architecture, pipeline-management, sales-enablement, hiring-agencies, founder-sales, sales-team-building, skills-lock]
   frameworks:
-    - "LeadMagic/gtm-skills — 202 GTM agent skills"
+    - "LeadMagic/gtm-skills — 203 GTM agent skills"
     - "Jacco van der Kooij (Winning by Design) — SPICED, Bowtie, GTM Index"
     - "Sam Jacobs (Pavilion) — CRO Council executive comp standards"
     - "Mark Roberge — The Sales Acceleration Formula"
@@ -32,7 +32,7 @@ metadata:
 
 ## Overview
 
-202 skills. 25 categories. Every GTM discipline. This is the master key.
+203 skills. 25 categories. Every GTM discipline. This is the master key.
 The mistake: cloning the repo and not knowing where to start — loading random
 skills, missing dependencies, or treating skills as documentation instead of
 executable playbooks. This skill covers the complete usage guide: installation,
@@ -87,7 +87,7 @@ getting maximum value from the gtm-skills library.
 | **Security** | `founder-led/` (soc2, privacy), `deal-desk` | 16, 29 |
 | **Automation strategy** | `automation/`, `gtm-ops/` | 6, 6b, 30 |
 
-Full category map (all 202 skills): `references/skill-index-master.md`
+Full category map (all 203 skills): `references/skill-index-master.md`
 
 ## Pattern Index (1–30)
 
@@ -134,7 +134,7 @@ Full category map (all 202 skills): `references/skill-index-master.md`
 
 This skill is grounded in public frameworks and source material relevant to the task:
 
-- **LeadMagic/gtm-skills — 202 GTM agent skills.** Skill maps in this guide route tasks to the right playbook.
+- **LeadMagic/gtm-skills — 203 GTM agent skills.** Skill maps in this guide route tasks to the right playbook.
 - **Jacco van der Kooij (Winning by Design).** SPICED discovery, Bowtie lifecycle, GTM Index, REKS coaching — primary WbD cite.
 - **Sam Jacobs (Pavilion).** CRO Council exec comp; multi-gate variable (ARR + NRR + efficiency).
 - **Mark Roberge — The Sales Acceleration Formula.** Data-driven hiring, training, demand gen, and sales process design — the science behind scaling a B2B sales org.
@@ -298,6 +298,7 @@ Examples:
 - "CRO strategy / John McMahon / enterprise sales leadership" → Pattern 31 · `cro-enterprise-strategy.md`
 - "Snowflake GTM / consumption model / Slootman" → Pattern 31 · `expansion-selling`, `executive-compensation`
 - "Databricks PLG to enterprise / Ron Gabrisko" → Pattern 31 · `sales-team-building`, `gtm-leadership`
+- "Developer selling / sell to developers / Vercel GTM / DevRel / open-source GTM" → developer-gtm (vercel-developer-selling.md), plg-strategy
 - "Buyer indecision / JOLT / need to think about it" → buyer-indecision, pipeline-management
 - "SDR/AE comp plan template" → gtm-role-descriptions (comp-plan-sdr, comp-plan-ae)
 - "Recruit passive AE / close candidate" → gtm-recruiting, gtm-role-descriptions, hiring-by-role
@@ -325,6 +326,7 @@ Examples:
 - "Community selling / Slack GTM / ecosystem-led growth" → customer-marketing → community-selling-varun reference
 - "ZoomInfo GTM / Henry Schuck SDR model" → sales-team-building → henry-schuck-sdr-model reference
 - "SDR economics / cost per meeting / Tito Bohrt / SDR hiring simulation" → sales-team-building (tito-bohrt-sdr-science.md), gtm-role-descriptions
+- "ABSD / account-based sales development / Lars Nilsson / targeted enterprise outbound" → abm-strategy (lars-nilsson-absd.md), account-selection, cold-email-strategy
 - "Hire GTM engineer / RevOps engineer" → gtm-role-descriptions → hiring-by-role (gtm-engineer scorecard)
 - "GTM stack TCO / Ramp / vendor spend audit" → Pattern 11 (revops-tech-stack → gtm-spend-management)
 - "Lifecycle stages / activation / time-to-value / monitor lifecycle" → Pattern 18 (`references/gtm-lifecycle-stages.md` → `activation-playbook.md` → monitoring dashboard)
@@ -1274,7 +1276,7 @@ Every gtm-skills skill is:
 ```
 gtm-skills/
 ├── README.md              # Hero, install, category overview, authority catalog
-├── skills.lock             # SHA256-verified integrity for all 202 skills
+├── skills.lock             # SHA256-verified integrity for all 203 skills
 ├── taxonomy.csv            # slug → name → category → description → priority
 ├── references/
 │   ├── skill-index-master.md  # One-page map of all 25 categories
@@ -1289,7 +1291,7 @@ gtm-skills/
 ├── CLAUDE.md              # Claude Code-specific index
 ├── skills/
 │   ├── foundation/         # ICP, positioning, pricing, using-gtm-skills router
-│   ├── founder-led/        # 35+ skills — everything a founder needs
+│   ├── founder-led/        # 40+ skills — everything a founder needs
 │   ├── gtm-ops/            # RevOps, spend, tool TCO, campaign governance
 │   ├── prospecting/        # Lead finding, enrichment, verification
 │   ├── outbound/           # Cold email, deliverability, domains, inboxes
@@ -1314,7 +1316,7 @@ gtm-skills/
 | Map | Path | Use when |
 |---|---|---|
 | **Master skill index** | `references/skill-index-master.md` | One-page map of all 25 categories |
-| Expert catalog | `references/experts.md` | Named practitioner lookup (~75 entries incl. methodology orgs) |
+| Expert catalog | `references/experts.md` | Named practitioner lookup (~110 entries incl. methodology orgs) |
 | GTM glossary | `references/gtm-glossary.md` | MEDDICC, SPICED, Bowtie terminology |
 | SaaS metrics ref | `references/saas-metrics-reference.md` | Churn, LTV, NRR formulas |
 | Meritech benchmarks | `references/meritech-saas-benchmarks.md` | Public SaaS index, Rule of 40 |

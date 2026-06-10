@@ -54,8 +54,10 @@ function parseFrameworks(fmText) {
       const cleaned = item.trim().replace(/^['"]|['"]$/g, '');
       if (cleaned) frameworks.push(cleaned);
     }
+    return frameworks;
   }
-  const block = fmText.match(/^\s*frameworks:\s*\n([\s\S]*?)(?=^\s*[A-Za-z_][A-Za-z0-9_-]*:\s*|\s*$)/m);
+  // Block list: capture every "    - item" line (mirrors validate-skills.js).
+  const block = fmText.match(/^\s{2}frameworks:\s*\n((?:\s{4}-\s+.*\n?)+)/m);
   if (block) {
     for (const line of block[1].split('\n')) {
       const m = line.match(/^\s*-\s*["']?(.+?)["']?\s*$/);
@@ -88,23 +90,12 @@ function discoverSkills() {
           path: path.relative(ROOT, skillFile).replace(/\\/g, '/'),
         });
       } else {
+        // Flat layout only: any SKILL.md nested deeper than skills/<category>/<skill>/ is a layout error.
         const nestedBase = path.join(categoryDir, skillEntry.name);
         for (const deep of fs.readdirSync(nestedBase, { withFileTypes: true })) {
           if (!deep.isDirectory() || deep.name.startsWith('_')) continue;
           const deepFile = path.join(nestedBase, deep.name, 'SKILL.md');
-          if (fs.existsSync(deepFile)) {
-            const { fm, fmText } = parseFrontmatter(deepFile);
-            skills.push({
-              slug: `${skillEntry.name}/${deep.name}`,
-              name: fm.name || deep.name,
-              category,
-              description: fm.description || '',
-              compatibility: fm.compatibility || '',
-              priority: fm.priority || 'medium',
-              frameworks: parseFrameworks(fmText),
-              path: path.relative(ROOT, deepFile).replace(/\\/g, '/'),
-            });
-          }
+          if (fs.existsSync(deepFile)) missed.push(path.relative(ROOT, deepFile).replace(/\\/g, '/'));
         }
       }
     }
@@ -123,32 +114,42 @@ function parseExpertsCatalog() {
   if (!fs.existsSync(expertsFile)) return [];
   const content = fs.readFileSync(expertsFile, 'utf8');
   const experts = [];
-  for (const m of content.matchAll(/^## ([^\n]+)$/gm)) {
-    const name = m[1].trim();
-    if (name === 'Maintenance Notes') continue;
-    experts.push(name);
+  // Expert entries are H3 headers shaped "### Name — Affiliation (Org)".
+  for (const m of content.matchAll(/^### ([^\n]+)$/gm)) {
+    const name = m[1]
+      .split(' — ')[0]
+      .replace(/\s*\([^)]*\)\s*$/, '')
+      .trim();
+    if (name && !experts.includes(name)) experts.push(name);
   }
   return experts;
 }
 
-function expertAuthorityEntry(expertName, authorityCounts) {
-  const matches = [...authorityCounts.entries()].filter(([authority]) => authority.includes(expertName));
-  if (!matches.length) return null;
-  return matches.sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0];
+function expertMatcher(expert) {
+  const escaped = expert.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  // Word-boundary match so "Bench" does not match "Benchmarks".
+  return new RegExp(`(^|[^A-Za-z])${escaped}($|[^A-Za-z])`);
 }
 
-function buildAuthorityCatalog(authorityCounts, limit = 24) {
+function buildAuthorityCatalog(skills, authorityCounts, limit = 24) {
+  const experts = parseExpertsCatalog().map(name => ({ name, re: expertMatcher(name) }));
   const catalog = new Map();
-  for (const expert of parseExpertsCatalog()) {
-    const entry = expertAuthorityEntry(expert, authorityCounts);
-    if (entry) catalog.set(entry[0], entry[1]);
+  // Aggregate per expert: distinct skills whose frameworks cite the expert by name.
+  for (const { name, re } of experts) {
+    const count = skills.filter(s => s.frameworks.some(f => re.test(f))).length;
+    if (count > 0) catalog.set(name, count);
   }
+  // Fill remaining capacity with top non-expert framework strings.
   const ranked = [...authorityCounts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
   for (const [authority, count] of ranked) {
     if (catalog.size >= limit) break;
-    if (!catalog.has(authority)) catalog.set(authority, count);
+    if (catalog.has(authority)) continue;
+    if (experts.some(({ re }) => re.test(authority))) continue;
+    catalog.set(authority, count);
   }
-  return [...catalog.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  return [...catalog.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, limit);
 }
 
 const skills = discoverSkills();
@@ -169,7 +170,7 @@ for (const s of skills) {
   }
 }
 const topAuthorities = [...authorityCounts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 30);
-const authorityCatalog = buildAuthorityCatalog(authorityCounts, 24);
+const authorityCatalog = buildAuthorityCatalog(skills, authorityCounts, 24);
 
 const taxonomy = ['slug,name,category,path,description,priority,compatibility'];
 for (const s of skills) taxonomy.push([s.slug, s.name, s.category, s.path, s.description, s.priority, s.compatibility].map(csvEscape).join(','));
@@ -201,7 +202,7 @@ fs.writeFileSync(path.join(ROOT, 'AGENTS.md'), agents);
 const categoryRows = categories.map(cat => `| ${cat} | ${byCategory[cat].length} | ${truncate(byCategory[cat].map(s => s.slug).slice(0, 5).join(', '), 90)} |`).join('\n');
 const authorityRows = authorityCatalog.map(([authority, count]) => `| ${authority.replace(/\|/g, '/')} | ${count} |`).join('\n');
 
-let readme = `# GTM Skills\n\n[![Skills](https://img.shields.io/badge/skills-${total}-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-${categories.length}-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE)\n\n${total} production go-to-market skills for AI agents. Built for sales, marketing, outbound, prospecting, enrichment, PLG, analytics, automation, customer success, RevOps, founder-led GTM, and tool operations.\n\nThis is not a prompt pack. It is an agent-skills repository: portable skill folders with instructions, scripts, references, templates, assets, metadata, marketplace publishing, install tooling, and SHA256 integrity verification.\n\n## Install\n\nClaude Code marketplace style:\n\n\`\`\`text\n/plugin marketplace add LeadMagic/gtm-skills\n/plugin install gtm-skills@gtm-skills\n\`\`\`\n\nagentskills CLI style:\n\n\`\`\`bash\ngh skill install LeadMagic/gtm-skills\n\`\`\`\n\nInteractive installer:\n\n\`\`\`bash\ngit clone https://github.com/LeadMagic/gtm-skills.git\ncd gtm-skills\n./install.sh\n./install.sh --target all --dry-run\n\`\`\`\n\nFull install docs: [docs/INSTALL.md](docs/INSTALL.md).\n\n## What Makes This Repo Different\n\n- **Artifact-first.** Skills produce copy, plans, scorecards, runbooks, dashboards, workflows, templates, scripts, and QA checklists.\n- **Authority-backed.** Every skill cites named operators, vendors, books, frameworks, platform docs, or primary sources instead of vague best practices.\n- **Benchmark-aware.** Public benchmark notes compare this repo against adjacent GTM/marketing skill packs and define where this project must stay stronger.\n- **Anthropic-style folders.** SKILL.md for instructions; references/, templates/, scripts/, and assets/ for execution resources.\n- **Progressive disclosure.** SKILL.md stays focused; deep tables and templates live in support files.\n- **Marketplace-ready.** Every skill is discoverable by agentskills.io-compatible patterns and validated in CI.\n- **Supply-chain aware.** skills.lock tracks SHA256 for every marketplace-discoverable skill.\n- **No telemetry.** Static skills and local scripts only; no analytics SDKs or hidden network behavior.\n\n## Repository Quality Signals\n\n| Signal | Status |\n|---|---|\n| Marketplace-discoverable skills | ${total}/${total} |\n| Categories | ${categories.length} |\n| CI validation | \`npm run check\` |\n| Publish verification | \`gh skill publish --dry-run\` |\n| Integrity manifest | \`skills.lock\` |\n| Public governance | CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, GOVERNANCE |\n| Source standard | docs/SOURCE_STANDARDS.md |\n| Benchmark notes | docs/BENCHMARKS.md |\n\n## Category Map\n\n| Category | Skills | Examples |\n|---|---:|---|\n${categoryRows}\n\n## Benchmark Positioning\n\nAdjacent public repos include marketing-focused packs, GTM methodology packs, and dense sales playbooks. This repo is designed to compete on breadth, source hygiene, public governance, installability, and artifact-first execution rather than raw prompt count. See [docs/BENCHMARKS.md](docs/BENCHMARKS.md) for the current comparison set and hardening notes.\n\n## Authority Catalog\n\nThe skills cite named methodologies, operators, vendor docs, and frameworks. Top recurring sources in the catalog:\n\n| Authority / Framework | Skills |\n|---|---:|\n${authorityRows}\n\n## Documentation\n\n- [Install guide](docs/INSTALL.md)\n- [Architecture](docs/ARCHITECTURE.md)\n- [Skill authoring standard](docs/SKILL_AUTHORING.md)\n- [Source and authority standard](docs/SOURCE_STANDARDS.md)\n- [Public benchmark notes](docs/BENCHMARKS.md)\n- [Integrity verification](docs/INTEGRITY.md)\n- [Release process](docs/RELEASE_PROCESS.md)\n- [Contributing](CONTRIBUTING.md)\n- [Security](SECURITY.md)\n\n## Validate Locally\n\n\`\`\`bash\nnpm run build\nnpm run check\ngh skill publish --dry-run\n\`\`\`\n\nExpected result: ${total} skills checked, 0 errors, 0 warnings, lock verified, installer dry-run OK.\n\n## Skills Catalog\n\n`;
+let readme = `# GTM Skills\n\n[![Skills](https://img.shields.io/badge/skills-${total}-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-${categories.length}-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE)\n\n${total} production go-to-market skills for AI agents. Built for sales, marketing, outbound, prospecting, enrichment, PLG, analytics, automation, customer success, RevOps, founder-led GTM, and tool operations.\n\nThis is not a prompt pack. It is an agent-skills repository: portable skill folders with instructions, scripts, references, templates, assets, metadata, marketplace publishing, install tooling, and SHA256 integrity verification.\n\n## Install\n\nClaude Code marketplace style:\n\n\`\`\`text\n/plugin marketplace add LeadMagic/gtm-skills\n/plugin install gtm-skills@gtm-skills\n\`\`\`\n\nagentskills CLI style:\n\n\`\`\`bash\ngh skill install LeadMagic/gtm-skills\n\`\`\`\n\nInteractive installer:\n\n\`\`\`bash\ngit clone https://github.com/LeadMagic/gtm-skills.git\ncd gtm-skills\n./install.sh\n./install.sh --target all --dry-run\n\`\`\`\n\nFull install docs: [docs/INSTALL.md](docs/INSTALL.md).\n\n## What Makes This Repo Different\n\n- **Artifact-first.** Skills produce copy, plans, scorecards, runbooks, dashboards, workflows, templates, scripts, and QA checklists.\n- **Authority-backed.** Every skill cites named operators, vendors, books, frameworks, platform docs, or primary sources instead of vague best practices.\n- **Benchmark-aware.** Public benchmark notes compare this repo against adjacent GTM/marketing skill packs and define where this project must stay stronger.\n- **Anthropic-style folders.** SKILL.md for instructions; references/, templates/, scripts/, and assets/ for execution resources.\n- **Progressive disclosure.** SKILL.md stays focused; deep tables and templates live in support files.\n- **Marketplace-ready.** Every skill is discoverable by agentskills.io-compatible patterns and validated in CI.\n- **Supply-chain aware.** skills.lock tracks SHA256 for every marketplace-discoverable skill.\n- **No telemetry.** Static skills and local scripts only; no analytics SDKs or hidden network behavior.\n\n## Repository Quality Signals\n\n| Signal | Status |\n|---|---|\n| Marketplace-discoverable skills | ${total}/${total} |\n| Categories | ${categories.length} |\n| CI validation | \`npm run check\` |\n| Publish verification | \`gh skill publish --dry-run\` |\n| Integrity manifest | \`skills.lock\` |\n| Public governance | CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, GOVERNANCE |\n| Source standard | docs/SOURCE_STANDARDS.md |\n| Benchmark notes | docs/BENCHMARKS.md |\n\n## Category Map\n\n| Category | Skills | Examples |\n|---|---:|---|\n${categoryRows}\n\n## Benchmark Positioning\n\nAdjacent public repos include marketing-focused packs, GTM methodology packs, and dense sales playbooks. This repo is designed to compete on breadth, source hygiene, public governance, installability, and artifact-first execution rather than raw prompt count. See [docs/BENCHMARKS.md](docs/BENCHMARKS.md) for the current comparison set and hardening notes.\n\n## Authority Catalog\n\nThe skills cite named methodologies, operators, vendor docs, and frameworks. Top recurring sources in the catalog:\n\n| Authority / Framework | Skills |\n|---|---:|\n${authorityRows}\n\nFull expert catalog — bios, public channels, and skill clusters: [references/experts.md](references/experts.md). Outbound/discovery routing: [references/gtm-experts-outbound-index.md](references/gtm-experts-outbound-index.md).\n\n## Documentation\n\n- [Install guide](docs/INSTALL.md)\n- [Architecture](docs/ARCHITECTURE.md)\n- [Skill authoring standard](docs/SKILL_AUTHORING.md)\n- [Source and authority standard](docs/SOURCE_STANDARDS.md)\n- [Public benchmark notes](docs/BENCHMARKS.md)\n- [Integrity verification](docs/INTEGRITY.md)\n- [Release process](docs/RELEASE_PROCESS.md)\n- [Contributing](CONTRIBUTING.md)\n- [Security](SECURITY.md)\n\n## Validate Locally\n\n\`\`\`bash\nnpm run build\nnpm run check\ngh skill publish --dry-run\n\`\`\`\n\nExpected result: ${total} skills checked, 0 errors, 0 warnings, lock verified, installer dry-run OK.\n\n## Skills Catalog\n\n`;
 for (const cat of categories) {
   readme += `### ${cat} (${byCategory[cat].length})\n\n`;
   for (const s of byCategory[cat]) readme += `- [${s.slug}](${s.path}) — ${truncate(s.description, 220)}\n`;

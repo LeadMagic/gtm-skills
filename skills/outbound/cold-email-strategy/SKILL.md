@@ -10,7 +10,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.1.0"
+  version: "1.2.0"
   author: LeadMagic
   category: outbound
   tags: [cold-email, sequence-design, cadence, outbound, prospecting]
@@ -27,6 +27,7 @@ metadata:
     - Command of the Message
     - SPICED
     - SPIN
+    - "Lars Nilsson (Cloudera/Snowflake) — Account-Based Sales Development (ABSD)"
     - Becc Holland — Stellar Cold Email / Diagnostic Selling
     - Guillaume Moubeche — lemlist Multichannel Outbound
     - Jordan Crawford — PQS / PVP / FIND (Cannonball GTM)
@@ -162,6 +163,15 @@ This skill draws from the following established methodologies:
   **why now**, with a targeted message per record. Sequence architecture should
   branch on signal type, not persona alone. See `sales-team-building` →
   `henry-schuck-sdr-model.md`.
+
+- **Lars Nilsson (Cloudera/Snowflake) — Account-Based Sales Development.** The
+  original account-based sequence design: SDR + AE + vertical SME co-author a
+  **3-email sequence** from a 10–15-use-case-per-vertical library (vertical hook →
+  layered story → Hail Mary), sent to multi-persona chunks of 50–250 contacts at
+  signal-surging accounts. Public first-campaign results: ~70% open / ~30% reply
+  vs 5–8% / 2–3% for nurture blasts — proof that account-targeted beats volume.
+  For enterprise/ABM-tier accounts, design the sequence per account, not per
+  persona. Canonical → `skills/abm/abm-strategy/references/lars-nilsson-absd.md`.
 
 - **Randy Seidl (Sales Community) — When relationships beat sequences.**
   Outbound sequences create *access* at scale; they do not replace *trust* in

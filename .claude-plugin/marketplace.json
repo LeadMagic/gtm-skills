@@ -1,7 +1,7 @@
 {
   "name": "gtm-skills",
   "display_name": "GTM Skills",
-  "description": "202 production go-to-market skills for AI agents. Artifact-first GTM playbooks across 25 categories.",
+  "description": "203 production go-to-market skills for AI agents. Artifact-first GTM playbooks across 25 categories.",
   "author": "LeadMagic",
   "repository": "https://github.com/LeadMagic/gtm-skills",
   "license": "MIT",
@@ -32,5 +32,5 @@
     "sequencing-tools",
     "tools"
   ],
-  "skills_count": 202
+  "skills_count": 203
 }

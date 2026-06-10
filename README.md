@@ -1,8 +1,8 @@
 # GTM Skills
 
-[![Skills](https://img.shields.io/badge/skills-202-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-25-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE)
+[![Skills](https://img.shields.io/badge/skills-203-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-25-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE)
 
-202 production go-to-market skills for AI agents. Built for sales, marketing, outbound, prospecting, enrichment, PLG, analytics, automation, customer success, RevOps, founder-led GTM, and tool operations.
+203 production go-to-market skills for AI agents. Built for sales, marketing, outbound, prospecting, enrichment, PLG, analytics, automation, customer success, RevOps, founder-led GTM, and tool operations.
 
 This is not a prompt pack. It is an agent-skills repository: portable skill folders with instructions, scripts, references, templates, assets, metadata, marketplace publishing, install tooling, and SHA256 integrity verification.
 
@@ -47,7 +47,7 @@ Full install docs: [docs/INSTALL.md](docs/INSTALL.md).
 
 | Signal | Status |
 |---|---|
-| Marketplace-discoverable skills | 202/202 |
+| Marketplace-discoverable skills | 203/203 |
 | Categories | 25 |
 | CI validation | `npm run check` |
 | Publish verification | `gh skill publish --dry-run` |
@@ -79,7 +79,7 @@ Full install docs: [docs/INSTALL.md](docs/INSTALL.md).
 | management-leadership | 5 | executive-compensation, gtm-leadership, revenue-team-onboarding, sales-coaching, team-man… |
 | outbound | 9 | cold-calling, cold-email-copywriting, cold-email-strategy, domain-infrastructure, email-d… |
 | partnerships | 3 | co-marketing, integration-partnerships, partnership-strategy |
-| product-led-growth | 2 | freemium-optimization, plg-strategy |
+| product-led-growth | 3 | developer-gtm, freemium-optimization, plg-strategy |
 | prospecting | 8 | contact-verification, data-enrichment-strategy, email-finding, lead-enrichment, lead-find… |
 | sales-plays | 5 | earnings-signal-play, funding-signal-play, hiring-signal-play, job-change-play, product-l… |
 | sales-revops | 8 | buyer-indecision, deal-desk, demo-scripts, meeting-prep, objection-handling |
@@ -96,30 +96,32 @@ The skills cite named methodologies, operators, vendor docs, and frameworks. Top
 
 | Authority / Framework | Skills |
 |---|---:|
-| DAMA-DMBOK Data Quality Dimensions | 7 |
-| Force Management Command of the Message | 6 |
-| Todd Caponi Transparency Sale | 6 |
-| Winning by Design Bowtie | 5 |
-| Google Bulk Sender Guidelines | 4 |
-| Signal-Based Selling | 4 |
-| Winning by Design GTM Index | 4 |
-| ColdIQ Multi-Channel Cadence | 3 |
-| Eric Nowoslawski Cold Email Infrastructure | 3 |
-| Force Management MEDDICC | 3 |
-| Jed Mahrle Practical Prospecting | 3 |
-| Andy Raskin Strategic Narrative | 2 |
-| Anthropic Tool Use Patterns | 2 |
-| April Dunford Positioning | 2 |
-| Arthur Dunn Scientific Selling | 2 |
-| B2B Event ROI Framework | 2 |
-| Cialdini Persuasion Principles | 2 |
-| Command of the Message | 2 |
-| David Skok SaaS Metrics | 2 |
-| Eric Nowoslawski 1:1 Backup Inbox Strategy | 2 |
-| Gainsight CS Index | 2 |
-| Gartner Buying Committee Research | 2 |
-| John Ruhlin Giftology | 2 |
-| Wes Bush Product-Led Growth | 1 |
+| Jason Lemkin | 24 |
+| Force Management | 21 |
+| David Skok | 15 |
+| Mark Roberge | 11 |
+| Eric Nowoslawski | 9 |
+| Andy Whyte | 8 |
+| Bridge Group | 7 |
+| Todd Caponi | 7 |
+| Dharmesh Shah | 6 |
+| Pat Spielmann | 6 |
+| Pavilion | 6 |
+| Ben Murray | 5 |
+| Betts Recruiting | 5 |
+| Chris Walker | 5 |
+| John McMahon | 5 |
+| Ryan Reisert | 5 |
+| Sean Ellis | 5 |
+| a16z | 4 |
+| Aneesh Lal | 4 |
+| April Dunford | 4 |
+| Elena Verna | 4 |
+| Eunice Buhler | 4 |
+| Frank Slootman | 4 |
+| Guillaume Moubeche | 4 |
+
+Full expert catalog — bios, public channels, and skill clusters: [references/experts.md](references/experts.md). Outbound/discovery routing: [references/gtm-experts-outbound-index.md](references/gtm-experts-outbound-index.md).
 
 ## Documentation
 
@@ -141,7 +143,7 @@ npm run check
 gh skill publish --dry-run
 ```
 
-Expected result: 202 skills checked, 0 errors, 0 warnings, lock verified, installer dry-run OK.
+Expected result: 203 skills checked, 0 errors, 0 warnings, lock verified, installer dry-run OK.
 
 ## Skills Catalog
 
@@ -366,8 +368,9 @@ Expected result: 202 skills checked, 0 errors, 0 warnings, lock verified, instal
 - [integration-partnerships](skills/partnerships/integration-partnerships/SKILL.md) — Build and go-to-market with technology integration partnerships — API/integration GTM, marketplace listing, co-selling. Triggers on: "integration partnership", "tech partnership", "API partnership", "marketplace listing…
 - [partnership-strategy](skills/partnerships/partnership-strategy/SKILL.md) — Build a partnership program — partner types, recruitment, enablement, co-marketing, revenue share models. Triggers on: "partnership strategy", "partner program", "channel partnerships", "build partnerships".
 
-### product-led-growth (2)
+### product-led-growth (3)
 
+- [developer-gtm](skills/product-led-growth/developer-gtm/SKILL.md) — Build a developer go-to-market motion the way Vercel, Stripe, and Twilio do — open-source/framework flywheel, docs and quickstarts as the funnel, transparent self-serve pricing, PQL signals, DevRel/community as distribu…
 - [freemium-optimization](skills/product-led-growth/freemium-optimization/SKILL.md) — Freemium and free trial conversion optimization — model selection with full-funnel math, activation design, paywall placement, PQL scoring, and benchmark-anchored experiment planning. Use when optimizing freemium conver…
 - [plg-strategy](skills/product-led-growth/plg-strategy/SKILL.md) — Design product-led growth motions — freemium vs free trial, PQL scoring, self-serve conversion, PLG sales hybrid, and product-led marketing. Use when building a PLG motion, transitioning to self-serve, or optimizing pro…
 

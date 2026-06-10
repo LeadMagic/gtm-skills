@@ -1,6 +1,6 @@
 # gtm-skills — Agent Skills Index
 
-202 production GTM skills for AI agents. This repo follows the Anthropic/agentskills pattern: portable skill folders with SKILL.md plus optional scripts/, references/, templates/, and assets/.
+203 production GTM skills for AI agents. This repo follows the Anthropic/agentskills pattern: portable skill folders with SKILL.md plus optional scripts/, references/, templates/, and assets/.
 
 ## Install
 
@@ -57,7 +57,7 @@ Local installer:
 - **management-leadership** — 5 skills
 - **outbound** — 9 skills
 - **partnerships** — 3 skills
-- **product-led-growth** — 2 skills
+- **product-led-growth** — 3 skills
 - **prospecting** — 8 skills
 - **sales-plays** — 5 skills
 - **sales-revops** — 8 skills

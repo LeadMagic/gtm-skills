@@ -1,6 +1,6 @@
 # GTM Skills
 
-202 production go-to-market skills for Claude-compatible agents. Skills are self-contained folders with instructions, scripts, references, templates, assets, and metadata that agents load through progressive disclosure.
+203 production go-to-market skills for Claude-compatible agents. Skills are self-contained folders with instructions, scripts, references, templates, assets, and metadata that agents load through progressive disclosure.
 
 ## Install
 
@@ -19,17 +19,17 @@
 ## Top Authority Signals
 
 - DAMA-DMBOK Data Quality Dimensions (7 skills)
-- Force Management Command of the Message (6 skills)
+- Force Management Command of the Message (7 skills)
+- Aaron Ross — Predictable Revenue (6 skills)
+- Google Search Central — SEO Starter Guide (6 skills)
+- Outreach — Sales Engagement Cadence Design (6 skills)
+- Paul Graham — Do Things That Do Not Scale (6 skills)
 - Todd Caponi Transparency Sale (6 skills)
+- Ziellab 3-Waterfall Architecture (6 skills)
+- HubSpot Academy — CRM Automation (5 skills)
+- Pat Spielmann — Cold to Gold (5 skills)
+- Reforge — Lifecycle Marketing (5 skills)
 - Winning by Design Bowtie (5 skills)
-- Google Bulk Sender Guidelines (4 skills)
-- Signal-Based Selling (4 skills)
-- Winning by Design GTM Index (4 skills)
-- ColdIQ Multi-Channel Cadence (3 skills)
-- Eric Nowoslawski Cold Email Infrastructure (3 skills)
-- Force Management MEDDICC (3 skills)
-- Jed Mahrle Practical Prospecting (3 skills)
-- Andy Raskin Strategic Narrative (2 skills)
 
 ## Skills Index
 
@@ -235,7 +235,8 @@
 - **integration-partnerships** — Build and go-to-market with technology integration partnerships — API/integration GTM, marketplace listing, co-selling. Triggers on: "integration partnership", "tech partnership",…
 - **partnership-strategy** — Build a partnership program — partner types, recruitment, enablement, co-marketing, revenue share models. Triggers on: "partnership strategy", "partner program", "channel partners…
 
-### product-led-growth (2)
+### product-led-growth (3)
+- **developer-gtm** — Build a developer go-to-market motion the way Vercel, Stripe, and Twilio do — open-source/framework flywheel, docs and quickstarts as the funnel, transparent self-serve pricing, P…
 - **freemium-optimization** — Freemium and free trial conversion optimization — model selection with full-funnel math, activation design, paywall placement, PQL scoring, and benchmark-anchored experiment plann…
 - **plg-strategy** — Design product-led growth motions — freemium vs free trial, PQL scoring, self-serve conversion, PLG sales hybrid, and product-led marketing. Use when building a PLG motion, transi…
 

@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-06-10T01:43:38+00:00",
-  "total_skills": 202,
+  "generated_at": "2026-06-10T01:59:43+00:00",
+  "total_skills": 203,
   "skills": {
     "abm/abm-1-to-1": {
       "path": [
@@ -37,8 +37,8 @@
         "abm-strategy",
         "SKILL.md"
       ],
-      "sha256": "9fcd99dafe41036a2aa9d9f4cf13fdec7b2400a5ed8d3f62ee07a04f2f66f155",
-      "size_bytes": 7608
+      "sha256": "9754f7ce3fe3ca031c9f8003d1b738a67f9168b42aac3e8cd43b96540083f5b6",
+      "size_bytes": 8794
     },
     "abm/account-selection": {
       "path": [
@@ -46,8 +46,8 @@
         "account-selection",
         "SKILL.md"
       ],
-      "sha256": "3b0d69f938a952e76e1152d8535b4ca14d87c46d2a825ebb5993a44fc184fd26",
-      "size_bytes": 6743
+      "sha256": "f81156ba28defd6968bfc98d3f26fcd39792c04f0ed94a6992f394759eaf19fc",
+      "size_bytes": 7527
     },
     "abm/multi-thread-orchestration": {
       "path": [
@@ -712,8 +712,8 @@
         "using-gtm-skills",
         "SKILL.md"
       ],
-      "sha256": "186fc9f6fd3124d71e4c4f27f46ee57df8c58d906101ca4528f6cb8104727acf",
-      "size_bytes": 90326
+      "sha256": "79fba7f7375b4a703684d185331d4c25bf0b395232657b183dfd7e3add88d468",
+      "size_bytes": 90641
     },
     "founder-led/advisor-recruitment": {
       "path": [
@@ -1396,8 +1396,8 @@
         "cold-email-strategy",
         "SKILL.md"
       ],
-      "sha256": "711e53e12f6d2aaa26f346d8ea5efb2ee2dedffe4ffeaf7fab1294b26e0dcdd6",
-      "size_bytes": 30195
+      "sha256": "e673f237186360fcf213950945b3efc6dda0b995f3da32b07e961a29a612ddc3",
+      "size_bytes": 30940
     },
     "outbound/domain-infrastructure": {
       "path": [
@@ -1480,6 +1480,15 @@
       "sha256": "6710e2108529d3ec5113cf5c1f7045789cbe437b994159654c03f4102c0e05ea",
       "size_bytes": 7431
     },
+    "product-led-growth/developer-gtm": {
+      "path": [
+        "product-led-growth",
+        "developer-gtm",
+        "SKILL.md"
+      ],
+      "sha256": "095bf8b94439f94ff5ec657e2c31327cfb479c2273af93285e15eabc74cf00f5",
+      "size_bytes": 10089
+    },
     "product-led-growth/freemium-optimization": {
       "path": [
         "product-led-growth",
@@ -1495,8 +1504,8 @@
         "plg-strategy",
         "SKILL.md"
       ],
-      "sha256": "2f03067e36eb06897c2e621af460b173f0f2d6adfdf61d43c380e1fd1adedbd7",
-      "size_bytes": 7275
+      "sha256": "26bdf60568242d56609a0d228b5673ca6d78045c6b0d6f918e0088032366497f",
+      "size_bytes": 7648
     },
     "prospecting/contact-verification": {
       "path": [

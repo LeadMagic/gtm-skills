@@ -1,6 +1,6 @@
 # GTM Skills — Common Pitfalls Index
 
-Auto-generated from skill `## Common Pitfalls` sections. **1013 pitfalls** across **202** skills (202 total). Regenerate: `npm run build`.
+Auto-generated from skill `## Common Pitfalls` sections. **1019 pitfalls** across **203** skills (203 total). Regenerate: `npm run build`.
 
 Agents: load the source skill for full context, fixes, and quality checks — this index is for discovery and cross-skill pattern matching.
 
@@ -1384,6 +1384,15 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
 
 ## product-led-growth
+
+### [developer-gtm](skills/product-led-growth/developer-gtm/SKILL.md)
+
+- **Gating docs and pricing.** — Forcing email or "contact sales" to read docs or see price kills evaluation. Developers self-serve or leave (DuVander).
+- **Cold-calling/emailing developers.** — Spraying SDR sequences at the technical user breaks trust. Use product signals to reach the buyer thoughtfully; let the developer come to you (Stripe/Common Room).
+- **Paywalling the open-source core.** — Restricting the free artifact to force conversion breaks the flywheel. Monetize the extension (hosting, scale, compliance), keep the core free (Next.js → Vercel).
+- **Vanity GitHub stars.** — Stars and followers are not adoption. Measure activation, retained usage, and influenced pipeline.
+- **Treating DevRel as lead gen.** — A DevRel team on an SDR quota loses credibility with developers. DevRel earns trust; sales closes.
+- **Confusing the user with the buyer.** — The developer recommends; the economic buyer signs. Enable the champion, sell the buyer (Verna/Bush hybrid).
 
 ### [freemium-optimization](skills/product-led-growth/freemium-optimization/SKILL.md)
 

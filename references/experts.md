@@ -59,6 +59,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 | Molly Graham | [mograham](https://www.linkedin.com/in/mograham/) | — | [Lenny's Podcast / TED](https://www.youtube.com/results?search_query=Molly+Graham+Give+Away+Your+Legos) | [mollygraham.com](https://mollygraham.com/) |
 | Henry Schuck | [hschuck](https://www.linkedin.com/in/hschuck/) | [@henrylschuck](https://x.com/henrylschuck) | [Hit Your Number deck](https://www.slideshare.net/slideshow/henry-schuck-hit-your-number-how-zoominfo-developed-a-winning-and-leading-gotomarket-strategy/236147433) · [OpenView talks](https://openviewpartners.com/blog/go-to-market-zoominfo/) | [pipeline.zoominfo.com](https://pipeline.zoominfo.com/) |
 | Tito Bohrt | [titobohrt](https://www.linkedin.com/in/titobohrt/) | — | — | [altisales.com](https://www.altisales.com/) · [Sales Hacker library](https://www.saleshacker.com/library/?author=Tito%20Bohrt) |
+| Lars Nilsson | [lanilsson](https://www.linkedin.com/in/lanilsson/) | — | [SaaStr ABSD talk](https://www.saastr.com/lars-nilsson-vp-global-inside-sales-cloudera-targeting-the-big-guys-account-based-sales-development-video-transcript/) | [salessource.com](https://salessource.com/) · [True Ventures bio](https://trueventures.com/team/lars/) |
 | Varun Anand | [vaanand](https://www.linkedin.com/in/vaanand/) | [@vxanand](https://x.com/vxanand) | [Clay reverse demo](https://www.clay.com/blog/reverse-demo) · [First Round podcast](https://review.firstround.com/podcast/inside-clays-unconventional-path-to-1-25b/) | [clay.com](https://www.clay.com/) |
 | John Holland | [johnholland](https://www.linkedin.com/in/johnholland/) | — | [Force Management](https://www.youtube.com/@ForceManagement) | [forcemanagement.com](https://www.forcemanagement.com/) |
 | Dharmesh Shah | [dharmesh](https://www.linkedin.com/in/dharmesh/) | [@dharmesh](https://x.com/dharmesh) | [HubSpot / INBOUND keynotes](https://www.youtube.com/user/HubSpot) | [onstartups.com](https://onstartups.com/) · [hubspot.com](https://www.hubspot.com/) |
@@ -525,6 +526,26 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 **Artifacts:** `sales-team-building` → tito-bohrt-sdr-science
 
 **Skills:** `sales-team-building`, `gtm-role-descriptions`, `revenue-team-onboarding`, `cold-calling`, `ai-sdr-setup`
+
+---
+
+### Lars Nilsson — Account-Based Sales Development (Cloudera / Snowflake)
+
+**Role:** Creator of **ABSD** as VP Global Inside Sales at Cloudera; VP Global Sales Development at Snowflake (2020+, Snowflake Sales Development Academy); Founder & CEO, SalesSource; special advisor, True Ventures. Career spans Xerox (management training program), Portal Software, Riverbed, ArcSight/HP — five IPOs including Cloudera and Snowflake.
+**Domain:** Account-based sales development — the SDR execution layer of ABM: signal-based account selection, multi-persona break-in sequences, SDR+AE+SME message co-authoring, SDR org scaling (100+ SDRs, 4 continents)
+
+**Public Channels**
+- 🔗 [salessource.com](https://salessource.com/) · [True Ventures bio](https://trueventures.com/team/lars/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/lanilsson/)
+- ▶ [SaaStr — Targeting the Big Guys (ABSD talk + transcript)](https://www.saastr.com/lars-nilsson-vp-global-inside-sales-cloudera-targeting-the-big-guys-account-based-sales-development-video-transcript/) · [SaaStr Pod 612 — 100+ SDRs](https://www.saastr.com/how-to-manage-100-sdrs-across-4-continents-with-snowflake-vp-global-sales-development-lars-nilsson-pod-612-video/)
+- 🎙 [GTMnow GTM 56 — Pioneer of ABSD](https://gtmnow.com/gtm-56-pioneer-of-bdr-name-lars-nilsson/) · [The Transaction Ep 53](https://thetransactionpod.com/episodes/setting-up-successful-b2b-saas-sales-development-orgs-with-lars-nilsson-ep-53)
+- ✍ [True Ventures — ABSD methodology post](https://www.trueventures.com/blog/account-based-sales-development-a-new-methodology-in-lead-execution-target-outbound-and-pipeline-generation) · [Cloudera Two-Year ABSD Journey](https://www.linkedin.com/pulse/post-ipo-cloudera-reflects-its-two-year-absd-journey-lars-nilsson)
+
+**Key Frameworks:** ABSD — coordinated, personalized SDR campaigns on curated high-value accounts · Account selection on buying signals, not hunches (intent surge + job alerts + funding/exec triggers) · SDR + AE + vertical SME co-authored 3-email sequences from a 10–15-use-case-per-vertical library · Multi-persona chunks (50–250 contacts) · Quality of engagement over volume (public Cloudera results: ~70% open / ~30% reply vs 5–8% / 2–3% nurture baseline) · SDR quarterbacks the account break-in, then hands strategy to the AE · "The hardest part of closing any deal is finding it"
+
+**Artifacts:** `abm-strategy` → lars-nilsson-absd
+
+**Skills:** `abm-strategy`, `account-selection`, `cold-email-strategy`, `multi-thread-orchestration`, `sales-team-building`
 
 ---
 
@@ -1372,6 +1393,40 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 ---
 
+### Guillermo Rauch — Vercel
+
+**Role:** Founder & CEO Vercel; creator of Next.js and Socket.IO
+**Domain:** Developer GTM — framework-defined infrastructure, DX-led growth, open-source flywheel, self-serve → enterprise
+
+**Public Channels**
+- 🔗 [vercel.com](https://vercel.com/) · [rauchg.com](https://rauchg.com/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/rauchg/)
+- 𝕏 [@rauchg](https://x.com/rauchg)
+
+**Key Frameworks:** Framework-defined infrastructure (FdI) · Next.js → Vercel flywheel · DX as the wedge · ungated docs + transparent self-serve · self-serve → enterprise via technical "Product Advocate"
+
+**Artifacts:** `skills/product-led-growth/developer-gtm/references/vercel-developer-selling.md` (canonical)
+
+**Skills:** `developer-gtm`, `plg-strategy`
+
+---
+
+### Lee Robinson — Cursor (ex-Vercel)
+
+**Role:** VP Developer Education, Cursor (since 2025); formerly VP Developer Experience, Vercel (2020–2025)
+**Domain:** Developer experience as distribution — docs, education, templates, and community
+
+**Public Channels**
+- 🔗 [leerob.com](https://leerob.com/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/leeerob/)
+- 𝕏 [@leerob](https://x.com/leerob)
+
+**Key Frameworks:** DX = docs + education + community · templates/starters as top-of-funnel · teaching over promotion
+
+**Skills:** `developer-gtm`
+
+---
+
 ## Finance & Metrics
 
 ### Sean Ellis — GrowthHackers / Hacking Growth
@@ -2029,10 +2084,12 @@ Founder-specific comp (payroll % ARR, offer walkthrough, negotiation scripts) �
 | Pipeline / discovery | Jacco (WbD), Keenan (Gap Selling), Whyte, Barrows, Becc Holland (Diagnostic) |
 | Outbound / SDR (email) | Jason Bay, Becc Holland, Guillaume Moubeche, Jordan Crawford, Pat Spielmann, Jed Mahrle, Eric Nowoslawski, Justin Michael |
 | Outbound / SDR (phone) | Joey Gilkey, Ryan Reisert, Ronen Pessar, Tom Slocum, Jeb Blount — `cold-calling-experts-index.md` |
-| Outbound / SDR (scale) | Henry Schuck (ZoomInfo SDR machine), Tito Bohrt (AltiSales SDR economics & science) |
+| Outbound / SDR (scale) | Henry Schuck (ZoomInfo SDR machine), Tito Bohrt (AltiSales SDR economics & science), Lars Nilsson (ABSD, Cloudera/Snowflake) |
+| ABM / targeted outbound | Lars Nilsson (ABSD), ITSMA, TOPO — `abm-strategy` → `lars-nilsson-absd.md` |
 | Reverse demo / PLG sales | Varun Anand (Clay), Peter Cohan (incumbent discovery), Jon Barrows |
 | Customer Success | Lincoln Murphy, Nick Mehta (Gainsight) — `lincoln-murphy-customer-success.md` |
 | PLG growth | Elena Verna, Kyle Poyar, Wes Bush, Sean Ellis (PMF) |
+| Developer GTM / selling to developers | Guillermo Rauch (Vercel), Lee Robinson (DX), James Allgrove (Stripe), Adam DuVander (EveryDeveloper) — `developer-gtm` |
 | B2B brand / content voice | Dave Gerhardt (Exit Five), Brendan Gahan (creator economy) |
 | Community-led GTM | Varun Anand (Clay), Sam Jacobs (Pavilion), Randy Seidl (Sales Community) |
 | Public-company GTM metrics | Meritech Capital, Bessemer Atlas, David Sacks, Henry Schuck, Ben Murray, David Skok |

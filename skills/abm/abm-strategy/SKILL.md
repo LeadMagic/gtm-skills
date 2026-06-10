@@ -4,15 +4,15 @@ description: >-
   Design and execute Account-Based Marketing strategy — tier selection, account
   scoring, channel orchestration, BDR alignment, measurement framework. Triggers
   on: "ABM strategy", "account based marketing", "ABM playbook", "design ABM",
-  "target accounts".
+  "target accounts", "ABSD", "account based sales development", "Lars Nilsson".
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.1.0"
+  version: "1.2.0"
   author: LeadMagic
   category: abm
-  tags: [abm, account-based-marketing, target-accounts, enterprise, b2b]
-  frameworks: [ITSMA ABM Framework, TOPO Account-Based Framework, WbD Bowtie, John Ruhlin Giftology, Sendoso Sending Platform]
+  tags: [abm, account-based-marketing, target-accounts, enterprise, b2b, absd]
+  frameworks: [ITSMA ABM Framework, TOPO Account-Based Framework, WbD Bowtie, John Ruhlin Giftology, Sendoso Sending Platform, "Lars Nilsson (Cloudera/Snowflake) — Account-Based Sales Development (ABSD)"]
 ---
 
 # ABM Strategy
@@ -39,6 +39,13 @@ account intelligence, channel orchestration, and measurement.
   content marketing, marketing ops.
 - **Winning by Design Bowtie** — ABM lives between marketing (left side) and sales
   (center), bridging awareness through close and into post-sale expansion.
+- **Lars Nilsson — Account-Based Sales Development (ABSD).** The SDR execution layer
+  of ABM, created at Cloudera and scaled across 100+ SDRs at Snowflake. Account
+  selection on **buying signals** (intent surge, job posts, funding) not hunches;
+  SDR + AE + vertical SME co-author 3-email sequences from a use-case library;
+  multi-persona outreach in 50–250 contact chunks; quality of engagement over
+  volume sent (public first-campaign results: ~70% open / ~30% reply vs 5–8% / 2–3%
+  for nurture blasts). Canonical → `references/lars-nilsson-absd.md`.
 
 ## Step-by-Step Process
 
@@ -78,6 +85,10 @@ ABM fails without tight sales alignment:
 - Shared account briefs between marketing and BDRs
 - Weekly ABM standups: marketing + BDRs + AEs on target accounts
 - SLAs: contact attempts within 24h of marketing touch
+
+For the full SDR execution layer — signal-based account prioritization, SDR + AE +
+SME co-authored sequences, multi-persona chunking, and public response benchmarks —
+run the ABSD playbook: `references/lars-nilsson-absd.md`.
 
 ### Phase 5: Measurement Framework
 Don't measure ABM on MQLs. Measure:
@@ -130,6 +141,7 @@ Map the recommendation explicitly to the named frameworks in this skill:
 - TOPO Account-Based Framework: apply only the part that directly improves the requested deliverable.
 - WbD Bowtie: apply only the part that directly improves the requested deliverable.
 - John Ruhlin Giftology: apply only the part that directly improves the requested deliverable.
+- Lars Nilsson ABSD: apply only the part that directly improves the requested deliverable.
 
 ### Deliverable Standard
 
@@ -151,6 +163,7 @@ A strong output from this skill includes:
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Named frameworks and reference tables
+- `references/lars-nilsson-absd.md` — Lars Nilsson (Cloudera/Snowflake) ABSD playbook: signal-based selection, SME sequence design, stack, benchmarks
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
 
