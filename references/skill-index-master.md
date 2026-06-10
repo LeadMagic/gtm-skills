@@ -104,7 +104,7 @@ Vibe marketing, AI content/video, copywriting, growth hacks. **Start skill:** `v
 | `landing-page-copy` | Landing page copywriting strategy — conversion copy frameworks, hero headline patterns, v… |
 | `social-media-strategy` | Build and execute social media strategy for B2B — LinkedIn, X/Twitter, posting cadence, e… |
 | `v0-lander` | Step-by-step guide to building GTM landing pages with v0 by Vercel — the AI generative UI… |
-| `vibe-coding` | AI-powered development for GTM — vibe coding workflows using v0, Jesse, Claude Code, Lova… |
+| `vibe-coding` | AI-powered development for GTM — vibe coding workflows using v0, Cursor, Claude Code, Lov… |
 | `vibe-marketing` | AI-powered marketing at scale — vibe marketing workflows for rapid content generation, cr… |
 
 ### Customer Success (`customer-success/`) — 7 skills

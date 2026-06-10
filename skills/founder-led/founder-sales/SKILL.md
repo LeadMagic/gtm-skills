@@ -22,6 +22,7 @@ metadata:
     - "Chris Voss — Tactical Empathy (negotiation)"
     - "SaaStr/Jason Lemkin — Founder sales benchmarks"
     - "David Skok — Sales learning curve"
+    - "Leslie Venetz (Sales-Led GTM) — Founder buyer-first outbound / TAM→ICP narrowing"
 ---
 
 # Founder-Led Sales
@@ -75,6 +76,14 @@ The 35,000-call study proved top performers use questions differently:
 - **Impact:** What does the pain cost in dollars, time, or missed opportunity?
 - **Critical Event:** What makes this urgent NOW? (No CE = no deal timeline)
 - **Decision:** Who decides, what's their process, what are their criteria?
+
+### Leslie Venetz — Founder Buyer-First Outbound (Sales-Led GTM)
+When the founder is doing their own outbound, stop pitching in TAM terms (your "1M
+potential prospects") and narrow to ICP, then to the small subset most likely to buy
+now, at the highest price, and renew — "you only need ~10 of ~380 to say yes." Apply
+the **"Earn the Right"** gate to every founder email (incl. VC outreach): say
+something relevant before any ask. Full playbook →
+`skills/outbound/cold-email-strategy/references/leslie-venetz-buyer-first-outbound.md`.
 
 ## Step-by-Step Process
 
@@ -250,6 +259,7 @@ Before delivering, verify:
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Named frameworks and reference tables
+- `skills/outbound/cold-email-strategy/references/leslie-venetz-buyer-first-outbound.md` — Founder buyer-first outbound, TAM→ICP narrowing, Earn-the-Right gate (Leslie Venetz)
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
 
