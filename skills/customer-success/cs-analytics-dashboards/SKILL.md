@@ -310,6 +310,14 @@ Before delivering, verify:
    job change monitoring (LinkedIn alerts, LeadMagic Job Change, manual
    LinkedIn check quarterly).
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
+**Canonical lifecycle (repo root):** `references/activation-playbook.md` · `references/lifecycle-metrics-by-stage.md` (Activation, Engagement, Retention) · `references/templates/lifecycle-monitoring-dashboard.md`
+
 ## Related Skills
 
 - `cs-playbooks` — Playbooks triggered by health score bands

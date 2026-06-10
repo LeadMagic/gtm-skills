@@ -183,6 +183,12 @@ cycle transparency map, negotiation playbook, and culture checklist.
    first call and then reverting to traditional selling destroys trust.
    Consistency is the mechanism — one inconsistency erases ten consistencies.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 - buyer-psychology: The decision science behind why transparency works
 - pitch-deck-builder: Build the deck that includes "Our Flaws"

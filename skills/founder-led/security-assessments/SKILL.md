@@ -23,6 +23,8 @@ metadata:
     - "SIG (Standardized Information Gathering) — Shared Assessments"
     - "CAIQ (Consensus Assessments Initiative Questionnaire) — CSA"
     - "ISO 27001 — Information Security Management"
+    - "Vanta Trust Center — Sales handoff methodology"
+    - "Eunice Buhler (G2) — Sales-legal coordination on vendor risk reviews"
 ---
 
 # Security Assessments
@@ -48,6 +50,11 @@ This skill is grounded in public frameworks and source material relevant to the 
 - **SIG (Standardized Information Gathering) — Shared Assessments.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **CAIQ (Consensus Assessments Initiative Questionnaire) — CSA.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **ISO 27001 — Information Security Management.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+
+**GTM deal coordination:** Questionnaire *responses* are security/engineering work;
+*when* to share artifacts in the deal cycle is GTM — `references/security-questionnaire-deal-guide.md`,
+`deal-desk`, `skills/sales-revops/deal-desk/references/legal-gtm-playbook.md`. AE coordinates timeline; does not
+solo-fill CAIQ/SIG answers (see pitfalls in `references/pitfalls-index.md`).
 
 ## When to Use
 
@@ -325,6 +332,12 @@ Before delivering, verify:
 This skill provides general informational guidance based on publicly available frameworks and operator experience. It is NOT legal advice, accounting advice, tax advice, financial advice, insurance advice, or professional services advice.
 
 Consult qualified professionals for your specific situation — attorneys for legal/equity matters, CPAs for tax and accounting, licensed brokers for insurance, and certified security assessors for compliance. This skill does not create a professional-client relationship. Use it as a starting point for research and preparation.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 

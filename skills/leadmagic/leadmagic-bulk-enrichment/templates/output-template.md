@@ -1,37 +1,44 @@
-# Leadmagic Bulk Enrichment Deliverable
+# LeadMagic Bulk Enrichment Deliverable
 
 ## Context
-- Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Input CSV size:
+- Job types: find / validate / enrich
+- CRM export? Y/N
+- Sequencer export? Y/N
 
 ## Framework Basis
-- Frameworks used:
-- Why these apply:
+- DAMA data quality stages
+- Pat Spielmann — valid-only export to send
 
-## Recommendation
-1.
-2.
-3.
+## Pipeline Stages
+| Stage | Output File | Row Count |
+|---|---|---:|
+| Intake |  |  |
+| Dedupe |  |  |
+| ICP filter |  |  |
+| Enrich |  |  |
+| Verify |  |  |
+| Send-ready |  |  |
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+Full spec: `references/batch-pipeline-spec.md`
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+## Status Routing
+| Status | Destination |
+|---|---|
+| valid | send-ready |
+| invalid | suppress |
+| risky | catch_all_queue |
+| unknown | manual review |
 
-## Risks / Pitfalls
--
+## CRM Upsert Map
+| LM Field | CRM Field | Overwrite Rule |
+|---|---|---|
+
+## QA Sample
+- [ ] 50-row spot check complete
+- [ ] Credit burn reconciled
 
 ## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+- [ ] ICP filter before enrich
+- [ ] Idempotent CRM upsert rules
+- [ ] No invalid rows in sequencer export

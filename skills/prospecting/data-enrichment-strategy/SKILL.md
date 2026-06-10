@@ -196,6 +196,12 @@ Enrichment strategy document:
 5. **Platform as system of record.** Clay is a workspace, not a CRM. Push
    enriched data to your CRM and treat it as the source of truth.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - **lead-enrichment**: Execute enrichment on a specific list

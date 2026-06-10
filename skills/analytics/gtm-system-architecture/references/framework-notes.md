@@ -1,20 +1,39 @@
-# Gtm System Architecture — Framework Notes
+# GTM System Architecture — Framework Notes
 
-Use these references to ground outputs in named, repeatable methodology.
+## Winning by Design — GTM Index (Six Models)
 
-## Primary Frameworks
+Score each 1–10. Weakest link caps the entire system.
 
-- Winning by Design GTM Index
-- Bowtie Model
-- SiriusDecisions Demand Waterfall
+| Model | Question | Fix With |
+|---|---|---|
+| Revenue | Pricing/packaging clear? | `pricing-strategy`, `deal-desk` |
+| Data | CRM answers basic questions? | `crm-integration`, `gtm-metrics` |
+| Math | Unit economics work? | `gtm-metrics`, `financial-modeling` |
+| Operating | Documented process exists? | `pipeline-management`, `sales-enablement` |
+| Growth | Channels measured by CAC? | `marketing-strategy`, `campaign-analytics` |
+| GTM | Sales/Marketing/CS aligned? | `gtm-system-architecture` (Bowtie) |
 
-## Operating Assumptions
+Score Operating Model <6 → do NOT scale headcount or agencies.
 
-- Adapt recommendations by ICP tier: small business, mid-market, and enterprise.
-- Separate strategy from execution: define the decision rule before creating assets.
-- Prefer measurable outputs: fields, templates, scores, dashboards, or checklists.
-- Avoid legal, tax, accounting, insurance, or compliance conclusions unless the skill explicitly says to consult qualified professionals.
+## Winning by Design — Bowtie
+
+```
+Awareness → Education → Selection → Onboarding → Adoption → Expansion → Renewal
+[Marketing]   [Marketing]  [Sales]   [CS]        [CS]      [CS/Sales]   [CS]
+```
+
+Each stage: owner, goal, handoff criteria, metrics.
+Load `pipeline-management` for Selection (sales) stage detail.
+Load `customer-onboarding`, `expansion-selling` for right-side stages.
+
+## SiriusDecisions Demand Waterfall
+
+Demand flows through defined stages with conversion metrics and handoffs.
+Maps to left side of Bowtie: inquiry → MQL → SQL → opportunity.
 
 ## Agent Use
 
-Before final output, cite which framework shaped the recommendation and identify any assumptions that need user confirmation.
+1. Score all six models with evidence before recommending fixes.
+2. Identify weakest link — fix that first.
+3. Bowtie handoffs must have owner + SLA + package contents.
+4. Route Operating Model fixes to `pipeline-management` + `sales-enablement`.

@@ -11,10 +11,11 @@ metadata:
   author: LeadMagic
   category: demand-gen
   tags: [demand-gen, paid-social, linkedin-ads, advertising, b2b]
+  related_skills: [content-marketing, attribution, campaign-analytics, podcast-gtm]
   frameworks:
+    - "Chris Walker — Demand Creation & Paid Social Education"
     - "B2B Paid Social Framework"
     - "LinkedIn Ads Best Practices"
-    - "SiriusDecisions — Demand Waterfall"
 ---
 
 # Paid Social Strategy (B2B)
@@ -32,7 +33,8 @@ This skill is grounded in public frameworks and source material relevant to the 
 
 - **B2B Paid Social Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **LinkedIn Ads Best Practices.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **SiriusDecisions — Demand Waterfall.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Chris Walker (Refine Labs)** — LinkedIn for *education*, not lead forms; measure
+  cohort revenue not last-click ROAS. See `references/chris-walker-mental-models.md`.
 
 ## When to Use
 - "Launch paid social"
@@ -111,6 +113,7 @@ Before delivering, verify:
 This skill includes lightweight artifacts the agent can load on demand:
 
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `references/chris-walker-mental-models.md` — Repo root: demand creation, paid social philosophy
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
 

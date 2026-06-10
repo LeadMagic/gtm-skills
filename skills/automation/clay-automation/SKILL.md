@@ -15,8 +15,8 @@ metadata:
   author: LeadMagic
   category: automation
   tags: [clay, automation, enrichment, waterfall, workflows]
-  related_skills: [waterfall-enrichment, lead-enrichment, list-building, n8n-automation]
-  frameworks: [DAMA-DMBOK Data Quality Dimensions, Ziellab 3-Waterfall Architecture, GTME Pulse Clay Templates]
+  related_skills: [clay-toolkit, clay-loops-toolkit, ai-prompts-toolkit, waterfall-enrichment, lead-enrichment, list-building, n8n-automation]
+  frameworks: [DAMA-DMBOK Data Quality Dimensions, Ziellab 3-Waterfall Architecture, GTME Pulse Clay Templates, Eric Nowoslawski Crawl Walk Run, Eric Nowoslawski Creative Ideas Campaign, Eric Nowoslawski GEX Agency Stack, Jen Igartua Go Nimbly RevOps automation maturity]
 ---
 
 # Clay Automation
@@ -27,10 +27,19 @@ Clay is the orchestration layer where enrichment, scoring, and routing converge.
 Used correctly, it's a GTM multiplier. Used incorrectly, it's a credit-burning
 machine producing data nobody trusts.
 
-This skill covers production-grade Clay workflow design: table architecture
-(separate company vs person tables), waterfall enrichment configuration,
-Claygent with explicit prompts, Sculptor for table building, CRM push
-patterns, credit optimization, and n8n export for complex cases.
+This skill covers **when and how to roll out** Clay automation — data quality,
+table separation, rollout phases, and n8n handoff.
+
+**Playbook index:** `references/automation-playbook-index.md` — all 38 automation + tool + gtm-ops playbooks.
+
+**Automation strategy (before tool config):** Jen Igartua (Go Nimbly) — data before AI,
+maturity levels 0–4, human+machine division. Canonical → `references/gtm-automation-expert-playbook.md`
+(Pattern 30). Outbound copy/infra → Eric Nowoslawski / Pat Spielmann / Justin Michael — not this skill.
+
+**Tool implementation**
+(table columns, LeadMagic waterfalls, loops) lives in `tools/`:
+- `clay-toolkit` (`tools/clay-toolkit`) — tables and waterfalls
+- `clay-loops-toolkit` (`tools/clay-loops-toolkit`) — signal loops
 
 ## When to Use
 
@@ -50,6 +59,13 @@ Ziellab (3 separate waterfalls: company, email, phone), and GTME Pulse
 
 The core principle: Clay is a routing engine, not a CRM. Enriched data
 lives in your CRM; Clay processes it en route.
+
+- **Eric Nowoslawski — Crawl Walk Run (Growth Engine X).** Roll out Clay
+  automation in phases: **Crawl** — manual campaigns for 5–10 companies (no AI);
+  **Walk** — system prompt with business context + manual examples, review first
+  50 outputs; **Run** — automate in Clay → Smartlead/SEP with Supabase for block
+  lists. Default campaign type: **Creative Ideas** (3 constrained capabilities per
+  prospect). Playbook → `../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md`.
 
 ## Prerequisites
 
@@ -171,7 +187,9 @@ and maintenance schedule.
 
 This skill includes lightweight artifacts the agent can load on demand:
 
+- `references/gtm-automation-expert-playbook.md` — Jen Igartua RevOps automation strategy (repo root; Pattern 30)
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md` — Crawl Walk Run, Creative Ideas, GEX stack (Eric Nowoslawski)
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
 
@@ -182,5 +200,8 @@ Use the artifacts when the user asks for an implementation-ready deliverable, a 
 - **waterfall-enrichment**: Deep waterfall architecture
 - **lead-enrichment**: Enrichment execution patterns
 - **list-building**: List building workflows in Clay
+- **clay-toolkit**: `tools/clay-toolkit` — table blueprints, LeadMagic waterfalls
+- **clay-loops-toolkit**: `tools/clay-loops-toolkit` — signal loops and routing
+- **ai-prompts-toolkit**: Claygent and LLM prompt library
 - **n8n-automation**: n8n as Clay export for complex cases
 - **crm-integration**: CRM configuration for Clay data

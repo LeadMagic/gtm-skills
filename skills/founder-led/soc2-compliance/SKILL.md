@@ -19,6 +19,8 @@ metadata:
     - "AICPA Trust Services Criteria"
     - "SOC2 Type II Framework"
     - "Paul Graham — Do Things That Do Not Scale"
+    - "Jason Lemkin (SaaStr) — SOC 2 as enterprise sales gate"
+    - "Eunice Buhler (G2) — Sales-legal alignment on security review timing"
 ---
 
 # SOC2 Compliance
@@ -41,6 +43,12 @@ This skill is grounded in public frameworks and source material relevant to the 
 - **AICPA Trust Services Criteria.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **SOC2 Type II Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **Paul Graham — Do Things That Do Not Scale.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+
+**GTM sales timing (not implementation):** When enterprise buyers ask for SOC 2,
+coordinate through `deal-desk` + `references/security-questionnaire-deal-guide.md`.
+Legal velocity framing → `deal-desk/references/legal-gtm-playbook.md` (Eunice Buhler).
+Phase gates reconciled in `references/benchmark-reconciliation.md` — build controls
+when enterprise pipeline >20%; share trust center at evaluation.
 
 ## When to Use
 
@@ -202,6 +210,12 @@ Before delivering, verify:
 This skill provides general informational guidance based on publicly available frameworks and operator experience. It is NOT legal advice, accounting advice, tax advice, financial advice, insurance advice, or professional services advice.
 
 Consult qualified professionals for your specific situation — attorneys for legal/equity matters, CPAs for tax and accounting, licensed brokers for insurance, and certified security assessors for compliance. This skill does not create a professional-client relationship. Use it as a starting point for research and preparation.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 

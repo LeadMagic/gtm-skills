@@ -318,6 +318,12 @@ Before delivering, verify:
 
 8. **Discovery questions that are leading or aggressive.** "Don't you find Competitor X's platform slow and buggy?" is a leading question that signals bias and creates defensiveness. SPIN-based questions should surface the prospect's actual experience: "How has the platform's performance been as your team has grown?" Let the prospect identify the weakness.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - **gtm-context**: Run before this skill. Provides the initial competitive landscape and ICP definition.

@@ -60,6 +60,17 @@ skill-name/
 
 Keep `SKILL.md` focused. Move long tables and libraries into `references/`.
 
+## Reference Paths
+
+When linking to support files, follow one convention so validation passes:
+
+- **Skill-local files** (this skill's own `references/`, `templates/`, `scripts/`, `assets/`) are referenced relative to the skill directory: `` `references/framework-notes.md` `` or `[notes](references/framework-notes.md)`.
+- **Shared catalogs** at the repo root are referenced by their root path: `` `references/experts.md` ``.
+- **Files owned by another skill** are referenced by their full repo path: `` `skills/<category>/<skill>/references/<file>.md` `` — never as a bare `references/<file>.md`, which would be read as skill-local.
+- Inside a skill subdirectory (e.g. a file under `references/`), a link to another category must climb to the repo root: `../../../<category>/<skill>/references/<file>.md`.
+
+`scripts/validate-skills.js` and `scripts/audit-references.py` require every reference target to resolve relative to the skill directory or the repo root.
+
 ## Anti-Fluff Rules
 
 Replace vague claims with named sources and operational detail.

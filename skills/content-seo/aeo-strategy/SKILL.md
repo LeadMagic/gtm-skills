@@ -152,5 +152,13 @@ A strong output from this skill includes:
 - For enterprise: include governance, risk, procurement, stakeholder mapping, and proof requirements.
 
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — AEO content principles, schema checklist, Pattern 25 routing
+- `references/seo-strategy-playbook.md` — Repo root: §8 AEO / AI search overlap
+- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 4)
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 - seo-strategy, pseo-strategy, content-marketing, pillar-pages, faq-seo

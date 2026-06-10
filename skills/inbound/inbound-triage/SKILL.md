@@ -14,10 +14,11 @@ metadata:
   author: LeadMagic
   category: inbound
   tags: [inbound, triage, routing, qualification, lead-management]
-  related_skills: [lead-scoring, pipeline-management, crm-integration, sales-enablement]
+  related_skills: [lead-scoring, pipeline-management, crm-integration, sales-enablement, website-visitor-identification, icp-scoring]
   frameworks:
     - "Winning by Design SPICED Lifecycle"
     - "SiriusDecisions Demand Waterfall"
+    - "Dharmesh Shah (HubSpot) — Inbound Engage & Flywheel Handoff"
     - "HubSpot Academy — Inbound Methodology"
 ---
 
@@ -53,6 +54,11 @@ SiriusDecisions' Demand Waterfall framework establishes that clear MQL/SQL
 definitions with automated routing correlate with 20%+ higher conversion rates
 and 30%+ faster sales cycles.
 
+**Dharmesh Shah (HubSpot) — Engage stage.** Inbound triage is the operational
+**Engage** leg of the flywheel: speed-to-lead, enrichment on form fill, and
+fit-based routing (not volume-based MQL inflation). Canonical playbook →
+`references/dharmesh-shah-hubspot-inbound.md` · Pattern 27 step 4.
+
 ## Prerequisites
 
 - ICP defined (what makes a lead qualified)
@@ -73,6 +79,13 @@ and 30%+ faster sales cycles.
 | SAL | SQL accepted by rep | Sales confirms qualification | Sales |
 
 ### Phase 2: Build the Triage Workflow
+
+**Website visitor intent (company ID):** Anonymous visits identified via
+reverse-IP (`website-visitor-identification`) feed account-level intent scores.
+Route to MQL only when ICP + engagement thresholds pass — not on every visit.
+Person-level visitor alerts use separate guardrails; default path is company ID
+→ SDR research queue. Playbook:
+`website-visitor-identification/references/visitor-identification-playbook.md`.
 
 1. **Form fill triggers enrichment.** Webhook from form (HubSpot, Typeform,
    custom) fires enrichment on submit. Within 15 seconds, the lead is
@@ -158,8 +171,15 @@ SLA dashboard:
    a form has already self-qualified to some degree. Don't make them jump
    through more hoops — get them to a human.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
+- **website-visitor-identification**: Company/person visitor ID → MQL routing
 - **lead-scoring**: Build the scoring model that powers triage decisions
 - **pipeline-management**: Manage leads after they enter the pipeline
 - **crm-integration**: CRM setup for automated routing and enrichment

@@ -132,5 +132,13 @@ Before delivering, verify:
 2. **Publishing and praying.** Creating content without a distribution plan. Fix: every piece gets a 30-day promotion calendar across email, social, and paid.
 3. **Ignoring content freshness.** 2-year-old content with outdated data and examples still ranking. Fix: quarterly content audit — update or retire stale pieces.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — B2B link tactics, HARO ops, data PR, Pattern 25 routing
+- `references/seo-strategy-playbook.md` — Repo root: §6 link building, §8 LLM citations
+- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 5)
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 - seo-strategy, content-marketing, social-media-strategy, founder-brand, podcast-gtm

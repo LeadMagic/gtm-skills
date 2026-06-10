@@ -59,4 +59,3 @@ Value: `[dkim_value]`
 | M365 (N × $6.00/mo) | $[X] | $[X] |
 | Zoho (N × $1.00/mo) | $[X] | $[X] |
 | Total | $[X]/mo | $[X]/yr |
-```

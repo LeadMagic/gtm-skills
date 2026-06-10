@@ -11,9 +11,11 @@ metadata:
   author: LeadMagic
   category: content-seo
   tags: [content-seo, pillar-pages, topic-clusters, cornerstone-content, seo]
+  related_skills: [seo-strategy, pseo-strategy, faq-seo, content-marketing]
   frameworks:
+    - "Ahrefs / Backlinko — Content Cluster Model"
+    - "Eli Schwartz — Product-Led SEO"
     - "HubSpot Topic Cluster Model"
-    - "Animalz Content Strategy"
     - "Google Search Central — SEO Starter Guide"
 ---
 
@@ -148,6 +150,14 @@ A strong output from this skill includes:
 - For mid-market: include workflow ownership, handoffs, integrations, and enablement assets.
 - For enterprise: include governance, risk, procurement, stakeholder mapping, and proof requirements.
 
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Ahrefs cluster model, Schwartz product-led pillars, Pattern 25 routing
+- `references/seo-strategy-playbook.md` — Repo root: §3 keyword tiers and cluster structure
+- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 2)
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 - seo-strategy, content-marketing, faq-seo, citation-harvesting, landing-pages

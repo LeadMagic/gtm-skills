@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'skills/**'
+      - 'references/**'
       - 'scripts/**'
       - 'docs/**'
       - '.claude-plugin/**'
@@ -28,6 +29,7 @@ on:
     branches: [main]
     paths:
       - 'skills/**'
+      - 'references/**'
       - 'scripts/**'
       - 'docs/**'
       - '.claude-plugin/**'
@@ -58,26 +60,34 @@ concurrency:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           persist-credentials: false
-      - uses: actions/setup-node@v4
+
+      - uses: actions/setup-node@v6
         with:
           node-version: '24'
+
       - name: Syntax check scripts
         run: |
           node --check scripts/validate-skills.js
           node --check scripts/generate-indexes.js
-          python3 -m py_compile scripts/generate-skills-lock.py scripts/install-tui.py scripts/public-repo-audit.py
-      - name: Validate skills, lock, installer, and public hygiene
+          node --check scripts/generate-pitfalls-index.js
+          python3 -m py_compile \
+            scripts/generate-skills-lock.py \
+            scripts/install-tui.py \
+            scripts/public-repo-audit.py \
+            scripts/audit-references.py
+
+      - name: Skill structure, references, lock, installer, public hygiene
         run: npm run check
-      - name: Verify generated files are current
-        run: |
-          npm run build
-          git diff --exit-code -- AGENTS.md CLAUDE.md README.md taxonomy.csv skills.lock .claude-plugin/plugin.json .claude-plugin/marketplace.json
+
+      - name: Regenerate catalogs and fail on drift
+        run: npm run check:generated
+
       - name: Publish dry-run
         run: gh skill publish --dry-run

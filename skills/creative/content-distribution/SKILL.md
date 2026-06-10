@@ -133,6 +133,12 @@ calendar.
 5. **Company page only.** Founder posts get 10x the reach of company posts.
    Founder is the distribution channel at <$10M ARR.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - **content-marketing**: Content strategy and creation

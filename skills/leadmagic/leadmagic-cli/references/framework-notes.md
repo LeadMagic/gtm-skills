@@ -1,20 +1,41 @@
-# Leadmagic Cli — Framework Notes
+# LeadMagic CLI — Framework Notes
 
-Use these references to ground outputs in named, repeatable methodology.
+**Category:** `leadmagic` · Terminal automation for find, validate, push pipelines.
 
 ## Primary Frameworks
 
-- CLI Design Patterns
-- Enrichment Workflow Automation
-- LeadMagic Public Documentation — B2B Data Enrichment
+- **CLI Design Patterns** — Pipeline stages, checkpoint files, exit codes
+- **Pat Spielmann — Verify-before-send** — validate before `lm integrations push` → `../../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
+- **Eric Nowoslawski — Scale ops** — CLI for batch verify before Smartlead scale → `../../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md`
 
-## Operating Assumptions
+## Workflow Patterns
 
-- Adapt recommendations by ICP tier: small business, mid-market, and enterprise.
-- Separate strategy from execution: define the decision rule before creating assets.
-- Prefer measurable outputs: fields, templates, scores, dashboards, or checklists.
-- Avoid legal, tax, accounting, insurance, or compliance conclusions unless the skill explicitly says to consult qualified professionals.
+Load `references/cli-workflow-patterns.md`:
+
+- Pattern A: CSV scrub (find → validate → filter)
+- Pattern B: Push to Smartlead/Instantly
+- Pattern C: Role-based find
+- Pattern D: Scheduled re-verify
+- Pattern E: Clay export post-process
+
+## Tool Boundaries
+
+| Layer | Skill | Role |
+|---|---|---|
+| CLI (this) | leadmagic-cli | Terminal batch |
+| Clay | leadmagic-waterfall | Visual waterfall |
+| Integrations | leadmagic-integrations | Platform-specific setup |
+| Sequencer | smartlead/instantly | Receives push |
+
+## Credit Discipline
+
+Find + validate = 2 credits min/contact. ICP filter before find on large lists.
 
 ## Agent Use
 
-Before final output, cite which framework shaped the recommendation and identify any assumptions that need user confirmation.
+1. Select pattern from cli-workflow-patterns.
+2. Always validate before push commands.
+3. Cross-link sequencer clay-enrollment-handoff docs.
+4. Run `check-output.py`.
+
+Expert router → `references/gtm-experts-outbound-index.md`

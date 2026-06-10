@@ -383,6 +383,12 @@ Before delivering, verify:
 
 8. **Treating pricing as fixed once set.** Pricing should be reviewed quarterly in early-stage companies and at least annually in scaled companies. Market conditions change, competitors move, and value perception evolves. The pricing strategy document should include a review cadence and triggers for revisiting (e.g., "revisit if win rate drops below X%").
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - **gtm-context**: Run before this skill. Provides ICP, ACV, deal size, and buying committee data.

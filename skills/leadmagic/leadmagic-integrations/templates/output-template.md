@@ -1,37 +1,42 @@
-# Leadmagic Integrations Deliverable
+# LeadMagic Integrations Deliverable
 
 ## Context
-- Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Target platform(s):
+- Real-time vs batch:
+- CRM:
+- Sequencer:
 
 ## Framework Basis
-- Frameworks used:
-- Why these apply:
+- Pat Spielmann — enrich → verify → send
+- iPaaS one-way sync patterns
+- Eric Nowoslawski — Clay + Smartlead agency stack
 
-## Recommendation
+## Integration Configuration
+| Platform | Method | Auth | Status |
+|---|---|---|---|
+|  |  |  |  |
+
+## Data Flow
+```
+Source → LM enrich → LM verify → destination
+```
+
+## Verification Gate
+- [ ] Verify fires before every send automation
+- [ ] lm_email_status field in destination
+- Checklist: `references/integration-checklist.md`
+
+## Webhook Setup (if real-time)
+- Endpoint:
+- Payload schema:
+- Error handling:
+
+## Platform Pitfalls
 1.
 2.
 3.
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
-
-## Risks / Pitfalls
--
-
 ## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+- [ ] One-way sync (enrichment → CRM)
+- [ ] Integration checklist complete
+- [ ] clay-toolkit / sequencing skill cross-linked

@@ -40,6 +40,12 @@ This skill is grounded in public frameworks and source material relevant to the 
 - "New customer setup"
 - "Activation flow"
 
+## Lifecycle Stage
+
+**Activation** (stage 3). Canonical definitions → `references/gtm-lifecycle-stages.md`.  
+Deep dive (TTA benchmarks, audit, anti-patterns) → `references/activation-playbook.md`.  
+Metrics & monitoring → `references/lifecycle-metrics-by-stage.md`, `references/templates/lifecycle-monitoring-dashboard.md`.
+
 ## Core Principle
 > Customers don't churn because your product is bad — they churn because they
 > never experienced the value. Your onboarding has one job: get them to the
@@ -119,6 +125,19 @@ Before delivering, verify:
 1. **Skipping research.** Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
 2. **Generic output.** "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
 3. **Missing framework citations.** Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
+**Canonical lifecycle (repo root):**
+- `references/gtm-lifecycle-stages.md` — Stage index (Activation row)
+- `references/activation-playbook.md` — First value event, TTA, audit checklist
+- `references/lifecycle-metrics-by-stage.md` — Activation metrics + thresholds
+- `references/templates/lifecycle-monitoring-dashboard.md` — Weekly activation panel
+- `references/lifecycle-skill-index.md` — Lifecycle cluster router
 
 ## Related Skills
 - cs-playbooks, churn-prevention, lifecycle-drips, customer-marketing, expansion-selling

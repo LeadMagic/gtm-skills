@@ -1,132 +1,340 @@
 ---
 name: pipeline-management
 description: >-
-  Manage B2B sales pipelines with structured deal stages, forecasting, CRM hygiene,
-  and deal inspection cadences. Use when setting up pipeline processes, improving
-  forecast accuracy, or designing deal stages. Triggers on: "pipeline management",
-  "forecasting", "deal inspection", "CRM hygiene", "pipeline review", "deal stages",
-  "sales process", or any pipeline-related request.
+  Design and manage B2B sales processes using Winning by Design's GTM Playbook Kit
+  — stage goals, in-stage actions, exit criteria, SPICED qualification fields,
+  conversion metrics, Bowtie handoffs, forecasting, and deal inspection cadences.
+  Use when designing sales process stages, building a GTM playbook, improving
+  forecast accuracy, or setting up pipeline reviews. Triggers on: "sales process
+  design", "GTM playbook", "pipeline management", "deal stages", "Winning by Design
+  process", "SPICED stages", "forecasting", "deal inspection", "CRM hygiene".
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.2.0"
   author: LeadMagic
   category: sales-revops
-  tags: [pipeline, forecasting, crm, deal-management]
-  related_skills: [meeting-prep, proactive-alerts, crm-integration, gtm-metrics]
+  tags: [pipeline, sales-process, spiced, forecasting, crm, deal-management, wbd]
+  related_skills: [gtm-system-architecture, sales-enablement, sales-coaching, buyer-indecision, founder-sales, sales-team-building, meeting-prep, gtm-metrics, crm-integration]
   frameworks:
-    - "Winning by Design GTM Playbook Kit"
-    - "Miller Heiman Blue Sheet"
-    - "MEDDICC — Qualification"
+    - "Winning by Design — GTM Playbook Development Kit"
+    - "Winning by Design — SPICED Qualification"
+    - "Keenan — Gap Selling"
+    - "Winning by Design — Bowtie Handoff Design"
+    - "Mark Roberge — The Sales Acceleration Formula"
+    - "Miller Heiman — Strategic Selling (buying influence)"
+    - "Andy Whyte — MEDDICC Qualification & Scorecard"
+    - "Force Management — MEDDICC Methodology"
+    - "Joey Gilkey — Disposition Science (top-of-funnel diagnostics)"
+    - "Ryan Reisert — CRM Activity Buckets (contact prioritization)"
+    - "John McMahon — MEDDICC inspection cadence, three-view forecast, anti–happy ears"
 ---
 
 # Pipeline Management
 
 ## Overview
 
-A pipeline without defined stages is a collection of guesses. Every deal stage
-needs a clear goal, in-stage actions, and exit criteria that align rep behavior
-with buyer progress — not internal opinions.
+Most sales teams have CRM stages that describe rep activity, not buyer progress.
+Winning by Design's GTM Playbook Kit fixes this: every stage needs a **Goal**
+(what success looks like), **In-Stage Actions** (what the rep does), and **Exit
+Criteria** (evidence required to advance). Without all three, pipeline reviews
+degenerate into confidence theater.
 
-This skill designs a stage-based sales process following Winning by Design's
-GTM Playbook Development Kit: Goal + Exit Criteria per stage, informed by
-Miller Heiman's buying influence mapping for complex deals.
+This skill designs the full sales process — stages, SPICED fields per stage,
+conversion metrics, Bowtie handoffs to CS, forecast categories, and inspection
+cadences. Load `gtm-system-architecture` first if you have not scored the six
+WbD models. Load `sales-enablement` after this to build the playbook assets
+reps use at each stage.
 
 ## When to Use
 
-- "Design our sales process stages"
-- "Improve our forecast accuracy"
-- "Set up deal stages in our CRM"
+- "Design our sales process" or "build a GTM playbook"
+- "Winning by Design sales process"
+- "Define deal stages with exit criteria"
+- "Set up SPICED in our CRM"
+- "Improve forecast accuracy"
 - "Build a pipeline review cadence"
+- "Design SDR-to-AE handoffs"
 - "Our pipeline is unpredictable — fix it"
-- "Define what good looks like at each deal stage"
+
+Do not use for org design or compensation — use `sales-team-building`. Do not
+use for collateral creation — use `sales-enablement` after the process is defined.
 
 ## Authoritative Foundations
 
-Winning by Design's GTM Playbook Development Kit establishes that every
-sales process stage must have: a clear Goal (what success looks like at
-this stage), In-Stage Actions (what the rep does), and Exit Criteria
-(evidence required before moving to the next stage).
+- **Winning by Design — GTM Playbook Development Kit.** The core structure: Goal
+  + In-Stage Actions + Exit Criteria per stage. A stage is not "Demo scheduled" —
+  it is "buyer confirms solution maps to quantified pain" with evidence fields.
+- **Winning by Design — SPICED.** Situation, Pain, Impact, Critical Event,
+  Decision — required qualification dimensions captured progressively through
+  Discovery and Solution stages, not dumped in one call.
+- **Keenan — Gap Selling.** At Discovery/Solution stages, exit criteria should
+  evidence Current State + Future State + quantified Gap (not rep confidence).
+  Problem Identification Chart aligns product problems to discovery questions.
+  Discovery stage gate: no advance on happy ears — buyer-stated impact required.
+  Playbook → `meeting-prep/references/keenan-gap-selling.md`.
+- **Winning by Design — Bowtie.** Revenue continues after Closed Won. Define
+  handoff criteria from Sales → Onboarding (CS) with context package: SPICED
+  summary, stakeholders, success criteria, and expansion signals.
+- **Mark Roberge — The Sales Acceleration Formula.** Measure conversion rate
+  between every stage. Inspect deals against exit criteria, not rep confidence.
+- **Miller Heiman — Strategic Selling.** For enterprise deals, map buying
+  influences (Economic Buyer, User Buyer, Technical Buyer, Coach) alongside
+  stage progression.
+- **Andy Whyte — MEDDICC (MEDDICC.com).** Seven qualification dimensions scored
+  continuously on every deal: Metrics, Economic Buyer, Decision Criteria, Decision
+  Process, Identify Pain, Champion, Competition. The MEDDICC scorecard drives
+  go/no-go at stage gates — not rep confidence. "Always Be Qualifying" means
+  re-scoring after every customer interaction.
+- **Force Management — MEDDICC Methodology.** Original enterprise qualification
+  framework (PTC/Force Management). Andy Whyte's scorecard operationalizes it for
+  deal inspection and CRM fields.
+- **John McMahon — Inspection cadence.** MEDDICC is the CRO's **forecast language**:
+  weekly 1:1s inspect 2–3 deals with evidence per letter; slipping commits get
+  role-play coaching (Stage 2 Capital demos). Board forecast uses **commit / likely /
+  upside** tranches — each backed by MEDDICC proof and named mitigations. Pair Gap
+  Selling at Discovery to block happy ears. Canonical → `gtm-leadership/references/cro-enterprise-strategy.md`.
+- **Joey Gilkey — Disposition Science.** Six **outcome** buckets per completed
+  conversation diagnose top-of-funnel list/message/rep problems before opportunities
+  enter pipeline stages. Map Meeting Scheduled + Activated → qualified handoff;
+  Not Now → nurture tier; Not Me/Referred → list rebuild signal. Requires 50+
+  completions. → `references/joey-gilkey-bucketing.md`
+- **Ryan Reisert — CRM Activity Buckets.** Four **contact-level** stages
+  (Uncontacted, In Cadence, Priority, Scheduled) for SDR daily workflow — distinct
+  from Gilkey dispositions. Design CRM contact stages and SDR→AE handoff tiers at
+  top of funnel. → `references/ryan-reisert-cold-calling.md`
 
-Miller Heiman's Strategic Selling adds buying influence mapping: for
-complex enterprise deals, understanding who influences the decision
-and what matters to each stakeholder is as important as the rep's actions.
+**SPICED + MEDDICC — complementary, not competing:**
+
+| Layer | Framework | When | Purpose |
+|---|---|---|---|
+| Discovery conversation | SPICED (WbD) | Connect → Discovery | Uncover Situation, Pain, Impact, Critical Event |
+| Deal qualification | MEDDICC (Whyte) | Solution → Negotiation | Score EB, Champion, Metrics, Competition with evidence |
+| Both map to CRM | Shared fields | All stages | Impact → Metrics; Critical Event → Pain urgency; Decision → EB + Process |
+
+Use SPICED in early calls. Use MEDDICC scorecard from Solution stage onward
+and for any deal ≥$50K ACV. Never advance to Proposal without Champion named
+and Economic Buyer engaged (Whyte's rule).
 
 ## Prerequisites
 
-- CRM system configured (HubSpot, Salesforce, or Attio)
-- Sales methodology selected (MEDDICC, SPICED, SPIN, etc.)
-- Average deal size and sales cycle length known
+- CRM configured (HubSpot, Salesforce, or Attio)
+- Average ACV and sales cycle length known
+- ICP defined (`icp-scoring` or `gtm-context`)
+- Motion selected: transactional, consultative, or strategic (`icp-targeting-tiers`)
 
 ## Step-by-Step Process
 
-### Phase 1: Stage Design
+### Phase 1: Motion Selection (WbD by ACV)
 
-Define each stage with Goal, In-Stage Actions, and Exit Criteria:
+| ACV Range | Motion | Typical Stages | Cycle |
+|---|---|---|---|
+| <$5K | Transactional | 4–5 stages, self-serve assist | Days–2 weeks |
+| $5K–$50K | Consultative | 5–7 stages, SDR optional | 2–8 weeks |
+| $50K+ | Strategic | 7–9 stages, multi-thread required | 2–6 months |
 
-| Stage | Goal | Exit Criteria |
+Pick one motion per segment. Do not run enterprise stages on SMB deals.
+
+### Phase 2: Stage Design (GTM Playbook Kit)
+
+For each stage, document all three components:
+
+| Component | Definition | Bad Example | Good Example |
+|---|---|---|---|
+| **Goal** | What buyer + seller achieve at this stage | "Have a call" | "Pain quantified with business impact" |
+| **In-Stage Actions** | Rep activities that advance the buyer | "Send follow-up" | "Run SPICED discovery, document Impact $" |
+| **Exit Criteria** | Evidence required to advance (CRM fields) | "Rep feels good" | "Impact field populated, EB identified" |
+
+**Consultative motion — reference stage map:**
+
+| Stage | Goal | Key Exit Criteria (Evidence) |
 |---|---|---|
-| 1. Prospect | Identified potential fit | ICP fit confirmed, contact verified |
-| 2. Connect | Initial contact, interest established | Reply received, problem acknowledged |
-| 3. Discovery | Pain quantified, stakeholders identified | SPICED/MEDDIC dimensions documented |
-| 4. Solution | Solution mapped to pain, technical validation | Demo completed, requirements confirmed |
-| 5. Proposal | Commercial terms presented | Proposal sent, pricing discussed |
-| 6. Negotiation | Terms finalized, procurement engaged | Redlines resolved, legal review started |
-| 7. Closed Won | Contract signed | Signed agreement, payment processed |
-| 8. Closed Lost | Deal lost — learn | Loss reason documented, competitive intel captured |
+| 1. Target | Account fits ICP | ICP score ≥ threshold, verified contacts |
+| 2. Connect | Interest established | Reply received, Situation documented |
+| 3. Discovery | Pain + Impact quantified | SPICED: Pain, Impact, Critical Event captured |
+| 4. Solution | Solution validated | Demo complete, requirements confirmed, Champion named |
+| 5. Proposal | Commercial terms presented | Proposal sent, Decision Process mapped |
+| 6. Negotiation | Terms + procurement engaged | Redlines resolved, EB engaged, MEDDICC complete |
+| 7. Closed Won | Contract executed | Signed agreement, handoff package to CS |
+| 8. Closed Lost | Learning captured | Loss reason, competitor, stage-of-death |
 
-### Phase 2: Forecast Categories
+**Strategic/enterprise additions:** add Technical Validation and Security Review
+stages between Solution and Proposal. Require multi-thread map (`multi-thread-orchestration`).
 
-Map stages to forecast categories:
+### Phase 3: SPICED Field Mapping
 
-| Stage | Forecast Category | Confidence |
+Map SPICED dimensions to stages — capture progressively, not all at once:
+
+| SPICED | Captured By Stage | CRM Field Examples |
 |---|---|---|
-| 1-2 | Pipeline | 10-20% |
-| 3-4 | Upside | 30-50% |
-| 5-6 | Commit | 70-85% |
-| 7 | Closed Won | 100% |
+| **S**ituation | Connect → Discovery | `current_tools`, `team_size`, `process_today` |
+| **P**ain | Discovery | `primary_pain`, `pain_owner` |
+| **I**mpact | Discovery | `impact_annual_cost`, `impact_metric` |
+| **C**ritical Event | Discovery → Solution | `why_now`, `deadline_date` |
+| **D**ecision | Solution → Proposal | `economic_buyer`, `decision_process`, `criteria` |
 
-### Phase 3: Deal Inspection Cadence
+**Disqualification rule:** No Critical Event by end of Discovery → downgrade to
+nurture or Closed Lost. No deal urgency = no deal timeline.
 
-Weekly pipeline review structure:
-1. New deals entered this week — qualified?
-2. Deals stalled >14 days in stage — why?
-3. Commit deals at risk — what changed?
-4. Deals with missing next steps — action required
-5. Deals with close date pushed — pattern or anomaly?
+### Phase 4: MEDDICC Scorecard (Andy Whyte)
+
+Score each dimension 0 (unknown), 1 (suspected), or 2 (confirmed with evidence).
+Re-score after every meeting. Load `meeting-prep` for discovery questions and
+`sales-coaching` for manager-led deal reviews.
+
+| Letter | Dimension | Confirmed (Score 2) Requires | CRM Field |
+|---|---|---|---|
+| **M** | Metrics | Buyer-defined KPIs with baseline and target | `success_metrics`, `metric_baseline` |
+| **E** | Economic Buyer | Named person with budget authority; met directly | `economic_buyer_name`, `eb_engaged_date` |
+| **D** | Decision Criteria | Documented evaluation criteria (incl. yours) | `decision_criteria` |
+| **D** | Decision Process | Mapped steps, dates, approvers | `decision_process_steps` |
+| **I** | Identify Pain | Quantified pain + cost of inaction | `identified_pain`, `cost_of_inaction` |
+| **C** | Champion | Power + influence + personal win + sells internally | `champion_name`, `champion_test_passed` |
+| **C** | Competition | Named competitors, status quo, build-vs-buy assessed | `competition_landscape` |
+
+**Andy Whyte — Champion test (all four required):**
+1. Has power to influence the decision (not just enthusiasm)
+2. Has a personal win if the deal closes
+3. Can articulate the problem without your help
+4. Has committed to sell internally when you are not in the room
+
+**Stage gate minimums (consultative $5K–$50K):**
+
+| Advance To | Minimum MEDDICC Score | Hard Requirements |
+|---|---|---|
+| Solution (from Discovery) | 6/14 | Pain=2, Metrics≥1 |
+| Proposal | 10/14 | Champion=2, EB≥1, Decision Process≥1 |
+| Negotiation | 12/14 | EB=2, Decision Criteria=2 |
+| Commit forecast | 13/14 | All dimensions ≥1, no zeros on E/I/C |
+
+**Enterprise ($50K+):** add Paper Process (`legal_review_steps`, `procurement_contact`)
+and require multi-thread map before Proposal (`multi-thread-orchestration`).
+
+**Go/No-Go:** Score <6 at Solution stage → nurture. Score <10 at Proposal → do not
+send proposal. Score drops week-over-week → manager deal review within 48 hours.
+
+### Phase 5: Conversion Metrics (Roberge + WbD)
+
+Define target conversion rates between stages. Measure monthly:
+
+| Conversion | Formula | Healthy Range (Consultative) |
+|---|---|---|
+| Target → Connect | Connects / Targets worked | 15–25% |
+| Connect → Discovery | Meetings held / Connects | 40–60% |
+| Discovery → Solution | Demos / Discoveries | 50–70% |
+| Solution → Proposal | Proposals / Demos | 40–60% |
+| Proposal → Closed Won | Wins / Proposals | 25–40% |
+
+When a conversion drops >10 points below baseline, inspect exit criteria —
+reps are advancing deals without evidence, or the stage Goal is wrong.
+
+**Time-in-stage limits:** Discovery >21 days without Critical Event = stalled.
+Alert + manager review. Proposal >30 days without EB engagement = at risk.
+
+### Phase 6: Bowtie Handoffs
+
+Sales process does not end at Closed Won. Define handoff packages:
+
+| Handoff | From → To | Package Contents | SLA |
+|---|---|---|---|
+| MQL → SDR/AE | Marketing → Sales | Source, campaign, SPICED Situation | 24 hours |
+| SDR → AE | SDR → AE | SPICED summary, meeting notes, next steps | Same day |
+| AE → CS | Sales → Onboarding | Full SPICED, stakeholders, success criteria, contract scope | Before kickoff |
+| CS → AE (expansion) | CS → Sales | Usage signals, expansion trigger, champion status | On signal |
+
+Load `gtm-system-architecture` for the full Bowtie (Onboarding → Adoption →
+Expansion → Renewal) and CS stage design.
+
+### Phase 7: Forecast Categories
+
+| Stage Group | Forecast Category | Confidence |
+|---|---|---|
+| Target, Connect | Pipeline | 10–20% |
+| Discovery, Solution | Upside | 30–50% |
+| Proposal, Negotiation | Commit | 70–85% |
+| Closed Won | Won | 100% |
+
+Commit deals require all Exit Criteria for Proposal stage met — not rep optimism.
+
+### Phase 8: Deal Inspection Cadence
+
+**Weekly pipeline review (60 min):**
+1. New deals entered — exit criteria met for current stage?
+2. Stalled >14 days — which SPICED/MEDDICC dimension is missing?
+3. Commit at risk — what changed since last week?
+4. Missing next steps — action assigned with date
+5. Close date pushed — pattern or one-off?
+
+**Deal review questions (never "how do you feel?"):**
+- "Walk me through each SPICED field — what's the evidence?"
+- "Who is the Economic Buyer and when did you last speak to them?"
+- "What is the Critical Event date and what happens if they miss it?"
+- "What would cause this deal to die?"
+
+Load `sales-coaching` for REKS-based manager coaching on process adherence.
 
 ## Output Format
 
-Sales process definition document with stage definitions, forecast categories,
-deal inspection templates, and CRM field mapping.
+GTM sales process document containing: motion selection rationale, full stage
+table (Goal + Actions + Exit Criteria), SPICED/MEDDICC CRM field map, conversion
+metric targets, time-in-stage rules, Bowtie handoff specs, forecast categories,
+and weekly inspection agenda.
+
+Use `templates/output-template.md` for the deliverable structure. Run
+`scripts/check-output.py` on the finished document before delivery.
 
 ## Quality Check
 
-- [ ] Every stage has defined Goal and Exit Criteria
-- [ ] Forecast categories map to stages with explicit confidence ranges
-- [ ] Weekly pipeline review cadence established
-- [ ] Deal inspection checklist created
-- [ ] CRM fields support stage progression logic
+Before delivering, verify:
+- [ ] Every stage has Goal, In-Stage Actions, AND Exit Criteria — not just a label
+- [ ] Exit criteria are evidence fields in CRM, not subjective judgments
+- [ ] SPICED dimensions mapped to specific stages with disqualification rules
+- [ ] MEDDICC scorecard defined with 0/1/2 scoring and stage gate minimums
+- [ ] Champion test (Whyte) documented with four criteria
+- [ ] SPICED + MEDDICC field mapping shows no duplicate/conflicting CRM fields
+- [ ] Conversion rate targets defined between each stage pair
+- [ ] Time-in-stage limits set with alert thresholds
+- [ ] AE → CS handoff package defined (Bowtie continuity)
+- [ ] Forecast categories tied to exit criteria, not rep confidence
+- [ ] Weekly inspection agenda uses SPICED/MEDDICC questions
 
 ## Common Pitfalls
 
-1. **Subjective stages.** "I feel good about this deal" is not a stage.
-   Exit criteria are evidence, not feelings.
+1. **Stages named after rep activity.** "Demo scheduled" is an action, not a
+   stage goal. Fix: name stages after buyer outcomes; actions live inside the stage.
 
-2. **No stage time limits.** Deals sitting in Discovery for 60 days aren't
-   in Discovery — they're stalled. Set time-based alerts.
+2. **SPICED collected once, never updated.** SPICED fields go stale. Fix:
+   require re-validation at Proposal stage; Critical Event dates must be current.
 
-3. **Forecast based on hope.** Committing deals without verified exit criteria
-   creates forecast noise that compounds at every level.
+3. **No conversion metrics.** You cannot diagnose a broken process without
+   stage-to-stage rates. Fix: baseline conversions, review monthly.
 
-4. **Too many stages.** 12-stage processes create administrative overhead
-   without improving accuracy. 5-7 stages is the sweet spot.
+4. **Handoff to CS is an email.** CS starts blind, churn risk spikes. Fix:
+   structured handoff package with SPICED summary and success criteria.
 
-5. **CRM as the process.** The CRM reflects the process, not defines it.
-   Design the process first, then configure the CRM to support it.
+5. **Too many stages.** More than 9 stages creates CRM friction without accuracy
+   gains. Fix: consolidate admin-heavy stages; keep 5–7 for consultative.
+
+6. **Process without enablement.** Reps know the stages but lack talk tracks.
+   Fix: load `sales-enablement` to build playbook assets per stage.
+
+## Execution Artifacts
+
+- `../../management-leadership/gtm-leadership/references/cro-enterprise-strategy.md` — McMahon QBR inspection checklist, three-view forecast (Pattern 31)
+- `references/framework-notes.md` — WbD Playbook Kit, SPICED, Bowtie, MEDDICC, Gap Selling anchors
+- `references/cold-calling-experts-index.md` — Phone bucketing router (Gilkey vs Reisert)
+- `references/joey-gilkey-bucketing.md` — Disposition Science → pipeline tiers (repo root)
+- `references/ryan-reisert-cold-calling.md` — CRM Activity Buckets (repo root)
+- `templates/output-template.md` — copy-paste sales process deliverable
+- `scripts/check-output.py` — validates required sections in finished output
 
 ## Related Skills
 
-- **proactive-alerts**: Automated alerts on pipeline risks
-- **gtm-metrics**: Pipeline metrics and dashboards
-- **crm-integration**: CRM configuration for pipeline stages
+- `gtm-system-architecture` — Six-model audit and Bowtie architecture
+- `sales-enablement` — Playbook, battlecards, talk tracks per stage
+- `sales-coaching` — REKS (Jacco van der Kooij), MEDDICC deal reviews, JOLT coaching, 1:1/call rubrics
+- `meeting-prep` — SPICED/MEDDIC discovery question banks
+- `multi-thread-orchestration` — Enterprise buying committee mapping
+- `crm-integration` — CRM field and stage configuration
+- `gtm-metrics` — Pipeline dashboards and conversion reporting
+- `buyer-indecision` — JOLT for Proposal+ stalls ("think about it", FOMU)

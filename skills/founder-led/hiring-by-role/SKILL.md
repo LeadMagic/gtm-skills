@@ -11,11 +11,11 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.3.0"
   author: LeadMagic
   category: founder-led
   tags: [hiring, interviews, scorecards, recruiting, evaluation, role-specific]
-  related_skills: [job-posting-strategy, first-hires-playbook, sales-team-building, hiring-contractors, employment-compliance]
+  related_skills: [gtm-recruiting, gtm-role-descriptions, job-posting-strategy, first-hires-playbook, sales-team-building, hiring-contractors, employment-compliance, revops-tech-stack, clay-toolkit, n8n-automation, revenue-team-onboarding]
   frameworks:
     - "Google re:Work — Structured interviewing and hiring"
     - "Betts Recruiting — GTM role evaluation"
@@ -23,6 +23,8 @@ metadata:
     - "YC — Hiring and evaluating founders/early employees"
     - "Laszlo Bock — Work Rules! (Google hiring practices)"
     - "Patty McCord — Powerful (Netflix hiring for talent density)"
+    - "RevOps Co-op — GTM systems hiring patterns"
+    - "Stacey Nordwall (Culture Amp / Pyn) — Structured onboarding handoff from hire to ramp"
 ---
 
 # Hiring by Role
@@ -41,7 +43,8 @@ Recruiting, and YC.
 
 Trigger phrases: "interview questions for engineer", "how to hire a salesperson",
 "evaluate marketing candidates", "CS interview scorecard", "product manager
-interview", "designer interview questions", "role-specific hiring guide"
+interview", "designer interview questions", "hire GTM engineer", "GTM engineer
+interview", "evaluate RevOps candidates", "role-specific hiring guide"
 
 ## Authoritative Foundations
 
@@ -49,7 +52,9 @@ interview", "designer interview questions", "role-specific hiring guide"
 Google's research proved: structured interviews with consistent questions and
 scorecards predict performance 2x better than unstructured interviews. Key
 principle: ask every candidate the same questions. Score on predefined
-criteria. Compare apples to apples.
+criteria. Compare apples to apples. Load `gtm-recruiting` for inclusive
+scorecard template and diversity-of-thought hiring (It's Destiny Recruiting).
+Full expert map: `references/interview-experts.md`.
 
 ### Laszlo Bock — Work Rules!
 "Don't trust your gut. Gut instinct is just pattern recognition on incomplete
@@ -59,6 +64,11 @@ data. Use structured interviews, work samples, and scorecards."
 "Past performance is the best predictor of future performance. But past
 QUOTA ATTAINMENT, not past experience. A 10-year VP Sales who never hit
 quota is worse than a 2-year AE who hit 150% every quarter."
+
+**Question banks:** Interviewer scripts → `templates/interviewer-questions-gtm.md`.
+GTM Engineer scorecard → `templates/gtm-engineer-scorecard.md` (canonical interview loop).
+Role definition + JD → `gtm-role-descriptions` → `skills/founder-led/gtm-role-descriptions/references/gtm-engineer-hiring.md`.
+Candidate questions (both sides) → `templates/candidate-questions-to-ask.md`.
 
 ## Core Principles (All Roles)
 
@@ -114,7 +124,50 @@ approach, code quality, collaboration, technical communication.
 | Communication | 15% | | |
 | Collaboration | 10% | | |
 
-### Sales (AE / SDR)
+### GTM Engineer
+
+**Before interviews:** Write the JD with `gtm-role-descriptions` →
+`skills/founder-led/gtm-role-descriptions/templates/gtm-engineer-jd.md` and `skills/founder-led/gtm-role-descriptions/references/gtm-engineer-hiring.md` (role vs
+RevOps / SE / Growth Engineer). Salary + OKR bonus — not quota.
+
+**What you're evaluating:** Workflow design, data quality, CRM fluency, API
+integration, GTM judgment, documentation. Portfolio required — not years of tenure.
+
+**Interview process (5 stages, 2-week clock):**
+1. **Screen (30 min):** "Walk me through a GTM workflow you shipped. What metric
+   moved?" Role-boundary question (GTM Eng vs RevOps vs SE). Request portfolio link.
+2. **Work sample (paid, 3–4 hrs):** Enrich 50 accounts → score ICP → CRM push with
+   field mapping doc. Evaluate verify step, error handling, cost awareness.
+3. **Technical review (60 min):** Walk work sample. Scale, provider order, sync
+   tradeoffs, credit optimization.
+4. **GTM judgment (45 min):** Stakeholder scenario (Marketing MQL vs Sales list
+   quality). Design a signal play trigger → sequence.
+5. **Team/values (30 min):** Runbooks, vacation handoff, security hygiene.
+
+**Evaluation scorecard:** Full weighted rubric in `templates/gtm-engineer-scorecard.md`.
+
+| Criteria | Weight |
+|---|---|
+| Workflow design | 25% |
+| Data quality | 20% |
+| CRM fluency | 15% |
+| API / integration | 15% |
+| GTM judgment | 15% |
+| Documentation | 10% |
+
+**Onboarding handoff:** `revenue-team-onboarding` — CRM/Clay/n8n access day 0.
+
+### Sales (AE / SDR / VP Sales / RevOps)
+
+**Before interviews:** Write the JD and comp plan with `gtm-role-descriptions`
+(role catalog, org placement) + `executive-compensation` (Pattern 35: OTE × quota
+math via `ote-calculator-template.md`, `comp-plan-design-worksheet.md`). Bands →
+`comp-benchmarks.md`. Post via `job-posting-strategy`. Offer OTE must match
+published JD range — candidates check RepVue.
+
+**RevOps vs GTM Engineer:** RevOps interviews focus on forecast, CRM policy, and
+cross-functional alignment. GTM Engineer interviews focus on Clay/n8n artifacts and
+enrichment — use `gtm-engineer-scorecard.md`, not the sales numbers test.
 
 **What you're evaluating:** Track record (quota attainment), discovery skill,
 communication, resilience, coachability, competitive drive.
@@ -355,7 +408,15 @@ Before delivering, verify:
    out the 10-year person who's done 3x as much. Fix: Describe what they've
    achieved, not how long they've been working.
 
+## Execution Artifacts
 
+- `references/interview-experts.md` — re:Work, Betts, Roberge, Destiny, Bock, Nordwall handoff
+- `../gtm-role-descriptions/references/hr-gtm-playbook.md` — post-hire onboarding system (Pattern 28)
+- `templates/gtm-engineer-scorecard.md` — full loop + work sample for GTM Engineer
+- `templates/interviewer-questions-gtm.md` — SDR, AE, manager, VP, RevOps, GTM Engineer, CS
+- `templates/candidate-questions-to-ask.md` — both sides; offer-stage + panel
+- `templates/output-template.md` — interview plan deliverable
+- `scripts/check-output.py` — validates interview plan sections
 
 ## ⚠️ Disclaimer
 

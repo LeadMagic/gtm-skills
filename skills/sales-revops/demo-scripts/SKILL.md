@@ -9,7 +9,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.2.0"
   author: LeadMagic
   category: sales-revops
   tags: [demo, scripts, presentations, product-demo]
@@ -18,6 +18,8 @@ metadata:
     - "Force Management Command of the Message"
     - "Challenger Teach-Tailor-Take Control"
     - "MEDDICC — Qualification"
+    - "Varun Anand (Clay) — Reverse Demo"
+    - "Peter Cohan — Great Demo! Reverse Demo (incumbent walkthrough)"
 ---
 
 # Demo Scripts
@@ -51,6 +53,23 @@ Challenger's Teach-Tailor-Take Control: the demo should teach the prospect
 something new about their problem, not just show your product. The best
 demos reframe how the buyer sees their current state.
 
+**Varun Anand (Clay) — Reverse Demo.** For complex or PLG-hybrid products,
+flip the demo: the **prospect shares screen** and solves a real use case live
+while the rep guides with annotations. Clay used 100+ sessions to reach
+"a-ha" moments in minutes and improve conversion + product feedback. Load
+`references/reverse-demo-varun.md` for the 30-minute structure, pre-call
+checklist, and 2:1 prospect-control ratio. Pair with `customer-marketing`
+→ `community-selling-varun.md` — end calls by onboarding prospects into Slack
+for peer support.
+
+**Peter Cohan — Great Demo! Reverse Demo (discovery variant).** When
+displacing an incumbent, ask the prospect to demo **their current system**
+first to surface likes, pain, and unknown gaps — then map your demo to what
+they showed. Different motion from Clay's prospect-led product session;
+use in discovery-heavy enterprise deals (`meeting-prep`).
+Full playbook: `references/peter-cohan-great-demo.md` — Great Demo flow,
+Do Something/Do Again, discovery-before-demo ratio.
+
 ## Step-by-Step Process
 
 ### Phase 1: Demo Variant Selection
@@ -63,34 +82,30 @@ demos reframe how the buyer sees their current state.
 
 ### Phase 2: First Demo Structure
 
-Scene-by-scene for the 10-minute first demo:
-
-1. **Opening** (1 min): Recap discovery, set agenda, confirm goals
-2. **The Problem** (1 min): "Here's what we heard. You're struggling with [pain]."
-3. **The Vision** (1 min): "Here's what it looks like after. [Outcome, metric, change]."
-4. **Core Workflow** (4 min): Show 3 key workflows mapped to their pain points.
-   Feature → why it matters → what it changes for them.
-5. **Proof** (1 min): One customer story. "This is how [similar company] uses it."
-6. **The Differentiator** (1 min): One thing only you do. "This is why teams choose us."
-7. **Next Steps** (1 min): "Here's what a typical evaluation looks like. Next: [action]."
+Template: `templates/first-demo-script.md` — scene-by-scene with talk tracks,
+screen actions, and interaction prompts.
 
 ### Phase 3: Technical Deep-Dive
 
-Additional sections for technical audiences:
-- Architecture overview (how it works under the hood)
-- Security and compliance (SOC 2, GDPR, data residency)
-- Integration capabilities (APIs, webhooks, supported integrations)
-- Scalability (performance under load, enterprise features)
-- Customization and configuration options
+Template: `templates/technical-demo-outline.md`
 
 ### Phase 4: Executive Overview
 
-Focus entirely on business outcomes:
-- Strategic alignment: how this fits their company goals
-- Financial impact: ROI model, payback period, cost of inaction
-- Risk reduction: what happens if they don't solve this
-- Competitive advantage: what they gain that competitors don't have
-- Implementation timeline: how quickly they see value
+Template: `templates/executive-demo-outline.md` — outcomes, ROI, risk of wait.
+Business case numbers → `deal-desk` business-case template.
+
+### Phase 5: Reverse Demo (buyer-led)
+
+Use when the product requires hands-on learning or PLG trial is available.
+
+| Step | Action |
+|---|---|
+| Pre-call | Email: bring one concrete use case (or co-design in first 5 min) |
+| Handoff | Prospect shares screen; rep provides signup link + Zoom annotations |
+| Session | Prospect drives; rep guides — target **first win** in ≤30 min |
+| Close | Community/Slack invite before scheduling follow-up |
+
+Full playbook: `references/reverse-demo-varun.md`
 
 ## Output Format
 
@@ -123,6 +138,17 @@ actions, and interaction prompts for each demo variant.
 
 5. **No clear differentiator moment.** If the prospect can't name one thing
    only you do after the demo, you failed to differentiate.
+
+## Execution Artifacts
+
+- `templates/first-demo-script.md` — 10–15 min discovery-led demo
+- `templates/technical-demo-outline.md` — SE deep-dive
+- `templates/executive-demo-outline.md` — Economic buyer overview
+- `references/reverse-demo-varun.md` — Varun Anand / Clay buyer-led demo playbook
+- `references/peter-cohan-great-demo.md` — Great Demo! + incumbent reverse demo
+- `references/framework-notes.md`
+- `templates/output-template.md`
+- `scripts/check-output.py`
 
 ## Related Skills
 

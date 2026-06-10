@@ -12,7 +12,7 @@ metadata:
   author: LeadMagic
   category: founder-led
   tags: [board-meetings, governance, metrics, investor-relations, deck, narrative]
-  related_skills: [financial-modeling, saas-metrics-calculator, fundraising-strategy, investor-updates, pitch-deck-builder]
+  related_skills: [financial-modeling, saas-metrics-calculator, fundraising-strategy, investor-updates, pitch-deck-builder, saas-outcomes, exiting-company]
   frameworks:
     - "Brad Feld — Startup Boards (board mechanics and dynamics)"
     - "Fred Wilson (Union Square Ventures) — Board meeting philosophy"
@@ -34,13 +34,12 @@ conversations.
 
 ## Frameworks Referenced
 
-This skill is grounded in public frameworks and source material relevant to the task:
+- **Brad Feld — Startup Boards** — Board mechanics and dynamics
+- **Jason Lemkin (SaaStr)** — Metrics VCs want: NRR, burn multiple, Rule of 40
+- **David Skok / Ben Murray** — Financial and unit-economics dashboard
 
-- **Brad Feld — Startup Boards (board mechanics and dynamics).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Fred Wilson (Union Square Ventures) — Board meeting philosophy.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Matt Blumberg — Startup CEO (board management chapter).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Elad Gil — High Growth Handbook (working with boards).** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Jason Lemkin (SaaStr) — What VCs actually want in board decks.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+For valuation or exit discussions, load `saas-outcomes/references/exit-metrics-matrix.md`
+and `financial-modeling/references/unit-economics-exit-bridge.md`.
 
 ## When to Use
 
@@ -336,6 +335,14 @@ Before delivering, verify:
    without the CEO to discuss CEO performance, compensation, and succession.
    It's not a vote of no confidence. If your board isn't doing it, suggest it.
    Fix: Always include 10-15 min executive session at end.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
+**Cross-skill:** `saas-metrics-calculator/references/metric-definitions-exit-weight.md`, `exiting-company/templates/valuation-sensitivity-table.md`
 
 ## Related Skills
 

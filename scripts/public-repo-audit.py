@@ -39,6 +39,8 @@ REQUIRED_PUBLIC_FILES = [
     ".github/pull_request_template.md",
     ".github/dependabot.yml",
     ".github/workflows/validate.yml",
+    ".github/workflows/regenerate.yml",
+    "scripts/generated-artifacts.txt",
     ".claude-plugin/plugin.json",
     ".claude-plugin/marketplace.json",
 ]
@@ -48,6 +50,11 @@ ALLOWED_URL_HOSTS = {
     "leadmagic.io",
     "www.leadmagic.io",
     "agentskills.io",
+    "agent-skills.md",
+    "agenticskills.io",
+    "skills.re",
+    "skillindex.dev",
+    "theskills.directory",
 }
 JUNK_SUFFIXES = (".orig", ".rej", "~")
 JUNK_NAMES = {".DS_Store"}
@@ -110,11 +117,12 @@ def main() -> int:
     if not skills:
         fail("no skills found", failures)
 
-    # Marketplace discovery must be exactly skills/<category>/<skill>/SKILL.md.
+    # Marketplace discovery: skills/<category>/<skill>/SKILL.md only (flat depth).
     bad_paths = []
     for path in skills:
         rel_parts = path.relative_to(ROOT).parts
-        if len(rel_parts) != 4 or rel_parts[0] != "skills" or rel_parts[3] != "SKILL.md":
+        flat = len(rel_parts) == 4 and rel_parts[0] == "skills" and rel_parts[3] == "SKILL.md"
+        if not flat:
             bad_paths.append(str(path.relative_to(ROOT)))
     if bad_paths:
         fail(f"non-marketplace-discoverable skill paths: {', '.join(bad_paths[:20])}", failures)
@@ -128,8 +136,11 @@ def main() -> int:
         fm = frontmatter(path)
         name = yaml_scalar(fm, "name")
         compatibility = yaml_scalar(fm, "compatibility")
-        if name != path.parent.name:
-            bad_skills.append(f"{rel}: name {name!r} does not match directory {path.parent.name!r}")
+        rel_skill_parts = path.relative_to(ROOT / "skills").parts
+        skill_dir = rel_skill_parts[1]  # skills/<category>/<skill>/SKILL.md
+        name_ok = name == skill_dir
+        if not name_ok:
+            bad_skills.append(f"{rel}: name {name!r} does not match directory {skill_dir!r}")
         if compatibility != STANDARD_COMPATIBILITY:
             bad_skills.append(f"{rel}: non-standard compatibility")
         if re.search(r"^\s*frameworks:\s*\[\s*\]\s*$", fm, re.M):
@@ -145,6 +156,32 @@ def main() -> int:
             taxonomy_rows = list(csv.DictReader(handle))
         if len(taxonomy_rows) != len(skills):
             fail(f"taxonomy count {len(taxonomy_rows)} != skill count {len(skills)}", failures)
+        disk_slugs = {
+            f"{p.relative_to(ROOT / 'skills').parts[0]}/{p.relative_to(ROOT / 'skills').parts[1]}"
+            for p in skills
+        }
+        csv_slugs: set[str] = set()
+        for row in taxonomy_rows:
+            slug = row.get("slug", "").strip()
+            name = row.get("name", "").strip()
+            category = row.get("category", "").strip()
+            path = row.get("path", "").strip()
+            expected_path = f"skills/{category}/{slug}/SKILL.md"
+            key = f"{category}/{slug}"
+            if slug != name:
+                fail(f"taxonomy.csv slug != name for {key}: {slug!r} vs {name!r}", failures)
+            if path != expected_path:
+                fail(f"taxonomy.csv path mismatch for {key}: {path!r} != {expected_path!r}", failures)
+            if not (ROOT / path).exists():
+                fail(f"taxonomy.csv path missing on disk: {path}", failures)
+            csv_slugs.add(key)
+        if csv_slugs != disk_slugs:
+            missing = sorted(disk_slugs - csv_slugs)[:5]
+            extra = sorted(csv_slugs - disk_slugs)[:5]
+            fail(
+                f"taxonomy.csv keys != disk skills (missing sample: {missing}, extra sample: {extra})",
+                failures,
+            )
 
     lock_path = ROOT / "skills.lock"
     if lock_path.exists():
@@ -155,7 +192,11 @@ def main() -> int:
         if len(lock_skills) != len(skills):
             fail(f"skills.lock entries {len(lock_skills)} != skill count {len(skills)}", failures)
         for name, meta in lock_skills.items():
-            skill_path = ROOT / str(meta.get("path", ""))
+            raw_path = meta.get("path", "")
+            if isinstance(raw_path, list):
+                skill_path = ROOT / "skills" / Path(*raw_path)
+            else:
+                skill_path = ROOT / str(raw_path)
             if not skill_path.exists():
                 fail(f"skills.lock missing path for {name}: {meta.get('path')}", failures)
                 continue
@@ -169,6 +210,7 @@ def main() -> int:
         "AGENTS.md": read(ROOT / "AGENTS.md") if (ROOT / "AGENTS.md").exists() else "",
         "CLAUDE.md": read(ROOT / "CLAUDE.md") if (ROOT / "CLAUDE.md").exists() else "",
         "package.json": read(ROOT / "package.json") if (ROOT / "package.json").exists() else "",
+        "references/skill-index-master.md": read(ROOT / "references/skill-index-master.md") if (ROOT / "references/skill-index-master.md").exists() else "",
         ".claude-plugin/plugin.json": read(ROOT / ".claude-plugin/plugin.json") if (ROOT / ".claude-plugin/plugin.json").exists() else "",
         ".claude-plugin/marketplace.json": read(ROOT / ".claude-plugin/marketplace.json") if (ROOT / ".claude-plugin/marketplace.json").exists() else "",
     }
@@ -201,6 +243,24 @@ def main() -> int:
             if name.lower() in package_blob:
                 fail(f"telemetry dependency present in package.json: {name}", failures)
 
+    manifest_path = ROOT / "scripts/generated-artifacts.txt"
+    manifest_entries: list[str] = []
+    if manifest_path.exists():
+        for raw in read(manifest_path).splitlines():
+            line = raw.split("#", 1)[0].strip()
+            if line:
+                manifest_entries.append(line)
+    if len(manifest_entries) < 8:
+        fail("scripts/generated-artifacts.txt must list all generated catalog paths", failures)
+
+    package_path = ROOT / "package.json"
+    if package_path.exists() and manifest_entries:
+        package_text = read(package_path)
+        if "scripts/check-generated.sh" not in package_text:
+            fail("package.json check:generated must use scripts/check-generated.sh", failures)
+        if "scripts/regenerate.sh" not in package_text:
+            fail("package.json build/regenerate must use scripts/regenerate.sh", failures)
+
     workflow_path = ROOT / ".github/workflows/validate.yml"
     if workflow_path.exists():
         workflow = read(workflow_path)
@@ -208,8 +268,29 @@ def main() -> int:
             fail("validate workflow must use least-privilege contents: read permissions", failures)
         if "gh skill publish --dry-run" not in workflow:
             fail("validate workflow must run gh skill publish --dry-run", failures)
+        if "check:generated" not in workflow:
+            fail("validate workflow must run npm run check:generated", failures)
         if "concurrency:" not in workflow:
             fail("validate workflow missing concurrency guard", failures)
+
+    regen_path = ROOT / ".github/workflows/regenerate.yml"
+    if regen_path.exists():
+        regen = read(regen_path)
+        if "permissions:\n  contents: write" not in regen:
+            fail("regenerate workflow must request contents: write", failures)
+        if "scripts/regenerate.sh" not in regen:
+            fail("regenerate workflow must run scripts/regenerate.sh", failures)
+        if "workflow_dispatch" not in regen:
+            fail("regenerate workflow must support workflow_dispatch", failures)
+        if "generated-artifacts.txt" not in regen:
+            fail("regenerate workflow must read scripts/generated-artifacts.txt", failures)
+
+    plugin_path = ROOT / ".claude-plugin/plugin.json"
+    if plugin_path.exists():
+        plugin = json.loads(read(plugin_path))
+        globs = plugin.get("skills", [])
+        if globs != ["skills/*/*/SKILL.md"]:
+            fail(f"plugin.json skills globs must be flat-only ['skills/*/*/SKILL.md'], got {globs}", failures)
 
     if failures:
         print(f"\nPublic repo audit failed: {len(failures)} issue(s).")

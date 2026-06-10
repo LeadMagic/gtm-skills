@@ -9,12 +9,12 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.1.0"
+  version: "1.2.0"
   author: LeadMagic
   category: founder-led
   tags: [investors, updates, fundraising, board, communication]
   frameworks: [YC Investor Update Template, Jason Lemkin SaaStr Board Deck, David Skok VC Dashboard]
-  related_skills: [saas-metrics-calculator, building-saas, exiting-company]
+  related_skills: [saas-metrics-calculator, building-saas, exiting-company, financial-modeling, fundraising-strategy]
 ---
 
 # Investor Updates
@@ -31,11 +31,9 @@ Send monthly. Every month. Even when (especially when) things are hard.
 
 ## Frameworks Referenced
 
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **YC Investor Update Template.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Jason Lemkin SaaStr Board Deck.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **David Skok VC Dashboard.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **YC Investor Update Template** — Consistent monthly structure
+- **Jason Lemkin (SaaStr)** — Board metrics: growth, burn multiple, NRR
+- **David Skok** — VC dashboard metrics (LTV:CAC, payback)
 
 ## When to Use
 
@@ -45,6 +43,8 @@ This skill is grounded in public frameworks and source material relevant to the 
 - "Structure an investor communication"
 - "What should I include in investor updates?"
 - "Build a fundraising narrative"
+- "Investor update during crisis / outage / breach"
+- "Board comms after bad press"
 
 ## Step-by-Step Process
 
@@ -56,6 +56,11 @@ Every update follows this structure. Every month. Consistency builds trust.
 "Revenue grew 12% MoM to $X MRR. Churn dropped to 1.2%. Hired first AE."
 
 **2. Key Metrics**
+
+Use `saas-metrics-calculator/references/metric-definitions-exit-weight.md` for
+formulas. Minimum investor set: MRR/ARR, NRR, GRR, logo churn, CAC payback,
+magic number, burn multiple, runway.
+
 - MRR / ARR (with growth rate)
 - Customer count (new, churned, net new)
 - Churn rate (logo + revenue)
@@ -102,7 +107,23 @@ For formal board meetings, expand the update:
 6. Key decisions needed (board vote items)
 7. Risks and mitigation
 
-### Phase 4: Fundraising Narrative
+### Phase 4: Crisis & Incident Investor Comms
+
+**Lemkin rule:** Send updates *more* reliably in bad months — never skip because of embarrassment. Source: [Handling Bad News](https://www.saastr.com/handling-bad-news/)
+
+**Sev 3+ addendum** (same day as customer holding statement, after counsel if breach):
+
+1. **What happened** — facts only; no legal admissions without counsel
+2. **Customer/revenue impact** — affected ARR %, churn risk, pipeline deals flagged
+3. **Mitigation** — technical fix, CS surge, credits/SLA policy
+4. **Metrics to watch** — NRR, logo churn, 90-day retention vs pre-crisis baseline
+5. **Asks** — intro to PR counsel, security advisor, reference customers for trust rebuild
+
+**Do not:** Replace monthly rhythm with silence; bury crisis in footnotes.
+
+**Canonical crisis playbook:** `references/crisis-management-playbook.md` (Pattern 33) · `gtm-leadership` (war room)
+
+### Phase 5: Fundraising Narrative
 
 When actively fundraising, the update becomes evidence for your pitch:
 
@@ -146,8 +167,20 @@ framework.
 5. **Inconsistent format.** Different structure every month means investors
    can't find what they're looking for. Same format, every month, forever.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
+**Cross-skill:** `saas-metrics-calculator/references/metric-definitions-exit-weight.md`, `fundraising-strategy/references/vc-milestone-gates.md`, `exiting-company/references/due-diligence-metrics-pack.md`
+
+**Crisis:** `references/crisis-management-playbook.md` · `references/saas-pr-crisis-experts.md` (Lemkin transparency)
+
 ## Related Skills
 
 - **saas-metrics-calculator**: The metrics you report
 - **building-saas**: The business you're updating on
 - **exiting-company**: Exit-ready financials start with clean updates
+- **gtm-leadership**: Crisis war room and executive messaging
+- **deal-desk**: Legal review before investor statements on breach/regulatory matters

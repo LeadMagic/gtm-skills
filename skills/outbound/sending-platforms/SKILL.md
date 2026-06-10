@@ -384,6 +384,13 @@ Before delivering, verify:
    (C-suite, enterprise), always have a human review and tune AI-generated
    copy. The AI is a starting point, not a final draft.
 
+## Execution Artifacts
+
+- `references/deliverability-primer.md` — Deliverability fundamentals
+- `references/platform-comparison.md` — Sending platform evaluation matrix
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - `email-deliverability` — adjacent workflow to use before or after this skill

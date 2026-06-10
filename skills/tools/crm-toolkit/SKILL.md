@@ -1,142 +1,226 @@
 ---
 name: crm-toolkit
 description: >-
-  Complete CRM operations toolkit — HubSpot, Salesforce, and Attio deep-dive
-  configuration, enrichment integration, pipeline automation, and data
-  hygiene. Use when building CRM workflows, integrating enrichment, designing
-  pipelines, or maintaining CRM data quality. Triggers on: "CRM toolkit",
-  "CRM setup deep", "CRM enrichment", "CRM pipeline design".
+  CRM operations anchor — HubSpot, Salesforce, and Attio selection, contacts vs
+  leads object model, platform blueprints, enrichment integration, implementation
+  partners, pipeline design, and data hygiene. Use when choosing a CRM, setting
+  up Attio/HubSpot/Salesforce, resolving Lead vs Contact architecture, or hiring
+  CRM implementation help. Triggers on: "CRM setup", "HubSpot vs Salesforce",
+  "Attio vs HubSpot", "contacts vs leads", "Salesforce leads", "CRM migration",
+  "CRM implementation partner", "CRM blueprint".
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "2.1.0"
   author: LeadMagic
   category: tools
-  tags: [crm, hubspot, salesforce, attio, pipeline, enrichment, data-hygiene]
-  related_skills: [hubspot-setup, salesforce-setup, attio-setup, crm-integration, leadmagic-toolkit, clay-toolkit, pipeline-management]
+  tags:
+    - crm
+    - hubspot
+    - salesforce
+    - attio
+    - contacts-vs-leads
+    - revops
+    - pipeline
+    - enrichment
+  related_skills:
+    - crm-integration
+    - hubspot-setup
+    - salesforce-setup
+    - attio-setup
+    - pipeline-management
+    - leadmagic-toolkit
+    - clay-toolkit
+    - n8n-toolkit
+    - revops-tech-stack
+    - hiring-agencies
+    - saas-outcomes
   frameworks:
-    - "HubSpot — CRM, deal pipelines, lifecycle stages, marketing automation"
-    - "Salesforce — Object model, Flow automation, opportunity management"
-    - "Attio — Programmable CRM, real-time objects, list-based architecture"
+    - "Winning by Design — Bowtie lifecycle"
+    - "HubSpot — Lifecycle Stage Model"
+    - "Salesforce — Lead/Account/Contact/Opportunity"
+    - "Marc Benioff — V2MOM, trust selling, land-and-expand, customer success"
+    - "Attio — Programmable object + list model"
 ---
 
 # CRM Toolkit
 
 ## Overview
 
-Your CRM is the source of truth for revenue — and most CRMs are full of junk
-data, broken pipelines, and forgotten deals. The mistake: treating the CRM as
-a dumping ground instead of a revenue engine. This skill covers deep CRM
-configuration across HubSpot, Salesforce, and Attio: enrichment integration,
-pipeline design, automation rules, and data hygiene.
+Most CRM failures are **architecture mistakes**, not missing features: wrong platform
+for stage, Lead/Contact confusion, enrichment synced both ways, or fifteen pipeline
+stages nobody inspects. This skill is the **anchor** for CRM work in gtm-skills —
+selection, object model, platform blueprints, partners, and hygiene — with
+rollout delegated to `hubspot-setup`, `salesforce-setup`, and `attio-setup`.
 
-## Frameworks Referenced
-
-This skill is grounded in public frameworks and source material relevant to the task:
-
-- **HubSpot — CRM, deal pipelines, lifecycle stages, marketing automation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Salesforce — Object model, Flow automation, opportunity management.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
-- **Attio — Programmable CRM, real-time objects, list-based architecture.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+**Tool vs process:** `tools/crm-toolkit` = config reference and blueprints.
+`automation/crm-integration` + platform setup skills = operating model and rollout.
 
 ## When to Use
 
-Trigger phrases: "CRM setup", "CRM pipeline design", "CRM enrichment",
-"HubSpot deep setup", "Salesforce configuration", "Attio setup", "CRM
-data hygiene", "CRM automation"
+| Request | Start here | Then load |
+|---|---|---|
+| "Which CRM should we use?" | `references/crm-selection.md` | `saas-outcomes` if bootstrap vs venture |
+| "Contacts vs leads in Salesforce" | `references/contacts-vs-leads.md` | `salesforce-setup` |
+| "Set up HubSpot pipeline" | `references/hubspot-blueprint.md` | `hubspot-setup` |
+| "Set up Attio" | `references/attio-blueprint.md` | `attio-setup` |
+| "Migrate HubSpot → Salesforce" | `references/contacts-vs-leads.md` + blueprints | `references/implementation-partners.md` |
+| "CRM agency / SI partner" | `references/implementation-partners.md` | `hiring-agencies` |
+| "Enrichment → CRM" | Enrichment section below | `clay-toolkit`, `leadmagic-toolkit` |
 
-## Platform Comparison
+Trigger phrases: "CRM toolkit", "CRM setup", "Attio setup deep", "HubSpot vs
+Attio", "Salesforce leads", "contact vs lead", "CRM partner", "RevOps agency CRM"
 
-| Feature | HubSpot | Salesforce | Attio |
+## Authoritative Foundations
+
+- **Winning by Design — Bowtie.** Model pre- and post-sale in CRM: not pipeline-only.
+- **HubSpot.** Single Contact + lifecycle stages — no separate Lead object.
+- **Salesforce.** Lead quarantine → convert → Account + Contact + Opportunity.
+- **Marc Benioff (Salesforce).** V2MOM alignment, trust-based enterprise selling,
+  land-and-expand in CRM, customer success as revenue function — `references/benioff-enterprise-playbook.md`.
+- **Attio.** Flat objects; qualification via attributes and **lists as queues**.
+
+## Step-by-Step Process
+
+### Phase 1 — Operating Model (before software)
+
+Load `crm-integration` if not done. Minimum:
+
+- [ ] GTM motion defined (inbound, outbound, PLG, hybrid)
+- [ ] 5–7 deal stages with Goal + Exit Criteria (`pipeline-management`)
+- [ ] Owner per stage (SDR vs AE vs CS)
+- [ ] Dedupe key: email (people), domain (companies)
+
+### Phase 2 — Platform Selection
+
+Use `references/crm-selection.md` scorecard.
+
+| ARR / team | Default recommendation |
+|---|---|
+| <$1M ARR, founder-led | Attio or HubSpot Starter |
+| $1–10M ARR, sales-led | HubSpot Pro |
+| $10M+ ARR, territories | HubSpot Enterprise or Salesforce |
+| Enterprise procurement | Salesforce |
+
+### Phase 3 — Contacts vs Leads
+
+**Mandatory read:** `references/contacts-vs-leads.md`
+
+| Platform | Model |
+|---|---|
+| Salesforce | Lead object optional but default for SDR + inbound quarantine |
+| HubSpot | Lifecycle stages on Contact — never duplicate "lead" records |
+| Attio | `status` on People + dynamic lists — no conversion ceremony |
+
+### Phase 4 — Platform Blueprint
+
+| Platform | Blueprint | Setup skill |
+|---|---|---|
+| HubSpot | `references/hubspot-blueprint.md` | `hubspot-setup` |
+| Salesforce | `references/salesforce-blueprint.md` | `salesforce-setup` |
+| Attio | `references/attio-blueprint.md` | `attio-setup` |
+
+Index: `references/platform-setup-index.md`
+
+### Phase 5 — Enrichment Integration
+
+**One-direction:** Clay / LeadMagic → CRM. Never two-way Clay ↔ CRM sync.
+
+| Event | Pattern |
+|---|---|
+| Contact/Person created | Webhook or workflow → enrich → write properties |
+| Inbound form | Enrich before assignment |
+| Quarterly hygiene | Re-verify email; refresh firmographics on Tier A accounts |
+
+Skills: `leadmagic-toolkit` (verify), `clay-toolkit` (waterfall), `n8n-toolkit` (routing).
+
+### Phase 6 — Implementation Partners
+
+If estimated config > 40 hours or Salesforce net-new:
+
+1. Document process (`pipeline-management`, `crm-integration`)
+2. Read `references/implementation-partners.md`
+3. Run 90-day pilot with scorecard (`hiring-agencies`)
+
+### Phase 7 — Enterprise Motion (Salesforce / land-expand)
+
+When enterprise or NRR-led growth is the motion, load `references/benioff-enterprise-playbook.md`:
+
+- V2MOM cascade from company vision → GTM measures (`gtm-leadership`)
+- Land opp + expansion opps on same Account (`templates/land-expand-account-plan.md`)
+- CS health, renewal, and success criteria in CRM — not pipeline-only
+
+### Phase 8 — Data Hygiene
+
+| Rule | Implementation |
+|---|---|
+| No person without email | Required field / validation |
+| No open deal without amount + close date | Stage validation |
+| Duplicate detection | Email match; domain for companies |
+| Stale deals | 60d same stage → task or auto-close policy |
+| Enrich on create | Default for all inbound |
+
+## Platform Comparison (Summary)
+
+| | HubSpot | Salesforce | Attio |
 |---|---|---|---|
-| Best for | SMB/Mid-market | Enterprise | Startups/PLG |
-| Pipeline design | Visual, intuitive | Complex, powerful | Programmable, flexible |
-| Enrichment integration | Native + API | Flow + webhook | API + webhooks |
-| Automation | Workflows | Flows | Workflows |
-| Reporting | Built-in dashboards | Reports + Einstein | List-based views |
-| Learning curve | Low | High | Medium |
+| Best for | SMB–mid market, marketing+sales | Enterprise, complex GTM | Startups, API-first, PLG assist |
+| Lead model | Lifecycle on Contact | Lead → convert | status + lists |
+| Admin load | Low–medium | High | Low |
+| Marketing | Native | Separate clouds | External / webhooks |
+| Implementation | Partner optional | Partner required | Self-serve + contractor |
 
-## Artifacts
-
-### HubSpot Pipeline Template
-```
-DEAL STAGES:
-1. New Lead — Goal: Qualify. Exit: ICP fit + budget identified.
-2. Discovery Call Completed — Goal: Identify pain + critical event.
-3. Demo Scheduled/Completed — Goal: Technical validation.
-4. Proposal Sent — Goal: Commercial alignment.
-5. Negotiation — Goal: Terms agreed.
-6. Closed Won / Closed Lost
-```
-
-### Salesforce Flow Templates
-- **Lead → Contact Auto-Convert:** When lead score > threshold, auto-convert
-- **Enrichment Trigger:** When contact created, trigger enrichment API
-- **Stage Validation:** Prevent skipping stages without required fields
-
-### CRM Data Hygiene Rules
-1. No contact without email + company (required fields enforced)
-2. No deal without amount + close date + stage
-3. Duplicate detection: match on email (HubSpot: auto-dedup. Salesforce: matching rules)
-4. Stale deal cleanup: deals in same stage > 60 days → auto-close or notify
-5. Enrichment on create: every new contact triggers enrichment automatically
-
-## Implementation Checklist
-
-- [ ] Deal stages defined with Goals + Exit Criteria per stage
-- [ ] Required fields enforced (email, company, amount, close date)
-- [ ] Enrichment integration live (auto-enrich on create)
-- [ ] Duplicate detection configured
-- [ ] Pipeline automation rules documented and tested
-- [ ] Data hygiene audit scheduled (quarterly)
-
-## Common Pitfalls
-
-1. **Too many pipeline stages.** 15 stages. Deals get lost. SDRs game the system.
-   Fix: 5-7 stages. Each with clear entrance + exit criteria.
-2. **No enrichment on create.** Manual data entry. 40% error rate. Fix: Auto-enrich
-   every new contact. LeadMagic, Clearbit, or Apollo via workflow.
-3. **Stale data.** Contacts from 2019. 30% bounce rate. Fix: Quarterly data hygiene.
-   Enrich + verify email validity.
-
+Full matrix: `references/crm-selection.md`
 
 ## Output Format
 
-The agent should produce a structured deliverable:
+Deliver based on request:
 
-```markdown
-# [Deliverable Title]
-
-## Summary
-[1-2 sentence summary of what was produced]
-
-## Key Outputs
-- [Output item 1]
-- [Output item 2]
-- [Output item 3]
-```
+- **CRM selection memo:** Scorecard + recommendation + 12-month path
+- **Object model doc:** Contacts vs leads decision with field map
+- **Blueprint package:** Stages, properties, workflows for chosen platform
+- **Migration plan:** Source → target mapping, hygiene gates, parallel run
+- **Partner RFP:** Scope from `references/implementation-partners.md` checklist
 
 ## Quality Check
 
-Before delivering, verify:
-- [ ] All required sections complete
-- [ ] Output matches the user's stated need
-- [ ] No vague or unsupported claims
-- [ ] Frameworks cited where applicable
+- [ ] Platform choice tied to ARR, motion, and admin capacity
+- [ ] Contacts vs leads documented — no hybrid confusion
+- [ ] 5–7 stages with exit criteria
+- [ ] Enrichment one-direction into CRM
+- [ ] Partner engagement only if process documented
+- [ ] Setup skill named for rollout (`hubspot-setup`, etc.)
+
+## Common Pitfalls
+
+1. **Salesforce Leads in HubSpot.** HubSpot uses lifecycle — don't create parallel objects.
+2. **CRM before process.** Stages undefined → reps invent their own. Fix `pipeline-management` first.
+3. **Two-way Clay sync.** Conflicts and overwritten fields. One-way push only.
+4. **Salesforce at $500K ARR.** Admin tax without RevOps owner. Use Attio/HubSpot until $5M+.
+5. **Agency without playbook.** Partners configure chaos faster. Document first.
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
-- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
-- `templates/output-template.md` — copy-paste deliverable structure for the user
-- `scripts/check-output.py` — local checklist validator for required sections
-
-Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+| File | Use |
+|---|---|
+| `references/crm-selection.md` | HubSpot vs Salesforce vs Attio |
+| `references/contacts-vs-leads.md` | Lead/Contact architecture |
+| `references/hubspot-blueprint.md` | HubSpot fields + workflows |
+| `references/salesforce-blueprint.md` | SF objects + Lead convert |
+| `references/attio-blueprint.md` | Attio lists + status model |
+| `references/implementation-partners.md` | SIs, RevOps agencies, RFP |
+| `references/platform-setup-index.md` | Skill routing table |
+| `references/benioff-enterprise-playbook.md` | V2MOM, trust, land-expand, CS in CRM |
+| `templates/land-expand-account-plan.md` | Account expansion whitespace |
+| `references/framework-notes.md` | Framework anchors |
+| `templates/output-template.md` | Deliverable structure |
+| `scripts/check-output.py` | Section validator |
 
 ## Related Skills
 
-- `hubspot-setup` — HubSpot configuration
-- `salesforce-setup` — Salesforce configuration
-- `attio-setup` — Attio configuration
-- `leadmagic-toolkit` — Enrichment integration
-- `clay-toolkit` — Clay CRM push
+- `crm-integration` — lifecycle, field ownership, sync rules
+- `hubspot-setup` / `salesforce-setup` / `attio-setup` — rollout
+- `pipeline-management` — stage design
+- `hiring-agencies` — agency pilot for RevOps/CRM
+- `saas-outcomes` — bootstrap vs venture; CRM tier by path
+- `revops-tech-stack` — full GTM stack context

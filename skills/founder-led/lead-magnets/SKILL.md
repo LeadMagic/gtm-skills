@@ -232,6 +232,12 @@ Before delivering, verify:
    consultant gives you the output). If people use the manual version, build
    the tool.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - `content-marketing` — Content strategy, SEO, pillar pages for distribution

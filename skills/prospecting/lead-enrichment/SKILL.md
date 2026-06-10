@@ -383,6 +383,12 @@ Before delivering, verify:
 
 8. **Not tracking cost per provider.** Without per-provider cost tracking, you can't optimize the waterfall over time. A provider that costs 3x more but enriches only 2% more records should be removed or moved to a later layer. Cost optimization is continuous.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - **lead-finding**: Run before this skill. Provides the raw lead list to enrich.

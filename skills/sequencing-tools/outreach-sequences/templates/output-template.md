@@ -2,36 +2,38 @@
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- ICP tier: enterprise
+- CRM:
+- Clay / n8n integration? Y/N
 
 ## Framework Basis
-- Frameworks used:
-- Why these apply:
+- Outreach trigger architecture
+- Pat Spielmann — verify-before-enroll
+- Eric Nowoslawski — Clay → CRM → Outreach at agency scale
 
-## Recommendation
-1.
-2.
-3.
+## CRM Field Map
+| CRM Field | Source | Outreach Trigger |
+|---|---|---|
+| lm_email_status | LeadMagic | = valid |
+| signal_tag | Clay loop | Sequence selection |
+| personalization_snippet | Claygent | Step 1 merge |
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+## Enrollment Gate
+- [ ] No list-import auto-enroll without verify
+- [ ] Clay → CRM → Outreach preferred path
+- Spec: `references/enrichment-enrollment-gate.md`
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+## Trigger Architecture
+| Trigger | Condition | Sequence |
+|---|---|---|
+|  |  |  |
 
-## Risks / Pitfalls
--
+## Sequence Steps
+| Step | Type | Day |
+|---:|---|---:|
+| 1 | Email | 0 |
 
 ## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+- [ ] Verify gate in all enrollment paths
+- [ ] clay-toolkit table blueprint if Clay source
+- [ ] n8n OUT-01 if real-time loop

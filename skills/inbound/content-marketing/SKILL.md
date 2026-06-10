@@ -15,8 +15,14 @@ metadata:
   author: LeadMagic
   category: inbound
   tags: [content, seo, marketing, blogging, strategy]
-  related_skills: [landing-pages, social-selling, lead-magnets]
-  frameworks: [Schwartz Awareness Levels, Pulizzi Content Tilt, Miller StoryBrand]
+  related_skills: [landing-pages, social-selling, lead-magnets, seo-strategy, pillar-pages, content-syndication, paid-social-strategy, attribution]
+  frameworks:
+    - "Dharmesh Shah (HubSpot) — Inbound Methodology & Flywheel"
+    - "Chris Walker — Demand Creation & Dark Social"
+    - "Eli Schwartz — Product-Led SEO"
+    - "Eugene Schwartz — Awareness Levels"
+    - "Joe Pulizzi — Content Tilt"
+    - "Donald Miller — StoryBrand"
 ---
 
 # Content Marketing
@@ -54,6 +60,20 @@ differentiation.
 
 Donald Miller's StoryBrand framework structures content around the
 customer as hero and your product as guide.
+
+**Dharmesh Shah (HubSpot)** — Inbound flywheel: Attract → Engage → Delight.
+Content earns permission; delighted customers accelerate the flywheel via
+advocacy and NRR. Contrast with outbound-first and with Walker-style ungated
+demand creation. Canonical → `references/dharmesh-shah-hubspot-inbound.md`.
+Pattern 27 in `using-gtm-skills`.
+
+**Chris Walker (Refine Labs)** — Demand creation over lead capture. Most B2B
+influence happens in dark social (Slack, DMs, podcasts) — optimize for frequency
+and education, not form-fill volume. See `references/chris-walker-mental-models.md`.
+Pattern 26. Pair with Pattern 27 — Walker builds awareness; inbound captures fit.
+
+**Eli Schwartz — Product-Led SEO** — Map content to product jobs-to-be-done.
+SEO strategy detail → `seo-strategy` + `references/seo-strategy-playbook.md`.
 
 ## Step-by-Step Process
 
@@ -136,6 +156,20 @@ Content strategy document with:
 5. **Writing for everyone.** Content that targets "business leaders"
    targets no one. Write for your specific ICP — their title, their
    problems, their reading habits.
+
+## Crisis pause rules
+
+During Sev 2+ incidents (Pattern 33): pause scheduled campaigns, paid social, and thought-leadership posts that look tone-deaf. Demand-creation content resumes after comms lead clears — coordinate with `gtm-leadership` and `references/crisis-management-playbook.md`. Chris Walker dark social still runs; **do not** argue with critics in comment threads.
+
+## Execution Artifacts
+
+- `references/crisis-management-playbook.md` — when to pause content (Pattern 33)
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `references/dharmesh-shah-hubspot-inbound.md` — Repo root: flywheel, attract-engage-delight
+- `references/chris-walker-mental-models.md` — Repo root: demand creation, dark social, frequency
+- `references/seo-strategy-playbook.md` — Repo root: Product-Led SEO, content clusters
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 

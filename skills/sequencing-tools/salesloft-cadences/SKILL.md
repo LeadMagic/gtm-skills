@@ -98,9 +98,14 @@ Before delivering, verify:
 
 This skill includes lightweight artifacts the agent can load on demand:
 
-- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
-- `templates/output-template.md` — copy-paste deliverable structure for the user
-- `scripts/check-output.py` — local checklist validator for required sections
+- `references/framework-notes.md` — Rhythm cadences, CRM verify gate, enterprise governance
+- `references/enrichment-enrollment-gate.md` — CRM lm_email_status before cadence enroll
+- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify-before-enroll (Pat Spielmann)
+- `../../tools/clay-toolkit/references/gtm-table-blueprints.md` — clay-toolkit CRM field patterns
+- `../../tools/clay-loops-toolkit/SKILL.md` — clay-loops-toolkit signal cadences
+- `../../../../references/gtm-experts-outbound-index.md` — expert router
+- `templates/output-template.md` — CRM fields + cadence + enrollment gate deliverable
+- `scripts/check-output.py` — local checklist validator
 
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 

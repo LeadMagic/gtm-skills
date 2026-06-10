@@ -9,16 +9,19 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "2.0.0"
+  version: "2.4.0"
   author: LeadMagic
   category: growth
   tags: [customer-marketing, advocacy, case-studies, references, testimonials, reviews, community]
-  related_skills: [cs-playbooks, case-study-builder, social-media-strategy, content-marketing, referral-programs]
+  related_skills: [review-platforms, cs-playbooks, case-study-builder, social-media-strategy, content-marketing, referral-programs, gtm-spend-management]
   frameworks:
     - "Bain & Company — NPS (Net Promoter System, Fred Reichheld)"
     - "Gainsight — Customer Advocacy Maturity Model"
     - "Influitive — Advocate Marketing"
     - "SaaSquatch — Customer-Led Growth"
+    - "Varun Anand (Clay) — Community Selling & Ecosystem GTM"
+    - "Aneesh Lal (Wishly Group) — B2B Creator Partnerships & Advocacy"
+    - "Dharmesh Shah (HubSpot) — Flywheel Delight & Customer Advocacy"
 ---
 
 # Customer Marketing
@@ -39,12 +42,17 @@ This skill is grounded in public frameworks and source material relevant to the 
 - **Gainsight — Customer Advocacy Maturity Model.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **Influitive — Advocate Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **SaaSquatch — Customer-Led Growth.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Varun Anand (Clay) — Community Selling.** Infiltrate existing Slack/WhatsApp/MSP groups before building your own; value-first problem responses; reverse demo → mandatory Slack join; education layer (University, Clubs) before scaled sales. Load `references/community-selling-varun.md`. Pairs with `demo-scripts` → `reverse-demo-varun.md`.
+- **Aneesh Lal (Wishly Group) — B2B Creator Partnerships.** External LinkedIn creators for awareness → education → conversion; ICP-aligned selection (not vanity followers); multi-channel bundles (newsletter, podcast, co-authored assets). Distinct from **employee advocacy** (advocacy ladder below) and **customer champions** (levels 4–8). Load `references/aneesh-wishly-b2b-influencer.md` + `references/b2b-influencer-strategy.md`. Pair with Chris Walker dark social for attribution reality (`references/chris-walker-mental-models.md`).
+- **Dharmesh Shah (HubSpot) — Flywheel Delight.** Customer marketing is the **Delight** leg of the inbound flywheel — reviews, references, and champions reduce friction for Attract (SEO, social proof) and Engage (faster trust). Load `references/dharmesh-shah-hubspot-inbound.md`. Pattern 27 step 5.
 
 ## When to Use
 
 Trigger phrases: "customer marketing", "case study program", "customer
 references", "customer advocacy", "G2 reviews", "build a reference program",
-"customer community", "logo usage program"
+"customer community", "logo usage program", "B2B influencer program",
+"creator partnerships", "employee advocacy", "LinkedIn creator GTM", "crisis comms", "negative reviews
+viral", "reputation management", "bad press"
 
 ## Step-by-Step Process
 
@@ -66,28 +74,58 @@ references", "customer advocacy", "G2 reviews", "build a reference program",
 **Pipeline:** Identify 3-5 candidates → interview → draft → approve → publish.
 Target: 1 new case study/month.
 
-**Interview questions:** What was life before? Why did you choose us? What
-results have you seen? What surprised you? What would you tell someone
-considering us?
+**Interview questions:** `templates/case-study-interview-questions.md`  
+Publish via `case-study-builder`.
 
 ### Phase 3: Review Generation
 
-**G2/Capterra program:** Identify NPS Promoters (9-10) → ask for review →
-$25-50 gift card → respond to every review (positive and negative).
+Full platform playbooks → **`review-platforms`** (G2, TrustRadius, ask emails,
+response SLA). This skill identifies **who** to ask from NPS promoters.
 
-**Target:** 20+ reviews on G2 (minimum for credibility). 50+ = strong presence.
-Respond to negative reviews within 24 hours.
+**Target:** 2–4 new reviews/month (recency beats annual bursts). Respond to
+negatives <48h. Check platform ToS before cash/gift incentives.
 
 ### Phase 4: Reference Program
 
-**Formalize:** CRM field: "Referenceable? Y/N." Track: how many calls per
-reference (cap at 2-3/quarter). Reward: gift cards, priority support, early
-access to features.
+**Formalize:** `templates/reference-program-spec.md` — CRM fields, caps,
+rotation, rewards. Advocacy spend → `gtm-spend-management`.
 
 ### Phase 5: Customer Community
 
 **Formats:** Slack community, LinkedIn group, annual user conference, regional
 meetups, virtual roundtables. Start small. One format. Grow from there.
+
+### Phase 6: Crisis & Reputation (External Comms)
+
+When incidents threaten advocacy and pipeline trust — load **`references/crisis-management-playbook.md`** (Pattern 33). Executive war room → `gtm-leadership`.
+
+| Crisis signal | Marketing action |
+|---|---|
+| Outage / breach | Pause scheduled campaigns; unify with status page + holding statement |
+| Viral negative G2/TR | Respond <24h; no cash incentives for positive reviews during incident |
+| Bad press | CEO/comms lead only; counsel for Sev 3+ |
+| Churn wave / NRR story | Stop reference asks; honest customer email if product-related |
+
+**Chris Walker — dark social:** Buyers discuss vendor failures in Slack/DMs — monitor via CS/sales, not just public mentions. → `references/chris-walker-mental-models.md`
+
+**Templates:** `references/templates/crisis-holding-statement.md`, `crisis-faq-for-support.md`  
+**Experts:** `references/saas-pr-crisis-experts.md` (Highwire, Offleash for retained PR)
+
+### Phase 7: B2B Creator & Influencer Partnerships
+
+**External creators** (paid) vs **employee advocates** (enabled) vs **customer
+champions** (advocacy ladder) — three different programs; do not conflate.
+
+| Program | Owner | Canonical reference |
+|---|---|---|
+| Paid LinkedIn creators | Marketing | `references/b2b-influencer-strategy.md` |
+| Employee advocacy | Marketing + HR | Advocacy ladder + `social-selling` SSI |
+| Customer champions | CS + Marketing | Levels 4–8 above |
+
+**Wishly-aligned minimum:** 90-day bundle (posts + newsletter + co-authored asset);
+ICP overlap check before sign; bi-weekly reviews; measurement →
+`references/b2b-influencer-measurement.md`. Brief template →
+`references/templates/b2b-influencer-program-brief.md`.
 
 ## Implementation Checklist
 
@@ -112,19 +150,16 @@ meetups, virtual roundtables. Start small. One format. Grow from there.
 
 ## Output Format
 
-The agent should produce a structured deliverable:
-
-```markdown
-# [Deliverable Title]
-
-## Summary
-[1-2 sentence summary of what was produced]
-
-## Key Outputs
-- [Output item 1]
-- [Output item 2]
-- [Output item 3]
-```
+Customer marketing program plan containing: (1) advocacy ladder — all eight
+levels from logo usage to advisory board, with required NPS threshold, health
+criteria, and reward for each level; (2) case study pipeline — active candidates
+list, interview question set, and monthly production target; (3) review generation
+playbook — G2/Capterra NPS Promoter identification sequence, incentive structure,
+and 24-hour response SLA for negative reviews; (4) reference program spec — CRM
+field configuration, quarterly call cap per reference, and rotation schedule;
+(5) community format recommendation (Slack, LinkedIn group, or virtual roundtable)
+with launch scope and moderation plan; (6) implementation checklist with measurable
+milestones for each program component.
 
 ## Quality Check
 
@@ -134,9 +169,30 @@ Before delivering, verify:
 - [ ] No vague or unsupported claims
 - [ ] Frameworks cited where applicable
 
+## Execution Artifacts
+
+- `references/crisis-management-playbook.md` — external comms during incidents (Pattern 33)
+- `references/saas-pr-crisis-experts.md` — B2B SaaS PR voices
+- `references/templates/crisis-holding-statement.md` · `crisis-customer-email.md` · `crisis-faq-for-support.md`
+- `references/community-selling-varun.md` — Clay ecosystem GTM, Slack-first, community infiltration
+- `references/aneesh-wishly-b2b-influencer.md` — Wishly Group / Aneesh Lal canonical playbook
+- `references/b2b-influencer-strategy.md` — Master B2B influencer guide (program types, ICP selection)
+- `references/b2b-influencer-measurement.md` — ROI, dark social, UTM limits
+- `references/templates/b2b-influencer-program-brief.md` — Campaign brief
+- `references/templates/influencer-partnership-scorecard.md` — Creator evaluation
+- `references/advocacy-program.md` — Ladder, CRM fields, review triggers
+- `references/framework-notes.md` — Expert anchors + skill routing
+- `templates/case-study-interview-questions.md`
+- `templates/reference-program-spec.md`
+- `templates/output-template.md`
+- `scripts/check-output.py`
+
 ## Related Skills
 
+- `review-platforms` — G2/TR generation and responses
 - `case-study-builder` — Case study creation
 - `cs-playbooks` — Customer success foundation
 - `content-marketing` — Distribution of customer content
 - `referral-programs` — Customer referral engine
+- `gtm-leadership` — executive crisis war room (canonical)
+- `investor-updates` — stakeholder comms if reputational Sev 3+

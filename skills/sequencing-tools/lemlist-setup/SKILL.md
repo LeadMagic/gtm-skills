@@ -13,6 +13,7 @@ metadata:
   tags: [lemlist, cold-email, personalization, lemwarm, multi-channel]
   frameworks:
     - "Lemlist Personalization Framework"
+    - "Guillaume Moubeche — lemlist Outbound"
     - "ColdIQ Multi-Channel"
     - "Outreach — Sales Engagement Cadence Design"
 ---
@@ -30,6 +31,7 @@ that want higher per-email engagement at lower volume.
 This skill is grounded in public frameworks and source material relevant to the task:
 
 - **Lemlist Personalization Framework.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Guillaume Moubeche — lemlist Outbound.** Problem-first email structure, 4–9 touch multichannel sequences, CTC, lemwarm deliverability, trigger→problem mapping. Canonical playbook → `../outbound/cold-email-strategy/references/lemlist-guillaume-outbound.md`.
 - **ColdIQ Multi-Channel.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **Outreach — Sales Engagement Cadence Design.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
@@ -100,9 +102,14 @@ Before delivering, verify:
 
 This skill includes lightweight artifacts the agent can load on demand:
 
-- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
-- `templates/output-template.md` — copy-paste deliverable structure for the user
-- `scripts/check-output.py` — local checklist validator for required sections
+- `references/framework-notes.md` — Guillaume multichannel, Pat Full-Circle, lemwarm gates
+- `references/clay-enrollment-handoff.md` — Clay → Lemlist variables + problem_hook mapping
+- `../../outbound/cold-email-strategy/references/lemlist-guillaume-outbound.md` — Guillaume Moubeche canonical playbook
+- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify + multichannel (Pat Spielmann)
+- `../../tools/clay-loops-toolkit/references/routing-matrix.md` — signal → campaign map
+- `../../../../references/gtm-experts-outbound-index.md` — expert router
+- `templates/output-template.md` — lemwarm + multichannel + Clay gate deliverable
+- `scripts/check-output.py` — local checklist validator
 
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 

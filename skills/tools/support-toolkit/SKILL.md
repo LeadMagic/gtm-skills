@@ -9,11 +9,11 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   author: LeadMagic
   category: tools
   tags: [support, intercom, zendesk, front, help-scout, customer-service, chatbots]
-  related_skills: [support-tool-stack, headless-support, sla-management, cs-analytics-dashboards, cs-playbooks]
+  related_skills: [support-tool-stack, headless-support, sla-management, cs-analytics-dashboards, cs-playbooks, gtm-spend-management]
   frameworks:
     - "Intercom — Conversational support, Fin AI, Product Tours"
     - "Zendesk — Omnichannel CX, AI Agents, Explore analytics"
@@ -44,6 +44,8 @@ This skill is grounded in public frameworks and source material relevant to the 
 
 Trigger phrases: "support platform setup", "Intercom configuration",
 "Zendesk deep setup", "support tool comparison", "AI support agent setup"
+
+Platform selection: `references/platform-comparison.md` · SLAs: `templates/sla-matrix.md`
 
 ## Platform Deep Configuration
 
@@ -91,19 +93,13 @@ Setup checklist:
 
 ## Output Format
 
-The agent should produce a structured deliverable:
+The agent delivers a support platform configuration guide matched to the user's tool and team stage:
 
-```markdown
-# [Deliverable Title]
-
-## Summary
-[1-2 sentence summary of what was produced]
-
-## Key Outputs
-- [Output item 1]
-- [Output item 2]
-- [Output item 3]
-```
+- **Platform Recommendation** (when selection is requested): scoring across stage fit, team size, and support philosophy — with a 1-line rationale for Intercom vs. Zendesk vs. Front vs. Help Scout
+- **Platform Setup Checklist:** prioritized configuration steps for the chosen tool — AI agent training (article count target + 50-question QA protocol), macros for top ticket types, SLA policy definitions, view configuration, and reporting setup
+- **Knowledge Base Plan:** article count target (minimum 30 before launching chat), topic coverage map by product area, and Fin/AI training QA pass rate threshold (95%+ on test set)
+- **SLA Matrix:** Priority tiers (P1–P4) with First Response Time target, resolution target, escalation trigger, and measurement method
+- **CSAT & Reporting Dashboard:** metric targets (CSAT ≥ 4.2, resolution time by tier), review cadence, and auto-escalation rule for scores below threshold
 
 ## Quality Check
 
@@ -117,6 +113,8 @@ Before delivering, verify:
 
 This skill includes lightweight artifacts the agent can load on demand:
 
+- `references/platform-comparison.md` — Intercom vs Zendesk vs Front vs Help Scout
+- `templates/sla-matrix.md` — P1–P4 FRT and resolution targets
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections

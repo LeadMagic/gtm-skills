@@ -10,7 +10,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   author: LeadMagic
   category: customer-success
   tags: [customer-success, cs, retention, onboarding, health-scoring, expansion]
@@ -32,15 +32,18 @@ lifecycle stage.
 - "Create a health score model"
 - "Set up expansion plays"
 - "Build QBR templates"
+- "Customer comms during outage / incident"
+- "CS crisis FAQ for support"
+- "Retention crisis — churn wave response"
 
 ## Authoritative Foundations
 - **Lincoln Murphy** — Desired Outcome framework. Every customer has a Required
   Outcome and an Appropriate Experience. Success is their outcome, not your
   feature usage. The Success Gap: customers using the product correctly but
   still failing.
-- **Gainsight CS Index** — 400+ companies benchmarked. High-performing CS teams
-  use AI for churn prediction, sentiment analysis, and workflow automation.
-  Digital-first delivery models scale CS without burning out CSMs.
+- **Nick Mehta / Gainsight** — CS ops at scale: health scores, lifecycle stages,
+  digital-first delivery. Operational layer on Murphy's strategy.
+  → `references/lincoln-murphy-customer-success.md`
 - **Winning by Design SPICED** — Post-sale lifecycle: onboarding → adoption →
   value realization → expansion → renewal.
 
@@ -66,6 +69,24 @@ questions, willingness to be a reference.
 - Expansion play: triggered by CSQLs, framed as "logical next step" not upsell
 - Risk play: early warning signals, intervention cadence, executive alignment
 - Renewal play: value review, ROI documentation, future roadmap alignment
+
+### Phase 5: Incident & Crisis Customer Comms
+
+**Canonical:** `references/crisis-management-playbook.md` · Pattern 33 · Executive home: `gtm-leadership`
+
+| Role | CS responsibility |
+|---|---|
+| CS captain | Own customer email to affected segment; ticket macros |
+| CSMs | Proactive outreach to red health accounts during outage |
+| Support | Single FAQ source — `references/templates/crisis-faq-for-support.md` |
+
+**Sequence:** Internal memo → holding statement / status page → affected customer email → FAQ for sales/support.
+
+**ACKNOWLEDGE → OWN → ACT → FOLLOW UP** in all customer-facing copy. Legal review Sev 3+ before admitting data impact.
+
+**Post-incident:** Retention play for accounts that churn-threatened; link `churn-prevention` and Retention stage in `references/gtm-lifecycle-stages.md`.
+
+**Cross-links:** `customer-onboarding` (trust rebuild) · `references/gtm-data-exchange-playbook.md` (breach path)
 
 ## Output Format
 CS playbook with journey map, health score model, CSQL definitions, and
@@ -96,8 +117,13 @@ Before delivering, verify:
 This skill includes lightweight artifacts the agent can load on demand:
 
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `references/lincoln-murphy-customer-success.md` — Desired Outcome, Success Gap, Gainsight ops (repo root)
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
+
+**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Engagement, Retention) · `references/lifecycle-metrics-by-stage.md` · `references/templates/stage-health-scorecard.md`
+
+**Crisis comms:** `references/crisis-management-playbook.md` · `references/templates/crisis-customer-email.md` · `crisis-faq-for-support.md`
 
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
@@ -139,6 +165,9 @@ A strong output from this skill includes:
 
 
 ## Related Skills
+- **gtm-leadership**: Executive war room and crisis severity (canonical)
+- **customer-marketing**: Public reputation, G2/TR during incidents
+- **customer-onboarding**: Post-incident trust and activation recovery
 - **churn-prevention**: Early warning detection and re-engagement
 - **expansion-selling**: Upsell and cross-sell motions
 - **qbr-planning**: Quarterly business review structure

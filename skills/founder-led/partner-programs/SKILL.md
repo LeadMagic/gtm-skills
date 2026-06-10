@@ -244,6 +244,12 @@ Before delivering, verify:
    with one set of rules fits nobody. Fix: Separate programs (or sub-programs)
    per partner type.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - `referral-programs` — Customer/affiliate referral programs

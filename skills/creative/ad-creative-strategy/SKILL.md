@@ -154,6 +154,12 @@ workflow, and creative asset tracker.
 5. **Testing too many variables at once.** Changed headline AND visual AND CTA.
    No idea which change caused the lift. One variable per test.
 
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
 - **paid-advertising**: Platform-specific ad setup

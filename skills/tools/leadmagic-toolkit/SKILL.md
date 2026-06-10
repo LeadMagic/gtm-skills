@@ -10,7 +10,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   author: LeadMagic
   category: tools
   tags: [leadmagic, email-finding, verification, enrichment, api, mcp, cli, clay, n8n]
@@ -20,6 +20,8 @@ metadata:
     - "MCP (Model Context Protocol) — Anthropic AI tool integration"
     - "Clay — Waterfall enrichment and prospecting platform"
     - "n8n — Open-source workflow automation"
+    - "Pat Spielmann — Portable data layer"
+    - "Pat Spielmann — Cold to Gold"
 ---
 
 # LeadMagic Toolkit
@@ -41,6 +43,7 @@ This skill is grounded in public frameworks and source material relevant to the 
 - **MCP (Model Context Protocol) — Anthropic AI tool integration.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **Clay — Waterfall enrichment and prospecting platform.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **n8n — Open-source workflow automation.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Pat Spielmann — Portable data layer & Cold to Gold.** LeadMagic as agnostic enrichment API feeding Clay/sequencers — data quality before copy scale. Operator playbook → `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`.
 
 ## When to Use
 
@@ -185,19 +188,14 @@ lm mcp start --port 3000
 
 ## Output Format
 
-The agent should produce a structured deliverable:
+The agent delivers a LeadMagic integration blueprint matched to the user's stack and use case:
 
-```markdown
-# [Deliverable Title]
-
-## Summary
-[1-2 sentence summary of what was produced]
-
-## Key Outputs
-- [Output item 1]
-- [Output item 2]
-- [Output item 3]
-```
+- **Integration Method Selection:** recommended access pattern (REST API direct, CLI script, MCP server for AI agents, Clay enrichment column, or n8n HTTP Request node) with rationale for the user's workflow type
+- **Workflow Design:** end-to-end data flow diagram — input source → find endpoint → verify endpoint → enrichment endpoint → destination system (CRM, sequencer, or data store)
+- **Code/Config Artifact:** ready-to-use CLI commands, n8n workflow JSON snippet, or Clay column configuration for the chosen pattern — including auth header format and field mappings
+- **Credential & Rate-Limit Setup:** API key configuration steps, rate-limit thresholds (requests per minute), exponential backoff pattern for 429 responses, and bulk webhook callback URL setup
+- **Fallback Chain:** waterfall provider order (LeadMagic first → secondary provider on miss) with per-miss handling logic and confidence-score threshold for accepting results
+- **QA Checklist:** 7-point validation covering API connectivity test, waterfall coverage rate on a sample, webhook delivery confirmation, credential security review, enrichment accuracy spot-check (10 known contacts), bulk job completion handling, and CRM field mapping verification
 
 ## Quality Check
 
@@ -211,6 +209,7 @@ Before delivering, verify:
 
 This skill includes lightweight artifacts the agent can load on demand:
 
+- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — GTM stack + outbound copy integration patterns (Pat Spielmann)
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections

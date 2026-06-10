@@ -15,7 +15,7 @@ metadata:
   author: LeadMagic
   category: analytics
   tags: [tracking, pixels, analytics, attribution, privacy, first-party]
-  related_skills: [attribution, paid-advertising, gtm-metrics, proactive-alerts]
+  related_skills: [attribution, paid-advertising, gtm-metrics, proactive-alerts, website-visitor-identification, campaign-governance]
   frameworks: [Privacy-First Measurement, Server-Side Tagging Architecture, 1P Data Strategy]
 ---
 
@@ -172,7 +172,11 @@ Don't make rejecting harder than accepting. Don't use dark patterns.
 Connect anonymous visitors to known contacts:
 
 - **Reverse-IP lookup:** Identify companies visiting your site (even without
-  form fills). Tools: Clearbit Reveal, 6sense, Demandbase.
+  form fills). Tools: Clearbit Reveal / HubSpot Breeze, 6sense, Demandbase,
+  Leadfeeder, Albacross. **Person-level** deanonymization (RB2B, Warmly) is
+  higher privacy risk — load `website-visitor-identification` before deploying.
+  Canonical playbook:
+  `website-visitor-identification/references/visitor-identification-playbook.md`.
 - **First-party cookie matching:** Match returning visitors to previous
   sessions. Survives 3P cookie restrictions.
 - **Email-based identity:** The strongest identifier. Every form fill, login,
@@ -229,7 +233,9 @@ Use the artifacts when the user asks for an implementation-ready deliverable, a 
 
 ## Related Skills
 
+- **website-visitor-identification**: Company vs person ID, vendors, privacy checklist
 - **attribution**: Multi-touch attribution models
 - **paid-advertising**: Campaign tracking setup
 - **proactive-alerts**: Trigger alerts on tracked events
 - **marketing-strategy**: Overall measurement framework
+- **campaign-governance**: UTM + visitor source attribution

@@ -7,12 +7,14 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   author: LeadMagic
   category: founder-led
   tags: [founder, sales, demo, negotiation, closing, early-stage, b2b]
   related_skills: [sales-enablement, demo-scripts, pricing-strategy, sales-team-building, meeting-prep]
   frameworks:
+    - "Jason Lemkin & Mark Roberge — From Survival to Thrival (Survival phase)"
+    - "Mark Roberge — The Sales Acceleration Formula (founder-to-machine transition)"
     - "Pete Kazanjy — Founding Sales (founder-led sales stages)"
     - "Winning by Design — SPICED discovery methodology"
     - "SPIN Selling — Neil Rackham (35K-call Huthwaite study)"
@@ -20,6 +22,7 @@ metadata:
     - "Chris Voss — Tactical Empathy (negotiation)"
     - "SaaStr/Jason Lemkin — Founder sales benchmarks"
     - "David Skok — Sales learning curve"
+    - "Leslie Venetz (Sales-Led GTM) — Founder buyer-first outbound / TAM→ICP narrowing"
 ---
 
 # Founder-Led Sales
@@ -41,6 +44,19 @@ and can't sell", "transition from founder selling to AE", "first sales hire"
 
 ## Authoritative Foundations
 
+### Jason Lemkin & Mark Roberge — From Survival to Thrival (Survival Phase)
+*Survival to Thrival* defines Survival as $0–$2M ARR where the founder is the
+sales team. Lemkin's rule: close 10–20 deals yourself before any sales hire.
+Roberge's rule: document every step of those deals — the playbook you write here
+becomes the training material for your first AE. This skill covers the Survival
+phase. Load `sales-team-building` and `pipeline-management` when you enter Thrival.
+
+### Mark Roberge — The Sales Acceleration Formula
+Roberge scaled HubSpot's sales org by treating sales as a science: measure
+conversion at every stage, hire for coachability over experience, and never
+delegate selling until the process is repeatable. The founder-to-AE transition
+in Phase 5 of this skill follows his documented-playbook requirement.
+
 ### Pete Kazanjy — Founding Sales Stages
 Kazanjy's framework defines three stages of founder-led sales:
 1. **Proto-Sales ($0-500K):** Discovery. You're learning what problems people pay for. Conversations > contracts. Every "no" teaches you something.
@@ -60,6 +76,14 @@ The 35,000-call study proved top performers use questions differently:
 - **Impact:** What does the pain cost in dollars, time, or missed opportunity?
 - **Critical Event:** What makes this urgent NOW? (No CE = no deal timeline)
 - **Decision:** Who decides, what's their process, what are their criteria?
+
+### Leslie Venetz — Founder Buyer-First Outbound (Sales-Led GTM)
+When the founder is doing their own outbound, stop pitching in TAM terms (your "1M
+potential prospects") and narrow to ICP, then to the small subset most likely to buy
+now, at the highest price, and renew — "you only need ~10 of ~380 to say yes." Apply
+the **"Earn the Right"** gate to every founder email (incl. VC outreach): say
+something relevant before any ask. Full playbook →
+`skills/outbound/cold-email-strategy/references/leslie-venetz-buyer-first-outbound.md`.
 
 ## Step-by-Step Process
 
@@ -231,6 +255,13 @@ Before delivering, verify:
 
 5. **Discounting without concessions.** Every discount without a trade trains
    buyers to ask for more. Fix: Always conditional. Always.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `skills/outbound/cold-email-strategy/references/leslie-venetz-buyer-first-outbound.md` — Founder buyer-first outbound, TAM→ICP narrowing, Earn-the-Right gate (Leslie Venetz)
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 

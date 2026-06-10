@@ -12,7 +12,8 @@ metadata:
   category: abm
   tags: [abm, multi-thread, stakeholder-mapping, buying-committee, enterprise]
   frameworks:
-    - "Force Management MEDDICC"
+    - "Andy Whyte — MEDDICC Champion & Economic Buyer"
+    - "Force Management MEDDICC Methodology"
     - "Gartner Challenger Sale Stakeholder Mapping"
     - "ITSMA — Account-Based Marketing"
 ---
@@ -29,7 +30,12 @@ organizational consensus. This is an enterprise sales superpower.
 
 This skill is grounded in public frameworks and source material relevant to the task:
 
-- **Force Management MEDDICC.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
+- **Andy Whyte — MEDDICC Champion & Economic Buyer.** Champion must pass the
+  four-part test (power, personal win, articulates pain, sells internally).
+  Economic Buyer must be engaged directly — not accessed only through Champion.
+  Multi-threading closes MEDDICC gaps when Champion cannot reach EB alone.
+- **Force Management MEDDICC Methodology.** Stakeholder roles map to MEDDICC
+  dimensions; aligns with SPICED Decision field — no conflicting qualification model.
 - **Gartner Challenger Sale Stakeholder Mapping.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 - **ITSMA — Account-Based Marketing.** Use the relevant method or published guidance where it improves the requested deliverable; do not cite it as decoration.
 
@@ -148,6 +154,12 @@ A strong output from this skill includes:
 - For mid-market: include workflow ownership, handoffs, integrations, and enablement assets.
 - For enterprise: include governance, risk, procurement, stakeholder mapping, and proof requirements.
 
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 - meeting-prep, objection-handling, abm-strategy, pipeline-management, demo-scripts

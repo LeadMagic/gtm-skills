@@ -53,6 +53,12 @@ strategy", "build in public", "content as GTM", "thought leadership strategy",
 - "Marketing Examples" grew to 100K+ subscribers with zero ads
 - Principle: "Prove it, don't claim it"
 
+### Dave Gerhardt (Exit Five) — B2B Brand Voice
+- B2B marketing should feel human — no jargon, real opinions
+- Community (Exit Five) as compounding distribution for marketers
+- Pair with Chris Walker demand creation — Gerhardt = **voice + community**
+- → `references/dave-gerhardt-exit-five.md`
+
 ### Amanda Natividad — Zero-Click Content
 - Give the value in-platform (social post, newsletter, podcast)
 - Don't gate everything behind links
@@ -286,6 +292,13 @@ Before delivering, verify:
 6. **Inconsistent publishing.** The algorithm rewards consistency. A newsletter
    that goes out "when I have time" never grows. Fix: Same day, same time,
    every week. Pre-write 4 issues before launching.
+
+## Execution Artifacts
+
+- `references/framework-notes.md` — Named frameworks and reference tables
+- `references/dave-gerhardt-exit-five.md` — Exit Five B2B brand voice (repo root)
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
 

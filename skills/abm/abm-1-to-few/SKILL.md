@@ -61,7 +61,7 @@ Per cluster, build:
 - **Cluster email sequence:** 5-touch sequence with industry-specific openers + proof
 - **LinkedIn content calendar:** 4-week cadence tailored to cluster themes
 - **Cluster webinar:** Industry panel or use case deep-dive
-- **Direct mail:** Physical asset (book, report, tool) relevant to the cluster
+- **Direct mail / gifts:** Physical asset (book, report) — coordinate via `strategic-gifting` (Sendoso/Postal); no logo swag
 
 ### Phase 4: Coordinated Execution
 - **Week 1:** LinkedIn connection + content engagement

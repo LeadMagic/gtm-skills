@@ -5,12 +5,12 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.4.0"
   author: LeadMagic
   category: analytics
   tags: [saas-metrics, cac, ltv, nrr, magic-number, rule-of-40, pipeline, gtm-index, benchmarks]
-  related_skills: [campaign-analytics, attribution, saas-metrics-calculator, pipeline-management]
-  frameworks: [Winning by Design GTM Index, David Skok SaaS Metrics, ChartMogul Benchmarks, OpenView Benchmarks]
+  related_skills: [campaign-analytics, attribution, saas-metrics-calculator, pipeline-management, saas-outcomes, financial-modeling]
+  frameworks: [Winning by Design GTM Index, David Skok SaaS Metrics, Meritech Capital Public SaaS Benchmarks, Force Management Pod Economics, ChartMogul Benchmarks, OpenView Benchmarks, Henry Schuck (ZoomInfo) Public-Company GTM Metrics, John McMahon (CRO Board Reporting — 5-quarter model, productivity per rep), Frank Slootman (Snowflake Consumption Metrics), Dharmesh Shah (HubSpot) Flywheel NRR, Aneesh Lal (Wishly Group) B2B Influencer Attribution, Chris Walker (Refine Labs) Dark Social]
 ---
 # GTM Metrics
 
@@ -52,6 +52,20 @@ This skill draws from the following established methodologies:
 - **ChartMogul / Baremetrics / OpenView — SaaS Benchmarks** — Industry-standard benchmarks segmented by ARR range, ACV, and go-to-market motion (product-led vs sales-led). These benchmarks are sourced from ChartMogul's open benchmark dataset (2,000+ SaaS companies), Baremetrics open benchmarks, and OpenView's annual SaaS benchmarks report.
 
 - **SaaS Capital — Annual Survey** — The largest independent survey of private SaaS company metrics. Provides benchmarks for growth rate, churn, CAC payback, and Rule of 40 segmented by company size and growth stage.
+
+- **Meritech Capital — Public SaaS Benchmarks** — ~120 public SaaS companies; implied ARR, Meritech Rule of 40 (growth 3× weighted), public NRR medians, EV/ARR multiples. Use for IPO-track board narratives. Load `references/meritech-saas-benchmarks.md`. Threshold conflicts → `references/benchmark-reconciliation.md`.
+
+- **Dharmesh Shah (HubSpot) — Flywheel metrics** — NRR, advocacy, and referral velocity as flywheel fuel (Delight stage). Inbound pairs with measurable visitor ID; contrast Chris Walker dark social. `references/dharmesh-shah-hubspot-inbound.md`.
+
+- **Force Management — Pod Economics** — Link company-level CAC payback and Magic Number to pod-level cost % of ARR, quota attainment distribution, and rep productivity curves by tenure. Use `references/force-management-playbook.md` when headcount planning informs the metrics dashboard.
+
+- **Henry Schuck (ZoomInfo) — Public-Company GTM Metrics** — Earnings-season discipline: revenue/ARR bridge, adjusted operating margin, NRR/GRR by segment, seat vs consumption mix, S&M efficiency, and GTM operating metrics (speed-to-lead, SQL acceptance, demo yield) reported between quarters. Load `references/public-company-gtm-metrics.md` for board prep checklists and investor slide order.
+
+- **John McMahon — CRO board reporting** — 5-quarter model; **productivity per rep**; **new logos vs expansion** mix; three-view forecast (commit/likely/upside) with MEDDICC proof. RevOps equips CRO for board — headcount, productivity, churn as scaling levers. Canonical → `gtm-leadership/references/cro-enterprise-strategy.md`.
+
+- **Snowflake / Slootman — Consumption metrics** — Revenue recognized on usage, not bookings; track consumption run-rate, capacity reorder, downsell risk when bookings overshoot usage. Pair with Meritech public benchmarks for $100M+ ARR companies.
+
+- **Aneesh Lal (Wishly Group) + Chris Walker — Influencer & dark social measurement** — B2B creator campaigns: per-creator landing pages, ICP engagement scrape, CRM 30-day lookback, self-reported influence on discovery calls. UTMs alone undercount LinkedIn influence. Load `references/b2b-influencer-measurement.md` + `references/chris-walker-mental-models.md`. 90-day program evaluation minimum.
 
 ## Prerequisites
 
@@ -413,15 +427,43 @@ Before delivering, verify:
 
 7. **Reporting metrics without cohort context.** "NRR improved from 95% to 105%" sounds great — unless the improvement is because you stopped acquiring new customers and only retained the best ones. Cohort analysis reveals whether metric improvements reflect genuine business improvement or composition effects.
 
+8. **CRM bookings vs committed MRR.** Pipeline closed-won TCV ≠ board ARR. Prepay cash ≠ net new MRR. Fix: MRR bridge from billing; reconcile to CRM — `references/saas-mrr-accounting-nuances.md`, `references/benchmark-reconciliation.md`.
+
+## Lifecycle Metrics Integration
+
+Board and revenue metrics map to lifecycle stages via `references/lifecycle-metrics-by-stage.md`:
+- **Acquisition:** CAC, MQL→SQL, Magic Number
+- **Activation:** TTA, activation rate (pair with `references/activation-playbook.md`)
+- **Revenue / Retention:** NRR, GRR, CAC payback, Rule of 40
+
+Weekly/monthly ops cadence → `references/templates/lifecycle-monitoring-dashboard.md`.  
+Stage rollup R/Y/G → `references/templates/stage-health-scorecard.md`.  
+Canonical stage index → `references/gtm-lifecycle-stages.md`.
+
 ## Execution Artifacts
 
 This skill includes lightweight artifacts the agent can load on demand:
 
+- `references/b2b-influencer-measurement.md` — Influencer ROI, dark social, UTM limits (Wishly + Walker)
+- `references/chris-walker-mental-models.md` — Dark social, demand creation frequency
+- `references/public-company-gtm-metrics.md` — Henry Schuck / ZoomInfo earnings-season KPI stack
+- `references/saas-mrr-accounting-nuances.md` — MRR variants, consumption, GAAP reconcile (repo root)
+- `references/bookings-billings-revenue-matrix.md` — CRM vs finance ledger (repo root)
+- `references/templates/mrr-bridge-template.md` — bridge worksheet (repo root)
+- `../../management-leadership/gtm-leadership/references/cro-enterprise-strategy.md` — McMahon board metrics, Snowflake consumption KPIs (Pattern 31)
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
 
+**Canonical lifecycle (repo root):**
+- `references/lifecycle-metrics-by-stage.md` — Per-stage formulas + R/Y/G
+- `references/templates/lifecycle-monitoring-dashboard.md` — Weekly/monthly review
+- `references/templates/stage-health-scorecard.md` — Leadership rollup
+- `references/gtm-lifecycle-stages.md` — 7-stage index + Bowtie
+
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+
+**Cross-skill (exit/valuation):** `saas-metrics-calculator/references/metric-definitions-exit-weight.md`, `financial-modeling/references/unit-economics-exit-bridge.md`, `saas-outcomes/references/exit-metrics-matrix.md`
 
 ## Related Skills
 

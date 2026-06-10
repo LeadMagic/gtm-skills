@@ -106,13 +106,11 @@ Before delivering, verify:
 
 ## Execution Artifacts
 
-This skill includes lightweight artifacts the agent can load on demand:
-
-- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
-- `templates/output-template.md` — copy-paste deliverable structure for the user
-- `scripts/check-output.py` — local checklist validator for required sections
-
-Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+- `references/framework-notes.md` — Challenger teaching, TOPO promotion, Walker measurement, Pattern 26 routing
+- `references/chris-walker-mental-models.md` — Repo root: ungated education, 90-day program eval
+- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 26: Demand Creation
+- `templates/output-template.md` — 21-day calendar, run-of-show, post-event pipeline sequence
+- `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Implementation Depth
 

@@ -50,4 +50,3 @@ Extracted from `SKILL.md` to keep SKILL.md under the marketplace efficiency targ
 - [ ] Re-verify sending limits match current volume
 - [ ] Rotate DKIM keys if older than 12 months
 - [ ] Check sending platform deliverability metrics
-```

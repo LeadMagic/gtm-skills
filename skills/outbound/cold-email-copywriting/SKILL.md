@@ -11,7 +11,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   author: LeadMagic
   category: outbound
   tags: [cold-email, copywriting, subject-lines, personalization, frameworks]
@@ -25,6 +25,18 @@ metadata:
     - BAB
     - SPARK
     - Cialdini Influence
+    - Becc Holland — Stellar Cold Email
+    - Guillaume Moubeche — Problem-First / CTC
+    - Jordan Crawford — PVP Copy
+    - Pat Spielmann — Hook, Line, & Sinker
+    - Pat Spielmann — Cold to Gold
+    - Pat Spielmann — Research → Angle → Copy
+    - Justin Michael — REPLY Methodology
+    - Justin Michael — Sales Borg Messaging (Tech-Powered Sales)
+    - Eric Nowoslawski — Creative Ideas Campaign
+    - Eric Nowoslawski — Pay-for-Discovery Offer Design
+    - Eric Nowoslawski — AI Specificity Campaign
+    - "Leslie Venetz — Problem-Centric Copy Audit (I/we/our → you/them)"
 ---
 
 # Cold Email Copywriting
@@ -108,6 +120,19 @@ This skill draws from the following established methodologies:
   acknowledge the problem, no amount of solution detail matters. The
   fundamental question: "What problem am I helping the prospect discover?"
 
+- **Becc Holland — Stellar Cold Email.** Seven Pillars: relevance to metrics,
+  problems, triggers, unknowns; psychological safety; structure; sequence logic.
+  Five questions: get/open/read/relevance/care. Canonical structure guide →
+  `../cold-email-strategy/references/becc-holland-playbook.md`.
+
+- **Guillaume Moubeche — lemlist copy structure.** Subject (2–3 words) →
+  personalized intro → Situation/Problem → Value → Social proof → **CTC**
+  (Call to Conversation). Problem before product — always.
+
+- **Jordan Crawford — PVP copy.** Message must pass pay-to-receive test: lead
+  with data-combined insight about *their* pain; defer product. See
+  `../cold-email-strategy/references/jordan-crawford-blueprint-gtm.md`.
+
 - **Joanna Wiebe (Copyhackers)** — Conversion copy principles. "Start with
   the conversation happening in the prospect's head." The opening line must
   match the internal monologue the prospect is already having. Write from
@@ -117,6 +142,42 @@ This skill draws from the following established methodologies:
   format (2024-2026) is 3 lines: Observation → Relevance → CTA. Under 80 words
   total. No paragraphs. SPARK framework for trigger-based openings: Signal →
   Problem → Answer → Result → Key takeaway.
+
+- **Justin Michael — *Tech-Powered Sales* (REPLY + Sales Borg Action)** — Copy
+  rules from Part II: **REPLY** = Relevant results · Empathy · Personalization ·
+  Laser-focus. Lead with persona opportunity, not your product. Subject lines:
+  1–3 words (action words like "growth"); body 3–5 sentences with CTA often as
+  the third line. **Relevant personalization** beats vanity demographics — tie
+  opens to pain/trigger, not "I saw your college." Make them the hero; avoid
+  you-oriented buyer copy. Canonical playbook → `cold-email-strategy` →
+  `justin-michael-sales-borg.md`.
+
+- **Pat Spielmann — Hook, Line, & Sinker (LeadMagic / Cold to Gold)** — Primary
+  copy skeleton for enrichment-powered outbound: **Hook** = micro-niched problem
+  question · **Line** = agitate + proof of pattern · **Sinker** = no-brainer offer
+  or service lead magnet · **CTA** = micro-commitment. Pair with verified
+  enrichment data for the hook — not fake AI personalization. Full playbook →
+  `references/pat-spielmann-outbound-copy.md`. Use when writing offer-heavy touch
+  1 or auditing AI-generated copy before scale.
+
+- **Eric Nowoslawski — Creative Ideas & Pay-for-Discovery Offers (Growth Engine X).**
+  Default campaign for new programs: **3 constrained ideas** per prospect (each
+  maps to a real capability) — not AI slop compliments. **AI Specificity** variant:
+  one idea in body + second in P.S. Offers must pass "would they pay for the
+  discovery call?" and answer why someone wouldn't respond. Crawl phase: write
+  5–10 emails manually before automating. Pairs with Pat (data quality) and Jordan
+  (segment depth) — Eric adds offer format + scale QA. Playbook →
+  `../cold-email-strategy/references/eric-nowoslawski-outbound.md`.
+
+- **Leslie Venetz — Problem-Centric Copy Audit (Sales-Led GTM).** A deterministic
+  buyer-first edit: count **"I / we / our"** vs **"you / yours / they / them"** and
+  push toward a **~1:3 ratio** (talk about the buyer ~3x for every 1x about
+  yourself); cut self-centered openers ("we sell / our company / I noticed"). Before
+  hitting send, apply the **"Earn the Right"** gate — has this email said something
+  relevant/valuable enough to justify the ask? A great cold email is clear, concise,
+  and centered on the buyer, not long or clever. Pairs with Pat's Hook-Line-Sinker
+  (structure) and Josh Braun (problem-first). Playbook →
+  `../cold-email-strategy/references/leslie-venetz-buyer-first-outbound.md`.
 
 ## Prerequisites
 
@@ -332,9 +393,23 @@ Before delivering, verify:
 
 Use `references/subject-line-patterns.md` when the task needs subject-line pattern selection. Default to 3-5 plain-language options tied to the prospect signal, not clever copy.
 
+## Execution Artifacts
+
+- `references/pat-spielmann-outbound-copy.md` — Hook-Line-Sinker, Cold to Gold, enrichment-led copy, anti-patterns, review checklists (Pat Spielmann — canonical)
+- `../cold-email-strategy/references/justin-michael-sales-borg.md` — REPLY methodology, brevity rules, trigger-linked personalization (canonical)
+- `../cold-email-strategy/references/becc-holland-playbook.md` — Stellar email pillars, structure
+- `../cold-email-strategy/references/lemlist-guillaume-outbound.md` — Problem-first / CTC structure
+- `../cold-email-strategy/references/jordan-crawford-blueprint-gtm.md` — PVP copy quality bar
+- `../cold-email-strategy/references/eric-nowoslawski-outbound.md` — Creative Ideas, Pay-for-Discovery offers, AI copy QA at scale (Eric Nowoslawski)
+- `references/email-frameworks.md` — Cold email copy frameworks and rules
+- `references/sequence-touch-library.md` — Multi-touch email templates
+- `references/subject-line-patterns.md` — Subject line pattern library
+- `templates/output-template.md` — Deliverable shell for agent output
+- `scripts/check-output.py` — Lightweight deliverable validator
+
 ## Related Skills
 
-- `cold-email-strategy` — adjacent workflow to use before or after this skill
-- `personalization-at-scale` — adjacent workflow to use before or after this skill
-- `pain-point-mapping` — adjacent workflow to use before or after this skill
-- `reply-handling` — adjacent workflow to use before or after this skill
+- `cold-email-strategy` — Sequence architecture; load before copy
+- `ai-sdr-setup` — Automate Tier 1–2 copy with human review gates
+- `multi-channel-outreach` — Channel-native variants (no email paste to LinkedIn)
+- `reply-handling` — Classify replies; all responses are "signs of life"

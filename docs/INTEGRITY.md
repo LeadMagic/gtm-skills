@@ -39,10 +39,10 @@ Or:
 npm run check:lock
 ```
 
-Expected output:
+Expected output (count matches the current catalog):
 
 ```text
-skills.lock verified: 218 skills
+skills.lock verified: 203 skills
 ```
 
 ## Consumer Verification

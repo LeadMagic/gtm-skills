@@ -7,11 +7,11 @@ description: >-
 license: MIT
 compatibility: Claude Code, Cursor, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   author: LeadMagic
   category: automation
   tags: [crm, hubspot, salesforce, attio, integration, revops]
-  related_skills: [hubspot-setup, salesforce-setup, attio-setup, gtm-operations]
+  related_skills: [crm-toolkit, hubspot-setup, salesforce-setup, attio-setup, pipeline-management, gtm-operations]
   frameworks: [HubSpot CRM Best Practices, Salesforce Architecture, Attio Object Model, Winning by Design Bowtie]
 ---
 
@@ -27,7 +27,9 @@ This skill designs a CRM integration that supports GTM execution without turning
 
 Use this skill when the user asks to "set up our CRM for sales", "configure HubSpot", "configure Salesforce", "set up Attio", "design deal stages", "integrate enrichment with CRM", "clean up CRM data", "define lifecycle stages", or "build CRM reporting".
 
-Use platform-specific skills (`hubspot-setup`, `salesforce-setup`, `attio-setup`) after this skill defines the operating model.
+Use `crm-toolkit` for platform selection, contacts-vs-leads architecture, and
+blueprints — then platform setup skills (`hubspot-setup`, `salesforce-setup`,
+`attio-setup`) for rollout.
 
 ## Authoritative Foundations
 
