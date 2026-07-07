@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-07-07T18:43:44+00:00",
+  "generated_at": "2026-07-07T18:44:48+00:00",
   "total_skills": 205,
   "skills": {
     "abm/abm-1-to-1": {
@@ -613,8 +613,8 @@
         "ui-ux-gtm",
         "SKILL.md"
       ],
-      "sha256": "ca03e3522a38bae1240f42281ef852104d97081840a45174f10107632fac99e2",
-      "size_bytes": 14789
+      "sha256": "653417ac6d570c764916508161d0094238e1e79d6a281db5779552b329f2e695",
+      "size_bytes": 15811
     },
     "events/conference-strategy": {
       "path": [
