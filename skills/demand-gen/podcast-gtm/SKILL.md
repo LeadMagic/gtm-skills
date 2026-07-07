@@ -15,11 +15,20 @@ metadata:
     - "Podcast Guesting Framework"
     - "Authority Marketing"
     - "SiriusDecisions — Demand Waterfall"
+  related_skills:
+    [
+      founder-brand,
+      content-marketing,
+      social-media-strategy,
+      pitch-deck-builder,
+      cold-email-strategy,
+    ]
 ---
 
 # Podcast GTM
 
 ## Overview
+
 Podcast guesting is the highest-leverage GTM channel most founders ignore.
 One 45-minute appearance → 10+ content derivatives, backlinks, social proof,
 and direct pipeline from listeners who self-qualify by listening for 30+ minutes.
@@ -32,6 +41,7 @@ This skill covers booking strategy through pipeline conversion.
 - **SiriusDecisions — Demand Waterfall** — Demand Waterfall
 
 ## When to Use
+
 - "Get on podcasts"
 - "Podcast guesting strategy"
 - "Book podcast appearances"
@@ -40,7 +50,9 @@ This skill covers booking strategy through pipeline conversion.
 ## Step-by-Step Process
 
 ### Phase 1: Target Show Selection
+
 Prioritize podcasts by ICP overlap, not audience size:
+
 - **Tier 1:** Shows your ICP listens to (even if audience is 500). The 500 right
   people > 50,000 random listeners.
 - **Tier 2:** Industry shows with good production quality and backlinks
@@ -50,6 +62,7 @@ Research method: Ask 10 customers what podcasts they listen to. Search Apple
 Podcasts/Spotify for industry keywords. Check competitor guest appearances.
 
 ### Phase 2: Booking Outreach
+
 - **Research:** Listen to 2-3 recent episodes. Reference specific episodes in
   your pitch — proves you're not spraying.
 - **Topic pitch:** 3 specific topics you can cover, each with a counterintuitive
@@ -60,6 +73,7 @@ Podcasts/Spotify for industry keywords. Check competitor guest appearances.
 - **Follow-up:** 2 touches max. Podcast hosts are busy.
 
 ### Phase 3: Interview Preparation
+
 - **3 key messages:** What do you want listeners to remember? Repeat each 2-3 times
   in different ways.
 - **Signature story:** One memorable customer story or personal experience.
@@ -69,7 +83,9 @@ Podcasts/Spotify for industry keywords. Check competitor guest appearances.
   book a call (in that order of conversion).
 
 ### Phase 4: Content Repurposing
+
 One episode → 10+ assets:
+
 - Pull-quote social graphics (3-5)
 - Twitter/X thread (highlights)
 - LinkedIn post (personal reflection)
@@ -80,6 +96,7 @@ One episode → 10+ assets:
 - Backlink in guest profile (SEO value)
 
 ### Phase 5: Pipeline Conversion
+
 - **Show notes link:** Specific landing page for that podcast's audience
 - **Episode promo:** You promote the episode to your audience (hosts love this,
   they'll invite you back)
@@ -89,14 +106,14 @@ One episode → 10+ assets:
   because they've spent 45 minutes with you before booking a call.
 
 ## Output Format
+
 Podcast GTM plan with: target show list, booking templates, interview prep brief,
 content repurposing map, and pipeline tracking setup.
-
-
 
 ## Quality Check
 
 Before delivering, verify:
+
 - [ ] All required sections are complete
 - [ ] Output matches the user's stated need
 - [ ] Named frameworks are cited for key recommendations
@@ -145,7 +162,6 @@ A strong output from this skill includes:
 - For mid-market: include workflow ownership, handoffs, integrations, and enablement assets.
 - For enterprise: include governance, risk, procurement, stakeholder mapping, and proof requirements.
 
-
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Walker dark social, SparkToro show selection, repurposing map
@@ -156,4 +172,5 @@ A strong output from this skill includes:
 - `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 26: Demand Creation (step 4)
 
 ## Related Skills
+
 - founder-brand, content-marketing, social-media-strategy, pitch-deck-builder, cold-email-strategy

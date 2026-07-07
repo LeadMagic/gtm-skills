@@ -15,11 +15,20 @@ metadata:
     - "B2B Event ROI Framework"
     - "Conference Strategy Playbook"
     - "Bizzabo — Event Experience Framework"
+  related_skills:
+    [
+      event-driven-outreach,
+      field-marketing,
+      pipeline-management,
+      sales-enablement,
+      partnership-strategy,
+    ]
 ---
 
 # Conference Strategy
 
 ## Overview
+
 Conferences are the single biggest line item in many B2B marketing budgets —
 and the least measured. This skill covers event selection, sponsorship evaluation,
 speaking submission strategy, booth design, and team preparation to maximize ROI.
@@ -31,6 +40,7 @@ speaking submission strategy, booth design, and team preparation to maximize ROI
 - **Bizzabo — Event Experience Framework** — Event Experience Framework
 
 ## When to Use
+
 - "Plan our conference strategy"
 - "Which events should we sponsor?"
 - "Submit a CFP"
@@ -39,6 +49,7 @@ speaking submission strategy, booth design, and team preparation to maximize ROI
 ## Step-by-Step Process
 
 ### Phase 1: Event Selection Matrix
+
 Score events on 5 dimensions (1-10 each):
 
 1. **ICP concentration (×2):** % of attendees matching your ICP.
@@ -54,6 +65,7 @@ Score events on 5 dimensions (1-10 each):
 Score >35: Sponsor/speak. Score 25-35: Attend only. Score <25: Skip.
 
 ### Phase 2: Sponsorship Evaluation
+
 - **Booth:** Only worth it if you have 2+ dedicated staff and a lead capture
   process. Badge-scanning without qualification = waste of money.
 - **Speaking slot:** Highest ROI of any sponsorship. Negotiate it into your
@@ -64,6 +76,7 @@ Score >35: Sponsor/speak. Score 25-35: Attend only. Score <25: Skip.
   household name in the industry. Skip.
 
 ### Phase 3: Speaking Submissions (CFP)
+
 - **Submit to 3-5 events:** One talk abstract, customized per event theme
 - **Talk structure:** Problem story → counterintuitive insight → framework →
   results data → specific takeaways. No product pitch.
@@ -73,6 +86,7 @@ Score >35: Sponsor/speak. Score 25-35: Attend only. Score <25: Skip.
 - **Rehearse:** Do a dry run with internal team. Record it. Watch it. Fix it.
 
 ### Phase 4: Booth Strategy
+
 - **Lead capture:** Badge scan + 1 qualifier question ("What brings you to
   [Event]?" → scoring). No generic "tell me about your role."
 - **Booth staff:** Train on qualification questions, demo flow, and data entry.
@@ -83,19 +97,20 @@ Score >35: Sponsor/speak. Score 25-35: Attend only. Score <25: Skip.
   targeted demo, not a full product tour.
 
 ### Phase 5: Post-Event Debrief
+
 Within 48 hours of event end: what worked, what didn't, revenue influenced,
 cost per meeting. Update event scores for next year's selection.
 
 ## Output Format
+
 Conference strategy document with: event selection scores, sponsorship package
 negotiation points, speaking submission abstracts, booth plan, and post-event
 debrief template.
 
-
-
 ## Quality Check
 
 Before delivering, verify:
+
 - [ ] All required sections are complete
 - [ ] Output matches the user's stated need
 - [ ] Named frameworks are cited for key recommendations
@@ -144,7 +159,6 @@ A strong output from this skill includes:
 - For mid-market: include workflow ownership, handoffs, integrations, and enablement assets.
 - For enterprise: include governance, risk, procurement, stakeholder mapping, and proof requirements.
 
-
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Named frameworks and reference tables
@@ -152,4 +166,5 @@ A strong output from this skill includes:
 - `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
+
 - event-driven-outreach, field-marketing, pipeline-management, sales-enablement, partnership-strategy

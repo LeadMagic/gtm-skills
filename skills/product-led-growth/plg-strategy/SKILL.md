@@ -14,18 +14,35 @@ metadata:
   author: LeadMagic
   category: product-led-growth
   tags: [plg, freemium, self-serve, growth, product]
-  frameworks: [OpenView PLG Framework, Wes Bush Product-Led Growth, Kyle Poyar Growth Unhinged, Elena Verna PLG Growth Loops, Blake Bartlett PLG Traits, Guillermo Rauch Vercel Developer GTM]
+  frameworks:
+    [
+      OpenView PLG Framework,
+      Wes Bush Product-Led Growth,
+      Kyle Poyar Growth Unhinged,
+      Elena Verna PLG Growth Loops,
+      Blake Bartlett PLG Traits,
+      Guillermo Rauch Vercel Developer GTM,
+    ]
+  related_skills:
+    [
+      developer-gtm,
+      freemium-optimization,
+      pricing-strategy,
+      saas-metrics-calculator,
+    ]
 ---
 
 # Product-Led Growth Strategy
 
 ## Overview
+
 PLG means the product is the primary driver of acquisition, retention, and
 expansion — not sales outreach. The term was coined by OpenView's Blake
 Bartlett in 2016. By 2026, 97% of B2B buyers prefer to try before they buy.
 PLG is no longer a competitive advantage — it's table stakes.
 
 ## When to Use
+
 - "Build a PLG motion"
 - "Should we go freemium or free trial?"
 - "Set up PQL scoring"
@@ -33,6 +50,7 @@ PLG is no longer a competitive advantage — it's table stakes.
 - "Design a self-serve conversion flow"
 
 ## Authoritative Foundations
+
 - **OpenView (Blake Bartlett, Kyle Poyar, Mackey Craven)** — coined PLG. 3
   pillars: design for end user, deliver value before capturing value, invest
   in product with GTM intent. PLG companies 2x more likely to grow 100% YoY.
@@ -50,7 +68,9 @@ PLG is no longer a competitive advantage — it's table stakes.
   `developer-gtm`.
 
 ## Step-by-Step Process
+
 ### Phase 1: Model Selection
+
 - **Freemium**: free forever tier, 5% conversion, longer conversion cycle.
   Best for products with network effects or high daily usage.
 - **Free Trial**: time-limited, 17% conversion, urgency-driven. Best for
@@ -61,6 +81,7 @@ PLG is no longer a competitive advantage — it's table stakes.
   Most common at scale.
 
 ### Phase 2: PQL Scoring
+
 Product Qualified Leads are users showing buying signals through behavior:
 usage nearing plan limits, feature adoption by new department, multiple
 users sharing one account, "can we do X?" questions, reference willingness.
@@ -69,23 +90,26 @@ Score PQLs and route: Touchless (self-serve upgrade) for low ACV, Sales-
 assist for mid-market, Enterprise AE for high ACV.
 
 ### Phase 3: Activation Optimization
+
 The aha moment — the action where value first clicks. Measure time-to-value.
 Activation rate benchmarks: 20-40% normal. Single-player products aim for
 40%+. Multi-player products expect lower.
 
 ### Phase 4: PLG Metrics
+
 Natural Rate of Growth: % of ARR from organic, product-driven channels.
 NDR: 130-150% for best-in-class PLG. CAC payback replaced by net new ARR
 vs cash burned ratio.
 
 ## Output Format
+
 PLG strategy with model recommendation, PQL scoring model, activation
 funnel map, and PLG metrics dashboard.
-
 
 ## Quality Check
 
 Before delivering, verify:
+
 - [ ] All required sections are complete
 - [ ] Output matches the user's stated need
 - [ ] Named frameworks are cited for key recommendations
@@ -93,6 +117,7 @@ Before delivering, verify:
 - [ ] Deliverable is ready for operational use, not just conceptual
 
 ## Common Pitfalls
+
 1. **PLG without product readiness** — 97% want to try before buying, but
    only if the product delivers value in the trial window.
 2. **Freemium without conversion path** — a free tier without a clear
@@ -104,10 +129,10 @@ Before delivering, verify:
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-This skill includes lightweight artifacts the agent can load on demand:
+  This skill includes lightweight artifacts the agent can load on demand:
 - `references/elena-verna-plg-growth.md` — growth loops, PQL routing (repo root)
 - `references/kyle-poyar-growth-unhinged.md` — PLG benchmarks (repo root)
-Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+  Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth
 
@@ -147,8 +172,8 @@ A strong output from this skill includes:
 - For mid-market: include workflow ownership, handoffs, integrations, and enablement assets.
 - For enterprise: include governance, risk, procurement, stakeholder mapping, and proof requirements.
 
-
 ## Related Skills
+
 - **developer-gtm**: PLG when the buyer is a developer (Vercel/Stripe motion)
 - **freemium-optimization**: Deep dive on freemium conversion
 - **pricing-strategy**: PLG-specific pricing and packaging

@@ -15,11 +15,20 @@ metadata:
     - "Event-Led Growth"
     - "B2B Event Marketing Framework"
     - "Bizzabo — Event Experience Framework"
+  related_skills:
+    [
+      cold-email-strategy,
+      cold-email-copywriting,
+      multi-channel-outreach,
+      social-selling,
+      pipeline-management,
+    ]
 ---
 
 # Event-Driven Outreach
 
 ## Overview
+
 Conferences and events are concentrated buying intent — attendees have budget,
 are actively evaluating, and are reachable in a compressed time window. This
 skill covers the pre-event, on-site, and post-event outbound motion.
@@ -31,6 +40,7 @@ skill covers the pre-event, on-site, and post-event outbound motion.
 - **Bizzabo — Event Experience Framework** — Event Experience Framework
 
 ## When to Use
+
 - "Outreach around [conference]"
 - "Conference prospecting"
 - "Event follow-up sequence"
@@ -39,6 +49,7 @@ skill covers the pre-event, on-site, and post-event outbound motion.
 ## Step-by-Step Process
 
 ### Phase 1: Pre-Event (2-3 weeks before)
+
 - **Attendee list sourcing:** Scrape attendee lists, speaker lists, sponsor lists,
   LinkedIn event RSVPs, hashtag engagers
 - **Account research:** For each target, determine: are they speaking? sponsoring?
@@ -50,6 +61,7 @@ skill covers the pre-event, on-site, and post-event outbound motion.
   Speakers are flattered by pre-event engagement.
 
 ### Phase 2: On-Site (During the event)
+
 - **Real-time engagement:** Monitor event hashtag. Engage with prospect posts.
 - **Session targeting:** Attend sessions your prospects attend. Sit near them.
   Ask good questions during Q&A (with your name + company intro).
@@ -59,30 +71,33 @@ skill covers the pre-event, on-site, and post-event outbound motion.
   outside the conference center.
 
 ### Phase 3: Post-Event (1-7 days after)
+
 Day 1: "Great meeting you at [Event]" — personalized, reference your conversation.
 Day 2-3: LinkedIn connection + "Enjoyed [specific conversation topic] at [Event]"
 Day 5-7: Value-add follow-up: "Following up on our conversation about [topic],
-  here's [specific resource/data]"
+here's [specific resource/data]"
 
 ### Phase 4: Non-Attendee Outreach
+
 "I wasn't at [Event] but I noticed [topic] was big. Teams I work with are
 seeing [related trend]." You can reference conference themes without having
 attended.
 
 ### Phase 5: ROI Measurement
+
 Track: meetings booked from event outreach, pipeline created, deals closed.
 Cost per meeting = (event cost + outreach time) / meetings booked.
 This lets you compare events objectively — kill the ones that don't convert.
 
 ## Output Format
+
 Event outreach playbook with: attendee sourcing method, pre-event sequence,
 on-site playbook, post-event templates, and ROI measurement framework.
-
-
 
 ## Quality Check
 
 Before delivering, verify:
+
 - [ ] All required sections are complete
 - [ ] Output matches the user's stated need
 - [ ] Named frameworks are cited for key recommendations
@@ -100,8 +115,8 @@ Before delivering, verify:
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-This skill includes lightweight artifacts the agent can load on demand:
-Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+  This skill includes lightweight artifacts the agent can load on demand:
+  Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth
 
@@ -139,6 +154,6 @@ A strong output from this skill includes:
 - For mid-market: include workflow ownership, handoffs, integrations, and enablement assets.
 - For enterprise: include governance, risk, procurement, stakeholder mapping, and proof requirements.
 
-
 ## Related Skills
+
 - cold-email-strategy, cold-email-copywriting, multi-channel-outreach, social-selling, pipeline-management

@@ -238,7 +238,7 @@ figure out what to do next, the design has failed.
 └───────────────────────────────────────────────────┘
 ```
 
-### Phase 5: Accessibility (WCAG 2.1 AA)
+### Phase 5: Accessibility (WCAG 2.2 AA)
 
 **11-point accessibility checklist:**
 

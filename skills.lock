@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-07-07T18:45:48+00:00",
+  "generated_at": "2026-07-07T18:49:53+00:00",
   "total_skills": 205,
   "skills": {
     "abm/abm-1-to-1": {
@@ -541,8 +541,8 @@
         "podcast-gtm",
         "SKILL.md"
       ],
-      "sha256": "ddad64715d417692222135a84657cab815de1b4ee01494a9d0aa77a806120a77",
-      "size_bytes": 7285
+      "sha256": "e4bbf8ab5dc56e842f758f890033ffc14c22f8380af53680bee76f9485aa7652",
+      "size_bytes": 7452
     },
     "demand-gen/webinar-strategy": {
       "path": [
@@ -550,8 +550,8 @@
         "webinar-strategy",
         "SKILL.md"
       ],
-      "sha256": "3ee8a64eb75028ca564228ea969bc34d6d9d72df027265e069758906d8c44d00",
-      "size_bytes": 7091
+      "sha256": "c80e7171bc14b8fa271cf50c64ee7b9112521f1a0c2b440230eb7b6ef667358d",
+      "size_bytes": 7257
     },
     "design/battlecard-builder": {
       "path": [
@@ -613,7 +613,7 @@
         "ui-ux-gtm",
         "SKILL.md"
       ],
-      "sha256": "653417ac6d570c764916508161d0094238e1e79d6a281db5779552b329f2e695",
+      "sha256": "6d0fec972de3bc1e22a1f3e314c7e1ee0776db64739a87898572af1522df9f93",
       "size_bytes": 15811
     },
     "events/conference-strategy": {
@@ -622,8 +622,8 @@
         "conference-strategy",
         "SKILL.md"
       ],
-      "sha256": "3add0297066f555a3ba6a80f2348ffa67272a89e80fe20229e972d24f51ee7bf",
-      "size_bytes": 7261
+      "sha256": "a2173e23c894d7c8945b125f7dc484bd4f3b8ff8dd05a12689d61c29cc1c4a24",
+      "size_bytes": 7429
     },
     "events/event-driven-outreach": {
       "path": [
@@ -631,8 +631,8 @@
         "event-driven-outreach",
         "SKILL.md"
       ],
-      "sha256": "5c22da5ec452147887188eb1975daf2e476b57fe91d348a366d5ad41cc4aa1d1",
-      "size_bytes": 6772
+      "sha256": "b6abfeed3e42b59cad25830d0390a909399e2ed2eb6b9ac8bef556ff5ffb5cec",
+      "size_bytes": 6947
     },
     "events/field-marketing": {
       "path": [
@@ -640,8 +640,8 @@
         "field-marketing",
         "SKILL.md"
       ],
-      "sha256": "6d9ae978d3ca5d5f0b76657b132687a54161e1b3adedd33d7dc52a5848288698",
-      "size_bytes": 7423
+      "sha256": "213ea7a097e4ee96c7cf6a253ec477bb13ae44df700ec9053942783048fdeaba",
+      "size_bytes": 7587
     },
     "foundation/buyer-psychology": {
       "path": [
@@ -1315,8 +1315,8 @@
         "lifecycle-drips",
         "SKILL.md"
       ],
-      "sha256": "27f3aaab32bf3f39fc7a72f250aa78ff730d106ae78170e4f2e1b9c367152fa2",
-      "size_bytes": 6446
+      "sha256": "b81e2ecec9cfabccdbd35925a12bd68b77164ea6028f521afa9ed5effc139e05",
+      "size_bytes": 7522
     },
     "lifecycle/mql-nurture": {
       "path": [
@@ -1342,8 +1342,8 @@
         "re-engagement",
         "SKILL.md"
       ],
-      "sha256": "1ebf7ba724508c2c7c1b0b48b86cee5def854045348397457e2d164c462ce2fc",
-      "size_bytes": 6538
+      "sha256": "9bfe573cde84388ab5b843e8718e9d1d4b75f94c7d7259acc059c758417d8abd",
+      "size_bytes": 7829
     },
     "management-leadership/executive-compensation": {
       "path": [
@@ -1477,8 +1477,8 @@
         "co-marketing",
         "SKILL.md"
       ],
-      "sha256": "85657b655ba2c217646025cf2d5d55fa67284754ed27a03176bf54d2b0d157cd",
-      "size_bytes": 6947
+      "sha256": "f48b8d064b7733dad629d32a32f42f99d9d14334ad8b21b573da11d4ce54cd6b",
+      "size_bytes": 7114
     },
     "partnerships/integration-partnerships": {
       "path": [
@@ -1486,8 +1486,8 @@
         "integration-partnerships",
         "SKILL.md"
       ],
-      "sha256": "dfd62a1d79209cec56caaf8a9158f4fb9e2a620cef1de88757ecee0b03a942be",
-      "size_bytes": 7529
+      "sha256": "6d50af621a45c903169e762dee6f3f6b9d8ea9769993b2c1b06b47aecde6714b",
+      "size_bytes": 7691
     },
     "partnerships/partnership-strategy": {
       "path": [
@@ -1495,8 +1495,8 @@
         "partnership-strategy",
         "SKILL.md"
       ],
-      "sha256": "2e1b686fdc4fe6b6ac066344e1b3c09b4a4e07d77ec719588fd4a6c3ecd25ccd",
-      "size_bytes": 7150
+      "sha256": "6b0270a5d81f7d6ba679a9389e656d13138386ebddea04699a4c90ce7576ed3e",
+      "size_bytes": 7319
     },
     "product-led-growth/developer-gtm": {
       "path": [
@@ -1522,8 +1522,8 @@
         "plg-strategy",
         "SKILL.md"
       ],
-      "sha256": "17090d66660bdf3fc90cebb9d45c65ce184796cd4a9fe2ab76413f54ce125b48",
-      "size_bytes": 7645
+      "sha256": "0db64e613cf73fae56304dbf3ee718779cad393c636b50a2bc080b90930fd9f4",
+      "size_bytes": 7841
     },
     "prospecting/contact-verification": {
       "path": [
@@ -1621,8 +1621,8 @@
         "hiring-signal-play",
         "SKILL.md"
       ],
-      "sha256": "572a8753e72a093383b95898abbff93ae1c7723c8315bd0d522bc4b8efac5bf4",
-      "size_bytes": 7233
+      "sha256": "49e13926e2aafdf68acd6858c42c59065e649f03b49b0c98d9740d818d12b0fe",
+      "size_bytes": 8368
     },
     "sales-plays/job-change-play": {
       "path": [
@@ -1630,8 +1630,8 @@
         "job-change-play",
         "SKILL.md"
       ],
-      "sha256": "2e3b2cf53cd0fcc263adba228a5f7cee0824e642d752b855d24fc6efed2ca6a7",
-      "size_bytes": 6856
+      "sha256": "5810efe01cb96effa4ac4edcc21c0afca90007e35e91f134b551935bd847aacb",
+      "size_bytes": 8187
     },
     "sales-plays/product-launch-play": {
       "path": [
@@ -1639,8 +1639,8 @@
         "product-launch-play",
         "SKILL.md"
       ],
-      "sha256": "8b063616cb8a6b74a6e4765a2a3128b5ceadd1bcc86e49333a07b77522073fc7",
-      "size_bytes": 7114
+      "sha256": "d0445725ea74f659f0f9e3f62a7035d61cad525eae04bfd5d42ce07485c19ea4",
+      "size_bytes": 8447
     },
     "sales-revops/buyer-indecision": {
       "path": [

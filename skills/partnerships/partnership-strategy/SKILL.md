@@ -15,11 +15,20 @@ metadata:
     - "Partnership Ecosystem Framework"
     - "Crossbeam Partner-Led Growth"
     - "Crossbeam — Ecosystem-Led Growth"
+  related_skills:
+    [
+      partner-programs,
+      co-marketing,
+      integration-partnerships,
+      channel-partnerships,
+      sales-enablement,
+    ]
 ---
 
 # Partnership Strategy
 
 ## Overview
+
 Partnerships are the most underleveraged GTM channel in B2B SaaS. A well-run
 partner program can generate 20-40% of pipeline at near-zero CAC. But "partnerships"
 means different things at different stages — this skill covers the full ecosystem.
@@ -31,6 +40,7 @@ means different things at different stages — this skill covers the full ecosys
 - **Crossbeam — Ecosystem-Led Growth** — Ecosystem-Led Growth
 
 ## When to Use
+
 - "Build a partner program"
 - "Partnership strategy"
 - "Channel partner program"
@@ -39,6 +49,7 @@ means different things at different stages — this skill covers the full ecosys
 ## Step-by-Step Process
 
 ### Phase 1: Partner Type Selection
+
 - **Integration partners:** Your product integrates with theirs. Co-marketing,
   co-selling. Easiest to start. "Customers who use [Partner] + [You] get [value]."
 - **Referral partners:** Agencies, consultants, freelancers who recommend tools.
@@ -51,6 +62,7 @@ means different things at different stages — this skill covers the full ecosys
   to set up, massive payoff.
 
 ### Phase 2: Partner Recruitment
+
 - **Ideal Partner Profile (IPP):** Who has your ICP before you do? Agencies,
   consultants, complementary tools, industry associations.
 - **Outbound recruitment:** "Your clients ask you about [problem] — we solve it.
@@ -60,6 +72,7 @@ means different things at different stages — this skill covers the full ecosys
 - **Customer → Partner:** Your power users often become your best partners.
 
 ### Phase 3: Partner Enablement
+
 - **Partner portal:** Deal registration, training materials, co-branded assets,
   pipeline tracking
 - **Certification:** Product certification program. Certified partners get higher
@@ -69,6 +82,7 @@ means different things at different stages — this skill covers the full ecosys
 - **Co-marketing:** Joint webinars, co-branded case studies, shared booth at events
 
 ### Phase 4: Partner Economics
+
 - **Referral:** 10-20% of first-year revenue
 - **Reseller:** 20-40% margin, partner handles first-line support
 - **Agency/Consultant:** Monthly retainer + % of influenced revenue
@@ -76,20 +90,21 @@ means different things at different stages — this skill covers the full ecosys
 - **Key metric:** Partner-sourced pipeline as % of total. Target: 20-30% by year 2.
 
 ### Phase 5: Partner Management
+
 - **Tier system:** Silver → Gold → Platinum based on revenue influenced
 - **QBRs:** Quarterly business reviews with top 20% of partners
 - **Partner success manager:** Dedicated person at 30+ active partners
 - **Kill criteria:** Partners who refer 0 deals in 6 months → re-evaluate or remove
 
 ## Output Format
+
 Partnership strategy document with: partner types and tiers, IPP definition,
 recruitment plan, enablement program, economics model, and management framework.
-
-
 
 ## Quality Check
 
 Before delivering, verify:
+
 - [ ] All required sections are complete
 - [ ] Output matches the user's stated need
 - [ ] Named frameworks are cited for key recommendations
@@ -107,8 +122,8 @@ Before delivering, verify:
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-This skill includes lightweight artifacts the agent can load on demand:
-Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+  This skill includes lightweight artifacts the agent can load on demand:
+  Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth
 
@@ -146,6 +161,6 @@ A strong output from this skill includes:
 - For mid-market: include workflow ownership, handoffs, integrations, and enablement assets.
 - For enterprise: include governance, risk, procurement, stakeholder mapping, and proof requirements.
 
-
 ## Related Skills
+
 - partner-programs, co-marketing, integration-partnerships, channel-partnerships, sales-enablement

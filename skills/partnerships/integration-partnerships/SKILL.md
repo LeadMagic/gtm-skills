@@ -15,11 +15,20 @@ metadata:
     - "Technology Partnership Framework"
     - "Platform Ecosystem Strategy"
     - "Crossbeam — Ecosystem-Led Growth"
+  related_skills:
+    [
+      partnership-strategy,
+      co-marketing,
+      leadmagic-integrations,
+      api-enrichment,
+      sales-enablement,
+    ]
 ---
 
 # Integration Partnerships
 
 ## Overview
+
 Technology integration partnerships are the highest-ROI partnership type for
 B2B SaaS. When your product integrates with a platform your ICP already uses,
 discovery happens inside their workflow. This skill covers integration strategy,
@@ -32,6 +41,7 @@ GTM launch, marketplace presence, and co-selling.
 - **Crossbeam — Ecosystem-Led Growth** — Ecosystem-Led Growth
 
 ## When to Use
+
 - "Build integration partnerships"
 - "Launch a tech partnership"
 - "Get listed on a marketplace"
@@ -40,7 +50,9 @@ GTM launch, marketplace presence, and co-selling.
 ## Step-by-Step Process
 
 ### Phase 1: Integration Selection
+
 Prioritize integrations by:
+
 - **ICP overlap:** % of your ICP using this platform (score 1-10)
 - **Workflow adjacency:** Does the integration happen where the user already is?
   (score 1-10)
@@ -51,6 +63,7 @@ Prioritize integrations by:
 Score >35: Build now. Score 25-35: Build soon. Score <25: Deprioritize.
 
 ### Phase 2: Integration Design
+
 - **Minimum Viable Integration (MVI):** What's the one thing users need the
   integration to do? Ship that first. Don't build 10 features.
 - **Integration depth levels:**
@@ -61,6 +74,7 @@ Score >35: Build now. Score 25-35: Build soon. Score <25: Deprioritize.
 - **Start at Level 1 or 2.** Level 3-4 takes years of partnership maturity.
 
 ### Phase 3: Partner GTM Launch
+
 - **Integration announcement:** Blog post (both companies), email blast (both),
   social promotion (both), Product Hunt if appropriate
 - **Joint documentation:** Setup guide with screenshots. < 5 minutes to activate.
@@ -72,6 +86,7 @@ Score >35: Build now. Score 25-35: Build soon. Score <25: Deprioritize.
   "Switch to [You] and keep your [Partner] integration — here's the migration guide."
 
 ### Phase 4: Marketplace Presence
+
 - **App marketplace listing:** High-quality listing with: logo, 1-line description,
   detailed description, screenshots, setup guide, reviews, support link
 - **Category optimization:** List in the most relevant categories. Monitor category
@@ -82,6 +97,7 @@ Score >35: Build now. Score 25-35: Build soon. Score <25: Deprioritize.
   platform's partner team. Requires relationship building.
 
 ### Phase 5: Co-Selling
+
 - **Account mapping:** Use Crossbeam/Reveal to identify shared accounts without
   sharing customer lists directly.
 - **Co-selling play:** "We noticed you use [Partner]. Our integration with them
@@ -92,14 +108,14 @@ Score >35: Build now. Score 25-35: Build soon. Score <25: Deprioritize.
   plan joint campaigns, align on roadmap.
 
 ## Output Format
+
 Integration partnership plan with: partner prioritization matrix, MVI spec,
 GTM launch checklist, marketplace optimization, and co-selling playbook.
-
-
 
 ## Quality Check
 
 Before delivering, verify:
+
 - [ ] All required sections are complete
 - [ ] Output matches the user's stated need
 - [ ] Named frameworks are cited for key recommendations
@@ -148,7 +164,6 @@ A strong output from this skill includes:
 - For mid-market: include workflow ownership, handoffs, integrations, and enablement assets.
 - For enterprise: include governance, risk, procurement, stakeholder mapping, and proof requirements.
 
-
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Named frameworks and reference tables
@@ -156,4 +171,5 @@ A strong output from this skill includes:
 - `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
+
 - partnership-strategy, co-marketing, leadmagic-integrations, api-enrichment, sales-enablement

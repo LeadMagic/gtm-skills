@@ -15,11 +15,20 @@ metadata:
     - "Co-Marketing Playbook"
     - "Crossbeam Partner-Led Growth"
     - "Crossbeam — Ecosystem-Led Growth"
+  related_skills:
+    [
+      partnership-strategy,
+      webinar-strategy,
+      content-marketing,
+      social-media-strategy,
+      partner-programs,
+    ]
 ---
 
 # Co-Marketing
 
 ## Overview
+
 Co-marketing is the fastest way to access a new audience with built-in trust.
 When a partner promotes you to their list, you borrow their credibility.
 This skill covers campaign design, asset creation, promotion coordination,
@@ -32,6 +41,7 @@ and pipeline splitting.
 - **Crossbeam — Ecosystem-Led Growth** — Ecosystem-Led Growth
 
 ## When to Use
+
 - "Run a co-marketing campaign"
 - "Joint webinar with partner"
 - "Co-branded content"
@@ -40,6 +50,7 @@ and pipeline splitting.
 ## Step-by-Step Process
 
 ### Phase 1: Partner Selection for Co-Marketing
+
 - **Audience overlap:** Their audience contains your ICP. Not 100% — but a
   meaningful % would benefit from both products.
 - **Complementary, not competitive:** Their product does something yours doesn't.
@@ -50,6 +61,7 @@ and pipeline splitting.
   "What was the last campaign you co-marketed? How did it perform?"
 
 ### Phase 2: Campaign Formats
+
 - **Joint webinar:** Co-presented by one person from each company. Customer
   story involving both products. 45 minutes. Split the registration list.
 - **Co-branded report/guide:** Original research or definitive guide. Both
@@ -62,6 +74,7 @@ and pipeline splitting.
   Behind-the-scenes, tips, Q&A.
 
 ### Phase 3: Promotion Coordination
+
 - **Shared promotion calendar:** Agreed dates for each company's promotions
 - **Email sequence:** Each company sends 2-3 emails to their list (tease, launch,
   last chance)
@@ -70,6 +83,7 @@ and pipeline splitting.
 - **Sales enablement:** Both companies arm their sales teams with talk tracks
 
 ### Phase 4: Lead Management
+
 - **Form:** Joint form (both brands). Clear opt-in language: "By registering,
   you agree to receive communications from [Company A] and [Company B]."
 - **Lead split:** All leads go to both companies. Trust model — no "hiding"
@@ -79,20 +93,21 @@ and pipeline splitting.
 - **Pipeline attribution:** Tag as "co-marketing — [Partner Name]" in CRM.
 
 ### Phase 5: Measurement & Iteration
+
 - Registrations, attendees, leads generated, pipeline created, deals closed
 - Cost: time invested + any paid promotion
 - ROI: pipeline value / cost
 - Partner debrief: what worked, what didn't, plan next campaign
 
 ## Output Format
+
 Co-marketing campaign plan with: partner brief, campaign format and assets,
 promotion calendar, lead management rules, and measurement framework.
-
-
 
 ## Quality Check
 
 Before delivering, verify:
+
 - [ ] All required sections are complete
 - [ ] Output matches the user's stated need
 - [ ] Named frameworks are cited for key recommendations
@@ -141,7 +156,6 @@ A strong output from this skill includes:
 - For mid-market: include workflow ownership, handoffs, integrations, and enablement assets.
 - For enterprise: include governance, risk, procurement, stakeholder mapping, and proof requirements.
 
-
 ## Execution Artifacts
 
 - `references/framework-notes.md` — Named frameworks and reference tables
@@ -149,4 +163,5 @@ A strong output from this skill includes:
 - `scripts/check-output.py` — Lightweight deliverable validator
 
 ## Related Skills
+
 - partnership-strategy, webinar-strategy, content-marketing, social-media-strategy, partner-programs

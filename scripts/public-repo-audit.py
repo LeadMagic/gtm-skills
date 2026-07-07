@@ -56,6 +56,9 @@ ALLOWED_URL_HOSTS = {
     "skills.re",
     "skillindex.dev",
     "theskills.directory",
+    "claude.ai",
+    "support.claude.com",
+    "code.claude.com",
 }
 JUNK_SUFFIXES = (".orig", ".rej", "~")
 JUNK_NAMES = {".DS_Store"}

@@ -15,11 +15,20 @@ metadata:
     - "TOPO Webinar Framework"
     - "CEB Challenger Commercial Teaching"
     - "SiriusDecisions — Demand Waterfall"
+  related_skills:
+    [
+      content-marketing,
+      social-media-strategy,
+      inbound-triage,
+      pipeline-management,
+      sales-enablement,
+    ]
 ---
 
 # Webinar Strategy
 
 ## Overview
+
 Webinars remain one of the highest-converting demand gen channels in B2B when
 done with a "commercial teaching" angle — not product demos disguised as content.
 This skill covers topic selection, speaker sourcing, promotion architecture,
@@ -32,6 +41,7 @@ and post-webinar pipeline conversion.
 - **SiriusDecisions — Demand Waterfall** — Demand Waterfall
 
 ## When to Use
+
 - "Plan a webinar"
 - "Build webinar strategy"
 - "Launch a webinar series"
@@ -40,17 +50,21 @@ and post-webinar pipeline conversion.
 ## Step-by-Step Process
 
 ### Phase 1: Topic Selection
+
 Use the Challenger Sale "commercial teaching" framework:
+
 - **Teach something counterintuitive:** "Why your pipeline forecast is lying to you"
 - **Frame the problem differently:** "The 3 attribution mistakes costing you 40% of pipeline"
 - **Lead to your unique solution:** Position your methodology, not your product
 
 Valid topics pass three tests:
+
 1. Does it challenge a widely-held assumption in the ICP's world?
 2. Would a prospect forward this to their boss?
 3. Does it naturally lead to a conversation about the problem your product solves?
 
 ### Phase 2: Speaker Sourcing
+
 - **Internal expert:** Your best thinker, not your best presenter
 - **Customer speaker:** The customer's story, in their words, with their results.
   This is 10x more credible than your case study.
@@ -58,6 +72,7 @@ Valid topics pass three tests:
 - **Never:** Panel of 5 people with 6 minutes each — the worst format
 
 ### Phase 3: Promotion Architecture (21-Day Build)
+
 - **Day 21:** Registration page live, organic social tease
 - **Day 14:** Email blast 1 to house list (segmented by webinar relevance)
 - **Day 10:** Speaker social posts, LinkedIn event page
@@ -67,6 +82,7 @@ Valid topics pass three tests:
 - **Day 1:** Reminder email with calendar link
 
 ### Phase 4: Production Quality
+
 - 45 minutes max (30 mins content + 15 mins Q&A)
 - Slides: minimal text, one idea per slide, visual-heavy
 - Live demo only if it's a product webinar (different play)
@@ -74,6 +90,7 @@ Valid topics pass three tests:
 - Moderator separate from presenter (manages Q&A, tech issues)
 
 ### Phase 5: Post-Webinar Pipeline
+
 - **Hour 0:** Thank-you email with recording + slide deck
 - **Day 1:** "Missed the Q&A?" email with written answers to the best questions
 - **Day 3:** Attendee segmentation: hot (asked questions, stayed full time) vs warm
@@ -82,14 +99,14 @@ Valid topics pass three tests:
 - **Day 14:** On-demand nurture: repurpose into blog, social clips, podcast
 
 ## Output Format
+
 Webinar plan with: topic validation, speaker brief, 21-day promotion calendar,
 production run-of-show, and post-webinar pipeline sequence.
-
-
 
 ## Quality Check
 
 Before delivering, verify:
+
 - [ ] All required sections are complete
 - [ ] Output matches the user's stated need
 - [ ] Named frameworks are cited for key recommendations
@@ -146,6 +163,6 @@ A strong output from this skill includes:
 - For mid-market: include workflow ownership, handoffs, integrations, and enablement assets.
 - For enterprise: include governance, risk, procurement, stakeholder mapping, and proof requirements.
 
-
 ## Related Skills
+
 - content-marketing, social-media-strategy, inbound-triage, pipeline-management, sales-enablement

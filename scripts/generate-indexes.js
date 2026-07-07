@@ -465,7 +465,7 @@ const plugin = {
   license: "MIT",
   homepage: "https://github.com/LeadMagic/gtm-skills",
   repository: "https://github.com/LeadMagic/gtm-skills",
-  skills: "./skills/",
+  skills: ["skills/*/*/SKILL.md"],
   defaultEnabled: true,
 };
 fs.writeFileSync(
