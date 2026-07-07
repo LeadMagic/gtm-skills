@@ -10,6 +10,8 @@
   "license": "MIT",
   "homepage": "https://github.com/LeadMagic/gtm-skills",
   "repository": "https://github.com/LeadMagic/gtm-skills",
-  "skills": ["skills/*/*/SKILL.md"],
+  "skills": [
+    "skills/*/*/SKILL.md"
+  ],
   "defaultEnabled": true
 }

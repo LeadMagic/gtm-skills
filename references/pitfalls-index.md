@@ -1,6 +1,6 @@
 # GTM Skills — Common Pitfalls Index
 
-Auto-generated from skill `## Common Pitfalls` sections. **1032 pitfalls** across **205** skills (205 total). Regenerate: `npm run build`.
+Auto-generated from skill `## Common Pitfalls` sections. **1044 pitfalls** across **205** skills (205 total). Regenerate: `npm run build`.
 
 Agents: load the source skill for full context, fixes, and quality checks — this index is for discovery and cross-skill pattern matching.
 
@@ -1219,15 +1219,19 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ### [lifecycle-drips](skills/lifecycle/lifecycle-drips/SKILL.md)
 
-- **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
-- **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
-- **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
+- **One drip fits all.** — Sending the same sequence to every new customer ignores persona, plan tier, and use case. Fix: segment drips by at least ICP tier and plan level — enterprise onboarding differs from self-serve.
+- **Renewal drip starts too late.** — Beginning renewal outreach at 30 days misses the relationship-building window. Fix: start at 90 days with value reinforcement, not pricing — 90/60/30/14/7 cadence.
+- **No behavioral branching.** — Sending email #3 to someone who never opened email #1 wastes sends and damages sender reputation. Fix: use behavioral triggers — if no opens in 14 days, shift to re-engagement track; if they click pricing, route to Evaluator track.
+- **Stage conversion not measured.** — Running drips without tracking how many contacts move from stage N to N+1 means you're flying blind. Fix: instrument every drip with stage conversion rate and time-in-stage metrics.
+- **Over-emailing customers.** — Welcome drip + expansion drip + NPS follow-up + product update — all hitting the same person in one week. Fix: build a contact frequency cap into your automation; no more than 2 marketing emails per week to any active customer.
 
 ### [mql-nurture](skills/lifecycle/mql-nurture/SKILL.md)
 
-- **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
-- **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
-- **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
+- **Single-track nurture.** — Every MQL gets the same drip regardless of source, persona, or buying stage. Fix: build at least 3 tracks gated by acquisition source — Researcher (content download), Evaluator (pricing/comparison page), Event Attendee (webinar).
+- **Product-heavy email ratio.** — Every email asks for a demo and provides zero educational value — unsubscribe rates climb. Fix: enforce 80/20 educational-to-product ratio; the 5th email in a track should be the first hard CTA.
+- **No behavioral branching.** — Contacts keep receiving email #4 when they never opened #1. Fix: implement engagement-based routing — no opens for 30 days triggers re-engagement track; pricing page visit triggers Evaluator track.
+- **Forever nurture.** — Contacts in nurture for 18 months with no engagement drain sender reputation and ESP budget. Fix: hard exit at 6 months of no engagement; suppress from all nurture at 12 months; retain in database for reactivation plays only.
+- **MQL definition drift.** — Without a locked scoring model, 'MQL' becomes whatever sales asks for this week. Fix: publish the scoring model, lock thresholds (MQL >40, SQL >70), and require RevOps sign-off to change weights.
 
 ### [onboarding-sequences](skills/lifecycle/onboarding-sequences/SKILL.md)
 
@@ -1237,9 +1241,11 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ### [re-engagement](skills/lifecycle/re-engagement/SKILL.md)
 
-- **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
-- **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
-- **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
+- **'We miss you' framing.** — Generic emotional appeals signal template outreach and produce low response. Fix: open with a specific change since they last engaged — product improvement, new integration, industry-relevant case study.
+- **Same treatment for all dormancy levels.** — A 3-month-dormant lead and an 18-month-dead lead are not the same audience. Fix: segment by recency — cold gets full sequence, frozen gets condensed, dead gets one email before suppression.
+- **No sunset policy.** — Contacts receive re-engagement emails indefinitely, damaging sender reputation and burning ESP budget. Fix: hard stop after defined touch count; 6-month cooldown before second attempt; suppress after second sequence failure.
+- **Offering discounts to recent churn.** — A customer who cancelled last month for a product gap won't return for 10% off. Fix: lead with product changes, not price — 'we fixed the thing you left over' converts better than 'come back for less.'
+- **Treating lapsed users as churned.** — A customer who stopped using but is still paying needs a health intervention, not a win-back offer. Fix: separate lapsed-user play (usage recovery, CSM outreach) from churned-customer play (product changes, return offer).
 
 ## management-leadership
 
@@ -1518,21 +1524,27 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ### [hiring-signal-play](skills/sales-plays/hiring-signal-play/SKILL.md)
 
-- **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
-- **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
-- **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
+- **Waiting for the job posting to close.** — Contacting weeks after the hire is made means competing with tools they already chose. Fix: monitor for the posting itself — reach out to the CEO during the first 2 weeks while budget is fresh.
+- **Treating all hiring signals equally.** — A 'VP Sales' posting at a 15-person startup signals build-from-scratch; the same title at a 500-person company may mean replacement, not greenfield. Fix: weight by company stage.
+- **Generic 'I see you're hiring' opener.** — Every vendor with a job alert can say this. Fix: reference specific role requirements from the job description and connect them to a concrete operational problem.
+- **Contacting only the new hire.** — The CEO/Founder who approved the budget has context the new hire doesn't yet have. Fix: dual-track outreach — CEO during posting period, new hire during evaluation period.
+- **No urgency after Day 60.** — New hires make most tool decisions in their first 60-90 days. Fix: if no engagement by Day 60, escalate to executive-level outreach with a value proposition tied to the new hire's announced priorities.
 
 ### [job-change-play](skills/sales-plays/job-change-play/SKILL.md)
 
-- **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
-- **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
-- **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
+- **Contacting Day 1 of the new role.** — The first week is onboarding chaos — they're not evaluating tools. Fix: wait until Day 14-21 when they've surfaced what's broken and are assessing what they need.
+- **'Congrats on the new role' as the entire opener.** — This wastes the warm permission a job change creates. Fix: bridge past success to new context — reference what they accomplished at the old company and connect it to challenges their new company likely faces.
+- **Forgetting the old company.** — When a champion leaves, the replacement inherits a relationship they didn't build. Fix: reach out to the new contact within 5 days with account history, usage data, and an offer to help them look good during the transition.
+- **CRM records left stale.** — A changed contact with old company data means outreach goes to dead email and pipeline attribution breaks. Fix: update contact records, create the new opportunity at the new company, and tag both records for appropriate follow-up.
+- **Treating every job change as equal.** — A SDR moving to a new SDR role carries less buying power than a VP Sales moving to a CRO role. Fix: tier signals by seniority and function — exec moves get immediate personal outreach; IC moves get automated nurture.
 
 ### [product-launch-play](skills/sales-plays/product-launch-play/SKILL.md)
 
-- **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
-- **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
-- **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
+- **Trashing the competitor launch.** — 'Their new feature is terrible' burns credibility. Fix: acknowledge the launch neutrally, then offer a nuanced perspective — 'The feature addresses [problem]. Most teams find that [nuanced take].'
+- **Waiting for the news cycle.** — Sending a competitive displacement email two weeks after launch means the prospect already formed their opinion. Fix: rapid response within 48 hours.
+- **No active-deal triage.** — When a competitor launches something new, your existing pipeline is at risk. Fix: immediately identify every open deal where that competitor is involved, brief your champion, and reassess MEDDICC.
+- **Target account launch = generic congratulations.** — The same opener every vendor sends. Fix: connect their launch initiative to a specific operational challenge — 'When companies launch [product type], they typically need [capability]. How are you handling that?'
+- **Ignoring that launches create new buying committees.** — A product launch forms a new team — new decision-makers, new budget, new tool requirements. Fix: map the new initiative's org chart, not the existing one, and reach the people who just got budget.
 
 ## sales-revops
 
