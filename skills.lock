@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-07-07T18:49:53+00:00",
+  "generated_at": "2026-07-07T18:58:32+00:00",
   "total_skills": 205,
   "skills": {
     "abm/abm-1-to-1": {
@@ -298,8 +298,8 @@
         "aeo-strategy",
         "SKILL.md"
       ],
-      "sha256": "5a1b2064383e077da74502421808b804cfbf384913135a3f9ef7fcdcc5bb0780",
-      "size_bytes": 7729
+      "sha256": "b37cfa0172f36f5a684f9e5b5b1bfa9f973dbeefe7715e9e1e3151e203b59c79",
+      "size_bytes": 7982
     },
     "content-seo/citation-harvesting": {
       "path": [
@@ -307,8 +307,8 @@
         "citation-harvesting",
         "SKILL.md"
       ],
-      "sha256": "7fb7d7b54f34c9944844f0ce8c49d13f1586a951f32bb9e1f332604b204f2068",
-      "size_bytes": 5975
+      "sha256": "5b63ffad1c80c64df73b696e4608382d3d42636d3a764d14d3b7add54f1e4ab1",
+      "size_bytes": 6826
     },
     "content-seo/faq-seo": {
       "path": [
@@ -316,8 +316,8 @@
         "faq-seo",
         "SKILL.md"
       ],
-      "sha256": "10a6ede2bbb25adcdd9c76350b5763aec7425f8d50ca3de4df5321d4f248901a",
-      "size_bytes": 5867
+      "sha256": "c877bd42ff006e4f676b92ff889b4f536116f07a92e3b19db0e9c70469e27bef",
+      "size_bytes": 6183
     },
     "content-seo/pillar-pages": {
       "path": [
@@ -343,8 +343,8 @@
         "seo-strategy",
         "SKILL.md"
       ],
-      "sha256": "2fab190a46705fe1e22b5975acc470115feaa08d4baa1066117db73c62c2ba39",
-      "size_bytes": 6854
+      "sha256": "c9e06ec67a5f53f98557c6c068364c851afe6f48d4e5421af1fc048b56f0c722",
+      "size_bytes": 6940
     },
     "creative/ad-creative-strategy": {
       "path": [
@@ -514,8 +514,8 @@
         "support-tool-stack",
         "SKILL.md"
       ],
-      "sha256": "7c2b7513a643add85bd7ab8cf4969243da548d6591acf08d4ed45105c0e75a6a",
-      "size_bytes": 14747
+      "sha256": "6465500be8a1face564ea252622b2b5829ac6bc94a4b1b8722aae47c3cf9756f",
+      "size_bytes": 15986
     },
     "demand-gen/content-syndication": {
       "path": [
@@ -613,7 +613,7 @@
         "ui-ux-gtm",
         "SKILL.md"
       ],
-      "sha256": "6d0fec972de3bc1e22a1f3e314c7e1ee0776db64739a87898572af1522df9f93",
+      "sha256": "1d0f4d2a7edbf61e9c135e8e1254331f3a641223457382426a244d7718e71661",
       "size_bytes": 15811
     },
     "events/conference-strategy": {
@@ -1099,8 +1099,8 @@
         "customer-marketing",
         "SKILL.md"
       ],
-      "sha256": "a9f8ace15b18b11b9d56b928945b3cffb278df92315216433c73b3d5d089e91e",
-      "size_bytes": 9925
+      "sha256": "5e01299ba89af4cb875d42691bddc9eb4849bd40cbe6eb90034d389c6ea011b5",
+      "size_bytes": 10704
     },
     "growth/expansion-selling": {
       "path": [
@@ -1189,8 +1189,8 @@
         "inbound-triage",
         "SKILL.md"
       ],
-      "sha256": "63f306d22c4929d79ba3bf5f7049d2b3b43844d0e0d1f3a4ad07972a1c5e1065",
-      "size_bytes": 7659
+      "sha256": "dece4d3bea4241d78e37d75b5a2912e090fa6e93cdd32520e198ddea7c23f2ec",
+      "size_bytes": 8264
     },
     "inbound/landing-pages": {
       "path": [

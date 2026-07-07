@@ -12,8 +12,26 @@ metadata:
   version: "2.4.0"
   author: LeadMagic
   category: growth
-  tags: [customer-marketing, advocacy, case-studies, references, testimonials, reviews, community]
-  related_skills: [review-platforms, cs-playbooks, case-study-builder, social-media-strategy, content-marketing, referral-programs, gtm-spend-management]
+  tags:
+    [
+      customer-marketing,
+      advocacy,
+      case-studies,
+      references,
+      testimonials,
+      reviews,
+      community,
+    ]
+  related_skills:
+    [
+      review-platforms,
+      cs-playbooks,
+      case-study-builder,
+      social-media-strategy,
+      content-marketing,
+      referral-programs,
+      gtm-spend-management,
+    ]
   frameworks:
     - "Bain & Company — NPS (Net Promoter System, Fred Reichheld)"
     - "Gainsight — Customer Advocacy Maturity Model"
@@ -56,16 +74,16 @@ viral", "reputation management", "bad press"
 
 ### Phase 1: The Advocacy Ladder
 
-| Level | What Customer Does | Required Health | Reward |
-|---|---|---|---|
-| 1. Logo Usage | Allows logo on website | Any paying customer | Featured |
-| 2. Written Review | G2/Capterra review | NPS > 7 | $25 gift card |
-| 3. Quote/Testimonial | Named quote on website | NPS > 8, 6+ months | Featured + swag |
-| 4. Case Study | Full story with metrics | NPS > 8, clear results | Co-marketing + backlink |
-| 5. Reference Call | Takes prospect calls | NPS > 8, available | Priority support + gifts |
-| 6. Speaking/Webinar | Co-presents at event/webinar | NPS > 9, articulate | Travel + honorarium |
-| 7. Advisory Board | Product feedback, strategy | Power user, invested | Equity or honorarium |
-| 8. Community Leader | Runs user group/chapter | Superuser | Recognition + access |
+| Level                | What Customer Does           | Required Health        | Reward                   |
+| -------------------- | ---------------------------- | ---------------------- | ------------------------ |
+| 1. Logo Usage        | Allows logo on website       | Any paying customer    | Featured                 |
+| 2. Written Review    | G2/Capterra review           | NPS > 7                | $25 gift card            |
+| 3. Quote/Testimonial | Named quote on website       | NPS > 8, 6+ months     | Featured + swag          |
+| 4. Case Study        | Full story with metrics      | NPS > 8, clear results | Co-marketing + backlink  |
+| 5. Reference Call    | Takes prospect calls         | NPS > 8, available     | Priority support + gifts |
+| 6. Speaking/Webinar  | Co-presents at event/webinar | NPS > 9, articulate    | Travel + honorarium      |
+| 7. Advisory Board    | Product feedback, strategy   | Power user, invested   | Equity or honorarium     |
+| 8. Community Leader  | Runs user group/chapter      | Superuser              | Recognition + access     |
 
 ### Phase 2: Case Study Engine
 
@@ -97,12 +115,12 @@ meetups, virtual roundtables. Start small. One format. Grow from there.
 
 When incidents threaten advocacy and pipeline trust — load **`references/crisis-management-playbook.md`** (Pattern 33). Executive war room → `gtm-leadership`.
 
-| Crisis signal | Marketing action |
-|---|---|
-| Outage / breach | Pause scheduled campaigns; unify with status page + holding statement |
-| Viral negative G2/TR | Respond <24h; no cash incentives for positive reviews during incident |
-| Bad press | CEO/comms lead only; counsel for Sev 3+ |
-| Churn wave / NRR story | Stop reference asks; honest customer email if product-related |
+| Crisis signal          | Marketing action                                                      |
+| ---------------------- | --------------------------------------------------------------------- |
+| Outage / breach        | Pause scheduled campaigns; unify with status page + holding statement |
+| Viral negative G2/TR   | Respond <24h; no cash incentives for positive reviews during incident |
+| Bad press              | CEO/comms lead only; counsel for Sev 3+                               |
+| Churn wave / NRR story | Stop reference asks; honest customer email if product-related         |
 
 **Chris Walker — dark social:** Buyers discuss vendor failures in Slack/DMs — monitor via CS/sales, not just public mentions. → `references/chris-walker-mental-models.md`
 
@@ -114,11 +132,11 @@ When incidents threaten advocacy and pipeline trust — load **`references/crisi
 **External creators** (paid) vs **employee advocates** (enabled) vs **customer
 champions** (advocacy ladder) — three different programs; do not conflate.
 
-| Program | Owner | Canonical reference |
-|---|---|---|
-| Paid LinkedIn creators | Marketing | `references/b2b-influencer-strategy.md` |
-| Employee advocacy | Marketing + HR | Advocacy ladder + `social-selling` SSI |
-| Customer champions | CS + Marketing | Levels 4–8 above |
+| Program                | Owner          | Canonical reference                     |
+| ---------------------- | -------------- | --------------------------------------- |
+| Paid LinkedIn creators | Marketing      | `references/b2b-influencer-strategy.md` |
+| Employee advocacy      | Marketing + HR | Advocacy ladder + `social-selling` SSI  |
+| Customer champions     | CS + Marketing | Levels 4–8 above                        |
 
 **Wishly-aligned minimum:** 90-day bundle (posts + newsletter + co-authored asset);
 ICP overlap check before sign; bi-weekly reviews; measurement →
@@ -136,7 +154,7 @@ ICP overlap check before sign; bi-weekly reviews; measurement →
 ## Common Pitfalls
 
 1. **Asking for favors without rewards.** "Can you write a review?" with nothing
-   in return. Fix: Every advocacy request includes a reward — gift card, swag,
+   in return. Fix: Every advocacy request includes a reward — charity donation, swag,
    early access, co-marketing.
 2. **Over-using references.** Same 3 customers do 10 reference calls each.
    They burn out. Fix: Cap at 2-3/quarter. Rotate.
@@ -144,7 +162,6 @@ ICP overlap check before sign; bi-weekly reviews; measurement →
    a case study. Fix: Every case study has before/after metrics.
 4. **No review response.** Negative G2 review sits unanswered for months.
    Prospects see it. Trust evaporates. Fix: Respond within 24 hours. Every time.
-
 
 ## Output Format
 
@@ -162,6 +179,7 @@ milestones for each program component.
 ## Quality Check
 
 Before delivering, verify:
+
 - [ ] All required sections complete
 - [ ] Output matches the user's stated need
 - [ ] No vague or unsupported claims

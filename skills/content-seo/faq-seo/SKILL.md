@@ -12,14 +12,15 @@ metadata:
   category: content-seo
   tags: [content-seo, faq, featured-snippets, people-also-ask, questions]
   frameworks:
-    - "Google Featured Snippet Optimization"
-    - "FAQ Schema Best Practices"
+    - "Google Search Central — SEO Starter Guide"
+    - "Google Search Central — SEO Starter Guide"
     - "Google Search Central — SEO Starter Guide"
 ---
 
 # FAQ SEO
 
 ## Overview
+
 FAQ content captures featured snippets (position zero), People Also Ask boxes,
 and voice search results. These are the highest-visibility SERP features —
 and they're often the lowest-competition ranking opportunities. This skill
@@ -27,11 +28,16 @@ covers question-driven content strategy.
 
 ## Authoritative Foundations
 
-- **Google Featured Snippet Optimization** — Named methodology governing recommendations in this skill's process.
-- **FAQ Schema Best Practices** — Named methodology governing recommendations in this skill's process.
+- **Google Search Central — SEO Starter Guide** — Google's foundational SEO resource with
+  structured data documentation, FAQ schema guidance, and content quality standards.
+- **Schema.org FAQPage Specification** — Structured data standard enabling rich results
+  and AI engine parsing of question-and-answer content.
+- **Ahrefs — People Also Ask Mining** — Research methodology for identifying and
+  prioritizing question-based content from search engine PAA boxes.
 - **Google Search Central — SEO Starter Guide** — SEO Starter Guide
 
 ## When to Use
+
 - "Build FAQ content"
 - "Target featured snippets"
 - "People Also Ask strategy"
@@ -41,6 +47,7 @@ covers question-driven content strategy.
 ## Step-by-Step Process
 
 ### Phase 1: Question Mining
+
 Find the questions your ICP is asking:
 
 - **Google People Also Ask:** Search your core keywords. Mine the PAA boxes.
@@ -57,7 +64,9 @@ Find the questions your ICP is asking:
   missing that you can own?
 
 ### Phase 2: Question Prioritization
+
 Score each question on:
+
 - **Search volume:** 50+ monthly searches preferred
 - **Business relevance:** Does answering this lead to your product?
 - **Featured snippet opportunity:** Does the current snippet suck? (Short answer,
@@ -66,9 +75,11 @@ Score each question on:
   page currently ranking.
 
 ### Phase 3: FAQ Content Structure
+
 For each question, create a dedicated section:
 
 **Format for featured snippets:**
+
 - **Question as H2 or H3:** Exact or near-exact match to the query
 - **Answer in 40-60 words:** Clear, definitive, authoritative. Start with the
   answer, then elaborate. This is what Google pulls for the snippet.
@@ -77,6 +88,7 @@ For each question, create a dedicated section:
 - **Related links:** Link to deeper content on the topic
 
 **FAQ page structure:**
+
 - Group questions by topic (H2 per topic group)
 - 10-20 questions per page
 - FAQ schema markup on every question-answer pair
@@ -84,18 +96,22 @@ For each question, create a dedicated section:
 - CTA after the most business-relevant question
 
 ### Phase 4: Schema Implementation
+
 Implement FAQ schema on every question page:
+
 ```json
 {
   "@type": "FAQPage",
-  "mainEntity": [{
-    "@type": "Question",
-    "name": "What is email verification?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Email verification is the process of..."
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is email verification?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Email verification is the process of..."
+      }
     }
-  }]
+  ]
 }
 ```
 
@@ -103,6 +119,7 @@ This makes your content eligible for rich results in Google — the expandable
 Q&A format that takes up significant SERP real estate.
 
 ### Phase 5: Measurement
+
 - **Featured snippet wins:** Track which questions you own the snippet for
 - **PAA appearances:** Track which questions you appear in the PAA box
 - **FAQ traffic:** Organic traffic to FAQ pages
@@ -112,14 +129,14 @@ Q&A format that takes up significant SERP real estate.
   with some filtering)
 
 ## Output Format
+
 FAQ strategy document with: question inventory, prioritization matrix, content
 template, schema implementation, and measurement dashboard.
-
-
 
 ## Quality Check
 
 Before delivering, verify:
+
 - [ ] All required sections are complete
 - [ ] Output matches the user's stated need
 - [ ] Named frameworks are cited for key recommendations
@@ -141,4 +158,5 @@ Before delivering, verify:
 - `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 4)
 
 ## Related Skills
+
 - seo-strategy, aeo-strategy, pillar-pages, content-marketing, landing-pages

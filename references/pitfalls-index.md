@@ -1018,7 +1018,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ### [customer-marketing](skills/growth/customer-marketing/SKILL.md)
 
-- **Asking for favors without rewards.** — "Can you write a review?" with nothing in return. Fix: Every advocacy request includes a reward — gift card, swag, early access, co-marketing.
+- **Asking for favors without rewards.** — "Can you write a review?" with nothing in return. Fix: Every advocacy request includes a reward — charity donation, swag, early access, co-marketing.
 - **Over-using references.** — Same 3 customers do 10 reference calls each. They burn out. Fix: Cap at 2-3/quarter. Rotate.
 - **Publishing case studies without metrics.** — "Acme Corp loves us" is not a case study. Fix: Every case study has before/after metrics.
 - **No review response.** — Negative G2 review sits unanswered for months. Prospects see it. Trust evaporates. Fix: Respond within 24 hours. Every time.

@@ -18,10 +18,10 @@
 
 ## Top Authority Signals
 
+- Google Search Central — SEO Starter Guide (10 skills)
 - DAMA-DMBOK Data Quality Dimensions (7 skills)
 - Force Management Command of the Message (7 skills)
 - Aaron Ross — Predictable Revenue (6 skills)
-- Google Search Central — SEO Starter Guide (6 skills)
 - Outreach — Sales Engagement Cadence Design (6 skills)
 - Paul Graham — Do Things That Do Not Scale (6 skills)
 - Richard van der Blom (Just Connecting) — LinkedIn Algorithm Insights Report (6 skills)
@@ -73,7 +73,7 @@
 
 ### content-seo (6)
 - **aeo-strategy** — Answer Engine Optimization — optimize content for AI search engines (ChatGPT, Perplexity, Gemini, Claude). Triggers on: "AEO", "answer engine optimization", "AI search", "generati…
-- **citation-harvesting** — Systematically build backlinks through citations, mentions, and digital PR — HARO, source-blogger outreach, data-driven PR. Triggers on: "citation harvesting", "backlink building"…
+- **citation-harvesting** — Systematically build backlinks through citations, mentions, and digital PR — Qwoted, Muck Rack, source-blogger outreach, data-driven PR. Triggers on: "citation harvesting", "backl…
 - **faq-seo** — Build FAQ pages that capture featured snippets and People Also Ask traffic — question-driven content strategy. Triggers on: "FAQ SEO", "featured snippet", "People Also Ask", "ques…
 - **pillar-pages** — Design and build pillar pages with topic clusters — comprehensive hub pages that rank for high-intent keywords. Triggers on: "pillar page", "topic cluster", "hub page", "cornersto…
 - **pseo-strategy** — Programmatic SEO — build scalable, template-driven content pages for long-tail keywords. Triggers on: "pSEO", "programmatic SEO", "scalable SEO", "template SEO", "mass content gen…

@@ -12,7 +12,8 @@ metadata:
   category: content-seo
   tags: [content-seo, AEO, AI-search, answer-engine, generative-search]
   frameworks:
-    - "AEO Framework"
+    - "Google AI Overviews — Optimization for Generative Search"
+    - "Google Search Central — SEO Starter Guide"
     - "Google Search Generative Experience Guidelines"
     - "Google Search Central — SEO Starter Guide"
 ---
@@ -20,6 +21,7 @@ metadata:
 # Answer Engine Optimization (AEO)
 
 ## Overview
+
 AI search engines (ChatGPT, Perplexity, Gemini, Claude) are capturing 10-30%
 of B2B search traffic. Traditional SEO doesn't optimize for AI answers.
 AEO ensures your content is the source AI engines cite when users ask questions
@@ -27,11 +29,14 @@ in your domain. This skill covers the strategy.
 
 ## Authoritative Foundations
 
-- **AEO Framework** — Named methodology governing recommendations in this skill's process.
+- **Google AI Overviews — Optimization for Generative Search** — Google's guidance for optimizing
+  content to appear in AI-generated summaries and AI Mode results.
+- **Google Search Central — SEO Starter Guide** — SEO Starter Guide
 - **Google Search Generative Experience Guidelines** — Named methodology governing recommendations in this skill's process.
 - **Google Search Central — SEO Starter Guide** — SEO Starter Guide
 
 ## When to Use
+
 - "Optimize for AI search"
 - "AEO strategy"
 - "Get cited by ChatGPT"
@@ -41,7 +46,9 @@ in your domain. This skill covers the strategy.
 ## Step-by-Step Process
 
 ### Phase 1: Understand How AI Search Works
+
 AI search engines:
+
 1. Receive a user query
 2. Search the web for relevant sources (often using Bing/Google APIs)
 3. Read the top sources
@@ -52,6 +59,7 @@ Your goal: be the source they cite. This requires being the most authoritative,
 clear, and well-structured source on the topic.
 
 ### Phase 2: AEO Content Principles
+
 - **Authoritative voice:** Cite specific data, name specific experts, reference
   specific studies. AI engines weight named sources higher.
 - **Clear structure:** Use H2/H3 headers that mirror the questions people ask.
@@ -66,6 +74,7 @@ clear, and well-structured source on the topic.
   parse your content structure.
 
 ### Phase 3: Content Formats AI Engines Prefer
+
 - **Definitions:** "What is [X]?" — clear, authoritative definition within 50 words
 - **Comparisons:** "[X] vs [Y]" — structured comparison table, clear recommendation
 - **How-to guides:** Step-by-step with numbered steps, clear prerequisites
@@ -74,6 +83,7 @@ clear, and well-structured source on the topic.
 - **FAQ pages:** Question-answer format, grouped by topic
 
 ### Phase 4: Technical AEO
+
 - **Indexability:** AI engines can't cite content they can't crawl. Ensure
   your content is publicly accessible (no paywalls, no login walls).
 - **Page speed:** AI engines time out on slow pages. Core Web Vitals passing.
@@ -83,6 +93,7 @@ clear, and well-structured source on the topic.
   content pages with descriptions (emerging standard for AI crawlability).
 
 ### Phase 5: Measurement
+
 - **AI citation tracking:** Monitor whether your content is cited in AI answers.
   Tools are emerging for this; currently manual sampling works.
 - **Brand mentions in AI:** Track whether your brand appears in AI answers vs
@@ -92,15 +103,15 @@ clear, and well-structured source on the topic.
   traditional SEO rankings too.
 
 ## Output Format
+
 AEO strategy document with: AI search landscape analysis, content optimization
 guidelines, content format priorities, technical implementation checklist, and
 measurement framework.
 
-
-
 ## Quality Check
 
 Before delivering, verify:
+
 - [ ] All required sections are complete
 - [ ] Output matches the user's stated need
 - [ ] Named frameworks are cited for key recommendations
@@ -149,7 +160,6 @@ A strong output from this skill includes:
 - For mid-market: include workflow ownership, handoffs, integrations, and enablement assets.
 - For enterprise: include governance, risk, procurement, stakeholder mapping, and proof requirements.
 
-
 ## Execution Artifacts
 
 - `references/framework-notes.md` — AEO content principles, schema checklist, Pattern 25 routing
@@ -159,4 +169,5 @@ A strong output from this skill includes:
 - `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 4)
 
 ## Related Skills
+
 - seo-strategy, pseo-strategy, content-marketing, pillar-pages, faq-seo

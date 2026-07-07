@@ -14,7 +14,15 @@ metadata:
   author: LeadMagic
   category: inbound
   tags: [inbound, triage, routing, qualification, lead-management]
-  related_skills: [lead-scoring, pipeline-management, crm-integration, sales-enablement, website-visitor-identification, icp-scoring]
+  related_skills:
+    [
+      signal-scoring,
+      pipeline-management,
+      crm-integration,
+      sales-enablement,
+      website-visitor-identification,
+      icp-scoring,
+    ]
   frameworks:
     - "Winning by Design SPICED Lifecycle"
     - "SiriusDecisions Demand Waterfall"
@@ -70,13 +78,13 @@ fit-based routing (not volume-based MQL inflation). Canonical playbook →
 
 ### Phase 1: Define Lead Stages
 
-| Stage | Definition | Qualification Criteria | Owner |
-|---|---|---|---|
-| Lead | Any identified contact | Has email, some interest signal | Marketing |
-| MQL | Fits ICP + engaged | Firmographic fit + behavior threshold | Marketing → SDR |
-| SQL | Ready for sales conversation | MQL + explicit buying signal or demo request | Sales |
-| PQL (if PLG) | Used product, upgrade potential | Trial/freemium + usage threshold | Product + Sales |
-| SAL | SQL accepted by rep | Sales confirms qualification | Sales |
+| Stage        | Definition                      | Qualification Criteria                       | Owner           |
+| ------------ | ------------------------------- | -------------------------------------------- | --------------- |
+| Lead         | Any identified contact          | Has email, some interest signal              | Marketing       |
+| MQL          | Fits ICP + engaged              | Firmographic fit + behavior threshold        | Marketing → SDR |
+| SQL          | Ready for sales conversation    | MQL + explicit buying signal or demo request | Sales           |
+| PQL (if PLG) | Used product, upgrade potential | Trial/freemium + usage threshold             | Product + Sales |
+| SAL          | SQL accepted by rep             | Sales confirms qualification                 | Sales           |
 
 ### Phase 2: Build the Triage Workflow
 
@@ -106,13 +114,13 @@ Person-level visitor alerts use separate guardrails; default path is company ID
 
 ### Phase 3: Speed-to-Lead SLAs
 
-| Touch | Target Time | Action |
-|---|---|---|
-| 1st touch | <5 minutes | Auto-response with calendar link + qualifying question |
-| 2nd touch | <15 minutes | Value drop + booking link |
-| 3rd touch | <2 hours | Nudge + social proof |
-| 4th touch | Same day | Call + personalized email |
-| 5th touch | 24 hours | Final attempt before nurture |
+| Touch     | Target Time | Action                                                 |
+| --------- | ----------- | ------------------------------------------------------ |
+| 1st touch | <5 minutes  | Auto-response with calendar link + qualifying question |
+| 2nd touch | <15 minutes | Value drop + booking link                              |
+| 3rd touch | <2 hours    | Nudge + social proof                                   |
+| 4th touch | Same day    | Call + personalized email                              |
+| 5th touch | 24 hours    | Final attempt before nurture                           |
 
 ### Phase 4: Exceptions and Escalation
 
@@ -124,6 +132,7 @@ Person-level visitor alerts use separate guardrails; default path is company ID
 ## Output Format
 
 Inbound triage workflow diagram + SLA document:
+
 ```
 # Inbound Triage Workflow
 

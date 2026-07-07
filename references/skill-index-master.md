@@ -82,7 +82,7 @@ SEO strategy, pillars, pSEO, AEO, citation harvesting. **Start skill:** `seo-str
 | Skill | One-line |
 |---|---|
 | `aeo-strategy` | Answer Engine Optimization — optimize content for AI search engines (ChatGPT, Perplexity,… |
-| `citation-harvesting` | Systematically build backlinks through citations, mentions, and digital PR — HARO, source… |
+| `citation-harvesting` | Systematically build backlinks through citations, mentions, and digital PR — Qwoted, Muck… |
 | `faq-seo` | Build FAQ pages that capture featured snippets and People Also Ask traffic — question-dri… |
 | `pillar-pages` | Design and build pillar pages with topic clusters — comprehensive hub pages that rank for… |
 | `pseo-strategy` | Programmatic SEO — build scalable, template-driven content pages for long-tail keywords.… |

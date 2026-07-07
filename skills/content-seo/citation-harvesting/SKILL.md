@@ -2,17 +2,20 @@
 name: citation-harvesting
 description: >-
   Systematically build backlinks through citations, mentions, and digital PR —
+  Qwoted, Muck Rack, source-blogger outreach, data-driven PR. Triggers on: "citation harvesting",
+  "backlink building", "digital PR", "link building".
   HARO, source-blogger outreach, data-driven PR. Triggers on: "citation harvesting",
-  "backlink building", "HARO", "digital PR", "link building".
+
 license: MIT
 compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: content-seo
-  tags: [content-seo, citations, backlinks, HARO, digital-pr, link-building]
+  tags: [content-seo, citations, backlinks, digital-pr, link-building]
   frameworks:
-    - "Digital PR Framework"
+    - "Moz Link Building Guide"
+    - "Google Search Central — SEO Starter Guide"
     - "Moz Link Building Guide"
     - "Google Search Central — SEO Starter Guide"
 ---
@@ -20,6 +23,7 @@ metadata:
 # Citation Harvesting & Link Building
 
 ## Overview
+
 Citation harvesting is the most efficient link building strategy for B2B SaaS:
 respond to journalist and blogger source requests with expert commentary, and
 earn backlinks from high-authority publications. This skill covers the full
@@ -27,23 +31,34 @@ citation harvesting motion.
 
 ## Authoritative Foundations
 
-- **Digital PR Framework** — Named methodology governing recommendations in this skill's process.
+- **Moz Link Building Guide** — Authoritative resource covering link building strategy,
+  citation sources, and quality evaluation for B2B link acquisition.
+- **Google Search Central — SEO Starter Guide** — Google's foundational SEO resource
+  covering crawlability, indexing, and ranking best practices.
 - **Moz Link Building Guide** — Named methodology governing recommendations in this skill's process.
 - **Google Search Central — SEO Starter Guide** — SEO Starter Guide
 
 ## When to Use
+
 - "Build backlinks"
 - "Citation harvesting"
 - "Get featured in publications"
-- "HARO strategy"
+- "Digital PR for links"
+- "Get cited by journalist sources"
 - "Digital PR for links"
 
 ## Step-by-Step Process
 
 ### Phase 1: Source Request Monitoring
+
 Monitor these platforms for source requests in your domain:
 
-- **Qwoted:** Modern HARO alternative, better UI, higher quality requests
+- **Qwoted:** Journalist source request platform — high-quality requests, verified journalists
+- **Muck Rack:** PR platform for finding journalists by beat, monitoring coverage, and building media lists
+- **Help a B2B Writer:** Slack community for B2B writers seeking expert sources
+- **SourceBottle:** Free source request platform with daily digests for expert opportunities
+- **Twitter/X:** Search "[your topic] + seeking sources" or "journo request"
+- **LinkedIn:** Follow journalists and editors in your industry
 - **Connectively (formerly HARO):** The original, still high volume
 - **Help a B2B Writer:** Slack community for B2B writers seeking sources
 - **Twitter/X:** Search "[your topic] + seeking sources" or "journo request"
@@ -51,9 +66,11 @@ Monitor these platforms for source requests in your domain:
 - **Subreddit:** r/Journalism, r/PR, r/HARO
 
 ### Phase 2: Response Strategy
+
 Respond within 2-4 hours of request posting. Journalists work on deadlines.
 
 **Response template:**
+
 ```
 Subject: Re: [Their subject line]
 
@@ -74,6 +91,7 @@ Happy to provide more detail or data if helpful.
 ```
 
 **Rules:**
+
 - Lead with the answer. They don't care about you — they care about the quote.
 - Be specific. "According to our data, 67% of..." > "I think it's important..."
 - Be concise. 3-5 sentences total. They're skimming 50 responses.
@@ -81,7 +99,9 @@ Happy to provide more detail or data if helpful.
 - Never pitch your product. This is about being a source, not a vendor.
 
 ### Phase 3: Data-Driven PR
+
 Create original data that journalists want to cite:
+
 - **Industry surveys:** "2026 State of [Industry] — Survey of 500 [ICP]"
 - **Data studies:** "We analyzed 10,000 [X] and found..."
 - **Benchmark reports:** "Average [metric] by [segment]"
@@ -91,7 +111,9 @@ Publish the data on your site. Then proactively pitch it to journalists covering
 your industry. "I have data on [topic] — would it be useful for your piece?"
 
 ### Phase 4: Expert Commentary Database
+
 Build a database of your internal experts and their topics:
+
 - **CEO/Founder:** Industry trends, startup/scale-up, fundraising
 - **CTO/VP Engineering:** Technical architecture, engineering culture, scaling
 - **CRO/VP Sales:** Sales methodology, GTM strategy, pipeline metrics
@@ -102,6 +124,7 @@ When a request comes in that matches an expert, route it to them with a
 pre-written response draft they can customize in 5 minutes.
 
 ### Phase 5: Measurement & ROI
+
 - **Citations earned:** Total mentions and backlinks per month
 - **Domain authority of linking sites:** Weighted by DA/DR
 - **Referral traffic:** Visitors from earned links
@@ -110,14 +133,14 @@ pre-written response draft they can customize in 5 minutes.
 - **Cost:** Time spent (5-10 hours/week) + any tools (Qwoted, monitoring)
 
 ## Output Format
+
 Citation harvesting playbook with: source monitoring setup, response templates,
 data-driven PR calendar, expert database, and measurement dashboard.
-
-
 
 ## Quality Check
 
 Before delivering, verify:
+
 - [ ] All required sections are complete
 - [ ] Output matches the user's stated need
 - [ ] Named frameworks are cited for key recommendations
@@ -139,4 +162,5 @@ Before delivering, verify:
 - `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 5)
 
 ## Related Skills
+
 - seo-strategy, content-marketing, social-media-strategy, founder-brand, podcast-gtm

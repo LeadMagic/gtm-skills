@@ -453,7 +453,7 @@ for (const cat of categories) {
   readme += "\n";
 }
 readme += `## Contributing\n\nSee [CONTRIBUTING.md](CONTRIBUTING.md). New skills must cite named authorities, produce concrete artifacts, pass validation, and avoid private/internal details.\n`;
-fs.writeFileSync(path.join(ROOT, "README.md"), readme);
+// README.md is hand-maintained (viral layout) — do not auto-generate
 
 fs.mkdirSync(PLUGIN_DIR, { recursive: true });
 const plugin = {
@@ -508,5 +508,5 @@ fs.writeFileSync(
 );
 
 console.log(
-  `Generated taxonomy.csv, skill-index-master.md, CLAUDE.md, AGENTS.md, README.md, plugin metadata for ${total} skills across ${categories.length} categories.`,
+  `Generated taxonomy.csv, skill-index-master.md, CLAUDE.md, AGENTS.md, plugin metadata for ${total} skills across ${categories.length} categories.`,
 );

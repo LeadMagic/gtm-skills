@@ -13,8 +13,27 @@ metadata:
   version: "1.0.0"
   author: LeadMagic
   category: customer-success
-  tags: [support, intercom, zendesk, help-desk, ticketing, chatbots, customer-service, macros]
-  related_skills: [cs-playbooks, headless-support, mcp-setup, sla-management, cs-analytics-dashboards, customer-onboarding, automation/tool-selection-stack]
+  tags:
+    [
+      support,
+      intercom,
+      zendesk,
+      help-desk,
+      ticketing,
+      chatbots,
+      customer-service,
+      macros,
+    ]
+  related_skills:
+    [
+      cs-playbooks,
+      headless-support,
+      mcp-setup,
+      sla-management,
+      cs-analytics-dashboards,
+      customer-onboarding,
+      tool-selection-stack,
+    ]
   frameworks:
     - "Intercom — Conversational Support Framework"
     - "Plain — API-first headless support and BYOAI via MCP"
@@ -62,49 +81,53 @@ Choose Intercom when you need Messenger + Fin without engineering a custom porta
 ## Platform Selection by Stage
 
 ### Stage 0: Pre-Launch / $0-500K ARR (Founder Doing Support)
+
 **You need:** Shared inbox. Basic knowledge base. Minimal cost.
 
-| Tool | Pricing | Best For |
-|---|---|---|
-| **Front** | $19-59/seat/mo | Shared inbox with internal comments, assignment |
-| **Help Scout** | $20-65/seat/mo | Docs-first support, clean UX, Beacon widget |
-| **Linear** | $8-14/seat/mo | If support = bug reports / feature requests |
-| **Plain** | Custom / startup program | API-first product, embed support in-app, BYOAI via MCP |
+| Tool           | Pricing                  | Best For                                               |
+| -------------- | ------------------------ | ------------------------------------------------------ |
+| **Front**      | $19-59/seat/mo           | Shared inbox with internal comments, assignment        |
+| **Help Scout** | $20-65/seat/mo           | Docs-first support, clean UX, Beacon widget            |
+| **Linear**     | $8-14/seat/mo            | If support = bug reports / feature requests            |
+| **Plain**      | Custom / startup program | API-first product, embed support in-app, BYOAI via MCP |
 
 **Recommendation:** Front if team has Slack workflow. Help Scout if docs-heavy.
 Plain if engineering team owns support UX and uses Attio-style composable stack.
 
 ### Stage 1: $500K-3M ARR (First CS Hire)
+
 **You need:** Ticketing, SLAs, basic reporting, knowledge base, chat widget.
 
-| Tool | Pricing | Best For |
-|---|---|---|
-| **Intercom** | $29-85/seat/mo | Conversational support + product tours + outbound |
-| **Help Scout** | $20-65/seat/mo | Docs-first, clean workflows, affordable at scale |
-| **Zendesk Suite** | $19-115/seat/mo | Enterprise-ready, complex workflows, ITIL |
+| Tool              | Pricing         | Best For                                          |
+| ----------------- | --------------- | ------------------------------------------------- |
+| **Intercom**      | $29-85/seat/mo  | Conversational support + product tours + outbound |
+| **Help Scout**    | $20-65/seat/mo  | Docs-first, clean workflows, affordable at scale  |
+| **Zendesk Suite** | $19-115/seat/mo | Enterprise-ready, complex workflows, ITIL         |
 
 **Recommendation:** Intercom for product-led SaaS. Help Scout for service-heavy.
 
 ### Stage 2: $3-20M ARR (CS Team 2-10 people)
+
 **You need:** Advanced routing, CSAT surveys, SLAs, integrations, analytics.
 
-| Tool | Pricing | Best For |
-|---|---|---|
-| **Intercom** | $85-132/seat/mo | Full platform: support + product + engagement |
-| **Zendesk Suite** | $69-115/seat/mo | Omnichannel (email, chat, phone, social) |
-| **Front** | $59-109/seat/mo | High-volume shared inbox, rule-based routing |
+| Tool              | Pricing         | Best For                                      |
+| ----------------- | --------------- | --------------------------------------------- |
+| **Intercom**      | $85-132/seat/mo | Full platform: support + product + engagement |
+| **Zendesk Suite** | $69-115/seat/mo | Omnichannel (email, chat, phone, social)      |
+| **Front**         | $59-109/seat/mo | High-volume shared inbox, rule-based routing  |
 
 **Recommendation:** Intercom if product + support integrated. Zendesk if
 multi-channel (phone, social, email).
 
 ### Stage 3: $20M+ ARR (CS Team 10+)
+
 **You need:** Omnichannel, workforce management, QA, AI deflection, enterprise SSO.
 
-| Tool | Pricing | Best For |
-|---|---|---|
+| Tool              | Pricing          | Best For                                                |
+| ----------------- | ---------------- | ------------------------------------------------------- |
 | **Zendesk Suite** | $115-215/seat/mo | Full enterprise: omnichannel, AI agents, workforce mgmt |
-| **Intercom** | $132+/seat/mo | Fin AI agent, product-led enterprise |
-| **ServiceNow** | Custom | ITIL/ITSM-heavy, regulated industries |
+| **Intercom**      | $132+/seat/mo    | Fin AI agent, product-led enterprise                    |
+| **ServiceNow**    | Custom           | ITIL/ITSM-heavy, regulated industries                   |
 
 **Recommendation:** Zendesk Enterprise. It's the standard for a reason.
 
@@ -113,6 +136,7 @@ multi-channel (phone, social, email).
 ### Intercom — Best for Product-Led SaaS
 
 **Core modules:**
+
 - **Inbox:** Shared inbox with team assignments, collision detection
 - **Messenger:** In-app chat widget with AI Fin agent (answers from help center)
 - **Articles:** Knowledge base, public help center
@@ -122,6 +146,7 @@ multi-channel (phone, social, email).
 - **Reports:** CSAT, volume, resolution time, team performance
 
 **Setup checklist:**
+
 1. Connect product events → auto-trigger relevant articles in Messenger
 2. Set up Fin AI agent with help center content (3+ articles to activate)
 3. Configure business hours, auto-reply for after-hours
@@ -132,6 +157,7 @@ multi-channel (phone, social, email).
 8. Integrate with CRM (HubSpot/Salesforce — see tickets in contact timeline)
 
 **Anti-patterns to avoid:**
+
 - Messenger on EVERY page (overwhelming — put on pricing, help, post-signup)
 - Fin AI answering questions it can't handle (test thoroughly before launching)
 - No macros (CS team retypes the same answers 50x/day)
@@ -139,6 +165,7 @@ multi-channel (phone, social, email).
 ### Zendesk — Best for Enterprise and Multi-Channel
 
 **Core modules:**
+
 - **Support:** Ticketing, SLAs, macros, triggers, automations
 - **Guide:** Help center, knowledge base, community forums
 - **Chat:** Live chat widget, AI Answer Bot
@@ -147,6 +174,7 @@ multi-channel (phone, social, email).
 - **Sunshine:** CRM platform (custom objects, workflows)
 
 **Setup checklist:**
+
 1. Define ticket fields (type, priority, product area, customer tier)
 2. Set up SLA policies (first response time, resolution time by priority)
 3. Create triggers (auto-assign, auto-respond, escalate based on keywords)
@@ -159,6 +187,7 @@ multi-channel (phone, social, email).
 10. Set up Explore dashboards for team performance
 
 **Anti-patterns to avoid:**
+
 - Too many ticket fields (agents spend more time categorizing than solving)
 - Overly complex triggers (hard to debug, unexpected side effects)
 - No CSAT follow-up (negative scores without follow-up = churn risk)
@@ -169,6 +198,7 @@ multi-channel (phone, social, email).
 the "forward to colleague → they reply → forward back" dance.
 
 **Key features:**
+
 - Shared inbox with internal-only comments
 - Collision detection (two people can't reply simultaneously)
 - Rules engine for auto-tagging, assignment, routing
@@ -184,6 +214,7 @@ reply workflows. Not great for chat-first or phone-heavy support.
 surfaces relevant articles BEFORE the customer messages you.
 
 **Key features:**
+
 - Docs (knowledge base) tightly integrated with Inbox
 - Beacon widget: contextual article suggestions in-app
 - Saved replies, collision detection, workflows
@@ -198,12 +229,14 @@ complexity. Companies with strong documentation culture.
 UI is optional; GraphQL API and MCP are primary interfaces.
 
 **Key features:**
+
 - Headless customer portal (embed in your product)
 - Threads, customers, tenants, labels, help center
 - Native MCP server for Jesse, Claude, ChatGPT
 - Slack, email, in-app forms, live chat into one queue
 
 **Setup checklist:**
+
 1. Publish 30+ help center articles (same deflection bar as Fin)
 2. Connect Plain MCP in agent IDE (`mcp-setup` — OAuth, read-first)
 3. Configure draft → approve → send workflow for `replyToThread`
@@ -216,16 +249,16 @@ Not a shortcut for non-technical CS — still need KB, SLAs, and human escalatio
 
 ## AI Support Tools
 
-| Tool | What It Does | Best For |
-|---|---|---|
-| **Plain MCP** | BYOAI: agent reads threads/KB, drafts replies | Jesse/Claude + headless stack |
-| **Intercom Fin** | AI agent answers from help center | Deflecting tier-1 questions |
-| **Zendesk AI Agents** | Auto-resolve, suggest macros, triage | Enterprise auto-resolution |
-| **Ada** | No-code chatbot builder | Complex conversation flows |
-| **Forethought** | AI agent with ticket deflection | Reducing ticket volume |
-| **Kapiche** | AI-powered CSAT/NPS text analysis | Understanding WHY scores change |
-| **Klaus/Maestro** | Conversation review / QA scoring | Support quality management |
-| **Gong/Chorus for CS** | Call recording + AI analysis | CSM call coaching |
+| Tool                   | What It Does                                  | Best For                        |
+| ---------------------- | --------------------------------------------- | ------------------------------- |
+| **Plain MCP**          | BYOAI: agent reads threads/KB, drafts replies | Jesse/Claude + headless stack   |
+| **Intercom Fin**       | AI agent answers from help center             | Deflecting tier-1 questions     |
+| **Zendesk AI Agents**  | Auto-resolve, suggest macros, triage          | Enterprise auto-resolution      |
+| **Ada**                | No-code chatbot builder                       | Complex conversation flows      |
+| **Forethought**        | AI agent with ticket deflection               | Reducing ticket volume          |
+| **Kapiche**            | AI-powered CSAT/NPS text analysis             | Understanding WHY scores change |
+| **Klaus/Maestro**      | Conversation review / QA scoring              | Support quality management      |
+| **Gong/Chorus for CS** | Call recording + AI analysis                  | CSM call coaching               |
 
 ## Output Format
 

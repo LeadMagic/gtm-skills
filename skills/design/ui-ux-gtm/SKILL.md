@@ -4,7 +4,7 @@ description: >-
   Design GTM UI/UX patterns — landing pages (hero, proof, CTA), forms
   (progressive disclosure, inline validation), signup flows (activation,
   time-to-value), dashboards (KPI hierarchy, trend indicators), and
-  accessibility (WCAG 2.1 AA). Use when designing or auditing GTM tool
+  accessibility (WCAG 2.2 AA). Use when designing or auditing GTM tool
   interfaces, landing pages, conversion flows, or onboarding experiences.
   Covers conversion-first design, mobile optimization, and A/B test readiness.
 license: MIT
