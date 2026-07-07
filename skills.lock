@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-06-10T04:00:31+00:00",
+  "generated_at": "2026-07-07T18:43:44+00:00",
   "total_skills": 205,
   "skills": {
     "abm/abm-1-to-1": {
@@ -856,8 +856,8 @@
         "founder-brand",
         "SKILL.md"
       ],
-      "sha256": "9b7183fb42d4d2e7e518601ef7bcfe7712fb7cbc094971008d940ae269d48707",
-      "size_bytes": 8984
+      "sha256": "b9466800cb56f93b6da7e08cbf275c86d4aebf0fe9fbd967dfc42e8ce615124a",
+      "size_bytes": 9190
     },
     "founder-led/founder-comp-playbook": {
       "path": [

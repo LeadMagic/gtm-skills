@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# cc-gtm — Smart Claude Code installer for LeadMagic GTM Skills
+# Usage: ./cc-gtm [args]
+# Run: ./cc-gtm --list, ./cc-gtm --bundle outbound-stack, ./cc-gtm (interactive)
+set -euo pipefail
+cd "$(dirname "$0")"
+exec python3 scripts/cc-gtm.py "$@"

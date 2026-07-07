@@ -1,18 +1,41 @@
-# Local agent/session state
+# Local agent / session state (never commit)
+.omo/
+.codegraph/
+*.codegraph
 .hermes/
 
 # Python cache
 __pycache__/
 *.py[cod]
+*.pyo
 
-# Node/cache artifacts
+# Node / npm artifacts
 node_modules/
 .npm/
+npm-debug.log*
 
-# OS/editor noise
+# OS / editor noise
 .DS_Store
+Thumbs.db
 *.swp
 *.swo
+*.swn
+*~
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
 
 # Local installer smoke-test output
 gtm-skills-install-test/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Build artifacts
+dist/
+build/

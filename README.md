@@ -1,89 +1,176 @@
 # GTM Skills
 
-[![Skills](https://img.shields.io/badge/skills-205-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-24-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE)
+[![Skills](https://img.shields.io/badge/skills-205-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-24-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE) [![Stars](https://img.shields.io/github/stars/LeadMagic/gtm-skills?style=social)](https://github.com/LeadMagic/gtm-skills)
 
-**Public repository:** [github.com/LeadMagic/gtm-skills](https://github.com/LeadMagic/gtm-skills)
+**205 production GTM agent skills for Claude Code.** Sales, outbound, prospecting, RevOps, ABM, PLG, customer success, founder-led GTM, analytics, and automation — each with framework-cited playbooks, templates, and QA scripts.
 
-205 production go-to-market skills for AI agents. Built for sales, marketing, outbound, prospecting, enrichment, PLG, analytics, automation, customer success, RevOps, founder-led GTM, and tool operations.
+Not a prompt pack. An agent-skills repository: portable folders with SKILL.md instructions, reference notes, output templates, and validation scripts. Install what you need. Leave the rest.
 
-This is not a prompt pack. It is an agent-skills repository: portable skill folders with instructions, scripts, references, templates, assets, metadata, marketplace publishing, install tooling, and SHA256 integrity verification.
+---
 
-## Public Links
+## Quick Install
 
-| Resource | URL |
-|---|---|
-| Source & issues | [github.com/LeadMagic/gtm-skills](https://github.com/LeadMagic/gtm-skills) |
-| Releases & changelog | [CHANGELOG.md](CHANGELOG.md) |
-| Install guide | [docs/INSTALL.md](docs/INSTALL.md) |
-| Master skill index | [references/skill-index-master.md](references/skill-index-master.md) |
-| Expert catalog | [references/experts.md](references/experts.md) |
-| Pitfalls index | [references/pitfalls-index.md](references/pitfalls-index.md) |
-| Citation metadata | [CITATION.cff](CITATION.cff) |
-| Marketplace install | `gh skill install LeadMagic/gtm-skills` |
-
-## Install
-
-Claude Code marketplace style:
+### Claude Code (Plugin)
 
 ```text
 /plugin marketplace add LeadMagic/gtm-skills
 /plugin install gtm-skills@gtm-skills
 ```
 
-agentskills CLI style:
+### Smart CLI (Pick Your Skills)
 
-```bash
-gh skill install LeadMagic/gtm-skills
-```
-
-Interactive installer:
+Don't want all 205? Pick exactly what you need:
 
 ```bash
 git clone https://github.com/LeadMagic/gtm-skills.git
 cd gtm-skills
-./install.sh
-./install.sh --target all --dry-run
+
+# Interactive menu
+python3 scripts/cc-gtm.py
+
+# Install a category
+python3 scripts/cc-gtm.py --category outbound
+
+# Install a curated bundle
+python3 scripts/cc-gtm.py --bundle outbound-stack
+
+# Install specific skills
+python3 scripts/cc-gtm.py --skills cold-email-strategy,domain-infrastructure
+
+# Claude Desktop mode
+python3 scripts/cc-gtm.py --desktop --bundle startup-essentials
+
+# List everything
+python3 scripts/cc-gtm.py --list
 ```
 
-Full install docs: [docs/INSTALL.md](docs/INSTALL.md).
+Installs to `.claude/skills/gtm-skills/` — Claude Code auto-discovers them.
 
-## Listed On
+### Claude Desktop
 
-Agent-skills directories and submission status:
+1. Run `python3 scripts/cc-gtm.py --desktop --bundle <name> --project ./output`
+2. Upload skill folders to [claude.ai/customize/skills](https://claude.ai/customize/skills)
+3. Paste `claude-desktop-instructions.md` into Project Instructions
+4. Ask Claude: "what GTM skills are available?"
 
-| Directory | Status |
+---
+
+## Curated Bundles
+
+| Bundle | Skills | For |
+|---|---:|---|
+| `outbound-stack` | 7 | Cold email from zero |
+| `prospecting-stack` | 6 | Find and verify leads |
+| `sales-revops-stack` | 8 | Close deals |
+| `founder-gtm` | 7 | Founder-led sales |
+| `inbound-stack` | 6 | Inbound engine |
+| `cs-stack` | 5 | Customer success |
+| `analytics-stack` | 5 | Measure everything |
+| `automation-stack` | 6 | Automate GTM |
+| `abm-stack` | 4 | Account-based marketing |
+| `tools-stack` | 5 | Platform toolkits |
+| `startup-essentials` | 8 | First 8 skills every founder needs |
+
+```bash
+python3 scripts/cc-gtm.py --list-bundles
+```
+
+---
+
+## 24 Categories - 205 Skills
+
+<details>
+<summary><b>Click to expand full catalog</b></summary>
+
+| Category | # | Skills |
+|---|---:|---|
+| **foundation** | 8 | using-gtm-skills, gtm-context, icp-scoring, icp-targeting-tiers, positioning-messaging, pricing-strategy, buyer-psychology, competitive-intel |
+| **outbound** | 9 | cold-email-strategy, cold-email-copywriting, cold-calling, domain-infrastructure, email-deliverability, inbox-setup, sending-platforms, reply-handling, multi-channel-outreach |
+| **prospecting** | 8 | lead-finding, lead-enrichment, email-finding, contact-verification, list-building, signal-scoring, data-enrichment-strategy, social-intent-monitoring |
+| **sales-revops** | 8 | pipeline-management, meeting-prep, deal-desk, demo-scripts, objection-handling, sales-enablement, buyer-indecision, transparency-selling |
+| **analytics** | 13 | gtm-metrics, attribution, campaign-analytics, tracking-plan, a-b-testing, growth-experimentation, gtm-system-architecture, marketing-strategy, paid-advertising, proactive-alerts, event-analytics, deliverability-monitoring, 1p-tagging-pixels |
+| **automation** | 12 | clay-automation, n8n-automation, crm-integration, api-enrichment, waterfall-enrichment, mcp-setup, hubspot-setup, salesforce-setup, attio-setup, ai-sdr-setup, tool-selection-stack, skills-lock |
+| **tools** | 15 | clay-toolkit, sequencing-toolkit, n8n-toolkit, ai-prompts-toolkit, crm-toolkit, analytics-toolkit, clay-loops-toolkit, leadmagic-toolkit, support-toolkit, smartlead-workflows, instantly-sequences, lemlist-setup, outreach-sequences, salesloft-cadences, hubspot-sequences |
+| **founder-led** | 41 | solo-founder-gtm, founder-sales, fundraising-strategy, financial-modeling, pitch-deck-builder, pricing-psychology, saas-metrics-calculator, building-saas, brand-kit, content-led-growth, founder-brand, engineer-to-founder, and 30 more |
+| **inbound** | 8 | content-marketing, inbound-triage, landing-pages, seo-strategy, linkedin-algorithm, linkedin-live-strategy, sales-navigator-prospecting, social-selling, website-visitor-identification |
+| **content-seo** | 6 | seo-strategy, pillar-pages, pseo-strategy, aeo-strategy, faq-seo, citation-harvesting |
+| **creative** | 12 | vibe-marketing, ai-content-creation, ai-video-creation, copywriting, landing-page-copy, ad-creative-strategy, social-media-strategy, content-distribution, growth-hacking-tactics, graphic-design-gtm, v0-lander, vibe-coding |
+| **design** | 7 | pitch-deck-builder, battlecard-builder, case-study-builder, one-pager-builder, roi-calculator, design-system-gtm, ui-ux-gtm |
+| **customer-success** | 7 | customer-onboarding, cs-playbooks, cs-analytics-dashboards, sla-management, headless-support, qbr-planning, support-tool-stack |
+| **abm** | 7 | abm-strategy, account-selection, abm-1-to-1, abm-1-to-few, abm-1-to-many, multi-thread-orchestration, strategic-gifting |
+| **growth** | 5 | expansion-selling, churn-prevention, customer-marketing, referral-programs, review-platforms |
+| **gtm-ops** | 5 | gtm-operations, revops-tech-stack, campaign-governance, gtm-spend-management, gtm-tool-cost-model |
+| **lifecycle** | 5 | mql-nurture, lifecycle-drips, onboarding-sequences, churn-prediction, re-engagement |
+| **management-leadership** | 5 | gtm-leadership, sales-coaching, team-management, revenue-team-onboarding, executive-compensation |
+| **sales-plays** | 5 | funding-signal-play, hiring-signal-play, job-change-play, earnings-signal-play, product-launch-play |
+| **leadmagic** | 6 | leadmagic-cli, leadmagic-mcp, leadmagic-waterfall, leadmagic-bulk-enrichment, leadmagic-job-change, leadmagic-integrations |
+| **demand-gen** | 4 | webinar-strategy, podcast-gtm, paid-social-strategy, content-syndication |
+| **product-led-growth** | 3 | plg-strategy, freemium-optimization, developer-gtm |
+| **events** | 3 | conference-strategy, event-driven-outreach, field-marketing |
+| **partnerships** | 3 | partnership-strategy, co-marketing, integration-partnerships |
+
+</details>
+
+---
+
+## What Makes This Different
+
+- **Artifact-first.** Every skill produces copy, plans, scorecards, runbooks, dashboards, workflows, templates, scripts, and QA checklists.
+- **Authority-backed.** 712 named frameworks from 110+ practitioners: Force Management, Winning by Design, April Dunford, Jeb Blount, Andy Whyte (MEDDICC), Todd Caponi, Chris Walker, Richard van der Blom, Jessie Lizak, Morgan Ingram, Eric Nowoslawski, Joey Gilkey, Jordan Crawford, and more.
+- **Progressive disclosure.** Skill name + description load at startup. Full SKILL.md loads on activation. References, templates, and scripts load on demand.
+- **Validated in CI.** Every skill passes structure validation, reference integrity, and public hygiene checks on every push.
+- **SHA256 integrity.** skills.lock verifies every skill file hash.
+- **Zero telemetry.** Static skills and local scripts only.
+
+---
+
+## How Skills Work
+
+```
+skills/<category>/<skill-name>/
+  SKILL.md                        # Instructions + frontmatter (name, description, triggers)
+  references/framework-notes.md   # Named frameworks, citation anchors
+  templates/output-template.md     # Copy-paste deliverable structure
+  scripts/check-output.py          # Local quality validator
+```
+
+1. **Discovery** — Claude reads name + description from frontmatter
+2. **Activation** — When your task matches, Claude loads SKILL.md
+3. **Execution** — References, templates, and scripts load on demand
+
+---
+
+## Install Guide
+
+| Platform | Command |
 |---|---|
-| [agent-skills.md](https://agent-skills.md) | [Requested](https://github.com/futantan/agent-skills.md/issues/19) |
-| [agenticskills.io](https://agenticskills.io) | [Submit](https://agenticskills.io/submit) |
-| [skills.re](https://skills.re) | [Submit](https://skills.re/submit) |
-| [skillindex.dev](https://skillindex.dev) | [PR #1](https://github.com/gabeosx/agentskillsdir/pull/1) |
-| [theskills.directory](https://theskills.directory) | [Requested](https://github.com/theskillsdirectory/skills/issues/7) |
+| **Claude Code** | `/plugin marketplace add LeadMagic/gtm-skills` then `/plugin install gtm-skills@gtm-skills` |
+| **Smart CLI** | `python3 scripts/cc-gtm.py` (interactive) or `--category` / `--bundle` / `--skills` |
+| **Claude Desktop** | `python3 scripts/cc-gtm.py --desktop --bundle <name>` then upload to [claude.ai/customize/skills](https://claude.ai/customize/skills) |
+| **Claude Code CLI** | `claude plugin marketplace add LeadMagic/gtm-skills --scope user` |
+| **Manual** | Copy skill folders to `.claude/skills/` in your project |
 
-## What Makes This Repo Different
+Full install docs: [docs/INSTALL.md](docs/INSTALL.md)
 
-- **Artifact-first.** Skills produce copy, plans, scorecards, runbooks, dashboards, workflows, templates, scripts, and QA checklists.
-- **Authority-backed.** Every skill cites named operators, vendors, books, frameworks, platform docs, or primary sources instead of vague best practices.
-- **Quality-bar driven.** Public quality bar notes define the standard every skill must meet and track hardening work over time.
-- **Anthropic-style folders.** SKILL.md for instructions; references/, templates/, scripts/, and assets/ for execution resources.
-- **Progressive disclosure.** SKILL.md stays focused; deep tables and templates live in support files.
-- **Marketplace-ready.** Every skill is discoverable by agentskills.io-compatible patterns and validated in CI.
-- **Supply-chain aware.** skills.lock tracks SHA256 for every marketplace-discoverable skill.
-- **No telemetry.** Static skills and local scripts only; no analytics SDKs or hidden network behavior.
+---
 
-## Start Here
+## Top Frameworks Cited
 
-| Goal | Skill |
-|---|---|
-| Route any GTM task | [using-gtm-skills](skills/foundation/using-gtm-skills/SKILL.md) |
-| LinkedIn feed reach (van der Blom) | [linkedin-algorithm](skills/inbound/linkedin-algorithm/SKILL.md) |
-| LinkedIn Live / weekly show (Jessie Lizak / Reveting) | [linkedin-live-strategy](skills/inbound/linkedin-live-strategy/SKILL.md) |
-| Sales Navigator prospecting (Morgan Ingram / AMP) | [sales-navigator-prospecting](skills/inbound/sales-navigator-prospecting/SKILL.md) |
-| Cold outbound architecture | [cold-email-strategy](skills/outbound/cold-email-strategy/SKILL.md) |
-| Named expert lookup | [references/experts.md](references/experts.md) |
+| Authority | Skills |
+|---|---:|
+| Aaron Ross — Predictable Revenue | 6 |
+| Richard van der Blom — LinkedIn Algorithm Insights | 6 |
+| Paul Graham — Do Things That Don't Scale | 5 |
+| Winning by Design — SPICED | 4 |
+| Jessie Lizak — LinkedIn Live Engine | 4 |
+| Pat Spielmann — Cold to Gold | 3 |
+| Eli Schwartz — Product-Led SEO | 3 |
+| Ann Handley — Everybody Writes | 3 |
+| Crossbeam — Ecosystem-Led Growth | 3 |
 
-## LinkedIn Inbound Stack
+Full expert catalog: [references/experts.md](references/experts.md) — 110+ entries with bios, channels, and skill clusters.
 
-The **inbound** category (8 skills) covers LinkedIn GTM end-to-end: **van der Blom** feed mechanics (`linkedin-algorithm`), **Jessie Lizak** Live engine (`linkedin-live-strategy`), **Morgan Ingram** Sales Nav prospecting (`sales-navigator-prospecting`), plus `social-selling`, `founder-brand`, and `website-visitor-identification`. Release history: [CHANGELOG.md](CHANGELOG.md).
+---
 
 ## Repository Quality Signals
 
@@ -91,383 +178,51 @@ The **inbound** category (8 skills) covers LinkedIn GTM end-to-end: **van der Bl
 |---|---|
 | Marketplace-discoverable skills | 205/205 |
 | Categories | 24 |
-| AgentSkills spec | [agentskills.io/specification](https://agentskills.io/specification) via `validate-skills.js` |
-| Artifact triad | `framework-notes.md` + `output-template.md` + `check-output.py` on every skill |
-| CI validation | `npm run verify` |
-| Publish verification | `gh skill publish --dry-run` |
-| Integrity manifest | `skills.lock` |
+| AgentSkills spec | [agentskills.io/specification](https://agentskills.io/specification) |
+| Artifact triad | framework-notes.md + output-template.md + check-output.py on every skill |
+| CI validation | npm run verify — 0 errors, 0 warnings |
+| Integrity manifest | skills.lock — SHA256 verified |
 | Public governance | CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, GOVERNANCE |
-| Source standard | docs/SOURCE_STANDARDS.md |
-| Quality bar notes | docs/QUALITY_BAR.md |
+| No telemetry | Static skills, local scripts only |
 
-## Category Map
-
-| Category | Skills | Examples |
-|---|---:|---|
-| abm | 7 | abm-1-to-1, abm-1-to-few, abm-1-to-many, abm-strategy, account-selection |
-| analytics | 13 | 1p-tagging-pixels, a-b-testing, attribution, campaign-analytics, deliverability-monitoring |
-| automation | 12 | ai-sdr-setup, api-enrichment, attio-setup, clay-automation, crm-integration |
-| content-seo | 6 | aeo-strategy, citation-harvesting, faq-seo, pillar-pages, pseo-strategy |
-| creative | 12 | ad-creative-strategy, ai-content-creation, ai-video-creation, content-distribution, copyw… |
-| customer-success | 7 | cs-analytics-dashboards, cs-playbooks, customer-onboarding, headless-support, qbr-planning |
-| demand-gen | 4 | content-syndication, paid-social-strategy, podcast-gtm, webinar-strategy |
-| design | 7 | battlecard-builder, case-study-builder, design-system-gtm, one-pager-builder, pitch-deck-… |
-| events | 3 | conference-strategy, event-driven-outreach, field-marketing |
-| foundation | 8 | buyer-psychology, competitive-intel, gtm-context, icp-scoring, icp-targeting-tiers |
-| founder-led | 41 | advisor-recruitment, board-meeting-prep, brand-kit, building-saas, business-insurance |
-| growth | 5 | churn-prevention, customer-marketing, expansion-selling, referral-programs, review-platfo… |
-| gtm-ops | 5 | campaign-governance, gtm-operations, gtm-spend-management, gtm-tool-cost-model, revops-te… |
-| inbound | 8 | content-marketing, inbound-triage, landing-pages, linkedin-algorithm, linkedin-live-strat… |
-| leadmagic | 6 | leadmagic-bulk-enrichment, leadmagic-cli, leadmagic-integrations, leadmagic-job-change, l… |
-| lifecycle | 5 | churn-prediction, lifecycle-drips, mql-nurture, onboarding-sequences, re-engagement |
-| management-leadership | 5 | executive-compensation, gtm-leadership, revenue-team-onboarding, sales-coaching, team-man… |
-| outbound | 9 | cold-calling, cold-email-copywriting, cold-email-strategy, domain-infrastructure, email-d… |
-| partnerships | 3 | co-marketing, integration-partnerships, partnership-strategy |
-| product-led-growth | 3 | developer-gtm, freemium-optimization, plg-strategy |
-| prospecting | 8 | contact-verification, data-enrichment-strategy, email-finding, lead-enrichment, lead-find… |
-| sales-plays | 5 | earnings-signal-play, funding-signal-play, hiring-signal-play, job-change-play, product-l… |
-| sales-revops | 8 | buyer-indecision, deal-desk, demo-scripts, meeting-prep, objection-handling |
-| tools | 15 | ai-prompts-toolkit, analytics-toolkit, clay-loops-toolkit, clay-toolkit, crm-toolkit |
-
-## Quality Bar
-
-This repo is built on breadth, source hygiene, public governance, installability, and artifact-first execution rather than raw prompt count. See [docs/QUALITY_BAR.md](docs/QUALITY_BAR.md) for the quality bar and hardening notes.
-
-## Authority Catalog
-
-The skills cite named methodologies, operators, vendor docs, and frameworks. Top recurring sources in the catalog:
-
-| Authority / Framework | Skills |
-|---|---:|
-| Jason Lemkin | 24 |
-| Force Management | 21 |
-| David Skok | 15 |
-| Mark Roberge | 11 |
-| Eric Nowoslawski | 9 |
-| Andy Whyte | 8 |
-| Bridge Group | 7 |
-| Todd Caponi | 7 |
-| Chris Walker | 6 |
-| Dharmesh Shah | 6 |
-| Pat Spielmann | 6 |
-| Pavilion | 6 |
-| Richard van der Blom | 6 |
-| Ben Murray | 5 |
-| Betts Recruiting | 5 |
-| Jessie Lizak | 5 |
-| John McMahon | 5 |
-| Ryan Reisert | 5 |
-| Sean Ellis | 5 |
-| a16z | 4 |
-| Aneesh Lal | 4 |
-| April Dunford | 4 |
-| Elena Verna | 4 |
-| Eunice Buhler | 4 |
-
-Full expert catalog — bios, public channels, and skill clusters: [references/experts.md](references/experts.md). Outbound/discovery routing: [references/gtm-experts-outbound-index.md](references/gtm-experts-outbound-index.md).
+---
 
 ## Documentation
 
-- [Install guide](docs/INSTALL.md)
-- [Architecture](docs/ARCHITECTURE.md)
-- [Skill authoring standard](docs/SKILL_AUTHORING.md)
-- [Source and authority standard](docs/SOURCE_STANDARDS.md)
-- [Quality bar notes](docs/QUALITY_BAR.md)
-- [Integrity verification](docs/INTEGRITY.md)
-- [Release process](docs/RELEASE_PROCESS.md)
-- [GitHub topics](docs/REPO_TOPICS.md)
-- [Contributing](CONTRIBUTING.md)
-- [Security](SECURITY.md)
+| Doc | What's in it |
+|---|---|
+| [Install Guide](docs/INSTALL.md) | Per-platform install instructions |
+| [Architecture](docs/ARCHITECTURE.md) | Repo structure, skill anatomy, data flow |
+| [Skill Authoring](docs/SKILL_AUTHORING.md) | How to write a skill that passes validation |
+| [Source Standards](docs/SOURCE_STANDARDS.md) | Citation and authority requirements |
+| [Quality Bar](docs/QUALITY_BAR.md) | The public quality standard |
+| [Integrity](docs/INTEGRITY.md) | SHA256 lock verification |
+| [Release Process](docs/RELEASE_PROCESS.md) | How releases work |
+
+---
 
 ## Validate Locally
 
 ```bash
-npm run regenerate
 npm run verify
-gh skill publish --dry-run
 ```
 
-Expected result: 205 skills checked, 0 errors, 0 warnings, generated artifacts current, lock verified, installer dry-run OK.
+Expected: 205 skills checked, 0 errors, 0 warnings, lock verified, installer dry-run OK.
 
-## Skills Catalog
-
-### abm (7)
-
-- [abm-1-to-1](skills/abm/abm-1-to-1/SKILL.md) — Execute Strategic ABM (1-to-1) for 5-15 high-value accounts — custom microsites, executive engagement, direct mail, board-level connections, custom content. Triggers on: "1-to-1 ABM", "strategic ABM", "custom ABM", "key…
-- [abm-1-to-few](skills/abm/abm-1-to-few/SKILL.md) — Execute ABM at Scale (1-to-few) for 15-50 clustered accounts — semi-custom campaigns, industry-specific content, persona-based plays. Triggers on: "1-to-few ABM", "ABM scale", "cluster ABM", "industry ABM".
-- [abm-1-to-many](skills/abm/abm-1-to-many/SKILL.md) — Execute Programmatic ABM (1-to-many) for 50-200+ accounts — automated personalization, scaled outbound, lookalike expansion. Triggers on: "1-to-many ABM", "programmatic ABM", "scaled ABM", "automated ABM".
-- [abm-strategy](skills/abm/abm-strategy/SKILL.md) — Design and execute Account-Based Marketing strategy — tier selection, account scoring, channel orchestration, BDR alignment, measurement framework. Triggers on: "ABM strategy", "account based marketing", "ABM playbook",…
-- [account-selection](skills/abm/account-selection/SKILL.md) — Select and prioritize target accounts for ABM programs — scoring models, tier assignment, TAM segmentation. Triggers on: "account selection", "target account list", "tier accounts", "prioritize accounts", "TAM segmentat…
-- [multi-thread-orchestration](skills/abm/multi-thread-orchestration/SKILL.md) — Orchestrate multi-threaded ABM engagement across buying committee members — stakeholder mapping, parallel plays, ghost node detection. Triggers on: "multi-thread", "stakeholder map", "buying committee", "deal mapping".
-- [strategic-gifting](skills/abm/strategic-gifting/SKILL.md) — Strategic B2B gifting — John Ruhlin Giftology, Sendoso/Alyce/Reachdesk platforms, buyer gifting compliance, ABM tier budgets, gifting sequences, and CRM tracking. Use when sending executive gifts, direct mail, Sendoso c…
-
-### analytics (13)
-
-- [1p-tagging-pixels](skills/analytics/1p-tagging-pixels/SKILL.md) — Set up first-party tracking and analytics — website pixels, conversion tracking, UTM architecture, cookie consent, server-side tagging vs client-side, 1P vs 3P data strategy, and identity resolution. Use when setting up…
-- [a-b-testing](skills/analytics/a-b-testing/SKILL.md) — Design statistically sound GTM experiments for copy, channels, landing pages, sequencing, pricing, and funnel conversion. Produces hypothesis, sample-size logic, success metrics, test plan, analysis method, and scale/st…
-- [attribution](skills/analytics/attribution/SKILL.md) — Build practical B2B attribution models across first touch, lead creation, opportunity creation, multi-touch, account-based influence, and sales-sourced revenue. Produces model comparison, UTM governance, source-of-truth…
-- [campaign-analytics](skills/analytics/campaign-analytics/SKILL.md) — Analyze campaign performance from deliverability through revenue: delivery, engagement, replies, meetings, SQOs, pipeline, CAC, and payback. Produces diagnostic scorecard, root-cause analysis, benchmark comparison, and…
-- [deliverability-monitoring](skills/analytics/deliverability-monitoring/SKILL.md) — Monitor outbound deliverability health across domains, inboxes, DNS, bounces, spam placement, reply rates, and reputation signals. Produces alert thresholds, dashboard spec, weekly QA checklist, and remediation playbook…
-- [event-analytics](skills/analytics/event-analytics/SKILL.md) — Customer event analytics across every GTM system — Intercom, Zendesk, Salesforce, HubSpot, Segment, Amplitude, Mixpanel, PostHog, and custom event pipelines. Covers event taxonomy design, tracking implementation, event-…
-- [growth-experimentation](skills/analytics/growth-experimentation/SKILL.md) — Build a growth experimentation system — ICE scoring, growth sprints, experiment design, statistical significance, and learning repositories. Use when building an experimentation program, running growth sprints, prioriti…
-- [gtm-metrics](skills/analytics/gtm-metrics/SKILL.md) — Build a GTM metrics system for SaaS: funnel conversion, pipeline velocity, win rates, CAC, payback, NRR, sales efficiency, growth accounting, and executive dashboards. Use when creating metrics dashboards, board reports…
-- [gtm-system-architecture](skills/analytics/gtm-system-architecture/SKILL.md) — Design a complete GTM operating system — revenue model, data model, operating model, growth model, and GTM model per WbD's 6-model framework. Use when designing a GTM system from scratch, auditing an existing one, or al…
-- [marketing-strategy](skills/analytics/marketing-strategy/SKILL.md) — Build complete B2B marketing strategies — channel mix, budget allocation, content strategy, demand generation, brand building, and measurement framework. Use when building a marketing plan, allocating marketing budget,…
-- [paid-advertising](skills/analytics/paid-advertising/SKILL.md) — Build and manage paid advertising campaigns across B2B platforms — LinkedIn Ads, Google Ads, Meta (Facebook/Instagram) Ads, TikTok Ads, and programmatic. Use when launching paid campaigns, allocating ad budget, selectin…
-- [proactive-alerts](skills/analytics/proactive-alerts/SKILL.md) — Set up proactive GTM alert systems — CRM pipeline alerts, buying signal notifications, Slack/email routing, risk scoring. Use when building alert systems, monitoring pipeline health, detecting buying signals, or setting…
-- [tracking-plan](skills/analytics/tracking-plan/SKILL.md) — Master analytics tracking plan for PLG and B2B SaaS — unified event taxonomy, pixel strategy (1P and 3P tagging), marketing attribution architecture, CDP implementation (Segment, Rudderstack), product analytics (Amplitu…
-
-### automation (12)
-
-- [ai-sdr-setup](skills/automation/ai-sdr-setup/SKILL.md) — Deploy AI SDR agents safely and effectively — vendor selection, pilot scope, guardrails, signal routing, human handoff design, QA review, and performance metrics. Use when setting up 11x, Artisan, AiSDR, Jason AI, or an…
-- [api-enrichment](skills/automation/api-enrichment/SKILL.md) — Build API-first enrichment pipelines — provider selection, batching, retries, rate limits, idempotency, webhooks, cost tracking, and CRM writes. Use when integrating enrichment APIs directly into GTM systems or replacin…
-- [attio-setup](skills/automation/attio-setup/SKILL.md) — Set up Attio for B2B SaaS GTM — programmable CRM, custom objects, workflow automation, enrichment integration, and real-time collaboration. Use when configuring Attio for sales, building a programmable CRM, or migrating…
-- [clay-automation](skills/automation/clay-automation/SKILL.md) — Build production-grade Clay enrichment workflows — table architecture, waterfall configuration, Claygent AI research, Sculptor table building, CRM push with clay_status properties, credit optimization. Use when building…
-- [crm-integration](skills/automation/crm-integration/SKILL.md) — Configure CRM systems for GTM — lifecycle stages, deal stages, field ownership, enrichment sync, dedupe, required fields, and reporting. Use when setting up HubSpot, Salesforce, Attio, or any CRM integration for sales a…
-- [hubspot-setup](skills/automation/hubspot-setup/SKILL.md) — Set up HubSpot for B2B SaaS GTM — CRM configuration, deal pipelines, lifecycle stages, marketing automation, sequences, reporting dashboards, and enrichment integration. Use when configuring HubSpot for sales, marketing…
-- [mcp-setup](skills/automation/mcp-setup/SKILL.md) — Configure Model Context Protocol servers for GTM workflows — server selection, tool scope, permissions, guardrails, observability, and multi-tool orchestration. Use when connecting CRM, enrichment, sequencing, analytics…
-- [n8n-automation](skills/automation/n8n-automation/SKILL.md) — Build n8n workflows for GTM automation — triggers, webhook-to-enrichment-to-CRM pipelines, error handling, Clay export replacement for complex cases. Use when building n8n workflows or automating GTM processes beyond Cl…
-- [salesforce-setup](skills/automation/salesforce-setup/SKILL.md) — Set up Salesforce for B2B SaaS GTM — object model, opportunity pipelines, lead management, reports and dashboards, automation (Flows), and enrichment integration. Use when configuring Salesforce for sales or revops. Tri…
-- [skills-lock](skills/automation/skills-lock/SKILL.md) — skills.lock — version locking and integrity tracking for agent skills repositories. Generates a SHA256-verified lock file that tracks every skill with its version, file hash, dependencies, and last update. Use when crea…
-- [tool-selection-stack](skills/automation/tool-selection-stack/SKILL.md) — Build the right GTM tool stack for any stage — solo founder ($100/mo), small team ($500/mo), growth team ($2K/mo), and enterprise ($10K+/mo). With cost breakdowns, tool comparisons, and stack architecture. Use when choo…
-- [waterfall-enrichment](skills/automation/waterfall-enrichment/SKILL.md) — Design multi-provider enrichment waterfalls — provider ordering by cost-per-hit, 3 separate waterfalls for company, email, and phone data, always verify after finding. Use when building enrichment waterfalls or improvin…
-
-### content-seo (6)
-
-- [aeo-strategy](skills/content-seo/aeo-strategy/SKILL.md) — Answer Engine Optimization — optimize content for AI search engines (ChatGPT, Perplexity, Gemini, Claude). Triggers on: "AEO", "answer engine optimization", "AI search", "generative engine optimization", "GEO", "optimiz…
-- [citation-harvesting](skills/content-seo/citation-harvesting/SKILL.md) — Systematically build backlinks through citations, mentions, and digital PR — HARO, source-blogger outreach, data-driven PR. Triggers on: "citation harvesting", "backlink building", "HARO", "digital PR", "link building".
-- [faq-seo](skills/content-seo/faq-seo/SKILL.md) — Build FAQ pages that capture featured snippets and People Also Ask traffic — question-driven content strategy. Triggers on: "FAQ SEO", "featured snippet", "People Also Ask", "question SEO", "answer content".
-- [pillar-pages](skills/content-seo/pillar-pages/SKILL.md) — Design and build pillar pages with topic clusters — comprehensive hub pages that rank for high-intent keywords. Triggers on: "pillar page", "topic cluster", "hub page", "cornerstone content", "SEO pillar".
-- [pseo-strategy](skills/content-seo/pseo-strategy/SKILL.md) — Programmatic SEO — build scalable, template-driven content pages for long-tail keywords. Triggers on: "pSEO", "programmatic SEO", "scalable SEO", "template SEO", "mass content generation".
-- [seo-strategy](skills/content-seo/seo-strategy/SKILL.md) — B2B SEO strategy — keyword research, content architecture, technical SEO, link building, measurement. Triggers on: "SEO strategy", "search engine optimization", "B2B SEO", "keyword research", "SEO plan".
-
-### creative (12)
-
-- [ad-creative-strategy](skills/creative/ad-creative-strategy/SKILL.md) — Develop ad creative strategy for B2B campaigns — creative formats per platform, testing methodology, creative fatigue management, UGC/AI-generated creative, and performance measurement. Use when creating ad creative, ma…
-- [ai-content-creation](skills/creative/ai-content-creation/SKILL.md) — AI-powered content creation workflows — step-by-step processes for using Claude, ChatGPT, Jasper, Copy.ai, Writesonic, and Perplexity to generate, edit, and optimize blog posts, social media content, email sequences, ad…
-- [ai-video-creation](skills/creative/ai-video-creation/SKILL.md) — AI-powered video creation for marketing — step-by-step workflows for HeyGen (AI spokespersons), Synthesia (AI avatars), Runway (generative video), Captions (AI editing), Opus Clip (AI clipping), ElevenLabs (AI voiceover…
-- [content-distribution](skills/creative/content-distribution/SKILL.md) — Distribute content across channels for maximum reach — multi-platform repurposing, syndication, paid amplification, email distribution, and partner promotion. Use when getting content in front of an audience, repurposin…
-- [copywriting](skills/creative/copywriting/SKILL.md) — Write marketing copy that converts — landing pages, ads, emails, social, headlines, and brand voice. Use when writing any marketing or sales copy beyond cold email. Triggers on: "copywriting", "write copy", "headline",…
-- [graphic-design-gtm](skills/creative/graphic-design-gtm/SKILL.md) — Create GTM visual assets — social graphics, ad creatives, pitch deck design, one-pager layouts, email images, data visualization, and brand-consistent templates. Use when creating visual content for GTM, designing socia…
-- [growth-hacking-tactics](skills/creative/growth-hacking-tactics/SKILL.md) — Tactical growth hacking playbook — rapid experimentation, growth loops, viral mechanics, referral flywheels, PLG hacks, content-led growth loops, community-driven growth, and low-cost acquisition tactics for B2B SaaS. B…
-- [landing-page-copy](skills/creative/landing-page-copy/SKILL.md) — Landing page copywriting strategy — conversion copy frameworks, hero headline patterns, value proposition formulas, CTA copy, social proof placement, objection handling in copy, and A/B testing copy at scale. Based on J…
-- [social-media-strategy](skills/creative/social-media-strategy/SKILL.md) — Build and execute social media strategy for B2B — LinkedIn, X/Twitter, posting cadence, engagement tactics, content formats, sizing guides, and platform-specific best practices. Use when building social presence, planni…
-- [v0-lander](skills/creative/v0-lander/SKILL.md) — Step-by-step guide to building GTM landing pages with v0 by Vercel — the AI generative UI platform. Covers prompt engineering for v0, iterating on generated UI, exporting to Next.js, deploying on Vercel, and connecting…
-- [vibe-coding](skills/creative/vibe-coding/SKILL.md) — AI-powered development for GTM — vibe coding workflows using v0, Jesse, Claude Code, Lovable, Bolt.new, Replit Agent, and Tempo Labs for rapidly building landing pages, marketing sites, tools, dashboards, and prototypes…
-- [vibe-marketing](skills/creative/vibe-marketing/SKILL.md) — AI-powered marketing at scale — vibe marketing workflows for rapid content generation, creative iteration, campaign launches, and growth experiments using ChatGPT, Claude, Midjourney, Runway, HeyGen, ElevenLabs, and AI…
-
-### customer-success (7)
-
-- [cs-analytics-dashboards](skills/customer-success/cs-analytics-dashboards/SKILL.md) — Build customer success analytics dashboards — NPS, CSAT, CES, customer health scores, churn prediction models, expansion propensity, support volume trends, and CS team performance. Use when designing CS metrics, buildin…
-- [cs-playbooks](skills/customer-success/cs-playbooks/SKILL.md) — Build customer success playbooks — onboarding, health scoring, CSQLs, expansion plays, QBRs, and churn intervention. Use when building a CS function, designing customer journeys, or creating playbooks for retention and…
-- [customer-onboarding](skills/customer-success/customer-onboarding/SKILL.md) — Design structured customer onboarding programs — time-to-value optimization, activation milestones, kickoff calls, 30-60-90 day plans, handoff from sales to CS, onboarding playbooks by segment, and onboarding health tra…
-- [headless-support](skills/customer-success/headless-support/SKILL.md) — Design and deploy headless / automated support systems — AI chatbots, Fin AI agents, knowledge base self-serve portals, ticket deflection strategies, automated triage, email auto-responders, and conversational AI. Use w…
-- [qbr-planning](skills/customer-success/qbr-planning/SKILL.md) — Plan and execute Quarterly Business Reviews — value documentation, ROI presentation, executive alignment, and expansion roadmap. Use when preparing for QBRs, business reviews with customers, or executive stakeholder mee…
-- [sla-management](skills/customer-success/sla-management/SKILL.md) — Design and manage customer support SLAs — service level agreements, ticket priority matrices, first response time targets, resolution time targets, escalation paths, business hours configuration, and SLA performance das…
-- [support-tool-stack](skills/customer-success/support-tool-stack/SKILL.md) — Customer support platform selection, setup, and optimization — Intercom, Zendesk, Front, Help Scout, HubSpot Service Hub, Linear, and AI-native tools. Use when choosing a support platform, migrating tools, setting up he…
-
-### demand-gen (4)
-
-- [content-syndication](skills/demand-gen/content-syndication/SKILL.md) — Plan and execute content syndication across paid and organic channels — content atomization using Ross Simmonds' distribution framework, NetLine- informed lead follow-up timing, syndication network economics, and channe…
-- [paid-social-strategy](skills/demand-gen/paid-social-strategy/SKILL.md) — B2B paid social strategy — LinkedIn, Meta, TikTok ad platform strategy, audience building, creative testing, budget allocation. Triggers on: "paid social", "LinkedIn ads", "social advertising", "paid media strategy", "B…
-- [podcast-gtm](skills/demand-gen/podcast-gtm/SKILL.md) — Use podcast appearances as a GTM channel — booking strategy, interview prep, content repurposing, pipeline conversion. Triggers on: "podcast GTM", "podcast appearances", "be a podcast guest", "podcast marketing".
-- [webinar-strategy](skills/demand-gen/webinar-strategy/SKILL.md) — Plan and execute demand gen webinars — topic selection, speaker sourcing, promotion cadence, follow-up sequences. Triggers on: "webinar", "webinar strategy", "virtual event", "demand gen webinar", "webinar promotion".
-
-### design (7)
-
-- [battlecard-builder](skills/design/battlecard-builder/SKILL.md) — Create competitive battlecards — FIA Framework (Fact → Impact → Act), Why We Win/Why We Lose, objection handling cards per competitor, pricing comparisons, and quick-dismiss summaries. Use when building competitive inte…
-- [case-study-builder](skills/design/case-study-builder/SKILL.md) — Create customer case studies in sales-ready format — Challenge→Solution→Results structure, before/after metrics, quote integration, two-length formats (1-page summary + full version). Use when creating case studies, cus…
-- [design-system-gtm](skills/design/design-system-gtm/SKILL.md) — Define brand-context for AI agents — visual identity systems, voice/tone guides, color palettes with hex/RGB/HSL, typography systems with font stacks and type scales, logo usage rules, asset templates, and brand guardra…
-- [one-pager-builder](skills/design/one-pager-builder/SKILL.md) — Create one-page sales documents — product overviews, meeting leave-behinds, champion enablement sheets, trade show handouts. Scannable in 30 seconds, memorable enough to forward. Use when creating one-pagers, leave-behi…
-- [pitch-deck-builder](skills/design/pitch-deck-builder/SKILL.md) — Build investor-ready pitch decks and sales presentations — 10-11 slide structure, persona-customized per role, storytelling frameworks, speaker notes, and visual direction. Use when creating pitch decks, sales decks, in…
-- [roi-calculator](skills/design/roi-calculator/SKILL.md) — Build ROI calculators and business cases — 3-scenario projections (conservative, moderate, aggressive), payback period analysis, TCO comparison, assumption documentation, MEDDICC integration, value driver identification…
-- [ui-ux-gtm](skills/design/ui-ux-gtm/SKILL.md) — Design GTM UI/UX patterns — landing pages (hero, proof, CTA), forms (progressive disclosure, inline validation), signup flows (activation, time-to-value), dashboards (KPI hierarchy, trend indicators), and accessibility…
-
-### events (3)
-
-- [conference-strategy](skills/events/conference-strategy/SKILL.md) — Strategic conference planning — event selection, sponsorship ROI, speaking submissions, booth strategy, team preparation. Triggers on: "conference strategy", "event planning", "trade show strategy", "sponsorship ROI", "…
-- [event-driven-outreach](skills/events/event-driven-outreach/SKILL.md) — Outbound sequences triggered by conference/event attendance — pre-event research, on-site plays, post-event follow-up. Triggers on: "event outreach", "conference prospecting", "trade show follow-up", "event outbound".
-- [field-marketing](skills/events/field-marketing/SKILL.md) — Plan and execute field marketing — regional events, executive dinners, roadshows, customer advisory boards. Triggers on: "field marketing", "executive dinner", "roadshow", "regional event", "customer event".
-
-### foundation (8)
-
-- [buyer-psychology](skills/foundation/buyer-psychology/SKILL.md) — Apply decision science and buyer psychology to GTM — transparency effect (4.2-4.5), Cialdini principles, prediction over persuasion, trust mechanics. Use when designing messaging, building pitch decks, crafting position…
-- [competitive-intel](skills/foundation/competitive-intel/SKILL.md) — Research competitors and turn findings into GTM assets: positioning map, win/loss themes, battlecard inputs, trap-setting questions, pricing comparison, and displacement angles. Use when evaluating a competitor, prepari…
-- [gtm-context](skills/foundation/gtm-context/SKILL.md) — Capture reusable GTM context for every other skill: product, ICP, personas, pains, proof, competitors, pricing, channels, constraints, and source-of-truth files. Use when starting a project, onboarding an agent to a com…
-- [icp-scoring](skills/foundation/icp-scoring/SKILL.md) — Score and tier ICP-fit accounts using firmographic, technographic, intent, pain, and timing signals. Produces a weighted ICP scorecard, tiering rules, anti-ICP exclusions, routing thresholds, and validation checklist. U…
-- [icp-targeting-tiers](skills/foundation/icp-targeting-tiers/SKILL.md) — Define ICP differences across small business, mid-market, and enterprise — buying process, deal size, sales motion, tool stack, messaging by tier. Use when segmenting GTM by company size, designing tier-specific plays,…
-- [positioning-messaging](skills/foundation/positioning-messaging/SKILL.md) — Build positioning and messaging from category, ICP, alternatives, differentiated value, proof, and buyer language. Produces a positioning statement, message hierarchy, persona messaging matrix, homepage narrative, and s…
-- [pricing-strategy](skills/foundation/pricing-strategy/SKILL.md) — Design SaaS pricing strategy using willingness-to-pay research, packaging, value metrics, competitive anchors, and expansion paths. Produces pricing hypotheses, package architecture, discount guardrails, and test plan.…
-- [using-gtm-skills](skills/foundation/using-gtm-skills/SKILL.md) — Complete guide to using the gtm-skills repository — installation, skill discovery, skill loading, combining skills, taxonomy navigation, CLI workflows, and advanced patterns for every supported AI system (Claude Code, J…
-
-### founder-led (41)
-
-- [advisor-recruitment](skills/founder-led/advisor-recruitment/SKILL.md) — Strategic advisor recruitment for B2B SaaS founders. Use when building advisory board, recruiting individual advisors, structuring advisor compensation (equity grants), defining advisory scope, leveraging advisors for i…
-- [board-meeting-prep](skills/founder-led/board-meeting-prep/SKILL.md) — Board meeting preparation for B2B SaaS founders. Use when preparing quarterly board meetings, building board decks, selecting metrics to present, crafting narrative, managing board relationships, or handling difficult b…
-- [brand-kit](skills/founder-led/brand-kit/SKILL.md) — Build a complete brand kit for B2B SaaS — logo design and usage, color palette, typography, voice and tone, visual identity, brand guidelines, and asset templates. Use when creating a brand from scratch, rebranding, or…
-- [building-saas](skills/founder-led/building-saas/SKILL.md) — Build a SaaS company from idea to scale — product development, architecture decisions, pricing, hiring sequence, fundraising stages, and operational infrastructure. Use when starting a SaaS, scaling from $0 to $10M ARR,…
-- [business-insurance](skills/founder-led/business-insurance/SKILL.md) — Complete business insurance guide for SaaS founders — Errors & Omissions (E&O/Tech E&O), Cyber Liability, Directors & Officers (D&O), General Liability, Workers Compensation, Key Person, Employment Practices Liability (…
-- [co-founder-dynamics](skills/founder-led/co-founder-dynamics/SKILL.md) — Complete co-founder playbook for technical founders — finding co-founders, equity splits (dynamic and static), co-founder agreements, vesting schedules, working relationships, conflict resolution, co-founder breakups, a…
-- [content-led-growth](skills/founder-led/content-led-growth/SKILL.md) — Content-led growth strategy for B2B SaaS founders. Use when building a founder-led content engine, designing content as a GTM channel, scaling content production, measuring content ROI, repurposing across channels, or b…
-- [data-privacy-compliance](skills/founder-led/data-privacy-compliance/SKILL.md) — Data privacy compliance for B2B SaaS — GDPR, CCPA/CPRA, ePrivacy Directive, cookie consent, Data Processing Agreements (DPAs), Standard Contractual Clauses (SCCs), Data Protection Impact Assessments (DPIAs), subject acc…
-- [employment-compliance](skills/founder-led/employment-compliance/SKILL.md) — Employment law and compliance for B2B SaaS founders — contractor vs employee classification, offer letters, IP assignment (PIIA), at-will employment, equity documentation, employee handbooks, harassment policies, termin…
-- [engineer-to-founder](skills/founder-led/engineer-to-founder/SKILL.md) — Translate engineering strengths into founder-led GTM: customer discovery, positioning, demos, technical proof, founder sales habits, and first repeatable motion. Use when a technical founder needs to sell, do customer i…
-- [equity-management](skills/founder-led/equity-management/SKILL.md) — Complete equity management for SaaS founders — cap tables, 409A valuations, option pools (ISO vs NSO vs RSU), 83(b) elections, equity grants for employees/advisors/contractors, dilution modeling, secondary sales, and eq…
-- [events-planning](skills/founder-led/events-planning/SKILL.md) — Plan and execute B2B events — conferences, webinars, dinners, happy hours, trade shows, and owned events. Use when planning any business event to generate pipeline or build community. Triggers on: "event planning", "pla…
-- [exiting-company](skills/founder-led/exiting-company/SKILL.md) — Prepare a SaaS company for acquisition or exit — valuation drivers by buyer type (strategic, PE, bootstrap), due diligence readiness, EBITDA vs ARR multiples, and 12–24 month exit timeline. Use when planning an exit, pr…
-- [financial-modeling](skills/founder-led/financial-modeling/SKILL.md) — SaaS financial modeling for founders — operating model, runway, headcount, DCF valuation, consumption-based pricing models, cohort analysis, unit economics by segment, ARR bridge/build, 3-scenario forecasting, and board…
-- [first-hires-playbook](skills/founder-led/first-hires-playbook/SKILL.md) — Complete playbook for founder's first 10 hires beyond sales. Use when hiring first engineer, first CS, first marketer, first product manager, or building founding team. Covers when to hire each role, job description arc…
-- [founder-brand](skills/founder-led/founder-brand/SKILL.md) — Build a founder personal brand — LinkedIn strategy, content cadence, podcast guesting, newsletter growth, media features, and community building. Includes Adam Robinson's (RB2B) founder-led LinkedIn playbook: daily post…
-- [founder-comp-playbook](skills/founder-led/founder-comp-playbook/SKILL.md) — Founder guide to GTM compensation — what you can afford, how to set OTE and equity, budget guardrails, valuing packages for candidates, and negotiation scripts when cash is tight. Covers hiring first AE/SDR/VP and found…
-- [founder-sales](skills/founder-led/founder-sales/SKILL.md) — Founder-led sales playbook for $0-5M ARR stages. Use when founder is primary seller, building sales process from scratch, transitioning from founder-led to AE-led, or designing demo/negotiation/close motions as a techni…
-- [fundraising-strategy](skills/founder-led/fundraising-strategy/SKILL.md) — Complete fundraising strategy for B2B SaaS founders. Use when preparing to raise seed/Series A, deciding VC vs bootstrapped path, building pitch deck, running a fundraise process, evaluating term sheets, or planning fun…
-- [gtm-recruiting](skills/founder-led/gtm-recruiting/SKILL.md) — GTM recruiting playbook — active sourcing, passive candidate outreach, offer negotiation, recruiter partnerships (Betts, It's Destiny Recruiting), and inclusive hiring without tokenization. Use when recruiting SDR/AE/CS…
-- [gtm-role-descriptions](skills/founder-led/gtm-role-descriptions/SKILL.md) — GTM job descriptions, org structure, and compensation — role-by-role JD templates, revenue org charts by ARR stage, OTE/quota/comp plans, and posting channels. Includes GTM Engineer hiring (vs RevOps, SE, Growth Enginee…
-- [hiring-agencies](skills/founder-led/hiring-agencies/SKILL.md) — Evaluate, hire, and manage GTM agencies — outbound, RevOps/Clay, demand gen, design, and dev shops. Agency vs in-house decision framework, pilot structure, scorecards, kill switches, and handoff to internal teams. Use w…
-- [hiring-by-role](skills/founder-led/hiring-by-role/SKILL.md) — Role-specific hiring guides for B2B SaaS — interview questions, evaluation criteria, scorecards, and assessment methods for engineering, sales, marketing, customer success, product, and design roles. Based on best pract…
-- [hiring-contractors](skills/founder-led/hiring-contractors/SKILL.md) — Hire and manage contractors for SaaS startups — where to find them, how to structure engagements, IP assignment, rates by role, and management practices that produce quality work without full-time overhead. Use when hir…
-- [investor-updates](skills/founder-led/investor-updates/SKILL.md) — Write investor updates that build confidence and surface help — monthly format, board deck structure, fundraising narrative, and metrics dashboards. Use when writing investor updates, preparing board meetings, or commun…
-- [job-posting-strategy](skills/founder-led/job-posting-strategy/SKILL.md) — Complete job posting and distribution strategy for B2B SaaS companies — where to post by role (engineering, sales, marketing, CS, product, design), job board comparison, posting templates, sourcing channels, and expert…
-- [launch-planning](skills/founder-led/launch-planning/SKILL.md) — Plan product and feature launches across owned, earned, community, partner, and outbound channels. Produces launch narrative, audience map, asset checklist, channel calendar, risk plan, and measurement dashboard. Use wh…
-- [lead-magnets](skills/founder-led/lead-magnets/SKILL.md) — Create lead magnets that convert qualified buyers: calculators, checklists, teardown offers, templates, benchmarks, reports, and free tools. Produces concept shortlist, landing page outline, capture flow, nurture path,…
-- [legal-for-founders](skills/founder-led/legal-for-founders/SKILL.md) — Complete legal playbook for SaaS founders — incorporation (Delaware C-Corp vs LLC), IP assignment, Terms of Service, Privacy Policy, NDAs, consulting agreements, co-founder IP, fundraising legal (SAFE, priced round, boa…
-- [partner-programs](skills/founder-led/partner-programs/SKILL.md) — Design partner programs for startups: partner ICP, co-marketing offers, referral mechanics, integration partners, attribution, enablement, and compensation. Use when building affiliates, referral partners, ecosystem cha…
-- [pricing-psychology](skills/founder-led/pricing-psychology/SKILL.md) — SaaS pricing psychology and tactics for B2B founders. Use when designing pricing tiers, testing price points, building pricing pages, handling discounting strategy, adding new pricing dimensions, or optimizing monetizat…
-- [saas-metrics-calculator](skills/founder-led/saas-metrics-calculator/SKILL.md) — Calculate and interpret SaaS metrics for founders: MRR, ARR, NRR, GRR, churn, CAC payback, LTV:CAC, burn multiple, Rule of 40, cohort retention, and scenario models. Use when building investor updates, dashboards, board…
-- [saas-outcomes](skills/founder-led/saas-outcomes/SKILL.md) — SaaS company outcomes — valuation methods, bootstrap vs VC paths, end-goal decision framework, profitable growth vs growth-at-all-costs, secondary sales, and exit timing. Use when choosing bootstrap vs raise, modeling v…
-- [sales-team-building](skills/founder-led/sales-team-building/SKILL.md) — Build a B2B sales team from first hire to scale — hiring sequence by ARR stage, WbD POD structures, compensation models (linear/accelerated/split), draw mechanics, REKS coaching, and WbD GTM Index for scaling readiness.…
-- [security-assessments](skills/founder-led/security-assessments/SKILL.md) — Security assessment and vendor risk management for B2B SaaS — penetration testing, vulnerability scanning, bug bounty programs, security questionnaires (VSAQ/SIG/CAIQ), incident response planning, disaster recovery, and…
-- [soc2-compliance](skills/founder-led/soc2-compliance/SKILL.md) — Achieve SOC2 Type II compliance for SaaS companies — readiness assessment, control implementation, auditor selection, evidence collection, and ongoing monitoring. Use when preparing for SOC2, responding to enterprise se…
-- [solo-founder-gtm](skills/founder-led/solo-founder-gtm/SKILL.md) — Build lean GTM as a solo founder or bootstrapper — tool stacks by revenue stage, AI agents replacing headcount, when to make the first hire, bootstrapper economics, and the WbD GTM Index for self-assessment. Use when bu…
-- [startup-communities](skills/founder-led/startup-communities/SKILL.md) — Use startup communities as a GTM channel without spamming: community selection, trust-building, founder asks, launch posts, feedback loops, and referral capture. Use when entering founder communities, posting launches,…
-- [vc-outreach](skills/founder-led/vc-outreach/SKILL.md) — Plan investor outreach for startups: target investor list, warm intro paths, cold email, update cadence, CRM tracking, meeting prep, and follow-up. Use when raising a round, contacting angels or VCs, building a fundrais…
-- [vendor-contracts](skills/founder-led/vendor-contracts/SKILL.md) — Vendor contracts, MSAs, DPAs, and procurement for B2B SaaS — master service agreements, service level agreements, data processing agreements, order forms, vendor security assessments, and contract negotiation playbooks.…
-- [yc-ecosystem](skills/founder-led/yc-ecosystem/SKILL.md) — Navigate the public YC ecosystem for founder GTM: company research, batch mapping, outreach angles, application positioning, founder network use, and launch leverage. Use when researching YC companies, preparing YC appl…
-
-### growth (5)
-
-- [churn-prevention](skills/growth/churn-prevention/SKILL.md) — Build churn prevention systems — early warning signal detection, customer health scoring, re-engagement campaigns, risk tier routing, and champion departure monitoring. Use when reducing churn, building retention system…
-- [customer-marketing](skills/growth/customer-marketing/SKILL.md) — Customer marketing and advocacy programs — case studies, testimonials, customer reference programs, NPS-driven advocacy, customer communities, user conferences, champion programs, logo usage, and review generation (G2,…
-- [expansion-selling](skills/growth/expansion-selling/SKILL.md) — Complete expansion and upsell playbook for B2B SaaS — consumption-based upsell triggers, cross-sell identification, seat expansion, tier upgrades, NRR growth strategies, land-and-expand motions, expansion propensity sco…
-- [referral-programs](skills/growth/referral-programs/SKILL.md) — Design customer and partner referral programs — 3-tier comp structure, double-sided incentive design, referral tracking, platform integration, viral mechanics, fraud prevention, and measuring referral revenue against pu…
-- [review-platforms](skills/growth/review-platforms/SKILL.md) — B2B review site strategy — G2, Capterra, TrustRadius, Gartner Peer Insights, and Product Hunt. How to collect reviews, respond to negative feedback, rank in categories, and convert review traffic to pipeline. Use when b…
-
-### gtm-ops (5)
-
-- [campaign-governance](skills/gtm-ops/campaign-governance/SKILL.md) — Establish campaign governance — naming conventions, UTM parameters, campaign hierarchy, ROI measurement, budget tracking. Triggers on: "campaign governance", "UTM strategy", "campaign naming", "marketing ops governance".
-- [gtm-operations](skills/gtm-ops/gtm-operations/SKILL.md) — Build a GTM operations / RevOps function — tech stack architecture, process design, data governance, operating cadence, and maturity assessment anchored to Gartner and Forrester research. Use when designing or auditing…
-- [gtm-spend-management](skills/gtm-ops/gtm-spend-management/SKILL.md) — GTM spend management — Ramp corporate cards, virtual cards per vendor, SaaS vendor roster, tool spend approvals, bill pay, accounting sync, and shadow-IT cleanup. Use when setting up Ramp, governing GTM tool purchases,…
-- [gtm-tool-cost-model](skills/gtm-ops/gtm-tool-cost-model/SKILL.md) — GTM tool cost modeling — per-seat licensing, usage-based fees, cloud infra, enrichment credits, annual vs monthly contracts, and fully-loaded RevOps stack TCO. Use when budgeting GTM tools, calculating cost per rep, ven…
-- [revops-tech-stack](skills/gtm-ops/revops-tech-stack/SKILL.md) — Design, audit, and consolidate the RevOps technology stack — CRM, enrichment, sequencing, analytics, integration architecture, and cost optimization. Use when auditing GTM tools, designing revenue technology, or consoli…
-
-### inbound (8)
-
-- [content-marketing](skills/inbound/content-marketing/SKILL.md) — Build content marketing strategies that generate pipeline — SEO/AEO optimization, pillar page design, programmatic SEO, content-to-pipeline mapping. Use when the user wants to plan content strategy, build a content cale…
-- [inbound-triage](skills/inbound/inbound-triage/SKILL.md) — Design inbound lead triage workflows — demo form qualification, MQL to SQL routing, automated enrichment on form fill, speed-to-lead SLAs. Use when the user wants to handle inbound leads, route demo requests, qualify fo…
-- [landing-pages](skills/inbound/landing-pages/SKILL.md) — Audit and optimize landing pages for conversion — hero/offer/proof/CTA patterns, CRO audits, A/B testing, signup flow optimization. Use when the user wants to improve conversion rates, audit a landing page, optimize a s…
-- [linkedin-algorithm](skills/inbound/linkedin-algorithm/SKILL.md) — Optimize LinkedIn organic reach using Richard van der Blom's Algorithm Insights Report (Just Connecting) — interest graph mechanics, format rankings, post anatomy, dwell time, golden hour engagement, and company page st…
-- [linkedin-live-strategy](skills/inbound/linkedin-live-strategy/SKILL.md) — Launch and scale B2B LinkedIn Live using Jessie Lizak's Reveting playbook — weekly livestream shows, conversation-first content engines, pre-live promotion, live engagement, and repurposing into podcasts, clips, and fee…
-- [sales-navigator-prospecting](skills/inbound/sales-navigator-prospecting/SKILL.md) — Run LinkedIn Sales Navigator prospecting using Morgan J. Ingram's AMP playbook — high-intent filters, filter-specific messaging, insight+question executive engagement, saved-search alerts, and a 15-minute daily workflow…
-- [social-selling](skills/inbound/social-selling/SKILL.md) — Build a LinkedIn social selling strategy — Sales Navigator, DM sequences, content-to-conversation, profile optimization, and SSI scoring. Use when the user wants to sell on LinkedIn, build a LinkedIn presence, use Sales…
-- [website-visitor-identification](skills/inbound/website-visitor-identification/SKILL.md) — Design website visitor identification and deanonymization programs — company vs person-level ID, vendor selection (Clearbit/Breeze, RB2B, 6sense, etc.), privacy guardrails (GDPR/CCPA operational), Slack alert triage, an…
-
-### leadmagic (6)
-
-- [leadmagic-bulk-enrichment](skills/leadmagic/leadmagic-bulk-enrichment/SKILL.md) — Process CSV files with LeadMagic at scale — input cleanup, batch sizing, validation status handling, webhook callbacks, CRM export, error recovery, and quality checks. Use when enriching a list, bulk validating contacts…
-- [leadmagic-cli](skills/leadmagic/leadmagic-cli/SKILL.md) — Use the LeadMagic CLI for enrichment automation — find emails, validate contacts, enrich CSVs in batch, find decision-makers by role, and push to outbound platforms (Smartlead, Instantly). Use when automating enrichment…
-- [leadmagic-integrations](skills/leadmagic/leadmagic-integrations/SKILL.md) — Integrate LeadMagic with GTM platforms — Clay, Apollo, Smartlead, Instantly, Salesforce, HubSpot, Zapier, Make. Bi-directional data flows, webhook enrichment, CRM automation, and verification-at-send patterns. Use when…
-- [leadmagic-job-change](skills/leadmagic/leadmagic-job-change/SKILL.md) — Use LeadMagic job-change signals for pipeline intelligence — champion tracking, account risk alerts, new-role outreach, replacement mapping, and CRM routing. Use when monitoring career moves or building trigger-based sa…
-- [leadmagic-mcp](skills/leadmagic/leadmagic-mcp/SKILL.md) — Set up LeadMagic MCP for AI agents — tool discovery, permission scope, safe enrichment workflows, batch usage, verification steps, and agent handoff patterns. Use when connecting LeadMagic data tools to Claude, Jesse, V…
-- [leadmagic-waterfall](skills/leadmagic/leadmagic-waterfall/SKILL.md) — Build Clay enrichment waterfalls with LeadMagic as the primary provider — 95%+ email coverage, multi-provider chaining, verification integration, catch-all resolution. Use when setting up LeadMagic in Clay workflows, bu…
-
-### lifecycle (5)
-
-- [churn-prediction](skills/lifecycle/churn-prediction/SKILL.md) — Build churn prediction models — leading indicators, risk scoring, early warning systems, intervention playbooks. Triggers on: "churn prediction", "predict churn", "churn model", "early warning", "risk scoring".
-- [lifecycle-drips](skills/lifecycle/lifecycle-drips/SKILL.md) — Design lifecycle drip campaigns — post-purchase, renewal, expansion, milestone-based automated email programs. Triggers on: "lifecycle drips", "automated campaigns", "lifecycle emails", "drip sequences", "triggered emai…
-- [mql-nurture](skills/lifecycle/mql-nurture/SKILL.md) — Build MQL nurture programs — lead scoring, nurture tracks, email drip sequences, MQL→SQL conversion. Triggers on: "MQL nurture", "lead nurture", "nurture tracks", "MQL to SQL", "lead scoring".
-- [onboarding-sequences](skills/lifecycle/onboarding-sequences/SKILL.md) — Design customer onboarding sequences — time-to-first-value, activation milestones, guided setup, onboarding emails. Triggers on: "onboarding sequence", "customer onboarding", "time to value", "activation flow", "new cus…
-- [re-engagement](skills/lifecycle/re-engagement/SKILL.md) — Design re-engagement campaigns for dormant leads and inactive customers — win-back sequences, reactivation offers, sunset policies. Triggers on: "re-engagement", "win-back", "reactivation", "dormant leads", "inactive cu…
-
-### management-leadership (5)
-
-- [executive-compensation](skills/management-leadership/executive-compensation/SKILL.md) — Canonical GTM compensation strategy — philosophy, role-by-role plans, stage- appropriate OTE, accelerators, SPIFs, and executive gates. VP/CRO offer clauses, variable gates, equity, severance, clawback, and Pavilion-sty…
-- [gtm-leadership](skills/management-leadership/gtm-leadership/SKILL.md) — GTM leadership playbook for revenue leaders — how to hire and fire sales talent, run difficult conversations (performance, comp, forecast honesty), and design SaaS comp strategies. Grounded in Roberge, Lemkin, Kim Scott…
-- [revenue-team-onboarding](skills/management-leadership/revenue-team-onboarding/SKILL.md) — Revenue team onboarding — security access provisioning, ramp schedules, 30-60-90 plans, Slack engagement, shadowing, certification, and time-to-first-meeting reduction. Use when onboarding SDRs, AEs, managers, or RevOps…
-- [sales-coaching](skills/management-leadership/sales-coaching/SKILL.md) — Sales coaching system — REKS diagnosis (Jacco van der Kooij / Winning by Design), MEDDICC deal reviews (Andy Whyte), JOLT for indecision, call coaching (Jon Barrows, Jason Bay), manager cadence (Kevin Dorsey), and found…
-- [team-management](skills/management-leadership/team-management/SKILL.md) — Team management for startup leaders — 1:1s, performance reviews, goal setting (OKRs), delegation, feedback culture, remote team management, team rituals, and scaling from IC to manager. Use when building team processes,…
-
-### outbound (9)
-
-- [cold-calling](skills/outbound/cold-calling/SKILL.md) — Build and execute B2B cold calling programs — phone intent scoring, disposition bucketing, CRM activity buckets, ColdCall-Market Fit, multi-touch cadences, and conversation-to-meeting conversion. Use when setting up col…
-- [cold-email-copywriting](skills/outbound/cold-email-copywriting/SKILL.md) — Writes high-converting cold email copy using the 3-line framework, proven subject line patterns, and persona-specific variants. Use when the user asks to write, improve, or critique cold email copy, craft subject lines,…
-- [cold-email-strategy](skills/outbound/cold-email-strategy/SKILL.md) — Designs high-performing cold email sequence architecture with proper cadence timing, channel mixing, and trigger-based logic. Use when the user asks to build, audit, or optimize a cold outreach sequence, design a multi-…
-- [domain-infrastructure](skills/outbound/domain-infrastructure/SKILL.md) — Designs and provisions the domain and mailbox infrastructure for cold email outreach: secondary domains, mailbox setup (Google Workspace, M365, Zoho), DNS authentication records, inbox rotation, and primary domain isola…
-- [email-deliverability](skills/outbound/email-deliverability/SKILL.md) — Sets up and monitors email deliverability infrastructure including SPF, DKIM, DMARC configuration, warmup strategy, reputation monitoring, bounce and complaint handling, and ongoing deliverability health. Use when the u…
-- [inbox-setup](skills/outbound/inbox-setup/SKILL.md) — Set up cold email inbox infrastructure from scratch — Google Workspace, Microsoft 365, and Azure/Entra inbox provisioning, DNS authentication, domain buying, warmup, and cost optimization. Use when setting up sending in…
-- [multi-channel-outreach](skills/outbound/multi-channel-outreach/SKILL.md) — Design and execute multi-channel outbound sequences across email, LinkedIn, cold calls, and SMS. Use when the user wants to coordinate outreach across channels, build multi-touch sequences, add LinkedIn to their outboun…
-- [reply-handling](skills/outbound/reply-handling/SKILL.md) — Classifies and automates responses to cold email replies using an 8-category taxonomy, auto-reply playbooks, and human escalation rules. Use when the user asks to set up reply handling, needs reply classification logic,…
-- [sending-platforms](skills/outbound/sending-platforms/SKILL.md) — Compares, selects, and configures cold email sending platforms: Smartlead, Instantly, Salesforge, Apollo, and others. Use when the user asks which sending platform to use, needs to compare features or pricing, wants to…
-
-### partnerships (3)
-
-- [co-marketing](skills/partnerships/co-marketing/SKILL.md) — Execute co-marketing campaigns with partners — joint webinars, co-branded content, shared audiences, mutual promotion. Triggers on: "co-marketing", "joint marketing", "partner marketing", "co-branded campaign".
-- [integration-partnerships](skills/partnerships/integration-partnerships/SKILL.md) — Build and go-to-market with technology integration partnerships — API/integration GTM, marketplace listing, co-selling. Triggers on: "integration partnership", "tech partnership", "API partnership", "marketplace listing…
-- [partnership-strategy](skills/partnerships/partnership-strategy/SKILL.md) — Build a partnership program — partner types, recruitment, enablement, co-marketing, revenue share models. Triggers on: "partnership strategy", "partner program", "channel partnerships", "build partnerships".
-
-### product-led-growth (3)
-
-- [developer-gtm](skills/product-led-growth/developer-gtm/SKILL.md) — Build a developer go-to-market motion the way Vercel, Stripe, and Twilio do — open-source/framework flywheel, docs and quickstarts as the funnel, transparent self-serve pricing, PQL signals, DevRel/community as distribu…
-- [freemium-optimization](skills/product-led-growth/freemium-optimization/SKILL.md) — Freemium and free trial conversion optimization — model selection with full-funnel math, activation design, paywall placement, PQL scoring, and benchmark-anchored experiment planning. Use when optimizing freemium conver…
-- [plg-strategy](skills/product-led-growth/plg-strategy/SKILL.md) — Design product-led growth motions — freemium vs free trial, PQL scoring, self-serve conversion, PLG sales hybrid, and product-led marketing. Use when building a PLG motion, transitioning to self-serve, or optimizing pro…
-
-### prospecting (8)
-
-- [contact-verification](skills/prospecting/contact-verification/SKILL.md) — Verify email addresses before they enter outbound sequences to prevent bounces and protect sender reputation. Use when the user wants to validate emails, check deliverability, verify contact data, prevent bounces, clean…
-- [data-enrichment-strategy](skills/prospecting/data-enrichment-strategy/SKILL.md) — Design an end-to-end B2B data enrichment architecture — provider selection, waterfall design, cost modeling, and CRM hygiene. Use when the user wants to evaluate enrichment providers, build an enrichment stack, compare…
-- [email-finding](skills/prospecting/email-finding/SKILL.md) — Find verified work email addresses for B2B contacts using multi-provider waterfall discovery. Use when the user wants to find emails, look up contact information, discover email patterns, enrich a list with email addres…
-- [lead-enrichment](skills/prospecting/lead-enrichment/SKILL.md) — Enrich prospect and account lists with company, contact, role, technographic, intent, funding, hiring, and confidence fields. Produces enrichment schema, waterfall order, QA thresholds, dedupe rules, and CRM-ready outpu…
-- [lead-finding](skills/prospecting/lead-finding/SKILL.md) — Find qualified prospects and decision-makers from ICP criteria using public research, company signals, role mapping, and source confidence. Produces a prospect list spec, search strategy, qualification rubric, source lo…
-- [list-building](skills/prospecting/list-building/SKILL.md) — Build qualified B2B prospect lists using Clay, LinkedIn Sales Navigator, and multi-source discovery. Use when the user wants to build a prospect list, create a target account list, find companies matching an ICP, scrape…
-- [signal-scoring](skills/prospecting/signal-scoring/SKILL.md) — Score and prioritize prospects using buying signals — hiring, funding, tech stack changes, executive moves, and intent data. Use when the user wants to score leads, prioritize outreach, detect buying intent, rank prospe…
-- [social-intent-monitoring](skills/prospecting/social-intent-monitoring/SKILL.md) — Build a social intent monitoring system that turns public social conversations into qualified outbound triggers. Use when the user wants to monitor LinkedIn, X, Reddit, or other platforms for buying signals — competitor…
-
-### sales-plays (5)
-
-- [earnings-signal-play](skills/sales-plays/earnings-signal-play/SKILL.md) — Outbound play triggered by public company earnings calls and SEC filings — strategic priority mining from 10-K/10-Q sections, Risk Factor to discovery question conversion, MD&A-grounded exec messaging, quarterly cadence…
-- [funding-signal-play](skills/sales-plays/funding-signal-play/SKILL.md) — Trigger-based outbound play when a target account raises funding — signal stacking to cut false positives, use-of-funds alignment messaging, 48-hour contact bar, 14-day 5-touch sequence, benchmark-anchored measurement.…
-- [hiring-signal-play](skills/sales-plays/hiring-signal-play/SKILL.md) — Outbound play triggered by specific hiring signals — VP Sales, RevOps, SDR manager, CRO postings signal budget and strategy shift. Triggers on: "hiring signal", "job post outbound", "hiring trigger", "new role outreach".
-- [job-change-play](skills/sales-plays/job-change-play/SKILL.md) — Outbound play triggered by contact job changes — champion tracking, new-role outreach, "new broom" timing. Triggers on: "job change", "new role", "champion moved", "job change outreach", "contact changed jobs".
-- [product-launch-play](skills/sales-plays/product-launch-play/SKILL.md) — Outbound play triggered by competitor product launches or target account product launches — timing-based urgency, competitive positioning. Triggers on: "product launch play", "competitor launch response", "launch-based…
-
-### sales-revops (8)
-
-- [buyer-indecision](skills/sales-revops/buyer-indecision/SKILL.md) — Overcome buyer indecision with the JOLT Effect — Judge indecision, Offer recommendation, Limit exploration, Take risk off the table. For deals stuck on "need to think about it", FOMU (fear of messing up), and no-decisio…
-- [deal-desk](skills/sales-revops/deal-desk/SKILL.md) — Structure deals, pricing, and proposals — pricing model selection, discount guidance, business case construction, and negotiation strategy. Use when structuring a deal, building a pricing proposal, negotiating, or creat…
-- [demo-scripts](skills/sales-revops/demo-scripts/SKILL.md) — Write compelling demo scripts — first demo, technical deep-dive, and executive overview. Scene-by-scene with timing, talk tracks, and interaction points. Use when building demo scripts, preparing for a demo, or structur…
-- [meeting-prep](skills/sales-revops/meeting-prep/SKILL.md) — Prepare meeting briefs with SPICED discovery (WbD) and MEDDICC qualification (Andy Whyte) — account research, attendee profiles, question banks, scorecard gaps, and competitive context. Use before discovery calls, demos…
-- [objection-handling](skills/sales-revops/objection-handling/SKILL.md) — Build comprehensive objection handling playbooks — 6-category taxonomy, AER framework, battlecards per competitor, pre-handling in outreach. Use when creating objection responses, building an objection playbook, or prep…
-- [pipeline-management](skills/sales-revops/pipeline-management/SKILL.md) — Design and manage B2B sales processes using Winning by Design's GTM Playbook Kit — stage goals, in-stage actions, exit criteria, SPICED qualification fields, conversion metrics, Bowtie handoffs, forecasting, and deal in…
-- [sales-enablement](skills/sales-revops/sales-enablement/SKILL.md) — Create sales collateral that reps actually use — pitch decks, one-pagers, battlecards, objection docs, demo scripts, talk tracks, and playbooks. Use when the user wants to create sales materials, build a pitch deck, wri…
-- [transparency-selling](skills/sales-revops/transparency-selling/SKILL.md) — Execute Todd Caponi's Transparency Sale methodology — lead with flaws, build the "Our Flaws" slide, negotiate with radical honesty, use the 4.2-4.5 effect in positioning. Use when building pitch decks, handling objectio…
-
-### tools (15)
-
-- [ai-prompts-toolkit](skills/tools/ai-prompts-toolkit/SKILL.md) — GTM AI prompt library and prompt-loop patterns — Claygent research, LLM scoring, cold email drafts, reply classification, account briefs, and iterate-until-quality workflows for sales and marketing. Use when writing Cla…
-- [analytics-toolkit](skills/tools/analytics-toolkit/SKILL.md) — Complete analytics tools toolkit — Segment CDP, Amplitude, Mixpanel, PostHog, GA4, and HubSpot analytics configuration. Covers implementation patterns, destination routing, event governance, and cross-tool reporting. Us…
-- [clay-loops-toolkit](skills/tools/clay-loops-toolkit/SKILL.md) — Clay Loops GTM toolkit — recurring signal monitors, trigger-to-action loops, LeadMagic enrichment waterfalls on signal rows, funding/job-change/hiring routing, and sequencer handoff. Use when building Clay Loops for out…
-- [clay-toolkit](skills/tools/clay-toolkit/SKILL.md) — Clay platform GTM toolkit — table architecture, LeadMagic-first waterfall enrichment, Claygent, credit optimization, CRM push, and formulas. Use when building Clay tables or designing enrichment chains. Not for recurrin…
-- [crm-toolkit](skills/tools/crm-toolkit/SKILL.md) — CRM operations anchor — HubSpot, Salesforce, and Attio selection, contacts vs leads object model, platform blueprints, enrichment integration, implementation partners, pipeline design, and data hygiene. Use when choosin…
-- [hubspot-sequences](skills/tools/hubspot-sequences/SKILL.md) — Design and optimize HubSpot sequences — enrollment triggers, multi-channel steps, task creation, analytics, A/B testing. Triggers on: "HubSpot sequences", "HubSpot automation", "HubSpot cadence", "sales hub sequences".
-- [instantly-sequences](skills/tools/instantly-sequences/SKILL.md) — Set up Instantly — unlimited accounts, warmup pool, campaign optimization, unified inbox. Triggers on: "Instantly", "Instantly setup", "Instantly campaigns", "Instantly warmup".
-- [leadmagic-toolkit](skills/tools/leadmagic-toolkit/SKILL.md) — Complete LeadMagic platform toolkit — API reference, CLI workflows, MCP server setup, enrichment waterfalls, bulk processing, job change detection, and integration patterns. Use when building LeadMagic-powered GTM infra…
-- [lemlist-setup](skills/tools/lemlist-setup/SKILL.md) — Set up and optimize Lemlist — personalized images/videos, multi-channel sequences, warm-up, deliverability. Triggers on: "Lemlist", "Lemlist setup", "Lemlist campaigns", "personalized cold email".
-- [n8n-toolkit](skills/tools/n8n-toolkit/SKILL.md) — Complete n8n GTM toolkit — workflow blueprints for inbound, outbound, signals, CRM sync, and lifecycle; MCP integration patterns; node design, error handling, and production deployment. Use when building n8n flows for G…
-- [outreach-sequences](skills/tools/outreach-sequences/SKILL.md) — Design and manage Outreach sequences — multi-channel cadences, triggers, analytics, team workflows. Triggers on: "Outreach sequences", "Outreach cadence", "Outreach setup", "Outreach automation".
-- [salesloft-cadences](skills/tools/salesloft-cadences/SKILL.md) — Build and optimize Salesloft cadences — Rhythm, Conversations, multi-channel orchestration, analytics. Triggers on: "Salesloft", "Salesloft cadence", "Rhythm", "Salesloft automation".
-- [sequencing-toolkit](skills/tools/sequencing-toolkit/SKILL.md) — Complete outreach sequencing toolkit — Smartlead, Instantly, Salesloft, Outreach, Lemlist setup and optimization. Covers mailbox rotation, warmup, A/B testing, deliverability monitoring, and multi-channel orchestration…
-- [smartlead-workflows](skills/tools/smartlead-workflows/SKILL.md) — Set up and run Smartlead — unlimited mailboxes, auto-rotation, A/B testing, master inbox, AI categorization. Triggers on: "Smartlead", "Smartlead setup", "Smartlead campaigns", "unlimited mailboxes".
-- [support-toolkit](skills/tools/support-toolkit/SKILL.md) — Complete customer support tools toolkit — Intercom, Zendesk, Front, Help Scout deep-dive configuration, AI agent setup, knowledge base optimization, and support analytics. Use when selecting, setting up, or optimizing a…
+---
 
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). New skills must cite named authorities, produce concrete artifacts, pass validation, and avoid private/internal details.
+
+---
+
+## License
+
+[MIT](LICENSE) — LeadMagic. Free for commercial and personal use.
+
+---
+
+Built by [LeadMagic](https://leadmagic.io/?utm_source=github&utm_medium=organic&utm_campaign=gtm-skills) — B2B enrichment, email verification, and job-change signals.
+
+Star this repo if it helps you ship faster.

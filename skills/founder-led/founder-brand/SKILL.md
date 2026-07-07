@@ -16,12 +16,22 @@ metadata:
   author: LeadMagic
   category: founder-led
   tags: [personal-brand, linkedin, content, founder, thought-leadership]
-  related_skills: [social-media-strategy, linkedin-algorithm, linkedin-live-strategy, social-selling, copywriting, solo-founder-gtm, launch-planning]
+  related_skills:
+    [
+      social-media-strategy,
+      linkedin-algorithm,
+      linkedin-live-strategy,
+      social-selling,
+      copywriting,
+      solo-founder-gtm,
+      launch-planning,
+    ]
   frameworks:
     - "Adam Robinson (RB2B / Retention.com) — Founder-led LinkedIn playbook"
     - "Richard van der Blom (Just Connecting) — LinkedIn Algorithm Insights Report"
     - "Jessie Lizak (Reveting) — LinkedIn Live & livestream content engine"
-    - "Charlie Hills Social Media"
+    - "Charlie Hills (Linked Agency) — LinkedIn growth and personal brand strategy"
+    - "Brendan Gahan (Creator Authority) — Creator economy for founders; community over audience"
     - "Brendan Gahan Creator Economy"
     - "Paul Graham — Do Things That Do Not Scale"
 ---
@@ -95,6 +105,7 @@ audience is there. Don't spread too thin.
 ### Phase 2: Content Strategy
 
 Content pillars (pick 3-4):
+
 - Building in public: revenue updates, hiring, product decisions
 - Industry insights: what you're seeing in your market
 - Contrarian takes: things everyone believes that you think are wrong
@@ -135,6 +146,7 @@ Podcast guesting is inbound (they ask you). Media features start appearing.
 ### Phase 4: Media and Features
 
 Pitch yourself to publications your ICP reads:
+
 - What unique data do you have? "We analyzed X thousand [data points] and
   found Y." Data-driven pitches get picked up.
 - What contrarian opinion do you hold? "Everyone says X. Our data shows Y."

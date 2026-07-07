@@ -13,8 +13,26 @@ metadata:
   version: "2.0.0"
   author: LeadMagic
   category: design
-  tags: [ui, ux, design, landing-pages, forms, accessibility, conversion, dashboards]
-  related_skills: [claude-design, popular-web-designs, landing-pages, design-system-gtm, effective-ui-design, a-b-testing]
+  tags:
+    [
+      ui,
+      ux,
+      design,
+      landing-pages,
+      forms,
+      accessibility,
+      conversion,
+      dashboards,
+    ]
+  related_skills:
+    [
+      claude-design,
+      popular-web-designs,
+      landing-pages,
+      design-system-gtm,
+      effective-ui-design,
+      a-b-testing,
+    ]
   frameworks:
     - "Nielsen Norman Group — UX Research and Usability Heuristics"
     - "Baymard Institute — E-commerce/Form UX Research"
@@ -46,6 +64,7 @@ signup flow conversion", "design a GTM dashboard", "make our pages accessible",
 ## Authoritative Foundations
 
 ### Nielsen Norman Group — 10 Usability Heuristics
+
 1. Visibility of system status
 2. Match between system and real world
 3. User control and freedom
@@ -58,12 +77,14 @@ signup flow conversion", "design a GTM dashboard", "make our pages accessible",
 10. Help and documentation
 
 ### Baymard Institute — Form UX Research
+
 - Average form abandonment rate: 68%
 - Every field removed increases conversion by 5-10%
 - Inline validation reduces errors by 22%
 - Single-column forms outperform multi-column by 15%
 
 ### Steve Krug — Don't Make Me Think
+
 "Don't make me think" is the first law of usability. If a user pauses to
 figure out what to do next, the design has failed.
 
@@ -112,6 +133,7 @@ figure out what to do next, the design has failed.
    - "Join 2,000+ teams already using [product]"
 
 **Mobile considerations:**
+
 - Stack columns vertically (single column on mobile)
 - CTA visible without scrolling (sticky CTA on mobile)
 - Touch targets: minimum 44×44px (Apple HIG)
@@ -156,16 +178,18 @@ figure out what to do next, the design has failed.
    - Don't mix: "Email *" and "Phone (optional)" on the same form
 
 **Form field reduction patterns:**
-| Current State | Improvement | Fields Saved |
-|---|---|---|
-| First Name + Last Name | Full Name | 1 |
-| Separate address fields | Address lookup (Google Places API) | 4-5 |
-| Company + Company Size | Company name only (size from enrichment) | 1 |
-| Phone Number | Remove (get later via progressive profiling) | 1 |
+
+| Current State           | Improvement                                  | Fields Saved |
+| ----------------------- | -------------------------------------------- | ------------ |
+| First Name + Last Name  | Full Name                                    | 1            |
+| Separate address fields | Address lookup (Google Places API)           | 4-5          |
+| Company + Company Size  | Company name only (size from enrichment)     | 1            |
+| Phone Number            | Remove (get later via progressive profiling) | 1            |
 
 ### Phase 3: Signup and Onboarding Flow
 
 **Signup flow:**
+
 1. Email → Password → "Create account" (3 fields max)
 2. Verify email (6-digit code or magic link — NOT "check your email and come
    back")
@@ -175,16 +199,18 @@ figure out what to do next, the design has failed.
    button
 
 **Time-to-value (TTV) targets:**
-| Product Type | TTV Target | How |
-|---|---|---|
-| Free tool (calculator, checker) | <30 seconds | Instant result, no signup required |
-| Self-serve SaaS | <5 minutes | Guided setup, sample data, templates |
-| Sales-assisted SaaS | <1 day | White-glove onboarding, import existing data |
-| Enterprise platform | <2 weeks | Dedicated implementation, SSO, data migration |
+
+| Product Type                    | TTV Target  | How                                           |
+| ------------------------------- | ----------- | --------------------------------------------- |
+| Free tool (calculator, checker) | <30 seconds | Instant result, no signup required            |
+| Self-serve SaaS                 | <5 minutes  | Guided setup, sample data, templates          |
+| Sales-assisted SaaS             | <1 day      | White-glove onboarding, import existing data  |
+| Enterprise platform             | <2 weeks    | Dedicated implementation, SSO, data migration |
 
 ### Phase 4: Dashboard Design
 
 **Dashboard layout principles (Nielsen Norman Group):**
+
 1. **Most important metric first** — top-left, largest visual weight
 2. **Trend over point** — "Up 12% from last month" > "$52,340"
 3. **Red/Yellow/Green thresholds** — contextualize numbers
@@ -193,6 +219,7 @@ figure out what to do next, the design has failed.
 6. **Date range presets** — "Last 7 days," "Last 30 days," "This quarter"
 
 **KPI dashboard wireframe:**
+
 ```
 ┌─────────────────────────────────────────────────┐
 │ [Logo]  Dashboard                    [Date Range ▼]│
@@ -215,21 +242,22 @@ figure out what to do next, the design has failed.
 
 **11-point accessibility checklist:**
 
-| # | Requirement | How to Test |
-|---|---|---|
-| 1 | Color contrast ≥ 4.5:1 (normal text) | WebAIM Contrast Checker |
-| 2 | Color contrast ≥ 3:1 (large text, 18px+) | WebAIM Contrast Checker |
-| 3 | Don't use color alone to convey info | Add icons, text, or patterns |
-| 4 | All images have alt text | Screen reader audit |
-| 5 | Forms have associated labels | `<label for="id">` |
-| 6 | Keyboard navigation works | Tab through entire page |
-| 7 | Focus indicators visible | `:focus-visible { outline: 2px solid blue; }` |
-| 8 | Skip navigation link | `<a href="#main">Skip to content</a>` |
-| 9 | ARIA labels on interactive elements | `aria-label="Close dialog"` |
-| 10 | No auto-playing video/audio | Or provide pause/stop controls |
-| 11 | `prefers-reduced-motion` respected | `@media (prefers-reduced-motion: reduce)` |
+| #   | Requirement                              | How to Test                                   |
+| --- | ---------------------------------------- | --------------------------------------------- |
+| 1   | Color contrast ≥ 4.5:1 (normal text)     | WebAIM Contrast Checker                       |
+| 2   | Color contrast ≥ 3:1 (large text, 18px+) | WebAIM Contrast Checker                       |
+| 3   | Don't use color alone to convey info     | Add icons, text, or patterns                  |
+| 4   | All images have alt text                 | Screen reader audit                           |
+| 5   | Forms have associated labels             | `<label for="id">`                            |
+| 6   | Keyboard navigation works                | Tab through entire page                       |
+| 7   | Focus indicators visible                 | `:focus-visible { outline: 2px solid blue; }` |
+| 8   | Skip navigation link                     | `<a href="#main">Skip to content</a>`         |
+| 9   | ARIA labels on interactive elements      | `aria-label="Close dialog"`                   |
+| 10  | No auto-playing video/audio              | Or provide pause/stop controls                |
+| 11  | `prefers-reduced-motion` respected       | `@media (prefers-reduced-motion: reduce)`     |
 
 **Accessibility testing tools:**
+
 - axe DevTools (browser extension)
 - Lighthouse (built into Chrome DevTools)
 - VoiceOver (macOS built-in screen reader)
@@ -327,8 +355,8 @@ Before delivering, verify:
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
-This skill includes lightweight artifacts the agent can load on demand:
-Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+  This skill includes lightweight artifacts the agent can load on demand:
+  Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills
 
