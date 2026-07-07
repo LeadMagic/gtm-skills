@@ -1,9 +1,25 @@
 # Churn Prevention — Deliverable
 
-## Deliverable spec
+## Context
+- Company / product:
+- Owner:
+- Date:
 
+## Summary
+[One paragraph: what this deliverable decides or enables]
+
+## Core output
+
+<!-- Structure derived from SKILL.md Output Format -->
 Churn prevention system with signal catalog, health score model (weights and
+
 thresholds), re-engagement playbook per risk tier, and monitoring dashboard spec.
+
+## Frameworks Applied
+
+- **Winning by Design Bowtie**
+- **Lincoln Murphy Success Gap**
+- **Gainsight CS Index**
 
 ## Quality check
 

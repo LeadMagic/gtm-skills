@@ -1,37 +1,38 @@
-# Tool Selection Stack Deliverable
+# Tool Selection Stack — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Owner:
+- Date:
 
-## Framework Basis
-- Frameworks used:
-- Why these apply:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Recommendation
-1.
-2.
-3.
+## Core output
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+Tool stack recommendation with cost breakdown, architecture diagram,
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+implementation sequence (what to set up first), and quarterly audit
 
-## Risks / Pitfalls
--
+checklist. Operationalize spend → `gtm-spend-management` after stack selection.
 
-## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+## Frameworks Applied
+
+- **Jen Igartua (Go Nimbly) — Must-have basics / performance boosters / delighters stack layering**
+- **Jesse Ouellette Lean Stack**
+- **Eric Nowoslawski Agency Stack**
+
+## Quality check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
+## Next steps
+1. 
+2. 
+3. 

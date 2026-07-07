@@ -1,44 +1,36 @@
-# LeadMagic Bulk Enrichment Deliverable
+# Leadmagic Bulk Enrichment — Deliverable
 
 ## Context
-- Input CSV size:
-- Job types: find / validate / enrich
-- CRM export? Y/N
-- Sequencer export? Y/N
+- Company / product:
+- Owner:
+- Date:
 
-## Framework Basis
-- DAMA data quality stages
-- Pat Spielmann — valid-only export to send
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Pipeline Stages
-| Stage | Output File | Row Count |
-|---|---|---:|
-| Intake |  |  |
-| Dedupe |  |  |
-| ICP filter |  |  |
-| Enrich |  |  |
-| Verify |  |  |
-| Send-ready |  |  |
+## Core output
 
-Full spec: `references/batch-pipeline-spec.md`
+<!-- Structure derived from SKILL.md Output Format -->
+```markdown
 
-## Status Routing
-| Status | Destination |
-|---|---|
-| valid | send-ready |
-| invalid | suppress |
-| risky | catch_all_queue |
-| unknown | manual review |
+## Frameworks Applied
 
-## CRM Upsert Map
-| LM Field | CRM Field | Overwrite Rule |
-|---|---|---|
+- **DAMA-DMBOK Data Quality Management**
+- **CSV Batching Best Practices**
+- **Data Quality Management**
 
-## QA Sample
-- [ ] 50-row spot check complete
-- [ ] Credit burn reconciled
+## Quality check
 
-## Quality Check
-- [ ] ICP filter before enrich
-- [ ] Idempotent CRM upsert rules
-- [ ] No invalid rows in sequencer export
+Before delivering, verify:
+- [ ] Input file has enough identity/company fields
+- [ ] Suppression rules are applied before enrichment
+- [ ] Batch sizes are safe to retry
+- [ ] Every output status has a downstream action
+- [ ] CRM writes are idempotent
+- [ ] Existing human-owned CRM fields are protected
+- [ ] Sequencer export excludes invalid and suppressed records
+
+## Next steps
+1. 
+2. 
+3. 

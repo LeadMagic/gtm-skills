@@ -1,10 +1,27 @@
 # Events Planning — Deliverable
 
-## Deliverable spec
+## Context
+- Company / product:
+- Owner:
+- Date:
 
+## Summary
+[One paragraph: what this deliverable decides or enables]
+
+## Core output
+
+<!-- Structure derived from SKILL.md Output Format -->
 Event plan with: format selection rationale, budget breakdown, promotion
+
 timeline, attendee target list, team briefing document, and post-event
+
 ROI tracking template.
+
+## Frameworks Applied
+
+- **B2B Event ROI Framework**
+- **Field Marketing Playbook**
+- **Paul Graham — Do Things That Do Not Scale**
 
 ## Quality check
 

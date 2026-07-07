@@ -1,120 +1,77 @@
-# RB2B Outbound Triggers — Deliverable
+# Rb2B Outbound Triggers — Deliverable
 
 ## Context
-
 - Company / product:
-- ICP definition:
-- Current RB2B setup (yes/no):
-- SDR team size:
-- Sequencer (Smartlead/Instantly/Outreach/Salesloft):
+- Owner:
 - Date:
 
 ## Summary
+[One paragraph: what this deliverable decides or enables]
 
-[One paragraph: what this deliverable decides — the RB2B-to-outbound pipeline]
+## Core output
 
-## 1. Visitor Routing Matrix
+<!-- Structure derived from SKILL.md Output Format -->
+Produce a complete RB2B outbound playbook containing:
 
-| Tier             | ICP Score | Title Match                        | Page Engagement   | Action                             | SLA      |
-| ---------------- | --------- | ---------------------------------- | ----------------- | ---------------------------------- | -------- |
-| Tier 1 — Hot     | ≥80       | Decision-maker/influencer          | Pricing/docs/demo | Immediate Slack + 7-touch sequence | <15 min  |
-| Tier 2 — Warm    | 50-79     | Any match                          | Any page          | Enrich + 5-touch sequence          | <4 hours |
-| Tier 3 — Monitor | <50       | Junior/irrelevant                  | Low engagement    | Log in CRM, no outbound            | None     |
-| Tier 4 — Exclude | N/A       | Competitor/vendor/customer/partner | N/A               | Suppress                           | N/A      |
+### 1. **Visitor routing matrix** — tier definitions, criteria, SLAs, and actions
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## 2. Enrichment Waterfall
+### 2. **Enrichment waterfall** — tool chain, order, fallback logic, verification step
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-| Step | Tool                | Input           | Output                         | Fallback              |
-| ---- | ------------------- | --------------- | ------------------------------ | --------------------- |
-| 1    | RB2B payload        | Visitor session | Name, title, company, LinkedIn | —                     |
-| 2    | Clay enrichment     | Company name    | Firmographics, tech stack      | Apollo                |
-| 3    | LeadMagic           | Name + company  | Verified email                 | → Apollo → Hunter     |
-| 4    | Email verification  | Email address   | Valid/invalid/risky            | Never send unverified |
-| 5    | Phone (Tier 1 only) | Name + company  | Direct/mobile                  | Lusha → ZoomInfo      |
-| 6    | ICP scoring         | Full enrichment | Score 0-100                    | Custom scoring model  |
+### 3. **Sequence designs** — full cadence for each tier with touch-by-touch content guidance
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## 3. Sequence Designs
+### 4. **Slack alert template** — structured payload for SDR handoff
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-### Tier 1 — Hot Visitor Sequence (7 touches, 10 business days)
+### 5. **Clay workflow spec** — step-by-step automation with trigger, filters, enrich, route, enroll
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-| Touch | Day | Channel  | Content Goal                                   |
-| ----- | --- | -------- | ---------------------------------------------- |
-| 1     | 0   | LinkedIn | Connection request — reference visit context   |
-| 2     | 0   | Email    | Personalized — "noticed you exploring [topic]" |
-| 3     | 2   | Email    | Value drop — relevant case study               |
-| 4     | 4   | LinkedIn | Engage with their recent post                  |
-| 5     | 6   | Email    | Question tied to their role                    |
-| 6     | 8   | Phone    | Cold call referencing visit                    |
-| 7     | 10  | Email    | Breakup — "closing the loop"                   |
+### 6. **Measurement dashboard** — metrics, targets, and attribution model
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-### Tier 2 — Warm Visitor Sequence (5 touches, 14 business days)
+### 7. **Privacy guardrails** — what you can and cannot do with person-level visitor data
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-| Touch | Day | Channel  | Content                     |
-| ----- | --- | -------- | --------------------------- |
-| 1     | 0   | Email    | Soft reference + value prop |
-| 2     | 3   | LinkedIn | Connection request          |
-| 3     | 7   | Email    | Resource share (no ask)     |
-| 4     | 11  | Email    | Question + soft CTA         |
-| 5     | 14  | Email    | Breakup                     |
+## Frameworks Applied
 
-## 4. Slack Alert Template
-
-```
-🔥 RB2B Hot Visitor Alert
-Name: [Visitor Name]
-Title: [Job Title]
-Company: [Company]
-LinkedIn: [URL]
-Pages visited: [list]
-Session: [duration] | [pageviews]
-ICP Score: [score]/100
-Action: Enrich → Sequence "Tier 1 Hot Visitor"
-SDR Owner: [assignment]
-SLA: Contact within 15 minutes
-```
-
-## 5. Clay Workflow Spec
-
-1. Trigger: RB2B webhook fires
-2. Filter: ICP score ≥50
-3. Enrich: LeadMagic → Apollo → Hunter (email waterfall)
-4. Verify: Email verification gate
-5. Score: Update ICP score with enrichment data
-6. Route: Round-robin SDR assignment
-7. Enroll: Push to sequencer with correct cadence
-8. Log: CRM record with source = "RB2B Visitor"
-
-## 6. Measurement Dashboard
-
-| Metric                       | Target     | Source          |
-| ---------------------------- | ---------- | --------------- |
-| Visitors identified / week   | [baseline] | RB2B dashboard  |
-| ICP fit rate                 | 30-50%     | Clay scoring    |
-| Enrichment success rate      | ≥70%       | Clay waterfall  |
-| SDR response within SLA      | ≥80%       | CRM timestamps  |
-| Meeting booked rate (Tier 1) | 5-10%      | CRM source tag  |
-| Meeting booked rate (Tier 2) | 2-5%       | CRM source tag  |
-| Pipeline sourced from RB2B   | [monthly]  | CRM attribution |
-
-## 7. Privacy Guardrails
-
-- [ ] US-only visitor identification (RB2B default)
-- [ ] CCPA opt-out mechanism published
-- [ ] Existing customer suppression via CRM matching
-- [ ] Competitor/vendor suppression list
-- [ ] No exact page-level behavior in outreach copy
-- [ ] Person-level data retained per data retention policy
-- [ ] SDR access limited to assigned visitors only
+- **Adam Robinson (RB2B) — Person-level visitor identification + LinkedIn-as-distribution**
+- **Signal-Based Selling — behavioral triggers over cold lists**
+- **Justin Michael — Tech-Powered Sales / Technology Quotient (TQ)**
+- **Jordan Crawford — PQS / PVP / FIND (Cannonball GTM)**
+- **Pat Spielmann — Cold to Gold trigger sequencing**
+- **Henry Schuck (ZoomInfo) — Data-lake outbound motion**
+- **Becc Holland — Stellar Cold Email / Diagnostic Selling**
 
 ## Quality check
 
-- [ ] Routing tiers have clear, unambiguous criteria
-- [ ] Tier 1 SLA is 15 minutes
-- [ ] Enrichment includes verification before sending
-- [ ] Sequences reference visit context naturally
+- [ ] Routing tiers have clear criteria — no ambiguity on which tier a visitor falls into
+- [ ] Every Tier 1 visitor has a defined SLA (15 min response)
+- [ ] Enrichment waterfall includes verification before sending — no unverified emails
+- [ ] Sequences reference the visit context naturally (not creepy)
 - [ ] Tier 4 exclusions cover competitors, vendors, customers, partners
-- [ ] Measurement tracks RB2B-sourced pipeline separately
-- [ ] Privacy guardrails address CCPA
-- [ ] Clay workflow has error handling for enrichment failures
-- [ ] Breakup emails are professional
-- [ ] Phone is Tier 1 only
+- [ ] Measurement framework tracks RB2B-sourced pipeline separately from cold outbound
+- [ ] Privacy guardrails address GDPR/CCPA for person-level data
+- [ ] Clay workflow has error handling — what happens when enrichment fails
+- [ ] Breakup emails are professional, not guilt-tripping
+- [ ] Phone touches are Tier 1 only — don't burn phone numbers on low-intent visitors
+
+## Next steps
+1. 
+2. 
+3. 

@@ -1,37 +1,38 @@
-# Marketing Strategy Deliverable
+# Marketing Strategy — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Owner:
+- Date:
 
-## Framework Basis
-- Frameworks used:
-- Why these apply:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Recommendation
-1.
-2.
-3.
+## Core output
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+Marketing strategy document with: channel mix by stage, budget allocation,
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+demand generation architecture, brand building plan, content calendar (quarterly),
 
-## Risks / Pitfalls
--
+marketing-sales SLA, and KPI dashboard.
 
-## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+## Frameworks Applied
+
+- **Product-Led Marketing**
+- **Schwartz Awareness Levels**
+- **Pulizzi Content Tilt**
+
+## Quality check
+
+- [ ] Channel mix appropriate for ARR stage
+- [ ] Budget allocation by channel with rationale
+- [ ] MQL and SQL definitions documented and agreed upon
+- [ ] Marketing-sales SLA defined and measured
+- [ ] Brand building plan (not just demand gen)
+- [ ] Measurement framework: pipeline and revenue, not just leads
+
+## Next steps
+1. 
+2. 
+3. 

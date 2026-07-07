@@ -1,37 +1,95 @@
-# Interview Plan — Deliverable
+# Hiring By Role — Deliverable
 
-**Role:** ___ **Company:** ___ **Hiring manager:** ___
+## Context
+- Company / product:
+- Owner:
+- Date:
 
-## Expert basis
-- Structured interviewing: Google re:Work, Laszlo Bock
-- GTM evaluation: Betts Recruiting, Mark Roberge
-- Inclusive bar: It's Destiny Recruiting
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Process
-| Stage | Duration | Owner | Artifact |
-|---|---|---|---|
-| Screen | 30 min |  | `interviewer-questions-gtm.md` |
-| Work sample | 2–4 hr |  | Role-specific in SKILL |
-| Panel | 45–60 min |  | Mock discovery / case |
-| Values | 30 min | Outside team | Same question set |
+## Core output
 
-## Panel
-| Name | Role | Scores independently? |
-|---|---|---|
-|  |  | ☐ |
+<!-- Structure derived from SKILL.md Output Format -->
+```
 
-## Scorecard
-Use `gtm-recruiting` → inclusive-interview-scorecard.md  
-Threshold: ≥4.0 strong; <3.5 no hire
+INTERVIEW PLAN — [Role] at [Company]
 
-## Candidate questions
-Expect strong candidates to ask items from `candidate-questions-to-ask.md` — prep answers.
+PROCESS: [N stages, timeline]
 
-## After hire
-`revenue-team-onboarding` → new-hire-questionnaire.md
+INTERVIEW PANEL: [names and roles]
+
+SCORECARD: [criteria table with weights]
+
+STAGE 1 — SCREEN (30 min):
+
+Questions:
+
+### 1. [question] — what to look for
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### 2. [question] — what to look for
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### 3. [question] — what to look for
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+STAGE 2 — WORK SAMPLE (async, X hours):
+
+Task: [specific task]
+
+Evaluation: [criteria]
+
+STAGE 3 — DEEP DIVE (X min):
+
+[Role-specific deep dive]
+
+STAGE 4 — TEAM/VALUES (30 min):
+
+Questions:
+
+### 1. [question]
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### 2. [question]
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+DECISION: Scorecard average > 4.0 = strong hire. 3.5-4.0 = hire with reservations.
+
+< 3.5 = no hire. No exceptions for "gut feeling."
+
+```
+
+## Frameworks Applied
+
+- **Google re:Work — Structured interviewing and hiring**
+- **Betts Recruiting — GTM role evaluation**
+- **Bridge Group — SaaS sales compensation and hiring benchmarks**
+- **YC — Hiring and evaluating founders/early employees**
+- **Laszlo Bock — Work Rules! (Google hiring practices)**
+- **Patty McCord — Powerful (Netflix hiring for talent density)**
+- **RevOps Co-op — GTM systems hiring patterns**
 
 ## Quality check
-- [ ] Same questions all candidates
-- [ ] Work sample included
-- [ ] No illegal / culture-fit beer questions
-- [ ] Independent scoring before debrief
+
+Before delivering, verify:
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
+
+## Next steps
+1. 
+2. 
+3. 

@@ -1,37 +1,69 @@
-# Skills Lock Deliverable
+# Skills Lock — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Owner:
+- Date:
 
-## Framework Basis
-- Frameworks used:
-- Why these apply:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Recommendation
-1.
-2.
-3.
+## Core output
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+```json
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+{
 
-## Risks / Pitfalls
--
+"version": "1.0.0",
 
-## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+"repository": "owner/repo",
+
+"generated_at": "ISO-8601",
+
+"total_skills": N,
+
+"skills": {
+
+"category/skill-name": {
+
+"version": "X.Y.Z",
+
+"path": "skills/category/skill-name/SKILL.md",
+
+"sha256": "hex-hash",
+
+"dependencies": ["other-skill"],
+
+"frameworks": ["Framework Name (Authority)"],
+
+"size_bytes": N,
+
+"last_updated": "ISO-8601"
+
+}
+
+}
+
+}
+
+```
+
+## Frameworks Applied
+
+- **npm package-lock.json — deterministic dependency resolution**
+- **Cargo.lock (Rust) — version pinning and integrity**
+
+## Quality check
+
+Before delivering, verify:
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
+
+## Next steps
+1. 
+2. 
+3. 

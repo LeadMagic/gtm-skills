@@ -2,7 +2,6 @@
 
 ## Context
 - Company / product:
-- ICP / segment:
 - Owner:
 - Date:
 
@@ -10,10 +9,22 @@
 [One paragraph: what this deliverable decides or enables]
 
 ## Core output
-[Fill per SKILL.md Output Format]
+
+<!-- Structure derived from SKILL.md Output Format -->
+The agent should produce output in this structure:
+
+```markdown
+
+## Frameworks Applied
+
+- **Maja Voje GTM Strategist**
+- **Moore Beachhead**
+- **Winning by Design Bowtie**
+- **Force Management MEDDICC**
 
 ## Quality check
 
+Before delivering, verify:
 - [ ] Is the ICP specific enough to say "no" to a prospect who doesn't fit?
 - [ ] Does the beachhead segment represent a winnable market, not just the total market?
 - [ ] Are competitive categorizations accurate (direct vs indirect vs status quo)?

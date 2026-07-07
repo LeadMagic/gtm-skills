@@ -2,7 +2,6 @@
 
 ## Context
 - Company / product:
-- ICP / segment:
 - Owner:
 - Date:
 
@@ -10,10 +9,23 @@
 [One paragraph: what this deliverable decides or enables]
 
 ## Core output
-[Fill per SKILL.md Output Format]
+
+<!-- Structure derived from SKILL.md Output Format -->
+Tier targeting playbook with: tier definitions, account scoring model,
+
+motion assignment matrix, messaging by tier, sales process by tier, and
+
+collision handling rules.
+
+## Frameworks Applied
+
+- **Jason Lemkin & Mark Roberge — From Survival to Thrival (enterprise upmarket)**
+- **OpenView Company Size Segmentation**
+- **Winning by Design GTM by ACV**
 
 ## Quality check
 
+Before delivering, verify:
 - [ ] All required sections are complete
 - [ ] Output matches the user's stated need
 - [ ] Named frameworks are cited for key recommendations

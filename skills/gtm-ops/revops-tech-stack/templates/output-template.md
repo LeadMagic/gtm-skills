@@ -1,23 +1,51 @@
-# RevOps Tech Stack Deliverable
+# Revops Tech Stack — Deliverable
 
 ## Context
-- ARR / headcount:
-- Audit scope (all GTM tools?):
+- Company / product:
+- Owner:
+- Date:
 
-## Phase 1 — Audit
-Complete `templates/stack-audit-scorecard.md`
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Phase 2 — Consolidation
-| Tool | Util % | Recommendation | Savings $ |
-|---|---:|---|---:|
+## Core output
 
-## Phase 3 — Target state
-Complete `templates/target-state-architecture.md`
+<!-- Structure derived from SKILL.md Output Format -->
+RevOps stack blueprint containing: full audit inventory with utilization
 
-## Phase 4 — Integrations
-Hub-and-spoke: every tool → CRM
+percentages and bowtie-stage assignments, consolidation analysis with
+
+keep/consolidate/cut recommendations and a computed savings estimate, target-
+
+state architecture by ARR stage with one category-owner tool per bowtie stage,
+
+integration architecture with named data owners and directional data-flow
+
+contracts, and cost-optimization plan with negotiation levers and a
+
+baseline-derived savings range. See `references/framework-notes.md` for the
+
+audit scorecard template and category-owner matrix.
+
+## Frameworks Applied
+
+- **Scott Brinker — MarTech Landscape (chiefmartec.com, 2025)**
+- **Gartner — Revenue Operations Research**
+- **Forrester Decisions — Revenue Operations**
+- **Winning by Design — Revenue Architecture (bowtie funnel)**
+- **RevOps Co-op — RevOps project manager hiring guide**
 
 ## Quality check
-- [ ] Savings from audit math, not asserted
-- [ ] One owner tool per category
-- [ ] New spend cross-check `gtm-spend-management`
+
+Before delivering, verify:
+- [ ] Every retained tool has a documented bowtie-stage assignment — no tool without a process home
+- [ ] Each category has exactly one owner tool in the target-state architecture
+- [ ] Utilization is measured from actual MAU data, not self-reported or assumed
+- [ ] Consolidation savings estimate is derived from audit actuals, not asserted upfront
+- [ ] Every integration has a named data owner and a documented direction (source → destination)
+- [ ] Stack is scoped to the company's current ARR stage, not aspirational tooling
+
+## Next steps
+1. 
+2. 
+3. 

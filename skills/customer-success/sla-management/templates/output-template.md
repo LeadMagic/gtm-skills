@@ -1,42 +1,102 @@
 # Sla Management — Deliverable
 
-## Deliverable spec
+## Context
+- Company / product:
+- Owner:
+- Date:
+
+## Summary
+[One paragraph: what this deliverable decides or enables]
+
+## Core output
+
+<!-- Structure derived from SKILL.md Output Format -->
+```
 
 SLA POLICY — [Company]
 
 Last Updated: [date]
+
 Owner: [name, title]
 
 PRIORITY MATRIX:
+
 | Priority | Definition | Examples | FRT | Resolution |
+
 |---|---|---|---|---|
 | P1 | ... | ... | ... | ... |
+
 ...
 
 TIER-BASED SLA:
+
 [Table by plan tier]
 
 ESCALATION PATHS:
+
 L1 → L2 trigger: [criteria]
+
 L2 → L3 trigger: [criteria]
+
 Director/VP escalation: [when, how]
 
 BUSINESS HOURS:
-- Hours: [timezone, schedule]
-- After-hours: P1 only (on-call via [PagerDuty/Opsgenie])
-- Clock behavior: P2-P4 clock pauses outside hours. P1 clock never pauses.
+
+### Hours: [timezone, schedule]
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### After-hours: P1 only (on-call via [PagerDuty/Opsgenie])
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### Clock behavior: P2-P4 clock pauses outside hours. P1 clock never pauses.
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
 SLA COMPLIANCE TARGETS:
-- P1 FRT: 100%
-- P2 FRT: 95%
-- Overall: 90%
+
+### P1 FRT: 100%
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### P2 FRT: 95%
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### Overall: 90%
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
 BREACH REMEDIATION:
-- For customers: [communication, credit if applicable]
-- Internal: [post-mortem, process fix, staffing adjustment]
+
+### For customers: [communication, credit if applicable]
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### Internal: [post-mortem, process fix, staffing adjustment]
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+```
+
+## Frameworks Applied
+
+- **ITIL 4 — Service Level Management practice**
+- **Zendesk — SLA Policy Design Guide**
+- **Intercom — SLA and Business Hours Configuration**
 
 ## Quality check
 
+Before delivering, verify:
 - [ ] Output matches the user's stated request
 - [ ] Named frameworks or sources are reflected in the recommendation
 - [ ] The deliverable is specific enough for an agent to execute

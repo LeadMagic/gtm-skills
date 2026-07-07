@@ -1,23 +1,58 @@
 # Multi Channel Outreach — Deliverable
 
-## Deliverable spec
+## Context
+- Company / product:
+- Owner:
+- Date:
 
+## Summary
+[One paragraph: what this deliverable decides or enables]
+
+## Core output
+
+<!-- Structure derived from SKILL.md Output Format -->
 Multi-channel sequence document:
+
 ```
-# Multi-Channel Sequence: [Campaign Name]
+
 ICP: [ICP description]
+
 Duration: 21 days, 7 touches
 
 | Day | Channel | Type | Content Theme |
+
 |---|---|---|---|
 | 1 | Email | Cold intro | Signal → CTA |
+
 | 3 | LinkedIn | Connect | No pitch |
+
 | ... | ... | ... | ... |
 
 Conditional Rules:
-- If LinkedIn connects: [action]
-- If email reply: [action]
-- If hard no: [action]
+
+### If LinkedIn connects: [action]
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### If email reply: [action]
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### If hard no: [action]
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+```
+
+## Frameworks Applied
+
+- **Saleshandy Multi-Channel Architecture**
+- **Reply.io Conditional Sequencing**
+- **Sandler Up-Front Contracts**
+- **Guillaume Moubeche — lemlist Multichannel**
 
 ## Quality check
 

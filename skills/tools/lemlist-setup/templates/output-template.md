@@ -1,48 +1,36 @@
-# Lemlist Setup Deliverable
+# Lemlist Setup — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier:
-- Multichannel? Y/N
-- Clay source? Y/N
+- Owner:
+- Date:
 
-## Framework Basis
-- Guillaume Moubeche — problem-first, 4-9 touches
-- Pat Spielmann — verify + Full-Circle multichannel
-- Lemlist — lemwarm, personalization variables
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Lemwarm Status
-| Mailbox | Reputation Score | Ready? |
-|---|---:|---|
-|  |  | >95 |
+## Core output
 
-## Multichannel Sequence
-| Day | Channel | Content Source |
-|---:|---|---|
-| 0 | Email | problem_hook (Clay) |
-|  | LinkedIn |  |
-|  | Call |  |
+<!-- Structure derived from SKILL.md Output Format -->
+Lemlist playbook with: warmup schedule, campaign configuration, creative personalization
 
-## Clay Enrollment Gate
-- [ ] verify_status = valid
-- [ ] problem_hook mapped (Guillaume CTC)
-- [ ] Channel-native copy (no email paste to LI)
-- Spec: `references/clay-enrollment-handoff.md`
+templates, multi-channel integration plan, and optimization framework.
 
-## Personalization Variables
-| Variable | Clay Column |
-|---|---|
-| {{firstName}} |  |
-| {{companyName}} |  |
-| {{problem_hook}} |  |
+## Frameworks Applied
 
-## Metrics
-| Metric | Target |
-|---|---:|
-| Reply rate |  |
-| LinkedIn accept rate |  |
+- **Lemlist Personalization Framework**
+- **Guillaume Moubeche — lemlist Outbound**
+- **ColdIQ Multi-Channel**
 
-## Quality Check
-- [ ] lemwarm >95 before launch
-- [ ] Guillaume cadence structure (4-9 touches)
-- [ ] Pat verify gate on Clay rows
+## Quality check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
+## Next steps
+1. 
+2. 
+3. 

@@ -1,58 +1,36 @@
-# Re-Engagement Campaign — Deliverable
+# Re Engagement — Deliverable
 
 ## Context
 - Company / product:
-- List size by segment:
-- Last engagement date range:
-- What's changed since they left (inventory below):
+- Owner:
+- Date:
 
-## What's new inventory
-1. Product improvements:
-2. New integrations/features:
-3. Case studies (industry):
-4. Pricing/packaging changes:
-5. New research/data:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Segmentation
+## Core output
 
-| Segment | Count | Dormancy | Priority |
-|---|---:|---|---|
-| Cold leads | | 3–6 mo | |
-| Frozen leads | | 6–12 mo | |
-| Recent churn | | <90d | |
-| Lapsed users | | Paying, low usage | |
+<!-- Structure derived from SKILL.md Output Format -->
+Re-engagement campaign design with: segmentation criteria, "what's new" inventory,
 
-## Sequences
+sequences per segment, win-back offer structure, and sunset policy.
 
-### Dormant lead (3 touches / 14 days)
-| Day | Theme | CTA |
-|---:|---|---|
-| 1 | Since you downloaded [asset] + 1 new thing | Updated resource |
-| 7 | New insight on original interest | |
-| 14 | Breakup + new feature mention | |
+## Frameworks Applied
 
-### Inactive customer win-back (3 touches / 21 days)
-| Day | Theme | Offer |
-|---:|---|---|
-| 1 | What we've fixed since you left | 15-min walkthrough |
-| 10 | Similar company case study | |
-| 21 | Direct reactivation offer | |
-
-## Win-back offers by churn reason
-
-| Reason | Offer | Skip? |
-|---|---|---|
-| Price | Grandfathered pricing | |
-| Complexity | Waived setup | |
-| Bad fit | — | Yes — let go |
-
-## Sunset policy
-- Cooldown period:
-- Suppression rules:
-- GDPR 24-month rule:
+- **Win-Back Campaign Framework**
+- **Retention Science Methodology**
 
 ## Quality check
-- [ ] "What's new" inventory completed before copy
-- [ ] No "we miss you" — lead with change/proof
-- [ ] Sunset policy defines suppress timing
-- [ ] Lapsed paying users on health play — not win-back
+
+Before delivering, verify:
+- [ ] Dormant leads segmented by recency: cold (3-6 months), frozen (6-12 months), dead (12+ months) — each with a different touch cadence
+- [ ] Inactive customers segmented separately: lapsed user (still paying, usage dropped), recent churn (<90 days), old churn (90+ days)
+- [ ] 'What's New' inventory completed before first outreach — minimum 3 product improvements, 2 new features/integrations, 1-2 relevant case studies
+- [ ] Dormant lead sequence: 3 touches over 14 days, ending with breakup (no infinite nurture)
+- [ ] Inactive customer sequence: 3 touches over 21 days, with a specific win-back offer on touch 3
+- [ ] Sunset policy defined: dormant leads suppress after 2 sequences; churned customers get annual check-in only; 24-month no-engagement = deletion
+
+## Next steps
+1. 
+2. 
+3. 

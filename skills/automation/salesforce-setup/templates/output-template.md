@@ -1,37 +1,38 @@
-# Salesforce Setup Deliverable
+# Salesforce Setup — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Owner:
+- Date:
 
-## Framework Basis
-- Frameworks used:
-- Why these apply:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Recommendation
-1.
-2.
-3.
+## Core output
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+Salesforce configuration document with: object model diagram, opportunity
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+pipeline map with validation rules, lead management flow, Flows automation
 
-## Risks / Pitfalls
--
+catalog, dashboard specs, and enrichment integration architecture.
 
-## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+## Frameworks Applied
+
+- **Salesforce Architecture — Lead/Account/Contact/Opportunity**
+- **Marc Benioff — Trust selling, land-and-expand, customer success in CRM**
+- **Force.com Platform — Flows, validation, reporting**
+
+## Quality check
+
+- [ ] Object model: Lead → Account → Contact → Opportunity hierarchy configured
+- [ ] Opportunity stages defined with required fields and validation rules
+- [ ] Lead scoring and assignment rules active
+- [ ] Key Flows automating repetitive tasks
+- [ ] Dashboards for sales, revenue, and data quality
+- [ ] Enrichment: one-direction push, never two-way sync
+
+## Next steps
+1. 
+2. 
+3. 

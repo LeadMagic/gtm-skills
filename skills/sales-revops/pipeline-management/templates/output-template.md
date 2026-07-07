@@ -1,94 +1,55 @@
-# GTM Sales Process — [Company / Segment]
+# Pipeline Management — Deliverable
 
 ## Context
-- ICP tier: small business / mid-market / enterprise
-- ACV range:
-- Sales motion: transactional / consultative / strategic
-- CRM:
-- Average cycle length:
+- Company / product:
+- Owner:
+- Date:
 
-## Framework Basis
-- Winning by Design GTM Playbook Kit (Goal + Actions + Exit Criteria)
-- SPICED qualification mapping
-- Bowtie handoff design
-- [ ] MEDDICC overlay (enterprise only)
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Stage Map
+## Core output
 
-| # | Stage | Goal | In-Stage Actions | Exit Criteria (CRM Fields) | Max Days |
-|---|---|---|---|---|---|
-| 1 |  |  |  |  |  |
-| 2 |  |  |  |  |  |
-| 3 |  |  |  |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+GTM sales process document containing: motion selection rationale, full stage
 
-## SPICED + MEDDICC Field Map
+table (Goal + Actions + Exit Criteria), SPICED/MEDDICC CRM field map, conversion
 
-| SPICED | MEDDICC | CRM Field | Stage |
-|---|---|---|---|
-| Situation | — |  |  |
-| Pain | Identify Pain |  |  |
-| Impact | Metrics |  |  |
-| Critical Event | Decision Process timing |  |  |
-| Decision | E + D + D |  |  |
+metric targets, time-in-stage rules, Bowtie handoff specs, forecast categories,
 
-## MEDDICC Scorecard (Andy Whyte)
+and weekly inspection agenda.
 
-| Dimension | Score (0/1/2) | Evidence | Last Updated |
-|---|---:|---|---|
-| M — Metrics |  |  |  |
-| E — Economic Buyer |  |  |  |
-| D — Decision Criteria |  |  |  |
-| D — Decision Process |  |  |  |
-| I — Identify Pain |  |  |  |
-| C — Champion |  |  |  |
-| C — Competition |  |  |  |
-| **Total /14** |  |  |  |
+Use `templates/output-template.md` for the deliverable structure. Run
 
-Champion test (Y/N each): Power / Personal win / Articulates pain / Sells internally
+`scripts/check-output.py` on the finished document before delivery.
 
-Stage gate for current stage: min ___/14 — Pass? Y/N
+## Frameworks Applied
 
-## SPICED Field Map (Discovery)
+- **Winning by Design — GTM Playbook Development Kit**
+- **Winning by Design — SPICED Qualification**
+- **Keenan — Gap Selling**
+- **Winning by Design — Bowtie Handoff Design**
+- **Mark Roberge — The Sales Acceleration Formula**
+- **Miller Heiman — Strategic Selling (buying influence)**
+- **Andy Whyte — MEDDICC Qualification & Scorecard**
+- **Force Management — MEDDICC Methodology**
 
-| Dimension | CRM Field | Captured At Stage | Required By |
-|---|---|---|---|
-| Situation |  |  |  |
-| Pain |  |  |  |
-| Impact |  |  |  |
-| Critical Event |  |  |  |
-| Decision |  |  |  |
+## Quality check
 
-## Conversion Targets
+Before delivering, verify:
+- [ ] Every stage has Goal, In-Stage Actions, AND Exit Criteria — not just a label
+- [ ] Exit criteria are evidence fields in CRM, not subjective judgments
+- [ ] SPICED dimensions mapped to specific stages with disqualification rules
+- [ ] MEDDICC scorecard defined with 0/1/2 scoring and stage gate minimums
+- [ ] Champion test (Whyte) documented with four criteria
+- [ ] SPICED + MEDDICC field mapping shows no duplicate/conflicting CRM fields
+- [ ] Conversion rate targets defined between each stage pair
+- [ ] Time-in-stage limits set with alert thresholds
+- [ ] AE → CS handoff package defined (Bowtie continuity)
+- [ ] Forecast categories tied to exit criteria, not rep confidence
+- [ ] Weekly inspection agenda uses SPICED/MEDDICC questions
 
-| From → To | Target % | Current % | Review Date |
-|---|---:|---:|---|
-|  |  |  |  |
-
-## Handoffs
-
-| Handoff | From → To | Package Contents | SLA |
-|---|---|---|---|
-| SDR → AE |  |  |  |
-| AE → CS |  |  |  |
-
-## Forecast Categories
-
-| Stage Group | Category | Confidence % |
-|---|---|---:|
-|  |  |  |
-
-## Weekly Inspection Agenda
-1.
-2.
-3.
-
-## Deal Review Questions
--
-
-## Quality Check
-- [ ] Every stage has Goal, Actions, Exit Criteria
-- [ ] Exit criteria are CRM evidence fields
-- [ ] SPICED mapped with disqualification rules
-- [ ] Conversion targets between stages
-- [ ] AE → CS handoff defined
-- [ ] Time-in-stage limits set
+## Next steps
+1. 
+2. 
+3. 

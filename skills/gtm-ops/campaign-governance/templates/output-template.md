@@ -1,23 +1,38 @@
-# Campaign Governance Deliverable
+# Campaign Governance — Deliverable
 
-## Hierarchy
-Program → Campaign → Tactic definitions
+## Context
+- Company / product:
+- Owner:
+- Date:
 
-## Naming convention
-Link: `references/campaign-naming-conventions.md`
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## UTM dictionary
-Link: `references/utm-governance.md`
+## Core output
 
-## Enforcement
-- CRM validation rules:
-- Weekly audit owner:
-- Dashboard metrics:
+<!-- Structure derived from SKILL.md Output Format -->
+Campaign governance document with: hierarchy definition, naming convention
 
-## Registers
-- `templates/campaign-hierarchy-register.md`
-- `templates/utm-parameter-sheet.md` (per launch)
+reference, UTM parameter dictionary, enforcement rules, and audit calendar.
+
+## Frameworks Applied
+
+- **Marketing Ops Governance Framework**
+- **SiriusDecisions Campaign Hierarchy**
+- **Winning by Design — Revenue Architecture**
+- **Atlassian Team Playbook — RACI chart**
+- **PMI — RACI matrix responsibility assignment**
 
 ## Quality check
-- [ ] No free-text campaign names post go-live
-- [ ] Spend tied to Ramp register if applicable
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
+## Next steps
+1. 
+2. 
+3. 

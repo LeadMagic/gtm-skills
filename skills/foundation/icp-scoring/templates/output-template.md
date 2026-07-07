@@ -1,62 +1,39 @@
-# ICP Scoring Model — Deliverable
+# Icp Scoring — Deliverable
 
 ## Context
 - Company / product:
-- Target ACV range:
-- Historical win/loss sample size:
+- Owner:
 - Date:
 
-## Scorecard summary
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-| Tier | Score range | % of pipeline target | Action |
-|---|---:|---:|---|
-| A | 80–100 | | Priority outbound |
-| B | 60–79 | | Nurture + outbound |
-| C | 40–59 | | Marketing only |
-| D | <40 | | Disqualify |
+## Core output
 
-## Dimension 1 — Firmographic fit (weight: %)
-| Attribute | Points | Rule |
-|---|---:|---|
-| | | |
+<!-- Structure derived from SKILL.md Output Format -->
+```markdown
 
-## Dimension 2 — Technographic fit (weight: %)
-| Attribute | Points | Rule |
-|---|---:|---|
-| | | |
+## Frameworks Applied
 
-## Dimension 3 — Behavioral fit (weight: %)
-| Attribute | Points | Rule |
-|---|---:|---|
-| | | |
-
-## Dimension 4 — Intent signals (weight: %)
-| Signal | Points | Source |
-|---|---:|---|
-| | | |
-
-## Negative persona catalog
-| Persona | Override rule | Reason |
-|---|---|---|
-| | Score cap / auto-D | |
-
-## Buying committee map
-| Role | MEDDICC element | Messaging angle |
-|---|---|---|
-| | | |
-
-## Language banks
-- Pain language:
-- Outcome language:
-- Proof points:
-
-## Calibration notes
-- Weights adjusted from win rate data:
-- Minimum ACV threshold:
+- **Winning by Design SPICED**
+- **Force Management MEDDICC**
+- **Gartner Buying Committee Research**
 
 ## Quality check
-- [ ] Weights sum to 100%
-- [ ] Each dimension has ≥3 scored attributes
-- [ ] Negative personas override composite score
-- [ ] Model differentiates (not all 70–80)
-- [ ] Buying committee covers MEDDICC roles
+
+Before delivering, verify:
+- [ ] Do weights sum to 100%?
+- [ ] Does each dimension have at least 3 scored attributes?
+- [ ] Are there explicit negative persona rules that override the composite score?
+- [ ] Does the model produce meaningful differentiation (not all companies scoring 70-80)?
+- [ ] Are technographic must-haves genuinely required, or just "nice to have"?
+- [ ] Does the buying committee map cover all MEDDICC-relevant roles?
+- [ ] Are language banks specific enough to write personalized outreach from?
+- [ ] If calibration data was available, were weights adjusted based on empirical win rate lift?
+- [ ] Is the minimum ACV threshold clearly stated and enforced in scoring?
+- [ ] Would the model have correctly scored the historical win/loss examples provided?
+
+## Next steps
+1. 
+2. 
+3. 

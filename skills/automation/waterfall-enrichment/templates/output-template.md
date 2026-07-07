@@ -1,37 +1,35 @@
-# Waterfall Enrichment Deliverable
+# Waterfall Enrichment — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Owner:
+- Date:
 
-## Framework Basis
-- Frameworks used:
-- Why these apply:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Recommendation
-1.
-2.
-3.
+## Core output
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+Waterfall architecture document with provider ordering, conditions, credit
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+costs, expected coverage per stage, and verification integration.
 
-## Risks / Pitfalls
--
+## Frameworks Applied
 
-## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+- **DAMA-DMBOK Data Quality Dimensions**
+- **Ziellab 3-Waterfall Architecture**
+
+## Quality check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
+## Next steps
+1. 
+2. 
+3. 

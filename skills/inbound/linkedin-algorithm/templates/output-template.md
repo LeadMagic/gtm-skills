@@ -1,11 +1,29 @@
-# LinkedIn Algorithm Audit — Deliverable
+# Linkedin Algorithm — Deliverable
 
-## Deliverable spec
+## Context
+- Company / product:
+- Owner:
+- Date:
 
+## Summary
+[One paragraph: what this deliverable decides or enables]
+
+## Core output
+
+<!-- Structure derived from SKILL.md Output Format -->
 LinkedIn algorithm audit + optimization plan: 90-day baseline table, reach-killer
+
 findings, format mix recommendation with multipliers, post anatomy checklist
+
 (hook/length/keywords/tags), golden-hour engagement routine, posting calendar
+
 (frequency + timing), and a 30-day remeasurement plan.
+
+## Frameworks Applied
+
+- **Richard van der Blom (Just Connecting) — LinkedIn Algorithm Insights Report**
+- **Jessie Lizak (Reveting) — LinkedIn Live & livestream content engine**
+- **Adam Robinson (RB2B) — Founder-led LinkedIn distribution**
 
 ## Quality check
 

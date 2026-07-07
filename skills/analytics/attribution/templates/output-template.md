@@ -1,37 +1,41 @@
-# Attribution Deliverable
+# Attribution — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Owner:
+- Date:
 
-## Framework Basis
-- Frameworks used:
-- Why these apply:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Recommendation
-1.
-2.
-3.
+## Core output
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+The agent should produce output in this structure:
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+```markdown
 
-## Risks / Pitfalls
--
+**Period:** [Q1 2024] | **Model:** [U-Shaped, primary] | **Lookback:** [90 days]
 
-## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+## Frameworks Applied
+
+- **Bizible Multi-Touch Attribution**
+- **Google Analytics Attribution**
+- **Full Circle Insights**
+
+## Quality check
+
+Before delivering, verify:
+- [ ] Has UTM hygiene been audited and scored before attribution modeling?
+- [ ] Are at least 4 attribution models compared, not just one "preferred" model?
+- [ ] Does the model selection align with the company's GTM motion and sales cycle?
+- [ ] Are channel costs fully loaded (people + media + tools + content)?
+- [ ] Is the assist ratio reported to show channels undervalued by the primary model?
+- [ ] Is there a clear source-of-truth designation and data governance plan?
+- [ ] Are attribution model limitations acknowledged (cookie gaps, offline touches, time windows)?
+- [ ] Would both marketing and sales leadership trust these numbers?
+
+## Next steps
+1. 
+2. 
+3. 

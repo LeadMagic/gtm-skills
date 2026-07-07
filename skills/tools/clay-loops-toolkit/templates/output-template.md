@@ -1,43 +1,67 @@
-# Clay Loops GTM Deliverable
+# Clay Loops Toolkit — Deliverable
 
 ## Context
-- Signal type:
-- ICP tier:
-- GTM play skill:
-- Cadence:
+- Company / product:
+- Owner:
+- Date:
 
-## Framework Basis
-- Signal-to-action routing
-- SPICED Critical Event capture
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Loop Summary
-| Table | Purpose |
+## Core output
+
+<!-- Structure derived from SKILL.md Output Format -->
+Clay Loop blueprint using `templates/loop-blueprint.md`:
+
+### Loop type + GTM play skill
+| Item | Detail |
 |---|---|
-| Source |  |
-| Monitor |  |
-| Enrich |  |
-| Action |  |
+| [field] | [value] |
 
-## Implementation Steps
-| Step | Owner | Done When |
-|---|---|---|
-| 1 |  |  |
-| 2 |  |  |
+### 4-table column map with LeadMagic waterfall
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## Metrics
-| Metric | Target |
-|---|---:|
-| Signal-to-meeting rate |  |
-| Credit burn/month |  |
-| False positive rate |  |
+### Monitor formula + signal age filter
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## Detailed Specs
-- Full loop: `templates/loop-blueprint.md`
-- Routing: `templates/routing-matrix.md`
-- Catalog: `references/loop-catalog.md`
+### Score bands + routing matrix
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## Quality Check
-- [ ] One signal per loop
-- [ ] Enrich only on signal_detected
-- [ ] source_url + why_now on every route
-- [ ] Suppression before sequencer
+### Credit budget (per row + monthly cap)
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### Integration endpoints (CRM, sequencer, n8n)
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+## Frameworks Applied
+
+- **Clay — Loops recurring GTM automation**
+- **LeadMagic — Email find, verify, job change, person enrich on Clay**
+- **ColdIQ — Signal-to-Action Routing**
+- **Winning by Design — SPICED Critical Event**
+
+## Quality check
+
+- [ ] One signal type per loop
+- [ ] Monitor columns are cheap; enrich only on `signal_detected = true`
+- [ ] LeadMagic Verify gate before sequencer or CRM outbound
+- [ ] `why_now`, `source_url`, `signal_date` on every routed row
+- [ ] Suppression check before any send action
+- [ ] Signal age filter (14d funding/job change)
+- [ ] Matching play skill referenced for message template
+- [ ] Credit cap documented per row and monthly
+
+## Next steps
+1. 
+2. 
+3. 

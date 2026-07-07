@@ -2,7 +2,6 @@
 
 ## Context
 - Company / product:
-- ICP / segment:
 - Owner:
 - Date:
 
@@ -10,7 +9,16 @@
 [One paragraph: what this deliverable decides or enables]
 
 ## Core output
-[Fill per SKILL.md Output Format]
+
+<!-- Structure derived from SKILL.md Output Format -->
+CRO audit report:
+
+```
+
+## Frameworks Applied
+
+- **Cialdini Persuasion Principles**
+- **Wiebe Conversion Copywriting**
 
 ## Quality check
 

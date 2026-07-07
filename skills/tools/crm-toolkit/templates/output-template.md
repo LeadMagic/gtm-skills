@@ -1,37 +1,60 @@
-# CRM Toolkit — Deliverable
+# Crm Toolkit — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Owner:
+- Date:
 
-## Framework Basis
-- Frameworks used:
-- Why these apply:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Recommendation
-1.
-2.
-3.
+## Core output
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+Deliver based on request:
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+### **CRM selection memo:** Scorecard + recommendation + 12-month path
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## Risks / Pitfalls
--
+### **Object model doc:** Contacts vs leads decision with field map
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+### **Blueprint package:** Stages, properties, workflows for chosen platform
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### **Migration plan:** Source → target mapping, hygiene gates, parallel run
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### **Partner RFP:** Scope from `references/implementation-partners.md` checklist
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+## Frameworks Applied
+
+- **Winning by Design — Bowtie lifecycle**
+- **HubSpot — Lifecycle Stage Model**
+- **Salesforce — Lead/Account/Contact/Opportunity**
+- **Marc Benioff — V2MOM, trust selling, land-and-expand, customer success**
+
+## Quality check
+
+- [ ] Platform choice tied to ARR, motion, and admin capacity
+- [ ] Contacts vs leads documented — no hybrid confusion
+- [ ] 5–7 stages with exit criteria
+- [ ] Enrichment one-direction into CRM
+- [ ] Partner engagement only if process documented
+- [ ] Setup skill named for rollout (`hubspot-setup`, etc.)
+
+## Next steps
+1. 
+2. 
+3. 

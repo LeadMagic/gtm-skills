@@ -2,7 +2,6 @@
 
 ## Context
 - Company / product:
-- ICP / segment:
 - Owner:
 - Date:
 
@@ -10,10 +9,21 @@
 [One paragraph: what this deliverable decides or enables]
 
 ## Core output
-[Fill per SKILL.md Output Format]
+
+<!-- Structure derived from SKILL.md Output Format -->
+Co-marketing campaign plan with: partner brief, campaign format and assets,
+
+promotion calendar, lead management rules, and measurement framework.
+
+## Frameworks Applied
+
+- **Co-Marketing Playbook**
+- **Crossbeam Partner-Led Growth**
+- **Crossbeam — Ecosystem-Led Growth**
 
 ## Quality check
 
+Before delivering, verify:
 - [ ] All required sections are complete
 - [ ] Output matches the user's stated need
 - [ ] Named frameworks are cited for key recommendations

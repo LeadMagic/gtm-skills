@@ -1,37 +1,37 @@
-# Case Study Builder Deliverable
+# Case Study Builder — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Owner:
+- Date:
 
-## Framework Basis
-- Frameworks used:
-- Why these apply:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Recommendation
-1.
-2.
-3.
+## Core output
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+Two versions: 1-page summary (for email, LinkedIn, quick sharing) and
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+full version (for late-stage deals, website, sales portal).
 
-## Risks / Pitfalls
--
+## Frameworks Applied
 
-## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+- **Challenge-Solution-Results**
+- **Before-After-Bridge**
+
+## Quality check
+
+- [ ] Specific, named metrics (not "improved efficiency")
+- [ ] Customer quote in their words (not marketing language)
+- [ ] Challenge → Solution → Results structure
+- [ ] Customer name and logo included (with permission)
+- [ ] 1-page version scannable in 30 seconds
+- [ ] Full version has implementation detail
+- [ ] Customer has approved final text
+- [ ] CTA present on both versions
+
+## Next steps
+1. 
+2. 
+3. 

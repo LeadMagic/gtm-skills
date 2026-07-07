@@ -1,43 +1,36 @@
-# LeadMagic Job Change Deliverable
+# Leadmagic Job Change — Deliverable
 
 ## Context
-- Contact source (CRM/list):
-- Primary scenario: champion / risk / net-new / former user
-- Clay loop? Y/N
+- Company / product:
+- Owner:
+- Date:
 
-## Framework Basis
-- Signal-based selling + champion tracking
-- ColdIQ one signal → one play
-- Pat Spielmann — verify at new email
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Route Matrix
-| Scenario | Detected By | Route | Owner |
-|---|---|---|---|
-|  |  |  |  |
+## Core output
 
-Spec: `references/champion-loop-pattern.md`
+<!-- Structure derived from SKILL.md Output Format -->
+```markdown
 
-## Clay Loop (if applicable)
-| Table | Purpose |
-|---|---|
-| SOURCE |  |
-| MONITOR | Job Change column |
-| ENRICH | Find → Verify → Enrich |
-| ACTION | Route matrix |
+## Frameworks Applied
 
-Cross-ref: `../../../tools/clay-loops-toolkit/references/loop-catalog.md` L03
+- **Signal-Based Selling**
+- **Champion Tracking Methodology**
+- **ColdIQ Trigger Selling**
+- **Winning by Design Bowtie**
 
-## CRM Rules
-- Champion left open opp → risk alert within 24h
-- Valid email required before sequence enroll
+## Quality check
 
-## Metrics
-| Metric | Target |
-|---|---:|
-| Signal-to-meeting (champion) | >15% |
-| False positive rate | <5% |
+Before delivering, verify:
+- [ ] Every signal is routed by relationship type
+- [ ] Active customer and opportunity risks are separated from new-logo opportunities
+- [ ] Outreach references real relationship context only
+- [ ] SLA and owner are assigned for each alert type
+- [ ] CRM task or alert destination is specified
+- [ ] Metrics include both opportunity creation and risk detection
 
-## Quality Check
-- [ ] No generic congrats-only messaging
-- [ ] Verify gate on new company email
-- [ ] job-change-play linked for copy if sequencer route
+## Next steps
+1. 
+2. 
+3. 

@@ -1,33 +1,54 @@
-# Customer Marketing Program — Deliverable
+# Customer Marketing — Deliverable
 
-## Advocacy ladder
-| Level | Trigger | Reward | Owner |
-|---|---|---|---|
-| 1–8 | See `references/advocacy-program.md` |  |  |
+## Context
+- Company / product:
+- Owner:
+- Date:
 
-## Case study pipeline
-| Candidate | Stage | Target publish |
-|---|---|---|
-|  | Interview / Draft / Live |  |
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-Questions: `templates/case-study-interview-questions.md`
+## Core output
 
-## Reviews
-- Primary platform: G2 / TrustRadius → `review-platforms`
-- Monthly new review target:
-- Response SLA: <48h negative
+<!-- Structure derived from SKILL.md Output Format -->
+Customer marketing program plan containing: (1) advocacy ladder — all eight
 
-## Reference program
-Spec: `templates/reference-program-spec.md`
-- Referenceable customers: #
-- Cap per customer: 3/quarter
+levels from logo usage to advisory board, with required NPS threshold, health
 
-## Community (optional)
-Format: Slack / LinkedIn / user conference  
-Launch scope:
+criteria, and reward for each level; (2) case study pipeline — active candidates
+
+list, interview question set, and monthly production target; (3) review generation
+
+playbook — G2/Capterra NPS Promoter identification sequence, incentive structure,
+
+and 24-hour response SLA for negative reviews; (4) reference program spec — CRM
+
+field configuration, quarterly call cap per reference, and rotation schedule;
+
+(5) community format recommendation (Slack, LinkedIn group, or virtual roundtable)
+
+with launch scope and moderation plan; (6) implementation checklist with measurable
+
+milestones for each program component.
+
+## Frameworks Applied
+
+- **Bain & Company — NPS (Net Promoter System, Fred Reichheld)**
+- **Gainsight — Customer Advocacy Maturity Model**
+- **Influitive — Advocate Marketing**
+- **SaaSquatch — Customer-Led Growth**
+- **Varun Anand (Clay) — Community Selling & Ecosystem GTM**
+- **Aneesh Lal (Wishly Group) — B2B Creator Partnerships & Advocacy**
 
 ## Quality check
-- [ ] Rewards comply with review platform ToS
-- [ ] Reference caps documented
-- [ ] CRM fields defined
-- [ ] Advocacy spend in `gtm-spend-management`
+
+Before delivering, verify:
+- [ ] All required sections complete
+- [ ] Output matches the user's stated need
+- [ ] No vague or unsupported claims
+- [ ] Frameworks cited where applicable
+
+## Next steps
+1. 
+2. 
+3. 

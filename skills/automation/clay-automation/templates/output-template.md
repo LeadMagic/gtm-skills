@@ -1,37 +1,42 @@
-# Clay Automation Deliverable
+# Clay Automation — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Owner:
+- Date:
 
-## Framework Basis
-- Frameworks used:
-- Why these apply:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Recommendation
-1.
-2.
-3.
+## Core output
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+Clay workflow document with table architecture diagram, provider waterfall
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+configuration, Claygent prompt templates, CRM push rules, credit budget,
 
-## Risks / Pitfalls
--
+and maintenance schedule.
 
-## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+## Frameworks Applied
+
+- **DAMA-DMBOK Data Quality Dimensions**
+- **Ziellab 3-Waterfall Architecture**
+- **GTME Pulse Clay Templates**
+- **Eric Nowoslawski Crawl Walk Run**
+- **Eric Nowoslawski Creative Ideas Campaign**
+- **Eric Nowoslawski GEX Agency Stack**
+- **Jen Igartua Go Nimbly RevOps automation maturity**
+
+## Quality check
+
+- [ ] Company and person tables separated
+- [ ] Waterfalls configured with conditional fallback logic
+- [ ] Claygent prompts explicitly prohibit guessing
+- [ ] CRM push uses clay_status property gating
+- [ ] Credit caps set per row
+- [ ] Test batch (50 rows) validated before scaling
+
+## Next steps
+1. 
+2. 
+3. 

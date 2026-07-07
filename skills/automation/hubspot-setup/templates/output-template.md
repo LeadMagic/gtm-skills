@@ -1,37 +1,38 @@
-# Hubspot Setup Deliverable
+# Hubspot Setup — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Owner:
+- Date:
 
-## Framework Basis
-- Frameworks used:
-- Why these apply:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Recommendation
-1.
-2.
-3.
+## Core output
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+HubSpot configuration document with: lifecycle stage definitions, deal pipeline
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+map, required fields per stage, marketing automation flows, dashboard specs,
 
-## Risks / Pitfalls
--
+and enrichment integration setup.
 
-## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+## Frameworks Applied
+
+- **HubSpot Smart CRM Framework**
+- **Lifecycle Stage Model**
+- **HubSpot Academy — CRM Automation**
+
+## Quality check
+
+- [ ] Lifecycle stages defined with clear advancement criteria
+- [ ] Deal pipelines configured with required fields per stage
+- [ ] Lead scoring model active (fit + engagement)
+- [ ] Enrichment integration: one-direction push from Clay to HubSpot
+- [ ] Dashboards built for all three functions (sales, marketing, revops)
+- [ ] Data quality: no duplicate contacts, no missing required fields
+
+## Next steps
+1. 
+2. 
+3. 

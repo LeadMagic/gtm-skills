@@ -1,40 +1,38 @@
-# LeadMagic CLI Workflow Deliverable
+# Leadmagic Cli — Deliverable
 
 ## Context
-- Input file:
-- Target action: find / validate / push
-- Destination platform:
+- Company / product:
+- Owner:
+- Date:
 
-## Framework Basis
-- Pat Spielmann — validate before push
-- CLI pipeline patterns
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Selected Pattern
-- [ ] A: CSV scrub (find → validate → filter)
-- [ ] B: Push to sequencer
-- [ ] C: Role-based find
-- [ ] D: Scheduled re-verify
-- [ ] E: Clay export post-process
+## Core output
 
-Spec: `references/cli-workflow-patterns.md`
+<!-- Structure derived from SKILL.md Output Format -->
+Commands produce structured JSON or CSV output. All results include source
 
-## Command Sequence
-```bash
-# Document actual commands
-```
+attribution and confidence indicators. Pipe into other tools or import into
 
-## Output Files
-| Stage | File | Row Count |
-|---|---|---:|
-| Input |  |  |
-| Verified |  |  |
-| Send-ready |  |  |
+spreadsheets.
 
-## Verify Gate
-- [ ] Every send-ready row has verify_status = valid
-- [ ] Invalid rows suppressed
+## Frameworks Applied
 
-## Quality Check
-- [ ] ICP filter before find (large lists)
-- [ ] Sequencer handoff doc cross-referenced
-- [ ] Error handling documented
+- **CLI Design Patterns**
+- **Enrichment Workflow Automation**
+- **LeadMagic Public Documentation — B2B Data Enrichment**
+
+## Quality check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
+## Next steps
+1. 
+2. 
+3. 

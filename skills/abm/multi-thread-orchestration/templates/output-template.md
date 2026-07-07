@@ -2,7 +2,6 @@
 
 ## Context
 - Company / product:
-- ICP / segment:
 - Owner:
 - Date:
 
@@ -10,10 +9,21 @@
 [One paragraph: what this deliverable decides or enables]
 
 ## Core output
-[Fill per SKILL.md Output Format]
+
+<!-- Structure derived from SKILL.md Output Format -->
+Stakeholder map (power/interest grid), per-role engagement plan, ghost node
+
+detection log, parallel play timeline, and deal health scorecard.
+
+## Frameworks Applied
+
+- **Andy Whyte — MEDDICC Champion & Economic Buyer**
+- **Force Management MEDDICC Methodology**
+- **Gartner Challenger Sale Stakeholder Mapping**
 
 ## Quality check
 
+Before delivering, verify:
 - [ ] All required sections are complete
 - [ ] Output matches the user's stated need
 - [ ] Named frameworks are cited for key recommendations

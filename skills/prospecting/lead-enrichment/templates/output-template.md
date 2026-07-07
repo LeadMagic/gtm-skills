@@ -2,7 +2,6 @@
 
 ## Context
 - Company / product:
-- ICP / segment:
 - Owner:
 - Date:
 
@@ -10,10 +9,19 @@
 [One paragraph: what this deliverable decides or enables]
 
 ## Core output
-[Fill per SKILL.md Output Format]
+
+<!-- Structure derived from SKILL.md Output Format -->
+```markdown
+
+## Frameworks Applied
+
+- **DAMA-DMBOK Data Quality Dimensions**
+- **Ziellab 3-Waterfall Architecture**
+- **Winning by Design Data Model**
 
 ## Quality check
 
+Before delivering, verify:
 - [ ] Are Company and Person tables in separate structures, joined by domain?
 - [ ] Does the waterfall use domain matching, not company name?
 - [ ] Does each provider in the waterfall have a clear trigger condition?

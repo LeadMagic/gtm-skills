@@ -1,37 +1,36 @@
-# Proactive Alerts Deliverable
+# Proactive Alerts — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Owner:
+- Date:
 
-## Framework Basis
-- Frameworks used:
-- Why these apply:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Recommendation
-1.
-2.
-3.
+## Core output
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+Alert architecture document with alert catalog, routing rules, delivery
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+templates, threshold configuration, and fatigue prevention rules.
 
-## Risks / Pitfalls
--
+## Frameworks Applied
 
-## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+- **UnifiedPipeline Risk Scoring**
+- **SyncGTM Signal Monitoring**
+- **Alysio Pipeline Risk Detection**
+
+## Quality check
+
+- [ ] Alert catalog covers pipeline risk, buying signals, positive signals, operational, and forecast
+- [ ] Every alert has a defined owner and SLA for response
+- [ ] Routing rules documented (who gets what, when)
+- [ ] Alert fatigue thresholds set (max per person, per day, per channel)
+- [ ] Daily briefing template created
+- [ ] Monthly alert audit cadence established
+
+## Next steps
+1. 
+2. 
+3. 

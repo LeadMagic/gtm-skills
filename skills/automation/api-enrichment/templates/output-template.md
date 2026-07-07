@@ -1,37 +1,37 @@
-# Api Enrichment Deliverable
+# Api Enrichment — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Owner:
+- Date:
 
-## Framework Basis
-- Frameworks used:
-- Why these apply:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Recommendation
-1.
-2.
-3.
+## Core output
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+```markdown
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+## Frameworks Applied
 
-## Risks / Pitfalls
--
+- **REST API Best Practices**
+- **Bulk Enrichment Patterns**
+- **DAMA-DMBOK Data Quality Dimensions**
+- **Idempotent API Design**
 
-## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+## Quality check
+
+Before delivering, verify:
+- [ ] Every field has source attribution
+- [ ] Retry logic is idempotent
+- [ ] Provider calls stop when required fields are found
+- [ ] CRM writes cannot duplicate records
+- [ ] Rate limits and cost ceilings are defined
+- [ ] Webhooks include verification and dedupe
+- [ ] Monitoring covers coverage, cost, errors, latency, and CRM writes
+
+## Next steps
+1. 
+2. 
+3. 

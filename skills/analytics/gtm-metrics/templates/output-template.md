@@ -1,37 +1,46 @@
-# Gtm Metrics Deliverable
+# Gtm Metrics — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Owner:
+- Date:
 
-## Framework Basis
-- Frameworks used:
-- Why these apply:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Recommendation
-1.
-2.
-3.
+## Core output
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+The agent should produce output in this structure:
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+```markdown
 
-## Risks / Pitfalls
--
+**Period:** [Q1 2024] | **Stage:** [Series A] | **Segment:** [Mid-Market]
 
-## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+## Frameworks Applied
+
+- **Winning by Design GTM Index**
+- **David Skok SaaS Metrics**
+- **Meritech Capital Public SaaS Benchmarks**
+- **Force Management Pod Economics**
+- **ChartMogul Benchmarks**
+- **OpenView Benchmarks**
+- **Henry Schuck (ZoomInfo) Public-Company GTM Metrics**
+- **John McMahon (CRO Board Reporting — 5-quarter model**
+
+## Quality check
+
+Before delivering, verify:
+- [ ] Are all 6 core metrics calculated using the correct formulas (fully-loaded CAC, contribution-margin LTV)?
+- [ ] Are benchmarks appropriate for the company's stage, ACV range, and GTM motion?
+- [ ] Is the GTM Index scored with specific evidence for each model score, not just intuition?
+- [ ] Are cohort trends included to separate real improvement from period-over-period noise?
+- [ ] Does the executive summary read as board-ready (concise, data-backed, insight-driven)?
+- [ ] Have data reconciliation checks been performed (CRM matches billing, spend is fully loaded)?
+- [ ] Are anomalies flagged and explained (unusual spikes, data gaps, methodological changes)?
+- [ ] Would a SaaS investor or board member find this dashboard comprehensive and credible?
+
+## Next steps
+1. 
+2. 
+3. 

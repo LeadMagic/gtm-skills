@@ -1,37 +1,38 @@
-# One Pager Builder Deliverable
+# One Pager Builder — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Owner:
+- Date:
 
-## Framework Basis
-- Frameworks used:
-- Why these apply:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Recommendation
-1.
-2.
-3.
+## Core output
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+One-pager copy with layout guidance:
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+```
 
-## Risks / Pitfalls
--
+## Frameworks Applied
 
-## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+- **AIDA Framework**
+- **3W Framework**
+- **Cialdini Persuasion Principles**
+
+## Quality check
+
+- [ ] Fits on one physical page (not two pages crammed)
+- [ ] Scannable in 30 seconds — bold headers visible, bullets short
+- [ ] Problem stated in customer language, not marketing copy
+- [ ] Differentiators are specific and provable
+- [ ] CTA is clear — one action, not three
+- [ ] Contact is a specific person, not info@
+- [ ] Brand colors and logo placement noted
+- [ ] Variant-appropriate sections included (champion email, trade show QR)
+
+## Next steps
+1. 
+2. 
+3. 

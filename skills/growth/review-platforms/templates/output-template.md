@@ -1,48 +1,57 @@
-# Review Platform Strategy — Deliverable
+# Review Platforms — Deliverable
 
 ## Context
 - Company / product:
-- ICP: SMB / mid-market / enterprise
-- Primary platform: G2 / TrustRadius / other
+- Owner:
+- Date:
 
-## Platform priority
-| Platform | Role | Owner |
-|---|---|---|
-| Primary |  |  |
-| Secondary |  |  |
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-Comparison: `references/review-platform-comparison.md`
+## Core output
 
-## Profile optimization
-- [ ] Category placement accurate
-- [ ] Screenshots + video updated (90 days)
-- [ ] Integrations complete
-- [ ] Response owner assigned
+<!-- Structure derived from SKILL.md Output Format -->
+### Review platform strategy (primary + secondary)
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-Playbooks: `references/g2-playbook.md`, `references/trustradius-playbook.md`
+### Generation campaign (triggers, email templates, owners)
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## Review generation campaign
-| Trigger moment | Owner | Volume target |
-|---|---|---|
-| 30-day go-live | CSM | 2–4 new reviews/month |
-| NPS 9–10 | CSM |  |
-| Renewal | CSM |  |
+### Response playbook for recent reviews
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-Email templates: `templates/review-ask-email.md`
+### Profile optimization checklist
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## Response SLA
-| Review type | SLA | Template |
-|---|---|---|
-| Negative | <48h | `templates/review-response-playbook.md` |
-| Mixed | <48h |  |
-| Positive | <7d |  |
+### Competitive review summary
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## CRM routing
-- Intent source field:
-- UTM on profile CTAs:
-- SDR/AE SLA:
+## Frameworks Applied
+
+- **G2 — Review Generation and Grid Methodology**
+- **TrustRadius — TruVoice and buyer research model**
+- **Gainsight — Customer Advocacy Maturity Model**
 
 ## Quality check
+
+- [ ] Primary platform matches ICP (G2 vs TrustRadius)
+- [ ] Ask triggers tied to customer milestones (not random blast)
 - [ ] No incentivized reviews violating ToS
-- [ ] Badges current season only
-- [ ] Competitive themes logged monthly
+- [ ] Negative response plan <48h with offline path
+- [ ] CRM routing for G2 intent (if licensed)
+- [ ] Profile updated within 90 days
+
+## Next steps
+1. 
+2. 
+3. 

@@ -1,37 +1,35 @@
-# Mcp Setup Deliverable
+# Mcp Setup — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Owner:
+- Date:
 
-## Framework Basis
-- Frameworks used:
-- Why these apply:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Recommendation
-1.
-2.
-3.
+## Core output
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+```markdown
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+## Frameworks Applied
 
-## Risks / Pitfalls
--
+- **MCP Protocol Specification**
+- **Anthropic Tool Use Design Patterns**
+- **Least Privilege Access Control**
 
-## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+## Quality check
+
+Before delivering, verify:
+- [ ] Secrets are referenced through env vars, not hardcoded
+- [ ] Tool permissions are least-privilege
+- [ ] Side-effecting tools require confirmation
+- [ ] Every tool has a clear description and input schema
+- [ ] Audit logging captures tool name, input, output summary, timestamp, and actor
+- [ ] Test workflow proves tools work end-to-end
+
+## Next steps
+1. 
+2. 
+3. 

@@ -2,7 +2,6 @@
 
 ## Context
 - Company / product:
-- ICP / segment:
 - Owner:
 - Date:
 
@@ -10,10 +9,21 @@
 [One paragraph: what this deliverable decides or enables]
 
 ## Core output
-[Fill per SKILL.md Output Format]
+
+<!-- Structure derived from SKILL.md Output Format -->
+```markdown
+
+## Frameworks Applied
+
+- **ColdIQ Multi-Channel Cadence**
+- **Eric Nowoslawski Cold Email Infrastructure**
+- **Eric Nowoslawski 1:1 Backup Inbox Strategy**
+- **Jed Mahrle Practical Prospecting**
+- **Google Bulk Sender Guidelines**
 
 ## Quality check
 
+Before delivering, verify:
 - [ ] Is the primary business domain completely excluded from cold sending?
 - [ ] Are 3-5 secondary domains planned (or scaled proportionally to volume)?
 - [ ] Are there 2-3 mailboxes per domain maximum?

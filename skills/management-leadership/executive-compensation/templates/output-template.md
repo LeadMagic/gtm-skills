@@ -1,24 +1,56 @@
-# Executive Compensation Deliverable
+# Executive Compensation — Deliverable
 
 ## Context
-[Company ARR, role, candidate situation]
+- Company / product:
+- Owner:
+- Date:
 
-## Framework Basis
-[Pavilion / Sam Jacobs, Bridge Group, Lemkin]
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Recommendation
-[OTE, gates, equity summary]
+## Core output
 
-## Clause Package
-[Key clauses from library — marked required/optional]
+<!-- Structure derived from SKILL.md Output Format -->
+### **Executive offer package** (`templates/executive-offer-package.md`)
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## Board / Approval
-[Memo summary or scenario table]
+### **Clause appendix** with marked optional/required clauses
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## Metrics
-[Gate weights and targets]
+### **Board comp memo** (1–2 pages)
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## Quality Check
-- [ ] Multi-gate variable including NRR or efficiency
-- [ ] Clawback documented
-- [ ] Legal review flagged
+### **Variable payout scenario table**
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+## Frameworks Applied
+
+- **Sam Jacobs (Pavilion) — Revenue leader community and CRO comp standards**
+- **Pavilion — CRO Council compensation benchmarks**
+- **Bridge Group — SaaS leadership compensation surveys**
+- **Jason Lemkin (SaaStr) — VP Sales hiring and failure modes**
+- **Mark Roberge — Sales Acceleration Formula leadership comp**
+- **Frank Slootman — Unified exec metrics, consumption-aligned sales comp (Snowflake)**
+
+## Quality check
+
+- [ ] Variable gated on ≥2 metrics including revenue quality (NRR or efficiency)
+- [ ] Cause and severance definitions explicit
+- [ ] Clawback on churn/downgrade documented
+- [ ] Equity vest, cliff, refresh stated
+- [ ] Change-of-control triggers defined
+- [ ] Legal review flag on non-compete and commission law
+- [ ] VP milestone gates if pre-$5M ARR (Lemkin system-building)
+
+## Next steps
+1. 
+2. 
+3. 

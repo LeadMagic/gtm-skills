@@ -1,58 +1,36 @@
-# Lifecycle Drip Architecture — Deliverable
+# Lifecycle Drips — Deliverable
 
 ## Context
-- Product / segments:
-- Marketing automation platform:
-- Lifecycle stages in CRM:
+- Company / product:
+- Owner:
+- Date:
 
-## Stage map
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-| From → To | Trigger | Drip name | Owner |
-|---|---|---|---|
-| | | | |
+## Core output
 
-## Trigger definitions
+<!-- Structure derived from SKILL.md Output Format -->
+Lifecycle drip architecture with: stage map, trigger definitions, email sequences
 
-| Drip | Trigger type | Exact condition | Suppression rules |
-|---|---|---|---|
-| Welcome | | | |
-| Renewal | | | |
-| Expansion | | | |
-| At-risk | | | |
+per stage, personalization strategy, and optimization framework.
 
-## Email sequences
+## Frameworks Applied
 
-### Welcome (Days 0–7)
-| Day | Subject theme | CTA | Personalization token |
-|---:|---|---|---|
-| 0 | | | |
-| 2 | | | |
-| 5 | | | |
-| 7 | | | |
-
-### Renewal (90/60/30/14/7)
-| Days out | Theme | CTA |
-|---:|---|---|
-| 90 | | |
-| 60 | | |
-| 30 | | |
-| 14 | | |
-| 7 | | |
-
-## Personalization strategy
-- Usage data fields:
-- Milestone triggers:
-- Role splits (admin vs end user):
-
-## Measurement
-| Metric | Target | Tool |
-|---|---|---|
-| Drip completion rate | | |
-| Stage conversion | | |
-| Revenue influenced | | |
+- **Lifecycle Marketing Framework**
+- **HubSpot Lifecycle Stages**
 
 ## Quality check
-- [ ] Every stage transition has a defined trigger
-- [ ] Renewal drip covers 90→7 day windows
-- [ ] At-risk drip tied to health score or usage drop
-- [ ] Personalization uses product usage data where possible
+
+Before delivering, verify:
+- [ ] All 9 lifecycle stages (Visitor through Churned) have at least one associated drip sequence
+- [ ] Every drip trigger is measurable — behavioral events, time-based rules, score thresholds, or manual flags — not vague 'engagement'
+- [ ] Welcome drip starts within minutes of signup (automation delay <5 minutes) and completes within 7 days
+- [ ] Renewal drip begins at 90 days with ROI summary, not at 14 days with a discount
+- [ ] Expansion drip fires on usage nearing plan limits, not arbitrary calendar dates
+- [ ] A/B test plan exists for at least one sequence element (subject line, timing, or content format)
+
+## Next steps
+1. 
+2. 
+3. 

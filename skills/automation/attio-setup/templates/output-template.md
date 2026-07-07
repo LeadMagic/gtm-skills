@@ -1,37 +1,37 @@
-# Attio Setup Deliverable
+# Attio Setup — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Owner:
+- Date:
 
-## Framework Basis
-- Frameworks used:
-- Why these apply:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Recommendation
-1.
-2.
-3.
+## Core output
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+Attio configuration document with: object model design, list/views catalog,
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+workflow automation map, enrichment integration setup, and team collaboration
 
-## Risks / Pitfalls
--
+guidelines.
 
-## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+## Frameworks Applied
+
+- **Attio Programmable CRM Model**
+- **Modern CRM Architecture**
+- **HubSpot Academy — CRM Automation**
+
+## Quality check
+
+- [ ] Object model: Companies, People, Deals configured with custom attributes
+- [ ] Key Lists created (ICP companies, stalled deals, unverified contacts)
+- [ ] Workflows automating repetitive tasks
+- [ ] Enrichment integration via webhooks active
+- [ ] Team views shared and adopted
+
+## Next steps
+1. 
+2. 
+3. 

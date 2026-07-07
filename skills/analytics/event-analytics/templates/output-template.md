@@ -1,37 +1,88 @@
-# Event Analytics Deliverable
+# Event Analytics — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Owner:
+- Date:
 
-## Framework Basis
-- Frameworks used:
-- Why these apply:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Recommendation
-1.
-2.
-3.
+## Core output
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+```
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+EVENT ANALYTICS PLAN — [Company]
 
-## Risks / Pitfalls
--
+CDP: [Segment / Rudderstack / mParticle / Snowplow / Custom]
 
-## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+EVENT TAXONOMY:
+
+[Docs link or table with event name, properties, trigger, destinations]
+
+IMPLEMENTATION:
+
+### Client-side: [SDK / library]
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### Server-side: [SDK / webhook pipeline]
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### Testing: [how events are validated]
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+DESTINATIONS:
+
+| Tool | Purpose | Key Events |
+
+|---|---|---|
+| Amplitude | Product analytics | Feature Used, Signed Up |
+
+| Intercom | Messaging automation | All usage + milestone events |
+
+| HubSpot | CRM | Account events, revenue events |
+
+| Data Warehouse | Analytics | All events |
+
+EVENT-DRIVEN WORKFLOWS:
+
+### 1. [Event] → [Action] — [trigger condition]
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### 2. [Event] → [Action] — [trigger condition]
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+```
+
+## Frameworks Applied
+
+- **Segment — Customer Data Platform (CDP) and event taxonomy**
+- **Amplitude — Behavioral analytics and event design**
+- **Mixpanel — Product analytics and event-based reporting**
+- **Intercom — Event-driven messaging and automation**
+- **Avo — Event taxonomy and governance**
+
+## Quality check
+
+Before delivering, verify:
+- [ ] Output matches the user's stated request
+- [ ] Named frameworks or sources are reflected in the recommendation
+- [ ] The deliverable is specific enough for an agent to execute
+- [ ] Any assumptions, risks, or dependencies are explicit
+- [ ] No unsupported claims, invented facts, or private/internal references are included
+
+## Next steps
+1. 
+2. 
+3. 

@@ -2,7 +2,6 @@
 
 ## Context
 - Company / product:
-- ICP / segment:
 - Owner:
 - Date:
 
@@ -10,10 +9,19 @@
 [One paragraph: what this deliverable decides or enables]
 
 ## Core output
-[Fill per SKILL.md Output Format]
+
+<!-- Structure derived from SKILL.md Output Format -->
+```markdown
+
+## Frameworks Applied
+
+- **Winning by Design SPICED**
+- **Force Management MEDDICC**
+- **Gartner Buying Committee Research**
 
 ## Quality check
 
+Before delivering, verify:
 - [ ] Were at least 3 distinct source categories used?
 - [ ] Is every company deduplicated (no duplicate entries)?
 - [ ] Are company names normalized (legal suffixes stripped)?

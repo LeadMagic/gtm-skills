@@ -2,7 +2,6 @@
 
 ## Context
 - Company / product:
-- ICP / segment:
 - Owner:
 - Date:
 
@@ -10,10 +9,20 @@
 [One paragraph: what this deliverable decides or enables]
 
 ## Core output
-[Fill per SKILL.md Output Format]
+
+<!-- Structure derived from SKILL.md Output Format -->
+Design brief with asset type, dimensions, content, and brand rules. Or
+
+template system specification with brand guidelines.
+
+## Frameworks Applied
+
+- **Cialdini Visual Persuasion**
+- **Tufte Data Visualization**
 
 ## Quality check
 
+Before delivering, verify:
 - [ ] All required sections are complete
 - [ ] Output matches the user's stated need
 - [ ] Named frameworks are cited for key recommendations

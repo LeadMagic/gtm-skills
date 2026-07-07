@@ -1,55 +1,57 @@
-# GTM Tool Cost Model — Deliverable
+# Gtm Tool Cost Model — Deliverable
 
 ## Context
-- Company:
-- ARR:
-- Quota carriers (AE / SDR count):
-- Fiscal year:
+- Company / product:
+- Owner:
+- Date:
 
-## TCO summary
-| Metric | Value |
-|---|---:|
-| Annual GTM tool TCO | $ |
-| % of ARR | % |
-| Cost per AE (fully loaded) | $/mo |
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-Spreadsheet structure: `templates/tool-cost-sheet.md`
+## Core output
 
-## Cost by category
-| Category | Annual $ | % of stack |
-|---|---:|---:|
-| CRM |  |  |
-| Enrichment |  |  |
-| Sequencing |  |  |
-| Conversation intel |  |  |
-| Cloud / integration |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+### Tool inventory spreadsheet structure (`templates/tool-cost-sheet.md`)
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-Formulas: `references/cost-model-templates.md`  
-Licensing models: `references/licensing-models.md`
+### Annual TCO by category
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## Stage benchmark
-| ARR band | Typical % ARR | This plan |
-|---|---:|---:|
-|  |  |  |
+### Cost per rep / cost per $1M ARR
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## Credit sensitivity
-| Scenario | Annual cost |
-|---|---:|
-| 1× baseline |  |
-| 2× growth |  |
-| 3× stress |  |
+### 12-month cash flow (monthly vs annual contracts)
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## Consolidation opportunities
-| Redundant category | Savings est. |
-|---|---:|
-|  |  |
+### Renewal negotiation summary
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## Renewal calendar
-| Vendor | Date | Negotiation lever |
-|---|---|---|
-|  |  |  |
+## Frameworks Applied
+
+- **Ben Murray (The SaaS CFO) — SaaS vendor and OpEx modeling**
+- **David Skok — Unit economics and CAC**
+- **Scott Brinker — MarTech stack proliferation**
 
 ## Quality check
-- [ ] Seat + platform + credits + implementation + cloud
-- [ ] +3 headcount scenario modeled
-- [ ] Renewal dates listed
+
+- [ ] All cost types: seat, platform, credits, implementation, cloud
+- [ ] Headcount growth scenario (+3 AEs) modeled
+- [ ] Credit tools have volume sensitivity
+- [ ] % of ARR calculated
+- [ ] Redundant tools flagged for consolidation
+- [ ] Contract renewal dates listed
+
+## Next steps
+1. 
+2. 
+3. 

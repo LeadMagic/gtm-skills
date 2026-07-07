@@ -1,47 +1,35 @@
-# Customer Onboarding Sequence — Deliverable
+# Onboarding Sequences — Deliverable
 
 ## Context
-- Product:
-- Segment (SMB / Mid / Enterprise):
-- Current 7-day activation rate:
-- 90-day retention without activation:
+- Company / product:
+- Owner:
+- Date:
 
-## Aha moment definition
-- Event name:
-- Product analytics proof (retention delta):
-- Target: 80%+ hit within 7 days
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Journey map
+## Core output
 
-| Day | Milestone | In-app | Email | CSM (if enterprise) |
-|---:|---|---|---|---|
-| 0 | | | | |
-| 1 | | | | |
-| 3 | | | | |
-| 7 | | | | |
-| 14 | | | | |
-| 30 | | | | |
+<!-- Structure derived from SKILL.md Output Format -->
+Onboarding sequence design with: aha moment definition, journey map, multi-channel
 
-## Content inventory
+plan, content inventory, and optimization framework.
 
-| Asset | Format | Link | Used on day |
-|---|---|---|---|
-| Quickstart guide | PDF | | |
-| Setup video | Video | | |
-| Template library | In-app | | |
-| FAQ | Doc | | |
+## Frameworks Applied
 
-## Measurement
-
-| Metric | Current | Target |
-|---|---|---|
-| Activation rate (7d) | | 80%+ |
-| Time to first value (median days) | | |
-| Onboarding completion | | |
-| Onboarding churn (30d) | | |
+- **Lincoln Murphy Desired Outcome**
+- **Gainsight Onboarding Framework**
 
 ## Quality check
-- [ ] Aha moment tied to retention data
-- [ ] Day 1 email drives one specific action
-- [ ] In-app shows 3 steps max — not full tour
-- [ ] Enterprise includes week 1 CSM kickoff
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
+## Next steps
+1. 
+2. 
+3. 

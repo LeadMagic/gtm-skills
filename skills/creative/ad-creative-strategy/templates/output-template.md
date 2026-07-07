@@ -1,10 +1,26 @@
 # Ad Creative Strategy — Deliverable
 
-## Deliverable spec
+## Context
+- Company / product:
+- Owner:
+- Date:
 
+## Summary
+[One paragraph: what this deliverable decides or enables]
+
+## Core output
+
+<!-- Structure derived from SKILL.md Output Format -->
 Creative strategy document with: platform-specific format guide, testing
+
 plan (what to test first), fatigue management rules, creative production
+
 workflow, and creative asset tracker.
+
+## Frameworks Applied
+
+- **Meta Creative Testing Framework**
+- **ARC Ads Creative Methodology**
 
 ## Quality check
 

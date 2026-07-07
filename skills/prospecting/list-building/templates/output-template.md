@@ -1,12 +1,44 @@
 # List Building — Deliverable
 
-## Deliverable spec
+## Context
+- Company / product:
+- Owner:
+- Date:
 
+## Summary
+[One paragraph: what this deliverable decides or enables]
+
+## Core output
+
+<!-- Structure derived from SKILL.md Output Format -->
 Deliver a CSV with:
-- Company domain, company name, industry, employee count
-- Contact name, title, email, email verification status
-- LinkedIn URL, source attribution
-- ICP score and tier
+
+### Company domain, company name, industry, employee count
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### Contact name, title, email, email verification status
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### LinkedIn URL, source attribution
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### ICP score and tier
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+## Frameworks Applied
+
+- **Clay Waterfall Architecture**
+- **Ziellab Lead Quality Framework**
+- **Aaron Ross — Predictable Revenue**
+- **Jordan Crawford — Pain-Qualified Segments (PQS)**
 
 ## Quality check
 

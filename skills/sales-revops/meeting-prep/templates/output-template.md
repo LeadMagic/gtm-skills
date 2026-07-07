@@ -1,52 +1,41 @@
-# Meeting Brief: [Company Name]
+# Meeting Prep — Deliverable
 
-**Date:** | **Attendees:** | **Deal stage:** | **MEDDICC:** __/14
+## Context
+- Company / product:
+- Owner:
+- Date:
 
-## Company Snapshot
-- Size / industry / recent news:
-- Pain signals:
-- Critical Event hypothesis:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Attendee Profiles
+## Core output
 
-| Name | Title | Likely MEDDICC Role | Priority Questions |
-|---|---|---|---|
-|  |  | Champion / EB / Technical / Blocker |  |
+<!-- Structure derived from SKILL.md Output Format -->
+One-page meeting brief. Use `templates/output-template.md` for structure.
 
-## SPICED Questions (Discovery)
-1. Situation:
-2. Pain:
-3. Impact:
-4. Critical Event:
-5. Decision:
+```
 
-## MEDDICC Gaps to Close This Call
+Date | Attendees | Deal stage | MEDDICC score: __/14
 
-| Dimension | Current Score | Question to Ask | Target Score |
-|---|---:|---|---:|
-| M Metrics |  |  | 2 |
-| E Economic Buyer |  |  |  |
-| D Decision Criteria |  |  |  |
-| D Decision Process |  |  |  |
-| I Identify Pain |  |  |  |
-| C Champion |  |  |  |
-| C Competition |  |  |  |
+## Frameworks Applied
 
-## Champion Test (if champion claimed)
-- [ ] Power to influence
-- [ ] Personal win
-- [ ] Articulates problem
-- [ ] Commits to internal selling
+- **Winning by Design — SPICED**
+- **Keenan — Gap Selling**
+- **Andy Whyte — MEDDICC Qualification**
+- **Force Management — MEDDICC Methodology**
+- **Huthwaite — SPIN Selling**
 
-## Competitive Context
-- Competitors / status quo:
-- Trap-setting questions:
+## Quality check
 
-## Desired Outcome
-- Primary ask:
-- Fallback:
+- [ ] Account and attendee research current (last 30 days)
+- [ ] Questions tailored to account — not generic templates
+- [ ] SPICED questions included for discovery; MEDDICC for qualification deals
+- [ ] Champion test applied if a champion is claimed
+- [ ] MEDDICC gaps listed for active deals with target score for this meeting
+- [ ] Brief readable in 60 seconds
+- [ ] SPICED and MEDDICC map to same CRM fields — no conflicting data capture
 
-## Quality Check
-- [ ] SPICED for discovery OR MEDDICC gaps for qualification — not both dumped blindly
-- [ ] Champion test if applicable
-- [ ] Readable in 60 seconds
+## Next steps
+1. 
+2. 
+3. 

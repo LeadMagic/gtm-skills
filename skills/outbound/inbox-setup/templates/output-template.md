@@ -1,10 +1,28 @@
 # Inbox Setup — Deliverable
 
-## Deliverable spec
+## Context
+- Company / product:
+- Owner:
+- Date:
 
+## Summary
+[One paragraph: what this deliverable decides or enables]
+
+## Core output
+
+<!-- Structure derived from SKILL.md Output Format -->
 Infrastructure plan with: domain inventory, mailbox count by provider, DNS
+
 record sheet, warmup schedule, cost model (setup + monthly), and monitoring
+
 dashboard setup.
+
+## Frameworks Applied
+
+- **Google Bulk Sender Guidelines**
+- **Microsoft Email Sender Guidelines**
+- **Eric Nowoslawski Sending Volume Strategy**
+- **Jed Mahrle Cold Email Infrastructure**
 
 ## Quality check
 

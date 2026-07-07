@@ -1,52 +1,35 @@
-# Churn Prediction Model — Deliverable
+# Churn Prediction — Deliverable
 
 ## Context
-- Product / ACV bands:
-- Customer count:
-- CS team capacity:
-- Data sources (product analytics, CRM, support):
+- Company / product:
+- Owner:
+- Date:
 
-## Leading indicator catalog
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-| Signal | Category | Weight (pts) | Data source |
-|---|---|---:|---|
-| | Product / Engagement / Business | | |
+## Core output
 
-## Risk scoring algorithm
+<!-- Structure derived from SKILL.md Output Format -->
+Churn prediction model with: leading indicator catalog, risk scoring algorithm,
 
-| Tier | Point range | Accounts at tier | Action owner |
-|---|---|---:|---|
-| Red | 70+ | | CSM + VP CS + AE |
-| Yellow | 40–69 | | CSM |
-| Green | <40 | | Monitor |
+intervention playbooks, automated monitoring setup, and feedback loop.
 
-## Intervention playbooks
+## Frameworks Applied
 
-### Red account (template)
-- Day 0:
-- Day 1:
-- Day 3:
-- Day 7:
-- Day 14:
-
-### Yellow account (template)
-- Day 0:
-- Day 2:
-- Day 5:
-- Day 10:
-
-## Automated monitoring
-- Scan frequency:
-- Alert routing (Slack/email):
-- Dashboard fields:
-
-## Feedback loop
-- Quarterly weight review date:
-- Churn post-mortem process:
-- Precision vs recall target:
+- **Gainsight Churn Prediction Model**
+- **Retention Science Framework**
 
 ## Quality check
-- [ ] Weights map to Critical/High/Medium/Low tiers
-- [ ] Red playbook includes exec sponsor within 4 hours
-- [ ] Daily scan + alert routing defined
-- [ ] Post-mortem process for every churn
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
+## Next steps
+1. 
+2. 
+3. 

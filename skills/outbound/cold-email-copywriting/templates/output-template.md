@@ -1,47 +1,52 @@
-# Cold Email Sequence — Deliverable
+# Cold Email Copywriting — Deliverable
 
 ## Context
 - Company / product:
-- Persona:
-- Industry:
-- Personalization tier (T1/T2/T3):
-- Sequence length:
+- Owner:
+- Date:
 
-## Voice guidelines
-[2–3 sentences: tone, vocabulary, reading level]
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Touch 1 — Email — Day 1 — Problem awareness
-**Subject:**
-**Framework:** SPARK / 3-line
+## Core output
 
-[Email body — plain text, <80 words]
+<!-- Structure derived from SKILL.md Output Format -->
+```markdown
 
----
-[First name]
+## Frameworks Applied
 
-**Persona variant (if applicable):**
-**A/B candidates:** Subject B / Opening B
-
----
-
-## Touch 2 — [Channel] — Day [N] — [Goal]
-[Repeat structure for each touch]
-
-## Copy decisions log
-| Touch | Framework chosen | Why this angle | CTA rationale |
-|---|---|---|---|
-| 1 | | | |
+- **AIDA**
+- **PAS**
+- **BAB**
+- **SPARK**
+- **Cialdini Influence**
+- **Becc Holland — Stellar Cold Email**
+- **Guillaume Moubeche — Problem-First / CTC**
+- **Jordan Crawford — PVP Copy**
 
 ## Quality check
-- [ ] Touch 1 opens with problem/observation — not "My name is X"
-- [ ] Subject lines 2–4 words, lowercase, no emojis
-- [ ] "You/your" outnumbers "I/we" 3:1
-- [ ] No banned words (leverage, synergy, best-in-class, etc.)
-- [ ] Plain text only — no HTML/bold/images
-- [ ] CTA matches touch number (question → small ask → call ask)
-- [ ] Signature: first name only
 
-## Reference files
-- `references/email-frameworks.md` — copy frameworks
-- `references/subject-line-patterns.md` — subject patterns
-- `references/sequence-touch-library.md` — full touch library
+Before delivering, verify:
+- [ ] Touch 1: Does it open with a problem or observation, not a company
+introduction? Under 90 words? Low-friction CTA?
+- [ ] Subject lines: 2-4 words? Lowercase? No emojis or prospect name?
+Sounds like a colleague wrote it?
+- [ ] Voice: "You/your" outnumbers "I/we" 3:1? Uses contractions? Read
+aloud without sounding like marketing copy?
+- [ ] Personalization tier correct: T3 has a specific signal? T2 has
+industry/role context? T1 has merge fields?
+- [ ] No banned words: "leverage," "synergy," "circle back," "best-in-class,"
+"leading provider," "robust," "innovative," "advanced"?
+- [ ] No HTML, images, bold, italics? Plain text only?
+- [ ] CTA appropriate for touch number? (Touch 1-2: question mark, Touch
+3-4: small ask, Touch 5-6: slightly larger ask)
+- [ ] Touch 7: Short? Honors the "no"? No guilt or urgency?
+- [ ] Every touch: Under word count limit? Distinct emotional goal?
+Advances the narrative arc?
+- [ ] Social proof: Named customer or credible industry stat? Not fabricated?
+- [ ] Signature: First name only? No boilerplate?
+
+## Next steps
+1. 
+2. 
+3. 

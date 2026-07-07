@@ -1,10 +1,26 @@
 # Content Distribution — Deliverable
 
-## Deliverable spec
+## Context
+- Company / product:
+- Owner:
+- Date:
 
+## Summary
+[One paragraph: what this deliverable decides or enables]
+
+## Core output
+
+<!-- Structure derived from SKILL.md Output Format -->
 Content distribution plan with: atomization map (one source → 10+ derivatives),
+
 channel matrix with frequency, paid amplification budget, and 30-day distribution
+
 calendar.
+
+## Frameworks Applied
+
+- **Content Distribution Matrix**
+- **Gary Vaynerchuk Content Model**
 
 ## Quality check
 

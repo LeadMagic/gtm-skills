@@ -2,7 +2,6 @@
 
 ## Context
 - Company / product:
-- ICP / segment:
 - Owner:
 - Date:
 
@@ -10,10 +9,21 @@
 [One paragraph: what this deliverable decides or enables]
 
 ## Core output
-[Fill per SKILL.md Output Format]
+
+<!-- Structure derived from SKILL.md Output Format -->
+```markdown
+
+## Frameworks Applied
+
+- **ColdIQ Multi-Channel Cadence**
+- **Eric Nowoslawski Cold Email Infrastructure**
+- **Eric Nowoslawski 1:1 Backup Inbox Strategy**
+- **Jed Mahrle Practical Prospecting**
+- **Google Bulk Sender Guidelines**
 
 ## Quality check
 
+Before delivering, verify:
 - [ ] Are SPF, DKIM, DMARC records provided in copy-paste format?
 - [ ] Does SPF use `-all` (hard fail), not `~all`?
 - [ ] Is DKIM using 2048-bit keys minimum?

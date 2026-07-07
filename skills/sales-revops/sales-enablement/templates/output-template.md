@@ -2,7 +2,6 @@
 
 ## Context
 - Company / product:
-- ICP / segment:
 - Owner:
 - Date:
 
@@ -10,7 +9,19 @@
 [One paragraph: what this deliverable decides or enables]
 
 ## Core output
-[Fill per SKILL.md Output Format]
+
+<!-- Structure derived from SKILL.md Output Format -->
+Sales enablement package:
+
+```
+
+## Frameworks Applied
+
+- **Winning by Design — GTM Playbook Development Kit**
+- **Winning by Design — SPICED Qualification**
+- **Force Management Command of the Message**
+- **Corporate Visions Messaging Frameworks**
+- **Andy Whyte — MEDDICC Scorecard**
 
 ## Quality check
 

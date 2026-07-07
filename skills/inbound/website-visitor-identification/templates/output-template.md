@@ -1,100 +1,75 @@
-# Website Visitor Identification — Deliverable Template
+# Website Visitor Identification — Deliverable
 
-## Executive summary
+## Context
+- Company / product:
+- Owner:
+- Date:
 
-- **Identification strategy:** Company / Person / Hybrid
-- **Primary vendor:** 
-- **Privacy status:** Checklist complete Y/N · Counsel review Y/N
-- **ICP filter:** Automated Y/N
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
----
+## Core output
 
-## 1. Identification level decision
+<!-- Structure derived from SKILL.md Output Format -->
+Visitor identification program document:
 
-*Load `person-vs-business-identification.md` decision tree result.*
-
-| Question | Answer |
+### Identification level decision + rationale
+| Item | Detail |
 |---|---|
-| Primary GTM motion | |
-| Chosen ID level | |
-| Rationale | |
+| [field] | [value] |
 
----
+### Vendor selection with eval scorecard
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## 2. Vendor selection
+### Privacy operational checklist status
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-*Load `visitor-id-vendor-comparison.md` + eval scorecard.*
+### Workflow diagrams (company MQL + person trigger)
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-| Vendor | ID level | Role in stack | Annual cost |
-|---|---|---|---|
-| | | | |
+### Slack channel design + triage SOP
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
----
+### CRM field map + integration contracts
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## 3. Privacy & compliance (operational)
+### Anti-pattern acknowledgments
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-*Load `visitor-id-privacy-gtm.md` — not legal advice.*
+See `templates/output-template.md`.
 
-- [ ] Privacy policy updated
-- [ ] Consent banner (EU)
-- [ ] DPA signed
-- [ ] Suppression list wired
-- [ ] Person ID gates (if applicable)
+## Frameworks Applied
 
----
+- **HubSpot Breeze Intelligence (Clearbit heritage) — Reveal & enrichment**
+- **Dharmesh Shah (HubSpot) — Inbound Attract + measurable intent**
+- **Chris Walker (Refine Labs) — Measurable demand vs dark social**
+- **Scott Brinker — MarTech consolidation before new intent vendors**
+- **Winning by Design — Bowtie acquisition stage instrumentation**
 
-## 4. Workflows
+## Quality check
 
-### Company ID → MQL
+- [ ] Person vs business decision documented with decision tree
+- [ ] ICP filter runs before CRM write or sequence enrollment
+- [ ] Privacy checklist complete; person ID has counsel review if EU traffic
+- [ ] Vendor comparison includes identification level column
+- [ ] Slack triage checklist assigned to owners
+- [ ] UTM/source attribution wired (`campaign-governance`)
+- [ ] Vendor in spend register with owner + renewal
+- [ ] Anti-patterns addressed: no spam-all, opt-outs honored
 
-```
-[diagram or bullet flow from visitor-identification-playbook.md]
-```
-
-### Person ID → outbound trigger (if applicable)
-
-```
-[guardrailed flow]
-```
-
----
-
-## 5. Slack alert design
-
-| Channel | Audience | SLA |
-|---|---|---|
-| | | |
-
-Triage checklist: `templates/visitor-alert-triage-checklist.md`
-
----
-
-## 6. CRM & integration map
-
-| Source | Destination | Fields | Frequency |
-|---|---|---|---|
-| | | | |
-
----
-
-## 7. Measurement plan
-
-| Metric | Baseline | Target | Review cadence |
-|---|---|---|---|
-| ICP-qualified ID rate | | | |
-| Alert → meeting | | | |
-| False positive (sampled) | | | |
-
----
-
-## 8. Anti-patterns acknowledged
-
-- [ ] No spam-every-visitor policy
-- [ ] ICP filter before routing
-- [ ] Opt-out honored
-
----
-
-## Related skills
-
-`inbound-triage` · `cold-email-strategy` · `revops-tech-stack` · `gtm-spend-management` · `1p-tagging-pixels` · `icp-scoring`
+## Next steps
+1. 
+2. 
+3. 

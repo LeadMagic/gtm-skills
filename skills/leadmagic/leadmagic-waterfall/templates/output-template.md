@@ -1,52 +1,39 @@
-# LeadMagic Waterfall Deliverable
+# Leadmagic Waterfall — Deliverable
 
 ## Context
-- Clay table purpose:
-- ICP tier:
-- Target coverage %:
-- Sequencer destination:
+- Company / product:
+- Owner:
+- Date:
 
-## Framework Basis
-- Pat Spielmann — Cold to Gold (verify before copy/sequencer)
-- Ziellab 3-waterfall architecture
-- clay-toolkit table patterns
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Waterfall Diagram
-| Step | Provider | Credits | Run Condition |
-|---:|---|---:|---|
-| 0 | ICP filter | 0 | always |
-| 1 | LM Find | 1 | ICP pass |
-| 2 | Fallback | 1 | previous empty |
-| 5 | LM Verify | 1 | email found |
-| 7 | LM Enrich | 2 | valid |
+## Core output
 
-Full spec: `references/waterfall-column-spec.md`
+<!-- Structure derived from SKILL.md Output Format -->
+Clay table configuration document with provider waterfall diagram, column
 
-## Clay Column Config
-- [ ] COALESCE formula for Best Email
-- [ ] email_valid formula
-- [ ] Catch-all branch defined
-- [ ] Claygent for why_now only (not email find)
+conditions, credit budget, and monitoring plan.
 
-## Credit Budget
-| Metric | Value |
-|---|---:|
-| Est. rows/month |  |
-| Credits/row (avg) |  |
-| Monthly total |  |
-| Cap/row | ≤6 |
+## Frameworks Applied
 
-## Verification Gate
-- [ ] LM Verify on every found email
-- [ ] Valid-only filter before sequencer push
-- [ ] Catch-all routed separately
+- **DAMA-DMBOK Data Quality Dimensions**
+- **Ziellab 3-Waterfall Architecture**
+- **LeadMagic Public Documentation — B2B Data Enrichment**
+- **Pat Spielmann — Cold to Gold (enrichment before copy)**
 
-## Sequencer Handoff
-- Platform:
-- Export fields mapped:
-- Cross-ref: instantly/smartlead/lemlist clay-enrollment-handoff
+## Quality check
 
-## Quality Check
-- [ ] ICP filter before enrichment
-- [ ] Test batch 50 rows validated
-- [ ] Pat verify-before-send documented
+- [ ] LeadMagic Email Finder configured as primary provider
+- [ ] Fallbacks configured with conditional logic
+- [ ] COALESCE formula consolidates results correctly
+- [ ] LeadMagic Email Validation runs on every found email
+- [ ] Valid-only filter applied before sequencer push
+- [ ] Catch-all domains routed separately
+- [ ] Credit caps set per row (max 5-6)
+- [ ] Test batch (50 rows) validated before scaling
+
+## Next steps
+1. 
+2. 
+3. 

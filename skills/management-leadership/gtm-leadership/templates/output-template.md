@@ -5,30 +5,60 @@
 - Owner:
 - Date:
 
-## Deliverable spec
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
+## Core output
+
+<!-- Structure derived from SKILL.md Output Format -->
 Deliverable by request type:
-- **Hire:** scorecard + comp template + JD cross-ref
-- **Coach:** difficult conversation script + REKS diagnosis
-- **PIP:** 30–60 day plan with weekly milestones
-- **Fire:** termination script + team comm draft + pipeline reassignment checklist
-- **Resignation:** handoff checklist + manager script + exit interview set
 
-## Specialized templates
+### **Hire:** scorecard + comp template + JD cross-ref
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-- `templates/crisis-customer-email.md`
-- `templates/crisis-faq-for-support.md`
-- `templates/crisis-holding-statement.md`
-- `templates/crisis-internal-memo.md`
-- `templates/difficult-conversation.md`
-- `templates/exit-interview-questions.md`
-- `templates/hire-decision-scorecard.md`
-- `templates/performance-pip.md`
-- `templates/resignation-conversation-script.md`
-- `templates/resignation-handoff-checklist.md`
-- `templates/termination-conversation.md`
-- `templates/v2mom-gtm.md`
+### **Coach:** difficult conversation script + REKS diagnosis
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### **PIP:** 30–60 day plan with weekly milestones
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### **Fire:** termination script + team comm draft + pipeline reassignment checklist
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### **Resignation:** handoff checklist + manager script + exit interview set
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+## Frameworks Applied
+
+- **Mark Roberge — Sales Acceleration Formula (hire traits, train skills)**
+- **Jason Lemkin — SaaStr GTM leadership and hiring triggers**
+- **Kim Scott — Radical Candor (difficult conversations)**
+- **Bridge Group — SaaS compensation benchmarks**
+- **Pavilion — Revenue leader standards and comp council data**
+- **Winning by Design — REKS coaching and POD leadership**
+- **Patty McCord — Powerful (talent density, no brilliant jerks)**
+- **Marc Benioff — V2MOM annual alignment, trust-based culture**
 
 ## Quality check
-- [ ] Named framework cited in recommendations
-- [ ] All required fields populated
+
+- [ ] Facts documented before emotional conversation
+- [ ] REKS or leader scorecard completed before exit decision
+- [ ] Radical Candor structure (care + challenge), not obnoxious aggression
+- [ ] Comp approval uses Bridge Group ratios
+- [ ] employment-compliance consulted for termination
+- [ ] Team and pipeline handoff planned same day as exit
+
+## Next steps
+1. 
+2. 
+3. 

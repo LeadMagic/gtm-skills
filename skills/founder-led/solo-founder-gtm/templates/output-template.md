@@ -1,9 +1,27 @@
 # Solo Founder Gtm — Deliverable
 
-## Deliverable spec
+## Context
+- Company / product:
+- Owner:
+- Date:
 
+## Summary
+[One paragraph: what this deliverable decides or enables]
+
+## Core output
+
+<!-- Structure derived from SKILL.md Output Format -->
 Stage-based GTM playbook with tool stack, AI agent configuration, hiring
+
 triggers with ARR thresholds, and GTM Index self-assessment scorecard.
+
+## Frameworks Applied
+
+- **Winning by Design GTM Index**
+- **SaaStr ACV Thresholds**
+- **David Skok Unit Economics**
+- **Sean Ellis PMF Survey**
+- **Rob Walling Bootstrap Path**
 
 ## Quality check
 

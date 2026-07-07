@@ -1,77 +1,68 @@
-# n8n GTM Workflow Deliverable
+# N8N Toolkit — Deliverable
 
 ## Context
-
 - Company / product:
-- Motion: inbound / outbound / signal / lifecycle / revops / mcp
-- Flow ID: INB-01 / OUT-01 / SIG-01 / LIF-03 / MCP-01 / custom
-- ICP tier: SMB / mid-market / enterprise
-- Systems: CRM, sequencer, enrichment, Slack
-- Constraints: SLA, volume, compliance gates
+- Owner:
+- Date:
 
-## Framework Basis
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-- n8n execution patterns (trigger → normalize → enrich → route → action)
-- MCP Pattern A/B/C (if agent integration)
-- WbD Bowtie / SPICED (if inbound or handoff)
-- ColdIQ signal-to-action (if signal flow)
+## Core output
 
-## Workflow Blueprint
+<!-- Structure derived from SKILL.md Output Format -->
+Deliverable package:
 
-See `templates/workflow-blueprint.md` — include node diagram and routing table.
+### 1. **Workflow blueprint** (`templates/workflow-blueprint.md`) — flow ID, trigger,
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## Node Configuration
+node diagram, field schema, routing rules
 
-| Step | Node Type | Endpoint / Logic | Output Fields |
-|---|---|---|---|
-| 1 | Webhook | | |
-| 2 | Set | normalize | canonical schema |
-| 3 | HTTP | enrichment API | |
-| 4 | Switch | routing | |
+### 2. **Node configuration** — HTTP endpoints, auth, body, response mapping
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-Detail in `references/node-patterns.md`.
+### 3. **MCP integration note** — if agents trigger this flow (Pattern A/C)
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## MCP Integration (if applicable)
+### 4. **Error handling** — Error Trigger workflow, retry policy, dead-letter
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-- Pattern: A / B / C / D / E
-- Webhook URL:
-- Auth: HMAC + approval_token
-- Agent instructions for triggering
+### 5. **Deployment checklist** — 8-point pre-activation (see Quality Check)
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## Error Handling
+## Frameworks Applied
 
-- Global Error Trigger workflow: yes/no
-- Retry policy:
-- Dead-letter destination:
-- Slack channel:
+- **n8n — Open-source workflow automation, 400+ integrations, queue mode**
+- **Model Context Protocol — Agent tool access and orchestration**
+- **iPaaS Integration Patterns — Event-driven, webhook, batch ETL**
+- **Winning by Design — Bowtie handoffs (marketing → sales → CS)**
 
-## Implementation Steps
+## Quality check
 
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 | | Blueprint approved | Flow ID assigned | |
-| 2 | | n8n build | Test execution green | |
-| 3 | | Canary | 24h zero critical errors | |
-| 4 | | Production | `[PROD]` tag active | |
+- [ ] Flow ID assigned from catalog (INB/OUT/SIG/LIF/REV/MCP)
+- [ ] Canonical schema on Normalize step (email, domain, source, event_id)
+- [ ] Idempotency check before CRM writes
+- [ ] Rate limiting between API nodes (100–500ms Wait)
+- [ ] Human gate before any cold outbound send
+- [ ] Error Trigger workflow linked; failures notify Slack
+- [ ] Credentials in store — not in export JSON
+- [ ] Webhook authenticated (HMAC or secret)
+- [ ] Signal flows map to one play (`funding-signal-play`, etc.)
+- [ ] Inbound captures SPICED-lite fields for CRM
+- [ ] Batch flows use Split In Batches with size ≤50
+- [ ] Workflow named `[PROD] {FLOW-ID} {description}`
 
-## Metrics
-
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-| Execution success rate | | >99% | weekly |
-| Inbound SLA (if INB) | | <60s | daily |
-| Enrich hit rate (if OUT) | | | weekly |
-| Error count | | <5/week | daily |
-
-## Risks / Pitfalls
-
--
-
-## Quality Check
-
-- [ ] Flow ID from `gtm-flow-catalog.md`
-- [ ] Idempotency before CRM writes
-- [ ] Human gate before sequencer send
-- [ ] Credentials not in export JSON
-- [ ] Webhook authenticated
-- [ ] `check-output.py` passes
+## Next steps
+1. 
+2. 
+3. 

@@ -1,37 +1,35 @@
-# LeadMagic MCP Setup Deliverable
+# Leadmagic Mcp — Deliverable
 
 ## Context
-- MCP client (Claude/Jesse/other):
-- Agent jobs:
-- Batch size expected:
+- Company / product:
+- Owner:
+- Date:
 
-## Framework Basis
-- MCP Protocol + Anthropic tool use
-- Pat Spielmann — cite verify status in agent outputs
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Enabled Tool Categories
-| Category | Use Case | Confirmation Required |
-|---|---|---|
-| Email find |  | No |
-| Email validate |  | No |
-| CRM write |  | Yes |
+## Core output
 
-Guardrails: `references/agent-tool-guardrails.md`
+<!-- Structure derived from SKILL.md Output Format -->
+```markdown
 
-## Agent Rules
-- Lookup rules:
-- Verification rules:
-- Confirmation gates:
-- Batch redirect (>100 rows → n8n MCP-01):
+## Frameworks Applied
 
-## Test Workflows
-| Workflow | Expected Tool | Pass? |
-|---|---|---|
-| Single account brief |  |  |
-| Email validate |  |  |
-| CRM push request | asks confirm |  |
+- **MCP Protocol Specification**
+- **Anthropic Tool Use Patterns**
+- **Agent-Enabled GTM**
 
-## Quality Check
-- [ ] No API key in config files
-- [ ] Side-effect tools gated
-- [ ] n8n handoff documented for batch
+## Quality check
+
+Before delivering, verify:
+- [ ] No API key is committed or shown in plaintext
+- [ ] Enabled tool categories match the user workflow
+- [ ] Agent rules distinguish lookup from external side effects
+- [ ] Email-related workflows include validation/status handling
+- [ ] Batch use is recommended for lists
+- [ ] Test workflows cover account, contact, and signal use cases
+
+## Next steps
+1. 
+2. 
+3. 

@@ -1,40 +1,58 @@
-# GTM Spend Management — Deliverable
+# Gtm Spend Management — Deliverable
 
 ## Context
-- Company / ARR:
-- Spend platform: Ramp / Brex / other
-- GTM headcount (quota carriers):
+- Company / product:
+- Owner:
+- Date:
 
-## Spend summary
-| Metric | Planned (TCO) | Actual (Ramp MTD) | Variance |
-|---|---:|---:|---:|
-| Total GTM SaaS |  |  |  |
-| % of ARR |  |  |  |
-| Cost per AE |  |  |  |
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Governance
-- Approval matrix: `templates/spend-approval-matrix.md`
-- Policy: `references/spend-governance.md`
+## Core output
 
-## Vendor register
-- Active vendors: #
-- Renewals 90d: #
-- Zombies: #
+<!-- Structure derived from SKILL.md Output Format -->
+### Spend governance policy summary
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-Use `templates/vendor-spend-register.md`
+### Vendor spend register (filled)
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## Ramp card map
-| Vendor | Card | Monthly limit | Owner |
-|---|---|---:|---|
-|  |  |  |  |
+### Ramp card map (vendor → card → limit → owner)
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## Quarterly actions
+### Approval matrix with thresholds
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### Quarterly cleanup report (zombies, renewals, true-downs)
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+## Frameworks Applied
+
+- **Ben Murray (The SaaS CFO) — Vendor spend as % of ARR**
+- **Scott Brinker — MarTech consolidation before new spend**
+- **Ramp — Corporate cards, bill pay, spend controls**
+
+## Quality check
+
+- [ ] Single card program (Ramp or equivalent) for GTM OpEx
+- [ ] Every SaaS vendor in register with owner + renewal date
+- [ ] Virtual cards or bill pay — no shared credentials
+- [ ] Approval thresholds documented and enforced
+- [ ] Accounting sync with GTM GL classes
+- [ ] Linked to TCO model (`gtm-tool-cost-model`)
+- [ ] Quarterly zombie + renewal review scheduled
+
+## Next steps
 1. 
 2. 
 3. 
-
-## Quality check
-- [ ] Every vendor has owner + renewal date
-- [ ] Virtual card or bill pay per vendor
-- [ ] Linked to `gtm-tool-cost-model`
-- [ ] Quarterly review scheduled

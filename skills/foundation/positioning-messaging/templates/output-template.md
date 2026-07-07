@@ -2,7 +2,6 @@
 
 ## Context
 - Company / product:
-- ICP / segment:
 - Owner:
 - Date:
 
@@ -10,10 +9,21 @@
 [One paragraph: what this deliverable decides or enables]
 
 ## Core output
-[Fill per SKILL.md Output Format]
+
+<!-- Structure derived from SKILL.md Output Format -->
+```markdown
+
+## Frameworks Applied
+
+- **April Dunford Positioning**
+- **Andy Raskin Strategic Narrative**
+- **Christopher Lochhead Category Design**
+- **Force Management Command of the Message**
+- **Challenger Sale**
 
 ## Quality check
 
+Before delivering, verify:
 - [ ] Does the positioning statement begin with competitive alternatives, not with your product?
 - [ ] Are unique capabilities actually unique (no competitor has them)?
 - [ ] Does the strategic narrative name a genuine, observable shift — not a marketing claim?

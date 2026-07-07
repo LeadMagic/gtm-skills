@@ -1,14 +1,55 @@
 # Content Marketing — Deliverable
 
-## Deliverable spec
+## Context
+- Company / product:
+- Owner:
+- Date:
 
+## Summary
+[One paragraph: what this deliverable decides or enables]
+
+## Core output
+
+<!-- Structure derived from SKILL.md Output Format -->
 Content strategy document with:
-- Content audit (traffic, conversions, gaps)
-- Topic clusters and pillar page plan
-- Content calendar (3-month minimum)
-- SEO keyword map with search volumes and intent
-- AI search optimization checklist
-- Content-to-pipeline measurement framework
+
+### Content audit (traffic, conversions, gaps)
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### Topic clusters and pillar page plan
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### Content calendar (3-month minimum)
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### SEO keyword map with search volumes and intent
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### AI search optimization checklist
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### Content-to-pipeline measurement framework
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+## Frameworks Applied
+
+- **Dharmesh Shah (HubSpot) — Inbound Methodology & Flywheel**
+- **Chris Walker — Demand Creation & Dark Social**
+- **Eli Schwartz — Product-Led SEO**
+- **Eugene Schwartz — Awareness Levels**
+- **Joe Pulizzi — Content Tilt**
 
 ## Quality check
 

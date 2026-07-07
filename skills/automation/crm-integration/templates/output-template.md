@@ -1,37 +1,36 @@
-# Crm Integration Deliverable
+# Crm Integration — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Owner:
+- Date:
 
-## Framework Basis
-- Frameworks used:
-- Why these apply:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Recommendation
-1.
-2.
-3.
+## Core output
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+```markdown
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+## Frameworks Applied
 
-## Risks / Pitfalls
--
+- **HubSpot CRM Best Practices**
+- **Salesforce Architecture**
+- **Attio Object Model**
+- **Winning by Design Bowtie**
 
-## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+## Quality check
+
+Before delivering, verify:
+- [ ] Every stage has entry and exit criteria
+- [ ] Field ownership is defined
+- [ ] Enrichment cannot overwrite human-owned fields silently
+- [ ] Required fields are minimal enough reps will use them
+- [ ] CRM supports marketing, sales, and CS handoffs
+- [ ] Dashboards cover funnel, pipeline, stage aging, and data quality
+
+## Next steps
+1. 
+2. 
+3. 

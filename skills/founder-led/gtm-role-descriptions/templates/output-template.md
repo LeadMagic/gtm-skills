@@ -5,28 +5,58 @@
 - Owner:
 - Date:
 
-## Deliverable spec
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
+## Core output
+
+<!-- Structure derived from SKILL.md Output Format -->
 Deliverable package:
-- Completed JD (`templates/job-description.md`)
-- Comp plan summary (`templates/comp-plan.md`)
-- Org placement (`templates/org-chart.md`)
-- Posting channel recommendation
 
-Run `scripts/check-output.py` before delivery.
+### Completed JD (`templates/job-description.md`)
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-## Specialized templates
+### Comp plan summary (`templates/comp-plan.md`)
+| Item | Detail |
+|---|---|
+| [field] | [value] |
 
-- `templates/comp-plan-ae.md`
-- `templates/comp-plan-manager.md`
-- `templates/comp-plan-sdr.md`
-- `templates/comp-plan-spiff.md`
-- `templates/comp-plan-vp-cro.md`
-- `templates/comp-plan.md`
-- `templates/gtm-engineer-jd.md`
-- `templates/job-description.md`
-- `templates/org-chart.md`
+### Org placement (`templates/org-chart.md`)
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+### Posting channel recommendation
+| Item | Detail |
+|---|---|
+| [field] | [value] |
+
+## Frameworks Applied
+
+- **Betts Recruiting — SaaS GTM hiring and role definitions**
+- **Bridge Group — SaaS Sales Metrics & Compensation Benchmarks**
+- **RepVue — Sales org transparency and comp data**
+- **Sam Jacobs (Pavilion) — Revenue leader comp and CRO Council standards**
+- **Pavilion — Revenue leader hiring standards**
+- **Winning by Design — POD structures and GTM org design**
+- **Mark Roberge — Sales Acceleration Formula hiring traits**
+- **RevOps Co-op — GTM systems and RevOps role boundaries**
 
 ## Quality check
-- [ ] Named framework cited in recommendations
-- [ ] All required fields populated
+
+- [ ] JD uses constraint-first structure (why role exists now)
+- [ ] Outcomes are measurable at 90 days and 12 months
+- [ ] Compensation range included (OTE + equity)
+- [ ] Quota math shown for variable roles (OTE × ~5)
+- [ ] No rockstar/ninja or years-only requirements
+- [ ] Org reporting line and stage context included
+- [ ] Roberge traits reflected for sales roles (not generic "hustle")
+- [ ] Promotion path stated for SDR → AE
+- [ ] Role timing aligns with `sales-team-building` hire sequence
+
+## Next steps
+1. 
+2. 
+3. 

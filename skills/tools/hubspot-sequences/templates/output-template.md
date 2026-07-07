@@ -1,47 +1,35 @@
-# HubSpot Sequences Deliverable
+# Hubspot Sequences — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier:
-- Enrollment: rep-triggered / workflow / both
-- Clay loops? Y/N
+- Owner:
+- Date:
 
-## Framework Basis
-- HubSpot Sequences best practices
-- Pat Spielmann — verify-before-enroll
-- Guillaume — multichannel task principles
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## CRM Properties
-| Property | Type | Source |
-|---|---|---|
-| lm_email_status | Dropdown | LeadMagic verify |
-| last_verified | Date | Auto |
-| personalization_snippet | Text | Clay |
+## Core output
 
-## Workflow Enrollment Gate
-```
-IF lm_email_status = valid AND last_verified < 90d
-  → enroll sequence by persona
-ELSE → create task
-```
-Spec: `references/enrichment-enrollment-gate.md`
+<!-- Structure derived from SKILL.md Output Format -->
+Sequence design document with: architecture map, step-by-step configuration,
 
-## Sequence Template
-| Step | Type | Delay |
-|---:|---|---|
-| 1 | Email | Day 0 |
+enrollment/unescape rules, A/B test plan, and analytics dashboard design.
 
-Merge token: {{personalization_snippet}}
+## Frameworks Applied
 
-## Clay Loops → HubSpot (if applicable)
-- ACTION table → HubSpot list → workflow → Sequence
-- Champion job change → AE task (not Sequence)
+- **HubSpot Sequences Best Practices**
+- **ColdIQ Multi-Channel Cadence**
 
-## Rep-Triggered Rules
-- [ ] Sidebar shows verify status
-- [ ] Block enroll if invalid/stale
+## Quality check
 
-## Quality Check
-- [ ] Properties created before workflow
-- [ ] Pair hubspot-setup for workflow limits
-- [ ] clay-loops-toolkit if signal-driven
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
+## Next steps
+1. 
+2. 
+3. 

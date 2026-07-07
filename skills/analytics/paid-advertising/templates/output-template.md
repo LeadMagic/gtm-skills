@@ -1,37 +1,38 @@
-# Paid Advertising Deliverable
+# Paid Advertising — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: small business / mid-market / enterprise
-- Primary user request:
-- Constraints:
+- Owner:
+- Date:
 
-## Framework Basis
-- Frameworks used:
-- Why these apply:
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## Recommendation
-1.
-2.
-3.
+## Core output
 
-## Implementation Steps
-| Step | Owner | Input | Output | Done When |
-|---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
+<!-- Structure derived from SKILL.md Output Format -->
+Paid advertising plan with: platform selection rationale, budget allocation
 
-## Metrics
-| Metric | Baseline | Target | Review Cadence |
-|---|---:|---:|---|
-|  |  |  |  |
+by platform and funnel stage, campaign structure per platform, creative
 
-## Risks / Pitfalls
--
+requirements, pixel/tracking setup, and KPI dashboard.
 
-## Quality Check
-- [ ] Tied to ICP tier and motion
-- [ ] Uses named frameworks, not generic best practices
-- [ ] Includes concrete outputs the user can execute
-- [ ] Avoids unsupported claims or questionable tactics
+## Frameworks Applied
+
+- **Meta Advantage+ Framework**
+- **Google Performance Max**
+- **LinkedIn Campaign Manager**
+
+## Quality check
+
+- [ ] Platform selection matches ICP and budget
+- [ ] All four major pixels installed (LinkedIn, Google, Meta, TikTok)
+- [ ] UTM parameters standardized across all campaigns
+- [ ] Campaign structure has clear funnel stage per campaign
+- [ ] Budget allocation per platform with rationale
+- [ ] Measurement: cost per demo, pipeline, closed revenue (not just leads)
+
+## Next steps
+1. 
+2. 
+3. 

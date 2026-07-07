@@ -2,7 +2,6 @@
 
 ## Context
 - Company / product:
-- ICP / segment:
 - Owner:
 - Date:
 
@@ -10,10 +9,23 @@
 [One paragraph: what this deliverable decides or enables]
 
 ## Core output
-[Fill per SKILL.md Output Format]
+
+<!-- Structure derived from SKILL.md Output Format -->
+Conference strategy document with: event selection scores, sponsorship package
+
+negotiation points, speaking submission abstracts, booth plan, and post-event
+
+debrief template.
+
+## Frameworks Applied
+
+- **B2B Event ROI Framework**
+- **Conference Strategy Playbook**
+- **Bizzabo — Event Experience Framework**
 
 ## Quality check
 
+Before delivering, verify:
 - [ ] All required sections are complete
 - [ ] Output matches the user's stated need
 - [ ] Named frameworks are cited for key recommendations

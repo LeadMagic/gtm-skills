@@ -2,7 +2,6 @@
 
 ## Context
 - Company / product:
-- ICP / segment:
 - Owner:
 - Date:
 
@@ -10,10 +9,21 @@
 [One paragraph: what this deliverable decides or enables]
 
 ## Core output
-[Fill per SKILL.md Output Format]
+
+<!-- Structure derived from SKILL.md Output Format -->
+```markdown
+
+## Frameworks Applied
+
+- **Klue FIA Framework**
+- **Force Management MEDDICC Competition Element**
+- **Gartner Magic Quadrant**
+- **Huthwaite SPIN**
+- **Todd Caponi Transparency Sale**
 
 ## Quality check
 
+Before delivering, verify:
 - [ ] Does every battlecard include all three FIA columns (not just Fact)?
 - [ ] Are Impacts genuinely deal-relevant (not generic "this is bad")?
 - [ ] Are Acts specific enough that a seller could use the exact words in a conversation?

@@ -1,26 +1,37 @@
-# Demo Script Package
+# Demo Scripts — Deliverable
 
-## Variant
-☐ First demo (10–15m) ☐ Technical (45–60m) ☐ Executive (20m)
-
-## Discovery recap (required)
-- Situation:
-- Pain:
-- Impact:
-- Critical event:
-
-## Script
-Use: `first-demo-script.md` / `technical-demo-outline.md` / `executive-demo-outline.md`
-
-## Differentiator moment
-One sentence only us:
-
-## Next steps
-- Action:
+## Context
+- Company / product:
+- Owner:
 - Date:
-- Attendees:
+
+## Summary
+[One paragraph: what this deliverable decides or enables]
+
+## Core output
+
+<!-- Structure derived from SKILL.md Output Format -->
+Demo script document with scene-by-scene breakdown, talk tracks, screen
+
+actions, and interaction prompts for each demo variant.
+
+## Frameworks Applied
+
+- **Force Management Command of the Message**
+- **Challenger Teach-Tailor-Take Control**
+- **MEDDICC — Qualification**
+- **Varun Anand (Clay) — Reverse Demo**
 
 ## Quality check
-- [ ] Every scene maps to pain
-- [ ] Interaction points included
-- [ ] No feature tour
+
+- [ ] Every feature shown maps to a discovered pain point
+- [ ] Discovery recap opens every demo variant
+- [ ] Talk tracks are conversational, not scripted-sounding
+- [ ] Interaction points built in (not a monologue)
+- [ ] Differentiator clearly articulated and provable
+- [ ] Next steps defined with timeline
+
+## Next steps
+1. 
+2. 
+3. 

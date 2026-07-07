@@ -1,39 +1,35 @@
-# Outreach Sequences Deliverable
+# Outreach Sequences — Deliverable
 
 ## Context
 - Company / product:
-- ICP tier: enterprise
-- CRM:
-- Clay / n8n integration? Y/N
+- Owner:
+- Date:
 
-## Framework Basis
-- Outreach trigger architecture
-- Pat Spielmann — verify-before-enroll
-- Eric Nowoslawski — Clay → CRM → Outreach at agency scale
+## Summary
+[One paragraph: what this deliverable decides or enables]
 
-## CRM Field Map
-| CRM Field | Source | Outreach Trigger |
-|---|---|---|
-| lm_email_status | LeadMagic | = valid |
-| signal_tag | Clay loop | Sequence selection |
-| personalization_snippet | Claygent | Step 1 merge |
+## Core output
 
-## Enrollment Gate
-- [ ] No list-import auto-enroll without verify
-- [ ] Clay → CRM → Outreach preferred path
-- Spec: `references/enrichment-enrollment-gate.md`
+<!-- Structure derived from SKILL.md Output Format -->
+Sequence blueprint with: cadence map, step configuration, routing rules, deliverability
 
-## Trigger Architecture
-| Trigger | Condition | Sequence |
-|---|---|---|
-|  |  |  |
+settings, and analytics dashboard design.
 
-## Sequence Steps
-| Step | Type | Day |
-|---:|---|---:|
-| 1 | Email | 0 |
+## Frameworks Applied
 
-## Quality Check
-- [ ] Verify gate in all enrollment paths
-- [ ] clay-toolkit table blueprint if Clay source
-- [ ] n8n OUT-01 if real-time loop
+- **Outreach Sequence Best Practices**
+- **ColdIQ Cadence Design**
+
+## Quality check
+
+Before delivering, verify:
+- [ ] All required sections are complete
+- [ ] Output matches the user's stated need
+- [ ] Named frameworks are cited for key recommendations
+- [ ] No vague claims — every recommendation has a specific action
+- [ ] Deliverable is ready for operational use, not just conceptual
+
+## Next steps
+1. 
+2. 
+3. 
