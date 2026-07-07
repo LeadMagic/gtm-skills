@@ -1,8 +1,8 @@
 # Files produced by `npm run build` / `scripts/regenerate.sh`.
 # CI drift checks and auto-regenerate on main both read this manifest.
+# README.md is hand-maintained (viral layout) — not auto-generated.
 AGENTS.md
 CLAUDE.md
-README.md
 taxonomy.csv
 skills.lock
 references/pitfalls-index.md

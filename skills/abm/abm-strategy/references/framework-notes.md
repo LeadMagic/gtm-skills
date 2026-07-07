@@ -4,8 +4,8 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Deep-dive references
 
-| File | Authority | Use when |
-|---|---|---|
+| File                              | Authority              | Use when                          |
+| --------------------------------- | ---------------------- | --------------------------------- |
 | `references/lars-nilsson-absd.md` | Abm Strategy reference | Extended lars nilsson absd detail |
 
 ## Templates
@@ -14,10 +14,10 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Agent routing
 
-| Question | Action |
-|---|---|
-| Full process | Follow `SKILL.md` step-by-step |
+| Question          | Action                                    |
+| ----------------- | ----------------------------------------- |
+| Full process      | Follow `SKILL.md` step-by-step            |
 | Build deliverable | Start from `templates/output-template.md` |
-| Validate output | Run `scripts/check-output.py` |
+| Validate output   | Run `scripts/check-output.py`             |
 
 Before final output, cite which framework shaped the recommendation.
