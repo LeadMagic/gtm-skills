@@ -1,8 +1,8 @@
 # GTM Skills
 
-[![Skills](https://img.shields.io/badge/skills-205-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-24-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE) [![Stars](https://img.shields.io/github/stars/LeadMagic/gtm-skills?style=social)](https://github.com/LeadMagic/gtm-skills)
+[![Skills](https://img.shields.io/badge/skills-206-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-24-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE) [![Stars](https://img.shields.io/github/stars/LeadMagic/gtm-skills?style=social)](https://github.com/LeadMagic/gtm-skills)
 
-**205 production GTM agent skills for Claude Code.** Sales, outbound, prospecting, RevOps, ABM, PLG, customer success, founder-led GTM, analytics, and automation — each with framework-cited playbooks, templates, and QA scripts.
+**206 production GTM agent skills for Claude Code.** Sales, outbound, prospecting, RevOps, ABM, PLG, customer success, founder-led GTM, analytics, and automation — each with framework-cited playbooks, templates, and QA scripts.
 
 Not a prompt pack. An agent-skills repository: portable folders with SKILL.md instructions, reference notes, output templates, and validation scripts. Install what you need. Leave the rest.
 
@@ -19,7 +19,7 @@ Not a prompt pack. An agent-skills repository: portable folders with SKILL.md in
 
 ### Smart CLI (Pick Your Skills)
 
-Don't want all 205? Pick exactly what you need:
+Don't want all 206? Pick exactly what you need:
 
 ```bash
 git clone https://github.com/LeadMagic/gtm-skills.git
@@ -35,7 +35,7 @@ python3 scripts/cc-gtm.py --category outbound
 python3 scripts/cc-gtm.py --bundle outbound-stack
 
 # Install specific skills
-python3 scripts/cc-gtm.py --skills cold-email-strategy,domain-infrastructure
+python3 scripts/cc-gtm.py --skills rb2b-outbound-triggers,cold-email-strategy
 
 # Claude Desktop mode
 python3 scripts/cc-gtm.py --desktop --bundle startup-essentials
@@ -77,7 +77,7 @@ python3 scripts/cc-gtm.py --list-bundles
 
 ---
 
-## 24 Categories - 205 Skills
+## 24 Categories - 206 Skills
 
 <details>
 <summary><b>Click to expand full catalog</b></summary>
@@ -85,7 +85,7 @@ python3 scripts/cc-gtm.py --list-bundles
 | Category | # | Skills |
 |---|---:|---|
 | **foundation** | 8 | using-gtm-skills, gtm-context, icp-scoring, icp-targeting-tiers, positioning-messaging, pricing-strategy, buyer-psychology, competitive-intel |
-| **outbound** | 9 | cold-email-strategy, cold-email-copywriting, cold-calling, domain-infrastructure, email-deliverability, inbox-setup, sending-platforms, reply-handling, multi-channel-outreach |
+| **outbound** | 10 | cold-email-strategy, cold-email-copywriting, cold-calling, domain-infrastructure, email-deliverability, inbox-setup, sending-platforms, reply-handling, multi-channel-outreach, rb2b-outbound-triggers |
 | **prospecting** | 8 | lead-finding, lead-enrichment, email-finding, contact-verification, list-building, signal-scoring, data-enrichment-strategy, social-intent-monitoring |
 | **sales-revops** | 8 | pipeline-management, meeting-prep, deal-desk, demo-scripts, objection-handling, sales-enablement, buyer-indecision, transparency-selling |
 | **analytics** | 13 | gtm-metrics, attribution, campaign-analytics, tracking-plan, a-b-testing, growth-experimentation, gtm-system-architecture, marketing-strategy, paid-advertising, proactive-alerts, event-analytics, deliverability-monitoring, 1p-tagging-pixels |
@@ -116,7 +116,7 @@ python3 scripts/cc-gtm.py --list-bundles
 ## What Makes This Different
 
 - **Artifact-first.** Every skill produces copy, plans, scorecards, runbooks, dashboards, workflows, templates, scripts, and QA checklists.
-- **Authority-backed.** 712 named frameworks from 110+ practitioners: Force Management, Winning by Design, April Dunford, Jeb Blount, Andy Whyte (MEDDICC), Todd Caponi, Chris Walker, Richard van der Blom, Jessie Lizak, Morgan Ingram, Eric Nowoslawski, Joey Gilkey, Jordan Crawford, and more.
+- **Authority-backed.** 712 named frameworks from 110+ practitioners: Force Management, Winning by Design, April Dunford, Jeb Blount, Andy Whyte (MEDDICC), Todd Caponi, Chris Walker, Richard van der Blom, Jessie Lizak, Morgan Ingram, Eric Nowoslawski, Joey Gilkey, Jordan Crawford, Adam Robinson (RB2B), and more.
 - **Progressive disclosure.** Skill name + description load at startup. Full SKILL.md loads on activation. References, templates, and scripts load on demand.
 - **Validated in CI.** Every skill passes structure validation, reference integrity, and public hygiene checks on every push.
 - **SHA256 integrity.** skills.lock verifies every skill file hash.
@@ -154,60 +154,13 @@ Full install docs: [docs/INSTALL.md](docs/INSTALL.md)
 
 ---
 
-## Top Frameworks Cited
-
-| Authority | Skills |
-|---|---:|
-| Aaron Ross - Predictable Revenue | 6 |
-| Richard van der Blom - LinkedIn Algorithm Insights | 6 |
-| Paul Graham - Do Things That Don't Scale | 5 |
-| Winning by Design - SPICED | 4 |
-| Jessie Lizak - LinkedIn Live Engine | 4 |
-| Pat Spielmann - Cold to Gold | 3 |
-| Eli Schwartz - Product-Led SEO | 3 |
-| Ann Handley - Everybody Writes | 3 |
-| Crossbeam - Ecosystem-Led Growth | 3 |
-
-Full expert catalog: [references/experts.md](references/experts.md) - 110+ entries with bios, channels, and skill clusters.
-
----
-
-## Repository Quality Signals
-
-| Signal | Status |
-|---|---|
-| Marketplace-discoverable skills | 205/205 |
-| Categories | 24 |
-| AgentSkills spec | [agentskills.io/specification](https://agentskills.io/specification) |
-| Artifact triad | framework-notes.md + output-template.md + check-output.py on every skill |
-| CI validation | npm run verify - 0 errors, 0 warnings |
-| Integrity manifest | skills.lock - SHA256 verified |
-| Public governance | CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, GOVERNANCE |
-| No telemetry | Static skills, local scripts only |
-
----
-
-## Documentation
-
-| Doc | What's in it |
-|---|---|
-| [Install Guide](docs/INSTALL.md) | Per-platform install instructions |
-| [Architecture](docs/ARCHITECTURE.md) | Repo structure, skill anatomy, data flow |
-| [Skill Authoring](docs/SKILL_AUTHORING.md) | How to write a skill that passes validation |
-| [Source Standards](docs/SOURCE_STANDARDS.md) | Citation and authority requirements |
-| [Quality Bar](docs/QUALITY_BAR.md) | The public quality standard |
-| [Integrity](docs/INTEGRITY.md) | SHA256 lock verification |
-| [Release Process](docs/RELEASE_PROCESS.md) | How releases work |
-
----
-
 ## Validate Locally
 
 ```bash
 npm run verify
 ```
 
-Expected: 205 skills checked, 0 errors, 0 warnings, lock verified, installer dry-run OK.
+Expected: 206 skills checked, 0 errors, 0 warnings, lock verified, installer dry-run OK.
 
 ---
 

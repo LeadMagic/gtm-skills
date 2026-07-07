@@ -1,6 +1,6 @@
 # GTM Skills — Common Pitfalls Index
 
-Auto-generated from skill `## Common Pitfalls` sections. **1044 pitfalls** across **205** skills (205 total). Regenerate: `npm run build`.
+Auto-generated from skill `## Common Pitfalls` sections. **1044 pitfalls** across **205** skills (206 total). Regenerate: `npm run build`.
 
 Agents: load the source skill for full context, fixes, and quality checks — this index is for discovery and cross-skill pattern matching.
 

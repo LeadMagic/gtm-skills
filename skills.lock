@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-07-07T18:58:32+00:00",
-  "total_skills": 205,
+  "generated_at": "2026-07-07T19:03:35+00:00",
+  "total_skills": 206,
   "skills": {
     "abm/abm-1-to-1": {
       "path": [
@@ -1452,6 +1452,15 @@
       ],
       "sha256": "1c9fd8d4caa88b81a6af6355c6f1b2f9733e8c344be1aa6f8b4874d3b593de34",
       "size_bytes": 8375
+    },
+    "outbound/rb2b-outbound-triggers": {
+      "path": [
+        "outbound",
+        "rb2b-outbound-triggers",
+        "SKILL.md"
+      ],
+      "sha256": "7a7f7e064c4a5e0cf17d82e47364695bef58b4aaee3a2b0a6a7b1a87dd2a67d9",
+      "size_bytes": 13701
     },
     "outbound/reply-handling": {
       "path": [

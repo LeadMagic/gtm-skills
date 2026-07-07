@@ -1,6 +1,6 @@
 # GTM Skills — Master Skill Index
 
-One-page map of **205 skills** across **24 categories**. Load `foundation/using-gtm-skills` first for patterns and workflows.
+One-page map of **206 skills** across **24 categories**. Load `foundation/using-gtm-skills` first for patterns and workflows.
 
 **Master router:** `skills/foundation/using-gtm-skills/SKILL.md`
 
@@ -295,7 +295,7 @@ GTM leadership, coaching, onboarding, exec comp. **Start skill:** `gtm-leadershi
 | `sales-coaching` | Sales coaching system — REKS diagnosis (Jacco van der Kooij / Winning by Design), MEDDICC… |
 | `team-management` | Team management for startup leaders — 1:1s, performance reviews, goal setting (OKRs), del… |
 
-### Outbound (`outbound/`) — 9 skills
+### Outbound (`outbound/`) — 10 skills
 
 Cold email, calling, deliverability, domains, replies. **Start skill:** `cold-email-strategy`
 
@@ -308,6 +308,7 @@ Cold email, calling, deliverability, domains, replies. **Start skill:** `cold-em
 | `email-deliverability` | Sets up and monitors email deliverability infrastructure including SPF, DKIM, DMARC confi… |
 | `inbox-setup` | Set up cold email inbox infrastructure from scratch — Google Workspace, Microsoft 365, an… |
 | `multi-channel-outreach` | Design and execute multi-channel outbound sequences across email, LinkedIn, cold calls, a… |
+| `rb2b-outbound-triggers` | Convert RB2B person-level website visitor identification into outbound sequences. Build t… |
 | `reply-handling` | Classifies and automates responses to cold email replies using an 8-category taxonomy, au… |
 | `sending-platforms` | Compares, selects, and configures cold email sending platforms: Smartlead, Instantly, Sal… |
 
