@@ -1,15 +1,12 @@
 {
   "name": "gtm-skills",
-  "displayName": "GTM Skills",
   "version": "0.27.3",
-  "description": "205 production go-to-market skills for AI agents across 24 categories.",
-  "author": {
-    "name": "LeadMagic",
-    "url": "https://leadmagic.io"
-  },
+  "description": "205 production go-to-market playbooks for AI agents across 24 categories.",
+  "author": "LeadMagic",
   "license": "MIT",
-  "homepage": "https://github.com/LeadMagic/gtm-skills",
+  "homepage": "https://leadmagic.io",
   "repository": "https://github.com/LeadMagic/gtm-skills",
-  "skills": "./skills/",
-  "defaultEnabled": true
+  "skills": [
+    "skills/*/*/SKILL.md"
+  ]
 }

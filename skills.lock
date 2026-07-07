@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-07-07T18:44:48+00:00",
+  "generated_at": "2026-07-07T18:45:48+00:00",
   "total_skills": 205,
   "skills": {
     "abm/abm-1-to-1": {
@@ -1324,8 +1324,8 @@
         "mql-nurture",
         "SKILL.md"
       ],
-      "sha256": "0bb2c50545e810f6905a14577113a12426ee9172e711dc70dcde103785bc2aa8",
-      "size_bytes": 6476
+      "sha256": "4fe6cf6627e8e53327ac4b70f5f6cda1d91c0e27abe02e2cdb8cdb6ce6166846",
+      "size_bytes": 7578
     },
     "lifecycle/onboarding-sequences": {
       "path": [

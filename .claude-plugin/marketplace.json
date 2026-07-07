@@ -1,33 +1,35 @@
 {
   "name": "gtm-skills",
-  "owner": {
-    "name": "LeadMagic",
-    "email": "team@leadmagic.io",
-    "url": "https://leadmagic.io"
-  },
+  "display_name": "GTM Skills",
   "description": "205 production go-to-market skills for AI agents. Artifact-first GTM playbooks across 24 categories.",
-  "plugins": [
-    {
-      "name": "gtm-skills",
-      "source": "./",
-      "description": "205 production go-to-market skills for AI agents across 24 categories.",
-      "version": "0.27.3",
-      "author": {
-        "name": "LeadMagic",
-        "url": "https://leadmagic.io"
-      },
-      "homepage": "https://github.com/LeadMagic/gtm-skills",
-      "license": "MIT",
-      "keywords": [
-        "gtm",
-        "sales",
-        "marketing",
-        "outbound",
-        "prospecting",
-        "revops",
-        "claude-code",
-        "agent-skills"
-      ]
-    }
-  ]
+  "author": "LeadMagic",
+  "repository": "https://github.com/LeadMagic/gtm-skills",
+  "license": "MIT",
+  "categories": [
+    "abm",
+    "analytics",
+    "automation",
+    "content-seo",
+    "creative",
+    "customer-success",
+    "demand-gen",
+    "design",
+    "events",
+    "foundation",
+    "founder-led",
+    "growth",
+    "gtm-ops",
+    "inbound",
+    "leadmagic",
+    "lifecycle",
+    "management-leadership",
+    "outbound",
+    "partnerships",
+    "product-led-growth",
+    "prospecting",
+    "sales-plays",
+    "sales-revops",
+    "tools"
+  ],
+  "skills_count": 205
 }
