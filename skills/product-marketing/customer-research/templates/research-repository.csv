@@ -1,0 +1,2 @@
+evidence_id,interview_date,cohort,participant_role,company_segment,timeline_stage,job_or_progress,trigger,alternative,decision_criterion,force,verbatim_quote,interpretation,confidence,quote_permission,source_location
+EXAMPLE-001,YYYY-MM-DD,recent-win,role,segment,trigger,progress sought,event,old approach,criterion,push,"Exact words from participant","Researcher interpretation",low|medium|high,attributed|anonymous|none,recording-or-note-link

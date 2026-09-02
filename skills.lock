@@ -1,14 +1,14 @@
 {
   "version": "2.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-09-02T07:45:36+00:00",
-  "total_skills": 208,
-  "total_files": 1342,
+  "generated_at": "2026-09-02T08:57:06+00:00",
+  "total_skills": 211,
+  "total_files": 1360,
   "file_counts": {
-    "entrypoints": 208,
-    "references": 627,
-    "templates": 299,
-    "scripts": 208,
+    "entrypoints": 211,
+    "references": 630,
+    "templates": 308,
+    "scripts": 211,
     "assets": 0,
     "other": 0
   },
@@ -46,8 +46,8 @@
         "abm-strategy",
         "SKILL.md"
       ],
-      "sha256": "0eb26b49aacd82efbb1cd162d903a46de1015ed620cc9bb0c248c6e8d103bf98",
-      "size_bytes": 8799
+      "sha256": "dc6f415ed5426d4c9eaa96c6633bc8d53504f7a34e7d729fe4c552a2b6402047",
+      "size_bytes": 9330
     },
     "abm/account-selection": {
       "path": [
@@ -487,8 +487,8 @@
         "cs-playbooks",
         "SKILL.md"
       ],
-      "sha256": "b453c2bf68689c9a48acfa4edac8dab0b476f06604cb4734de25d6a470d37ea5",
-      "size_bytes": 8571
+      "sha256": "0d06cf932d1860a80687417e6eba8c57d1af8a08958f24ea02f2cfb71cc3611e",
+      "size_bytes": 9079
     },
     "customer-success/customer-onboarding": {
       "path": [
@@ -739,7 +739,7 @@
         "using-gtm-skills",
         "SKILL.md"
       ],
-      "sha256": "82429696ce196c70f9a993ec3c86917f23531697e57d9f697a7300155ba133e0",
+      "sha256": "f4ab852c4fb74aa689f4c3c8a4eebb065d93c40e3705fdd9dfed420402bc1c82",
       "size_bytes": 8121
     },
     "founder-led/advisor-recruitment": {
@@ -1531,8 +1531,8 @@
         "partnership-strategy",
         "SKILL.md"
       ],
-      "sha256": "7b32bcb0c04fc99c72fbcea98c03ff565174634fdc232241f82bfd3d92c7b14e",
-      "size_bytes": 7325
+      "sha256": "b2c4d21a52687c298f9195f1f8cae84ca697169e447ee853fe1791d173b3dbf5",
+      "size_bytes": 7863
     },
     "product-led-growth/developer-gtm": {
       "path": [
@@ -1560,6 +1560,24 @@
       ],
       "sha256": "7eaa85bbf9b66b47c125c814d51f9109fe39790043d0fa4b2ffb4a843c525f38",
       "size_bytes": 7847
+    },
+    "product-marketing/customer-research": {
+      "path": [
+        "product-marketing",
+        "customer-research",
+        "SKILL.md"
+      ],
+      "sha256": "f0b3f65afeb11d9332e2c41d9142d207a5834022828272126fa0f8bcac165747",
+      "size_bytes": 7328
+    },
+    "product-marketing/win-loss-analysis": {
+      "path": [
+        "product-marketing",
+        "win-loss-analysis",
+        "SKILL.md"
+      ],
+      "sha256": "1261020c761f4af40ebdf7f1bfc95136854d3246459bb5d6ba76beeec60e6790",
+      "size_bytes": 6666
     },
     "prospecting/contact-verification": {
       "path": [
@@ -1729,8 +1747,17 @@
         "pipeline-management",
         "SKILL.md"
       ],
-      "sha256": "506e29ca5ea1f7c220f30ddab3c1beed48a7e86ed0cbd7f044c017e7ae244284",
-      "size_bytes": 17745
+      "sha256": "facbf2fdd8f5097a2f41b7b1d32913317acecd1836a542a40a006eea88a072f4",
+      "size_bytes": 17766
+    },
+    "sales-revops/revenue-forecasting": {
+      "path": [
+        "sales-revops",
+        "revenue-forecasting",
+        "SKILL.md"
+      ],
+      "sha256": "2fe735bdeb75d5a17262730f49a2a8f4665ff9be988eeee016e450c50d2c3463",
+      "size_bytes": 6899
     },
     "sales-revops/sales-enablement": {
       "path": [
@@ -1948,8 +1975,8 @@
       "kind": "templates"
     },
     "skills/abm/abm-strategy/SKILL.md": {
-      "sha256": "0eb26b49aacd82efbb1cd162d903a46de1015ed620cc9bb0c248c6e8d103bf98",
-      "size_bytes": 8799,
+      "sha256": "dc6f415ed5426d4c9eaa96c6633bc8d53504f7a34e7d729fe4c552a2b6402047",
+      "size_bytes": 9330,
       "kind": "entrypoints"
     },
     "skills/abm/abm-strategy/references/framework-notes.md": {
@@ -3143,8 +3170,8 @@
       "kind": "templates"
     },
     "skills/customer-success/cs-playbooks/SKILL.md": {
-      "sha256": "b453c2bf68689c9a48acfa4edac8dab0b476f06604cb4734de25d6a470d37ea5",
-      "size_bytes": 8571,
+      "sha256": "0d06cf932d1860a80687417e6eba8c57d1af8a08958f24ea02f2cfb71cc3611e",
+      "size_bytes": 9079,
       "kind": "entrypoints"
     },
     "skills/customer-success/cs-playbooks/references/crisis-management-playbook.md": {
@@ -3793,7 +3820,7 @@
       "kind": "templates"
     },
     "skills/foundation/using-gtm-skills/SKILL.md": {
-      "sha256": "82429696ce196c70f9a993ec3c86917f23531697e57d9f697a7300155ba133e0",
+      "sha256": "f4ab852c4fb74aa689f4c3c8a4eebb065d93c40e3705fdd9dfed420402bc1c82",
       "size_bytes": 8121,
       "kind": "entrypoints"
     },
@@ -3858,7 +3885,7 @@
       "kind": "references"
     },
     "skills/foundation/using-gtm-skills/references/complete-usage-guide.md": {
-      "sha256": "71cb722ce669cc4c300b3b28e6a5f9956debadb2c9bdfa73022b40b2b83d279c",
+      "sha256": "2a2697e91e6a6658d0aa69b2e7cd7794444356d3135cd5d13b18900fb93c5c65",
       "size_bytes": 93510,
       "kind": "references"
     },
@@ -3893,8 +3920,8 @@
       "kind": "references"
     },
     "skills/foundation/using-gtm-skills/references/experts.md": {
-      "sha256": "f759038560ff7511a5b6707fcd30ff4ca71f39f938680a2fd44b53975bb2e017",
-      "size_bytes": 134513,
+      "sha256": "78cc2528ff05ad97ae1b77e7efa0c9fda2b7fb50eb5fb3d1de798d38567486f5",
+      "size_bytes": 140312,
       "kind": "references"
     },
     "skills/foundation/using-gtm-skills/references/force-management-playbook.md": {
@@ -3978,8 +4005,8 @@
       "kind": "references"
     },
     "skills/foundation/using-gtm-skills/references/pitfalls-index.md": {
-      "sha256": "45d9b200833597da2f465f5f8929d4cbe43fef27db8b89958c392df51b64c1f9",
-      "size_bytes": 212714,
+      "sha256": "6fd361a075ecfe45e2048314df66ab15f736a02573d371becb8e45194fd4acc6",
+      "size_bytes": 215072,
       "kind": "references"
     },
     "skills/foundation/using-gtm-skills/references/saas-metrics-reference.md": {
@@ -4013,8 +4040,8 @@
       "kind": "references"
     },
     "skills/foundation/using-gtm-skills/references/skill-index-master.md": {
-      "sha256": "b2f9e549580f3594b337d669d92c1eede214484f84decdeddfc6235951c21a28",
-      "size_bytes": 31218,
+      "sha256": "2c88100782870d389dd763e298dfb14f73afe39c5e8da7570926ddba2eae97c1",
+      "size_bytes": 31781,
       "kind": "references"
     },
     "skills/foundation/using-gtm-skills/scripts/check-output.py": {
@@ -4308,8 +4335,8 @@
       "kind": "references"
     },
     "skills/founder-led/exiting-company/references/experts.md": {
-      "sha256": "f759038560ff7511a5b6707fcd30ff4ca71f39f938680a2fd44b53975bb2e017",
-      "size_bytes": 134513,
+      "sha256": "78cc2528ff05ad97ae1b77e7efa0c9fda2b7fb50eb5fb3d1de798d38567486f5",
+      "size_bytes": 140312,
       "kind": "references"
     },
     "skills/founder-led/exiting-company/references/framework-notes.md": {
@@ -4643,8 +4670,8 @@
       "kind": "references"
     },
     "skills/founder-led/gtm-role-descriptions/references/experts.md": {
-      "sha256": "f759038560ff7511a5b6707fcd30ff4ca71f39f938680a2fd44b53975bb2e017",
-      "size_bytes": 134513,
+      "sha256": "78cc2528ff05ad97ae1b77e7efa0c9fda2b7fb50eb5fb3d1de798d38567486f5",
+      "size_bytes": 140312,
       "kind": "references"
     },
     "skills/founder-led/gtm-role-descriptions/references/framework-notes.md": {
@@ -4758,8 +4785,8 @@
       "kind": "entrypoints"
     },
     "skills/founder-led/hiring-by-role/references/experts.md": {
-      "sha256": "f759038560ff7511a5b6707fcd30ff4ca71f39f938680a2fd44b53975bb2e017",
-      "size_bytes": 134513,
+      "sha256": "78cc2528ff05ad97ae1b77e7efa0c9fda2b7fb50eb5fb3d1de798d38567486f5",
+      "size_bytes": 140312,
       "kind": "references"
     },
     "skills/founder-led/hiring-by-role/references/framework-notes.md": {
@@ -4773,8 +4800,8 @@
       "kind": "references"
     },
     "skills/founder-led/hiring-by-role/references/pitfalls-index.md": {
-      "sha256": "45d9b200833597da2f465f5f8929d4cbe43fef27db8b89958c392df51b64c1f9",
-      "size_bytes": 212714,
+      "sha256": "6fd361a075ecfe45e2048314df66ab15f736a02573d371becb8e45194fd4acc6",
+      "size_bytes": 215072,
       "kind": "references"
     },
     "skills/founder-led/hiring-by-role/scripts/check-output.py": {
@@ -5083,8 +5110,8 @@
       "kind": "references"
     },
     "skills/founder-led/saas-outcomes/references/experts.md": {
-      "sha256": "f759038560ff7511a5b6707fcd30ff4ca71f39f938680a2fd44b53975bb2e017",
-      "size_bytes": 134513,
+      "sha256": "78cc2528ff05ad97ae1b77e7efa0c9fda2b7fb50eb5fb3d1de798d38567486f5",
+      "size_bytes": 140312,
       "kind": "references"
     },
     "skills/founder-led/saas-outcomes/references/framework-notes.md": {
@@ -5693,8 +5720,8 @@
       "kind": "references"
     },
     "skills/gtm-ops/gtm-operations/references/experts.md": {
-      "sha256": "f759038560ff7511a5b6707fcd30ff4ca71f39f938680a2fd44b53975bb2e017",
-      "size_bytes": 134513,
+      "sha256": "78cc2528ff05ad97ae1b77e7efa0c9fda2b7fb50eb5fb3d1de798d38567486f5",
+      "size_bytes": 140312,
       "kind": "references"
     },
     "skills/gtm-ops/gtm-operations/references/force-management-playbook.md": {
@@ -5733,13 +5760,13 @@
       "kind": "references"
     },
     "skills/gtm-ops/gtm-operations/references/pitfalls-index.md": {
-      "sha256": "45d9b200833597da2f465f5f8929d4cbe43fef27db8b89958c392df51b64c1f9",
-      "size_bytes": 212714,
+      "sha256": "6fd361a075ecfe45e2048314df66ab15f736a02573d371becb8e45194fd4acc6",
+      "size_bytes": 215072,
       "kind": "references"
     },
     "skills/gtm-ops/gtm-operations/references/skill-index-master.md": {
-      "sha256": "b2f9e549580f3594b337d669d92c1eede214484f84decdeddfc6235951c21a28",
-      "size_bytes": 31218,
+      "sha256": "2c88100782870d389dd763e298dfb14f73afe39c5e8da7570926ddba2eae97c1",
+      "size_bytes": 31781,
       "kind": "references"
     },
     "skills/gtm-ops/gtm-operations/references/team-design-gtm-projects.md": {
@@ -6008,8 +6035,8 @@
       "kind": "references"
     },
     "skills/inbound/landing-pages/references/experts.md": {
-      "sha256": "f759038560ff7511a5b6707fcd30ff4ca71f39f938680a2fd44b53975bb2e017",
-      "size_bytes": 134513,
+      "sha256": "78cc2528ff05ad97ae1b77e7efa0c9fda2b7fb50eb5fb3d1de798d38567486f5",
+      "size_bytes": 140312,
       "kind": "references"
     },
     "skills/inbound/landing-pages/references/framework-notes.md": {
@@ -6668,8 +6695,8 @@
       "kind": "references"
     },
     "skills/management-leadership/gtm-leadership/references/experts.md": {
-      "sha256": "f759038560ff7511a5b6707fcd30ff4ca71f39f938680a2fd44b53975bb2e017",
-      "size_bytes": 134513,
+      "sha256": "78cc2528ff05ad97ae1b77e7efa0c9fda2b7fb50eb5fb3d1de798d38567486f5",
+      "size_bytes": 140312,
       "kind": "references"
     },
     "skills/management-leadership/gtm-leadership/references/force-management-playbook.md": {
@@ -6688,8 +6715,8 @@
       "kind": "references"
     },
     "skills/management-leadership/gtm-leadership/references/pitfalls-index.md": {
-      "sha256": "45d9b200833597da2f465f5f8929d4cbe43fef27db8b89958c392df51b64c1f9",
-      "size_bytes": 212714,
+      "sha256": "6fd361a075ecfe45e2048314df66ab15f736a02573d371becb8e45194fd4acc6",
+      "size_bytes": 215072,
       "kind": "references"
     },
     "skills/management-leadership/gtm-leadership/references/resignation-playbook.md": {
@@ -6903,8 +6930,8 @@
       "kind": "references"
     },
     "skills/management-leadership/sales-coaching/references/experts.md": {
-      "sha256": "f759038560ff7511a5b6707fcd30ff4ca71f39f938680a2fd44b53975bb2e017",
-      "size_bytes": 134513,
+      "sha256": "78cc2528ff05ad97ae1b77e7efa0c9fda2b7fb50eb5fb3d1de798d38567486f5",
+      "size_bytes": 140312,
       "kind": "references"
     },
     "skills/management-leadership/sales-coaching/references/founder-coaching.md": {
@@ -7058,8 +7085,8 @@
       "kind": "references"
     },
     "skills/outbound/cold-email-copywriting/references/experts.md": {
-      "sha256": "f759038560ff7511a5b6707fcd30ff4ca71f39f938680a2fd44b53975bb2e017",
-      "size_bytes": 134513,
+      "sha256": "78cc2528ff05ad97ae1b77e7efa0c9fda2b7fb50eb5fb3d1de798d38567486f5",
+      "size_bytes": 140312,
       "kind": "references"
     },
     "skills/outbound/cold-email-copywriting/references/framework-notes.md": {
@@ -7133,8 +7160,8 @@
       "kind": "references"
     },
     "skills/outbound/cold-email-strategy/references/experts.md": {
-      "sha256": "f759038560ff7511a5b6707fcd30ff4ca71f39f938680a2fd44b53975bb2e017",
-      "size_bytes": 134513,
+      "sha256": "78cc2528ff05ad97ae1b77e7efa0c9fda2b7fb50eb5fb3d1de798d38567486f5",
+      "size_bytes": 140312,
       "kind": "references"
     },
     "skills/outbound/cold-email-strategy/references/framework-notes.md": {
@@ -7443,13 +7470,13 @@
       "kind": "templates"
     },
     "skills/partnerships/partnership-strategy/SKILL.md": {
-      "sha256": "7b32bcb0c04fc99c72fbcea98c03ff565174634fdc232241f82bfd3d92c7b14e",
-      "size_bytes": 7325,
+      "sha256": "b2c4d21a52687c298f9195f1f8cae84ca697169e447ee853fe1791d173b3dbf5",
+      "size_bytes": 7863,
       "kind": "entrypoints"
     },
     "skills/partnerships/partnership-strategy/references/framework-notes.md": {
-      "sha256": "952da78acdcaecb9f8355e447137d63e1e315e49f63b2ecd7b8d77670a54addf",
-      "size_bytes": 798,
+      "sha256": "3c19a416ae2b2f4b4f1fc661197f42b9b118d2c0de0c23401dbd84b13001b5af",
+      "size_bytes": 992,
       "kind": "references"
     },
     "skills/partnerships/partnership-strategy/scripts/check-output.py": {
@@ -7555,6 +7582,66 @@
     "skills/product-led-growth/plg-strategy/templates/output-template.md": {
       "sha256": "870252cf81c24e43fed488f66e63841a3110cd893990f3795907bcda54e8a00e",
       "size_bytes": 922,
+      "kind": "templates"
+    },
+    "skills/product-marketing/customer-research/SKILL.md": {
+      "sha256": "f0b3f65afeb11d9332e2c41d9142d207a5834022828272126fa0f8bcac165747",
+      "size_bytes": 7328,
+      "kind": "entrypoints"
+    },
+    "skills/product-marketing/customer-research/references/framework-notes.md": {
+      "sha256": "cbafd8f995dff3abd5da87869da9f6915b0361d39f2ab14bd5fe15b5f4cce685",
+      "size_bytes": 1318,
+      "kind": "references"
+    },
+    "skills/product-marketing/customer-research/scripts/check-output.py": {
+      "sha256": "db2267da05c977baab11d7c35e2fe4a57afbaf89e7740e5db063c9b5c0d34016",
+      "size_bytes": 1073,
+      "kind": "scripts"
+    },
+    "skills/product-marketing/customer-research/templates/interview-guide.md": {
+      "sha256": "409e6b8db5ebe3d2461e8cfaccb8a7042bd44afe98588d383b28b2f297938c29",
+      "size_bytes": 1397,
+      "kind": "templates"
+    },
+    "skills/product-marketing/customer-research/templates/output-template.md": {
+      "sha256": "0eb6ad4a5490c5371a81130a504fc14102c577ba6ac844f8368f70a9796d6e09",
+      "size_bytes": 2043,
+      "kind": "templates"
+    },
+    "skills/product-marketing/customer-research/templates/research-repository.csv": {
+      "sha256": "afac6ad0d7df47559cc72da69a8817d4c5fc26e68965f15933e0e143780b02a1",
+      "size_bytes": 446,
+      "kind": "templates"
+    },
+    "skills/product-marketing/win-loss-analysis/SKILL.md": {
+      "sha256": "1261020c761f4af40ebdf7f1bfc95136854d3246459bb5d6ba76beeec60e6790",
+      "size_bytes": 6666,
+      "kind": "entrypoints"
+    },
+    "skills/product-marketing/win-loss-analysis/references/framework-notes.md": {
+      "sha256": "94fad196b1be2309b3cb08309a3fa5abe5a03142a70474d7e5b89a1ceaff86fa",
+      "size_bytes": 1440,
+      "kind": "references"
+    },
+    "skills/product-marketing/win-loss-analysis/scripts/check-output.py": {
+      "sha256": "2e873a98fd0671834d0b6fdf6f0b74a7667bebeb9b615a5ce0b8015983738fa8",
+      "size_bytes": 1085,
+      "kind": "scripts"
+    },
+    "skills/product-marketing/win-loss-analysis/templates/decision-driver-taxonomy.csv": {
+      "sha256": "52f4777cc99cf05bb48edbeeaba2ff93d246320742fca3193092442bf3e53966",
+      "size_bytes": 584,
+      "kind": "templates"
+    },
+    "skills/product-marketing/win-loss-analysis/templates/interview-guide.md": {
+      "sha256": "ac2f532734299f2a9d151a9b852981be85671ee88b9c46b030e7a565bd38cca8",
+      "size_bytes": 1240,
+      "kind": "templates"
+    },
+    "skills/product-marketing/win-loss-analysis/templates/output-template.md": {
+      "sha256": "db84627eb7db5dd356037cfd5a8774120cce813a147c3957f66b4375dc6b331b",
+      "size_bytes": 2053,
       "kind": "templates"
     },
     "skills/prospecting/contact-verification/SKILL.md": {
@@ -7878,8 +7965,8 @@
       "kind": "references"
     },
     "skills/sales-revops/deal-desk/references/experts.md": {
-      "sha256": "f759038560ff7511a5b6707fcd30ff4ca71f39f938680a2fd44b53975bb2e017",
-      "size_bytes": 134513,
+      "sha256": "78cc2528ff05ad97ae1b77e7efa0c9fda2b7fb50eb5fb3d1de798d38567486f5",
+      "size_bytes": 140312,
       "kind": "references"
     },
     "skills/sales-revops/deal-desk/references/framework-notes.md": {
@@ -7978,8 +8065,8 @@
       "kind": "entrypoints"
     },
     "skills/sales-revops/meeting-prep/references/experts.md": {
-      "sha256": "f759038560ff7511a5b6707fcd30ff4ca71f39f938680a2fd44b53975bb2e017",
-      "size_bytes": 134513,
+      "sha256": "78cc2528ff05ad97ae1b77e7efa0c9fda2b7fb50eb5fb3d1de798d38567486f5",
+      "size_bytes": 140312,
       "kind": "references"
     },
     "skills/sales-revops/meeting-prep/references/framework-notes.md": {
@@ -8033,8 +8120,8 @@
       "kind": "templates"
     },
     "skills/sales-revops/pipeline-management/SKILL.md": {
-      "sha256": "506e29ca5ea1f7c220f30ddab3c1beed48a7e86ed0cbd7f044c017e7ae244284",
-      "size_bytes": 17745,
+      "sha256": "facbf2fdd8f5097a2f41b7b1d32913317acecd1836a542a40a006eea88a072f4",
+      "size_bytes": 17766,
       "kind": "entrypoints"
     },
     "skills/sales-revops/pipeline-management/references/cold-calling-experts-index.md": {
@@ -8067,6 +8154,36 @@
       "size_bytes": 1893,
       "kind": "templates"
     },
+    "skills/sales-revops/revenue-forecasting/SKILL.md": {
+      "sha256": "2fe735bdeb75d5a17262730f49a2a8f4665ff9be988eeee016e450c50d2c3463",
+      "size_bytes": 6899,
+      "kind": "entrypoints"
+    },
+    "skills/sales-revops/revenue-forecasting/references/framework-notes.md": {
+      "sha256": "6ee98ed7258a454d0995479799fc259b9037282d00875bcdb33a343303a77863",
+      "size_bytes": 1791,
+      "kind": "references"
+    },
+    "skills/sales-revops/revenue-forecasting/scripts/check-output.py": {
+      "sha256": "32ae783c958c78b154a9179bc8d2188053256ff1eaf9afe4893a0cd83486092d",
+      "size_bytes": 1078,
+      "kind": "scripts"
+    },
+    "skills/sales-revops/revenue-forecasting/templates/forecast-model.csv": {
+      "sha256": "20db6e6b8af08a9419d7654d633a0e3fd281d94e1cd97bf46acfc245322d563a",
+      "size_bytes": 622,
+      "kind": "templates"
+    },
+    "skills/sales-revops/revenue-forecasting/templates/inspection-agenda.md": {
+      "sha256": "6151ce8abffd0c1808823e19f0bb5477bc9eff0f5a1a1c60a9a537acea087901",
+      "size_bytes": 990,
+      "kind": "templates"
+    },
+    "skills/sales-revops/revenue-forecasting/templates/output-template.md": {
+      "sha256": "6cecc42582f7049fa7cc7977e219a3c8a2abac756163c12f8814990a101cca72",
+      "size_bytes": 2158,
+      "kind": "templates"
+    },
     "skills/sales-revops/sales-enablement/SKILL.md": {
       "sha256": "81d7268e81def3804608a12a6f46f6d7713fdc6f801eed626b32f784f228ec83",
       "size_bytes": 8624,
@@ -8078,8 +8195,8 @@
       "kind": "references"
     },
     "skills/sales-revops/sales-enablement/references/experts.md": {
-      "sha256": "f759038560ff7511a5b6707fcd30ff4ca71f39f938680a2fd44b53975bb2e017",
-      "size_bytes": 134513,
+      "sha256": "78cc2528ff05ad97ae1b77e7efa0c9fda2b7fb50eb5fb3d1de798d38567486f5",
+      "size_bytes": 140312,
       "kind": "references"
     },
     "skills/sales-revops/sales-enablement/references/force-management-playbook.md": {

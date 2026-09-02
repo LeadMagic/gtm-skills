@@ -12,7 +12,7 @@ metadata:
   author: LeadMagic
   category: abm
   tags: [abm, account-based-marketing, target-accounts, enterprise, b2b, absd]
-  frameworks: [ITSMA ABM Framework, TOPO Account-Based Framework, WbD Bowtie, John Ruhlin Giftology, Sendoso Sending Platform, "Lars Nilsson (Cloudera/Snowflake) — Account-Based Sales Development (ABSD)"]
+  frameworks: [ITSMA ABM Framework, TOPO Account-Based Framework, WbD Bowtie, John Ruhlin Giftology, Sendoso Sending Platform, "Lars Nilsson (Cloudera/Snowflake) — Account-Based Sales Development (ABSD)", "Sangram Vajre — TEAM account-based GTM and MOVE maturity model"]
 ---
 
 # ABM Strategy
@@ -46,6 +46,11 @@ account intelligence, channel orchestration, and measurement.
   multi-persona outreach in 50–250 contact chunks; quality of engagement over
   volume sent (public first-campaign results: ~70% open / ~30% reply vs 5–8% / 2–3%
   for nurture blasts). Canonical → `references/lars-nilsson-absd.md`.
+- **Sangram Vajre — TEAM and MOVE.** Treat account-based work as one GTM motion,
+  not a marketing campaign. TEAM aligns Target, Engage, Activate, and Measure;
+  MOVE diagnoses maturity across Market, Operations, Velocity, and Expansion.
+  Use TEAM to design the account journey and MOVE to identify the operating
+  constraint before adding channels or tools.
 
 ## Step-by-Step Process
 
@@ -142,6 +147,7 @@ Map the recommendation explicitly to the named frameworks in this skill:
 - WbD Bowtie: apply only the part that directly improves the requested deliverable.
 - John Ruhlin Giftology: apply only the part that directly improves the requested deliverable.
 - Lars Nilsson ABSD: apply only the part that directly improves the requested deliverable.
+- Sangram Vajre TEAM and MOVE: apply only the part that directly improves the requested deliverable.
 
 ### Deliverable Standard
 

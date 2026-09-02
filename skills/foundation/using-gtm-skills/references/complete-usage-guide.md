@@ -32,7 +32,7 @@ metadata:
 
 ## Overview
 
-208 skills. 24 categories. Every GTM discipline. This is the master key.
+211 skills. 25 categories. Every GTM discipline. This is the master key.
 The mistake: cloning the repo and not knowing where to start — loading random
 skills, missing dependencies, or treating skills as documentation instead of
 executable playbooks. This skill covers the complete usage guide: installation,
@@ -1283,7 +1283,7 @@ gtm-skills/
 ├── skills.lock            # SHA256-verified integrity for all marketplace skills
 ├── taxonomy.csv           # slug → name → category → description → priority
 ├── references/
-│   ├── skill-index-master.md  # One-page map of all 24 categories
+│   ├── skill-index-master.md  # One-page map of all 25 categories
 │   ├── experts.md          # Master expert catalog (channels + skill clusters)
 │   ├── gtm-lifecycle-stages.md  # Canonical 7-stage customer lifecycle + Bowtie
 │   ├── activation-playbook.md   # Activation deep-dive + audit
@@ -1306,7 +1306,7 @@ gtm-skills/
 │   ├── inbound/            # LinkedIn algorithm, Live, Sales Nav, social selling (8 skills)
 │   ├── sales-revops/       # Sales enablement, demo scripts, deal desk
 │   ├── analytics/          # Metrics, event analytics, attribution
-│   └── ...                 # 24 categories — full map: references/skill-index-master.md
+│   └── ...                 # 25 categories — full map: references/skill-index-master.md
 ├── scripts/
 │   ├── install-tui.py      # Installer implementation (11 targets)
 │   ├── validate-skills.js  # YAML validator — runs in CI
@@ -1322,7 +1322,7 @@ gtm-skills/
 
 | Map | Path | Use when |
 |---|---|---|
-| **Master skill index** | `references/skill-index-master.md` | One-page map of all 24 categories |
+| **Master skill index** | `references/skill-index-master.md` | One-page map of all 25 categories |
 | Expert catalog | `references/experts.md` | Named practitioner lookup (~110 entries incl. methodology orgs) |
 | GTM glossary | `references/gtm-glossary.md` | MEDDICC, SPICED, Bowtie terminology |
 | SaaS metrics ref | `references/saas-metrics-reference.md` | Churn, LTV, NRR formulas |

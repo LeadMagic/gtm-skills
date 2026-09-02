@@ -1,6 +1,6 @@
 # gtm-skills — Agent Skills Index
 
-208 production GTM skills for AI agents. This repository follows the Agent Skills open specification: portable skill folders with SKILL.md plus optional scripts/, references/, templates/, and assets/.
+211 production GTM skills for AI agents. This repository follows the Agent Skills open specification: portable skill folders with SKILL.md plus optional scripts/, references/, templates/, and assets/.
 
 ## Install
 
@@ -56,9 +56,10 @@ Local installer:
 - **outbound** — 10 skills
 - **partnerships** — 3 skills
 - **product-led-growth** — 3 skills
+- **product-marketing** — 2 skills
 - **prospecting** — 8 skills
 - **sales-plays** — 5 skills
-- **sales-revops** — 8 skills
+- **sales-revops** — 9 skills
 - **tools** — 15 skills
 
 ## Quality Standard

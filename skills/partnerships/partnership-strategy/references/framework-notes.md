@@ -7,6 +7,8 @@ Use these references to ground outputs in named, repeatable methodology.
 - Partnership Ecosystem Framework
 - Crossbeam Partner-Led Growth
 - Crossbeam — Ecosystem-Led Growth
+- Bob Moore / Crossbeam, Ecosystem-Led Growth: <https://www.crossbeam.com/what-is-ecosystem-led-growth>
+- Crossbeam official company and partner-data model: <https://www.crossbeam.com/about-us>
 
 ## Operating Assumptions
 

@@ -16,5 +16,5 @@ keywords:
   - codex
   - github-copilot
   - gtm-skills
-abstract: "A public library of 208 production go-to-market Agent Skills across 24 categories for Claude Code, Codex, GitHub Copilot, and other AI agents, covering sales, marketing, outbound, SEO, analytics, PLG, customer success, RevOps, and automation."
-version: "0.28.0"
+abstract: "A public library of 211 production go-to-market Agent Skills across 25 categories for Claude Code, Codex, GitHub Copilot, and other AI agents, covering buyer research, sales, marketing, outbound, SEO, analytics, PLG, customer success, RevOps, and automation."
+version: "0.29.0"

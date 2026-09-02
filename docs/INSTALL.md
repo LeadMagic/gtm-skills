@@ -76,23 +76,31 @@ Use the repository installer when you want to inspect the exact files first or w
 gh repo clone LeadMagic/gtm-skills
 cd gtm-skills
 
-# Show commands and destinations without changing anything
-./install.sh --target all --dry-run
+# Interactive checkbox-style wizard: target, scope, then groups
+./install.sh
+
+# Show an exact bundle plan without changing anything
+./install.sh --target claude --scope project --bundle buyer-insight --dry-run
 
 # Install into one project
-./install.sh --target codex --scope project --project /path/to/project
+./install.sh --target claude --scope project --bundle buyer-insight \
+  --project /path/to/project --yes
 
 # Replace an existing install only when explicitly intended
 ./install.sh --target codex --scope project --project /path/to/project --force
 ```
 
-The local installer copies each skill directly under the target discovery root. It does not silently replace existing skills unless `--force` is supplied.
+The installer accepts repeatable `--bundle`, `--category`, and `--skill` flags,
+plus `--all`. It prints an exact plan before writing. Existing skills are
+skipped by default; `--force` is the only replacement path. When GitHub CLI is
+available, it performs the installation and records source metadata. The
+dependency-free copy path is used only as a fallback.
 
 Available local target keys:
 
 | Target | Project discovery root | Preferred mechanism |
 |---|---|---|
-| `claude` | `.claude/skills/` | Claude plugin; direct-copy fallback |
+| `claude` | `.claude/skills/` | `gh skill --agent claude-code`; copy fallback |
 | `copilot` / `vscode` | `.github/skills/` | `gh skill --agent github-copilot` |
 | `codex` | `.agents/skills/` | `gh skill --agent codex` |
 | `cursor` | `.agents/skills/` | `gh skill --agent cursor` |
@@ -110,10 +118,17 @@ The repository also includes a selector for categories, bundles, or individual s
 ```bash
 python3 scripts/cc-gtm.py --list
 python3 scripts/cc-gtm.py --bundle startup-essentials --dry-run
-python3 scripts/cc-gtm.py --skills gtm-context-bootstrap,technical-seo-audit
+python3 scripts/cc-gtm.py --skills gtm-context-bootstrap,technical-seo-audit --yes
 ```
 
 Selected skills are installed directly under `.claude/skills/<skill-name>/`. Generated skill-local reference copies keep each selected installation independent of the repository checkout.
+
+Claude Code supports project skills in `.claude/skills/`, user skills in
+`~/.claude/skills/`, and plugin-provided skills. The native plugin remains the
+cleanest complete-catalog installation. Marketplace registration alone does
+not install the plugin; run both plugin commands, choose the intended
+`user`, `project`, or `local` plugin scope, review the source, and use
+`/reload-plugins` when Claude Code asks for a reload.
 
 ## Maintainer verification
 

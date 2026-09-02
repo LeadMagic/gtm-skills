@@ -5,13 +5,13 @@
     "email": "team@leadmagic.io",
     "url": "https://leadmagic.io"
   },
-  "description": "208 production go-to-market skills for AI agents. Artifact-first GTM playbooks across 24 categories.",
+  "description": "211 production go-to-market skills for AI agents. Artifact-first GTM playbooks across 25 categories.",
   "plugins": [
     {
       "name": "gtm-skills",
       "source": "./",
-      "description": "208 production go-to-market skills for AI agents across 24 categories.",
-      "version": "0.28.0",
+      "description": "211 production go-to-market skills for AI agents across 25 categories.",
+      "version": "0.29.0",
       "author": {
         "name": "LeadMagic",
         "url": "https://leadmagic.io"
@@ -22,6 +22,10 @@
         "gtm",
         "sales",
         "marketing",
+        "product-marketing",
+        "customer-research",
+        "win-loss-analysis",
+        "revenue-forecasting",
         "outbound",
         "prospecting",
         "revops",

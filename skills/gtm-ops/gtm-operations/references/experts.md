@@ -39,6 +39,14 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 | Keith Rosen | [keithrosen](https://www.linkedin.com/in/keithrosen/) | — | [KeithRosen.com](https://keithrosen.com/) | [keithrosen.com](https://keithrosen.com/) |
 | Kim Scott | [kimm4](https://www.linkedin.com/in/kimm4/) | [@kimballscott](https://x.com/kimballscott) | [Radical Candor](https://www.youtube.com/c/RadicalCandor) | [radicalcandor.com](https://www.radicalcandor.com/) |
 | April Dunford | [aprildunford](https://www.linkedin.com/in/aprildunford/) | [@aprildunford](https://x.com/aprildunford) | [@positioningshow](https://www.youtube.com/@positioningshow) | [aprildunford.com](https://www.aprildunford.com/) |
+| Bob Moesta & Chris Spiek | — | — | — | [jobstobedone.org](https://jobstobedone.org/) |
+| Katelyn Bourgoin | — | — | — | [learnwhywebuy.com](https://learnwhywebuy.com/) |
+| Georgiana Laudi & Claire Suellentrop | — | — | — | [forgetthefunnel.com](https://forgetthefunnel.com/) |
+| Andrew Peterson / Clozd | — | — | — | [clozd.com](https://www.clozd.com/) |
+| Sangram Vajre | [sangramvajre](https://www.linkedin.com/in/sangramvajre/) | — | — | [gtmpartners.com](https://www.gtmpartners.com/) |
+| Allison Pickens | [allisonpickens](https://www.linkedin.com/in/allisonpickens/) | — | — | [allisonpickens.com](https://www.allisonpickens.com/) |
+| Dave Kellogg | [davekellogg](https://www.linkedin.com/in/davekellogg/) | — | — | [kellblog.com](https://www.kellblog.com/) |
+| Bob Moore | — | — | — | [crossbeam.com](https://www.crossbeam.com/) |
 | David Skok | [dskok](https://www.linkedin.com/in/dskok/) | [@BostonVC](https://x.com/BostonVC) | [forEntrepreneurs](https://www.forentrepreneurs.com/) | [forentrepreneurs.com](https://www.forentrepreneurs.com/) |
 | Ben Murray | [benrmurray](https://www.linkedin.com/in/benrmurray/) | [@BR_Murray](https://x.com/BR_Murray) | [The SaaS CFO](https://www.youtube.com/@TheSaaSCFO) | [thesaascfo.com](https://www.thesaascfo.com/) |
 | Scott Brinker | [sjbrinker](https://www.linkedin.com/in/sjbrinker/) | [@chiefmartec](https://x.com/chiefmartec) | [TEDx / interviews](https://www.youtube.com/watch?v=c2sNTAaILdA) | [chiefmartec.com](https://chiefmartec.com/) |
@@ -556,6 +564,21 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 ---
 
+### Sangram Vajre — GTM Partners
+
+**Role:** Co-founder and CEO, GTM Partners; co-founder of Terminus
+**Domain:** Account-based GTM, go-to-market operating systems, and maturity diagnosis
+
+**Public Channels**
+- 🔗 [GTM Partners](https://www.gtmpartners.com/) · [TEAM framework](https://www.gtmpartners.com/frameworks/team) · [MOVE framework](https://www.gtmpartners.com/frameworks/move)
+- 💼 [LinkedIn](https://www.linkedin.com/in/sangramvajre/)
+
+**Key Frameworks:** TEAM — Target, Engage, Activate, Measure · MOVE — Market, Operations, Velocity, Expansion · GTM Operating System
+
+**Skills:** `abm-strategy`, `account-selection`, `multi-thread-orchestration`
+
+---
+
 ### Andy Whyte — MEDDICC
 
 **Role:** Author; founder MEDDICC
@@ -1013,6 +1036,62 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 ---
 
+### Bob Moesta & Chris Spiek — Jobs-to-be-Done
+
+**Role:** Co-creators and teachers of the Jobs-to-be-Done switch-interview method
+**Domain:** Buyer causality, struggling moments, switching behavior, and demand research
+
+**Public Channels**
+- 🔗 [Jobs to be Done](https://jobstobedone.org/)
+
+**Key Frameworks:** Switch interviews · buying timeline · Four Forces of Progress · demand-side innovation
+
+**Skills:** `customer-research`, `win-loss-analysis`
+
+---
+
+### Katelyn Bourgoin — Why We Buy
+
+**Role:** Founder, Why We Buy; buyer-research educator
+**Domain:** Recent-behavior interviews, customer language, buying triggers, and message evidence
+
+**Public Channels**
+- 🔗 [Why We Buy](https://learnwhywebuy.com/) · [Clarity Calls](https://learnwhywebuy.com/clarity-calls-cheatsheets/)
+
+**Key Frameworks:** Clarity Calls · Trigger Technique · behavior before stated preference
+
+**Skills:** `customer-research`
+
+---
+
+### Georgiana Laudi & Claire Suellentrop — Forget The Funnel
+
+**Role:** Co-founders, Forget The Funnel; authors of *Forget The Funnel*
+**Domain:** Customer-led growth, customer experience, positioning, and cross-functional growth strategy
+
+**Public Channels**
+- 🔗 [Forget The Funnel](https://forgetthefunnel.com/) · [Media kit and biographies](https://forgetthefunnel.com/media-kit)
+
+**Key Frameworks:** Customer-Led Growth · customer insight to experience map · cross-functional growth loops
+
+**Skills:** `customer-research`
+
+---
+
+### Andrew Peterson / Clozd — Win-Loss Analysis
+
+**Role:** Founder of Clozd; practitioner platform for buyer-led win/loss programs
+**Domain:** Neutral buyer interviews, decision drivers, sentiment coding, and insight activation
+
+**Public Channels**
+- 🔗 [Clozd](https://www.clozd.com/) · [Win-loss interview guide](https://www.clozd.com/blog/win-loss-101-what-to-ask-buyers-in-win-loss-interviews)
+
+**Key Frameworks:** Independent buyer interviews · decision-driver taxonomy · sentiment analysis · action workshops
+
+**Skills:** `win-loss-analysis`
+
+---
+
 ## Public-Company GTM & SDR Scale
 
 ### Henry Schuck — ZoomInfo
@@ -1365,6 +1444,21 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 ---
 
+### Allison Pickens — Customer Success Operator
+
+**Role:** Former COO, Gainsight; solo GP and founder, Allison Pickens Ventures
+**Domain:** Company-wide Customer Success, post-sales organization design, and product-driven CS
+
+**Public Channels**
+- 🔗 [allisonpickens.com](https://www.allisonpickens.com/) · [Gainsight post-sales organization](https://www.gainsight.com/blog/reorganized-entire-post-sales-organization-drive-customer-success/) · [Product-driven Customer Success](https://www.gainsight.com/essential-guide/product-driven-customer-success/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/allisonpickens/)
+
+**Key Frameworks:** Company-wide CS ownership · outcome-aligned post-sales roles · product signals for scaled intervention
+
+**Skills:** `cs-playbooks`, `customer-onboarding`, `cs-analytics-dashboards`
+
+---
+
 ## Product-Led Growth
 
 ### Elena Verna — Reforge / Amplitude advisor
@@ -1456,6 +1550,21 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 ---
 
 ## Finance & Metrics
+
+### Dave Kellogg — Enterprise SaaS Forecasting
+
+**Role:** Enterprise software CEO, advisor, and author of Kellblog
+**Domain:** SaaS metrics, pipeline, sales management, and forecast triangulation
+
+**Public Channels**
+- 🔗 [Kellblog](https://www.kellblog.com/) · [Forecasting archive](https://www.kellblog.com/tag/forecasting/) · [Triangulation forecasts](https://www.kellblog.com/use-triangulation-forecasts-for-better-conversations-about-the-forecast/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/davekellogg/)
+
+**Key Frameworks:** Rep/manager/stage/category forecast triangulation · separate forecast calls, pipeline scrubs, and deal reviews · cohort-specific pipeline coverage
+
+**Skills:** `revenue-forecasting`, `pipeline-management`, `gtm-metrics`
+
+---
 
 ### Sean Ellis — GrowthHackers / Hacking Growth
 
@@ -2109,6 +2218,20 @@ Organic reach, Live content engines, and Sales Navigator prospecting — three l
 ---
 
 ## Strategic Gifting & ABM Physical Touchpoints
+
+### Bob Moore — Crossbeam
+
+**Role:** Co-founder and CEO, Crossbeam; author of *Ecosystem-Led Growth*
+**Domain:** Partner ecosystems, account mapping, co-selling, and second-party data
+
+**Public Channels**
+- 🔗 [Crossbeam](https://www.crossbeam.com/) · [Ecosystem-Led Growth](https://www.crossbeam.com/what-is-ecosystem-led-growth) · [Official company background](https://www.crossbeam.com/about-us)
+
+**Key Frameworks:** Ecosystem-Led Growth · secure partner-data collaboration · account overlap to co-sell motion
+
+**Skills:** `partnership-strategy`, `integration-partnerships`, `co-marketing`
+
+---
 
 ### John Ruhlin — Giftology
 

@@ -1,12 +1,21 @@
 # GTM Agent Skills for Claude Code, Codex & GitHub Copilot
 
-[![Skills](https://img.shields.io/badge/skills-208-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-24-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE) [![Stars](https://img.shields.io/github/stars/LeadMagic/gtm-skills?style=social)](https://github.com/LeadMagic/gtm-skills)
+[![Skills](https://img.shields.io/badge/skills-211-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-25-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE) [![Stars](https://img.shields.io/github/stars/LeadMagic/gtm-skills?style=social)](https://github.com/LeadMagic/gtm-skills)
 
-**208 production go-to-market (GTM) Agent Skills across 24 categories.** Install source-backed sales, marketing, outbound, RevOps, SEO, ABM, product-led growth, customer-success, analytics, and automation workflows in Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, and other Agent Skills-compatible runtimes.
+**211 production go-to-market (GTM) Agent Skills across 25 categories.** Install source-backed buyer research, product marketing, sales, outbound, RevOps, SEO, ABM, product-led growth, customer-success, analytics, and automation workflows in Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, and other Agent Skills-compatible runtimes.
 
-This is an artifact-first skill library, not a prompt pack. Every skill ships a `SKILL.md`, framework notes, an output template, and an executable deliverable checker. The current catalog contains exactly **1342 packaged skill files**, **1005 framework/source assignments**, and **113 named expert entries**. Counts and catalogs are generated from the skill folders on disk.
+This is an artifact-first skill library, not a prompt pack. Every skill ships a `SKILL.md`, framework notes, an output template, and an executable deliverable checker. The current catalog contains exactly **1360 packaged skill files**, **1019 framework/source assignments**, and **121 named expert entries**. Counts and catalogs are generated from the skill folders on disk.
 
 ## Install Agent Skills
+
+### Interactive, preview-first installer
+
+```bash
+gh repo clone LeadMagic/gtm-skills && cd gtm-skills
+./install.sh
+```
+
+The zero-dependency wizard lets you check off agent targets, choose project or user scope, and select curated bundles, full categories, individual skills, or the complete catalog. It shows exact destinations and collision counts, asks before writing, and skips existing skill folders unless `--force` is explicit.
 
 ### Preview first, then install one skill
 
@@ -35,10 +44,8 @@ gh skill install LeadMagic/gtm-skills --all --agent codex --scope user --pin <re
 ### Audited local checkout
 
 ```bash
-gh repo clone LeadMagic/gtm-skills
-cd gtm-skills
-./install.sh --target codex --scope project
-./install.sh --target all --dry-run
+./install.sh --target claude --scope project --bundle buyer-insight --dry-run
+./install.sh --target claude --scope project --bundle buyer-insight --yes
 ```
 
 Use project scope for repository-specific work, user scope for skills you intentionally trust everywhere, and `gh skill update --all` to refresh tracked installs. Skills can contain executable scripts, so review before installing. See the [complete install and verification guide](docs/INSTALL.md).
@@ -47,19 +54,19 @@ Use project scope for repository-specific work, user scope for skills you intent
 
 | Inventory | Exact value |
 |---|---:|
-| Marketplace-discoverable skills | 208 |
-| Categories | 24 |
-| Skill entrypoint files | 208 |
-| Reference files | 627 |
-| Template files | 299 |
-| Script files | 208 |
+| Marketplace-discoverable skills | 211 |
+| Categories | 25 |
+| Skill entrypoint files | 211 |
+| Reference files | 630 |
+| Template files | 308 |
+| Script files | 211 |
 | Asset files | 0 |
 | Other packaged files | 0 |
-| Total packaged skill files | 1342 |
+| Total packaged skill files | 1360 |
 | Generated shared-reference copies | 264 |
-| Minimum required skill files | 832 |
-| Framework/source assignments | 1005 |
-| Named expert index entries | 113 |
+| Minimum required skill files | 844 |
+| Framework/source assignments | 1019 |
+| Named expert index entries | 121 |
 
 ## Why GTM Skills
 
@@ -111,9 +118,10 @@ The **inbound** category (8 skills) covers LinkedIn GTM end-to-end: **van der Bl
 | outbound | 10 | cold-calling, cold-email-copywriting, cold-email-strategy, domain-infrastructure, email-d… |
 | partnerships | 3 | co-marketing, integration-partnerships, partnership-strategy |
 | product-led-growth | 3 | developer-gtm, freemium-optimization, plg-strategy |
+| product-marketing | 2 | customer-research, win-loss-analysis |
 | prospecting | 8 | contact-verification, data-enrichment-strategy, email-finding, lead-enrichment, lead-find… |
 | sales-plays | 5 | earnings-signal-play, funding-signal-play, hiring-signal-play, job-change-play, product-l… |
-| sales-revops | 8 | buyer-indecision, deal-desk, demo-scripts, meeting-prep, objection-handling |
+| sales-revops | 9 | buyer-indecision, deal-desk, demo-scripts, meeting-prep, objection-handling |
 | tools | 15 | ai-prompts-toolkit, analytics-toolkit, clay-loops-toolkit, clay-toolkit, crm-toolkit |
 
 ## Authority Catalog
@@ -131,12 +139,12 @@ The **inbound** category (8 skills) covers LinkedIn GTM end-to-end: **van der Bl
 | Todd Caponi | 7 |
 | Chris Walker | 6 |
 | Dharmesh Shah | 6 |
+| John McMahon | 6 |
 | Richard van der Blom | 6 |
 | April Dunford | 5 |
 | Ben Murray | 5 |
 | Betts Recruiting | 5 |
 | Jessie Lizak | 5 |
-| John McMahon | 5 |
 | Justin Michael | 5 |
 | Pavilion | 5 |
 | Ryan Reisert | 5 |
@@ -155,7 +163,7 @@ npm run verify
 gh skill publish --dry-run
 ```
 
-Expected result: 208 skills checked, 0 errors, 0 warnings; 208 checkers reject unfilled templates; generated catalogs and `skills.lock` are current; installer dry-runs succeed.
+Expected result: 211 skills checked, 0 errors, 0 warnings; 211 checkers reject unfilled templates; generated catalogs and `skills.lock` are current; installer dry-runs succeed.
 
 ## Skills Catalog
 
@@ -391,6 +399,11 @@ Expected result: 208 skills checked, 0 errors, 0 warnings; 208 checkers reject u
 - [freemium-optimization](skills/product-led-growth/freemium-optimization/SKILL.md) — Freemium and free trial conversion optimization — model selection with full-funnel math, activation design, paywall placement, PQL scoring, and benchmark-anchored experiment planning. Use when optimizing freemium conver…
 - [plg-strategy](skills/product-led-growth/plg-strategy/SKILL.md) — Design product-led growth motions — freemium vs free trial, PQL scoring, self-serve conversion, PLG sales hybrid, and product-led marketing. Use when building a PLG motion, transitioning to self-serve, or optimizing pro…
 
+### product-marketing (2)
+
+- [customer-research](skills/product-marketing/customer-research/SKILL.md) — Run evidence-led B2B customer and buyer research that produces a recruiting plan, interview guide, buying timeline, Jobs-to-be-Done forces map, quote repository, and decision-ready insight brief. Use when a team is gues…
+- [win-loss-analysis](skills/product-marketing/win-loss-analysis/SKILL.md) — Build a neutral B2B win-loss program that interviews recent buyers, codes decision drivers and sentiment, separates buyer evidence from CRM opinion, and produces a recurring insight report plus owned GTM actions. Use wh…
+
 ### prospecting (8)
 
 - [contact-verification](skills/prospecting/contact-verification/SKILL.md) — Verify email addresses before they enter outbound sequences to prevent bounces and protect sender reputation. Use when the user wants to validate emails, check deliverability, verify contact data, prevent bounces, clean…
@@ -410,7 +423,7 @@ Expected result: 208 skills checked, 0 errors, 0 warnings; 208 checkers reject u
 - [job-change-play](skills/sales-plays/job-change-play/SKILL.md) — Outbound play triggered by contact job changes — champion tracking, new-role outreach, "new broom" timing. Triggers on: "job change", "new role", "champion moved", "job change outreach", "contact changed jobs".
 - [product-launch-play](skills/sales-plays/product-launch-play/SKILL.md) — Outbound play triggered by competitor product launches or target account product launches — timing-based urgency, competitive positioning. Triggers on: "product launch play", "competitor launch response", "launch-based…
 
-### sales-revops (8)
+### sales-revops (9)
 
 - [buyer-indecision](skills/sales-revops/buyer-indecision/SKILL.md) — Overcome buyer indecision with the JOLT Effect — Judge indecision, Offer recommendation, Limit exploration, Take risk off the table. For deals stuck on "need to think about it", FOMU (fear of messing up), and no-decisio…
 - [deal-desk](skills/sales-revops/deal-desk/SKILL.md) — Structure deals, pricing, and proposals — pricing model selection, discount guidance, business case construction, and negotiation strategy. Use when structuring a deal, building a pricing proposal, negotiating, or creat…
@@ -418,6 +431,7 @@ Expected result: 208 skills checked, 0 errors, 0 warnings; 208 checkers reject u
 - [meeting-prep](skills/sales-revops/meeting-prep/SKILL.md) — Prepare meeting briefs with SPICED discovery (WbD) and MEDDICC qualification (Andy Whyte) — account research, attendee profiles, question banks, scorecard gaps, and competitive context. Use before discovery calls, demos…
 - [objection-handling](skills/sales-revops/objection-handling/SKILL.md) — Build comprehensive objection handling playbooks — 6-category taxonomy, AER framework, battlecards per competitor, pre-handling in outreach. Use when creating objection responses, building an objection playbook, or prep…
 - [pipeline-management](skills/sales-revops/pipeline-management/SKILL.md) — Design and manage B2B sales processes using Winning by Design's GTM Playbook Kit — stage goals, in-stage actions, exit criteria, SPICED qualification fields, conversion metrics, Bowtie handoffs, forecasting, and deal in…
+- [revenue-forecasting](skills/sales-revops/revenue-forecasting/SKILL.md) — Build an evidence-based B2B revenue forecast with category definitions, opportunity-level rollup, pipeline coverage, conversion and timing assumptions, scenario ranges, inspection cadence, and forecast accuracy tracking…
 - [sales-enablement](skills/sales-revops/sales-enablement/SKILL.md) — Create sales collateral that reps actually use — pitch decks, one-pagers, battlecards, objection docs, demo scripts, talk tracks, and playbooks. Use when the user wants to create sales materials, build a pitch deck, wri…
 - [transparency-selling](skills/sales-revops/transparency-selling/SKILL.md) — Execute Todd Caponi's Transparency Sale methodology — lead with flaws, build the "Our Flaws" slide, negotiate with radical honesty, use the 4.2-4.5 effect in positioning. Use when building pitch decks, handling objectio…
 

@@ -25,7 +25,7 @@ metadata:
 
 ## Overview
 
-This is the lightweight router for the 208-skill, 24-category catalog. It selects the smallest useful set of skills, identifies missing inputs, and keeps installation and integrity checks separate from the GTM work itself. Load the complete usage guide only when detailed expert maps or multi-skill patterns are needed.
+This is the lightweight router for the 211-skill, 25-category catalog. It selects the smallest useful set of skills, identifies missing inputs, and keeps installation and integrity checks separate from the GTM work itself. Load the complete usage guide only when detailed expert maps or multi-skill patterns are needed.
 
 ## When to Use
 

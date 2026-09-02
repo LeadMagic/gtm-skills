@@ -118,6 +118,11 @@ const CATEGORY_GUIDE = {
     blurb: "PLG strategy, freemium optimization, developer GTM.",
     start: "plg-strategy",
   },
+  "product-marketing": {
+    title: "Product Marketing & Buyer Insight",
+    blurb: "Customer research, buying journeys, and win/loss learning.",
+    start: "customer-research",
+  },
   prospecting: {
     title: "Prospecting & Data",
     blurb: "Lead finding, enrichment, verification, signals.",
@@ -486,6 +491,19 @@ The **inbound** category (${byCategory.inbound?.length ?? 0} skills) covers Link
 `;
 
 let readme = `# GTM Agent Skills for Claude Code, Codex & GitHub Copilot\n\n[![Skills](https://img.shields.io/badge/skills-${total}-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-${categories.length}-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE) [![Stars](https://img.shields.io/github/stars/LeadMagic/gtm-skills?style=social)](https://github.com/LeadMagic/gtm-skills)\n\n**${total} production go-to-market (GTM) Agent Skills across ${categories.length} categories.** Install source-backed sales, marketing, outbound, RevOps, SEO, ABM, product-led growth, customer-success, analytics, and automation workflows in Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, and other Agent Skills-compatible runtimes.\n\nThis is an artifact-first skill library, not a prompt pack. Every skill ships a \`SKILL.md\`, framework notes, an output template, and an executable deliverable checker. The current catalog contains exactly **${packageFiles.length} packaged skill files**, **${frameworkAssignments} framework/source assignments**, and **${expertCount} named expert entries**. Counts and catalogs are generated from the skill folders on disk.\n\n## Install Agent Skills\n\n### Preview first, then install one skill\n\n\`\`\`bash\ngh skill preview LeadMagic/gtm-skills foundation/gtm-context-bootstrap\ngh skill install LeadMagic/gtm-skills foundation/gtm-context-bootstrap --agent codex --scope project\n\`\`\`\n\n### Install the complete catalog\n\n\`\`\`bash\n# Replace codex with github-copilot, claude-code, cursor, gemini-cli, opencode, or goose.\ngh skill install LeadMagic/gtm-skills --all --agent codex --scope user\n\n# Pin reproducible installations to a published release or commit.\ngh skill install LeadMagic/gtm-skills --all --agent codex --scope user --pin <release-tag-or-commit>\n\`\`\`\n\n### Claude Code plugin\n\n\`\`\`text\n/plugin marketplace add LeadMagic/gtm-skills\n/plugin install gtm-skills@gtm-skills\n\`\`\`\n\n### Audited local checkout\n\n\`\`\`bash\ngh repo clone LeadMagic/gtm-skills\ncd gtm-skills\n./install.sh --target codex --scope project\n./install.sh --target all --dry-run\n\`\`\`\n\nUse project scope for repository-specific work, user scope for skills you intentionally trust everywhere, and \`gh skill update --all\` to refresh tracked installs. Skills can contain executable scripts, so review before installing. See the [complete install and verification guide](docs/INSTALL.md).\n\n## Exact Catalog Value\n\n| Inventory | Exact value |\n|---|---:|\n| Marketplace-discoverable skills | ${total} |\n| Categories | ${categories.length} |\n| Skill entrypoint files | ${packageFileCounts.entrypoints} |\n| Reference files | ${packageFileCounts.references} |\n| Template files | ${packageFileCounts.templates} |\n| Script files | ${packageFileCounts.scripts} |\n| Asset files | ${packageFileCounts.assets} |\n| Other packaged files | ${packageFileCounts.other} |\n| Total packaged skill files | ${packageFiles.length} |\n| Generated shared-reference copies | ${generatedSharedReferences} |\n| Minimum required skill files | ${total * 4} |\n| Framework/source assignments | ${frameworkAssignments} |\n| Named expert index entries | ${expertCount} |\n\n## Why GTM Skills\n\n- **Concrete outputs.** Plans, scorecards, briefs, runbooks, dashboards, workflows, templates, and QA checks.\n- **Named sources.** Public operators, platform documentation, research, and standards shape the work.\n- **Progressive disclosure.** Metadata supports discovery; \`SKILL.md\` loads on activation; resources load when needed.\n- **Portable installation.** The repository follows the [Agent Skills specification](https://agentskills.io/specification) and validates with \`gh skill publish --dry-run\`.\n- **Reproducible integrity.** \`skills.lock\` inventories and hashes every packaged skill file.\n- **No telemetry.** Static content and local validation scripts only.\n\n${startHere}## Category Map\n\n| Category | Skills | Examples |\n|---|---:|---|\n${categoryRows}\n\n## Authority Catalog\n\n| Authority / Framework | Skills |\n|---|---:|\n${authorityRows}\n\nBrowse the [expert catalog](references/experts.md), [master skill index](references/skill-index-master.md), and [pitfalls index](references/pitfalls-index.md).\n\n## Validate the Repository\n\n\`\`\`bash\nnpm run regenerate\nnpm run verify\ngh skill publish --dry-run\n\`\`\`\n\nExpected result: ${total} skills checked, 0 errors, 0 warnings; ${total} checkers reject unfilled templates; generated catalogs and \`skills.lock\` are current; installer dry-runs succeed.\n\n## Skills Catalog\n\n`;
+readme = readme
+  .replace(
+    "Install source-backed sales, marketing, outbound, RevOps, SEO, ABM, product-led growth, customer-success, analytics, and automation workflows",
+    "Install source-backed buyer research, product marketing, sales, outbound, RevOps, SEO, ABM, product-led growth, customer-success, analytics, and automation workflows",
+  )
+  .replace(
+    "## Install Agent Skills\n\n",
+    "## Install Agent Skills\n\n### Interactive, preview-first installer\n\n```bash\ngh repo clone LeadMagic/gtm-skills && cd gtm-skills\n./install.sh\n```\n\nThe zero-dependency wizard lets you check off agent targets, choose project or user scope, and select curated bundles, full categories, individual skills, or the complete catalog. It shows exact destinations and collision counts, asks before writing, and skips existing skill folders unless `--force` is explicit.\n\n",
+  )
+  .replace(
+    "```bash\ngh repo clone LeadMagic/gtm-skills\ncd gtm-skills\n./install.sh --target codex --scope project\n./install.sh --target all --dry-run\n```",
+    "```bash\n./install.sh --target claude --scope project --bundle buyer-insight --dry-run\n./install.sh --target claude --scope project --bundle buyer-insight --yes\n```",
+  );
 for (const cat of categories) {
   readme += `### ${cat} (${byCategory[cat].length})\n\n`;
   for (const s of byCategory[cat])
@@ -533,6 +551,10 @@ const marketplace = {
         "gtm",
         "sales",
         "marketing",
+        "product-marketing",
+        "customer-research",
+        "win-loss-analysis",
+        "revenue-forecasting",
         "outbound",
         "prospecting",
         "revops",

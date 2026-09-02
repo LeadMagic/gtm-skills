@@ -4,7 +4,12 @@ All notable changes to GTM Skills are documented here.
 
 ## Unreleased — Installation, Catalog Accuracy, and SEO Hardening
 
-- Added `gtm-context-bootstrap` and `technical-seo-audit`, bringing the catalog to **208 skills across 24 categories**.
+- Added `gtm-context-bootstrap`, `technical-seo-audit`, `customer-research`, `win-loss-analysis`, and `revenue-forecasting`, bringing the catalog to **211 skills across 25 categories**.
+- Added a dedicated Product Marketing category and artifact-first buyer-research, decision-driver, interview, evidence-repository, and revenue-forecast model templates.
+- Added missing GTM practitioners Bob Moesta, Chris Spiek, Katelyn Bourgoin, Georgiana Laudi, Claire Suellentrop, Andrew Peterson, Sangram Vajre, Allison Pickens, Dave Kellogg, and Bob Moore; strengthened ABM, Customer Success, partnerships, and forecasting guidance with current public sources.
+- Added an auditable core-capability map and CI check so mapped skills and expert authorities cannot silently disappear.
+- Rebuilt `./install.sh` as a preview-first selector for targets, scope, bundles, categories, or exact skills; it shows collisions, confirms before writing, and skips existing folders unless `--force` is explicit.
+- Aligned Claude Code installation with `.claude/skills` and `~/.claude/skills`, retained the complete-catalog plugin path, and documented plugin scope and reload behavior.
 - Rebuilt the public README from the on-disk catalog with exact skill, category, artifact, framework-assignment, and expert-index counts.
 - Expanded `skills.lock` to inventory and hash every packaged entrypoint, reference, template, script, and asset, with exact per-kind totals and path-set verification.
 - Added an artifact hygiene audit and made the 500-physical-line `SKILL.md` limit a strict, exception-free CI gate.

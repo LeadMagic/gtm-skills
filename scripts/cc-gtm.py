@@ -70,12 +70,13 @@ def sep(char="-", w=62):
     return char * w
 
 BUNDLES = {
+    "buyer-insight": ["customer-research", "win-loss-analysis", "competitive-intel", "positioning-messaging"],
     "outbound-stack": ["cold-email-strategy", "cold-email-copywriting", "domain-infrastructure",
                        "email-deliverability", "inbox-setup", "sending-platforms", "reply-handling"],
     "outbound-phone": ["cold-calling"],
     "prospecting-stack": ["lead-finding", "lead-enrichment", "email-finding", "contact-verification",
                           "list-building", "signal-scoring"],
-    "sales-revops-stack": ["pipeline-management", "meeting-prep", "deal-desk", "sales-enablement",
+    "sales-revops-stack": ["pipeline-management", "revenue-forecasting", "meeting-prep", "deal-desk", "sales-enablement",
                            "demo-scripts", "objection-handling", "buyer-indecision", "transparency-selling"],
     "founder-gtm": ["founder-sales", "solo-founder-gtm", "pricing-strategy", "positioning-messaging",
                     "pitch-deck-builder", "fundraising-strategy", "financial-modeling"],
@@ -87,7 +88,7 @@ BUNDLES = {
                          "waterfall-enrichment", "mcp-setup"],
     "abm-stack": ["abm-strategy", "account-selection", "multi-thread-orchestration", "strategic-gifting"],
     "tools-stack": ["clay-toolkit", "sequencing-toolkit", "n8n-toolkit", "ai-prompts-toolkit", "crm-toolkit"],
-    "startup-essentials": ["gtm-context-bootstrap", "gtm-context", "icp-scoring", "positioning-messaging", "pricing-strategy",
+    "startup-essentials": ["gtm-context-bootstrap", "gtm-context", "icp-scoring", "customer-research", "positioning-messaging", "pricing-strategy",
                            "founder-sales", "pitch-deck-builder", "financial-modeling", "saas-metrics-calculator"],
 }
 
@@ -173,10 +174,13 @@ def verify_skill(skill_dir):
     required = ["SKILL.md", "references/framework-notes.md", "templates/output-template.md", "scripts/check-output.py"]
     return all((skill_dir / f).exists() for f in required)
 
-def copy_skill(src, dst, dry):
+def copy_skill(src, dst, dry, force=False):
     if not verify_skill(src):
         print(f"  {red('X')} {src.name}: missing artifacts, skipping")
         return False
+    if dst.exists() and not force:
+        print(f"  {yellow('SKIP')} {src.name}: already exists (pass --force to replace)")
+        return None
     if dry:
         print(f"  {gray('[dry]')} {blue('copy')} {src.relative_to(ROOT)} -> {dst}")
         return True
@@ -397,8 +401,11 @@ def main():
     parser.add_argument("--bundle", type=str, help="Install a curated bundle")
     parser.add_argument("--all", action="store_true", help="Install every skill in the current catalog")
     parser.add_argument("--project", type=str, help="Target project directory (default: cwd)")
+    parser.add_argument("--scope", choices=("project", "user"), default="project", help="Claude skill scope (default: project)")
     parser.add_argument("--desktop", action="store_true", help="Generate Claude Desktop instructions")
     parser.add_argument("--dry-run", action="store_true", help="Show what would happen without copying")
+    parser.add_argument("--force", action="store_true", help="Explicitly replace existing skill folders")
+    parser.add_argument("--yes", action="store_true", help="Install without the confirmation prompt")
     parser.add_argument("--no-shared-refs", action="store_true", help="Skip shared references/")
     args = parser.parse_args()
 
@@ -426,8 +433,8 @@ def main():
         print(f"  {cyan('--category')} {gray('for categories,')} {cyan('--skills')} {gray('for specific skills.')}")
         return 0
 
-    project = Path(args.project) if args.project else Path.cwd()
-    install_root = project / DEFAULT_REL
+    project = Path(args.project).expanduser().resolve() if args.project else Path.cwd()
+    install_root = Path("~/.claude/skills").expanduser() if args.scope == "user" else project / DEFAULT_REL
 
     print(sep("="))
     target_label = "Claude Desktop" if args.desktop else "Claude Code"
@@ -436,16 +443,34 @@ def main():
     print(sep("="))
     print()
 
+    existing = sum((install_root / skill_dir.name).exists() for skill_dir in selected)
+    print(f"  {gray('Existing folders:')} {existing}; {'replace (--force)' if args.force else 'skip (safe default)'}")
+    if not args.dry_run and not args.yes:
+        try:
+            confirm = input(f"\n  {bold('Apply this plan?')} [{green('y')}/{red('N')}]: ").strip().lower()
+        except (EOFError, KeyboardInterrupt):
+            print(f"\n  {gray('Cancelled. Nothing changed.')}")
+            return 0
+        if confirm not in ("y", "yes"):
+            print(f"  {gray('Cancelled. Nothing changed.')}")
+            return 0
+
     installed_count = 0
+    skipped_count = 0
+    installed_sources = []
     for skill_dir in selected:
         dst = install_root / skill_dir.name
-        if copy_skill(skill_dir, dst, args.dry_run):
+        copied = copy_skill(skill_dir, dst, args.dry_run, args.force)
+        if copied:
             installed_count += 1
+            installed_sources.append(skill_dir)
             if not args.dry_run:
                 print(f"  {green('v')} {skill_dir.parent.name}/{bold(skill_dir.name)}")
+        elif copied is None:
+            skipped_count += 1
 
     if not args.no_shared_refs:
-        ref_count = copy_shared_references(selected, install_root, args.dry_run)
+        ref_count = copy_shared_references(installed_sources, install_root, args.dry_run)
         if ref_count:
             if args.dry_run:
                 print(f"\n  {gray('Would copy')} {bold(str(ref_count))} {gray('shared refs')}")
@@ -453,20 +478,30 @@ def main():
                 print(f"\n  {blue('books')} {bold(str(ref_count))} shared reference copies added inside installed skills")
 
     if selected:
-        generate_claude_md(selected, catalog, install_root, args.dry_run)
-        if not args.dry_run:
+        index_path = install_root / "gtm-skills-index.md"
+        index_existed = index_path.exists()
+        if index_existed and not args.force and not args.dry_run:
+            print(f"  {yellow('SKIP')} {bold('gtm-skills-index.md')}: already exists")
+        else:
+            generate_claude_md(selected, catalog, install_root, args.dry_run)
+        if not args.dry_run and (args.force or not index_existed):
             print(f"  {blue('doc')} {bold('gtm-skills-index.md')} generated ({len(selected)} skills indexed)")
 
     if args.desktop:
-        generate_desktop_instructions(selected, catalog, install_root, args.dry_run)
-        if not args.dry_run:
+        desktop_path = install_root / "claude-desktop-instructions.md"
+        desktop_existed = desktop_path.exists()
+        if desktop_existed and not args.force and not args.dry_run:
+            print(f"  {yellow('SKIP')} {bold('claude-desktop-instructions.md')}: already exists")
+        else:
+            generate_desktop_instructions(selected, catalog, install_root, args.dry_run)
+        if not args.dry_run and (args.force or not desktop_existed):
             print(f"  {blue('desktop')} {bold('claude-desktop-instructions.md')} generated")
             print(f"     {gray('Paste into Claude.ai -> Settings -> Project Instructions')}")
 
     print()
     print(sep("-"))
-    if installed_count == len(selected):
-        print(f"  {green('OK')} {bold(f'{installed_count}/{len(selected)}')} skills installed")
+    if installed_count + skipped_count == len(selected):
+        print(f"  {green('OK')} {bold(str(installed_count))} installed, {bold(str(skipped_count))} safely skipped")
     else:
         print(f"  {yellow('!')}  {bold(f'{installed_count}/{len(selected)}')} skills installed (some skipped)")
     if args.dry_run:
@@ -491,7 +526,7 @@ def main():
     print(sep("-"))
     print()
 
-    return 0 if installed_count == len(selected) else 1
+    return 0 if installed_count + skipped_count == len(selected) else 1
 
 if __name__ == "__main__":
     sys.exit(main())

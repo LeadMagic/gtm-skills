@@ -15,7 +15,7 @@ metadata:
   author: LeadMagic
   category: sales-revops
   tags: [pipeline, sales-process, spiced, forecasting, crm, deal-management, wbd]
-  related_skills: [gtm-system-architecture, sales-enablement, sales-coaching, buyer-indecision, founder-sales, sales-team-building, meeting-prep, gtm-metrics, crm-integration]
+  related_skills: [gtm-system-architecture, sales-enablement, sales-coaching, buyer-indecision, founder-sales, sales-team-building, meeting-prep, gtm-metrics, crm-integration, revenue-forecasting]
   frameworks:
     - "Winning by Design — GTM Playbook Development Kit"
     - "Winning by Design — SPICED Qualification"

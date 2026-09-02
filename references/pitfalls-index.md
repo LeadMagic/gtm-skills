@@ -1,6 +1,6 @@
 # GTM Skills — Common Pitfalls Index
 
-Auto-generated from skill `## Common Pitfalls` sections. **1064 pitfalls** across **208** skills (208 total). Regenerate: `npm run build`.
+Auto-generated from skill `## Common Pitfalls` sections. **1079 pitfalls** across **211** skills (211 total). Regenerate: `npm run build`.
 
 Agents: load the source skill for full context, fixes, and quality checks — this index is for discovery and cross-skill pattern matching.
 
@@ -1461,6 +1461,24 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Freemium without conversion path** — — a free tier without a clear upgrade trigger is a cost center, not a growth engine.
 - **Blended metrics** — — PLG and sales-led metrics don't mix. Track separately.
 
+## product-marketing
+
+### [customer-research](skills/product-marketing/customer-research/SKILL.md)
+
+- **Interviewing only happy power users.** — This hides switching friction and lost demand. Fix: sample distinct outcome cohorts.
+- **Asking what customers want.** — Participants predict solutions poorly. Fix: reconstruct recent decisions and actual workarounds.
+- **Leading with the product.** — The interview becomes validation theater. Fix: begin with the struggling moment and current alternative.
+- **Producing a research deck nobody uses.** — Insight decays without operational ownership. Fix: attach every finding to a decision, owner, and downstream artifact.
+- **Quote laundering.** — Removing source context makes evidence look more universal than it is. Fix: retain cohort, date, situation, and permission metadata.
+
+### [win-loss-analysis](skills/product-marketing/win-loss-analysis/SKILL.md)
+
+- **Using CRM reasons as the answer.** — They reflect seller perception. Fix: treat them as hypotheses to test with buyers.
+- **Interviewing only losses.** — This hides differentiators buyers value. Fix: balance outcomes and preserve cohort labels.
+- **Letting the account executive interview the buyer.** — Social pressure distorts evidence. Fix: use a neutral interviewer where practical.
+- **Overgeneralizing a tiny sample.** — A vivid quote is not a market rate. Fix: report counts, contradictions, and confidence.
+- **Publishing insights without owners.** — Findings decay into a slide deck. Fix: run an action workshop and assign artifact changes.
+
 ## prospecting
 
 ### [contact-verification](skills/prospecting/contact-verification/SKILL.md)
@@ -1624,6 +1642,14 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Handoff to CS is an email.** — CS starts blind, churn risk spikes. Fix: structured handoff package with SPICED summary and success criteria.
 - **Too many stages.** — More than 9 stages creates CRM friction without accuracy gains. Fix: consolidate admin-heavy stages; keep 5–7 for consultative.
 - **Process without enablement.** — Reps know the stages but lack talk tracks. Fix: load `sales-enablement` to build playbook assets per stage.
+
+### [revenue-forecasting](skills/sales-revops/revenue-forecasting/SKILL.md)
+
+- **Treating pipeline coverage as a forecast.** — Coverage ignores timing and quality. Fix: model conversion and close-date behavior by cohort.
+- **Using rep probability as evidence.** — Confidence can conceal missing buyer action. Fix: require named events, stakeholders, and exit criteria.
+- **Mixing bookings and revenue.** — The same deal can land in different periods. Fix: define the forecast contract and timing bridge.
+- **Silently changing assumptions.** — Stakeholders cannot explain deltas. Fix: keep a dated assumption and category change log.
+- **Never grading the forecast.** — Bias persists without feedback. Fix: publish accuracy, slip, and calibration after every period.
 
 ### [sales-enablement](skills/sales-revops/sales-enablement/SKILL.md)
 

@@ -14,7 +14,7 @@ metadata:
   author: LeadMagic
   category: customer-success
   tags: [customer-success, cs, retention, onboarding, health-scoring, expansion]
-  frameworks: [Lincoln Murphy Desired Outcome, Gainsight CS Index, Winning by Design SPICED Post-Sale]
+  frameworks: [Lincoln Murphy Desired Outcome, Gainsight CS Index, Winning by Design SPICED Post-Sale, "Allison Pickens — company-wide and product-driven customer success"]
 ---
 
 # Customer Success Playbooks
@@ -44,6 +44,10 @@ lifecycle stage.
 - **Nick Mehta / Gainsight** — CS ops at scale: health scores, lifecycle stages,
   digital-first delivery. Operational layer on Murphy's strategy.
   → `references/lincoln-murphy-customer-success.md`
+- **Allison Pickens — company-wide Customer Success.** Treat retention and value
+  delivery as a cross-functional operating model, not a CSM-only responsibility.
+  Align post-sales roles around customer outcomes and use product signals to
+  prioritize human intervention without confusing activity with value.
 - **Winning by Design SPICED** — Post-sale lifecycle: onboarding → adoption →
   value realization → expansion → renewal.
 
@@ -142,6 +146,7 @@ Map the recommendation explicitly to the named frameworks in this skill:
 - Lincoln Murphy Desired Outcome: apply only the part that directly improves the requested deliverable.
 - Gainsight CS Index: apply only the part that directly improves the requested deliverable.
 - Winning by Design SPICED Post-Sale: apply only the part that directly improves the requested deliverable.
+- Allison Pickens company-wide and product-driven CS: apply only the part that directly improves the requested deliverable.
 
 ### Deliverable Standard
 

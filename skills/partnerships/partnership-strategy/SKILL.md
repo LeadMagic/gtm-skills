@@ -15,6 +15,7 @@ metadata:
     - "Partnership Ecosystem Framework"
     - "Crossbeam Partner-Led Growth"
     - "Crossbeam — Ecosystem-Led Growth"
+    - "Bob Moore — Ecosystem-Led Growth and second-party partner data"
   related_skills:
     [
       partner-programs,
@@ -29,15 +30,19 @@ metadata:
 
 ## Overview
 
-Partnerships are the most underleveraged GTM channel in B2B SaaS. A well-run
-partner program can generate 20-40% of pipeline at near-zero CAC. But "partnerships"
-means different things at different stages — this skill covers the full ecosystem.
+Partnerships can become a measurable GTM motion when both sides share a customer
+or prospect context and define a joint value exchange. Results and economics vary
+by motion; this skill avoids universal pipeline or CAC promises and covers the
+operating system needed to test the channel.
 
 ## Authoritative Foundations
 
 - **Partnership Ecosystem Framework** — Named methodology governing recommendations in this skill's process.
 - **Crossbeam Partner-Led Growth** — Named methodology governing recommendations in this skill's process.
 - **Crossbeam — Ecosystem-Led Growth** — Ecosystem-Led Growth
+- **Bob Moore — Ecosystem-Led Growth.** Put partner ecosystem data at the center
+  of account mapping, co-selling, and attribution. Share only approved segments
+  and operationalize overlap around a named customer or prospect outcome.
 
 ## When to Use
 
@@ -55,7 +60,7 @@ means different things at different stages — this skill covers the full ecosys
 - **Referral partners:** Agencies, consultants, freelancers who recommend tools.
   Pay % of first-year revenue. Low-touch to manage.
 - **Reseller partners:** Sell your product to their customers. White-label or
-  co-branded. Higher touch, higher revenue share (20-40%).
+  co-branded. Higher touch; model margin and support obligations from actual unit economics.
 - **Technology partners:** Complementary (not competitive) tools. Shared customer
   base. Joint roadmap, deep integration.
 - **Strategic alliances:** Enterprise partnerships. Exclusive. Long sales cycle
@@ -83,11 +88,12 @@ means different things at different stages — this skill covers the full ecosys
 
 ### Phase 4: Partner Economics
 
-- **Referral:** 10-20% of first-year revenue
-- **Reseller:** 20-40% margin, partner handles first-line support
+- **Referral:** Set a time-bounded fee from contribution margin, attribution, and local rules.
+- **Reseller:** Model margin against enablement, support, discounting, and channel conflict.
 - **Agency/Consultant:** Monthly retainer + % of influenced revenue
 - **Strategic:** Custom deal, equity possible at early stage
-- **Key metric:** Partner-sourced pipeline as % of total. Target: 20-30% by year 2.
+- **Key metric:** Partner-sourced and partner-influenced pipeline as a percentage
+  of eligible pipeline, reported separately with documented attribution rules.
 
 ### Phase 5: Partner Management
 

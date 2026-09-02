@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "description": "Auditable coverage map for core B2B go-to-market capabilities.",
+  "capabilities": [
+    {"id": "context-and-icp", "skills": ["gtm-context-bootstrap", "icp-scoring"], "experts": ["April Dunford"]},
+    {"id": "customer-research", "skills": ["customer-research"], "experts": ["Bob Moesta & Chris Spiek", "Katelyn Bourgoin", "Georgiana Laudi & Claire Suellentrop"]},
+    {"id": "win-loss", "skills": ["win-loss-analysis"], "experts": ["Andrew Peterson / Clozd"]},
+    {"id": "positioning", "skills": ["positioning-messaging"], "experts": ["April Dunford"]},
+    {"id": "demand-and-content", "skills": ["marketing-strategy", "content-marketing", "seo-strategy"], "experts": ["Chris Walker", "Rand Fishkin"]},
+    {"id": "prospecting", "skills": ["lead-finding", "list-building", "signal-scoring"], "experts": ["Morgan J. Ingram"]},
+    {"id": "outbound", "skills": ["cold-email-strategy", "cold-calling", "email-deliverability"], "experts": ["Pat Spielmann", "Leslie Venetz"]},
+    {"id": "sales-execution", "skills": ["meeting-prep", "demo-scripts", "objection-handling"], "experts": ["Keenan", "Matthew Dixon"]},
+    {"id": "pipeline-and-forecast", "skills": ["pipeline-management", "revenue-forecasting"], "experts": ["John McMahon", "Dave Kellogg"]},
+    {"id": "account-based-gtm", "skills": ["abm-strategy", "account-selection", "multi-thread-orchestration"], "experts": ["Sangram Vajre", "Lars Nilsson"]},
+    {"id": "product-led-growth", "skills": ["plg-strategy", "freemium-optimization", "developer-gtm"], "experts": ["Elena Verna", "Wes Bush"]},
+    {"id": "customer-success", "skills": ["cs-playbooks", "customer-onboarding", "churn-prevention"], "experts": ["Allison Pickens", "Nick Mehta", "Lincoln Murphy"]},
+    {"id": "partnerships", "skills": ["partnership-strategy", "integration-partnerships"], "experts": ["Bob Moore"]},
+    {"id": "analytics-and-operations", "skills": ["gtm-metrics", "gtm-operations", "tracking-plan"], "experts": ["Jacco van der Kooij", "Dave Kellogg"]},
+    {"id": "automation-and-data", "skills": ["crm-integration", "waterfall-enrichment", "clay-automation"], "experts": ["Scott Brinker", "Varun Anand"]},
+    {"id": "leadership-and-finance", "skills": ["gtm-leadership", "sales-team-building", "financial-modeling"], "experts": ["Mark Roberge", "David Skok"]}
+  ]
+}

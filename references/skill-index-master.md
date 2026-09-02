@@ -1,6 +1,6 @@
 # GTM Skills — Master Skill Index
 
-One-page map of **208 skills** across **24 categories**. Load `foundation/using-gtm-skills` first for patterns and workflows.
+One-page map of **211 skills** across **25 categories**. Load `foundation/using-gtm-skills` first for patterns and workflows.
 
 **Master router:** `skills/foundation/using-gtm-skills/SKILL.md`
 
@@ -8,7 +8,7 @@ One-page map of **208 skills** across **24 categories**. Load `foundation/using-
 
 | Index | Path | Use when |
 |---|---|---|
-| Expert catalog | `references/experts.md` | Named practitioner lookup (113 entries) |
+| Expert catalog | `references/experts.md` | Named practitioner lookup (121 entries) |
 | Outbound experts | `references/gtm-experts-outbound-index.md` | Cold email + discovery routing |
 | Cold calling experts | `references/cold-calling-experts-index.md` | Phone-first outbound |
 | Automation playbooks | `references/automation-playbook-index.md` | Clay, n8n, sequencing, LeadMagic (38 playbooks) |
@@ -20,7 +20,7 @@ One-page map of **208 skills** across **24 categories**. Load `foundation/using-
 | SaaS metrics ref | `references/saas-metrics-reference.md` | Benchmark formulas |
 | SEO playbook | `references/seo-strategy-playbook.md` | Product-led SEO stack |
 
-## Categories (24)
+## Categories (25)
 
 ### Account-Based Marketing (`abm/`) — 7 skills
 
@@ -334,6 +334,15 @@ PLG strategy, freemium optimization, developer GTM. **Start skill:** `plg-strate
 | `freemium-optimization` | Freemium and free trial conversion optimization — model selection with full-funnel math,… |
 | `plg-strategy` | Design product-led growth motions — freemium vs free trial, PQL scoring, self-serve conve… |
 
+### Product Marketing & Buyer Insight (`product-marketing/`) — 2 skills
+
+Customer research, buying journeys, and win/loss learning. **Start skill:** `customer-research`
+
+| Skill | One-line |
+|---|---|
+| `customer-research` | Run evidence-led B2B customer and buyer research that produces a recruiting plan, intervi… |
+| `win-loss-analysis` | Build a neutral B2B win-loss program that interviews recent buyers, codes decision driver… |
+
 ### Prospecting & Data (`prospecting/`) — 8 skills
 
 Lead finding, enrichment, verification, signals. **Start skill:** `lead-finding`
@@ -361,7 +370,7 @@ Funding, hiring, job change, earnings plays. **Start skill:** `funding-signal-pl
 | `job-change-play` | Outbound play triggered by contact job changes — champion tracking, new-role outreach, "n… |
 | `product-launch-play` | Outbound play triggered by competitor product launches or target account product launches… |
 
-### Sales & RevOps (`sales-revops/`) — 8 skills
+### Sales & RevOps (`sales-revops/`) — 9 skills
 
 Pipeline, demos, deal desk, enablement, objections. **Start skill:** `pipeline-management`
 
@@ -373,6 +382,7 @@ Pipeline, demos, deal desk, enablement, objections. **Start skill:** `pipeline-m
 | `meeting-prep` | Prepare meeting briefs with SPICED discovery (WbD) and MEDDICC qualification (Andy Whyte)… |
 | `objection-handling` | Build comprehensive objection handling playbooks — 6-category taxonomy, AER framework, ba… |
 | `pipeline-management` | Design and manage B2B sales processes using Winning by Design's GTM Playbook Kit — stage… |
+| `revenue-forecasting` | Build an evidence-based B2B revenue forecast with category definitions, opportunity-level… |
 | `sales-enablement` | Create sales collateral that reps actually use — pitch decks, one-pagers, battlecards, ob… |
 | `transparency-selling` | Execute Todd Caponi's Transparency Sale methodology — lead with flaws, build the "Our Fla… |
 

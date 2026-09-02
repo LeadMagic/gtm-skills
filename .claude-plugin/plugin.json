@@ -1,8 +1,8 @@
 {
   "name": "gtm-skills",
   "displayName": "GTM Skills",
-  "version": "0.28.0",
-  "description": "208 production go-to-market skills for AI agents across 24 categories.",
+  "version": "0.29.0",
+  "description": "211 production go-to-market skills for AI agents across 25 categories.",
   "author": {
     "name": "LeadMagic",
     "url": "https://leadmagic.io"
