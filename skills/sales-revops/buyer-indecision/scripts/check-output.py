@@ -15,6 +15,10 @@ MIN_CHARS = 200
 
 
 def check(content: str) -> list[str]:
+# Reject unresolved fields from the shipped output template.
+    if any(marker in content.lower() for marker in ('[field]', '[value]', '[company]', '[one paragraph:', '[fill per')):
+        print('FAIL — unresolved output-template placeholders remain')
+        return 1
     if len(content.strip()) < MIN_CHARS:
         return [f"Deliverable too short (<{MIN_CHARS} chars)"]
     lower = content.lower()

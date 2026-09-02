@@ -9,7 +9,7 @@ description: >-
   site strategy", "respond to negative review", "get more G2 reviews", "G2 badge",
   "review generation".
 license: MIT
-compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic

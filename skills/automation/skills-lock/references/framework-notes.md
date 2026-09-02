@@ -1,20 +1,31 @@
 # Skills Lock — Framework Notes
 
-Use these references to ground outputs in named, repeatable methodology.
+## Primary Sources
 
-## Primary Frameworks
+- **Agent Skills specification** — defines the portable skill directory, `SKILL.md` entrypoint, and progressively loaded `scripts/`, `references/`, and `assets/` resources: <https://agentskills.io/specification>
+- **NIST FIPS 180-4** — defines SHA-256 and the Secure Hash Standard: <https://csrc.nist.gov/pubs/fips/180-4/upd1/final>
+- **Reproducible Builds** — documents deterministic build outputs and verification concepts: <https://reproducible-builds.org/docs/definition/>
 
-- npm package-lock.json — deterministic dependency resolution
-- Cargo.lock (Rust) — version pinning and integrity
-- SHA-256 — cryptographic hash for file integrity verification
+## Repository Schema
 
-## Operating Assumptions
+The repository's `skills.lock` schema version `2.0.0` contains:
 
-- Adapt recommendations by ICP tier: small business, mid-market, and enterprise.
-- Separate strategy from execution: define the decision rule before creating assets.
-- Prefer measurable outputs: fields, templates, scores, dashboards, or checklists.
-- Avoid legal, tax, accounting, insurance, or compliance conclusions unless the skill explicitly says to consult qualified professionals.
+- `total_skills`: number of discoverable `skills/<category>/<skill>/SKILL.md` entrypoints.
+- `total_files`: number of packaged regular files beneath `skills/` after explicit junk/cache exclusions.
+- `file_counts`: totals for entrypoints, references, templates, scripts, assets, and other files.
+- `skills`: stable `category/skill` records for entrypoint compatibility.
+- `artifacts`: repository-relative records containing `sha256`, `size_bytes`, and `kind`.
+- `generated_at`: informational generation time ignored during logical equality checks.
 
-## Agent Use
+## Security Boundary
 
-Before final output, cite which framework shaped the recommendation and identify any assumptions that need user confirmation.
+A matching hash proves only that bytes match the checked manifest. It does not prove author identity, safe script behavior, factual accuracy, or approval. Pair lock verification with code review, trusted commit or release selection, least-privilege installation, and CI.
+
+## Determinism Rules
+
+- Discover from disk and sort paths.
+- Use repository-relative POSIX paths.
+- Hash file bytes without newline normalization.
+- Compare the full path sets before comparing hashes.
+- Preserve `generated_at` when no logical record changes.
+- Never add inferred dependency or modification-time fields.

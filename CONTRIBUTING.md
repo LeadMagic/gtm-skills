@@ -54,9 +54,9 @@ Repair helpers: `npm run fix:authority`, `npm run fix:artifacts`, `npm run sync:
 Expected result (count matches the current catalog):
 
 ```text
-205 skills checked. 0 errors, 0 warnings.
-Reference audit passed: 205 skills, all reference targets resolve, layout and frontmatter names clean.
-skills.lock verified: 205 skills
+<current count> skills checked. 0 errors, 0 warnings.
+Reference audit passed: <current count> skills, all reference targets resolve, layout and frontmatter names clean.
+skills.lock verified: <current count> skills
 npm run check:generated — no drift in files listed in scripts/generated-artifacts.txt
 ```
 

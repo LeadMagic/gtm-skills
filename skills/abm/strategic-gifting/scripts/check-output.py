@@ -15,8 +15,8 @@ def check(content: str) -> list[str]:
     return errs
 
 def main() -> int:
-    path = Path(Path(sys.argv[1]) if len(sys.argv) > 1 else "")
-    if not path.exists():
+    path = Path(sys.argv[1]) if len(sys.argv) > 1 else None
+    if not path or not path.exists():
         print("Usage: check-output.py path/to/deliverable.md")
         return 2
     errs = check(path.read_text(encoding="utf-8", errors="replace"))

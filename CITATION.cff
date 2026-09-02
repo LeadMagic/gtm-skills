@@ -13,9 +13,8 @@ keywords:
   - sales
   - marketing
   - claude-code
-  - jesse
   - codex
+  - github-copilot
   - gtm-skills
-abstract: "A public library of 205 production go-to-market skills across 24 categories for AI agents (Claude Code, Jesse, Codex, Copilot, and more), covering sales, marketing, outbound, analytics, PLG, customer success, RevOps, automation, and tool operations."
-version: "0.27.3"
-date-released: "2026-06-10"
+abstract: "A public library of 208 production go-to-market Agent Skills across 24 categories for Claude Code, Codex, GitHub Copilot, and other AI agents, covering sales, marketing, outbound, SEO, analytics, PLG, customer success, RevOps, and automation."
+version: "0.28.0"

@@ -10,7 +10,7 @@ description: >-
   product tracking. Triggers on: "tracking plan", "analytics plan", "event
   tracking architecture", "pixel strategy", "analytics for PLG", "SaaS analytics".
 license: MIT
-compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -422,6 +422,8 @@ Before delivering, verify:
 ## Execution Artifacts
 
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `references/cdp-implementation.md` — CDP implementation patterns
+- `references/event-taxonomy.md` — Event naming and governance reference
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
 This skill includes lightweight artifacts the agent can load on demand:

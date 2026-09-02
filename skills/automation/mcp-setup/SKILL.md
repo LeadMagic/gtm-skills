@@ -6,7 +6,7 @@ description: >-
   Use when connecting CRM, enrichment, sequencing, analytics, or support tools to
   AI agents through MCP.
 license: MIT
-compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -91,7 +91,7 @@ Never hardcode API keys in repo files. Use environment variables or the agent pl
 Plain account (same permissions as the user). Tools cover thread search, customer lookup,
 help center, draft replies (`addGeneratedReply`), and state changes (assign, label, done)
 with human approval before customer-facing sends. Pair with `headless-support` →
-`references/byoai-headless-stack.md` when stacking Attio + Plain + agent IDE.
+`skills/customer-success/headless-support/references/byoai-headless-stack.md` when stacking Attio + Plain + agent IDE.
 
 ### Phase 4: Add Guardrails
 

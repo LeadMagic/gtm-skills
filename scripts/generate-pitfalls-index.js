@@ -56,6 +56,30 @@ function extractPitfalls(content) {
     }
   }
   if (current) items.push(current);
+  if (!items.length) {
+    for (const line of lines) {
+      const bullet = line.match(/^-\s+\*\*(.+?)[.:]?\*\*\s*(.*)$/);
+      if (!bullet) continue;
+      items.push({
+        title: bullet[1].trim(),
+        detail: bullet[2].trim().replace(/^[.:]\s*/, ''),
+      });
+    }
+  }
+  if (!items.length) {
+    for (const line of lines) {
+      const cells = line
+        .split('|')
+        .slice(1, -1)
+        .map((cell) => cell.trim());
+      if (cells.length < 2 || !cells[0] || /^[-:]+$/.test(cells[0])) continue;
+      if (cells[0].toLowerCase() === 'pitfall') continue;
+      const title = cells[0].replace(/^\*\*|\*\*$/g, '').trim();
+      const why = cells[1] || '';
+      const fix = cells[2] ? `Fix: ${cells[2]}` : '';
+      items.push({ title, detail: [why, fix].filter(Boolean).join('. ') });
+    }
+  }
   return items;
 }
 
@@ -76,10 +100,17 @@ for (const skill of skills) {
   skillsWithPitfalls += 1;
   totalPitfalls += pitfalls.length;
   if (!byCategory[skill.category]) byCategory[skill.category] = [];
+  const portablePitfalls = pitfalls.map((pitfall) => ({
+    ...pitfall,
+    detail: pitfall.detail.replace(
+      /(?<![A-Za-z0-9_./-])((?:references|templates|scripts|assets)\/[A-Za-z0-9._/-]+)/g,
+      `skills/${skill.category}/${skill.slug}/$1`,
+    ),
+  }));
   byCategory[skill.category].push({
     ...skill,
     name: parseName(content) || skill.slug,
-    pitfalls,
+    pitfalls: portablePitfalls,
   });
 }
 

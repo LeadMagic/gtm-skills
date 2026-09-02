@@ -70,7 +70,10 @@ def check_comp(content: str) -> list[str]:
 
 
 def main() -> int:
-    base = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(".")
+    if len(sys.argv) < 2:
+        print("Usage: check-output.py path/to/deliverable-directory")
+        return 2
+    base = Path(sys.argv[1])
     jd_path = base / "job-description.md"
     comp_path = base / "comp-plan.md"
 

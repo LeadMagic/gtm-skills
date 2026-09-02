@@ -6,7 +6,7 @@ description: >-
   founding team. Covers when to hire each role, job description architecture,
   compensation benchmarking, interview process design, and offer construction.
 license: MIT
-compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic

@@ -8,7 +8,7 @@ description: >-
   "n8n workflow", "n8n GTM flow", "n8n inbound", "n8n outbound", "n8n MCP",
   "build n8n automation", "n8n webhook CRM", "n8n enrichment pipeline".
 license: MIT
-compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
   version: "2.0.0"
   author: LeadMagic

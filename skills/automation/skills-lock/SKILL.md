@@ -1,280 +1,128 @@
 ---
 name: skills-lock
 description: >-
-  skills.lock — version locking and integrity tracking for agent skills
-  repositories. Generates a SHA256-verified lock file that tracks every
-  skill with its version, file hash, dependencies, and last update. Use
-  when creating skills.lock for a repo, validating skill integrity, or
-  managing skill dependencies. Triggers on: "skills.lock", "lock file",
-  "skill integrity", "freeze skills", "skill dependencies".
+  Generate and verify a deterministic SHA-256 inventory for every packaged file in an Agent Skills repository. Use when creating skills.lock, checking repository integrity, reviewing artifact coverage, detecting uncommitted generated drift, or designing CI gates for a skill catalog.
 license: MIT
-compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
-  version: "1.0.0"
+  version: "2.0.0"
   author: LeadMagic
   category: automation
-  tags: [skills-lock, versioning, integrity, dependencies, lockfile]
+  tags: [skills-lock, integrity, sha256, artifacts, ci]
   related_skills: [agent-skills-repo-authoring, hermes-agent-skill-authoring]
   frameworks:
-    - "npm package-lock.json — deterministic dependency resolution"
-    - "Cargo.lock (Rust) — version pinning and integrity"
-    - "SHA-256 — cryptographic hash for file integrity verification"
+    - "Agent Skills specification — progressive disclosure and portable skill packaging"
+    - "NIST FIPS 180-4 — SHA-256 secure hash standard"
+    - "Reproducible builds — deterministic manifests and drift detection"
 ---
 
-# skills.lock
+# Skills Lock
 
 ## Overview
 
-skills.lock is a manifest file that pins every skill in a repository to a
-specific version with a cryptographic hash. It ensures that consumers of your
-skills library get exactly what you shipped — no tampering, no drift, no
-surprises. When a CI pipeline or agent loads skills, it verifies the lock file
-first. If a hash doesn't match, the skill has been modified and the consumer
-is warned. This skill covers generating, validating, and maintaining skills.lock.
+Create a deterministic manifest of the skill entrypoints and every packaged support file under `skills/`. The manifest proves byte-level consistency; it does not certify that content is correct, safe, or trustworthy. Review sources and executable scripts separately.
 
-## Authoritative Foundations
-
-- **npm package-lock.json — deterministic dependency resolution** — deterministic dependency resolution
-- **Cargo.lock (Rust) — version pinning and integrity** — version pinning and integrity
-- **SHA-256 — cryptographic hash for file integrity verification** — cryptographic hash for file integrity verification
+This repository's schema records both a compatibility-oriented `skills` index and a complete `artifacts` index. It does not invent dependency, version, or modification-time fields that cannot be derived reliably from the package.
 
 ## When to Use
 
-Trigger phrases: "generate skills.lock", "create lock file for skills", "freeze
-skill versions", "verify skill integrity", "lock file for agent skills",
-"skill dependency lock", "skills.lock validation"
+- A skill repository needs a reviewable inventory of everything it ships.
+- CI must reject a stale lock after any skill, reference, template, script, or asset changes.
+- An installer or reviewer needs to verify a checkout before loading instructions.
+- Catalog counts disagree and need one filesystem-derived source of truth.
+- The user asks to generate, audit, or explain `skills.lock`.
+
+## Authoritative Foundations
+
+- **Agent Skills specification**: keep each skill self-contained and load references, templates, scripts, and assets progressively from the skill directory.
+- **NIST FIPS 180-4**: use SHA-256 as a deterministic digest for the exact bytes in each packaged file.
+- **Reproducible-build practice**: sort paths, exclude volatile metadata from comparisons, and make the same input tree produce the same logical manifest.
+
+## Prerequisites
+
+- Identify the repository root and canonical `skills/` directory.
+- Define discoverable skill paths, normally `skills/<category>/<skill>/SKILL.md`.
+- Define explicit exclusions for platform junk and generated caches.
+- Confirm whether the task permits writing the lock or only auditing it.
 
 ## Step-by-Step Process
 
-### Phase 1: Generate skills.lock
+### 1. Discover the package from disk
 
-**The lock file structure (JSON):**
+Enumerate skill entrypoints and all regular files beneath `skills/`. Do not derive counts from README prose, a release description, or a manually maintained catalog.
 
-```json
-{
-  "version": "1.0.0",
-  "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-06-07T18:00:00Z",
-  "generator": "hermes-agent v2026.5.29.2",
-  "total_skills": 172,
-  "skills": {
-    "founder-led/founder-sales": {
-      "version": "1.0.0",
-      "path": "skills/founder-led/founder-sales/SKILL.md",
-      "sha256": "a1b2c3d4e5f6...",
-      "dependencies": [
-        "founder-led/pricing-strategy",
-        "sales-revops/sales-enablement"
-      ],
-      "frameworks": [
-        "SPICED (Winning by Design)",
-        "SPIN Selling (Neil Rackham)"
-      ],
-      "size_bytes": 10676,
-      "last_updated": "2026-06-07T12:00:00Z"
-    }
-  }
-}
-```
+### 2. Validate ownership and portability
 
-**Generate script (run after every skill change):**
-```bash
-#!/bin/bash
-# scripts/generate-skills-lock.sh
+Ensure every packaged file belongs to one discoverable skill. Reject empty files, cache files, merge residue, unportable symlinks, misplaced artifacts, and non-executable checker scripts.
 
-echo "Generating skills.lock..."
+### 3. Build deterministic records
 
-SKILLS_COUNT=$(find skills -name "SKILL.md" | wc -l | tr -d ' ')
+For every artifact, record its repository-relative path, SHA-256 digest, byte size, and kind. For every entrypoint, also record the stable `category/skill` key and path components.
 
-cat > skills.lock << EOF
-{
-  "version": "1.0.0",
-  "repository": "LeadMagic/gtm-skills",
-  "generated_at": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
-  "total_skills": $SKILLS_COUNT,
-  "skills": {
-EOF
+### 4. Separate volatile metadata
 
-FIRST=true
-for skill in $(find skills -name "SKILL.md" | sort); do
-  SKILL_NAME=$(echo "$skill" | sed 's|skills/||' | sed 's|/SKILL.md||')
-  SHA256=$(sha256sum "$skill" | cut -d' ' -f1)
-  SIZE=$(wc -c < "$skill" | tr -d ' ')
+An informational `generated_at` value may be present, but exclude it from logical equality checks. Preserve it on no-op regeneration so generated-file checks remain stable.
 
-  # Extract version from YAML frontmatter
-  VERSION=$(head -20 "$skill" | grep "version:" | head -1 | sed 's/.*"\(.*\)".*/\1/' | sed 's/version: *//' | tr -d '"' | tr -d ' ')
+### 5. Verify exact coverage
 
-  if [ "$FIRST" = false ]; then
-    echo "," >> skills.lock
-  fi
-  FIRST=false
+Compare the manifest path set with the current package path set in both directions. Verify totals, per-kind counts, byte sizes, and hashes. A missing or extra record is a failure even when all recorded hashes match.
 
-  cat >> skills.lock << INNER
-    "$SKILL_NAME": {
-      "version": "$VERSION",
-      "path": "$skill",
-      "sha256": "$SHA256",
-      "size_bytes": $SIZE,
-      "last_updated": "$(date -u -r "$skill" +%Y-%m-%dT%H:%M:%SZ 2>/dev/null || date -u +%Y-%m-%dT%H:%M:%SZ)"
-    }
-INNER
-done
+### 6. Wire the check into CI
 
-cat >> skills.lock << FINAL
-  }
-}
-FINAL
+Run artifact hygiene before lock verification, regenerate in a temporary comparison flow, and fail when committed generated files differ. Keep generation and verification as separate commands.
 
-echo "skills.lock generated: $SKILLS_COUNT skills locked"
-```
+### 7. Report what integrity means
 
-### Phase 2: Validate skills.lock
-
-**Validation script:**
-```bash
-#!/bin/bash
-# scripts/validate-skills-lock.sh
-
-echo "Validating skills.lock..."
-
-ERRORS=0
-SKILLS=$(find skills -name "SKILL.md" | sort)
-
-for skill in $SKILLS; do
-  SKILL_NAME=$(echo "$skill" | sed 's|skills/||' | sed 's|/SKILL.md||')
-  ACTUAL_HASH=$(sha256sum "$skill" | cut -d' ' -f1)
-  LOCKED_HASH=$(python3 -c "
-import json
-with open('skills.lock') as f:
-    data = json.load(f)
-print(data['skills'].get('$SKILL_NAME', {}).get('sha256', 'NOT_FOUND'))
-" 2>/dev/null)
-
-  if [ "$LOCKED_HASH" = "NOT_FOUND" ]; then
-    echo "ERROR: $SKILL_NAME not found in skills.lock"
-    ERRORS=$((ERRORS + 1))
-  elif [ "$ACTUAL_HASH" != "$LOCKED_HASH" ]; then
-    echo "ERROR: $SKILL_NAME hash mismatch"
-    echo "  Locked: $LOCKED_HASH"
-    echo "  Actual: $ACTUAL_HASH"
-    ERRORS=$((ERRORS + 1))
-  fi
-done
-
-if [ $ERRORS -eq 0 ]; then
-  echo "skills.lock valid. 0 errors."
-else
-  echo "skills.lock validation FAILED: $ERRORS error(s)"
-  exit 1
-fi
-```
-
-### Phase 3: CI Integration
-
-**GitHub Actions step (add to validate.yml):**
-```yaml
-- name: Validate skills.lock
-  run: bash scripts/validate-skills-lock.sh
-```
-
-### Phase 4: Consumer Usage
-
-**How AI agents consume skills.lock:**
-1. Clone/fetch skills repo
-2. Read `skills.lock` to discover available skills and versions
-3. Verify SHA256 of a skill before loading it — integrity check
-4. Check `dependencies` field to load prerequisite skills
-5. Use locked version for reproducible behavior
+State the exact skill and artifact counts, the algorithm, and the exclusions. Clarify that integrity detects drift or tampering relative to the lock; it is not provenance, code-signing, malware scanning, or content review.
 
 ## Output Format
 
-```json
-{
-  "version": "1.0.0",
-  "repository": "owner/repo",
-  "generated_at": "ISO-8601",
-  "total_skills": N,
-  "skills": {
-    "category/skill-name": {
-      "version": "X.Y.Z",
-      "path": "skills/category/skill-name/SKILL.md",
-      "sha256": "hex-hash",
-      "dependencies": ["other-skill"],
-      "frameworks": ["Framework Name (Authority)"],
-      "size_bytes": N,
-      "last_updated": "ISO-8601"
-    }
-  }
-}
+Produce an integrity report containing:
+
+1. Repository and scope.
+2. Exact skill and packaged-file counts.
+3. Per-kind artifact counts.
+4. Schema and hashing algorithm.
+5. Generation and verification commands.
+6. CI enforcement status.
+7. Failures, exclusions, and residual risks.
+8. Recommended remediation steps.
+
+For this repository, use:
+
+```bash
+python3 scripts/audit-artifacts.py
+python3 scripts/generate-skills-lock.py
+python3 scripts/generate-skills-lock.py --check
 ```
-
-## Implementation Checklist
-
-- [ ] skills.lock generated after every skill change (automated in CI)
-- [ ] SHA256 verified for every skill (no hash mismatches)
-- [ ] skills.lock committed to repo alongside skills
-- [ ] Validation runs in CI on every push and PR
-- [ ] Consumer instructions documented (how to verify a skill's integrity)
-- [ ] Version field matches skill's frontmatter version
-- [ ] Total count matches actual skill count
 
 ## Quality Check
 
-Before delivering, verify:
-
-- [ ] Output matches the user's stated request
-- [ ] Named frameworks or sources are reflected in the recommendation
-- [ ] The deliverable is specific enough for an agent to execute
-- [ ] Any assumptions, risks, or dependencies are explicit
-- [ ] No unsupported claims, invented facts, or private/internal references are included
+- [ ] Counts come from the filesystem and not from copied documentation.
+- [ ] Every packaged file has one path, hash, size, and kind record.
+- [ ] The manifest has no missing or extra paths.
+- [ ] Paths are repository-relative and sorted deterministically.
+- [ ] A no-op generation leaves the logical manifest unchanged.
+- [ ] CI verifies the lock after artifact validation.
+- [ ] The report distinguishes integrity from trust and provenance.
 
 ## Common Pitfalls
 
-1. **skills.lock not updated after skill changes.** Skill changes pushed.
-   skills.lock stale. Validation fails. Fix: Generate skills.lock as part
-   of the commit/push workflow. Never commit skill changes without updating
-   the lock file.
-
-2. **No validation in CI.** Stale or corrupted skills.lock goes undetected.
-   Consumers load tampered or outdated skills. Fix: CI runs validation on
-   every push. Failing validation blocks merge.
-
-3. **Lock file too large.** 500+ skills with full dependency trees = multi-MB
-   lock file. Fix: Keep it lean. SHA256 + version + path + size. Skip full
-   metadata (frameworks, dependencies are optional extensions).
-
-4. **No consumer documentation.** Consumers don't know skills.lock exists
-   or how to use it. Fix: Document in README. "To verify skill integrity:
-   check that SHA256(skill) matches skills.lock."
-
-## Why This Matters (Unique GTM Skills Differentiator)
-
-Most agent skills repos on GitHub have NO lock file. They publish skills
-with no integrity verification. If someone modifies a skill silently, there's
-no way to detect it. skills.lock provides:
-
-1. **Tamper detection:** Any modification to a skill file changes its SHA256.
-   Validation catches it immediately.
-2. **Reproducible loading:** Consumers can verify they have the exact skill
-   the publisher intended.
-3. **Dependency tracking:** Skills can declare dependencies. Agents can load
-   prerequisites automatically.
-4. **Supply chain integrity:** If a malicious PR modifies a skill, the lock
-   file hash won't match and CI blocks it.
-
-This is unique to `gtm-skills` — a first-of-its-kind lock file for agent
-skills repositories.
+| Pitfall | Why it fails | Fix |
+|---|---|---|
+| Hashing only `SKILL.md` | References, templates, scripts, and assets can drift undetected | Inventory every packaged file |
+| Recording file modification time | Checkout and archive tools can change it without changing content | Record stable path, size, and digest only |
+| Comparing only recorded entries | Newly added files can be absent from the lock | Compare path sets in both directions |
+| Treating SHA-256 as a trust signal | A malicious change can be re-locked | Require review, trusted distribution, and CI controls |
+| Rewriting timestamps on no-op builds | Causes permanent generated-file churn | Ignore or preserve informational timestamps |
 
 ## Execution Artifacts
 
-- `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
-- `templates/output-template.md` — copy-paste deliverable structure for the user
-- `scripts/check-output.py` — local checklist validator for required sections
-This skill includes lightweight artifacts the agent can load on demand:
-Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
+- `references/framework-notes.md` — Integrity scope, schema, and security boundaries
+- `templates/output-template.md` — Repository integrity report template
+- `scripts/check-output.py` — Deliverable completeness checker
 
 ## Related Skills
 
-- `agent-skills-repo-authoring` — Repository scaffolding and CI/CD
-- `hermes-agent-skill-authoring` — Skill authoring standards
-- `skills-library-audit` — Systematic skill library auditing
+- `agent-skills-repo-authoring` for repository layout and distribution design.
+- `hermes-agent-skill-authoring` for runtime-specific skill packaging.

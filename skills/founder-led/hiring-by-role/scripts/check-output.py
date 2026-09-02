@@ -14,7 +14,7 @@ REQUIRED_SECTIONS = [
 def main() -> int:
     if len(sys.argv) < 2:
         print("Usage: check-output.py <markdown-file>")
-        return 1
+        return 2
 
     text = open(sys.argv[1], encoding="utf-8").read()
     missing = [s for s in REQUIRED_SECTIONS if s not in text]

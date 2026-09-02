@@ -6,6 +6,10 @@ from pathlib import Path
 TERMS = [r"ote|quota|5:1|5 to 1", r"equity|fd%|vest", r"founder|runway|arr", r"ramp|attainment|negotiat"]
 
 def check(content: str) -> list[str]:
+# Reject unresolved fields from the shipped output template.
+    if any(marker in content.lower() for marker in ('[field]', '[value]', '[company]', '[one paragraph:', '[fill per')):
+        print('FAIL — unresolved output-template placeholders remain')
+        return 1
     if not content.strip():
         return ["Empty deliverable"]
     lower = content.lower()

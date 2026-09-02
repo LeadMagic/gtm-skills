@@ -5,7 +5,7 @@ description: >-
   manager, CRO postings signal budget and strategy shift. Triggers on: "hiring signal",
   "job post outbound", "hiring trigger", "new role outreach".
 license: MIT
-compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic

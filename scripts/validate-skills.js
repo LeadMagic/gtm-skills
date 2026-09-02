@@ -292,6 +292,13 @@ function targetResolves(target, skillDir, filePath = null) {
 let errors = 0;
 const warnings = 0;
 const skills = walkSkills(SKILLS_DIR);
+const duplicateNames = [...new Set(
+  skills.map(skill => skill.dir).filter((name, index, names) => names.indexOf(name) !== index),
+)];
+if (duplicateNames.length) {
+  console.error(`❌ Duplicate skill names across categories: ${duplicateNames.join(', ')}`);
+  errors += duplicateNames.length;
+}
 console.log(`Validating ${skills.length} skills...\n`);
 
 for (const skill of skills) {
@@ -396,8 +403,8 @@ for (const skill of skills) {
   }
 
   for (const section of REQUIRED_SECTIONS) {
-    if (!content.includes(section)) {
-      console.error(`❌ ${skillId}: missing required section '${section}'`);
+    if (countSection(content, section) !== 1) {
+      console.error(`❌ ${skillId}: required section must appear exactly once as '${section}'`);
       errors++; skillErrors++;
     }
   }
@@ -453,11 +460,9 @@ for (const skill of skills) {
   }
 
   const skillDir = path.dirname(skill.path);
-  const refFileCount = fs.existsSync(path.join(skillDir, 'references'))
-    ? fs.readdirSync(path.join(skillDir, 'references')).filter(f => f.endsWith('.md')).length
-    : 0;
-  if (!EXEMPT_SKILLS.has(fm.name) && lineCount > MAX_SKILL_LINES && refFileCount < 5) {
-    console.error(`❌ ${skillId}: SKILL.md exceeds agentskills.io recommended length (${lineCount} > ${MAX_SKILL_LINES} lines) with only ${refFileCount} reference files — move detail to references/`);
+  const totalLineCount = content.split(/\r?\n/).length;
+  if (totalLineCount > MAX_SKILL_LINES) {
+    console.error(`❌ ${skillId}: SKILL.md exceeds the Agent Skills recommended length (${totalLineCount} > ${MAX_SKILL_LINES} physical lines) — move detail to references/`);
     errors++; skillErrors++;
   }
 
@@ -473,6 +478,29 @@ for (const skill of skills) {
   if (execArtifacts && !execArtifacts.includes('check-output.py')) {
     console.error(`❌ ${skillId}: Execution Artifacts must list scripts/check-output.py`);
     errors++; skillErrors++;
+  }
+
+  for (const supportDir of ['references', 'templates', 'scripts', 'assets']) {
+    const base = path.join(skillDir, supportDir);
+    if (!fs.existsSync(base)) continue;
+    const pending = [base];
+    while (pending.length) {
+      const current = pending.pop();
+      for (const entry of fs.readdirSync(current, { withFileTypes: true })) {
+        const absolute = path.join(current, entry.name);
+        if (entry.isDirectory()) {
+          pending.push(absolute);
+        } else if (entry.name !== '.DS_Store') {
+          const relative = path.relative(skillDir, absolute).replace(/\\/g, '/');
+          const supportContent = fs.readFileSync(absolute, 'utf8');
+          if (supportContent.startsWith('<!-- AUTO-GENERATED shared reference: ')) continue;
+          if (!execArtifacts.includes(relative)) {
+            console.error(`❌ ${skillId}: Execution Artifacts must list '${relative}'`);
+            errors++; skillErrors++;
+          }
+        }
+      }
+    }
   }
 
   for (const section of DUPLICATE_CHECK_SECTIONS) {

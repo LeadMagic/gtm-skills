@@ -81,8 +81,12 @@ jobs:
           node --check scripts/generate-indexes.js
           node --check scripts/generate-pitfalls-index.js
           python3 -m py_compile \
+            scripts/audit-artifacts.py \
+            scripts/audit-checkers.py \
             scripts/generate-skills-lock.py \
+            scripts/harden-check-output.py \
             scripts/install-tui.py \
+            scripts/materialize-shared-references.py \
             scripts/public-repo-audit.py \
             scripts/audit-references.py \
             scripts/strip-commit-trailers.py \

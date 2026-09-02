@@ -1,6 +1,6 @@
 # gtm-skills — Agent Skills Index
 
-206 production GTM skills for AI agents. This repo follows the Anthropic/agentskills pattern: portable skill folders with SKILL.md plus optional scripts/, references/, templates/, and assets/.
+208 production GTM skills for AI agents. This repository follows the Agent Skills open specification: portable skill folders with SKILL.md plus optional scripts/, references/, templates/, and assets/.
 
 ## Install
 
@@ -11,20 +11,18 @@ Claude Code marketplace style:
 /plugin install gtm-skills@gtm-skills
 ```
 
-agentskills CLI style:
+Portable Agent Skills CLI:
 
 ```bash
-gh skill install LeadMagic/gtm-skills
-gh skill install LeadMagic/gtm-skills pricing-strategy
-gh skill install LeadMagic/gtm-skills --category outbound
+gh skill install LeadMagic/gtm-skills --all --agent codex --scope user
+gh skill install LeadMagic/gtm-skills foundation/pricing-strategy --agent github-copilot --scope project
 ```
 
 Local installer:
 
 ```bash
-./install.sh
-./install.sh --target hermes
-./install.sh --target jesse --project /path/to/project
+./install.sh --target codex --scope project
+./install.sh --target claude --scope user
 ./install.sh --target all --dry-run
 ```
 
@@ -41,13 +39,13 @@ Local installer:
 - **abm** — 7 skills
 - **analytics** — 13 skills
 - **automation** — 12 skills
-- **content-seo** — 6 skills
+- **content-seo** — 7 skills
 - **creative** — 12 skills
 - **customer-success** — 7 skills
 - **demand-gen** — 4 skills
 - **design** — 7 skills
 - **events** — 3 skills
-- **foundation** — 8 skills
+- **foundation** — 9 skills
 - **founder-led** — 41 skills
 - **growth** — 5 skills
 - **gtm-ops** — 5 skills

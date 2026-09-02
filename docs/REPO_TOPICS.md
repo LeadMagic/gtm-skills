@@ -1,43 +1,36 @@
 # GitHub Repository Topics
 
-GitHub allows **20 topics** per repository. These are the canonical topics for [LeadMagic/gtm-skills](https://github.com/LeadMagic/gtm-skills).
+GitHub allows 20 topics per repository. These topics balance Agent Skills runtime discovery with the catalog's highest-value GTM use cases.
 
-## Current topics (20)
+## Canonical topics (20)
 
-| Topic | Why |
+| Topic | Discovery intent |
 |---|---|
-| `agent-skills` | Core agentskills.io / Anthropic pattern |
-| `agentskills` | Marketplace discovery alias |
-| `claude-code` | Primary Claude Code marketplace install |
-| `jesse` | Jesse agent compatibility |
-| `codex` | OpenAI Codex / agent IDE |
-| `copilot` | GitHub Copilot agent surface |
-| `go-to-market` | Full GTM scope |
-| `gtm` | Short discovery term |
-| `b2b-saas` | ICP and buyer context |
-| `sales` | Revenue motion |
-| `outbound` | Cold outbound cluster |
-| `cold-email` | High-intent search term |
-| `revops` | RevOps / ops cluster |
-| `customer-success` | CS / support skills |
-| `plg` | Product-led growth skills |
-| `lead-generation` | Prospecting discovery |
-| `prospecting` | SDR motion |
-| `marketing` | Demand / content cluster |
-| `sales-enablement` | Enablement + playbooks |
-| `mcp` | Model Context Protocol / agent tools |
-
-## Removed (redundant at 20-cap)
-
-- `ai-agents` — covered by `agent-skills`
-- `claude-skills` — covered by `claude-code`
-- `revenue-operations` — covered by `revops`
-- `github-copilot` — covered by `copilot`
+| `agent-skills` | Canonical Agent Skills phrase |
+| `agentskills` | Common unhyphenated marketplace query |
+| `claude-code` | Claude Code installation and discovery |
+| `codex` | OpenAI Codex compatibility |
+| `github-copilot` | GitHub Copilot compatibility |
+| `ai-agents` | Broader agent ecosystem |
+| `go-to-market` | Full GTM category phrase |
+| `gtm` | Short GTM discovery term |
+| `b2b-saas` | Primary company and buyer context |
+| `sales` | Revenue workflows |
+| `marketing` | Demand and content workflows |
+| `outbound` | Outbound system design |
+| `cold-email` | High-intent outbound query |
+| `revops` | Revenue operations workflows |
+| `seo` | Content and technical SEO skills |
+| `customer-success` | Customer-success and support workflows |
+| `plg` | Product-led growth workflows |
+| `lead-generation` | Lead acquisition and enrichment |
+| `prospecting` | Account and contact discovery |
+| `sales-enablement` | Sales collateral and playbooks |
 
 ## Update via CLI
 
 ```bash
 gh api repos/LeadMagic/gtm-skills/topics -X PUT --input - <<'EOF'
-{"names":["agent-skills","agentskills","claude-code","jesse","codex","copilot","go-to-market","gtm","b2b-saas","sales","outbound","cold-email","revops","customer-success","plg","lead-generation","prospecting","marketing","sales-enablement","mcp"]}
+{"names":["agent-skills","agentskills","claude-code","codex","github-copilot","ai-agents","go-to-market","gtm","b2b-saas","sales","marketing","outbound","cold-email","revops","seo","customer-success","plg","lead-generation","prospecting","sales-enablement"]}
 EOF
 ```

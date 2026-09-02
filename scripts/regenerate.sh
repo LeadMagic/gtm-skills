@@ -11,6 +11,7 @@ read_generated_artifacts
 
 node scripts/generate-indexes.js
 node scripts/generate-pitfalls-index.js
+python3 scripts/materialize-shared-references.py
 python3 scripts/generate-skills-lock.py
 
 echo "Regenerated ${#ARTIFACTS[@]} artifacts:"

@@ -20,8 +20,8 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parents[1]
 # Keep in sync with scripts/lib/compatibility.js
 STANDARD_COMPATIBILITY = (
-    "Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, "
-    "Copilot, Zed, VS Code, Goose"
+    "Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, "
+    "Goose, Hermes, Jesse, Windsurf, Zed"
 )
 REQUIRED_PUBLIC_FILES = [
     "README.md",
@@ -74,6 +74,29 @@ TELEMETRY_PACKAGES = {
     "amplitude-js",
     "@amplitude/",
 }
+
+PACKAGE_KINDS = ("entrypoints", "references", "templates", "scripts", "assets", "other")
+
+
+def discover_package_files() -> list[Path]:
+    return sorted(
+        path
+        for path in (ROOT / "skills").rglob("*")
+        if path.is_file()
+        and path.name != ".DS_Store"
+        and path.suffix != ".pyc"
+        and "__pycache__" not in path.parts
+    )
+
+
+def package_file_kind(path: Path) -> str:
+    relative = path.relative_to(ROOT / "skills")
+    if path.name == "SKILL.md":
+        return "entrypoints"
+    for kind in ("references", "templates", "scripts", "assets"):
+        if kind in relative.parts[2:]:
+            return kind
+    return "other"
 
 
 def fail(message: str, failures: list[str]) -> None:
@@ -190,8 +213,35 @@ def main() -> int:
     lock_path = ROOT / "skills.lock"
     if lock_path.exists():
         lock = json.loads(read(lock_path))
+        package_files = discover_package_files()
+        package_paths = {path.relative_to(ROOT).as_posix() for path in package_files}
+        expected_file_counts = {
+            kind: sum(package_file_kind(path) == kind for path in package_files)
+            for kind in PACKAGE_KINDS
+        }
+        if lock.get("version") != "2.0.0":
+            fail(f"skills.lock version {lock.get('version')!r} != '2.0.0'", failures)
         if lock.get("total_skills") != len(skills):
             fail(f"skills.lock total {lock.get('total_skills')} != skill count {len(skills)}", failures)
+        if lock.get("total_files") != len(package_files):
+            fail(f"skills.lock file total {lock.get('total_files')} != packaged file count {len(package_files)}", failures)
+        if lock.get("file_counts") != expected_file_counts:
+            fail(f"skills.lock file counts {lock.get('file_counts')} != {expected_file_counts}", failures)
+        readme_text = read(ROOT / "README.md")
+        readme_inventory = {
+            "Marketplace-discoverable skills": len(skills),
+            "Skill entrypoint files": expected_file_counts["entrypoints"],
+            "Reference files": expected_file_counts["references"],
+            "Template files": expected_file_counts["templates"],
+            "Script files": expected_file_counts["scripts"],
+            "Asset files": expected_file_counts["assets"],
+            "Other packaged files": expected_file_counts["other"],
+            "Total packaged skill files": len(package_files),
+        }
+        for label, value in readme_inventory.items():
+            row = f"| {label} | {value} |"
+            if row not in readme_text:
+                fail(f"README exact inventory row missing or stale: {row}", failures)
         lock_skills = lock.get("skills", {})
         if len(lock_skills) != len(skills):
             fail(f"skills.lock entries {len(lock_skills)} != skill count {len(skills)}", failures)
@@ -207,6 +257,28 @@ def main() -> int:
             digest = hashlib.sha256(skill_path.read_bytes()).hexdigest()
             if digest != meta.get("sha256"):
                 fail(f"skills.lock hash drift for {name}", failures)
+        lock_artifacts = lock.get("artifacts", {})
+        lock_paths = set(lock_artifacts)
+        if lock_paths != package_paths:
+            missing = sorted(package_paths - lock_paths)[:5]
+            extra = sorted(lock_paths - package_paths)[:5]
+            fail(
+                f"skills.lock artifact paths != packaged files (missing sample: {missing}, extra sample: {extra})",
+                failures,
+            )
+        for relative_path, meta in lock_artifacts.items():
+            if relative_path not in package_paths:
+                continue
+            artifact_path = ROOT / relative_path
+            if not artifact_path.is_file():
+                continue
+            digest = hashlib.sha256(artifact_path.read_bytes()).hexdigest()
+            if digest != meta.get("sha256"):
+                fail(f"skills.lock artifact hash drift for {relative_path}", failures)
+            if artifact_path.stat().st_size != meta.get("size_bytes"):
+                fail(f"skills.lock artifact size drift for {relative_path}", failures)
+            if package_file_kind(artifact_path) != meta.get("kind"):
+                fail(f"skills.lock artifact kind drift for {relative_path}", failures)
 
     count = len(skills)
     count_surfaces = {
@@ -214,13 +286,36 @@ def main() -> int:
         "AGENTS.md": read(ROOT / "AGENTS.md") if (ROOT / "AGENTS.md").exists() else "",
         "CLAUDE.md": read(ROOT / "CLAUDE.md") if (ROOT / "CLAUDE.md").exists() else "",
         "package.json": read(ROOT / "package.json") if (ROOT / "package.json").exists() else "",
+        "CITATION.cff": read(ROOT / "CITATION.cff") if (ROOT / "CITATION.cff").exists() else "",
         "references/skill-index-master.md": read(ROOT / "references/skill-index-master.md") if (ROOT / "references/skill-index-master.md").exists() else "",
+        "skills/foundation/using-gtm-skills/SKILL.md": read(ROOT / "skills/foundation/using-gtm-skills/SKILL.md") if (ROOT / "skills/foundation/using-gtm-skills/SKILL.md").exists() else "",
         ".claude-plugin/plugin.json": read(ROOT / ".claude-plugin/plugin.json") if (ROOT / ".claude-plugin/plugin.json").exists() else "",
         ".claude-plugin/marketplace.json": read(ROOT / ".claude-plugin/marketplace.json") if (ROOT / ".claude-plugin/marketplace.json").exists() else "",
     }
     for surface, text in count_surfaces.items():
         if str(count) not in text:
             fail(f"{surface} does not mention current skill count {count}", failures)
+
+    readme = count_surfaces.get("README.md", "")
+    if f"skills-{count}-blue" not in readme or f"**{count} production" not in readme:
+        fail("README.md skill badge and lead inventory must match the on-disk count", failures)
+    stale_install_patterns = {
+        "codex skills install": "Codex has no direct skills-install subcommand; use gh skill",
+        "claude plugins add": "Claude plugin installation uses marketplace add plus plugin install",
+        "gh skill install LeadMagic/gtm-skills --category": "gh skill has no --category flag",
+    }
+    install_surfaces = [
+        "README.md",
+        "docs/INSTALL.md",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "skills/foundation/using-gtm-skills/SKILL.md",
+    ]
+    for rel in install_surfaces:
+        text = read(ROOT / rel) if (ROOT / rel).exists() else ""
+        for pattern, reason in stale_install_patterns.items():
+            if pattern in text:
+                fail(f"stale install command in {rel}: {pattern!r} ({reason})", failures)
 
     # URL policy: public docs should only link to the repo, LeadMagic, badges, and the spec.
     url_files = ["README.md", "docs/INSTALL.md", ".claude-plugin/plugin.json", ".claude-plugin/marketplace.json", "CITATION.cff"]
@@ -256,6 +351,8 @@ def main() -> int:
                 manifest_entries.append(line)
     if len(manifest_entries) < 8:
         fail("scripts/generated-artifacts.txt must list all generated catalog paths", failures)
+    if "README.md" not in manifest_entries:
+        fail("README.md must be generated from the on-disk skill catalog", failures)
 
     package_path = ROOT / "package.json"
     if package_path.exists() and manifest_entries:
@@ -274,6 +371,8 @@ def main() -> int:
             fail("validate workflow must run gh skill publish --dry-run", failures)
         if "check:generated" not in workflow:
             fail("validate workflow must run npm run check:generated", failures)
+        if "audit-checkers.py" not in read(ROOT / "package.json"):
+            fail("npm verification must execute every skill-local output checker", failures)
         if "concurrency:" not in workflow:
             fail("validate workflow missing concurrency guard", failures)
 
@@ -292,9 +391,9 @@ def main() -> int:
     plugin_path = ROOT / ".claude-plugin/plugin.json"
     if plugin_path.exists():
         plugin = json.loads(read(plugin_path))
-        globs = plugin.get("skills", [])
-        if globs != ["skills/*/*/SKILL.md"]:
-            fail(f"plugin.json skills globs must be flat-only ['skills/*/*/SKILL.md'], got {globs}", failures)
+        skill_roots = plugin.get("skills", [])
+        if skill_roots != ["./skills"]:
+            fail(f"plugin.json must expose the validated recursive skill root ['./skills'], got {skill_roots}", failures)
 
     if failures:
         print(f"\nPublic repo audit failed: {len(failures)} issue(s).")

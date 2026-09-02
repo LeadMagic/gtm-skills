@@ -1,6 +1,6 @@
 # GTM Skills — Master Skill Index
 
-One-page map of **206 skills** across **24 categories**. Load `foundation/using-gtm-skills` first for patterns and workflows.
+One-page map of **208 skills** across **24 categories**. Load `foundation/using-gtm-skills` first for patterns and workflows.
 
 **Master router:** `skills/foundation/using-gtm-skills/SKILL.md`
 
@@ -8,7 +8,7 @@ One-page map of **206 skills** across **24 categories**. Load `foundation/using-
 
 | Index | Path | Use when |
 |---|---|---|
-| Expert catalog | `references/experts.md` | Named practitioner lookup (~110 entries) |
+| Expert catalog | `references/experts.md` | Named practitioner lookup (113 entries) |
 | Outbound experts | `references/gtm-experts-outbound-index.md` | Cold email + discovery routing |
 | Cold calling experts | `references/cold-calling-experts-index.md` | Phone-first outbound |
 | Automation playbooks | `references/automation-playbook-index.md` | Clay, n8n, sequencing, LeadMagic (38 playbooks) |
@@ -71,13 +71,13 @@ Clay, n8n, CRM setup, enrichment waterfalls. **Start skill:** `clay-automation`
 | `mcp-setup` | Configure Model Context Protocol servers for GTM workflows — server selection, tool scope… |
 | `n8n-automation` | Build n8n workflows for GTM automation — triggers, webhook-to-enrichment-to-CRM pipelines… |
 | `salesforce-setup` | Set up Salesforce for B2B SaaS GTM — object model, opportunity pipelines, lead management… |
-| `skills-lock` | skills.lock — version locking and integrity tracking for agent skills repositories. Gener… |
+| `skills-lock` | Generate and verify a deterministic SHA-256 inventory for every packaged file in an Agent… |
 | `tool-selection-stack` | Build the right GTM tool stack for any stage — solo founder ($100/mo), small team ($500/m… |
 | `waterfall-enrichment` | Design multi-provider enrichment waterfalls — provider ordering by cost-per-hit, 3 separa… |
 
-### Content & SEO (`content-seo/`) — 6 skills
+### Content & SEO (`content-seo/`) — 7 skills
 
-SEO strategy, pillars, pSEO, AEO, citation harvesting. **Start skill:** `seo-strategy`
+SEO strategy, technical audits, pillars, pSEO, AEO, citations. **Start skill:** `seo-strategy`
 
 | Skill | One-line |
 |---|---|
@@ -87,6 +87,7 @@ SEO strategy, pillars, pSEO, AEO, citation harvesting. **Start skill:** `seo-str
 | `pillar-pages` | Design and build pillar pages with topic clusters — comprehensive hub pages that rank for… |
 | `pseo-strategy` | Programmatic SEO — build scalable, template-driven content pages for long-tail keywords.… |
 | `seo-strategy` | B2B SEO strategy — keyword research, content architecture, technical SEO, link building,… |
+| `technical-seo-audit` | Audit a website's technical SEO across crawl access, indexing controls, canonicalization,… |
 
 ### Creative & AI Content (`creative/`) — 12 skills
 
@@ -156,20 +157,21 @@ Conferences, field marketing, event-driven outreach. **Start skill:** `conferenc
 | `event-driven-outreach` | Outbound sequences triggered by conference/event attendance — pre-event research, on-site… |
 | `field-marketing` | Plan and execute field marketing — regional events, executive dinners, roadshows, custome… |
 
-### Foundation & ICP (`foundation/`) — 8 skills
+### Foundation & ICP (`foundation/`) — 9 skills
 
-ICP, positioning, pricing, master router. **Start skill:** `using-gtm-skills`
+Context bootstrap, ICP, positioning, pricing, master router. **Start skill:** `using-gtm-skills`
 
 | Skill | One-line |
 |---|---|
 | `buyer-psychology` | Apply decision science and buyer psychology to GTM — transparency effect (4.2-4.5), Ciald… |
 | `competitive-intel` | Research competitors and turn findings into GTM assets: positioning map, win/loss themes,… |
 | `gtm-context` | Capture reusable GTM context for every other skill: product, ICP, personas, pains, proof,… |
+| `gtm-context-bootstrap` | Build a reusable, evidence-backed GTM context pack covering company, product, market, ICP… |
 | `icp-scoring` | Score and tier ICP-fit accounts using firmographic, technographic, intent, pain, and timi… |
 | `icp-targeting-tiers` | Define ICP differences across small business, mid-market, and enterprise — buying process… |
 | `positioning-messaging` | Build positioning and messaging from category, ICP, alternatives, differentiated value, p… |
 | `pricing-strategy` | Design SaaS pricing strategy using willingness-to-pay research, packaging, value metrics,… |
-| `using-gtm-skills` | Complete guide to using the gtm-skills repository — installation, skill discovery, skill… |
+| `using-gtm-skills` | Route a go-to-market request to the right GTM Skills, install or verify the catalog, and… |
 
 ### Founder-Led GTM (`founder-led/`) — 41 skills
 
@@ -303,7 +305,7 @@ Cold email, calling, deliverability, domains, replies. **Start skill:** `cold-em
 |---|---|
 | `cold-calling` | Build and execute B2B cold calling programs — phone intent scoring, disposition bucketing… |
 | `cold-email-copywriting` | Writes high-converting cold email copy using the 3-line framework, proven subject line pa… |
-| `cold-email-strategy` | Designs high-performing cold email sequence architecture with proper cadence timing, chan… |
+| `cold-email-strategy` | Design or audit a cold-email sequence architecture: audience and trigger, offer, touch ca… |
 | `domain-infrastructure` | Designs and provisions the domain and mailbox infrastructure for cold email outreach: sec… |
 | `email-deliverability` | Sets up and monitors email deliverability infrastructure including SPF, DKIM, DMARC confi… |
 | `inbox-setup` | Set up cold email inbox infrastructure from scratch — Google Workspace, Microsoft 365, an… |

@@ -95,7 +95,7 @@ Before live customer contact:
 3. Security awareness training complete
 4. Read `gtm-data-exchange-playbook.md` (15 min)
 
-Full provisioning checklist → `revenue-team-onboarding` → `references/security-access-checklist.md`
+Full provisioning checklist → `revenue-team-onboarding` → `skills/management-leadership/revenue-team-onboarding/references/security-access-checklist.md`
 
 ---
 

@@ -34,6 +34,15 @@ def sync_skill(skill_md: Path) -> bool:
         if not any(key in ln for key, _ in STANDARD):
             ordered.append(ln)
 
+    for directory in ("references", "templates", "scripts", "assets"):
+        base = skill_md.parent / directory
+        if not base.exists():
+            continue
+        for artifact in sorted(path for path in base.rglob("*") if path.is_file() and path.name != ".DS_Store"):
+            relative = artifact.relative_to(skill_md.parent).as_posix()
+            if not any(relative in line for line in ordered):
+                ordered.append(f"- `{relative}` — Supporting execution artifact")
+
     new_body = "\n".join(ordered) + "\n"
     if new_body.strip() == body.strip():
         return False

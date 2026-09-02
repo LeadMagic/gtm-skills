@@ -34,7 +34,7 @@ const CATEGORY_GUIDE = {
   },
   "content-seo": {
     title: "Content & SEO",
-    blurb: "SEO strategy, pillars, pSEO, AEO, citation harvesting.",
+    blurb: "SEO strategy, technical audits, pillars, pSEO, AEO, citations.",
     start: "seo-strategy",
   },
   creative: {
@@ -64,7 +64,7 @@ const CATEGORY_GUIDE = {
   },
   foundation: {
     title: "Foundation & ICP",
-    blurb: "ICP, positioning, pricing, master router.",
+    blurb: "Context bootstrap, ICP, positioning, pricing, master router.",
     start: "using-gtm-skills",
   },
   "founder-led": {
@@ -248,6 +248,28 @@ function discoverSkills() {
   );
 }
 
+function discoverPackageFiles() {
+  const files = [];
+  const visit = (directory) => {
+    for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
+      if (entry.name === ".DS_Store" || entry.name === "__pycache__") continue;
+      const absolute = path.join(directory, entry.name);
+      if (entry.isDirectory()) visit(absolute);
+      else if (entry.isFile() && !entry.name.endsWith(".pyc")) files.push(absolute);
+    }
+  };
+  visit(SKILLS_DIR);
+  return files.sort();
+}
+
+function packageFileKind(filePath) {
+  const relativeParts = path.relative(SKILLS_DIR, filePath).split(path.sep);
+  if (path.basename(filePath) === "SKILL.md") return "entrypoints";
+  for (const kind of ["references", "templates", "scripts", "assets"])
+    if (relativeParts.slice(2).includes(kind)) return kind;
+  return "other";
+}
+
 function truncate(s, n) {
   const text = String(s || "")
     .replace(/\s+/g, " ")
@@ -255,13 +277,13 @@ function truncate(s, n) {
   return text.length <= n ? text : `${text.slice(0, n - 1).trimEnd()}…`;
 }
 
-function buildSkillIndexMaster(total, categories, byCategory) {
+function buildSkillIndexMaster(total, categories, byCategory, expertCount) {
   let out = `# GTM Skills — Master Skill Index\n\n`;
   out += `One-page map of **${total} skills** across **${categories.length} categories**. Load \`foundation/using-gtm-skills\` first for patterns and workflows.\n\n`;
   out += `**Master router:** \`skills/foundation/using-gtm-skills/SKILL.md\`\n\n`;
   out += `## Cross-repo indexes\n\n`;
   out += `| Index | Path | Use when |\n|---|---|---|\n`;
-  out += `| Expert catalog | \`references/experts.md\` | Named practitioner lookup (~110 entries) |\n`;
+  out += `| Expert catalog | \`references/experts.md\` | Named practitioner lookup (${expertCount} entries) |\n`;
   out += `| Outbound experts | \`references/gtm-experts-outbound-index.md\` | Cold email + discovery routing |\n`;
   out += `| Cold calling experts | \`references/cold-calling-experts-index.md\` | Phone-first outbound |\n`;
   out += `| Automation playbooks | \`references/automation-playbook-index.md\` | Clay, n8n, sequencing, LeadMagic (38 playbooks) |\n`;
@@ -349,6 +371,17 @@ for (const s of skills) {
   byCategory[s.category].push(s);
 }
 const categories = Object.keys(byCategory).sort();
+const packageFiles = discoverPackageFiles();
+const packageFileCounts = Object.fromEntries(
+  ["entrypoints", "references", "templates", "scripts", "assets", "other"].map(
+    (kind) => [kind, packageFiles.filter((file) => packageFileKind(file) === kind).length],
+  ),
+);
+const generatedSharedReferences = packageFiles.filter(
+  (file) =>
+    packageFileKind(file) === "references" &&
+    fs.readFileSync(file, "utf8").startsWith("<!-- AUTO-GENERATED shared reference: "),
+).length;
 
 const authorityCounts = new Map();
 for (const s of skills) {
@@ -362,6 +395,11 @@ const topAuthorities = [...authorityCounts.entries()]
   .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
   .slice(0, 30);
 const authorityCatalog = buildAuthorityCatalog(skills, authorityCounts, 24);
+const frameworkAssignments = skills.reduce(
+  (sum, skill) => sum + skill.frameworks.length,
+  0,
+);
+const expertCount = parseExpertsCatalog().length;
 
 const taxonomy = ["slug,name,category,path,description,priority,compatibility"];
 for (const s of skills)
@@ -381,11 +419,11 @@ for (const s of skills)
 fs.writeFileSync(path.join(ROOT, "taxonomy.csv"), `${taxonomy.join("\n")}\n`);
 fs.writeFileSync(
   path.join(ROOT, "references", "skill-index-master.md"),
-  buildSkillIndexMaster(total, categories, byCategory),
+  buildSkillIndexMaster(total, categories, byCategory, expertCount),
 );
 
 let claude = `# GTM Skills\n\n${total} production go-to-market skills for Claude-compatible agents. Skills are self-contained folders with instructions, scripts, references, templates, assets, and metadata that agents load through progressive disclosure.\n\n`;
-claude += `## Install\n\n\`/plugin marketplace add LeadMagic/gtm-skills\` then \`/plugin install gtm-skills@gtm-skills\`. agentskills CLI: \`gh skill install LeadMagic/gtm-skills\`.\n\n`;
+claude += `## Install\n\n\`/plugin marketplace add LeadMagic/gtm-skills\` then \`/plugin install gtm-skills@gtm-skills\`. Portable Agent Skills install: \`gh skill install LeadMagic/gtm-skills --all --agent claude-code --scope user\`.\n\n`;
 claude += `## Operating Model\n\n- Discovery loads skill name + description.\n- Activation loads SKILL.md.\n- Execution loads references/, templates/, scripts/, and assets/ on demand.\n- Use the narrowest skill that matches the task; chain skills for full GTM workflows.\n- Verify integrity with \`skills.lock\` when installing from source.\n\n## Top Authority Signals\n\n`;
 for (const [authority, count] of topAuthorities.slice(0, 12))
   claude += `- ${authority} (${count} skills)\n`;
@@ -402,8 +440,8 @@ claude = claude.replace(
 );
 fs.writeFileSync(path.join(ROOT, "CLAUDE.md"), claude);
 
-let agents = `# gtm-skills — Agent Skills Index\n\n${total} production GTM skills for AI agents. This repo follows the Anthropic/agentskills pattern: portable skill folders with SKILL.md plus optional scripts/, references/, templates/, and assets/.\n\n`;
-agents += `## Install\n\nClaude Code marketplace style:\n\n\`\`\`text\n/plugin marketplace add LeadMagic/gtm-skills\n/plugin install gtm-skills@gtm-skills\n\`\`\`\n\nagentskills CLI style:\n\n\`\`\`bash\ngh skill install LeadMagic/gtm-skills\ngh skill install LeadMagic/gtm-skills pricing-strategy\ngh skill install LeadMagic/gtm-skills --category outbound\n\`\`\`\n\nLocal installer:\n\n\`\`\`bash\n./install.sh\n./install.sh --target hermes\n./install.sh --target jesse --project /path/to/project\n./install.sh --target all --dry-run\n\`\`\`\n\n`;
+let agents = `# gtm-skills — Agent Skills Index\n\n${total} production GTM skills for AI agents. This repository follows the Agent Skills open specification: portable skill folders with SKILL.md plus optional scripts/, references/, templates/, and assets/.\n\n`;
+agents += `## Install\n\nClaude Code marketplace style:\n\n\`\`\`text\n/plugin marketplace add LeadMagic/gtm-skills\n/plugin install gtm-skills@gtm-skills\n\`\`\`\n\nPortable Agent Skills CLI:\n\n\`\`\`bash\ngh skill install LeadMagic/gtm-skills --all --agent codex --scope user\ngh skill install LeadMagic/gtm-skills foundation/pricing-strategy --agent github-copilot --scope project\n\`\`\`\n\nLocal installer:\n\n\`\`\`bash\n./install.sh --target codex --scope project\n./install.sh --target claude --scope user\n./install.sh --target all --dry-run\n\`\`\`\n\n`;
 agents += `## Repository Contract\n\n- Marketplace-visible skills live at \`skills/<category>/<skill>/SKILL.md\`.\n- Support artifacts live inside the skill folder.\n- Generated catalog files come from disk, not hand edits.\n- \`skills.lock\` verifies SHA256 integrity.\n- CI must pass before release.\n\n## Categories\n\n`;
 for (const cat of categories)
   agents += `- **${cat}** — ${byCategory[cat].length} skills\n`;
@@ -433,6 +471,8 @@ const startHere = `## Start Here
 | Goal | Skill |
 |---|---|
 | Route any GTM task | [using-gtm-skills](skills/foundation/using-gtm-skills/SKILL.md) |
+| Bootstrap reusable GTM context | [gtm-context-bootstrap](skills/foundation/gtm-context-bootstrap/SKILL.md) |
+| Audit technical SEO and crawlability | [technical-seo-audit](skills/content-seo/technical-seo-audit/SKILL.md) |
 | LinkedIn feed reach (van der Blom) | [linkedin-algorithm](skills/inbound/linkedin-algorithm/SKILL.md) |
 | LinkedIn Live / weekly show (Jessie Lizak / Reveting) | [linkedin-live-strategy](skills/inbound/linkedin-live-strategy/SKILL.md) |
 | Sales Navigator prospecting (Morgan Ingram / AMP) | [sales-navigator-prospecting](skills/inbound/sales-navigator-prospecting/SKILL.md) |
@@ -445,7 +485,7 @@ The **inbound** category (${byCategory.inbound?.length ?? 0} skills) covers Link
 
 `;
 
-let readme = `# GTM Skills\n\n[![Skills](https://img.shields.io/badge/skills-${total}-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-${categories.length}-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE)\n\n**Public repository:** [github.com/LeadMagic/gtm-skills](https://github.com/LeadMagic/gtm-skills)\n\n${total} production go-to-market skills for AI agents. Built for sales, marketing, outbound, prospecting, enrichment, PLG, analytics, automation, customer success, RevOps, founder-led GTM, and tool operations.\n\nThis is not a prompt pack. It is an agent-skills repository: portable skill folders with instructions, scripts, references, templates, assets, metadata, marketplace publishing, install tooling, and SHA256 integrity verification.\n\n## Public Links\n\n| Resource | URL |\n|---|---|\n| Source & issues | [github.com/LeadMagic/gtm-skills](https://github.com/LeadMagic/gtm-skills) |\n| Releases & changelog | [CHANGELOG.md](CHANGELOG.md) |\n| Install guide | [docs/INSTALL.md](docs/INSTALL.md) |\n| Master skill index | [references/skill-index-master.md](references/skill-index-master.md) |\n| Expert catalog | [references/experts.md](references/experts.md) |\n| Pitfalls index | [references/pitfalls-index.md](references/pitfalls-index.md) |\n| Citation metadata | [CITATION.cff](CITATION.cff) |\n| Marketplace install | \`gh skill install LeadMagic/gtm-skills\` |\n\n## Install\n\nClaude Code marketplace style:\n\n\`\`\`text\n/plugin marketplace add LeadMagic/gtm-skills\n/plugin install gtm-skills@gtm-skills\n\`\`\`\n\nagentskills CLI style:\n\n\`\`\`bash\ngh skill install LeadMagic/gtm-skills\n\`\`\`\n\nInteractive installer:\n\n\`\`\`bash\ngit clone https://github.com/LeadMagic/gtm-skills.git\ncd gtm-skills\n./install.sh\n./install.sh --target all --dry-run\n\`\`\`\n\nFull install docs: [docs/INSTALL.md](docs/INSTALL.md).\n\n## Listed On\n\nAgent-skills directories and submission status:\n\n| Directory | Status |\n|---|---|\n| [agent-skills.md](https://agent-skills.md) | [Requested](https://github.com/futantan/agent-skills.md/issues/19) |\n| [agenticskills.io](https://agenticskills.io) | [Submit](https://agenticskills.io/submit) |\n| [skills.re](https://skills.re) | [Submit](https://skills.re/submit) |\n| [skillindex.dev](https://skillindex.dev) | [PR #1](https://github.com/gabeosx/agentskillsdir/pull/1) |\n| [theskills.directory](https://theskills.directory) | [Requested](https://github.com/theskillsdirectory/skills/issues/7) |\n\n## What Makes This Repo Different\n\n- **Artifact-first.** Skills produce copy, plans, scorecards, runbooks, dashboards, workflows, templates, scripts, and QA checklists.\n- **Authority-backed.** Every skill cites named operators, vendors, books, frameworks, platform docs, or primary sources instead of vague best practices.\n- **Quality-bar driven.** Public quality bar notes define the standard every skill must meet and track hardening work over time.\n- **Anthropic-style folders.** SKILL.md for instructions; references/, templates/, scripts/, and assets/ for execution resources.\n- **Progressive disclosure.** SKILL.md stays focused; deep tables and templates live in support files.\n- **Marketplace-ready.** Every skill is discoverable by agentskills.io-compatible patterns and validated in CI.\n- **Supply-chain aware.** skills.lock tracks SHA256 for every marketplace-discoverable skill.\n- **No telemetry.** Static skills and local scripts only; no analytics SDKs or hidden network behavior.\n\n${startHere}## Repository Quality Signals\n\n| Signal | Status |\n|---|---|\n| Marketplace-discoverable skills | ${total}/${total} |\n| Categories | ${categories.length} |\n| AgentSkills spec | [agentskills.io/specification](https://agentskills.io/specification) via \`validate-skills.js\` |\n| Artifact triad | \`framework-notes.md\` + \`output-template.md\` + \`check-output.py\` on every skill |\n| CI validation | \`npm run verify\` |\n| Publish verification | \`gh skill publish --dry-run\` |\n| Integrity manifest | \`skills.lock\` |\n| Public governance | CONTRIBUTING, SECURITY, CODE_OF_CONDUCT, GOVERNANCE |\n| Source standard | docs/SOURCE_STANDARDS.md |\n| Quality bar notes | docs/QUALITY_BAR.md |\n\n## Category Map\n\n| Category | Skills | Examples |\n|---|---:|---|\n${categoryRows}\n\n## Quality Bar\n\nThis repo is built on breadth, source hygiene, public governance, installability, and artifact-first execution rather than raw prompt count. See [docs/QUALITY_BAR.md](docs/QUALITY_BAR.md) for the quality bar and hardening notes.\n\n## Authority Catalog\n\nThe skills cite named methodologies, operators, vendor docs, and frameworks. Top recurring sources in the catalog:\n\n| Authority / Framework | Skills |\n|---|---:|\n${authorityRows}\n\nFull expert catalog — bios, public channels, and skill clusters: [references/experts.md](references/experts.md). Outbound/discovery routing: [references/gtm-experts-outbound-index.md](references/gtm-experts-outbound-index.md).\n\n## Documentation\n\n- [Install guide](docs/INSTALL.md)\n- [Architecture](docs/ARCHITECTURE.md)\n- [Skill authoring standard](docs/SKILL_AUTHORING.md)\n- [Source and authority standard](docs/SOURCE_STANDARDS.md)\n- [Quality bar notes](docs/QUALITY_BAR.md)\n- [Integrity verification](docs/INTEGRITY.md)\n- [Release process](docs/RELEASE_PROCESS.md)\n- [GitHub topics](docs/REPO_TOPICS.md)\n- [Contributing](CONTRIBUTING.md)\n- [Security](SECURITY.md)\n\n## Validate Locally\n\n\`\`\`bash\nnpm run regenerate\nnpm run verify\ngh skill publish --dry-run\n\`\`\`\n\nExpected result: ${total} skills checked, 0 errors, 0 warnings, generated artifacts current, lock verified, installer dry-run OK.\n\n## Skills Catalog\n\n`;
+let readme = `# GTM Agent Skills for Claude Code, Codex & GitHub Copilot\n\n[![Skills](https://img.shields.io/badge/skills-${total}-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-${categories.length}-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE) [![Stars](https://img.shields.io/github/stars/LeadMagic/gtm-skills?style=social)](https://github.com/LeadMagic/gtm-skills)\n\n**${total} production go-to-market (GTM) Agent Skills across ${categories.length} categories.** Install source-backed sales, marketing, outbound, RevOps, SEO, ABM, product-led growth, customer-success, analytics, and automation workflows in Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, and other Agent Skills-compatible runtimes.\n\nThis is an artifact-first skill library, not a prompt pack. Every skill ships a \`SKILL.md\`, framework notes, an output template, and an executable deliverable checker. The current catalog contains exactly **${packageFiles.length} packaged skill files**, **${frameworkAssignments} framework/source assignments**, and **${expertCount} named expert entries**. Counts and catalogs are generated from the skill folders on disk.\n\n## Install Agent Skills\n\n### Preview first, then install one skill\n\n\`\`\`bash\ngh skill preview LeadMagic/gtm-skills foundation/gtm-context-bootstrap\ngh skill install LeadMagic/gtm-skills foundation/gtm-context-bootstrap --agent codex --scope project\n\`\`\`\n\n### Install the complete catalog\n\n\`\`\`bash\n# Replace codex with github-copilot, claude-code, cursor, gemini-cli, opencode, or goose.\ngh skill install LeadMagic/gtm-skills --all --agent codex --scope user\n\n# Pin reproducible installations to a published release or commit.\ngh skill install LeadMagic/gtm-skills --all --agent codex --scope user --pin <release-tag-or-commit>\n\`\`\`\n\n### Claude Code plugin\n\n\`\`\`text\n/plugin marketplace add LeadMagic/gtm-skills\n/plugin install gtm-skills@gtm-skills\n\`\`\`\n\n### Audited local checkout\n\n\`\`\`bash\ngh repo clone LeadMagic/gtm-skills\ncd gtm-skills\n./install.sh --target codex --scope project\n./install.sh --target all --dry-run\n\`\`\`\n\nUse project scope for repository-specific work, user scope for skills you intentionally trust everywhere, and \`gh skill update --all\` to refresh tracked installs. Skills can contain executable scripts, so review before installing. See the [complete install and verification guide](docs/INSTALL.md).\n\n## Exact Catalog Value\n\n| Inventory | Exact value |\n|---|---:|\n| Marketplace-discoverable skills | ${total} |\n| Categories | ${categories.length} |\n| Skill entrypoint files | ${packageFileCounts.entrypoints} |\n| Reference files | ${packageFileCounts.references} |\n| Template files | ${packageFileCounts.templates} |\n| Script files | ${packageFileCounts.scripts} |\n| Asset files | ${packageFileCounts.assets} |\n| Other packaged files | ${packageFileCounts.other} |\n| Total packaged skill files | ${packageFiles.length} |\n| Generated shared-reference copies | ${generatedSharedReferences} |\n| Minimum required skill files | ${total * 4} |\n| Framework/source assignments | ${frameworkAssignments} |\n| Named expert index entries | ${expertCount} |\n\n## Why GTM Skills\n\n- **Concrete outputs.** Plans, scorecards, briefs, runbooks, dashboards, workflows, templates, and QA checks.\n- **Named sources.** Public operators, platform documentation, research, and standards shape the work.\n- **Progressive disclosure.** Metadata supports discovery; \`SKILL.md\` loads on activation; resources load when needed.\n- **Portable installation.** The repository follows the [Agent Skills specification](https://agentskills.io/specification) and validates with \`gh skill publish --dry-run\`.\n- **Reproducible integrity.** \`skills.lock\` inventories and hashes every packaged skill file.\n- **No telemetry.** Static content and local validation scripts only.\n\n${startHere}## Category Map\n\n| Category | Skills | Examples |\n|---|---:|---|\n${categoryRows}\n\n## Authority Catalog\n\n| Authority / Framework | Skills |\n|---|---:|\n${authorityRows}\n\nBrowse the [expert catalog](references/experts.md), [master skill index](references/skill-index-master.md), and [pitfalls index](references/pitfalls-index.md).\n\n## Validate the Repository\n\n\`\`\`bash\nnpm run regenerate\nnpm run verify\ngh skill publish --dry-run\n\`\`\`\n\nExpected result: ${total} skills checked, 0 errors, 0 warnings; ${total} checkers reject unfilled templates; generated catalogs and \`skills.lock\` are current; installer dry-runs succeed.\n\n## Skills Catalog\n\n`;
 for (const cat of categories) {
   readme += `### ${cat} (${byCategory[cat].length})\n\n`;
   for (const s of byCategory[cat])
@@ -453,7 +493,7 @@ for (const cat of categories) {
   readme += "\n";
 }
 readme += `## Contributing\n\nSee [CONTRIBUTING.md](CONTRIBUTING.md). New skills must cite named authorities, produce concrete artifacts, pass validation, and avoid private/internal details.\n`;
-// README.md is hand-maintained (viral layout) — do not auto-generate
+fs.writeFileSync(path.join(ROOT, "README.md"), readme);
 
 fs.mkdirSync(PLUGIN_DIR, { recursive: true });
 const plugin = {
@@ -465,7 +505,7 @@ const plugin = {
   license: "MIT",
   homepage: "https://github.com/LeadMagic/gtm-skills",
   repository: "https://github.com/LeadMagic/gtm-skills",
-  skills: ["skills/*/*/SKILL.md"],
+  skills: ["./skills"],
   defaultEnabled: true,
 };
 fs.writeFileSync(

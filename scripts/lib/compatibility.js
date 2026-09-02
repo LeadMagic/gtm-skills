@@ -1,5 +1,5 @@
 /** Canonical compatibility string for all marketplace skills. Keep in sync with public-repo-audit.py */
 module.exports = {
   STANDARD_COMPATIBILITY:
-    'Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose',
+    'Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed',
 };

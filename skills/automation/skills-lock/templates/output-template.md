@@ -1,69 +1,56 @@
-# Skills Lock — Deliverable
+# Skills Lock Integrity Report
 
 ## Context
-- Company / product:
-- Owner:
-- Date:
 
-## Summary
-[One paragraph: what this deliverable decides or enables]
+- Repository: `[owner/repository]`
+- Revision: `[commit or release]`
+- Scope: `[skills directory and exclusions]`
+- Checked at: `[ISO-8601 timestamp]`
 
-## Core output
+## Framework Basis
 
-<!-- Structure derived from SKILL.md Output Format -->
-```json
+- Agent Skills packaging rule: `[how self-contained artifacts are discovered]`
+- Digest standard: `[algorithm and reference]`
+- Reproducibility rule: `[sorting and volatile-field policy]`
 
-{
+## Recommendation
 
-"version": "1.0.0",
+`[Pass, fail, or remediation recommendation with the reason]`
 
-"repository": "owner/repo",
+## Artifact Inventory
 
-"generated_at": "ISO-8601",
+| Kind | Exact count |
+|---|---:|
+| Skill entrypoints | `[count]` |
+| References | `[count]` |
+| Templates | `[count]` |
+| Scripts | `[count]` |
+| Assets | `[count]` |
+| Other | `[count]` |
+| Total packaged files | `[count]` |
 
-"total_skills": N,
+## Implementation Steps
 
-"skills": {
+1. `[Generate or repair the complete manifest]`
+2. `[Verify path-set, size, and hash equality]`
+3. `[Add or update the CI drift gate]`
 
-"category/skill-name": {
+## Metrics
 
-"version": "X.Y.Z",
+- Discoverable skills: `[count]`
+- Locked packaged files: `[count]`
+- Missing records: `[count]`
+- Extra records: `[count]`
+- Hash or size mismatches: `[count]`
 
-"path": "skills/category/skill-name/SKILL.md",
+## Failures and Residual Risks
 
-"sha256": "hex-hash",
+- `[Failure, exclusion, or security boundary]`
 
-"dependencies": ["other-skill"],
+## Quality Check
 
-"frameworks": ["Framework Name (Authority)"],
-
-"size_bytes": N,
-
-"last_updated": "ISO-8601"
-
-}
-
-}
-
-}
-
-```
-
-## Frameworks Applied
-
-- **npm package-lock.json — deterministic dependency resolution**
-- **Cargo.lock (Rust) — version pinning and integrity**
-
-## Quality check
-
-Before delivering, verify:
-- [ ] Output matches the user's stated request
-- [ ] Named frameworks or sources are reflected in the recommendation
-- [ ] The deliverable is specific enough for an agent to execute
-- [ ] Any assumptions, risks, or dependencies are explicit
-- [ ] No unsupported claims, invented facts, or private/internal references are included
-
-## Next steps
-1. 
-2. 
-3. 
+- [ ] Every packaged path is represented exactly once.
+- [ ] Counts were derived from disk.
+- [ ] Hashes and byte sizes were verified.
+- [ ] No-op regeneration is stable.
+- [ ] Integrity is not presented as proof of trust.

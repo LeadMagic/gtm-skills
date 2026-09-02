@@ -3,7 +3,7 @@ name: gtm-metrics
 description: >-
   Build a GTM metrics system for SaaS: funnel conversion, pipeline velocity, win rates, CAC, payback, NRR, sales efficiency, growth accounting, and executive dashboards. Use when creating metrics dashboards, board reports, revenue reviews, operating cadence, or diagnosing growth constraints.
 license: MIT
-compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
   version: "1.4.0"
   author: LeadMagic

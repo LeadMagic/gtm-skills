@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Basic output checklist for skills-lock deliverables."""
+"""Validate a completed skills-lock integrity report."""
 from pathlib import Path
 import sys
 
@@ -12,5 +12,10 @@ text = path.read_text()
 missing = [section for section in required if section not in text]
 if missing:
     print("Missing sections:", ", ".join(missing))
+    raise SystemExit(1)
+placeholders = ("[owner/repository]", "[count]", "[Pass, fail", "[Generate or repair")
+present = [placeholder for placeholder in placeholders if placeholder in text]
+if present:
+    print("Unfilled placeholders:", ", ".join(present))
     raise SystemExit(1)
 print("OK: deliverable contains required sections")

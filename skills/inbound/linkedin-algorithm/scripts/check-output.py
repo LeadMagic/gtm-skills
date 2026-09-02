@@ -14,6 +14,13 @@ def main() -> int:
         return 2
 
     text = path.read_text(encoding="utf-8", errors="replace").lower()
+# Reject unresolved fields from the shipped output template.
+
+    if any(marker in text.lower() for marker in ('[field]', '[value]', '[company]', '[one paragraph:', '[fill per')):
+
+        print('FAIL — unresolved output-template placeholders remain')
+
+        return 1
     if len(text.strip()) < 200:
         print("FAIL — deliverable too short (<200 chars)")
         return 1

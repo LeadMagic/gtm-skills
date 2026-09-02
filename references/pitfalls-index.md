@@ -1,6 +1,6 @@
 # GTM Skills — Common Pitfalls Index
 
-Auto-generated from skill `## Common Pitfalls` sections. **1044 pitfalls** across **205** skills (206 total). Regenerate: `npm run build`.
+Auto-generated from skill `## Common Pitfalls` sections. **1064 pitfalls** across **208** skills (208 total). Regenerate: `npm run build`.
 
 Agents: load the source skill for full context, fixes, and quality checks — this index is for discovery and cross-skill pattern matching.
 
@@ -51,7 +51,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Gift to unstick deal.** — Fix: JOLT / deal desk — business problem.
 - **Ignore gift cap.** — Fix: ask champion; log in CRM.
 - **No follow-up.** — Gift arrives; nobody calls. Fix: 24h SLA + task in CRM.
-- **Same gift Tier 1 and Tier 3.** — Fix: `references/gifting-by-tier.md`.
+- **Same gift Tier 1 and Tier 3.** — Fix: `skills/abm/strategic-gifting/references/gifting-by-tier.md`.
 
 ## analytics
 
@@ -128,7 +128,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Interpreting Magic Number without considering sales cycle.** — If your sales cycle is 6+ months, comparing current quarter ARR to previous quarter S&M spend understates efficiency. The spend from 2-3 quarters ago generated this quarter's ARR. Use lagged Magic Number for enterprise.
 - **Treating Rule of 40 as a precise metric.** — Rule of 40 is a heuristic, not a law of physics. A company with 100% growth and -40% margin (score: 60) may be burning unsustainably. A company with 10% growth and 35% margin (score: 45) may be a better long-term business. Always pair Rule of 40 with qualitative assessment.
 - **Reporting metrics without cohort context.** — "NRR improved from 95% to 105%" sounds great — unless the improvement is because you stopped acquiring new customers and only retained the best ones. Cohort analysis reveals whether metric improvements reflect genuine business improvement or composition effects.
-- **CRM bookings vs committed MRR.** — Pipeline closed-won TCV ≠ board ARR. Prepay cash ≠ net new MRR. Fix: MRR bridge from billing; reconcile to CRM — `references/saas-mrr-accounting-nuances.md`, `references/benchmark-reconciliation.md`.
+- **CRM bookings vs committed MRR.** — Pipeline closed-won TCV ≠ board ARR. Prepay cash ≠ net new MRR. Fix: MRR bridge from billing; reconcile to CRM — `skills/analytics/gtm-metrics/references/saas-mrr-accounting-nuances.md`, `skills/analytics/gtm-metrics/references/benchmark-reconciliation.md`.
 
 ### [gtm-system-architecture](skills/analytics/gtm-system-architecture/SKILL.md)
 
@@ -249,10 +249,11 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ### [skills-lock](skills/automation/skills-lock/SKILL.md)
 
-- **skills.lock not updated after skill changes.** — Skill changes pushed. skills.lock stale. Validation fails. Fix: Generate skills.lock as part of the commit/push workflow. Never commit skill changes without updating the lock file.
-- **No validation in CI.** — Stale or corrupted skills.lock goes undetected. Consumers load tampered or outdated skills. Fix: CI runs validation on every push. Failing validation blocks merge.
-- **Lock file too large.** — 500+ skills with full dependency trees = multi-MB lock file. Fix: Keep it lean. SHA256 + version + path + size. Skip full metadata (frameworks, dependencies are optional extensions).
-- **No consumer documentation.** — Consumers don't know skills.lock exists or how to use it. Fix: Document in README. "To verify skill integrity: check that SHA256(skill) matches skills.lock."
+- **Hashing only `SKILL.md`** — References, templates, scripts, and assets can drift undetected. Fix: Inventory every packaged file
+- **Recording file modification time** — Checkout and archive tools can change it without changing content. Fix: Record stable path, size, and digest only
+- **Comparing only recorded entries** — Newly added files can be absent from the lock. Fix: Compare path sets in both directions
+- **Treating SHA-256 as a trust signal** — A malicious change can be re-locked. Fix: Require review, trusted distribution, and CI controls
+- **Rewriting timestamps on no-op builds** — Causes permanent generated-file churn. Fix: Ignore or preserve informational timestamps
 
 ### [tool-selection-stack](skills/automation/tool-selection-stack/SKILL.md)
 
@@ -306,6 +307,14 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Writing for search engines, not humans.** — Keyword-stuffed content that reads like a robot wrote it. Fix: write for your ICP first, optimize for search second.
 - **Publishing and praying.** — Creating content without a distribution plan. Fix: every piece gets a 30-day promotion calendar across email, social, and paid.
 - **Ignoring content freshness.** — 2-year-old content with outdated data and examples still ranking. Fix: quarterly content audit — update or retire stale pieces.
+
+### [technical-seo-audit](skills/content-seo/technical-seo-audit/SKILL.md)
+
+- **Treating a crawler score as the audit** — Scores hide evidence and business impact. Fix: Show affected URLs, templates, and search-state evidence
+- **Blocking a URL in robots.txt to remove it** — A blocked URL can remain indexed without a snippet. Fix: Allow crawling long enough to process `noindex`, or require authentication
+- **Fixing canonicals only in HTML** — Conflicting sitemaps and links keep sending mixed signals. Fix: Align redirects, canonicals, sitemaps, and internal links
+- **Using only Lighthouse lab data** — Lab runs do not represent the user distribution. Fix: Lead with field data and use lab traces for diagnosis
+- **Adding schema unrelated to visible content** — Violates eligibility guidelines. Fix: Mark up accurate, visible, feature-supported content only
 
 ## creative
 
@@ -599,6 +608,14 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Treating competitive intel as a one-time project.** — Competitors ship features, change pricing, shift positioning, and get acquired. Competitive intel that's six months old is misleading. Include a review cadence (recommended: quarterly full review, monthly spot-check for major changes).
 - **Discovery questions that are leading or aggressive.** — "Don't you find Competitor X's platform slow and buggy?" is a leading question that signals bias and creates defensiveness. SPIN-based questions should surface the prospect's actual experience: "How has the platform's performance been as your team has grown?" Let the prospect identify the weakness.
 
+### [gtm-context-bootstrap](skills/foundation/gtm-context-bootstrap/SKILL.md)
+
+- **Filling unknowns with plausible copy** — Creates a polished but false source of truth. Fix: Use `unknown`, `assumption`, and `needs owner decision` labels
+- **Mixing buyer roles** — Produces generic pain and channel guidance. Fix: Build one row per role and buying situation
+- **Treating positioning as a slogan** — Hides the logic behind the message. Fix: Preserve the full alternatives-to-value chain
+- **Copying every source into the pack** — Defeats progressive disclosure. Fix: Summarize; link the evidence and quote only decisive language
+- **Omitting freshness** — Stale pricing and product claims spread across later work. Fix: Add `as_of`, owner, and review cadence
+
 ### [gtm-context](skills/foundation/gtm-context/SKILL.md)
 
 - **ICP is too broad.** — "Mid-market SaaS companies" is not an ICP — it's a TAM. An ICP specifies industry, size band, tech stack, buying trigger, and geography. If your ICP definition doesn't exclude at least 80% of companies, it's not specific enough. Use Moore's beachhead principle: what is the narrowest segment where you can dominate?
@@ -651,9 +668,12 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ### [using-gtm-skills](skills/foundation/using-gtm-skills/SKILL.md)
 
-- **Generic output.** — The agent produces advice that could apply to any company. Fix: tie the work to the user's ICP, motion, stage, and constraints.
-- **Missing operating detail.** — The answer explains what matters but not what to do. Fix: include concrete steps, templates, fields, or decision rules.
-- **No verification step.** — The workflow ends before checking quality. Fix: include a checklist or acceptance criteria.
+- **Loading the entire catalog** — — Start with one primary skill and the smallest dependency chain.
+- **Routing by a shared keyword** — — Match the requested decision and artifact, not just topical vocabulary.
+- **Skipping GTM context** — — Bootstrap evidence before producing contradictory messaging or targeting.
+- **Installing globally by default** — — Prefer project scope; skills can include executable scripts.
+- **Treating installation as verification** — — Confirm discovery, load the named skill, inspect artifacts, and run its checker.
+- **Using stale counts or commands** — — Read generated catalogs and `docs/INSTALL.md`; do not hand-maintain totals.
 
 ## founder-led
 
@@ -935,8 +955,8 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 ### [saas-outcomes](skills/founder-led/saas-outcomes/SKILL.md)
 
 - **Default to VC without $100M story.** — Down rounds and founder replacement. Fix: name bootstrap path explicitly if TAM is niche.
-- **Single headline multiple.** — Ignores NRR, concentration, churn. Fix: driver checklist in `references/valuation-multiples.md`.
-- **Mixing playbooks.** — VC burn with bootstrap ownership goals. Fix: one primary end goal per `references/end-goal-matrix.md`.
+- **Single headline multiple.** — Ignores NRR, concentration, churn. Fix: driver checklist in `skills/founder-led/saas-outcomes/references/valuation-multiples.md`.
+- **Mixing playbooks.** — VC burn with bootstrap ownership goals. Fix: one primary end goal per `skills/founder-led/saas-outcomes/references/end-goal-matrix.md`.
 - **Selling at peak FOMO.** — After-tax hold may beat LOI. Fix: DCF vs sale scenario in `financial-modeling`.
 - **Optimizing valuation before retention.** — Multiples compress in diligence. Fix: unit economics first (Skok).
 
@@ -1050,7 +1070,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 ### [campaign-governance](skills/gtm-ops/campaign-governance/SKILL.md)
 
 - **No naming conventions.** — Campaign names like `webinar_final_v2` make attribution impossible. Fix: enforce `[Date]-[Segment]-[Channel]-[Content]-[Version]` via CRM validation.
-- **UTM chaos.** — Mixed case, hyphens, and one-off sources break warehouse joins. Fix: approved source list + UTM builder only (`references/utm-governance.md`).
+- **UTM chaos.** — Mixed case, hyphens, and one-off sources break warehouse joins. Fix: approved source list + UTM builder only (`skills/gtm-ops/campaign-governance/references/utm-governance.md`).
 - **Governance without consequences.** — Marketers ignore rules if bad data still appears in reports. Fix: exclude non-compliant campaigns from ROI dashboards.
 - **Marketing spend invisible to finance.** — Paid campaigns on personal cards. Fix: Ramp caps per program (`gtm-spend-management`).
 - **Everyone Responsible, nobody Accountable on launch.** — UTMs ship wrong; CRM empty. Fix: RACI before assets (`skills/gtm-ops/gtm-operations/templates/raci-matrix-template.md`).
@@ -1315,15 +1335,13 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ### [cold-email-strategy](skills/outbound/cold-email-strategy/SKILL.md)
 
-- **Too many touches.** — Beyond 7 touches, each additional touch has negative marginal value. Prospects who haven't responded by Touch 7 are not going to respond to Touch 8. Honor the breakup.
-- **Touch 1 product pitch.** — The biggest mistake in cold outreach. Touch 1 should surface a problem, not pitch a solution. If the prospect doesn't agree they have a problem, no amount of product detail helps.
-- **Same message, different channel.** — Copy-pasting the email into a LinkedIn DM is not multi-channel — it's annoying. Each channel touch must be written for that channel's conventions.
-- **Ignoring sending limits.** — 50 emails/day/mailbox is a hard ceiling. Google and Microsoft enforce this algorithmically. Pushing to 60-70/day gets your domain blacklisted regardless of authentication quality.
-- **No trigger branching.** — Sending the same Touch 1 to everyone regardless of signal produces list-blast results. If you're investing in trigger detection, the sequence must reward that investment with signal-specific opening lines.
-- **Customer PII in sequences.** — Never paste customer exports, support tickets, or onboarding files into sequencer fields, merge tags, or AI prompt batches. Sequences are for **lawful prospecting data** only — not file exchange. Customer data handling → `references/gtm-data-exchange-playbook.md`. Rep hygiene → `references/gtm-security-hygiene-basics.md`.
-- **No A/B testing.** — Sequences degrade over time as prospects see similar messaging from competitors. Without ongoing testing, reply rates trend toward zero over 6-12 months.
-- **No governance rules.** — Without clear rules for when to pause or escalate, SDRs default to "keep sending" — which burns domains and annoys prospects.
-- **Wrong gap timing.** — 1-day gaps feel aggressive and trigger spam filters. 5+ day gaps lose the prospect's context. 3 days is the research-backed sweet spot.
+- **Writing copy before architecture** — — Decide audience, trigger, offer, arc, and branches first.
+- **Personalization theater** — — Use evidence that changes relevance, not decorative facts.
+- **Universal cadence numbers** — — Set timing from market, signal, capacity, and observed results.
+- **Scaling on opens** — — Judge positive replies, qualified meetings, opportunities, and guardrails.
+- **No exception routing** — — Treat replies, referrals, bounces, and suppression as designed states.
+- **Mixing cells** — — Separate materially different personas, problems, triggers, or offers.
+- **Ignoring infrastructure** — — Stop and fix domain or mailbox risk before raising volume.
 
 ### [domain-infrastructure](skills/outbound/domain-infrastructure/SKILL.md)
 
@@ -1366,6 +1384,17 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No conditional logic.** — A fixed sequence that fires LinkedIn on Day 3 regardless of email engagement wastes touches. Build conditions.
 - **Different channels, different reps.** — When email and LinkedIn come from different people at your company, the prospect is confused. One rep owns the full multi-channel relationship.
 - **SMS without consent.** — TCPA (US) and GDPR (EU) require explicit opt-in. SMS to prospects who haven't consented creates legal liability.
+
+### [rb2b-outbound-triggers](skills/outbound/rb2b-outbound-triggers/SKILL.md)
+
+- **Creepy outreach** — "I saw you were on our pricing page for 3 minutes" feels like surveillance. Fix: reference the visit contextually — "Noticed you were exploring [topic] — figured I'd reach out."
+- **No ICP filter** — Every identified visitor gets a sequence. Fix: route through ICP scoring first — only Tier 1 and Tier 2 get outbound.
+- **No enrichment verification** — Sending to unverified emails from RB2B data. Fix: always run email verification before enrolling in a sequence.
+- **Slow SDR response** — Visitors identified but SDRs don't act for 2 days. Fix: Slack alert + SLA + round-robin assignment.
+- **Treating RB2B like cold outbound** — RB2B visitors are warm — don't use the same generic cold email template. Fix: customize the first touch to reference their visit context.
+- **No suppression logic** — Existing customers, partners, and competitors get the same outbound as prospects. Fix: suppress via CRM matching before enrolling.
+- **Burning phone numbers on Tier 2** — Calling every identified visitor. Fix: phone is Tier 1 only — Tier 2 is email + LinkedIn.
+- **No attribution** — RB2B-sourced meetings get lumped into "cold outbound." Fix: tag every RB2B-enrolled contact with source = "RB2B Visitor" in CRM.
 
 ### [reply-handling](skills/outbound/reply-handling/SKILL.md)
 
@@ -1519,7 +1548,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 - **Opening with "Congrats on the raise!"** — This is what every other vendor sends. It signals template outreach, not research. Fix: open with the specific use-of-funds area and connect it to a concrete problem your product solves — in the first sentence, before any acknowledgment of the raise itself.
 - **Monitoring only TechCrunch and Crunchbase.** — By the time a round is featured in press coverage, the signal is already 48–72 hours stale for US companies. Fix: add SEC Form D EDGAR alerts — US private companies file Form D shortly after closing, often weeks before press. This is the earliest public detection source available.
-- **Acting on funding alone without signal stacking.** — A funding event by itself is a noisy trigger — many funded companies are not in active vendor evaluation. Fix: require at least one corroborating signal before escalating to outreach. Use the stacking rubric in `references/framework-notes.md` to score and prioritize.
+- **Acting on funding alone without signal stacking.** — A funding event by itself is a noisy trigger — many funded companies are not in active vendor evaluation. Fix: require at least one corroborating signal before escalating to outreach. Use the stacking rubric in `skills/sales-plays/funding-signal-play/references/framework-notes.md` to score and prioritize.
 - **Contacting the account more than two weeks after the announcement.** — Per Amplemarket's research, funding signals decay after 30–60 days. Vendors who wait lose the urgency frame. Fix: set Crunchbase and EDGAR alerts for same-day notification and assign a daily signal review task — target first touch within 24 hours of stack confirmation, 48 hours maximum.
 
 ### [hiring-signal-play](skills/sales-plays/hiring-signal-play/SKILL.md)

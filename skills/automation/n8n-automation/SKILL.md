@@ -5,7 +5,7 @@ description: >-
   pipelines, error handling, Clay export replacement for complex cases. Use when
   building n8n workflows or automating GTM processes beyond Clay.
 license: MIT
-compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -117,10 +117,11 @@ Before delivering, verify:
 ## Execution Artifacts
 
 - `references/framework-notes.md` — named frameworks, citation anchors, and operating assumptions
+- `references/gtm-flow-catalog.md` — Reusable GTM automation flow catalog
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
 This skill includes lightweight artifacts the agent can load on demand:
-- `references/gtm-automation-expert-playbook.md` — Jen Igartua RevOps automation strategy (repo root; Pattern 30)
+- `references/gtm-automation-expert-playbook.md` — Jen Igartua RevOps automation strategy (shared repository reference; Pattern 30)
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

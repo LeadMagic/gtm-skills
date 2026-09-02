@@ -9,7 +9,7 @@ description: >-
   email," "draft outreach," "improve my cold email copy," "subject line
   help," or "personalize this email."
 license: MIT
-compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic

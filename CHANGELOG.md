@@ -2,6 +2,21 @@
 
 All notable changes to GTM Skills are documented here.
 
+## Unreleased — Installation, Catalog Accuracy, and SEO Hardening
+
+- Added `gtm-context-bootstrap` and `technical-seo-audit`, bringing the catalog to **208 skills across 24 categories**.
+- Rebuilt the public README from the on-disk catalog with exact skill, category, artifact, framework-assignment, and expert-index counts.
+- Expanded `skills.lock` to inventory and hash every packaged entrypoint, reference, template, script, and asset, with exact per-kind totals and path-set verification.
+- Added an artifact hygiene audit and made the 500-physical-line `SKILL.md` limit a strict, exception-free CI gate.
+- Replaced invalid or stale install commands with current `gh skill install` and Claude plugin flows, including preview, scope, pinning, update, and verification guidance.
+- Reworked the local installer to install individual skill folders at agent discovery roots, preserve project/user scope, refuse silent replacement, and materialize required shared references.
+- Materialized 264 direct shared-reference dependencies into their owning skills so standard one-skill installs remain portable, with generated-copy drift checks in CI.
+- Added repository-wide checker execution; all deliverable validators must be executable, return a usage error consistently, and reject their shipped unfilled templates.
+- Hardened 24 weak checkers that previously accepted unfilled output templates and normalized executable permissions across the catalog.
+- Refactored the two overlong entrypoints into concise progressive-disclosure skills while preserving their full router and cold-email playbooks as on-demand references.
+- Fixed the Claude plugin skill root and verified the marketplace manifest in strict mode.
+- Added generated-README drift protection and expanded public metadata checks so stale catalog counts fail CI.
+
 ## v0.27.3 — Weak Skill Artifact Cleanup
 
 - Audited 205 skills for missing or thin artifacts; added `references/framework-notes.md` to 15 skills that had expert refs but no framework index (outbound stack, inbound LinkedIn skills, recruiting, leadership, JOLT).

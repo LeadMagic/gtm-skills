@@ -8,7 +8,7 @@ description: >-
   "battlecard", "competitive battlecard", "competitor comparison", "Why We Win",
   "objection handling card", "competitor intel", or any competitive enablement.
 license: MIT
-compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic

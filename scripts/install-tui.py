@@ -1,187 +1,248 @@
 #!/usr/bin/env python3
-"""Interactive installer for LeadMagic GTM Skills.
+"""Install LeadMagic GTM Skills into supported agent runtimes.
 
-No dependencies. Supports every system in the repo compatibility string.
-Run:
-  python3 scripts/install-tui.py
-  python3 scripts/install-tui.py --target hermes --dry-run
-  python3 scripts/install-tui.py --target jesse --project /path/to/project
+The preferred portable path is GitHub CLI's ``gh skill install`` command. The
+installer uses the checked-out repository as its source, so a local audit and
+the installed content refer to the same files. Claude Code uses the repository's
+native plugin marketplace. A dependency-free copy fallback installs each skill
+at the discovery root instead of nesting the repository above the SKILL.md files.
 """
 from __future__ import annotations
 
 import argparse
 import os
+import re
 import shutil
 import subprocess
-import sys
 from dataclasses import dataclass
 from pathlib import Path
 
 REPO = "LeadMagic/gtm-skills"
 ROOT = Path(__file__).resolve().parents[1]
 SKILLS = ROOT / "skills"
-AGENTS = ROOT / "AGENTS.md"
-CLAUDE = ROOT / "CLAUDE.md"
+SHARED_REFERENCES = ROOT / "references"
 
 
-@dataclass
+@dataclass(frozen=True)
 class Target:
     key: str
     label: str
-    kind: str  # cli, copy, instructions
-    command: list[str] | None = None
-    path_template: str | None = None
-    notes: str = ""
+    gh_agent: str | None
+    project_path: str
+    user_path: str
+    notes: str
+    aliases: tuple[str, ...] = ()
 
 
-TARGETS: list[Target] = [
-    Target("claude", "Claude Code", "cli", ["claude", "plugins", "add", REPO], notes="Preferred path: Claude plugin install."),
-    Target("jesse", "Jesse", "copy", path_template="{project}/.jesse/skills/gtm-skills", notes="Project-local skills directory."),
-    Target("codex", "Codex", "cli", ["codex", "skills", "install", REPO], path_template="{home}/.codex/skills/gtm-skills", notes="Uses Codex CLI when available; falls back to local copy."),
-    Target("hermes", "Hermes", "cli", ["hermes", "skills", "install", REPO], path_template="{home}/.hermes/skills/gtm-skills", notes="Uses Hermes CLI when available; falls back to local copy."),
-    Target("windsurf", "Windsurf", "copy", path_template="{project}/.windsurf/skills/gtm-skills", notes="Project-local Windsurf skill directory."),
-    Target("opencode", "OpenCode", "copy", path_template="{project}/.opencode/skills/gtm-skills", notes="Project-local OpenCode skill directory."),
-    Target("gemini", "Gemini CLI", "copy", path_template="{project}/.gemini/skills/gtm-skills", notes="Project-local Gemini skills directory."),
-    Target("copilot", "GitHub Copilot", "instructions", path_template="{project}/.github/copilot-instructions.md", notes="Writes an instructions file that points Copilot at AGENTS.md and the copied skills."),
-    Target("zed", "Zed", "instructions", path_template="{project}/AGENTS.md", notes="Zed reads AGENTS.md from the project root."),
-    Target("vscode", "VS Code", "instructions", path_template="{project}/.github/copilot-instructions.md", notes="Same install path as Copilot agent mode."),
-    Target("goose", "Goose", "copy", path_template="{home}/.config/goose/skills/gtm-skills", notes="Local Goose skills directory."),
-]
+TARGETS: tuple[Target, ...] = (
+    Target(
+        "claude", "Claude Code", None, ".claude/skills", "~/.claude/skills",
+        "Uses the native Claude plugin marketplace; local-copy fallback is available.",
+        ("claude-code",),
+    ),
+    Target(
+        "copilot", "GitHub Copilot", "github-copilot", ".github/skills", "~/.copilot/skills",
+        "Uses GitHub's Agent Skills installer.", ("github-copilot", "vscode"),
+    ),
+    Target("codex", "Codex", "codex", ".agents/skills", "~/.codex/skills", "Uses GitHub's Agent Skills installer."),
+    Target("cursor", "Cursor", "cursor", ".agents/skills", "~/.agents/skills", "Uses the shared Agent Skills directory."),
+    Target("gemini", "Gemini CLI", "gemini-cli", ".agents/skills", "~/.agents/skills", "Uses the shared Agent Skills directory.", ("gemini-cli",)),
+    Target("opencode", "OpenCode", "opencode", ".agents/skills", "~/.agents/skills", "Uses the shared Agent Skills directory."),
+    Target("windsurf", "Windsurf", "windsurf", ".agents/skills", "~/.agents/skills", "Uses the shared Agent Skills directory."),
+    Target("goose", "Goose", "goose", ".agents/skills", "~/.agents/skills", "Uses GitHub's Agent Skills installer."),
+    Target("hermes", "Hermes", "universal", ".agents/skills", "~/.agents/skills", "Uses the universal Agent Skills directory."),
+    Target("jesse", "Jesse", None, ".jesse/skills", "~/.jesse/skills", "Uses Jesse's local skills directory."),
+)
 
 
-def run(cmd: list[str], dry: bool) -> int:
-    print("$ " + " ".join(cmd))
-    if dry:
+def run(command: list[str], *, cwd: Path, dry_run: bool) -> int:
+    print("$ " + " ".join(command))
+    if dry_run:
         return 0
-    return subprocess.call(cmd)
+    return subprocess.run(command, cwd=cwd, check=False).returncode
 
 
-def copy_tree(src: Path, dst: Path, dry: bool) -> None:
-    print(f"copy {src} -> {dst}")
-    if dry:
-        return
-    dst.parent.mkdir(parents=True, exist_ok=True)
-    if dst.exists():
-        shutil.rmtree(dst)
-    ignore = shutil.ignore_patterns(".git", "node_modules", "*.pyc", "__pycache__")
-    shutil.copytree(src, dst, ignore=ignore)
+def discover_skills() -> list[Path]:
+    return sorted(path.parent for path in SKILLS.glob("*/*/SKILL.md"))
 
 
-def write_file(path: Path, content: str, dry: bool) -> None:
-    print(f"write {path}")
-    if dry:
-        return
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(content)
+def destination_root(target: Target, project: Path, scope: str) -> Path:
+    template = target.project_path if scope == "project" else target.user_path
+    base = Path(template).expanduser()
+    return base if base.is_absolute() else project / base
 
 
-def expand(template: str, project: Path) -> Path:
-    return Path(template.format(home=str(Path.home()), project=str(project))).expanduser()
+def copy_referenced_shared_files(
+    destination: Path,
+    dry_run: bool,
+    skill_sources: list[Path] | None = None,
+) -> int:
+    """Materialize repo-level references so every installed skill is self-contained."""
+    copied = 0
+    for source_skill in skill_sources if skill_sources is not None else discover_skills():
+        referenced: set[str] = set()
+        for markdown in source_skill.rglob("*.md"):
+            referenced.update(
+                re.findall(
+                    r"(?<![A-Za-z0-9_./-])references/([A-Za-z0-9._-]+\.md)",
+                    markdown.read_text(encoding="utf-8", errors="replace"),
+                )
+            )
+        for filename in sorted(referenced):
+            source = SHARED_REFERENCES / filename
+            if not source.exists() or (source_skill / "references" / filename).exists():
+                continue
+            target = destination / source_skill.name / "references" / filename
+            if not dry_run:
+                target.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(source, target)
+            copied += 1
+    if copied:
+        print(f"copy {copied} referenced shared files into installed skill folders")
+    return copied
 
 
-def install(target: Target, project: Path, dry: bool) -> None:
-    print(f"\n==> {target.label}")
-    print(target.notes)
+def copy_skills(target: Target, project: Path, scope: str, dry_run: bool, force: bool) -> int:
+    destination = destination_root(target, project, scope)
+    skills = discover_skills()
+    print(f"copy {len(skills)} individual skill folders -> {destination}")
+    if dry_run:
+        return len(skills)
 
-    if target.kind == "cli" and target.command:
-        if dry:
-            run(target.command, dry)
-            print(f"OK (dry-run): {target.label} installs via `{target.command[0]}` when the CLI is available.")
-            if target.path_template:
-                print("Fallback if the CLI is unavailable:")
-                copy_tree(ROOT, expand(target.path_template, project), dry)
-            return
-        if shutil.which(target.command[0]):
-            code = run(target.command, dry)
-            if code == 0:
-                print(f"OK: {target.label} installed via CLI")
-                return
-            print(f"CLI install failed with exit code {code}; trying fallback copy if available.")
-        else:
-            print(f"{target.command[0]} not found; trying fallback copy if available.")
+    destination.mkdir(parents=True, exist_ok=True)
+    installed = 0
+    installed_sources: list[Path] = []
+    for source in skills:
+        target_dir = destination / source.name
+        if target_dir.exists():
+            if not force:
+                print(f"SKIP: {target_dir} already exists (pass --force to replace it)")
+                continue
+            shutil.rmtree(target_dir)
+        shutil.copytree(
+            source,
+            target_dir,
+            ignore=shutil.ignore_patterns(".DS_Store", "*.pyc", "__pycache__"),
+        )
+        installed += 1
+        installed_sources.append(source)
+    copy_referenced_shared_files(destination, dry_run=False, skill_sources=installed_sources)
+    return installed
 
-    if target.kind in {"copy", "cli"} and target.path_template:
-        copy_tree(ROOT, expand(target.path_template, project), dry)
-        print("OK: copied repository with all skills and artifacts")
-        return
 
-    if target.kind == "instructions":
-        if target.path_template is None:
-            raise RuntimeError(f"No instruction path configured for {target.key}")
-        if target.key in {"copilot", "vscode"}:
-            skills_dst = project / ".github" / "skills" / "gtm-skills"
-            copy_tree(ROOT, skills_dst, dry)
-            content = """# GTM Skills for Copilot / VS Code Agent Mode
+def install_claude(target: Target, project: Path, scope: str, dry_run: bool, force: bool) -> bool:
+    if shutil.which("claude"):
+        run(
+            ["claude", "plugin", "marketplace", "add", REPO, "--scope", scope],
+            cwd=project,
+            dry_run=dry_run,
+        )
+        install_code = run(
+            ["claude", "plugin", "install", "gtm-skills@gtm-skills", "--scope", scope, "--yes"],
+            cwd=project,
+            dry_run=dry_run,
+        )
+        if install_code == 0:
+            print("OK: Claude Code plugin installed")
+            return True
+        print("Claude plugin install failed; using the local skill-copy fallback.")
+    else:
+        print("Claude CLI not found; using the local skill-copy fallback.")
 
-Use the skills in `.github/skills/gtm-skills/skills/` when the user asks for GTM,
-sales, marketing, customer success, RevOps, prospecting, outbound, PLG, analytics,
-or founder-led SaaS work.
+    installed = copy_skills(target, project, scope, dry_run, force)
+    print(f"OK: {installed} Claude skill folders copied")
+    return installed == len(discover_skills())
 
-Start with `.github/skills/gtm-skills/AGENTS.md` for the full skill index.
-Load individual `SKILL.md` files only when they match the task.
-"""
-            write_file(expand(target.path_template, project), content, dry)
-            print("OK: copied skills and wrote Copilot instructions")
-            return
-        if target.key == "zed":
-            source = AGENTS.read_text() if AGENTS.exists() else "# GTM Skills\n"
-            content = source + "\n\nInstalled by scripts/install-tui.py from LeadMagic/gtm-skills.\n"
-            write_file(expand(target.path_template, project), content, dry)
-            copy_tree(ROOT, project / ".zed" / "skills" / "gtm-skills", dry)
-            print("OK: wrote AGENTS.md and copied skills under .zed/skills")
-            return
 
-    raise RuntimeError(f"No install strategy for {target.key}")
+def install_agent(target: Target, project: Path, scope: str, dry_run: bool, force: bool) -> bool:
+    if target.gh_agent and shutil.which("gh"):
+        command = [
+            "gh", "skill", "install", str(ROOT), "--from-local", "--all",
+            "--agent", target.gh_agent, "--scope", scope,
+        ]
+        if force:
+            command.append("--force")
+        if run(command, cwd=project, dry_run=dry_run) == 0:
+            copy_referenced_shared_files(destination_root(target, project, scope), dry_run)
+            print(f"OK: {target.label} skills installed with GitHub CLI")
+            return True
+        print("GitHub CLI skill install failed; using the local-copy fallback.")
+
+    installed = copy_skills(target, project, scope, dry_run, force)
+    print(f"OK: {installed} {target.label} skill folders copied")
+    return installed == len(discover_skills())
 
 
 def choose_targets() -> list[Target]:
     print("\nLeadMagic GTM Skills Installer")
-    print("Select targets. Use comma-separated numbers, 'all', or Enter for Hermes + Claude + Jesse.\n")
-    for i, t in enumerate(TARGETS, 1):
-        print(f"{i:2d}. {t.label:18} {t.notes}")
+    print("Select targets by number or key, comma-separated; press Enter for Claude + Codex.\n")
+    for index, target in enumerate(TARGETS, 1):
+        print(f"{index:2d}. {target.label:18} {target.notes}")
     raw = input("\nInstall targets: ").strip().lower()
     if not raw:
-        wanted = {"hermes", "claude", "jesse"}
-        return [t for t in TARGETS if t.key in wanted]
+        return [target for target in TARGETS if target.key in {"claude", "codex"}]
     if raw == "all":
-        return TARGETS
-    selected = []
-    for part in raw.split(','):
-        part = part.strip()
-        if not part:
-            continue
-        if part.isdigit():
-            selected.append(TARGETS[int(part) - 1])
+        return list(TARGETS)
+
+    selected: list[Target] = []
+    for value in (part.strip() for part in raw.split(",")):
+        if value.isdigit() and 1 <= int(value) <= len(TARGETS):
+            target = TARGETS[int(value) - 1]
         else:
-            match = next((t for t in TARGETS if t.key == part), None)
-            if not match:
-                raise SystemExit(f"Unknown target: {part}")
-            selected.append(match)
+            target = next((item for item in TARGETS if value in (item.key, *item.aliases)), None)
+        if target is None:
+            raise SystemExit(f"Unknown target: {value}")
+        if target not in selected:
+            selected.append(target)
+    return selected
+
+
+def resolve_requested_targets(values: list[str] | None) -> list[Target]:
+    if not values:
+        return choose_targets()
+    if "all" in values:
+        return list(TARGETS)
+    selected: list[Target] = []
+    for value in values:
+        target = next((item for item in TARGETS if value in (item.key, *item.aliases)), None)
+        if target and target not in selected:
+            selected.append(target)
     return selected
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Install LeadMagic GTM Skills into supported AI agent systems.")
-    parser.add_argument("--target", action="append", choices=[t.key for t in TARGETS] + ["all"], help="Target system. Repeatable. Omit for interactive TUI.")
-    parser.add_argument("--project", default=os.getcwd(), help="Project directory for project-local installs. Default: cwd.")
-    parser.add_argument("--dry-run", action="store_true", help="Print actions without writing files or running install commands.")
+    keys = sorted({"all", *(target.key for target in TARGETS), *(alias for target in TARGETS for alias in target.aliases)})
+    parser = argparse.ArgumentParser(description="Install LeadMagic GTM Skills into supported AI agents.")
+    parser.add_argument("--target", action="append", choices=keys, help="Target agent. Repeatable; omit for the interactive picker.")
+    parser.add_argument("--scope", choices=("project", "user"), default="project", help="Install scope (default: project).")
+    parser.add_argument("--project", default=os.getcwd(), help="Project directory for project-scoped installs (default: cwd).")
+    parser.add_argument("--force", action="store_true", help="Replace existing skill folders.")
+    parser.add_argument("--dry-run", action="store_true", help="Print commands and destinations without changing files.")
     args = parser.parse_args()
 
     if not SKILLS.exists():
         raise SystemExit(f"Cannot find skills directory at {SKILLS}")
 
     project = Path(args.project).expanduser().resolve()
-    if args.target:
-        keys = {k for item in args.target for k in ([t.key for t in TARGETS] if item == "all" else [item])}
-        selected = [t for t in TARGETS if t.key in keys]
-    else:
-        selected = choose_targets()
+    if args.scope == "project" and not args.dry_run:
+        project.mkdir(parents=True, exist_ok=True)
 
+    selected = resolve_requested_targets(args.target)
+    failures = 0
     for target in selected:
-        install(target, project, args.dry_run)
+        print(f"\n==> {target.label} ({args.scope} scope)")
+        print(target.notes)
+        ok = (
+            install_claude(target, project, args.scope, args.dry_run, args.force)
+            if target.key == "claude"
+            else install_agent(target, project, args.scope, args.dry_run, args.force)
+        )
+        failures += int(not ok)
 
-    print("\nDone. Verification prompt: ask your agent to list available GTM skills, then load `foundation/using-gtm-skills`.")
-    return 0
+    total = len(discover_skills())
+    print(f"\nDone. Catalog source contained exactly {total} skills.")
+    print("Verify with `gh skill list` when installed through GitHub CLI, then ask the agent to load `using-gtm-skills`.")
+    return 1 if failures else 0
 
 
 if __name__ == "__main__":

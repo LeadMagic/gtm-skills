@@ -1,137 +1,126 @@
-# AI System Install Guide
+# Install GTM Agent Skills
 
-GTM Skills follows the [Agent Skills open standard](https://agentskills.io/specification). Every skill is a `SKILL.md` file with YAML frontmatter and Markdown body. Skills work anywhere the standard is supported.
+GTM Skills follows the [Agent Skills specification](https://agentskills.io/specification). The generated README and `skills.lock` contain the exact current catalog count; installation commands discover skills from the folders on disk. Repository-level reference sources are materialized into the skills that use them, so an installed skill does not depend on the rest of the checkout.
 
-## Supported Systems — 11 Platforms
+GitHub CLI skill commands are currently in public preview and require GitHub CLI 2.90.0 or later. Check with `gh --version`, preview the requested skill before installation, and review executable scripts before granting a skill user-wide scope.
 
-These are the systems in the repo compatibility string. The TUI installer supports all of them.
+## Recommended path: GitHub CLI
 
-| # | System | TUI Key | Install Method | Path / Behavior |
-|---|---|---|---|---|
-| 1 | **Claude Code** | `claude` | `claude plugins add LeadMagic/gtm-skills` | Preferred plugin install |
-| 2 | **Jesse** | `jesse` | Project-local copy | `.jesse/skills/gtm-skills/` |
-| 3 | **Codex** | `codex` | `codex skills install LeadMagic/gtm-skills` or local copy | `~/.codex/skills/gtm-skills/` fallback |
-| 4 | **Hermes** | `hermes` | `hermes skills install LeadMagic/gtm-skills` or local copy | `~/.hermes/skills/gtm-skills/` fallback |
-| 5 | **Windsurf** | `windsurf` | Project-local copy | `.windsurf/skills/gtm-skills/` |
-| 6 | **OpenCode** | `opencode` | Project-local copy | `.opencode/skills/gtm-skills/` |
-| 7 | **Gemini CLI** | `gemini` | Project-local copy | `.gemini/skills/gtm-skills/` |
-| 8 | **GitHub Copilot** | `copilot` | Copy + instructions | `.github/skills/gtm-skills/` and `.github/copilot-instructions.md` |
-| 9 | **Zed** | `zed` | AGENTS.md + local copy | `AGENTS.md` and `.zed/skills/gtm-skills/` |
-| 10 | **VS Code** | `vscode` | Copy + instructions | same path as Copilot agent mode |
-| 11 | **Goose** | `goose` | Local copy | `~/.config/goose/skills/gtm-skills/` |
+Recent GitHub CLI releases include `gh skill`, which discovers, previews, installs, lists, updates, and publishes Agent Skills.
 
-## How Skills Get Discovered
+### 1. Review before installing
 
-Each system reads `name` and `description` from every skill's YAML frontmatter at startup. When your request matches a skill's description, the system loads the full skill body. You don't invoke skills by name — describe what you need and the right skill activates automatically.
-
-**Progressive disclosure:** Level 1 loads metadata (~100 tokens per skill). Level 2 loads the full SKILL.md body. Level 3 loads references, templates, scripts, and assets on demand.
-
-## Quick Install — TUI
+Skills can contain instructions and executable scripts. Preview the exact skill and inspect its files before granting it access to a trusted project or user-wide scope.
 
 ```bash
-git clone https://github.com/LeadMagic/gtm-skills.git
+gh skill preview LeadMagic/gtm-skills foundation/gtm-context-bootstrap
+```
+
+### 2. Install the narrowest useful scope
+
+Project scope keeps the skill inside the current repository. User scope makes it available across projects and should be reserved for sources you intentionally trust.
+
+```bash
+# One skill in the current project
+gh skill install LeadMagic/gtm-skills foundation/gtm-context-bootstrap \
+  --agent codex --scope project
+
+# Every skill for the current user
+gh skill install LeadMagic/gtm-skills --all \
+  --agent codex --scope user
+```
+
+Supported `--agent` values include `github-copilot`, `claude-code`, `cursor`, `codex`, `gemini-cli`, `opencode`, `windsurf`, `goose`, and `universal`. Run `gh skill install --help` for the authoritative list in your installed GitHub CLI version.
+
+### 3. Pin reproducible installs
+
+Use a release tag or commit SHA when repeatability matters:
+
+```bash
+gh skill install LeadMagic/gtm-skills foundation/gtm-context-bootstrap \
+  --agent codex --scope project --pin <release-tag-or-commit>
+```
+
+Without a pin, GitHub CLI resolves the latest tagged release and then the default branch. Do not assume an untagged package version is installable as a release.
+
+### 4. Verify and update
+
+```bash
+gh skill list
+gh skill update --all
+```
+
+After installation, ask the target agent to list available GTM skills and load `using-gtm-skills`. For a single-skill test, ask it to load the installed skill by name and identify its execution artifacts.
+
+## Claude Code plugin
+
+The native plugin install exposes the complete repository:
+
+```text
+/plugin marketplace add LeadMagic/gtm-skills
+/plugin install gtm-skills@gtm-skills
+```
+
+Non-interactive CLI equivalent:
+
+```bash
+claude plugin marketplace add LeadMagic/gtm-skills --scope user
+claude plugin install gtm-skills@gtm-skills --scope user --yes
+```
+
+## Audited local checkout
+
+Use the repository installer when you want to inspect the exact files first or when GitHub CLI skill installation is unavailable:
+
+```bash
+gh repo clone LeadMagic/gtm-skills
 cd gtm-skills
-./install.sh
 
-# Non-interactive examples
-./install.sh --target hermes
-./install.sh --target jesse --project /path/to/project
+# Show commands and destinations without changing anything
 ./install.sh --target all --dry-run
+
+# Install into one project
+./install.sh --target codex --scope project --project /path/to/project
+
+# Replace an existing install only when explicitly intended
+./install.sh --target codex --scope project --project /path/to/project --force
 ```
 
-The installer is dependency-free Python. It uses official CLIs when available and safe local-copy fallbacks when they are not.
+The local installer copies each skill directly under the target discovery root. It does not silently replace existing skills unless `--force` is supplied.
 
-## Quick Install — Manual
+Available local target keys:
+
+| Target | Project discovery root | Preferred mechanism |
+|---|---|---|
+| `claude` | `.claude/skills/` | Claude plugin; direct-copy fallback |
+| `copilot` / `vscode` | `.github/skills/` | `gh skill --agent github-copilot` |
+| `codex` | `.agents/skills/` | `gh skill --agent codex` |
+| `cursor` | `.agents/skills/` | `gh skill --agent cursor` |
+| `gemini` | `.agents/skills/` | `gh skill --agent gemini-cli` |
+| `opencode` | `.agents/skills/` | `gh skill --agent opencode` |
+| `windsurf` | `.agents/skills/` | `gh skill --agent windsurf` |
+| `goose` | `.agents/skills/` | `gh skill --agent goose` |
+| `hermes` | `.agents/skills/` | Universal Agent Skills directory |
+| `jesse` | `.jesse/skills/` | Direct local copy |
+
+## Curated Claude installer
+
+The repository also includes a selector for categories, bundles, or individual skills:
 
 ```bash
-# Claude Code
-claude plugins add LeadMagic/gtm-skills
-
-# Hermes Agent
-hermes skills install LeadMagic/gtm-skills
-
-# Project-local systems
-cp -R . .jesse/skills/gtm-skills
-cp -R . .windsurf/skills/gtm-skills
-cp -R . .opencode/skills/gtm-skills
-cp -R . .gemini/skills/gtm-skills
+python3 scripts/cc-gtm.py --list
+python3 scripts/cc-gtm.py --bundle startup-essentials --dry-run
+python3 scripts/cc-gtm.py --skills gtm-context-bootstrap,technical-seo-audit
 ```
 
-## Per-System Detail
+Selected skills are installed directly under `.claude/skills/<skill-name>/`. Generated skill-local reference copies keep each selected installation independent of the repository checkout.
 
-### Claude Code
-
-Preferred path:
+## Maintainer verification
 
 ```bash
-claude plugins add LeadMagic/gtm-skills
+npm run regenerate
+npm run verify
+gh skill publish --dry-run
 ```
 
-### Jesse
-
-Use the installer or copy the repo into `.jesse/skills/gtm-skills/` for project-local discovery.
-
-```bash
-./install.sh --target jesse --project /path/to/project
-```
-
-### Codex
-
-Use the Codex CLI if available. The installer falls back to a local copy under `~/.codex/skills/gtm-skills/`.
-
-```bash
-./install.sh --target codex
-```
-
-### Hermes
-
-Use the Hermes CLI if available. The installer falls back to a local copy under `~/.hermes/skills/gtm-skills/`.
-
-```bash
-./install.sh --target hermes
-```
-
-### Windsurf / OpenCode / Gemini CLI
-
-Use project-local copies:
-
-```bash
-./install.sh --target windsurf --project /path/to/project
-./install.sh --target opencode --project /path/to/project
-./install.sh --target gemini --project /path/to/project
-```
-
-### Copilot / VS Code
-
-The installer copies the skills under `.github/skills/gtm-skills/` and writes `.github/copilot-instructions.md` pointing the agent to the repo index.
-
-```bash
-./install.sh --target copilot --project /path/to/project
-./install.sh --target vscode --project /path/to/project
-```
-
-### Zed
-
-The installer writes `AGENTS.md` and copies the full skill repo under `.zed/skills/gtm-skills/`.
-
-```bash
-./install.sh --target zed --project /path/to/project
-```
-
-### Goose
-
-The installer copies the full repo under `~/.config/goose/skills/gtm-skills/`.
-
-```bash
-./install.sh --target goose
-```
-
-## Category Quick Reference
-
-Run this to regenerate the complete category index from the current repository state:
-
-```bash
-node scripts/generate-indexes.js
-```
-
-The generated `AGENTS.md`, `CLAUDE.md`, `taxonomy.csv`, and `skills.lock` are the source of truth for the complete skill catalog.
+`npm run verify` validates every skill and reference, executes every deliverable checker against its unfilled template, verifies the integrity manifest, exercises installer dry-runs, audits public metadata, and confirms generated catalogs have no drift.

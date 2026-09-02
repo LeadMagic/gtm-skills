@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Audit skill layout and link resolvability across LeadMagic/gtm-skills.
 
-Checks every skills/<category>/<skill>/ tree:
+Checks every skills/<category>/<skill>/ tree and the repository reference catalog:
   (a) SKILL.md at flat depth skills/<category>/<skill>/SKILL.md
   (b) frontmatter name equals directory name
   (c) resolvable reference targets in SKILL.md plus references/*.md and templates/*.md
@@ -137,6 +137,13 @@ def main() -> int:
             for target in extract_targets(scan_content):
                 if not target_resolves(target, scan_path, skill_dir):
                     bad_refs.append(f"{scan_path.relative_to(ROOT).as_posix()}: {target}")
+
+    for scan_path in sorted((ROOT / "references").glob("*.md")):
+        files_scanned += 1
+        scan_content = scan_path.read_text(encoding="utf-8", errors="replace")
+        for target in extract_targets(scan_content):
+            if not target_resolves(target, scan_path, ROOT):
+                bad_refs.append(f"{scan_path.relative_to(ROOT).as_posix()}: {target}")
 
     findings = len(bad_depth) + len(bad_name) + len(bad_refs)
     if bad_depth:

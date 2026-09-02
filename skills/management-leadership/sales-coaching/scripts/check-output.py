@@ -11,6 +11,10 @@ REQUIRED = [
 OPTIONAL_BONUS = [r"jacco|winning by design", r"jolt|indecision", r"call coaching|one keep"]
 
 def check(content: str) -> list[str]:
+# Reject unresolved fields from the shipped output template.
+    if any(marker in content.lower() for marker in ('[field]', '[value]', '[company]', '[one paragraph:', '[fill per')):
+        print('FAIL — unresolved output-template placeholders remain')
+        return 1
     if not content.strip():
         return ["Empty deliverable"]
     lower = content.lower()

@@ -1,19 +1,17 @@
 # Integrity Verification
 
-GTM Skills includes `skills.lock`, a deterministic integrity manifest for every marketplace-discoverable skill.
+GTM Skills includes `skills.lock`, a deterministic SHA-256 manifest for every packaged file beneath `skills/`.
 
-## Why It Exists
+## Exact Scope
 
-Agent skills are instructions that can affect business workflows. A public repo should make it easy to detect accidental or malicious changes.
+The lock is generated from the filesystem and records:
 
-`skills.lock` records:
+- Every marketplace-discoverable `SKILL.md`.
+- Every packaged reference, template, script, and asset.
+- Repository-relative path, SHA-256 digest, byte size, and artifact kind.
+- Exact skill count, total packaged-file count, and per-kind counts.
 
-- Skill slug.
-- File path.
-- SHA256 hash.
-- File size.
-- Last modified timestamp.
-- Total skill count.
+The informational `generated_at` timestamp is ignored for equality and preserved after a no-op generation. File modification times and inferred dependencies are intentionally excluded because they are not stable package facts.
 
 ## Generate
 
@@ -21,7 +19,7 @@ Agent skills are instructions that can affect business workflows. A public repo 
 python3 scripts/generate-skills-lock.py
 ```
 
-Or:
+Or regenerate every derived catalog:
 
 ```bash
 npm run build
@@ -30,35 +28,23 @@ npm run build
 ## Verify
 
 ```bash
+python3 scripts/audit-artifacts.py
 python3 scripts/generate-skills-lock.py --check
 ```
 
-Or:
+Or run the full repository suite:
 
 ```bash
-npm run check:lock
+npm run verify
+gh skill publish --dry-run
 ```
 
-Expected output (count matches the current catalog):
+Successful verification reports the current exact skill and packaged-file totals. Counts are generated rather than copied into this guide, so the command output and `skills.lock` remain authoritative as the catalog changes.
 
-```text
-skills.lock verified: 205 skills
-```
+## What Verification Proves
 
-## Consumer Verification
-
-Consumers can verify a skill before loading it:
-
-```bash
-python3 scripts/generate-skills-lock.py --check
-```
-
-If verification fails, refresh the repo or inspect the changed files before using the skills.
+A passing lock check proves that the packaged files match the committed manifest byte for byte and that no packaged path is missing or extra. It does not prove authorship, factual accuracy, safe script behavior, or approval. Review skills and scripts before installation and pin trusted releases or commits when reproducibility matters.
 
 ## CI Enforcement
 
-CI runs lock verification on every push and PR. If a skill changes and `skills.lock` is not regenerated, the build fails.
-
-## Stable Timestamps
-
-The lock generator preserves `generated_at` when hashes and skill count are unchanged. This prevents generated-file drift from failing CI after a no-op build.
+CI checks artifact hygiene, full lock coverage, hashes, byte sizes, kinds, generated-file drift, installer behavior, and the GitHub CLI publication preview on every relevant push and pull request. Any packaged-file change requires regeneration of `skills.lock`.

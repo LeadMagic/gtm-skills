@@ -9,7 +9,7 @@ description: >-
   team members to build with AI. Triggers on: "vibe coding", "AI dev tools",
   "build with AI", "v0 by Vercel", "Lovable", "Bolt", "Jesse IDE".
 license: MIT
-compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic

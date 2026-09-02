@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """cc-gtm — Smart Claude installer for LeadMagic GTM Skills.
 
-Pick exactly which skills to install — not all 205.
+Pick exactly which skills to install from the current catalog.
 Zero dependencies. Installs only what you choose.
 
 Supports:
@@ -26,6 +26,7 @@ from __future__ import annotations
 
 import argparse
 import os
+import re
 import shutil
 import sys
 from pathlib import Path
@@ -33,7 +34,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SKILLS_DIR = ROOT / "skills"
 REFERENCES_DIR = ROOT / "references"
-DEFAULT_REL = ".claude/skills/gtm-skills"
+DEFAULT_REL = ".claude/skills"
 
 LM_URL = "https://leadmagic.io/?utm_source=github&utm_medium=organic&utm_campaign=gtm-skills"
 GH_URL = "https://github.com/LeadMagic/gtm-skills"
@@ -86,7 +87,7 @@ BUNDLES = {
                          "waterfall-enrichment", "mcp-setup"],
     "abm-stack": ["abm-strategy", "account-selection", "multi-thread-orchestration", "strategic-gifting"],
     "tools-stack": ["clay-toolkit", "sequencing-toolkit", "n8n-toolkit", "ai-prompts-toolkit", "crm-toolkit"],
-    "startup-essentials": ["gtm-context", "icp-scoring", "positioning-messaging", "pricing-strategy",
+    "startup-essentials": ["gtm-context-bootstrap", "gtm-context", "icp-scoring", "positioning-messaging", "pricing-strategy",
                            "founder-sales", "pitch-deck-builder", "financial-modeling", "saas-metrics-calculator"],
 }
 
@@ -185,24 +186,30 @@ def copy_skill(src, dst, dry):
     shutil.copytree(src, dst, ignore=shutil.ignore_patterns("__pycache__", "*.pyc", ".DS_Store", ".git"))
     return True
 
-def copy_shared_references(dst_root, dry):
+def copy_shared_references(installed, dst_root, dry):
     if not REFERENCES_DIR.exists():
         return 0
-    dst_refs = dst_root / "references"
     count = 0
-    for ref_file in sorted(REFERENCES_DIR.iterdir()):
-        if not ref_file.is_file() or not ref_file.name.endswith(".md"):
-            continue
-        target = dst_refs / ref_file.name
-        if dry:
-            print(f"  {gray('[dry]')} {blue('copy')} references/{ref_file.name}")
-        else:
-            dst_refs.mkdir(parents=True, exist_ok=True)
-            shutil.copy2(ref_file, target)
-        count += 1
+    for skill_dir in installed:
+        referenced = set()
+        for markdown in skill_dir.rglob("*.md"):
+            referenced.update(re.findall(r"(?<![A-Za-z0-9_./-])references/([A-Za-z0-9._-]+\.md)", markdown.read_text("utf-8")))
+        for filename in sorted(referenced):
+            source = REFERENCES_DIR / filename
+            local_source = skill_dir / "references" / filename
+            if not source.exists() or local_source.exists():
+                continue
+            target = dst_root / skill_dir.name / "references" / filename
+            if not dry:
+                target.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(source, target)
+            count += 1
+    if dry and count:
+        print(f"  {gray('[dry]')} {blue('copy')} {count} referenced shared files into their owning installed skills")
     return count
 
 def generate_claude_md(installed, catalog, dst_root, dry):
+    total = sum(len(skills) for skills in catalog.values())
     lines = [
         "# GTM Skills",
         "",
@@ -233,12 +240,12 @@ def generate_claude_md(installed, catalog, dst_root, dry):
     lines += [
         "## Full Catalog",
         "",
-        f"To browse all 205 skills: {GH_URL}",
+        f"To browse all {total} skills: {GH_URL}",
         f"LeadMagic enrichment platform: {LM_URL}",
         "",
     ]
     content = "\n".join(lines) + "\n"
-    target = dst_root / "CLAUDE.md"
+    target = dst_root / "gtm-skills-index.md"
     if dry:
         print(f"  {gray('[dry]')} {blue('write')} {target} ({len(installed)} skills)")
     else:
@@ -388,7 +395,7 @@ def main():
     parser.add_argument("--category", type=str, help="Install category (comma-separated)")
     parser.add_argument("--skills", type=str, help="Install specific skills (comma-separated)")
     parser.add_argument("--bundle", type=str, help="Install a curated bundle")
-    parser.add_argument("--all", action="store_true", help="Install all 205 skills")
+    parser.add_argument("--all", action="store_true", help="Install every skill in the current catalog")
     parser.add_argument("--project", type=str, help="Target project directory (default: cwd)")
     parser.add_argument("--desktop", action="store_true", help="Generate Claude Desktop instructions")
     parser.add_argument("--dry-run", action="store_true", help="Show what would happen without copying")
@@ -431,24 +438,24 @@ def main():
 
     installed_count = 0
     for skill_dir in selected:
-        dst = install_root / skill_dir.parent.name / skill_dir.name
+        dst = install_root / skill_dir.name
         if copy_skill(skill_dir, dst, args.dry_run):
             installed_count += 1
             if not args.dry_run:
                 print(f"  {green('v')} {skill_dir.parent.name}/{bold(skill_dir.name)}")
 
     if not args.no_shared_refs:
-        ref_count = copy_shared_references(install_root, args.dry_run)
+        ref_count = copy_shared_references(selected, install_root, args.dry_run)
         if ref_count:
             if args.dry_run:
                 print(f"\n  {gray('Would copy')} {bold(str(ref_count))} {gray('shared refs')}")
             else:
-                print(f"\n  {blue('books')} {bold(str(ref_count))} shared reference files -> {install_root / 'references'}")
+                print(f"\n  {blue('books')} {bold(str(ref_count))} shared reference copies added inside installed skills")
 
     if selected:
         generate_claude_md(selected, catalog, install_root, args.dry_run)
         if not args.dry_run:
-            print(f"  {blue('doc')} {bold('CLAUDE.md')} generated ({len(selected)} skills indexed)")
+            print(f"  {blue('doc')} {bold('gtm-skills-index.md')} generated ({len(selected)} skills indexed)")
 
     if args.desktop:
         generate_desktop_instructions(selected, catalog, install_root, args.dry_run)

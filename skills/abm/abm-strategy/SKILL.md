@@ -6,7 +6,7 @@ description: >-
   on: "ABM strategy", "account based marketing", "ABM playbook", "design ABM",
   "target accounts", "ABSD", "account based sales development", "Lars Nilsson".
 license: MIT
-compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
   version: "1.2.0"
   author: LeadMagic

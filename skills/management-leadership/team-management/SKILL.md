@@ -8,7 +8,7 @@ description: >-
   company grows. Triggers on: "team management", "1:1 template", "performance
   review", "OKR setting", "delegation", "managing remote team".
 license: MIT
-compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
   version: "2.0.1"
   author: LeadMagic

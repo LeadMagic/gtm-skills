@@ -1704,7 +1704,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Operating proof (public, self-reported):** RB2B $0 → $1M ARR in 16 weeks, ~$5M in first year with ~4-5 people; 125K+ followers in ~2 years.
 
-**Artifacts:** `founder-brand` → `references/adam-robinson-founder-brand.md` (canonical)
+**Artifacts:** `founder-brand` → `skills/founder-led/founder-brand/references/adam-robinson-founder-brand.md` (canonical)
 
 **Contrast:** **Chris Walker** = demand creation theory + dark social measurement. **Robinson** = founder-as-channel execution proof. **van der Blom** = the algorithm data underneath both.
 
@@ -1784,7 +1784,7 @@ Organic reach, Live content engines, and Sales Navigator prospecting — three l
 
 **Key Frameworks:** Relationship graph → interest graph (follower count no longer predicts reach) · Topic authority / Creator Classification System · Format reach multipliers (document carousels top) · Dwell time + completion rate weighting · Hashtag decline (posts without outperform by 5-10%) · External link penalty · Golden hour comment nurturing · Saves as ranking signal · Company page resurgence (+33% reach) · 20 LinkedIn myths debunked per edition
 
-**Artifacts:** `linkedin-algorithm` → `references/richard-van-der-blom-algorithm.md` (canonical)
+**Artifacts:** `linkedin-algorithm` → `skills/inbound/linkedin-algorithm/references/richard-van-der-blom-algorithm.md` (canonical)
 
 **Skills:** `linkedin-algorithm`, `social-selling`, `founder-brand`, `social-media-strategy`, `content-distribution`
 
@@ -1803,7 +1803,7 @@ Organic reach, Live content engines, and Sales Navigator prospecting — three l
 
 **Key Frameworks:** Conversation-first content (record vs manufacture) · Weekly livestream as primary engine · WinsDay show model (CEO interviews → clips → sponsored show) · Live → podcast → clips → feed posts flywheel · Real relationships over algorithm tricks · Low-production "hit record" barrier · Reveting scaled livestream podcasts for B2B clients (10+ shows)
 
-**Artifacts:** `linkedin-live-strategy` → `references/jessie-lizak-linkedin-live.md` (canonical)
+**Artifacts:** `linkedin-live-strategy` → `skills/inbound/linkedin-live-strategy/references/jessie-lizak-linkedin-live.md` (canonical)
 
 **Skills:** `linkedin-live-strategy`, `linkedin-algorithm`, `social-selling`, `founder-brand`, `social-media-strategy`, `content-distribution`
 
@@ -1823,7 +1823,7 @@ Organic reach, Live content engines, and Sales Navigator prospecting — three l
 
 **Key Frameworks:** Filter-specific messaging (not one template) · High-intent filter stack (Posted 30d, Following company, Viewed profile, tenure <1yr / 6–12mo) · Insight + question comment → 24–48h wait → connect → DM · 10-minute saved-search setup with weekly alerts · 15-minute daily prospecting rhythm · 12+ message variants tied to filter signals · Multi-thread filter plays per account · Boolean decision-maker search
 
-**Artifacts:** `sales-navigator-prospecting` → `references/morgan-ingram-sales-navigator.md` (canonical)
+**Artifacts:** `sales-navigator-prospecting` → `skills/inbound/sales-navigator-prospecting/references/morgan-ingram-sales-navigator.md` (canonical)
 
 **Skills:** `sales-navigator-prospecting`, `social-selling`, `list-building`, `lead-finding`, `multi-channel-outreach`
 

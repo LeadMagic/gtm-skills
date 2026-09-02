@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Generate or verify skills.lock for gtm-skills.
+"""Generate or verify the complete packaged-file skills.lock for gtm-skills.
 
-Source of truth: every marketplace-discoverable SKILL.md under skills/.
+Source of truth: every marketplace-discoverable skill and packaged file under skills/.
 
 Usage:
   python3 scripts/generate-skills-lock.py          # rewrite skills.lock
@@ -40,6 +40,28 @@ def sha256_file(path: Path) -> str:
     return h.hexdigest()
 
 
+def discover_package_files() -> list[Path]:
+    ignored_names = {".DS_Store"}
+    return sorted(
+        path
+        for path in SKILLS_DIR.rglob("*")
+        if path.is_file()
+        and path.name not in ignored_names
+        and path.suffix != ".pyc"
+        and "__pycache__" not in path.parts
+    )
+
+
+def file_kind(path: Path) -> str:
+    relative = path.relative_to(SKILLS_DIR)
+    if path.name == "SKILL.md":
+        return "entrypoints"
+    for kind in ("references", "templates", "scripts", "assets"):
+        if kind in relative.parts[2:]:
+            return kind
+    return "other"
+
+
 def build_lock() -> dict:
     skills = {}
     for path in discover_skills():
@@ -50,12 +72,28 @@ def build_lock() -> dict:
             "sha256": sha256_file(path),
             "size_bytes": path.stat().st_size,
         }
+    package_files = discover_package_files()
+    file_counts = {
+        kind: sum(file_kind(path) == kind for path in package_files)
+        for kind in ("entrypoints", "references", "templates", "scripts", "assets", "other")
+    }
+    artifacts = {
+        path.relative_to(ROOT).as_posix(): {
+            "sha256": sha256_file(path),
+            "size_bytes": path.stat().st_size,
+            "kind": file_kind(path),
+        }
+        for path in package_files
+    }
     return {
-        "version": "1.0.0",
+        "version": "2.0.0",
         "repository": "LeadMagic/gtm-skills",
         "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
         "total_skills": len(skills),
+        "total_files": len(package_files),
+        "file_counts": file_counts,
         "skills": dict(sorted(skills.items())),
+        "artifacts": artifacts,
     }
 
 
@@ -78,9 +116,15 @@ def main() -> int:
         old_lock = json.loads(LOCK_PATH.read_text())
         if stable(old_lock) != stable(new_lock):
             print("skills.lock is stale; run python3 scripts/generate-skills-lock.py")
-            print(f"expected {new_lock['total_skills']} skills")
+            print(
+                f"expected {new_lock['total_skills']} skills and "
+                f"{new_lock['total_files']} packaged files"
+            )
             return 1
-        print(f"skills.lock verified: {new_lock['total_skills']} skills")
+        print(
+            f"skills.lock verified: {new_lock['total_skills']} skills, "
+            f"{new_lock['total_files']} packaged files"
+        )
         return 0
 
     if LOCK_PATH.exists():
@@ -89,7 +133,10 @@ def main() -> int:
             new_lock["generated_at"] = old_lock.get("generated_at", new_lock["generated_at"])
 
     LOCK_PATH.write_text(json.dumps(new_lock, indent=2) + "\n")
-    print(f"skills.lock generated: {new_lock['total_skills']} skills")
+    print(
+        f"skills.lock generated: {new_lock['total_skills']} skills, "
+        f"{new_lock['total_files']} packaged files"
+    )
     return 0
 
 

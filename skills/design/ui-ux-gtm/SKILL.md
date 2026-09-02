@@ -8,7 +8,7 @@ description: >-
   interfaces, landing pages, conversion flows, or onboarding experiences.
   Covers conversion-first design, mobile optimization, and A/B test readiness.
 license: MIT
-compatibility: Claude Code, Jesse, Codex, Hermes, Windsurf, OpenCode, Gemini CLI, Copilot, Zed, VS Code, Goose
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
   version: "2.0.0"
   author: LeadMagic
