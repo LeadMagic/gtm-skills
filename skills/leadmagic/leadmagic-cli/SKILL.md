@@ -10,7 +10,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
-  version: "1.1.0"
+  version: "1.1.1"
   author: LeadMagic
   category: leadmagic
   tags: [leadmagic, cli, automation, enrichment, batch-processing]
@@ -47,6 +47,10 @@ enrichment, and outbound platform integ.
 - "Batch process contacts with LeadMagic"
 - "Find specific roles at companies via CLI"
 
+## Authentication and current documentation
+
+Install [lm-tui](https://leadmagic.io/docs/cli/installation), then use `lm login` for browser OAuth. Never paste a REST API key into normal CLI configuration. Check `lm --help` and the [command reference](https://leadmagic.io/docs/cli/commands) for the installed version before writing automation.
+
 ## Key Commands
 
 ### Email Finding
@@ -78,7 +82,7 @@ lm find role -c "Acme Corp" -t "VP Sales"
 Finds people with specific titles at a company. Returns name, title, and
 verified email where available.
 
-### Company Enrichment
+### Profile Enrichment
 ```bash
 lm find profile-search -p linkedin.com/in/janesmith
 ```
@@ -98,10 +102,10 @@ contacts, view stats. All from terminal.
 
 1. **Find contacts:** `lm find role` or `lm find email` for individual lookups
 2. **Bulk enrich:** `lm enrich -i input.csv` for batch processing
-3. **Validate:** `lm validate -f enriched.csv -c email` before sending
+3. **Validate external addresses:** use `lm validate -f external.csv -c email` for emails sourced outside LeadMagic
 4. **Push:** `lm integrations smartlead push` to outbound platform
 
-Always validate after finding. Never push unverified contacts to a sequencer.
+Email Finder returns validated work emails; do not immediately run them through validation again. Review consent, suppression status, and the final audience before any sequencer push.
 
 ## Scripting Integration
 
@@ -109,7 +113,7 @@ Always validate after finding. Never push unverified contacts to a sequencer.
 # Shell script: enrich and push weekly
 #!/bin/bash
 lm enrich -i weekly_leads.csv --batch-size 25 -o enriched_$(date +%Y%m%d).csv
-lm validate -f enriched_$(date +%Y%m%d).csv -c email
+# Finder-returned emails are already validated; validate external lists separately.
 lm integrations smartlead push --campaign main_campaign
 ```
 
@@ -131,25 +135,22 @@ Before delivering, verify:
 
 ## Common Pitfalls
 
-1. **Not validating after finding.** Always run `lm validate` before pushing
-   to a sequence. Found emails can be stale.
+1. **Paying twice for verification.** Finder-returned work emails are already validated. Use validation for externally sourced or stale CRM lists.
 
 2. **Batch size too large.** Stick to 25-50 per batch for reliability. Larger
    batches risk timeouts.
 
-3. **Skipping the verification step.** Enrichment finds emails. Validation
-   confirms they are deliverable. Two separate steps for a reason.
+3. **Treating all email sources alike.** Keep finder results separate from external email lists so only the latter need a validation pass.
 
-4. **Wrong CSV column mapping.** Use `--batch-size` to control throughput.
-   Check column auto-detection before running full batches.
+4. **Wrong CSV column mapping.** Check detected columns with `lm enrich -i input.csv --dry-run` before running paid batches.
 
 ## Execution Artifacts
 
-- `references/framework-notes.md` — CLI patterns, Pat validate-before-push, Eric scale ops
+- `references/framework-notes.md` — CLI patterns, source-aware email verification, Eric scale ops
 - `templates/output-template.md` — command sequence + verify gate deliverable
 - `scripts/check-output.py` — local checklist validator for required sections
 This skill includes lightweight artifacts the agent can load on demand:
-- `references/cli-workflow-patterns.md` — find → validate → push pipelines (Patterns A–E)
+- `references/cli-workflow-patterns.md` — source-aware enrichment pipelines (Patterns A–E)
 - `../leadmagic-waterfall/references/waterfall-column-spec.md` — Clay alternative for recurring
 - `../../tools/smartlead-workflows/references/clay-enrollment-handoff.md` — post-CLI sequencer handoff
 - `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify-before-send (Pat Spielmann)

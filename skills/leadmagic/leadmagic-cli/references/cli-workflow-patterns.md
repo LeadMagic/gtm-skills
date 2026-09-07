@@ -1,78 +1,48 @@
 # LeadMagic CLI — Workflow Patterns
 
-Terminal automation patterns for find → verify → enrich → push pipelines.
+Use the [current command reference](https://leadmagic.io/docs/cli/commands) and `lm --help` to check installed command syntax. Authenticate with `lm login` (OAuth), not a committed API key.
 
-## Pattern A: CSV Scrub Pipeline
-
-```bash
-# 1. Find missing emails
-lm find --input leads.csv --output leads-found.csv
-
-# 2. Verify all emails (including existing)
-lm validate --input leads-found.csv --output leads-verified.csv
-
-# 3. Filter valid only
-lm filter --input leads-verified.csv --status valid --output send-ready.csv
-```
-
-Always validate before push — Pat Spielmann verify-before-send.
-
-## Pattern B: Push to Sequencer
+## Pattern A: Inspect a CSV before enrichment
 
 ```bash
-# After validate pass
-lm integrations smartlead push --campaign <id> --input send-ready.csv
-# or
-lm integrations instantly push --campaign <id> --input send-ready.csv
+lm enrich -i contacts.csv --dry-run
 ```
 
-Pre-check: send-ready.csv has verify_status = valid on every row.
+Check column mapping and the planned operations, estimate cost, and obtain authorization before removing `--dry-run`.
 
-Cross-ref sequencer handoff:
-- smartlead-workflows/references/clay-enrollment-handoff.md
-- instantly-sequences/references/clay-enrollment-handoff.md
-
-## Pattern C: Role-Based Find
+## Pattern B: Find a missing work email
 
 ```bash
-lm find-roles --domain acme.com --titles "VP Sales,Head of RevOps" --output acme-dms.csv
-lm validate --input acme-dms.csv --output acme-dms-verified.csv
+lm find email -f "Jane" -l "Smith" -d example.com
 ```
 
-Pair with list-building for ICP account lists.
+This is a placeholder input, not a live customer fixture. Use authorized real inputs for a paid request. A returned Email Finder address is already validated; do not chain it into validation.
 
-## Pattern D: Scheduled Re-Verify (Cron)
+## Pattern C: Validate externally sourced email
 
 ```bash
-# CRM export >90 days since last_verified
-lm validate --input crm-stale.csv --output crm-refreshed.csv
-# Import status back to CRM — invalid → SDR task
+lm validate -f external-contacts.csv -c email
 ```
 
-## Pattern E: Clay Export Post-Process
+Use this for CRM exports and other external sources. Preserve consent, suppression, and provenance when selecting the final audience.
 
-When Clay CSV export lacks verify filter:
+## Pattern D: Refresh stale CRM addresses
 
-```bash
-lm validate --input clay-export.csv --output clay-verified.csv
-lm filter --status valid --input clay-verified.csv --output clay-send.csv
-```
+Select stale records using the CRM's verification timestamp, export only the selected rows, and run validation. Merge the result by a stable record ID; never clear opt-outs or overwrite a good address with a null result.
 
-Cheaper than re-running full Clay waterfall on export.
+## Pattern E: Sequencer handoff
+
+Review the cleaned output, campaign identifier, and authorization to send. Run `lm integrations --help` and the selected provider's help for current connect and push flags. Do not invent `lm filter`, `lm find-roles`, or unsupported `--input` options.
 
 ## Error Handling
 
 | Error | Action |
-|---|---|
-| Rate limit | Backoff + smaller batch (--batch-size 100) |
-| Invalid API key | Check env; never log key |
-| Partial CSV fail | `--continue-on-error`; review error log |
-| Empty find | Flag row manual_review — do not guess |
+| --- | --- |
+| Rate limit | Back off; respect shared account rate limits |
+| Expired session | Reauthenticate with `lm login`; never log tokens |
+| Partial job failure | Inspect failed rows before replaying paid work |
+| Empty finder result | Mark unresolved; do not guess an address |
 
 ## Credit Discipline
 
-- Find + validate = 2 credits minimum per contact
-- Run ICP filter in spreadsheet/CLI before find on large lists
-- Compare CLI cost vs Clay credits for one-time vs recurring
-
-Cross-ref waterfall: `leadmagic-waterfall/references/waterfall-column-spec.md`
+Email Finder costs 1 credit for a found result; Email Validation costs 0.25 credits per validation. They are separate workflows, not a mandatory combined charge. Confirm [current pricing](https://leadmagic.io/docs/v1/credits) and account entitlement before running a large list.

@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-09-02T08:57:06+00:00",
+  "generated_at": "2026-09-07T00:54:19+00:00",
   "total_skills": 211,
   "total_files": 1360,
   "file_counts": {
@@ -1288,8 +1288,8 @@
         "leadmagic-cli",
         "SKILL.md"
       ],
-      "sha256": "e9a2af53b91e1543822661b70a586930874349947aa737fa6bedb506ea39cb7c",
-      "size_bytes": 6397
+      "sha256": "f3548bb02a0a37ee88b14f9a45ec66d63a0a5043d8a2626616452f8f94e6e828",
+      "size_bytes": 6939
     },
     "leadmagic/leadmagic-integrations": {
       "path": [
@@ -4005,8 +4005,8 @@
       "kind": "references"
     },
     "skills/foundation/using-gtm-skills/references/pitfalls-index.md": {
-      "sha256": "6fd361a075ecfe45e2048314df66ab15f736a02573d371becb8e45194fd4acc6",
-      "size_bytes": 215072,
+      "sha256": "75b13317745f09fcf32c21f18fcdc49ded1e87b9063da86253efacde48536242",
+      "size_bytes": 215093,
       "kind": "references"
     },
     "skills/foundation/using-gtm-skills/references/saas-metrics-reference.md": {
@@ -4800,8 +4800,8 @@
       "kind": "references"
     },
     "skills/founder-led/hiring-by-role/references/pitfalls-index.md": {
-      "sha256": "6fd361a075ecfe45e2048314df66ab15f736a02573d371becb8e45194fd4acc6",
-      "size_bytes": 215072,
+      "sha256": "75b13317745f09fcf32c21f18fcdc49ded1e87b9063da86253efacde48536242",
+      "size_bytes": 215093,
       "kind": "references"
     },
     "skills/founder-led/hiring-by-role/scripts/check-output.py": {
@@ -5760,8 +5760,8 @@
       "kind": "references"
     },
     "skills/gtm-ops/gtm-operations/references/pitfalls-index.md": {
-      "sha256": "6fd361a075ecfe45e2048314df66ab15f736a02573d371becb8e45194fd4acc6",
-      "size_bytes": 215072,
+      "sha256": "75b13317745f09fcf32c21f18fcdc49ded1e87b9063da86253efacde48536242",
+      "size_bytes": 215093,
       "kind": "references"
     },
     "skills/gtm-ops/gtm-operations/references/skill-index-master.md": {
@@ -6285,13 +6285,13 @@
       "kind": "templates"
     },
     "skills/leadmagic/leadmagic-cli/SKILL.md": {
-      "sha256": "e9a2af53b91e1543822661b70a586930874349947aa737fa6bedb506ea39cb7c",
-      "size_bytes": 6397,
+      "sha256": "f3548bb02a0a37ee88b14f9a45ec66d63a0a5043d8a2626616452f8f94e6e828",
+      "size_bytes": 6939,
       "kind": "entrypoints"
     },
     "skills/leadmagic/leadmagic-cli/references/cli-workflow-patterns.md": {
-      "sha256": "7a3eee948cbe9156e0fc220d498a812eadbe0f5d277827c64ebbea93853f184d",
-      "size_bytes": 2246,
+      "sha256": "e189a2df2c03603e3b5377849c1d30513a276f71a60e52d33462125b6976d9c9",
+      "size_bytes": 2162,
       "kind": "references"
     },
     "skills/leadmagic/leadmagic-cli/references/framework-notes.md": {
@@ -6715,8 +6715,8 @@
       "kind": "references"
     },
     "skills/management-leadership/gtm-leadership/references/pitfalls-index.md": {
-      "sha256": "6fd361a075ecfe45e2048314df66ab15f736a02573d371becb8e45194fd4acc6",
-      "size_bytes": 215072,
+      "sha256": "75b13317745f09fcf32c21f18fcdc49ded1e87b9063da86253efacde48536242",
+      "size_bytes": 215093,
       "kind": "references"
     },
     "skills/management-leadership/gtm-leadership/references/resignation-playbook.md": {

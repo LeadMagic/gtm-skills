@@ -1192,10 +1192,10 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ### [leadmagic-cli](skills/leadmagic/leadmagic-cli/SKILL.md)
 
-- **Not validating after finding.** — Always run `lm validate` before pushing to a sequence. Found emails can be stale.
+- **Paying twice for verification.** — Finder-returned work emails are already validated. Use validation for externally sourced or stale CRM lists.
 - **Batch size too large.** — Stick to 25-50 per batch for reliability. Larger batches risk timeouts.
-- **Skipping the verification step.** — Enrichment finds emails. Validation confirms they are deliverable. Two separate steps for a reason.
-- **Wrong CSV column mapping.** — Use `--batch-size` to control throughput. Check column auto-detection before running full batches.
+- **Treating all email sources alike.** — Keep finder results separate from external email lists so only the latter need a validation pass.
+- **Wrong CSV column mapping.** — Check detected columns with `lm enrich -i input.csv --dry-run` before running paid batches.
 
 ### [leadmagic-integrations](skills/leadmagic/leadmagic-integrations/SKILL.md)
 
