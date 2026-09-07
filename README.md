@@ -462,3 +462,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). New skills must cite named authorities, 
 ## LeadMagic enrichment integrations
 
 Use [LeadMagic product skills](https://github.com/LeadMagic/leadmagic-skills) for API and enrichment guidance, [n8n workflows](https://github.com/LeadMagic/leadmagic-n8n) for automation, and the [public OpenAPI specification](https://github.com/LeadMagic/leadmagic-openapi) for REST clients.
+
+## License and contributions
+
+[MIT license](LICENSE) · [Third-party materials and contribution policy](LICENSE-NOTES.md). Reuse is allowed under the license; changes to this repository require maintainer review.

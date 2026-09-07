@@ -515,6 +515,7 @@ readme = readme.replace("production go-to-market (GTM) Agent Skills", "go-to-mar
   .replace("This is an artifact-first skill library, not a prompt pack.", "Use these playbooks to produce research briefs, sales plans, marketing assets, and workflow checks.")
   .replace("## Install Agent Skills", "[LeadMagic B2B enrichment](https://leadmagic.io?utm_source=github&utm_medium=readme&utm_campaign=gtm-skills&utm_content=readme-intro) \u00b7 [API documentation](https://leadmagic.io/docs?utm_source=github&utm_medium=readme&utm_campaign=gtm-skills&utm_content=readme-intro) \u00b7 [Pricing and credits](https://leadmagic.io/pricing?utm_source=github&utm_medium=readme&utm_campaign=gtm-skills&utm_content=readme-intro)" + "\n\n## Install Agent Skills");
 readme += "\n## LeadMagic enrichment integrations\n\nUse [LeadMagic product skills](https://github.com/LeadMagic/leadmagic-skills) for API and enrichment guidance, [n8n workflows](https://github.com/LeadMagic/leadmagic-n8n) for automation, and the [public OpenAPI specification](https://github.com/LeadMagic/leadmagic-openapi) for REST clients.\n";
+readme += "\n## License and contributions\n\n[MIT license](LICENSE) · [Third-party materials and contribution policy](LICENSE-NOTES.md). Reuse is allowed under the license; changes to this repository require maintainer review.\n";
 fs.writeFileSync(path.join(ROOT, "README.md"), readme);
 
 fs.mkdirSync(PLUGIN_DIR, { recursive: true });
