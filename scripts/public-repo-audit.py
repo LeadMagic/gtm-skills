@@ -379,8 +379,12 @@ def main() -> int:
     regen_path = ROOT / ".github/workflows/regenerate.yml"
     if regen_path.exists():
         regen = read(regen_path)
-        if "permissions:\n  contents: write" not in regen:
-            fail("regenerate workflow must request contents: write", failures)
+        if "permissions:\n  contents: read" not in regen:
+            fail("regenerate workflow must use read-only repository permissions", failures)
+        if "contents: write" in regen or "pull-requests: write" in regen or "git push" in regen:
+            fail("regenerate workflow must leave repository updates to maintainer review", failures)
+        if "regeneration.patch" not in regen:
+            fail("regenerate workflow must provide a reviewable patch", failures)
         if "scripts/regenerate.sh" not in regen:
             fail("regenerate workflow must run scripts/regenerate.sh", failures)
         if "workflow_dispatch" not in regen:
