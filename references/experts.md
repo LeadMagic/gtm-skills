@@ -1623,7 +1623,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 **Public Channels**
 - 🔗 [Meritech Benchmarking](https://www.meritechcapital.com/benchmarking) · [Comps table / SaaS Index](https://www.meritechcapital.com/benchmarking/comps-table)
 - 📰 [Meritech blog](https://www.meritechcapital.com/blog) · [Software Pulse (Substack)](https://meritech.substack.com/)
-- ✉ insights@meritechcapital.com
+- ✉ person@example.com
 
 **Key Frameworks:** Implied ARR (Q revenue × 4) · **Meritech Rule of 40** (growth weighted 3× vs FCF) · Public Magic Number / payback on reported S&M · ~120 public SaaS index cohort
 
@@ -2261,8 +2261,8 @@ Organic reach, Live content engines, and Sales Navigator prospecting — three l
 
 ## Founder Comp & Negotiation
 
-**Canonical GTM comp strategy** → `executive-compensation/references/gtm-compensation-strategy.md` (Pattern 35).  
-Founder-specific comp (payroll % ARR, offer walkthrough, negotiation scripts) → `founder-comp-playbook`, citing **Lemkin**, **Roberge**, **Skok**, **Bridge Group**, **Betts**, and **Sam Jacobs / Pavilion** for VP+.  
+**Canonical GTM comp strategy** → `executive-compensation/references/gtm-compensation-strategy.md` (Pattern 35).
+Founder-specific comp (payroll % ARR, offer walkthrough, negotiation scripts) → `founder-comp-playbook`, citing **Lemkin**, **Roberge**, **Skok**, **Bridge Group**, **Betts**, and **Sam Jacobs / Pavilion** for VP+.
 **HR GTM ramp handoff** → Stacey Nordwall (`hr-gtm-playbook.md`). **Inspection / territory fairness** → John McMahon (`cro-enterprise-strategy.md`).
 
 ---

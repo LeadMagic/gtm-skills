@@ -40,7 +40,7 @@ Use an **authenticator app** (Google Authenticator, 1Password, Authy) — not SM
 
 | Bad pattern | Do instead |
 |---|---|
-| `team@company.com` password in Slack pin | Named users + SSO |
+| `person@example.com` password in Slack pin | Named users + SSO |
 | One login for whole SDR team on sequencer | Seat per rep + manager admin |
 | "Use my login for the demo environment" | Guest/demo role with expiry |
 | Shared CRM user for reporting | Service account with audit log (RevOps sets up) |

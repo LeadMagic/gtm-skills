@@ -24,7 +24,7 @@ not the CRM. Ramp shows transactions; the roster shows **intent, owner, renewal*
 | `vendor_id` | V-042 |
 | `vendor_name` | Gong |
 | `category` | Conversation intel |
-| `owner_email` | revops@company.com |
+| `owner_email` | person@example.com |
 | `department` | Sales |
 | `cost_model` | Per seat |
 | `annual_budget_usd` | 48000 |

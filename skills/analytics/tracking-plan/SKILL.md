@@ -12,7 +12,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   author: LeadMagic
   category: analytics
   tags: [tracking-plan, analytics, event-tracking, pixels, attribution, cdp, plg, product-analytics]
@@ -128,7 +128,7 @@ SHEET 4: IDENTITIES
 | anonymous_id | Auto-generated (cookie/localStorage) | First visit | uuid |
 | user_id | Backend generates on signup | After authentication | user_abc123 |
 | group_id | Workspace/account ID | After login (B2B) | ws_xyz789 |
-| email | identify() call | After signup/login | user@company.com |
+| email | identify() call | After signup/login | person@example.com |
 
 SHEET 5: UTM / ATTRIBUTION
 | Parameter | Required | Example | Purpose |
@@ -414,7 +414,7 @@ Before delivering, verify:
    signup. "Where did this customer come from?" = shrug. Fix: Capture UTM
    params on first visit. Persist to user profile on signup. Always.
 
-6. **PII in event properties.** `email: "john@company.com"` tracked in every
+6. **PII in event properties.** `email: "person@example.com"` tracked in every
    event. This is a privacy violation and a security risk. Fix: Use user_id.
    Store PII in your database, not your event pipeline. Only `identify()` call
    carries user traits — regular `track()` calls do not.

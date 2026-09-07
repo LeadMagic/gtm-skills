@@ -11,7 +11,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   author: LeadMagic
   category: analytics
   tags: [event-analytics, product-analytics, customer-events, tracking, segment, amplitude, intercom]
@@ -294,7 +294,7 @@ Before delivering, verify:
    but not linked to their company workspace. Can't answer "what are our top
    10 accounts doing?" Fix: `group()` call on login linking user to workspace.
 
-5. **PII in event properties.** `email: "john@company.com"` in event properties
+5. **PII in event properties.** `email: "person@example.com"` in event properties
    is a data privacy violation waiting to happen. Fix: Use user IDs. Store PII
    in your database, not your event pipeline.
 

@@ -5,7 +5,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   author: LeadMagic
   category: analytics
   tags: [deliverability, email, bounce, spam, blacklist, dmarc, dns, reputation]
@@ -34,7 +34,7 @@ This skill produces a Domain Health Dashboard with: real-time bounce tracking ac
 
 Do NOT use for:
 - Setting up DNS authentication initially → use domain-infrastructure
-- Writing email content to avoid spam filters → use cold-email-copywriting
+- Writing relevant, permission-aware email content → use cold-email-copywriting
 - Campaign performance analysis (opens, replies, meetings) → use campaign-analytics
 - Choosing or configuring sending platforms → use sending-platforms
 - Sequence design or cadence → use cold-email-strategy

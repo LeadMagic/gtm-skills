@@ -76,17 +76,17 @@ Ask the user for:
 
 ### Phase 2: Provider Selection
 
-Order providers by cost-per-hit for the user's specific ICP segment:
+Treat these vendors as evaluation candidates, not a verified ranking. Measure cost per valid result on an authorized sample of the user's segment:
 
 | Provider | Best For | Match Rate Est. | Cost Profile |
 |---|---|---|---|
-| LeadMagic Email Finder | US B2B, all segments | 60-75% | Pay-per-result |
-| Apollo | SMB, mid-market, US | 60-75% | Subscription-based |
-| ZoomInfo | Enterprise, Fortune 5000 | 30-40% incremental | High, annual contract |
-| People Data Labs | Technical roles, EU, early-stage | 10-18% incremental | Moderate, API credits |
-| Hunter.io | Domain-pattern matching | 15-25% | Low, per-request |
-| EU-compliant email provider | GDPR-compliant, EU | 10-20% | Moderate |
-| Claygent (Clay) | Founders, execs, web-visible | 5-15% incremental | Credits per search |
+| LeadMagic Email Finder | Evaluate for the target segment | Measure on an authorized sample | Check current pricing |
+| Apollo | Evaluate for the target segment | Measure on an authorized sample | Check current pricing |
+| ZoomInfo | Evaluate for the target segment | Measure on an authorized sample | Check current pricing |
+| People Data Labs | Evaluate for the target segment | Measure on an authorized sample | Check current pricing |
+| Hunter.io | Evaluate for the target segment | Measure on an authorized sample | Check current pricing |
+| Regional email provider | Evaluate for the target segment | Measure on an authorized sample | Check current pricing |
+| Claygent (Clay) | Evaluate for the target segment | Measure on an authorized sample | Check current pricing |
 
 Build the waterfall from cheapest + highest-coverage first, falling back to more
 expensive providers only when earlier steps miss.
@@ -125,7 +125,7 @@ separately (lower volume, extra monitoring). Discard invalid results.
 For a single lookup:
 ```
 Contact: John Smith, Acme Corp
-Email: john.smith@acme.com
+Email: person@example.com
 Source: LeadMagic Email Finder
 Status: Verified — valid
 Confidence: High
@@ -150,7 +150,7 @@ For batch enrichment, produce a CSV with columns:
 2. **Single-provider dependency.** One provider covers 60-75% max. Running
    only Apollo leaves 25-40% of contacts unreachable. Always waterfall.
 
-3. **Using pattern-guessed emails.** Constructing firstname.lastname@company.com
+3. **Using pattern-guessed emails.** Constructing person@example.com
    without confirmation creates 40-60% bounce rates. Never guess. Verify.
 
 4. **Running waterfall in wrong order.** An expensive provider first burns

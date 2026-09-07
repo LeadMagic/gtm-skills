@@ -44,7 +44,7 @@ Public workflow from G2 interview:
 3. Score % matching ICP / ABM list
 4. Report overlap % to CFO (e.g., "20% of target accounts engaged")
 
-**Privacy:** Public engagement data only; GDPR/CCPA-compliant collection practices.
+**Privacy:** Public availability does not by itself authorize collection or reuse. Minimize personal data, respect applicable consent and opt-out requirements, and review the planned use and platform terms.
 
 ### 3. CRM lookback (30 days)
 

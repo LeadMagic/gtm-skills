@@ -11,7 +11,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
-  version: "1.1.0"
+  version: "1.1.1"
   author: LeadMagic
   category: analytics
   tags: [tracking, pixels, analytics, attribution, privacy, first-party]
@@ -135,10 +135,10 @@ campaign types.
 Move from browser tags to server-side dispatch:
 
 **Benefits:**
-- Bypasses ad blockers (30-40% of client-side events lost).
+- Supports controlled event dispatch for permitted measurement; honor consent choices, opt-outs, and browser privacy controls.
 - Improves page speed (fewer browser scripts).
 - Data control (filter, enrich, or suppress data before it leaves your server).
-- Privacy compliance (control what data is shared with which platform).
+- Data minimization controls; server-side collection does not itself establish legal compliance.
 
 **Setup:** Google Tag Manager Server-Side (free, Google-hosted or self-hosted),
 Segment Protocols, or custom server endpoint. One server-side container

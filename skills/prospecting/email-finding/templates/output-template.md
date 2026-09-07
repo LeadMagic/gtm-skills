@@ -17,7 +17,7 @@ For a single lookup:
 
 Contact: John Smith, Acme Corp
 
-Email: john.smith@acme.com
+Email: person@example.com
 
 Source: LeadMagic Email Finder
 
@@ -45,6 +45,6 @@ For batch enrichment, produce a CSV with columns:
 - [ ] Catch-all domains flagged separately
 
 ## Next steps
-1. 
-2. 
-3. 
+1.
+2.
+3.
