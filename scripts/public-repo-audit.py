@@ -297,7 +297,7 @@ def main() -> int:
             fail(f"{surface} does not mention current skill count {count}", failures)
 
     readme = count_surfaces.get("README.md", "")
-    if f"skills-{count}-blue" not in readme or f"**{count} production" not in readme:
+    if f"skills-{count}-blue" not in readme or f"**{count} go-to-market (GTM) agent skills" not in readme:
         fail("README.md skill badge and lead inventory must match the on-disk count", failures)
     stale_install_patterns = {
         "codex skills install": "Codex has no direct skills-install subcommand; use gh skill",
