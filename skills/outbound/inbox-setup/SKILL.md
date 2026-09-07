@@ -11,7 +11,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   author: LeadMagic
   category: outbound
   tags: [inbox-setup, infrastructure, deliverability, google, microsoft, domains]
@@ -100,7 +100,7 @@ For every sending domain, configure all three:
 **DKIM:** Generate in admin console (Google: Apps > Gmail > Authenticate email.
 Microsoft: Security > DKIM). Add the generated TXT record to DNS.
 
-**DMARC:** Start with `v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com`.
+**DMARC:** Start with `v=DMARC1; p=none; rua=mailto:person@example.com`.
 After monitoring for 2-4 weeks, tighten to `p=quarantine`, eventually `p=reject`.
 
 **Verification:** Use MXToolbox or Google Admin Toolbox to verify all records

@@ -10,7 +10,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
-  version: "1.0.1"
+  version: "1.0.2"
   author: LeadMagic
   category: tools
   tags: [leadmagic, email-finding, verification, enrichment, api, mcp, cli, clay, n8n]
@@ -104,7 +104,7 @@ lm find "Jane Smith" "Acme Corp"
 lm find --domain acme.com --pattern "{first}.{last}@{domain}"
 
 # Verify email
-lm verify jane@acme.com
+lm verify person@example.com
 lm verify --bulk emails.txt
 
 # Bulk enrich

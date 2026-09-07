@@ -5,7 +5,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   author: LeadMagic
   category: prospecting
   tags: [enrichment, data, waterfall, normalization, clay, apollo, zoominfo]
@@ -69,14 +69,7 @@ Ask all questions at once:
 
 ### Phase 2: Research
 
-**Provider Coverage Analysis:** Before configuring the waterfall, understand each provider's coverage profile:
-- Apollo: Strong on US companies, tech-forward, funded. Weak on non-US, traditional industries, very small companies.
-- ZoomInfo: Broadest coverage, strongest on mid-market and enterprise. Expensive per record. Weak on very early-stage startups.
-- People Data Labs (PDL): Strong on person data, especially job history and skills. Company data is derived, not primary.
-- Clearbit: Strong on company firmographics and technographics. Person data is good but limited coverage.
-- Cognism: Strong on EMEA/UK coverage. GDPR-compliant. Weak on US coverage.
-- Lusha: Good for contact data (email, phone). Company data is thin.
-- LeadMagic: High accuracy on email finding, company search, and technographics. Strong coverage across segments.
+**Provider Coverage Analysis:** Compare candidate providers on an authorized, representative sample. Record missing fields, match quality, freshness, cost per usable result, contractual data rights, and regional processing requirements. Vendor positioning is not proof of accuracy or legal compliance. LeadMagic publishes this skill; evaluate it using the same criteria as other providers.
 
 **Field Prioritization:** Not all fields are equally important. Prioritize enrichment by field criticality:
 - Tier 1 (Must have for any outreach): Company name, domain, employee count, industry. Person: name, title, email.

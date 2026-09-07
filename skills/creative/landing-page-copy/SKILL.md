@@ -12,7 +12,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   author: LeadMagic
   category: creative
   tags: [landing-page, copywriting, conversion, hero-copy, cta, social-proof, a-b-testing]
@@ -214,17 +214,17 @@ checkmark or icon.
 **Anticipate and kill objections BEFORE they reach the FAQ.** Place objection
 handling copy at the point in the page where the objection naturally arises.
 
-| Where It Arises | Objection | Copy That Handles It |
+| Where It Arises | Objection | Evidence-based copy prompt |
 |---|---|---|
-| Near hero CTA | "Is this really free?" | "No credit card required. 14 days. Cancel anytime." |
-| Near pricing | "What if I need to cancel?" | "Cancel anytime. No contracts. No questions." |
-| Near features | "Does this work with our stack?" | "Integrates with HubSpot, Salesforce, and 50+ tools in one click." |
-| Near testimonials | "Will this work for MY company?" | "Works for teams of 1 to 1,000. See how [similar company] uses us." |
-| Near signup | "Is my data secure?" | "SOC2 Type II certified. GDPR compliant. Your data never leaves our encrypted pipeline." |
+| Near hero CTA | Trial conditions | State the actual trial duration, payment requirements, and eligibility. |
+| Near pricing | Cancellation | Link the applicable cancellation and renewal terms. |
+| Near features | Integration support | List only integrations available in the current product. |
+| Near testimonials | Suitability | Use an approved customer example with permission and context. |
+| Near signup | Security | Link current security documentation; mention only verified controls or attestations. |
 
 **Objection handling formula (Wiebe):**
 1. State the objection (prove you understand their concern)
-2. Address it directly (no hedging — concrete answer)
+2. Address it directly with substantiated facts; do not invent assurances
 3. Flip to benefit (why it's not a problem for YOUR product)
 
 ### Section 8: FAQ

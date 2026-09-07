@@ -110,7 +110,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Inconsistent naming.** — `signed_up`, `userSignup`, `Sign Up Completed` all describe the same thing across different systems. Fix: One taxonomy. Object- action. Past tense. Documented in an event dictionary.
 - **Client-side only tracking.** — Ad blockers block client-side tracking (30-50% of users). Critical events lost. Fix: Server-side tracking for key events (signup, payment, subscription changes). Client-side for behavioral events.
 - **No group/account context for B2B.** — Events tracked to individual users but not linked to their company workspace. Can't answer "what are our top 10 accounts doing?" Fix: `group()` call on login linking user to workspace.
-- **PII in event properties.** — `email: "john@company.com"` in event properties is a data privacy violation waiting to happen. Fix: Use user IDs. Store PII in your database, not your event pipeline.
+- **PII in event properties.** — `email: "person@example.com"` in event properties is a data privacy violation waiting to happen. Fix: Use user IDs. Store PII in your database, not your event pipeline.
 
 ### [growth-experimentation](skills/analytics/growth-experimentation/SKILL.md)
 
@@ -168,7 +168,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Duplicate events.** — Segment fires "Signed Up." GTM also fires "SignUp." GA4 shows 2x signups. Nobody knows which number is real. Fix: One source of truth per event. Audit for duplicates. GTM ONLY handles marketing pixels, not core events.
 - **Marketing and product tracking disconnected.** — Marketing sees signups. Product sees activation. Nobody connects the two — can't answer "which marketing channel produces the most activated users?" Fix: Same event taxonomy. Same user_id. CDP routes to both marketing and product tools.
 - **No attribution on signup.** — UTM params captured on visit but lost on signup. "Where did this customer come from?" = shrug. Fix: Capture UTM params on first visit. Persist to user profile on signup. Always.
-- **PII in event properties.** — `email: "john@company.com"` tracked in every event. This is a privacy violation and a security risk. Fix: Use user_id. Store PII in your database, not your event pipeline. Only `identify()` call carries user traits — regular `track()` calls do not.
+- **PII in event properties.** — `email: "person@example.com"` tracked in every event. This is a privacy violation and a security risk. Fix: Use user_id. Store PII in your database, not your event pipeline. Only `identify()` call carries user traits — regular `track()` calls do not.
 
 ## automation
 
@@ -540,7 +540,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Feature list, not benefit list.** — "10GB storage" → "Store 50,000 files without worrying about space."
 - **No CTA.** — What should they do after reading? Visit a URL? Book a call? Email someone? Make it specific.
 - **Generic differentiators.** — "Best-in-class" means nothing. "Only solution that verifies emails in real-time at 99%+ accuracy" means something.
-- **info@company.com as contact.** — A one-pager with a generic email address signals "we don't actually want you to reach out."
+- **person@example.com as contact.** — A one-pager with a generic email address signals "we don't actually want you to reach out."
 
 ### [pitch-deck-builder](skills/design/pitch-deck-builder/SKILL.md)
 
@@ -1192,10 +1192,10 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ### [leadmagic-cli](skills/leadmagic/leadmagic-cli/SKILL.md)
 
-- **Not validating after finding.** — Always run `lm validate` before pushing to a sequence. Found emails can be stale.
+- **Paying twice for verification.** — Finder-returned work emails are already validated. Use validation for externally sourced or stale CRM lists.
 - **Batch size too large.** — Stick to 25-50 per batch for reliability. Larger batches risk timeouts.
-- **Skipping the verification step.** — Enrichment finds emails. Validation confirms they are deliverable. Two separate steps for a reason.
-- **Wrong CSV column mapping.** — Use `--batch-size` to control throughput. Check column auto-detection before running full batches.
+- **Treating all email sources alike.** — Keep finder results separate from external email lists so only the latter need a validation pass.
+- **Wrong CSV column mapping.** — Check detected columns with `lm enrich -i input.csv --dry-run` before running paid batches.
 
 ### [leadmagic-integrations](skills/leadmagic/leadmagic-integrations/SKILL.md)
 
@@ -1501,7 +1501,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 - **Skipping verification.** — Unverified emails cause bounces. Bounces damage sender reputation. Recovery takes weeks. Always verify after finding.
 - **Single-provider dependency.** — One provider covers 60-75% max. Running only Apollo leaves 25-40% of contacts unreachable. Always waterfall.
-- **Using pattern-guessed emails.** — Constructing firstname.lastname@company.com without confirmation creates 40-60% bounce rates. Never guess. Verify.
+- **Using pattern-guessed emails.** — Constructing person@example.com without confirmation creates 40-60% bounce rates. Never guess. Verify.
 - **Running waterfall in wrong order.** — An expensive provider first burns budget on contacts a cheaper provider would have found. Sort by cost-per-hit.
 - **Not normalizing company names.** — \"Acme Inc\" vs \"Acme, Inc.\" vs \"Acme Corporation\" create duplicate lookups. Match on domain, not name.
 - **No LinkedIn URLs in input.** — Adding LinkedIn URLs improves match rates by 15-25 percentage points across all providers. Run a LinkedIn URL finder column before email finding when URLs are missing.

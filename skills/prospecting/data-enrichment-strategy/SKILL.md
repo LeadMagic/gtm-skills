@@ -11,7 +11,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   author: LeadMagic
   category: prospecting
   tags: [enrichment, data-strategy, providers, architecture, build-vs-buy]
@@ -75,16 +75,16 @@ Ask the user:
 
 | Provider | Best For | Email Coverage | Phone Coverage | Firmographics | Cost Profile | Notes |
 |---|---|---|---|---|---|---|
-| Apollo | US SMB/Mid-market | 60-75% | Moderate | Good | $59-99/user/mo | Built-in sequencer |
-| ZoomInfo | Enterprise, Fortune 5000 | 70-85% | Strong | Excellent | $15K-100K+/yr | Deep org charts, intent |
-| Clay | Multi-source orchestration | Via providers | Via providers | Via providers | $149-800/mo + credits | 150+ providers, workflows |
-| Clearbit (HubSpot) | US companies | Good | Limited | Excellent | Part of HubSpot | Real-time enrichment |
-| People Data Labs | Technical, EU, early-stage | 40-55% | Moderate | Good | API credits | Broad but thinner data |
-| Cognism | EU, mobile phones | Good | Strong (EU) | Good | Mid-market pricing | GDPR-compliant |
-| Lusha | Quick lookups | 30-50% | Moderate | Light | Freemium/credits | Browser extension |
-| Hunter | Domain-pattern matching | 15-25% | None | None | Low, per-request | Email only |
-| Findymail | US sales personas | 40-60% | None | None | Moderate | Email specialist |
-| Prospeo | Title-first search | 40-55% | None | None | Credits | API + CSV export |
+| Apollo | Evaluate for the target segment | Measure | Measure | Verify fields | Check current quote | Review terms and data rights |
+| ZoomInfo | Evaluate for the target segment | Measure | Measure | Verify fields | Check current quote | Review terms and data rights |
+| Clay | Evaluate for the target segment | Measure | Measure | Verify fields | Check current quote | Review terms and data rights |
+| Clearbit (HubSpot) | Evaluate for the target segment | Measure | Measure | Verify fields | Check current quote | Review terms and data rights |
+| People Data Labs | Evaluate for the target segment | Measure | Measure | Verify fields | Check current quote | Review terms and data rights |
+| Cognism | Evaluate for the target segment | Measure | Measure | Verify fields | Check current quote | Review terms and data rights |
+| Lusha | Evaluate for the target segment | Measure | Measure | Verify fields | Check current quote | Review terms and data rights |
+| Hunter | Evaluate for the target segment | Measure | Measure | Verify fields | Check current quote | Review terms and data rights |
+| Findymail | Evaluate for the target segment | Measure | Measure | Verify fields | Check current quote | Review terms and data rights |
+| Prospeo | Evaluate for the target segment | Measure | Measure | Verify fields | Check current quote | Review terms and data rights |
 
 ### Phase 3: Architecture Design
 

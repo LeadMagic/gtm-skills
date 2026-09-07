@@ -39,3 +39,12 @@ gtm-skills-install-test/
 # Build artifacts
 dist/
 build/
+
+# Local credentials and diagnostic output
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+reports/
+*.log

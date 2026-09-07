@@ -10,7 +10,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
-  version: "2.0.0"
+  version: "2.0.1"
   author: LeadMagic
   category: design
   tags:
@@ -159,7 +159,7 @@ figure out what to do next, the design has failed.
 
 5. **Clear error messages (not vague):**
    - BAD: "Invalid email" → GOOD: "That doesn't look like an email address.
-     Use format: name@company.com"
+     Use format: person@example.com"
    - BAD: "Password too short" → GOOD: "Password must be at least 8 characters.
      You entered 5."
 

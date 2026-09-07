@@ -1,5 +1,15 @@
 # Changelog
 
+## Public-content privacy review — 2026-09-06
+
+Use synthetic contact examples, remove unnecessary identity and credential-like samples, and clarify publication, attribution, and claims requirements.
+
+
+## Unreleased — 2026-09-06
+
+Correct CLI OAuth and source-aware email validation guidance; remove unsupported workflow command examples and regenerate the skill catalog.
+
+
 All notable changes to GTM Skills are documented here.
 
 ## Unreleased — Installation, Catalog Accuracy, and SEO Hardening

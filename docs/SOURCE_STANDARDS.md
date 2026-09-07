@@ -79,3 +79,13 @@ PY
 ```
 
 No release is ready while that audit prints results.
+
+## Publication rights and claims
+
+- Attribute sources accurately and preserve license/copyright notices. Write original summaries; do not reproduce paid materials, private messages, or third-party assets without appropriate rights.
+- Named people, products, and frameworks are references, not endorsements or evidence of a partnership. Distinguish a direct quote from a paraphrase and provide its source.
+- Label hypothetical examples. Do not fabricate customer results, testimonials, certification, or compliance claims.
+- Support objective performance and comparison claims with current evidence and disclose material affiliations. LeadMagic publishes this collection; it is not an independent vendor ranking.
+- Keep legal, tax, employment, and regulatory examples at the process level unless current qualified review supports the specific statement.
+
+See [FTC advertising substantiation guidance](https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation).

@@ -10,7 +10,7 @@ description: >-
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
 metadata:
-  version: "1.1.0"
+  version: "1.1.1"
   author: LeadMagic
   category: design
   tags: [one-pager, sales, collateral, design, leave-behind]
@@ -87,7 +87,7 @@ Every one-pager follows the same skeleton. Adapt per variant:
 │ "Quote from customer or analyst"    │
 │                                     │
 │ CTA: [One clear next step]          │
-│ Contact: name@company.com           │
+│ Contact: person@example.com           │
 └─────────────────────────────────────┘
 ```
 
@@ -178,7 +178,7 @@ One-pager copy with layout guidance:
 4. **Generic differentiators.** "Best-in-class" means nothing. "Only solution
    that verifies emails in real-time at 99%+ accuracy" means something.
 
-5. **info@company.com as contact.** A one-pager with a generic email address
+5. **person@example.com as contact.** A one-pager with a generic email address
    signals "we don't actually want you to reach out."
 
 ## Execution Artifacts

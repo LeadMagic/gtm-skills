@@ -21,7 +21,7 @@
 
 **Data sources:** Company SEC filings + S&P Capital IQ. Updated on earnings releases.
 
-**Contact:** insights@meritechcapital.com
+**Contact:** person@example.com
 
 ---
 
