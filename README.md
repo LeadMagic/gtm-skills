@@ -2,9 +2,11 @@
 
 [![Skills](https://img.shields.io/badge/skills-211-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-25-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE) [![Stars](https://img.shields.io/github/stars/LeadMagic/gtm-skills?style=social)](https://github.com/LeadMagic/gtm-skills)
 
-**211 production go-to-market (GTM) Agent Skills across 25 categories.** Install source-backed buyer research, product marketing, sales, outbound, RevOps, SEO, ABM, product-led growth, customer-success, analytics, and automation workflows in Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, and other Agent Skills-compatible runtimes.
+**211 go-to-market (GTM) agent skills across 25 categories.** Install source-backed buyer research, product marketing, sales, outbound, RevOps, SEO, ABM, product-led growth, customer-success, analytics, and automation workflows in Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, and other Agent Skills-compatible runtimes.
 
-This is an artifact-first skill library, not a prompt pack. Every skill ships a `SKILL.md`, framework notes, an output template, and an executable deliverable checker. The current catalog contains exactly **1360 packaged skill files**, **1019 framework/source assignments**, and **121 named expert entries**. Counts and catalogs are generated from the skill folders on disk.
+Use these playbooks to produce research briefs, sales plans, marketing assets, and workflow checks. Every skill ships a `SKILL.md`, framework notes, an output template, and an executable deliverable checker. The current catalog contains exactly **1360 packaged skill files**, **1019 framework/source assignments**, and **121 named expert entries**. Counts and catalogs are generated from the skill folders on disk.
+
+[LeadMagic B2B enrichment](https://leadmagic.io?utm_source=github&utm_medium=readme&utm_campaign=gtm-skills&utm_content=readme-intro) · [API documentation](https://leadmagic.io/docs?utm_source=github&utm_medium=readme&utm_campaign=gtm-skills&utm_content=readme-intro) · [Pricing and credits](https://leadmagic.io/pricing?utm_source=github&utm_medium=readme&utm_campaign=gtm-skills&utm_content=readme-intro)
 
 ## Install Agent Skills
 
@@ -456,3 +458,7 @@ Expected result: 211 skills checked, 0 errors, 0 warnings; 211 checkers reject u
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). New skills must cite named authorities, produce concrete artifacts, pass validation, and avoid private/internal details.
+
+## LeadMagic enrichment integrations
+
+Use [LeadMagic product skills](https://github.com/LeadMagic/leadmagic-skills) for API and enrichment guidance, [n8n workflows](https://github.com/LeadMagic/leadmagic-n8n) for automation, and the [public OpenAPI specification](https://github.com/LeadMagic/leadmagic-openapi) for REST clients.
