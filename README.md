@@ -1,5 +1,7 @@
 # GTM Agent Skills for Claude Code, Codex & GitHub Copilot
 
+<img src="assets/leadmagic.svg" width="64" height="64" alt="LeadMagic logo">
+
 [![Skills](https://img.shields.io/badge/skills-211-blue)](skills/) [![Categories](https://img.shields.io/badge/categories-25-green)](skills/) [![Release](https://img.shields.io/github/v/release/LeadMagic/gtm-skills)](https://github.com/LeadMagic/gtm-skills/releases) [![CI](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/LeadMagic/gtm-skills/actions/workflows/validate.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE) [![Stars](https://img.shields.io/github/stars/LeadMagic/gtm-skills?style=social)](https://github.com/LeadMagic/gtm-skills)
 
 **211 go-to-market (GTM) agent skills across 25 categories.** Install source-backed buyer research, product marketing, sales, outbound, RevOps, SEO, ABM, product-led growth, customer-success, analytics, and automation workflows in Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, and other Agent Skills-compatible runtimes.
