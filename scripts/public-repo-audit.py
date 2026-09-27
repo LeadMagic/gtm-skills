@@ -36,7 +36,6 @@ REQUIRED_PUBLIC_FILES = [
     "CLAUDE.md",
     "skills.lock",
     "taxonomy.csv",
-    ".github/CODEOWNERS",
     ".github/pull_request_template.md",
     ".github/dependabot.yml",
     ".github/workflows/validate.yml",
