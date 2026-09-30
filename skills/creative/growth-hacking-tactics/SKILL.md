@@ -9,7 +9,7 @@ description: >-
   low-cost acquisition channels. Triggers on: "growth hacking", "growth
   loops", "viral mechanics", "growth experiments", "referral flywheel".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic

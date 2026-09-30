@@ -9,7 +9,7 @@ description: >-
   discounted cash flow, consumption revenue models, expansion modeling,
   and SaaS-specific valuation.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "2.2.0"
   author: LeadMagic

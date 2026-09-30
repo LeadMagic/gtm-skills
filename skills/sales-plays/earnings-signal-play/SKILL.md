@@ -7,7 +7,7 @@ description: >-
   Triggers on: "earnings signal", "earnings play", "public company outbound",
   "10-K outreach", "earnings call prospecting", "SEC filing signal".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic

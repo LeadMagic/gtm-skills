@@ -3,7 +3,7 @@ name: skills-lock
 description: >-
   Generate and verify a deterministic SHA-256 inventory for every packaged file in an Agent Skills repository. Use when creating skills.lock, checking repository integrity, reviewing artifact coverage, detecting uncommitted generated drift, or designing CI gates for a skill catalog.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "2.0.0"
   author: LeadMagic

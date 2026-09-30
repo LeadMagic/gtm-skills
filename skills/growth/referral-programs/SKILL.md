@@ -9,7 +9,7 @@ description: >-
   "referral program", "referral marketing", "customer referrals", "partner
   referrals", "double-sided rewards", "referral tracking".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "2.1.0"
   author: LeadMagic

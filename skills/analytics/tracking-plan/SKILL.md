@@ -10,7 +10,7 @@ description: >-
   product tracking. Triggers on: "tracking plan", "analytics plan", "event
   tracking architecture", "pixel strategy", "analytics for PLG", "SaaS analytics".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.1"
   author: LeadMagic

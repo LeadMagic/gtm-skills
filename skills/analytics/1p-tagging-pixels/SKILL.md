@@ -9,7 +9,7 @@ description: >-
   "server-side tagging", "UTM", "cookie consent", "1P vs 3P", "identity resolution",
   or any tracking implementation request.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.1"
   author: LeadMagic

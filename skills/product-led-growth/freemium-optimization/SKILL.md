@@ -9,7 +9,7 @@ description: >-
   "free trial conversion", "PQL scoring", "activation flow", "paywall design",
   "freemium to paid".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "2.1.0"
   author: LeadMagic

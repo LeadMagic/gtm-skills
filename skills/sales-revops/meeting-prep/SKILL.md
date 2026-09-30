@@ -8,7 +8,7 @@ description: >-
   "discovery prep", "MEDDICC", "MEDDIC", "qualify this deal", "pre-call research",
   "discovery questions", "champion test", "economic buyer".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic

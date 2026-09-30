@@ -9,7 +9,7 @@ description: >-
   "v0 by Vercel", "v0 landing page", "build landing page with AI", "v0
   pricing page", "v0 tutorial".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -379,7 +379,7 @@ Before delivering, verify:
 
 ## Related Skills
 
-- `vibe-coding` — Full AI dev tools comparison (v0, Lovable, Bolt, Jesse)
+- `vibe-coding` — Full AI dev tools comparison (v0, Lovable, Bolt, Cursor)
 - `vibe-marketing` — AI-powered marketing content at scale
 - `landing-pages` — CRO audits, conversion optimization patterns
 - `design-system-gtm` — Brand tokens, CSS variables for consistent AI output

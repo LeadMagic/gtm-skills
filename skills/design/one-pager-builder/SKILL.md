@@ -8,7 +8,7 @@ description: >-
   "product overview", "handout", "champion doc", "sales sheet", or any request
   for a single-page sales document.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.1"
   author: LeadMagic

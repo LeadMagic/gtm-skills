@@ -1,5 +1,9 @@
 # Changelog
 
+## Cursor product references — 2026-09-30
+
+Restore Cursor wherever the v0.27.0 rebrand replaced the product name (vibe-coding, vibe-marketing, v0-lander, developer-gtm, headless-support, support-tool-stack, n8n-toolkit, ai-prompts-toolkit, leadmagic-mcp, mcp-setup, and install docs). Drop the duplicate `Jesse` compatibility entry and the `.jesse/skills` install target; Cursor installs through `.agents/skills`.
+
 ## Public-content privacy review — 2026-09-06
 
 Use synthetic contact examples, remove unnecessary identity and credential-like samples, and clarify publication, attribution, and claims requirements.

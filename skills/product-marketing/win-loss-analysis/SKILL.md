@@ -3,7 +3,7 @@ name: win-loss-analysis
 description: >-
   Build a neutral B2B win-loss program that interviews recent buyers, codes decision drivers and sentiment, separates buyer evidence from CRM opinion, and produces a recurring insight report plus owned GTM actions. Use when a team needs to understand why deals are won, lost, stalled, or displaced by competitors.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic

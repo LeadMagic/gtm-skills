@@ -8,7 +8,7 @@ description: >-
   Triggers on: "tool stack", "tech stack", "GTM tools", "which tool", "compare
   tools", "tool budget", "stack for my stage", or any tool selection request.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic

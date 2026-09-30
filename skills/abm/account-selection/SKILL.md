@@ -5,7 +5,7 @@ description: >-
   assignment, TAM segmentation. Triggers on: "account selection", "target account list",
   "tier accounts", "prioritize accounts", "TAM segmentation".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic

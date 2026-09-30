@@ -30,7 +30,7 @@ from the economic buyer.
 - **Guillermo Rauch (Vercel) — Framework-defined infrastructure & DX-led growth flywheel**
 - **James Allgrove (Stripe) — Self-serve signup + build-with-developers sales motion**
 - **Adam DuVander (EveryDeveloper) — Developer Marketing Does Not Exist (education over promotion)**
-- **Lee Robinson (ex-Vercel VP DX, now Jesse VP Developer Education) — Docs, education, community as distribution**
+- **Lee Robinson (ex-Vercel VP DX, now Cursor VP Developer Education) — Docs, education, community as distribution**
 
 ## Quality check
 

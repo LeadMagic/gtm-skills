@@ -8,7 +8,7 @@ description: >-
   "LeadMagic CLI", "lm find", "lm validate", "lm enrich", "LeadMagic command line",
   or any request about CLI-based enrichment.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.1"
   author: LeadMagic

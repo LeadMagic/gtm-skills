@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-09-07T01:06:48+00:00",
+  "generated_at": "2026-09-30T23:27:13+00:00",
   "total_skills": 211,
   "total_files": 1360,
   "file_counts": {
@@ -19,8 +19,8 @@
         "abm-1-to-1",
         "SKILL.md"
       ],
-      "sha256": "60a5cd04e09fa7d4ec54a83155afabb1421eabf23f724101055a98ca75bbd450",
-      "size_bytes": 6792
+      "sha256": "68347c2bb8c404f45777dcd368eae5814757937d0c044f3d2ac8172b68a0cab6",
+      "size_bytes": 6785
     },
     "abm/abm-1-to-few": {
       "path": [
@@ -28,8 +28,8 @@
         "abm-1-to-few",
         "SKILL.md"
       ],
-      "sha256": "e0049162a291708c641f19fefabb5827adbe2276293a45f02cb8ef5ee7d78333",
-      "size_bytes": 6917
+      "sha256": "e4aa6d7bcf7a369dc3d50799af9c944c912cf67e9dad2a2ba78f28f1086a6b0a",
+      "size_bytes": 6910
     },
     "abm/abm-1-to-many": {
       "path": [
@@ -37,8 +37,8 @@
         "abm-1-to-many",
         "SKILL.md"
       ],
-      "sha256": "4207c94001c375b2943c3c688a722070e388fb3a64f6c1b47b6b68c5ca6824b6",
-      "size_bytes": 6588
+      "sha256": "ac582c35ffea3786e2c32832154e2b9aa08b305e30aec5e5a71f130142d20ec8",
+      "size_bytes": 6581
     },
     "abm/abm-strategy": {
       "path": [
@@ -46,8 +46,8 @@
         "abm-strategy",
         "SKILL.md"
       ],
-      "sha256": "dc6f415ed5426d4c9eaa96c6633bc8d53504f7a34e7d729fe4c552a2b6402047",
-      "size_bytes": 9330
+      "sha256": "7e9bf62efcf05c190d77477f239cecb853efb9ac885cca11f3b385641aa6e51a",
+      "size_bytes": 9323
     },
     "abm/account-selection": {
       "path": [
@@ -55,8 +55,8 @@
         "account-selection",
         "SKILL.md"
       ],
-      "sha256": "79fe6cf33dc5ff946bf1c476ee676efca30204edb83fc50d3d53de504f6daa75",
-      "size_bytes": 7077
+      "sha256": "02314cc1a7e7929a61f51b01249c3e758840aede64f55e7f66aff4965f9d311c",
+      "size_bytes": 7070
     },
     "abm/multi-thread-orchestration": {
       "path": [
@@ -64,8 +64,8 @@
         "multi-thread-orchestration",
         "SKILL.md"
       ],
-      "sha256": "46c37a3850ed4edcb956609a3e7b33e8ee3f1be45fd5e240be1b585e27e29bb8",
-      "size_bytes": 7963
+      "sha256": "39c930d3d1db9b32443135de91bcfd32466a93de386c659ea88f4ccabec76b80",
+      "size_bytes": 7956
     },
     "abm/strategic-gifting": {
       "path": [
@@ -73,8 +73,8 @@
         "strategic-gifting",
         "SKILL.md"
       ],
-      "sha256": "e43d5e32905a031d854c010a0d91a29103cf0d7a0c7e49e2a7d5b9f1855aad6c",
-      "size_bytes": 9705
+      "sha256": "f28fcf46deaae84b6aed6ce0e56b830a3478efcfea59f1ede0f0bafe2829fe8b",
+      "size_bytes": 9698
     },
     "analytics/1p-tagging-pixels": {
       "path": [
@@ -82,8 +82,8 @@
         "1p-tagging-pixels",
         "SKILL.md"
       ],
-      "sha256": "ca87b1bc9a5a8cda74a4cda0fe4ec69936dfd46c69d0f0a4902d70348187e32e",
-      "size_bytes": 10184
+      "sha256": "ca79af54aa95552681d54e8808d9ec07bb97914a2d7818bcf6bec298061cc389",
+      "size_bytes": 10177
     },
     "analytics/a-b-testing": {
       "path": [
@@ -91,8 +91,8 @@
         "a-b-testing",
         "SKILL.md"
       ],
-      "sha256": "6e07c57872a70c4857662d1c358685466549e6af2d63cf9974329511d1e17bee",
-      "size_bytes": 25873
+      "sha256": "8b9a245d5b1fecafec0de839241a75332e7d151cfbb36d52af8d13e325b54d3f",
+      "size_bytes": 25866
     },
     "analytics/attribution": {
       "path": [
@@ -100,8 +100,8 @@
         "attribution",
         "SKILL.md"
       ],
-      "sha256": "7160138430b82469decfd53793e77e530f4fdae124da0c3530f1fdc413c036d0",
-      "size_bytes": 25807
+      "sha256": "80785e0533ed95da772b7ecc9613e29d8494760ae7b9ef54fdcbcc76d454bbc5",
+      "size_bytes": 25800
     },
     "analytics/campaign-analytics": {
       "path": [
@@ -109,8 +109,8 @@
         "campaign-analytics",
         "SKILL.md"
       ],
-      "sha256": "0ce57e144c965d34b37448b5628b8e2f214c6d9bd5c2fe0bf430c370d26d4b0d",
-      "size_bytes": 28145
+      "sha256": "f8d124991a5c9f8c30d444bc8c3de619652715ef534a3aa4dfb8e86a29e1b61e",
+      "size_bytes": 28138
     },
     "analytics/deliverability-monitoring": {
       "path": [
@@ -118,8 +118,8 @@
         "deliverability-monitoring",
         "SKILL.md"
       ],
-      "sha256": "320d046dab79c17e2d825f8003ad3980b8b0dd35bb84220dd6d029ba24dc7192",
-      "size_bytes": 25161
+      "sha256": "9bd0c8da93caa8cfbc43f4657086d4952392f29bb9df38d410426057e32a0a25",
+      "size_bytes": 25154
     },
     "analytics/event-analytics": {
       "path": [
@@ -127,8 +127,8 @@
         "event-analytics",
         "SKILL.md"
       ],
-      "sha256": "7275d27bc7f1e84edc6e64d5b6f9019f95bfc601d82bba54c4deee456f015203",
-      "size_bytes": 12473
+      "sha256": "9a814224619a0503d69f86aa261626e7172ee89a48d84c52d881f302571b41f9",
+      "size_bytes": 12466
     },
     "analytics/growth-experimentation": {
       "path": [
@@ -136,8 +136,8 @@
         "growth-experimentation",
         "SKILL.md"
       ],
-      "sha256": "6c667cfdb0eda923e7d85b4f07b9fa0b8279e5818b5c414a735123c9f77f0955",
-      "size_bytes": 6848
+      "sha256": "f138e24a43d3d534304a177ca48e45897756094ceab3a887e6db0a71b01d922e",
+      "size_bytes": 6841
     },
     "analytics/gtm-metrics": {
       "path": [
@@ -145,8 +145,8 @@
         "gtm-metrics",
         "SKILL.md"
       ],
-      "sha256": "6c8adfc9cc08152a6ba3628965f276b59d6f409641a404a86bb2fd40566ac077",
-      "size_bytes": 30232
+      "sha256": "ed9b1ff366b5815468df356e37a2b68131bbd2ec6d732d6eb162f21761d06030",
+      "size_bytes": 30225
     },
     "analytics/gtm-system-architecture": {
       "path": [
@@ -154,8 +154,8 @@
         "gtm-system-architecture",
         "SKILL.md"
       ],
-      "sha256": "8dfda3c7bd12e6dde70d7c8eeeaae2f256e45b2472a71c9139627f19c23e4d3c",
-      "size_bytes": 7680
+      "sha256": "e3db401e98beafee04857c182ad044ebce974b3dd223d46a53f0f8a0bfddd1e9",
+      "size_bytes": 7673
     },
     "analytics/marketing-strategy": {
       "path": [
@@ -163,8 +163,8 @@
         "marketing-strategy",
         "SKILL.md"
       ],
-      "sha256": "b01e94eeb339443b0321cf12bfe26879bd7176f6547b417c768b67a89fe97613",
-      "size_bytes": 7463
+      "sha256": "c419735ece104748d78f12558d56163776a6f2a853db4e02ddee6e27e911e137",
+      "size_bytes": 7456
     },
     "analytics/paid-advertising": {
       "path": [
@@ -172,8 +172,8 @@
         "paid-advertising",
         "SKILL.md"
       ],
-      "sha256": "816f59b4ff3cf320f050cf7ce66717f92dd6546670707afc9e9be678aa02b4cc",
-      "size_bytes": 8071
+      "sha256": "2dd54b93b48a4ac3524df6fee54eb225f0a8688869bf409ed7ea2ac26859b377",
+      "size_bytes": 8064
     },
     "analytics/proactive-alerts": {
       "path": [
@@ -181,8 +181,8 @@
         "proactive-alerts",
         "SKILL.md"
       ],
-      "sha256": "fcbbbb7b50603d4b96436958fdedd4bd40c6870a3a19ad80773e046cfa980bd5",
-      "size_bytes": 6422
+      "sha256": "a804d0090fccc1c8d9611d6730a2d636d4d1fd03a3599f719645fe3f01b22a4e",
+      "size_bytes": 6415
     },
     "analytics/tracking-plan": {
       "path": [
@@ -190,8 +190,8 @@
         "tracking-plan",
         "SKILL.md"
       ],
-      "sha256": "1c81159876c34fb8b2761df809b8f797be7aad146d78a1910c8a25fab88a7f7d",
-      "size_bytes": 20416
+      "sha256": "799c003c56c2905b0e6fa24af9fd212bcb31f39bfda895ac0ce24986d63fb38c",
+      "size_bytes": 20409
     },
     "automation/ai-sdr-setup": {
       "path": [
@@ -199,8 +199,8 @@
         "ai-sdr-setup",
         "SKILL.md"
       ],
-      "sha256": "d9a85c021fe7fea38443b9a017107a260eee48624d0a9aa7273cb69f0d7f798e",
-      "size_bytes": 10992
+      "sha256": "c4e12f13589a6644b9662f784dbde3397c67bbc768b129672fd7ec9832f820d7",
+      "size_bytes": 10985
     },
     "automation/api-enrichment": {
       "path": [
@@ -208,8 +208,8 @@
         "api-enrichment",
         "SKILL.md"
       ],
-      "sha256": "641a721f1a0865c5c83b8c47f3ceb086815895b3aea948ba83e2aaa2e6ff495f",
-      "size_bytes": 6846
+      "sha256": "970db0fd4fdd7de5b11a35c61784c08a05b5e20328a37dffcae3fb7ef92a41bc",
+      "size_bytes": 6839
     },
     "automation/attio-setup": {
       "path": [
@@ -217,8 +217,8 @@
         "attio-setup",
         "SKILL.md"
       ],
-      "sha256": "ac772760918b0c0f586691b708694005c330ae8635f2ae562dbd3f140374d4d4",
-      "size_bytes": 5847
+      "sha256": "e23e0390621cb2de58d9fe0f9f91d96324746cf5f2f15d47a1ed2af9a58b9581",
+      "size_bytes": 5840
     },
     "automation/clay-automation": {
       "path": [
@@ -226,8 +226,8 @@
         "clay-automation",
         "SKILL.md"
       ],
-      "sha256": "1da0d73dbcb31d0b6b320633778af82c239c4e0ec700a3a40ec5c4bcf0219648",
-      "size_bytes": 8768
+      "sha256": "0e321858edfd893c987a8249f248a9ed79ccd394d561c1b81a5f27441cb73cda",
+      "size_bytes": 8761
     },
     "automation/crm-integration": {
       "path": [
@@ -235,8 +235,8 @@
         "crm-integration",
         "SKILL.md"
       ],
-      "sha256": "009d7ef94efbb475ca93be6e2a5094266675bd676edef8e8b901c1b0564ce353",
-      "size_bytes": 6640
+      "sha256": "c8c24aed3fb400571302e3cb668357d12507039849bc9ad5c7cf1bda851a90a9",
+      "size_bytes": 6633
     },
     "automation/hubspot-setup": {
       "path": [
@@ -244,8 +244,8 @@
         "hubspot-setup",
         "SKILL.md"
       ],
-      "sha256": "2afa75a7b1ee6d9f2deed35a6a31627506c4342ed241aea154f24d8716aedebc",
-      "size_bytes": 6735
+      "sha256": "d281f8a509ecb9ffd55db94261a3b43daa121d49235a00870c942fb4fa8d248f",
+      "size_bytes": 6728
     },
     "automation/mcp-setup": {
       "path": [
@@ -253,8 +253,8 @@
         "mcp-setup",
         "SKILL.md"
       ],
-      "sha256": "e1b52ef6f331182ed204eea948dc80f8f10786deae6e91e68239c9f03bc2d6fa",
-      "size_bytes": 7354
+      "sha256": "465cb3d71fb390ad1c9a7febf78a74b855758f7fec81ea5c0a54960420609b4c",
+      "size_bytes": 7348
     },
     "automation/n8n-automation": {
       "path": [
@@ -262,8 +262,8 @@
         "n8n-automation",
         "SKILL.md"
       ],
-      "sha256": "6a2d3d037fab800b8476a76375d3d3abae0b6612f00afe9c1b1125c898691685",
-      "size_bytes": 7446
+      "sha256": "c217983b18a77a20460d4d2d5af769661572cd5f00e50f6524ccdcaf49a83a92",
+      "size_bytes": 7439
     },
     "automation/salesforce-setup": {
       "path": [
@@ -271,8 +271,8 @@
         "salesforce-setup",
         "SKILL.md"
       ],
-      "sha256": "085262861caa3e4b87e45c741198e46bf921b63a0b64288f39c9c7c0d53b3a72",
-      "size_bytes": 7497
+      "sha256": "1e013c504ec410f5bef5aa8e2931d6c8eb2db188f34d6df132a0bbcf66ff6717",
+      "size_bytes": 7490
     },
     "automation/skills-lock": {
       "path": [
@@ -280,8 +280,8 @@
         "skills-lock",
         "SKILL.md"
       ],
-      "sha256": "ed5b970356eec8b4d0577f3d06c0a09ca8c192491a7ae191238a7ceb31c4ece0",
-      "size_bytes": 6317
+      "sha256": "c5423e45fd0d45931a886686a1dd15b915ac8f5497c81cbb8d571246ebf7aff3",
+      "size_bytes": 6310
     },
     "automation/tool-selection-stack": {
       "path": [
@@ -289,8 +289,8 @@
         "tool-selection-stack",
         "SKILL.md"
       ],
-      "sha256": "2952bd87831c51dcd922a7f9ab3004b91294ce576413c70db2d2ea555f97f0b4",
-      "size_bytes": 6503
+      "sha256": "dbace40dc32a37bdf6fc30593ed65c76b050b661663b86ab6af3ed73418ebf5a",
+      "size_bytes": 6496
     },
     "automation/waterfall-enrichment": {
       "path": [
@@ -298,8 +298,8 @@
         "waterfall-enrichment",
         "SKILL.md"
       ],
-      "sha256": "4bf7c96f65f98f5387783ab3b302259e04615bb914c643af1c5b11db24f1f590",
-      "size_bytes": 5416
+      "sha256": "b6454ae2db60834fea7099cbdc09ff92a5b6a4fe5587097d5789f825eb3236e9",
+      "size_bytes": 5409
     },
     "content-seo/aeo-strategy": {
       "path": [
@@ -307,8 +307,8 @@
         "aeo-strategy",
         "SKILL.md"
       ],
-      "sha256": "35f8df690feba904a4c9fe35149bbe2b1bb656fcb03536e2ce3fc1c6192af793",
-      "size_bytes": 7988
+      "sha256": "b42f80ae5bd9c26044f606745391903ac16a4a3b79dc03dcad4899eeba6a81f7",
+      "size_bytes": 7981
     },
     "content-seo/citation-harvesting": {
       "path": [
@@ -316,8 +316,8 @@
         "citation-harvesting",
         "SKILL.md"
       ],
-      "sha256": "ec203f0188a3ecdf7f83b2ef2bd8fafd2f03f35c1d7da508e1ade10f64384d11",
-      "size_bytes": 6832
+      "sha256": "0795eb21dcc6d1b76c5ae21e9e1edb4f9e4d8261d4a55093327cc46094a430ee",
+      "size_bytes": 6825
     },
     "content-seo/faq-seo": {
       "path": [
@@ -325,8 +325,8 @@
         "faq-seo",
         "SKILL.md"
       ],
-      "sha256": "dd9d34e6b452687483f338735dc352fa455d225792105dd34fe7ff47dbcceb8a",
-      "size_bytes": 6189
+      "sha256": "6df31ad443d17b293469ce5aefb11771f0b0f12516bf3d98d8015a4eb2741d99",
+      "size_bytes": 6182
     },
     "content-seo/pillar-pages": {
       "path": [
@@ -334,8 +334,8 @@
         "pillar-pages",
         "SKILL.md"
       ],
-      "sha256": "2cc3c260738f501a1b60ce71870dc8f2ab53f3b50539326ba3eec84a5e9605ee",
-      "size_bytes": 7614
+      "sha256": "620600b5eec89f652f623d988a7e63805e313f33e1aa6d377feff360c4274fd7",
+      "size_bytes": 7607
     },
     "content-seo/pseo-strategy": {
       "path": [
@@ -343,8 +343,8 @@
         "pseo-strategy",
         "SKILL.md"
       ],
-      "sha256": "3ee4368ccfa1895c8fe2116cf58fdeb5b75ad5d03e0321e5dc0a85b525a9415f",
-      "size_bytes": 7368
+      "sha256": "1a2da4bc9e00b5827a7ae164feaacd74e406e4173174b6ad53c2fc524eaba65e",
+      "size_bytes": 7361
     },
     "content-seo/seo-strategy": {
       "path": [
@@ -352,8 +352,8 @@
         "seo-strategy",
         "SKILL.md"
       ],
-      "sha256": "11f5339ea55e0c11264010d9d5d354eb96b62591676ec30b61cf05254bb7fa16",
-      "size_bytes": 6946
+      "sha256": "5ccd069143a69587ca7aea9c6c6e68a8f418a02722a3b2da200ae846bd09cd8f",
+      "size_bytes": 6939
     },
     "content-seo/technical-seo-audit": {
       "path": [
@@ -361,8 +361,8 @@
         "technical-seo-audit",
         "SKILL.md"
       ],
-      "sha256": "859610926e634ac11cc843f5b4dcce43cd92b03623dd417c0041dd9a71d94155",
-      "size_bytes": 7501
+      "sha256": "824123d171853f0749f536026e2066a64e8127e6f08772fff1053cab0f9afef3",
+      "size_bytes": 7494
     },
     "creative/ad-creative-strategy": {
       "path": [
@@ -370,8 +370,8 @@
         "ad-creative-strategy",
         "SKILL.md"
       ],
-      "sha256": "b8594e8f5a08de043616a4190061952c242314e8e69a3e3d345d35a01234e837",
-      "size_bytes": 6615
+      "sha256": "f8d644bf5b375429213c16045c415554877810896a33f4b9c72a90fc2539ed79",
+      "size_bytes": 6608
     },
     "creative/ai-content-creation": {
       "path": [
@@ -379,8 +379,8 @@
         "ai-content-creation",
         "SKILL.md"
       ],
-      "sha256": "b65c1d79a6382b55ccb6c124700cca847cb9dfb8c2cbf1cfed08311c56903fe4",
-      "size_bytes": 12972
+      "sha256": "f872ec66e4dc344536b6a0a780601a8a354926ce4b2caa18ac8c2e9edc8aa9e5",
+      "size_bytes": 12965
     },
     "creative/ai-video-creation": {
       "path": [
@@ -388,8 +388,8 @@
         "ai-video-creation",
         "SKILL.md"
       ],
-      "sha256": "61f6587e6107ddf5fd4eaea149f13552ce3a022202c11f93c0386b00b2b9e70b",
-      "size_bytes": 13702
+      "sha256": "dc2aa0b1dacf9a5169f88cdaaa35b65c8ec5f2118ce11f92df492022f4762ffa",
+      "size_bytes": 13695
     },
     "creative/content-distribution": {
       "path": [
@@ -397,8 +397,8 @@
         "content-distribution",
         "SKILL.md"
       ],
-      "sha256": "e41f95896bbb2d3ff1ed62348d7039310cb760d822aadddb9ccca2a168d4e0f4",
-      "size_bytes": 6447
+      "sha256": "d80bd938abc9975d00c8e3d1ccb1b8944970822fab78df3ec377783189e7d3e0",
+      "size_bytes": 6440
     },
     "creative/copywriting": {
       "path": [
@@ -406,8 +406,8 @@
         "copywriting",
         "SKILL.md"
       ],
-      "sha256": "44fb97babf3dbd353763fe61cfc862839a5c8369d706caf4974f659e904d144e",
-      "size_bytes": 6410
+      "sha256": "90ad3ca98c35193b4f334dd24584e90c0459c5fd00b3a9673742c0ab197d1b76",
+      "size_bytes": 6403
     },
     "creative/graphic-design-gtm": {
       "path": [
@@ -415,8 +415,8 @@
         "graphic-design-gtm",
         "SKILL.md"
       ],
-      "sha256": "871bb8800aa1bcc093ec1f8e598cc49946fdf485e0bd49120403a9b5e2947374",
-      "size_bytes": 7406
+      "sha256": "b408f11eb008c73b1713316f10843a8691159dd1f46389839bf288ddf0a30e0c",
+      "size_bytes": 7399
     },
     "creative/growth-hacking-tactics": {
       "path": [
@@ -424,8 +424,8 @@
         "growth-hacking-tactics",
         "SKILL.md"
       ],
-      "sha256": "94b03247972b4d92efcf174f5547dce31c1b5b8f85a991f070e87b828b2b7012",
-      "size_bytes": 13524
+      "sha256": "39b56f76b13a6c7200ff7604b5ba5b40e31f66ef6a879abb14989433ce843482",
+      "size_bytes": 13517
     },
     "creative/landing-page-copy": {
       "path": [
@@ -433,8 +433,8 @@
         "landing-page-copy",
         "SKILL.md"
       ],
-      "sha256": "aed67d2578b503c84bab2bfda62f19a1f06a15f9cad54125c47ee313245e0dca",
-      "size_bytes": 17316
+      "sha256": "6dc5f64bd14411808a29c533acdc08958b2566de35a8e97deade34daaa7a83cb",
+      "size_bytes": 17309
     },
     "creative/social-media-strategy": {
       "path": [
@@ -442,8 +442,8 @@
         "social-media-strategy",
         "SKILL.md"
       ],
-      "sha256": "889b5a39262c7b1c3276822c95e784049099e2842887c099b92b0f21223bddb3",
-      "size_bytes": 7650
+      "sha256": "7aba8521ddd0eae1ef263af1493885368b0394eff24d26c6cc945875e45166b5",
+      "size_bytes": 7643
     },
     "creative/v0-lander": {
       "path": [
@@ -451,8 +451,8 @@
         "v0-lander",
         "SKILL.md"
       ],
-      "sha256": "bd51f76790402bccb4e019d498d1045ca3be4c6aad866b4953f8f7016a9bfc6f",
-      "size_bytes": 15297
+      "sha256": "34e545857aa7bd831da7f9d0dd91b2df6f079095c4eaa07126542c135bd3bded",
+      "size_bytes": 15291
     },
     "creative/vibe-coding": {
       "path": [
@@ -460,8 +460,8 @@
         "vibe-coding",
         "SKILL.md"
       ],
-      "sha256": "e5303d6824dc8652c59520c22047a389a5e5127f4b12ebd18b18bd0aae045ea5",
-      "size_bytes": 16150
+      "sha256": "df18a799c2ab148a067980f34cded73122bb389e1949c78a9e28371286f8ecad",
+      "size_bytes": 16149
     },
     "creative/vibe-marketing": {
       "path": [
@@ -469,8 +469,8 @@
         "vibe-marketing",
         "SKILL.md"
       ],
-      "sha256": "adecd9a73c7ea7048c469b3a510ced8e154792aa589e9c803051a3ee57290e09",
-      "size_bytes": 15327
+      "sha256": "ea941bbb180945312e0451e8b4d91607fd921bce4d862e435840a2b43a6f7702",
+      "size_bytes": 15321
     },
     "customer-success/cs-analytics-dashboards": {
       "path": [
@@ -478,8 +478,8 @@
         "cs-analytics-dashboards",
         "SKILL.md"
       ],
-      "sha256": "b63a0de7b35fe251e5233d181da29faaf0003e27ac01a440be0ea6e7871a0d86",
-      "size_bytes": 13615
+      "sha256": "292bb34b50662f22236c04324becf12a66b0b8ed08435f506a8574a8b15dd3f3",
+      "size_bytes": 13608
     },
     "customer-success/cs-playbooks": {
       "path": [
@@ -487,8 +487,8 @@
         "cs-playbooks",
         "SKILL.md"
       ],
-      "sha256": "0d06cf932d1860a80687417e6eba8c57d1af8a08958f24ea02f2cfb71cc3611e",
-      "size_bytes": 9079
+      "sha256": "ebde2239354a96866655178e16b3db54842f9332b8a931efe5c4cf3039c53517",
+      "size_bytes": 9072
     },
     "customer-success/customer-onboarding": {
       "path": [
@@ -496,8 +496,8 @@
         "customer-onboarding",
         "SKILL.md"
       ],
-      "sha256": "06fd3d70cea69dae1aab40a0a6974df68363d77aead032794ce62f5be46e2833",
-      "size_bytes": 16587
+      "sha256": "4e4089450d287df47142996bd4f44c2dfaa0c304e11e112127dcc713107080ce",
+      "size_bytes": 16580
     },
     "customer-success/headless-support": {
       "path": [
@@ -505,8 +505,8 @@
         "headless-support",
         "SKILL.md"
       ],
-      "sha256": "a4686d2eb399731441e474fe03f8df9ba88ef0af5215c5604de5acdb644241aa",
-      "size_bytes": 14836
+      "sha256": "d4def9d9341a81237693e7995b0103992b70d99c16942c3020288bc2a65827c6",
+      "size_bytes": 14831
     },
     "customer-success/qbr-planning": {
       "path": [
@@ -514,8 +514,8 @@
         "qbr-planning",
         "SKILL.md"
       ],
-      "sha256": "13a798c096e64221f75da22c93e040830fb1b6eafac982002ba7a772b05e6f0c",
-      "size_bytes": 5938
+      "sha256": "695367cf065513d6bfda8e902e631ba84cbb08de903e72e9c9f81bbd2da5c684",
+      "size_bytes": 5931
     },
     "customer-success/sla-management": {
       "path": [
@@ -523,8 +523,8 @@
         "sla-management",
         "SKILL.md"
       ],
-      "sha256": "3010da5330321b9da566111c4982f19032f5fc2775b2095e8c2421c9198499e6",
-      "size_bytes": 12360
+      "sha256": "7cea88d430c8989f73f47a1e264d35cb5a4d652127a26c0ab443a4fb254baa49",
+      "size_bytes": 12353
     },
     "customer-success/support-tool-stack": {
       "path": [
@@ -532,8 +532,8 @@
         "support-tool-stack",
         "SKILL.md"
       ],
-      "sha256": "9d4a2061ccbe2ef5a9681b5a52fbf9f0ad42dba3a53ea69ec117a677234f60f8",
-      "size_bytes": 15992
+      "sha256": "eb34b9a9bdb73f6cfdab3f770e7cbf95bfe9082cb6033144c70e131cbd1919b6",
+      "size_bytes": 15989
     },
     "demand-gen/content-syndication": {
       "path": [
@@ -541,8 +541,8 @@
         "content-syndication",
         "SKILL.md"
       ],
-      "sha256": "c25c515c9ae43ea1f987fa774a9ef456cfc7fd9f6ce411626ffbb11fd316283e",
-      "size_bytes": 14076
+      "sha256": "2a4b89ca9d7041f9ebb90915d429653d257d965601037ed9c699fd98493a4b43",
+      "size_bytes": 14069
     },
     "demand-gen/paid-social-strategy": {
       "path": [
@@ -550,8 +550,8 @@
         "paid-social-strategy",
         "SKILL.md"
       ],
-      "sha256": "62afc44ae5b47090a16d4093945f66a8111f3dbe646527ed9b0ef510000f1317",
-      "size_bytes": 7565
+      "sha256": "0cf8991a977f3de3e2a3bdc800f61d41224174e35bcc345488aaa45840bb059e",
+      "size_bytes": 7558
     },
     "demand-gen/podcast-gtm": {
       "path": [
@@ -559,8 +559,8 @@
         "podcast-gtm",
         "SKILL.md"
       ],
-      "sha256": "1e26f9ee6bb1b2dbf3dd8e69adb027a777f39137d62e6bbb6385ac1995683bbb",
-      "size_bytes": 7458
+      "sha256": "2751aacf7e21256de8abede14c267f9d278cd5dce40b22d1d534a92f2b5a9ea7",
+      "size_bytes": 7451
     },
     "demand-gen/webinar-strategy": {
       "path": [
@@ -568,8 +568,8 @@
         "webinar-strategy",
         "SKILL.md"
       ],
-      "sha256": "4e00433e642788e33b8f1c8d6a6f81427d1033b0462b8326d34f395aa099a771",
-      "size_bytes": 7263
+      "sha256": "cf349e021191eb2271d060fb73d8a3353c83c7974adb367f50eb066f5808cba4",
+      "size_bytes": 7256
     },
     "design/battlecard-builder": {
       "path": [
@@ -577,8 +577,8 @@
         "battlecard-builder",
         "SKILL.md"
       ],
-      "sha256": "74c5a952688226657f91f9d510abe68b214addda6f0604902dfb390c76e6b8f1",
-      "size_bytes": 7794
+      "sha256": "54446f04a71c408a515a53f25407bd950459c240dbe0c0e3ebdd204b83eb16ea",
+      "size_bytes": 7787
     },
     "design/case-study-builder": {
       "path": [
@@ -586,8 +586,8 @@
         "case-study-builder",
         "SKILL.md"
       ],
-      "sha256": "44b0514e656269d2e023ce2149f785172e86cf9cdc54d893f5b08a752da66f12",
-      "size_bytes": 6864
+      "sha256": "d97cd959871740df41b2b6178cb3a5f337d5502486cc8a3dd229f48f8f479149",
+      "size_bytes": 6857
     },
     "design/design-system-gtm": {
       "path": [
@@ -595,8 +595,8 @@
         "design-system-gtm",
         "SKILL.md"
       ],
-      "sha256": "cca528515a759696d608061f4affd3e988696997efbd68d726ae5b94f36344fe",
-      "size_bytes": 12625
+      "sha256": "2722c56958a73040dc57d05976e99a8427272d8917e10890ff93038468b60621",
+      "size_bytes": 12618
     },
     "design/one-pager-builder": {
       "path": [
@@ -604,8 +604,8 @@
         "one-pager-builder",
         "SKILL.md"
       ],
-      "sha256": "4087dedae3acd718ea98caa82dbdceba69fe513bd0f83fc5aa071f8268cb23f8",
-      "size_bytes": 7434
+      "sha256": "4e5de8d4eb7088e88ce765739b623d623190cfc0d7c3eae1ab2246cf2b158633",
+      "size_bytes": 7427
     },
     "design/pitch-deck-builder": {
       "path": [
@@ -613,8 +613,8 @@
         "pitch-deck-builder",
         "SKILL.md"
       ],
-      "sha256": "19dc2c9e91e024c725237db231c362e09acc7765b2d77e6686db2e8b62625907",
-      "size_bytes": 7934
+      "sha256": "c00a0eec905ae813151b252709eb1a8f6b5ec6daf4f2499984441308c90c9e49",
+      "size_bytes": 7927
     },
     "design/roi-calculator": {
       "path": [
@@ -622,8 +622,8 @@
         "roi-calculator",
         "SKILL.md"
       ],
-      "sha256": "9b8e6dc039716d0dfc0491745cb34329dd265aa2060d0bb8a7b33e164e5f60b5",
-      "size_bytes": 11748
+      "sha256": "f2c6d6ef348f5f17d10284eef51fa564ce4ca06703ff20eec9205a102c3a9a5b",
+      "size_bytes": 11741
     },
     "design/ui-ux-gtm": {
       "path": [
@@ -631,8 +631,8 @@
         "ui-ux-gtm",
         "SKILL.md"
       ],
-      "sha256": "38b0f790e46437962c5f113d6f15ba60ea5ff9cff7a93619a31080e0c51171cb",
-      "size_bytes": 15819
+      "sha256": "0cb2b6cde338c91b267b4b34b8bbe1092e6203ba27e235568a03c0ed09846258",
+      "size_bytes": 15812
     },
     "events/conference-strategy": {
       "path": [
@@ -640,8 +640,8 @@
         "conference-strategy",
         "SKILL.md"
       ],
-      "sha256": "14ae8333dea3ec0034dc6b094f6a40cc1ee545c626c83f4e89340255a7166841",
-      "size_bytes": 7435
+      "sha256": "79bb8c1b10fc2ee271975b19454419be9dc9c380f5cfd0624c40225ec8071dea",
+      "size_bytes": 7428
     },
     "events/event-driven-outreach": {
       "path": [
@@ -649,8 +649,8 @@
         "event-driven-outreach",
         "SKILL.md"
       ],
-      "sha256": "32c1e5261a36e1c071b27bb56034294896a625205f192bd92f6c1d596c0b557a",
-      "size_bytes": 6953
+      "sha256": "82baae5fb22352890773d0ce4c838fb506b836e682c4e06b863491b0779e3802",
+      "size_bytes": 6946
     },
     "events/field-marketing": {
       "path": [
@@ -658,8 +658,8 @@
         "field-marketing",
         "SKILL.md"
       ],
-      "sha256": "c534b7321e4a9c7a5d3549bdf25cd5b174315c0d34bc907af2d4d013aaf98255",
-      "size_bytes": 7593
+      "sha256": "f6b337870d5b48790a3988521cc48e515e6d5e89841649d4b9a0ab9ba8e0de51",
+      "size_bytes": 7586
     },
     "foundation/buyer-psychology": {
       "path": [
@@ -667,8 +667,8 @@
         "buyer-psychology",
         "SKILL.md"
       ],
-      "sha256": "d21d8baa9f1ec645f541779dc696200966a671261a6b8f6cd20be9cae8517a28",
-      "size_bytes": 8325
+      "sha256": "6559a55b550b289ad7f60a0bbdb8bd9ffa46cd83f6fbbcc9b1b6eb5af3c6f894",
+      "size_bytes": 8318
     },
     "foundation/competitive-intel": {
       "path": [
@@ -676,8 +676,8 @@
         "competitive-intel",
         "SKILL.md"
       ],
-      "sha256": "3726a732dd3509713d5632a8d9dcc1fd63e7d03c3aa508190e28318b58ab759f",
-      "size_bytes": 19571
+      "sha256": "363c58f0150341b7213f5413615311768d9e92519224bc905a33de86ea5e98eb",
+      "size_bytes": 19564
     },
     "foundation/gtm-context": {
       "path": [
@@ -685,8 +685,8 @@
         "gtm-context",
         "SKILL.md"
       ],
-      "sha256": "7f3c09d3f89e6deda06c9310a2dd4e86afd413ad44ff0b3ac29536231c4b4147",
-      "size_bytes": 17745
+      "sha256": "3ca5f0d5438318d233a5577661956a875858db4caea04f11416964451badd413",
+      "size_bytes": 17738
     },
     "foundation/gtm-context-bootstrap": {
       "path": [
@@ -694,8 +694,8 @@
         "gtm-context-bootstrap",
         "SKILL.md"
       ],
-      "sha256": "e2e6edcb50db6f86b9beb5caa245804c0e3f6ad592f210931e52755bf36c84b2",
-      "size_bytes": 6630
+      "sha256": "e65d9bf085af5c2d4bde7b6f54b9f17e7e08e2bbb0a5fe247184428017ac184a",
+      "size_bytes": 6623
     },
     "foundation/icp-scoring": {
       "path": [
@@ -703,8 +703,8 @@
         "icp-scoring",
         "SKILL.md"
       ],
-      "sha256": "959f82d1bfca81344a2417952748d9d83646357eb54e2db439a37bf7cb4e7bd3",
-      "size_bytes": 18107
+      "sha256": "d5aab4c86dd4ba64438c41f7b17626ff5d882ef6974f3eea1f73da35c7fb7d94",
+      "size_bytes": 18100
     },
     "foundation/icp-targeting-tiers": {
       "path": [
@@ -712,8 +712,8 @@
         "icp-targeting-tiers",
         "SKILL.md"
       ],
-      "sha256": "7473d74326eb88d4e2e881627578ca44287d800eb1715681db850ba1ed44f8c7",
-      "size_bytes": 11530
+      "sha256": "9526f410de0f75b80665cc10d502ecf00192211680c4d2c6f7c9ef45ed1ae7b6",
+      "size_bytes": 11523
     },
     "foundation/positioning-messaging": {
       "path": [
@@ -721,8 +721,8 @@
         "positioning-messaging",
         "SKILL.md"
       ],
-      "sha256": "b18cfaa5d5fa2a9ab940446a817aec801a00c585adc2d3294738684102bdd0bc",
-      "size_bytes": 21746
+      "sha256": "73bda1259fb2a4b63cfb82ca177098600a42efaa11befa84d98b56423ff26c74",
+      "size_bytes": 21739
     },
     "foundation/pricing-strategy": {
       "path": [
@@ -730,8 +730,8 @@
         "pricing-strategy",
         "SKILL.md"
       ],
-      "sha256": "29bc243538e37ec9af35ca01557b1c5e5fc9c174b333ffaf27ccbc3a490eb200",
-      "size_bytes": 22691
+      "sha256": "f064ea9985f9746bb2218d7c7780b3c406c2e2ea0705c500e66a56ce7bb00649",
+      "size_bytes": 22684
     },
     "foundation/using-gtm-skills": {
       "path": [
@@ -739,8 +739,8 @@
         "using-gtm-skills",
         "SKILL.md"
       ],
-      "sha256": "f4ab852c4fb74aa689f4c3c8a4eebb065d93c40e3705fdd9dfed420402bc1c82",
-      "size_bytes": 8121
+      "sha256": "abf2ee7e7354bb01c404c7f20db1dbac41a51f31e9a81f9b64d5b18026891b8d",
+      "size_bytes": 8114
     },
     "founder-led/advisor-recruitment": {
       "path": [
@@ -748,8 +748,8 @@
         "advisor-recruitment",
         "SKILL.md"
       ],
-      "sha256": "6a6752462db9f1724d321bb3da8e60f775687aa8ef0a9fb3a22b645096718c45",
-      "size_bytes": 13502
+      "sha256": "429d8d4fc4e384f37544f461602e6e3ae146d51437cfe5fa913e62f03a78ae97",
+      "size_bytes": 13495
     },
     "founder-led/board-meeting-prep": {
       "path": [
@@ -757,8 +757,8 @@
         "board-meeting-prep",
         "SKILL.md"
       ],
-      "sha256": "509a3b018b955a9c159363a7afbc6b6f769339497ba945402e491b31098c0c17",
-      "size_bytes": 14538
+      "sha256": "8add7d76d2f5f60c15844e6659a4986cdb9369831289e41931534f8bb2ba1410",
+      "size_bytes": 14531
     },
     "founder-led/brand-kit": {
       "path": [
@@ -766,8 +766,8 @@
         "brand-kit",
         "SKILL.md"
       ],
-      "sha256": "34387d39a4ee7ff3457f2df09421b3b75830ac736474b55a720575a27db08f39",
-      "size_bytes": 7632
+      "sha256": "5a92ee20bf9f5e1f91a6c1fe8a8654b65603a1364899a548db1045801fa23ae1",
+      "size_bytes": 7625
     },
     "founder-led/building-saas": {
       "path": [
@@ -775,8 +775,8 @@
         "building-saas",
         "SKILL.md"
       ],
-      "sha256": "04b21345535096884d67e85df05946871496e4a998119d6f9c7b91a37b2e42bc",
-      "size_bytes": 6321
+      "sha256": "d111ae5356cf3c11984d7329f450deadcab2a9f14d6c10bf778e127e8647f3eb",
+      "size_bytes": 6314
     },
     "founder-led/business-insurance": {
       "path": [
@@ -784,8 +784,8 @@
         "business-insurance",
         "SKILL.md"
       ],
-      "sha256": "0d3d4b0e678aa6a3bdcdb97fe101c3f8fa6a8e8a55c86395ac9d3b53b707564e",
-      "size_bytes": 12866
+      "sha256": "30cfb5ef7c773392b7d3d6fb7cefb10812c95d216230c61d9e09f3bd7f160551",
+      "size_bytes": 12859
     },
     "founder-led/co-founder-dynamics": {
       "path": [
@@ -793,8 +793,8 @@
         "co-founder-dynamics",
         "SKILL.md"
       ],
-      "sha256": "a856923b610fa7791cb319de48b2302d9fcc41bc25a40db904599dcbdcc62af3",
-      "size_bytes": 17842
+      "sha256": "ebd189487a02213a994b825e90e168c183bac07dc26555f02d7595beb7e922aa",
+      "size_bytes": 17835
     },
     "founder-led/content-led-growth": {
       "path": [
@@ -802,8 +802,8 @@
         "content-led-growth",
         "SKILL.md"
       ],
-      "sha256": "00c6aa0f4500c4498ba4fac8b9559c319766cfb6002c2cf4d7feaf2747130310",
-      "size_bytes": 13308
+      "sha256": "27523a50a6f51570d5c20713ef4257799f06debe14688f78b5d08aa2d9fd405f",
+      "size_bytes": 13301
     },
     "founder-led/data-privacy-compliance": {
       "path": [
@@ -811,8 +811,8 @@
         "data-privacy-compliance",
         "SKILL.md"
       ],
-      "sha256": "3569e5110831fd1ddf9292b8cf81e172df2fb0f7ae1c69cd584dd90fd5d10c0e",
-      "size_bytes": 13541
+      "sha256": "41f5631b70a910414fa48d56af964ee47e60a1d12b9b2ad5fc945838129c4b22",
+      "size_bytes": 13534
     },
     "founder-led/employment-compliance": {
       "path": [
@@ -820,8 +820,8 @@
         "employment-compliance",
         "SKILL.md"
       ],
-      "sha256": "1f095307db92413cae9f1f19666730a2a16f5e5bdfcb3bf88a4c79b61e05ec76",
-      "size_bytes": 15734
+      "sha256": "374c13cfd5a221cd5f56304dd604b719706ba0498f669fdcd26349a1cf16c148",
+      "size_bytes": 15727
     },
     "founder-led/engineer-to-founder": {
       "path": [
@@ -829,8 +829,8 @@
         "engineer-to-founder",
         "SKILL.md"
       ],
-      "sha256": "d81d3d0fab10c391f68a3d21dcdbcaa2e9876eba709210723f1432d3c311e6c5",
-      "size_bytes": 17286
+      "sha256": "53d8a5d41249e56987b11206993b73d4a7c84dd3eb6b726644ca475648000d8b",
+      "size_bytes": 17279
     },
     "founder-led/equity-management": {
       "path": [
@@ -838,8 +838,8 @@
         "equity-management",
         "SKILL.md"
       ],
-      "sha256": "625e6ff2c3a61f01c7e7b0dea577cfcc81ff3334b0495c6a1ff2fbf6522e57aa",
-      "size_bytes": 10933
+      "sha256": "4e281083c84b9e51e0bf28f4f52411b4bbd61dbf95e33b033f1df60bd54bb2f5",
+      "size_bytes": 10926
     },
     "founder-led/events-planning": {
       "path": [
@@ -847,8 +847,8 @@
         "events-planning",
         "SKILL.md"
       ],
-      "sha256": "5bad2b36bbc49c8fa44b71b6e666d6c47d53ad5a81a114af33311d5318fa0b07",
-      "size_bytes": 6653
+      "sha256": "bc33c4696b5e1795e692522c65246475ddc377c6052a28b52d1652b8ccca0972",
+      "size_bytes": 6646
     },
     "founder-led/exiting-company": {
       "path": [
@@ -856,8 +856,8 @@
         "exiting-company",
         "SKILL.md"
       ],
-      "sha256": "2389d187edb8faa8be212aae6ee98ddfa72066a1c35b6026ad60418f06188a15",
-      "size_bytes": 10181
+      "sha256": "641308a81853159660c024f00b532db43ed053716441f613e2054b49172b65d9",
+      "size_bytes": 10174
     },
     "founder-led/financial-modeling": {
       "path": [
@@ -865,8 +865,8 @@
         "financial-modeling",
         "SKILL.md"
       ],
-      "sha256": "ba0b4d188b9e61aa8bb8f85924c2dc1122469c8a0646cf7ed446b553bffab8ae",
-      "size_bytes": 19943
+      "sha256": "2a0654e8e348e74a29f0d0540ce53c49b616e3981843d746e91d0d2817ddad31",
+      "size_bytes": 19936
     },
     "founder-led/first-hires-playbook": {
       "path": [
@@ -874,8 +874,8 @@
         "first-hires-playbook",
         "SKILL.md"
       ],
-      "sha256": "ece2f8b64f6aad5104a19018cd48fe2e62dd9100d6bf0255a250b9bd0e2b2881",
-      "size_bytes": 13517
+      "sha256": "3df3c05a3f2fb0e9a179aaf3e72ff161e82a37f1d14d0f4fec0450150c74adc6",
+      "size_bytes": 13510
     },
     "founder-led/founder-brand": {
       "path": [
@@ -883,8 +883,8 @@
         "founder-brand",
         "SKILL.md"
       ],
-      "sha256": "17dc5316bac090d28a2f3ff4c87663fab171ebcf6a7f2e24a8cca56d19b904eb",
-      "size_bytes": 9196
+      "sha256": "d5400ba340ad2f70adf1eca48ee47189a0c8c99e90965a09bc175631fce033d4",
+      "size_bytes": 9189
     },
     "founder-led/founder-comp-playbook": {
       "path": [
@@ -892,8 +892,8 @@
         "founder-comp-playbook",
         "SKILL.md"
       ],
-      "sha256": "7ca85e251a670437c1fc07d74ecca04e2417daf43c1cf063402b21d1d20d4455",
-      "size_bytes": 10561
+      "sha256": "33a277cd34b788c4413871c5ce6c65b9d4585a2c5735f47440c44c4b14d695dc",
+      "size_bytes": 10554
     },
     "founder-led/founder-sales": {
       "path": [
@@ -901,8 +901,8 @@
         "founder-sales",
         "SKILL.md"
       ],
-      "sha256": "3f571f9f0b02607c7a92f56f9ef35e2bb36710c89b1dad9257f61e50df688c46",
-      "size_bytes": 13141
+      "sha256": "4e5fa94e7adb66b12fa336618073f317baeed7f9be87b3feb988adb4a2c0fad7",
+      "size_bytes": 13134
     },
     "founder-led/fundraising-strategy": {
       "path": [
@@ -910,8 +910,8 @@
         "fundraising-strategy",
         "SKILL.md"
       ],
-      "sha256": "b944f285f5f0d07169e16b5f0f11822cb4c80bdaca899b75db4c51136e46682d",
-      "size_bytes": 15222
+      "sha256": "ea99d29b03e97f76606b9bd0a895133dca7eaf843bebbf2617e471227ae46c34",
+      "size_bytes": 15215
     },
     "founder-led/gtm-recruiting": {
       "path": [
@@ -919,8 +919,8 @@
         "gtm-recruiting",
         "SKILL.md"
       ],
-      "sha256": "0aabd619f370bce0eb27e8de660b99709c4c7b498d8d3264cc59147a6241127f",
-      "size_bytes": 11816
+      "sha256": "b5322eaf8995edfa07c4c7f93fd5d1cf0703911689374234cfccc834a0278877",
+      "size_bytes": 11809
     },
     "founder-led/gtm-role-descriptions": {
       "path": [
@@ -928,8 +928,8 @@
         "gtm-role-descriptions",
         "SKILL.md"
       ],
-      "sha256": "677e993c35e98d2170ada456334c7dd9a774bb61fa87ee7cf94fc74f8a5d5b43",
-      "size_bytes": 14318
+      "sha256": "f6718ca7179e3cd4b0a99a94d58d2c626ee8edb5ef30ebba6b4474de61fb816c",
+      "size_bytes": 14311
     },
     "founder-led/hiring-agencies": {
       "path": [
@@ -937,8 +937,8 @@
         "hiring-agencies",
         "SKILL.md"
       ],
-      "sha256": "fba3b9b3cba496837053743806aa4353f53f3874083de27c41df95d64df7b909",
-      "size_bytes": 9614
+      "sha256": "f6369d19d19e8e6471729f9fca8396ffdad48b1211c64fc31df5bf798390142d",
+      "size_bytes": 9607
     },
     "founder-led/hiring-by-role": {
       "path": [
@@ -946,8 +946,8 @@
         "hiring-by-role",
         "SKILL.md"
       ],
-      "sha256": "a54f9a286e51b62616628c87afc3eef49d95f4c36b735905dd18735beb3bdc2f",
-      "size_bytes": 19986
+      "sha256": "85ffb4ce12c00e450e55ef62e6e41ad73d5c5228a272158bbbdb6f436238acaa",
+      "size_bytes": 19979
     },
     "founder-led/hiring-contractors": {
       "path": [
@@ -955,8 +955,8 @@
         "hiring-contractors",
         "SKILL.md"
       ],
-      "sha256": "0e0a7086116055ea056efb3832cde44d8cb6a1f5c14893bf466d9e4845dc171a",
-      "size_bytes": 6951
+      "sha256": "9904c93a1c86c9e4fdefbe8c0af61d81a627c266dc4598472152acd01e3aa6df",
+      "size_bytes": 6944
     },
     "founder-led/investor-updates": {
       "path": [
@@ -964,8 +964,8 @@
         "investor-updates",
         "SKILL.md"
       ],
-      "sha256": "73ce1d8a8b76b4da97ead8084197d163389164d9a74892e70e5df1d29d17b0a9",
-      "size_bytes": 7700
+      "sha256": "9894435d18dfeea85666c77bf6f43594b312e81c42e553d0184fe49b6fa840d5",
+      "size_bytes": 7693
     },
     "founder-led/job-posting-strategy": {
       "path": [
@@ -973,8 +973,8 @@
         "job-posting-strategy",
         "SKILL.md"
       ],
-      "sha256": "0cf443f56f80c01baf08a5bdd0f4a6cbdccb313c9db0cc08354bd57a73e0d5f3",
-      "size_bytes": 15091
+      "sha256": "5e909a274fdca9e71a220123e5e605918a588f9d484b391735dcb6fced8627f3",
+      "size_bytes": 15084
     },
     "founder-led/launch-planning": {
       "path": [
@@ -982,8 +982,8 @@
         "launch-planning",
         "SKILL.md"
       ],
-      "sha256": "649b9eb276098501899c8dbdb9f202578052a38a3f918de366149ed3d5065b93",
-      "size_bytes": 12213
+      "sha256": "8ad9049e59c6349a3cd9a3ae93c8bb99f84ba2b185778b7e0bf60fc97a938fc0",
+      "size_bytes": 12206
     },
     "founder-led/lead-magnets": {
       "path": [
@@ -991,8 +991,8 @@
         "lead-magnets",
         "SKILL.md"
       ],
-      "sha256": "913684661c229bff5965fb3f98cf77a031e9b363f215ca430a8835286fffa574",
-      "size_bytes": 10865
+      "sha256": "1b39cac79fefec6cc0c99fd9ed7f301288aa0b933075411db047349f0f86adbc",
+      "size_bytes": 10858
     },
     "founder-led/legal-for-founders": {
       "path": [
@@ -1000,8 +1000,8 @@
         "legal-for-founders",
         "SKILL.md"
       ],
-      "sha256": "81cecdb523aeecbe5db69004b532af218bb3c6b11e2948e7534821f093a06976",
-      "size_bytes": 16894
+      "sha256": "dcb43fdeda34f1ef59913ac9a6a98e121caf2d857f556cf2ff4b93b8af82832b",
+      "size_bytes": 16887
     },
     "founder-led/partner-programs": {
       "path": [
@@ -1009,8 +1009,8 @@
         "partner-programs",
         "SKILL.md"
       ],
-      "sha256": "cd11b706c0a36277d7c6203d3e94c32ee164fe9ffaa30b865e118a865e40b78d",
-      "size_bytes": 11212
+      "sha256": "eec3bb069212860cf18a8d30b2dc8e4eb671ec0d50ef39aa5e2af76e8b3906bd",
+      "size_bytes": 11205
     },
     "founder-led/pricing-psychology": {
       "path": [
@@ -1018,8 +1018,8 @@
         "pricing-psychology",
         "SKILL.md"
       ],
-      "sha256": "43a925e07a5bac4a8c26b2a01c3859f0327bb2c7004a3d319c0e470e9f67bacc",
-      "size_bytes": 13794
+      "sha256": "f85a64efe3b7d91fffd868410e5da595b920a727e01ff3b0db79ee610d0d97a1",
+      "size_bytes": 13787
     },
     "founder-led/saas-metrics-calculator": {
       "path": [
@@ -1027,8 +1027,8 @@
         "saas-metrics-calculator",
         "SKILL.md"
       ],
-      "sha256": "fb974eb4aea4a6d45d1da6ee126363343fc3b5d7e054bfe688d6b0885c8441e6",
-      "size_bytes": 13693
+      "sha256": "cc20c7c8d4401ccf2e32ebc73265962376cac99a24f71ee7fc57b163a8c2c3f1",
+      "size_bytes": 13686
     },
     "founder-led/saas-outcomes": {
       "path": [
@@ -1036,8 +1036,8 @@
         "saas-outcomes",
         "SKILL.md"
       ],
-      "sha256": "cf13766d00327f268f15c83f9f5b73062cda38814a1c1dafb82d9d57601c6825",
-      "size_bytes": 15016
+      "sha256": "34460a311701c903a5fd043f962f0b81d8cdff5094724c081753e2ea57740802",
+      "size_bytes": 15009
     },
     "founder-led/sales-team-building": {
       "path": [
@@ -1045,8 +1045,8 @@
         "sales-team-building",
         "SKILL.md"
       ],
-      "sha256": "b6ef548fee0d0ba818b1019474f818b17f0a6acb5a0208a2fdad4195ca3b847e",
-      "size_bytes": 16677
+      "sha256": "94d5afbffc80c19c4616c79caff1a12f956d38cb307a4de22f2679c7ae7b94aa",
+      "size_bytes": 16670
     },
     "founder-led/security-assessments": {
       "path": [
@@ -1054,8 +1054,8 @@
         "security-assessments",
         "SKILL.md"
       ],
-      "sha256": "337cb34758974452fef13496b06ca8e9e8e41de0403dc006d0996e6b3a0397f7",
-      "size_bytes": 14952
+      "sha256": "5f7e666b79f39527f50ea25f55be2c5e78733c22235629a3b4a2468de1b57d48",
+      "size_bytes": 14945
     },
     "founder-led/soc2-compliance": {
       "path": [
@@ -1063,8 +1063,8 @@
         "soc2-compliance",
         "SKILL.md"
       ],
-      "sha256": "3e5c866461820f8889227def386b701ca4ac8aeb6f98a1ecc6de6d3db95f6066",
-      "size_bytes": 9105
+      "sha256": "9cd468a17a0e7b651b947215a5d0ae2a670fa3efeb1af4eff2a52ac3c5976260",
+      "size_bytes": 9098
     },
     "founder-led/solo-founder-gtm": {
       "path": [
@@ -1072,8 +1072,8 @@
         "solo-founder-gtm",
         "SKILL.md"
       ],
-      "sha256": "30b4212f7ce3719e654c73c255d7b86d4990d36f7bef02e462ef4b75d9e6e7e7",
-      "size_bytes": 10594
+      "sha256": "0b79adc4d3e5df37b48e6446f4ea23dcbb86cb09fcdfdd5f6009280ed95a4506",
+      "size_bytes": 10587
     },
     "founder-led/startup-communities": {
       "path": [
@@ -1081,8 +1081,8 @@
         "startup-communities",
         "SKILL.md"
       ],
-      "sha256": "35c787dde690c3dd105e9057e7e3d721556d9b851b1dbe9158220aad6d3d6498",
-      "size_bytes": 14940
+      "sha256": "8f1e276da7642a5601c617aa4fadcb42226daf11ec38bb160e28a5877b97d816",
+      "size_bytes": 14933
     },
     "founder-led/vc-outreach": {
       "path": [
@@ -1090,8 +1090,8 @@
         "vc-outreach",
         "SKILL.md"
       ],
-      "sha256": "0b1d859521a3bc7a4c695088a17392ee65b728567be389234cf1006a016e5970",
-      "size_bytes": 15219
+      "sha256": "a007f81e0d07ceed5a0d274bc67100d97cbbf61b4d42d989c78d5e114a5f1064",
+      "size_bytes": 15212
     },
     "founder-led/vendor-contracts": {
       "path": [
@@ -1099,8 +1099,8 @@
         "vendor-contracts",
         "SKILL.md"
       ],
-      "sha256": "0e43fa681d656331b3a77c815036273e9b643d1a92025778f27e1f34cb35779b",
-      "size_bytes": 13113
+      "sha256": "8381cac4271dce29dc5a7478bb6cc0087125ab29212ea49df7ea88e856348571",
+      "size_bytes": 13106
     },
     "founder-led/yc-ecosystem": {
       "path": [
@@ -1108,8 +1108,8 @@
         "yc-ecosystem",
         "SKILL.md"
       ],
-      "sha256": "41a7d33546c64d4a7244d9de4a1ac7d88fb81dcff7eb85f2f138bb8730990239",
-      "size_bytes": 16078
+      "sha256": "0f06a066ad7084dd6a7f025cf2ad2b086154ffb95ea4f84270764c8ecb47001a",
+      "size_bytes": 16071
     },
     "growth/churn-prevention": {
       "path": [
@@ -1117,8 +1117,8 @@
         "churn-prevention",
         "SKILL.md"
       ],
-      "sha256": "dec2d87a2f4855586a131e152edf5fd4d9bf9d2148e68fb6e036182eb08c8aa9",
-      "size_bytes": 6929
+      "sha256": "c762c45e5a2fead6ba4d1c2e71f63f650308cec10e22ab6d7c47d9d2961dab6f",
+      "size_bytes": 6922
     },
     "growth/customer-marketing": {
       "path": [
@@ -1126,8 +1126,8 @@
         "customer-marketing",
         "SKILL.md"
       ],
-      "sha256": "b642fd5b23aa7380e76c61d0f418b22ad9bde7fc9597160867ef2151da6039c7",
-      "size_bytes": 10710
+      "sha256": "b6901aa4df94814a9c019da8546c5af99e00e444172f344c2e793a59330c81f3",
+      "size_bytes": 10703
     },
     "growth/expansion-selling": {
       "path": [
@@ -1135,8 +1135,8 @@
         "expansion-selling",
         "SKILL.md"
       ],
-      "sha256": "1a13dd23cc806f25ab729c2d7383c53a96f23997b540adfbfd9240fb6a675039",
-      "size_bytes": 10354
+      "sha256": "7cf0480eb4a865ede79a1f465c3ee2183efbd2de776c7610387e418206a95964",
+      "size_bytes": 10347
     },
     "growth/referral-programs": {
       "path": [
@@ -1144,8 +1144,8 @@
         "referral-programs",
         "SKILL.md"
       ],
-      "sha256": "073efaa2a9cd98b4d5cf0e19eadeb79ae25fd6226ffa25ba99dfff9e64c7fe68",
-      "size_bytes": 14404
+      "sha256": "fb19734b3ba01be7b0361e5ed41236264988fa5c748feffa9ff0fd18f9e63588",
+      "size_bytes": 14397
     },
     "growth/review-platforms": {
       "path": [
@@ -1153,8 +1153,8 @@
         "review-platforms",
         "SKILL.md"
       ],
-      "sha256": "bfcbf252494a4806eaf4a818f02a8bd1e52b36656deb0ee6df49bb7c84e3c00f",
-      "size_bytes": 6419
+      "sha256": "ba99718dd66e2adf6b12d1ebec84672038cde9560a9ada0f3e701a425d79e7d3",
+      "size_bytes": 6412
     },
     "gtm-ops/campaign-governance": {
       "path": [
@@ -1162,8 +1162,8 @@
         "campaign-governance",
         "SKILL.md"
       ],
-      "sha256": "14bd1fc85f9522df19bd22552c8c705fa6980d9d0e31ec7dd570315c80c1e202",
-      "size_bytes": 10040
+      "sha256": "b2c6d88facb413b6774e164026cadae2bbd70d4492da16d3a92141a5559cbe63",
+      "size_bytes": 10033
     },
     "gtm-ops/gtm-operations": {
       "path": [
@@ -1171,8 +1171,8 @@
         "gtm-operations",
         "SKILL.md"
       ],
-      "sha256": "611fed2487832cd1781a367ee91171ffb2a4121f2a242743f4a3007e1a22b5b6",
-      "size_bytes": 15419
+      "sha256": "452c7a78d5c87f8e250a2e9700476ec18586920264ad2ebf9106f22c47e409c1",
+      "size_bytes": 15412
     },
     "gtm-ops/gtm-spend-management": {
       "path": [
@@ -1180,8 +1180,8 @@
         "gtm-spend-management",
         "SKILL.md"
       ],
-      "sha256": "6e3cb8f78ac78c607d1f3917c3c1ca34428fe4778b70ba4b015d78a5f0a2b82d",
-      "size_bytes": 10190
+      "sha256": "4dcb692c7b32a3f120d80a997defd3a210a422d56c208a42ad2a58d3b0cbec8c",
+      "size_bytes": 10183
     },
     "gtm-ops/gtm-tool-cost-model": {
       "path": [
@@ -1189,8 +1189,8 @@
         "gtm-tool-cost-model",
         "SKILL.md"
       ],
-      "sha256": "fb117761cf32da07566319a144cfcedb1577fdf66893445bd4b0c5b8887e1b63",
-      "size_bytes": 6539
+      "sha256": "4ed28052e9fcc10f2f1b5527d7ab6ef9ff1d1ff21d8c2c89de204610410105d1",
+      "size_bytes": 6532
     },
     "gtm-ops/revops-tech-stack": {
       "path": [
@@ -1198,8 +1198,8 @@
         "revops-tech-stack",
         "SKILL.md"
       ],
-      "sha256": "5ce692496efcdcd90f82143b40bc1af11f24598d9a41a55a9519433f4b2b5fab",
-      "size_bytes": 14361
+      "sha256": "80f443d7f58cce677b2671e9d88452cc96f5f1a921cbf0749a0b5a7dd6e63940",
+      "size_bytes": 14354
     },
     "inbound/content-marketing": {
       "path": [
@@ -1207,8 +1207,8 @@
         "content-marketing",
         "SKILL.md"
       ],
-      "sha256": "199116d5ce1e8445a82dd4cbf24e203ca84546e254c0ba9468a84cda41cf6d17",
-      "size_bytes": 7794
+      "sha256": "e5c4d81b6596487cc869026a9c92a6fbcc5096193c6c696d1cfad8b6461dff97",
+      "size_bytes": 7787
     },
     "inbound/inbound-triage": {
       "path": [
@@ -1216,8 +1216,8 @@
         "inbound-triage",
         "SKILL.md"
       ],
-      "sha256": "37f6a16fc6457d839b2f9ba58b660e9068690906c067096fc3eb2bf8f3ad79ff",
-      "size_bytes": 8270
+      "sha256": "358aee85c81ce2712070f04ceb45872fb42a1c1074529187a80d527217449b87",
+      "size_bytes": 8263
     },
     "inbound/landing-pages": {
       "path": [
@@ -1225,8 +1225,8 @@
         "landing-pages",
         "SKILL.md"
       ],
-      "sha256": "fe0d2b7467fe19afba98ba207ee4ec5362647f2a2e137676c4b567b86067a99e",
-      "size_bytes": 6019
+      "sha256": "aa1196721e823808436b5097dcc115a65784e6809ff51dc5db054088142fc9ca",
+      "size_bytes": 6012
     },
     "inbound/linkedin-algorithm": {
       "path": [
@@ -1234,8 +1234,8 @@
         "linkedin-algorithm",
         "SKILL.md"
       ],
-      "sha256": "0071c5831ea7c357b33e4b41adb642ce8a8642cbed2de39c94c6df1eb0880bd0",
-      "size_bytes": 9539
+      "sha256": "9f8c5924249b6c1666075dee77be29480669cce3e252e96a06fdde23187b417d",
+      "size_bytes": 9532
     },
     "inbound/linkedin-live-strategy": {
       "path": [
@@ -1243,8 +1243,8 @@
         "linkedin-live-strategy",
         "SKILL.md"
       ],
-      "sha256": "25545203e6078fc672a643526cefd52494e5b7d42d1d88777339acfebd867bc2",
-      "size_bytes": 8396
+      "sha256": "ac61562bf16a486cb2a0bf9da0c7427501aadc576487ad2d7f77753ad4918095",
+      "size_bytes": 8389
     },
     "inbound/sales-navigator-prospecting": {
       "path": [
@@ -1252,8 +1252,8 @@
         "sales-navigator-prospecting",
         "SKILL.md"
       ],
-      "sha256": "79e04243d75ae8e922dd122bef8d98fe3b4680d3c2ca20769b065cd5f43945db",
-      "size_bytes": 7870
+      "sha256": "4e52d1b8ef0d7cfbdee827965afb7cae0fec1b377ff11bf58eac9d068a94ead3",
+      "size_bytes": 7863
     },
     "inbound/social-selling": {
       "path": [
@@ -1261,8 +1261,8 @@
         "social-selling",
         "SKILL.md"
       ],
-      "sha256": "d1e678f3ae3019c68b85a3a5669d909b33a66ba560509edeeb4653d72f7ffb7f",
-      "size_bytes": 10115
+      "sha256": "93d2688e4b6756bec06c0f50914d9339ee6aea53016bd704e5c2554641708bfb",
+      "size_bytes": 10108
     },
     "inbound/website-visitor-identification": {
       "path": [
@@ -1270,8 +1270,8 @@
         "website-visitor-identification",
         "SKILL.md"
       ],
-      "sha256": "e9b27848212dc76f5ec12486d6bfaccb54c1dd518c19ba8501cda5805703873a",
-      "size_bytes": 9508
+      "sha256": "2989db2c99c2b8f193302301d38412465068c57bc36823a48d171585f1173291",
+      "size_bytes": 9501
     },
     "leadmagic/leadmagic-bulk-enrichment": {
       "path": [
@@ -1279,8 +1279,8 @@
         "leadmagic-bulk-enrichment",
         "SKILL.md"
       ],
-      "sha256": "e057b012b19a596d8de6fbe97213a93506ee6ccbde3f529fc2e7703c38aec588",
-      "size_bytes": 6977
+      "sha256": "868b63fe2175ffff7ba604ac4903c79580a30ebed4f79b23471515d1f78261f6",
+      "size_bytes": 6970
     },
     "leadmagic/leadmagic-cli": {
       "path": [
@@ -1288,8 +1288,8 @@
         "leadmagic-cli",
         "SKILL.md"
       ],
-      "sha256": "f3548bb02a0a37ee88b14f9a45ec66d63a0a5043d8a2626616452f8f94e6e828",
-      "size_bytes": 6939
+      "sha256": "a7aa70a632cddbf2e6775b2fdcf1df450a38df27afa4f7f9edcd06c3f8dd5a43",
+      "size_bytes": 6932
     },
     "leadmagic/leadmagic-integrations": {
       "path": [
@@ -1297,8 +1297,8 @@
         "leadmagic-integrations",
         "SKILL.md"
       ],
-      "sha256": "c24dd12a6ffb10505d77e64abfb7fe34d04575568d20a521a26b6622e81a5979",
-      "size_bytes": 6351
+      "sha256": "4f50f07213f95fd0267179f377ef13537b45c3598b9b991979a3b76cae7c1ca3",
+      "size_bytes": 6344
     },
     "leadmagic/leadmagic-job-change": {
       "path": [
@@ -1306,8 +1306,8 @@
         "leadmagic-job-change",
         "SKILL.md"
       ],
-      "sha256": "f205015b70afaff93561f72da24d8feac7684b2bf5226e9e2f4b43edf010f9bf",
-      "size_bytes": 7451
+      "sha256": "a14e007bdde0683e92c27ba1a9e2655d40a3557244a960e20f975952c3661464",
+      "size_bytes": 7444
     },
     "leadmagic/leadmagic-mcp": {
       "path": [
@@ -1315,8 +1315,8 @@
         "leadmagic-mcp",
         "SKILL.md"
       ],
-      "sha256": "7f298d764cd0e2c98259e61862d53226ef602fb74d0f4420872cd2c8bdd0592a",
-      "size_bytes": 6466
+      "sha256": "f8d7585fb2d597e2348bbb0c9e0a18cb0f0c224dffafcce6640df708a5175354",
+      "size_bytes": 6461
     },
     "leadmagic/leadmagic-waterfall": {
       "path": [
@@ -1324,8 +1324,8 @@
         "leadmagic-waterfall",
         "SKILL.md"
       ],
-      "sha256": "e08ab2486ee0108d968652f7a27f56f970fcf50ccb4b41970eabc1c90bfb850c",
-      "size_bytes": 8137
+      "sha256": "beb82778222d83967dfbd3a83c18b09fc984e624a242e0a1fa5f2a86f131ebcd",
+      "size_bytes": 8130
     },
     "lifecycle/churn-prediction": {
       "path": [
@@ -1333,8 +1333,8 @@
         "churn-prediction",
         "SKILL.md"
       ],
-      "sha256": "952b405942118ff4ac0e513d46fc331de0583b37a7d33f701da27bd36f867efb",
-      "size_bytes": 7277
+      "sha256": "9e6be5bbd8b790790734488f07019c24e6b5854ac95a944f256e9c96467b8fdb",
+      "size_bytes": 7270
     },
     "lifecycle/lifecycle-drips": {
       "path": [
@@ -1342,8 +1342,8 @@
         "lifecycle-drips",
         "SKILL.md"
       ],
-      "sha256": "5b3c140da0c88282fb1894b2541bd60be31428e35aa39cf69ec68c736db01a78",
-      "size_bytes": 7528
+      "sha256": "cfc53300ce3a0691e85006d5c6b7d8e40186cfdab58732a7026b9fb221862587",
+      "size_bytes": 7521
     },
     "lifecycle/mql-nurture": {
       "path": [
@@ -1351,8 +1351,8 @@
         "mql-nurture",
         "SKILL.md"
       ],
-      "sha256": "6e7f511a6f2e3bab12305c31a8b6ca68be92c553624497c5380faf4cdce368fe",
-      "size_bytes": 7584
+      "sha256": "30e67dd8ecdc26ee816eccc8b0d31d625871e446e1d5b8a1eeed463251cae70c",
+      "size_bytes": 7577
     },
     "lifecycle/onboarding-sequences": {
       "path": [
@@ -1360,8 +1360,8 @@
         "onboarding-sequences",
         "SKILL.md"
       ],
-      "sha256": "a3d710d3e17530a5876c81c0bd9e6ab0ea9d541f0e50a396da6753e453f69011",
-      "size_bytes": 6633
+      "sha256": "a1f143f8bbbc2a3c4acbefd2ec0adfd300c5d032cd8060435bd7d396f04ffd2b",
+      "size_bytes": 6626
     },
     "lifecycle/re-engagement": {
       "path": [
@@ -1369,8 +1369,8 @@
         "re-engagement",
         "SKILL.md"
       ],
-      "sha256": "73142c1b5e5c42e8f2a6baca38a8a97d88baa90cd19141c3926c6e5522b4b567",
-      "size_bytes": 7835
+      "sha256": "505411a53040e41e37cc45b7badeec704d2947d8a95f292e75d8e33f664af216",
+      "size_bytes": 7828
     },
     "management-leadership/executive-compensation": {
       "path": [
@@ -1378,8 +1378,8 @@
         "executive-compensation",
         "SKILL.md"
       ],
-      "sha256": "ae2c51021c150f520958ad59b024c4673028be92c79f53996c0dcaab1ff3e369",
-      "size_bytes": 11075
+      "sha256": "e8bdb18f5b8c1346365acb48fe1d76f5c773552ae460876e87eeb701060639bb",
+      "size_bytes": 11068
     },
     "management-leadership/gtm-leadership": {
       "path": [
@@ -1387,8 +1387,8 @@
         "gtm-leadership",
         "SKILL.md"
       ],
-      "sha256": "60f2f107f93cef0523405c747cefddb5bc5e8459b99a402d15e40da59410af0a",
-      "size_bytes": 20333
+      "sha256": "613d8ade5a530b0c14333e70ce386be38cdaa4d93e7b6690c0686f43d09f8386",
+      "size_bytes": 20326
     },
     "management-leadership/revenue-team-onboarding": {
       "path": [
@@ -1396,8 +1396,8 @@
         "revenue-team-onboarding",
         "SKILL.md"
       ],
-      "sha256": "997d9ba0c0e439089ba6bfca762cc5c7b44498a4bd59db5ef660521faabfbbbe",
-      "size_bytes": 12024
+      "sha256": "7230c74715adaa32b8af7e62a7450b7cc9164707158065286a0409dd7a167446",
+      "size_bytes": 12017
     },
     "management-leadership/sales-coaching": {
       "path": [
@@ -1405,8 +1405,8 @@
         "sales-coaching",
         "SKILL.md"
       ],
-      "sha256": "3965712c06fdfe04bd30e3b10df90420f4c26b6d370a4372086e7bf0ff3d4f27",
-      "size_bytes": 13166
+      "sha256": "6da0c7d20d782c8d0d07877ced164bbe4493bffaf316176e946747a38920c33e",
+      "size_bytes": 13159
     },
     "management-leadership/team-management": {
       "path": [
@@ -1414,8 +1414,8 @@
         "team-management",
         "SKILL.md"
       ],
-      "sha256": "6b22ac7b4b04f00f7491c1b006d84c5ff6559f1a2984d453732fde5a5ca5f515",
-      "size_bytes": 7546
+      "sha256": "96a7ca3737a486b6dcccb3274f051082cd91e85c2c3cee21bf7722ebaf55a017",
+      "size_bytes": 7539
     },
     "outbound/cold-calling": {
       "path": [
@@ -1423,8 +1423,8 @@
         "cold-calling",
         "SKILL.md"
       ],
-      "sha256": "6ab4dc77ae593339c7f46152f963efb33edd475fbe4c91611fa77b7da9ca44c1",
-      "size_bytes": 13602
+      "sha256": "e902a363efbb9fe5e4bd6a8f80b1e7680cc4a49cf024690bf04f784f1274fb81",
+      "size_bytes": 13595
     },
     "outbound/cold-email-copywriting": {
       "path": [
@@ -1432,8 +1432,8 @@
         "cold-email-copywriting",
         "SKILL.md"
       ],
-      "sha256": "401bdaea0c0902b34fab75d0474ebbd4c3b6e5d14e4c7e9310af1b8ade5a55a3",
-      "size_bytes": 20207
+      "sha256": "1761b94549487f13b3b2323e3aa1913b1bc180e6db6898196b19e058574beb77",
+      "size_bytes": 20200
     },
     "outbound/cold-email-strategy": {
       "path": [
@@ -1441,8 +1441,8 @@
         "cold-email-strategy",
         "SKILL.md"
       ],
-      "sha256": "94fc612a34204f4c5b0b7a273fa824432f3c9621fd8dcd982b900266fc3afc9e",
-      "size_bytes": 9810
+      "sha256": "d924d15ebeb5d0e58dc06c7f0fc9c8a4b33981b6ecbcfaa41068a92ad28af74d",
+      "size_bytes": 9803
     },
     "outbound/domain-infrastructure": {
       "path": [
@@ -1450,8 +1450,8 @@
         "domain-infrastructure",
         "SKILL.md"
       ],
-      "sha256": "f24f37f64ac0f7dd3d1e5e10ab5e33d1f03871447cb54005abd9a6ecaab27369",
-      "size_bytes": 22391
+      "sha256": "3b4a29f48daa288ad49bacfb69364137c817f961de013a2bf00f0096a431c196",
+      "size_bytes": 22384
     },
     "outbound/email-deliverability": {
       "path": [
@@ -1459,8 +1459,8 @@
         "email-deliverability",
         "SKILL.md"
       ],
-      "sha256": "8dd6cd4255fc23b01e8aee7a5c30660d34339f2f2df071d99042beae54662bf9",
-      "size_bytes": 22429
+      "sha256": "c0cc9f5dcbae3925bdf969091890ffeff492b656d67424e44681c6c1ed5d4c44",
+      "size_bytes": 22422
     },
     "outbound/inbox-setup": {
       "path": [
@@ -1468,8 +1468,8 @@
         "inbox-setup",
         "SKILL.md"
       ],
-      "sha256": "0610829c19108d9a121f48ad944b1e640ed3e1204aaebf1d07dd4dcf4d6f9bf9",
-      "size_bytes": 8604
+      "sha256": "c3f76e06449069b030b67b829feb0cb370edaf5c6e86a64e35ed63e900df53b4",
+      "size_bytes": 8597
     },
     "outbound/multi-channel-outreach": {
       "path": [
@@ -1477,8 +1477,8 @@
         "multi-channel-outreach",
         "SKILL.md"
       ],
-      "sha256": "4e994d606e26ec63558f3a6a664b837693d255ae93bcaaafdb02cfb8f576a726",
-      "size_bytes": 8381
+      "sha256": "23b4608573803ec83d96c38e057392ee29a5d74cd25bcc83eaa9fb50329259d0",
+      "size_bytes": 8374
     },
     "outbound/rb2b-outbound-triggers": {
       "path": [
@@ -1486,8 +1486,8 @@
         "rb2b-outbound-triggers",
         "SKILL.md"
       ],
-      "sha256": "a4878c15c8ea4a09c66841d9f0ee00c9d573ebc3d0ef1be6705851886497ba41",
-      "size_bytes": 13707
+      "sha256": "473594a8935c94e659270447706093372bf4e1a36c612f88f3140c06c2e5cbbd",
+      "size_bytes": 13700
     },
     "outbound/reply-handling": {
       "path": [
@@ -1495,8 +1495,8 @@
         "reply-handling",
         "SKILL.md"
       ],
-      "sha256": "f88904890351c7d773663aa69446a0407be69db436028e6e197de728f11b8fdd",
-      "size_bytes": 19765
+      "sha256": "9787f3628904ca6319332f3eb841a5784412cd4588c3fd8ef253a00dcc0cfc90",
+      "size_bytes": 19758
     },
     "outbound/sending-platforms": {
       "path": [
@@ -1504,8 +1504,8 @@
         "sending-platforms",
         "SKILL.md"
       ],
-      "sha256": "2580de8e2130bd7e3c2a1d61708dd5fd1dc28008993b4ae09991b4685cedba95",
-      "size_bytes": 18439
+      "sha256": "5e1ad14f91700305ccd47a573369f2b398a48603b4b4ba8b26df428cda9fdd34",
+      "size_bytes": 18432
     },
     "partnerships/co-marketing": {
       "path": [
@@ -1513,8 +1513,8 @@
         "co-marketing",
         "SKILL.md"
       ],
-      "sha256": "b010fbd6a82070d38bfd8fedde41743b4dd89ba3d9fe556855c9f4321e9fab5c",
-      "size_bytes": 7120
+      "sha256": "c1a32be67b83736a31ef38d802fff3526f6578775a13dfaeafc52a03b55065d4",
+      "size_bytes": 7113
     },
     "partnerships/integration-partnerships": {
       "path": [
@@ -1522,8 +1522,8 @@
         "integration-partnerships",
         "SKILL.md"
       ],
-      "sha256": "3f077f7943ff9b1d3674bac0c10675a269ad752d63f3e40c98c8da49d86cd450",
-      "size_bytes": 7697
+      "sha256": "0bb766d5544539971ea00759b967466e9c81697f2986053c6ffe8cb4f5b9f5c8",
+      "size_bytes": 7690
     },
     "partnerships/partnership-strategy": {
       "path": [
@@ -1531,8 +1531,8 @@
         "partnership-strategy",
         "SKILL.md"
       ],
-      "sha256": "b2c4d21a52687c298f9195f1f8cae84ca697169e447ee853fe1791d173b3dbf5",
-      "size_bytes": 7863
+      "sha256": "988b9af1edb544609f331647dcd896dbb7ddfec23a0dc98b6b01d583306d4058",
+      "size_bytes": 7856
     },
     "product-led-growth/developer-gtm": {
       "path": [
@@ -1540,8 +1540,8 @@
         "developer-gtm",
         "SKILL.md"
       ],
-      "sha256": "12ff61db3231e712e22546768533d3429a1751386c72caee4bbea3c49d8df3e7",
-      "size_bytes": 10168
+      "sha256": "4e27a087d45cc5ef49aa82877ce3e1aa7d56dcf1bce4e7a31e478eb0a9cca040",
+      "size_bytes": 10163
     },
     "product-led-growth/freemium-optimization": {
       "path": [
@@ -1549,8 +1549,8 @@
         "freemium-optimization",
         "SKILL.md"
       ],
-      "sha256": "8210dc2dac50162daf263bb817d6771e34336eca5a61b868e6c3bff6aaed53ea",
-      "size_bytes": 13031
+      "sha256": "f83e98dc2ca89212748c8783510bb9169447c26c08a37b2dccb45429a56228ed",
+      "size_bytes": 13024
     },
     "product-led-growth/plg-strategy": {
       "path": [
@@ -1558,8 +1558,8 @@
         "plg-strategy",
         "SKILL.md"
       ],
-      "sha256": "7eaa85bbf9b66b47c125c814d51f9109fe39790043d0fa4b2ffb4a843c525f38",
-      "size_bytes": 7847
+      "sha256": "40eb218f16943822e90246ecbbec63b3b9aa70d31ed1b5341cd9506faba50548",
+      "size_bytes": 7840
     },
     "product-marketing/customer-research": {
       "path": [
@@ -1567,8 +1567,8 @@
         "customer-research",
         "SKILL.md"
       ],
-      "sha256": "f0b3f65afeb11d9332e2c41d9142d207a5834022828272126fa0f8bcac165747",
-      "size_bytes": 7328
+      "sha256": "9fde0c1ab1fb7c518f41b5c7ecc67f70d87a5c46e140cbcf85a74ae363045507",
+      "size_bytes": 7321
     },
     "product-marketing/win-loss-analysis": {
       "path": [
@@ -1576,8 +1576,8 @@
         "win-loss-analysis",
         "SKILL.md"
       ],
-      "sha256": "1261020c761f4af40ebdf7f1bfc95136854d3246459bb5d6ba76beeec60e6790",
-      "size_bytes": 6666
+      "sha256": "be6da18129e43d8a5b1aa99d28a2301a5fa9efb6e82f6005f9fdc7a96a8e1410",
+      "size_bytes": 6659
     },
     "prospecting/contact-verification": {
       "path": [
@@ -1585,8 +1585,8 @@
         "contact-verification",
         "SKILL.md"
       ],
-      "sha256": "927e78381cfe7a50930f65ebc5100b8ae9b334fd92e43889f9766b6a453c1168",
-      "size_bytes": 6915
+      "sha256": "4f9e6d2578b60f2b44875296c3800f1e035905114ac864af85e9ef0bbf01528a",
+      "size_bytes": 6908
     },
     "prospecting/data-enrichment-strategy": {
       "path": [
@@ -1594,8 +1594,8 @@
         "data-enrichment-strategy",
         "SKILL.md"
       ],
-      "sha256": "3add1aad5290bbf3b5e08db12da00acb84c2fd0a5ef7bf19c7f167e548ea094a",
-      "size_bytes": 8365
+      "sha256": "332cd77593db3d598cbe4eb796984acaac1546c12570127caa35071f1234c707",
+      "size_bytes": 8358
     },
     "prospecting/email-finding": {
       "path": [
@@ -1603,8 +1603,8 @@
         "email-finding",
         "SKILL.md"
       ],
-      "sha256": "c898e93876f6f4939d4f6db7d663d40f75f6476c7c0dd26376a68bae8024670d",
-      "size_bytes": 7571
+      "sha256": "1aa62b26594140c6b240706ed461c43224f17ea5b3ed1da439a67cb94f441a69",
+      "size_bytes": 7564
     },
     "prospecting/lead-enrichment": {
       "path": [
@@ -1612,8 +1612,8 @@
         "lead-enrichment",
         "SKILL.md"
       ],
-      "sha256": "04549ac493548ef7df5ea641bc7efb307110a1e327ab4f77c9bf9eed0bb7a8ad",
-      "size_bytes": 21744
+      "sha256": "a41a6ac05cd14337b47cb51496dc41890b4d8647243e042d271c6dc72dc2caff",
+      "size_bytes": 21737
     },
     "prospecting/lead-finding": {
       "path": [
@@ -1621,8 +1621,8 @@
         "lead-finding",
         "SKILL.md"
       ],
-      "sha256": "2e1e784373c28e703e0f4ab8dfa10f93546a2ca8ef32f55c06d37611214e1a0d",
-      "size_bytes": 19450
+      "sha256": "34fff25ac3e337053192e8858e52c01dd1233c08bdba31f8733de4be9f6a457a",
+      "size_bytes": 19443
     },
     "prospecting/list-building": {
       "path": [
@@ -1630,8 +1630,8 @@
         "list-building",
         "SKILL.md"
       ],
-      "sha256": "28f4e7e7210079c0df633f451ebe4491902a922babaabf34d5dd2b847123ada2",
-      "size_bytes": 7095
+      "sha256": "932ddb72ff5bbbb0bef48d545b4710cd80aea53a9b9b4f62f3b76481a3ee9ed3",
+      "size_bytes": 7088
     },
     "prospecting/signal-scoring": {
       "path": [
@@ -1639,8 +1639,8 @@
         "signal-scoring",
         "SKILL.md"
       ],
-      "sha256": "b01a0f3d054ec3e1c6cb16a2c3930fae0d341c1e868d4999178c27fe6b9b23fa",
-      "size_bytes": 7148
+      "sha256": "cf8fa105b5067fb12fc5c5c1c8f43db147cd50e91ba85ae863e67eb13aa80e09",
+      "size_bytes": 7141
     },
     "prospecting/social-intent-monitoring": {
       "path": [
@@ -1648,8 +1648,8 @@
         "social-intent-monitoring",
         "SKILL.md"
       ],
-      "sha256": "0c04c4df9a469d07a2260a525f683e975111cd2393484590814c627c5f9e735a",
-      "size_bytes": 16238
+      "sha256": "aa33179d72f71edcb855660b8d56da9f4cb10f267c4e145c68762d80a7c8c79d",
+      "size_bytes": 16231
     },
     "sales-plays/earnings-signal-play": {
       "path": [
@@ -1657,8 +1657,8 @@
         "earnings-signal-play",
         "SKILL.md"
       ],
-      "sha256": "4cb184837e8577f04cf775896509c2b7ac5da6ac4c253e32f0cd69eb1d09d44b",
-      "size_bytes": 12035
+      "sha256": "ba8b4173bf1ebcba7b3d3d94250629a72933b236676d59143929f78cda5780df",
+      "size_bytes": 12028
     },
     "sales-plays/funding-signal-play": {
       "path": [
@@ -1666,8 +1666,8 @@
         "funding-signal-play",
         "SKILL.md"
       ],
-      "sha256": "a5dec2e053c53e0047077851871384e4d135d61cad973908cb5bcd5df0400559",
-      "size_bytes": 12377
+      "sha256": "7d6d224f452a5b482c5fe86526870e785d999f3513cfb4de9ed9f9eeec3f2df3",
+      "size_bytes": 12370
     },
     "sales-plays/hiring-signal-play": {
       "path": [
@@ -1675,8 +1675,8 @@
         "hiring-signal-play",
         "SKILL.md"
       ],
-      "sha256": "dd0006efd0aa237ea4d1687ca9d1c69cea980ff977ad352ee02b643011fcdba2",
-      "size_bytes": 8374
+      "sha256": "ef55d74250994a815e560cc62db69451a18b2f69a0d5faf351192b9e7f6ccea2",
+      "size_bytes": 8367
     },
     "sales-plays/job-change-play": {
       "path": [
@@ -1684,8 +1684,8 @@
         "job-change-play",
         "SKILL.md"
       ],
-      "sha256": "0beae183e7c0950744b688870cec29b3ebb2ab79a5c1f37beedc3db99e280602",
-      "size_bytes": 8193
+      "sha256": "e2dbbf8e41fbc256ff35edd2625c5983298c5e2680146347817b618c5734d132",
+      "size_bytes": 8186
     },
     "sales-plays/product-launch-play": {
       "path": [
@@ -1693,8 +1693,8 @@
         "product-launch-play",
         "SKILL.md"
       ],
-      "sha256": "41a713495318da2cb2659dbfe65ae8f67fe1f3b2f61d653d6645db3bfb0cec68",
-      "size_bytes": 8453
+      "sha256": "52624edb7239b6e819a4f8883f7e566d1673adda880445b7eac764b94889a39b",
+      "size_bytes": 8446
     },
     "sales-revops/buyer-indecision": {
       "path": [
@@ -1702,8 +1702,8 @@
         "buyer-indecision",
         "SKILL.md"
       ],
-      "sha256": "eee2adf5046f107c20691a3fc85a7ed585d13acd651641f3fd5e0a033f75b679",
-      "size_bytes": 7374
+      "sha256": "44ad84185b92b38f697855b81887026371f5904413efcd0f4494017a657aece1",
+      "size_bytes": 7367
     },
     "sales-revops/deal-desk": {
       "path": [
@@ -1711,8 +1711,8 @@
         "deal-desk",
         "SKILL.md"
       ],
-      "sha256": "19b48a6e0da80ff8c470f2758c19bcbe9afb67e3b211bb3a30ccf774abc6e39e",
-      "size_bytes": 8250
+      "sha256": "06beea4d81213bfbe1f5dddd5fe4c3bb5966f748ac3bf1f481d0b79292bbd5a9",
+      "size_bytes": 8243
     },
     "sales-revops/demo-scripts": {
       "path": [
@@ -1720,8 +1720,8 @@
         "demo-scripts",
         "SKILL.md"
       ],
-      "sha256": "0e36248054d262f97da39202484f2d6e10f945e1a683f820f481ecb2a6ae002f",
-      "size_bytes": 6575
+      "sha256": "b241f5bc49a29326ab0434cdf0f94f27507c3c5d837e8f5accaaf04a4d5b13c7",
+      "size_bytes": 6568
     },
     "sales-revops/meeting-prep": {
       "path": [
@@ -1729,8 +1729,8 @@
         "meeting-prep",
         "SKILL.md"
       ],
-      "sha256": "b55b946bb144b83a87a8bd97695c0bb147812a08562e4658e09a4c1762f98beb",
-      "size_bytes": 9090
+      "sha256": "c059bc487ed6e1805e1228055abd56e34bc50bdb4ee6d0d0eaedc937a3d39b99",
+      "size_bytes": 9083
     },
     "sales-revops/objection-handling": {
       "path": [
@@ -1738,8 +1738,8 @@
         "objection-handling",
         "SKILL.md"
       ],
-      "sha256": "f7bd4fb9dcba573f635b00048bbb4d35e44c485bc18d2a957e34aaecd87b34df",
-      "size_bytes": 7467
+      "sha256": "e144835c130be431025878e91cae270e114ed3ff0a4c228e00ca462ee90aefde",
+      "size_bytes": 7460
     },
     "sales-revops/pipeline-management": {
       "path": [
@@ -1747,8 +1747,8 @@
         "pipeline-management",
         "SKILL.md"
       ],
-      "sha256": "facbf2fdd8f5097a2f41b7b1d32913317acecd1836a542a40a006eea88a072f4",
-      "size_bytes": 17766
+      "sha256": "173df697b1dbe6c61852f44c5e5aa2264f2722dcf555ed69ad0c17400de5b5f1",
+      "size_bytes": 17759
     },
     "sales-revops/revenue-forecasting": {
       "path": [
@@ -1756,8 +1756,8 @@
         "revenue-forecasting",
         "SKILL.md"
       ],
-      "sha256": "2fe735bdeb75d5a17262730f49a2a8f4665ff9be988eeee016e450c50d2c3463",
-      "size_bytes": 6899
+      "sha256": "43cdb824120eb0c7476a28795161adff395a6cae1b8628bc2f90f76efea39a54",
+      "size_bytes": 6892
     },
     "sales-revops/sales-enablement": {
       "path": [
@@ -1765,8 +1765,8 @@
         "sales-enablement",
         "SKILL.md"
       ],
-      "sha256": "81d7268e81def3804608a12a6f46f6d7713fdc6f801eed626b32f784f228ec83",
-      "size_bytes": 8624
+      "sha256": "dea1b5610e504f8b65a8508d4a17d97ed511cf22a7e42f47a693423e8484c3ac",
+      "size_bytes": 8617
     },
     "sales-revops/transparency-selling": {
       "path": [
@@ -1774,8 +1774,8 @@
         "transparency-selling",
         "SKILL.md"
       ],
-      "sha256": "9ecee367db1496581dbb670b032c2e83aed5806d726ffea6d4b5967b93bcc005",
-      "size_bytes": 8884
+      "sha256": "632528be1c01d5bec3667a717ad110aafabac7e1f64f7e2e837c3bc321e7ae02",
+      "size_bytes": 8877
     },
     "tools/ai-prompts-toolkit": {
       "path": [
@@ -1783,8 +1783,8 @@
         "ai-prompts-toolkit",
         "SKILL.md"
       ],
-      "sha256": "10b7de3c384acf7e3708aa2224422ef5c730ecdcf2573a73633bd6e0196ded43",
-      "size_bytes": 7954
+      "sha256": "2fa72df624bea3951205189a41e060b4550ebca2d024fad6c3cd03fd6f7b4f06",
+      "size_bytes": 7950
     },
     "tools/analytics-toolkit": {
       "path": [
@@ -1792,8 +1792,8 @@
         "analytics-toolkit",
         "SKILL.md"
       ],
-      "sha256": "62002d63b1c077d5e5d2e19b078c39169a36ef2f933c99d82949b53b4e18ba1b",
-      "size_bytes": 6096
+      "sha256": "8e421d8493dd1957250b9ae0f447888d06b6aab4b479b111bed90112ec32c05b",
+      "size_bytes": 6089
     },
     "tools/clay-loops-toolkit": {
       "path": [
@@ -1801,8 +1801,8 @@
         "clay-loops-toolkit",
         "SKILL.md"
       ],
-      "sha256": "3e312e6a956f1ab84991c9f1a315a286333b9c6013bcf2b17a5b4bb1dd49b54d",
-      "size_bytes": 9333
+      "sha256": "f133f4a79899d5f4686d9e570487987e1a735cfa89d451a03740c7141d75350a",
+      "size_bytes": 9326
     },
     "tools/clay-toolkit": {
       "path": [
@@ -1810,8 +1810,8 @@
         "clay-toolkit",
         "SKILL.md"
       ],
-      "sha256": "07d48a43b829b414571705e8b0bcba88cd1bfdfd38ac7561228869585c37c481",
-      "size_bytes": 10807
+      "sha256": "7cb7156c57a0ad4d48c5bf5469cc5d34567c557c234f73aa6c6c291e9d3f0417",
+      "size_bytes": 10800
     },
     "tools/crm-toolkit": {
       "path": [
@@ -1819,8 +1819,8 @@
         "crm-toolkit",
         "SKILL.md"
       ],
-      "sha256": "8b331c8c60fef31f33664e372ba150acaf69c17b851a868da1753a4633ca148e",
-      "size_bytes": 9239
+      "sha256": "e3b17112dcca2f2d3543152550be18ccd6693a2ca5a8951068039a91f2a96dfa",
+      "size_bytes": 9232
     },
     "tools/hubspot-sequences": {
       "path": [
@@ -1828,8 +1828,8 @@
         "hubspot-sequences",
         "SKILL.md"
       ],
-      "sha256": "a3a8ec17be4f815abf9571b208922053feb67716693e534413c5f402837d9b54",
-      "size_bytes": 6678
+      "sha256": "b450dbdc4c0ef67f7bf18e401bae4778ac06c900acb35891ffb5154aee04e91d",
+      "size_bytes": 6671
     },
     "tools/instantly-sequences": {
       "path": [
@@ -1837,8 +1837,8 @@
         "instantly-sequences",
         "SKILL.md"
       ],
-      "sha256": "e0f94ac2a474238bd317f445de485443f772f10cd1cb647797b4c85175e20ff3",
-      "size_bytes": 7129
+      "sha256": "c70c2380a9340f5fa009d4b333cdeaf3d09649b4451b2aec8150ce492de4d354",
+      "size_bytes": 7122
     },
     "tools/leadmagic-toolkit": {
       "path": [
@@ -1846,8 +1846,8 @@
         "leadmagic-toolkit",
         "SKILL.md"
       ],
-      "sha256": "84ed73dda0b3b225cd0dac33d5a40b2943bf29cd156cc47c0d9a72afceec3a4c",
-      "size_bytes": 9353
+      "sha256": "2dd30901755aeabd06b47a6d97de5bc12bf3e390817006cd862b1f58604fe7e9",
+      "size_bytes": 9346
     },
     "tools/lemlist-setup": {
       "path": [
@@ -1855,8 +1855,8 @@
         "lemlist-setup",
         "SKILL.md"
       ],
-      "sha256": "4f3e3d4056c0c4eba1ce97f63289e8c54b6801e0f67290559c20f6540282ba49",
-      "size_bytes": 7253
+      "sha256": "2974d4f1fb00e6370f5e8ddac71f92708823e8cd1cf4db893da1d7076c7d07e4",
+      "size_bytes": 7246
     },
     "tools/n8n-toolkit": {
       "path": [
@@ -1864,8 +1864,8 @@
         "n8n-toolkit",
         "SKILL.md"
       ],
-      "sha256": "e1b283b97894fec663ff45d0b43f25ec01c9fe5b1ec9f0ae60e4b4b737066a29",
-      "size_bytes": 14463
+      "sha256": "37bf619ac871e4f317ff7032e9da3e0587b2e8f6853007ce9a774af1a9a2bb5c",
+      "size_bytes": 14457
     },
     "tools/outreach-sequences": {
       "path": [
@@ -1873,8 +1873,8 @@
         "outreach-sequences",
         "SKILL.md"
       ],
-      "sha256": "b5fcd52e30d4a4d25907fb37fd5235942cbfea6cb6fa06c33701106ef69788a5",
-      "size_bytes": 6966
+      "sha256": "bb1eb5bd1feb79c6dacdf039d23b3016d983a5a8b4f78218a6a8c4e539d8328a",
+      "size_bytes": 6959
     },
     "tools/salesloft-cadences": {
       "path": [
@@ -1882,8 +1882,8 @@
         "salesloft-cadences",
         "SKILL.md"
       ],
-      "sha256": "a7141cbdb94cedea32cb5cc7d011ce7c9e55ebb509e2439dfda4e94adf1a021b",
-      "size_bytes": 6954
+      "sha256": "7602912c110220c078aae8979a5a91b9a758c9039193c0af031afc158b6022cf",
+      "size_bytes": 6947
     },
     "tools/sequencing-toolkit": {
       "path": [
@@ -1891,8 +1891,8 @@
         "sequencing-toolkit",
         "SKILL.md"
       ],
-      "sha256": "88ce085f0c49435bc17295c1fdcb589440ff4de32eb404c35b688a3fd72be499",
-      "size_bytes": 7507
+      "sha256": "4c89cba16e31f9f37b10aeaba4c28a5018227c7ff368631d89b5d92fe595d92a",
+      "size_bytes": 7500
     },
     "tools/smartlead-workflows": {
       "path": [
@@ -1900,8 +1900,8 @@
         "smartlead-workflows",
         "SKILL.md"
       ],
-      "sha256": "3ac0896c49c40641e089092d8005fe4be172b58869b455ab0ea4be660fc4a0e4",
-      "size_bytes": 7548
+      "sha256": "a3593ef2d7f5d8743d322a9145ee98191cec648e36ce5eefe335e53224a12ef6",
+      "size_bytes": 7541
     },
     "tools/support-toolkit": {
       "path": [
@@ -1909,14 +1909,14 @@
         "support-toolkit",
         "SKILL.md"
       ],
-      "sha256": "96369733890703cd0e6a6e0cec760ade53a64adffca09fa669d857fb5fb0e7e3",
-      "size_bytes": 6142
+      "sha256": "035cfb2d962e1f360389be3a3fd5e217fcba36ca9b5696859faf745927c6aaf0",
+      "size_bytes": 6135
     }
   },
   "artifacts": {
     "skills/abm/abm-1-to-1/SKILL.md": {
-      "sha256": "60a5cd04e09fa7d4ec54a83155afabb1421eabf23f724101055a98ca75bbd450",
-      "size_bytes": 6792,
+      "sha256": "68347c2bb8c404f45777dcd368eae5814757937d0c044f3d2ac8172b68a0cab6",
+      "size_bytes": 6785,
       "kind": "entrypoints"
     },
     "skills/abm/abm-1-to-1/references/framework-notes.md": {
@@ -1935,8 +1935,8 @@
       "kind": "templates"
     },
     "skills/abm/abm-1-to-few/SKILL.md": {
-      "sha256": "e0049162a291708c641f19fefabb5827adbe2276293a45f02cb8ef5ee7d78333",
-      "size_bytes": 6917,
+      "sha256": "e4aa6d7bcf7a369dc3d50799af9c944c912cf67e9dad2a2ba78f28f1086a6b0a",
+      "size_bytes": 6910,
       "kind": "entrypoints"
     },
     "skills/abm/abm-1-to-few/references/framework-notes.md": {
@@ -1955,8 +1955,8 @@
       "kind": "templates"
     },
     "skills/abm/abm-1-to-many/SKILL.md": {
-      "sha256": "4207c94001c375b2943c3c688a722070e388fb3a64f6c1b47b6b68c5ca6824b6",
-      "size_bytes": 6588,
+      "sha256": "ac582c35ffea3786e2c32832154e2b9aa08b305e30aec5e5a71f130142d20ec8",
+      "size_bytes": 6581,
       "kind": "entrypoints"
     },
     "skills/abm/abm-1-to-many/references/framework-notes.md": {
@@ -1975,8 +1975,8 @@
       "kind": "templates"
     },
     "skills/abm/abm-strategy/SKILL.md": {
-      "sha256": "dc6f415ed5426d4c9eaa96c6633bc8d53504f7a34e7d729fe4c552a2b6402047",
-      "size_bytes": 9330,
+      "sha256": "7e9bf62efcf05c190d77477f239cecb853efb9ac885cca11f3b385641aa6e51a",
+      "size_bytes": 9323,
       "kind": "entrypoints"
     },
     "skills/abm/abm-strategy/references/framework-notes.md": {
@@ -2000,8 +2000,8 @@
       "kind": "templates"
     },
     "skills/abm/account-selection/SKILL.md": {
-      "sha256": "79fe6cf33dc5ff946bf1c476ee676efca30204edb83fc50d3d53de504f6daa75",
-      "size_bytes": 7077,
+      "sha256": "02314cc1a7e7929a61f51b01249c3e758840aede64f55e7f66aff4965f9d311c",
+      "size_bytes": 7070,
       "kind": "entrypoints"
     },
     "skills/abm/account-selection/references/framework-notes.md": {
@@ -2020,8 +2020,8 @@
       "kind": "templates"
     },
     "skills/abm/multi-thread-orchestration/SKILL.md": {
-      "sha256": "46c37a3850ed4edcb956609a3e7b33e8ee3f1be45fd5e240be1b585e27e29bb8",
-      "size_bytes": 7963,
+      "sha256": "39c930d3d1db9b32443135de91bcfd32466a93de386c659ea88f4ccabec76b80",
+      "size_bytes": 7956,
       "kind": "entrypoints"
     },
     "skills/abm/multi-thread-orchestration/references/framework-notes.md": {
@@ -2040,8 +2040,8 @@
       "kind": "templates"
     },
     "skills/abm/strategic-gifting/SKILL.md": {
-      "sha256": "e43d5e32905a031d854c010a0d91a29103cf0d7a0c7e49e2a7d5b9f1855aad6c",
-      "size_bytes": 9705,
+      "sha256": "f28fcf46deaae84b6aed6ce0e56b830a3478efcfea59f1ede0f0bafe2829fe8b",
+      "size_bytes": 9698,
       "kind": "entrypoints"
     },
     "skills/abm/strategic-gifting/references/framework-notes.md": {
@@ -2105,8 +2105,8 @@
       "kind": "templates"
     },
     "skills/analytics/1p-tagging-pixels/SKILL.md": {
-      "sha256": "ca87b1bc9a5a8cda74a4cda0fe4ec69936dfd46c69d0f0a4902d70348187e32e",
-      "size_bytes": 10184,
+      "sha256": "ca79af54aa95552681d54e8808d9ec07bb97914a2d7818bcf6bec298061cc389",
+      "size_bytes": 10177,
       "kind": "entrypoints"
     },
     "skills/analytics/1p-tagging-pixels/references/framework-notes.md": {
@@ -2125,8 +2125,8 @@
       "kind": "templates"
     },
     "skills/analytics/a-b-testing/SKILL.md": {
-      "sha256": "6e07c57872a70c4857662d1c358685466549e6af2d63cf9974329511d1e17bee",
-      "size_bytes": 25873,
+      "sha256": "8b9a245d5b1fecafec0de839241a75332e7d151cfbb36d52af8d13e325b54d3f",
+      "size_bytes": 25866,
       "kind": "entrypoints"
     },
     "skills/analytics/a-b-testing/references/framework-notes.md": {
@@ -2145,8 +2145,8 @@
       "kind": "templates"
     },
     "skills/analytics/attribution/SKILL.md": {
-      "sha256": "7160138430b82469decfd53793e77e530f4fdae124da0c3530f1fdc413c036d0",
-      "size_bytes": 25807,
+      "sha256": "80785e0533ed95da772b7ecc9613e29d8494760ae7b9ef54fdcbcc76d454bbc5",
+      "size_bytes": 25800,
       "kind": "entrypoints"
     },
     "skills/analytics/attribution/references/framework-notes.md": {
@@ -2165,8 +2165,8 @@
       "kind": "templates"
     },
     "skills/analytics/campaign-analytics/SKILL.md": {
-      "sha256": "0ce57e144c965d34b37448b5628b8e2f214c6d9bd5c2fe0bf430c370d26d4b0d",
-      "size_bytes": 28145,
+      "sha256": "f8d124991a5c9f8c30d444bc8c3de619652715ef534a3aa4dfb8e86a29e1b61e",
+      "size_bytes": 28138,
       "kind": "entrypoints"
     },
     "skills/analytics/campaign-analytics/references/framework-notes.md": {
@@ -2185,8 +2185,8 @@
       "kind": "templates"
     },
     "skills/analytics/deliverability-monitoring/SKILL.md": {
-      "sha256": "320d046dab79c17e2d825f8003ad3980b8b0dd35bb84220dd6d029ba24dc7192",
-      "size_bytes": 25161,
+      "sha256": "9bd0c8da93caa8cfbc43f4657086d4952392f29bb9df38d410426057e32a0a25",
+      "size_bytes": 25154,
       "kind": "entrypoints"
     },
     "skills/analytics/deliverability-monitoring/references/framework-notes.md": {
@@ -2205,8 +2205,8 @@
       "kind": "templates"
     },
     "skills/analytics/event-analytics/SKILL.md": {
-      "sha256": "7275d27bc7f1e84edc6e64d5b6f9019f95bfc601d82bba54c4deee456f015203",
-      "size_bytes": 12473,
+      "sha256": "9a814224619a0503d69f86aa261626e7172ee89a48d84c52d881f302571b41f9",
+      "size_bytes": 12466,
       "kind": "entrypoints"
     },
     "skills/analytics/event-analytics/references/framework-notes.md": {
@@ -2225,8 +2225,8 @@
       "kind": "templates"
     },
     "skills/analytics/growth-experimentation/SKILL.md": {
-      "sha256": "6c667cfdb0eda923e7d85b4f07b9fa0b8279e5818b5c414a735123c9f77f0955",
-      "size_bytes": 6848,
+      "sha256": "f138e24a43d3d534304a177ca48e45897756094ceab3a887e6db0a71b01d922e",
+      "size_bytes": 6841,
       "kind": "entrypoints"
     },
     "skills/analytics/growth-experimentation/references/framework-notes.md": {
@@ -2245,8 +2245,8 @@
       "kind": "templates"
     },
     "skills/analytics/gtm-metrics/SKILL.md": {
-      "sha256": "6c8adfc9cc08152a6ba3628965f276b59d6f409641a404a86bb2fd40566ac077",
-      "size_bytes": 30232,
+      "sha256": "ed9b1ff366b5815468df356e37a2b68131bbd2ec6d732d6eb162f21761d06030",
+      "size_bytes": 30225,
       "kind": "entrypoints"
     },
     "skills/analytics/gtm-metrics/references/activation-playbook.md": {
@@ -2340,8 +2340,8 @@
       "kind": "templates"
     },
     "skills/analytics/gtm-system-architecture/SKILL.md": {
-      "sha256": "8dfda3c7bd12e6dde70d7c8eeeaae2f256e45b2472a71c9139627f19c23e4d3c",
-      "size_bytes": 7680,
+      "sha256": "e3db401e98beafee04857c182ad044ebce974b3dd223d46a53f0f8a0bfddd1e9",
+      "size_bytes": 7673,
       "kind": "entrypoints"
     },
     "skills/analytics/gtm-system-architecture/references/framework-notes.md": {
@@ -2360,8 +2360,8 @@
       "kind": "templates"
     },
     "skills/analytics/marketing-strategy/SKILL.md": {
-      "sha256": "b01e94eeb339443b0321cf12bfe26879bd7176f6547b417c768b67a89fe97613",
-      "size_bytes": 7463,
+      "sha256": "c419735ece104748d78f12558d56163776a6f2a853db4e02ddee6e27e911e137",
+      "size_bytes": 7456,
       "kind": "entrypoints"
     },
     "skills/analytics/marketing-strategy/references/framework-notes.md": {
@@ -2380,8 +2380,8 @@
       "kind": "templates"
     },
     "skills/analytics/paid-advertising/SKILL.md": {
-      "sha256": "816f59b4ff3cf320f050cf7ce66717f92dd6546670707afc9e9be678aa02b4cc",
-      "size_bytes": 8071,
+      "sha256": "2dd54b93b48a4ac3524df6fee54eb225f0a8688869bf409ed7ea2ac26859b377",
+      "size_bytes": 8064,
       "kind": "entrypoints"
     },
     "skills/analytics/paid-advertising/references/framework-notes.md": {
@@ -2400,8 +2400,8 @@
       "kind": "templates"
     },
     "skills/analytics/proactive-alerts/SKILL.md": {
-      "sha256": "fcbbbb7b50603d4b96436958fdedd4bd40c6870a3a19ad80773e046cfa980bd5",
-      "size_bytes": 6422,
+      "sha256": "a804d0090fccc1c8d9611d6730a2d636d4d1fd03a3599f719645fe3f01b22a4e",
+      "size_bytes": 6415,
       "kind": "entrypoints"
     },
     "skills/analytics/proactive-alerts/references/framework-notes.md": {
@@ -2420,8 +2420,8 @@
       "kind": "templates"
     },
     "skills/analytics/tracking-plan/SKILL.md": {
-      "sha256": "1c81159876c34fb8b2761df809b8f797be7aad146d78a1910c8a25fab88a7f7d",
-      "size_bytes": 20416,
+      "sha256": "799c003c56c2905b0e6fa24af9fd212bcb31f39bfda895ac0ce24986d63fb38c",
+      "size_bytes": 20409,
       "kind": "entrypoints"
     },
     "skills/analytics/tracking-plan/references/cdp-implementation.md": {
@@ -2450,8 +2450,8 @@
       "kind": "templates"
     },
     "skills/automation/ai-sdr-setup/SKILL.md": {
-      "sha256": "d9a85c021fe7fea38443b9a017107a260eee48624d0a9aa7273cb69f0d7f798e",
-      "size_bytes": 10992,
+      "sha256": "c4e12f13589a6644b9662f784dbde3397c67bbc768b129672fd7ec9832f820d7",
+      "size_bytes": 10985,
       "kind": "entrypoints"
     },
     "skills/automation/ai-sdr-setup/references/framework-notes.md": {
@@ -2470,8 +2470,8 @@
       "kind": "templates"
     },
     "skills/automation/api-enrichment/SKILL.md": {
-      "sha256": "641a721f1a0865c5c83b8c47f3ceb086815895b3aea948ba83e2aaa2e6ff495f",
-      "size_bytes": 6846,
+      "sha256": "970db0fd4fdd7de5b11a35c61784c08a05b5e20328a37dffcae3fb7ef92a41bc",
+      "size_bytes": 6839,
       "kind": "entrypoints"
     },
     "skills/automation/api-enrichment/references/framework-notes.md": {
@@ -2490,8 +2490,8 @@
       "kind": "templates"
     },
     "skills/automation/attio-setup/SKILL.md": {
-      "sha256": "ac772760918b0c0f586691b708694005c330ae8635f2ae562dbd3f140374d4d4",
-      "size_bytes": 5847,
+      "sha256": "e23e0390621cb2de58d9fe0f9f91d96324746cf5f2f15d47a1ed2af9a58b9581",
+      "size_bytes": 5840,
       "kind": "entrypoints"
     },
     "skills/automation/attio-setup/references/framework-notes.md": {
@@ -2510,8 +2510,8 @@
       "kind": "templates"
     },
     "skills/automation/clay-automation/SKILL.md": {
-      "sha256": "1da0d73dbcb31d0b6b320633778af82c239c4e0ec700a3a40ec5c4bcf0219648",
-      "size_bytes": 8768,
+      "sha256": "0e321858edfd893c987a8249f248a9ed79ccd394d561c1b81a5f27441cb73cda",
+      "size_bytes": 8761,
       "kind": "entrypoints"
     },
     "skills/automation/clay-automation/references/automation-playbook-index.md": {
@@ -2540,8 +2540,8 @@
       "kind": "templates"
     },
     "skills/automation/crm-integration/SKILL.md": {
-      "sha256": "009d7ef94efbb475ca93be6e2a5094266675bd676edef8e8b901c1b0564ce353",
-      "size_bytes": 6640,
+      "sha256": "c8c24aed3fb400571302e3cb668357d12507039849bc9ad5c7cf1bda851a90a9",
+      "size_bytes": 6633,
       "kind": "entrypoints"
     },
     "skills/automation/crm-integration/references/framework-notes.md": {
@@ -2560,8 +2560,8 @@
       "kind": "templates"
     },
     "skills/automation/hubspot-setup/SKILL.md": {
-      "sha256": "2afa75a7b1ee6d9f2deed35a6a31627506c4342ed241aea154f24d8716aedebc",
-      "size_bytes": 6735,
+      "sha256": "d281f8a509ecb9ffd55db94261a3b43daa121d49235a00870c942fb4fa8d248f",
+      "size_bytes": 6728,
       "kind": "entrypoints"
     },
     "skills/automation/hubspot-setup/references/framework-notes.md": {
@@ -2580,8 +2580,8 @@
       "kind": "templates"
     },
     "skills/automation/mcp-setup/SKILL.md": {
-      "sha256": "e1b52ef6f331182ed204eea948dc80f8f10786deae6e91e68239c9f03bc2d6fa",
-      "size_bytes": 7354,
+      "sha256": "465cb3d71fb390ad1c9a7febf78a74b855758f7fec81ea5c0a54960420609b4c",
+      "size_bytes": 7348,
       "kind": "entrypoints"
     },
     "skills/automation/mcp-setup/references/framework-notes.md": {
@@ -2600,8 +2600,8 @@
       "kind": "templates"
     },
     "skills/automation/n8n-automation/SKILL.md": {
-      "sha256": "6a2d3d037fab800b8476a76375d3d3abae0b6612f00afe9c1b1125c898691685",
-      "size_bytes": 7446,
+      "sha256": "c217983b18a77a20460d4d2d5af769661572cd5f00e50f6524ccdcaf49a83a92",
+      "size_bytes": 7439,
       "kind": "entrypoints"
     },
     "skills/automation/n8n-automation/references/automation-playbook-index.md": {
@@ -2635,8 +2635,8 @@
       "kind": "templates"
     },
     "skills/automation/salesforce-setup/SKILL.md": {
-      "sha256": "085262861caa3e4b87e45c741198e46bf921b63a0b64288f39c9c7c0d53b3a72",
-      "size_bytes": 7497,
+      "sha256": "1e013c504ec410f5bef5aa8e2931d6c8eb2db188f34d6df132a0bbcf66ff6717",
+      "size_bytes": 7490,
       "kind": "entrypoints"
     },
     "skills/automation/salesforce-setup/references/framework-notes.md": {
@@ -2655,8 +2655,8 @@
       "kind": "templates"
     },
     "skills/automation/skills-lock/SKILL.md": {
-      "sha256": "ed5b970356eec8b4d0577f3d06c0a09ca8c192491a7ae191238a7ceb31c4ece0",
-      "size_bytes": 6317,
+      "sha256": "c5423e45fd0d45931a886686a1dd15b915ac8f5497c81cbb8d571246ebf7aff3",
+      "size_bytes": 6310,
       "kind": "entrypoints"
     },
     "skills/automation/skills-lock/references/framework-notes.md": {
@@ -2675,8 +2675,8 @@
       "kind": "templates"
     },
     "skills/automation/tool-selection-stack/SKILL.md": {
-      "sha256": "2952bd87831c51dcd922a7f9ab3004b91294ce576413c70db2d2ea555f97f0b4",
-      "size_bytes": 6503,
+      "sha256": "dbace40dc32a37bdf6fc30593ed65c76b050b661663b86ab6af3ed73418ebf5a",
+      "size_bytes": 6496,
       "kind": "entrypoints"
     },
     "skills/automation/tool-selection-stack/references/framework-notes.md": {
@@ -2700,8 +2700,8 @@
       "kind": "templates"
     },
     "skills/automation/waterfall-enrichment/SKILL.md": {
-      "sha256": "4bf7c96f65f98f5387783ab3b302259e04615bb914c643af1c5b11db24f1f590",
-      "size_bytes": 5416,
+      "sha256": "b6454ae2db60834fea7099cbdc09ff92a5b6a4fe5587097d5789f825eb3236e9",
+      "size_bytes": 5409,
       "kind": "entrypoints"
     },
     "skills/automation/waterfall-enrichment/references/framework-notes.md": {
@@ -2720,8 +2720,8 @@
       "kind": "templates"
     },
     "skills/content-seo/aeo-strategy/SKILL.md": {
-      "sha256": "35f8df690feba904a4c9fe35149bbe2b1bb656fcb03536e2ce3fc1c6192af793",
-      "size_bytes": 7988,
+      "sha256": "b42f80ae5bd9c26044f606745391903ac16a4a3b79dc03dcad4899eeba6a81f7",
+      "size_bytes": 7981,
       "kind": "entrypoints"
     },
     "skills/content-seo/aeo-strategy/references/chris-walker-mental-models.md": {
@@ -2750,8 +2750,8 @@
       "kind": "templates"
     },
     "skills/content-seo/citation-harvesting/SKILL.md": {
-      "sha256": "ec203f0188a3ecdf7f83b2ef2bd8fafd2f03f35c1d7da508e1ade10f64384d11",
-      "size_bytes": 6832,
+      "sha256": "0795eb21dcc6d1b76c5ae21e9e1edb4f9e4d8261d4a55093327cc46094a430ee",
+      "size_bytes": 6825,
       "kind": "entrypoints"
     },
     "skills/content-seo/citation-harvesting/references/framework-notes.md": {
@@ -2775,8 +2775,8 @@
       "kind": "templates"
     },
     "skills/content-seo/faq-seo/SKILL.md": {
-      "sha256": "dd9d34e6b452687483f338735dc352fa455d225792105dd34fe7ff47dbcceb8a",
-      "size_bytes": 6189,
+      "sha256": "6df31ad443d17b293469ce5aefb11771f0b0f12516bf3d98d8015a4eb2741d99",
+      "size_bytes": 6182,
       "kind": "entrypoints"
     },
     "skills/content-seo/faq-seo/references/framework-notes.md": {
@@ -2800,8 +2800,8 @@
       "kind": "templates"
     },
     "skills/content-seo/pillar-pages/SKILL.md": {
-      "sha256": "2cc3c260738f501a1b60ce71870dc8f2ab53f3b50539326ba3eec84a5e9605ee",
-      "size_bytes": 7614,
+      "sha256": "620600b5eec89f652f623d988a7e63805e313f33e1aa6d377feff360c4274fd7",
+      "size_bytes": 7607,
       "kind": "entrypoints"
     },
     "skills/content-seo/pillar-pages/references/framework-notes.md": {
@@ -2825,8 +2825,8 @@
       "kind": "templates"
     },
     "skills/content-seo/pseo-strategy/SKILL.md": {
-      "sha256": "3ee4368ccfa1895c8fe2116cf58fdeb5b75ad5d03e0321e5dc0a85b525a9415f",
-      "size_bytes": 7368,
+      "sha256": "1a2da4bc9e00b5827a7ae164feaacd74e406e4173174b6ad53c2fc524eaba65e",
+      "size_bytes": 7361,
       "kind": "entrypoints"
     },
     "skills/content-seo/pseo-strategy/references/framework-notes.md": {
@@ -2850,8 +2850,8 @@
       "kind": "templates"
     },
     "skills/content-seo/seo-strategy/SKILL.md": {
-      "sha256": "11f5339ea55e0c11264010d9d5d354eb96b62591676ec30b61cf05254bb7fa16",
-      "size_bytes": 6946,
+      "sha256": "5ccd069143a69587ca7aea9c6c6e68a8f418a02722a3b2da200ae846bd09cd8f",
+      "size_bytes": 6939,
       "kind": "entrypoints"
     },
     "skills/content-seo/seo-strategy/references/chris-walker-mental-models.md": {
@@ -2880,8 +2880,8 @@
       "kind": "templates"
     },
     "skills/content-seo/technical-seo-audit/SKILL.md": {
-      "sha256": "859610926e634ac11cc843f5b4dcce43cd92b03623dd417c0041dd9a71d94155",
-      "size_bytes": 7501,
+      "sha256": "824123d171853f0749f536026e2066a64e8127e6f08772fff1053cab0f9afef3",
+      "size_bytes": 7494,
       "kind": "entrypoints"
     },
     "skills/content-seo/technical-seo-audit/references/framework-notes.md": {
@@ -2900,8 +2900,8 @@
       "kind": "templates"
     },
     "skills/creative/ad-creative-strategy/SKILL.md": {
-      "sha256": "b8594e8f5a08de043616a4190061952c242314e8e69a3e3d345d35a01234e837",
-      "size_bytes": 6615,
+      "sha256": "f8d644bf5b375429213c16045c415554877810896a33f4b9c72a90fc2539ed79",
+      "size_bytes": 6608,
       "kind": "entrypoints"
     },
     "skills/creative/ad-creative-strategy/references/framework-notes.md": {
@@ -2920,8 +2920,8 @@
       "kind": "templates"
     },
     "skills/creative/ai-content-creation/SKILL.md": {
-      "sha256": "b65c1d79a6382b55ccb6c124700cca847cb9dfb8c2cbf1cfed08311c56903fe4",
-      "size_bytes": 12972,
+      "sha256": "f872ec66e4dc344536b6a0a780601a8a354926ce4b2caa18ac8c2e9edc8aa9e5",
+      "size_bytes": 12965,
       "kind": "entrypoints"
     },
     "skills/creative/ai-content-creation/references/framework-notes.md": {
@@ -2940,8 +2940,8 @@
       "kind": "templates"
     },
     "skills/creative/ai-video-creation/SKILL.md": {
-      "sha256": "61f6587e6107ddf5fd4eaea149f13552ce3a022202c11f93c0386b00b2b9e70b",
-      "size_bytes": 13702,
+      "sha256": "dc2aa0b1dacf9a5169f88cdaaa35b65c8ec5f2118ce11f92df492022f4762ffa",
+      "size_bytes": 13695,
       "kind": "entrypoints"
     },
     "skills/creative/ai-video-creation/references/framework-notes.md": {
@@ -2960,8 +2960,8 @@
       "kind": "templates"
     },
     "skills/creative/content-distribution/SKILL.md": {
-      "sha256": "e41f95896bbb2d3ff1ed62348d7039310cb760d822aadddb9ccca2a168d4e0f4",
-      "size_bytes": 6447,
+      "sha256": "d80bd938abc9975d00c8e3d1ccb1b8944970822fab78df3ec377783189e7d3e0",
+      "size_bytes": 6440,
       "kind": "entrypoints"
     },
     "skills/creative/content-distribution/references/framework-notes.md": {
@@ -2980,8 +2980,8 @@
       "kind": "templates"
     },
     "skills/creative/copywriting/SKILL.md": {
-      "sha256": "44fb97babf3dbd353763fe61cfc862839a5c8369d706caf4974f659e904d144e",
-      "size_bytes": 6410,
+      "sha256": "90ad3ca98c35193b4f334dd24584e90c0459c5fd00b3a9673742c0ab197d1b76",
+      "size_bytes": 6403,
       "kind": "entrypoints"
     },
     "skills/creative/copywriting/references/framework-notes.md": {
@@ -3000,8 +3000,8 @@
       "kind": "templates"
     },
     "skills/creative/graphic-design-gtm/SKILL.md": {
-      "sha256": "871bb8800aa1bcc093ec1f8e598cc49946fdf485e0bd49120403a9b5e2947374",
-      "size_bytes": 7406,
+      "sha256": "b408f11eb008c73b1713316f10843a8691159dd1f46389839bf288ddf0a30e0c",
+      "size_bytes": 7399,
       "kind": "entrypoints"
     },
     "skills/creative/graphic-design-gtm/references/framework-notes.md": {
@@ -3020,8 +3020,8 @@
       "kind": "templates"
     },
     "skills/creative/growth-hacking-tactics/SKILL.md": {
-      "sha256": "94b03247972b4d92efcf174f5547dce31c1b5b8f85a991f070e87b828b2b7012",
-      "size_bytes": 13524,
+      "sha256": "39b56f76b13a6c7200ff7604b5ba5b40e31f66ef6a879abb14989433ce843482",
+      "size_bytes": 13517,
       "kind": "entrypoints"
     },
     "skills/creative/growth-hacking-tactics/references/framework-notes.md": {
@@ -3040,8 +3040,8 @@
       "kind": "templates"
     },
     "skills/creative/landing-page-copy/SKILL.md": {
-      "sha256": "aed67d2578b503c84bab2bfda62f19a1f06a15f9cad54125c47ee313245e0dca",
-      "size_bytes": 17316,
+      "sha256": "6dc5f64bd14411808a29c533acdc08958b2566de35a8e97deade34daaa7a83cb",
+      "size_bytes": 17309,
       "kind": "entrypoints"
     },
     "skills/creative/landing-page-copy/references/framework-notes.md": {
@@ -3060,8 +3060,8 @@
       "kind": "templates"
     },
     "skills/creative/social-media-strategy/SKILL.md": {
-      "sha256": "889b5a39262c7b1c3276822c95e784049099e2842887c099b92b0f21223bddb3",
-      "size_bytes": 7650,
+      "sha256": "7aba8521ddd0eae1ef263af1493885368b0394eff24d26c6cc945875e45166b5",
+      "size_bytes": 7643,
       "kind": "entrypoints"
     },
     "skills/creative/social-media-strategy/references/framework-notes.md": {
@@ -3080,8 +3080,8 @@
       "kind": "templates"
     },
     "skills/creative/v0-lander/SKILL.md": {
-      "sha256": "bd51f76790402bccb4e019d498d1045ca3be4c6aad866b4953f8f7016a9bfc6f",
-      "size_bytes": 15297,
+      "sha256": "34e545857aa7bd831da7f9d0dd91b2df6f079095c4eaa07126542c135bd3bded",
+      "size_bytes": 15291,
       "kind": "entrypoints"
     },
     "skills/creative/v0-lander/references/framework-notes.md": {
@@ -3100,13 +3100,13 @@
       "kind": "templates"
     },
     "skills/creative/vibe-coding/SKILL.md": {
-      "sha256": "e5303d6824dc8652c59520c22047a389a5e5127f4b12ebd18b18bd0aae045ea5",
-      "size_bytes": 16150,
+      "sha256": "df18a799c2ab148a067980f34cded73122bb389e1949c78a9e28371286f8ecad",
+      "size_bytes": 16149,
       "kind": "entrypoints"
     },
     "skills/creative/vibe-coding/references/framework-notes.md": {
-      "sha256": "cf2c677d0cdbd528f58a8b9f0170854e75adb1016f3cd9286f76450247cd32f4",
-      "size_bytes": 3531,
+      "sha256": "362b21ee59d7029c985791295e185deb6be4c53b4f27eb3325fe148f40028703",
+      "size_bytes": 3533,
       "kind": "references"
     },
     "skills/creative/vibe-coding/scripts/check-output.py": {
@@ -3115,13 +3115,13 @@
       "kind": "scripts"
     },
     "skills/creative/vibe-coding/templates/output-template.md": {
-      "sha256": "c59c4f03274dbad0c302af720010bd1acf2b763d012f1c0e019e032bd93cfc8a",
-      "size_bytes": 1808,
+      "sha256": "4f8068ec53b1766c12cce2ad8c200e50fa43d785666cfa5b2c2e671e67f11b8c",
+      "size_bytes": 1809,
       "kind": "templates"
     },
     "skills/creative/vibe-marketing/SKILL.md": {
-      "sha256": "adecd9a73c7ea7048c469b3a510ced8e154792aa589e9c803051a3ee57290e09",
-      "size_bytes": 15327,
+      "sha256": "ea941bbb180945312e0451e8b4d91607fd921bce4d862e435840a2b43a6f7702",
+      "size_bytes": 15321,
       "kind": "entrypoints"
     },
     "skills/creative/vibe-marketing/references/framework-notes.md": {
@@ -3140,8 +3140,8 @@
       "kind": "templates"
     },
     "skills/customer-success/cs-analytics-dashboards/SKILL.md": {
-      "sha256": "b63a0de7b35fe251e5233d181da29faaf0003e27ac01a440be0ea6e7871a0d86",
-      "size_bytes": 13615,
+      "sha256": "292bb34b50662f22236c04324becf12a66b0b8ed08435f506a8574a8b15dd3f3",
+      "size_bytes": 13608,
       "kind": "entrypoints"
     },
     "skills/customer-success/cs-analytics-dashboards/references/activation-playbook.md": {
@@ -3170,8 +3170,8 @@
       "kind": "templates"
     },
     "skills/customer-success/cs-playbooks/SKILL.md": {
-      "sha256": "0d06cf932d1860a80687417e6eba8c57d1af8a08958f24ea02f2cfb71cc3611e",
-      "size_bytes": 9079,
+      "sha256": "ebde2239354a96866655178e16b3db54842f9332b8a931efe5c4cf3039c53517",
+      "size_bytes": 9072,
       "kind": "entrypoints"
     },
     "skills/customer-success/cs-playbooks/references/crisis-management-playbook.md": {
@@ -3215,8 +3215,8 @@
       "kind": "templates"
     },
     "skills/customer-success/customer-onboarding/SKILL.md": {
-      "sha256": "06fd3d70cea69dae1aab40a0a6974df68363d77aead032794ce62f5be46e2833",
-      "size_bytes": 16587,
+      "sha256": "4e4089450d287df47142996bd4f44c2dfaa0c304e11e112127dcc713107080ce",
+      "size_bytes": 16580,
       "kind": "entrypoints"
     },
     "skills/customer-success/customer-onboarding/references/activation-playbook.md": {
@@ -3270,13 +3270,13 @@
       "kind": "templates"
     },
     "skills/customer-success/headless-support/SKILL.md": {
-      "sha256": "a4686d2eb399731441e474fe03f8df9ba88ef0af5215c5604de5acdb644241aa",
-      "size_bytes": 14836,
+      "sha256": "d4def9d9341a81237693e7995b0103992b70d99c16942c3020288bc2a65827c6",
+      "size_bytes": 14831,
       "kind": "entrypoints"
     },
     "skills/customer-success/headless-support/references/byoai-headless-stack.md": {
-      "sha256": "123eff794ceef105d8c6ce1e4d55b3ce915c2f80c2e88362e9b0aae42c439a42",
-      "size_bytes": 4928,
+      "sha256": "033a9653d7e35d5c247225513cecc507aa9663f7b0d43ceb2a9b4b1157a33892",
+      "size_bytes": 4931,
       "kind": "references"
     },
     "skills/customer-success/headless-support/references/framework-notes.md": {
@@ -3295,8 +3295,8 @@
       "kind": "templates"
     },
     "skills/customer-success/qbr-planning/SKILL.md": {
-      "sha256": "13a798c096e64221f75da22c93e040830fb1b6eafac982002ba7a772b05e6f0c",
-      "size_bytes": 5938,
+      "sha256": "695367cf065513d6bfda8e902e631ba84cbb08de903e72e9c9f81bbd2da5c684",
+      "size_bytes": 5931,
       "kind": "entrypoints"
     },
     "skills/customer-success/qbr-planning/references/framework-notes.md": {
@@ -3315,8 +3315,8 @@
       "kind": "templates"
     },
     "skills/customer-success/sla-management/SKILL.md": {
-      "sha256": "3010da5330321b9da566111c4982f19032f5fc2775b2095e8c2421c9198499e6",
-      "size_bytes": 12360,
+      "sha256": "7cea88d430c8989f73f47a1e264d35cb5a4d652127a26c0ab443a4fb254baa49",
+      "size_bytes": 12353,
       "kind": "entrypoints"
     },
     "skills/customer-success/sla-management/references/framework-notes.md": {
@@ -3335,8 +3335,8 @@
       "kind": "templates"
     },
     "skills/customer-success/support-tool-stack/SKILL.md": {
-      "sha256": "9d4a2061ccbe2ef5a9681b5a52fbf9f0ad42dba3a53ea69ec117a677234f60f8",
-      "size_bytes": 15992,
+      "sha256": "eb34b9a9bdb73f6cfdab3f770e7cbf95bfe9082cb6033144c70e131cbd1919b6",
+      "size_bytes": 15989,
       "kind": "entrypoints"
     },
     "skills/customer-success/support-tool-stack/references/framework-notes.md": {
@@ -3355,8 +3355,8 @@
       "kind": "templates"
     },
     "skills/demand-gen/content-syndication/SKILL.md": {
-      "sha256": "c25c515c9ae43ea1f987fa774a9ef456cfc7fd9f6ce411626ffbb11fd316283e",
-      "size_bytes": 14076,
+      "sha256": "2a4b89ca9d7041f9ebb90915d429653d257d965601037ed9c699fd98493a4b43",
+      "size_bytes": 14069,
       "kind": "entrypoints"
     },
     "skills/demand-gen/content-syndication/references/framework-notes.md": {
@@ -3375,8 +3375,8 @@
       "kind": "templates"
     },
     "skills/demand-gen/paid-social-strategy/SKILL.md": {
-      "sha256": "62afc44ae5b47090a16d4093945f66a8111f3dbe646527ed9b0ef510000f1317",
-      "size_bytes": 7565,
+      "sha256": "0cf8991a977f3de3e2a3bdc800f61d41224174e35bcc345488aaa45840bb059e",
+      "size_bytes": 7558,
       "kind": "entrypoints"
     },
     "skills/demand-gen/paid-social-strategy/references/chris-walker-mental-models.md": {
@@ -3400,8 +3400,8 @@
       "kind": "templates"
     },
     "skills/demand-gen/podcast-gtm/SKILL.md": {
-      "sha256": "1e26f9ee6bb1b2dbf3dd8e69adb027a777f39137d62e6bbb6385ac1995683bbb",
-      "size_bytes": 7458,
+      "sha256": "2751aacf7e21256de8abede14c267f9d278cd5dce40b22d1d534a92f2b5a9ea7",
+      "size_bytes": 7451,
       "kind": "entrypoints"
     },
     "skills/demand-gen/podcast-gtm/references/chris-walker-mental-models.md": {
@@ -3430,8 +3430,8 @@
       "kind": "templates"
     },
     "skills/demand-gen/webinar-strategy/SKILL.md": {
-      "sha256": "4e00433e642788e33b8f1c8d6a6f81427d1033b0462b8326d34f395aa099a771",
-      "size_bytes": 7263,
+      "sha256": "cf349e021191eb2271d060fb73d8a3353c83c7974adb367f50eb066f5808cba4",
+      "size_bytes": 7256,
       "kind": "entrypoints"
     },
     "skills/demand-gen/webinar-strategy/references/chris-walker-mental-models.md": {
@@ -3455,8 +3455,8 @@
       "kind": "templates"
     },
     "skills/design/battlecard-builder/SKILL.md": {
-      "sha256": "74c5a952688226657f91f9d510abe68b214addda6f0604902dfb390c76e6b8f1",
-      "size_bytes": 7794,
+      "sha256": "54446f04a71c408a515a53f25407bd950459c240dbe0c0e3ebdd204b83eb16ea",
+      "size_bytes": 7787,
       "kind": "entrypoints"
     },
     "skills/design/battlecard-builder/references/framework-notes.md": {
@@ -3475,8 +3475,8 @@
       "kind": "templates"
     },
     "skills/design/case-study-builder/SKILL.md": {
-      "sha256": "44b0514e656269d2e023ce2149f785172e86cf9cdc54d893f5b08a752da66f12",
-      "size_bytes": 6864,
+      "sha256": "d97cd959871740df41b2b6178cb3a5f337d5502486cc8a3dd229f48f8f479149",
+      "size_bytes": 6857,
       "kind": "entrypoints"
     },
     "skills/design/case-study-builder/references/framework-notes.md": {
@@ -3495,8 +3495,8 @@
       "kind": "templates"
     },
     "skills/design/design-system-gtm/SKILL.md": {
-      "sha256": "cca528515a759696d608061f4affd3e988696997efbd68d726ae5b94f36344fe",
-      "size_bytes": 12625,
+      "sha256": "2722c56958a73040dc57d05976e99a8427272d8917e10890ff93038468b60621",
+      "size_bytes": 12618,
       "kind": "entrypoints"
     },
     "skills/design/design-system-gtm/references/framework-notes.md": {
@@ -3515,8 +3515,8 @@
       "kind": "templates"
     },
     "skills/design/one-pager-builder/SKILL.md": {
-      "sha256": "4087dedae3acd718ea98caa82dbdceba69fe513bd0f83fc5aa071f8268cb23f8",
-      "size_bytes": 7434,
+      "sha256": "4e5de8d4eb7088e88ce765739b623d623190cfc0d7c3eae1ab2246cf2b158633",
+      "size_bytes": 7427,
       "kind": "entrypoints"
     },
     "skills/design/one-pager-builder/references/framework-notes.md": {
@@ -3535,8 +3535,8 @@
       "kind": "templates"
     },
     "skills/design/pitch-deck-builder/SKILL.md": {
-      "sha256": "19dc2c9e91e024c725237db231c362e09acc7765b2d77e6686db2e8b62625907",
-      "size_bytes": 7934,
+      "sha256": "c00a0eec905ae813151b252709eb1a8f6b5ec6daf4f2499984441308c90c9e49",
+      "size_bytes": 7927,
       "kind": "entrypoints"
     },
     "skills/design/pitch-deck-builder/references/framework-notes.md": {
@@ -3555,8 +3555,8 @@
       "kind": "templates"
     },
     "skills/design/roi-calculator/SKILL.md": {
-      "sha256": "9b8e6dc039716d0dfc0491745cb34329dd265aa2060d0bb8a7b33e164e5f60b5",
-      "size_bytes": 11748,
+      "sha256": "f2c6d6ef348f5f17d10284eef51fa564ce4ca06703ff20eec9205a102c3a9a5b",
+      "size_bytes": 11741,
       "kind": "entrypoints"
     },
     "skills/design/roi-calculator/references/framework-notes.md": {
@@ -3575,8 +3575,8 @@
       "kind": "templates"
     },
     "skills/design/ui-ux-gtm/SKILL.md": {
-      "sha256": "38b0f790e46437962c5f113d6f15ba60ea5ff9cff7a93619a31080e0c51171cb",
-      "size_bytes": 15819,
+      "sha256": "0cb2b6cde338c91b267b4b34b8bbe1092e6203ba27e235568a03c0ed09846258",
+      "size_bytes": 15812,
       "kind": "entrypoints"
     },
     "skills/design/ui-ux-gtm/references/framework-notes.md": {
@@ -3595,8 +3595,8 @@
       "kind": "templates"
     },
     "skills/events/conference-strategy/SKILL.md": {
-      "sha256": "14ae8333dea3ec0034dc6b094f6a40cc1ee545c626c83f4e89340255a7166841",
-      "size_bytes": 7435,
+      "sha256": "79bb8c1b10fc2ee271975b19454419be9dc9c380f5cfd0624c40225ec8071dea",
+      "size_bytes": 7428,
       "kind": "entrypoints"
     },
     "skills/events/conference-strategy/references/framework-notes.md": {
@@ -3615,8 +3615,8 @@
       "kind": "templates"
     },
     "skills/events/event-driven-outreach/SKILL.md": {
-      "sha256": "32c1e5261a36e1c071b27bb56034294896a625205f192bd92f6c1d596c0b557a",
-      "size_bytes": 6953,
+      "sha256": "82baae5fb22352890773d0ce4c838fb506b836e682c4e06b863491b0779e3802",
+      "size_bytes": 6946,
       "kind": "entrypoints"
     },
     "skills/events/event-driven-outreach/references/framework-notes.md": {
@@ -3635,8 +3635,8 @@
       "kind": "templates"
     },
     "skills/events/field-marketing/SKILL.md": {
-      "sha256": "c534b7321e4a9c7a5d3549bdf25cd5b174315c0d34bc907af2d4d013aaf98255",
-      "size_bytes": 7593,
+      "sha256": "f6b337870d5b48790a3988521cc48e515e6d5e89841649d4b9a0ab9ba8e0de51",
+      "size_bytes": 7586,
       "kind": "entrypoints"
     },
     "skills/events/field-marketing/references/framework-notes.md": {
@@ -3655,8 +3655,8 @@
       "kind": "templates"
     },
     "skills/foundation/buyer-psychology/SKILL.md": {
-      "sha256": "d21d8baa9f1ec645f541779dc696200966a671261a6b8f6cd20be9cae8517a28",
-      "size_bytes": 8325,
+      "sha256": "6559a55b550b289ad7f60a0bbdb8bd9ffa46cd83f6fbbcc9b1b6eb5af3c6f894",
+      "size_bytes": 8318,
       "kind": "entrypoints"
     },
     "skills/foundation/buyer-psychology/references/framework-notes.md": {
@@ -3675,8 +3675,8 @@
       "kind": "templates"
     },
     "skills/foundation/competitive-intel/SKILL.md": {
-      "sha256": "3726a732dd3509713d5632a8d9dcc1fd63e7d03c3aa508190e28318b58ab759f",
-      "size_bytes": 19571,
+      "sha256": "363c58f0150341b7213f5413615311768d9e92519224bc905a33de86ea5e98eb",
+      "size_bytes": 19564,
       "kind": "entrypoints"
     },
     "skills/foundation/competitive-intel/references/framework-notes.md": {
@@ -3695,8 +3695,8 @@
       "kind": "templates"
     },
     "skills/foundation/gtm-context/SKILL.md": {
-      "sha256": "7f3c09d3f89e6deda06c9310a2dd4e86afd413ad44ff0b3ac29536231c4b4147",
-      "size_bytes": 17745,
+      "sha256": "3ca5f0d5438318d233a5577661956a875858db4caea04f11416964451badd413",
+      "size_bytes": 17738,
       "kind": "entrypoints"
     },
     "skills/foundation/gtm-context/references/framework-notes.md": {
@@ -3715,8 +3715,8 @@
       "kind": "templates"
     },
     "skills/foundation/gtm-context-bootstrap/SKILL.md": {
-      "sha256": "e2e6edcb50db6f86b9beb5caa245804c0e3f6ad592f210931e52755bf36c84b2",
-      "size_bytes": 6630,
+      "sha256": "e65d9bf085af5c2d4bde7b6f54b9f17e7e08e2bbb0a5fe247184428017ac184a",
+      "size_bytes": 6623,
       "kind": "entrypoints"
     },
     "skills/foundation/gtm-context-bootstrap/references/framework-notes.md": {
@@ -3735,8 +3735,8 @@
       "kind": "templates"
     },
     "skills/foundation/icp-scoring/SKILL.md": {
-      "sha256": "959f82d1bfca81344a2417952748d9d83646357eb54e2db439a37bf7cb4e7bd3",
-      "size_bytes": 18107,
+      "sha256": "d5aab4c86dd4ba64438c41f7b17626ff5d882ef6974f3eea1f73da35c7fb7d94",
+      "size_bytes": 18100,
       "kind": "entrypoints"
     },
     "skills/foundation/icp-scoring/references/framework-notes.md": {
@@ -3755,8 +3755,8 @@
       "kind": "templates"
     },
     "skills/foundation/icp-targeting-tiers/SKILL.md": {
-      "sha256": "7473d74326eb88d4e2e881627578ca44287d800eb1715681db850ba1ed44f8c7",
-      "size_bytes": 11530,
+      "sha256": "9526f410de0f75b80665cc10d502ecf00192211680c4d2c6f7c9ef45ed1ae7b6",
+      "size_bytes": 11523,
       "kind": "entrypoints"
     },
     "skills/foundation/icp-targeting-tiers/references/framework-notes.md": {
@@ -3780,8 +3780,8 @@
       "kind": "templates"
     },
     "skills/foundation/positioning-messaging/SKILL.md": {
-      "sha256": "b18cfaa5d5fa2a9ab940446a817aec801a00c585adc2d3294738684102bdd0bc",
-      "size_bytes": 21746,
+      "sha256": "73bda1259fb2a4b63cfb82ca177098600a42efaa11befa84d98b56423ff26c74",
+      "size_bytes": 21739,
       "kind": "entrypoints"
     },
     "skills/foundation/positioning-messaging/references/framework-notes.md": {
@@ -3800,8 +3800,8 @@
       "kind": "templates"
     },
     "skills/foundation/pricing-strategy/SKILL.md": {
-      "sha256": "29bc243538e37ec9af35ca01557b1c5e5fc9c174b333ffaf27ccbc3a490eb200",
-      "size_bytes": 22691,
+      "sha256": "f064ea9985f9746bb2218d7c7780b3c406c2e2ea0705c500e66a56ce7bb00649",
+      "size_bytes": 22684,
       "kind": "entrypoints"
     },
     "skills/foundation/pricing-strategy/references/framework-notes.md": {
@@ -3820,8 +3820,8 @@
       "kind": "templates"
     },
     "skills/foundation/using-gtm-skills/SKILL.md": {
-      "sha256": "f4ab852c4fb74aa689f4c3c8a4eebb065d93c40e3705fdd9dfed420402bc1c82",
-      "size_bytes": 8121,
+      "sha256": "abf2ee7e7354bb01c404c7f20db1dbac41a51f31e9a81f9b64d5b18026891b8d",
+      "size_bytes": 8114,
       "kind": "entrypoints"
     },
     "skills/foundation/using-gtm-skills/references/activation-playbook.md": {
@@ -3885,8 +3885,8 @@
       "kind": "references"
     },
     "skills/foundation/using-gtm-skills/references/complete-usage-guide.md": {
-      "sha256": "2a2697e91e6a6658d0aa69b2e7cd7794444356d3135cd5d13b18900fb93c5c65",
-      "size_bytes": 93510,
+      "sha256": "9de4e6cfc1fbed82d3a72b0278e6114ccecedecd50431f8e4b82a2f644ce2142",
+      "size_bytes": 93448,
       "kind": "references"
     },
     "skills/foundation/using-gtm-skills/references/crisis-management-playbook.md": {
@@ -4040,7 +4040,7 @@
       "kind": "references"
     },
     "skills/foundation/using-gtm-skills/references/skill-index-master.md": {
-      "sha256": "2c88100782870d389dd763e298dfb14f73afe39c5e8da7570926ddba2eae97c1",
+      "sha256": "9c654a5d26a0f261f4ce8d9d2984561e89c1c35dd22ef0728ef56c4c6984cb23",
       "size_bytes": 31781,
       "kind": "references"
     },
@@ -4055,8 +4055,8 @@
       "kind": "templates"
     },
     "skills/founder-led/advisor-recruitment/SKILL.md": {
-      "sha256": "6a6752462db9f1724d321bb3da8e60f775687aa8ef0a9fb3a22b645096718c45",
-      "size_bytes": 13502,
+      "sha256": "429d8d4fc4e384f37544f461602e6e3ae146d51437cfe5fa913e62f03a78ae97",
+      "size_bytes": 13495,
       "kind": "entrypoints"
     },
     "skills/founder-led/advisor-recruitment/references/framework-notes.md": {
@@ -4075,8 +4075,8 @@
       "kind": "templates"
     },
     "skills/founder-led/board-meeting-prep/SKILL.md": {
-      "sha256": "509a3b018b955a9c159363a7afbc6b6f769339497ba945402e491b31098c0c17",
-      "size_bytes": 14538,
+      "sha256": "8add7d76d2f5f60c15844e6659a4986cdb9369831289e41931534f8bb2ba1410",
+      "size_bytes": 14531,
       "kind": "entrypoints"
     },
     "skills/founder-led/board-meeting-prep/references/framework-notes.md": {
@@ -4095,8 +4095,8 @@
       "kind": "templates"
     },
     "skills/founder-led/brand-kit/SKILL.md": {
-      "sha256": "34387d39a4ee7ff3457f2df09421b3b75830ac736474b55a720575a27db08f39",
-      "size_bytes": 7632,
+      "sha256": "5a92ee20bf9f5e1f91a6c1fe8a8654b65603a1364899a548db1045801fa23ae1",
+      "size_bytes": 7625,
       "kind": "entrypoints"
     },
     "skills/founder-led/brand-kit/references/framework-notes.md": {
@@ -4115,8 +4115,8 @@
       "kind": "templates"
     },
     "skills/founder-led/building-saas/SKILL.md": {
-      "sha256": "04b21345535096884d67e85df05946871496e4a998119d6f9c7b91a37b2e42bc",
-      "size_bytes": 6321,
+      "sha256": "d111ae5356cf3c11984d7329f450deadcab2a9f14d6c10bf778e127e8647f3eb",
+      "size_bytes": 6314,
       "kind": "entrypoints"
     },
     "skills/founder-led/building-saas/references/framework-notes.md": {
@@ -4135,8 +4135,8 @@
       "kind": "templates"
     },
     "skills/founder-led/business-insurance/SKILL.md": {
-      "sha256": "0d3d4b0e678aa6a3bdcdb97fe101c3f8fa6a8e8a55c86395ac9d3b53b707564e",
-      "size_bytes": 12866,
+      "sha256": "30cfb5ef7c773392b7d3d6fb7cefb10812c95d216230c61d9e09f3bd7f160551",
+      "size_bytes": 12859,
       "kind": "entrypoints"
     },
     "skills/founder-led/business-insurance/references/framework-notes.md": {
@@ -4155,8 +4155,8 @@
       "kind": "templates"
     },
     "skills/founder-led/co-founder-dynamics/SKILL.md": {
-      "sha256": "a856923b610fa7791cb319de48b2302d9fcc41bc25a40db904599dcbdcc62af3",
-      "size_bytes": 17842,
+      "sha256": "ebd189487a02213a994b825e90e168c183bac07dc26555f02d7595beb7e922aa",
+      "size_bytes": 17835,
       "kind": "entrypoints"
     },
     "skills/founder-led/co-founder-dynamics/references/framework-notes.md": {
@@ -4175,8 +4175,8 @@
       "kind": "templates"
     },
     "skills/founder-led/content-led-growth/SKILL.md": {
-      "sha256": "00c6aa0f4500c4498ba4fac8b9559c319766cfb6002c2cf4d7feaf2747130310",
-      "size_bytes": 13308,
+      "sha256": "27523a50a6f51570d5c20713ef4257799f06debe14688f78b5d08aa2d9fd405f",
+      "size_bytes": 13301,
       "kind": "entrypoints"
     },
     "skills/founder-led/content-led-growth/references/chris-walker-mental-models.md": {
@@ -4210,8 +4210,8 @@
       "kind": "templates"
     },
     "skills/founder-led/data-privacy-compliance/SKILL.md": {
-      "sha256": "3569e5110831fd1ddf9292b8cf81e172df2fb0f7ae1c69cd584dd90fd5d10c0e",
-      "size_bytes": 13541,
+      "sha256": "41f5631b70a910414fa48d56af964ee47e60a1d12b9b2ad5fc945838129c4b22",
+      "size_bytes": 13534,
       "kind": "entrypoints"
     },
     "skills/founder-led/data-privacy-compliance/references/framework-notes.md": {
@@ -4230,8 +4230,8 @@
       "kind": "templates"
     },
     "skills/founder-led/employment-compliance/SKILL.md": {
-      "sha256": "1f095307db92413cae9f1f19666730a2a16f5e5bdfcb3bf88a4c79b61e05ec76",
-      "size_bytes": 15734,
+      "sha256": "374c13cfd5a221cd5f56304dd604b719706ba0498f669fdcd26349a1cf16c148",
+      "size_bytes": 15727,
       "kind": "entrypoints"
     },
     "skills/founder-led/employment-compliance/references/framework-notes.md": {
@@ -4250,8 +4250,8 @@
       "kind": "templates"
     },
     "skills/founder-led/engineer-to-founder/SKILL.md": {
-      "sha256": "d81d3d0fab10c391f68a3d21dcdbcaa2e9876eba709210723f1432d3c311e6c5",
-      "size_bytes": 17286,
+      "sha256": "53d8a5d41249e56987b11206993b73d4a7c84dd3eb6b726644ca475648000d8b",
+      "size_bytes": 17279,
       "kind": "entrypoints"
     },
     "skills/founder-led/engineer-to-founder/references/framework-notes.md": {
@@ -4275,8 +4275,8 @@
       "kind": "templates"
     },
     "skills/founder-led/equity-management/SKILL.md": {
-      "sha256": "625e6ff2c3a61f01c7e7b0dea577cfcc81ff3334b0495c6a1ff2fbf6522e57aa",
-      "size_bytes": 10933,
+      "sha256": "4e281083c84b9e51e0bf28f4f52411b4bbd61dbf95e33b033f1df60bd54bb2f5",
+      "size_bytes": 10926,
       "kind": "entrypoints"
     },
     "skills/founder-led/equity-management/references/framework-notes.md": {
@@ -4295,8 +4295,8 @@
       "kind": "templates"
     },
     "skills/founder-led/events-planning/SKILL.md": {
-      "sha256": "5bad2b36bbc49c8fa44b71b6e666d6c47d53ad5a81a114af33311d5318fa0b07",
-      "size_bytes": 6653,
+      "sha256": "bc33c4696b5e1795e692522c65246475ddc377c6052a28b52d1652b8ccca0972",
+      "size_bytes": 6646,
       "kind": "entrypoints"
     },
     "skills/founder-led/events-planning/references/framework-notes.md": {
@@ -4315,8 +4315,8 @@
       "kind": "templates"
     },
     "skills/founder-led/exiting-company/SKILL.md": {
-      "sha256": "2389d187edb8faa8be212aae6ee98ddfa72066a1c35b6026ad60418f06188a15",
-      "size_bytes": 10181,
+      "sha256": "641308a81853159660c024f00b532db43ed053716441f613e2054b49172b65d9",
+      "size_bytes": 10174,
       "kind": "entrypoints"
     },
     "skills/founder-led/exiting-company/references/benchmark-reconciliation.md": {
@@ -4380,8 +4380,8 @@
       "kind": "templates"
     },
     "skills/founder-led/financial-modeling/SKILL.md": {
-      "sha256": "ba0b4d188b9e61aa8bb8f85924c2dc1122469c8a0646cf7ed446b553bffab8ae",
-      "size_bytes": 19943,
+      "sha256": "2a0654e8e348e74a29f0d0540ce53c49b616e3981843d746e91d0d2817ddad31",
+      "size_bytes": 19936,
       "kind": "entrypoints"
     },
     "skills/founder-led/financial-modeling/references/benchmark-reconciliation.md": {
@@ -4440,8 +4440,8 @@
       "kind": "templates"
     },
     "skills/founder-led/first-hires-playbook/SKILL.md": {
-      "sha256": "ece2f8b64f6aad5104a19018cd48fe2e62dd9100d6bf0255a250b9bd0e2b2881",
-      "size_bytes": 13517,
+      "sha256": "3df3c05a3f2fb0e9a179aaf3e72ff161e82a37f1d14d0f4fec0450150c74adc6",
+      "size_bytes": 13510,
       "kind": "entrypoints"
     },
     "skills/founder-led/first-hires-playbook/references/framework-notes.md": {
@@ -4460,8 +4460,8 @@
       "kind": "templates"
     },
     "skills/founder-led/founder-brand/SKILL.md": {
-      "sha256": "17dc5316bac090d28a2f3ff4c87663fab171ebcf6a7f2e24a8cca56d19b904eb",
-      "size_bytes": 9196,
+      "sha256": "d5400ba340ad2f70adf1eca48ee47189a0c8c99e90965a09bc175631fce033d4",
+      "size_bytes": 9189,
       "kind": "entrypoints"
     },
     "skills/founder-led/founder-brand/references/adam-robinson-founder-brand.md": {
@@ -4485,8 +4485,8 @@
       "kind": "templates"
     },
     "skills/founder-led/founder-comp-playbook/SKILL.md": {
-      "sha256": "7ca85e251a670437c1fc07d74ecca04e2417daf43c1cf063402b21d1d20d4455",
-      "size_bytes": 10561,
+      "sha256": "33a277cd34b788c4413871c5ce6c65b9d4585a2c5735f47440c44c4b14d695dc",
+      "size_bytes": 10554,
       "kind": "entrypoints"
     },
     "skills/founder-led/founder-comp-playbook/references/comp-benchmarks-2026.md": {
@@ -4530,8 +4530,8 @@
       "kind": "templates"
     },
     "skills/founder-led/founder-sales/SKILL.md": {
-      "sha256": "3f571f9f0b02607c7a92f56f9ef35e2bb36710c89b1dad9257f61e50df688c46",
-      "size_bytes": 13141,
+      "sha256": "4e5fa94e7adb66b12fa336618073f317baeed7f9be87b3feb988adb4a2c0fad7",
+      "size_bytes": 13134,
       "kind": "entrypoints"
     },
     "skills/founder-led/founder-sales/references/anthony-iannarino-sales-discipline.md": {
@@ -4555,8 +4555,8 @@
       "kind": "templates"
     },
     "skills/founder-led/fundraising-strategy/SKILL.md": {
-      "sha256": "b944f285f5f0d07169e16b5f0f11822cb4c80bdaca899b75db4c51136e46682d",
-      "size_bytes": 15222,
+      "sha256": "ea99d29b03e97f76606b9bd0a895133dca7eaf843bebbf2617e471227ae46c34",
+      "size_bytes": 15215,
       "kind": "entrypoints"
     },
     "skills/founder-led/fundraising-strategy/references/benchmark-reconciliation.md": {
@@ -4600,8 +4600,8 @@
       "kind": "templates"
     },
     "skills/founder-led/gtm-recruiting/SKILL.md": {
-      "sha256": "0aabd619f370bce0eb27e8de660b99709c4c7b498d8d3264cc59147a6241127f",
-      "size_bytes": 11816,
+      "sha256": "b5322eaf8995edfa07c4c7f93fd5d1cf0703911689374234cfccc834a0278877",
+      "size_bytes": 11809,
       "kind": "entrypoints"
     },
     "skills/founder-led/gtm-recruiting/references/framework-notes.md": {
@@ -4655,8 +4655,8 @@
       "kind": "templates"
     },
     "skills/founder-led/gtm-role-descriptions/SKILL.md": {
-      "sha256": "677e993c35e98d2170ada456334c7dd9a774bb61fa87ee7cf94fc74f8a5d5b43",
-      "size_bytes": 14318,
+      "sha256": "f6718ca7179e3cd4b0a99a94d58d2c626ee8edb5ef30ebba6b4474de61fb816c",
+      "size_bytes": 14311,
       "kind": "entrypoints"
     },
     "skills/founder-led/gtm-role-descriptions/references/benchmark-reconciliation.md": {
@@ -4760,8 +4760,8 @@
       "kind": "templates"
     },
     "skills/founder-led/hiring-agencies/SKILL.md": {
-      "sha256": "fba3b9b3cba496837053743806aa4353f53f3874083de27c41df95d64df7b909",
-      "size_bytes": 9614,
+      "sha256": "f6369d19d19e8e6471729f9fca8396ffdad48b1211c64fc31df5bf798390142d",
+      "size_bytes": 9607,
       "kind": "entrypoints"
     },
     "skills/founder-led/hiring-agencies/references/framework-notes.md": {
@@ -4780,8 +4780,8 @@
       "kind": "templates"
     },
     "skills/founder-led/hiring-by-role/SKILL.md": {
-      "sha256": "a54f9a286e51b62616628c87afc3eef49d95f4c36b735905dd18735beb3bdc2f",
-      "size_bytes": 19986,
+      "sha256": "85ffb4ce12c00e450e55ef62e6e41ad73d5c5228a272158bbbdb6f436238acaa",
+      "size_bytes": 19979,
       "kind": "entrypoints"
     },
     "skills/founder-led/hiring-by-role/references/experts.md": {
@@ -4830,8 +4830,8 @@
       "kind": "templates"
     },
     "skills/founder-led/hiring-contractors/SKILL.md": {
-      "sha256": "0e0a7086116055ea056efb3832cde44d8cb6a1f5c14893bf466d9e4845dc171a",
-      "size_bytes": 6951,
+      "sha256": "9904c93a1c86c9e4fdefbe8c0af61d81a627c266dc4598472152acd01e3aa6df",
+      "size_bytes": 6944,
       "kind": "entrypoints"
     },
     "skills/founder-led/hiring-contractors/references/framework-notes.md": {
@@ -4850,8 +4850,8 @@
       "kind": "templates"
     },
     "skills/founder-led/investor-updates/SKILL.md": {
-      "sha256": "73ce1d8a8b76b4da97ead8084197d163389164d9a74892e70e5df1d29d17b0a9",
-      "size_bytes": 7700,
+      "sha256": "9894435d18dfeea85666c77bf6f43594b312e81c42e553d0184fe49b6fa840d5",
+      "size_bytes": 7693,
       "kind": "entrypoints"
     },
     "skills/founder-led/investor-updates/references/crisis-management-playbook.md": {
@@ -4880,8 +4880,8 @@
       "kind": "templates"
     },
     "skills/founder-led/job-posting-strategy/SKILL.md": {
-      "sha256": "0cf443f56f80c01baf08a5bdd0f4a6cbdccb313c9db0cc08354bd57a73e0d5f3",
-      "size_bytes": 15091,
+      "sha256": "5e909a274fdca9e71a220123e5e605918a588f9d484b391735dcb6fced8627f3",
+      "size_bytes": 15084,
       "kind": "entrypoints"
     },
     "skills/founder-led/job-posting-strategy/references/framework-notes.md": {
@@ -4900,8 +4900,8 @@
       "kind": "templates"
     },
     "skills/founder-led/launch-planning/SKILL.md": {
-      "sha256": "649b9eb276098501899c8dbdb9f202578052a38a3f918de366149ed3d5065b93",
-      "size_bytes": 12213,
+      "sha256": "8ad9049e59c6349a3cd9a3ae93c8bb99f84ba2b185778b7e0bf60fc97a938fc0",
+      "size_bytes": 12206,
       "kind": "entrypoints"
     },
     "skills/founder-led/launch-planning/references/framework-notes.md": {
@@ -4920,8 +4920,8 @@
       "kind": "templates"
     },
     "skills/founder-led/lead-magnets/SKILL.md": {
-      "sha256": "913684661c229bff5965fb3f98cf77a031e9b363f215ca430a8835286fffa574",
-      "size_bytes": 10865,
+      "sha256": "1b39cac79fefec6cc0c99fd9ed7f301288aa0b933075411db047349f0f86adbc",
+      "size_bytes": 10858,
       "kind": "entrypoints"
     },
     "skills/founder-led/lead-magnets/references/framework-notes.md": {
@@ -4940,8 +4940,8 @@
       "kind": "templates"
     },
     "skills/founder-led/legal-for-founders/SKILL.md": {
-      "sha256": "81cecdb523aeecbe5db69004b532af218bb3c6b11e2948e7534821f093a06976",
-      "size_bytes": 16894,
+      "sha256": "dcb43fdeda34f1ef59913ac9a6a98e121caf2d857f556cf2ff4b93b8af82832b",
+      "size_bytes": 16887,
       "kind": "entrypoints"
     },
     "skills/founder-led/legal-for-founders/references/framework-notes.md": {
@@ -4960,8 +4960,8 @@
       "kind": "templates"
     },
     "skills/founder-led/partner-programs/SKILL.md": {
-      "sha256": "cd11b706c0a36277d7c6203d3e94c32ee164fe9ffaa30b865e118a865e40b78d",
-      "size_bytes": 11212,
+      "sha256": "eec3bb069212860cf18a8d30b2dc8e4eb671ec0d50ef39aa5e2af76e8b3906bd",
+      "size_bytes": 11205,
       "kind": "entrypoints"
     },
     "skills/founder-led/partner-programs/references/framework-notes.md": {
@@ -4980,8 +4980,8 @@
       "kind": "templates"
     },
     "skills/founder-led/pricing-psychology/SKILL.md": {
-      "sha256": "43a925e07a5bac4a8c26b2a01c3859f0327bb2c7004a3d319c0e470e9f67bacc",
-      "size_bytes": 13794,
+      "sha256": "f85a64efe3b7d91fffd868410e5da595b920a727e01ff3b0db79ee610d0d97a1",
+      "size_bytes": 13787,
       "kind": "entrypoints"
     },
     "skills/founder-led/pricing-psychology/references/framework-notes.md": {
@@ -5000,8 +5000,8 @@
       "kind": "templates"
     },
     "skills/founder-led/saas-metrics-calculator/SKILL.md": {
-      "sha256": "fb974eb4aea4a6d45d1da6ee126363343fc3b5d7e054bfe688d6b0885c8441e6",
-      "size_bytes": 13693,
+      "sha256": "cc20c7c8d4401ccf2e32ebc73265962376cac99a24f71ee7fc57b163a8c2c3f1",
+      "size_bytes": 13686,
       "kind": "entrypoints"
     },
     "skills/founder-led/saas-metrics-calculator/references/benchmark-reconciliation.md": {
@@ -5070,8 +5070,8 @@
       "kind": "templates"
     },
     "skills/founder-led/saas-outcomes/SKILL.md": {
-      "sha256": "cf13766d00327f268f15c83f9f5b73062cda38814a1c1dafb82d9d57601c6825",
-      "size_bytes": 15016,
+      "sha256": "34460a311701c903a5fd043f962f0b81d8cdff5094724c081753e2ea57740802",
+      "size_bytes": 15009,
       "kind": "entrypoints"
     },
     "skills/founder-led/saas-outcomes/references/activation-playbook.md": {
@@ -5180,8 +5180,8 @@
       "kind": "templates"
     },
     "skills/founder-led/sales-team-building/SKILL.md": {
-      "sha256": "b6ef548fee0d0ba818b1019474f818b17f0a6acb5a0208a2fdad4195ca3b847e",
-      "size_bytes": 16677,
+      "sha256": "94d5afbffc80c19c4616c79caff1a12f956d38cb307a4de22f2679c7ae7b94aa",
+      "size_bytes": 16670,
       "kind": "entrypoints"
     },
     "skills/founder-led/sales-team-building/references/benchmark-reconciliation.md": {
@@ -5240,8 +5240,8 @@
       "kind": "templates"
     },
     "skills/founder-led/security-assessments/SKILL.md": {
-      "sha256": "337cb34758974452fef13496b06ca8e9e8e41de0403dc006d0996e6b3a0397f7",
-      "size_bytes": 14952,
+      "sha256": "5f7e666b79f39527f50ea25f55be2c5e78733c22235629a3b4a2468de1b57d48",
+      "size_bytes": 14945,
       "kind": "entrypoints"
     },
     "skills/founder-led/security-assessments/references/framework-notes.md": {
@@ -5260,8 +5260,8 @@
       "kind": "templates"
     },
     "skills/founder-led/soc2-compliance/SKILL.md": {
-      "sha256": "3e5c866461820f8889227def386b701ca4ac8aeb6f98a1ecc6de6d3db95f6066",
-      "size_bytes": 9105,
+      "sha256": "9cd468a17a0e7b651b947215a5d0ae2a670fa3efeb1af4eff2a52ac3c5976260",
+      "size_bytes": 9098,
       "kind": "entrypoints"
     },
     "skills/founder-led/soc2-compliance/references/framework-notes.md": {
@@ -5280,8 +5280,8 @@
       "kind": "templates"
     },
     "skills/founder-led/solo-founder-gtm/SKILL.md": {
-      "sha256": "30b4212f7ce3719e654c73c255d7b86d4990d36f7bef02e462ef4b75d9e6e7e7",
-      "size_bytes": 10594,
+      "sha256": "0b79adc4d3e5df37b48e6446f4ea23dcbb86cb09fcdfdd5f6009280ed95a4506",
+      "size_bytes": 10587,
       "kind": "entrypoints"
     },
     "skills/founder-led/solo-founder-gtm/references/activation-playbook.md": {
@@ -5335,8 +5335,8 @@
       "kind": "templates"
     },
     "skills/founder-led/startup-communities/SKILL.md": {
-      "sha256": "35c787dde690c3dd105e9057e7e3d721556d9b851b1dbe9158220aad6d3d6498",
-      "size_bytes": 14940,
+      "sha256": "8f1e276da7642a5601c617aa4fadcb42226daf11ec38bb160e28a5877b97d816",
+      "size_bytes": 14933,
       "kind": "entrypoints"
     },
     "skills/founder-led/startup-communities/references/framework-notes.md": {
@@ -5355,8 +5355,8 @@
       "kind": "templates"
     },
     "skills/founder-led/vc-outreach/SKILL.md": {
-      "sha256": "0b1d859521a3bc7a4c695088a17392ee65b728567be389234cf1006a016e5970",
-      "size_bytes": 15219,
+      "sha256": "a007f81e0d07ceed5a0d274bc67100d97cbbf61b4d42d989c78d5e114a5f1064",
+      "size_bytes": 15212,
       "kind": "entrypoints"
     },
     "skills/founder-led/vc-outreach/references/framework-notes.md": {
@@ -5375,8 +5375,8 @@
       "kind": "templates"
     },
     "skills/founder-led/vendor-contracts/SKILL.md": {
-      "sha256": "0e43fa681d656331b3a77c815036273e9b643d1a92025778f27e1f34cb35779b",
-      "size_bytes": 13113,
+      "sha256": "8381cac4271dce29dc5a7478bb6cc0087125ab29212ea49df7ea88e856348571",
+      "size_bytes": 13106,
       "kind": "entrypoints"
     },
     "skills/founder-led/vendor-contracts/references/framework-notes.md": {
@@ -5395,8 +5395,8 @@
       "kind": "templates"
     },
     "skills/founder-led/yc-ecosystem/SKILL.md": {
-      "sha256": "41a7d33546c64d4a7244d9de4a1ac7d88fb81dcff7eb85f2f138bb8730990239",
-      "size_bytes": 16078,
+      "sha256": "0f06a066ad7084dd6a7f025cf2ad2b086154ffb95ea4f84270764c8ecb47001a",
+      "size_bytes": 16071,
       "kind": "entrypoints"
     },
     "skills/founder-led/yc-ecosystem/references/framework-notes.md": {
@@ -5415,8 +5415,8 @@
       "kind": "templates"
     },
     "skills/growth/churn-prevention/SKILL.md": {
-      "sha256": "dec2d87a2f4855586a131e152edf5fd4d9bf9d2148e68fb6e036182eb08c8aa9",
-      "size_bytes": 6929,
+      "sha256": "c762c45e5a2fead6ba4d1c2e71f63f650308cec10e22ab6d7c47d9d2961dab6f",
+      "size_bytes": 6922,
       "kind": "entrypoints"
     },
     "skills/growth/churn-prevention/references/framework-notes.md": {
@@ -5445,8 +5445,8 @@
       "kind": "templates"
     },
     "skills/growth/customer-marketing/SKILL.md": {
-      "sha256": "b642fd5b23aa7380e76c61d0f418b22ad9bde7fc9597160867ef2151da6039c7",
-      "size_bytes": 10710,
+      "sha256": "b6901aa4df94814a9c019da8546c5af99e00e444172f344c2e793a59330c81f3",
+      "size_bytes": 10703,
       "kind": "entrypoints"
     },
     "skills/growth/customer-marketing/references/advocacy-program.md": {
@@ -5530,8 +5530,8 @@
       "kind": "templates"
     },
     "skills/growth/expansion-selling/SKILL.md": {
-      "sha256": "1a13dd23cc806f25ab729c2d7383c53a96f23997b540adfbfd9240fb6a675039",
-      "size_bytes": 10354,
+      "sha256": "7cf0480eb4a865ede79a1f465c3ee2183efbd2de776c7610387e418206a95964",
+      "size_bytes": 10347,
       "kind": "entrypoints"
     },
     "skills/growth/expansion-selling/references/benchmark-reconciliation.md": {
@@ -5580,8 +5580,8 @@
       "kind": "templates"
     },
     "skills/growth/referral-programs/SKILL.md": {
-      "sha256": "073efaa2a9cd98b4d5cf0e19eadeb79ae25fd6226ffa25ba99dfff9e64c7fe68",
-      "size_bytes": 14404,
+      "sha256": "fb19734b3ba01be7b0361e5ed41236264988fa5c748feffa9ff0fd18f9e63588",
+      "size_bytes": 14397,
       "kind": "entrypoints"
     },
     "skills/growth/referral-programs/references/framework-notes.md": {
@@ -5615,8 +5615,8 @@
       "kind": "templates"
     },
     "skills/growth/review-platforms/SKILL.md": {
-      "sha256": "bfcbf252494a4806eaf4a818f02a8bd1e52b36656deb0ee6df49bb7c84e3c00f",
-      "size_bytes": 6419,
+      "sha256": "ba99718dd66e2adf6b12d1ebec84672038cde9560a9ada0f3e701a425d79e7d3",
+      "size_bytes": 6412,
       "kind": "entrypoints"
     },
     "skills/growth/review-platforms/references/framework-notes.md": {
@@ -5660,8 +5660,8 @@
       "kind": "templates"
     },
     "skills/gtm-ops/campaign-governance/SKILL.md": {
-      "sha256": "14bd1fc85f9522df19bd22552c8c705fa6980d9d0e31ec7dd570315c80c1e202",
-      "size_bytes": 10040,
+      "sha256": "b2c6d88facb413b6774e164026cadae2bbd70d4492da16d3a92141a5559cbe63",
+      "size_bytes": 10033,
       "kind": "entrypoints"
     },
     "skills/gtm-ops/campaign-governance/references/b2b-influencer-measurement.md": {
@@ -5705,8 +5705,8 @@
       "kind": "templates"
     },
     "skills/gtm-ops/gtm-operations/SKILL.md": {
-      "sha256": "611fed2487832cd1781a367ee91171ffb2a4121f2a242743f4a3007e1a22b5b6",
-      "size_bytes": 15419,
+      "sha256": "452c7a78d5c87f8e250a2e9700476ec18586920264ad2ebf9106f22c47e409c1",
+      "size_bytes": 15412,
       "kind": "entrypoints"
     },
     "skills/gtm-ops/gtm-operations/references/automation-playbook-index.md": {
@@ -5765,7 +5765,7 @@
       "kind": "references"
     },
     "skills/gtm-ops/gtm-operations/references/skill-index-master.md": {
-      "sha256": "2c88100782870d389dd763e298dfb14f73afe39c5e8da7570926ddba2eae97c1",
+      "sha256": "9c654a5d26a0f261f4ce8d9d2984561e89c1c35dd22ef0728ef56c4c6984cb23",
       "size_bytes": 31781,
       "kind": "references"
     },
@@ -5805,8 +5805,8 @@
       "kind": "templates"
     },
     "skills/gtm-ops/gtm-spend-management/SKILL.md": {
-      "sha256": "6e3cb8f78ac78c607d1f3917c3c1ca34428fe4778b70ba4b015d78a5f0a2b82d",
-      "size_bytes": 10190,
+      "sha256": "4dcb692c7b32a3f120d80a997defd3a210a422d56c208a42ad2a58d3b0cbec8c",
+      "size_bytes": 10183,
       "kind": "entrypoints"
     },
     "skills/gtm-ops/gtm-spend-management/references/bookings-billings-revenue-matrix.md": {
@@ -5880,8 +5880,8 @@
       "kind": "templates"
     },
     "skills/gtm-ops/gtm-tool-cost-model/SKILL.md": {
-      "sha256": "fb117761cf32da07566319a144cfcedb1577fdf66893445bd4b0c5b8887e1b63",
-      "size_bytes": 6539,
+      "sha256": "4ed28052e9fcc10f2f1b5527d7ab6ef9ff1d1ff21d8c2c89de204610410105d1",
+      "size_bytes": 6532,
       "kind": "entrypoints"
     },
     "skills/gtm-ops/gtm-tool-cost-model/references/cost-model-templates.md": {
@@ -5915,8 +5915,8 @@
       "kind": "templates"
     },
     "skills/gtm-ops/revops-tech-stack/SKILL.md": {
-      "sha256": "5ce692496efcdcd90f82143b40bc1af11f24598d9a41a55a9519433f4b2b5fab",
-      "size_bytes": 14361,
+      "sha256": "80f443d7f58cce677b2671e9d88452cc96f5f1a921cbf0749a0b5a7dd6e63940",
+      "size_bytes": 14354,
       "kind": "entrypoints"
     },
     "skills/gtm-ops/revops-tech-stack/references/framework-notes.md": {
@@ -5955,8 +5955,8 @@
       "kind": "templates"
     },
     "skills/inbound/content-marketing/SKILL.md": {
-      "sha256": "199116d5ce1e8445a82dd4cbf24e203ca84546e254c0ba9468a84cda41cf6d17",
-      "size_bytes": 7794,
+      "sha256": "e5c4d81b6596487cc869026a9c92a6fbcc5096193c6c696d1cfad8b6461dff97",
+      "size_bytes": 7787,
       "kind": "entrypoints"
     },
     "skills/inbound/content-marketing/references/chris-walker-mental-models.md": {
@@ -5995,8 +5995,8 @@
       "kind": "templates"
     },
     "skills/inbound/inbound-triage/SKILL.md": {
-      "sha256": "37f6a16fc6457d839b2f9ba58b660e9068690906c067096fc3eb2bf8f3ad79ff",
-      "size_bytes": 8270,
+      "sha256": "358aee85c81ce2712070f04ceb45872fb42a1c1074529187a80d527217449b87",
+      "size_bytes": 8263,
       "kind": "entrypoints"
     },
     "skills/inbound/inbound-triage/references/chris-walker-mental-models.md": {
@@ -6025,8 +6025,8 @@
       "kind": "templates"
     },
     "skills/inbound/landing-pages/SKILL.md": {
-      "sha256": "fe0d2b7467fe19afba98ba207ee4ec5362647f2a2e137676c4b567b86067a99e",
-      "size_bytes": 6019,
+      "sha256": "aa1196721e823808436b5097dcc115a65784e6809ff51dc5db054088142fc9ca",
+      "size_bytes": 6012,
       "kind": "entrypoints"
     },
     "skills/inbound/landing-pages/references/dharmesh-shah-hubspot-inbound.md": {
@@ -6055,8 +6055,8 @@
       "kind": "templates"
     },
     "skills/inbound/linkedin-algorithm/SKILL.md": {
-      "sha256": "0071c5831ea7c357b33e4b41adb642ce8a8642cbed2de39c94c6df1eb0880bd0",
-      "size_bytes": 9539,
+      "sha256": "9f8c5924249b6c1666075dee77be29480669cce3e252e96a06fdde23187b417d",
+      "size_bytes": 9532,
       "kind": "entrypoints"
     },
     "skills/inbound/linkedin-algorithm/references/chris-walker-mental-models.md": {
@@ -6085,8 +6085,8 @@
       "kind": "templates"
     },
     "skills/inbound/linkedin-live-strategy/SKILL.md": {
-      "sha256": "25545203e6078fc672a643526cefd52494e5b7d42d1d88777339acfebd867bc2",
-      "size_bytes": 8396,
+      "sha256": "ac61562bf16a486cb2a0bf9da0c7427501aadc576487ad2d7f77753ad4918095",
+      "size_bytes": 8389,
       "kind": "entrypoints"
     },
     "skills/inbound/linkedin-live-strategy/references/chris-walker-mental-models.md": {
@@ -6115,8 +6115,8 @@
       "kind": "templates"
     },
     "skills/inbound/sales-navigator-prospecting/SKILL.md": {
-      "sha256": "79e04243d75ae8e922dd122bef8d98fe3b4680d3c2ca20769b065cd5f43945db",
-      "size_bytes": 7870,
+      "sha256": "4e52d1b8ef0d7cfbdee827965afb7cae0fec1b377ff11bf58eac9d068a94ead3",
+      "size_bytes": 7863,
       "kind": "entrypoints"
     },
     "skills/inbound/sales-navigator-prospecting/references/chris-walker-mental-models.md": {
@@ -6145,8 +6145,8 @@
       "kind": "templates"
     },
     "skills/inbound/social-selling/SKILL.md": {
-      "sha256": "d1e678f3ae3019c68b85a3a5669d909b33a66ba560509edeeb4653d72f7ffb7f",
-      "size_bytes": 10115,
+      "sha256": "93d2688e4b6756bec06c0f50914d9339ee6aea53016bd704e5c2554641708bfb",
+      "size_bytes": 10108,
       "kind": "entrypoints"
     },
     "skills/inbound/social-selling/references/aneesh-wishly-b2b-influencer.md": {
@@ -6190,8 +6190,8 @@
       "kind": "templates"
     },
     "skills/inbound/website-visitor-identification/SKILL.md": {
-      "sha256": "e9b27848212dc76f5ec12486d6bfaccb54c1dd518c19ba8501cda5805703873a",
-      "size_bytes": 9508,
+      "sha256": "2989db2c99c2b8f193302301d38412465068c57bc36823a48d171585f1173291",
+      "size_bytes": 9501,
       "kind": "entrypoints"
     },
     "skills/inbound/website-visitor-identification/references/dharmesh-shah-hubspot-inbound.md": {
@@ -6260,8 +6260,8 @@
       "kind": "templates"
     },
     "skills/leadmagic/leadmagic-bulk-enrichment/SKILL.md": {
-      "sha256": "e057b012b19a596d8de6fbe97213a93506ee6ccbde3f529fc2e7703c38aec588",
-      "size_bytes": 6977,
+      "sha256": "868b63fe2175ffff7ba604ac4903c79580a30ebed4f79b23471515d1f78261f6",
+      "size_bytes": 6970,
       "kind": "entrypoints"
     },
     "skills/leadmagic/leadmagic-bulk-enrichment/references/batch-pipeline-spec.md": {
@@ -6285,8 +6285,8 @@
       "kind": "templates"
     },
     "skills/leadmagic/leadmagic-cli/SKILL.md": {
-      "sha256": "f3548bb02a0a37ee88b14f9a45ec66d63a0a5043d8a2626616452f8f94e6e828",
-      "size_bytes": 6939,
+      "sha256": "a7aa70a632cddbf2e6775b2fdcf1df450a38df27afa4f7f9edcd06c3f8dd5a43",
+      "size_bytes": 6932,
       "kind": "entrypoints"
     },
     "skills/leadmagic/leadmagic-cli/references/cli-workflow-patterns.md": {
@@ -6310,8 +6310,8 @@
       "kind": "templates"
     },
     "skills/leadmagic/leadmagic-integrations/SKILL.md": {
-      "sha256": "c24dd12a6ffb10505d77e64abfb7fe34d04575568d20a521a26b6622e81a5979",
-      "size_bytes": 6351,
+      "sha256": "4f50f07213f95fd0267179f377ef13537b45c3598b9b991979a3b76cae7c1ca3",
+      "size_bytes": 6344,
       "kind": "entrypoints"
     },
     "skills/leadmagic/leadmagic-integrations/references/framework-notes.md": {
@@ -6340,8 +6340,8 @@
       "kind": "templates"
     },
     "skills/leadmagic/leadmagic-job-change/SKILL.md": {
-      "sha256": "f205015b70afaff93561f72da24d8feac7684b2bf5226e9e2f4b43edf010f9bf",
-      "size_bytes": 7451,
+      "sha256": "a14e007bdde0683e92c27ba1a9e2655d40a3557244a960e20f975952c3661464",
+      "size_bytes": 7444,
       "kind": "entrypoints"
     },
     "skills/leadmagic/leadmagic-job-change/references/champion-loop-pattern.md": {
@@ -6370,13 +6370,13 @@
       "kind": "templates"
     },
     "skills/leadmagic/leadmagic-mcp/SKILL.md": {
-      "sha256": "7f298d764cd0e2c98259e61862d53226ef602fb74d0f4420872cd2c8bdd0592a",
-      "size_bytes": 6466,
+      "sha256": "f8d7585fb2d597e2348bbb0c9e0a18cb0f0c224dffafcce6640df708a5175354",
+      "size_bytes": 6461,
       "kind": "entrypoints"
     },
     "skills/leadmagic/leadmagic-mcp/references/agent-tool-guardrails.md": {
-      "sha256": "746ee80fb0db4dc1ce1b9531df0dc3c2eead51588019d04f8474ea7e910ce6a9",
-      "size_bytes": 2086,
+      "sha256": "15d9ce6d90de6d4f03334792fdfc4ba375b3a69ece582905603dc6dbf36dcdbe",
+      "size_bytes": 2087,
       "kind": "references"
     },
     "skills/leadmagic/leadmagic-mcp/references/framework-notes.md": {
@@ -6395,8 +6395,8 @@
       "kind": "templates"
     },
     "skills/leadmagic/leadmagic-waterfall/SKILL.md": {
-      "sha256": "e08ab2486ee0108d968652f7a27f56f970fcf50ccb4b41970eabc1c90bfb850c",
-      "size_bytes": 8137,
+      "sha256": "beb82778222d83967dfbd3a83c18b09fc984e624a242e0a1fa5f2a86f131ebcd",
+      "size_bytes": 8130,
       "kind": "entrypoints"
     },
     "skills/leadmagic/leadmagic-waterfall/references/framework-notes.md": {
@@ -6420,8 +6420,8 @@
       "kind": "templates"
     },
     "skills/lifecycle/churn-prediction/SKILL.md": {
-      "sha256": "952b405942118ff4ac0e513d46fc331de0583b37a7d33f701da27bd36f867efb",
-      "size_bytes": 7277,
+      "sha256": "9e6be5bbd8b790790734488f07019c24e6b5854ac95a944f256e9c96467b8fdb",
+      "size_bytes": 7270,
       "kind": "entrypoints"
     },
     "skills/lifecycle/churn-prediction/references/framework-notes.md": {
@@ -6450,8 +6450,8 @@
       "kind": "templates"
     },
     "skills/lifecycle/lifecycle-drips/SKILL.md": {
-      "sha256": "5b3c140da0c88282fb1894b2541bd60be31428e35aa39cf69ec68c736db01a78",
-      "size_bytes": 7528,
+      "sha256": "cfc53300ce3a0691e85006d5c6b7d8e40186cfdab58732a7026b9fb221862587",
+      "size_bytes": 7521,
       "kind": "entrypoints"
     },
     "skills/lifecycle/lifecycle-drips/references/activation-playbook.md": {
@@ -6485,8 +6485,8 @@
       "kind": "templates"
     },
     "skills/lifecycle/mql-nurture/SKILL.md": {
-      "sha256": "6e7f511a6f2e3bab12305c31a8b6ca68be92c553624497c5380faf4cdce368fe",
-      "size_bytes": 7584,
+      "sha256": "30e67dd8ecdc26ee816eccc8b0d31d625871e446e1d5b8a1eeed463251cae70c",
+      "size_bytes": 7577,
       "kind": "entrypoints"
     },
     "skills/lifecycle/mql-nurture/references/framework-notes.md": {
@@ -6520,8 +6520,8 @@
       "kind": "templates"
     },
     "skills/lifecycle/onboarding-sequences/SKILL.md": {
-      "sha256": "a3d710d3e17530a5876c81c0bd9e6ab0ea9d541f0e50a396da6753e453f69011",
-      "size_bytes": 6633,
+      "sha256": "a1f143f8bbbc2a3c4acbefd2ec0adfd300c5d032cd8060435bd7d396f04ffd2b",
+      "size_bytes": 6626,
       "kind": "entrypoints"
     },
     "skills/lifecycle/onboarding-sequences/references/activation-playbook.md": {
@@ -6560,8 +6560,8 @@
       "kind": "templates"
     },
     "skills/lifecycle/re-engagement/SKILL.md": {
-      "sha256": "73142c1b5e5c42e8f2a6baca38a8a97d88baa90cd19141c3926c6e5522b4b567",
-      "size_bytes": 7835,
+      "sha256": "505411a53040e41e37cc45b7badeec704d2947d8a95f292e75d8e33f664af216",
+      "size_bytes": 7828,
       "kind": "entrypoints"
     },
     "skills/lifecycle/re-engagement/references/framework-notes.md": {
@@ -6590,8 +6590,8 @@
       "kind": "templates"
     },
     "skills/management-leadership/executive-compensation/SKILL.md": {
-      "sha256": "ae2c51021c150f520958ad59b024c4673028be92c79f53996c0dcaab1ff3e369",
-      "size_bytes": 11075,
+      "sha256": "e8bdb18f5b8c1346365acb48fe1d76f5c773552ae460876e87eeb701060639bb",
+      "size_bytes": 11068,
       "kind": "entrypoints"
     },
     "skills/management-leadership/executive-compensation/references/benchmark-reconciliation.md": {
@@ -6665,8 +6665,8 @@
       "kind": "templates"
     },
     "skills/management-leadership/gtm-leadership/SKILL.md": {
-      "sha256": "60f2f107f93cef0523405c747cefddb5bc5e8459b99a402d15e40da59410af0a",
-      "size_bytes": 20333,
+      "sha256": "613d8ade5a530b0c14333e70ce386be38cdaa4d93e7b6690c0686f43d09f8386",
+      "size_bytes": 20326,
       "kind": "entrypoints"
     },
     "skills/management-leadership/gtm-leadership/references/benioff-v2mom-guide.md": {
@@ -6800,8 +6800,8 @@
       "kind": "templates"
     },
     "skills/management-leadership/revenue-team-onboarding/SKILL.md": {
-      "sha256": "997d9ba0c0e439089ba6bfca762cc5c7b44498a4bd59db5ef660521faabfbbbe",
-      "size_bytes": 12024,
+      "sha256": "7230c74715adaa32b8af7e62a7450b7cc9164707158065286a0409dd7a167446",
+      "size_bytes": 12017,
       "kind": "entrypoints"
     },
     "skills/management-leadership/revenue-team-onboarding/references/benchmark-reconciliation.md": {
@@ -6900,8 +6900,8 @@
       "kind": "templates"
     },
     "skills/management-leadership/sales-coaching/SKILL.md": {
-      "sha256": "3965712c06fdfe04bd30e3b10df90420f4c26b6d370a4372086e7bf0ff3d4f27",
-      "size_bytes": 13166,
+      "sha256": "6da0c7d20d782c8d0d07877ced164bbe4493bffaf316176e946747a38920c33e",
+      "size_bytes": 13159,
       "kind": "entrypoints"
     },
     "skills/management-leadership/sales-coaching/references/call-coaching-rubric.md": {
@@ -7005,8 +7005,8 @@
       "kind": "templates"
     },
     "skills/management-leadership/team-management/SKILL.md": {
-      "sha256": "6b22ac7b4b04f00f7491c1b006d84c5ff6559f1a2984d453732fde5a5ca5f515",
-      "size_bytes": 7546,
+      "sha256": "96a7ca3737a486b6dcccb3274f051082cd91e85c2c3cee21bf7722ebaf55a017",
+      "size_bytes": 7539,
       "kind": "entrypoints"
     },
     "skills/management-leadership/team-management/references/framework-notes.md": {
@@ -7025,8 +7025,8 @@
       "kind": "templates"
     },
     "skills/outbound/cold-calling/SKILL.md": {
-      "sha256": "6ab4dc77ae593339c7f46152f963efb33edd475fbe4c91611fa77b7da9ca44c1",
-      "size_bytes": 13602,
+      "sha256": "e902a363efbb9fe5e4bd6a8f80b1e7680cc4a49cf024690bf04f784f1274fb81",
+      "size_bytes": 13595,
       "kind": "entrypoints"
     },
     "skills/outbound/cold-calling/references/cold-calling-experts-index.md": {
@@ -7075,8 +7075,8 @@
       "kind": "templates"
     },
     "skills/outbound/cold-email-copywriting/SKILL.md": {
-      "sha256": "401bdaea0c0902b34fab75d0474ebbd4c3b6e5d14e4c7e9310af1b8ade5a55a3",
-      "size_bytes": 20207,
+      "sha256": "1761b94549487f13b3b2323e3aa1913b1bc180e6db6898196b19e058574beb77",
+      "size_bytes": 20200,
       "kind": "entrypoints"
     },
     "skills/outbound/cold-email-copywriting/references/email-frameworks.md": {
@@ -7120,8 +7120,8 @@
       "kind": "templates"
     },
     "skills/outbound/cold-email-strategy/SKILL.md": {
-      "sha256": "94fc612a34204f4c5b0b7a273fa824432f3c9621fd8dcd982b900266fc3afc9e",
-      "size_bytes": 9810,
+      "sha256": "d924d15ebeb5d0e58dc06c7f0fc9c8a4b33981b6ecbcfaa41068a92ad28af74d",
+      "size_bytes": 9803,
       "kind": "entrypoints"
     },
     "skills/outbound/cold-email-strategy/references/becc-holland-playbook.md": {
@@ -7135,8 +7135,8 @@
       "kind": "references"
     },
     "skills/outbound/cold-email-strategy/references/complete-playbook.md": {
-      "sha256": "5e6a951a1bb1929fb4ad211c5d42b3c94f88679554de01581b0e9a67a85f6840",
-      "size_bytes": 32087,
+      "sha256": "31155990ef1cc182b045da68525adfc66c66c46ac73d23e9fd529adda709010e",
+      "size_bytes": 32080,
       "kind": "references"
     },
     "skills/outbound/cold-email-strategy/references/deliverability-primer.md": {
@@ -7225,8 +7225,8 @@
       "kind": "templates"
     },
     "skills/outbound/domain-infrastructure/SKILL.md": {
-      "sha256": "f24f37f64ac0f7dd3d1e5e10ab5e33d1f03871447cb54005abd9a6ecaab27369",
-      "size_bytes": 22391,
+      "sha256": "3b4a29f48daa288ad49bacfb69364137c817f961de013a2bf00f0096a431c196",
+      "size_bytes": 22384,
       "kind": "entrypoints"
     },
     "skills/outbound/domain-infrastructure/references/deliverability-primer.md": {
@@ -7260,8 +7260,8 @@
       "kind": "templates"
     },
     "skills/outbound/email-deliverability/SKILL.md": {
-      "sha256": "8dd6cd4255fc23b01e8aee7a5c30660d34339f2f2df071d99042beae54662bf9",
-      "size_bytes": 22429,
+      "sha256": "c0cc9f5dcbae3925bdf969091890ffeff492b656d67424e44681c6c1ed5d4c44",
+      "size_bytes": 22422,
       "kind": "entrypoints"
     },
     "skills/outbound/email-deliverability/references/bounce-complaint-procedures.md": {
@@ -7300,8 +7300,8 @@
       "kind": "templates"
     },
     "skills/outbound/inbox-setup/SKILL.md": {
-      "sha256": "0610829c19108d9a121f48ad944b1e640ed3e1204aaebf1d07dd4dcf4d6f9bf9",
-      "size_bytes": 8604,
+      "sha256": "c3f76e06449069b030b67b829feb0cb370edaf5c6e86a64e35ed63e900df53b4",
+      "size_bytes": 8597,
       "kind": "entrypoints"
     },
     "skills/outbound/inbox-setup/references/framework-notes.md": {
@@ -7320,8 +7320,8 @@
       "kind": "templates"
     },
     "skills/outbound/multi-channel-outreach/SKILL.md": {
-      "sha256": "4e994d606e26ec63558f3a6a664b837693d255ae93bcaaafdb02cfb8f576a726",
-      "size_bytes": 8381,
+      "sha256": "23b4608573803ec83d96c38e057392ee29a5d74cd25bcc83eaa9fb50329259d0",
+      "size_bytes": 8374,
       "kind": "entrypoints"
     },
     "skills/outbound/multi-channel-outreach/references/framework-notes.md": {
@@ -7350,8 +7350,8 @@
       "kind": "templates"
     },
     "skills/outbound/rb2b-outbound-triggers/SKILL.md": {
-      "sha256": "a4878c15c8ea4a09c66841d9f0ee00c9d573ebc3d0ef1be6705851886497ba41",
-      "size_bytes": 13707,
+      "sha256": "473594a8935c94e659270447706093372bf4e1a36c612f88f3140c06c2e5cbbd",
+      "size_bytes": 13700,
       "kind": "entrypoints"
     },
     "skills/outbound/rb2b-outbound-triggers/references/framework-notes.md": {
@@ -7370,8 +7370,8 @@
       "kind": "templates"
     },
     "skills/outbound/reply-handling/SKILL.md": {
-      "sha256": "f88904890351c7d773663aa69446a0407be69db436028e6e197de728f11b8fdd",
-      "size_bytes": 19765,
+      "sha256": "9787f3628904ca6319332f3eb841a5784412cd4588c3fd8ef253a00dcc0cfc90",
+      "size_bytes": 19758,
       "kind": "entrypoints"
     },
     "skills/outbound/reply-handling/references/framework-notes.md": {
@@ -7400,8 +7400,8 @@
       "kind": "templates"
     },
     "skills/outbound/sending-platforms/SKILL.md": {
-      "sha256": "2580de8e2130bd7e3c2a1d61708dd5fd1dc28008993b4ae09991b4685cedba95",
-      "size_bytes": 18439,
+      "sha256": "5e1ad14f91700305ccd47a573369f2b398a48603b4b4ba8b26df428cda9fdd34",
+      "size_bytes": 18432,
       "kind": "entrypoints"
     },
     "skills/outbound/sending-platforms/references/deliverability-primer.md": {
@@ -7430,8 +7430,8 @@
       "kind": "templates"
     },
     "skills/partnerships/co-marketing/SKILL.md": {
-      "sha256": "b010fbd6a82070d38bfd8fedde41743b4dd89ba3d9fe556855c9f4321e9fab5c",
-      "size_bytes": 7120,
+      "sha256": "c1a32be67b83736a31ef38d802fff3526f6578775a13dfaeafc52a03b55065d4",
+      "size_bytes": 7113,
       "kind": "entrypoints"
     },
     "skills/partnerships/co-marketing/references/framework-notes.md": {
@@ -7450,8 +7450,8 @@
       "kind": "templates"
     },
     "skills/partnerships/integration-partnerships/SKILL.md": {
-      "sha256": "3f077f7943ff9b1d3674bac0c10675a269ad752d63f3e40c98c8da49d86cd450",
-      "size_bytes": 7697,
+      "sha256": "0bb766d5544539971ea00759b967466e9c81697f2986053c6ffe8cb4f5b9f5c8",
+      "size_bytes": 7690,
       "kind": "entrypoints"
     },
     "skills/partnerships/integration-partnerships/references/framework-notes.md": {
@@ -7470,8 +7470,8 @@
       "kind": "templates"
     },
     "skills/partnerships/partnership-strategy/SKILL.md": {
-      "sha256": "b2c4d21a52687c298f9195f1f8cae84ca697169e447ee853fe1791d173b3dbf5",
-      "size_bytes": 7863,
+      "sha256": "988b9af1edb544609f331647dcd896dbb7ddfec23a0dc98b6b01d583306d4058",
+      "size_bytes": 7856,
       "kind": "entrypoints"
     },
     "skills/partnerships/partnership-strategy/references/framework-notes.md": {
@@ -7490,18 +7490,18 @@
       "kind": "templates"
     },
     "skills/product-led-growth/developer-gtm/SKILL.md": {
-      "sha256": "12ff61db3231e712e22546768533d3429a1751386c72caee4bbea3c49d8df3e7",
-      "size_bytes": 10168,
+      "sha256": "4e27a087d45cc5ef49aa82877ce3e1aa7d56dcf1bce4e7a31e478eb0a9cca040",
+      "size_bytes": 10163,
       "kind": "entrypoints"
     },
     "skills/product-led-growth/developer-gtm/references/framework-notes.md": {
-      "sha256": "2754f8c64576afe6367451448d83a9198ca16f8c44d4efe061d2e6c8153c003e",
-      "size_bytes": 1230,
+      "sha256": "d89f80c3e78c09c2cdadef80862890f971f89ef7bebd4e3c1f8cf8c995905fdd",
+      "size_bytes": 1231,
       "kind": "references"
     },
     "skills/product-led-growth/developer-gtm/references/vercel-developer-selling.md": {
-      "sha256": "27ef58a2552854eb5f1b2b15c12857cc1029514cae78e92006469fe9dd1c91b1",
-      "size_bytes": 5431,
+      "sha256": "ac2ae371b969037fdd77a8a2d73a35c56e43e163cfa9610315bdf85d5a7d35ec",
+      "size_bytes": 5432,
       "kind": "references"
     },
     "skills/product-led-growth/developer-gtm/scripts/check-output.py": {
@@ -7510,13 +7510,13 @@
       "kind": "scripts"
     },
     "skills/product-led-growth/developer-gtm/templates/output-template.md": {
-      "sha256": "593fd481f88981d4c3fc2d3d9da5be47174560dcf7dda88c15b2f16349e3df7d",
-      "size_bytes": 1820,
+      "sha256": "59f7c4139898349718df582423e5fe4cd3728526f18296e81ef23cac1948f941",
+      "size_bytes": 1821,
       "kind": "templates"
     },
     "skills/product-led-growth/freemium-optimization/SKILL.md": {
-      "sha256": "8210dc2dac50162daf263bb817d6771e34336eca5a61b868e6c3bff6aaed53ea",
-      "size_bytes": 13031,
+      "sha256": "f83e98dc2ca89212748c8783510bb9169447c26c08a37b2dccb45429a56228ed",
+      "size_bytes": 13024,
       "kind": "entrypoints"
     },
     "skills/product-led-growth/freemium-optimization/references/activation-playbook.md": {
@@ -7555,8 +7555,8 @@
       "kind": "templates"
     },
     "skills/product-led-growth/plg-strategy/SKILL.md": {
-      "sha256": "7eaa85bbf9b66b47c125c814d51f9109fe39790043d0fa4b2ffb4a843c525f38",
-      "size_bytes": 7847,
+      "sha256": "40eb218f16943822e90246ecbbec63b3b9aa70d31ed1b5341cd9506faba50548",
+      "size_bytes": 7840,
       "kind": "entrypoints"
     },
     "skills/product-led-growth/plg-strategy/references/elena-verna-plg-growth.md": {
@@ -7585,8 +7585,8 @@
       "kind": "templates"
     },
     "skills/product-marketing/customer-research/SKILL.md": {
-      "sha256": "f0b3f65afeb11d9332e2c41d9142d207a5834022828272126fa0f8bcac165747",
-      "size_bytes": 7328,
+      "sha256": "9fde0c1ab1fb7c518f41b5c7ecc67f70d87a5c46e140cbcf85a74ae363045507",
+      "size_bytes": 7321,
       "kind": "entrypoints"
     },
     "skills/product-marketing/customer-research/references/framework-notes.md": {
@@ -7615,8 +7615,8 @@
       "kind": "templates"
     },
     "skills/product-marketing/win-loss-analysis/SKILL.md": {
-      "sha256": "1261020c761f4af40ebdf7f1bfc95136854d3246459bb5d6ba76beeec60e6790",
-      "size_bytes": 6666,
+      "sha256": "be6da18129e43d8a5b1aa99d28a2301a5fa9efb6e82f6005f9fdc7a96a8e1410",
+      "size_bytes": 6659,
       "kind": "entrypoints"
     },
     "skills/product-marketing/win-loss-analysis/references/framework-notes.md": {
@@ -7645,8 +7645,8 @@
       "kind": "templates"
     },
     "skills/prospecting/contact-verification/SKILL.md": {
-      "sha256": "927e78381cfe7a50930f65ebc5100b8ae9b334fd92e43889f9766b6a453c1168",
-      "size_bytes": 6915,
+      "sha256": "4f9e6d2578b60f2b44875296c3800f1e035905114ac864af85e9ef0bbf01528a",
+      "size_bytes": 6908,
       "kind": "entrypoints"
     },
     "skills/prospecting/contact-verification/references/framework-notes.md": {
@@ -7665,8 +7665,8 @@
       "kind": "templates"
     },
     "skills/prospecting/data-enrichment-strategy/SKILL.md": {
-      "sha256": "3add1aad5290bbf3b5e08db12da00acb84c2fd0a5ef7bf19c7f167e548ea094a",
-      "size_bytes": 8365,
+      "sha256": "332cd77593db3d598cbe4eb796984acaac1546c12570127caa35071f1234c707",
+      "size_bytes": 8358,
       "kind": "entrypoints"
     },
     "skills/prospecting/data-enrichment-strategy/references/framework-notes.md": {
@@ -7685,8 +7685,8 @@
       "kind": "templates"
     },
     "skills/prospecting/email-finding/SKILL.md": {
-      "sha256": "c898e93876f6f4939d4f6db7d663d40f75f6476c7c0dd26376a68bae8024670d",
-      "size_bytes": 7571,
+      "sha256": "1aa62b26594140c6b240706ed461c43224f17ea5b3ed1da439a67cb94f441a69",
+      "size_bytes": 7564,
       "kind": "entrypoints"
     },
     "skills/prospecting/email-finding/references/framework-notes.md": {
@@ -7705,8 +7705,8 @@
       "kind": "templates"
     },
     "skills/prospecting/lead-enrichment/SKILL.md": {
-      "sha256": "04549ac493548ef7df5ea641bc7efb307110a1e327ab4f77c9bf9eed0bb7a8ad",
-      "size_bytes": 21744,
+      "sha256": "a41a6ac05cd14337b47cb51496dc41890b4d8647243e042d271c6dc72dc2caff",
+      "size_bytes": 21737,
       "kind": "entrypoints"
     },
     "skills/prospecting/lead-enrichment/references/framework-notes.md": {
@@ -7725,8 +7725,8 @@
       "kind": "templates"
     },
     "skills/prospecting/lead-finding/SKILL.md": {
-      "sha256": "2e1e784373c28e703e0f4ab8dfa10f93546a2ca8ef32f55c06d37611214e1a0d",
-      "size_bytes": 19450,
+      "sha256": "34fff25ac3e337053192e8858e52c01dd1233c08bdba31f8733de4be9f6a457a",
+      "size_bytes": 19443,
       "kind": "entrypoints"
     },
     "skills/prospecting/lead-finding/references/framework-notes.md": {
@@ -7745,8 +7745,8 @@
       "kind": "templates"
     },
     "skills/prospecting/list-building/SKILL.md": {
-      "sha256": "28f4e7e7210079c0df633f451ebe4491902a922babaabf34d5dd2b847123ada2",
-      "size_bytes": 7095,
+      "sha256": "932ddb72ff5bbbb0bef48d545b4710cd80aea53a9b9b4f62f3b76481a3ee9ed3",
+      "size_bytes": 7088,
       "kind": "entrypoints"
     },
     "skills/prospecting/list-building/references/cold-calling-experts-index.md": {
@@ -7775,8 +7775,8 @@
       "kind": "templates"
     },
     "skills/prospecting/signal-scoring/SKILL.md": {
-      "sha256": "b01a0f3d054ec3e1c6cb16a2c3930fae0d341c1e868d4999178c27fe6b9b23fa",
-      "size_bytes": 7148,
+      "sha256": "cf8fa105b5067fb12fc5c5c1c8f43db147cd50e91ba85ae863e67eb13aa80e09",
+      "size_bytes": 7141,
       "kind": "entrypoints"
     },
     "skills/prospecting/signal-scoring/references/cold-calling-experts-index.md": {
@@ -7805,8 +7805,8 @@
       "kind": "templates"
     },
     "skills/prospecting/social-intent-monitoring/SKILL.md": {
-      "sha256": "0c04c4df9a469d07a2260a525f683e975111cd2393484590814c627c5f9e735a",
-      "size_bytes": 16238,
+      "sha256": "aa33179d72f71edcb855660b8d56da9f4cb10f267c4e145c68762d80a7c8c79d",
+      "size_bytes": 16231,
       "kind": "entrypoints"
     },
     "skills/prospecting/social-intent-monitoring/references/framework-notes.md": {
@@ -7825,8 +7825,8 @@
       "kind": "templates"
     },
     "skills/sales-plays/earnings-signal-play/SKILL.md": {
-      "sha256": "4cb184837e8577f04cf775896509c2b7ac5da6ac4c253e32f0cd69eb1d09d44b",
-      "size_bytes": 12035,
+      "sha256": "ba8b4173bf1ebcba7b3d3d94250629a72933b236676d59143929f78cda5780df",
+      "size_bytes": 12028,
       "kind": "entrypoints"
     },
     "skills/sales-plays/earnings-signal-play/references/framework-notes.md": {
@@ -7845,8 +7845,8 @@
       "kind": "templates"
     },
     "skills/sales-plays/funding-signal-play/SKILL.md": {
-      "sha256": "a5dec2e053c53e0047077851871384e4d135d61cad973908cb5bcd5df0400559",
-      "size_bytes": 12377,
+      "sha256": "7d6d224f452a5b482c5fe86526870e785d999f3513cfb4de9ed9f9eeec3f2df3",
+      "size_bytes": 12370,
       "kind": "entrypoints"
     },
     "skills/sales-plays/funding-signal-play/references/framework-notes.md": {
@@ -7865,8 +7865,8 @@
       "kind": "templates"
     },
     "skills/sales-plays/hiring-signal-play/SKILL.md": {
-      "sha256": "dd0006efd0aa237ea4d1687ca9d1c69cea980ff977ad352ee02b643011fcdba2",
-      "size_bytes": 8374,
+      "sha256": "ef55d74250994a815e560cc62db69451a18b2f69a0d5faf351192b9e7f6ccea2",
+      "size_bytes": 8367,
       "kind": "entrypoints"
     },
     "skills/sales-plays/hiring-signal-play/references/framework-notes.md": {
@@ -7885,8 +7885,8 @@
       "kind": "templates"
     },
     "skills/sales-plays/job-change-play/SKILL.md": {
-      "sha256": "0beae183e7c0950744b688870cec29b3ebb2ab79a5c1f37beedc3db99e280602",
-      "size_bytes": 8193,
+      "sha256": "e2dbbf8e41fbc256ff35edd2625c5983298c5e2680146347817b618c5734d132",
+      "size_bytes": 8186,
       "kind": "entrypoints"
     },
     "skills/sales-plays/job-change-play/references/framework-notes.md": {
@@ -7905,8 +7905,8 @@
       "kind": "templates"
     },
     "skills/sales-plays/product-launch-play/SKILL.md": {
-      "sha256": "41a713495318da2cb2659dbfe65ae8f67fe1f3b2f61d653d6645db3bfb0cec68",
-      "size_bytes": 8453,
+      "sha256": "52624edb7239b6e819a4f8883f7e566d1673adda880445b7eac764b94889a39b",
+      "size_bytes": 8446,
       "kind": "entrypoints"
     },
     "skills/sales-plays/product-launch-play/references/framework-notes.md": {
@@ -7925,8 +7925,8 @@
       "kind": "templates"
     },
     "skills/sales-revops/buyer-indecision/SKILL.md": {
-      "sha256": "eee2adf5046f107c20691a3fc85a7ed585d13acd651641f3fd5e0a033f75b679",
-      "size_bytes": 7374,
+      "sha256": "44ad84185b92b38f697855b81887026371f5904413efcd0f4494017a657aece1",
+      "size_bytes": 7367,
       "kind": "entrypoints"
     },
     "skills/sales-revops/buyer-indecision/references/framework-notes.md": {
@@ -7955,8 +7955,8 @@
       "kind": "templates"
     },
     "skills/sales-revops/deal-desk/SKILL.md": {
-      "sha256": "19b48a6e0da80ff8c470f2758c19bcbe9afb67e3b211bb3a30ccf774abc6e39e",
-      "size_bytes": 8250,
+      "sha256": "06beea4d81213bfbe1f5dddd5fe4c3bb5966f748ac3bf1f481d0b79292bbd5a9",
+      "size_bytes": 8243,
       "kind": "entrypoints"
     },
     "skills/sales-revops/deal-desk/references/benchmark-reconciliation.md": {
@@ -8015,8 +8015,8 @@
       "kind": "templates"
     },
     "skills/sales-revops/demo-scripts/SKILL.md": {
-      "sha256": "0e36248054d262f97da39202484f2d6e10f945e1a683f820f481ecb2a6ae002f",
-      "size_bytes": 6575,
+      "sha256": "b241f5bc49a29326ab0434cdf0f94f27507c3c5d837e8f5accaaf04a4d5b13c7",
+      "size_bytes": 6568,
       "kind": "entrypoints"
     },
     "skills/sales-revops/demo-scripts/references/framework-notes.md": {
@@ -8060,8 +8060,8 @@
       "kind": "templates"
     },
     "skills/sales-revops/meeting-prep/SKILL.md": {
-      "sha256": "b55b946bb144b83a87a8bd97695c0bb147812a08562e4658e09a4c1762f98beb",
-      "size_bytes": 9090,
+      "sha256": "c059bc487ed6e1805e1228055abd56e34bc50bdb4ee6d0d0eaedc937a3d39b99",
+      "size_bytes": 9083,
       "kind": "entrypoints"
     },
     "skills/sales-revops/meeting-prep/references/experts.md": {
@@ -8090,8 +8090,8 @@
       "kind": "templates"
     },
     "skills/sales-revops/objection-handling/SKILL.md": {
-      "sha256": "f7bd4fb9dcba573f635b00048bbb4d35e44c485bc18d2a957e34aaecd87b34df",
-      "size_bytes": 7467,
+      "sha256": "e144835c130be431025878e91cae270e114ed3ff0a4c228e00ca462ee90aefde",
+      "size_bytes": 7460,
       "kind": "entrypoints"
     },
     "skills/sales-revops/objection-handling/references/anthony-iannarino-sales-discipline.md": {
@@ -8120,8 +8120,8 @@
       "kind": "templates"
     },
     "skills/sales-revops/pipeline-management/SKILL.md": {
-      "sha256": "facbf2fdd8f5097a2f41b7b1d32913317acecd1836a542a40a006eea88a072f4",
-      "size_bytes": 17766,
+      "sha256": "173df697b1dbe6c61852f44c5e5aa2264f2722dcf555ed69ad0c17400de5b5f1",
+      "size_bytes": 17759,
       "kind": "entrypoints"
     },
     "skills/sales-revops/pipeline-management/references/cold-calling-experts-index.md": {
@@ -8155,8 +8155,8 @@
       "kind": "templates"
     },
     "skills/sales-revops/revenue-forecasting/SKILL.md": {
-      "sha256": "2fe735bdeb75d5a17262730f49a2a8f4665ff9be988eeee016e450c50d2c3463",
-      "size_bytes": 6899,
+      "sha256": "43cdb824120eb0c7476a28795161adff395a6cae1b8628bc2f90f76efea39a54",
+      "size_bytes": 6892,
       "kind": "entrypoints"
     },
     "skills/sales-revops/revenue-forecasting/references/framework-notes.md": {
@@ -8185,8 +8185,8 @@
       "kind": "templates"
     },
     "skills/sales-revops/sales-enablement/SKILL.md": {
-      "sha256": "81d7268e81def3804608a12a6f46f6d7713fdc6f801eed626b32f784f228ec83",
-      "size_bytes": 8624,
+      "sha256": "dea1b5610e504f8b65a8508d4a17d97ed511cf22a7e42f47a693423e8484c3ac",
+      "size_bytes": 8617,
       "kind": "entrypoints"
     },
     "skills/sales-revops/sales-enablement/references/brent-adamson-challenger.md": {
@@ -8225,8 +8225,8 @@
       "kind": "templates"
     },
     "skills/sales-revops/transparency-selling/SKILL.md": {
-      "sha256": "9ecee367db1496581dbb670b032c2e83aed5806d726ffea6d4b5967b93bcc005",
-      "size_bytes": 8884,
+      "sha256": "632528be1c01d5bec3667a717ad110aafabac7e1f64f7e2e837c3bc321e7ae02",
+      "size_bytes": 8877,
       "kind": "entrypoints"
     },
     "skills/sales-revops/transparency-selling/references/framework-notes.md": {
@@ -8245,8 +8245,8 @@
       "kind": "templates"
     },
     "skills/tools/ai-prompts-toolkit/SKILL.md": {
-      "sha256": "10b7de3c384acf7e3708aa2224422ef5c730ecdcf2573a73633bd6e0196ded43",
-      "size_bytes": 7954,
+      "sha256": "2fa72df624bea3951205189a41e060b4550ebca2d024fad6c3cd03fd6f7b4f06",
+      "size_bytes": 7950,
       "kind": "entrypoints"
     },
     "skills/tools/ai-prompts-toolkit/references/framework-notes.md": {
@@ -8255,8 +8255,8 @@
       "kind": "references"
     },
     "skills/tools/ai-prompts-toolkit/references/prompt-library.md": {
-      "sha256": "fc38eafca2e510470563530d462d3f2e22f3ba0d95f9dc7c002992afbe236c91",
-      "size_bytes": 3908,
+      "sha256": "cc9f82adbcfccba9f1133e8408369aabed3835fc3cbe5070a51e9fd61ccaf11e",
+      "size_bytes": 3909,
       "kind": "references"
     },
     "skills/tools/ai-prompts-toolkit/references/prompt-loop-patterns.md": {
@@ -8280,13 +8280,13 @@
       "kind": "templates"
     },
     "skills/tools/ai-prompts-toolkit/templates/prompt-spec.md": {
-      "sha256": "dc842f96f91f93e658115844c35a00180c8720a1170f1c28c807c08c847b5e0f",
-      "size_bytes": 421,
+      "sha256": "e6b472e3ec70ff34c10439c6049e222936185dac0e2d31e2b25055429f0107f0",
+      "size_bytes": 422,
       "kind": "templates"
     },
     "skills/tools/analytics-toolkit/SKILL.md": {
-      "sha256": "62002d63b1c077d5e5d2e19b078c39169a36ef2f933c99d82949b53b4e18ba1b",
-      "size_bytes": 6096,
+      "sha256": "8e421d8493dd1957250b9ae0f447888d06b6aab4b479b111bed90112ec32c05b",
+      "size_bytes": 6089,
       "kind": "entrypoints"
     },
     "skills/tools/analytics-toolkit/references/analytics-stack-by-stage.md": {
@@ -8310,8 +8310,8 @@
       "kind": "templates"
     },
     "skills/tools/clay-loops-toolkit/SKILL.md": {
-      "sha256": "3e312e6a956f1ab84991c9f1a315a286333b9c6013bcf2b17a5b4bb1dd49b54d",
-      "size_bytes": 9333,
+      "sha256": "f133f4a79899d5f4686d9e570487987e1a735cfa89d451a03740c7141d75350a",
+      "size_bytes": 9326,
       "kind": "entrypoints"
     },
     "skills/tools/clay-loops-toolkit/references/framework-notes.md": {
@@ -8350,8 +8350,8 @@
       "kind": "templates"
     },
     "skills/tools/clay-toolkit/SKILL.md": {
-      "sha256": "07d48a43b829b414571705e8b0bcba88cd1bfdfd38ac7561228869585c37c481",
-      "size_bytes": 10807,
+      "sha256": "7cb7156c57a0ad4d48c5bf5469cc5d34567c557c234f73aa6c6c291e9d3f0417",
+      "size_bytes": 10800,
       "kind": "entrypoints"
     },
     "skills/tools/clay-toolkit/references/framework-notes.md": {
@@ -8380,8 +8380,8 @@
       "kind": "templates"
     },
     "skills/tools/crm-toolkit/SKILL.md": {
-      "sha256": "8b331c8c60fef31f33664e372ba150acaf69c17b851a868da1753a4633ca148e",
-      "size_bytes": 9239,
+      "sha256": "e3b17112dcca2f2d3543152550be18ccd6693a2ca5a8951068039a91f2a96dfa",
+      "size_bytes": 9232,
       "kind": "entrypoints"
     },
     "skills/tools/crm-toolkit/references/attio-blueprint.md": {
@@ -8400,8 +8400,8 @@
       "kind": "references"
     },
     "skills/tools/crm-toolkit/references/crm-selection.md": {
-      "sha256": "09f2508419b02490abb707e2b2e6824c2de0cc486846e380c7328b6d00ca7788",
-      "size_bytes": 4008,
+      "sha256": "3dbc2a4d3081e152f7021936e581f0e7fda182199f6be4b207111919c4ff8fb4",
+      "size_bytes": 4009,
       "kind": "references"
     },
     "skills/tools/crm-toolkit/references/framework-notes.md": {
@@ -8445,8 +8445,8 @@
       "kind": "templates"
     },
     "skills/tools/hubspot-sequences/SKILL.md": {
-      "sha256": "a3a8ec17be4f815abf9571b208922053feb67716693e534413c5f402837d9b54",
-      "size_bytes": 6678,
+      "sha256": "b450dbdc4c0ef67f7bf18e401bae4778ac06c900acb35891ffb5154aee04e91d",
+      "size_bytes": 6671,
       "kind": "entrypoints"
     },
     "skills/tools/hubspot-sequences/references/enrichment-enrollment-gate.md": {
@@ -8470,8 +8470,8 @@
       "kind": "templates"
     },
     "skills/tools/instantly-sequences/SKILL.md": {
-      "sha256": "e0f94ac2a474238bd317f445de485443f772f10cd1cb647797b4c85175e20ff3",
-      "size_bytes": 7129,
+      "sha256": "c70c2380a9340f5fa009d4b333cdeaf3d09649b4451b2aec8150ce492de4d354",
+      "size_bytes": 7122,
       "kind": "entrypoints"
     },
     "skills/tools/instantly-sequences/references/clay-enrollment-handoff.md": {
@@ -8495,8 +8495,8 @@
       "kind": "templates"
     },
     "skills/tools/leadmagic-toolkit/SKILL.md": {
-      "sha256": "84ed73dda0b3b225cd0dac33d5a40b2943bf29cd156cc47c0d9a72afceec3a4c",
-      "size_bytes": 9353,
+      "sha256": "2dd30901755aeabd06b47a6d97de5bc12bf3e390817006cd862b1f58604fe7e9",
+      "size_bytes": 9346,
       "kind": "entrypoints"
     },
     "skills/tools/leadmagic-toolkit/references/framework-notes.md": {
@@ -8515,8 +8515,8 @@
       "kind": "templates"
     },
     "skills/tools/lemlist-setup/SKILL.md": {
-      "sha256": "4f3e3d4056c0c4eba1ce97f63289e8c54b6801e0f67290559c20f6540282ba49",
-      "size_bytes": 7253,
+      "sha256": "2974d4f1fb00e6370f5e8ddac71f92708823e8cd1cf4db893da1d7076c7d07e4",
+      "size_bytes": 7246,
       "kind": "entrypoints"
     },
     "skills/tools/lemlist-setup/references/clay-enrollment-handoff.md": {
@@ -8540,8 +8540,8 @@
       "kind": "templates"
     },
     "skills/tools/n8n-toolkit/SKILL.md": {
-      "sha256": "e1b283b97894fec663ff45d0b43f25ec01c9fe5b1ec9f0ae60e4b4b737066a29",
-      "size_bytes": 14463,
+      "sha256": "37bf619ac871e4f317ff7032e9da3e0587b2e8f6853007ce9a774af1a9a2bb5c",
+      "size_bytes": 14457,
       "kind": "entrypoints"
     },
     "skills/tools/n8n-toolkit/references/framework-notes.md": {
@@ -8555,8 +8555,8 @@
       "kind": "references"
     },
     "skills/tools/n8n-toolkit/references/mcp-patterns.md": {
-      "sha256": "3a3348e4aee19986e5b1daeffc840209cf7bc5b8023228368665c4846bb4f587",
-      "size_bytes": 6845,
+      "sha256": "dacc193465b76d0903ce680bd461415ea7cf982ae42bf371090c9a895fbc1e90",
+      "size_bytes": 6848,
       "kind": "references"
     },
     "skills/tools/n8n-toolkit/references/node-patterns.md": {
@@ -8580,8 +8580,8 @@
       "kind": "templates"
     },
     "skills/tools/outreach-sequences/SKILL.md": {
-      "sha256": "b5fcd52e30d4a4d25907fb37fd5235942cbfea6cb6fa06c33701106ef69788a5",
-      "size_bytes": 6966,
+      "sha256": "bb1eb5bd1feb79c6dacdf039d23b3016d983a5a8b4f78218a6a8c4e539d8328a",
+      "size_bytes": 6959,
       "kind": "entrypoints"
     },
     "skills/tools/outreach-sequences/references/enrichment-enrollment-gate.md": {
@@ -8605,8 +8605,8 @@
       "kind": "templates"
     },
     "skills/tools/salesloft-cadences/SKILL.md": {
-      "sha256": "a7141cbdb94cedea32cb5cc7d011ce7c9e55ebb509e2439dfda4e94adf1a021b",
-      "size_bytes": 6954,
+      "sha256": "7602912c110220c078aae8979a5a91b9a758c9039193c0af031afc158b6022cf",
+      "size_bytes": 6947,
       "kind": "entrypoints"
     },
     "skills/tools/salesloft-cadences/references/enrichment-enrollment-gate.md": {
@@ -8630,8 +8630,8 @@
       "kind": "templates"
     },
     "skills/tools/sequencing-toolkit/SKILL.md": {
-      "sha256": "88ce085f0c49435bc17295c1fdcb589440ff4de32eb404c35b688a3fd72be499",
-      "size_bytes": 7507,
+      "sha256": "4c89cba16e31f9f37b10aeaba4c28a5018227c7ff368631d89b5d92fe595d92a",
+      "size_bytes": 7500,
       "kind": "entrypoints"
     },
     "skills/tools/sequencing-toolkit/references/framework-notes.md": {
@@ -8660,8 +8660,8 @@
       "kind": "templates"
     },
     "skills/tools/smartlead-workflows/SKILL.md": {
-      "sha256": "3ac0896c49c40641e089092d8005fe4be172b58869b455ab0ea4be660fc4a0e4",
-      "size_bytes": 7548,
+      "sha256": "a3593ef2d7f5d8743d322a9145ee98191cec648e36ce5eefe335e53224a12ef6",
+      "size_bytes": 7541,
       "kind": "entrypoints"
     },
     "skills/tools/smartlead-workflows/references/clay-enrollment-handoff.md": {
@@ -8685,8 +8685,8 @@
       "kind": "templates"
     },
     "skills/tools/support-toolkit/SKILL.md": {
-      "sha256": "96369733890703cd0e6a6e0cec760ade53a64adffca09fa669d857fb5fb0e7e3",
-      "size_bytes": 6142,
+      "sha256": "035cfb2d962e1f360389be3a3fd5e217fcba36ca9b5696859faf745927c6aaf0",
+      "size_bytes": 6135,
       "kind": "entrypoints"
     },
     "skills/tools/support-toolkit/references/framework-notes.md": {

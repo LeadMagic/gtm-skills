@@ -1,6 +1,6 @@
 # LeadMagic MCP — Agent Tool Guardrails
 
-Safe MCP configuration for enrichment agents (Claude, Jesse, Codex, etc.).
+Safe MCP configuration for enrichment agents (Claude, Cursor, Codex, etc.).
 
 ## Tool Category Permissions
 

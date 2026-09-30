@@ -5,7 +5,7 @@ description: >-
   account risk alerts, new-role outreach, replacement mapping, and CRM routing.
   Use when monitoring career moves or building trigger-based sales plays.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic

@@ -5,7 +5,7 @@ description: >-
   product launches — timing-based urgency, competitive positioning. Triggers on:
   "product launch play", "competitor launch response", "launch-based outbound".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic

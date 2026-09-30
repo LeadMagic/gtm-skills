@@ -5,7 +5,7 @@ description: >-
   submissions, booth strategy, team preparation. Triggers on: "conference strategy",
   "event planning", "trade show strategy", "sponsorship ROI", "CFP submissions".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic

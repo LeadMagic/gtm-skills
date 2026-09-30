@@ -7,7 +7,7 @@ description: >-
   (G2, Capterra). Use when building customer marketing, generating case
   studies, launching a reference program, or mobilizing customer advocates.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "2.4.0"
   author: LeadMagic

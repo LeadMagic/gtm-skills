@@ -4,13 +4,13 @@ description: >-
   Complete guide to using the gtm-skills repository — installation, skill
   discovery, skill loading, combining skills, taxonomy navigation, CLI
   workflows, and advanced patterns for every supported AI system (Claude Code,
-  Jesse, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI).
+  Cursor, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI).
   The master key to the entire library. Use when first installing gtm-skills,
   discovering which skills to load, or building multi-skill workflows.
   Triggers on: "gtm-skills", "install gtm-skills", "how to use gtm-skills",
   "skill discovery", "which skills to load", "getting started with skills".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -168,7 +168,6 @@ Use `./install.sh` (wraps `scripts/install-tui.py`). Full per-system guide: `doc
 | 7 | Windsurf | `windsurf` | `.agents/skills/<skill-name>/` via `gh skill` |
 | 8 | Goose | `goose` | `.agents/skills/<skill-name>/` via `gh skill` |
 | 9 | Hermes | `hermes` | `.agents/skills/<skill-name>/` via universal Agent Skills |
-| 10 | Jesse | `jesse` | `.jesse/skills/<skill-name>/` |
 
 ### Quick install
 
@@ -176,7 +175,7 @@ Use `./install.sh` (wraps `scripts/install-tui.py`). Full per-system guide: `doc
 gh repo clone LeadMagic/gtm-skills
 cd gtm-skills
 ./install.sh --target codex --scope project
-./install.sh --target jesse --scope project --project /path/to/project
+./install.sh --target cursor --scope project --project /path/to/project
 ./install.sh --target all --dry-run
 ```
 

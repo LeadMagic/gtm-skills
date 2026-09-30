@@ -3,7 +3,7 @@ name: technical-seo-audit
 description: >-
   Audit a website's technical SEO across crawl access, indexing controls, canonicalization, sitemaps, internal links, rendered content, structured data, status codes, and Core Web Vitals. Use when organic pages are missing from search, a redesign or migration is planned, Search Console reports coverage problems, or the user asks for a prioritized technical SEO audit.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic

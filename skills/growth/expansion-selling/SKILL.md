@@ -9,7 +9,7 @@ description: >-
   selling", "upsell strategy", "NRR growth", "land and expand", "cross-sell",
   "expansion revenue", "seat expansion".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "2.1.0"
   author: LeadMagic

@@ -8,7 +8,7 @@ description: >-
   Triggers on: "sales coaching", "coach reps", "REKS", "deal review", "call coaching",
   "manager 1:1 sales", "coach discovery", "coach SDR", "founder coach sales team".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "2.0.0"
   author: LeadMagic

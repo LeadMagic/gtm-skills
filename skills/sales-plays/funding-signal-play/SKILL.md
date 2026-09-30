@@ -7,7 +7,7 @@ description: >-
   Triggers on: "funding signal", "funding play", "raised money outreach",
   "funding announcement outbound", "Series A/B/C prospecting".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic

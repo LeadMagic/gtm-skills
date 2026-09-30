@@ -6,7 +6,7 @@ description: >-
   running a fundraise process, evaluating term sheets, or planning fundraising
   timeline. Covers SAFE, priced rounds, and bootstrapper alternatives.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.2.0"
   author: LeadMagic
