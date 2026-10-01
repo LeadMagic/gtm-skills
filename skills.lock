@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-10-01T00:08:06+00:00",
+  "generated_at": "2026-10-01T03:14:01+00:00",
   "total_skills": 211,
   "total_files": 1446,
   "file_counts": {
@@ -1846,8 +1846,8 @@
         "leadmagic-toolkit",
         "SKILL.md"
       ],
-      "sha256": "a9f7d2efff6224f8fba11444614af4e15065a5a66d4e8cb11b28375da382da65",
-      "size_bytes": 9208
+      "sha256": "6866a4b18f73708d8094a0841d73e9891d07e45e4ad7f29a00dd32840995dad7",
+      "size_bytes": 9230
     },
     "tools/lemlist-setup": {
       "path": [
@@ -8830,8 +8830,8 @@
       "kind": "templates"
     },
     "skills/tools/leadmagic-toolkit/SKILL.md": {
-      "sha256": "a9f7d2efff6224f8fba11444614af4e15065a5a66d4e8cb11b28375da382da65",
-      "size_bytes": 9208,
+      "sha256": "6866a4b18f73708d8094a0841d73e9891d07e45e4ad7f29a00dd32840995dad7",
+      "size_bytes": 9230,
       "kind": "entrypoints"
     },
     "skills/tools/leadmagic-toolkit/references/framework-notes.md": {

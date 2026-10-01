@@ -62,7 +62,7 @@ Trigger phrases: "LeadMagic API", "LeadMagic setup", "LeadMagic integration",
 ### Integration Methods
 - **REST API:** Direct HTTP calls with API key authentication
 - **CLI:** Command-line tool for scripting and automation
-- **MCP Server:** 16 tools exposed as MCP tools for AI agents
+- **MCP Server:** 130+ hosted tools for AI agents at `https://mcp.leadmagic.io/mcp`
 - **Clay Integration:** Native Clay enrichment provider
 - **n8n Integration:** HTTP Request nodes for workflow automation
 - **CRM Integration:** HubSpot, Salesforce, Attio via API/webhook
