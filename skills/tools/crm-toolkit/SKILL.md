@@ -9,7 +9,7 @@ description: >-
   "Attio vs HubSpot", "contacts vs leads", "Salesforce leads", "CRM migration",
   "CRM implementation partner", "CRM blueprint".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "2.1.0"
   author: LeadMagic

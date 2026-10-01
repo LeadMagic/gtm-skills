@@ -9,7 +9,7 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 - **Ahrefs / Backlinko methodology** — [ahrefs.com/blog](https://ahrefs.com/blog/) · Keyword tiers, content clusters, technical audits.
 - **Google E-E-A-T + Search Central** — [developers.google.com/search](https://developers.google.com/search/docs) · Experience, expertise, indexability, schema.
 
-**Full playbook:** `references/seo-strategy-playbook.md` (repo root)
+**Full playbook:** `references/seo-strategy-playbook.md`
 
 ## Keyword tier summary
 

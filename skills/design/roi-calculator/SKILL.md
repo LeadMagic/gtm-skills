@@ -9,7 +9,7 @@ description: >-
   "business case", "ROI model", "value calculator", "TCO comparison", "payback
   period", "build the business case".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "2.0.0"
   author: LeadMagic
@@ -37,11 +37,11 @@ with documented sources, so every number is defensible under scrutiny.
 
 ## Authoritative Foundations
 
-- **Madhavan Ramanujam — Monetizing Innovation (WTP research)** — Monetizing Innovation (WTP research)
-- **ValueSelling Framework — Value pyramid and quantified value** — Value pyramid and quantified value
+- **Madhavan Ramanujam** — Monetizing Innovation (WTP research)
+- **ValueSelling Framework** — Value pyramid and quantified value
 - **David Skok — SaaS Unit Economics** — SaaS metrics — CAC payback, LTV/CAC, unit economics by stage.
 - **MEDDICC — Economic Buyer + Metrics (quantified value)** — Qualification scorecard — Metrics, Economic buyer, Decision criteria, Champion, Competition.
-- **Gartner — TCO and ROI methodology** — TCO and ROI methodology
+- **Gartner** — TCO and ROI methodology
 
 ## When to Use
 

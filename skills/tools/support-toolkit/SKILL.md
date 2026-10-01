@@ -7,7 +7,7 @@ description: >-
   customer support platform. Triggers on: "support toolkit", "Intercom deep
   setup", "Zendesk configuration", "support platform comparison".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic
@@ -33,10 +33,10 @@ the support stack.
 
 ## Authoritative Foundations
 
-- **Intercom — Conversational support, Fin AI, Product Tours** — Conversational support, Fin AI, Product Tours
-- **Zendesk — Omnichannel CX, AI Agents, Explore analytics** — Omnichannel CX, AI Agents, Explore analytics
-- **Front — Collaborative inbox, rule-based routing** — Collaborative inbox, rule-based routing
-- **Help Scout — Docs-first support, Beacon widget** — Docs-first support, Beacon widget
+- **Intercom** — Conversational support, Fin AI, Product Tours
+- **Zendesk** — Omnichannel CX, AI Agents, Explore analytics
+- **Front** — Collaborative inbox, rule-based routing
+- **Help Scout** — Docs-first support, Beacon widget
 
 ## When to Use
 

@@ -1,21 +1,23 @@
 ---
 name: account-selection
 description: >-
-  Select and prioritize target accounts for ABM programs — scoring models, tier
-  assignment, TAM segmentation. Triggers on: "account selection", "target account list",
-  "tier accounts", "prioritize accounts", "TAM segmentation".
+  Builds and tiers a target account list: fit and intent scoring models, tier
+  assignment, and TAM segmentation. Use when the user needs to decide which
+  accounts to target, score or tier an account list, or prioritize a TAM for ABM
+  or outbound. Triggers on: "account selection", "target account list", "tier
+  accounts", "prioritize accounts", "TAM segmentation".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic
   category: abm
   tags: [abm, account-selection, scoring, tiering, target-accounts]
   frameworks:
-    - "TOPO Account Selection"
-    - "WbD ICP Framework"
+    - "TOPO (now Gartner) — Account selection"
+    - "Winning by Design — ICP"
     - "ITSMA — Account-Based Marketing"
-    - "Lars Nilsson (Cloudera/Snowflake) — ABSD signal-based account selection"
+    - "Lars Nilsson — Account-based sales development (ABSD)"
 ---
 
 # Account Selection & Tiering
@@ -26,11 +28,10 @@ Pick right and you 3x your close rate. This skill builds a weighted scoring mode
 to tier your TAM into Strategic, Scale, and Programmatic accounts.
 
 ## Authoritative Foundations
-
-- **TOPO Account Selection** — Named methodology governing recommendations in this skill's process.
-- **WbD ICP Framework** — Named methodology governing recommendations in this skill's process.
+- **TOPO (now Gartner) — Account selection** — Score accounts on fit first, then layer intent and engagement to decide tier; fit without intent is a nurture list, not a target list.
+- **Winning by Design — ICP** — Define the ideal customer profile from closed-won customers who retain and expand, not from the largest logos.
 - **ITSMA — Account-Based Marketing** — Tier-based ABM (1:1 / 1:few / 1:many); measure pipeline from target accounts, not lead volume.
-- **Lars Nilsson (Cloudera/Snowflake) — ABSD signal-based account selection** — ABSD signal-based account selection
+- **Lars Nilsson — Account-based sales development (ABSD)** — Select and sequence accounts by buying signals, not firmographics alone; the account list is a living ranking, not an annual export.
 
 ## When to Use
 - "Which accounts should we target?"
@@ -70,7 +71,7 @@ Weight each dimension (must total 100 points):
 - **Below 40:** Not ABM. Generic inbound/outbound only.
 
 ### Phase 3: Ongoing Refinement
-- Idle whitespace pull (ABSD): filter high-fit prospects with zero prior business and zero open pipeline — that list is the targeted-outbound campaign queue (`skills/abm/abm-strategy/references/lars-nilsson-absd.md`)
+- Idle whitespace pull (ABSD): filter high-fit prospects with zero prior business and zero open pipeline — that list is the targeted-outbound campaign queue (`references/lars-nilsson-absd.md`)
 - Monthly: Re-score based on new signals
 - Quarterly: Review tier assignments, promote/demote accounts
 - After wins: Analyze what made winners score high — adjust weights

@@ -1,11 +1,13 @@
 ---
 name: seo-strategy
 description: >-
-  B2B SEO strategy — keyword research, content architecture, technical SEO, link
-  building, measurement. Triggers on: "SEO strategy", "search engine optimization",
-  "B2B SEO", "keyword research", "SEO plan".
+  Builds a B2B SEO strategy: keyword research by funnel stage, content
+  architecture, technical SEO priorities, link building, and measurement. Use
+  when the user needs an SEO plan, wants to improve search rankings, or is
+  starting SEO for a B2B product. Triggers on: "SEO strategy", "search engine
+  optimization", "B2B SEO", "keyword research", "SEO plan".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -45,7 +47,7 @@ rankings for informational queries. This skill covers the full B2B SEO motion.
 - **Ahrefs / Backlinko** ([ahrefs.com/blog](https://ahrefs.com/blog/)). Three-tier keyword architecture, pillar-cluster structure, technical audit checklist.
 - **Google E-E-A-T + Search Central** ([developers.google.com/search](https://developers.google.com/search/docs)). Experience signals, schema, indexability.
 
-**Deep playbook:** `references/seo-strategy-playbook.md` (repo root) — technical SEO, content clusters, programmatic SEO, measurement.
+**Deep playbook:** `references/seo-strategy-playbook.md` — technical SEO, content clusters, programmatic SEO, measurement.
 
 ## When to Use
 
@@ -152,7 +154,7 @@ Before delivering, verify:
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
 - `references/seo-strategy-playbook.md` — Repo root: full SEO playbook (Schwartz, Fishkin, Ahrefs)
-- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 1)
+- the `using-gtm-skills` skill — Pattern 25: B2B SEO Stack (step 1)
 
 ## Related Skills
 

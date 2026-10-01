@@ -7,13 +7,13 @@ description: >-
   operations, sales ops, or GTM infrastructure. Triggers on: "GTM ops",
   "RevOps", "revenue operations", "sales ops", "GTM infrastructure".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.2.0"
   author: LeadMagic
   category: gtm-ops
   tags: [gtm-ops, revops, revenue-operations, sales-ops, process-design, project-management, clickup, raci]
-  related_skills: [revops-tech-stack, gtm-tool-cost-model, gtm-spend-management, crm-integration, pipeline-management, gtm-metrics, analytics, campaign-governance, gtm-leadership, revenue-team-onboarding]
+  related_skills: [revops-tech-stack, gtm-tool-cost-model, gtm-spend-management, crm-integration, pipeline-management, gtm-metrics, campaign-analytics, campaign-governance, gtm-leadership, revenue-team-onboarding]
   frameworks:
     - "Gartner — Revenue Operations Research (2021-2024)"
     - "Forrester — Revenue Operations Range of Responsibilities Model"
@@ -274,12 +274,12 @@ customer/prospect data and approved exchange paths — see
 - `templates/output-template.md` — Deliverable shell
 - `scripts/check-output.py`
 - `references/gtm-ops-skill-index.md` — Ops skill router
-- `references/gtm-data-exchange-playbook.md` — Customer data exchange SOP (repo root)
+- `references/gtm-data-exchange-playbook.md` — Customer data exchange SOP
 - `references/gtm-project-management-playbook.md` — **Canonical PM home** (cadence, milestones, project types)
 - `references/clickup-gtm-workspace.md` — Space → Folder → List for GTM teams
 - `references/gtm-organization-principles.md` — SSOT, docs/tasks/data/dashboards IA
 - `references/team-design-gtm-projects.md` — DRI, launch pods, span of control
-- `references/gtm-automation-expert-playbook.md` — Jen Igartua RevOps automation maturity (repo root; Pattern 30)
+- `references/gtm-automation-expert-playbook.md` — Jen Igartua RevOps automation maturity (Pattern 30)
 - `templates/gtm-project-charter.md` — One-page charter
 - `templates/raci-matrix-template.md` — RACI + filled GTM examples
 - `templates/revops-maturity-assessment.md` — Maturity scorecard

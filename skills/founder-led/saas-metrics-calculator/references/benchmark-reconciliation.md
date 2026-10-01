@@ -298,7 +298,7 @@ Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/dave-gerhard
 | **David Sacks** — burn multiple primary | **David Skok** — LTV:CAC primary | **Efficiency gates:** burn multiple at fundraise; **unit economics:** LTV:CAC/payback for motion design. Both in board pack. |
 | **KeyBanc private median** ~15% Rule of 40 | **Bessemer aspiration** ≥40% | Median ≠ failure — see Rule of 40 row above. |
 
-Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-cloud-atlas.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/david-sacks-saas-metrics.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md`
+Refs: `references/bessemer-cloud-atlas.md` · `references/david-sacks-saas-metrics.md` · `references/meritech-saas-benchmarks.md`
 
 ---
 
@@ -308,13 +308,13 @@ Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-clo
 |---|---|---|
 | **CRM bookings / TCV** at signature | **RevOps committed MRR** (ACV ÷ 12) | **Board ARR, NRR, Magic Number:** committed MRR bridge only — never TCV in sign month as "MRR added" |
 | **Committed MRR × 12** (private) | **Meritech implied ARR** (Q revenue × 4) | **Private ops:** committed. **Public comps:** implied — footnote always; never compare without label |
-| **Billings / cash** (annual prepay) | **Committed MRR** | Prepay ↑ cash, not ↑ monthly MRR beyond ACV/12 — see `https://github.com/LeadMagic/gtm-skills/blob/main/references/bookings-billings-revenue-matrix.md` |
+| **Billings / cash** (annual prepay) | **Committed MRR** | Prepay ↑ cash, not ↑ monthly MRR beyond ACV/12 — see `references/bookings-billings-revenue-matrix.md` |
 | **Recognized revenue** (GAAP) | **Committed MRR** | Finance reports recognition; RevOps reports committed bridge — reconcile monthly; implementation delay creates gap |
 | **Professional services** in TCV | **SaaS ARR** | **Exclude PS from SaaS ARR** in metrics skills unless board explicitly asks for total revenue |
 | **Consumption usage** | **Seat-based MRR** | Hybrid: platform MRR + usage true-up; McMahon/Slootman: track commit vs consumption run-rate |
 | **Earn-out / exit ARR** | **Internal dashboard ARR** | Diligence uses **committed recurring** + definitions in LOI — EBITDA earn-out ≠ MRR earn-out (`negotiating-earn-out.md`) |
 
-**Canonical deep dive:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-mrr-accounting-nuances.md` · bridge template → `skills/founder-led/saas-metrics-calculator/templates/mrr-bridge-template.md`
+**Canonical deep dive:** `references/saas-mrr-accounting-nuances.md` · bridge template → `skills/founder-led/saas-metrics-calculator/templates/mrr-bridge-template.md`
 
 **Footnote — saas-metrics-calculator vs financial-modeling:** Calculator = committed MRR formulas. Financial model revenue row may use **recognized** revenue for P&L — link both in board pack.
 
@@ -337,8 +337,8 @@ Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-clo
 - `executive-compensation/references/comp-by-role-stage.md`
 - `gtm-role-descriptions/references/comp-benchmarks.md`
 - `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-metrics-reference.md`
-- `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-mrr-accounting-nuances.md`
-- `https://github.com/LeadMagic/gtm-skills/blob/main/references/bookings-billings-revenue-matrix.md`
+- `references/saas-mrr-accounting-nuances.md`
+- `references/bookings-billings-revenue-matrix.md`
 - `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-budget-playbook.md`
 - `saas-outcomes/references/exit-metrics-matrix.md`
 - `saas-outcomes/references/bootstrap-founder-playbook.md`

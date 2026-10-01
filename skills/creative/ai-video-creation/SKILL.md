@@ -9,7 +9,7 @@ description: >-
   scaling video production without a video team. Triggers on: "AI video",
   "HeyGen", "Synthesia", "Runway AI", "AI spokesperson video", "AI ads".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -38,11 +38,11 @@ at scale.
 
 ## Authoritative Foundations
 
-- **Gary Vaynerchuk — Volume of content wins. AI makes volume possible.** — Volume of content wins. AI makes volume possible.
-- **HeyGen/Synthesia — AI spokesperson technology** — AI spokesperson technology
-- **Runway — Generative AI video** — Generative AI video
-- **Opus Clip — AI-powered video clipping** — AI-powered video clipping
-- **Descript — AI-first video editing** — AI-first video editing
+- **Gary Vaynerchuk** — Volume of content wins. AI makes volume possible.
+- **HeyGen/Synthesia** — AI spokesperson technology
+- **Runway** — Generative AI video
+- **Opus Clip** — AI-powered video clipping
+- **Descript** — AI-first video editing
 
 ## When to Use
 

@@ -8,7 +8,7 @@ description: >-
   "success story", "proof content", "customer example", "results story", or any
   request to document customer outcomes.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic
@@ -16,9 +16,9 @@ metadata:
   tags: [case-studies, customer-stories, proof, content, sales]
   related_skills: [customer-marketing, sales-enablement, roi-calculator]
   frameworks:
-    - "Challenge-Solution-Results"
-    - "Before-After-Bridge"
-    - "Nielsen Norman Group — Usability Heuristics"
+    - "Before-After-Bridge copy formula"
+    - "Joanna Wiebe (Copyhackers) — Voice-of-customer copy"
+    - "Nielsen Norman Group — How users read on the web"
 ---
 
 # Case Study Builder
@@ -34,10 +34,9 @@ The golden rule: a case study without numbers is a testimonial. Every case
 study must answer "what changed, and by how much?"
 
 ## Authoritative Foundations
-
-- **Challenge-Solution-Results** — Shapes deliverables for this skill — A case study is the most versatile proof asset in B2B.
-- **Before-After-Bridge** — Shapes deliverables for this skill — A case study is the most versatile proof asset in B2B.
-- **Nielsen Norman Group — Usability Heuristics** — Usability Heuristics
+- **Before-After-Bridge copy formula** — Structure the story as the customer's situation before, the result after, and the product as the bridge between them.
+- **Joanna Wiebe (Copyhackers) — Voice-of-customer copy** — Quote the customer's own words for the problem and result; interview transcripts beat marketing paraphrase.
+- **Nielsen Norman Group — How users read on the web** — Readers scan in an F-pattern, so lead with the metric, use subheads, and keep proof in the first screen.
 
 ## When to Use
 

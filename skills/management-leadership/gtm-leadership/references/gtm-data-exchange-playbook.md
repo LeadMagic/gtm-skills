@@ -146,7 +146,7 @@ Sources: [Jason Lemkin — Just Do The SOC-2](https://www.saastr.com/just-do-the
 - Integration credentials via scoped roles or secrets vault — not Slack
 - Field mapping doc without unnecessary columns
 
-Template: `deal-desk` → `templates/customer-data-exchange-checklist.md`
+Template: `customer-data-exchange-checklist.md` in the `deal-desk` skill
 Onboarding handoff fields: `customer-onboarding` (Sales-to-CS handoff section)
 
 ---

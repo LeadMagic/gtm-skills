@@ -1,19 +1,21 @@
 ---
 name: instantly-sequences
 description: >-
-  Set up Instantly — unlimited accounts, warmup pool, campaign optimization, unified 
-  inbox. Triggers on: "Instantly", "Instantly setup", "Instantly campaigns", "Instantly warmup".
+  Sets up and optimizes Instantly: sending accounts, warmup pool, campaign
+  settings, and the unified inbox. Use when the user is configuring Instantly
+  for cold email or diagnosing Instantly campaign performance. Triggers on:
+  "Instantly", "Instantly setup", "Instantly campaigns", "Instantly warmup".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: tools
   tags: [instantly, cold-email, warmup, outbound, campaigns]
   frameworks:
-    - "Instantly Best Practices"
-    - "Cold Email Infrastructure Standards"
-    - "Outreach — Sales Engagement Cadence Design"
+    - "Instantly Help Center"
+    - "Eric Nowoslawski — Cold email infrastructure"
+    - "Google and Yahoo — Bulk sender requirements (2024)"
 ---
 
 # Instantly Sequences
@@ -24,10 +26,9 @@ unlimited email accounts, built-in warmup pool, campaign optimization, and a uni
 inbox. This skill covers setup from infrastructure through optimization.
 
 ## Authoritative Foundations
-
-- **Instantly Best Practices** — Mailbox rotation, campaign caps, and deliverability-first sending setup.
-- **Cold Email Infrastructure Standards** — Named methodology governing recommendations in this skill's process.
-- **Outreach — Sales Engagement Cadence Design** — Sequence governance, task-based selling, and CRM-locked cadences.
+- **Instantly Help Center** — Connect sending accounts, enable warmup, and set per-account daily limits and campaign schedules before launch.
+- **Eric Nowoslawski — Cold email infrastructure** — Cold email infra at scale — 2 inboxes/domain, backup inboxes, Creative Ideas testing.
+- **Google and Yahoo — Bulk sender requirements (2024)** — Authenticate with SPF, DKIM, and DMARC, keep spam complaints below 0.3%, and honor unsubscribes quickly.
 
 ## When to Use
 - "Set up Instantly"
@@ -99,11 +100,11 @@ Before delivering, verify:
 - `scripts/check-output.py` — local checklist validator for required sections
 This skill includes lightweight artifacts the agent can load on demand:
 - `references/clay-enrollment-handoff.md` — Clay/loops → Instantly field map + verify gate
-- `../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md` — infra at scale (Eric Nowoslawski)
-- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify-before-send (Pat Spielmann)
-- `../../tools/clay-toolkit/SKILL.md` — clay-toolkit upstream enrichment
-- `../../tools/clay-loops-toolkit/references/loop-catalog.md` — signal loop routing
-- `../../../../references/gtm-experts-outbound-index.md` — expert router
+- `references/eric-nowoslawski-outbound.md` — infra at scale (Eric Nowoslawski)
+- `references/pat-spielmann-outbound-copy.md` — verify-before-send (Pat Spielmann)
+- the `clay-toolkit` skill — clay-toolkit upstream enrichment
+- `references/loop-catalog.md` — signal loop routing
+- `references/gtm-experts-outbound-index.md` — expert router
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

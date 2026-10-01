@@ -21,10 +21,12 @@ on a 90-day cadence is the minimum to maintain list health.
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Intake
+- Phase 2: Run Verification
+- Phase 3: Segment and Route
+- Phase 4: Record Keeping
 
 ## Key reference tables
 

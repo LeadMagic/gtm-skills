@@ -1,20 +1,22 @@
 ---
 name: pseo-strategy
 description: >-
-  Programmatic SEO — build scalable, template-driven content pages for long-tail
-  keywords. Triggers on: "pSEO", "programmatic SEO", "scalable SEO", "template SEO",
-  "mass content generation".
+  Plans programmatic SEO: template-driven pages for long-tail keyword patterns,
+  data sources, quality thresholds that avoid thin content, and indexation
+  control. Use when the user wants to generate landing pages at scale from a
+  dataset or keyword pattern. Triggers on: "pSEO", "programmatic SEO", "scalable
+  SEO", "template SEO", "landing pages at scale".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: content-seo
   tags: [content-seo, pSEO, programmatic, scalable, templates]
   frameworks:
-    - "Programmatic SEO Framework"
-    - "Animalz Content Strategy"
-    - "Google Search Central — SEO Starter Guide"
+    - "Google Search Central — Spam policies (scaled content abuse)"
+    - "Google Search Central — Crawl budget for large sites"
+    - "Ahrefs — Programmatic SEO"
 ---
 
 # Programmatic SEO (pSEO)
@@ -26,10 +28,9 @@ data, targeting long-tail keywords at scale. "[Category] for [Industry]",
 generate massive organic traffic when done right, and penalties when done wrong.
 
 ## Authoritative Foundations
-
-- **Programmatic SEO Framework** — Named methodology governing recommendations in this skill's process.
-- **Animalz Content Strategy** — Named methodology governing recommendations in this skill's process.
-- **Google Search Central — SEO Starter Guide** — SEO Starter Guide
+- **Google Search Central — Spam policies (scaled content abuse)** — Pages generated at scale must give each query unique value; mass-produced pages written mainly to rank violate policy.
+- **Google Search Central — Crawl budget for large sites** — Control indexation with sitemaps, canonicals, and noindex for thin variants so crawl budget goes to the pages that matter.
+- **Ahrefs — Programmatic SEO** — Find repeatable keyword patterns with real demand, and back each template with a dataset that makes every page different.
 
 ## When to Use
 - "Build programmatic SEO"
@@ -156,7 +157,7 @@ A strong output from this skill includes:
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
 - `references/seo-strategy-playbook.md` — Repo root: §5 programmatic SEO and thin-content gates
-- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 3)
+- the `using-gtm-skills` skill — Pattern 25: B2B SEO Stack (step 3)
 
 ## Related Skills
 - seo-strategy, aeo-strategy, content-marketing, list-building, data-enrichment-strategy

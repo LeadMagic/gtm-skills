@@ -4,13 +4,10 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **Bain & Company — NPS (Net Promoter System, Fred Reichheld)**
-- **Gainsight — Customer Advocacy Maturity Model**
-- **Influitive — Advocate Marketing**
-- **SaaSquatch — Customer-Led Growth**
-- **Varun Anand (Clay) — Community Selling & Ecosystem GTM**
-- **Aneesh Lal (Wishly Group) — B2B Creator Partnerships & Advocacy**
-- **Dharmesh Shah (HubSpot) — Flywheel Delight & Customer Advocacy**
+- **Bain & Company — Net Promoter System (Fred Reichheld)** — Route promoters to advocacy asks, and close the loop with detractors before asking anyone for a reference.
+- **Gainsight — Customer success** — Trigger advocacy asks from health scores and outcome milestones, not from the calendar.
+- **Influitive — Advocate marketing** — Give advocates a program of small, rewarding actions (reviews, referrals, references) that build toward bigger asks.
+- **HubSpot — Flywheel** — Delighted customers feed acquisition; design customer marketing so referrals and reviews reduce acquisition cost.
 
 ## Deep-dive references
 

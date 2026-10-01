@@ -5,7 +5,7 @@ description: >-
   seller, building sales process from scratch, transitioning from founder-led to
   AE-led, or designing demo/negotiation/close motions as a technical founder.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic
@@ -83,7 +83,7 @@ potential prospects") and narrow to ICP, then to the small subset most likely to
 now, at the highest price, and renew — "you only need ~10 of ~380 to say yes." Apply
 the **"Earn the Right"** gate to every founder email (incl. VC outreach): say
 something relevant before any ask. Full playbook →
-`skills/outbound/cold-email-strategy/references/leslie-venetz-buyer-first-outbound.md`.
+`references/leslie-venetz-buyer-first-outbound.md`.
 
 ## Step-by-Step Process
 
@@ -261,7 +261,7 @@ Before delivering, verify:
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-- `skills/outbound/cold-email-strategy/references/leslie-venetz-buyer-first-outbound.md` — Founder buyer-first outbound, TAM→ICP narrowing, Earn-the-Right gate (Leslie Venetz)
+- `references/leslie-venetz-buyer-first-outbound.md` — Founder buyer-first outbound, TAM→ICP narrowing, Earn-the-Right gate (Leslie Venetz)
 
 ## Related Skills
 

@@ -2,7 +2,7 @@
 
 # Aneesh Lal — B2B Creator & Influencer GTM (Wishly Group)
 
-**Canonical expert reference** for B2B LinkedIn creator partnerships. Master guide → `https://github.com/LeadMagic/gtm-skills/blob/main/references/b2b-influencer-strategy.md`. Measurement → `https://github.com/LeadMagic/gtm-skills/blob/main/references/b2b-influencer-measurement.md`.
+**Canonical expert reference** for B2B LinkedIn creator partnerships. Master guide → `references/b2b-influencer-strategy.md`. Measurement → `references/b2b-influencer-measurement.md`.
 
 **Identity:** **Aneesh Lal** — Founder, **The Wishly Group** (founded June 2022). Former media sales (Coca-Cola, Pinterest); former Head of Community, RevGenius. Publicly nicknamed the "Jerry Maguire of LinkedIn" for B2B creator representation.
 
@@ -107,7 +107,7 @@ Three steps Aneesh cites for finance skeptics:
 2. **Case studies** — comparable B2B campaigns with documented outcomes (e.g., $200K spend → 7:1 return in 4 months cited in PartnerStack profile)
 3. **Data specificity** — ABM list ∩ creator audience overlap via Sales Navigator + Clay
 
-Cross-link: `https://github.com/LeadMagic/gtm-skills/blob/main/references/b2b-influencer-measurement.md` · Chris Walker dark social (`https://github.com/LeadMagic/gtm-skills/blob/main/references/chris-walker-mental-models.md`).
+Cross-link: `references/b2b-influencer-measurement.md` · Chris Walker dark social (`references/chris-walker-mental-models.md`).
 
 ---
 
@@ -153,9 +153,9 @@ Cross-link: `https://github.com/LeadMagic/gtm-skills/blob/main/references/b2b-in
 
 | Topic | Where |
 |---|---|
-| Dark social / demand creation | `https://github.com/LeadMagic/gtm-skills/blob/main/references/chris-walker-mental-models.md` · Pattern 26 (`using-gtm-skills`) |
-| Awareness lifecycle stage | `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-lifecycle-stages.md` (stage 1) |
-| UTM limits for influencer | `campaign-governance` → `utm-governance.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/b2b-influencer-measurement.md` |
+| Dark social / demand creation | `references/chris-walker-mental-models.md` · Pattern 26 (`using-gtm-skills`) |
+| Awareness lifecycle stage | `references/gtm-lifecycle-stages.md` (stage 1) |
+| UTM limits for influencer | `campaign-governance` → `utm-governance.md` · `references/b2b-influencer-measurement.md` |
 | Strategic gifting (physical touch) | `abm/strategic-gifting` (John Ruhlin) — complements creator partnerships |
 | Community + creator flywheel | `customer-marketing` → `community-selling-varun.md` |
 | LinkedIn social selling (internal) | `inbound/social-selling` |

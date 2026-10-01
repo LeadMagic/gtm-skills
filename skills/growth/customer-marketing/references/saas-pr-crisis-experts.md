@@ -103,6 +103,6 @@ Full index also in `https://github.com/LeadMagic/gtm-skills/blob/main/references
 
 ## Related repo artifacts
 
-- `https://github.com/LeadMagic/gtm-skills/blob/main/references/crisis-management-playbook.md` — canonical response
+- `references/crisis-management-playbook.md` — canonical response
 - `https://github.com/LeadMagic/gtm-skills/blob/main/references/crisis-preparedness-checklist.md` — before crisis
 - `skills/management-leadership/gtm-leadership/templates/crisis-*.md` — statement shells

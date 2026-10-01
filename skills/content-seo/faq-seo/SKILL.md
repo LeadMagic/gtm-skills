@@ -1,11 +1,13 @@
 ---
 name: faq-seo
 description: >-
-  Build FAQ pages that capture featured snippets and People Also Ask traffic —
-  question-driven content strategy. Triggers on: "FAQ SEO", "featured snippet",
-  "People Also Ask", "question SEO", "answer content".
+  Builds question-driven FAQ content that wins featured snippets and People Also
+  Ask placements: question research, answer formatting, FAQ schema, and page
+  placement. Use when the user wants to target featured snippets, PAA boxes, or
+  voice search, or needs an FAQ page that ranks. Triggers on: "FAQ SEO",
+  "featured snippet", "People Also Ask", "question SEO", "answer content".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -13,8 +15,8 @@ metadata:
   tags: [content-seo, faq, featured-snippets, people-also-ask, questions]
   frameworks:
     - "Google Search Central — SEO Starter Guide"
-    - "Google Search Central — SEO Starter Guide"
-    - "Google Search Central — SEO Starter Guide"
+    - "Schema.org FAQPage Specification"
+    - "Ahrefs — People Also Ask Mining"
 ---
 
 # FAQ SEO
@@ -34,7 +36,6 @@ covers question-driven content strategy.
   and AI engine parsing of question-and-answer content.
 - **Ahrefs — People Also Ask Mining** — Research methodology for identifying and
   prioritizing question-based content from search engine PAA boxes.
-- **Google Search Central — SEO Starter Guide** — SEO Starter Guide
 
 ## When to Use
 
@@ -115,8 +116,9 @@ Implement FAQ schema on every question page:
 }
 ```
 
-This makes your content eligible for rich results in Google — the expandable
-Q&A format that takes up significant SERP real estate.
+Since August 2023, Google shows FAQ rich results only for well-known government
+and health sites, so do not promise expandable FAQ listings. The markup still
+helps search and AI engines parse each question-answer pair.
 
 ### Phase 5: Measurement
 
@@ -155,7 +157,7 @@ Before delivering, verify:
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
 - `references/seo-strategy-playbook.md` — Repo root: §4 schema, §8 AEO overlap
-- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 4)
+- the `using-gtm-skills` skill — Pattern 25: B2B SEO Stack (step 4)
 
 ## Related Skills
 

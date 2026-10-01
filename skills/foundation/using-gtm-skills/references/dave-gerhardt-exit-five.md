@@ -4,7 +4,7 @@
 
 **Sources:** Dave Gerhardt — [Exit Five](https://exitfive.com/) · [Exit Five LinkedIn](https://www.linkedin.com/company/exit-five/) · former CMO Drift · 💼 [LinkedIn](https://www.linkedin.com/in/davegerhardt/) · 𝕏 [@davegerhardt](https://x.com/davegerhardt) · 🎙 [Exit Five podcast](https://exitfive.com/podcast)
 
-**Canonical expert entry:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` → Dave Gerhardt
+**Canonical expert entry:** `references/experts.md` → Dave Gerhardt
 
 ---
 
@@ -74,4 +74,4 @@ Pair with HubSpot inbound (Dharmesh) for lifecycle capture.
 
 `content-led-growth`, `founder-brand`, `vibe-marketing`, `content-marketing`, `job-posting-strategy`, `copywriting`
 
-**Cross-links:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/dharmesh-shah-hubspot-inbound.md` · Pattern 27 vs 26 in `using-gtm-skills`
+**Cross-links:** `references/dharmesh-shah-hubspot-inbound.md` · Pattern 27 vs 26 in `using-gtm-skills`

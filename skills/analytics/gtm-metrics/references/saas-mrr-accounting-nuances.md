@@ -2,7 +2,7 @@
 
 # SaaS MRR & ARR Accounting Nuances
 
-**Canonical home:** `saas-metrics-calculator` (operational metrics) · cross-link `financial-modeling` (P&L/cash) · reconcile definitions → `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md`.
+**Canonical home:** `saas-metrics-calculator` (operational metrics) · cross-link `financial-modeling` (P&L/cash) · reconcile definitions → `references/benchmark-reconciliation.md`.
 
 **Audience:** GTM founders and RevOps operators who need to **audit metrics**, align CRM with finance, and talk credibly to CPAs — **not** a GAAP textbook or CPA replacement.
 
@@ -56,7 +56,7 @@ Revenue **recognized in the period** under ASC 606, expressed monthly. Differs f
 | Recognized MRR | GAAP reconciliation, audit |
 | Billings MRR | Cash forecasting, collections |
 
-**Rule:** Never compare your private committed ARR to Meritech **implied ARR** (Q revenue × 4) without a footnote — see `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md`.
+**Rule:** Never compare your private committed ARR to Meritech **implied ARR** (Q revenue × 4) without a footnote — see `references/meritech-saas-benchmarks.md`.
 
 ---
 
@@ -124,7 +124,7 @@ Template → `skills/founder-led/saas-metrics-calculator/templates/mrr-bridge-te
 
 **RevOps bridge:** Don't apply seat-based MRR formulas to pure usage without a **committed floor**. Hybrid: platform fee (MRR) + variable usage (monthly true-up).
 
-Cross-link: `financial-modeling` consumption section · `gtm-metrics` Slootman row · `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md` (consumption metrics).
+Cross-link: `financial-modeling` consumption section · `gtm-metrics` Slootman row · `references/benchmark-reconciliation.md` (consumption metrics).
 
 ---
 
@@ -193,7 +193,7 @@ Handoff trigger: first enterprise MSAs with custom terms, multi-year ramps, or s
 
 ## Bookings vs Billings vs Revenue
 
-Deep matrix → `https://github.com/LeadMagic/gtm-skills/blob/main/references/bookings-billings-revenue-matrix.md`.
+Deep matrix → `references/bookings-billings-revenue-matrix.md`.
 
 **Quick GTM vs finance:**
 
@@ -211,8 +211,8 @@ Deep matrix → `https://github.com/LeadMagic/gtm-skills/blob/main/references/bo
 |---|---|
 | Formulas & benchmarks | `saas-metrics-calculator`, `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-metrics-reference.md` |
 | Exit weight by metric | `saas-metrics-calculator/references/metric-definitions-exit-weight.md` |
-| Public implied ARR | `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md` |
-| Conflicting thresholds | `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md` |
+| Public implied ARR | `references/meritech-saas-benchmarks.md` |
+| Conflicting thresholds | `references/benchmark-reconciliation.md` |
 | Earn-out / EBITDA vs MRR | `exiting-company/references/negotiating-earn-out.md`, `benchmark-reconciliation.md` |
 | Budget & headcount tie | `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-budget-playbook.md` |
 | Consumption modeling | `financial-modeling` SKILL — consumption section |

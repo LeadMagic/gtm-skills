@@ -4,13 +4,13 @@ description: >-
   Complete guide to using the gtm-skills repository — installation, skill
   discovery, skill loading, combining skills, taxonomy navigation, CLI
   workflows, and advanced patterns for every supported AI system (Claude Code,
-  Jesse, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI).
+  Cursor, Codex, Hermes, Windsurf, OpenCode, GitHub Copilot, Gemini CLI).
   The master key to the entire library. Use when first installing gtm-skills,
   discovering which skills to load, or building multi-skill workflows.
   Triggers on: "gtm-skills", "install gtm-skills", "how to use gtm-skills",
   "skill discovery", "which skills to load", "getting started with skills".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -168,7 +168,6 @@ Use `./install.sh` (wraps `scripts/install-tui.py`). Full per-system guide: `doc
 | 7 | Windsurf | `windsurf` | `.agents/skills/<skill-name>/` via `gh skill` |
 | 8 | Goose | `goose` | `.agents/skills/<skill-name>/` via `gh skill` |
 | 9 | Hermes | `hermes` | `.agents/skills/<skill-name>/` via universal Agent Skills |
-| 10 | Jesse | `jesse` | `.jesse/skills/<skill-name>/` |
 
 ### Quick install
 
@@ -176,7 +175,7 @@ Use `./install.sh` (wraps `scripts/install-tui.py`). Full per-system guide: `doc
 gh repo clone LeadMagic/gtm-skills
 cd gtm-skills
 ./install.sh --target codex --scope project
-./install.sh --target jesse --scope project --project /path/to/project
+./install.sh --target cursor --scope project --project /path/to/project
 ./install.sh --target all --dry-run
 ```
 
@@ -503,8 +502,8 @@ playbook, they do not write it.
 
 | Task | Skill | Artifact |
 |---|---|---|
-| Buyer-led screen-share demo | `demo-scripts` | `skills/sales-revops/demo-scripts/references/reverse-demo-varun.md` |
-| Community → pipeline | `customer-marketing` | `skills/growth/customer-marketing/references/community-selling-varun.md` |
+| Buyer-led screen-share demo | `demo-scripts` | `references/reverse-demo-varun.md` |
+| Community → pipeline | `customer-marketing` | `references/community-selling-varun.md` |
 | Clay-style ecosystem GTM | `customer-marketing` + `startup-communities` | Slack onboarding + creator loops |
 | Pair with discovery | `meeting-prep` | Great Demo! incumbent walkthrough before reverse demo |
 
@@ -512,14 +511,14 @@ playbook, they do not write it.
 
 | Task | Skill | Artifact |
 |---|---|---|
-| High-velocity SDR taxonomy | `sales-team-building` | `skills/founder-led/sales-team-building/references/henry-schuck-sdr-model.md` |
+| High-velocity SDR taxonomy | `sales-team-building` | `references/henry-schuck-sdr-model.md` |
 | Inbound SDR machine | `sales-team-building` + `revenue-team-onboarding` | ramp-benchmarks (inbound SDR) |
 | Public-company GTM KPIs | `gtm-metrics` | `public-company-gtm-metrics` reference |
 | Data-as-product routing | `sales-team-building` + `lead-enrichment` | Intent + enrichment queue design |
 
 ### Skill Map: GTM Ops Cluster
 
-Router: `gtm-operations` → `skills/gtm-ops/gtm-operations/references/gtm-ops-skill-index.md`. Load order for new RevOps hire:
+Router: `gtm-operations` → `references/gtm-ops-skill-index.md`. Load order for new RevOps hire:
 
 1. `revops-tech-stack` — inventory + bowtie map
 2. `gtm-tool-cost-model` — TCO budget
@@ -839,7 +838,7 @@ For complex GTM projects, load the entire stack:
 1. references/crisis-management-playbook.md (canonical — severity matrix, first 60 min, war room)
 2. gtm-leadership (executive home — CEO voice, layoffs, difficult stakeholder truth)
 3. references/crisis-preparedness-checklist.md (before crisis — contact tree, status page, tabletop)
-4. skills/management-leadership/gtm-leadership/templates/crisis-holding-statement.md + crisis-customer-email.md + crisis-internal-memo.md + crisis-faq-for-support.md
+4. the `gtm-leadership` skill (crisis-holding-statement.md) + crisis-customer-email.md + crisis-internal-memo.md + crisis-faq-for-support.md
 5. cs-playbooks + customer-marketing (customer email, G2/TR, advocacy pause)
 6. investor-updates (Sev 3+ investor/board addendum — Lemkin: never skip bad months)
 7. deal-desk/references/legal-gtm-playbook.md (counsel before statements — Pattern 29)
@@ -860,11 +859,11 @@ For complex GTM projects, load the entire stack:
 ```
 1. references/gtm-budget-playbook.md (canonical budget — S&M/R&D/G&A, scenarios, variance cadence)
 2. financial-modeling (bottom-up P&L, headcount, runway, accounting stack timing)
-3. skills/gtm-ops/gtm-spend-management/templates/annual-gtm-budget-worksheet.md
+3. the `gtm-spend-management` skill (annual-gtm-budget-worksheet.md)
 4. gtm-spend-management (vendor/tool lines, Ramp roster, spend-by-stage caps)
 5. saas-metrics-calculator (committed MRR formulas, benchmarks)
 6. references/saas-mrr-accounting-nuances.md (canonical — committed vs recognized vs billings)
-7. skills/founder-led/saas-metrics-calculator/templates/mrr-bridge-template.md
+7. the `saas-metrics-calculator` skill (mrr-bridge-template.md)
 8. references/bookings-billings-revenue-matrix.md (CRM vs GAAP gap)
 9. references/saas-tax-founder-awareness.md (nexus, VAT, R&D credit, QSBS, 409A — CPA handoffs)
 10. references/benchmark-reconciliation.md (MRR/ARR definition row, Meritech implied ARR)
@@ -1098,7 +1097,7 @@ Clay enriches; n8n routes at SLA; MCP agents draft/research — never loop
 ### Pattern 28: HR GTM / People Ops for Revenue Teams (Stacey Nordwall)
 ```
 1. gtm-role-descriptions/references/hr-gtm-playbook.md (canonical — onboarding, manager enablement, remote GTM)
-2. `gtm-role-descriptions` + `skills/founder-led/gtm-role-descriptions/references/comp-benchmarks.md` (Bridge Group bands; Pavilion validate)
+2. `gtm-role-descriptions` + `references/comp-benchmarks.md` (Bridge Group bands; Pavilion validate)
 3. hiring-by-role (structured interviews — re:Work, Roberge traits)
 4. revenue-team-onboarding (30-60-90, ramp-benchmarks, security day 0)
 5. employment-compliance (W-2 default for SDR/AE; commission documentation)
@@ -1164,8 +1163,8 @@ Clay enriches; n8n routes at SLA; MCP agents draft/research — never loop
 1. references/gtm-lifecycle-stages.md (canonical 7 stages + Bowtie + team ramp)
 2. references/activation-playbook.md (first value event, TTA benchmarks, audit)
 3. references/lifecycle-metrics-by-stage.md (formulas + R/Y/G thresholds)
-4. skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md (weekly/monthly cadence)
-5. skills/analytics/gtm-metrics/templates/stage-health-scorecard.md (leadership rollup)
+4. the `gtm-metrics` skill (lifecycle-monitoring-dashboard.md) (weekly/monthly cadence)
+5. the `gtm-metrics` skill (stage-health-scorecard.md) (leadership rollup)
 6. Stage skills — load by need (see routing table below)
 ```
 
@@ -1224,7 +1223,7 @@ visitor ID is attributable; dark social is not. Pair Pattern 26 + 20.
 2. references/b2b-influencer-strategy.md (program types: paid creators, employee advocates, affiliates)
 3. customer-marketing (canonical skill — Phase 6; distinguish external vs employee vs customer champions)
 4. social-selling (LinkedIn visibility, post-engagement nurture, SSI for employee advocates)
-5. skills/growth/customer-marketing/templates/b2b-influencer-program-brief.md + influencer-partnership-scorecard.md
+5. the `customer-marketing` skill (b2b-influencer-program-brief.md) + influencer-partnership-scorecard.md
 6. campaign-governance (per-creator UTMs, landing pages — utm_medium=influencer)
 7. references/b2b-influencer-measurement.md + gtm-metrics (CRM lookback, Clay scrape, dark social)
 8. references/chris-walker-mental-models.md (90-day eval; do not kill at 2 weeks on last-click)

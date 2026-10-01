@@ -6,13 +6,13 @@ description: >-
   running a fundraise process, evaluating term sheets, or planning fundraising
   timeline. Covers SAFE, priced rounds, and bootstrapper alternatives.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.2.0"
   author: LeadMagic
   category: founder-led
   tags: [fundraising, venture capital, SAFE, term sheet, pitch deck, seed, series-a, bootstrapper]
-  related_skills: [financial-modeling, investor-updates, pitch-deck-builder, pricing-strategy, cap-table-management, saas-outcomes, saas-metrics-calculator, vc-outreach]
+  related_skills: [financial-modeling, investor-updates, pitch-deck-builder, pricing-strategy, equity-management, saas-outcomes, saas-metrics-calculator, vc-outreach]
   frameworks:
     - "Jason Lemkin (SaaStr) — ARR-based fundraising benchmarks"
     - "Christoph Janz (Point Nine) — SaaS napkin to unicorn"
@@ -319,9 +319,9 @@ Consult qualified professionals for your specific situation — attorneys for le
 - `templates/output-template.md` — deliverable shell
 - `scripts/check-output.py` — deliverable validator
 - `references/vc-milestone-gates.md` — metric gates by round
-- `references/saas-mrr-accounting-nuances.md` — ARR definitions for diligence (repo root)
-- `references/gtm-budget-playbook.md` — operating budget for data room (repo root)
-- `references/saas-tax-founder-awareness.md` — CPA handoffs pre-close (repo root)
+- `references/saas-mrr-accounting-nuances.md` — ARR definitions for diligence
+- `references/gtm-budget-playbook.md` — operating budget for data room
+- `references/saas-tax-founder-awareness.md` — CPA handoffs pre-close
 **Cross-skill (journey / exit):** `saas-outcomes/references/journey-stage-gates.md`, `saas-outcomes/references/bootstrap-vs-vc-paths.md`, `saas-outcomes/references/bootstrap-founder-playbook.md`, `saas-outcomes/templates/bootstrap-capital-plan.md`, `saas-outcomes/references/end-goal-matrix.md`, `saas-outcomes/templates/journey-planning-worksheet.md`, `financial-modeling/references/unit-economics-exit-bridge.md`, `saas-metrics-calculator/references/metric-definitions-exit-weight.md`, `exiting-company/references/buyer-readiness-checklist.md`, `exiting-company/references/negotiating-earn-out.md`, `references/benchmark-reconciliation.md`
 
 ## Related Skills

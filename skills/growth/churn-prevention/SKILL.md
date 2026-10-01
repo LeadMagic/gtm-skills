@@ -9,7 +9,7 @@ description: >-
   "customer retention", "churn prediction", "save customers", "re-engagement",
   or any request about keeping customers from canceling.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic
@@ -149,7 +149,7 @@ thresholds), re-engagement playbook per risk tier, and monitoring dashboard spec
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Retention) · `references/lifecycle-metrics-by-stage.md` · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md`
+**Canonical lifecycle:** `references/gtm-lifecycle-stages.md` (Retention) · `references/lifecycle-metrics-by-stage.md` · the `gtm-metrics` skill (stage-health-scorecard.md)
 
 ## Related Skills
 

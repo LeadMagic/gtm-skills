@@ -8,7 +8,7 @@ description: >-
   "compliance", "security audit", "enterprise security", "security questionnaire",
   "Type II", or any request about security compliance for SaaS.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -16,11 +16,10 @@ metadata:
   tags: [soc2, compliance, security, enterprise, saas]
   related_skills: [building-saas, saas-metrics-calculator]
   frameworks:
-    - "AICPA Trust Services Criteria"
-    - "SOC2 Type II Framework"
-    - "Paul Graham — Do Things That Do Not Scale"
-    - "Jason Lemkin (SaaStr) — SOC 2 as enterprise sales gate"
-    - "Eunice Buhler (G2) — Sales-legal alignment on security review timing"
+    - "AICPA — Trust Services Criteria"
+    - "AICPA — SOC 2 Type I vs Type II"
+    - "Jason Lemkin (SaaStr) — SOC 2 as an enterprise sales gate"
+    - "Vanta and Drata — Compliance automation"
 ---
 
 # SOC2 Compliance
@@ -37,12 +36,10 @@ you compliant between audits. Budget ~$20-50K for first-year audit. Timeline:
 4-6 months for Type I, 6-12 months observation period for Type II.
 
 ## Authoritative Foundations
-
-- **AICPA Trust Services Criteria** — Shapes deliverables for this skill — SOC2 Type II is the standard security compliance framework for B2B SaaS.
-- **SOC2 Type II Framework** — Shapes deliverables for this skill — SOC2 Type II is the standard security compliance framework for B2B SaaS.
-- **Paul Graham — Do Things That Do Not Scale** — Do Things That Do Not Scale
-- **Jason Lemkin (SaaStr) — SOC 2 as enterprise sales gate** — Trust service criteria — security, availability, confidentiality controls.
-- **Eunice Buhler (G2) — Sales-legal alignment on security review timing** — Review recency and volume drive Grid placement; ethical ask timing only.
+- **AICPA — Trust Services Criteria** — Security is required; add Availability, Processing Integrity, Confidentiality, and Privacy only when customers need them.
+- **AICPA — SOC 2 Type I vs Type II** — Type I tests control design at a point in time; Type II tests operating effectiveness over a 3-12 month window, which enterprise buyers expect.
+- **Jason Lemkin (SaaStr) — SOC 2 as an enterprise sales gate** — Start SOC 2 before the first large enterprise deal requires it; the audit window takes months.
+- **Vanta and Drata — Compliance automation** — Automate evidence collection and control monitoring to shorten readiness and keep controls passing between audits.
 
 ## When to Use
 

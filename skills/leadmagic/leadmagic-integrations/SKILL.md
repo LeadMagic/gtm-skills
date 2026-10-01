@@ -8,18 +8,16 @@ description: >-
   "LeadMagic + Clay", "LeadMagic + HubSpot", "LeadMagic + Salesforce", or any
   platform integration request.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.1"
   author: LeadMagic
   category: leadmagic
   tags: [leadmagic, integrations, clay, smartlead, hubspot, salesforce, zapier]
   frameworks:
-    - iPaaS Integration Patterns
-    - Zapier/Make Automation
-    - CRM Enrichment Workflows
-    - Pat Spielmann — Cold to Gold
-    - Pat Spielmann — Full-Circle Multichannel
+    - "LeadMagic docs — Integrations"
+    - "Zapier and Make — Trigger/action automation"
+    - "Salesforce — Duplicate and matching rules"
   related_skills: [leadmagic-cli, leadmagic-waterfall, crm-integration, clay-automation]
 ---
 
@@ -32,12 +30,9 @@ integration setup, data flow patterns, and the verification-at-send principle:
 every contact entering a sequence must pass verification first.
 
 ## Authoritative Foundations
-
-- **iPaaS Integration Patterns** — Shapes deliverables for this skill — LeadMagic integrates natively with every major GTM platform.
-- **Zapier/Make Automation** — Shapes deliverables for this skill — LeadMagic integrates natively with every major GTM platform.
-- **CRM Enrichment Workflows** — Shapes deliverables for this skill — LeadMagic integrates natively with every major GTM platform.
-- **Pat Spielmann — Cold to Gold** — Cold to Gold
-- **Pat Spielmann — Full-Circle Multichannel** — Full-Circle Multichannel
+- **LeadMagic docs — Integrations** — Use the native integrations where they exist before building custom API glue.
+- **Zapier and Make — Trigger/action automation** — Build trigger → enrich → write-back flows with error paths and rate-limit-aware scheduling.
+- **Salesforce — Duplicate and matching rules** — Match on email and domain before writing enriched records back so enrichment never creates duplicates.
 
 ## When to Use
 
@@ -121,12 +116,12 @@ Before delivering, verify:
 - `templates/output-template.md` — integration config + verify gate deliverable
 - `scripts/check-output.py` — local checklist validator for required sections
 This skill includes lightweight artifacts the agent can load on demand:
-- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — stack integration + outbound message audit (Pat Spielmann — LeadMagic)
+- `references/pat-spielmann-outbound-copy.md` — stack integration + outbound message audit (Pat Spielmann — LeadMagic)
 - `references/integration-checklist.md` — go-live checklist per platform (Clay, Smartlead, CRM, n8n)
-- `../leadmagic-waterfall/references/waterfall-column-spec.md` — Clay column spec
-- `../../tools/clay-toolkit/SKILL.md` — clay-toolkit native integration
-- `../../tools/smartlead-workflows/references/clay-enrollment-handoff.md` — sequencer handoff
-- `../../../../references/gtm-experts-outbound-index.md` — expert router
+- `references/waterfall-column-spec.md` — Clay column spec
+- the `clay-toolkit` skill — clay-toolkit native integration
+- the `smartlead-workflows` skill (clay-enrollment-handoff.md) — sequencer handoff
+- `references/gtm-experts-outbound-index.md` — expert router
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

@@ -9,13 +9,13 @@ description: >-
   "v0 by Vercel", "v0 landing page", "build landing page with AI", "v0
   pricing page", "v0 tutorial".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: creative
   tags: [v0, vercel, landing-page, ai-ui, generative-ui, react, nextjs, tailwind]
-  related_skills: [vibe-coding, vibe-marketing, landing-pages, design-system-gtm, popular-web-designs, claude-design, ui-ux-gtm]
+  related_skills: [vibe-coding, vibe-marketing, landing-pages, design-system-gtm, ui-ux-gtm]
   frameworks:
     - "v0 by Vercel — Generative UI platform (Guillermo Rauch)"
     - "shadcn/ui — Component library powering v0"
@@ -36,10 +36,10 @@ page with v0.
 
 ## Authoritative Foundations
 
-- **v0 by Vercel — Generative UI platform (Guillermo Rauch)** — Generative UI platform (Guillermo Rauch)
-- **shadcn/ui — Component library powering v0** — Component library powering v0
-- **Tailwind CSS — Utility-first CSS framework** — Utility-first CSS framework
-- **Next.js — React framework for production** — React framework for production
+- **v0 by Vercel** — Generative UI platform (Guillermo Rauch)
+- **shadcn/ui** — Component library powering v0
+- **Tailwind CSS** — Utility-first CSS framework
+- **Next.js** — React framework for production
 
 ## When to Use
 
@@ -379,7 +379,7 @@ Before delivering, verify:
 
 ## Related Skills
 
-- `vibe-coding` — Full AI dev tools comparison (v0, Lovable, Bolt, Jesse)
+- `vibe-coding` — Full AI dev tools comparison (v0, Lovable, Bolt, Cursor)
 - `vibe-marketing` — AI-powered marketing content at scale
 - `landing-pages` — CRO audits, conversion optimization patterns
 - `design-system-gtm` — Brand tokens, CSS variables for consistent AI output

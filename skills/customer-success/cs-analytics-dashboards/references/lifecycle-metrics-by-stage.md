@@ -55,7 +55,7 @@ Stage-aware benchmarks follow David Skok, ChartMogul/OpenView, and WbD bowtie ec
 
 **Cadence:** Daily stuck review; weekly activation funnel.
 **Skills:** `customer-onboarding`, `onboarding-sequences`, `cs-analytics-dashboards`
-**Deep dive:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/activation-playbook.md`
+**Deep dive:** `references/activation-playbook.md`
 
 ---
 

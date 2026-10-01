@@ -23,11 +23,13 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Domain Acquisition
+- Phase 2: Mailbox Provider Selection
+- Phase 3: DNS Authentication (Non-Negotiable)
+- Phase 4: Warmup (2-4 Weeks Minimum)
+- Phase 5: Infrastructure Players
 
 ## Key reference tables
 

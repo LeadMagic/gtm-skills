@@ -3,7 +3,7 @@ name: gtm-metrics
 description: >-
   Build a GTM metrics system for SaaS: funnel conversion, pipeline velocity, win rates, CAC, payback, NRR, sales efficiency, growth accounting, and executive dashboards. Use when creating metrics dashboards, board reports, revenue reviews, operating cadence, or diagnosing growth constraints.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.4.0"
   author: LeadMagic
@@ -449,16 +449,16 @@ This skill includes lightweight artifacts the agent can load on demand:
 - `references/b2b-influencer-measurement.md` — Influencer ROI, dark social, UTM limits (Wishly + Walker)
 - `references/chris-walker-mental-models.md` — Dark social, demand creation frequency
 - `references/public-company-gtm-metrics.md` — Henry Schuck / ZoomInfo earnings-season KPI stack
-- `references/saas-mrr-accounting-nuances.md` — MRR variants, consumption, GAAP reconcile (repo root)
-- `references/bookings-billings-revenue-matrix.md` — CRM vs finance ledger (repo root)
-- `skills/founder-led/saas-metrics-calculator/templates/mrr-bridge-template.md` — bridge worksheet (saas-metrics-calculator skill)
-- `../../management-leadership/gtm-leadership/references/cro-enterprise-strategy.md` — McMahon board metrics, Snowflake consumption KPIs (Pattern 31)
+- `references/saas-mrr-accounting-nuances.md` — MRR variants, consumption, GAAP reconcile
+- `references/bookings-billings-revenue-matrix.md` — CRM vs finance ledger
+- the `saas-metrics-calculator` skill (mrr-bridge-template.md) — bridge worksheet (saas-metrics-calculator skill)
+- `references/cro-enterprise-strategy.md` — McMahon board metrics, Snowflake consumption KPIs (Pattern 31)
 - `references/gtm-metrics-scorecard.md` — standardized metric formulas by motion (sales-led, PLG, CS)
 **Canonical lifecycle:**
-- `references/lifecycle-metrics-by-stage.md` — Per-stage formulas + R/Y/G (repo root)
+- `references/lifecycle-metrics-by-stage.md` — Per-stage formulas + R/Y/G
 - `templates/lifecycle-monitoring-dashboard.md` — Weekly/monthly review
 - `templates/stage-health-scorecard.md` — Leadership rollup
-- `references/gtm-lifecycle-stages.md` — 7-stage index + Bowtie (repo root)
+- `references/gtm-lifecycle-stages.md` — 7-stage index + Bowtie
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 **Cross-skill (exit/valuation):** `saas-metrics-calculator/references/metric-definitions-exit-weight.md`, `financial-modeling/references/unit-economics-exit-bridge.md`, `saas-outcomes/references/exit-metrics-matrix.md`
 

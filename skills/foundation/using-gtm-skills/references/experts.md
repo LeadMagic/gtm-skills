@@ -260,7 +260,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Contrast:** **Mark Roberge** = HubSpot sales machine. **Chris Walker** = demand creation / dark social (ungated education) — pair with inbound flywheel, don't conflate (`using-gtm-skills` Pattern 27 + 26).
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/dharmesh-shah-hubspot-inbound.md` (canonical)
+**Artifacts:** `references/dharmesh-shah-hubspot-inbound.md` (canonical)
 
 **Skills:** `content-marketing`, `inbound-triage`, `landing-pages`, `customer-marketing`, `freemium-optimization`, `hubspot-setup`, `gtm-metrics`, `referral-programs`, `website-visitor-identification`, `mql-nurture`
 
@@ -281,9 +281,9 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Skills:** `founder-sales`, `sales-team-building`, `gtm-leadership`, `solo-founder-gtm`, `saas-outcomes`, `gtm-spend-management`, `fundraising-strategy`, `exiting-company`, `board-meeting-prep`, `deal-desk`, `soc2-compliance`, `investor-updates`, Pattern 33
 
-**Crisis comms framing:** Never skip investor updates in bad months; explain stumbles before MRR shows it; own mistakes fast. Source: [Handling Bad News](https://www.saastr.com/handling-bad-news/) · `https://github.com/LeadMagic/gtm-skills/blob/main/references/crisis-management-playbook.md`
+**Crisis comms framing:** Never skip investor updates in bad months; explain stumbles before MRR shows it; own mistakes fast. Source: [Handling Bad News](https://www.saastr.com/handling-bad-news/) · `references/crisis-management-playbook.md`
 
-**GTM security framing:** Treat SOC 2 as a **sales unblock** — most B2B buyers require security assessment before purchase; doing compliance early avoids late-stage procurement stalls. GTM playbooks → `https://github.com/LeadMagic/gtm-skills/blob/main/references/security-questionnaire-deal-guide.md`, `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-data-exchange-playbook.md`. Source: [Just Do The SOC-2](https://www.saastr.com/just-do-the-soc-2/)
+**GTM security framing:** Treat SOC 2 as a **sales unblock** — most B2B buyers require security assessment before purchase; doing compliance early avoids late-stage procurement stalls. GTM playbooks → `references/security-questionnaire-deal-guide.md`, `references/gtm-data-exchange-playbook.md`. Source: [Just Do The SOC-2](https://www.saastr.com/just-do-the-soc-2/)
 
 ---
 
@@ -451,7 +451,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Command of the Message® (Value Messaging Framework) · MEDDICC/MEDDPICC · Competitive Displacement · Manager span of control (6–8 ICs) · Alignment cadence (weekly/monthly/quarterly)
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/force-management-playbook.md` — alignment cadence, reporting structures by ARR, pod economics worksheet, unit economics linkage
+**Artifacts:** `references/force-management-playbook.md` — alignment cadence, reporting structures by ARR, pod economics worksheet, unit economics linkage
 
 **Skills:** `sales-enablement`, `sales-team-building`, `pipeline-management`, `meeting-prep`, `sales-coaching`, `objection-handling`, `gtm-leadership`, `gtm-metrics`, `financial-modeling`
 
@@ -642,7 +642,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Teach-Tailor-Take Control · Commercial Teaching Insight · Challenger rep profile · Mobilizer vs Talker stakeholder map
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/brent-adamson-challenger.md` (canonical)
+**Artifacts:** `references/brent-adamson-challenger.md` (canonical)
 
 **Contrast:** **Matthew Dixon** = JOLT + shared Challenger heritage. **Keenan** = gap diagnosis before teaching. **Force Management** = operationalize into Command of the Message.
 
@@ -662,7 +662,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Mindset / Skill set / Tool set · Eat Their Lunch leveling · Self-discipline + accountability · Competitive teaching without hacks
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/anthony-iannarino-sales-discipline.md` (canonical)
+**Artifacts:** `references/anthony-iannarino-sales-discipline.md` (canonical)
 
 **Contrast:** **Jon Barrows** = tactical call drills. **Iannarino** = daily discipline + competitive leveling. **Randy Seidl** = enterprise relationship depth.
 
@@ -681,7 +681,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Great Demo flow · Do Something / Do Again · Cohan **reverse demo** (incumbent walkthrough in discovery) · Discovery-first demo ratio
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/peter-cohan-great-demo.md` (canonical)
+**Artifacts:** `references/peter-cohan-great-demo.md` (canonical)
 
 **Naming:** **Varun Anand / Clay reverse demo** = prospect-led product session. **Cohan reverse demo** = buyer shows incumbent pain first. Cite both contexts.
 
@@ -701,7 +701,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Law of Replacement · Golden Hours (blocked prospecting time) · Five-channel prospecting · Fanatical follow-up cadence
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/jeb-blount-prospecting.md` (canonical)
+**Artifacts:** `references/jeb-blount-prospecting.md` (canonical)
 
 **Contrast:** **Gilkey/Reisert/Pessar/Slocum** = phone mechanics + CRM workflow. **Blount** = daily prospecting **discipline** across channels.
 
@@ -946,11 +946,11 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Must-have basics → Performance boosters → Delighters · Data before AI · RevOps as product (roadmap/intake) · Automate backstage, careful frontstage · Orchestration over tool sprawl
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-automation-expert-playbook.md` (canonical)
+**Artifacts:** `references/gtm-automation-expert-playbook.md` (canonical)
 
 **Skills:** `gtm-operations`, `revops-tech-stack`, `tool-selection-stack`, `clay-automation`, `n8n-automation`, `crm-integration`, `ai-sdr-setup`
 
-**Stack position:** Complements Justin Michael (Sales Borg outbound — Pattern 23), Eric Nowoslawski (email infra — Pattern 15c), Pat Spielmann (copy — Pattern 17). Router → `https://github.com/LeadMagic/gtm-skills/blob/main/references/automation-playbook-index.md` + Pattern 30.
+**Stack position:** Complements Justin Michael (Sales Borg outbound — Pattern 23), Eric Nowoslawski (email infra — Pattern 15c), Pat Spielmann (copy — Pattern 17). Router → `references/automation-playbook-index.md` + Pattern 30.
 
 **Pair with:** Matthew Volm / RevOps Co-op (PM intake) · Cargo.io (orchestration platform category) when evaluating Clay+n8n sprawl.
 
@@ -1271,7 +1271,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Skills:** `domain-infrastructure`, `email-deliverability`, `inbox-setup`, `cold-email-strategy`, `cold-email-copywriting`, `clay-automation`, `sending-platforms`, `smartlead-workflows`, `tool-selection-stack`
 
-**Stack position:** Complements Pat Spielmann / Jordan Crawford / Becc Holland / Guillaume (message + segment) — Eric owns infra, economics gate, and offer-led scale campaigns. Router → `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-experts-outbound-index.md`.
+**Stack position:** Complements Pat Spielmann / Jordan Crawford / Becc Holland / Guillaume (message + segment) — Eric owns infra, economics gate, and offer-led scale campaigns. Router → `references/gtm-experts-outbound-index.md`.
 
 ---
 
@@ -1313,7 +1313,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 ## Phone-First Outbound & Cold Calling
 
-**Router:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/cold-calling-experts-index.md` — two bucketing systems (Gilkey dispositions vs Reisert CRM stages). Do not cite phone experts in email-only skills without cross-linking `cold-calling`.
+**Router:** `references/cold-calling-experts-index.md` — two bucketing systems (Gilkey dispositions vs Reisert CRM stages). Do not cite phone experts in email-only skills without cross-linking `cold-calling`.
 
 ### Joey Gilkey — TitanX (Disposition Science & Phone Intent)
 
@@ -1418,7 +1418,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Desired Outcome (Required Outcome = Desired Outcome + Appropriate Experience) · Success Gap segmentation · CSQL · Time-to-first-value
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/lincoln-murphy-customer-success.md` (canonical)
+**Artifacts:** `references/lincoln-murphy-customer-success.md` (canonical)
 
 **Skills:** `customer-onboarding`, `cs-playbooks`, `churn-prevention`, `qbr-planning`, `expansion-selling`, `onboarding-sequences`
 
@@ -1436,7 +1436,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Health score · Customer lifecycle stages · CS as revenue function · Pulse/community model
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/lincoln-murphy-customer-success.md` (Mehta operational section)
+**Artifacts:** `references/lincoln-murphy-customer-success.md` (Mehta operational section)
 
 **Contrast:** **Murphy** = outcome strategy. **Mehta/Gainsight** = CS platform + ops playbook. **Benioff** = CS as revenue (enterprise CRM lens).
 
@@ -1473,7 +1473,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Growth loops vs funnels · PQL definition + routing · Sales-assist triggers · Activation event design
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/elena-verna-plg-growth.md` (canonical)
+**Artifacts:** `references/elena-verna-plg-growth.md` (canonical)
 
 **Skills:** `plg-strategy`, `freemium-optimization`, `tracking-plan`, `growth-hacking-tactics`, `gtm-metrics`
 
@@ -1491,7 +1491,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Free-to-Paid Conversion Report (with ChartMogul + ProductLed) · OpenView PLG Index heritage · PLG pricing patterns
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/kyle-poyar-growth-unhinged.md` (canonical)
+**Artifacts:** `references/kyle-poyar-growth-unhinged.md` (canonical)
 
 **Skills:** `plg-strategy`, `freemium-optimization`, `pricing-strategy`, `gtm-metrics`, `saas-metrics-calculator`
 
@@ -1611,7 +1611,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 - ▶ [YouTube @TheSaaSCFO](https://www.youtube.com/@TheSaaSCFO)
 - 🎙 The SaaS CFO Podcast
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-budget-playbook.md` · `gtm-spend-management`
+**Artifacts:** `references/gtm-budget-playbook.md` · `gtm-spend-management`
 
 **Skills:** `financial-modeling`, `gtm-tool-cost-model`, `gtm-spend-management`
 
@@ -1629,7 +1629,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Implied ARR (Q revenue × 4) · **Meritech Rule of 40** (growth weighted 3× vs FCF) · Public Magic Number / payback on reported S&M · ~120 public SaaS index cohort
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md` (canonical) · `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md` (conflict resolution vs KeyBanc, OpenView, SaaS Capital)
+**Artifacts:** `references/meritech-saas-benchmarks.md` (canonical) · `references/benchmark-reconciliation.md` (conflict resolution vs KeyBanc, OpenView, SaaS Capital)
 
 **Skills:** `gtm-metrics`, `saas-metrics-calculator`, `saas-outcomes`, `financial-modeling`, `public-company-gtm-metrics` (Henry Schuck pairing), `fundraising-strategy`, `board-meeting-prep`
 
@@ -1650,7 +1650,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** **Burn Multiple** (net burn ÷ net new ARR) · Efficiency-first scaling · Rule of 40 board lens
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/david-sacks-saas-metrics.md` (canonical)
+**Artifacts:** `references/david-sacks-saas-metrics.md` (canonical)
 
 **Contrast:** **David Skok** = LTV/CAC/payback formulas. **Sacks** = burn multiple + investor efficiency narrative. **Jason Lemkin** = when to hire/spend.
 
@@ -1669,7 +1669,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Rule of 40 (growth + margin) · Cloud index comps · Atlas stage playbooks (PLG, vertical, consumption)
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-cloud-atlas.md` (canonical) · `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md`
+**Artifacts:** `references/bessemer-cloud-atlas.md` (canonical) · `references/benchmark-reconciliation.md`
 
 **Contrast:** Bessemer = **VC-stage** benchmarks + essays. Meritech = **public** comps table. Skok = formula definitions.
 
@@ -1705,7 +1705,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Investor-grade books · QBO → NetSuite migration path · SaaS-specific KPI reporting
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-tax-founder-awareness.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-mrr-accounting-nuances.md` (handoff)
+**Artifacts:** `references/saas-tax-founder-awareness.md` · `references/saas-mrr-accounting-nuances.md` (handoff)
 
 **Skills:** `financial-modeling`, `saas-metrics-calculator`, `fundraising-strategy`, `exiting-company`, `founder-comp-playbook`
 
@@ -1775,7 +1775,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 **Public Channels**
 - 🔗 [Accounting and tax services for startups](https://a16z.com/accounting-and-tax-services-for-startups/)
 
-**Skills:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-tax-founder-awareness.md`, `fundraising-strategy`
+**Skills:** `references/saas-tax-founder-awareness.md`, `fundraising-strategy`
 
 ---
 
@@ -1794,7 +1794,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** B2B marketing that feels human · Community-as-product · Drift conversational marketing · Opinionated POV content
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/dave-gerhardt-exit-five.md` (canonical)
+**Artifacts:** `references/dave-gerhardt-exit-five.md` (canonical)
 
 **Contrast:** **Chris Walker** = demand creation + dark social measurement. **Gerhardt** = brand voice + marketer community. **Dharmesh Shah** = inbound flywheel capture.
 
@@ -1836,7 +1836,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Demand creation > lead capture · Dark social (unmeasurable influence) · Frequency & consistency · Paid social as education · 90-day program evaluation · **Contrast:** visitor ID = measurable site intent; dark social = unmeasurable influence — pair both (`using-gtm-skills` Pattern 26 + 20) · **Contrast:** HubSpot inbound flywheel (Dharmesh Shah) = permission + lifecycle — Pattern 27
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/chris-walker-mental-models.md`
+**Artifacts:** `references/chris-walker-mental-models.md`
 
 **Skills:** `content-marketing`, `paid-social-strategy`, `podcast-gtm`, `attribution`, `gtm-metrics`, `gtm-leadership`, `seo-strategy`, `website-visitor-identification`
 
@@ -1859,11 +1859,11 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Awareness → Education → Conversion · ICP audience over vanity followers · Multi-channel creator bundles (LinkedIn + newsletter + podcast + co-authored assets) · Problem-first software hooks · Per-creator landing pages + Clay engagement scrape + CRM lookback · Agency-as-mediator · 90-day campaign evaluation · Bi-weekly brand reviews
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/aneesh-wishly-b2b-influencer.md` (canonical) · `https://github.com/LeadMagic/gtm-skills/blob/main/references/b2b-influencer-strategy.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/b2b-influencer-measurement.md` · `skills/growth/customer-marketing/templates/b2b-influencer-program-brief.md` · `skills/growth/customer-marketing/templates/influencer-partnership-scorecard.md`
+**Artifacts:** `references/aneesh-wishly-b2b-influencer.md` (canonical) · `references/b2b-influencer-strategy.md` · `references/b2b-influencer-measurement.md` · `skills/growth/customer-marketing/templates/b2b-influencer-program-brief.md` · `skills/growth/customer-marketing/templates/influencer-partnership-scorecard.md`
 
 **Skills:** `customer-marketing`, `social-selling`, `gtm-metrics`, `campaign-governance`, `content-marketing`
 
-**Cross-links:** Chris Walker (dark social) · Varun Anand (creator flywheel) · Morgan J. Ingram (Wishly roster + `sales-navigator-prospecting`) · `strategic-gifting` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-lifecycle-stages.md` (Awareness)
+**Cross-links:** Chris Walker (dark social) · Varun Anand (creator flywheel) · Morgan J. Ingram (Wishly roster + `sales-navigator-prospecting`) · `strategic-gifting` · `references/gtm-lifecycle-stages.md` (Awareness)
 
 ---
 
@@ -2041,7 +2041,7 @@ Organic reach, Live content engines, and Sales Navigator prospecting — three l
 
 **Key Frameworks:** Keyword difficulty + traffic potential · Content clusters · Skyscraper technique · Technical SEO audits
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/seo-strategy-playbook.md`
+**Artifacts:** `references/seo-strategy-playbook.md`
 
 **Skills:** `seo-strategy`, `pillar-pages`, `pseo-strategy`, `faq-seo`, `aeo-strategy`
 
@@ -2161,7 +2161,7 @@ Organic reach, Live content engines, and Sales Navigator prospecting — three l
 
 ---
 
-**Router:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-pr-crisis-experts.md` · **Playbook:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/crisis-management-playbook.md`
+**Router:** `references/saas-pr-crisis-experts.md` · **Playbook:** `references/crisis-management-playbook.md`
 
 **Not crisis-PR canonical:** Greg Head (Practical Founders — marketing/growth) · Brendan Gahan (creator economy)
 
@@ -2181,7 +2181,7 @@ Organic reach, Live content engines, and Sales Navigator prospecting — three l
 
 **Key Frameworks:** Trust Center as default security response · Trust Collaborator role for sales · Proactive sales partnership (don't be the blocker)
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/security-questionnaire-deal-guide.md` · `deal-desk` enterprise security phase
+**Artifacts:** `references/security-questionnaire-deal-guide.md` · `deal-desk` enterprise security phase
 
 **Skills:** `deal-desk`, `security-assessments`, `soc2-compliance`, `customer-onboarding`
 
@@ -2315,7 +2315,7 @@ Founder-specific comp (payroll % ARR, offer walkthrough, negotiation scripts) �
 | HR GTM / People Ops | Stacey Nordwall, Pavilion (Sam Jacobs), Bridge Group, Roberge |
 | Legal GTM / commercial | Eunice Buhler (G2), Ironclad CLM, a16z commercial counsel, Lemkin/Vanta security timing |
 | RevOps automation | Jen Igartua (Go Nimbly), Matthew Volm (RevOps Co-op) — `gtm-automation-expert-playbook.md` |
-| Automation playbooks | `https://github.com/LeadMagic/gtm-skills/blob/main/references/automation-playbook-index.md` (38 playbooks) |
+| Automation playbooks | `references/automation-playbook-index.md` (38 playbooks) |
 
 ---
 
@@ -2332,4 +2332,4 @@ Founder-specific comp (payroll % ARR, offer walkthrough, negotiation scripts) �
 - Subsidiary maps: `coaching-experts.md`, `interview-experts.md`, `gtm-leadership/expert-frameworks.md`, `gtm-ops-skill-index.md`, `gtm-experts-outbound-index.md` — link back here for channels.
 - **Pat Spielmann** is the primary cite for LeadMagic enrichment-powered outbound copy — canonical playbook `cold-email-copywriting/references/pat-spielmann-outbound-copy.md`.
 - **Morgan J. Ingram** is the primary cite for Sales Navigator filter-specific prospecting — canonical playbook `sales-navigator-prospecting/references/morgan-ingram-sales-navigator.md`. Pair with van der Blom when reps also post; pair with Lizak only when building a Live content engine (different motion).
-- Pitfalls aggregator: `https://github.com/LeadMagic/gtm-skills/blob/main/references/pitfalls-index.md` — auto-generated from skill `## Common Pitfalls` sections (`npm run build`).
+- Pitfalls aggregator: `references/pitfalls-index.md` — auto-generated from skill `## Common Pitfalls` sections (`npm run build`).

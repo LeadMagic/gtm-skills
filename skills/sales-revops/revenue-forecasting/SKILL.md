@@ -3,7 +3,7 @@ name: revenue-forecasting
 description: >-
   Build an evidence-based B2B revenue forecast with category definitions, opportunity-level rollup, pipeline coverage, conversion and timing assumptions, scenario ranges, inspection cadence, and forecast accuracy tracking. Use when preparing weekly forecasts, board outlooks, capacity plans, or forecast-miss diagnostics.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic

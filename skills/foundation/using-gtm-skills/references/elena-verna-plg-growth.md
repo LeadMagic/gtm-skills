@@ -4,7 +4,7 @@
 
 **Sources:** Elena Verna — [elenaverna.com](https://www.elenaverna.com/) · [Reforge](https://www.reforge.com/) · former Head of Growth Dropbox, SurveyMonkey, Miro; advisor Amplitude · 💼 [LinkedIn](https://www.linkedin.com/in/elenaverna/) · 𝕏 [@ElenaLenaV](https://x.com/ElenaLenaV) · ▶ [Lenny's Podcast / PLG talks](https://www.youtube.com/results?search_query=Elena+Verna+PLG)
 
-**Canonical expert entry:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` → Elena Verna
+**Canonical expert entry:** `references/experts.md` → Elena Verna
 
 ---
 
@@ -75,4 +75,4 @@ Verna advocates **both** — not PLG *or* sales:
 
 `plg-strategy`, `freemium-optimization`, `tracking-plan`, `growth-hacking-tactics`, `gtm-metrics`
 
-**Cross-links:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/lifecycle-skill-index.md` · `product-led-growth/plg-strategy`
+**Cross-links:** `references/lifecycle-skill-index.md` · `product-led-growth/plg-strategy`

@@ -4,7 +4,7 @@
 
 **Sources:** Jeb Blount — [Sales Gravy](https://salesgravy.com/) · [*Fanatical Prospecting*](https://www.amazon.com/Fanatical-Prospecting-Relentless-Prospecting-Instantly/dp/111914478X) · [*People Buy You*](https://www.amazon.com/People-Buy-You-Relationship-Building/dp/1118101688) · 💼 [LinkedIn](https://www.linkedin.com/in/jebblount/) · ▶ [Sales Gravy YouTube](https://www.youtube.com/c/SalesGravy)
 
-**Canonical expert entry:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` → Jeb Blount
+**Canonical expert entry:** `references/experts.md` → Jeb Blount
 
 ---
 
@@ -78,4 +78,4 @@ Rank effort by **where your ICP responds**, not rep preference:
 
 `cold-calling`, `multi-channel-outreach`, `sales-team-building`, `revenue-team-onboarding`, `pipeline-management`
 
-**Cross-links:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/cold-calling-experts-index.md` · Pattern 15b (`using-gtm-skills`)
+**Cross-links:** `references/cold-calling-experts-index.md` · Pattern 15b (`using-gtm-skills`)

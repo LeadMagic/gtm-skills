@@ -4,58 +4,58 @@ Auto-generated from skill `## Common Pitfalls` sections. **1079 pitfalls** acros
 
 Agents: load the source skill for full context, fixes, and quality checks — this index is for discovery and cross-skill pattern matching.
 
-Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: `references/experts.md`
+Master router: the `using-gtm-skills` skill · Expert catalog: `references/experts.md`
 
 ## abm
 
-### [abm-1-to-1](skills/abm/abm-1-to-1/SKILL.md)
+### abm-1-to-1 (`abm-1-to-1`)
 
 - **Treating ABM as a marketing-only initiative.** — ABM requires tight sales alignment. Without BDRs assigned to specific accounts and shared account briefs, marketing produces content nobody uses. Fix: weekly ABM standups with marketing + BDRs + AEs.
 - **One-size-fits-all tiering.** — Applying the same playbook to Tier 1 and Tier 3 accounts. Fix: Tier 1 gets custom content and executive engagement; Tier 3 gets automated personalization.
 - **Measuring ABM on MQLs.** — ABM success is pipeline from target accounts, not lead volume. Fix: track coverage %, engagement depth, pipeline created, and win rate by tier.
 
-### [abm-1-to-few](skills/abm/abm-1-to-few/SKILL.md)
+### abm-1-to-few (`abm-1-to-few`)
 
 - **Treating ABM as a marketing-only initiative.** — ABM requires tight sales alignment. Without BDRs assigned to specific accounts and shared account briefs, marketing produces content nobody uses. Fix: weekly ABM standups with marketing + BDRs + AEs.
 - **One-size-fits-all tiering.** — Applying the same playbook to Tier 1 and Tier 3 accounts. Fix: Tier 1 gets custom content and executive engagement; Tier 3 gets automated personalization.
 - **Measuring ABM on MQLs.** — ABM success is pipeline from target accounts, not lead volume. Fix: track coverage %, engagement depth, pipeline created, and win rate by tier.
 
-### [abm-1-to-many](skills/abm/abm-1-to-many/SKILL.md)
+### abm-1-to-many (`abm-1-to-many`)
 
 - **Treating ABM as a marketing-only initiative.** — ABM requires tight sales alignment. Without BDRs assigned to specific accounts and shared account briefs, marketing produces content nobody uses. Fix: weekly ABM standups with marketing + BDRs + AEs.
 - **One-size-fits-all tiering.** — Applying the same playbook to Tier 1 and Tier 3 accounts. Fix: Tier 1 gets custom content and executive engagement; Tier 3 gets automated personalization.
 - **Measuring ABM on MQLs.** — ABM success is pipeline from target accounts, not lead volume. Fix: track coverage %, engagement depth, pipeline created, and win rate by tier.
 
-### [abm-strategy](skills/abm/abm-strategy/SKILL.md)
+### abm-strategy (`abm-strategy`)
 
 - **Treating ABM as a marketing-only initiative.** — ABM requires tight sales alignment. Without BDRs assigned to specific accounts and shared account briefs, marketing produces content nobody uses. Fix: weekly ABM standups with marketing + BDRs + AEs.
 - **One-size-fits-all tiering.** — Applying the same playbook to Tier 1 and Tier 3 accounts. Fix: Tier 1 gets custom content and executive engagement; Tier 3 gets automated personalization.
 - **Measuring ABM on MQLs.** — ABM success is pipeline from target accounts, not lead volume. Fix: track coverage %, engagement depth, pipeline created, and win rate by tier.
 
-### [account-selection](skills/abm/account-selection/SKILL.md)
+### account-selection (`account-selection`)
 
 - **Treating ABM as a marketing-only initiative.** — ABM requires tight sales alignment. Without BDRs assigned to specific accounts and shared account briefs, marketing produces content nobody uses. Fix: weekly ABM standups with marketing + BDRs + AEs.
 - **One-size-fits-all tiering.** — Applying the same playbook to Tier 1 and Tier 3 accounts. Fix: Tier 1 gets custom content and executive engagement; Tier 3 gets automated personalization.
 - **Measuring ABM on MQLs.** — ABM success is pipeline from target accounts, not lead volume. Fix: track coverage %, engagement depth, pipeline created, and win rate by tier.
 
-### [multi-thread-orchestration](skills/abm/multi-thread-orchestration/SKILL.md)
+### multi-thread-orchestration (`multi-thread-orchestration`)
 
 - **Treating ABM as a marketing-only initiative.** — ABM requires tight sales alignment. Without BDRs assigned to specific accounts and shared account briefs, marketing produces content nobody uses. Fix: weekly ABM standups with marketing + BDRs + AEs.
 - **One-size-fits-all tiering.** — Applying the same playbook to Tier 1 and Tier 3 accounts. Fix: Tier 1 gets custom content and executive engagement; Tier 3 gets automated personalization.
 - **Measuring ABM on MQLs.** — ABM success is pipeline from target accounts, not lead volume. Fix: track coverage %, engagement depth, pipeline created, and win rate by tier.
 
-### [strategic-gifting](skills/abm/strategic-gifting/SKILL.md)
+### strategic-gifting (`strategic-gifting`)
 
 - **Sendoso without strategy.** — Automated Starbucks cards to cold lists. Fix: ABM tier + Giftology brief first.
 - **Logo swag.** — Fix: Ruhlin — no logo on relationship gifts.
 - **Gift to unstick deal.** — Fix: JOLT / deal desk — business problem.
 - **Ignore gift cap.** — Fix: ask champion; log in CRM.
 - **No follow-up.** — Gift arrives; nobody calls. Fix: 24h SLA + task in CRM.
-- **Same gift Tier 1 and Tier 3.** — Fix: `skills/abm/strategic-gifting/references/gifting-by-tier.md`.
+- **Same gift Tier 1 and Tier 3.** — Fix: `gifting-by-tier.md (in the `strategic-gifting` skill)`.
 
 ## analytics
 
-### [1p-tagging-pixels](skills/analytics/1p-tagging-pixels/SKILL.md)
+### 1p-tagging-pixels (`1p-tagging-pixels`)
 
 - **Client-side only.** — 30-40% of browser events are lost to ad blockers. Server-side captures 100%. Implement server-side tagging before scaling ad spend.
 - **No UTM standardization.** — "linkedin", "LinkedIn", "li", "lnkd" are four different sources in analytics. One naming convention, enforced.
@@ -63,7 +63,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Pixel duplication.** — Same pixel fired twice = double-counted conversions. Audit quarterly with browser dev tools.
 - **3P dependency without 1P transition.** — 3P data is dying. 1P data is the future. Run both now, actively build 1P infrastructure.
 
-### [a-b-testing](skills/analytics/a-b-testing/SKILL.md)
+### a-b-testing (`a-b-testing`)
 
 - **Peeking and early stopping.** — This is the most common and most damaging A/B testing error. Checking results daily and stopping when they "look significant" inflates false positive rates from 5% to 25-30%. Set a fixed end date and DO NOT look at primary metric results until it arrives. The math of statistical tests assumes a fixed sample size — peeking violates this assumption.
 - **Testing for statistical significance on vanity metrics.** — A subject line test that produces a statistically significant 15% open rate improvement but zero change in reply rate is a bad test. You optimized a metric that doesn't drive revenue. Always designate a downstream metric (reply rate, meeting rate, conversion) as the primary metric and optimize for that.
@@ -74,7 +74,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Not segmenting results.** — A variant that wins overall might be losing in your highest-value segment. An overall "win" of +10% enterprise reply rate vs -5% SMB reply rate might be a net negative for enterprise-focused companies. Always segment by at least ICP tier and persona.
 - **Running tests without a hypothesis.** — "Let's just test some different subject lines and see what happens" is experimentation theater, not experimentation. Every test needs a hypothesis grounded in a behavioral rationale. Test results should update your understanding, not just tell you which random variant happened to win.
 
-### [attribution](skills/analytics/attribution/SKILL.md)
+### attribution (`attribution`)
 
 - **Using last-touch attribution for everything.** — Last-touch gives 100% credit to the final touch. For B2B with 6-month sales cycles and 10+ touches, this systematically credits your CRM/branded-search/outbound and zeroes out your content, events, and awareness channels. You then "optimize" by cutting the channels that created the conditions for conversion. This is the single most expensive attribution error.
 - **Building attribution without UTM governance.** — If your UTM data is inconsistent, missing, or duplicated, no attribution model can produce reliable results. Attribution quality is bounded by UTM quality. Fix UTM hygiene first, then model.
@@ -84,7 +84,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Attribution windows too short or too long.** — Too short: you miss early-stage touches that educated the buyer (especially for long sales cycles). Too long: you credit touches from 18 months ago that are no longer relevant. Set the window based on your actual sales cycle data (90th percentile time from first touch to close for won deals).
 - **Treating attribution as a one-time setup.** — Attribution models should be reviewed quarterly. Channel mix changes, buyer behavior evolves, campaign types shift. A model built on 2023 data may be wrong for 2024. Schedule quarterly model reviews.
 
-### [campaign-analytics](skills/analytics/campaign-analytics/SKILL.md)
+### campaign-analytics (`campaign-analytics`)
 
 - **Skipping Layer 1 diagnosis.** — The most common mistake: jumping to copy fixes when deliverability is the real problem. Always start at Layer 1. If delivery rate is below 95%, nothing you do to copy matters until that's fixed. You can have the world's best email — if it lands in spam, nobody reads it.
 - **Over-indexing on open rates.** — Open rates are a proxy for subject line effectiveness and sender reputation, not campaign success. A campaign with 80% open rate and 0% reply rate is failing. Optimize for reply rate, meeting rate, and pipeline — the metrics that generate revenue. Open rates matter only as a diagnostic signal.
@@ -94,7 +94,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Optimizing for the wrong time horizon.** — Campaign performance varies seasonally (Q4 holidays, summer slowdown, end-of-quarter urgency). Comparing week-over-week without accounting for seasonal patterns leads to false signals. Use 4-week rolling averages and compare to same-period-last-year where data exists.
 - **Neglecting reply sentiment analysis.** — Counting replies without reading them is dangerous. A campaign generating 5% reply rate where 80% of replies are "unsubscribe" or "wrong person" is worse than a 1% reply rate with 100% positive sentiment. Always categorize replies: positive (interested), neutral (info request, not now), negative (unsubscribe, wrong person, complaint).
 
-### [deliverability-monitoring](skills/analytics/deliverability-monitoring/SKILL.md)
+### deliverability-monitoring (`deliverability-monitoring`)
 
 - **Monitoring only bounce rate.** — Bounce rate tells you about list quality, not reputation. A domain can have 0% bounce rate and 100% spam placement. Always combine bounce tracking with spam placement testing and blacklist monitoring. Bounce rate is necessary but insufficient.
 - **Ignoring Google Postmaster Tools.** — Google delivers to approximately 50% of B2B inboxes. If you're not monitoring Google Postmaster Tools, you're flying blind on half your deliverability. Setup takes 5 minutes (DNS TXT verification). The data is free and authoritative — it comes directly from Google.
@@ -104,7 +104,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Not isolating cold sending domains.** — Using the same domain for cold outreach and transactional email means a reputation hit from cold outreach takes down password resets, invoices, and product notifications. This is the single most common deliverability catastrophe. Always separate sending domains by purpose.
 - **Misdiagnosing low open rates.** — Low open rates can be caused by spam placement (invisible to open tracking), image blocking (open pixel doesn't load), Apple Mail Privacy Protection (pre-fetches all images, inflating open rates), or genuinely uninterested recipients. Cross-reference with click rates, reply rates, and seed-list tests to determine actual cause.
 
-### [event-analytics](skills/analytics/event-analytics/SKILL.md)
+### event-analytics (`event-analytics`)
 
 - **Tracking everything.** — 500 events, 50 properties each, no one knows what any of them mean. The data swamp. Fix: Every event must have a purpose. Start with 20. Add as needed.
 - **Inconsistent naming.** — `signed_up`, `userSignup`, `Sign Up Completed` all describe the same thing across different systems. Fix: One taxonomy. Object- action. Past tense. Documented in an event dictionary.
@@ -112,14 +112,14 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No group/account context for B2B.** — Events tracked to individual users but not linked to their company workspace. Can't answer "what are our top 10 accounts doing?" Fix: `group()` call on login linking user to workspace.
 - **PII in event properties.** — `email: "person@example.com"` in event properties is a data privacy violation waiting to happen. Fix: Use user IDs. Store PII in your database, not your event pipeline.
 
-### [growth-experimentation](skills/analytics/growth-experimentation/SKILL.md)
+### growth-experimentation (`growth-experimentation`)
 
 - **Tests too large** — — redesigning entire onboarding (4 weeks to build) loses to testing a single screen change (2 days). Small tests = fast learning.
 - **No learning repository** — — running 50 experiments without documenting learnings is running the same test twice. Document everything.
 - **Statistical ignorance** — — calling a test at 70% confidence produces false positives. Wait for 95%+ confidence.
 - **Winner's bias** — — only shipping winners without understanding losers means you don't know why things work.
 
-### [gtm-metrics](skills/analytics/gtm-metrics/SKILL.md)
+### gtm-metrics (`gtm-metrics`)
 
 - **Calculating LTV without gross margin.** — Raw-revenue LTV (ARPA ÷ churn) overstates value by 15-30% because it ignores COGS. Contribution-margin LTV is what matters. Investors will recalculate using gross margin — if your number doesn't match, you lose credibility.
 - **Using unloaded CAC.** — Including only ad spend or tool costs in CAC while ignoring fully loaded salaries and benefits dramatically understates true acquisition cost. A "CAC" of $500 that should be $2,500 leads to terrible unit economics decisions. Include every dollar spent on acquiring customers.
@@ -128,9 +128,9 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Interpreting Magic Number without considering sales cycle.** — If your sales cycle is 6+ months, comparing current quarter ARR to previous quarter S&M spend understates efficiency. The spend from 2-3 quarters ago generated this quarter's ARR. Use lagged Magic Number for enterprise.
 - **Treating Rule of 40 as a precise metric.** — Rule of 40 is a heuristic, not a law of physics. A company with 100% growth and -40% margin (score: 60) may be burning unsustainably. A company with 10% growth and 35% margin (score: 45) may be a better long-term business. Always pair Rule of 40 with qualitative assessment.
 - **Reporting metrics without cohort context.** — "NRR improved from 95% to 105%" sounds great — unless the improvement is because you stopped acquiring new customers and only retained the best ones. Cohort analysis reveals whether metric improvements reflect genuine business improvement or composition effects.
-- **CRM bookings vs committed MRR.** — Pipeline closed-won TCV ≠ board ARR. Prepay cash ≠ net new MRR. Fix: MRR bridge from billing; reconcile to CRM — `skills/analytics/gtm-metrics/references/saas-mrr-accounting-nuances.md`, `skills/analytics/gtm-metrics/references/benchmark-reconciliation.md`.
+- **CRM bookings vs committed MRR.** — Pipeline closed-won TCV ≠ board ARR. Prepay cash ≠ net new MRR. Fix: MRR bridge from billing; reconcile to CRM — `saas-mrr-accounting-nuances.md (in the `gtm-metrics` skill)`, `benchmark-reconciliation.md (in the `gtm-metrics` skill)`.
 
-### [gtm-system-architecture](skills/analytics/gtm-system-architecture/SKILL.md)
+### gtm-system-architecture (`gtm-system-architecture`)
 
 - **Optimizing one model in isolation.** — Improving the Operating Model without fixing the Data Model means adding process to bad data. Fix data first.
 - **No Bowtie.** — Treating revenue as a pipeline that ends at "closed won" ignores the 70%+ of lifetime value that comes after the sale.
@@ -138,14 +138,14 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Trying to fix everything at once.** — Six-model overhauls take 12-18 months. Sequence one or two per quarter.
 - **GTM model owned by one function.** — GTM alignment requires sales, marketing, and CS leadership in the same room with shared metrics.
 
-### [marketing-strategy](skills/analytics/marketing-strategy/SKILL.md)
+### marketing-strategy (`marketing-strategy`)
 
 - **No strategy, just tactics.** — "Let's post on LinkedIn and run some ads" without a channel mix and budget is a tactic list, not a strategy.
 - **Too many channels too early.** — A $1M ARR company doesn't need events, programmatic, and TikTok. 2-3 channels done well beats 8 channels done poorly.
 - **Marketing-sales misalignment.** — Marketing measured on MQLs, sales measured on closed revenue. Different incentives, different behaviors. Align on pipeline generated, not leads.
 - **Brand as an afterthought.** — Brand is the thing that makes outbound reply rates go up, paid CPC go down, and win rates increase. Invest before you need it.
 
-### [paid-advertising](skills/analytics/paid-advertising/SKILL.md)
+### paid-advertising (`paid-advertising`)
 
 - **LinkedIn as the only platform.** — LinkedIn gets you targeting but misses intent capture (Google) and retargeting (Meta). Run all three.
 - **Not enough budget to test.** — LinkedIn at $1K/mo won't produce meaningful data. Minimum $3K/mo for 6-8 weeks to validate.
@@ -153,7 +153,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No retargeting.** — 97% of first-time visitors don't convert. Retargeting captures the other 97%.
 - **Creative fatigue.** — Same ad for 6 weeks burns out. Rotate creative every 2-3 weeks. Test multiple variants simultaneously.
 
-### [proactive-alerts](skills/analytics/proactive-alerts/SKILL.md)
+### proactive-alerts (`proactive-alerts`)
 
 - **Alerting on everything.** — A Slack channel with 50 alerts/day becomes invisible. Curate ruthlessly. Only alerts that require action should fire.
 - **No owner.** — An alert that goes to a channel with no named owner gets ignored. Every alert type has one person accountable.
@@ -161,7 +161,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Same alert for everyone.** — An SDR doesn't need CRO-level pipeline alerts. Tailor by role or risk burnout.
 - **No alert audit.** — Alerts that were urgent 6 months ago may be noise now. Audit monthly and remove or tune.
 
-### [tracking-plan](skills/analytics/tracking-plan/SKILL.md)
+### tracking-plan (`tracking-plan`)
 
 - **Tracking without a plan.** — Events fire into the void. No one knows what "button_clicked_3" means. The data is worthless. Fix: Tracking plan document FIRST. Implementation second. Every event has a name, purpose, properties, destinations, and owner.
 - **Client-side only.** — Ad blockers block 15-30% of client-side tracking. Critical events (signup, payment, subscription) are lost. Fix: Server-side tracking for revenue-critical events. CDP server-side SDK.
@@ -172,7 +172,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## automation
 
-### [ai-sdr-setup](skills/automation/ai-sdr-setup/SKILL.md)
+### ai-sdr-setup (`ai-sdr-setup`)
 
 - **Starting with auto-send.** — AI can produce plausible but wrong copy. Fix: draft-only pilot first.
 - **Mixed ICP pilot.** — SMB, mid-market, and enterprise require different messages. Fix: one segment per pilot.
@@ -181,7 +181,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No handoff map.** — Agents keep replying when a human should intervene. Fix: hard handoff on positive intent, pricing, security, procurement, or legal.
 - **Unverified personalization.** — AI invents reasons to reach out. Fix: require source URL or evidence for every personalized claim.
 
-### [api-enrichment](skills/automation/api-enrichment/SKILL.md)
+### api-enrichment (`api-enrichment`)
 
 - **Looping over contacts without idempotency.** — Retries create duplicates. Fix: idempotency keys and upserts.
 - **Calling all providers every time.** — Costs explode. Fix: waterfall by stop condition.
@@ -190,14 +190,14 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No freshness rule.** — Old data overwrites newer CRM data. Fix: compare timestamps and source priority.
 - **Polling huge jobs.** — Polling wastes compute and API calls. Fix: signed webhooks with retry handling.
 
-### [attio-setup](skills/automation/attio-setup/SKILL.md)
+### attio-setup (`attio-setup`)
 
 - **Over-building objects.** — Start with Companies, People, Deals. Add custom objects only when these three can't represent what you need.
 - **No lists.** — Lists are Attio's superpower. Without them, it's just a spreadsheet. Build lists for every segment and workflow trigger.
 - **HubSpot migration without cleanup.** — Moving bad data to Attio is just bad data in a better tool. Clean your data before migrating.
 - **API-first without API use.** — Attio's API is the differentiator. Use it for enrichment, automation, and custom integrations.
 
-### [clay-automation](skills/automation/clay-automation/SKILL.md)
+### clay-automation (`clay-automation`)
 
 - **One giant table.** — Combining company and person data wastes credits and makes re-enrichment impossible. Separate always.
 - **Enriching before filtering.** — Running $0.15-0.40/contact enrichment on non-ICP records wastes budget. Filter on cheap data first.
@@ -206,7 +206,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Clay as permanent storage.** — Clay is a workspace. Push to CRM, archive or delete rows in Clay. Old rows decay just like anywhere else.
 - **No credit caps.** — Without caps, a single row can chew through 15+ credits. Cap at 5-6 per row.
 
-### [crm-integration](skills/automation/crm-integration/SKILL.md)
+### crm-integration (`crm-integration`)
 
 - **Two-way sync everywhere.** — Creates conflicts and loops. Fix: define read/write ownership per tool.
 - **Too many required fields.** — Reps stop updating CRM. Fix: require only fields needed for the next stage.
@@ -215,7 +215,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No data freshness.** — Old enriched fields linger forever. Fix: source and timestamp every enrichment field.
 - **No lost reason taxonomy.** — Closed-lost learning disappears. Fix: standardized lost reasons with notes.
 
-### [hubspot-setup](skills/automation/hubspot-setup/SKILL.md)
+### hubspot-setup (`hubspot-setup`)
 
 - **No stage criteria.** — "We think they're an MQL" creates chaos. Define hard criteria: "ICP fit confirmed + demo requested = SQL."
 - **Too many required fields.** — Reps skip CRM updates when every field is mandatory. Required: Amount, Close Date, Next Step. Everything else optional.
@@ -223,7 +223,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Default HubSpot lifecycle stages.** — Customize stages to your business. "Subscriber" and "Other" don't map to any real process.
 - **No data hygiene cadence.** — Quarterly: deduplicate contacts, re-verify emails >90 days old, audit required fields completion.
 
-### [mcp-setup](skills/automation/mcp-setup/SKILL.md)
+### mcp-setup (`mcp-setup`)
 
 - **Exposing too many tools.** — Agents choose poorly when tool scope is noisy. Fix: only expose tools needed for the workflow.
 - **Write access by default.** — A research agent should not mutate CRM. Fix: read-only first.
@@ -232,14 +232,14 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No logging.** — You cannot debug a tool call after the fact. Fix: log every call.
 - **Ambiguous tool descriptions.** — Agents misuse tools with overlapping names. Fix: make tool names and descriptions specific.
 
-### [n8n-automation](skills/automation/n8n-automation/SKILL.md)
+### n8n-automation (`n8n-automation`)
 
 - **No error handling.** — One failed API call breaks the entire pipeline. Every HTTP Request node needs an error branch.
 - **Sequential processing for large batches.** — 10K records at 1 second each is 2.8 hours. Use Split In Batches with parallel execution.
 - **No queue.** — Processing 10K records without a pause mechanism means no recovery point if something fails at record 5,000.
 - **Credentials in workflow.** — Use built-in credential store, never hardcode API keys in nodes.
 
-### [salesforce-setup](skills/automation/salesforce-setup/SKILL.md)
+### salesforce-setup (`salesforce-setup`)
 
 - **Over-customization before process.** — Custom objects and fields without a defined process create complexity without value. Design the process, then configure Salesforce to support it.
 - **No validation rules.** — Close dates in the past, $0 opportunities, blank required fields. Validation rules enforce data quality.
@@ -247,7 +247,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Lead assignment without enrichment.** — Routing an unenriched lead means reps waste time researching. Enrich on lead create, then assign.
 - **Report sprawl.** — 50 reports nobody reads. Build 5-7 dashboards that answer the most important questions. Archive the rest.
 
-### [skills-lock](skills/automation/skills-lock/SKILL.md)
+### skills-lock (`skills-lock`)
 
 - **Hashing only `SKILL.md`** — References, templates, scripts, and assets can drift undetected. Fix: Inventory every packaged file
 - **Recording file modification time** — Checkout and archive tools can change it without changing content. Fix: Record stable path, size, and digest only
@@ -255,14 +255,14 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Treating SHA-256 as a trust signal** — A malicious change can be re-locked. Fix: Require review, trusted distribution, and CI controls
 - **Rewriting timestamps on no-op builds** — Causes permanent generated-file churn. Fix: Ignore or preserve informational timestamps
 
-### [tool-selection-stack](skills/automation/tool-selection-stack/SKILL.md)
+### tool-selection-stack (`tool-selection-stack`)
 
 - **Buying enterprise tools early** — — $25K ZoomInfo at $500K ARR. Start with Apollo, upgrade when data volume and deal size justify it.
 - **Tool overlap** — — paying for two sequencers, three enrichment tools. Audit quarterly and consolidate.
 - **No verification in stack** — — enrichment without verification means bouncing emails. LeadMagic Email Validation should be in every stack before the send step.
 - **Tool as strategy** — — tools execute strategy, not define it. Build the process first, then select tools that support it.
 
-### [waterfall-enrichment](skills/automation/waterfall-enrichment/SKILL.md)
+### waterfall-enrichment (`waterfall-enrichment`)
 
 - **One giant waterfall for everything.** — Different data types need different providers. Company data, email, and phone are separate waterfalls.
 - **Wrong provider order.** — Sort by cost-per-hit, not coverage percentage. A cheap provider with low hit rate is expensive per result.
@@ -272,43 +272,43 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## content-seo
 
-### [aeo-strategy](skills/content-seo/aeo-strategy/SKILL.md)
+### aeo-strategy (`aeo-strategy`)
 
 - **Writing for search engines, not humans.** — Keyword-stuffed content that reads like a robot wrote it. Fix: write for your ICP first, optimize for search second.
 - **Publishing and praying.** — Creating content without a distribution plan. Fix: every piece gets a 30-day promotion calendar across email, social, and paid.
 - **Ignoring content freshness.** — 2-year-old content with outdated data and examples still ranking. Fix: quarterly content audit — update or retire stale pieces.
 
-### [citation-harvesting](skills/content-seo/citation-harvesting/SKILL.md)
+### citation-harvesting (`citation-harvesting`)
 
 - **Writing for search engines, not humans.** — Keyword-stuffed content that reads like a robot wrote it. Fix: write for your ICP first, optimize for search second.
 - **Publishing and praying.** — Creating content without a distribution plan. Fix: every piece gets a 30-day promotion calendar across email, social, and paid.
 - **Ignoring content freshness.** — 2-year-old content with outdated data and examples still ranking. Fix: quarterly content audit — update or retire stale pieces.
 
-### [faq-seo](skills/content-seo/faq-seo/SKILL.md)
+### faq-seo (`faq-seo`)
 
 - **Writing for search engines, not humans.** — Keyword-stuffed content that reads like a robot wrote it. Fix: write for your ICP first, optimize for search second.
 - **Publishing and praying.** — Creating content without a distribution plan. Fix: every piece gets a 30-day promotion calendar across email, social, and paid.
 - **Ignoring content freshness.** — 2-year-old content with outdated data and examples still ranking. Fix: quarterly content audit — update or retire stale pieces.
 
-### [pillar-pages](skills/content-seo/pillar-pages/SKILL.md)
+### pillar-pages (`pillar-pages`)
 
 - **Writing for search engines, not humans.** — Keyword-stuffed content that reads like a robot wrote it. Fix: write for your ICP first, optimize for search second.
 - **Publishing and praying.** — Creating content without a distribution plan. Fix: every piece gets a 30-day promotion calendar across email, social, and paid.
 - **Ignoring content freshness.** — 2-year-old content with outdated data and examples still ranking. Fix: quarterly content audit — update or retire stale pieces.
 
-### [pseo-strategy](skills/content-seo/pseo-strategy/SKILL.md)
+### pseo-strategy (`pseo-strategy`)
 
 - **Writing for search engines, not humans.** — Keyword-stuffed content that reads like a robot wrote it. Fix: write for your ICP first, optimize for search second.
 - **Publishing and praying.** — Creating content without a distribution plan. Fix: every piece gets a 30-day promotion calendar across email, social, and paid.
 - **Ignoring content freshness.** — 2-year-old content with outdated data and examples still ranking. Fix: quarterly content audit — update or retire stale pieces.
 
-### [seo-strategy](skills/content-seo/seo-strategy/SKILL.md)
+### seo-strategy (`seo-strategy`)
 
 - **Writing for search engines, not humans.** — Keyword-stuffed content that reads like a robot wrote it. Fix: write for your ICP first, optimize for search second.
 - **Publishing and praying.** — Creating content without a distribution plan. Fix: every piece gets a 30-day promotion calendar across email, social, and paid.
 - **Ignoring content freshness.** — 2-year-old content with outdated data and examples still ranking. Fix: quarterly content audit — update or retire stale pieces.
 
-### [technical-seo-audit](skills/content-seo/technical-seo-audit/SKILL.md)
+### technical-seo-audit (`technical-seo-audit`)
 
 - **Treating a crawler score as the audit** — Scores hide evidence and business impact. Fix: Show affected URLs, templates, and search-state evidence
 - **Blocking a URL in robots.txt to remove it** — A blocked URL can remain indexed without a snippet. Fix: Allow crawling long enough to process `noindex`, or require authentication
@@ -318,7 +318,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## creative
 
-### [ad-creative-strategy](skills/creative/ad-creative-strategy/SKILL.md)
+### ad-creative-strategy (`ad-creative-strategy`)
 
 - **One creative at a time.** — "Let's see how this performs" with no comparison. You can't optimize what you don't test.
 - **Polished over volume.** — A beautiful ad nobody sees loses to 10 rough variants that find the winning message.
@@ -326,7 +326,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Creative not matching platform context.** — A polished corporate video on TikTok looks like an ad. Native-looking content wins.
 - **Testing too many variables at once.** — Changed headline AND visual AND CTA. No idea which change caused the lift. One variable per test.
 
-### [ai-content-creation](skills/creative/ai-content-creation/SKILL.md)
+### ai-content-creation (`ai-content-creation`)
 
 - **Publish AI output without editing.** — Raw AI output = generic, detectable, low-trust content. Fix: 4-pass human edit. AI writes drafts. Humans make them good.
 - **No unique angle.** — AI can only summarize what's already been written. If you don't inject unique data, experience, or opinion, your content is a remix of page 1 results. Fix: Unique angle first. AI draft second.
@@ -335,7 +335,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Hallucinated statistics.** — "According to a recent study..." with no source. Fix: Perplexity for research. Every stat needs a citation. Human verifies before publishing.
 - **AI-generated images without review.** — Midjourney produces beautiful nonsense. "Data visualization" with made-up numbers. Charts with impossible scales. Fix: Review every AI image for accuracy.
 
-### [ai-video-creation](skills/creative/ai-video-creation/SKILL.md)
+### ai-video-creation (`ai-video-creation`)
 
 - **AI avatar uncanny valley.** — Poor lip-sync, dead eyes, robotic gestures = viewers click away in 2 seconds. Fix: ElevenLabs voiceover with natural pacing. Test with 5 people: "Does this feel real?"
 - **No captions.** — 85% of social video is watched without sound. No captions = 85% of audience doesn't get the message. Fix: Captions on every video. Word-by-word highlighting increases watch time 95%+.
@@ -344,7 +344,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Personalized video at scale that feels mass-produced.** — "Hey [first_name]" with an AI avatar that clearly isn't you. Fix: Record the personalized intro yourself (10 sec on Loom). AI handles the rest. The human touch is worth the 10 seconds.
 - **Ignoring platform specs.** — LinkedIn: 16:9 or 1:1, under 10 min. TikTok: 9:16 vertical, under 3 min. YouTube Shorts: 9:16, under 60 sec. Fix: Export in the correct aspect ratio and duration for each platform.
 
-### [content-distribution](skills/creative/content-distribution/SKILL.md)
+### content-distribution (`content-distribution`)
 
 - **Spend 90% on creation, 10% on distribution.** — Flip it. A great piece of content nobody sees is wasted. Distribution is the multiplier.
 - **Publish once, done.** — The same piece should appear across 10+ formats and channels over 30 days. Most value comes from derivatives.
@@ -352,14 +352,14 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No paid amplification.** — Organic reach on LinkedIn is 2-5% of followers. Boost your best content to reach the other 95%.
 - **Company page only.** — Founder posts get 10x the reach of company posts. Founder is the distribution channel at <$10M ARR.
 
-### [copywriting](skills/creative/copywriting/SKILL.md)
+### copywriting (`copywriting`)
 
 - **Writing for everyone** — — copy that appeals to "business leaders" appeals to no one. Write for one specific person.
 - **Feature lists without benefits** — — "10GB storage" meaningless. "Store 50,000 photos without worrying about space" meaningful.
 - **Multiple CTAs** — — each additional CTA reduces conversion. One action per piece of copy.
 - **Jargon** — — "leverage synergistic solutions" convinces no one. Simple, clear, specific wins.
 
-### [graphic-design-gtm](skills/creative/graphic-design-gtm/SKILL.md)
+### graphic-design-gtm (`graphic-design-gtm`)
 
 - **Wrong dimensions** — — a 1920x1080 graphic on LinkedIn stories is cropped. Always match platform-specific dimensions.
 - **Text in images too small** — — 60%+ of social browsing is mobile. Minimum 16px type, ideally 24px+ for headlines.
@@ -367,7 +367,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No brand consistency** — — different colors, fonts, and styles across assets signals amateur. Templates enforce consistency.
 - **Stock photography** — — generic stock photos reduce trust. Use product screenshots, team photos, or custom illustrations.
 
-### [growth-hacking-tactics](skills/creative/growth-hacking-tactics/SKILL.md)
+### growth-hacking-tactics (`growth-hacking-tactics`)
 
 - **Tactic copying without model understanding.** — "Dropbox did a referral program. We should too!" But you're an enterprise SaaS company where referrals come from relationships, not viral loops. Fix: Build your growth model first. THEN pick tactics that fit your model.
 - **Running too many experiments.** — 10 simultaneous experiments = can't isolate what worked. Fix: 2-3 experiments per week max. One variable changed per experiment. Everything else held constant.
@@ -376,7 +376,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Scaling unscalable tactics.** — "We got 100 users from manually DMing people on LinkedIn." Great. Now automate it or find a scalable channel. Don't do 1,000 manual DMs. Fix: Scalable > manual. Find channels that compound.
 - **Killing too slow.** — "Let's give it another week." 3 weeks later: same result. 3 months of momentum lost. Fix: Kill threshold: if confidence interval suggests it won't hit target, kill immediately. Move on.
 
-### [landing-page-copy](skills/creative/landing-page-copy/SKILL.md)
+### landing-page-copy (`landing-page-copy`)
 
 - **Clever over clear.** — "We're the Salesforce of email" = I need to know what Salesforce is to understand you. Just say what you do. Fix: "Find any email in 30 seconds." No metaphors. No analogies. Just the outcome.
 - **Feature vomit in the hero.** — "AI-powered, multi-threaded, cloud-native email verification platform with enterprise-grade security..." Nobody reads past the fourth word. Fix: One headline. One subhead. Two CTAs. Everything else goes below the fold.
@@ -385,14 +385,14 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Testing too small.** — Testing "button color" when the headline is vague = optimizing deck chairs on the Titanic. Fix: Test the biggest lever first. Headline. Then CTA. Then social proof placement.
 - **Copy written in isolation.** — Marketing writes copy. Sales hears objections daily. They never talk. Fix: Interview 3 salespeople. Ask: "What are the top 5 objections you hear?" Address every one of them on the landing page.
 
-### [social-media-strategy](skills/creative/social-media-strategy/SKILL.md)
+### social-media-strategy (`social-media-strategy`)
 
 - **Company page as primary** — — people follow people, not companies. Founder and employee profiles outperform company pages 10:1.
 - **Links in LinkedIn posts** — — algorithm severely deprioritizes external links. Put links in comments or "link in bio."
 - **Inconsistent posting** — — posting 5x one week then nothing for 3 weeks kills momentum. Consistency > frequency.
 - **Broadcasting, not engaging** — — posting without commenting on others' content is talking to an empty room.
 
-### [v0-lander](skills/creative/v0-lander/SKILL.md)
+### v0-lander (`v0-lander`)
 
 - **One-shot prompting.** — "Build a SaaS website" in one prompt = generic, unbranded, middle-of-the-road output. Fix: Build section by section. Hero first. Iterate. Then pricing. Iterate.
 - **Generic output without brand context.** — Without brand colors, fonts, and references, v0 generates generic Tailwind. Fix: Paste your brand context into the first prompt. Reference a known site for style.
@@ -401,7 +401,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No form connection.** — A "Start free trial" button that links to "#" is a broken promise. Fix: Connect forms and CTAs before deploying.
 - **Too many sections.** — v0 will happily generate 15 sections if you ask. More sections = more cognitive load = lower conversion. Fix: 6-8 sections max. Cut anything that doesn't directly support the conversion goal.
 
-### [vibe-coding](skills/creative/vibe-coding/SKILL.md)
+### vibe-coding (`vibe-coding`)
 
 - **Vibe-coding the product itself.** — Your core SaaS product needs real engineering. Vibe code the marketing site, not the payment processing. Fix: Marketing surfaces = vibe code. Product core = real code.
 - **Accepting all AI output without review.** — "Accept All" is Karpathy's bit — and it works when you can test the output. But for customer-facing pages, test every button, every link, every form. Fix: 5-minute QA checklist before every deploy.
@@ -409,7 +409,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No design system reference.** — AI generates generic Tailwind if you don't give it design constraints. Fix: Provide brand colors, font, and a reference site. "Look like Stripe but with #0066FF primary."
 - **Forgetting mobile.** — AI tools often generate desktop-first layouts that break on mobile. Fix: As a final prompt: "Make this fully responsive. Stack all sections vertically on mobile. Ensure touch targets are 44px+."
 
-### [vibe-marketing](skills/creative/vibe-marketing/SKILL.md)
+### vibe-marketing (`vibe-marketing`)
 
 - **AI slop at scale.** — "30 AI blog posts in 1 hour!" = 30 pieces of unreadable garbage. Fix: AI writes first drafts. Humans edit for voice, accuracy, and insight. 10 great posts > 100 AI-slop posts.
 - **No fact-checking.** — AI confidently hallucinates statistics, customer quotes, and case studies. Fix: Every stat needs a source. Every quote needs attribution. Every claim needs verification.
@@ -420,7 +420,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## customer-success
 
-### [cs-analytics-dashboards](skills/customer-success/cs-analytics-dashboards/SKILL.md)
+### cs-analytics-dashboards (`cs-analytics-dashboards`)
 
 - **Health score without action.** — "Customer is at 38" without "here's the specific 3-step save play" is useless. Fix: Every health band maps to a specific playbook. Green → expansion. Yellow → engagement. Orange → intervention. Red → save.
 - **Too many survey questions.** — NPS + CSAT + CES + onboarding survey + feature survey + quarterly survey = survey fatigue and 5% response rates. Fix: NPS twice/year. CSAT post-interaction only. One onboarding survey. That's it.
@@ -429,14 +429,14 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Measuring activity instead of outcomes.** — "# of QBRs completed" is an activity metric. "% of QBRs that uncovered expansion opportunities" is an outcome metric. Fix: Every CS metric should tie to revenue or retention.
 - **Champion churn undetected.** — Your champion leaves the company and you find out 3 months later when the contract doesn't renew. Fix: Automated job change monitoring (LinkedIn alerts, LeadMagic Job Change, manual LinkedIn check quarterly).
 
-### [cs-playbooks](skills/customer-success/cs-playbooks/SKILL.md)
+### cs-playbooks (`cs-playbooks`)
 
 - **Measuring activity, not outcomes** — — logins are not value. Map customer Desired Outcomes and measure progress toward them.
 - **CS as firefighting** — — if CSMs only engage when something is wrong, they are reactive support, not customer success.
 - **No expansion motion** — — CS owns the relationship. If expansion lives only in Sales, the customer gets handed off at the worst moment.
 - **One-size health score** — — different segments need different health models. Enterprise cares about executive engagement; SMB cares about time-to-value.
 
-### [customer-onboarding](skills/customer-success/customer-onboarding/SKILL.md)
+### customer-onboarding (`customer-onboarding`)
 
 - **One onboarding for all.** — Enterprise customer with 500 seats and a $100K deal gets the same onboarding as a $500/mo SMB customer. Enterprise feels neglected. SMB feels overwhelmed. Fix: Segment by ACV. Different programs.
 - **Features over outcomes.** — "Click here, then here, then here" teaches mechanics, not value. Fix: Every onboarding step links to the customer's desired outcome. "This step gets you to [their goal]."
@@ -445,7 +445,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Measuring activity instead of outcomes.** — "# of kickoff calls completed" is an activity. "% of customers achieving First Value within 7 days" is an outcome. Fix: Track outcome metrics, not activity metrics.
 - **Ghosting after setup.** — Week 1: daily emails, 2 calls. Week 2: radio silence. Customer wonders if you still exist. Fix: Structured cadence. Weekly calls for month 1, biweekly for month 2, monthly thereafter.
 
-### [headless-support](skills/customer-success/headless-support/SKILL.md)
+### headless-support (`headless-support`)
 
 - **AI agent launched too early.** — 5 help articles and an AI agent = 70% wrong answers, frustrated customers, and damaged trust. Fix: 30+ articles minimum. Test with 50 real questions before launch.
 - **No escape hatch.** — AI agent that can't escalate to human is a customer experience disaster. Fix: Clear escalation triggers. "Talk to human" must always work. Never trap a customer in a bot loop.
@@ -454,14 +454,14 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Static knowledge base.** — Articles written once and never updated become wrong, then dangerous. Fix: Monthly KB review. Owner assigned per category. Every product release triggers KB updates.
 - **Deflection as the only goal.** — "100% deflection = 0 support tickets" sounds great but means you're not hearing from customers. Some tickets are valuable product feedback. Fix: Deflect repetitive questions. Keep product feedback and enterprise escalations human-handled.
 
-### [qbr-planning](skills/customer-success/qbr-planning/SKILL.md)
+### qbr-planning (`qbr-planning`)
 
 - **Product update disguised as QBR** — — executives don't care about feature releases. They care about business outcomes.
 - **Surprise expansion ask** — — if expansion is first mentioned at the QBR, it's too late. Plant the seed months before.
 - **Your metrics, not theirs** — — "you logged in 50 times" means nothing. "Your team reduced time-to-close by 40%" means everything.
 - **No action items** — — a QBR without mutual commitments is a meeting, not a milestone.
 
-### [sla-management](skills/customer-success/sla-management/SKILL.md)
+### sla-management (`sla-management`)
 
 - **Overpromising SLAs.** — "We respond in 15 minutes to everyone" with a 2-person team = broken promise within 24 hours. Fix: Set SLAs your team can meet 95%+ of the time. Underpromise, overdeliver.
 - **P1 inflation.** — "The dashboard font is ugly" marked P1 by an enterprise customer. 6 months later, every ticket is P1 and the on-call team is burned out. Fix: Strict P1 criteria. CEO-approved before anyone overrides priority.
@@ -470,7 +470,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No escalation automation.** — Agent forgets to escalate at 50% SLA. Ticket sits for days. Customer escalates to CEO on Twitter. Fix: Automated escalation triggers in help desk. No human memory required.
 - **SLA breaches without follow-up.** — A breached SLA without customer communication is a churn event. Fix: Auto-notify manager on breach. Template for customer communication. Post-mortem for root cause.
 
-### [support-tool-stack](skills/customer-success/support-tool-stack/SKILL.md)
+### support-tool-stack (`support-tool-stack`)
 
 - **Overbuying for stage.** — Zendesk Enterprise at $115/seat for a 2-person CS team is lighting money on fire. Fix: Match platform to stage. Upgrade when you need the features, not before.
 - **No macros at launch.** — CS team retyping the same 10 responses 50x/day is slow, inconsistent, and demoralizing. Fix: Build 15+ macros before go-live. Iterate weekly from actual tickets.
@@ -481,26 +481,26 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## demand-gen
 
-### [content-syndication](skills/demand-gen/content-syndication/SKILL.md)
+### content-syndication (`content-syndication`)
 
 - **Creating without distributing.** — The 30-hour creation / 3-minute promotion ratio (Simmonds) describes most B2B content teams. Fix: plan the 30-day distribution calendar before writing the pillar; block calendar time for the sequence before publication day, not after.
 - **Ignoring the Consumption Gap.** — SDRs follow up on syndication leads within minutes of form-fill. The prospect has not read the content yet. The conversation has no shared context and reads as a cold call. Fix: encode the 48-hour wait in your CRM or sequencer as a required delay before SDR enrollment.
 - **Measuring paid syndication on CPL alone.** — A $55 CPL from NetLine looks expensive next to a $20 CPM awareness campaign — until you compare cost-per-SQO (~5% lead-to-SQO for syndication vs ~2% for paid social). Fix: always report lead-to-SQO alongside CPL; gate budget decisions on pipeline yield.
 - **Bare link drops in communities.** — Reddit, LinkedIn groups, and Slack communities suppress or remove posts that are pure promotional links. Fix: follow Simmonds' community-first rule — contribute value to the thread first; share the asset as a resource in response to an existing question.
 
-### [paid-social-strategy](skills/demand-gen/paid-social-strategy/SKILL.md)
+### paid-social-strategy (`paid-social-strategy`)
 
 - **Webinar as product demo.** — Prospects attend for insights, not a sales pitch. Fix: 80% educational content, 20% product mention. Lead with counterintuitive insights.
 - **One-and-done syndication.** — Publishing once and moving on. Fix: one pillar piece → 15+ derivatives across channels over 30 days.
 - **Measuring paid social on clicks.** — Clicks and CPL don't equal pipeline. Fix: track pipeline generated and cost per opportunity from each channel.
 
-### [podcast-gtm](skills/demand-gen/podcast-gtm/SKILL.md)
+### podcast-gtm (`podcast-gtm`)
 
 - **Webinar as product demo.** — Prospects attend for insights, not a sales pitch. Fix: 80% educational content, 20% product mention. Lead with counterintuitive insights.
 - **One-and-done syndication.** — Publishing once and moving on. Fix: one pillar piece → 15+ derivatives across channels over 30 days.
 - **Measuring paid social on clicks.** — Clicks and CPL don't equal pipeline. Fix: track pipeline generated and cost per opportunity from each channel.
 
-### [webinar-strategy](skills/demand-gen/webinar-strategy/SKILL.md)
+### webinar-strategy (`webinar-strategy`)
 
 - **Webinar as product demo.** — Prospects attend for insights, not a sales pitch. Fix: 80% educational content, 20% product mention. Lead with counterintuitive insights.
 - **One-and-done syndication.** — Publishing once and moving on. Fix: one pillar piece → 15+ derivatives across channels over 30 days.
@@ -508,7 +508,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## design
 
-### [battlecard-builder](skills/design/battlecard-builder/SKILL.md)
+### battlecard-builder (`battlecard-builder`)
 
 - **Feature comparison instead of talk tracks.** — A table of features is a reference doc. A battlecard is a conversation tool. Write talk tracks.
 - **No proof points.** — "We're better at X" without evidence loses to competitors who have it. Every claim gets a proof point.
@@ -517,7 +517,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Too long.** — Reps cannot read a 3-page document during a call. One card per topic, scannable in 10 seconds.
 - **One card for all competitors.** — Different competitors attack from different angles. A battlecard for Salesforce looks different from one for a startup.
 
-### [case-study-builder](skills/design/case-study-builder/SKILL.md)
+### case-study-builder (`case-study-builder`)
 
 - **No metrics.** — "They love our product" is a testimonial, not a case study. Every case study needs specific, named numbers.
 - **Marketing language in quotes.** — "We leveraged their best-in-class solution" — no human talks like this. Use their actual words.
@@ -525,7 +525,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No customer approval.** — Never publish a case study without written permission. Include the approval step in your process.
 - **One format for everything.** — Sales needs a 1-pager. Marketing needs a story. Website needs both. Build both formats.
 
-### [design-system-gtm](skills/design/design-system-gtm/SKILL.md)
+### design-system-gtm (`design-system-gtm`)
 
 - **Vague voice guidelines.** — "Professional and friendly" is useless. Agents need specific, testable attributes: "Short sentences. Active voice. No passive constructions. Data before adjectives." Fix: For each voice attribute, provide 3 examples of "this, not that."
 - **RGB without hex.** — AI agents reference hex codes for HTML/CSS generation. Including RGB is good. Including only RGB is not. Fix: Hex is the primary color format for agents. RGB and HSL are supplementary.
@@ -534,7 +534,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No guardrails.** — Without explicit rules, agents will improvise — and sometimes generate content that's off-brand, legally risky, or factually wrong. Fix: Clear tiered guardrails: acceptable, review, never.
 - **Design system as PDF.** — If your design system is a Figma file or PDF, AI agents can't read it. Fix: DESIGN.md in markdown, version controlled, linked from all agent configuration files.
 
-### [one-pager-builder](skills/design/one-pager-builder/SKILL.md)
+### one-pager-builder (`one-pager-builder`)
 
 - **Two pages pretending to be one.** — If it takes 5 minutes to read, it's a brochure. Cut ruthlessly. Every sentence must earn its space.
 - **Feature list, not benefit list.** — "10GB storage" → "Store 50,000 files without worrying about space."
@@ -542,7 +542,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Generic differentiators.** — "Best-in-class" means nothing. "Only solution that verifies emails in real-time at 99%+ accuracy" means something.
 - **person@example.com as contact.** — A one-pager with a generic email address signals "we don't actually want you to reach out."
 
-### [pitch-deck-builder](skills/design/pitch-deck-builder/SKILL.md)
+### pitch-deck-builder (`pitch-deck-builder`)
 
 - **Feature dump.** — Slides listing features without connecting to outcomes. "We have AI-powered enrichment" → "Reps spend 0 minutes on manual research."
 - **One deck for everyone.** — CTO and VP Sales care about different things. If the same deck works for both, it works for neither.
@@ -551,7 +551,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Reading slides aloud.** — The audience can read. The speaker adds context, stories, and conviction the slides cannot.
 - **No clear CTA.** — "Let us know if you're interested" is not a next step. "Does Thursday at 2pm work for a technical deep-dive?" is.
 
-### [roi-calculator](skills/design/roi-calculator/SKILL.md)
+### roi-calculator (`roi-calculator`)
 
 - **Aggressive as default.** — Showing only the aggressive scenario trains prospects to be skeptical. Fix: Lead with conservative. "Here's what we can confidently promise. Most customers achieve more."
 - **Unrealistic assumptions.** — "You'll save 40 hours/week" when your best customer saves 10. CFOs spot this instantly and trust is destroyed. Fix: Use actual customer data, not aspirational numbers.
@@ -560,7 +560,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No source on assumptions.** — "Industry average" without naming the source is no better than "we guessed." Fix: Name the source: "Gartner 2026 Report," "Internal customer data (50+ deployments)," "Bureau of Labor Statistics."
 - **Ignoring implementation cost.** — "The software is $50K/year, therefore ROI is [benefits ÷ $50K]." Wrong. Implementation, training, migration, and opportunity cost of the transition period are real costs. Fix: Include all costs in Year 1. Model 3 years to amortize one-time costs.
 
-### [ui-ux-gtm](skills/design/ui-ux-gtm/SKILL.md)
+### ui-ux-gtm (`ui-ux-gtm`)
 
 - **Design over conversion.** — A beautiful page with 1% conversion is worse than an ugly page with 4%. Fix: A/B test. Let data decide. Beauty is subjective. Conversion is not.
 - **Too many fields.** — "Name + Email + Phone + Company + Role + Team Size + How did you hear about us?" = 2% conversion. Fix: Email only. Collect the rest via progressive profiling or enrichment.
@@ -571,19 +571,19 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## events
 
-### [conference-strategy](skills/events/conference-strategy/SKILL.md)
+### conference-strategy (`conference-strategy`)
 
 - **No pre-event outreach.** — Showing up to a conference without booked meetings wastes the investment. Fix: scrape attendee lists, research targets, and book meetings 2-3 weeks before.
 - **Booth staff without training.** — Untrained staff give generic demos and fail to qualify. Fix: train on qualification questions, demo flow, and data entry before the event.
 - **No post-event follow-up system.** — Leads go cold within 48 hours. Fix: Day 1 personalized follow-up, Day 3 value-add, Day 7 soft CTA.
 
-### [event-driven-outreach](skills/events/event-driven-outreach/SKILL.md)
+### event-driven-outreach (`event-driven-outreach`)
 
 - **No pre-event outreach.** — Showing up to a conference without booked meetings wastes the investment. Fix: scrape attendee lists, research targets, and book meetings 2-3 weeks before.
 - **Booth staff without training.** — Untrained staff give generic demos and fail to qualify. Fix: train on qualification questions, demo flow, and data entry before the event.
 - **No post-event follow-up system.** — Leads go cold within 48 hours. Fix: Day 1 personalized follow-up, Day 3 value-add, Day 7 soft CTA.
 
-### [field-marketing](skills/events/field-marketing/SKILL.md)
+### field-marketing (`field-marketing`)
 
 - **No pre-event outreach.** — Showing up to a conference without booked meetings wastes the investment. Fix: scrape attendee lists, research targets, and book meetings 2-3 weeks before.
 - **Booth staff without training.** — Untrained staff give generic demos and fail to qualify. Fix: train on qualification questions, demo flow, and data entry before the event.
@@ -591,13 +591,13 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## foundation
 
-### [buyer-psychology](skills/foundation/buyer-psychology/SKILL.md)
+### buyer-psychology (`buyer-psychology`)
 
 - **Hiding flaws creates suspicion.** — Buyers fill information gaps with worst-case assumptions. "They didn't mention security — it must be bad." Preempt concerns by surfacing them yourself.
 - **Social proof without specificity.** — "Trusted by thousands" is noise. "Used by 3 of the top 10 fintech companies" is signal. Specific > impressive.
 - **Too many options.** — When prospects face 4+ pricing tiers, they default to inaction or choose the cheapest. Offer 3 options max with a clear recommended path.
 
-### [competitive-intel](skills/foundation/competitive-intel/SKILL.md)
+### competitive-intel (`competitive-intel`)
 
 - **Battlecards that are feature comparison tables without the FIA structure.** — A list of features is not a battlecard — it's a spec sheet. Every fact must connect to an impact on the deal and an action the seller can take. Without the Act column, competitive intel adds cognitive load without improving outcomes.
 - **Inflating competitor weaknesses and downplaying competitor strengths.** — Sales teams lose trust in competitive intel that isn't honest. If a competitor genuinely has a better product in some dimension, say so. Then teach the seller how to reframe the decision criteria around dimensions where you win. Attempting to argue "our product is better in every way" when it's not is the fastest path to competitive intel being ignored.
@@ -608,7 +608,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Treating competitive intel as a one-time project.** — Competitors ship features, change pricing, shift positioning, and get acquired. Competitive intel that's six months old is misleading. Include a review cadence (recommended: quarterly full review, monthly spot-check for major changes).
 - **Discovery questions that are leading or aggressive.** — "Don't you find Competitor X's platform slow and buggy?" is a leading question that signals bias and creates defensiveness. SPIN-based questions should surface the prospect's actual experience: "How has the platform's performance been as your team has grown?" Let the prospect identify the weakness.
 
-### [gtm-context-bootstrap](skills/foundation/gtm-context-bootstrap/SKILL.md)
+### gtm-context-bootstrap (`gtm-context-bootstrap`)
 
 - **Filling unknowns with plausible copy** — Creates a polished but false source of truth. Fix: Use `unknown`, `assumption`, and `needs owner decision` labels
 - **Mixing buyer roles** — Produces generic pain and channel guidance. Fix: Build one row per role and buying situation
@@ -616,7 +616,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Copying every source into the pack** — Defeats progressive disclosure. Fix: Summarize; link the evidence and quote only decisive language
 - **Omitting freshness** — Stale pricing and product claims spread across later work. Fix: Add `as_of`, owner, and review cadence
 
-### [gtm-context](skills/foundation/gtm-context/SKILL.md)
+### gtm-context (`gtm-context`)
 
 - **ICP is too broad.** — "Mid-market SaaS companies" is not an ICP — it's a TAM. An ICP specifies industry, size band, tech stack, buying trigger, and geography. If your ICP definition doesn't exclude at least 80% of companies, it's not specific enough. Use Moore's beachhead principle: what is the narrowest segment where you can dominate?
 - **Confusing stated ICP with actual ICP.** — Founders often describe who they want to sell to rather than who actually buys. Always ground the ICP in empirical customer data, not aspiration. If your 3-5 best customers are all 50-person fintech companies, your ICP is 50-person fintech companies regardless of what the pitch deck says.
@@ -627,7 +627,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **The 90-day plan tries to do everything at once.** — A common failure mode is listing 20 tactics across 5 channels for Phase 1. The 90-day plan should have at most 3-5 objectives total and focus each phase on the highest-leverage activities. Sequencing matters more than comprehensiveness.
 - **Context is treated as a one-time deliverable rather than living documentation.** — GTM context decays. ICPs shift. Competitors enter. Channels saturate. The context document should include a "Last Updated" date and a review cadence (recommended: quarterly). Without this, the document loses trust and teams stop referencing it.
 
-### [icp-scoring](skills/foundation/icp-scoring/SKILL.md)
+### icp-scoring (`icp-scoring`)
 
 - **Equal weighting across dimensions.** — Giving firmographics, technographics, behaviors, and intent equal weight produces a model that doesn't discriminate. Firmographics and technographics should dominate (60-80% combined) because they represent structural fit. Behavior and intent are dynamic signals that supplement structural fit.
 - **Scoring what feels important rather than what predicts conversion.** — Without empirical calibration, scoring models reflect internal assumptions rather than market reality. If you have win/loss data, use it. If you don't, start with recommended weights and commit to recalibrating after 50 deals.
@@ -638,13 +638,13 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Treating the model as static.** — ICP scoring models decay as markets shift, competitors enter, and your product evolves. Include a recalibration cadence (recommended: quarterly review, recalibration every 6 months or 100 deals, whichever comes first).
 - **Scoring on data you can't actually obtain at scale.** — A scoring dimension that requires a manual research step per lead doesn't scale. Ensure each attribute in the model can be sourced from enrichment APIs, public data, or automated signals.
 
-### [icp-targeting-tiers](skills/foundation/icp-targeting-tiers/SKILL.md)
+### icp-targeting-tiers (`icp-targeting-tiers`)
 
 - **Segmenting by employee count only.** — A 30-person cybersecurity company buys like an enterprise (security reviews, compliance, long cycles). A 300-person e-commerce company buys like SMB (credit card, fast decision). Use ACV and buying behavior, not just firmographics.
 - **One motion for all tiers.** — The rep who closes $100K enterprise deals cannot also close $1K SMB deals. The skills, patience, and process are completely different. Segment your sales team by tier.
 - **Enterprise features for SMB customers.** — "We have SSO and audit logs!" SMB buyer: "I don't know what SSO is. Can I import a CSV?" Build for your buyer's sophistication level, not your engineering team's pride.
 
-### [positioning-messaging](skills/foundation/positioning-messaging/SKILL.md)
+### positioning-messaging (`positioning-messaging`)
 
 - **Starting positioning with the product instead of competitive alternatives.** — The most common positioning error. Dunford's framework works because it forces you to first understand what the customer currently does. If you skip to unique capabilities without establishing the baseline, the capabilities sound like generic feature claims.
 - **Confusing features with unique capabilities.** — "AI-powered" is a feature. "Automatically generates personalized outreach based on buying signals from 12 data sources" is a unique capability — if no competitor does it. Every claimed unique capability must pass the test: "Do any of our competitive alternatives do this?"
@@ -655,7 +655,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Voice guidelines that describe an aspiration rather than a reality.** — "We sound like trusted advisors" is meaningless. Describe specific attributes: "We use short sentences. We cite data. We ask questions more than we make claims. We never use the word 'leverage' as a verb."
 - **Messaging that sounds like it was written by a committee.** — Strong positioning has a point of view. It deliberately excludes some buyers. It takes a stance. If the messaging tries to appeal to everyone, it appeals to no one. The target customer section should make it clear who this is NOT for.
 
-### [pricing-strategy](skills/foundation/pricing-strategy/SKILL.md)
+### pricing-strategy (`pricing-strategy`)
 
 - **Pricing based on competitor pricing minus 10%.** — This is the race to the bottom. If you're always 10% cheaper than the category leader, you're training the market to see you as the discount option. Price based on your value, not their price. If your value is higher, price higher. If it's lower, fix the product, not the price.
 - **Feature gating instead of feature differentiation.** — When Tier 1 has "up to 5 reports" and Tier 2 has "unlimited reports," the customer feels punished for choosing Tier 1. When Tier 1 has "standard reports" and Tier 2 has "custom reports with AI insights," the customer feels they're getting more value at Tier 2. Design tiers around capability unlocks, not artificial limits.
@@ -666,7 +666,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Pricing that doesn't account for expansion revenue.** — If your model is per-seat, the path to higher NRR is seat expansion. If your model is usage-based, it's consumption growth. If your model is tiered, it's upgrades. Design the tier structure so that expansion is a natural path, not a forced upsell.
 - **Treating pricing as fixed once set.** — Pricing should be reviewed quarterly in early-stage companies and at least annually in scaled companies. Market conditions change, competitors move, and value perception evolves. The pricing strategy document should include a review cadence and triggers for revisiting (e.g., "revisit if win rate drops below X%").
 
-### [using-gtm-skills](skills/foundation/using-gtm-skills/SKILL.md)
+### using-gtm-skills (`using-gtm-skills`)
 
 - **Loading the entire catalog** — — Start with one primary skill and the smallest dependency chain.
 - **Routing by a shared keyword** — — Match the requested decision and artifact, not just topical vocabulary.
@@ -677,7 +677,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## founder-led
 
-### [advisor-recruitment](skills/founder-led/advisor-recruitment/SKILL.md)
+### advisor-recruitment (`advisor-recruitment`)
 
 - **Advisor logo collecting.** — 6 advisors who never show up are worse than 0 advisors who show up — they dilute equity and create fake confidence. Fix: Cap at 4-6 active advisors. Quality over quantity.
 - **No scope definition.** — "Be available to help" produces nothing. "5 customer intros per quarter" produces pipeline. Fix: Define specific deliverables in the advisor agreement.
@@ -685,7 +685,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No advisor management system.** — Advisors don't self-manage. If you don't send pre-reads, schedule calls, and track asks, they'll drift. Fix: Treat advisor management like a recurring 1-hour/week task.
 - **Asking for too much.** — "Can you introduce me to every VP of Sales you know?" is overwhelming. "Can you think of 2-3 people for our Head of Engineering role?" is actionable. Fix: Specific, time-bound, easy-to-say-yes asks.
 
-### [board-meeting-prep](skills/founder-led/board-meeting-prep/SKILL.md)
+### board-meeting-prep (`board-meeting-prep`)
 
 - **The 80-slide deck.** — You'll present maybe 10 slides. The rest are appendix. If you spend the meeting clicking through slides, you've failed. Fix: 15-20 slides max. Put everything else in appendix with a "we can reference if needed."
 - **Metrics without narrative.** — "Churn is 2.8%" means nothing without "this is up from 1.8% because X — here's our plan." Fix: Every metric slide gets one sentence of "so what?"
@@ -693,7 +693,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Surprising board members in the meeting.** — If you're proposing a major pivot, funding strategy change, or team restructure, board members should know BEFORE the meeting. Fix: Pre-align on anything controversial.
 - **No executive session.** — This is standard governance — the board meets without the CEO to discuss CEO performance, compensation, and succession. It's not a vote of no confidence. If your board isn't doing it, suggest it. Fix: Always include 10-15 min executive session at end.
 
-### [brand-kit](skills/founder-led/brand-kit/SKILL.md)
+### brand-kit (`brand-kit`)
 
 - **Logo without an icon variant.** — You need a square icon for favicons, social avatars, and app icons. Design the icon separately.
 - **Too many colors.** — More than 5 colors dilutes brand recognition. Primary + secondary + neutral + accent = 6-10 total. That's the limit.
@@ -701,7 +701,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No banned words list.** — Without explicit prohibitions, "leverage" and "synergy" creep into every piece of copy. Ban them explicitly.
 - **Templates that nobody uses.** — If templates require a designer to operate, they won't be used. Build templates that a non-designer can fill in.
 
-### [building-saas](skills/founder-led/building-saas/SKILL.md)
+### building-saas (`building-saas`)
 
 - **Overbuilding before validation.** — Spending 6 months on architecture before talking to a single customer. Ship in days, iterate based on usage.
 - **Free tier without conversion path.** — Freemium with 5% conversion means 95% of users cost money forever. Design the upgrade trigger before launching the free tier.
@@ -709,7 +709,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Enterprise features too early.** — SSO, audit logs, and SOC2 matter when enterprise is 20%+ of pipeline. Before that, they're distraction.
 - **No unit economics tracking.** — CAC, LTV, churn, payback period. If you can't answer these in 30 seconds, you're flying blind.
 
-### [business-insurance](skills/founder-led/business-insurance/SKILL.md)
+### business-insurance (`business-insurance`)
 
 - **No E&O before enterprise deal.** — Enterprise procurement asks for COI. You don't have it. Deal blocked for 2-4 weeks while you shop for insurance. Some customers walk away. Fix: Get E&O when you start targeting mid-market or enterprise — before the first deal, not during it.
 - **Thinking "we're too small to get sued."** — You're not. A $100K ARR startup can be sued for $1M by a customer who lost money during your downtime. Fix: Insurance is cheaper than being right in court.
@@ -717,7 +717,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Not naming enterprise customers as additional insured.** — Enterprise contract says "name us as additional insured on your E&O." You buy E&O but forget to add them. They reject the COI. Fix: Your broker handles additional insured endorsements. Ask for one per enterprise customer.
 - **Lying on the application.** — "We've never had a security incident." But you had a breach last year. The insurer finds out. Claim denied. Policy rescinded. Fix: Be honest on insurance applications. They can and will investigate before paying large claims.
 
-### [co-founder-dynamics](skills/founder-led/co-founder-dynamics/SKILL.md)
+### co-founder-dynamics (`co-founder-dynamics`)
 
 - **Choosing a friend instead of a co-founder.** — Friendship is not a qualification. You need complementary skills, aligned ambition, and tested work chemistry. Fix: Work on a project together for 3 months before formalizing anything.
 - **50/50 with no vesting.** — One founder stops contributing at month 6, still owns 50%. The company is unfundable. Fix: 4-year vesting with 1-year cliff. Always. Even for best friends. Even for spouses.
@@ -726,7 +726,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Unequal commitment unaddressed.** — One founder works 60 hours. The other works 20 and has a side project. This festers. Fix: Full-time commitment expectation in the agreement. If someone wants part-time, their equity should reflect it.
 - **Ignoring founder-market fit.** — A great engineer doesn't automatically make a great SaaS CTO. A great salesperson doesn't automatically understand developer tools. Fix: The co-founder should have deep domain knowledge or intense curiosity about the problem space.
 
-### [content-led-growth](skills/founder-led/content-led-growth/SKILL.md)
+### content-led-growth (`content-led-growth`)
 
 - **Creating content nobody asked for.** — "What I want to write about" ≠ "what my ICP needs to know." Fix: Mine customer calls, support tickets, and sales objections for topics. Write what they're already asking about.
 - **Writing but not distributing.** — A blog post with no promotion is a tree falling in an empty forest. Fix: 80% distribution, 20% creation. For every hour writing, spend 4 hours distributing.
@@ -735,7 +735,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Too many channels too early.** — Newsletter + podcast + YouTube + LinkedIn + X + TikTok = burnout in 2 months. Fix: Master ONE channel first. Add channels when the first one is producing pipeline consistently.
 - **Inconsistent publishing.** — The algorithm rewards consistency. A newsletter that goes out "when I have time" never grows. Fix: Same day, same time, every week. Pre-write 4 issues before launching.
 
-### [data-privacy-compliance](skills/founder-led/data-privacy-compliance/SKILL.md)
+### data-privacy-compliance (`data-privacy-compliance`)
 
 - **Copy-pasted privacy policy.** — "We don't use cookies" while using Google Analytics, Stripe, and Intercom = false statement, GDPR violation. Fix: Document what you actually do. Update when your stack changes.
 - **No DPA ready for enterprise.** — Enterprise customer asks for DPA. You don't have one. Deal stalls for weeks while you scramble. Fix: Have a DPA template ready. Termly can generate one.
@@ -744,7 +744,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Ignoring CCPA until $25M.** — CCPA has a private right of action for data breaches. You don't need to hit the threshold to get sued for a breach. Fix: Implement reasonable security measures regardless of revenue.
 - **Forgetting about vendor sub-processors.** — You sign a DPA with a customer promising GDPR compliance — but you never collected DPAs from your own vendors (AWS, Intercom, etc.). Fix: Collect and maintain DPAs from all sub-processors. Share the list with enterprise customers.
 
-### [employment-compliance](skills/founder-led/employment-compliance/SKILL.md)
+### employment-compliance (`employment-compliance`)
 
 - **Misclassifying employees as contractors.** — "They're a contractor" but they work 40 hours/week, use your laptop, have a company email, and report to a manager. If it walks like an employee and quacks like an employee... Fix: Use the IRS 20-factor test. When in doubt, classify as employee and use Gusto/Justworks.
 - **No IP assignment from contractors.** — You pay a contractor $50K to build your product. They own the code. You don't. Fix: Every contractor signs a PIIA or work-for-hire agreement BEFORE starting work.
@@ -752,7 +752,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Ignoring state-specific laws.** — "We're based in Texas, but we hired a remote employee in California." California has completely different overtime rules, sick leave requirements, and final paycheck timing. Fix: Your PEO (Gusto/Rippling) handles this — but you need to tell them about every hire in every state.
 - **No handbook for employee #1.** — "We're only 3 people — we don't need a handbook." You need it BEFORE there's a problem. The handbook is evidence that you communicated expectations and policies. Fix: SixFifty generates a handbook in under an hour.
 
-### [engineer-to-founder](skills/founder-led/engineer-to-founder/SKILL.md)
+### engineer-to-founder (`engineer-to-founder`)
 
 - **Building before validating.** — "I have a great idea. Let me spend 6 months building it in secret." 6 months later: 0 users, 0 feedback, 0 revenue, and a product that solves a problem nobody has. Fix: Talk to 5 users first. Build an MVP in a weekend. Show it to them. Iterate.
 - **Quitting with no runway.** — "I'll quit my job and it'll force me to make it work." It forces you to take the first bad job offer, accept bad terms from investors, and make short-term decisions that kill long-term value. Fix: 12+ months runway. Side-project until traction.
@@ -761,7 +761,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Perfectionism as procrastination.** — "Just one more refactor before we launch." "The landing page isn't quite right." "I need to add one more feature." This is fear wearing a productivity mask. Fix: Ship broken things. Users will tell you what actually needs fixing.
 - **Isolation.** — Solo founder, coding alone for 6 months, no peer group, no feedback, no reality checks. This is the #1 cause of founder depression and burnout. Fix: Co-founder or founder peer group. Built-in-public community. Monthly reality checks.
 
-### [equity-management](skills/founder-led/equity-management/SKILL.md)
+### equity-management (`equity-management`)
 
 - **Cap table in Excel.** — Excel can't handle cap table complexity (option exercises, early exercises, multiple funding rounds). Fix: Carta or Pulley from day 1.
 - **No 409A valuation.** — You're granting options at an arbitrary price = IRS penalties for you and your employees. Fix: 409A before first grant. Renew annually.
@@ -769,7 +769,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Forgotten option pool at fundraising.** — You model dilution from the new round but forget the option pool refresh. Surprise: an extra 15% dilution. Fix: Model dilution including option pool. Negotiate pool size at term sheet stage.
 - **Missing 83(b) for founders.** — Miss it and you owe tax on phantom income as your shares vest over 4 years. Fix: File within 30 days. Keep proof. This is the #1 unforced error in startup equity.
 
-### [events-planning](skills/founder-led/events-planning/SKILL.md)
+### events-planning (`events-planning`)
 
 - **Event without pipeline goal.** — "Let's host a dinner" without a target attendee list and pipeline goal is an expensive meal, not a GTM activity.
 - **No post-event follow-up.** — Conversations at events die without follow-up within 48 hours. The event is the opener, not the close.
@@ -777,7 +777,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Webinar as product pitch.** — Nobody attends a webinar to hear a sales pitch. Teach something valuable. The product is the logical next step, not the topic.
 - **Measuring vanity metrics.** — "200 attendees" means nothing if zero become pipeline. Track conversations → meetings → pipeline → revenue.
 
-### [exiting-company](skills/founder-led/exiting-company/SKILL.md)
+### exiting-company (`exiting-company`)
 
 - **Missing IP assignments.** — Contractor IP gaps kill deals — fix in month 1–6.
 - **Customer concentration.** — One logo >20% ARR → un-acquirable or deep discount.
@@ -787,7 +787,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Headline EV without cash-at-close math.** — Earn-out traps look like big deals. Fix: `earn-out-term-sheet-review.md` before signing.
 - **Accepting EBITDA earn-out without carve-outs.** — Buyer can cut marketing and void payout. Fix: `negotiating-earn-out.md` governance section.
 
-### [financial-modeling](skills/founder-led/financial-modeling/SKILL.md)
+### financial-modeling (`financial-modeling`)
 
 - **Top-down revenue modeling.** — "1% of $100B market" = fiction. Fix: Model customers × ACV with realistic acquisition.
 - **Zero churn assumption.** — No SaaS has zero churn. Fix: 1-3% monthly churn minimum for SMB, 0.5-1% for mid-market.
@@ -796,7 +796,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **WACC too low for startups.** — 10% WACC for seed stage implies utility-level risk. Fix: Early stage WACC = 20-30%. Risk is real.
 - **Aggregate metrics hiding segment problems.** — 2% churn average hides 5% SMB churn and 0.5% Enterprise. Fix: Segment everything.
 
-### [first-hires-playbook](skills/founder-led/first-hires-playbook/SKILL.md)
+### first-hires-playbook (`first-hires-playbook`)
 
 - **Hiring ahead of the pain.** — "We'll need a marketing team eventually" is not a reason to hire a marketer at $500K ARR. The role will be undefined, they'll flounder, you'll fire them, it'll cost $50K+ in severance and recruiter fees. Fix: Hire when the constraint is active and painful, not theoretical.
 - **Hiring for pedigree over stage-fit.** — The ex-Google PM who's never talked to a customer will fail at a 10-person startup. Fix: Prioritize "built it from zero" over "managed a $100M product line."
@@ -804,7 +804,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Slow offer process.** — Top candidates are off the market in 2 weeks. If your process takes 4+ weeks, you'll only hire people who can't get offers elsewhere. Fix: 5 stages, 10 business days, offer in 48 hours.
 - **Skipping the work sample.** — Interviews measure interview skills. Work samples measure work skills. The correlation between them is weaker than you think. Fix: Every role gets a real work sample before the final round.
 
-### [founder-brand](skills/founder-led/founder-brand/SKILL.md)
+### founder-brand (`founder-brand`)
 
 - **Company page as primary.** — People follow people, not companies. Founder posts outperform company page posts 10:1 on LinkedIn.
 - **Posting company content only.** — "We launched a new feature" is not thought leadership. Share insights, lessons, and contrarian takes.
@@ -812,7 +812,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Vanilla voice.** — "Excited to announce..." is invisible. Have opinions. Take positions. The people who disagree are not your audience.
 - **Engagement without pipeline tracking.** — Likes don't pay bills. Track: content → profile views → website visits → demo requests → closed revenue.
 
-### [founder-comp-playbook](skills/founder-led/founder-comp-playbook/SKILL.md)
+### founder-comp-playbook (`founder-comp-playbook`)
 
 - **Hire before motion.** — Comp can't fix unproven product. Fix: founder closes 10–20 first.
 - **OTE vanity contest.** — $180K OTE / $900K quota beats $200K / $2M quota. Fix: show math.
@@ -820,7 +820,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Geo bait-and-switch.** — Offer remote then cut 20%. Fix: band in JD.
 - **Skip RepVue check.** — Candidates know your reputation. Fix: align posted vs paid.
 
-### [founder-sales](skills/founder-led/founder-sales/SKILL.md)
+### founder-sales (`founder-sales`)
 
 - **Demoing too early.** — First meeting should be discovery, not demo. If you haven't identified a Critical Event, skip the demo. You'll waste time on tire-kickers. Fix: Require SPICED completion before scheduling demos.
 - **Emailing pricing.** — If you email pricing after the call, you've lost control of the conversation. They'll compare to competitors without your context. Fix: Discuss pricing live, anchoring on value delivered.
@@ -828,7 +828,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Hiring sales too early.** — Before you've proven repeatability, a sales hire is a research project you're paying for. They'll fail and blame the product. Fix: Close 20+ deals yourself first. Document everything.
 - **Discounting without concessions.** — Every discount without a trade trains buyers to ask for more. Fix: Always conditional. Always.
 
-### [fundraising-strategy](skills/founder-led/fundraising-strategy/SKILL.md)
+### fundraising-strategy (`fundraising-strategy`)
 
 - **Fundraising before you're ready.** — If growth is under 10% MoM and retention is under 100% NRR, fix the business first. Raising won't fix product-market fit problems. Fix: Meet growth benchmarks before starting.
 - **Taking the first term sheet.** — Unless it's from your dream investor with dream terms, create competitive tension. Fix: Batch your process so multiple VCs are evaluating simultaneously.
@@ -836,7 +836,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Neglecting the partner meeting.** — First meeting is screening. Partner meeting is where the decision happens. Send updated metrics, prep references, and anticipate every hard question. Fix: Do a mock partner meeting with an experienced founder.
 - **Announcing before money hits the bank.** — Term sheets fall through. Wires can take days. Fix: Wait until funds are in your account.
 
-### [gtm-recruiting](skills/founder-led/gtm-recruiting/SKILL.md)
+### gtm-recruiting (`gtm-recruiting`)
 
 - **Post and pray.** — Zero outbound. Fix: 70% sourcing / 30% inbound.
 - **Hidden comp.** — Candidate discovers gap on RepVue. Fix: publish range in JD.
@@ -845,7 +845,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Slow offer.** — Candidate takes competing offer. Fix: pre-draft comp before finals.
 - **Recruiter misalignment.** — No exclusive terms. Fix: written fee + guarantee.
 
-### [gtm-role-descriptions](skills/founder-led/gtm-role-descriptions/SKILL.md)
+### gtm-role-descriptions (`gtm-role-descriptions`)
 
 - **JD without org context.** — Candidate can't tell if they're hire #2 or #20. Fix: title includes stage and team size.
 - **Quota not tied to OTE.** — $200K OTE with $400K quota = rep leaves. Fix: Bridge Group ~5:1 ratio.
@@ -856,7 +856,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **GTM Engineer vs RevOps conflation.** — Forecast owner ≠ Clay builder. Fix: `gtm-engineer-hiring.md` role table; split titles at scale.
 - **Hiring GTM Engineer before process exists.** — Automates broken CRM stages. Fix: Operating Model ≥6 (`pipeline-management`) before FTE.
 
-### [hiring-agencies](skills/founder-led/hiring-agencies/SKILL.md)
+### hiring-agencies (`hiring-agencies`)
 
 - **Agency before process.** — Without `pipeline-management` stages and SPICED fields, the agency invents its own motion. Fix: document process first.
 - **Outsourcing strategy.** — Agencies write messaging from scratch without your positioning. Fix: provide approved copy, ICP, and talk tracks.
@@ -865,7 +865,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No kill switch.** — Sunk-cost extensions for 6+ months. Fix: 90-day pilot with explicit stop criteria.
 - **Never bringing in-house.** — Perpetual agency dependency at 2–3x employee cost. Fix: graduate proven channels to hires.
 
-### [hiring-by-role](skills/founder-led/hiring-by-role/SKILL.md)
+### hiring-by-role (`hiring-by-role`)
 
 - **Trusting gut over scorecard.** — "They didn't score well, but I liked them." Likability bias is one of the strongest hiring biases. Fix: If scorecard < threshold, no hire. Gut is a tiebreaker, not a decider.
 - **Same process for every role.** — Engineering interview for sales candidate = "what's your favorite data structure?" Salesperson walks out. Fix: Role-specific processes.
@@ -874,7 +874,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Asking about past salary.** — Banned in many states. Anchors offer to previous pay (which may reflect discrimination). Fix: Pay based on the role, not the candidate's previous salary.
 - **Years of experience as a requirement.** — "15+ years experience" filters out the 10-year person who's done 3x as much. Fix: Describe what they've achieved, not how long they've been working.
 
-### [hiring-contractors](skills/founder-led/hiring-contractors/SKILL.md)
+### hiring-contractors (`hiring-contractors`)
 
 - **No IP assignment clause.** — The most expensive mistake. Without it, the contractor owns the work. Fix this in the contract before work begins.
 - **Vague scope.** — "Improve the app" is not a scope. "Add single sign-on via Google OAuth with these 5 specific requirements" is.
@@ -882,7 +882,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No code review.** — Contractor code without review becomes technical debt your team can't touch. Review everything before merge.
 - **Treating contractors like employees.** — They have other clients. They don't attend your standups unless you're paying for that time. Set clear expectations and respect boundaries.
 
-### [investor-updates](skills/founder-led/investor-updates/SKILL.md)
+### investor-updates (`investor-updates`)
 
 - **Hiding problems.** — Investors find out anyway. Problems you communicate early are opportunities for help. Problems you hide are trust-breakers.
 - **No asks.** — Investors want to feel useful. If you never ask for anything, they stop reading. Specific asks drive engagement.
@@ -890,7 +890,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Dense walls of text.** — Nobody reads 5-page updates. One page. Metrics first. Narrative second. Bullet points, not paragraphs.
 - **Inconsistent format.** — Different structure every month means investors can't find what they're looking for. Same format, every month, forever.
 
-### [job-posting-strategy](skills/founder-led/job-posting-strategy/SKILL.md)
+### job-posting-strategy (`job-posting-strategy`)
 
 - **Spraying every job board.** — Same post on LinkedIn + Indeed + Monster + Glassdoor + 10 niche boards. 500 unqualified applicants. Team spends 40 hours screening. Fix: 2-3 highest-signal channels per role. More channels = more noise, not more signal.
 - **Years of experience as primary filter.** — "7+ years experience" filters out the 5-year engineer who built 3 successful products. Years ≠ capability. Fix: Describe what they've BUILT or ACHIEVED, not how long they've existed.
@@ -898,7 +898,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Passive job posting (post and pray).** — Post goes up. Nobody applies. Post sits there. Nobody applies. Fix: Posting is 20% of the work. Sourcing (outbound to passive candidates) is 80%.
 - **Generic job post.** — "We're looking for a talented engineer to join our dynamic team..." Every company says this. Zero differentiation. Fix: Constraint-first format. Why this role exists NOW. What they'll OWN.
 
-### [launch-planning](skills/founder-led/launch-planning/SKILL.md)
+### launch-planning (`launch-planning`)
 
 - **Launch without pre-launch.** — Showing up on launch day with no audience, no partners, and no press list is publishing, not launching. Fix: 6 weeks pre-launch for Tier 1. 70% of effort is pre-launch.
 - **One channel only.** — Product Hunt without email, social, partners, and press reaches 10% of your potential audience. Fix: Activate minimum 8 channels for Tier 1 launches.
@@ -907,7 +907,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No post-launch follow-up.** — Traffic spikes and disappears in 48 hours. If you don't have retargeting, email sequences, and follow-up content ready, you'll capture 5% of the value. Fix: Build post-launch sequences during pre-launch. They go live automatically.
 - **Measuring the wrong things.** — Upvotes and pageviews feel good but don't pay bills. Fix: Measure pipeline and revenue. Content → signup → demo → close. Launch is a GTM motion, not a vanity contest.
 
-### [lead-magnets](skills/founder-led/lead-magnets/SKILL.md)
+### lead-magnets (`lead-magnets`)
 
 - **Gating something nobody wants.** — "Download our company overview PDF" is not a lead magnet — it's a brochure. Fix: Would you give YOUR email for this? If you hesitate, prospects will bounce.
 - **Too many form fields.** — Name + Email + Phone + Company + Role + "How did you hear about us?" = 2% conversion. Fix: Email only. Ask for the rest during onboarding or via progressive profiling.
@@ -916,7 +916,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Magnet disconnected from product.** — A lead magnet about "10 best coffee shops in Boston" generates leads who like coffee, not your B2B SaaS product. Fix: The magnet must naturally bridge to your product's value proposition.
 - **Building instead of testing.** — Spending $15K and 6 weeks on a calculator before validating demand. Fix: Test with a manual version first (spreadsheet, consultant gives you the output). If people use the manual version, build the tool.
 
-### [legal-for-founders](skills/founder-led/legal-for-founders/SKILL.md)
+### legal-for-founders (`legal-for-founders`)
 
 - **Missing 83(b) election.** — Miss the 30-day window and you can be taxed on millions in phantom income as your company grows. Fix: File immediately after receiving shares. Certified mail. Keep proof.
 - **No IP assignment.** — Founder builds the product. Keeps the IP personally. Leaves. Company has nothing. Fix: All founders sign PIIA before writing any code. If you haven't — do it this week.
@@ -925,7 +925,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Using the wrong SAFE.** — Pre-money SAFE (pre-2018) means dilution is unclear. Post-money SAFE (current YC standard) is clearer. Fix: Use the YC post-money SAFE. Don't modify unless your lawyer says so.
 - **No DPA for enterprise customers.** — Enterprise customers will send you a DPA to sign. If you don't have one, they won't buy. Fix: Have a standard DPA ready. Termly and Iubenda can generate one. Lawyer-review if you're enterprise-scale.
 
-### [partner-programs](skills/founder-led/partner-programs/SKILL.md)
+### partner-programs (`partner-programs`)
 
 - **Partners without enablement.** — A portal with "sign up here" generates signups and zero revenue. Partners need training, assets, deal registration, and someone to call when they're stuck. Fix: Don't launch until enablement is built.
 - **One-size-fits-all economics.** — 15% for an agency that closes the deal AND implements is too low. 25% for a referral partner who just makes an intro is too high. Fix: Economics vary by partner type and effort.
@@ -934,7 +934,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Hiring a VP of Partnerships too early.** — If you're under $5M ARR, the founder is the partnerships team. A VP Partnerships at $2M ARR will build a program but can't generate enough revenue to justify the hire. Fix: Founder-led partnerships until $5-10M ARR with proven partner pipeline.
 - **Mixing partner types in one program.** — Agencies need different economics, training, and support than referral partners. A single "Partner Program" with one set of rules fits nobody. Fix: Separate programs (or sub-programs) per partner type.
 
-### [pricing-psychology](skills/founder-led/pricing-psychology/SKILL.md)
+### pricing-psychology (`pricing-psychology`)
 
 - **Cost-plus pricing.** — "Our costs are $X, so we charge $X + 30%." This ignores what customers are willing to pay. You might be leaving 50%+ on the table. Fix: Value-based pricing. What is the problem worth to them?
 - **Competitor-minus pricing.** — "Competitor charges $100, we'll charge $80." This starts a race to the bottom. The cheapest option is not the best option — it's the cheapest. Fix: Differentiate on value, not price.
@@ -943,7 +943,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Founder discount reflex.** — "They asked for a discount, so I gave them 20%." This trains customers to ask and destroys your pricing integrity. Fix: Concession menu, not straight discounts. "I can't reduce the price, but I can..."
 - **No annual option.** — Monthly billing = monthly churn risk. Annual billing = 12 months of committed revenue, lower churn, better cash flow. Fix: Always offer annual with 10-20% discount. Default to annual on pricing page.
 
-### [saas-metrics-calculator](skills/founder-led/saas-metrics-calculator/SKILL.md)
+### saas-metrics-calculator (`saas-metrics-calculator`)
 
 - **Raw-revenue LTV.** — Using total revenue instead of contribution margin. If your gross margin is 70%, raw LTV overstates by 43%. Fix: Always use ARPA × Gross Margin % ÷ Monthly Churn Rate.
 - **Under-counting CAC.** — "Our CAC is $200" but you only counted ad spend, not the salaries of the 4 SDRs and 2 AEs who closed those customers. Fix: Fully-loaded CAC. All S&M expense ÷ new customers.
@@ -952,15 +952,15 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Ignoring the Burn Multiple.** — Growth at all costs is dead. A company growing 100% with a 3x Burn Multiple is less healthy than a company growing 50% with a 1x Burn Multiple. Fix: Report Burn Multiple alongside growth rate.
 - **Annualizing monthly churn wrong.** — Monthly churn of 2% ≠ 24% annual churn. It compounds: 1 - (1 - 0.02)^12 = 21.5%. Fix: Use the compound formula or track actual annual churn from cohort data.
 
-### [saas-outcomes](skills/founder-led/saas-outcomes/SKILL.md)
+### saas-outcomes (`saas-outcomes`)
 
 - **Default to VC without $100M story.** — Down rounds and founder replacement. Fix: name bootstrap path explicitly if TAM is niche.
-- **Single headline multiple.** — Ignores NRR, concentration, churn. Fix: driver checklist in `skills/founder-led/saas-outcomes/references/valuation-multiples.md`.
-- **Mixing playbooks.** — VC burn with bootstrap ownership goals. Fix: one primary end goal per `skills/founder-led/saas-outcomes/references/end-goal-matrix.md`.
+- **Single headline multiple.** — Ignores NRR, concentration, churn. Fix: driver checklist in `valuation-multiples.md (in the `saas-outcomes` skill)`.
+- **Mixing playbooks.** — VC burn with bootstrap ownership goals. Fix: one primary end goal per `end-goal-matrix.md (in the `saas-outcomes` skill)`.
 - **Selling at peak FOMO.** — After-tax hold may beat LOI. Fix: DCF vs sale scenario in `financial-modeling`.
 - **Optimizing valuation before retention.** — Multiples compress in diligence. Fix: unit economics first (Skok).
 
-### [sales-team-building](skills/founder-led/sales-team-building/SKILL.md)
+### sales-team-building (`sales-team-building`)
 
 - **VP Sales before $2M ARR.** — 70% failure rate. Cost: $300-500K in comp + opportunity cost. VP's job is to scale what works, not discover it.
 - **SDR as first hire.** — Founder closes every deal + manages junior rep = neither done well. First hire: full-stack AE who prospects AND closes.
@@ -968,7 +968,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **AE mis-hire.** — 40% mis-hire rate, $484K cost over 24 months. Validate with a paid project before full-time. Check: can they self-source pipeline? Do they have ACV-relevant experience?
 - **Comp complexity.** — A compensation plan that fits on one page is 3x more likely to drive the right behavior. Show causality: comp tied directly to desired outcome.
 
-### [security-assessments](skills/founder-led/security-assessments/SKILL.md)
+### security-assessments (`security-assessments`)
 
 - **No pen test before enterprise deal.** — Customer asks for pen test report. You don't have one. Deal stalls for 4-6 weeks while you schedule and complete one. Fix: Pen test annually starting from your first mid-market deal.
 - **Pen test findings not fixed.** — You have the report. You never fixed the findings. Next year's pen test finds the same issues. Customer's security team asks why. Fix: Track findings. Fix them. Get retest confirmation.
@@ -976,7 +976,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No incident response plan.** — Breach happens. Chaos. Everyone's emailing each other. Legal isn't looped in. Customer notification is delayed. Regulatory deadline missed. Fix: Document the plan. Assign the team. Test it with a tabletop exercise.
 - **Relying on bug bounties instead of pen tests.** — Bug bounties catch the obvious stuff and miss the chained vulnerabilities that a methodical pen tester finds. Fix: Pen test annually. Bug bounty as supplement.
 
-### [soc2-compliance](skills/founder-led/soc2-compliance/SKILL.md)
+### soc2-compliance (`soc2-compliance`)
 
 - **Starting too early.** — SOC2 at $500K ARR with no enterprise pipeline is premature optimization. Implement good security practices. Formal audit can wait.
 - **Starting too late.** — Losing enterprise deals because you don't have SOC2 is a sales problem, not a security problem. Start the process when enterprise pipeline hits 20%+ of total.
@@ -984,7 +984,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Manual evidence collection.** — Without a compliance platform, you'll spend 10-20 hours/month on evidence. The platform pays for itself in time saved.
 - **No bridge letter.** — If your audit gap exceeds 12 months, enterprise procurement teams will reject it. Get a bridge letter from your auditor.
 
-### [solo-founder-gtm](skills/founder-led/solo-founder-gtm/SKILL.md)
+### solo-founder-gtm (`solo-founder-gtm`)
 
 - **Hiring before the motion works.** — If the founder can't close 10-20 deals personally, the motion isn't proven. Hire an AE to accelerate what works, not to discover what works.
 - **Enterprise tools at startup stage.** — $25K ZoomInfo at $500K ARR is capital misallocation. Apollo is $59/mo and covers 90% of early-stage needs.
@@ -992,7 +992,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No AI leverage.** — One founder + AI tools outperforms 3 junior hires at lower cost and zero management overhead.
 - **Skipping self-assessment.** — The GTM Index surfaces what's broken before you scale it. Fix the system, then add people.
 
-### [startup-communities](skills/founder-led/startup-communities/SKILL.md)
+### startup-communities (`startup-communities`)
 
 - **Community tourism.** — Join 20 Slack groups, post once in each, never return. Depth > breadth. Fix: Choose 3 communities. Participate daily for 3 months. Then evaluate.
 - **Location fatalism.** — "I can't build a startup because I don't live in SF." YC, Stripe (Patrick Collison was in Ireland initially), Zapier (fully remote), GitLab (remote from day 1) all prove location is an advantage, not a requirement. Fix: Build where you are. Apply to accelerators. Attend conferences. Build in public.
@@ -1001,7 +1001,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Wrong community for your stage.** — Hacker News is great for technical feedback, terrible for enterprise sales advice. Pavilion is great for revenue leaders, useless for pre-launch founders. Fix: Match community to your current challenge.
 - **Ignoring local community because "it's not Silicon Valley."** — Every city has founders. Find them. Meet monthly. The density is lower, but the depth can be higher — people outside the hype cycle are often more genuine.
 
-### [vc-outreach](skills/founder-led/vc-outreach/SKILL.md)
+### vc-outreach (`vc-outreach`)
 
 - **Raising without building the line.** — You show up as a cold "dot" and wonder why response rates are 1%. Fix: Start monthly updates 6-12 months before raising. Build the line. Show the trend.
 - **Generic cold emails.** — "Dear Investor, we're revolutionizing..." is deleted in under 3 seconds. Fix: Lead with specific traction. "We're at $X ARR growing X% MoM" earns 30 seconds of attention.
@@ -1010,7 +1010,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No follow-up after the meeting.** — A VC meets 20 founders a week. If you don't follow up within 2 hours, they forget which one you were. Fix: Follow-up email sent before you leave the parking lot. Every meeting.
 - **Artificial urgency.** — "The round is closing fast — we need an answer by Friday." This works exactly once: when it's true. VCs have seen it faked 1,000 times. Fix: Real urgency is traction and competing term sheets, not fabricated deadlines.
 
-### [vendor-contracts](skills/founder-led/vendor-contracts/SKILL.md)
+### vendor-contracts (`vendor-contracts`)
 
 - **No standard MSA.** — Every enterprise customer sends you THEIR contract. You're negotiating from their paper. Every time. Every deal takes months. Fix: Have your own MSA template. "We use our standard MSA. Our customers find it fair."
 - **Unlimited liability.** — You signed a contract with no liability cap. A customer sues for $5M in damages from your $10K/year SaaS product. Your company is dead. Fix: Liability cap = 12 months of fees. Non-negotiable for early-stage companies.
@@ -1018,7 +1018,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No auto-renewal tracking.** — Contract auto-renews at 3x the price. You didn't notice. Customer is furious. Fix: Calendar reminders 90 days before every renewal. Review terms before auto-renewal triggers.
 - **Ignoring vendor security review.** — You bought a tool without checking its security. It gets breached. Your customer data is exposed. Your customer sues YOU — not the vendor. Fix: Security review every vendor that touches customer data. DPA + SOC2 minimum.
 
-### [yc-ecosystem](skills/founder-led/yc-ecosystem/SKILL.md)
+### yc-ecosystem (`yc-ecosystem`)
 
 - **Applying the night before.** — Your first draft is never your best. YC tracks application updates and sees iteration as a positive signal. Fix: Start 4 weeks before deadline. Iterate weekly.
 - **Marketing language in the application.** — "We're revolutionizing the enterprise collaboration space through AI-powered workflow optimization." YC partners read 10,000+ applications. They can smell BS. Fix: "We auto-generate sales reports from CRM data. 12 paying customers at $500/mo."
@@ -1029,35 +1029,35 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## growth
 
-### [churn-prevention](skills/growth/churn-prevention/SKILL.md)
+### churn-prevention (`churn-prevention`)
 
 - **Lagging indicators only.** — Renewal date proximity is not a health score. It tells you when the decision happens, not whether it will be a yes.
 - **Generic re-engagement.** — "We miss you" emails don't work. Reference their specific use case and the value they achieved when things were going well.
 - **No champion monitoring.** — The single biggest churn predictor is champion departure. Monitor job changes across your customer base.
 - **Equal treatment of all churn risks.** — A $500/month customer and a $50,000/year customer don't get the same intervention. Tier by revenue.
 
-### [customer-marketing](skills/growth/customer-marketing/SKILL.md)
+### customer-marketing (`customer-marketing`)
 
 - **Asking for favors without rewards.** — "Can you write a review?" with nothing in return. Fix: Every advocacy request includes a reward — charity donation, swag, early access, co-marketing.
 - **Over-using references.** — Same 3 customers do 10 reference calls each. They burn out. Fix: Cap at 2-3/quarter. Rotate.
 - **Publishing case studies without metrics.** — "Acme Corp loves us" is not a case study. Fix: Every case study has before/after metrics.
 - **No review response.** — Negative G2 review sits unanswered for months. Prospects see it. Trust evaporates. Fix: Respond within 24 hours. Every time.
 
-### [expansion-selling](skills/growth/expansion-selling/SKILL.md)
+### expansion-selling (`expansion-selling`)
 
 - **Expanding too early.** — Asking for upsell during onboarding = churn risk. Fix: Deliver value first. Expand after month 3+.
 - **No expansion comp for CSMs.** — CSMs comped on retention only = no expansion. Fix: Variable comp tied to NRR. 50% base, 50% variable on NRR target.
 - **Missing consumption triggers.** — Customer usage spikes. Nobody notices. Fix: Automated alerts when usage hits 80% of plan limit.
 - **One-size expansion play.** — Seat expansion for every customer ignores cross-sell and tier upgrade opportunities. Fix: Multiple playbooks.
 
-### [referral-programs](skills/growth/referral-programs/SKILL.md)
+### referral-programs (`referral-programs`)
 
 - **One-sided incentives.** — "$50 to you if your friend signs up" underperforms double-sided offers because there is no social obligation — the referrer feels they are extracting value from a friend. Fix: always reward both sides (Dropbox, PayPal both demonstrated this). If budget is constrained, halve the single-sided amount and split it.
 - **Paying on sign-up, not collection.** — 100 sign-ups, 0 paying → $5,000 in rewards for nothing. Fix: reward triggers on first payment or minimum milestone. Encode this as a non-negotiable rule in your referral platform configuration.
 - **No referral dashboard for referrers.** — Referrers share, then have no visibility on whether referrals converted. They stop sharing after 1-2 attempts. Fix: real-time dashboard showing clicks, sign-ups, conversions, and pending reward for every referrer.
 - **Asking at the wrong moment.** — Referral asks sent during onboarding — before the customer has experienced value — generate low participation. Fix: trigger the ask at the first meaningful activation milestone (first outcome achieved, first positive NPS response), not on day zero.
 
-### [review-platforms](skills/growth/review-platforms/SKILL.md)
+### review-platforms (`review-platforms`)
 
 - **Annual review drive.** — Grid rewards recency. Fix: monthly cadence.
 - **Founder-only responses.** — Looks small. Fix: CS + product owner signatures.
@@ -1067,15 +1067,15 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## gtm-ops
 
-### [campaign-governance](skills/gtm-ops/campaign-governance/SKILL.md)
+### campaign-governance (`campaign-governance`)
 
 - **No naming conventions.** — Campaign names like `webinar_final_v2` make attribution impossible. Fix: enforce `[Date]-[Segment]-[Channel]-[Content]-[Version]` via CRM validation.
-- **UTM chaos.** — Mixed case, hyphens, and one-off sources break warehouse joins. Fix: approved source list + UTM builder only (`skills/gtm-ops/campaign-governance/references/utm-governance.md`).
+- **UTM chaos.** — Mixed case, hyphens, and one-off sources break warehouse joins. Fix: approved source list + UTM builder only (`utm-governance.md (in the `campaign-governance` skill)`).
 - **Governance without consequences.** — Marketers ignore rules if bad data still appears in reports. Fix: exclude non-compliant campaigns from ROI dashboards.
 - **Marketing spend invisible to finance.** — Paid campaigns on personal cards. Fix: Ramp caps per program (`gtm-spend-management`).
-- **Everyone Responsible, nobody Accountable on launch.** — UTMs ship wrong; CRM empty. Fix: RACI before assets (`skills/gtm-ops/gtm-operations/templates/raci-matrix-template.md`).
+- **Everyone Responsible, nobody Accountable on launch.** — UTMs ship wrong; CRM empty. Fix: RACI before assets (the `gtm-operations` skill (raci-matrix-template.md)).
 
-### [gtm-operations](skills/gtm-ops/gtm-operations/SKILL.md)
+### gtm-operations (`gtm-operations`)
 
 - **Treating RevOps as a re-org.** — Moving people under a new title without integrating data, processes, and KPIs produces an org chart change, not a RevOps function. Fix: per Gartner's definition, build integration of data/process/KPIs first — the structure follows from that.
 - **Vague data quality standards.** — "Data is somewhat clean" is unmeasurable and cannot be improved. Fix: map every quality requirement to a DAMA-DMBOK dimension (completeness, uniqueness, timeliness, validity, accuracy, consistency) with a specific threshold and enforcement mechanism.
@@ -1084,7 +1084,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Projects without RACI or DRI.** — "Everyone's helping" on a launch until UTMs are wrong and nobody owns CRM. Fix: charter + RACI before build; RevOps Accountable on attribution rows.
 - **PM tool sprawl.** — Tasks in Slack, docs in Drive, status in email. Fix: SSOT layers in `gtm-organization-principles.md`; one ClickUp List per active project.
 
-### [gtm-spend-management](skills/gtm-ops/gtm-spend-management/SKILL.md)
+### gtm-spend-management (`gtm-spend-management`)
 
 - **Ramp without register.** — Pretty dashboards; nobody owns Gong renewal. Fix: vendor-spend-register mandatory.
 - **Personal card reimbursement.** — Shadow spend invisible to TCO. Fix: policy — GTM tools only on Ramp.
@@ -1093,7 +1093,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Ignore credit-based overages.** — Clay/API surprise. Fix: weekly usage alert at 80% cap.
 - **Auto-renew without 90-day calendar.** — Fix: Ramp + register reminders; `vendor-contracts` review. ### Phase 4b: Visitor ID Vendor Roster Entries Register deanonymization vendors under `GTM-Data`: | Vendor | ID level | Typical tier | Owner | |---|---|---|---| | Clearbit / HubSpot Breeze | Company | $$–$$$ | RevOps / Marketing | | RB2B | Person | $$ per ID | RevOps / Sales | | 6sense / Demandbase | Company (ABM) | $$$$ | Marketing / RevOps | | Leadfeeder / Dealfront | Company | $–$$ | Marketing | | Warmly / Koala | Person + company | $$–$$$ | Sales / RevOps | Vendor comparison + pilot scorecard: `website-visitor-identification/references/visitor-id-vendor-comparison.md`, `website-visitor-identification/templates/visitor-id-vendor-eval-scorecard.md`. **Approval rule:** Person-level vendors require privacy checklist completion (`visitor-id-privacy-gtm.md`) before spend approval.
 
-### [gtm-tool-cost-model](skills/gtm-ops/gtm-tool-cost-model/SKILL.md)
+### gtm-tool-cost-model (`gtm-tool-cost-model`)
 
 - **CRM seat creep.** — Unused sales seats. Fix: quarterly true-down audit.
 - **Clay credits surprise.** — Fix: cap rows + monitor weekly.
@@ -1101,7 +1101,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Ignoring implementation.** — SF $50K year 1 missing from budget.
 - **No allocation to CS/marketing.** — Shared tools need cost split.
 
-### [revops-tech-stack](skills/gtm-ops/revops-tech-stack/SKILL.md)
+### revops-tech-stack (`revops-tech-stack`)
 
 - **Adding tools before auditing existing ones.** — With 15,000+ vendors (Brinker 2025), the default GTM motion is "there's a tool for that." Fix: run the Phase 1 audit before evaluating any new vendor; close a tool before opening one.
 - **Tool decisions driven by tool fashion, not operating model.** — Forrester's warning: revenue tech that doesn't trace to the operating model creates data fragmentation. Fix: every tool in Phase 3 must map to a bowtie stage; if you cannot name the stage, the tool does not belong in the stack.
@@ -1110,7 +1110,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## inbound
 
-### [content-marketing](skills/inbound/content-marketing/SKILL.md)
+### content-marketing (`content-marketing`)
 
 - **Content without conversion paths.** — A blog post with 10K views and no CTA is a branding expense, not a growth asset. Every piece converts.
 - **SEO without AI search.** — As of 2026, AI-powered search (ChatGPT, Perplexity) drives significant B2B traffic. Optimize for both.
@@ -1118,7 +1118,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No content updates.** — Stale content loses rankings. Refresh top performers quarterly with new data, examples, and links.
 - **Writing for everyone.** — Content that targets "business leaders" targets no one. Write for your specific ICP — their title, their problems, their reading habits.
 
-### [inbound-triage](skills/inbound/inbound-triage/SKILL.md)
+### inbound-triage (`inbound-triage`)
 
 - **Manual routing.** — Every minute of manual routing is a minute the lead waits. A lead contacted in 5 minutes is 100x more likely to convert than one contacted in 30 minutes. Automate routing end-to-end.
 - **No enrichment before routing.** — Routing an unenriched lead means the SDR wastes time researching basic info. Enrich on form fill automatically.
@@ -1126,7 +1126,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **SLA theater.** — Defining SLAs without tracking and enforcement means they're aspirational. Automate alerting when SLAs are missed.
 - **Over-qualifying inbound.** — An inbound lead who took the time to fill a form has already self-qualified to some degree. Don't make them jump through more hoops — get them to a human.
 
-### [landing-pages](skills/inbound/landing-pages/SKILL.md)
+### landing-pages (`landing-pages`)
 
 - **Feature list as hero.** — Nobody converts because of a feature list. They convert because they believe you understand their problem.
 - **Multiple CTAs.** — "Sign up," "Book a demo," "Learn more," "Read case study" — four CTAs means four decisions. One CTA per page.
@@ -1134,7 +1134,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Long forms.** — Every additional form field reduces conversion by 5-10%. Start with email only. Ask for more later.
 - **Ignoring mobile.** — Over 50% of B2B traffic is mobile. A page that's hard to use on mobile loses half its potential conversions.
 
-### [linkedin-algorithm](skills/inbound/linkedin-algorithm/SKILL.md)
+### linkedin-algorithm (`linkedin-algorithm`)
 
 - **Optimizing for followers.** — The interest graph killed follower-count reach. Topic authority — consistent pillars, keyword repetition — is the new distribution asset.
 - **Posting links in the body.** — The single most common self-inflicted reach penalty. Move links to the first comment or let your profile link convert (Adam Robinson's zero-click pattern).
@@ -1143,7 +1143,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Treating engagement as optional.** — Ignoring comments in the first hour wastes the algorithm's evaluation window. Nurturing is part of the post, not an afterthought.
 - **Chasing every algorithm rumor.** — The report debunks 20 LinkedIn myths per edition. If a tactic isn't backed by data, treat it as folklore.
 
-### [linkedin-live-strategy](skills/inbound/linkedin-live-strategy/SKILL.md)
+### linkedin-live-strategy (`linkedin-live-strategy`)
 
 - **Treating Live as a one-off webinar.** — Without weekly cadence, the algorithm and your network forget the show exists.
 - **Over-production paralysis.** — Lizak's origin story started with CEO interviews and a record button — not a studio budget.
@@ -1153,7 +1153,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **AI voice on repurposed posts.** — Draft with AI, edit for human voice — AI-sounding feed copy is penalized in van der Blom's data.
 - **Measuring only viewer count.** — Comment quality, DMs, and 30-day meetings matter more than peak live attendance.
 
-### [sales-navigator-prospecting](skills/inbound/sales-navigator-prospecting/SKILL.md)
+### sales-navigator-prospecting (`sales-navigator-prospecting`)
 
 - **One script for every filter.** — Wastes the strongest Sales Nav signals; Ingram's 5× pipeline lift illustration comes from filter-message matching.
 - **Instant connect after comment.** — Reads as automation; breaks trust.
@@ -1162,7 +1162,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Sales Nav without profile investment.** — Prospects check your profile; empty activity kills accept rates.
 - **Attribution only in last-touch CRM.** — LinkedIn pipeline is often dark social — add self-reported source fields.
 
-### [social-selling](skills/inbound/social-selling/SKILL.md)
+### social-selling (`social-selling`)
 
 - **Pitching in the first DM.** — LinkedIn is a relationship platform. Pitching before giving value gets you ignored or blocked.
 - **Empty profile.** — A prospect receives your cold email, checks your LinkedIn, and finds 12 connections and a blank about section. Trust destroyed.
@@ -1170,7 +1170,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No Sales Navigator.** — Free LinkedIn is a research tool. Sales Navigator is a prospecting engine. The $99/month pays for itself in one meeting.
 - **Inconsistent activity.** — Posting once a month looks like you're not serious. 2-3 posts/week minimum to maintain visibility.
 
-### [website-visitor-identification](skills/inbound/website-visitor-identification/SKILL.md)
+### website-visitor-identification (`website-visitor-identification`)
 
 - **Person ID without privacy review.** — GDPR/CCPA exposure. Fix: company ID default; person ID only after `visitor-id-privacy-gtm.md` gates + counsel.
 - **No ICP filter.** — SDRs chase ISPs, agencies, and universities. Fix: automate `icp-scoring` before any alert or CRM create.
@@ -1181,7 +1181,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## leadmagic
 
-### [leadmagic-bulk-enrichment](skills/leadmagic/leadmagic-bulk-enrichment/SKILL.md)
+### leadmagic-bulk-enrichment (`leadmagic-bulk-enrichment`)
 
 - **Uploading a dirty CSV.** — Bad inputs create bad matches. Fix: dedupe and normalize before enrichment.
 - **Treating unknown as invalid.** — Unknown means no confident result, not bad data. Fix: separate statuses.
@@ -1190,20 +1190,20 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Blind overwrite.** — Enrichment overwrites rep-maintained CRM data. Fix: field ownership rules.
 - **No batch ledger.** — Failed jobs are impossible to replay safely. Fix: log batch ID, record count, status, and retry rule.
 
-### [leadmagic-cli](skills/leadmagic/leadmagic-cli/SKILL.md)
+### leadmagic-cli (`leadmagic-cli`)
 
 - **Paying twice for verification.** — Finder-returned work emails are already validated. Use validation for externally sourced or stale CRM lists.
 - **Batch size too large.** — Stick to 25-50 per batch for reliability. Larger batches risk timeouts.
 - **Treating all email sources alike.** — Keep finder results separate from external email lists so only the latter need a validation pass.
 - **Wrong CSV column mapping.** — Check detected columns with `lm enrich -i input.csv --dry-run` before running paid batches.
 
-### [leadmagic-integrations](skills/leadmagic/leadmagic-integrations/SKILL.md)
+### leadmagic-integrations (`leadmagic-integrations`)
 
 - **Two-way sync conflicts.** — Push from enrichment TO CRM, not both directions. CRM-to-enrichment sync creates data conflicts.
 - **No verification before send.** — Platform integration handles data movement. Verification handles data quality. Both required.
 - **Not using webhooks for real-time.** — Batch processing works for lists. Webhooks enable real-time enrichment on form fill.
 
-### [leadmagic-job-change](skills/leadmagic/leadmagic-job-change/SKILL.md)
+### leadmagic-job-change (`leadmagic-job-change`)
 
 - **Generic congratulations.** — It wastes the signal. Fix: connect the move to prior relationship or new-role priority.
 - **No account-status logic.** — Same signal means different things for customer vs prospect. Fix: route by account status.
@@ -1212,7 +1212,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Implying creepy monitoring.** — "We saw you moved" can feel invasive. Fix: keep the note natural and relationship-led.
 - **No replacement mapping.** — When a champion leaves, the old account still matters. Fix: identify successor and stakeholder gaps.
 
-### [leadmagic-mcp](skills/leadmagic/leadmagic-mcp/SKILL.md)
+### leadmagic-mcp (`leadmagic-mcp`)
 
 - **Treating MCP as magic.** — Tools still need clear jobs. Fix: map tools to workflows.
 - **Too many calls.** — Per-record calls waste time and credits. Fix: batch where supported.
@@ -1221,7 +1221,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No confirmation gates.** — Agent may mutate systems. Fix: require confirmation for writes and sends.
 - **Inventing missing data.** — Empty result means unknown, not permission to guess. Fix: return unknown or ask for more input.
 
-### [leadmagic-waterfall](skills/leadmagic/leadmagic-waterfall/SKILL.md)
+### leadmagic-waterfall (`leadmagic-waterfall`)
 
 - **Skipping verification.** — Even verified-at-lookup emails can go stale. Always re-verify before campaigns.
 - **Wrong provider order.** — LeadMagic first (verified results), then fallbacks. A cheaper provider with 20% hit rate costs more per successful lookup than a moderate provider with 70% hit rate.
@@ -1231,13 +1231,13 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## lifecycle
 
-### [churn-prediction](skills/lifecycle/churn-prediction/SKILL.md)
+### churn-prediction (`churn-prediction`)
 
 - **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
 - **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
 - **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
 
-### [lifecycle-drips](skills/lifecycle/lifecycle-drips/SKILL.md)
+### lifecycle-drips (`lifecycle-drips`)
 
 - **One drip fits all.** — Sending the same sequence to every new customer ignores persona, plan tier, and use case. Fix: segment drips by at least ICP tier and plan level — enterprise onboarding differs from self-serve.
 - **Renewal drip starts too late.** — Beginning renewal outreach at 30 days misses the relationship-building window. Fix: start at 90 days with value reinforcement, not pricing — 90/60/30/14/7 cadence.
@@ -1245,7 +1245,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Stage conversion not measured.** — Running drips without tracking how many contacts move from stage N to N+1 means you're flying blind. Fix: instrument every drip with stage conversion rate and time-in-stage metrics.
 - **Over-emailing customers.** — Welcome drip + expansion drip + NPS follow-up + product update — all hitting the same person in one week. Fix: build a contact frequency cap into your automation; no more than 2 marketing emails per week to any active customer.
 
-### [mql-nurture](skills/lifecycle/mql-nurture/SKILL.md)
+### mql-nurture (`mql-nurture`)
 
 - **Single-track nurture.** — Every MQL gets the same drip regardless of source, persona, or buying stage. Fix: build at least 3 tracks gated by acquisition source — Researcher (content download), Evaluator (pricing/comparison page), Event Attendee (webinar).
 - **Product-heavy email ratio.** — Every email asks for a demo and provides zero educational value — unsubscribe rates climb. Fix: enforce 80/20 educational-to-product ratio; the 5th email in a track should be the first hard CTA.
@@ -1253,13 +1253,13 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Forever nurture.** — Contacts in nurture for 18 months with no engagement drain sender reputation and ESP budget. Fix: hard exit at 6 months of no engagement; suppress from all nurture at 12 months; retain in database for reactivation plays only.
 - **MQL definition drift.** — Without a locked scoring model, 'MQL' becomes whatever sales asks for this week. Fix: publish the scoring model, lock thresholds (MQL >40, SQL >70), and require RevOps sign-off to change weights.
 
-### [onboarding-sequences](skills/lifecycle/onboarding-sequences/SKILL.md)
+### onboarding-sequences (`onboarding-sequences`)
 
 - **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
 - **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
 - **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
 
-### [re-engagement](skills/lifecycle/re-engagement/SKILL.md)
+### re-engagement (`re-engagement`)
 
 - **'We miss you' framing.** — Generic emotional appeals signal template outreach and produce low response. Fix: open with a specific change since they last engaged — product improvement, new integration, industry-relevant case study.
 - **Same treatment for all dormancy levels.** — A 3-month-dormant lead and an 18-month-dead lead are not the same audience. Fix: segment by recency — cold gets full sequence, frozen gets condensed, dead gets one email before suppression.
@@ -1269,7 +1269,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## management-leadership
 
-### [executive-compensation](skills/management-leadership/executive-compensation/SKILL.md)
+### executive-compensation (`executive-compensation`)
 
 - **Bookings-only CRO bonus.** — Pays for bad-fit ARR. Fix: NRR + efficiency gates.
 - **No clawback.** — Logo churn 60 days post-close. Fix: 90-day ARR clawback.
@@ -1277,7 +1277,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Verbal equity.** — Fix: written grant with board approval date.
 - **National non-compete template.** — Unenforceable in many states. Fix: counsel.
 
-### [gtm-leadership](skills/management-leadership/gtm-leadership/SKILL.md)
+### gtm-leadership (`gtm-leadership`)
 
 - **Ruinous empathy.** — Avoiding quota truth until Q4. Fix: weekly pipeline reviews with documented feedback.
 - **Firing the number, not the system (leaders).** — Replace VP without fixing role scope. Fix: hire for system-building; 2-quarter runway.
@@ -1285,7 +1285,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Comp plans that reward bad revenue.** — Bookings without NRR. Fix: clawbacks, CRO gates at scale.
 - **Backchannel skip on leader hires.** — Supervisors lie. Fix: 2+ direct report refs.
 
-### [revenue-team-onboarding](skills/management-leadership/revenue-team-onboarding/SKILL.md)
+### revenue-team-onboarding (`revenue-team-onboarding`)
 
 - **Tools day 5.** — Rep sits idle. Fix: RevOps SLA day 0–1.
 - **PDF dump.** — Fix: shadowing + certification.
@@ -1293,7 +1293,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Slack channel sprawl.** — Fix: core 3 channels, expand week 3.
 - **No security training.** — SOC2 audit fail. Fix: gate production access.
 
-### [sales-coaching](skills/management-leadership/sales-coaching/SKILL.md)
+### sales-coaching (`sales-coaching`)
 
 - **Coaching results, not behaviors.** — "Hit quota" isn't coaching. Fix: REKS layer + one skill.
 - **Skipping diagnosis.** — More dials for a knowledge gap. Fix: REKS first.
@@ -1302,7 +1302,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **ROI pile-on for indecision.** — Fix: JOLT — recommendation + risk removal.
 - **Founder stops coaching after hire #1.** — Fix: meta-coach the manager.
 
-### [team-management](skills/management-leadership/team-management/SKILL.md)
+### team-management (`team-management`)
 
 - **Canceling 1:1s.** — "Nothing to discuss this week" = you're not asking the right questions. Fix: Never cancel. Agenda belongs to the report.
 - **Saving feedback for review.** — 6 months of saved feedback = "why didn't you tell me this in January?" Fix: Real-time feedback. Radical Candor.
@@ -1310,7 +1310,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## outbound
 
-### [cold-calling](skills/outbound/cold-calling/SKILL.md)
+### cold-calling (`cold-calling`)
 
 - **Conflating two bucketing systems.** — Gilkey dispositions diagnose outcomes; Reisert buckets prioritize daily work — use both, not interchangeably.
 - **Calling a loose ICP.** — A call to a marginal-fit prospect converts at 1/5 to 1/10 the rate of a perfect-fit prospect. Narrow the target ruthlessly before the first dial.
@@ -1322,7 +1322,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Activity metrics over outcome metrics.** — 200 dials with 1 conversation loses to 50 dials with 10 conversations. Measure completions and dispositions, not dials alone.
 - **Hiring SDRs before ColdCall-Market Fit.** — 9–12 months of guessing vs 50–100 conversation pilot (Pessar).
 
-### [cold-email-copywriting](skills/outbound/cold-email-copywriting/SKILL.md)
+### cold-email-copywriting (`cold-email-copywriting`)
 
 - **"My name is X" opening.** — The #1 cold email mistake. The prospect doesn't care who you are until they know why you're relevant. Lead with THEM, not YOU.
 - **Too long.** — The optimal cold email is under 80 words. For every 20 words beyond that, reply rates drop by approximately 20%. If you need more space, you're trying to sell in one email — that's what the sequence is for.
@@ -1333,7 +1333,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **One-size-fits-all.** — A VP of Engineering and a Director of Marketing should receive fundamentally different emails. If only the company name changes, you're doing Tier 1 when you think you're doing Tier 2.
 - **No A/B testing.** — Even great copy degrades. Always deliver at least one subject line variant and one opening line variant per touch.
 
-### [cold-email-strategy](skills/outbound/cold-email-strategy/SKILL.md)
+### cold-email-strategy (`cold-email-strategy`)
 
 - **Writing copy before architecture** — — Decide audience, trigger, offer, arc, and branches first.
 - **Personalization theater** — — Use evidence that changes relevance, not decorative facts.
@@ -1343,7 +1343,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Mixing cells** — — Separate materially different personas, problems, triggers, or offers.
 - **Ignoring infrastructure** — — Stop and fix domain or mailbox risk before raising volume.
 
-### [domain-infrastructure](skills/outbound/domain-infrastructure/SKILL.md)
+### domain-infrastructure (`domain-infrastructure`)
 
 - **Sending from the primary domain.** — This is the cardinal sin of domain infrastructure. A single spam complaint on the primary domain takes down all corporate and transactional email. Never, under any circumstances, send cold email from your primary domain.
 - **Too few domains.** — Running all mailboxes on a single domain means one reputation event kills all sending capacity. 3 domains is the minimum for production outbound. 5 is better for volume above 300/day.
@@ -1356,7 +1356,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Rotating prospects across mailboxes mid-sequence.** — Moving a prospect from mailbox A to mailbox B in the middle of a sequence breaks thread context, resets engagement history, and looks suspicious. Each prospect stays with one mailbox for the entire sequence.
 - **Ignoring DNS propagation time.** — DNS changes can take up to 48 hours to propagate globally. Always verify DNS records after 48 hours. Never start sending immediately after adding DNS records.
 
-### [email-deliverability](skills/outbound/email-deliverability/SKILL.md)
+### email-deliverability (`email-deliverability`)
 
 - **Sending cold email from the primary business domain.** — One spam complaint, one blacklisting event, and your transactional emails (password resets, invoices, customer notifications) are broken. This is the #1 deliverability mistake and it is catastrophic when it happens. Always use secondary domains for cold outreach.
 - **Skipping warmup.** — A new domain sending 50 emails on Day 1 gets flagged within 48 hours. Google and Microsoft's algorithms interpret sudden volume from a new domain as spam behavior. No amount of authentication quality overrides the volume pattern.
@@ -1367,7 +1367,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No DMARC reporting.** — Without `rua` reports, you don't know who is sending on your behalf. You won't catch spoofing attempts, gradual DKIM alignment failures, or misconfigured third-party senders until they cause a deliverability crisis.
 - **Too many mailboxes per domain.** — When one mailbox on a domain gets flagged for spam, it affects the domain reputation — which affects all mailboxes on that domain. Limit to 2-3 mailboxes per domain to contain blast radius.
 
-### [inbox-setup](skills/outbound/inbox-setup/SKILL.md)
+### inbox-setup (`inbox-setup`)
 
 - **Sending from primary domain.** — One spam complaint and your password resets, invoices, and support emails go to spam too. Never.
 - **Too many inboxes per domain.** — 10+ mailboxes on one domain signals bulk sending to spam filters. 2-3 for Google, 25 max for Microsoft.
@@ -1376,7 +1376,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No spare capacity.** — If inboxes burn out mid-campaign and you have no spares warming, your pipeline stops. Keep 50% spare capacity.
 - **DNS misconfiguration.** — A missing DKIM record or incorrect SPF syntax is caught by every major inbox provider. Triple-check all records.
 
-### [multi-channel-outreach](skills/outbound/multi-channel-outreach/SKILL.md)
+### multi-channel-outreach (`multi-channel-outreach`)
 
 - **Identical message across channels.** — Sending the same message via email and LinkedIn DM feels like spam. Each channel should add a new angle.
 - **LinkedIn pitch in the connection request.** — It's the equivalent of a cold email with "BUY NOW" in the subject line. Connect first, pitch later.
@@ -1385,7 +1385,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Different channels, different reps.** — When email and LinkedIn come from different people at your company, the prospect is confused. One rep owns the full multi-channel relationship.
 - **SMS without consent.** — TCPA (US) and GDPR (EU) require explicit opt-in. SMS to prospects who haven't consented creates legal liability.
 
-### [rb2b-outbound-triggers](skills/outbound/rb2b-outbound-triggers/SKILL.md)
+### rb2b-outbound-triggers (`rb2b-outbound-triggers`)
 
 - **Creepy outreach** — "I saw you were on our pricing page for 3 minutes" feels like surveillance. Fix: reference the visit contextually — "Noticed you were exploring [topic] — figured I'd reach out."
 - **No ICP filter** — Every identified visitor gets a sequence. Fix: route through ICP scoring first — only Tier 1 and Tier 2 get outbound.
@@ -1396,7 +1396,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Burning phone numbers on Tier 2** — Calling every identified visitor. Fix: phone is Tier 1 only — Tier 2 is email + LinkedIn.
 - **No attribution** — RB2B-sourced meetings get lumped into "cold outbound." Fix: tag every RB2B-enrolled contact with source = "RB2B Visitor" in CRM.
 
-### [reply-handling](skills/outbound/reply-handling/SKILL.md)
+### reply-handling (`reply-handling`)
 
 - **Auto-responding to everything.** — Not every reply needs a response, and a bad auto-response is worse than no response. Categories 7 and 8 should never receive auto-replies. Category 8 replies to an angry prospect with a chipper auto-response is the fastest way to get reported for spam.
 - **Slow response to positive replies.** — The #1 destroyer of cold email ROI. A positive reply sits in the inbox for 4 hours while the SDR is in meetings, and the prospect's interest cools. Speed-to-lead must be non-negotiable. 15 minutes is the standard.
@@ -1407,7 +1407,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No weekly audit.** — Reply classification accuracy degrades over time as language patterns change and new objection types emerge. A weekly 30-minute audit of reply classifications and response quality prevents silent degradation.
 - **Platform mismatch.** — Smartlead's reply category system is powerful but complex. Instantly's is simpler but less granular. Don't try to implement Smartlead-level category complexity on Instantly — it won't work. Match the framework to the platform's actual capabilities.
 
-### [sending-platforms](skills/outbound/sending-platforms/SKILL.md)
+### sending-platforms (`sending-platforms`)
 
 - **Choosing based on features, not deliverability.** — A platform with AI copywriting and conditional branching means nothing if the emails land in spam. Deliverability is the first filter, not the last.
 - **Underestimating switching costs.** — Migrating between platforms mid-campaign is painful. Data export/import, DNS reconfiguration, sequence recreation, and SDR retraining all take time. Plan migrations during natural pauses in outbound activity.
@@ -1419,19 +1419,19 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## partnerships
 
-### [co-marketing](skills/partnerships/co-marketing/SKILL.md)
+### co-marketing (`co-marketing`)
 
 - **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
 - **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
 - **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
 
-### [integration-partnerships](skills/partnerships/integration-partnerships/SKILL.md)
+### integration-partnerships (`integration-partnerships`)
 
 - **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
 - **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
 - **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
 
-### [partnership-strategy](skills/partnerships/partnership-strategy/SKILL.md)
+### partnership-strategy (`partnership-strategy`)
 
 - **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
 - **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
@@ -1439,7 +1439,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## product-led-growth
 
-### [developer-gtm](skills/product-led-growth/developer-gtm/SKILL.md)
+### developer-gtm (`developer-gtm`)
 
 - **Gating docs and pricing.** — Forcing email or "contact sales" to read docs or see price kills evaluation. Developers self-serve or leave (DuVander).
 - **Cold-calling/emailing developers.** — Spraying SDR sequences at the technical user breaks trust. Use product signals to reach the buyer thoughtfully; let the developer come to you (Stripe/Common Room).
@@ -1448,14 +1448,14 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Treating DevRel as lead gen.** — A DevRel team on an SDR quota loses credibility with developers. DevRel earns trust; sales closes.
 - **Confusing the user with the buyer.** — The developer recommends; the economic buyer signs. Enable the champion, sell the buyer (Verna/Bush hybrid).
 
-### [freemium-optimization](skills/product-led-growth/freemium-optimization/SKILL.md)
+### freemium-optimization (`freemium-optimization`)
 
 - **Optimizing conversion rate instead of full-funnel customers-per-visit.** — A CC-gated trial shows 50%+ conversion but suppresses signup volume 4-6×; end-to-end customer count can be lower than freemium. Fix: always run the full-funnel math before declaring a model "better."
 - **Skipping activation instrumentation.** — You cannot improve conversion from an experience users have not completed. Fix: define and instrument the activation event before running any conversion experiment — only 34% of PLG companies currently do this (ProductLed 2025).
 - **Free tier that replaces paid.** — If free delivers 90% of what paid delivers, users do not upgrade. Fix: apply the intentionality test — free showcases core value, paid completes the job; deliberate value limits and visible upgrade benefits inside the free experience are required.
 - **PQL scoring without routing.** — A model that scores users but triggers no action within a defined time window delivers no revenue lift. Fix: define routing thresholds and response SLAs before launch; OpenView confirms outreach to free signups adds 28% to fast-growth likelihood.
 
-### [plg-strategy](skills/product-led-growth/plg-strategy/SKILL.md)
+### plg-strategy (`plg-strategy`)
 
 - **PLG without product readiness** — — 97% want to try before buying, but only if the product delivers value in the trial window.
 - **Freemium without conversion path** — — a free tier without a clear upgrade trigger is a cost center, not a growth engine.
@@ -1463,7 +1463,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## product-marketing
 
-### [customer-research](skills/product-marketing/customer-research/SKILL.md)
+### customer-research (`customer-research`)
 
 - **Interviewing only happy power users.** — This hides switching friction and lost demand. Fix: sample distinct outcome cohorts.
 - **Asking what customers want.** — Participants predict solutions poorly. Fix: reconstruct recent decisions and actual workarounds.
@@ -1471,7 +1471,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Producing a research deck nobody uses.** — Insight decays without operational ownership. Fix: attach every finding to a decision, owner, and downstream artifact.
 - **Quote laundering.** — Removing source context makes evidence look more universal than it is. Fix: retain cohort, date, situation, and permission metadata.
 
-### [win-loss-analysis](skills/product-marketing/win-loss-analysis/SKILL.md)
+### win-loss-analysis (`win-loss-analysis`)
 
 - **Using CRM reasons as the answer.** — They reflect seller perception. Fix: treat them as hypotheses to test with buyers.
 - **Interviewing only losses.** — This hides differentiators buyers value. Fix: balance outcomes and preserve cohort labels.
@@ -1481,7 +1481,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## prospecting
 
-### [contact-verification](skills/prospecting/contact-verification/SKILL.md)
+### contact-verification (`contact-verification`)
 
 - **Skipping verification entirely.** — \"We found the emails from a reputable source.\" Every provider returns stale data. 5-15% of \"found\" emails bounce. The cost of re-warming a domain far exceeds the cost of verification.
 - **Treating catch-all as safe.** — Catch-all domains accept mail to any address at the domain, making individual mailbox verification impossible. They produce higher bounce rates. Treat them as a separate, monitored segment.
@@ -1489,7 +1489,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Sending to invalid emails one more time.** — \"Maybe it was a temporary bounce.\" If verification returns invalid, the mailbox doesn't exist. Sending again won't fix it. Remove permanently.
 - **Not updating CRM with verification status.** — Verification without recording the result means the data decays silently. Update CRM fields immediately.
 
-### [data-enrichment-strategy](skills/prospecting/data-enrichment-strategy/SKILL.md)
+### data-enrichment-strategy (`data-enrichment-strategy`)
 
 - **Single-provider lock-in.** — One provider covers 60-75% max. If ZoomInfo is your only source, you're leaving 25-40% of contacts unreachable.
 - **Over-buying for the stage.** — $25K/year ZoomInfo contract for a $500K ARR startup is capital misallocation. Start with Apollo, add tools as volume and deal size justify them.
@@ -1497,7 +1497,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Ignoring data decay.** — Data you enriched 6 months ago is 12-18% stale. Design for recurring enrichment, not one-time projects.
 - **Platform as system of record.** — Clay is a workspace, not a CRM. Push enriched data to your CRM and treat it as the source of truth.
 
-### [email-finding](skills/prospecting/email-finding/SKILL.md)
+### email-finding (`email-finding`)
 
 - **Skipping verification.** — Unverified emails cause bounces. Bounces damage sender reputation. Recovery takes weeks. Always verify after finding.
 - **Single-provider dependency.** — One provider covers 60-75% max. Running only Apollo leaves 25-40% of contacts unreachable. Always waterfall.
@@ -1506,7 +1506,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Not normalizing company names.** — \"Acme Inc\" vs \"Acme, Inc.\" vs \"Acme Corporation\" create duplicate lookups. Match on domain, not name.
 - **No LinkedIn URLs in input.** — Adding LinkedIn URLs improves match rates by 15-25 percentage points across all providers. Run a LinkedIn URL finder column before email finding when URLs are missing.
 
-### [lead-enrichment](skills/prospecting/lead-enrichment/SKILL.md)
+### lead-enrichment (`lead-enrichment`)
 
 - **Sending every record to every provider.** — This is the most expensive enrichment mistake. A proper waterfall means most records exit at Layer 2 or 3, and only the hardest-to-enrich records reach Layer 5. If 80% of your records are enriched at Layers 1-3, you're paying premium provider prices for only 20% of records.
 - **Matching on company name instead of domain.** — "Acme Inc." and "Acme Corporation" and "Acme" are the same company but won't match by name. Domain (acme.com) is the stable identifier. Always normalize company names after matching, not before.
@@ -1517,7 +1517,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Quality gates that are too permissive or too strict.** — Gates that let everything through defeat the purpose. Gates that block 50% of records create a bottleneck. Target: <5% of records failing quality gates in a mature pipeline. More than 10% indicates a problem in the enrichment waterfall, not in the gate.
 - **Not tracking cost per provider.** — Without per-provider cost tracking, you can't optimize the waterfall over time. A provider that costs 3x more but enriches only 2% more records should be removed or moved to a later layer. Cost optimization is continuous.
 
-### [lead-finding](skills/prospecting/lead-finding/SKILL.md)
+### lead-finding (`lead-finding`)
 
 - **Single-source dependency.** — Relying on Apollo or ZoomInfo alone produces systematic coverage gaps. Apollo underrepresents non-US, non-funded, and traditional-industry companies. Sales Navigator underrepresents very small companies. Crunchbase only covers funded companies. Multi-source is not optional — it's the difference between seeing 60% of your addressable market and seeing 90%+.
 - **Using the same search criteria across all sources.** — Each source has its own taxonomy and filters. "Manufacturing" in Apollo is not the same as "Manufacturing" in Sales Navigator. Adapt search criteria to each source's specific categorization system. Test and calibrate.
@@ -1528,7 +1528,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Neglecting vertical-specific sources.** — The B2B databases cover broad markets well but specific verticals poorly. Healthcare companies are better found through hospital directories than Apollo. E-commerce companies are better found through BuiltWith. Always include at least one vertical-specific source.
 - **Job board scraping that produces stale data.** — Job postings expire. Conference lists age out. Source data has a half-life. Track the date of data collection per source and flag leads from sources where the data is more than 90 days old for re-verification.
 
-### [list-building](skills/prospecting/list-building/SKILL.md)
+### list-building (`list-building`)
 
 - **Enriching before filtering.** — Running $0.15-0.40/contact enrichment on records that fail ICP wastes 30-40% of budget. Filter first always.
 - **One giant table.** — Combining company and person data in a single table creates duplication and makes re-enrichment impossible. Separate tables with domain as the join key.
@@ -1536,7 +1536,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Stale data acceptance.** — A list built 6 months ago has 12-18% decay. Re-verify and re-enrich before launching any campaign on old data.
 - **Single-source dependency.** — One source never covers your full TAM. Cross-reference at least two sources and reconcile differences.
 
-### [signal-scoring](skills/prospecting/signal-scoring/SKILL.md)
+### signal-scoring (`signal-scoring`)
 
 - **Acting on too many signals per account.** — A company showing 5 signals doesn't mean send 5 different emails. Pick one — the most recent and specific — and lead with it.
 - **Weights not calibrated to your data.** — Default weights are a starting point. Review quarterly against your closed-won deals and adjust.
@@ -1544,7 +1544,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No action on signals.** — A signal without an immediate, automated action is just noise. Every detection should trigger a workflow.
 - **Equal-weight scoring.** — Not all signals are equal. A company hiring for a role your product directly supports is worth more than a generic intent signal. Weight accordingly.
 
-### [social-intent-monitoring](skills/prospecting/social-intent-monitoring/SKILL.md)
+### social-intent-monitoring (`social-intent-monitoring`)
 
 - **Acting on stale signals.** — A competitor mention from last week is not the same as one from yesterday. Set hard freshness windows: recommendation requests expire in 2 hours, most other signals in 24-72 hours. Signals older than 72 hours should go to a low-priority nurture track, not hot outreach.
 - **Generic outreach from signal data.** — Running a signal-triggered sequence with the same generic opener you'd send to a cold list defeats the entire point. The signal must appear in the first sentence. If you can't reference it specifically, don't send the email.
@@ -1555,21 +1555,21 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## sales-plays
 
-### [earnings-signal-play](skills/sales-plays/earnings-signal-play/SKILL.md)
+### earnings-signal-play (`earnings-signal-play`)
 
 - **Reading a summary instead of the actual filing.** — Summaries surface the same bullet points every competitor reads. Fix: pull the 10-K/10-Q from EDGAR directly, run the keyword scan on the full text, and cite section numbers in outreach — it signals to the exec that you did the work.
 - **Mining the prepared remarks while ignoring the analyst Q&A.** — The prepared remarks are polished strategy. The Q&A is where analysts press on weak spots and executives respond under pressure. Fix: read the transcript end-to-end; topics that draw multiple analyst questions are the live street concerns — and your discovery angles.
 - **Opening with generic "I saw your earnings call" framing.** — This is the default opener from every vendor monitoring the same recap newsletters. Fix: use Reimer's method — mirror the executive's own MD&A language in the subject line and first sentence so it reads as a peer conversation, not vendor outreach.
 - **Targeting any VP instead of the initiative owner.** — Sending the same earnings-signal email to all VPs dilutes relevance. Fix: trace the initiative back to a named leader or business unit in Item 1 or the call, and route the email to that specific owner.
 
-### [funding-signal-play](skills/sales-plays/funding-signal-play/SKILL.md)
+### funding-signal-play (`funding-signal-play`)
 
 - **Opening with "Congrats on the raise!"** — This is what every other vendor sends. It signals template outreach, not research. Fix: open with the specific use-of-funds area and connect it to a concrete problem your product solves — in the first sentence, before any acknowledgment of the raise itself.
 - **Monitoring only TechCrunch and Crunchbase.** — By the time a round is featured in press coverage, the signal is already 48–72 hours stale for US companies. Fix: add SEC Form D EDGAR alerts — US private companies file Form D shortly after closing, often weeks before press. This is the earliest public detection source available.
-- **Acting on funding alone without signal stacking.** — A funding event by itself is a noisy trigger — many funded companies are not in active vendor evaluation. Fix: require at least one corroborating signal before escalating to outreach. Use the stacking rubric in `skills/sales-plays/funding-signal-play/references/framework-notes.md` to score and prioritize.
+- **Acting on funding alone without signal stacking.** — A funding event by itself is a noisy trigger — many funded companies are not in active vendor evaluation. Fix: require at least one corroborating signal before escalating to outreach. Use the stacking rubric in `framework-notes.md (in the `funding-signal-play` skill)` to score and prioritize.
 - **Contacting the account more than two weeks after the announcement.** — Per Amplemarket's research, funding signals decay after 30–60 days. Vendors who wait lose the urgency frame. Fix: set Crunchbase and EDGAR alerts for same-day notification and assign a daily signal review task — target first touch within 24 hours of stack confirmation, 48 hours maximum.
 
-### [hiring-signal-play](skills/sales-plays/hiring-signal-play/SKILL.md)
+### hiring-signal-play (`hiring-signal-play`)
 
 - **Waiting for the job posting to close.** — Contacting weeks after the hire is made means competing with tools they already chose. Fix: monitor for the posting itself — reach out to the CEO during the first 2 weeks while budget is fresh.
 - **Treating all hiring signals equally.** — A 'VP Sales' posting at a 15-person startup signals build-from-scratch; the same title at a 500-person company may mean replacement, not greenfield. Fix: weight by company stage.
@@ -1577,7 +1577,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Contacting only the new hire.** — The CEO/Founder who approved the budget has context the new hire doesn't yet have. Fix: dual-track outreach — CEO during posting period, new hire during evaluation period.
 - **No urgency after Day 60.** — New hires make most tool decisions in their first 60-90 days. Fix: if no engagement by Day 60, escalate to executive-level outreach with a value proposition tied to the new hire's announced priorities.
 
-### [job-change-play](skills/sales-plays/job-change-play/SKILL.md)
+### job-change-play (`job-change-play`)
 
 - **Contacting Day 1 of the new role.** — The first week is onboarding chaos — they're not evaluating tools. Fix: wait until Day 14-21 when they've surfaced what's broken and are assessing what they need.
 - **'Congrats on the new role' as the entire opener.** — This wastes the warm permission a job change creates. Fix: bridge past success to new context — reference what they accomplished at the old company and connect it to challenges their new company likely faces.
@@ -1585,7 +1585,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **CRM records left stale.** — A changed contact with old company data means outreach goes to dead email and pipeline attribution breaks. Fix: update contact records, create the new opportunity at the new company, and tag both records for appropriate follow-up.
 - **Treating every job change as equal.** — A SDR moving to a new SDR role carries less buying power than a VP Sales moving to a CRO role. Fix: tier signals by seniority and function — exec moves get immediate personal outreach; IC moves get automated nurture.
 
-### [product-launch-play](skills/sales-plays/product-launch-play/SKILL.md)
+### product-launch-play (`product-launch-play`)
 
 - **Trashing the competitor launch.** — 'Their new feature is terrible' burns credibility. Fix: acknowledge the launch neutrally, then offer a nuanced perspective — 'The feature addresses [problem]. Most teams find that [nuanced take].'
 - **Waiting for the news cycle.** — Sending a competitive displacement email two weeks after launch means the prospect already formed their opinion. Fix: rapid response within 48 hours.
@@ -1595,7 +1595,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## sales-revops
 
-### [buyer-indecision](skills/sales-revops/buyer-indecision/SKILL.md)
+### buyer-indecision (`buyer-indecision`)
 
 - **More ROI when they're scared.** — Increases analysis paralysis. Fix: Limit + Take risk.
 - **Single-threaded champion.** — Champion can't de-risk alone. Fix: EB meeting + mutual plan.
@@ -1603,14 +1603,14 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Confusing objection with indecision.** — "Too expensive" needs value work; "think about it" after fit needs JOLT.
 - **Skipping Judge.** — Applying O/L/T blindly. Fix: score indecision type first.
 
-### [deal-desk](skills/sales-revops/deal-desk/SKILL.md)
+### deal-desk (`deal-desk`)
 
 - **Discounting without exchange.** — A 20% discount with nothing in return is just leaving money on the table. Always trade.
 - **Vague business case.** — "You'll save money" isn't a business case. "Your team spends 40 hours/week on [task] at $X/hour = $Y/year. Our solution reduces that to 10 hours. Annual savings: $Z. Payback: 4 months."
 - **Premature pricing discussion.** — Discussing price before establishing value makes every number sound expensive. Value first, price second.
 - **One price for everyone.** — Different segments, different willingness- to-pay. A 10-person startup and a 500-person enterprise shouldn't see the same pricing.
 
-### [demo-scripts](skills/sales-revops/demo-scripts/SKILL.md)
+### demo-scripts (`demo-scripts`)
 
 - **Feature tour disguised as demo.** — Clicking through every menu item isn't a demo — it's a feature tour. Show workflows, not buttons.
 - **Talking about what, not why.** — "Here's our dashboard" vs "Here's how you'll see your team's performance in real time — this view alone saved [customer] 5 hours per week." Always connect feature to outcome.
@@ -1618,7 +1618,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Pitching to one persona in a room of five.** — The CTO and the VP Sales care about different things. Acknowledge all stakeholders.
 - **No clear differentiator moment.** — If the prospect can't name one thing only you do after the demo, you failed to differentiate.
 
-### [meeting-prep](skills/sales-revops/meeting-prep/SKILL.md)
+### meeting-prep (`meeting-prep`)
 
 - **MEDDICC as a discovery script.** — Running all seven dimensions on a first call feels like an audit. Fix: SPICED first; MEDDICC scores build over calls.
 - **Champion = friendly contact.** — Enthusiasm without power is score 1, not 2. Fix: apply Whyte's four-part Champion test.
@@ -1626,7 +1626,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Ignoring status quo as Competition.** — "No competitors" still has a competitor: do nothing. Fix: always assess status quo.
 - **SPICED and MEDDICC in separate silos.** — Reps capture Impact in SPICED notes but leave Metrics blank. Fix: Impact field populates Metrics in CRM.
 
-### [objection-handling](skills/sales-revops/objection-handling/SKILL.md)
+### objection-handling (`objection-handling`)
 
 - **Answering before exploring.** — "Too expensive" → "But we're worth it!" The first objection is rarely the real objection. Explore first.
 - **Arguing with the prospect.** — "That's not true, actually..." You may win the argument and lose the deal. Acknowledge, then redirect.
@@ -1634,7 +1634,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **No competitive objection prep.** — If you know the competitor's cheaper, prepare the response before it comes up. Pre-handling beats reacting.
 - **One-size responses.** — A CTO's security objection needs a different response than a VP Sales' budget objection. Tailor by persona.
 
-### [pipeline-management](skills/sales-revops/pipeline-management/SKILL.md)
+### pipeline-management (`pipeline-management`)
 
 - **Stages named after rep activity.** — "Demo scheduled" is an action, not a stage goal. Fix: name stages after buyer outcomes; actions live inside the stage.
 - **SPICED collected once, never updated.** — SPICED fields go stale. Fix: require re-validation at Proposal stage; Critical Event dates must be current.
@@ -1643,7 +1643,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Too many stages.** — More than 9 stages creates CRM friction without accuracy gains. Fix: consolidate admin-heavy stages; keep 5–7 for consultative.
 - **Process without enablement.** — Reps know the stages but lack talk tracks. Fix: load `sales-enablement` to build playbook assets per stage.
 
-### [revenue-forecasting](skills/sales-revops/revenue-forecasting/SKILL.md)
+### revenue-forecasting (`revenue-forecasting`)
 
 - **Treating pipeline coverage as a forecast.** — Coverage ignores timing and quality. Fix: model conversion and close-date behavior by cohort.
 - **Using rep probability as evidence.** — Confidence can conceal missing buyer action. Fix: require named events, stakeholders, and exit criteria.
@@ -1651,7 +1651,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Silently changing assumptions.** — Stakeholders cannot explain deltas. Fix: keep a dated assumption and category change log.
 - **Never grading the forecast.** — Bias persists without feedback. Fix: publish accuracy, slip, and calibration after every period.
 
-### [sales-enablement](skills/sales-revops/sales-enablement/SKILL.md)
+### sales-enablement (`sales-enablement`)
 
 - **One deck for everyone.** — A CTO and a VP Sales care about different things. If your deck works for both, it works for neither.
 - **Feature dumps as decks.** — Slides that list features without connecting them to customer problems are skipped. Every slide answers "so what?"
@@ -1659,7 +1659,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Assets nobody can find.** — PDFs buried in a Drive folder. Build a single access point (Notion, SharePoint, dedicated Slack channel).
 - **Static assets.** — Enablement degrades monthly. Schedule quarterly reviews to update metrics, add new competitors, and retire stale decks.
 
-### [transparency-selling](skills/sales-revops/transparency-selling/SKILL.md)
+### transparency-selling (`transparency-selling`)
 
 - **Humblebragging as transparency.** — "We care too much" is not a flaw. "Our reporting module lags behind Looker" is a flaw. If you can't name a specific competitor who does something better, you're not being transparent.
 - **Leading with flaws but not context.** — "We're expensive" without "here's why" is just bad marketing. Every flaw must include: who it matters to, who it doesn't, and why your customers still choose you.
@@ -1667,7 +1667,7 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 
 ## tools
 
-### [ai-prompts-toolkit](skills/tools/ai-prompts-toolkit/SKILL.md)
+### ai-prompts-toolkit (`ai-prompts-toolkit`)
 
 - **"Find their email" Claygent prompts.** — 40–60% bounce from guessed patterns. Fix: require source URL; return empty if not found.
 - **Unbounded revise loops.** — LLM iterates forever, burns credits. Fix: max 2 revisions; then human queue.
@@ -1675,13 +1675,13 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Prompt without suppression context.** — AI contacts opted-out accounts. Fix: pass `suppressed: true/false`; halt if true.
 - **One prompt does everything.** — Research + draft + send in one call = errors. Fix: use prompt loops with narrow steps.
 
-### [analytics-toolkit](skills/tools/analytics-toolkit/SKILL.md)
+### analytics-toolkit (`analytics-toolkit`)
 
 - **Direct-to-tool without CDP.** — Send events directly to Amplitude + GA4 + Mixpanel. 3x the implementation. Inconsistent data. Fix: CDP as single source.
 - **No server-side tracking.** — Ad blockers kill client-side. Critical events lost. Fix: Server-side Segment for revenue events.
 - **Multiple 'source of truth' tools.** — Marketing trusts GA4. Product trusts Amplitude. Numbers disagree. Fix: Data warehouse as single source of truth.
 
-### [clay-loops-toolkit](skills/tools/clay-loops-toolkit/SKILL.md)
+### clay-loops-toolkit (`clay-loops-toolkit`)
 
 - **Enrich all rows.** — Burns credits. Fix: conditional enrich on monitor.
 - **Skip LeadMagic verify.** — Bounces destroy domain rep. Fix: verify gate.
@@ -1690,13 +1690,13 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Claygent for email in loops.** — Expensive + risky. Fix: LeadMagic waterfall; Claygent only for `why_now` copy via `ai-prompts-toolkit` P03/P04.
 - **No action routing.** — Alerts pile up. Fix: score → CRM task → owner.
 
-### [clay-toolkit](skills/tools/clay-toolkit/SKILL.md)
+### clay-toolkit (`clay-toolkit`)
 
 - **Flat enrichment (no waterfall).** — One provider. Missed contacts stay missed. Fix: Waterfall. LeadMagic → Apollo → fallback → manual review.
 - **Credit burn on bad data.** — Enriching 10,000 contacts with bad names/domains. Fix: Clean data first. Deduplicate. Validate domains before enrichment.
 - **No ICP filter before CRM push.** — All contacts pushed to CRM. SDR team overwhelmed. Fix: ICP score column. Only push score > X to CRM.
 
-### [crm-toolkit](skills/tools/crm-toolkit/SKILL.md)
+### crm-toolkit (`crm-toolkit`)
 
 - **Salesforce Leads in HubSpot.** — HubSpot uses lifecycle — don't create parallel objects.
 - **CRM before process.** — Stages undefined → reps invent their own. Fix `pipeline-management` first.
@@ -1704,31 +1704,31 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Salesforce at $500K ARR.** — Admin tax without RevOps owner. Use Attio/HubSpot until $5M+.
 - **Agency without playbook.** — Partners configure chaos faster. Document first.
 
-### [hubspot-sequences](skills/tools/hubspot-sequences/SKILL.md)
+### hubspot-sequences (`hubspot-sequences`)
 
 - **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
 - **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
 - **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
 
-### [instantly-sequences](skills/tools/instantly-sequences/SKILL.md)
+### instantly-sequences (`instantly-sequences`)
 
 - **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
 - **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
 - **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
 
-### [leadmagic-toolkit](skills/tools/leadmagic-toolkit/SKILL.md)
+### leadmagic-toolkit (`leadmagic-toolkit`)
 
 - **No waterfall fallback.** — LeadMagic → nothing. Apollo would have found it. Fix: Always chain providers. LeadMagic first. Apollo/Clearbit second.
 - **No webhook for bulk.** — Poll status in a loop. Timeout. Job lost. Fix: Webhook callbacks. Job ID → webhook notifies on completion.
 - **Hard-coding API keys in n8n.** — Committed to repo. Leaked. Fix: n8n credentials store. Environment variables. Never hard-code.
 
-### [lemlist-setup](skills/tools/lemlist-setup/SKILL.md)
+### lemlist-setup (`lemlist-setup`)
 
 - **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
 - **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
 - **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
 
-### [n8n-toolkit](skills/tools/n8n-toolkit/SKILL.md)
+### n8n-toolkit (`n8n-toolkit`)
 
 - **n8n as spreadsheet.** — Rebuilding Clay waterfalls row-by-row in n8n costs more to maintain. Fix: Clay enriches; n8n routes and syncs.
 - **Unauthenticated webhooks.** — Public URL gets spammed; CRM fills with junk. Fix: HMAC verification node first step.
@@ -1738,31 +1738,31 @@ Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: 
 - **Silent failures.** — Error branch empty. Fix: global Error Trigger + row log.
 - **Mixed signal routing.** — One branch for all signals. Fix: Switch on `signal_type`; load play skill per type.
 
-### [outreach-sequences](skills/tools/outreach-sequences/SKILL.md)
+### outreach-sequences (`outreach-sequences`)
 
 - **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
 - **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
 - **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
 
-### [salesloft-cadences](skills/tools/salesloft-cadences/SKILL.md)
+### salesloft-cadences (`salesloft-cadences`)
 
 - **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
 - **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
 - **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
 
-### [sequencing-toolkit](skills/tools/sequencing-toolkit/SKILL.md)
+### sequencing-toolkit (`sequencing-toolkit`)
 
 - **No warmup.** — New mailbox sends 50 emails/day day 1. Spam folder. Burned domain. Fix: 2-week warmup. Start at 5/day. Increment slowly.
 - **One mailbox doing everything.** — 200 emails/day from one mailbox. Instant spam. Fix: Multiple mailboxes per domain. 30/day per mailbox max.
 - **No A/B testing.** — Same copy forever. Ignorance about what works. Fix: Always run at least one A/B test per sequence.
 
-### [smartlead-workflows](skills/tools/smartlead-workflows/SKILL.md)
+### smartlead-workflows (`smartlead-workflows`)
 
 - **Skipping research.** — Building output without understanding the specific context. Fix: always gather required inputs before producing deliverables.
 - **Generic output.** — "Improve your process" without concrete steps. Fix: every recommendation must include a specific action, timeline, and owner.
 - **Missing framework citations.** — Advice without named authorities. Fix: ground every recommendation in a cited framework from a recognized authority.
 
-### [support-toolkit](skills/tools/support-toolkit/SKILL.md)
+### support-toolkit (`support-toolkit`)
 
 - **AI agent launched without training data.** — 5 help articles → 70% wrong answers → frustrated customers. Fix: 30+ articles. Test with 50 questions.
 - **Chat widget on every page.** — Noise. Distraction. Fix: Pricing, help center, and post-signup only.

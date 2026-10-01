@@ -6,7 +6,7 @@
 
 **Co-author note:** Matthew Dixon co-authored Challenger + JOLT. Dixon → `buyer-indecision` (JOLT). Adamson → **teaching/reframing** in discovery and objection handling.
 
-**Canonical expert entry:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` → Brent Adamson
+**Canonical expert entry:** `references/experts.md` → Brent Adamson
 
 ---
 
@@ -70,4 +70,4 @@ Use in **first meeting** and **objection reframing** — not as a product demo o
 
 `objection-handling`, `meeting-prep`, `sales-enablement`, `demo-scripts`, `pipeline-management`
 
-**Cross-links:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` · `sales-coaching/references/coaching-experts.md` · Pattern 13 (`using-gtm-skills`)
+**Cross-links:** `references/experts.md` · `sales-coaching/references/coaching-experts.md` · Pattern 13 (`using-gtm-skills`)

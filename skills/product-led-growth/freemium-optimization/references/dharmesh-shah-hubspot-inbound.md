@@ -53,7 +53,7 @@ HubSpot reframed the linear **funnel** (leads in, customers out) as a **flywheel
 - **Funnel mindset:** Optimize top-of-funnel volume; customers are output.
 - **Flywheel mindset:** **Delighted customers reduce friction** for Attract (referrals, reviews, case studies) and Engage (expansion, champions). NRR and advocacy are flywheel fuel — not post-sale afterthoughts.
 
-**Canonical metrics for flywheel health:** NRR, GRR, referral rate, review velocity (G2), time-to-value — see `https://github.com/LeadMagic/gtm-skills/blob/main/references/lifecycle-metrics-by-stage.md` and `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md` for NRR bands.
+**Canonical metrics for flywheel health:** NRR, GRR, referral rate, review velocity (G2), time-to-value — see `references/lifecycle-metrics-by-stage.md` and `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md` for NRR bands.
 
 ### 3. Freemium & Product-Led Entry (HubSpot Model)
 
@@ -112,7 +112,7 @@ Cross-ref: `ai-content-creation`, `hubspot-setup` (Breeze Intelligence), `vibe-m
 | Revenue | Sales handoff, expansion | `pipeline-management`, `expansion-selling` |
 | Retention / Referral | CS, advocacy, reviews | `customer-marketing`, `referral-programs`, `review-platforms` |
 
-Full stage defs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-lifecycle-stages.md` · router: `https://github.com/LeadMagic/gtm-skills/blob/main/references/lifecycle-skill-index.md`
+Full stage defs: `references/gtm-lifecycle-stages.md` · router: `https://github.com/LeadMagic/gtm-skills/blob/main/references/lifecycle-skill-index.md`
 
 ---
 

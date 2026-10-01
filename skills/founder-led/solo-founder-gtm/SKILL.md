@@ -10,7 +10,7 @@ description: >-
   "when to scale", "scale too early", or any request about building GTM without
   a team.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.2.0"
   author: LeadMagic
@@ -207,7 +207,7 @@ triggers with ARR thresholds, and GTM Index self-assessment scorecard.
 - `references/scale-readiness-gates.md` — when to scale GTM headcount and spend
 - `references/when-not-to-scale.md` — anti-patterns and stop signals
 - `gtm-spend-management/references/spend-by-stage.md` — ARR-stage tool + payroll guardrails
-**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` · `references/activation-playbook.md` · `references/lifecycle-metrics-by-stage.md`
+**Canonical lifecycle:** `references/gtm-lifecycle-stages.md` · `references/activation-playbook.md` · `references/lifecycle-metrics-by-stage.md`
 **Cross-skill artifacts:** `saas-outcomes/references/journey-stage-gates.md`, `saas-outcomes/references/bootstrap-founder-playbook.md`, `saas-outcomes/templates/bootstrap-capital-plan.md`, `saas-outcomes/templates/journey-planning-worksheet.md`, `saas-outcomes/references/exit-potential-scorecard.md`, `gtm-role-descriptions/references/gtm-engineer-hiring.md`
 
 ## Related Skills

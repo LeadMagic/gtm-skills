@@ -74,4 +74,4 @@ Pair with HubSpot inbound (Dharmesh) for lifecycle capture.
 
 `content-led-growth`, `founder-brand`, `vibe-marketing`, `content-marketing`, `job-posting-strategy`, `copywriting`
 
-**Cross-links:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/dharmesh-shah-hubspot-inbound.md` · Pattern 27 vs 26 in `using-gtm-skills`
+**Cross-links:** `references/dharmesh-shah-hubspot-inbound.md` · Pattern 27 vs 26 in `using-gtm-skills`

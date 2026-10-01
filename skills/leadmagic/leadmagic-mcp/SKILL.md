@@ -3,10 +3,10 @@ name: leadmagic-mcp
 description: >-
   Set up LeadMagic MCP for AI agents — tool discovery, permission scope, safe
   enrichment workflows, batch usage, verification steps, and agent handoff patterns.
-  Use when connecting LeadMagic data tools to Claude, Jesse, VS Code, or any MCP
+  Use when connecting LeadMagic data tools to Claude, Cursor, VS Code, or any MCP
   compatible client.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -26,7 +26,7 @@ This skill configures LeadMagic MCP as a blackbox GTM toolset. It describes safe
 
 ## When to Use
 
-Use this skill when the user asks to "set up LeadMagic MCP", "connect LeadMagic to Claude", "connect LeadMagic to Jesse", "give my agent enrichment tools", "use LeadMagic inside my AI agent", "configure LeadMagic tools via MCP", "build an agent workflow with enrichment", or "research accounts with LeadMagic MCP".
+Use this skill when the user asks to "set up LeadMagic MCP", "connect LeadMagic to Claude", "connect LeadMagic to Cursor", "give my agent enrichment tools", "use LeadMagic inside my AI agent", "configure LeadMagic tools via MCP", "build an agent workflow with enrichment", or "research accounts with LeadMagic MCP".
 
 Use `mcp-setup` first if the user has not defined the broader MCP architecture.
 
@@ -129,9 +129,9 @@ Before delivering, verify:
 - `scripts/check-output.py` — local checklist validator for required sections
 This skill includes lightweight artifacts the agent can load on demand:
 - `references/agent-tool-guardrails.md` — confirmation gates, batch discipline, test matrix
-- `../../tools/n8n-toolkit/references/mcp-patterns.md` — approved batch jobs via n8n
-- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify status in agent outputs (Pat Spielmann)
-- `../../../../references/gtm-experts-outbound-index.md` — expert router
+- `references/mcp-patterns.md` — approved batch jobs via n8n
+- `references/pat-spielmann-outbound-copy.md` — verify status in agent outputs (Pat Spielmann)
+- `references/gtm-experts-outbound-index.md` — expert router
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

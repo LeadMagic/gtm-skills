@@ -1,19 +1,20 @@
 ---
 name: hubspot-sequences
 description: >-
-  Design and optimize HubSpot sequences — enrollment triggers, multi-channel steps, 
-  task creation, analytics, A/B testing. Triggers on: "HubSpot sequences", "HubSpot 
-  automation", "HubSpot cadence", "sales hub sequences".
+  Designs and optimizes HubSpot sequences: enrollment triggers, multi-channel
+  steps, task creation, analytics, and A/B tests. Use when the user is building
+  or fixing sequences in HubSpot Sales Hub. Triggers on: "HubSpot sequences",
+  "HubSpot automation", "HubSpot cadence", "sales hub sequences".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: tools
   tags: [hubspot, sequences, sales-hub, crm, cadence]
   frameworks:
-    - "HubSpot Sequences Best Practices"
-    - "ColdIQ Multi-Channel Cadence"
+    - "HubSpot Knowledge Base — Sequences"
+    - "Google and Yahoo — Bulk sender requirements (2024)"
     - "Outreach — Sales Engagement Cadence Design"
 ---
 
@@ -25,9 +26,8 @@ Done right, they automate touches while maintaining personalization. Done wrong,
 they're spam cannons that burn your domain reputation.
 
 ## Authoritative Foundations
-
-- **HubSpot Sequences Best Practices** — Lifecycle stages, object model, and workflow enrollment patterns.
-- **ColdIQ Multi-Channel Cadence** — Named methodology governing recommendations in this skill's process.
+- **HubSpot Knowledge Base — Sequences** — Configure enrollment, task steps, and automatic unenrollment on reply or meeting booked; sequences send from each rep's connected inbox.
+- **Google and Yahoo — Bulk sender requirements (2024)** — Authenticate with SPF, DKIM, and DMARC, keep spam complaints below 0.3%, and respect per-inbox daily volume.
 - **Outreach — Sales Engagement Cadence Design** — Sequence governance, task-based selling, and CRM-locked cadences.
 
 ## When to Use
@@ -97,10 +97,10 @@ Before delivering, verify:
 - `scripts/check-output.py` — local checklist validator
 This skill includes lightweight artifacts the agent can load on demand:
 - `references/enrichment-enrollment-gate.md` — lm_email_status workflow gate
-- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify-before-enroll (Pat Spielmann)
-- `../../tools/clay-toolkit/references/gtm-table-blueprints.md` — clay-toolkit property map
-- `../../tools/clay-loops-toolkit/references/leadmagic-waterfall.md` — loop list → workflow pattern
-- `../../../../references/gtm-experts-outbound-index.md` — expert router
+- `references/pat-spielmann-outbound-copy.md` — verify-before-enroll (Pat Spielmann)
+- `references/gtm-table-blueprints.md` — clay-toolkit property map
+- `references/leadmagic-waterfall.md` — loop list → workflow pattern
+- `references/gtm-experts-outbound-index.md` — expert router
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

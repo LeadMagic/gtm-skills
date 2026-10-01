@@ -9,7 +9,7 @@ description: >-
   "Microsoft inbox", "Azure inbox", "cold email setup", "sending infrastructure",
   "provision inboxes", "DNS setup", or any request about building cold email infra.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.1"
   author: LeadMagic
@@ -176,7 +176,7 @@ dashboard setup.
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-- `../cold-email-strategy/references/eric-nowoslawski-outbound.md` — Sending volume strategy, 1:1 backups (Eric Nowoslawski)
+- `references/eric-nowoslawski-outbound.md` — Sending volume strategy, 1:1 backups (Eric Nowoslawski)
 
 ## Related Skills
 

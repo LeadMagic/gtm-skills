@@ -4,15 +4,9 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **Signal-Based Selling**
-- **Force Management Competitive Displacement**
-- **Winning by Design — SPICED**
-
-## Authoritative foundations
-
-- **Signal-Based Selling** — Named methodology governing recommendations in this skill's process.
-- **Force Management Competitive Displacement** — Command of the Message — persona-specific value narrative and differentiation per stakeholder.
-- **Winning by Design — SPICED** — Bowtie lifecycle model — align sales, marketing, and CS on stage-based outcomes.
+- **Force Management — Command of the Message** — Build differentiation around required capabilities and proof, so the response to a launch is about outcomes, not features.
+- **Winning by Design — SPICED** — Discovery framework — Situation, Pain, Impact, Critical Event, Decision; the launch creates a critical event to qualify around.
+- **Klue — Competitive battlecards** — Update battlecards within days of a competitor launch so reps have approved talk tracks.
 
 ## Process phases
 

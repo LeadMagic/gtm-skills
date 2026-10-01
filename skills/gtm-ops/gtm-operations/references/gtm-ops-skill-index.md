@@ -1,6 +1,8 @@
+<!-- AUTO-GENERATED shared reference: references/gtm-ops-skill-index.md; run npm run regenerate. -->
+
 # GTM Ops Skill Index
 
-**Master router:** `foundation/using-gtm-skills` (Patterns 11, 19, 20) · **Category index:** `references/skill-index-master.md`
+**Master router:** `foundation/using-gtm-skills` (Patterns 11, 19, 20) · **Category index:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/skill-index-master.md`
 
 | Question | Skill | Key artifacts |
 |---|---|---|
@@ -37,10 +39,10 @@
 
 ## Automation playbooks
 
-Full index (38 playbooks): `references/automation-playbook-index.md`
+Full index (38 playbooks): `https://github.com/LeadMagic/gtm-skills/blob/main/references/automation-playbook-index.md`
 
 ## Pattern
 
 See `using-gtm-skills` → Pattern 11: GTM Stack Finance & Spend · Pattern 19: GTM Project Management & RACI · Pattern 20: Visitor Identification & Intent Routing · Pattern 6/6b: Clay/n8n automation · Pattern 30: RevOps Automation Maturity (Jen Igartua) · Skill Map: GTM Ops Cluster
 
-**Cross-refs:** `references/experts.md` (finance/spend experts) · `references/pitfalls-index.md` (RevOps pitfalls)
+**Cross-refs:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` (finance/spend experts) · `https://github.com/LeadMagic/gtm-skills/blob/main/references/pitfalls-index.md` (RevOps pitfalls)

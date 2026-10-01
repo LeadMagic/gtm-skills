@@ -9,14 +9,18 @@ description: >-
   "server-side tagging", "UTM", "cookie consent", "1P vs 3P", "identity resolution",
   or any tracking implementation request.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.1"
   author: LeadMagic
   category: analytics
   tags: [tracking, pixels, analytics, attribution, privacy, first-party]
   related_skills: [attribution, paid-advertising, gtm-metrics, proactive-alerts, website-visitor-identification, campaign-governance]
-  frameworks: [Privacy-First Measurement, Server-Side Tagging Architecture, 1P Data Strategy]
+  frameworks:
+    - "Google Tag Manager — Server-side tagging"
+    - "Meta Conversions API"
+    - "Google Ads — Enhanced conversions"
+    - "Google Consent Mode v2"
 ---
 
 # 1P Tagging & Analytics
@@ -34,10 +38,10 @@ and identity resolution. The output is a privacy-resilient analytics
 infrastructure that works when cookies don't.
 
 ## Authoritative Foundations
-
-- **Privacy-First Measurement** — Shapes deliverables for this skill — Third-party cookies are dead.
-- **Server-Side Tagging Architecture** — Shapes deliverables for this skill — Third-party cookies are dead.
-- **1P Data Strategy** — Shapes deliverables for this skill — Third-party cookies are dead.
+- **Google Tag Manager — Server-side tagging** — Route tags through a first-party server container so conversion data survives browser restrictions and you control exactly what leaves your domain.
+- **Meta Conversions API** — Send server events alongside the pixel with a shared event_id so Meta deduplicates them and recovers conversions lost to browser blocking.
+- **Google Ads — Enhanced conversions** — Hash first-party customer data (SHA-256) at conversion time to raise match rates without third-party cookies.
+- **Google Consent Mode v2** — Gate tag behavior on the visitor's consent state; required for EEA traffic to keep measurement and remarketing eligible.
 
 ## When to Use
 

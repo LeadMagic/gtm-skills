@@ -9,7 +9,7 @@ description: >-
   "sales deck", "objection doc", "sales playbook", "demo script", "leave-behind",
   "talk track", or any request about creating materials for sales teams.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic

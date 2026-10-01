@@ -9,7 +9,7 @@ description: >-
   "Betts recruiting", "diversity hiring sales", "passive candidate outreach",
   "sales offer negotiation", "contingency recruiter", "Destiny recruiting".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.2.0"
   author: LeadMagic

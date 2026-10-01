@@ -8,7 +8,7 @@ description: >-
   interfaces, landing pages, conversion flows, or onboarding experiences.
   Covers conversion-first design, mobile optimization, and A/B test readiness.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "2.0.1"
   author: LeadMagic
@@ -24,15 +24,7 @@ metadata:
       conversion,
       dashboards,
     ]
-  related_skills:
-    [
-      claude-design,
-      popular-web-designs,
-      landing-pages,
-      design-system-gtm,
-      effective-ui-design,
-      a-b-testing,
-    ]
+  related_skills: [landing-pages, design-system-gtm, a-b-testing]
   frameworks:
     - "Nielsen Norman Group — UX Research and Usability Heuristics"
     - "Baymard Institute — E-commerce/Form UX Research"

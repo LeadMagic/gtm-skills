@@ -4,11 +4,9 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **iPaaS Integration Patterns**
-- **Zapier/Make Automation**
-- **CRM Enrichment Workflows**
-- **Pat Spielmann — Cold to Gold**
-- **Pat Spielmann — Full-Circle Multichannel**
+- **LeadMagic docs — Integrations** — Use the native integrations where they exist before building custom API glue.
+- **Zapier and Make — Trigger/action automation** — Build trigger → enrich → write-back flows with error paths and rate-limit-aware scheduling.
+- **Salesforce — Duplicate and matching rules** — Match on email and domain before writing enriched records back so enrichment never creates duplicates.
 
 ## Deep-dive references
 

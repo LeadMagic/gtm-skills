@@ -1,20 +1,22 @@
 ---
 name: mql-nurture
 description: >-
-  Build MQL nurture programs — lead scoring, nurture tracks, email drip sequences,
-  MQL→SQL conversion. Triggers on: "MQL nurture", "lead nurture", "nurture tracks",
+  Builds MQL nurture programs: lead scoring, nurture tracks by persona and
+  stage, email drips, and MQL-to-SQL handoff rules. Use when leads are not
+  converting to sales conversations, or the user is designing lead nurture or
+  lead scoring. Triggers on: "MQL nurture", "lead nurture", "nurture tracks",
   "MQL to SQL", "lead scoring".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: lifecycle
   tags: [lifecycle, nurture, MQL, lead-scoring, email-drips]
   frameworks:
-    - "SiriusDecisions Demand Waterfall"
-    - "Marketo Nurture Framework"
-    - "Reforge — Lifecycle Marketing"
+    - "Forrester (SiriusDecisions) — Demand Waterfall"
+    - "Adobe Marketo Engage — Engagement programs"
+    - "HubSpot Knowledge Base — Lead scoring"
 ---
 
 # MQL Nurture Programs
@@ -27,16 +29,15 @@ SQLs at 2-3x the rate of "send them to sales and pray." This skill covers nurtur
 strategy, track design, and optimization.
 
 ## Authoritative Foundations
-
-- **SiriusDecisions Demand Waterfall** — Named methodology governing recommendations in this skill's process.
-- **Marketo Nurture Framework** — Named methodology governing recommendations in this skill's process.
-- **Reforge — Lifecycle Marketing** — Startup operating cadence — default alive, talk to users, launch fast.
+- **Forrester (SiriusDecisions) — Demand Waterfall** — Define inquiry → MQL → SAL → SQL stages with explicit handoff criteria and SLAs between marketing and sales.
+- **Adobe Marketo Engage — Engagement programs** — Run nurture as streams with cadence controls and exhaustion rules so leads are not over-mailed.
+- **HubSpot Knowledge Base — Lead scoring** — Combine fit and engagement scores, and decay engagement over time so stale activity does not create MQLs.
 
 ## Lifecycle Stage
 
 **Acquisition** (stage 2). Canonical index → `references/gtm-lifecycle-stages.md`.  
 Metrics → `references/lifecycle-metrics-by-stage.md` (Acquisition).  
-Monitoring → `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md`.
+Monitoring → the `gtm-metrics` skill (lifecycle-monitoring-dashboard.md).
 
 ## When to Use
 
@@ -161,7 +162,7 @@ Before delivering, verify:
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-  **Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Acquisition) · `references/lifecycle-metrics-by-stage.md` · `references/lifecycle-skill-index.md`
+  **Canonical lifecycle:** `references/gtm-lifecycle-stages.md` (Acquisition) · `references/lifecycle-metrics-by-stage.md` · `references/lifecycle-skill-index.md`
 
 ## Related Skills
 

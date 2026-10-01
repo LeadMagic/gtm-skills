@@ -23,10 +23,12 @@ customer as hero and your product as guide.
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Content Audit and Gap Analysis
+- Phase 2: Content Strategy by Funnel Stage
+- Phase 3: SEO/AEO Optimization
+- Phase 4: Content Calendar and Cadence
 
 ## Key reference tables
 

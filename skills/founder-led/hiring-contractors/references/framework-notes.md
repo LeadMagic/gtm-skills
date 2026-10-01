@@ -4,23 +4,19 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **Freelance Talent Management**
-- **Upwork Enterprise Patterns**
-- **Paul Graham — Do Things That Do Not Scale**
-
-## Authoritative foundations
-
-- **Freelance Talent Management** — Shapes deliverables for this skill — Contractors give you talent without full-time commitment.
-- **Upwork Enterprise Patterns** — Shapes deliverables for this skill — Contractors give you talent without full-time commitment.
-- **Paul Graham — Do Things That Do Not Scale** — Do Things That Do Not Scale
+- **IRS — Independent contractor or employee (common-law rules)** — Classify workers by behavioral control, financial control, and the relationship; misclassification creates tax liability.
+- **California AB5 — ABC test** — California presumes employment unless all three ABC conditions are met; check state rules before engaging a contractor.
+- **Deel — International contractor agreements** — Use localized contracts and compliant payments for cross-border contractors, including IP assignment.
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: When to Use Contractors
+- Phase 2: Where to Find Them
+- Phase 3: Rate Benchmarks (2026)
+- Phase 4: Engagement Structure
+- Phase 5: Management Practices
 
 ## Agent routing
 

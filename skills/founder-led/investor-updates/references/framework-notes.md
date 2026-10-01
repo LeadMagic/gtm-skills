@@ -10,11 +10,13 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Monthly Update Structure
+- Phase 2: Writing Principles
+- Phase 3: Board Deck (quarterly)
+- Phase 4: Crisis & Incident Investor Comms
+- Phase 5: Fundraising Narrative
 
 ## Agent routing
 

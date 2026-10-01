@@ -1,20 +1,22 @@
 ---
 name: product-launch-play
 description: >-
-  Outbound play triggered by competitor product launches or target account 
-  product launches — timing-based urgency, competitive positioning. Triggers on:
-  "product launch play", "competitor launch response", "launch-based outbound".
+  Runs outbound triggered by product launches, either a competitor launch or a
+  target account launch, with timing-based urgency and competitive positioning.
+  Use when a competitor ships a new feature, or a target account announces a
+  product the user can support. Triggers on: "product launch play", "competitor
+  launch response", "launch-based outbound".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: sales-plays
   tags: [sales-plays, product-launch, competitive, trigger-based, urgency]
   frameworks:
-    - "Signal-Based Selling"
-    - "Force Management Competitive Displacement"
+    - "Force Management — Command of the Message"
     - "Winning by Design — SPICED"
+    - "Klue — Competitive battlecards"
 ---
 
 # Product Launch Signal Play
@@ -28,10 +30,9 @@ mirror-image variants: competitive displacement triggered by competitor launches
 and initiative alignment triggered by account launches.
 
 ## Authoritative Foundations
-
-- **Signal-Based Selling** — Named methodology governing recommendations in this skill's process.
-- **Force Management Competitive Displacement** — Command of the Message — persona-specific value narrative and differentiation per stakeholder.
-- **Winning by Design — SPICED** — Bowtie lifecycle model — align sales, marketing, and CS on stage-based outcomes.
+- **Force Management — Command of the Message** — Build differentiation around required capabilities and proof, so the response to a launch is about outcomes, not features.
+- **Winning by Design — SPICED** — Discovery framework — Situation, Pain, Impact, Critical Event, Decision; the launch creates a critical event to qualify around.
+- **Klue — Competitive battlecards** — Update battlecards within days of a competitor launch so reps have approved talk tracks.
 
 ## When to Use
 

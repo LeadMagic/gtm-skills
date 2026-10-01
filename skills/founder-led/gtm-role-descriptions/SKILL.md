@@ -11,7 +11,7 @@ description: >-
   "OTE quota", "revenue org chart", "hire SDR", "hire AE", "VP Sales job description",
   "RevOps role", "GTM Engineer", "hire GTM engineer", "org structure GTM".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.5.0"
   author: LeadMagic
@@ -87,7 +87,7 @@ where to distribute posts — use `job-posting-strategy`.
   meeting** (not base ÷ dials) and reject under-comped plans — his public "Dear CFO"
   argument is that *"$50K base / $70K OTE won't bring the right talent."* Comp SDRs on
   qualified meetings **held** and document the SDR→AE path. Canonical →
-  `skills/founder-led/sales-team-building/references/tito-bohrt-sdr-science.md`.
+  `references/tito-bohrt-sdr-science.md`.
 
 **Comp strategy (canonical):** `executive-compensation/references/gtm-compensation-strategy.md`
 (Pattern 35). **Bands:** `references/comp-benchmarks.md`. **Stage matrix:**
@@ -147,7 +147,7 @@ SaaS benchmarks — adjust by geo and ACV.
 
 **GTM Engineer (canonical):** Role boundaries, hire triggers, comp leveling, tool stack,
 and onboarding handoff → `references/gtm-engineer-hiring.md`. JD → `templates/gtm-engineer-jd.md`.
-Interview scorecard → `hiring-by-role` → `skills/founder-led/hiring-by-role/templates/gtm-engineer-scorecard.md`.
+Interview scorecard → `hiring-by-role` → the `hiring-by-role` skill (gtm-engineer-scorecard.md).
 
 ### Phase 4: Compensation Plan Elements
 

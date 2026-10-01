@@ -4,23 +4,19 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **Field Marketing ROI Framework**
-- **ABM Field Engagement**
-- **Bizzabo — Event Experience Framework**
-
-## Authoritative foundations
-
-- **Field Marketing ROI Framework** — Named methodology governing recommendations in this skill's process.
-- **ABM Field Engagement** — Named methodology governing recommendations in this skill's process.
-- **Bizzabo — Event Experience Framework** — Event Experience Framework
+- **Priya Parker — The Art of Gathering** — Design executive dinners and roundtables around a purpose and guest mix, with a host who actively facilitates.
+- **ITSMA — Account-Based Marketing** — Build invite lists from target-account tiers and involve account owners in every invitation.
+- **Forrester (SiriusDecisions) — Demand Waterfall** — Track field events by opportunities created and accelerated among invited accounts.
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Format Selection
+- Phase 2: Invite Strategy
+- Phase 3: Venue & Experience
+- Phase 4: Pipeline Conversion
+- Phase 5: Measurement
 
 ## Agent routing
 

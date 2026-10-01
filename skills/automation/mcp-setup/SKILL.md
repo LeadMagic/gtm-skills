@@ -6,7 +6,7 @@ description: >-
   Use when connecting CRM, enrichment, sequencing, analytics, or support tools to
   AI agents through MCP.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -26,7 +26,7 @@ This skill configures MCP for GTM workflows where agents research accounts, enri
 
 ## When to Use
 
-Use this skill when the user asks to "set up MCP for sales tools", "connect our CRM to Claude/Jesse", "give my agent enrichment capabilities", "build an MCP server for GTM tools", "configure MCP permissions", "connect LeadMagic MCP", "orchestrate multiple MCP servers", or "make agent tool use safer".
+Use this skill when the user asks to "set up MCP for sales tools", "connect our CRM to Claude/Cursor", "give my agent enrichment capabilities", "build an MCP server for GTM tools", "configure MCP permissions", "connect LeadMagic MCP", "orchestrate multiple MCP servers", or "make agent tool use safer".
 
 ## Authoritative Foundations
 
@@ -91,7 +91,7 @@ Never hardcode API keys in repo files. Use environment variables or the agent pl
 Plain account (same permissions as the user). Tools cover thread search, customer lookup,
 help center, draft replies (`addGeneratedReply`), and state changes (assign, label, done)
 with human approval before customer-facing sends. Pair with `headless-support` →
-`skills/customer-success/headless-support/references/byoai-headless-stack.md` when stacking Attio + Plain + agent IDE.
+`references/byoai-headless-stack.md` when stacking Attio + Plain + agent IDE.
 
 ### Phase 4: Add Guardrails
 

@@ -4,34 +4,22 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **OWASP Top 10 — Web application security risks**
-- **NIST Cybersecurity Framework**
-- **VSAQ (Vendor Security Assessment Questionnaire) — Google**
-- **SIG (Standardized Information Gathering) — Shared Assessments**
-- **CAIQ (Consensus Assessments Initiative Questionnaire) — CSA**
-- **ISO 27001 — Information Security Management**
-- **Vanta Trust Center — Sales handoff methodology**
-- **Eunice Buhler (G2) — Sales-legal coordination on vendor risk reviews**
-
-## Authoritative foundations
-
-- **OWASP Top 10 — Web application security risks** — Web application security risks
-- **NIST Cybersecurity Framework** — Shapes deliverables for this skill — Every enterprise customer will ask: "Are you secure? Prove it.
-- **VSAQ (Vendor Security Assessment Questionnaire) — Google** — Google
-- **SIG (Standardized Information Gathering) — Shared Assessments** — Shared Assessments
-- **CAIQ (Consensus Assessments Initiative Questionnaire) — CSA** — CSA
-- **ISO 27001 — Information Security Management** — Information Security Management
-- **Vanta Trust Center — Sales handoff methodology** — Sales handoff methodology
-- **Eunice Buhler (G2) — Sales-legal coordination on vendor risk reviews** — Review recency and volume drive Grid placement; ethical ask timing only.
+- **SIG (Shared Assessments) and CAIQ (Cloud Security Alliance)** — Pre-answer the standard questionnaires once and reuse the answers across customer reviews.
+- **NIST Cybersecurity Framework 2.0** — Organize security answers around Govern, Identify, Protect, Detect, Respond, and Recover.
+- **ISO/IEC 27001** — An ISMS certification answers many control questions at once; map questionnaire items to Annex A controls.
+- **OWASP Top 10** — Show how the application addresses the most common web risks, backed by recent penetration test results.
+- **Vanta — Trust Center** — Publish policies, reports, and subprocessors behind an NDA-gated portal so sales can share proof without email threads.
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
-- Phase 6
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Penetration Testing
+- Phase 2: Vulnerability Scanning
+- Phase 3: Bug Bounty Program
+- Phase 4: Security Questionnaires
+- Phase 5: Incident Response Plan
+- Phase 6: Trust Center
 
 ## Agent routing
 

@@ -10,7 +10,7 @@ description: >-
   intent", "precision dialing", "bucketing", or any request about outbound phone
   prospecting.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic
@@ -275,7 +275,7 @@ scorecard with per-metric targets.
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-- `references/cold-calling-experts-index.md` — Phone expert router (repo root)
+- `references/cold-calling-experts-index.md` — Phone expert router
 - `references/joey-gilkey-bucketing.md` — Disposition Science + Phone Intent
 - `references/ryan-reisert-cold-calling.md` — CRM Activity Buckets + call structure
 - `references/ronen-pessar-cold-calling.md` — ColdCall-Market Fit + tonality

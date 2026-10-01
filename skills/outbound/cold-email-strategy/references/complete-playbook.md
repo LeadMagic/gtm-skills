@@ -8,7 +8,7 @@ description: >-
   phrases like "build me a sequence," "design a cadence," "cold email outreach
   plan," "outbound strategy," "multi-touch sequence," or "trigger-based outreach."
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.3.0"
   author: LeadMagic
@@ -172,13 +172,13 @@ This skill draws from the following established methodologies:
   signal-surging accounts. Public first-campaign results: ~70% open / ~30% reply
   vs 5–8% / 2–3% for nurture blasts — proof that account-targeted beats volume.
   For enterprise/ABM-tier accounts, design the sequence per account, not per
-  persona. Canonical → `skills/abm/abm-strategy/references/lars-nilsson-absd.md`.
+  persona. Canonical → `references/lars-nilsson-absd.md`.
 
 - **Randy Seidl (Sales Community) — When relationships beat sequences.**
   Outbound sequences create *access* at scale; they do not replace *trust* in
   enterprise deals. For $100K+ ACV, 6+ month cycles, and multi-stakeholder
   accounts, route to `social-selling` + `sales-coaching` →
-  `skills/management-leadership/sales-coaching/references/randy-seidl-relationship-selling.md` after the first reply —
+  `references/randy-seidl-relationship-selling.md` after the first reply —
   build relationship maps and Three Plays (self, product, outcome), not more
   touches. Sequences win for net-new SMB/mid-market; relationship selling wins
   when the buyer chooses *you*. See `foundation/using-gtm-skills` Pattern 15.

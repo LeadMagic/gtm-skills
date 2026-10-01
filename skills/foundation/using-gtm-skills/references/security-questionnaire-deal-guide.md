@@ -133,4 +133,4 @@ Assign a **Trust Collaborator** or sales-facing security liaison so AEs aren't D
 - `customer-onboarding` — post-sale data handoff
 - `soc2-compliance`, `security-assessments` — building artifacts
 - `data-privacy-compliance` — DPA substance
-- `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-data-exchange-playbook.md` — what data to exchange when
+- `references/gtm-data-exchange-playbook.md` — what data to exchange when

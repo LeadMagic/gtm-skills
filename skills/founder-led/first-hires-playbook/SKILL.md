@@ -6,7 +6,7 @@ description: >-
   founding team. Covers when to hire each role, job description architecture,
   compensation benchmarking, interview process design, and offer construction.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -35,12 +35,12 @@ compensation, and offer construction.
 
 ## Authoritative Foundations
 
-- **SaaStr/Jason Lemkin — First VP hiring benchmarks** — First VP hiring benchmarks
-- **Elad Gil — High Growth Handbook (hiring executives)** — High Growth Handbook (hiring executives)
-- **Molly Graham — Giving away your Legos (scaling teams)** — Giving away your Legos (scaling teams)
-- **Patty McCord — Powerful (Netflix culture, hiring for density)** — Powerful (Netflix culture, hiring for density)
-- **Claire Hughes Johnson — Scaling People (Stripe COO)** — Scaling People (Stripe COO)
-- **First Round Review — Hiring playbooks** — Hiring playbooks
+- **SaaStr/Jason Lemkin** — First VP hiring benchmarks
+- **Elad Gil** — High Growth Handbook (hiring executives)
+- **Molly Graham** — Giving away your Legos (scaling teams)
+- **Patty McCord** — Powerful (Netflix culture, hiring for density)
+- **Claire Hughes Johnson** — Scaling People (Stripe COO)
+- **First Round Review** — Hiring playbooks
 
 ## When to Use
 

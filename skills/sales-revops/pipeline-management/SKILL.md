@@ -9,7 +9,7 @@ description: >-
   design", "GTM playbook", "pipeline management", "deal stages", "Winning by Design
   process", "SPICED stages", "forecasting", "deal inspection", "CRM hygiene".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.2.0"
   author: LeadMagic
@@ -323,10 +323,10 @@ Before delivering, verify:
 - `references/framework-notes.md` — WbD Playbook Kit, SPICED, Bowtie, MEDDICC, Gap Selling anchors
 - `templates/output-template.md` — copy-paste sales process deliverable
 - `scripts/check-output.py` — validates required sections in finished output
-- `../../management-leadership/gtm-leadership/references/cro-enterprise-strategy.md` — McMahon QBR inspection checklist, three-view forecast (Pattern 31)
+- `references/cro-enterprise-strategy.md` — McMahon QBR inspection checklist, three-view forecast (Pattern 31)
 - `references/cold-calling-experts-index.md` — Phone bucketing router (Gilkey vs Reisert)
-- `references/joey-gilkey-bucketing.md` — Disposition Science → pipeline tiers (repo root)
-- `references/ryan-reisert-cold-calling.md` — CRM Activity Buckets (repo root)
+- `references/joey-gilkey-bucketing.md` — Disposition Science → pipeline tiers
+- `references/ryan-reisert-cold-calling.md` — CRM Activity Buckets
 
 ## Related Skills
 

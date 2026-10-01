@@ -3,13 +3,13 @@ name: skills-lock
 description: >-
   Generate and verify a deterministic SHA-256 inventory for every packaged file in an Agent Skills repository. Use when creating skills.lock, checking repository integrity, reviewing artifact coverage, detecting uncommitted generated drift, or designing CI gates for a skill catalog.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "2.0.0"
   author: LeadMagic
   category: automation
   tags: [skills-lock, integrity, sha256, artifacts, ci]
-  related_skills: [agent-skills-repo-authoring, hermes-agent-skill-authoring]
+  related_skills: [using-gtm-skills, mcp-setup]
   frameworks:
     - "Agent Skills specification — progressive disclosure and portable skill packaging"
     - "NIST FIPS 180-4 — SHA-256 secure hash standard"

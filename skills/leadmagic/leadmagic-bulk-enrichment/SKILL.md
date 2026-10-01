@@ -6,7 +6,7 @@ description: >-
   quality checks. Use when enriching a list, bulk validating contacts, or pushing
   LeadMagic-enriched data into GTM systems.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -138,10 +138,10 @@ Before delivering, verify:
 - `scripts/check-output.py` — local checklist validator for required sections
 This skill includes lightweight artifacts the agent can load on demand:
 - `references/batch-pipeline-spec.md` — INTAKE → VERIFY → EXPORT stage spec
-- `../leadmagic-waterfall/references/waterfall-column-spec.md` — Clay vs batch decision
-- `../leadmagic-integrations/references/integration-checklist.md` — CRM + sequencer export gates
-- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify gate (Pat Spielmann)
-- `../../../../references/gtm-experts-outbound-index.md` — expert router
+- `references/waterfall-column-spec.md` — Clay vs batch decision
+- `references/integration-checklist.md` — CRM + sequencer export gates
+- `references/pat-spielmann-outbound-copy.md` — verify gate (Pat Spielmann)
+- `references/gtm-experts-outbound-index.md` — expert router
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

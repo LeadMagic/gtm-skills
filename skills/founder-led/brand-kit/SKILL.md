@@ -8,13 +8,16 @@ description: >-
   design", "brand guidelines", "visual identity", "brand book", "rebrand",
   "brand colors", or any brand-building request.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: founder-led
   tags: [brand, design, logo, identity, visual, guidelines]
-  frameworks: [Marty Neumeier Brand Gap, David Aaker Brand Identity, April Dunford Positioning]
+  frameworks:
+    - "Marty Neumeier — The Brand Gap"
+    - "David Aaker — Brand identity model"
+    - "April Dunford — Obviously Awesome"
   related_skills: [design-system-gtm, graphic-design-gtm, pitch-deck-builder, ui-ux-gtm]
 ---
 
@@ -32,12 +35,9 @@ and asset templates that anyone on the team can use to produce on-brand
 materials.
 
 ## Authoritative Foundations
-
-- **Marty Neumeier Brand Gap** — Shapes deliverables for this skill — A brand kit is the operating manual for your company's visual and verbal
-identity.
-- **David Aaker Brand Identity** — Shapes deliverables for this skill — A brand kit is the operating manual for your company's visual and verbal
-identity.
-- **April Dunford Positioning** — Positioning — competitive alternatives, differentiated value, target segment.
+- **Marty Neumeier — The Brand Gap** — A brand is the customer's gut feeling; the kit must bridge strategy and execution so every asset produces the same feeling.
+- **David Aaker — Brand identity model** — Define core and extended brand identity before choosing visuals so design decisions trace back to positioning.
+- **April Dunford — Obviously Awesome** — Positioning — competitive alternatives, differentiated value, target segment.
 
 ## When to Use
 

@@ -109,7 +109,7 @@ Phone and email are **complementary** — disposition data tells you which chann
 ## Cross-Links
 
 - **List strategy:** Jordan Crawford PQS/PVP (`cold-email-strategy/references/jordan-crawford-blueprint-gtm.md`) — pain-based segments feed Gilkey list lever
-- **Daily rep workflow:** Ryan Reisert CRM Activity Buckets (`https://github.com/LeadMagic/gtm-skills/blob/main/references/ryan-reisert-cold-calling.md`)
+- **Daily rep workflow:** Ryan Reisert CRM Activity Buckets (`references/ryan-reisert-cold-calling.md`)
 - **Cold call execution:** Ronen Pessar ColdCall-Market Fit (`https://github.com/LeadMagic/gtm-skills/blob/main/references/ronen-pessar-cold-calling.md`)
 - **SDR coaching:** Tom Slocum 3x3 + call blocks (`https://github.com/LeadMagic/gtm-skills/blob/main/references/tom-slocum-cold-calling.md`)
 

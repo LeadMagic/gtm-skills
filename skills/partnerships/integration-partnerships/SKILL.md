@@ -1,20 +1,23 @@
 ---
 name: integration-partnerships
 description: >-
-  Build and go-to-market with technology integration partnerships — API/integration
-  GTM, marketplace listing, co-selling. Triggers on: "integration partnership",
-  "tech partnership", "API partnership", "marketplace listing".
+  Builds go-to-market for technology integration partnerships: partner
+  selection, integration launch plans, marketplace listings, and co-selling
+  motions. Use when the user is launching an integration, getting listed on a
+  partner marketplace, or turning an integration into pipeline. Triggers on:
+  "integration partnership", "tech partnership", "API partnership", "marketplace
+  listing".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: partnerships
   tags: [partnerships, integrations, technology-partners, marketplace, API]
   frameworks:
-    - "Technology Partnership Framework"
-    - "Platform Ecosystem Strategy"
-    - "Crossbeam — Ecosystem-Led Growth"
+    - "Bob Moore — Ecosystem-Led Growth"
+    - "Salesforce AppExchange and HubSpot App Marketplace — Listing requirements"
+    - "Jay McBain (Canalys) — Partner ecosystem influence"
   related_skills:
     [
       partnership-strategy,
@@ -35,10 +38,9 @@ discovery happens inside their workflow. This skill covers integration strategy,
 GTM launch, marketplace presence, and co-selling.
 
 ## Authoritative Foundations
-
-- **Technology Partnership Framework** — Named methodology governing recommendations in this skill's process.
-- **Platform Ecosystem Strategy** — Named methodology governing recommendations in this skill's process.
-- **Crossbeam — Ecosystem-Led Growth** — Ecosystem-Led Growth
+- **Bob Moore — Ecosystem-Led Growth** — Prioritize integration partners by customer overlap and co-sell potential, not logo size.
+- **Salesforce AppExchange and HubSpot App Marketplace — Listing requirements** — Plan the security review, listing assets, and certification steps into the launch timeline.
+- **Jay McBain (Canalys) — Partner ecosystem influence** — Integrations extend the influence of every partner who recommends the tool; brief partner teams, not only customers.
 
 ## When to Use
 

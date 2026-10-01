@@ -1,3 +1,5 @@
+<!-- AUTO-GENERATED shared reference: references/lemlist-guillaume-outbound.md; run npm run regenerate. -->
+
 # Guillaume Moubeche — lemlist Outbound Playbook
 
 **Sources:** Guillaume Moubeche — [guillaumemoubeche.com](https://www.guillaumemoubeche.com/) · [lemlist blog](https://www.lemlist.com/blog/) · [1% Cold Email Playbook](https://www.lemlist.com/blog/lemlist-copywriting-playbook) · [Prospecting Email Sequence 2026](https://www.lemlist.com/blog/prospecting-email-sequence) · [Cold Email Templates](https://www.lemlist.com/blog/cold-email-templates) · 💼 [LinkedIn](https://www.linkedin.com/in/guillaume-moubeche-a026541b2/) · 𝕏 [@GuillaumeMbh](https://x.com/GuillaumeMbh) · ▶ [YouTube](https://www.youtube.com/@GuillaumeMoubeche)

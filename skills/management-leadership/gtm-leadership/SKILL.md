@@ -11,7 +11,7 @@ description: >-
   evaluation", "when to fire", "how to hire sales leader", "crisis management",
   "incident comms", "outage communication", "holding statement", "PR crisis".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.7.0"
   author: LeadMagic
@@ -291,7 +291,7 @@ Full reference: **gtm-role-descriptions** → saas-comp-strategies.
 ## GTM Project Team Design
 
 For launches, migrations, and QBRs — not line-management org charts — load
-`gtm-operations` → `skills/gtm-ops/gtm-operations/references/team-design-gtm-projects.md`.
+`gtm-operations` → `references/team-design-gtm-projects.md`.
 
 | Concept | Leader action |
 |---|---|
@@ -357,7 +357,7 @@ Load `references/cro-enterprise-strategy.md` for full checklists. Summary:
 - `templates/crisis-holding-statement.md` · `templates/crisis-customer-email.md` · `templates/crisis-internal-memo.md` · `templates/crisis-faq-for-support.md`
 - `references/cro-enterprise-strategy.md` — **canonical CRO home** (McMahon, Snowflake, Databricks)
 - `references/expert-frameworks.md` — GTM leader experts map
-- `skills/gtm-ops/gtm-operations/references/team-design-gtm-projects.md` — DRI, launch pods, project span of control
+- `references/team-design-gtm-projects.md` — DRI, launch pods, project span of control
 - `references/force-management-playbook.md` — Repo root: alignment cadence, reporting structures, pod economics
 - `references/benioff-v2mom-guide.md` — V2MOM planning system
 - `templates/v2mom-gtm.md` — annual GTM alignment template

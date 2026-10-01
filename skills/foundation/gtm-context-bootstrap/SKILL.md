@@ -3,7 +3,7 @@ name: gtm-context-bootstrap
 description: >-
   Build a reusable, evidence-backed GTM context pack covering company, product, market, ICP, buying triggers, positioning, proof, voice, constraints, and unresolved questions. Use when an agent is starting GTM work without reliable shared context, when teams repeat the same discovery in every task, or when campaign outputs contradict one another.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic

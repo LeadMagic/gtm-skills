@@ -10,7 +10,7 @@ description: >-
   "employment law", "contractor vs employee", "offer letter", "employee
   handbook", "PIIA", "hiring compliance", "termination".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -18,7 +18,7 @@ metadata:
   tags: [employment, hr, contractor, compliance, offer-letter, handbook, termination]
   related_skills: [first-hires-playbook, hiring-contractors, legal-for-founders, equity-management, business-insurance]
   frameworks:
-    - "IRS — Worker classification (20-factor test, ABC test)"
+    - "IRS — Worker classification (common-law rules)"
     - "California AB5 / Prop 22 — Gig economy classification"
     - "DLSE (California) — Employment regulations"
     - "SixFifty — Employment law automation (Wilson Sonsini)"
@@ -40,12 +40,12 @@ from classification to termination.
 
 ## Authoritative Foundations
 
-- **IRS — Worker classification (20-factor test, ABC test)** — Worker classification (20-factor test, ABC test)
-- **California AB5 / Prop 22 — Gig economy classification** — Gig economy classification
-- **DLSE (California) — Employment regulations** — Employment regulations
-- **SixFifty — Employment law automation (Wilson Sonsini)** — Employment law automation (Wilson Sonsini)
-- **Rippling / Gusto — HR compliance platforms** — HR compliance platforms
-- **Stacey Nordwall (Culture Amp / Pyn) — Revenue-team HR ops (onboarding, manager enablement)** — Revenue-team HR ops (onboarding, manager enablement)
+- **IRS** — Classify by behavioral control, financial control, and relationship; states such as California apply the stricter ABC test.
+- **California AB5 / Prop 22** — Gig economy classification
+- **DLSE (California)** — Employment regulations
+- **SixFifty** — Employment law automation (Wilson Sonsini)
+- **Rippling / Gusto** — HR compliance platforms
+- **Stacey Nordwall (Culture Amp / Pyn)** — Revenue-team HR ops (onboarding, manager enablement)
 
 ## When to Use
 
@@ -328,7 +328,7 @@ Consult qualified professionals for your specific situation — attorneys for le
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-- `../gtm-role-descriptions/references/hr-gtm-playbook.md` — Revenue-team HR ops (Stacey Nordwall; Pattern 28)
+- `references/hr-gtm-playbook.md` — Revenue-team HR ops (Stacey Nordwall; Pattern 28)
 
 ## Related Skills
 

@@ -16,11 +16,13 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Magnet Ideation
+- Phase 2: Build vs Buy
+- Phase 3: Landing Page Architecture
+- Phase 4: Distribution Strategy
+- Phase 5: Post-Capture Nurture
 
 ## Agent routing
 

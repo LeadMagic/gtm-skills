@@ -8,14 +8,18 @@ description: >-
   "marketing strategy", "marketing plan", "demand generation", "brand strategy",
   "marketing budget", "channel strategy", or any marketing planning request.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: analytics
   tags: [marketing, strategy, demand-gen, brand, channels, budget]
   related_skills: [paid-advertising, content-marketing, content-distribution, social-media-strategy, attribution]
-  frameworks: [Product-Led Marketing, Schwartz Awareness Levels, Pulizzi Content Tilt]
+  frameworks:
+    - "Eugene Schwartz — Breakthrough Advertising"
+    - "Les Binet and Peter Field — The Long and the Short of It"
+    - "Byron Sharp — How Brands Grow"
+    - "Joe Pulizzi — Content Inc. (content tilt)"
 ---
 
 # Marketing Strategy
@@ -31,13 +35,10 @@ allocation by funnel stage, content strategy, demand generation, brand building,
 and measurement. The output is a strategy document, not a list of tactics.
 
 ## Authoritative Foundations
-
-- **Product-Led Marketing** — Shapes deliverables for this skill — Marketing strategy is the allocation of scarce resources across channels to
-maximize pipeline and revenue.
-- **Schwartz Awareness Levels** — Shapes deliverables for this skill — Marketing strategy is the allocation of scarce resources across channels to
-maximize pipeline and revenue.
-- **Pulizzi Content Tilt** — Shapes deliverables for this skill — Marketing strategy is the allocation of scarce resources across channels to
-maximize pipeline and revenue.
+- **Eugene Schwartz — Breakthrough Advertising** — Match the message to the market's awareness level, from unaware to most aware.
+- **Les Binet and Peter Field — The Long and the Short of It** — Balance long-term brand building with short-term activation instead of spending only on conversion.
+- **Byron Sharp — How Brands Grow** — Grow by increasing mental and physical availability with the whole category, not only loyal buyers.
+- **Joe Pulizzi — Content Inc. (content tilt)** — Find a content niche where you can be the leading voice before expanding.
 
 ## When to Use
 

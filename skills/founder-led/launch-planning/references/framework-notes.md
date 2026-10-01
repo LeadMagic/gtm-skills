@@ -28,11 +28,13 @@ simultaneously.
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Launch Tier Selection
+- Phase 2: Pre-Launch Timeline (Tier 1)
+- Phase 3: Channel Architecture (16 Channels)
+- Phase 4: Product Hunt Playbook
+- Phase 5: Press and Influencer Outreach
 
 ## Key reference tables
 

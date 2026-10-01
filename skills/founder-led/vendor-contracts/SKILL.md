@@ -9,7 +9,7 @@ description: >-
   templates. Triggers on: "MSA", "SLA agreement", "data processing agreement",
   "order form", "vendor security review", "enterprise contract", "procurement".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -38,8 +38,8 @@ selling to customers (inbound) and buying from vendors (outbound).
 ## Authoritative Foundations
 
 - **YC — Standard commercial terms for B2B SaaS** — Startup operating cadence — default alive, talk to users, launch fast.
-- **SaaS Capital — B2B SaaS contract benchmarks** — B2B SaaS contract benchmarks
-- **Jason Lemkin (SaaStr) — Enterprise contract negotiation** — Enterprise contract negotiation
+- **SaaS Capital** — B2B SaaS contract benchmarks
+- **Jason Lemkin (SaaStr)** — Enterprise contract negotiation
 - **David Skok (Matrix Partners) — B2B contract structure** — SaaS metrics — CAC payback, LTV/CAC, unit economics by stage.
 
 ## When to Use

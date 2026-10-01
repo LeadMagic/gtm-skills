@@ -49,7 +49,7 @@ Cross-platform toolkits and platform-specific sequencer skills live in the same 
 | 26 | `outreach-sequences` | Enterprise triggers, Clay→CRM→Outreach | `skills/tools/outreach-sequences/references/enrichment-enrollment-gate.md`, `skills/tools/outreach-sequences/references/framework-notes.md` |
 | 27 | `hubspot-sequences` | Workflow enrollment, rep-triggered sequences | `skills/tools/hubspot-sequences/references/enrichment-enrollment-gate.md`, `skills/tools/hubspot-sequences/references/framework-notes.md` |
 
-**Expert cross-refs:** Eric Nowoslawski (infra scale — Smartlead/Instantly) · Pat Spielmann (verify-before-send) · Guillaume Moubeche (lemlist) → `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-experts-outbound-index.md`
+**Expert cross-refs:** Eric Nowoslawski (infra scale — Smartlead/Instantly) · Pat Spielmann (verify-before-send) · Guillaume Moubeche (lemlist) → `references/gtm-experts-outbound-index.md`
 
 ---
 
@@ -129,10 +129,10 @@ These skills **consume** automation outputs — pair with toolkits above:
 - n8n flow catalog: `tools/n8n-toolkit/references/gtm-flow-catalog.md`
 - Clay loop catalog: `tools/clay-loops-toolkit/references/loop-catalog.md`
 - Clay LeadMagic waterfall: `tools/clay-loops-toolkit/references/leadmagic-waterfall.md`
-- Outbound expert router: `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-experts-outbound-index.md` (Pat Spielmann, Eric Nowoslawski, Guillaume)
+- Outbound expert router: `references/gtm-experts-outbound-index.md` (Pat Spielmann, Eric Nowoslawski, Guillaume)
 - Pat Spielmann playbook: `outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
 - Eric Nowoslawski playbook: `outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md`
-- Automation strategy: `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-automation-expert-playbook.md` (Jen Igartua — Pattern 30)
+- Automation strategy: `references/gtm-automation-expert-playbook.md` (Jen Igartua — Pattern 30)
 - Master router: `foundation/using-gtm-skills` → Pattern 6, 6b, 17, 30
 
 **Total indexed playbooks: 38** (12 automation + 15 tools + 6 leadmagic + 5 gtm-ops) + 8 motion consumer skills

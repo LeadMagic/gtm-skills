@@ -4,9 +4,9 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **Outreach Sequence Best Practices**
-- **ColdIQ Cadence Design**
-- **Outreach — Sales Engagement Cadence Design**
+- **Outreach Support — Sequences and rulesets** — Configure sequence settings, rulesets, and task types so reps follow the same cadence and replies auto-exit prospects.
+- **Google and Yahoo — Bulk sender requirements (2024)** — Authenticate with SPF, DKIM, and DMARC, keep spam complaints below 0.3%, and respect per-mailbox volume.
+- **The Bridge Group — SDR metrics research** — Benchmark activity and conversion per rep against published SDR data before judging cadence performance.
 
 ## Deep-dive references
 

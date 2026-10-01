@@ -50,11 +50,13 @@ Result: Web only 16% → 68% chose Web + Print when decoy present.
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Pricing Research
+- Phase 2: Tier Architecture
+- Phase 3: Pricing Page Psychology
+- Phase 4: Testing Pricing
+- Phase 5: Discounting Psychology
 
 ## Key reference tables
 

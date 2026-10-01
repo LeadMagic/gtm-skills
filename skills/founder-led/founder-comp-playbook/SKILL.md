@@ -10,7 +10,7 @@ description: >-
   budget startup", "what equity to offer", "candidate wants more money", "can't
   afford VP Sales salary", "founder hiring compensation".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic
@@ -211,9 +211,9 @@ When **founder is the candidate** (advisor, operating partner, post-exit):
 - `references/framework-notes.md`
 - `templates/output-template.md`
 - `scripts/check-output.py`
-- `../../management-leadership/executive-compensation/references/gtm-compensation-strategy.md` — master playbook (cross-link)
-- `../../management-leadership/executive-compensation/references/comp-by-role-stage.md` — stage matrix
-- `../../management-leadership/executive-compensation/templates/ote-calculator-template.md` — quota math
+- `references/gtm-compensation-strategy.md` — master playbook (cross-link)
+- `references/comp-by-role-stage.md` — stage matrix
+- the `executive-compensation` skill (ote-calculator-template.md) — quota math
 - `references/founder-comp-budget.md` — ARR-stage payroll guardrails
 - `references/founder-negotiation-scripts.md` — employer scripts by scenario
 - `references/comp-benchmarks-2026.md` — dated ranges (sync with role-descriptions)

@@ -8,7 +8,7 @@ description: >-
   or automating email finding and verification at scale. Triggers on:
   "LeadMagic toolkit", "LeadMagic API", "LeadMagic setup", "LeadMagic CLI".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.2"
   author: LeadMagic
@@ -37,12 +37,12 @@ and integration into every tool in your stack.
 
 ## Authoritative Foundations
 
-- **LeadMagic API — Email finder, verifier, waterfall enrichment endpoints** — Email finder, verifier, waterfall enrichment endpoints
+- **LeadMagic API** — Email finder, verifier, waterfall enrichment endpoints
 - **MCP (Model Context Protocol) — Anthropic AI tool integration** — Model Context Protocol — tool servers for agent-safe CRM and enrichment access.
 - **Clay — Waterfall enrichment and prospecting platform** — Waterfall enrichment, Claygent research, and table-based GTM automation.
 - **n8n — Open-source workflow automation** — Workflow automation — HTTP nodes, webhooks, and GTM glue between tools.
-- **Pat Spielmann — Portable data layer** — Portable data layer
-- **Pat Spielmann — Cold to Gold** — Cold to Gold
+- **Pat Spielmann** — Portable data layer
+- **Pat Spielmann** — Cold to Gold
 
 ## When to Use
 
@@ -62,7 +62,7 @@ Trigger phrases: "LeadMagic API", "LeadMagic setup", "LeadMagic integration",
 ### Integration Methods
 - **REST API:** Direct HTTP calls with API key authentication
 - **CLI:** Command-line tool for scripting and automation
-- **MCP Server:** 16 tools exposed as MCP tools for AI agents
+- **MCP Server:** 130+ hosted tools for AI agents at `https://mcp.leadmagic.io/mcp`
 - **Clay Integration:** Native Clay enrichment provider
 - **n8n Integration:** HTTP Request nodes for workflow automation
 - **CRM Integration:** HubSpot, Salesforce, Attio via API/webhook
@@ -210,7 +210,7 @@ Before delivering, verify:
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
 This skill includes lightweight artifacts the agent can load on demand:
-- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — GTM stack + outbound copy integration patterns (Pat Spielmann)
+- `references/pat-spielmann-outbound-copy.md` — GTM stack + outbound copy integration patterns (Pat Spielmann)
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

@@ -1,20 +1,22 @@
 ---
 name: podcast-gtm
 description: >-
-  Use podcast appearances as a GTM channel — booking strategy, interview prep,
-  content repurposing, pipeline conversion. Triggers on: "podcast GTM", "podcast
-  appearances", "be a podcast guest", "podcast marketing".
+  Turns podcast guesting into a GTM channel: show targeting, booking pitches,
+  interview prep, content repurposing, and pipeline attribution. Use when a
+  founder or executive wants to get booked on podcasts or turn appearances into
+  pipeline. Triggers on: "podcast GTM", "podcast appearances", "be a podcast
+  guest", "podcast marketing", "book podcast appearances".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: demand-gen
   tags: [demand-gen, podcast, thought-leadership, guest-appearances, content]
   frameworks:
-    - "Podcast Guesting Framework"
-    - "Authority Marketing"
-    - "SiriusDecisions — Demand Waterfall"
+    - "Chris Walker — Demand creation and dark social"
+    - "Rand Fishkin (SparkToro) — Audience research"
+    - "Ahrefs — Podcast tour for links"
   related_skills:
     [
       founder-brand,
@@ -35,10 +37,9 @@ and direct pipeline from listeners who self-qualify by listening for 30+ minutes
 This skill covers booking strategy through pipeline conversion.
 
 ## Authoritative Foundations
-
-- **Podcast Guesting Framework** — Named methodology governing recommendations in this skill's process.
-- **Authority Marketing** — Named methodology governing recommendations in this skill's process.
-- **SiriusDecisions — Demand Waterfall** — Demand Waterfall
+- **Chris Walker — Demand creation and dark social** — Podcasts drive influence last-touch attribution can't see; track 'heard on podcast' in the CRM and judge the program over 90 days.
+- **Rand Fishkin (SparkToro) — Audience research** — Pick shows your ICP actually listens to; audience overlap beats download counts.
+- **Ahrefs — Podcast tour for links** — Each appearance earns a show-notes backlink and raw material for repurposed content.
 
 ## When to Use
 
@@ -169,7 +170,7 @@ A strong output from this skill includes:
 - `scripts/check-output.py` — Lightweight deliverable validator
 - `references/chris-walker-mental-models.md` — Repo root: demand creation, frequency, influenced pipeline
 - `references/seo-strategy-playbook.md` — Repo root: §6 podcast tour backlinks
-- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 26: Demand Creation (step 4)
+- the `using-gtm-skills` skill — Pattern 26: Demand Creation (step 4)
 
 ## Related Skills
 

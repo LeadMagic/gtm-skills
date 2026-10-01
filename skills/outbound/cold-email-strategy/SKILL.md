@@ -7,7 +7,7 @@ description: >-
   a sequence blueprint, or diagnosis of low reply and meeting rates. Use a
   copywriting skill for final messages and deliverability skills for infrastructure.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.4.0"
   author: LeadMagic

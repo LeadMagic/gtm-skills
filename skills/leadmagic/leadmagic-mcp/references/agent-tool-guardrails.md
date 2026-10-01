@@ -1,6 +1,6 @@
 # LeadMagic MCP — Agent Tool Guardrails
 
-Safe MCP configuration for enrichment agents (Claude, Jesse, Codex, etc.).
+Safe MCP configuration for enrichment agents (Claude, Cursor, Codex, etc.).
 
 ## Tool Category Permissions
 
@@ -34,7 +34,7 @@ Agent researches + validates sample (MCP)
   → Results to CRM/Clay — not back through agent loop
 ```
 
-Load: `../../../tools/n8n-toolkit/references/mcp-patterns.md`
+Load: `references/mcp-patterns.md`
 
 ## Workflow Test Matrix
 
@@ -53,7 +53,7 @@ Agent outputs recommending outbound must include:
 - Source for personalization (URL or CRM field)
 - Explicit "do not send if invalid" rule
 
-Cross-ref: `../../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
+Cross-ref: `references/pat-spielmann-outbound-copy.md`
 
 ## Related Skills
 

@@ -1,13 +1,14 @@
 ---
 name: funding-signal-play
 description: >-
-  Trigger-based outbound play when a target account raises funding — signal
-  stacking to cut false positives, use-of-funds alignment messaging, 48-hour
-  contact bar, 14-day 5-touch sequence, benchmark-anchored measurement.
+  Runs trigger-based outbound when a target account raises funding: signal
+  stacking to cut false positives, use-of-funds messaging, a 48-hour first-touch
+  bar, a 14-day 5-touch sequence, and benchmark-anchored measurement. Use when
+  the user wants to reach recently funded companies or set up funding alerts.
   Triggers on: "funding signal", "funding play", "raised money outreach",
   "funding announcement outbound", "Series A/B/C prospecting".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic

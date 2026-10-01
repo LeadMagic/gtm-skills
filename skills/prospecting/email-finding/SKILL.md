@@ -9,7 +9,7 @@ description: >-
   \"email enrichment\", \"what's their email\", or any request to locate professional
   email addresses for prospects.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: \"1.0.0\"
   author: LeadMagic

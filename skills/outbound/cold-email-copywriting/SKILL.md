@@ -9,7 +9,7 @@ description: >-
   email," "draft outreach," "improve my cold email copy," "subject line
   help," or "personalize this email."
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic
@@ -123,7 +123,7 @@ This skill draws from the following established methodologies:
 - **Becc Holland — Stellar Cold Email.** Seven Pillars: relevance to metrics,
   problems, triggers, unknowns; psychological safety; structure; sequence logic.
   Five questions: get/open/read/relevance/care. Canonical structure guide →
-  `../cold-email-strategy/references/becc-holland-playbook.md`.
+  `references/becc-holland-playbook.md`.
 
 - **Guillaume Moubeche — lemlist copy structure.** Subject (2–3 words) →
   personalized intro → Situation/Problem → Value → Social proof → **CTC**
@@ -131,7 +131,7 @@ This skill draws from the following established methodologies:
 
 - **Jordan Crawford — PVP copy.** Message must pass pay-to-receive test: lead
   with data-combined insight about *their* pain; defer product. See
-  `../cold-email-strategy/references/jordan-crawford-blueprint-gtm.md`.
+  `references/jordan-crawford-blueprint-gtm.md`.
 
 - **Joanna Wiebe (Copyhackers)** — Conversion copy principles. "Start with
   the conversation happening in the prospect's head." The opening line must
@@ -167,7 +167,7 @@ This skill draws from the following established methodologies:
   discovery call?" and answer why someone wouldn't respond. Crawl phase: write
   5–10 emails manually before automating. Pairs with Pat (data quality) and Jordan
   (segment depth) — Eric adds offer format + scale QA. Playbook →
-  `../cold-email-strategy/references/eric-nowoslawski-outbound.md`.
+  `references/eric-nowoslawski-outbound.md`.
 
 - **Leslie Venetz — Problem-Centric Copy Audit (Sales-Led GTM).** A deterministic
   buyer-first edit: count **"I / we / our"** vs **"you / yours / they / them"** and
@@ -177,7 +177,7 @@ This skill draws from the following established methodologies:
   relevant/valuable enough to justify the ask? A great cold email is clear, concise,
   and centered on the buyer, not long or clever. Pairs with Pat's Hook-Line-Sinker
   (structure) and Josh Braun (problem-first). Playbook →
-  `../cold-email-strategy/references/leslie-venetz-buyer-first-outbound.md`.
+  `references/leslie-venetz-buyer-first-outbound.md`.
 
 ## Prerequisites
 
@@ -399,11 +399,11 @@ Use `references/subject-line-patterns.md` when the task needs subject-line patte
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
 - `references/pat-spielmann-outbound-copy.md` — Hook-Line-Sinker, Cold to Gold, enrichment-led copy, anti-patterns, review checklists (Pat Spielmann — canonical)
-- `../cold-email-strategy/references/justin-michael-sales-borg.md` — REPLY methodology, brevity rules, trigger-linked personalization (canonical)
-- `../cold-email-strategy/references/becc-holland-playbook.md` — Stellar email pillars, structure
-- `../cold-email-strategy/references/lemlist-guillaume-outbound.md` — Problem-first / CTC structure
-- `../cold-email-strategy/references/jordan-crawford-blueprint-gtm.md` — PVP copy quality bar
-- `../cold-email-strategy/references/eric-nowoslawski-outbound.md` — Creative Ideas, Pay-for-Discovery offers, AI copy QA at scale (Eric Nowoslawski)
+- `references/justin-michael-sales-borg.md` — REPLY methodology, brevity rules, trigger-linked personalization (canonical)
+- `references/becc-holland-playbook.md` — Stellar email pillars, structure
+- `references/lemlist-guillaume-outbound.md` — Problem-first / CTC structure
+- `references/jordan-crawford-blueprint-gtm.md` — PVP copy quality bar
+- `references/eric-nowoslawski-outbound.md` — Creative Ideas, Pay-for-Discovery offers, AI copy QA at scale (Eric Nowoslawski)
 - `references/email-frameworks.md` — Cold email copy frameworks and rules
 - `references/sequence-touch-library.md` — Multi-touch email templates
 - `references/subject-line-patterns.md` — Subject line pattern library

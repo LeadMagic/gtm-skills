@@ -1,11 +1,13 @@
 ---
 name: abm-1-to-1
 description: >-
-  Execute Strategic ABM (1-to-1) for 5-15 high-value accounts — custom microsites,
-  executive engagement, direct mail, board-level connections, custom content. Triggers
-  on: "1-to-1 ABM", "strategic ABM", "custom ABM", "key account marketing", "named account".
+  Runs strategic 1-to-1 ABM for 5-15 high-value accounts: account plans, custom
+  microsites, executive engagement, direct mail, and board-level connections.
+  Use when a named enterprise account justifies bespoke content and executive
+  time, or when the user needs a strategic account plan. Triggers on: "1-to-1
+  ABM", "strategic ABM", "custom ABM", "key account marketing", "named account".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic

@@ -141,4 +141,4 @@ Pair with `content-seo/aeo-strategy`:
 | Content calendar + distribution | `content-marketing` |
 | Syndication | `content-syndication` |
 
-**Experts:** See `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` → SEO & Content section
+**Experts:** See `references/experts.md` → SEO & Content section

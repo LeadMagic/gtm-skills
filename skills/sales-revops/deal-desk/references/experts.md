@@ -283,7 +283,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Crisis comms framing:** Never skip investor updates in bad months; explain stumbles before MRR shows it; own mistakes fast. Source: [Handling Bad News](https://www.saastr.com/handling-bad-news/) · `https://github.com/LeadMagic/gtm-skills/blob/main/references/crisis-management-playbook.md`
 
-**GTM security framing:** Treat SOC 2 as a **sales unblock** — most B2B buyers require security assessment before purchase; doing compliance early avoids late-stage procurement stalls. GTM playbooks → `https://github.com/LeadMagic/gtm-skills/blob/main/references/security-questionnaire-deal-guide.md`, `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-data-exchange-playbook.md`. Source: [Just Do The SOC-2](https://www.saastr.com/just-do-the-soc-2/)
+**GTM security framing:** Treat SOC 2 as a **sales unblock** — most B2B buyers require security assessment before purchase; doing compliance early avoids late-stage procurement stalls. GTM playbooks → `references/security-questionnaire-deal-guide.md`, `references/gtm-data-exchange-playbook.md`. Source: [Just Do The SOC-2](https://www.saastr.com/just-do-the-soc-2/)
 
 ---
 
@@ -1629,7 +1629,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Implied ARR (Q revenue × 4) · **Meritech Rule of 40** (growth weighted 3× vs FCF) · Public Magic Number / payback on reported S&M · ~120 public SaaS index cohort
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md` (canonical) · `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md` (conflict resolution vs KeyBanc, OpenView, SaaS Capital)
+**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md` (canonical) · `references/benchmark-reconciliation.md` (conflict resolution vs KeyBanc, OpenView, SaaS Capital)
 
 **Skills:** `gtm-metrics`, `saas-metrics-calculator`, `saas-outcomes`, `financial-modeling`, `public-company-gtm-metrics` (Henry Schuck pairing), `fundraising-strategy`, `board-meeting-prep`
 
@@ -1669,7 +1669,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Rule of 40 (growth + margin) · Cloud index comps · Atlas stage playbooks (PLG, vertical, consumption)
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-cloud-atlas.md` (canonical) · `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md`
+**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-cloud-atlas.md` (canonical) · `references/benchmark-reconciliation.md`
 
 **Contrast:** Bessemer = **VC-stage** benchmarks + essays. Meritech = **public** comps table. Skok = formula definitions.
 
@@ -2181,7 +2181,7 @@ Organic reach, Live content engines, and Sales Navigator prospecting — three l
 
 **Key Frameworks:** Trust Center as default security response · Trust Collaborator role for sales · Proactive sales partnership (don't be the blocker)
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/security-questionnaire-deal-guide.md` · `deal-desk` enterprise security phase
+**Artifacts:** `references/security-questionnaire-deal-guide.md` · `deal-desk` enterprise security phase
 
 **Skills:** `deal-desk`, `security-assessments`, `soc2-compliance`, `customer-onboarding`
 

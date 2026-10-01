@@ -22,10 +22,12 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Intake
+- Phase 2: Research
+- Phase 3: Execution
+- Phase 4: Delivery
 
 ## Key reference tables
 

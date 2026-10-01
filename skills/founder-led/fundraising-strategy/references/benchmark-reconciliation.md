@@ -314,7 +314,7 @@ Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-clo
 | **Consumption usage** | **Seat-based MRR** | Hybrid: platform MRR + usage true-up; McMahon/Slootman: track commit vs consumption run-rate |
 | **Earn-out / exit ARR** | **Internal dashboard ARR** | Diligence uses **committed recurring** + definitions in LOI — EBITDA earn-out ≠ MRR earn-out (`negotiating-earn-out.md`) |
 
-**Canonical deep dive:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-mrr-accounting-nuances.md` · bridge template → `skills/founder-led/saas-metrics-calculator/templates/mrr-bridge-template.md`
+**Canonical deep dive:** `references/saas-mrr-accounting-nuances.md` · bridge template → `skills/founder-led/saas-metrics-calculator/templates/mrr-bridge-template.md`
 
 **Footnote — saas-metrics-calculator vs financial-modeling:** Calculator = committed MRR formulas. Financial model revenue row may use **recognized** revenue for P&L — link both in board pack.
 
@@ -337,9 +337,9 @@ Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-clo
 - `executive-compensation/references/comp-by-role-stage.md`
 - `gtm-role-descriptions/references/comp-benchmarks.md`
 - `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-metrics-reference.md`
-- `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-mrr-accounting-nuances.md`
+- `references/saas-mrr-accounting-nuances.md`
 - `https://github.com/LeadMagic/gtm-skills/blob/main/references/bookings-billings-revenue-matrix.md`
-- `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-budget-playbook.md`
+- `references/gtm-budget-playbook.md`
 - `saas-outcomes/references/exit-metrics-matrix.md`
 - `saas-outcomes/references/bootstrap-founder-playbook.md`
 - `exiting-company/references/negotiating-earn-out.md`

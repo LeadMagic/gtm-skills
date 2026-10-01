@@ -2,7 +2,7 @@
 
 # SaaS MRR & ARR Accounting Nuances
 
-**Canonical home:** `saas-metrics-calculator` (operational metrics) · cross-link `financial-modeling` (P&L/cash) · reconcile definitions → `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md`.
+**Canonical home:** `saas-metrics-calculator` (operational metrics) · cross-link `financial-modeling` (P&L/cash) · reconcile definitions → `references/benchmark-reconciliation.md`.
 
 **Audience:** GTM founders and RevOps operators who need to **audit metrics**, align CRM with finance, and talk credibly to CPAs — **not** a GAAP textbook or CPA replacement.
 
@@ -124,7 +124,7 @@ Template → `skills/founder-led/saas-metrics-calculator/templates/mrr-bridge-te
 
 **RevOps bridge:** Don't apply seat-based MRR formulas to pure usage without a **committed floor**. Hybrid: platform fee (MRR) + variable usage (monthly true-up).
 
-Cross-link: `financial-modeling` consumption section · `gtm-metrics` Slootman row · `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md` (consumption metrics).
+Cross-link: `financial-modeling` consumption section · `gtm-metrics` Slootman row · `references/benchmark-reconciliation.md` (consumption metrics).
 
 ---
 
@@ -172,7 +172,7 @@ High-level only — **not tax or audit advice.**
 - **Material rights** (renewal discounts) → may defer part of initial deal.
 - **Usage-based** → recognize as usage occurs (variable consideration estimates — CPA).
 
-Handoff trigger: first enterprise MSAs with custom terms, multi-year ramps, or significant PS → engage SaaS-experienced CPA (see `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-tax-founder-awareness.md` experts).
+Handoff trigger: first enterprise MSAs with custom terms, multi-year ramps, or significant PS → engage SaaS-experienced CPA (see `references/saas-tax-founder-awareness.md` experts).
 
 ---
 
@@ -212,9 +212,9 @@ Deep matrix → `https://github.com/LeadMagic/gtm-skills/blob/main/references/bo
 | Formulas & benchmarks | `saas-metrics-calculator`, `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-metrics-reference.md` |
 | Exit weight by metric | `saas-metrics-calculator/references/metric-definitions-exit-weight.md` |
 | Public implied ARR | `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md` |
-| Conflicting thresholds | `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md` |
+| Conflicting thresholds | `references/benchmark-reconciliation.md` |
 | Earn-out / EBITDA vs MRR | `exiting-company/references/negotiating-earn-out.md`, `benchmark-reconciliation.md` |
-| Budget & headcount tie | `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-budget-playbook.md` |
+| Budget & headcount tie | `references/gtm-budget-playbook.md` |
 | Consumption modeling | `financial-modeling` SKILL — consumption section |
 
 ---

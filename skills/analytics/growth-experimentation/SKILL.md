@@ -8,7 +8,7 @@ description: >-
   "growth experiments", "A/B testing program", "ICE scoring", "growth sprint",
   "experiment design", "test velocity", or any growth experimentation request.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic

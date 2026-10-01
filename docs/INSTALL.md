@@ -109,7 +109,6 @@ Available local target keys:
 | `windsurf` | `.agents/skills/` | `gh skill --agent windsurf` |
 | `goose` | `.agents/skills/` | `gh skill --agent goose` |
 | `hermes` | `.agents/skills/` | Universal Agent Skills directory |
-| `jesse` | `.jesse/skills/` | Direct local copy |
 
 ## Curated Claude installer
 

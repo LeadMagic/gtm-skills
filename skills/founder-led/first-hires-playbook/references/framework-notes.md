@@ -22,11 +22,14 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Role Definition
+- Phase 2: Sourcing
+- Phase 3: Interview Process
+- Phase 4: Compensation
+- Phase 5: Offer & Close
+6. Onboarding: First 90 Days
 
 ## Agent routing
 

@@ -13,8 +13,8 @@ AND trigger_problem mapped (not generic congrats)
 AND suppression = false
 ```
 
-Cross-ref Pat: `../../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
-Cross-ref Guillaume: `../../../outbound/cold-email-strategy/references/lemlist-guillaume-outbound.md`
+Cross-ref Pat: `references/pat-spielmann-outbound-copy.md`
+Cross-ref Guillaume: `references/lemlist-guillaume-outbound.md`
 
 ## Required Fields for Lemlist Personalization
 
@@ -49,7 +49,7 @@ Signal loops → Lemlist campaign mapping:
 - Job change champion → route to AE (not Lemlist) if open opp
 - Hiring signal → campaign "Hiring — [Role tier]"
 
-Load: `../../../tools/clay-loops-toolkit/references/loop-catalog.md`
+Load: `references/loop-catalog.md`
 
 ## lemwarm Prerequisite
 

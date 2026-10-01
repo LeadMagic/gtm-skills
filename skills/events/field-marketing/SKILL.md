@@ -1,20 +1,22 @@
 ---
 name: field-marketing
 description: >-
-  Plan and execute field marketing — regional events, executive dinners, roadshows,
-  customer advisory boards. Triggers on: "field marketing", "executive dinner",
-  "roadshow", "regional event", "customer event".
+  Plans field marketing: regional events, executive dinners, roadshows, and
+  customer advisory boards, with invite lists, run-of-show, and pipeline
+  follow-up. Use when the user is planning an in-person event for target
+  accounts or customers. Triggers on: "field marketing", "executive dinner",
+  "roadshow", "regional event", "customer event", "customer advisory board".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: events
   tags: [events, field-marketing, executive-dinners, roadshows, customer-events]
   frameworks:
-    - "Field Marketing ROI Framework"
-    - "ABM Field Engagement"
-    - "Bizzabo — Event Experience Framework"
+    - "Priya Parker — The Art of Gathering"
+    - "ITSMA — Account-Based Marketing"
+    - "Forrester (SiriusDecisions) — Demand Waterfall"
   related_skills:
     [
       event-driven-outreach,
@@ -35,10 +37,9 @@ and regional meetups convert at 3-5x the rate of digital channels because trust
 is built in person. This skill covers strategy through execution.
 
 ## Authoritative Foundations
-
-- **Field Marketing ROI Framework** — Named methodology governing recommendations in this skill's process.
-- **ABM Field Engagement** — Named methodology governing recommendations in this skill's process.
-- **Bizzabo — Event Experience Framework** — Event Experience Framework
+- **Priya Parker — The Art of Gathering** — Design executive dinners and roundtables around a purpose and guest mix, with a host who actively facilitates.
+- **ITSMA — Account-Based Marketing** — Build invite lists from target-account tiers and involve account owners in every invitation.
+- **Forrester (SiriusDecisions) — Demand Waterfall** — Track field events by opportunities created and accelerated among invited accounts.
 
 ## When to Use
 

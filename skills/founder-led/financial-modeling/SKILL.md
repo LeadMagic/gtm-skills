@@ -9,7 +9,7 @@ description: >-
   discounted cash flow, consumption revenue models, expansion modeling,
   and SaaS-specific valuation.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "2.2.0"
   author: LeadMagic
@@ -68,7 +68,7 @@ For IPO-track scenarios, compare implied ARR growth, FCF margin, and Meritech Ru
 ### Force Management — Pod Economics & Headcount Planning
 Bottom-up headcount from pod economics: group SDR/AE/SE/CSM into pods, run
 pod cost % of ARR (target ≤35% at 80% ramp), link quota attainment distribution
-to hiring triggers. See `references/force-management-playbook.md` (repo root)
+to hiring triggers. See `references/force-management-playbook.md`
 and `references/unit-economics-exit-bridge.md`.
 
 ## Step-by-Step Process
@@ -138,7 +138,7 @@ Cash-zero date is NOT when you start fundraising — it's when you're dead.
 
 Load `references/gtm-budget-playbook.md` for annual S&M/R&D/G&A structure,
 headcount-driven build, vendor budget tie to `gtm-spend-management`, and monthly
-variance cadence. Worksheet → `skills/gtm-ops/gtm-spend-management/templates/annual-gtm-budget-worksheet.md`.
+variance cadence. Worksheet → the `gtm-spend-management` skill (annual-gtm-budget-worksheet.md).
 
 | Driver | Conservative | Base Case | Aggressive |
 |---|---|---|---|
@@ -457,11 +457,11 @@ Before delivering, verify:
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-- `references/gtm-budget-playbook.md` — **canonical** annual GTM budget (repo root)
-- `skills/gtm-ops/gtm-spend-management/templates/annual-gtm-budget-worksheet.md` — budget worksheet (gtm-spend-management skill)
-- `references/saas-mrr-accounting-nuances.md` — MRR/recognition reconcile (repo root)
-- `references/saas-tax-founder-awareness.md` — tax/409A/QSBS handoffs (repo root)
-- `references/bookings-billings-revenue-matrix.md` — cash vs committed ARR (repo root)
+- `references/gtm-budget-playbook.md` — **canonical** annual GTM budget
+- the `gtm-spend-management` skill (annual-gtm-budget-worksheet.md) — budget worksheet (gtm-spend-management skill)
+- `references/saas-mrr-accounting-nuances.md` — MRR/recognition reconcile
+- `references/saas-tax-founder-awareness.md` — tax/409A/QSBS handoffs
+- `references/bookings-billings-revenue-matrix.md` — cash vs committed ARR
 - `references/unit-economics-exit-bridge.md` — LTV/NRR/EBITDA → valuation multiple bridge
 **Cross-skill (journey / exit):** `gtm-spend-management` (vendor budget) · `saas-metrics-calculator` (MRR bridge) · `saas-outcomes/references/journey-stage-gates.md`, `saas-outcomes/references/bootstrap-founder-playbook.md`, `saas-outcomes/templates/bootstrap-capital-plan.md`, `saas-outcomes/templates/journey-planning-worksheet.md`, `saas-outcomes/references/valuation-multiples.md`, `exiting-company/templates/valuation-sensitivity-table.md`, `exiting-company/templates/earn-out-term-sheet-review.md`, `exiting-company/references/negotiating-earn-out.md`, `exiting-company/references/buyer-readiness-checklist.md`, `saas-metrics-calculator/references/metric-definitions-exit-weight.md`, `references/benchmark-reconciliation.md`
 

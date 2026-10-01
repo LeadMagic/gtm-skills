@@ -165,8 +165,8 @@ Chart of accounts basics: separate **subscription revenue**, **PS revenue**, **C
 | P&L & runway model | `financial-modeling` |
 | Vendor spend governance | `gtm-spend-management` |
 | MRR / revenue recognition | `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-mrr-accounting-nuances.md` |
-| Bookings vs revenue | `https://github.com/LeadMagic/gtm-skills/blob/main/references/bookings-billings-revenue-matrix.md` |
-| Tax & R&D credits (awareness) | `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-tax-founder-awareness.md` |
+| Bookings vs revenue | `references/bookings-billings-revenue-matrix.md` |
+| Tax & R&D credits (awareness) | `references/saas-tax-founder-awareness.md` |
 | Benchmark thresholds | `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md` |
 | Bootstrap capital | `saas-outcomes/templates/bootstrap-capital-plan.md` |
 | Solo founder spend | `solo-founder-gtm/references/spend-by-stage.md` |

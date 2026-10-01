@@ -1,3 +1,5 @@
+<!-- AUTO-GENERATED shared reference: references/morgan-ingram-sales-navigator.md; run npm run regenerate. -->
+
 # Morgan J. Ingram (AMP Social) — Sales Navigator Prospecting
 
 Reference tables for `SKILL.md`. Source: Morgan J. Ingram, Founder **AMP Social**
@@ -104,7 +106,7 @@ For target accounts, run **parallel filter plays** per persona:
 | Meetings per saved search | Weekly alert ROI |
 
 Log **self-reported source** in CRM — LinkedIn dark social won't last-touch
-attribute (`references/chris-walker-mental-models.md`).
+attribute (`https://github.com/LeadMagic/gtm-skills/blob/main/references/chris-walker-mental-models.md`).
 
 ## Common failure modes
 

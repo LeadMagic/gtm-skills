@@ -3,7 +3,7 @@ name: lead-magnets
 description: >-
   Create lead magnets that convert qualified buyers: calculators, checklists, teardown offers, templates, benchmarks, reports, and free tools. Produces concept shortlist, landing page outline, capture flow, nurture path, and qualification logic. Use when building demand capture assets or content-to-pipeline offers.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -30,8 +30,8 @@ landing page optimization, and the nurture-to-pipeline funnel.
 ## Authoritative Foundations
 
 - **Brian Balfour — Growth Loops** — Growth loops — acquisition/retention loops, not funnel-only thinking.
-- **Dan Martell — SaaS Lead Magnets** — SaaS Lead Magnets
-- **SparkToro — Audience Research** — Audience Research
+- **Dan Martell** — SaaS Lead Magnets
+- **SparkToro** — Audience Research
 
 ## When to Use
 

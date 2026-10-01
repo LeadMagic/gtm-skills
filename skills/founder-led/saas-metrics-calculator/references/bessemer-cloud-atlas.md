@@ -27,7 +27,7 @@
 Rule of 40 = Revenue Growth Rate % + Profit Margin %
 ```
 
-**Repo note:** Bessemer/Skok **traditional** Rule of 40 is canonical for **private board** packs. Meritech uses a **growth-weighted** variant for public valuation regression — see `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md`.
+**Repo note:** Bessemer/Skok **traditional** Rule of 40 is canonical for **private board** packs. Meritech uses a **growth-weighted** variant for public valuation regression — see `references/benchmark-reconciliation.md`.
 
 | Context | Guidance |
 |---|---|
@@ -67,4 +67,4 @@ Always label **segment** (SMB/mid/enterprise) and **definition** when citing.
 
 `saas-metrics-calculator`, `gtm-metrics`, `financial-modeling`, `fundraising-strategy`, `board-meeting-prep`, `plg-strategy`, `gtm-spend-management`
 
-**Cross-links:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-metrics-reference.md`
+**Cross-links:** `references/meritech-saas-benchmarks.md` · `references/benchmark-reconciliation.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-metrics-reference.md`

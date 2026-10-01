@@ -1,20 +1,22 @@
 ---
 name: job-change-play
 description: >-
-  Outbound play triggered by contact job changes — champion tracking, new-role 
-  outreach, "new broom" timing. Triggers on: "job change", "new role", "champion 
-  moved", "job change outreach", "contact changed jobs".
+  Runs outbound triggered by contact job changes: champion tracking, new-role
+  outreach, and "new broom" timing in the first 90 days. Use when a champion or
+  past buyer moves to a new company, or the user wants to set up job-change
+  detection. Triggers on: "job change", "new role", "champion moved", "job
+  change outreach", "contact changed jobs".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: sales-plays
   tags: [sales-plays, job-change, champion-tracking, trigger-based, new-role]
   frameworks:
-    - "Signal-Based Selling"
-    - "Champion Tracking Methodology"
     - "Winning by Design — SPICED"
+    - "UserGems — Champion tracking"
+    - "LinkedIn Sales Navigator — Lead alerts"
 ---
 
 # Job Change Outbound Play
@@ -27,10 +29,9 @@ at a new company with new budget and tool evaluation, and (3) you have a timely,
 personal reason to reconnect. This play covers all three.
 
 ## Authoritative Foundations
-
-- **Signal-Based Selling** — Named methodology governing recommendations in this skill's process.
-- **Champion Tracking Methodology** — Named methodology governing recommendations in this skill's process.
-- **Winning by Design — SPICED** — Bowtie lifecycle model — align sales, marketing, and CS on stage-based outcomes.
+- **Winning by Design — SPICED** — Discovery framework — Situation, Pain, Impact, Critical Event, Decision; a champion's new role is the critical event.
+- **UserGems — Champion tracking** — Track past buyers and users as they change companies and reach out in their first months, when they set new priorities.
+- **LinkedIn Sales Navigator — Lead alerts** — Save champions as leads to get job-change alerts without manual monitoring.
 
 ## When to Use
 

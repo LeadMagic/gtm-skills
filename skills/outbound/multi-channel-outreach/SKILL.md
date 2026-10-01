@@ -9,7 +9,7 @@ description: >-
   "cross-channel", "multi-touch", or any request to coordinate multiple outreach
   channels.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -53,7 +53,7 @@ calls can double connection rates for high-value accounts.
 
 - **Guillaume Moubeche — lemlist multichannel.** Email + LinkedIn + phone in one
   coordinated flow; 4–9 touches; channel-native copy (not email pasted to LI).
-  Playbook → `../cold-email-strategy/references/lemlist-guillaume-outbound.md`.
+  Playbook → `references/lemlist-guillaume-outbound.md`.
   Platform setup → `lemlist-setup`.
 
 ## Prerequisites

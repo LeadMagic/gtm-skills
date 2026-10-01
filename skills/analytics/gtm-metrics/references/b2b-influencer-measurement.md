@@ -18,7 +18,7 @@
 | **Revenue** | Closed-won with campaign member / influenced opp | Multi-touch attribution |
 | **Dark social** | Branded search lift, direct traffic | Slack/WhatsApp shares (no UTM) |
 
-Cross-link: `https://github.com/LeadMagic/gtm-skills/blob/main/references/chris-walker-mental-models.md` § Dark Social · `attribution` skill.
+Cross-link: `references/chris-walker-mental-models.md` § Dark Social · `attribution` skill.
 
 ---
 
@@ -156,7 +156,7 @@ UTMs work for **clickable** destinations. They fail for:
 | **Aneesh Lal / Wishly** | Landing page + Clay scrape + CRM lookback |
 | **Campaign governance** | UTM dictionary, naming, audit |
 | **GTM metrics** | Pipeline influenced in board stack |
-| **Lifecycle awareness** | Influencer = stage 1 metric input (`https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-lifecycle-stages.md`) |
+| **Lifecycle awareness** | Influencer = stage 1 metric input (`references/gtm-lifecycle-stages.md`) |
 
 ---
 
@@ -165,6 +165,6 @@ UTMs work for **clickable** destinations. They fail for:
 - [G2 — Aneesh Lal attribution & CFO tips](https://learn.g2.com/industry-insights-aneesh-lal-b2b-influencer-marketing-secrets)
 - [PartnerStack — Wishly ROI example](https://partnerstack.com/articles/partner-spotlight-2025)
 - [Refine Labs — Chris Walker demand creation](https://www.refinelabs.com/)
-- Repo: `https://github.com/LeadMagic/gtm-skills/blob/main/references/chris-walker-mental-models.md`
+- Repo: `references/chris-walker-mental-models.md`
 
 **Template:** `skills/growth/customer-marketing/templates/influencer-partnership-scorecard.md`

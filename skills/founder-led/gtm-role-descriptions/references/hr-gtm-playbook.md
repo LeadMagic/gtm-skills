@@ -1,10 +1,12 @@
+<!-- AUTO-GENERATED shared reference: references/hr-gtm-playbook.md; run npm run regenerate. -->
+
 # HR GTM Playbook — People Ops for Revenue Teams
 
 *For founders, revenue leaders, and People Ops supporting SDR/AE/CS/RevOps hires — not generic HR.*
 
-**Canonical expert:** Stacey Nordwall (Culture Amp, Pyn) — onboarding, manager enablement, employee experience for SaaS.  
-**Comp & exec standards:** Sam Jacobs / Pavilion — `executive-compensation`, Compensation Planning 101.  
-**Comp benchmarks:** Bridge Group — `references/comp-benchmarks.md`.  
+**Canonical expert:** Stacey Nordwall (Culture Amp, Pyn) — onboarding, manager enablement, employee experience for SaaS.
+**Comp & exec standards:** Sam Jacobs / Pavilion — `executive-compensation`, Compensation Planning 101.
+**Comp benchmarks:** Bridge Group — `references/comp-benchmarks.md`.
 **Ramp execution:** `revenue-team-onboarding` → `skills/management-leadership/revenue-team-onboarding/references/ramp-benchmarks.md`.
 
 **Disclaimer:** Operational GTM guidance only — escalate employment law, classification, and termination to qualified counsel (`employment-compliance`).
@@ -26,7 +28,7 @@
 
 ## Stacey Nordwall — Key frameworks
 
-**Role:** VP People Strategy, Pyn; former People Programs Lead, Culture Amp (Series A→E).  
+**Role:** VP People Strategy, Pyn; former People Programs Lead, Culture Amp (Series A→E).
 **Domain:** Culture-first onboarding, manager training, onboarding surveys, remote employee experience, inclusive communications.
 
 **Public channels**
@@ -50,8 +52,8 @@
 
 ## Pavilion People Ops — Comp & hiring standards
 
-**Role:** Pavilion (joinpavilion.com) — GTM executive community; Compensation Planning 101, B2B comp benchmarks.  
-**Primary cite for exec comp:** Sam Jacobs — `references/experts.md`.
+**Role:** Pavilion (joinpavilion.com) — GTM executive community; Compensation Planning 101, B2B comp benchmarks.
+**Primary cite for exec comp:** Sam Jacobs — `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md`.
 
 | Resource | Use |
 |---|---|
@@ -132,7 +134,7 @@
 ## Cross-links
 
 - `references/benchmark-reconciliation.md` — comp bands, ramp timelines
-- `references/experts.md` — Stacey Nordwall, Sam Jacobs, Bridge Group, Roberge
+- `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` — Stacey Nordwall, Sam Jacobs, Bridge Group, Roberge
 - `hiring-by-role/references/interview-experts.md` — structured interviewing
 - `management-leadership/revenue-team-onboarding/references/slack-engagement.md`
 - `employment-compliance` — classification, commission plans, termination

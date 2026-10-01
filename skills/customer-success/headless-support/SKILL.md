@@ -8,7 +8,7 @@ description: >-
   designing knowledge base architecture, or automating support workflows to
   scale CS without linear headcount growth.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic
@@ -36,18 +36,18 @@ skill covers AI agent deployment, knowledge base architecture, ticket deflection
 strategy, and the metrics to prove headless support works.
 
 **BYOAI / headless stack:** Technical teams often pair **Attio** (programmable CRM)
-with **Plain** (API-first support + native MCP) and connect **Jesse / Claude Code**
+with **Plain** (API-first support + native MCP) and connect **Cursor / Claude Code**
 instead of vendor AI (Fin, Zendesk AI). Load `references/byoai-headless-stack.md`
 for integration map, MCP setup, and when to choose Plain vs Intercom.
 
 ## Authoritative Foundations
 
-- **Intercom — Fin AI Agent and Resolution Bot** — Fin AI Agent and Resolution Bot
-- **Zendesk — AI Agents and Answer Bot** — AI Agents and Answer Bot
+- **Intercom** — Fin AI Agent and Resolution Bot
+- **Zendesk** — AI Agents and Answer Bot
 - **Plain — API-first headless support and BYOAI via MCP** — Model Context Protocol — tool servers for agent-safe CRM and enrichment access.
-- **Ada — Conversational AI for Support** — Conversational AI for Support
-- **Forethought — AI-First Customer Support** — AI-First Customer Support
-- **Amazon — Working Backwards (deflection reduces cost and improves CSAT)** — Working Backwards (deflection reduces cost and improves CSAT)
+- **Ada** — Conversational AI for Support
+- **Forethought** — AI-First Customer Support
+- **Amazon** — Working Backwards (deflection reduces cost and improves CSAT)
 
 ## When to Use
 
@@ -118,7 +118,7 @@ content they're trained on.
 persona and escalation in-platform. Best when CS team lives in one UI.
 
 **Path B — BYOAI (Plain + MCP):** Plain as support infrastructure; your agent
-(Jesse, Claude Code, Codex) connects via Plain MCP (`https://mcp.plain.com/mcp`).
+(Cursor, Claude Code, Codex) connects via Plain MCP (`https://mcp.plain.com/mcp`).
 Agent reads threads and help center, drafts with `addGeneratedReply`, human approves
 before `replyToThread`. Load `references/byoai-headless-stack.md` and `mcp-setup`
 for tool scope and write gates. Best for dev-tool products and Attio-style composable stacks.

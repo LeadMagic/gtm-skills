@@ -128,7 +128,7 @@ Use for customer-facing statements. **Legal reviews all Sev 3+ wording.**
 1. Eng contains + forensics; **do not** delete logs.
 2. Legal + counsel on notification obligations (customers, regulators, contracts).
 3. Customer comms: what data classes *may* be involved, what customers should do, support line.
-4. Trust center update; parallel enterprise deal desk track → `https://github.com/LeadMagic/gtm-skills/blob/main/references/security-questionnaire-deal-guide.md`, `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-data-exchange-playbook.md`, `gtm-security-hygiene-basics.md`.
+4. Trust center update; parallel enterprise deal desk track → `https://github.com/LeadMagic/gtm-skills/blob/main/references/security-questionnaire-deal-guide.md`, `references/gtm-data-exchange-playbook.md`, `gtm-security-hygiene-basics.md`.
 
 ### Outage / downtime
 
@@ -161,7 +161,7 @@ Use for customer-facing statements. **Legal reviews all Sev 3+ wording.**
 ### Churn wave / NRR collapse (public signal)
 
 1. Treat as Sev 2–3 reputational if G2/LinkedIn narrative forms.
-2. `churn-prevention`, `lifecycle` Retention stage → `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-lifecycle-stages.md`
+2. `churn-prevention`, `lifecycle` Retention stage → `references/gtm-lifecycle-stages.md`
 3. Investor update: honest churn root cause + CS fix plan — never skip the month.
 
 ---
@@ -171,7 +171,7 @@ Use for customer-facing statements. **Legal reviews all Sev 3+ wording.**
 | Topic | Reference |
 |---|---|
 | Legal review before statements | `deal-desk/references/legal-gtm-playbook.md` (Pattern 29) |
-| Customer data handling | `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-data-exchange-playbook.md` |
+| Customer data handling | `references/gtm-data-exchange-playbook.md` |
 | Rep security hygiene | `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-security-hygiene-basics.md` |
 | Investor cadence in hard months | `founder-led/investor-updates` |
 | Onboarding / trust rebuild | `customer-success/customer-onboarding` |

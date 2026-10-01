@@ -3,7 +3,7 @@ name: pricing-strategy
 description: >-
   Design SaaS pricing strategy using willingness-to-pay research, packaging, value metrics, competitive anchors, and expansion paths. Produces pricing hypotheses, package architecture, discount guardrails, and test plan. Use when setting prices, changing packages, evaluating usage-based pricing, or fixing monetization.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic

@@ -3,7 +3,7 @@ name: customer-research
 description: >-
   Run evidence-led B2B customer and buyer research that produces a recruiting plan, interview guide, buying timeline, Jobs-to-be-Done forces map, quote repository, and decision-ready insight brief. Use when a team is guessing about buyer triggers, ICP, positioning, messaging, onboarding, or churn, or asks for voice-of-customer interviews and synthesis.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic

@@ -4,23 +4,19 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **B2B Event ROI Framework**
-- **Conference Strategy Playbook**
-- **Bizzabo — Event Experience Framework**
-
-## Authoritative foundations
-
-- **B2B Event ROI Framework** — Named methodology governing recommendations in this skill's process.
-- **Conference Strategy Playbook** — Named methodology governing recommendations in this skill's process.
-- **Bizzabo — Event Experience Framework** — Event Experience Framework
+- **Forrester (SiriusDecisions) — Demand Waterfall** — Measure events by the pipeline stages they create and accelerate, not by badge scans.
+- **ITSMA — Account-Based Marketing** — Choose and staff events by target-account attendance, and pre-book meetings with named accounts.
+- **Chris Walker — Self-reported attribution** — Add a 'How did you hear about us?' field so event influence that never appears in last-touch reporting is still captured.
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Event Selection Matrix
+- Phase 2: Sponsorship Evaluation
+- Phase 3: Speaking Submissions (CFP)
+- Phase 4: Booth Strategy
+- Phase 5: Post-Event Debrief
 
 ## Agent routing
 

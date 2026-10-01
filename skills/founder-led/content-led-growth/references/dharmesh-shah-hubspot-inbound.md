@@ -141,7 +141,7 @@ Full stage defs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/g
 ## Cross-References
 
 - Expert catalog → `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` (Dharmesh Shah entry)
-- Demand creation contrast → `https://github.com/LeadMagic/gtm-skills/blob/main/references/chris-walker-mental-models.md`
+- Demand creation contrast → `references/chris-walker-mental-models.md`
 - SaaS benchmarks (NRR flywheel fuel) → `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md`
 - Master router → `skills/foundation/using-gtm-skills/SKILL.md` (Pattern 27)
 - Pitfalls → `https://github.com/LeadMagic/gtm-skills/blob/main/references/pitfalls-index.md` (inbound section)

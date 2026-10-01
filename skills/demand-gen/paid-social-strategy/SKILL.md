@@ -1,11 +1,13 @@
 ---
 name: paid-social-strategy
 description: >-
-  B2B paid social strategy — LinkedIn, Meta, TikTok ad platform strategy, audience
-  building, creative testing, budget allocation. Triggers on: "paid social", "LinkedIn
-  ads", "social advertising", "paid media strategy", "B2B ads".
+  Builds a B2B paid social plan across LinkedIn, Meta, and TikTok: platform
+  selection, audience building, creative testing, and budget allocation. Use
+  when the user is launching paid social, planning LinkedIn ads, or allocating a
+  paid media budget. Triggers on: "paid social", "LinkedIn ads", "social
+  advertising", "paid media strategy", "B2B ads".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -14,8 +16,8 @@ metadata:
   related_skills: [content-marketing, attribution, campaign-analytics, podcast-gtm]
   frameworks:
     - "Chris Walker — Demand Creation & Paid Social Education"
-    - "B2B Paid Social Framework"
-    - "LinkedIn Ads Best Practices"
+    - "The B2B Institute (LinkedIn) — 95:5 rule"
+    - "LinkedIn Marketing Solutions — Targeting and ad best practices"
 ---
 
 # Paid Social Strategy (B2B)
@@ -28,10 +30,9 @@ increasingly viable. This skill covers platform strategy, audience architecture,
 creative testing, and pipeline measurement.
 
 ## Authoritative Foundations
-
 - **Chris Walker — Demand Creation & Paid Social Education** — Dark social demand — self-reported attribution; LinkedIn influence is unmeasurable in last-touch.
-- **B2B Paid Social Framework** — Named methodology governing recommendations in this skill's process.
-- **LinkedIn Ads Best Practices** — Named methodology governing recommendations in this skill's process.
+- **The B2B Institute (LinkedIn) — 95:5 rule** — Most buyers are out of market; budget for reach and memory as well as lead capture.
+- **LinkedIn Marketing Solutions — Targeting and ad best practices** — Build audiences from company lists and job attributes, and refresh creative before frequency drives fatigue.
 
 ## When to Use
 - "Launch paid social"

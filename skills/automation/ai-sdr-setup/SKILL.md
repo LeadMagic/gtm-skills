@@ -6,7 +6,7 @@ description: >-
   metrics. Use when setting up 11x, Artisan, AiSDR, Jason AI, or any automated
   SDR workflow for outbound prospecting.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -195,7 +195,7 @@ Before delivering, verify:
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
 This skill includes lightweight artifacts the agent can load on demand:
-- `../../outbound/cold-email-strategy/references/justin-michael-sales-borg.md` — Sales Borg human/bot division, TQ, guardrails alignment (canonical)
+- `references/justin-michael-sales-borg.md` — Sales Borg human/bot division, TQ, guardrails alignment (canonical)
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

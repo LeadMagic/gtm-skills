@@ -8,7 +8,7 @@ description: >-
   "Clay toolkit", "Clay setup", "Clay waterfall", "Claygent", "Clay enrichment",
   "Clay table", "LeadMagic Clay column".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "2.0.0"
   author: LeadMagic
@@ -52,7 +52,7 @@ waterfalls**, Claygent, credit optimization, and output routing.
   `leadmagic-toolkit` for column wiring.
 - **Pat Spielmann — Clay + enrichment outbound.** Signal table → LeadMagic waterfall →
   validate → AI personalization column → sequencer push. Copy structure: Hook-Line-Sinker.
-  Canonical playbook → `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`.
+  Canonical playbook → `references/pat-spielmann-outbound-copy.md`.
 - **Clay University / GTME Pulse.** Production table patterns at scale.
 - **ColdIQ.** Signal tables feed `clay-loops-toolkit` — not mixed into static tables.
 
@@ -247,7 +247,7 @@ Before delivering, verify:
 - `references/framework-notes.md` — Clay architecture principles
 - `templates/output-template.md` — table design deliverable
 - `scripts/check-output.py` — validates table blueprint output
-- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — Clay waterfall → copy pipeline, Claygent vs LeadMagic roles (Pat Spielmann)
+- `references/pat-spielmann-outbound-copy.md` — Clay waterfall → copy pipeline, Claygent vs LeadMagic roles (Pat Spielmann)
 - `references/gtm-table-blueprints.md` — Outbound, ABM, signal, hygiene tables
 - `templates/waterfall-config.md` — provider order per field
 

@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parents[1]
 # Keep in sync with scripts/lib/compatibility.js
 STANDARD_COMPATIBILITY = (
     "Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, "
-    "Goose, Hermes, Jesse, Windsurf, Zed"
+    "Goose, Hermes, Windsurf, Zed"
 )
 REQUIRED_PUBLIC_FILES = [
     "README.md",

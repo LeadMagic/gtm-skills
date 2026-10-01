@@ -4,7 +4,7 @@
 
 **Activation** = the first **value event** that correlates with retention — not account creation, not email verification, not "logged in once."
 
-**Canonical stage index:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-lifecycle-stages.md` (Activation row)
+**Canonical stage index:** `references/gtm-lifecycle-stages.md` (Activation row)
 **Metrics & thresholds:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/lifecycle-metrics-by-stage.md`
 **Monitoring:** `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md` · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md`
 
@@ -142,5 +142,5 @@ Use quarterly or before scale hire.
 - PMF experiments → `solo-founder-gtm/references/pmf-testing-playbook.md`
 - Company scale gates → `solo-founder-gtm/references/scale-readiness-gates.md`
 - Journey planning → `saas-outcomes/references/journey-stage-gates.md`
-- WbD bowtie → `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-lifecycle-stages.md` (Bowtie section)
+- WbD bowtie → `references/gtm-lifecycle-stages.md` (Bowtie section)
 - Expert: Lincoln Murphy (desired outcome), Gainsight (TTV), WbD (post-sale) → `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md`

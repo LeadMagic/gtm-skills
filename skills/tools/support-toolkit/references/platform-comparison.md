@@ -8,7 +8,7 @@
 | **Front** | Collaborative inbox | Limited | Via integrations | Rules | $$ |
 | **Help Scout** | Docs-first SMB | Basic | Excellent | Good | $ |
 
-**BYOAI row:** Plain — agent connects through MCP (`mcp.plain.com`); no vendor-locked Fin equivalent. Stack with Attio for headless CRM + support. See `skills/customer-success/headless-support/references/byoai-headless-stack.md`.
+**BYOAI row:** Plain — agent connects through MCP (`mcp.plain.com`); no vendor-locked Fin equivalent. Stack with Attio for headless CRM + support. See `references/byoai-headless-stack.md`.
 
 Selection detail: `support-tool-stack` (by ARR stage).
 

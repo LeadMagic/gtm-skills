@@ -24,7 +24,7 @@ Burn Multiple = Net Burn ÷ Net New ARR
 
 **Jason Lemkin popularized** burn multiple framing with Sacks on SaaStr — cite both in board decks.
 
-**Repo canonical thresholds:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md` (Burn Multiple row)
+**Repo canonical thresholds:** `references/benchmark-reconciliation.md` (Burn Multiple row)
 
 ---
 
@@ -66,4 +66,4 @@ Burn Multiple = Net Burn ÷ Net New ARR
 
 `saas-metrics-calculator`, `financial-modeling`, `fundraising-strategy`, `gtm-metrics`, `board-meeting-prep`, `gtm-spend-management`
 
-**Cross-links:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-cloud-atlas.md` · Meritech benchmarks
+**Cross-links:** `references/benchmark-reconciliation.md` · `references/bessemer-cloud-atlas.md` · Meritech benchmarks

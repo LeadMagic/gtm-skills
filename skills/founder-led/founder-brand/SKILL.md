@@ -10,7 +10,7 @@ description: >-
   "build audience", "build in public", "Adam Robinson", "get on podcasts",
   "newsletter growth", or any founder content request.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.2.0"
   author: LeadMagic
@@ -75,7 +75,7 @@ pipeline for years.
 - **Jessie Lizak (Reveting)** — when daily writing is the bottleneck, run a
   **weekly LinkedIn Live** as the primary content engine (WinsDay model): record
   conversations, repurpose into clips, carousels, and posts. Load
-  `linkedin-live-strategy` → `skills/inbound/linkedin-live-strategy/references/jessie-lizak-linkedin-live.md`.
+  `linkedin-live-strategy` → `references/jessie-lizak-linkedin-live.md`.
 - **Charlie Hills** — social media strategy for B2B. Multi-channel content
   distribution. Personal brand as growth lever.
 - **Brendan Gahan** — creator economy principles applied to founders. Community

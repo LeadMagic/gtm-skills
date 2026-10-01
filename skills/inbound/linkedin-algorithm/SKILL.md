@@ -9,7 +9,7 @@ description: >-
   "best time to post LinkedIn", "LinkedIn format", "carousel vs video", "hashtags
   LinkedIn", "van der Blom", "dwell time", "LinkedIn engagement drop".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -59,7 +59,7 @@ Full findings, format rankings, and tactical tables →
 **Adam Robinson (RB2B)** — proof case for algorithm-aligned founder
 distribution: daily zero-click posts, hook discipline, and profile-link
 conversion scaled RB2B to $5M ARR with LinkedIn as the only channel. Playbook →
-`founder-brand` → `skills/founder-led/founder-brand/references/adam-robinson-founder-brand.md`.
+`founder-brand` → `references/adam-robinson-founder-brand.md`.
 
 **Chris Walker (Refine Labs)** — dark social context: most LinkedIn influence
 is unmeasurable in attribution tools. Pair algorithm optimization with
@@ -69,7 +69,7 @@ self-reported attribution (`references/chris-walker-mental-models.md`).
 **weekly LinkedIn Live** as the content engine (WinsDay model): record
 conversations, repurpose into clips/carousels/posts, prioritize relationships
 over tricks. Full runbook → `linkedin-live-strategy` →
-`skills/inbound/linkedin-live-strategy/references/jessie-lizak-linkedin-live.md`.
+`references/jessie-lizak-linkedin-live.md`.
 Report default: guest on Lives
 often; Lizak's playbook for **hosting** when repurposing is disciplined.
 

@@ -1,3 +1,5 @@
+<!-- AUTO-GENERATED shared reference: references/richard-van-der-blom-algorithm.md; run npm run regenerate. -->
+
 # Richard van der Blom — LinkedIn Algorithm Insights Report
 
 Reference tables for `SKILL.md`. Source: Richard van der Blom (Just Connecting),
@@ -50,7 +52,7 @@ Notes:
 - LinkedIn Live: guest frequently, host rarely (infrastructure-heavy). When
   hosting a weekly show with full repurposing (clips → carousels → posts), see
   `linkedin-live-strategy` →
-  `skills/inbound/linkedin-live-strategy/references/jessie-lizak-linkedin-live.md`
+  `references/jessie-lizak-linkedin-live.md`
   (Jessie Lizak / Reveting WinsDay model).
 
 ## Post anatomy and timing (Chapter 4 — four phases)
@@ -113,8 +115,6 @@ Notes:
 
 | Question | Action |
 |---|---|
-| Build deliverable | Use `templates/output-template.md` |
-| Validate output | Run `scripts/check-output.py` |
-| Full process | Follow `SKILL.md` step-by-step |
-| Founder posting system | `skills/founder-led/founder-brand/references/adam-robinson-founder-brand.md` |
+| Full process, deliverable template, QA script | Load the `linkedin-algorithm` skill |
+| Founder posting system | `references/adam-robinson-founder-brand.md` |
 | Reach → pipeline conversion | `social-selling` |

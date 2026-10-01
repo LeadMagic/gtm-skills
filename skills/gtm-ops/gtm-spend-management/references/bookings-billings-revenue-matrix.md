@@ -116,7 +116,7 @@ Sales asks "did I hit quota?"
 - MRR variants & ASC 606 summary → `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-mrr-accounting-nuances.md`
 - Metric formulas → `saas-metrics-calculator`, `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-metrics-reference.md`
 - Benchmark alignment → `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md`
-- Budget & cash → `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-budget-playbook.md`, `financial-modeling`
+- Budget & cash → `references/gtm-budget-playbook.md`, `financial-modeling`
 - Exit diligence pack → `exiting-company/references/due-diligence-metrics-pack.md`
 
 ---

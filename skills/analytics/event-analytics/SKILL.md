@@ -9,7 +9,7 @@ description: >-
   GTM automations. Triggers on: "event analytics", "customer events", "event
   tracking", "product analytics", "Segment setup", "event pipeline".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.1"
   author: LeadMagic
@@ -38,12 +38,12 @@ unify event data across your stack to build a complete customer picture.
 
 ## Authoritative Foundations
 
-- **Segment — Customer Data Platform (CDP) and event taxonomy** — Customer Data Platform (CDP) and event taxonomy
-- **Amplitude — Behavioral analytics and event design** — Behavioral analytics and event design
-- **Mixpanel — Product analytics and event-based reporting** — Product analytics and event-based reporting
-- **Intercom — Event-driven messaging and automation** — Event-driven messaging and automation
-- **Avo — Event taxonomy and governance** — Event taxonomy and governance
-- **Snowplow — Open-source event pipeline** — Open-source event pipeline
+- **Segment** — Customer Data Platform (CDP) and event taxonomy
+- **Amplitude** — Behavioral analytics and event design
+- **Mixpanel** — Product analytics and event-based reporting
+- **Intercom** — Event-driven messaging and automation
+- **Avo** — Event taxonomy and governance
+- **Snowplow** — Open-source event pipeline
 
 ## When to Use
 

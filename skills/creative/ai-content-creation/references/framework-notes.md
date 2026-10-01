@@ -8,7 +8,7 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 - **Harry Dry (Marketing Examples) — Show, don't tell**
 - **Amanda Natividad (SparkToro) — Zero-click content**
 - **Ross Simmonds — Content distribution at scale**
-- **Nail Rodriguez — Conversion copywriting**
+- **Joanna Wiebe (Copyhackers) — Conversion copywriting**
 
 ## Authoritative foundations
 
@@ -16,7 +16,7 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 - **Harry Dry (Marketing Examples) — Show, don't tell** — The highest-converting copy uses concrete examples, specific numbers, and visual proof instead of adjectives. '32% increase in reply rate' beats 'game-changing engagement.'
 - **Amanda Natividad (SparkToro) — Zero-click content** — Content that delivers its full value without requiring a click. Builds trust and audience before asking for conversion. The best AI content operation produces both zero-click social content and click-through long-form.
 - **Ross Simmonds — Content distribution at scale** — Creation is 20% of the work. Distribution is 80%. AI enables 5-10x more content; the operating system must distribute each piece across every relevant channel within 48 hours.
-- **Nail Rodriguez — Conversion copywriting** — Copy structure drives conversion: hook, problem agitation, solution, proof, CTA. AI can generate the draft, but the human must ensure each element targets the specific ICP and buying stage.
+- **Joanna Wiebe (Copyhackers) — Conversion copywriting** — Copy structure drives conversion: hook, problem agitation, solution, proof, CTA. AI can generate the draft, but the human must ensure each element targets the specific ICP and buying stage.
 
 ## Agent routing
 

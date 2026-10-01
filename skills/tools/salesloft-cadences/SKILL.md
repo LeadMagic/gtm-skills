@@ -1,20 +1,21 @@
 ---
 name: salesloft-cadences
 description: >-
-  Build and optimize Salesloft cadences — Rhythm, Conversations, multi-channel
-  orchestration, analytics. Triggers on: "Salesloft", "Salesloft cadence", "Rhythm",
-  "Salesloft automation".
+  Builds and optimizes Salesloft cadences: Rhythm, Conversations, multi-channel
+  orchestration, and analytics. Use when the user is setting up or improving
+  cadences in Salesloft. Triggers on: "Salesloft", "Salesloft cadence",
+  "Rhythm", "Salesloft automation".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: tools
   tags: [salesloft, cadence, rhythm, sales-engagement, outbound]
   frameworks:
-    - "Salesloft Modern Selling Framework"
-    - "ColdIQ Cadence Design"
-    - "Outreach — Sales Engagement Cadence Design"
+    - "Salesloft Help Center — Cadences and Rhythm"
+    - "Google and Yahoo — Bulk sender requirements (2024)"
+    - "The Bridge Group — SDR metrics research"
 ---
 
 # Salesloft Cadences
@@ -25,10 +26,9 @@ Salesloft is the market leader in sales engagement. Cadences here manage Rhythm
 integration). This skill covers setup, optimization, and team workflows.
 
 ## Authoritative Foundations
-
-- **Salesloft Modern Selling Framework** — Cadence + coaching rhythm; rhythm-based pipeline management.
-- **ColdIQ Cadence Design** — Named methodology governing recommendations in this skill's process.
-- **Outreach — Sales Engagement Cadence Design** — Sequence governance, task-based selling, and CRM-locked cadences.
+- **Salesloft Help Center — Cadences and Rhythm** — Configure cadence steps and let Rhythm prioritize tasks from buyer signals so reps work the highest-value action first.
+- **Google and Yahoo — Bulk sender requirements (2024)** — Authenticate with SPF, DKIM, and DMARC, keep spam complaints below 0.3%, and respect per-mailbox volume.
+- **The Bridge Group — SDR metrics research** — Benchmark activity and conversion per rep against published SDR data before judging cadence performance.
 
 ## When to Use
 - "Set up Salesloft cadences"
@@ -99,10 +99,10 @@ Before delivering, verify:
 - `scripts/check-output.py` — local checklist validator
 This skill includes lightweight artifacts the agent can load on demand:
 - `references/enrichment-enrollment-gate.md` — CRM lm_email_status before cadence enroll
-- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify-before-enroll (Pat Spielmann)
-- `../../tools/clay-toolkit/references/gtm-table-blueprints.md` — clay-toolkit CRM field patterns
-- `../../tools/clay-loops-toolkit/SKILL.md` — clay-loops-toolkit signal cadences
-- `../../../../references/gtm-experts-outbound-index.md` — expert router
+- `references/pat-spielmann-outbound-copy.md` — verify-before-enroll (Pat Spielmann)
+- `references/gtm-table-blueprints.md` — clay-toolkit CRM field patterns
+- the `clay-loops-toolkit` skill — clay-loops-toolkit signal cadences
+- `references/gtm-experts-outbound-index.md` — expert router
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

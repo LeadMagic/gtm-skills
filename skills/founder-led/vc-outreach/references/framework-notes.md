@@ -26,12 +26,14 @@ Lead with traction. Lead with traction. Lead with traction."
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
-- Phase 6
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Build the Line (6-12 Months Before Raising)
+- Phase 2: Warm Intro Strategy
+- Phase 3: Cold Email Templates That Work
+- Phase 4: The First Meeting
+- Phase 5: Follow-Up
+- Phase 6: The "Don't Send" List
 
 ## Key reference tables
 

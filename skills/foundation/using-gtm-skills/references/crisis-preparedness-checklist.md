@@ -67,7 +67,7 @@ Store in shared drive / Notion — link from this checklist.
 - [ ] Social listening: LinkedIn + X keyword alerts on company + product name
 - [ ] Generative search spot-check quarterly ("Is [Company] reliable?")
 
-→ `https://github.com/LeadMagic/gtm-skills/blob/main/references/security-questionnaire-deal-guide.md` · Vanta/Drata trust center patterns in `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md`
+→ `references/security-questionnaire-deal-guide.md` · Vanta/Drata trust center patterns in `references/experts.md`
 
 ---
 
@@ -133,4 +133,4 @@ Store in shared drive / Notion — link from this checklist.
 
 **Next tabletop date:** ___________
 
-**Canonical playbook:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/crisis-management-playbook.md` · **Pattern 33**
+**Canonical playbook:** `references/crisis-management-playbook.md` · **Pattern 33**

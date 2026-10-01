@@ -18,11 +18,13 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: SLA Architecture
+- Phase 2: Tier-Based SLAs
+- Phase 3: Escalation Paths
+- Phase 4: Business Hours and Coverage
+- Phase 5: SLA Performance Dashboard
 
 ## Agent routing
 

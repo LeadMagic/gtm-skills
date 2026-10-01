@@ -8,7 +8,7 @@ description: >-
   "expansion play", "customer retention", "QBR", or any request about post-sale
   customer engagement.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic
@@ -82,7 +82,7 @@ questions, willingness to be a reference.
 |---|---|
 | CS captain | Own customer email to affected segment; ticket macros |
 | CSMs | Proactive outreach to red health accounts during outage |
-| Support | Single FAQ source — `skills/management-leadership/gtm-leadership/templates/crisis-faq-for-support.md` |
+| Support | Single FAQ source — the `gtm-leadership` skill (crisis-faq-for-support.md) |
 
 **Sequence:** Internal memo → holding statement / status page → affected customer email → FAQ for sales/support.
 
@@ -122,9 +122,9 @@ Before delivering, verify:
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
 This skill includes lightweight artifacts the agent can load on demand:
-- `references/lincoln-murphy-customer-success.md` — Desired Outcome, Success Gap, Gainsight ops (repo root)
-**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Engagement, Retention) · `references/lifecycle-metrics-by-stage.md` · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md`
-**Crisis comms:** `references/crisis-management-playbook.md` · `skills/management-leadership/gtm-leadership/templates/crisis-customer-email.md` · `crisis-faq-for-support.md`
+- `references/lincoln-murphy-customer-success.md` — Desired Outcome, Success Gap, Gainsight ops
+**Canonical lifecycle:** `references/gtm-lifecycle-stages.md` (Engagement, Retention) · `references/lifecycle-metrics-by-stage.md` · the `gtm-metrics` skill (stage-health-scorecard.md)
+**Crisis comms:** `references/crisis-management-playbook.md` · the `gtm-leadership` skill (crisis-customer-email.md) · `crisis-faq-for-support.md`
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

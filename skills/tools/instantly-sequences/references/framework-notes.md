@@ -4,9 +4,9 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **Instantly Best Practices**
-- **Cold Email Infrastructure Standards**
-- **Outreach — Sales Engagement Cadence Design**
+- **Instantly Help Center** — Connect sending accounts, enable warmup, and set per-account daily limits and campaign schedules before launch.
+- **Eric Nowoslawski — Cold email infrastructure** — Cold email infra at scale — 2 inboxes/domain, backup inboxes, Creative Ideas testing.
+- **Google and Yahoo — Bulk sender requirements (2024)** — Authenticate with SPF, DKIM, and DMARC, keep spam complaints below 0.3%, and honor unsubscribes quickly.
 
 ## Deep-dive references
 

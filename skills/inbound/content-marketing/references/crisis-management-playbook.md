@@ -117,7 +117,7 @@ Use for customer-facing statements. **Legal reviews all Sev 3+ wording.**
 | **Investor email** | Sev 3+ business impact | Replacing monthly update rhythm |
 | **G2 / review reply** | Single negative reviews | Arguing with reviewers |
 
-**Dark social:** Most B2B buyers discuss vendor incidents in Slack and DMs — monitor via CS and sales, not just public mentions. → `https://github.com/LeadMagic/gtm-skills/blob/main/references/chris-walker-mental-models.md`
+**Dark social:** Most B2B buyers discuss vendor incidents in Slack and DMs — monitor via CS and sales, not just public mentions. → `references/chris-walker-mental-models.md`
 
 ---
 

@@ -39,12 +39,14 @@ The moat is knowing when the
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
-- Phase 6
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Define Your Signal Taxonomy
+- Phase 2: Configure Social Listening
+- Phase 3: Build the Enrichment and Qualification Layer
+- Phase 4: Craft Signal-Anchored Outreach
+- Phase 5: Route and Alert
+- Phase 6: Measure Signal Quality
 
 ## Key reference tables
 

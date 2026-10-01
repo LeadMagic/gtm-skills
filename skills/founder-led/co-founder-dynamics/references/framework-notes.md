@@ -36,12 +36,14 @@ what 'success' means to each founder."
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
-- Phase 6
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Finding a Co-Founder
+- Phase 2: Equity Splits
+- Phase 3: Vesting and Cliffs
+- Phase 4: The Co-Founder Agreement
+- Phase 5: Working Together
+- Phase 6: When It Goes Wrong
 
 ## Key reference tables
 

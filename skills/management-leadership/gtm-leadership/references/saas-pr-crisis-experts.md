@@ -4,7 +4,7 @@
 
 *B2B SaaS voices with public URLs, frameworks, or named playbooks — for founder/CRO reference, not agency endorsement.*
 
-Full index also in `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` (Crisis Communications section).
+Full index also in `references/experts.md` (Crisis Communications section).
 
 ---
 
@@ -103,6 +103,6 @@ Full index also in `https://github.com/LeadMagic/gtm-skills/blob/main/references
 
 ## Related repo artifacts
 
-- `https://github.com/LeadMagic/gtm-skills/blob/main/references/crisis-management-playbook.md` — canonical response
-- `https://github.com/LeadMagic/gtm-skills/blob/main/references/crisis-preparedness-checklist.md` — before crisis
+- `references/crisis-management-playbook.md` — canonical response
+- `references/crisis-preparedness-checklist.md` — before crisis
 - `skills/management-leadership/gtm-leadership/templates/crisis-*.md` — statement shells

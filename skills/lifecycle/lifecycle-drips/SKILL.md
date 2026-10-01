@@ -1,20 +1,22 @@
 ---
 name: lifecycle-drips
 description: >-
-  Design lifecycle drip campaigns — post-purchase, renewal, expansion, milestone-based
-  automated email programs. Triggers on: "lifecycle drips", "automated campaigns",
-  "lifecycle emails", "drip sequences", "triggered emails".
+  Designs trigger-based lifecycle email programs for customers: post-purchase,
+  milestone, renewal, and expansion drips, with entry and exit rules. Use when
+  the user needs automated customer emails beyond onboarding, or is building
+  lifecycle marketing automation. Triggers on: "lifecycle drips", "automated
+  campaigns", "lifecycle emails", "drip sequences", "triggered emails".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: lifecycle
   tags: [lifecycle, drips, automation, triggered-emails, lifecycle-marketing]
   frameworks:
-    - "Lifecycle Marketing Framework"
-    - "HubSpot Lifecycle Stages"
-    - "Reforge — Lifecycle Marketing"
+    - "HubSpot Knowledge Base — Lifecycle stages"
+    - "Customer.io — Event-triggered campaigns"
+    - "Reforge — Retention and engagement"
 ---
 
 # Lifecycle Drip Campaigns
@@ -27,10 +29,9 @@ These run in the background, nurturing customers through their journey without
 manual intervention. This skill covers the complete lifecycle drip architecture.
 
 ## Authoritative Foundations
-
-- **Lifecycle Marketing Framework** — Startup operating cadence — default alive, talk to users, launch fast.
-- **HubSpot Lifecycle Stages** — Lifecycle stages, object model, and workflow enrollment patterns.
-- **Reforge — Lifecycle Marketing** — Startup operating cadence — default alive, talk to users, launch fast.
+- **HubSpot Knowledge Base — Lifecycle stages** — Enroll contacts into drips by lifecycle stage and exit them when the stage changes.
+- **Customer.io — Event-triggered campaigns** — Trigger lifecycle messages from product events and attributes rather than fixed calendar schedules.
+- **Reforge — Retention and engagement** — Tie each drip to a behavior that predicts retention, and measure it by that behavior, not by opens.
 
 ## Lifecycle Stage
 
@@ -142,7 +143,7 @@ Before delivering, verify:
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-  **Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` · `references/activation-playbook.md` (post-activation triggers) · `references/lifecycle-skill-index.md`
+  **Canonical lifecycle:** `references/gtm-lifecycle-stages.md` · `references/activation-playbook.md` (post-activation triggers) · `references/lifecycle-skill-index.md`
 
 ## Related Skills
 

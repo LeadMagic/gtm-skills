@@ -3,13 +3,13 @@ name: partner-programs
 description: >-
   Design partner programs for startups: partner ICP, co-marketing offers, referral mechanics, integration partners, attribution, enablement, and compensation. Use when building affiliates, referral partners, ecosystem channels, agencies, or integration-led growth.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: founder-led
   tags: [partners, channel, co-marketing, integrations, reseller, agency, referral]
-  related_skills: [sales-team-building, fundraising-strategy, content-led-growth, launching-planning]
+  related_skills: [sales-team-building, fundraising-strategy, content-led-growth, launch-planning]
   frameworks:
     - "Crossbeam — Partner-Led Growth"
     - "Jay McBain — Ecosystem-Led Growth"

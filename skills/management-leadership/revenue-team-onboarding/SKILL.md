@@ -8,7 +8,7 @@ description: >-
   for sales team", "security onboarding employees", "new rep onboarding", "sales
   bootcamp".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.6.0"
   author: LeadMagic
@@ -97,7 +97,7 @@ Process → `pipeline-management`.
   show rate**, and coach from **call recordings** (AltiSales reviews ~100% of a new
   rep's calls, then samples). Treat ramp as a **system output** (data + scripts +
   coaching). Canonical →
-  `skills/founder-led/sales-team-building/references/tito-bohrt-sdr-science.md`.
+  `references/tito-bohrt-sdr-science.md`.
 
 **Phone SDR ramp (weeks 2–4):** Shadow live calls → CallBlitz or manager listen-in
 → 3×3 prep on every block → CRM Buckets + Gilkey disposition fields live →
@@ -134,7 +134,7 @@ Log access grants. Offboard within 24h on termination (`soc2-compliance`).
 **Rep security hygiene (non-technical):** Before live customer contact, every
 GTM hire completes password manager + MFA on email, CRM, Slack, and sequencer;
 reads phishing patterns and demo screen-share checklist. Load
-`references/gtm-security-hygiene-basics.md` (repo root). Customer data rules →
+`references/gtm-security-hygiene-basics.md`. Customer data rules →
 `references/gtm-data-exchange-playbook.md`.
 
 ### Phase 2: Week 1 — Immersion
@@ -165,7 +165,7 @@ Load `references/slack-engagement.md`.
 Template: `templates/30-60-90-sales.md`
 
 **GTM Engineer / RevOps:** Use OKR-based 30-60-90 from `gtm-role-descriptions` →
-`skills/founder-led/gtm-role-descriptions/templates/gtm-engineer-jd.md` (stack audit week 1, one quick-win workflow,
+the `gtm-role-descriptions` skill (gtm-engineer-jd.md) (stack audit week 1, one quick-win workflow,
 production runbooks by day 90). Interview handoff context: `gtm-engineer-hiring.md`.
 
 ### Phase 4: Certification Gates
@@ -237,20 +237,20 @@ No live outbound until:
 - `templates/output-template.md`
 - `scripts/check-output.py`
 - `references/security-access-checklist.md`
-- `references/gtm-security-hygiene-basics.md` — Passwords, 2FA, phishing, demo screen share (repo root)
-- `references/gtm-data-exchange-playbook.md` — Customer data exchange SOP (repo root)
+- `references/gtm-security-hygiene-basics.md` — Passwords, 2FA, phishing, demo screen share
+- `references/gtm-data-exchange-playbook.md` — Customer data exchange SOP
 - `references/slack-engagement.md`
 - `references/ramp-benchmarks.md`
-- `../../founder-led/gtm-role-descriptions/references/hr-gtm-playbook.md` — HR GTM onboarding system (Stacey Nordwall)
+- `references/hr-gtm-playbook.md` — HR GTM onboarding system (Stacey Nordwall)
 - `templates/30-60-90-sales.md`
 - `templates/certification-rubric.md`
 - `references/onboarding-questions.md` — manager ↔ new hire question banks
 - `templates/new-hire-questionnaire.md` — Week 1 joint form
-- `references/cold-calling-experts-index.md` — phone ramp router (repo root)
-- `references/ryan-reisert-cold-calling.md` — CRM Buckets certification (repo root)
-- `references/ronen-pessar-cold-calling.md` — ColdCall-Market Fit gate (repo root)
-- `references/tom-slocum-cold-calling.md` — 3×3 + sell-the-meeting (repo root)
-**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Revenue Team Lifecycle) · `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md` (Ramp panel) · `references/lifecycle-metrics-by-stage.md` (ramp metrics)
+- `references/cold-calling-experts-index.md` — phone ramp router
+- `references/ryan-reisert-cold-calling.md` — CRM Buckets certification
+- `references/ronen-pessar-cold-calling.md` — ColdCall-Market Fit gate
+- `references/tom-slocum-cold-calling.md` — 3×3 + sell-the-meeting
+**Canonical lifecycle:** `references/gtm-lifecycle-stages.md` (Revenue Team Lifecycle) · the `gtm-metrics` skill (lifecycle-monitoring-dashboard.md) (Ramp panel) · `references/lifecycle-metrics-by-stage.md` (ramp metrics)
 
 ## Related Skills
 

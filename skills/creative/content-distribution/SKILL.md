@@ -8,7 +8,7 @@ description: >-
   content", "repurpose content", "syndication", "amplify content", "get more
   eyes on", or any content amplification request.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -16,8 +16,8 @@ metadata:
   tags: [content, distribution, repurposing, syndication, amplification]
   related_skills: [content-marketing, social-media-strategy, marketing-strategy, paid-advertising]
   frameworks:
-    - "Content Distribution Matrix"
-    - "Gary Vaynerchuk Content Model"
+    - "Ross Simmonds — Create Once, Distribute Forever"
+    - "Gary Vaynerchuk — Content model"
     - "Ann Handley — Everybody Writes"
 ---
 
@@ -31,10 +31,9 @@ flips that: build a distribution engine that gives every piece of content
 maximum reach across every channel your ICP uses.
 
 ## Authoritative Foundations
-
-- **Content Distribution Matrix** — Shapes deliverables for this skill — Creating content is 20% of the work.
-- **Gary Vaynerchuk Content Model** — Shapes deliverables for this skill — Creating content is 20% of the work.
-- **Ann Handley — Everybody Writes** — Everybody Writes
+- **Ross Simmonds — Create Once, Distribute Forever** — Spend more effort distributing than creating; atomize one asset into channel-native pieces for every place your audience already is.
+- **Gary Vaynerchuk — Content model** — Turn one pillar piece (a talk, video, or report) into dozens of micro-content pieces sized for each platform.
+- **Ann Handley — Everybody Writes** — Rewrite, don't paste: adapt the voice and hook to each channel instead of cross-posting the same text.
 
 ## When to Use
 

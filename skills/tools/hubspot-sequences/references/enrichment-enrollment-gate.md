@@ -14,7 +14,7 @@ AND contact.hs_email_optout != true
 AND contact.lifecyclestage NOT IN (customer, evangelist)
 ```
 
-Cross-ref: `../../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
+Cross-ref: `references/pat-spielmann-outbound-copy.md`
 
 ## HubSpot Workflow Pattern
 
@@ -38,7 +38,7 @@ Pair with `hubspot-setup` for workflow object limits and enrollment caps.
 | signal_type | `signal_tag` | Workflow branch for sequence pick |
 | source_url | `signal_source_url` | Rep visibility |
 
-Load table blueprints: `../../../tools/clay-toolkit/references/gtm-table-blueprints.md`
+Load table blueprints: `references/gtm-table-blueprints.md`
 
 ## Clay Loops → HubSpot
 
@@ -48,7 +48,7 @@ Signal loops push to HubSpot lists; workflow enrolls into Sequences:
 2. Workflow: list membership + lm_email_status = valid → Sequence
 3. Champion job change → route to AE task, not Sequence
 
-Load: `../../../tools/clay-loops-toolkit/references/leadmagic-waterfall.md`
+Load: `references/leadmagic-waterfall.md`
 
 ## Rep-Triggered Sequences
 
@@ -60,5 +60,5 @@ When rep manually enrolls:
 
 ## Cross-References
 
-- Guillaume multichannel (if using HubSpot + LinkedIn): `../../../outbound/cold-email-strategy/references/lemlist-guillaume-outbound.md` (principles apply)
-- Eric infra if using connected inboxes: `../../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md`
+- Guillaume multichannel (if using HubSpot + LinkedIn): `references/lemlist-guillaume-outbound.md` (principles apply)
+- Eric infra if using connected inboxes: `references/eric-nowoslawski-outbound.md`

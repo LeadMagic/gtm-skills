@@ -8,7 +8,7 @@ description: >-
   Triggers on: "analytics toolkit", "Segment setup", "Amplitude configuration",
   "Mixpanel vs PostHog", "GA4 for SaaS".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic
@@ -33,11 +33,11 @@ This skill covers setup and optimization across the analytics stack.
 
 ## Authoritative Foundations
 
-- **Segment — CDP with 400+ destinations** — CDP with 400+ destinations
-- **Amplitude — Product analytics, behavioral cohorts, experiment** — Product analytics, behavioral cohorts, experiment
-- **PostHog — Open-source analytics, session recording, feature flags** — Open-source analytics, session recording, feature flags
-- **Mixpanel — Event-based product analytics** — Event-based product analytics
-- **GA4 — Google Analytics for web + app** — Google Analytics for web + app
+- **Segment** — CDP with 400+ destinations
+- **Amplitude** — Product analytics, behavioral cohorts, experiment
+- **PostHog** — Open-source analytics, session recording, feature flags
+- **Mixpanel** — Event-based product analytics
+- **GA4** — Google Analytics for web + app
 
 ## When to Use
 

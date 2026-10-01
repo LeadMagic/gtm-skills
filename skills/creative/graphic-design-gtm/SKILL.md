@@ -9,16 +9,16 @@ description: >-
   "banner design", "social image", "presentation design", "brand visuals", "data
   visualization", "infographic", or any visual asset creation request.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: creative
   tags: [design, graphics, social-media, ads, brand]
   frameworks:
-    - "Cialdini Visual Persuasion"
-    - "Tufte Data Visualization"
-    - "Ann Handley — Everybody Writes"
+    - "Robin Williams — The Non-Designer's Design Book"
+    - "Edward Tufte — The Visual Display of Quantitative Information"
+    - "Robert Cialdini — Influence"
 ---
 
 # Graphic Design for GTM
@@ -30,10 +30,9 @@ creation: social graphics, ad creatives, data visualization, and brand
 templates that maintain consistency across every touchpoint.
 
 ## Authoritative Foundations
-
-- **Cialdini Visual Persuasion** — Influence principles — reciprocity, social proof, authority in copy.
-- **Tufte Data Visualization** — Named methodology governing recommendations in this skill's process.
-- **Ann Handley — Everybody Writes** — Everybody Writes
+- **Robin Williams — The Non-Designer's Design Book** — Apply contrast, repetition, alignment, and proximity (CRAP) to make GTM assets readable at a glance.
+- **Edward Tufte — The Visual Display of Quantitative Information** — Maximize data-ink and remove chartjunk so the key number is obvious.
+- **Robert Cialdini — Influence** — Influence principles — reciprocity, social proof, authority in copy.
 
 ## When to Use
 - "Create a social media graphic"

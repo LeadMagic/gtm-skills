@@ -9,7 +9,7 @@ description: >-
   "JOLT", "need to think about it", "no decision", "stuck deal", "FOMU",
   "fear of failure buyer", "close the gap intent to action".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic

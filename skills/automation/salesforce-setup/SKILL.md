@@ -7,7 +7,7 @@ description: >-
   "Salesforce setup", "configure Salesforce", "Salesforce CRM", "Salesforce
   pipeline", "Salesforce automation", or any Salesforce configuration request.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.2.0"
   author: LeadMagic
@@ -33,8 +33,8 @@ have outgrown HubSpot or require enterprise-grade customization.
 ## Authoritative Foundations
 
 - **Salesforce Architecture — Lead/Account/Contact/Opportunity** — Opportunity stages, forecasting categories, and RevOps object hygiene.
-- **Marc Benioff — Trust selling, land-and-expand, customer success in CRM** — Trust selling, land-and-expand, customer success in CRM
-- **Force.com Platform — Flows, validation, reporting** — Flows, validation, reporting
+- **Marc Benioff** — Trust selling, land-and-expand, customer success in CRM
+- **Force.com Platform** — Flows, validation, reporting
 
 ## When to Use
 

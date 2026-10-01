@@ -115,7 +115,7 @@ churn-prediction → activation-playbook (audit) → churn-prevention → cs-pla
 
 **Full GTM lifecycle ops:**
 ```
-using-gtm-skills (Pattern 18) → https://github.com/LeadMagic/gtm-skills/blob/main/references/lifecycle-skill-index.md → skills above
+using-gtm-skills (Pattern 18) → references/lifecycle-skill-index.md → skills above
 ```
 
 ---

@@ -4,7 +4,7 @@
 
 **Sources:** Kyle Poyar — [Growth Unhinged](https://www.growthunhinged.com/) · [OpenView Partners](https://openviewpartners.com/) (former) · 💼 [LinkedIn](https://www.linkedin.com/in/kylepoyar/) · 𝕏 [@kpoyar](https://x.com/kpoyar) · 📊 [2026 Free-to-Paid Conversion Report](https://growthunhinged.substack.com/) (with ChartMogul + ProductLed)
 
-**Canonical expert entry:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` → Kyle Poyar
+**Canonical expert entry:** `references/experts.md` → Kyle Poyar
 
 ---
 
@@ -72,4 +72,4 @@ Poyar contributed to OpenView's PLG canon with Blake Bartlett:
 
 `plg-strategy`, `freemium-optimization`, `pricing-strategy`, `gtm-metrics`, `saas-metrics-calculator`
 
-**Cross-links:** `freemium-optimization/references/framework-notes.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md`
+**Cross-links:** `freemium-optimization/references/framework-notes.md` · `references/benchmark-reconciliation.md`

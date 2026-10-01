@@ -281,9 +281,9 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Skills:** `founder-sales`, `sales-team-building`, `gtm-leadership`, `solo-founder-gtm`, `saas-outcomes`, `gtm-spend-management`, `fundraising-strategy`, `exiting-company`, `board-meeting-prep`, `deal-desk`, `soc2-compliance`, `investor-updates`, Pattern 33
 
-**Crisis comms framing:** Never skip investor updates in bad months; explain stumbles before MRR shows it; own mistakes fast. Source: [Handling Bad News](https://www.saastr.com/handling-bad-news/) · `https://github.com/LeadMagic/gtm-skills/blob/main/references/crisis-management-playbook.md`
+**Crisis comms framing:** Never skip investor updates in bad months; explain stumbles before MRR shows it; own mistakes fast. Source: [Handling Bad News](https://www.saastr.com/handling-bad-news/) · `references/crisis-management-playbook.md`
 
-**GTM security framing:** Treat SOC 2 as a **sales unblock** — most B2B buyers require security assessment before purchase; doing compliance early avoids late-stage procurement stalls. GTM playbooks → `https://github.com/LeadMagic/gtm-skills/blob/main/references/security-questionnaire-deal-guide.md`, `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-data-exchange-playbook.md`. Source: [Just Do The SOC-2](https://www.saastr.com/just-do-the-soc-2/)
+**GTM security framing:** Treat SOC 2 as a **sales unblock** — most B2B buyers require security assessment before purchase; doing compliance early avoids late-stage procurement stalls. GTM playbooks → `https://github.com/LeadMagic/gtm-skills/blob/main/references/security-questionnaire-deal-guide.md`, `references/gtm-data-exchange-playbook.md`. Source: [Just Do The SOC-2](https://www.saastr.com/just-do-the-soc-2/)
 
 ---
 
@@ -451,7 +451,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Command of the Message® (Value Messaging Framework) · MEDDICC/MEDDPICC · Competitive Displacement · Manager span of control (6–8 ICs) · Alignment cadence (weekly/monthly/quarterly)
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/force-management-playbook.md` — alignment cadence, reporting structures by ARR, pod economics worksheet, unit economics linkage
+**Artifacts:** `references/force-management-playbook.md` — alignment cadence, reporting structures by ARR, pod economics worksheet, unit economics linkage
 
 **Skills:** `sales-enablement`, `sales-team-building`, `pipeline-management`, `meeting-prep`, `sales-coaching`, `objection-handling`, `gtm-leadership`, `gtm-metrics`, `financial-modeling`
 
@@ -2161,7 +2161,7 @@ Organic reach, Live content engines, and Sales Navigator prospecting — three l
 
 ---
 
-**Router:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-pr-crisis-experts.md` · **Playbook:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/crisis-management-playbook.md`
+**Router:** `references/saas-pr-crisis-experts.md` · **Playbook:** `references/crisis-management-playbook.md`
 
 **Not crisis-PR canonical:** Greg Head (Practical Founders — marketing/growth) · Brendan Gahan (creator economy)
 
@@ -2332,4 +2332,4 @@ Founder-specific comp (payroll % ARR, offer walkthrough, negotiation scripts) �
 - Subsidiary maps: `coaching-experts.md`, `interview-experts.md`, `gtm-leadership/expert-frameworks.md`, `gtm-ops-skill-index.md`, `gtm-experts-outbound-index.md` — link back here for channels.
 - **Pat Spielmann** is the primary cite for LeadMagic enrichment-powered outbound copy — canonical playbook `cold-email-copywriting/references/pat-spielmann-outbound-copy.md`.
 - **Morgan J. Ingram** is the primary cite for Sales Navigator filter-specific prospecting — canonical playbook `sales-navigator-prospecting/references/morgan-ingram-sales-navigator.md`. Pair with van der Blom when reps also post; pair with Lizak only when building a Live content engine (different motion).
-- Pitfalls aggregator: `https://github.com/LeadMagic/gtm-skills/blob/main/references/pitfalls-index.md` — auto-generated from skill `## Common Pitfalls` sections (`npm run build`).
+- Pitfalls aggregator: `references/pitfalls-index.md` — auto-generated from skill `## Common Pitfalls` sections (`npm run build`).

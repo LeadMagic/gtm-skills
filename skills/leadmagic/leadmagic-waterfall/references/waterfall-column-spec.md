@@ -1,3 +1,5 @@
+<!-- AUTO-GENERATED shared reference: references/waterfall-column-spec.md; run npm run regenerate. -->
+
 # LeadMagic Waterfall — Clay Column Spec
 
 Copy-paste column configuration for Clay Table 3 (ENRICH) or standalone prospecting tables.
@@ -17,7 +19,7 @@ Load `leadmagic-toolkit` for API credentials.
 | 7 | LM Enrich Person | LeadMagic → Enrich | 2 | email_valid = true |
 | 8 | why_now | Claygent (ai-prompts P03) | varies | email_valid = true |
 
-Cross-ref Pat: `../../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
+Cross-ref Pat: `references/pat-spielmann-outbound-copy.md`
 
 ## COALESCE Formula (Best Email)
 
@@ -72,7 +74,7 @@ Route to: instantly-sequences, smartlead-workflows, or lemlist-setup via Clay na
 
 ## Clay Loops Variant
 
-For signal loops, use shorter chain from `../../../tools/clay-loops-toolkit/references/leadmagic-waterfall.md` — run only when `signal_detected = true`.
+For signal loops, use shorter chain from `references/leadmagic-waterfall.md` — run only when `signal_detected = true`.
 
 ## Anti-Patterns
 

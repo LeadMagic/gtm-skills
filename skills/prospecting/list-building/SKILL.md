@@ -8,7 +8,7 @@ description: >-
   list", "target accounts", "find companies", "scrape leads", "list building",
   "who should we reach out to", or any request to compile prospect data.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -159,9 +159,9 @@ Deliver a CSV with:
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-- `references/cold-calling-experts-index.md` — Phone Intent + bucketing router (repo root)
-- `references/joey-gilkey-bucketing.md` — Phone Intent + disposition list diagnostics (repo root)
-- `../../outbound/cold-email-strategy/references/jordan-crawford-blueprint-gtm.md` — PQS pain-based segments
+- `references/cold-calling-experts-index.md` — Phone Intent + bucketing router
+- `references/joey-gilkey-bucketing.md` — Phone Intent + disposition list diagnostics
+- `references/jordan-crawford-blueprint-gtm.md` — PQS pain-based segments
 
 ## Related Skills
 

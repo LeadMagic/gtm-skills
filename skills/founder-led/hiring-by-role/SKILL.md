@@ -9,7 +9,7 @@ description: >-
   systematically. Triggers on: "interview questions for [role]", "how to
   hire [role]", "scorecard for [role]", "evaluate [role] candidates".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.3.0"
   author: LeadMagic
@@ -67,7 +67,7 @@ quota is worse than a 2-year AE who hit 150% every quarter."
 
 **Question banks:** Interviewer scripts → `templates/interviewer-questions-gtm.md`.
 GTM Engineer scorecard → `templates/gtm-engineer-scorecard.md` (canonical interview loop).
-Role definition + JD → `gtm-role-descriptions` → `skills/founder-led/gtm-role-descriptions/references/gtm-engineer-hiring.md`.
+Role definition + JD → `gtm-role-descriptions` → `references/gtm-engineer-hiring.md`.
 Candidate questions (both sides) → `templates/candidate-questions-to-ask.md`.
 
 ## Core Principles (All Roles)
@@ -127,7 +127,7 @@ approach, code quality, collaboration, technical communication.
 ### GTM Engineer
 
 **Before interviews:** Write the JD with `gtm-role-descriptions` →
-`skills/founder-led/gtm-role-descriptions/templates/gtm-engineer-jd.md` and `skills/founder-led/gtm-role-descriptions/references/gtm-engineer-hiring.md` (role vs
+the `gtm-role-descriptions` skill (gtm-engineer-jd.md) and `references/gtm-engineer-hiring.md` (role vs
 RevOps / SE / Growth Engineer). Salary + OKR bonus — not quota.
 
 **What you're evaluating:** Workflow design, data quality, CRM fluency, API
@@ -414,7 +414,7 @@ Before delivering, verify:
 - `templates/output-template.md` — interview plan deliverable
 - `scripts/check-output.py` — validates interview plan sections
 - `references/interview-experts.md` — re:Work, Betts, Roberge, Destiny, Bock, Nordwall handoff
-- `../gtm-role-descriptions/references/hr-gtm-playbook.md` — post-hire onboarding system (Pattern 28)
+- `references/hr-gtm-playbook.md` — post-hire onboarding system (Pattern 28)
 - `templates/gtm-engineer-scorecard.md` — full loop + work sample for GTM Engineer
 - `templates/interviewer-questions-gtm.md` — SDR, AE, manager, VP, RevOps, GTM Engineer, CS
 - `templates/candidate-questions-to-ask.md` — both sides; offer-stage + panel

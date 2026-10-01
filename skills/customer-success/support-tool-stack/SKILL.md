@@ -8,7 +8,7 @@ description: >-
   replies, or integrating support with CRM and product. Covers head-to-head
   comparison, pricing by stage, and implementation playbooks.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -56,11 +56,11 @@ and support philosophy.
 
 ## Authoritative Foundations
 
-- **Intercom — Conversational Support Framework** — Conversational Support Framework
+- **Intercom** — Conversational Support Framework
 - **Plain — API-first headless support and BYOAI via MCP** — Model Context Protocol — tool servers for agent-safe CRM and enrichment access.
-- **Zendesk — Omnichannel CX Maturity Model** — Omnichannel CX Maturity Model
-- **Help Scout — Support-Driven Growth (Bezos: customer obsession)** — Support-Driven Growth (Bezos: customer obsession)
-- **Klaus/Maestro QA — Support Quality Framework** — Support Quality Framework
+- **Zendesk** — Omnichannel CX Maturity Model
+- **Help Scout** — Support-Driven Growth (Bezos: customer obsession)
+- **Klaus/Maestro QA** — Support Quality Framework
 
 ## When to Use
 
@@ -73,8 +73,8 @@ setup", "support tool stack", "migrate support platform", "set up ticketing",
 
 **API-first stack (often with Attio CRM):** Plain for support infrastructure —
 GraphQL API, embedded headless portal, Slack/email channels, native MCP for
-Jesse/Claude agents. BYOAI instead of vendor AI (Fin). Full pattern:
-`skills/customer-success/headless-support/references/byoai-headless-stack.md`. MCP config: `mcp-setup`.
+Cursor/Claude agents. BYOAI instead of vendor AI (Fin). Full pattern:
+`references/byoai-headless-stack.md`. MCP config: `mcp-setup`.
 
 Choose Intercom when you need Messenger + Fin without engineering a custom portal.
 
@@ -232,7 +232,7 @@ UI is optional; GraphQL API and MCP are primary interfaces.
 
 - Headless customer portal (embed in your product)
 - Threads, customers, tenants, labels, help center
-- Native MCP server for Jesse, Claude, ChatGPT
+- Native MCP server for Cursor, Claude, ChatGPT
 - Slack, email, in-app forms, live chat into one queue
 
 **Setup checklist:**
@@ -244,14 +244,14 @@ UI is optional; GraphQL API and MCP are primary interfaces.
 5. Webhook → n8n → Attio/HubSpot for tier and account sync
 6. Escalation labels for billing, security, enterprise (human-only)
 
-**Best for:** Dev tools, API products, teams on Attio + Jesse already.
+**Best for:** Dev tools, API products, teams on Attio + Cursor already.
 Not a shortcut for non-technical CS — still need KB, SLAs, and human escalation.
 
 ## AI Support Tools
 
 | Tool                   | What It Does                                  | Best For                        |
 | ---------------------- | --------------------------------------------- | ------------------------------- |
-| **Plain MCP**          | BYOAI: agent reads threads/KB, drafts replies | Jesse/Claude + headless stack   |
+| **Plain MCP**          | BYOAI: agent reads threads/KB, drafts replies | Cursor/Claude + headless stack   |
 | **Intercom Fin**       | AI agent answers from help center             | Deflecting tier-1 questions     |
 | **Zendesk AI Agents**  | Auto-resolve, suggest macros, triage          | Enterprise auto-resolution      |
 | **Ada**                | No-code chatbot builder                       | Complex conversation flows      |

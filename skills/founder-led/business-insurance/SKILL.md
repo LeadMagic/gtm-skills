@@ -1,15 +1,15 @@
 ---
 name: business-insurance
 description: >-
-  Complete business insurance guide for SaaS founders — Errors & Omissions
-  (E&O/Tech E&O), Cyber Liability, Directors & Officers (D&O), General
-  Liability, Workers Compensation, Key Person, Employment Practices Liability
-  (EPLI), and when each becomes necessary. Covers what triggers insurance
-  needs (first enterprise customer, fundraising, hiring), cost estimates
-  by stage, and how to shop for coverage. Triggers on: "business insurance",
-  "startup insurance", "E&O insurance", "cyber insurance", "D&O insurance".
+  Maps the business insurance a SaaS company needs by stage: Tech E&O, cyber
+  liability, D&O, general liability, workers compensation, key person, and EPLI,
+  with triggers, cost ranges, and how to shop for coverage. Use when an
+  enterprise customer requires proof of insurance, before a fundraise or first
+  hire, or when a founder asks what coverage they need. Triggers on: "business
+  insurance", "startup insurance", "E&O insurance", "cyber insurance", "D&O
+  insurance", "what insurance do I need".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -38,11 +38,11 @@ becomes necessary, and how to get it.
 
 ## Authoritative Foundations
 
-- **Vouch — Startup insurance specialists** — Startup insurance specialists
-- **Embroker — Tech/SaaS insurance** — Tech/SaaS insurance
-- **Coalition — Cyber insurance** — Cyber insurance
-- **Founders Shield — Startup risk management** — Startup risk management
-- **At-Bay — Cyber and E&O insurance** — Cyber and E&O insurance
+- **Vouch** — Startup insurance specialists
+- **Embroker** — Tech/SaaS insurance
+- **Coalition** — Cyber insurance
+- **Founders Shield** — Startup risk management
+- **At-Bay** — Cyber and E&O insurance
 
 ## When to Use
 

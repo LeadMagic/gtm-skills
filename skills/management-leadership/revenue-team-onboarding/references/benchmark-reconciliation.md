@@ -95,7 +95,7 @@ Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/dharmesh-sha
 | **Joey Gilkey** | Disposition Science (6 outcomes) | Diagnose list/message/rep/follow-up | **Outcome taxonomy** — what happened on the call |
 | **Ryan Reisert** | 4 CRM Activity Buckets | Daily rep prioritization | **Workflow taxonomy** — what to do next |
 
-**These are distinct — do not merge.** Gilkey ≠ Reisert. Cross-link both in `cold-calling`; Pattern 15b loads both. See `https://github.com/LeadMagic/gtm-skills/blob/main/references/cold-calling-experts-index.md`.
+**These are distinct — do not merge.** Gilkey ≠ Reisert. Cross-link both in `cold-calling`; Pattern 15b loads both. See `references/cold-calling-experts-index.md`.
 
 ---
 

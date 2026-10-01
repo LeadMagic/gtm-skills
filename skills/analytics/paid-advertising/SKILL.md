@@ -8,14 +8,17 @@ description: >-
   ads", "Facebook ads", "TikTok ads", "advertising", "paid acquisition", "ad
   budget", "ad campaign", or any request about paid marketing.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: analytics
   tags: [paid-ads, advertising, linkedin, google, meta, acquisition]
   related_skills: [ad-creative-strategy, a-b-testing, attribution, gtm-metrics]
-  frameworks: [Meta Advantage+ Framework, Google Performance Max, LinkedIn Campaign Manager]
+  frameworks:
+    - "Meta Advantage+ campaigns"
+    - "Google Ads — Performance Max"
+    - "LinkedIn Campaign Manager"
 ---
 
 # Paid Advertising
@@ -31,10 +34,9 @@ This skill covers platform selection, budget allocation, campaign structure,
 and measurement across the four major B2B ad platforms plus programmatic.
 
 ## Authoritative Foundations
-
-- **Meta Advantage+ Framework** — Shapes deliverables for this skill — Paid advertising is a dial, not a switch.
-- **Google Performance Max** — Shapes deliverables for this skill — Paid advertising is a dial, not a switch.
-- **LinkedIn Campaign Manager** — Shapes deliverables for this skill — Paid advertising is a dial, not a switch.
+- **Meta Advantage+ campaigns** — Use broad targeting with diversified creative, and feed server-side conversions so the algorithm optimizes on real outcomes.
+- **Google Ads — Performance Max** — Set conversion goals and audience signals, and exclude brand terms so PMax doesn't claim demand you already own.
+- **LinkedIn Campaign Manager** — Target by company, job function, and seniority; respect minimum audience sizes and use Lead Gen Forms for low-friction capture.
 
 ## When to Use
 

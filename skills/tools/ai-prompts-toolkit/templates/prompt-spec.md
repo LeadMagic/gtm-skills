@@ -1,7 +1,7 @@
 # Prompt Spec: [P## — Name]
 
 ## Context
-- Tool: Claygent / Clay AI / n8n / Jesse
+- Tool: Claygent / Clay AI / n8n / Cursor
 - GTM use case:
 - Related skill:
 

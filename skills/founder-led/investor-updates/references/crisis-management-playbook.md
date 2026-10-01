@@ -145,7 +145,7 @@ Use for customer-facing statements. **Legal reviews all Sev 3+ wording.**
 ### Executive departure / layoffs
 
 1. Internal memo first; manager talking points.
-2. Layoffs: Laurie Ruettimann patterns — early week, written summary, HR/legal script → `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-pr-crisis-experts.md`
+2. Layoffs: Laurie Ruettimann patterns — early week, written summary, HR/legal script → `references/saas-pr-crisis-experts.md`
 3. `employment-compliance` + `gtm-role-descriptions/references/hr-gtm-playbook.md` for process.
 
 ### Product failure / AI harming customer
@@ -177,7 +177,7 @@ Use for customer-facing statements. **Legal reviews all Sev 3+ wording.**
 | Onboarding / trust rebuild | `customer-success/customer-onboarding` |
 | Preparedness checklist | `https://github.com/LeadMagic/gtm-skills/blob/main/references/crisis-preparedness-checklist.md` |
 | Statement templates | `skills/management-leadership/gtm-leadership/templates/crisis-*.md` |
-| PR expert voices | `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-pr-crisis-experts.md`, `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` |
+| PR expert voices | `references/saas-pr-crisis-experts.md`, `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` |
 | Benchmark / board context | `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md` |
 
 ---

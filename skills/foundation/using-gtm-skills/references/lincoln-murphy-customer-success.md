@@ -4,7 +4,7 @@
 
 **Sources:** Lincoln Murphy — [Sixteen Ventures](https://sixteenventures.com/) · [Customer Success Association](https://customersuccessassociation.com/) · [*Customer Success* (co-author Nick Mehta)](https://www.amazon.com/Customer-Success-Revolutionary-Companies-Recurring/dp/1119167969) · 💼 [LinkedIn](https://www.linkedin.com/in/lincolnmurphy/)
 
-**Canonical expert entry:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` → Lincoln Murphy · Nick Mehta (Gainsight) → operational CS Index
+**Canonical expert entry:** `references/experts.md` → Lincoln Murphy · Nick Mehta (Gainsight) → operational CS Index
 
 ---
 
@@ -79,4 +79,4 @@ Public: [Gainsight](https://www.gainsight.com/) · [Nick Mehta LinkedIn](https:/
 
 `customer-onboarding`, `cs-playbooks`, `churn-prevention`, `qbr-planning`, `expansion-selling`, `onboarding-sequences`
 
-**Cross-links:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/lifecycle-skill-index.md` · Pattern 18 · `https://github.com/LeadMagic/gtm-skills/blob/main/references/activation-playbook.md`
+**Cross-links:** `references/lifecycle-skill-index.md` · Pattern 18 · `references/activation-playbook.md`

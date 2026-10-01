@@ -1313,7 +1313,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 ## Phone-First Outbound & Cold Calling
 
-**Router:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/cold-calling-experts-index.md` — two bucketing systems (Gilkey dispositions vs Reisert CRM stages). Do not cite phone experts in email-only skills without cross-linking `cold-calling`.
+**Router:** `references/cold-calling-experts-index.md` — two bucketing systems (Gilkey dispositions vs Reisert CRM stages). Do not cite phone experts in email-only skills without cross-linking `cold-calling`.
 
 ### Joey Gilkey — TitanX (Disposition Science & Phone Intent)
 
@@ -1345,7 +1345,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** CRM Activity Buckets (4 stages, work backwards) · Completions over dials · No Fluff call structure · CallBlitz live coaching · Phone + email cadence
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/ryan-reisert-cold-calling.md`
+**Artifacts:** `references/ryan-reisert-cold-calling.md`
 
 **Skills:** `cold-calling`, `multi-channel-outreach`, `sales-team-building`, `revenue-team-onboarding`, `pipeline-management`
 
@@ -1383,7 +1383,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Sell the Meeting (nurse not doctor) · 3Rs (Research, Relatability, Relevancy) · 3×3 method · Call block prep · Revenue Rebuild (45-day outbound foundation)
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/tom-slocum-cold-calling.md`
+**Artifacts:** `references/tom-slocum-cold-calling.md`
 
 **Skills:** `cold-calling`, `sales-coaching`, `sales-team-building`, `revenue-team-onboarding`, `list-building`
 
@@ -1836,7 +1836,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Demand creation > lead capture · Dark social (unmeasurable influence) · Frequency & consistency · Paid social as education · 90-day program evaluation · **Contrast:** visitor ID = measurable site intent; dark social = unmeasurable influence — pair both (`using-gtm-skills` Pattern 26 + 20) · **Contrast:** HubSpot inbound flywheel (Dharmesh Shah) = permission + lifecycle — Pattern 27
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/chris-walker-mental-models.md`
+**Artifacts:** `references/chris-walker-mental-models.md`
 
 **Skills:** `content-marketing`, `paid-social-strategy`, `podcast-gtm`, `attribution`, `gtm-metrics`, `gtm-leadership`, `seo-strategy`, `website-visitor-identification`
 

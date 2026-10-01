@@ -10,7 +10,7 @@ description: >-
   on prompts. Triggers on: "vibe marketing", "AI marketing", "AI content",
   "scale content with AI", "AI campaign generation".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
@@ -41,12 +41,12 @@ marketers operate at team scale.
 
 ## Authoritative Foundations
 
-- **Andrej Karpathy — 'Vibe coding' applied to marketing: describe, generate, iterate** — 'Vibe coding' applied to marketing: describe, generate, iterate
-- **Gary Vaynerchuk — Content at scale: 64 pieces of content per day per platform** — Content at scale: 64 pieces of content per day per platform
-- **Dave Gerhardt (Exit Five) — B2B marketing that doesn't feel like marketing** — B2B marketing that doesn't feel like marketing
-- **Amanda Natividad (SparkToro) — Zero-click content, audience-first AI** — Zero-click content, audience-first AI
-- **Harry Dry (Marketing Examples) — Show, don't tell (visual proof)** — Show, don't tell (visual proof)
-- **Justin Welsh — Content operating system, repurposing lattice** — Content operating system, repurposing lattice
+- **Andrej Karpathy** — 'Vibe coding' applied to marketing: describe, generate, iterate
+- **Gary Vaynerchuk** — Content at scale: 64 pieces of content per day per platform
+- **Dave Gerhardt (Exit Five)** — B2B marketing that doesn't feel like marketing
+- **Amanda Natividad (SparkToro)** — Zero-click content, audience-first AI
+- **Harry Dry (Marketing Examples)** — Show, don't tell (visual proof)
+- **Justin Welsh** — Content operating system, repurposing lattice
 
 ## When to Use
 
@@ -60,7 +60,7 @@ with AI", "AI campaign generation", "prompt to publish", "AI creative",
 | Tool | Marketing Use | Cost | Output Quality |
 |---|---|---|---|
 | **Claude 4 / ChatGPT 4o** | Copywriting, strategy, outlines, email, social, ads | $20/mo | Production-ready with review |
-| **Claude Code / Jesse** | Landing pages, interactive tools | $20/mo | Production-ready |
+| **Claude Code / Cursor** | Landing pages, interactive tools | $20/mo | Production-ready |
 | **Midjourney / DALL-E 3** | Ad creatives, social graphics, hero images | $10-30/mo | Production-ready |
 | **Runway / Pika** | Short-form video ads, social video | $15-95/mo | Needs editing |
 | **HeyGen / Synthesia** | AI spokesperson videos, personalized demos | $29-89/mo | Near-production |

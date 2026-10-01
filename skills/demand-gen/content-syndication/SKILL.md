@@ -1,20 +1,21 @@
 ---
 name: content-syndication
 description: >-
-  Plan and execute content syndication across paid and organic channels —
-  content atomization using Ross Simmonds' distribution framework, NetLine-
-  informed lead follow-up timing, syndication network economics, and
-  channel-user fit mapping. Triggers on: "content syndication", "content
-  distribution", "syndication strategy", "promote content", "content
-  amplification", "distribute our content".
+  Plans content syndication across paid and organic channels: content
+  atomization with Ross Simmonds' distribution framework, NetLine-informed lead
+  follow-up timing, syndication network economics, and channel-user fit. Use
+  when the user wants to promote a report, guide, webinar, or ebook, compare
+  syndication networks, or set a syndication budget. Triggers on: "content
+  syndication", "content distribution", "syndication strategy", "promote
+  content", "content amplification", "distribute our content".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic
   category: demand-gen
   tags: [demand-gen, content-syndication, distribution, amplification, paid-media]
-  related_skills: [content-marketing, social-media-strategy, paid-advertising, partner-programs, analytics]
+  related_skills: [content-marketing, social-media-strategy, paid-advertising, partner-programs, campaign-analytics]
   frameworks:
     - "Ross Simmonds — Create Once, Distribute Forever (book, 2024)"
     - "NetLine — State of B2B Content Consumption & Demand Report (2024/2025)"

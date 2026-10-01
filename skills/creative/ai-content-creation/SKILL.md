@@ -9,19 +9,19 @@ description: >-
   non-writers to produce high-quality content with AI. Triggers on: "AI
   content", "ChatGPT for blog", "AI copywriting", "scale content with AI".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.0.0"
   author: LeadMagic
   category: creative
   tags: [ai-content, chatgpt, claude, copywriting, blog-writing, ai-copy, content-creation, jasper, perplexity]
-  related_skills: [vibe-marketing, copywriting, blog-writing, social-media-strategy, seo-content-strategy, ad-creative-strategy, content-marketing]
+  related_skills: [vibe-marketing, copywriting, content-marketing, social-media-strategy, seo-strategy, ad-creative-strategy]
   frameworks:
     - "Justin Welsh — Content Operating System (repurposing lattice)"
     - "Harry Dry (Marketing Examples) — Show, don't tell"
     - "Amanda Natividad (SparkToro) — Zero-click content"
     - "Ross Simmonds — Content distribution at scale"
-    - "Nail Rodriguez — Conversion copywriting"
+    - "Joanna Wiebe (Copyhackers) — Conversion copywriting"
 ---
 
 # AI Content Creation
@@ -38,11 +38,11 @@ and SEO content.
 
 ## Authoritative Foundations
 
-- **Justin Welsh — Content Operating System (repurposing lattice)** — Content Operating System (repurposing lattice)
-- **Harry Dry (Marketing Examples) — Show, don't tell** — Show, don't tell
-- **Amanda Natividad (SparkToro) — Zero-click content** — Zero-click content
-- **Ross Simmonds — Content distribution at scale** — Content distribution at scale
-- **Nail Rodriguez — Conversion copywriting** — Conversion copywriting
+- **Justin Welsh** — Content Operating System (repurposing lattice)
+- **Harry Dry (Marketing Examples)** — Show, don't tell
+- **Amanda Natividad (SparkToro)** — Zero-click content
+- **Ross Simmonds** — Content distribution at scale
+- **Joanna Wiebe (Copyhackers)** — Write from voice-of-customer research and test the copy against one conversion goal.
 
 ## When to Use
 

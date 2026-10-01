@@ -4,7 +4,7 @@
 
 **Sources:** Ryan Reisert — [callblitz.com](https://callblitz.com/) · [Outbound Operators](https://outboundoperators.com/) · [Outbound Sales, No Fluff (Amazon)](https://www.amazon.com/Outbound-Sales-Fluff-millennials-something-ebook/dp/B077Y49KF4) · [Predictable Revenue — 100+ activities/day](https://predictablerevenue.com/blog/ryan-reiserts-sdrs-consistently-hit-100-activities-per-day/) · [The B2B Playbook — Buckets framework](https://theb2bplaybook.com/outbound-sales-isnt-dead-youre-just-doing-it-wrong-lessons-from-ryan-reisert) · 💼 [LinkedIn](https://www.linkedin.com/in/salesdevelopmentrepresentative/) · ▶ [CallBlitz community](https://callblitz.com/community)
 
-**Canonical expert entry:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` → Ryan Reisert
+**Canonical expert entry:** `references/experts.md` → Ryan Reisert
 
 **Identity:** Co-founder **CallBlitz** (virtual sales floor + live call coaching), **Outbound Operators** (phone-first outbound installs), former **Sales Bootcamp** lead instructor. Co-author *Outbound Sales, No Fluff* (with Rex Biberston). 5× founder; built Phone Ready Leads® (precursor to TitanX Phone Intent).
 
@@ -125,7 +125,7 @@ By attempt 3: ~93% of conversations happen. By attempt 5: ~98%. Stop at 5; revis
 
 ## Cross-Links
 
-- **Outcome bucketing:** Joey Gilkey Disposition Science (`https://github.com/LeadMagic/gtm-skills/blob/main/references/joey-gilkey-bucketing.md`)
+- **Outcome bucketing:** Joey Gilkey Disposition Science (`references/joey-gilkey-bucketing.md`)
 - **Market-fit discovery:** Ronen Pessar ColdCall-Market Fit (`https://github.com/LeadMagic/gtm-skills/blob/main/references/ronen-pessar-cold-calling.md`)
 - **Rep coaching:** Tom Slocum SD Lab (`https://github.com/LeadMagic/gtm-skills/blob/main/references/tom-slocum-cold-calling.md`)
 - **Email complement:** Jason Bay PVP, Jordan Crawford PQS — phone ≠ email skills

@@ -22,7 +22,7 @@ Operational pattern for routing job-change signals. Pairs with clay-loops-toolki
 | ENRICH | Find → Verify → Enrich at new company |
 | ACTION | Route by scenario matrix above |
 
-Load full spec: `../../../tools/clay-loops-toolkit/references/leadmagic-waterfall.md` (Job Change section)
+Load full spec: `references/leadmagic-waterfall.md` (Job Change section)
 
 ## LeadMagic Column Sequence
 
@@ -56,7 +56,7 @@ ELSE
 - Champion variant: reference prior relationship explicitly
 - Risk variant: internal alert first — do not email new company from automated seq
 
-Cross-ref Pat (data before copy): `../../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
+Cross-ref Pat (data before copy): `references/pat-spielmann-outbound-copy.md`
 
 ## Verify Gate
 

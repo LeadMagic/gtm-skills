@@ -91,7 +91,7 @@ COMPLIANCE CALENDAR:
 
 ## Frameworks Applied
 
-- **IRS — Worker classification (20-factor test, ABC test)**
+- **IRS — Worker classification (common-law rules)**
 - **California AB5 / Prop 22 — Gig economy classification**
 - **DLSE (California) — Employment regulations**
 - **SixFifty — Employment law automation (Wilson Sonsini)**

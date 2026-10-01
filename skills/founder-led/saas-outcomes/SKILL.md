@@ -10,7 +10,7 @@ description: >-
   "founder journey", "stage gates", "exit optionality", "when to sell",
   "bootstrap founder path", "earn-out", "lifestyle vs exit bootstrap".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.2.0"
   author: LeadMagic
@@ -259,11 +259,11 @@ Deliver based on request:
 - `references/exit-metrics-matrix.md` — buyer-type metric weights, benchmarks, PE vs VC vs bootstrap
 - `references/bootstrap-vs-vc-paths.md` — operating economics, TinySeed/Latka paths, round gates
 - `references/bootstrap-founder-playbook.md` — bootstrap stages, capital rules, exit paths, walk-away thresholds
-- `references/saas-mrr-accounting-nuances.md` — ARR for exit multiples vs EBITDA earn-out (repo root)
-- `references/saas-tax-founder-awareness.md` — QSBS / exit tax handoffs (repo root)
+- `references/saas-mrr-accounting-nuances.md` — ARR for exit multiples vs EBITDA earn-out
+- `references/saas-tax-founder-awareness.md` — QSBS / exit tax handoffs
 - `templates/outcome-memo.md` — one-page bootstrap vs VC / valuation memo
 - `templates/bootstrap-capital-plan.md` — monthly burn, tool cap, hire gates
-**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (founder ↔ customer overlay) · `references/activation-playbook.md` · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md` · `references/lifecycle-metrics-by-stage.md`
+**Canonical lifecycle:** `references/gtm-lifecycle-stages.md` (founder ↔ customer overlay) · `references/activation-playbook.md` · the `gtm-metrics` skill (stage-health-scorecard.md) · `references/lifecycle-metrics-by-stage.md`
 **Cross-skill artifacts:** `solo-founder-gtm/references/pmf-signal-checklist.md`, `solo-founder-gtm/references/scale-readiness-gates.md`, `exiting-company/references/buyer-readiness-checklist.md`, `exiting-company/templates/exit-readiness-scorecard.md`, `exiting-company/templates/valuation-sensitivity-table.md`, `financial-modeling/references/unit-economics-exit-bridge.md`, `saas-metrics-calculator/references/metric-definitions-exit-weight.md`, `fundraising-strategy/references/vc-milestone-gates.md`
 
 ## Related Skills

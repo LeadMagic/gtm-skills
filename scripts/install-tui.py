@@ -56,7 +56,6 @@ TARGETS: tuple[Target, ...] = (
     Target("windsurf", "Windsurf", "windsurf", ".agents/skills", "~/.agents/skills", "Shared Agent Skills directory."),
     Target("goose", "Goose", "goose", ".agents/skills", "~/.agents/skills", "GitHub's Agent Skills installer."),
     Target("hermes", "Hermes", "universal", ".agents/skills", "~/.agents/skills", "Universal Agent Skills directory."),
-    Target("jesse", "Jesse", None, ".jesse/skills", "~/.jesse/skills", "Jesse's local skills directory."),
 )
 
 

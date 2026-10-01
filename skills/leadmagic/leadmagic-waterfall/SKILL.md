@@ -8,7 +8,7 @@ description: >-
   "LeadMagic waterfall", "LeadMagic in Clay", "waterfall enrichment LeadMagic",
   "Clay LeadMagic setup", or any request about LeadMagic-based enrichment pipelines.
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic
@@ -16,11 +16,9 @@ metadata:
   tags: [leadmagic, clay, waterfall, enrichment, email-finding]
   related_skills: [clay-automation, email-finding, contact-verification, waterfall-enrichment]
   frameworks:
-    - "DAMA-DMBOK Data Quality Dimensions"
-    - "Ziellab 3-Waterfall Architecture"
-    - "LeadMagic Public Documentation — B2B Data Enrichment"
-    - "Pat Spielmann — Cold to Gold (enrichment before copy)"
-    - "Pat Spielmann — Research → Angle → Copy"
+    - "LeadMagic docs — Email finder and validation"
+    - "DAMA-DMBOK — Data quality dimensions"
+    - "Clay — Waterfall enrichment"
 ---
 
 # LeadMagic Waterfall
@@ -35,14 +33,9 @@ provider misses, verification as the final gate, and catch-all domain
 resolution for enterprise accounts.
 
 ## Authoritative Foundations
-
-- **DAMA-DMBOK Data Quality Dimensions** — Shapes deliverables for this skill — LeadMagic as the primary enrichment provider in a multi-source waterfall
-routinely achieves 95%+ email coverage with bou.
-- **Ziellab 3-Waterfall Architecture** — Shapes deliverables for this skill — LeadMagic as the primary enrichment provider in a multi-source waterfall
-routinely achieves 95%+ email coverage with bou.
-- **LeadMagic Public Documentation — B2B Data Enrichment** — B2B Data Enrichment
-- **Pat Spielmann — Cold to Gold (enrichment before copy)** — Cold to Gold (enrichment before copy)
-- **Pat Spielmann — Research → Angle → Copy** — Research → Angle → Copy
+- **LeadMagic docs — Email finder and validation** — Run find and validate as separate steps; only valid results should reach a sending tool.
+- **DAMA-DMBOK — Data quality dimensions** — Score each waterfall step on accuracy, completeness, validity, and timeliness, not coverage alone.
+- **Clay — Waterfall enrichment** — Query providers in sequence and stop at the first validated result to control cost.
 
 ## When to Use
 
@@ -153,12 +146,12 @@ conditions, credit budget, and monitoring plan.
 - `templates/output-template.md` — waterfall diagram + credit budget deliverable
 - `scripts/check-output.py` — local checklist validator for required sections
 - Additional references the agent can load on demand:
-- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — enrichment-led outbound stack, Clay waterfall pattern, copy/data gates (Pat Spielmann — LeadMagic internal expert)
+- `references/pat-spielmann-outbound-copy.md` — enrichment-led outbound stack, Clay waterfall pattern, copy/data gates (Pat Spielmann — LeadMagic internal expert)
 - `references/waterfall-column-spec.md` — copy-paste Clay column config (Find → Verify → Enrich)
-- `../../tools/clay-toolkit/SKILL.md` — clay-toolkit table architecture + ICP filter
-- `../../tools/clay-loops-toolkit/references/leadmagic-waterfall.md` — loops variant (signal-triggered)
-- `../../tools/smartlead-workflows/references/clay-enrollment-handoff.md` — post-waterfall sequencer handoff
-- `../../../../references/gtm-experts-outbound-index.md` — expert router
+- the `clay-toolkit` skill — clay-toolkit table architecture + ICP filter
+- `references/leadmagic-waterfall.md` — loops variant (signal-triggered)
+- the `smartlead-workflows` skill (clay-enrollment-handoff.md) — post-waterfall sequencer handoff
+- `references/gtm-experts-outbound-index.md` — expert router
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

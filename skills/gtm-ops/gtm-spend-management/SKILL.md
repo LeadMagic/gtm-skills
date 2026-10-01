@@ -9,7 +9,7 @@ description: >-
   "tool purchase approval", "virtual card per vendor", "Brex vs Ramp", "zombie
   subscriptions", "vendor roster".
 license: MIT
-compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Jesse, Windsurf, Zed
+compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
   version: "1.1.0"
   author: LeadMagic
@@ -237,7 +237,7 @@ Vendor comparison + pilot scorecard:
 - `scripts/check-output.py`
 - `references/ramp-playbook.md` — Ramp setup for GTM stacks
 - `references/spend-by-stage.md` — ARR-stage tool + payroll guardrails (canonical table)
-- `references/gtm-budget-playbook.md` — **annual budget canonical** (repo root; vendor section here)
+- `references/gtm-budget-playbook.md` — **annual budget canonical** (vendor section here)
 - `templates/annual-gtm-budget-worksheet.md` — budget worksheet
 - `website-visitor-identification/references/visitor-id-vendor-comparison.md` — Intent vendor roster reference
 - `references/spend-governance.md` — Policies, thresholds, compliance
