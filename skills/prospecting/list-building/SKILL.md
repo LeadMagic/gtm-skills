@@ -159,9 +159,9 @@ Deliver a CSV with:
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-- `references/cold-calling-experts-index.md` — Phone Intent + bucketing router (repo root)
-- `references/joey-gilkey-bucketing.md` — Phone Intent + disposition list diagnostics (repo root)
-- `../../outbound/cold-email-strategy/references/jordan-crawford-blueprint-gtm.md` — PQS pain-based segments
+- `references/cold-calling-experts-index.md` — Phone Intent + bucketing router
+- `references/joey-gilkey-bucketing.md` — Phone Intent + disposition list diagnostics
+- `references/jordan-crawford-blueprint-gtm.md` — PQS pain-based segments
 
 ## Related Skills
 

@@ -15,7 +15,7 @@ metadata:
   author: LeadMagic
   category: creative
   tags: [vibe-coding, ai-development, v0, cursor, claude-code, lovable, bolt, replit, karpathy, building-with-ai]
-  related_skills: [vibe-marketing, v0-lander, ai-content-creation, claude-design, landing-pages, design-system-gtm, popular-web-designs]
+  related_skills: [vibe-marketing, v0-lander, ai-content-creation, ui-ux-gtm, landing-pages, design-system-gtm]
   frameworks:
     - "Andrej Karpathy — Vibe Coding (2025): 'fully give in to the vibes, embrace exponentials, forget the code exists'"
     - "Pieter Levels (@levelsio) — AI-assisted solo building, 12 startups in 12 months"

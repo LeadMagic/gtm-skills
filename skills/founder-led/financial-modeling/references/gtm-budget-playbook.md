@@ -75,7 +75,7 @@ Headcount is typically **60–70% of OpEx** at growth stage.
 | $3–10M | 5–10 | 5–10 | 3–5 | 3–6 | 1–2 |
 | $10–20M | 10–20 | 10–15 | 5–10 | 6–12 | 2–4 |
 
-Force Management pods at $10M+: group SDR+AE+SE+CSM → `https://github.com/LeadMagic/gtm-skills/blob/main/references/force-management-playbook.md`.
+Force Management pods at $10M+: group SDR+AE+SE+CSM → `references/force-management-playbook.md`.
 
 **Spend stage caps:** `gtm-spend-management/references/spend-by-stage.md` — don't budget past gates without PMF/GTM Index proof.
 
@@ -164,10 +164,10 @@ Chart of accounts basics: separate **subscription revenue**, **PS revenue**, **C
 |---|---|
 | P&L & runway model | `financial-modeling` |
 | Vendor spend governance | `gtm-spend-management` |
-| MRR / revenue recognition | `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-mrr-accounting-nuances.md` |
-| Bookings vs revenue | `https://github.com/LeadMagic/gtm-skills/blob/main/references/bookings-billings-revenue-matrix.md` |
-| Tax & R&D credits (awareness) | `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-tax-founder-awareness.md` |
-| Benchmark thresholds | `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md` |
+| MRR / revenue recognition | `references/saas-mrr-accounting-nuances.md` |
+| Bookings vs revenue | `references/bookings-billings-revenue-matrix.md` |
+| Tax & R&D credits (awareness) | `references/saas-tax-founder-awareness.md` |
+| Benchmark thresholds | `references/benchmark-reconciliation.md` |
 | Bootstrap capital | `saas-outcomes/templates/bootstrap-capital-plan.md` |
 | Solo founder spend | `solo-founder-gtm/references/spend-by-stage.md` |
 

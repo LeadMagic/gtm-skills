@@ -10,11 +10,13 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Build Your Flaws Inventory
+- Phase 2: Build the "Our Flaws" Slide
+- Phase 3: Transparency Throughout the Sales Cycle
+- Phase 4: Transparent Negotiation
+- Phase 5: Building a Transparency Culture
 
 ## Agent routing
 

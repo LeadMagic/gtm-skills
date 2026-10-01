@@ -283,7 +283,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Crisis comms framing:** Never skip investor updates in bad months; explain stumbles before MRR shows it; own mistakes fast. Source: [Handling Bad News](https://www.saastr.com/handling-bad-news/) · `https://github.com/LeadMagic/gtm-skills/blob/main/references/crisis-management-playbook.md`
 
-**GTM security framing:** Treat SOC 2 as a **sales unblock** — most B2B buyers require security assessment before purchase; doing compliance early avoids late-stage procurement stalls. GTM playbooks → `https://github.com/LeadMagic/gtm-skills/blob/main/references/security-questionnaire-deal-guide.md`, `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-data-exchange-playbook.md`. Source: [Just Do The SOC-2](https://www.saastr.com/just-do-the-soc-2/)
+**GTM security framing:** Treat SOC 2 as a **sales unblock** — most B2B buyers require security assessment before purchase; doing compliance early avoids late-stage procurement stalls. GTM playbooks → `https://github.com/LeadMagic/gtm-skills/blob/main/references/security-questionnaire-deal-guide.md`, `references/gtm-data-exchange-playbook.md`. Source: [Just Do The SOC-2](https://www.saastr.com/just-do-the-soc-2/)
 
 ---
 
@@ -1271,7 +1271,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Skills:** `domain-infrastructure`, `email-deliverability`, `inbox-setup`, `cold-email-strategy`, `cold-email-copywriting`, `clay-automation`, `sending-platforms`, `smartlead-workflows`, `tool-selection-stack`
 
-**Stack position:** Complements Pat Spielmann / Jordan Crawford / Becc Holland / Guillaume (message + segment) — Eric owns infra, economics gate, and offer-led scale campaigns. Router → `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-experts-outbound-index.md`.
+**Stack position:** Complements Pat Spielmann / Jordan Crawford / Becc Holland / Guillaume (message + segment) — Eric owns infra, economics gate, and offer-led scale campaigns. Router → `references/gtm-experts-outbound-index.md`.
 
 ---
 
@@ -1313,7 +1313,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 ## Phone-First Outbound & Cold Calling
 
-**Router:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/cold-calling-experts-index.md` — two bucketing systems (Gilkey dispositions vs Reisert CRM stages). Do not cite phone experts in email-only skills without cross-linking `cold-calling`.
+**Router:** `references/cold-calling-experts-index.md` — two bucketing systems (Gilkey dispositions vs Reisert CRM stages). Do not cite phone experts in email-only skills without cross-linking `cold-calling`.
 
 ### Joey Gilkey — TitanX (Disposition Science & Phone Intent)
 
@@ -1327,7 +1327,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Disposition Science (6 buckets) · Phone Intent / 20% Rule · Conversation as KPI · King of the Hill · Four levers (List, Message, Rep, Follow-Up)
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/joey-gilkey-bucketing.md`
+**Artifacts:** `references/joey-gilkey-bucketing.md`
 
 **Skills:** `cold-calling`, `list-building`, `signal-scoring`, `pipeline-management`, `multi-channel-outreach`
 
@@ -1345,7 +1345,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** CRM Activity Buckets (4 stages, work backwards) · Completions over dials · No Fluff call structure · CallBlitz live coaching · Phone + email cadence
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/ryan-reisert-cold-calling.md`
+**Artifacts:** `references/ryan-reisert-cold-calling.md`
 
 **Skills:** `cold-calling`, `multi-channel-outreach`, `sales-team-building`, `revenue-team-onboarding`, `pipeline-management`
 

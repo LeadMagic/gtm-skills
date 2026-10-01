@@ -37,12 +37,12 @@ and integration into every tool in your stack.
 
 ## Authoritative Foundations
 
-- **LeadMagic API — Email finder, verifier, waterfall enrichment endpoints** — Email finder, verifier, waterfall enrichment endpoints
+- **LeadMagic API** — Email finder, verifier, waterfall enrichment endpoints
 - **MCP (Model Context Protocol) — Anthropic AI tool integration** — Model Context Protocol — tool servers for agent-safe CRM and enrichment access.
 - **Clay — Waterfall enrichment and prospecting platform** — Waterfall enrichment, Claygent research, and table-based GTM automation.
 - **n8n — Open-source workflow automation** — Workflow automation — HTTP nodes, webhooks, and GTM glue between tools.
-- **Pat Spielmann — Portable data layer** — Portable data layer
-- **Pat Spielmann — Cold to Gold** — Cold to Gold
+- **Pat Spielmann** — Portable data layer
+- **Pat Spielmann** — Cold to Gold
 
 ## When to Use
 
@@ -210,7 +210,7 @@ Before delivering, verify:
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
 This skill includes lightweight artifacts the agent can load on demand:
-- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — GTM stack + outbound copy integration patterns (Pat Spielmann)
+- `references/pat-spielmann-outbound-copy.md` — GTM stack + outbound copy integration patterns (Pat Spielmann)
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

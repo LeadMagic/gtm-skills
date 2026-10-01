@@ -107,7 +107,7 @@ Refresh from Meritech Benchmarking before board meetings — numbers shift quart
 | **David Skok** | Stage gates (canonical formulas) | LTV:CAC, payback thresholds |
 | **Henry Schuck / ZoomInfo** | Single public operator | Earnings-season GTM ops metrics |
 
-**Single source of truth for conflicts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md`
+**Single source of truth for conflicts:** `references/benchmark-reconciliation.md`
 
 ---
 
@@ -152,8 +152,8 @@ Private companies should **not** copy public medians blindly at seed/Series A �
 
 ## Cross-References
 
-- Reconciliation table → `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md`
-- Private committed vs implied ARR → `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-mrr-accounting-nuances.md`
+- Reconciliation table → `references/benchmark-reconciliation.md`
+- Private committed vs implied ARR → `references/saas-mrr-accounting-nuances.md`
 - Formulas → `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-metrics-reference.md`
 - Exit weights → `saas-outcomes/references/exit-metrics-matrix.md`
 - VC gates → `fundraising-strategy/references/vc-milestone-gates.md`

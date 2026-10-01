@@ -43,15 +43,15 @@ and the analytics stack that makes it all work together.
 
 ## Authoritative Foundations
 
-- **Segment — Customer Data Platform (CDP) and Tracking Plan spec** — Customer Data Platform (CDP) and Tracking Plan spec
-- **Amplitude — Product analytics and behavioral cohorts** — Product analytics and behavioral cohorts
-- **PostHog — Open-source product analytics** — Open-source product analytics
-- **Mixpanel — Event-based analytics** — Event-based analytics
-- **Google Analytics 4 (GA4) — Web analytics and conversions** — Web analytics and conversions
-- **Elena Verna (Reforge/Amplitude) — PLG analytics models** — PLG analytics models
+- **Segment** — Customer Data Platform (CDP) and Tracking Plan spec
+- **Amplitude** — Product analytics and behavioral cohorts
+- **PostHog** — Open-source product analytics
+- **Mixpanel** — Event-based analytics
+- **Google Analytics 4 (GA4)** — Web analytics and conversions
+- **Elena Verna (Reforge/Amplitude)** — PLG analytics models
 - **Brian Balfour (Reforge) — Growth models and tracking** — Growth loops — acquisition/retention loops, not funnel-only thinking.
 - **OpenView — PLG benchmarks and metrics** — Expansion SaaS benchmarks — PLG, sales-assist, and GTM efficiency.
-- **Avo — Tracking plan governance and code generation** — Tracking plan governance and code generation
+- **Avo** — Tracking plan governance and code generation
 
 ## When to Use
 

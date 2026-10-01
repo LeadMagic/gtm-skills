@@ -22,12 +22,14 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
-- Phase 6
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Equity Types
+- Phase 2: 409A Valuation
+- Phase 3: Option Pool Planning
+- Phase 4: Equity Grant Guidelines
+- Phase 5: Cap Table Management
+- Phase 6: Secondary Sales and Liquidity
 
 ## Agent routing
 

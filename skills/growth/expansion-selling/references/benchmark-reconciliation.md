@@ -37,7 +37,7 @@ Last reviewed: 2026-06. Refresh Meritech/KeyBanc annually.
 | **LTV:CAC minimum** | Skok: 3:1 investable | Bootstrap organic: 5–10x common | **≥3:1** minimum VC; **≥4:1** scale; bootstrap **≥3:1** with note organic CAC lower |
 | **LTV:CAC "too high"** | `saas-metrics-reference`: >10x under-invest | — | **>10x** = likely under-investing in growth (not a brag) |
 
-**Canonical formula:** Contribution-margin LTV only — see `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-metrics-reference.md`.
+**Canonical formula:** Contribution-margin LTV only — see `references/saas-metrics-reference.md`.
 
 ---
 
@@ -84,7 +84,7 @@ Last reviewed: 2026-06. Refresh Meritech/KeyBanc annually.
 | **MQL stance** | MQL → SQL when fit | Anti–lead-gen volume | Qualify hard; don't optimize form volume alone |
 | **Paid social** | Supports inbound capture | Education-first LinkedIn | Ungated content + retarget; avoid CPL-only optimization |
 
-Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/dharmesh-shah-hubspot-inbound.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/chris-walker-mental-models.md`
+Refs: `references/dharmesh-shah-hubspot-inbound.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/chris-walker-mental-models.md`
 
 ---
 
@@ -336,7 +336,7 @@ Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-clo
 - `executive-compensation/references/gtm-compensation-strategy.md`
 - `executive-compensation/references/comp-by-role-stage.md`
 - `gtm-role-descriptions/references/comp-benchmarks.md`
-- `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-metrics-reference.md`
+- `references/saas-metrics-reference.md`
 - `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-mrr-accounting-nuances.md`
 - `https://github.com/LeadMagic/gtm-skills/blob/main/references/bookings-billings-revenue-matrix.md`
 - `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-budget-playbook.md`

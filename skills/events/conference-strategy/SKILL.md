@@ -1,9 +1,11 @@
 ---
 name: conference-strategy
 description: >-
-  Strategic conference planning — event selection, sponsorship ROI, speaking 
-  submissions, booth strategy, team preparation. Triggers on: "conference strategy",
-  "event planning", "trade show strategy", "sponsorship ROI", "CFP submissions".
+  Plans a conference program: event selection, sponsorship ROI, speaking (CFP)
+  submissions, booth strategy, and team preparation. Use when the user is
+  choosing which events to attend or sponsor, submitting a CFP, or analyzing
+  conference ROI. Triggers on: "conference strategy", "event planning", "trade
+  show strategy", "sponsorship ROI", "CFP submissions".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
@@ -12,9 +14,9 @@ metadata:
   category: events
   tags: [events, conferences, event-strategy, sponsorship, speaking]
   frameworks:
-    - "B2B Event ROI Framework"
-    - "Conference Strategy Playbook"
-    - "Bizzabo — Event Experience Framework"
+    - "Forrester (SiriusDecisions) — Demand Waterfall"
+    - "ITSMA — Account-Based Marketing"
+    - "Chris Walker — Self-reported attribution"
   related_skills:
     [
       event-driven-outreach,
@@ -34,10 +36,9 @@ and the least measured. This skill covers event selection, sponsorship evaluatio
 speaking submission strategy, booth design, and team preparation to maximize ROI.
 
 ## Authoritative Foundations
-
-- **B2B Event ROI Framework** — Named methodology governing recommendations in this skill's process.
-- **Conference Strategy Playbook** — Named methodology governing recommendations in this skill's process.
-- **Bizzabo — Event Experience Framework** — Event Experience Framework
+- **Forrester (SiriusDecisions) — Demand Waterfall** — Measure events by the pipeline stages they create and accelerate, not by badge scans.
+- **ITSMA — Account-Based Marketing** — Choose and staff events by target-account attendance, and pre-book meetings with named accounts.
+- **Chris Walker — Self-reported attribution** — Add a 'How did you hear about us?' field so event influence that never appears in last-touch reporting is still captured.
 
 ## When to Use
 

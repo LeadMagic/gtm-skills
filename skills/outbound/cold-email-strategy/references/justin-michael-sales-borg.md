@@ -1,6 +1,8 @@
+<!-- AUTO-GENERATED shared reference: references/justin-michael-sales-borg.md; run npm run regenerate. -->
+
 # Justin Michael — Sales Borg & Tech-Powered Sales
 
-**First book:** *Tech-Powered Sales: Achieve Superhuman Sales Skills* (Justin Michael & Tony Hughes, HarperCollins Leadership, 2021)  
+**First book:** *Tech-Powered Sales: Achieve Superhuman Sales Skills* (Justin Michael & Tony Hughes, HarperCollins Leadership, 2021)
 **Core metaphor:** **Sales Borg** — human empathy + machine throughput fused into one outbound operator (Part I: *Sales-borg Theory*; Part II: *Salesborg Action*). Not a separate book title; the philosophy and community brand live at [Salesborgs.ai](https://www.salesborgs.ai/).
 
 **Public anchors:** [Amazon — Tech-Powered Sales](https://www.amazon.com/Tech-Powered-Sales-Achieve-Superhuman/dp/140022652X) · [Principus book summary](https://principus.si/2021/12/25/justin-michael-and-tony-hughes-tech-powered-sales/) · [Sales POP — Revolutionize B2B Sales](https://salespop.net/sales-skills/how-to-revolutionize-b2b-sales/) · [OneIMS — Leverage Technology for Sales](https://oneims.com/cwc2/justin-michael-how-to-leverage-technology-for-better-sales-the-right-way) · [GTM Pro — Mindset, AI & Future of Sales](https://thegtm.pro/insights/mindset-ai-shaping-sales-future-justin-michael) · [Justin Michael LinkedIn](https://www.linkedin.com/in/michaeljustin/) · [Salesborgs.ai](https://www.salesborgs.ai/)

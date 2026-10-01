@@ -2,21 +2,15 @@
 
 Reference index for `SKILL.md`. Apply named frameworks to justify recommendations.
 
-## Authoritative foundations
-
-- **Marty Neumeier Brand Gap** — Shapes deliverables for this skill — A brand kit is the operating manual for your company's visual and verbal
-identity.
-- **David Aaker Brand Identity** — Shapes deliverables for this skill — A brand kit is the operating manual for your company's visual and verbal
-identity.
-- **April Dunford Positioning** — Positioning — competitive alternatives, differentiated value, target segment.
-
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Logo Design
+- Phase 2: Color Palette
+- Phase 3: Typography
+- Phase 4: Voice and Tone
+- Phase 5: Asset Templates
 
 ## Agent routing
 

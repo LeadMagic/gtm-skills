@@ -11,8 +11,9 @@ metadata:
   tags: [startup-communities, accelerators, incubators, co-founders, networking, global-startups]
   related_skills: [co-founder-dynamics, yc-ecosystem, fundraising-strategy, engineer-to-founder, founder-brand]
   frameworks:
-    - "David Spinks — Community-Led Growth"
-    - "CMX Community Strategy"
+    - "Brad Feld — Startup Communities (Boulder Thesis)"
+    - "David Spinks — The Business of Belonging"
+    - "CMX — SPACES model"
     - "Seth Godin — Tribes"
 ---
 # Startup Communities
@@ -30,11 +31,10 @@ accelerators and incubators worth applying to, and the online communities
 that connect you regardless of geography.
 
 ## Authoritative Foundations
-
-- **David Spinks — Community-Led Growth** — Community-Led Growth
-- **CMX Community Strategy** — Shapes deliverables for this skill — Your location and network determine your startup's trajectory more than you
-think.
-- **Seth Godin — Tribes** — Tribes
+- **Brad Feld — Startup Communities (Boulder Thesis)** — Communities must be led by entrepreneurs, take a long-term view, include everyone, and run continuous activities.
+- **David Spinks — The Business of Belonging** — Tie community to a business outcome (support, product, acquisition, success) and measure it.
+- **CMX — SPACES model** — Pick the community's primary value: Support, Product, Acquisition, Contribution, Engagement, or Success.
+- **Seth Godin — Tribes** — People join tribes around a shared idea and a leader; give the community a reason to exist beyond your product.
 
 ## When to Use
 

@@ -178,7 +178,8 @@ function parseFrontmatter(filePath) {
       i -= 1;
       value = out.join(" ").replace(/\s+/g, " ").trim();
     }
-    fm[key] = value.replace(/^['"]|['"]$/g, "");
+    const quoted = value.match(/^(['"])([\s\S]*)\1$/);
+    fm[key] = quoted ? quoted[2] : value;
   }
   return { fm, fmText, content };
 }

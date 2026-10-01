@@ -15,7 +15,7 @@ metadata:
   author: LeadMagic
   category: product-led-growth
   tags: [freemium, free-trial, conversion, pql, activation, paywall, plg]
-  related_skills: [plg-strategy, growth-experimentation, onboarding-flow, pricing-psychology, a-b-testing]
+  related_skills: [plg-strategy, growth-experimentation, onboarding-sequences, pricing-psychology, a-b-testing]
   frameworks:
     - "Kyle Poyar (Growth Unhinged) + ChartMogul + ProductLed — 2026 Free-to-Paid Conversion Report"
     - "ProductLed — State of B2B SaaS 2025 (446 companies)"
@@ -242,7 +242,7 @@ Before delivering, verify:
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
 **Lifecycle (Acquisition → Activation):** `references/activation-playbook.md` · `references/gtm-lifecycle-stages.md` · Pattern 18 in `using-gtm-skills`
-**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Acquisition, Activation) · `references/activation-playbook.md` · `references/lifecycle-metrics-by-stage.md`
+**Canonical lifecycle:** `references/gtm-lifecycle-stages.md` (Acquisition, Activation) · `references/activation-playbook.md` · `references/lifecycle-metrics-by-stage.md`
 
 ## Related Skills
 

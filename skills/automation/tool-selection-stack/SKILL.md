@@ -16,10 +16,10 @@ metadata:
   tags: [tools, stack, comparison, budget, gtm-tech]
   related_skills: [revops-tech-stack, gtm-tool-cost-model, gtm-spend-management, solo-founder-gtm, clay-automation]
   frameworks:
-    - "Jen Igartua (Go Nimbly) — Must-have basics / performance boosters / delighters stack layering"
-    - "Jesse Ouellette Lean Stack"
-    - "Eric Nowoslawski Agency Stack"
-    - "HubSpot Academy — CRM Automation"
+    - "Jen Igartua (Go Nimbly) — Stack layering"
+    - "Jesse Ouellette — Lean stack"
+    - "Eric Nowoslawski — Agency stack"
+    - "HubSpot Academy — CRM automation"
 ---
 
 # Tool Selection & Stack Builder
@@ -35,11 +35,10 @@ for maturity assessment before adding tools. Clay = enrichment; n8n = orchestrat
 Cargo category = persistent routing at scale — see playbook decision matrix.
 
 ## Authoritative Foundations
-
-- **Jen Igartua (Go Nimbly) — Must-have basics / performance boosters / delighters stack layering** — Must-have basics / performance boosters / delighters stack layering
-- **Jesse Ouellette Lean Stack** — Named methodology governing recommendations in this skill's process.
-- **Eric Nowoslawski Agency Stack** — Cold email infra at scale — 2 inboxes/domain, backup inboxes, Creative Ideas testing.
-- **HubSpot Academy — CRM Automation** — Lifecycle stages, object model, and workflow enrollment patterns.
+- **Jen Igartua (Go Nimbly) — Stack layering** — Layer the stack as must-have basics, performance boosters, and delighters; don't buy boosters before basics work.
+- **Jesse Ouellette — Lean stack** — Start with the fewest tools that run the process, and add a tool only when a stable process is bottlenecked.
+- **Eric Nowoslawski — Agency stack** — Cold email infra at scale — 2 inboxes/domain, backup inboxes, Creative Ideas testing.
+- **HubSpot Academy — CRM automation** — Lifecycle stages, object model, and workflow enrollment patterns.
 
 ## When to Use
 - "What tools do I need for cold email?"
@@ -133,7 +132,7 @@ Before delivering, verify:
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
 This skill includes lightweight artifacts the agent can load on demand:
-- `references/gtm-automation-expert-playbook.md` — Jen Igartua stack layering / maturity (repo root; Pattern 30)
+- `references/gtm-automation-expert-playbook.md` — Jen Igartua stack layering / maturity (Pattern 30)
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

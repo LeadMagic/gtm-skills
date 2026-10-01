@@ -4,7 +4,7 @@
 
 **Sources:** Peter Cohan — [Second Derivative](https://www.second-derivative.com/) · [*Great Demo!*](https://www.amazon.com/Great-Demo-How-Create-Execute/dp/0984275201) · [*Doing Discovery*](https://www.amazon.com/Doing-Discovery-Customer-Driven-Message/dp/1735582201) · 💼 [LinkedIn](https://www.linkedin.com/in/petercohan/)
 
-**Canonical expert entry:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` → Peter Cohan
+**Canonical expert entry:** `references/experts.md` → Peter Cohan
 
 **Naming collision:** Two "reverse demo" traditions exist in repo:
 - **Varun Anand / Clay** — prospect-led product session (buyer drives the UI)
@@ -69,4 +69,4 @@ When displacing an incumbent:
 
 `demo-scripts`, `meeting-prep`, `objection-handling`, `sales-enablement`
 
-**Cross-links:** `demo-scripts/references/framework-notes.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` → Varun Anand
+**Cross-links:** `demo-scripts/references/framework-notes.md` · `references/experts.md` → Varun Anand

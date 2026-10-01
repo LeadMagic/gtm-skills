@@ -36,10 +36,10 @@ the dashboard to track it all.
 
 ## Authoritative Foundations
 
-- **ITIL 4 — Service Level Management practice** — Service Level Management practice
-- **Zendesk — SLA Policy Design Guide** — SLA Policy Design Guide
-- **Intercom — SLA and Business Hours Configuration** — SLA and Business Hours Configuration
-- **HDI — Support Center Certification Standards** — Support Center Certification Standards
+- **ITIL 4** — Service Level Management practice
+- **Zendesk** — SLA Policy Design Guide
+- **Intercom** — SLA and Business Hours Configuration
+- **HDI** — Support Center Certification Standards
 
 ## When to Use
 

@@ -306,12 +306,12 @@ Before delivering, verify:
 - `templates/output-template.md` — deliverable shell
 - `scripts/check-output.py` — deliverable validator
 - `references/metric-definitions-exit-weight.md` — formulas, benchmarks, exit weight by buyer
-- `references/david-sacks-saas-metrics.md` — burn multiple, efficiency gates (repo root)
-- `references/bessemer-cloud-atlas.md` — Rule of 40, VC-stage benchmarks (repo root)
-- `references/saas-mrr-accounting-nuances.md` — **canonical** MRR/ARR accounting deep dive (repo root)
-- `references/bookings-billings-revenue-matrix.md` — bookings vs billings vs GAAP revenue (repo root)
+- `references/david-sacks-saas-metrics.md` — burn multiple, efficiency gates
+- `references/bessemer-cloud-atlas.md` — Rule of 40, VC-stage benchmarks
+- `references/saas-mrr-accounting-nuances.md` — **canonical** MRR/ARR accounting deep dive
+- `references/bookings-billings-revenue-matrix.md` — bookings vs billings vs GAAP revenue
 - `templates/mrr-bridge-template.md` — logo + expansion − contraction − churn
-**Canonical lifecycle (repo root):** `references/lifecycle-metrics-by-stage.md` (per-stage formulas) · `references/gtm-lifecycle-stages.md` · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md`
+**Canonical lifecycle:** `references/lifecycle-metrics-by-stage.md` (per-stage formulas) · `references/gtm-lifecycle-stages.md` · the `gtm-metrics` skill (stage-health-scorecard.md)
 **Cross-skill:** `exiting-company/references/due-diligence-metrics-pack.md`, `fundraising-strategy/references/vc-milestone-gates.md`, `financial-modeling/references/unit-economics-exit-bridge.md`
 
 ## Related Skills

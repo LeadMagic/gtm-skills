@@ -25,7 +25,7 @@ Gilkey answers *"what happened on the call?"* Reisert answers *"what should I do
 
 | Expert | Key frameworks (1 line) | Canonical playbook | Primary skills |
 |---|---|---|---|
-| **Joey Gilkey** | Disposition Science + Phone Intent + conversation-as-KPI | `https://github.com/LeadMagic/gtm-skills/blob/main/references/joey-gilkey-bucketing.md` | `cold-calling`, `list-building`, `signal-scoring`, `pipeline-management` |
+| **Joey Gilkey** | Disposition Science + Phone Intent + conversation-as-KPI | `references/joey-gilkey-bucketing.md` | `cold-calling`, `list-building`, `signal-scoring`, `pipeline-management` |
 | **Ryan Reisert** | 4 CRM Activity Buckets + backwards daily workflow + No Fluff call structure | `https://github.com/LeadMagic/gtm-skills/blob/main/references/ryan-reisert-cold-calling.md` | `cold-calling`, `multi-channel-outreach`, `sales-team-building` |
 | **Ronen Pessar** | ColdCall-Market Fit + Call Pilot blitz + tonality/pattern-interrupt script | `https://github.com/LeadMagic/gtm-skills/blob/main/references/ronen-pessar-cold-calling.md` | `cold-calling`, `sales-team-building`, `revenue-team-onboarding` |
 | **Tom Slocum** | Sell-the-meeting + 3Rs/3×3 research + dial blocks + SDR coaching | `https://github.com/LeadMagic/gtm-skills/blob/main/references/tom-slocum-cold-calling.md` | `cold-calling`, `sales-coaching`, `revenue-team-onboarding` |

@@ -33,10 +33,10 @@ the support stack.
 
 ## Authoritative Foundations
 
-- **Intercom — Conversational support, Fin AI, Product Tours** — Conversational support, Fin AI, Product Tours
-- **Zendesk — Omnichannel CX, AI Agents, Explore analytics** — Omnichannel CX, AI Agents, Explore analytics
-- **Front — Collaborative inbox, rule-based routing** — Collaborative inbox, rule-based routing
-- **Help Scout — Docs-first support, Beacon widget** — Docs-first support, Beacon widget
+- **Intercom** — Conversational support, Fin AI, Product Tours
+- **Zendesk** — Omnichannel CX, AI Agents, Explore analytics
+- **Front** — Collaborative inbox, rule-based routing
+- **Help Scout** — Docs-first support, Beacon widget
 
 ## When to Use
 

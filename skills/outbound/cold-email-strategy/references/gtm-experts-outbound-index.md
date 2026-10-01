@@ -2,7 +2,7 @@
 
 # GTM Experts — Outbound & Discovery Index
 
-Quick router for outbound, discovery, and pipeline experts. Full bios → `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md`.
+Quick router for outbound, discovery, and pipeline experts. Full bios → `references/experts.md`.
 
 | Expert | Primary frameworks | Canonical playbook | Lead skills |
 |---|---|---|---|
@@ -15,8 +15,8 @@ Quick router for outbound, discovery, and pipeline experts. Full bios → `https
 | **Justin Michael** | Sales Borg, TQ, trigger-based outbound | `cold-email-strategy/references/justin-michael-sales-borg.md` | `cold-email-strategy`, `multi-channel-outreach` |
 | **Tito Bohrt** | SDR-as-a-science, cost-per-qualified-meeting economics ("Dear CFO"), funnel-inversion benchmarks (80–85% show rate), data-research/engagement split, AI-SDR skepticism | `sales-team-building/references/tito-bohrt-sdr-science.md` | `sales-team-building`, `gtm-role-descriptions`, `revenue-team-onboarding` |
 | **Lars Nilsson** | ABSD — signal-based account selection, SDR+AE+SME 3-email sequences, multi-persona chunks, quality-over-volume (~70% open / ~30% reply public benchmark) | `abm-strategy/references/lars-nilsson-absd.md` | `abm-strategy`, `account-selection`, `cold-email-strategy`, `multi-thread-orchestration` |
-| **Joey Gilkey** | Disposition Science, Phone Intent, conversation-as-KPI | `https://github.com/LeadMagic/gtm-skills/blob/main/references/joey-gilkey-bucketing.md` | `cold-calling`, `list-building`, `signal-scoring` |
-| **Ryan Reisert** | CRM Activity Buckets, No Fluff call structure, CallBlitz | `https://github.com/LeadMagic/gtm-skills/blob/main/references/ryan-reisert-cold-calling.md` | `cold-calling`, `multi-channel-outreach`, `sales-team-building` |
+| **Joey Gilkey** | Disposition Science, Phone Intent, conversation-as-KPI | `references/joey-gilkey-bucketing.md` | `cold-calling`, `list-building`, `signal-scoring` |
+| **Ryan Reisert** | CRM Activity Buckets, No Fluff call structure, CallBlitz | `references/ryan-reisert-cold-calling.md` | `cold-calling`, `multi-channel-outreach`, `sales-team-building` |
 | **Ronen Pessar** | ColdCall-Market Fit, Call Pilot, tonality script | `https://github.com/LeadMagic/gtm-skills/blob/main/references/ronen-pessar-cold-calling.md` | `cold-calling`, `sales-team-building`, `revenue-team-onboarding` |
 | **Tom Slocum** | 3Rs / 3×3, sell-the-meeting, dial blocks | `https://github.com/LeadMagic/gtm-skills/blob/main/references/tom-slocum-cold-calling.md` | `cold-calling`, `sales-coaching`, `revenue-team-onboarding` |
 | **Jeb Blount** | Fanatical Prospecting, Golden Hours, Law of Replacement | `https://github.com/LeadMagic/gtm-skills/blob/main/references/jeb-blount-prospecting.md` | `cold-calling`, `multi-channel-outreach`, `pipeline-management` |
@@ -26,7 +26,7 @@ Quick router for outbound, discovery, and pipeline experts. Full bios → `https
 | **Jacco (WbD)** | SPICED discovery | `meeting-prep/references/framework-notes.md` | `meeting-prep`, `pipeline-management` |
 | **Andy Whyte** | MEDDICC qualification | `meeting-prep/references/framework-notes.md` | `meeting-prep`, `pipeline-management` |
 
-**Phone expert router:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/cold-calling-experts-index.md`
+**Phone expert router:** `references/cold-calling-experts-index.md`
 
 ## Recommended Stacks
 

@@ -101,7 +101,7 @@ This skill draws from the following established methodologies:
   active send capacity, **50% spare warming** at all times. Scale math: target
   daily volume ÷ 30 sends/inbox ÷ 2 inboxes/domain = domains needed. Pair with
   `email-deliverability` for warmup and monitoring. Playbook →
-  `../cold-email-strategy/references/eric-nowoslawski-outbound.md`.
+  `references/eric-nowoslawski-outbound.md`.
 
 ## Prerequisites
 
@@ -482,7 +482,7 @@ Use `references/provider-decision-matrix.md` when the task requires provider com
 - `references/framework-notes.md` — Framework index and authority routing
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-- `../cold-email-strategy/references/eric-nowoslawski-outbound.md` — Inbox/domain ratio, backup capacity, scale math (Eric Nowoslawski)
+- `references/eric-nowoslawski-outbound.md` — Inbox/domain ratio, backup capacity, scale math (Eric Nowoslawski)
 - `references/deliverability-primer.md` — Deliverability fundamentals
 - `references/output-artifacts.md` — Extended output tables and inventories
 - `references/provider-decision-matrix.md` — Mailbox provider comparison

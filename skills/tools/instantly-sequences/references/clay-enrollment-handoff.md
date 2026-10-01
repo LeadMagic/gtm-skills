@@ -14,7 +14,7 @@ AND icp_score >= threshold
 AND personalization column not empty (why_now OR hook_line)
 ```
 
-Cross-ref: `../../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
+Cross-ref: `references/pat-spielmann-outbound-copy.md`
 
 ## Required Clay Export Fields
 
@@ -46,7 +46,7 @@ From `tools/clay-loops-toolkit` ACTION table:
 2. Map `signal_type` → Instantly campaign (one signal = one campaign)
 3. Pass `why_now` into Email 1 merge field — do not genericize
 
-Load loop catalog: `../../../tools/clay-loops-toolkit/references/loop-catalog.md`
+Load loop catalog: `references/loop-catalog.md`
 
 ## Eric Nowoslawski Volume Check
 

@@ -22,12 +22,14 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
-- Phase 6
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Incorporation
+- Phase 2: IP Assignment
+- Phase 3: Terms of Service (ToS)
+- Phase 4: Privacy Policy
+- Phase 5: NDAs and Consulting Agreements
+- Phase 6: Fundraising Legal
 
 ## Agent routing
 

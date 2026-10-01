@@ -1,9 +1,11 @@
 ---
 name: onboarding-sequences
 description: >-
-  Design customer onboarding sequences — time-to-first-value, activation milestones,
-  guided setup, onboarding emails. Triggers on: "onboarding sequence", "customer
-  onboarding", "time to value", "activation flow", "new customer setup".
+  Designs customer onboarding sequences: time-to-first-value targets, activation
+  milestones, guided setup, and onboarding emails. Use when the user is building
+  onboarding for new customers, reducing time to value, or fixing activation
+  drop-off. Triggers on: "onboarding sequence", "customer onboarding", "time to
+  value", "activation flow", "new customer setup".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
@@ -12,9 +14,9 @@ metadata:
   category: lifecycle
   tags: [lifecycle, onboarding, activation, time-to-value, customer-success]
   frameworks:
-    - "Lincoln Murphy Desired Outcome"
-    - "Gainsight Onboarding Framework"
-    - "Reforge — Lifecycle Marketing"
+    - "Lincoln Murphy — Desired Outcome"
+    - "Wes Bush — Product-Led Onboarding"
+    - "Samuel Hulick — UserOnboard"
 ---
 
 # Customer Onboarding Sequences
@@ -26,10 +28,9 @@ drives customers to their first value moment within 7 days reduces churn
 by 30-50%. This skill covers design and execution.
 
 ## Authoritative Foundations
-
-- **Lincoln Murphy Desired Outcome** — Named methodology governing recommendations in this skill's process.
-- **Gainsight Onboarding Framework** — Named methodology governing recommendations in this skill's process.
-- **Reforge — Lifecycle Marketing** — Startup operating cadence — default alive, talk to users, launch fast.
+- **Lincoln Murphy — Desired Outcome** — Onboarding succeeds when the customer reaches their required outcome in the right way; design milestones backward from that outcome.
+- **Wes Bush — Product-Led Onboarding** — Remove steps that don't move users toward the first value moment, and measure time to first value.
+- **Samuel Hulick — UserOnboard** — Frame onboarding around the user becoming more capable, not around touring features.
 
 ## When to Use
 - "Build onboarding sequence"
@@ -42,7 +43,7 @@ by 30-50%. This skill covers design and execution.
 
 **Activation** (stage 3). Canonical definitions → `references/gtm-lifecycle-stages.md`.  
 Deep dive (TTA benchmarks, audit, anti-patterns) → `references/activation-playbook.md`.  
-Metrics & monitoring → `references/lifecycle-metrics-by-stage.md`, `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md`.
+Metrics & monitoring → `references/lifecycle-metrics-by-stage.md`, the `gtm-metrics` skill (lifecycle-monitoring-dashboard.md).
 
 ## Core Principle
 > Customers don't churn because your product is bad — they churn because they
@@ -129,11 +130,11 @@ Before delivering, verify:
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-**Canonical lifecycle (repo root):**
+**Canonical lifecycle:**
 - `references/gtm-lifecycle-stages.md` — Stage index (Activation row)
 - `references/activation-playbook.md` — First value event, TTA, audit checklist
 - `references/lifecycle-metrics-by-stage.md` — Activation metrics + thresholds
-- `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md` — Weekly activation panel
+- the `gtm-metrics` skill (lifecycle-monitoring-dashboard.md) — Weekly activation panel
 - `references/lifecycle-skill-index.md` — Lifecycle cluster router
 
 ## Related Skills

@@ -24,15 +24,7 @@ metadata:
       conversion,
       dashboards,
     ]
-  related_skills:
-    [
-      claude-design,
-      popular-web-designs,
-      landing-pages,
-      design-system-gtm,
-      effective-ui-design,
-      a-b-testing,
-    ]
+  related_skills: [landing-pages, design-system-gtm, a-b-testing]
   frameworks:
     - "Nielsen Norman Group — UX Research and Usability Heuristics"
     - "Baymard Institute — E-commerce/Form UX Research"

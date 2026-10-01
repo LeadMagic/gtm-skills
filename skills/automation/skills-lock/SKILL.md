@@ -9,7 +9,7 @@ metadata:
   author: LeadMagic
   category: automation
   tags: [skills-lock, integrity, sha256, artifacts, ci]
-  related_skills: [agent-skills-repo-authoring, hermes-agent-skill-authoring]
+  related_skills: [using-gtm-skills, mcp-setup]
   frameworks:
     - "Agent Skills specification — progressive disclosure and portable skill packaging"
     - "NIST FIPS 180-4 — SHA-256 secure hash standard"

@@ -15,7 +15,7 @@ metadata:
   author: LeadMagic
   category: creative
   tags: [v0, vercel, landing-page, ai-ui, generative-ui, react, nextjs, tailwind]
-  related_skills: [vibe-coding, vibe-marketing, landing-pages, design-system-gtm, popular-web-designs, claude-design, ui-ux-gtm]
+  related_skills: [vibe-coding, vibe-marketing, landing-pages, design-system-gtm, ui-ux-gtm]
   frameworks:
     - "v0 by Vercel — Generative UI platform (Guillermo Rauch)"
     - "shadcn/ui — Component library powering v0"
@@ -36,10 +36,10 @@ page with v0.
 
 ## Authoritative Foundations
 
-- **v0 by Vercel — Generative UI platform (Guillermo Rauch)** — Generative UI platform (Guillermo Rauch)
-- **shadcn/ui — Component library powering v0** — Component library powering v0
-- **Tailwind CSS — Utility-first CSS framework** — Utility-first CSS framework
-- **Next.js — React framework for production** — React framework for production
+- **v0 by Vercel** — Generative UI platform (Guillermo Rauch)
+- **shadcn/ui** — Component library powering v0
+- **Tailwind CSS** — Utility-first CSS framework
+- **Next.js** — React framework for production
 
 ## When to Use
 

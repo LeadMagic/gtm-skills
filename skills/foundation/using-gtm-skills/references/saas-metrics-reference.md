@@ -2,9 +2,9 @@
 
 # SaaS Metrics Reference
 
-Shared reference for analytics, founder-led, and deal desk skills. **Formulas are canonical here.** **Benchmark thresholds** when sources conflict → `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md`.
+Shared reference for analytics, founder-led, and deal desk skills. **Formulas are canonical here.** **Benchmark thresholds** when sources conflict → `references/benchmark-reconciliation.md`.
 
-Sources: ChartMogul, Baremetrics, OpenView, SaaS Capital, KeyBanc/Benchmarkit (private), **Meritech Capital** (public) — see `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md`.
+Sources: ChartMogul, Baremetrics, OpenView, SaaS Capital, KeyBanc/Benchmarkit (private), **Meritech Capital** (public) — see `references/meritech-saas-benchmarks.md`.
 
 ## Core Metrics
 
@@ -83,7 +83,7 @@ NRR = (Starting MRR + Expansion − Contraction − Churned MRR) ÷ Starting MRR
 | Mid-market | >110% | Series A gate ≥105% |
 | Enterprise | >120% | Public leaders 120%+; Meritech public median ~108–111% |
 
-Full threshold reconciliation → `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md`
+Full threshold reconciliation → `references/benchmark-reconciliation.md`
 
 ### Magic Number
 

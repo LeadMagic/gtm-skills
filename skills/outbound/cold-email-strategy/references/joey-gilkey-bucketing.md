@@ -4,7 +4,7 @@
 
 **Sources:** Joey Gilkey — [titanx.io](https://www.titanx.io/) · [Disposition Science guide](https://titanx.io/news/sales-call-dispositions-guide) · [Pipeline diagnosis via dispositions](https://titanx.io/news/how-sales-call-dispositions-diagnose-pipeline-problems) · [Precision Dialing Manifesto](https://titanx.io/manifesto) · [The B2B Playbook — conversations over meetings](https://theb2bplaybook.com/outbound-sales-strategy-b2b) · 💼 [LinkedIn](https://www.linkedin.com/in/joeygilkey/) · ▶ [Latka Podcast — TitanX founding story](https://www.youtube.com/watch?v=mxiCodnXo6U)
 
-**Canonical expert entry:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` → Joey Gilkey
+**Canonical expert entry:** `references/experts.md` → Joey Gilkey
 
 **Identity:** Founder & CEO **TitanX** (Phone Intent Platform™; acquired Phone Ready Leads® IP and FrontSpin). Serial entrepreneur; previously ran a seven-figure agency before betting on precision phone-led outbound.
 
@@ -109,7 +109,7 @@ Phone and email are **complementary** — disposition data tells you which chann
 ## Cross-Links
 
 - **List strategy:** Jordan Crawford PQS/PVP (`cold-email-strategy/references/jordan-crawford-blueprint-gtm.md`) — pain-based segments feed Gilkey list lever
-- **Daily rep workflow:** Ryan Reisert CRM Activity Buckets (`https://github.com/LeadMagic/gtm-skills/blob/main/references/ryan-reisert-cold-calling.md`)
+- **Daily rep workflow:** Ryan Reisert CRM Activity Buckets (`references/ryan-reisert-cold-calling.md`)
 - **Cold call execution:** Ronen Pessar ColdCall-Market Fit (`https://github.com/LeadMagic/gtm-skills/blob/main/references/ronen-pessar-cold-calling.md`)
 - **SDR coaching:** Tom Slocum 3x3 + call blocks (`https://github.com/LeadMagic/gtm-skills/blob/main/references/tom-slocum-cold-calling.md`)
 

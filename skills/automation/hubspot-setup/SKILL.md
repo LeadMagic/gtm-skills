@@ -14,9 +14,9 @@ metadata:
   category: automation
   tags: [hubspot, crm, setup, marketing, sales, lifecycle, contacts]
   frameworks:
-    - "HubSpot Smart CRM Framework"
-    - "Lifecycle Stage Model"
-    - "HubSpot Academy — CRM Automation"
+    - "HubSpot Knowledge Base — Lifecycle stages"
+    - "HubSpot Academy — CRM setup"
+    - "Winning by Design — Revenue Architecture"
   related_skills: [crm-toolkit, crm-integration, pipeline-management, salesforce-setup, attio-setup]
 ---
 
@@ -31,10 +31,9 @@ covers setup for GTM teams: deal pipelines, lifecycle stages, marketing
 automation, reporting, and enrichment integration.
 
 ## Authoritative Foundations
-
-- **HubSpot Smart CRM Framework** — Lifecycle stages, object model, and workflow enrollment patterns.
-- **Lifecycle Stage Model** — Startup operating cadence — default alive, talk to users, launch fast.
-- **HubSpot Academy — CRM Automation** — Lifecycle stages, object model, and workflow enrollment patterns.
+- **HubSpot Knowledge Base — Lifecycle stages** — Define entry criteria for each lifecycle stage and let stages move forward only, so funnel reporting stays trustworthy.
+- **HubSpot Academy — CRM setup** — Configure objects, associations, properties, and pipelines before importing data or building workflows.
+- **Winning by Design — Revenue Architecture** — Bowtie lifecycle model — align sales, marketing, and CS on stage-based outcomes.
 
 ## When to Use
 

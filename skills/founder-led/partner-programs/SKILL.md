@@ -9,7 +9,7 @@ metadata:
   author: LeadMagic
   category: founder-led
   tags: [partners, channel, co-marketing, integrations, reseller, agency, referral]
-  related_skills: [sales-team-building, fundraising-strategy, content-led-growth, launching-planning]
+  related_skills: [sales-team-building, fundraising-strategy, content-led-growth, launch-planning]
   frameworks:
     - "Crossbeam — Partner-Led Growth"
     - "Jay McBain — Ecosystem-Led Growth"

@@ -18,12 +18,14 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
-- Phase 6
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Identify Your Gaps
+- Phase 2: Source Candidates
+- Phase 3: The Advisor Pitch Meeting
+- Phase 4: Structure the Agreement
+- Phase 5: Extract Maximum Value
+- Phase 6: Fire Advisors Who Don't Deliver
 
 ## Agent routing
 

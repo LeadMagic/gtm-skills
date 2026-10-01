@@ -1,13 +1,14 @@
 ---
 name: legal-for-founders
 description: >-
-  Complete legal playbook for SaaS founders — incorporation (Delaware C-Corp
-  vs LLC), IP assignment, Terms of Service, Privacy Policy, NDAs, consulting
-  agreements, co-founder IP, fundraising legal (SAFE, priced round, board
-  consents), and when to hire a lawyer. Step-by-step checklists with YC,
-  CooleyGO, Clerky, and Orrick resources. Triggers on: "legal for startup",
-  "incorporate", "Terms of Service", "Privacy Policy", "NDA", "SAFE",
-  "startup legal", "founder legal basics".
+  Covers founder legal basics with step-by-step checklists: incorporation
+  (Delaware C-Corp vs LLC), IP assignment, Terms of Service, Privacy Policy,
+  NDAs, consulting agreements, fundraising documents (SAFE, priced round, board
+  consents), and when to hire a lawyer, citing YC, CooleyGO, Clerky, and Orrick
+  resources. Use when a founder is incorporating, drafting customer terms,
+  raising money, or deciding whether they need a lawyer. Not legal advice.
+  Triggers on: "legal for startup", "incorporate", "Terms of Service", "Privacy
+  Policy", "NDA", "SAFE", "startup legal", "founder legal basics".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
@@ -41,11 +42,11 @@ without spending $50K on lawyers.
 ## Authoritative Foundations
 
 - **YC Startup Documents (YC SAFE, Series Seed, incorporation docs)** — Startup operating cadence — default alive, talk to users, launch fast.
-- **Clerky — Standard incorporation, equity, and fundraising docs** — Standard incorporation, equity, and fundraising docs
-- **CooleyGO — Free startup legal resources (Cooley LLP)** — Free startup legal resources (Cooley LLP)
-- **Orrick — Startup legal toolkit** — Startup legal toolkit
-- **Fenwick & West — Startup legal guides** — Startup legal guides
-- **Alex Macgillivray (Twitter, Google GC) — Platform legal** — Platform legal
+- **Clerky** — Standard incorporation, equity, and fundraising docs
+- **CooleyGO** — Free startup legal resources (Cooley LLP)
+- **Orrick** — Startup legal toolkit
+- **Fenwick & West** — Startup legal guides
+- **Alex Macgillivray (Twitter, Google GC)** — Platform legal
 
 ## When to Use
 

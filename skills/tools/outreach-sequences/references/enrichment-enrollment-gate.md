@@ -13,7 +13,7 @@ AND Prospect.suppression != true
 AND Account.icp_tier IN (target tiers)
 ```
 
-Cross-ref: `../../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
+Cross-ref: `references/pat-spielmann-outbound-copy.md`
 
 ## Clay → Outreach via CRM
 
@@ -38,7 +38,7 @@ Alternative: Outreach API enrollment from n8n OUT-01 with verify gate in workflo
 | `why_now` | Claygent | Step 1 merge tag |
 | `source_url` | Monitor | Rep context in task |
 
-Load Clay patterns: `../../../tools/clay-toolkit/references/gtm-table-blueprints.md`
+Load Clay patterns: `references/gtm-table-blueprints.md`
 
 ## Trigger Architecture
 
@@ -55,4 +55,4 @@ Load Clay patterns: `../../../tools/clay-toolkit/references/gtm-table-blueprints
 
 High-volume outbound via Outreach still requires infra discipline if using connected mailboxes — 30 sends/day/inbox, secondary domains only.
 
-Cross-ref: `../../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md`
+Cross-ref: `references/eric-nowoslawski-outbound.md`

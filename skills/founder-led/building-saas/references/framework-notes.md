@@ -19,10 +19,12 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: $0-10K MRR — Validation
+- Phase 2: $10-100K MRR — Repeatability
+- Phase 3: $100K-2M ARR — Growth
+- Phase 4: $2-10M ARR — Scale
 
 ## Agent routing
 

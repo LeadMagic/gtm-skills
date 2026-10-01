@@ -1,9 +1,11 @@
 ---
 name: abm-1-to-many
 description: >-
-  Execute Programmatic ABM (1-to-many) for 50-200+ accounts — automated personalization,
-  scaled outbound, lookalike expansion. Triggers on: "1-to-many ABM", "programmatic ABM",
-  "scaled ABM", "automated ABM".
+  Runs programmatic 1-to-many ABM for 50-200+ accounts: automated
+  personalization, scaled outbound, intent-based targeting, and lookalike
+  expansion. Use when ABM coverage must grow without adding headcount or when
+  the user wants automated account-based outreach. Triggers on: "1-to-many ABM",
+  "programmatic ABM", "scaled ABM", "automated ABM".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
@@ -12,8 +14,8 @@ metadata:
   category: abm
   tags: [abm, 1-to-many, programmatic-abm, scaled, automation]
   frameworks:
-    - "TOPO Programmatic ABM"
-    - "Clay Automation Patterns"
+    - "TOPO (now Gartner) — Programmatic ABM"
+    - "Clay — Waterfall enrichment"
     - "ITSMA — Account-Based Marketing"
 ---
 
@@ -25,9 +27,8 @@ and scaled personalization. This tier uses the same methodology as 1-to-1 and
 1-to-few but replaces manual effort with AI and workflow automation.
 
 ## Authoritative Foundations
-
-- **TOPO Programmatic ABM** — Named methodology governing recommendations in this skill's process.
-- **Clay Automation Patterns** — Waterfall enrichment, Claygent research, and table-based GTM automation.
+- **TOPO (now Gartner) — Programmatic ABM** — Treat 1:many as automated personalization by segment: shared messaging, intent-triggered plays, and account-level measurement.
+- **Clay — Waterfall enrichment** — Waterfall enrichment, Claygent research, and table-based automation for building and refreshing large account lists.
 - **ITSMA — Account-Based Marketing** — Tier-based ABM (1:1 / 1:few / 1:many); measure pipeline from target accounts, not lead volume.
 
 ## When to Use

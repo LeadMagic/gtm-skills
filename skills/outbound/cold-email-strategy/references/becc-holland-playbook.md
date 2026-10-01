@@ -1,3 +1,5 @@
+<!-- AUTO-GENERATED shared reference: references/becc-holland-playbook.md; run npm run regenerate. -->
+
 # Becc Holland — Flip the Script Playbook
 
 **Sources:** Becc Holland — [Flip the Script](https://www.flipthescript.com/) · 💼 [LinkedIn](https://www.linkedin.com/in/beccholland-flipthescript/) · [How to Craft a Stellar Cold Email (guide)](https://www.flipthescript.com/written-how-to-craft-a-stellar-cold-email) · [Diagnostic Selling — GTMnow](https://gtmnow.com/webinar-discovery-call-diagnostic-selling-secrets/) · [Encyclopedia of Sales Plays (w/ Scott Barker)](https://www.flipthescript.com/encyclopedia-of-sales-plays-webinar) · 🎙 [Revenue.io — State of Sales Development](https://www.revenue.io/podcasts/the-state-of-sales-development-with-becc-holland-episode-825)

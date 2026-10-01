@@ -79,7 +79,7 @@ IC plan templates live in `gtm-role-descriptions`; **strategy and worksheets** l
 
 1. `references/gtm-compensation-strategy.md` — philosophy, role strategies, stage gates
 2. `references/comp-by-role-stage.md` — matrix by ARR band
-3. `skills/founder-led/gtm-role-descriptions/references/comp-benchmarks.md` (via `gtm-role-descriptions`) — H1 2026 bands
+3. `references/comp-benchmarks.md` (via `gtm-role-descriptions`) — H1 2026 bands
 4. `templates/comp-plan-design-worksheet.md` — plan design
 5. `templates/ote-calculator-template.md` — quota math + scenarios
 
@@ -228,7 +228,7 @@ Do not pay CRO on bookings alone when GAAP revenue trails contracts.
 - `references/comp-by-role-stage.md` — role × ARR stage matrix
 - `templates/comp-plan-design-worksheet.md` — plan design worksheet
 - `templates/ote-calculator-template.md` — OTE, quota, accelerator scenarios
-- `../gtm-leadership/references/cro-enterprise-strategy.md` — Consumption comp alignment, McMahon board gates (Pattern 31)
+- `references/cro-enterprise-strategy.md` — Consumption comp alignment, McMahon board gates (Pattern 31)
 - `references/executive-clause-library.md` — full clause text blocks
 - `references/executive-comp-benchmarks.md` — Pavilion/Bridge bands
 - `references/pavilion-cro-comp.md` — Sam Jacobs / CRO Council patterns

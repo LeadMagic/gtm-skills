@@ -4,7 +4,7 @@
 
 **Sources:** Anthony Iannarino — [The Sales Blog](https://thesalesblog.com/) · [*The Only Sales Guide You'll Ever Need*](https://www.amazon.com/Only-Sales-Guide-Youll-Ever/dp/0399174826) · [*Eat Their Lunch*](https://www.amazon.com/Eat-Their-Lunch-Winning-Customers/dp/0525537304) · 💼 [LinkedIn](https://www.linkedin.com/in/iannarino/) · ▶ [The Sales Blog YouTube](https://www.youtube.com/c/TheSalesBlog)
 
-**Canonical expert entry:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` → Anthony Iannarino
+**Canonical expert entry:** `references/experts.md` → Anthony Iannarino
 
 ---
 

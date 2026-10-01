@@ -3,7 +3,7 @@
 # Lifecycle Metrics by Stage
 
 Metric definitions, formulas, and **R/Y/G thresholds** by lifecycle stage.
-**Canonical stage index:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-lifecycle-stages.md`
+**Canonical stage index:** `references/gtm-lifecycle-stages.md`
 **Dashboard template:** `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md`
 **Calculator:** `saas-metrics-calculator` · **Board stack:** `analytics/gtm-metrics`
 

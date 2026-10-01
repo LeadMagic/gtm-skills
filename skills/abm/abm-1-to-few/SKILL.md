@@ -1,9 +1,11 @@
 ---
 name: abm-1-to-few
 description: >-
-  Execute ABM at Scale (1-to-few) for 15-50 clustered accounts — semi-custom campaigns,
-  industry-specific content, persona-based plays. Triggers on: "1-to-few ABM", "ABM scale",
-  "cluster ABM", "industry ABM".
+  Runs ABM at scale (1-to-few) for 15-50 clustered accounts: industry or persona
+  clusters, semi-custom campaigns, and cluster-level content. Use when
+  named-account ABM needs to reach more accounts without bespoke work per
+  account. Triggers on: "1-to-few ABM", "ABM scale", "cluster ABM", "industry
+  ABM".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
@@ -12,8 +14,8 @@ metadata:
   category: abm
   tags: [abm, 1-to-few, scale-abm, industry-clusters, b2b]
   frameworks:
-    - "TOPO ABM Scale Framework"
-    - "Force Management MEDDICC"
+    - "TOPO (now Gartner) — 1:few ABM clusters"
+    - "Force Management — MEDDICC"
     - "ITSMA — Account-Based Marketing"
 ---
 
@@ -26,9 +28,8 @@ sweet spot where you get 80% of 1-to-1 results at 20% of the effort — if you
 cluster correctly and build semi-custom assets that feel personalized.
 
 ## Authoritative Foundations
-
-- **TOPO ABM Scale Framework** — Named methodology governing recommendations in this skill's process.
-- **Force Management MEDDICC** — Command of the Message — persona-specific value narrative and differentiation per stakeholder.
+- **TOPO (now Gartner) — 1:few ABM clusters** — Cluster 15-50 accounts by a shared trait (vertical, use case, trigger, or competitor) and build one semi-custom play per cluster instead of per account.
+- **Force Management — MEDDICC** — Confirm a champion and economic buyer in every clustered account before scaling the play; cluster content does not replace per-account qualification.
 - **ITSMA — Account-Based Marketing** — Tier-based ABM (1:1 / 1:few / 1:many); measure pipeline from target accounts, not lead volume.
 
 ## When to Use

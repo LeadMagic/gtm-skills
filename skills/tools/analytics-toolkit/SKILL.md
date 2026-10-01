@@ -33,11 +33,11 @@ This skill covers setup and optimization across the analytics stack.
 
 ## Authoritative Foundations
 
-- **Segment — CDP with 400+ destinations** — CDP with 400+ destinations
-- **Amplitude — Product analytics, behavioral cohorts, experiment** — Product analytics, behavioral cohorts, experiment
-- **PostHog — Open-source analytics, session recording, feature flags** — Open-source analytics, session recording, feature flags
-- **Mixpanel — Event-based product analytics** — Event-based product analytics
-- **GA4 — Google Analytics for web + app** — Google Analytics for web + app
+- **Segment** — CDP with 400+ destinations
+- **Amplitude** — Product analytics, behavioral cohorts, experiment
+- **PostHog** — Open-source analytics, session recording, feature flags
+- **Mixpanel** — Event-based product analytics
+- **GA4** — Google Analytics for web + app
 
 ## When to Use
 

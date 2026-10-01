@@ -4,9 +4,9 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **Cialdini Visual Persuasion**
-- **Tufte Data Visualization**
-- **Ann Handley — Everybody Writes**
+- **Robin Williams — The Non-Designer's Design Book** — Apply contrast, repetition, alignment, and proximity (CRAP) to make GTM assets readable at a glance.
+- **Edward Tufte — The Visual Display of Quantitative Information** — Maximize data-ink and remove chartjunk so the key number is obvious.
+- **Robert Cialdini — Influence** — Influence principles — reciprocity, social proof, authority in copy.
 
 ## Authoritative foundations
 

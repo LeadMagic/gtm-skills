@@ -1,9 +1,11 @@
 ---
 name: churn-prediction
 description: >-
-  Build churn prediction models — leading indicators, risk scoring, early warning
-  systems, intervention playbooks. Triggers on: "churn prediction", "predict churn",
-  "churn model", "early warning", "risk scoring".
+  Builds churn prediction: leading indicators, account risk scores,
+  early-warning alerts, and intervention playbooks tied to each risk level. Use
+  when the user wants to predict which accounts will churn, score churn risk, or
+  set up a retention early-warning system. Triggers on: "churn prediction",
+  "predict churn", "churn model", "early warning", "risk scoring".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
@@ -12,9 +14,9 @@ metadata:
   category: lifecycle
   tags: [lifecycle, churn-prediction, risk-scoring, retention, analytics]
   frameworks:
-    - "Gainsight Churn Prediction Model"
-    - "Retention Science Framework"
-    - "Reforge — Lifecycle Marketing"
+    - "Gainsight — Customer health scores"
+    - "Lincoln Murphy — Desired Outcome"
+    - "Patrick Campbell (ProfitWell) — Voluntary vs involuntary churn"
 ---
 
 # Churn Prediction
@@ -27,10 +29,9 @@ This skill covers modeling leading indicators, building risk scores, and
 designing intervention playbooks.
 
 ## Authoritative Foundations
-
-- **Gainsight Churn Prediction Model** — Named methodology governing recommendations in this skill's process.
-- **Retention Science Framework** — Named methodology governing recommendations in this skill's process.
-- **Reforge — Lifecycle Marketing** — Startup operating cadence — default alive, talk to users, launch fast.
+- **Gainsight — Customer health scores** — Combine product usage, support signals, relationship depth, and sentiment into a weighted score with clear red, yellow, and green thresholds.
+- **Lincoln Murphy — Desired Outcome** — Customers churn when they stop reaching their desired outcome; predict churn from outcome progress, not logins alone.
+- **Patrick Campbell (ProfitWell) — Voluntary vs involuntary churn** — Model failed-payment churn separately; it has different leading indicators and fixes than dissatisfaction churn.
 
 ## When to Use
 - "Build a churn prediction model"
@@ -43,7 +44,7 @@ designing intervention playbooks.
 
 **Retention** (stage 6). Canonical index → `references/gtm-lifecycle-stages.md`.  
 Metrics → `references/lifecycle-metrics-by-stage.md` (Retention).  
-Scorecard → `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md` (Retention panel).
+Scorecard → the `gtm-metrics` skill (stage-health-scorecard.md) (Retention panel).
 
 ## Core Principle
 > The best churn signal is not "they stopped paying" — it's the behavior
@@ -164,7 +165,7 @@ Before delivering, verify:
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Retention) · `references/lifecycle-metrics-by-stage.md` · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md`
+**Canonical lifecycle:** `references/gtm-lifecycle-stages.md` (Retention) · `references/lifecycle-metrics-by-stage.md` · the `gtm-metrics` skill (stage-health-scorecard.md)
 
 ## Related Skills
 - churn-prevention, cs-playbooks, onboarding-sequences, lifecycle-drips, expansion-selling

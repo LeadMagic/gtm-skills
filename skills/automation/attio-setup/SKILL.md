@@ -14,9 +14,9 @@ metadata:
   category: automation
   tags: [attio, crm, setup, programmable, modern, contacts]
   frameworks:
-    - "Attio Programmable CRM Model"
-    - "Modern CRM Architecture"
-    - "HubSpot Academy — CRM Automation"
+    - "Attio Help Center — Objects, lists, and attributes"
+    - "Attio — Workflows"
+    - "Winning by Design — Revenue Architecture"
   related_skills: [crm-toolkit, crm-integration, pipeline-management, hubspot-setup, salesforce-setup]
 ---
 
@@ -31,10 +31,9 @@ and API-first architecture. Best for startups and growth-stage B2B SaaS that
 find HubSpot too rigid and Salesforce too heavy.
 
 ## Authoritative Foundations
-
-- **Attio Programmable CRM Model** — Shapes deliverables for this skill — Attio is the modern programmable CRM.
-- **Modern CRM Architecture** — Shapes deliverables for this skill — Attio is the modern programmable CRM.
-- **HubSpot Academy — CRM Automation** — Lifecycle stages, object model, and workflow enrollment patterns.
+- **Attio Help Center — Objects, lists, and attributes** — Model standard and custom objects and their attributes before importing; use lists for pipelines and workflows rather than duplicating records.
+- **Attio — Workflows** — Automate record-change triggers such as enrichment on create, owner assignment, and stage-based tasks inside the CRM.
+- **Winning by Design — Revenue Architecture** — Bowtie lifecycle model — align sales, marketing, and CS on stage-based outcomes.
 
 ## When to Use
 

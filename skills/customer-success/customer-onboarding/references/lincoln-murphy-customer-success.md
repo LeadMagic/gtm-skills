@@ -79,4 +79,4 @@ Public: [Gainsight](https://www.gainsight.com/) · [Nick Mehta LinkedIn](https:/
 
 `customer-onboarding`, `cs-playbooks`, `churn-prevention`, `qbr-planning`, `expansion-selling`, `onboarding-sequences`
 
-**Cross-links:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/lifecycle-skill-index.md` · Pattern 18 · `https://github.com/LeadMagic/gtm-skills/blob/main/references/activation-playbook.md`
+**Cross-links:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/lifecycle-skill-index.md` · Pattern 18 · `references/activation-playbook.md`

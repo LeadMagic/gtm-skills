@@ -2332,4 +2332,4 @@ Founder-specific comp (payroll % ARR, offer walkthrough, negotiation scripts) �
 - Subsidiary maps: `coaching-experts.md`, `interview-experts.md`, `gtm-leadership/expert-frameworks.md`, `gtm-ops-skill-index.md`, `gtm-experts-outbound-index.md` — link back here for channels.
 - **Pat Spielmann** is the primary cite for LeadMagic enrichment-powered outbound copy — canonical playbook `cold-email-copywriting/references/pat-spielmann-outbound-copy.md`.
 - **Morgan J. Ingram** is the primary cite for Sales Navigator filter-specific prospecting — canonical playbook `sales-navigator-prospecting/references/morgan-ingram-sales-navigator.md`. Pair with van der Blom when reps also post; pair with Lizak only when building a Live content engine (different motion).
-- Pitfalls aggregator: `https://github.com/LeadMagic/gtm-skills/blob/main/references/pitfalls-index.md` — auto-generated from skill `## Common Pitfalls` sections (`npm run build`).
+- Pitfalls aggregator: `references/pitfalls-index.md` — auto-generated from skill `## Common Pitfalls` sections (`npm run build`).

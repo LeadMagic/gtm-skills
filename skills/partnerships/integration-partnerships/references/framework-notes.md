@@ -4,23 +4,19 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **Technology Partnership Framework**
-- **Platform Ecosystem Strategy**
-- **Crossbeam — Ecosystem-Led Growth**
-
-## Authoritative foundations
-
-- **Technology Partnership Framework** — Named methodology governing recommendations in this skill's process.
-- **Platform Ecosystem Strategy** — Named methodology governing recommendations in this skill's process.
-- **Crossbeam — Ecosystem-Led Growth** — Ecosystem-Led Growth
+- **Bob Moore — Ecosystem-Led Growth** — Prioritize integration partners by customer overlap and co-sell potential, not logo size.
+- **Salesforce AppExchange and HubSpot App Marketplace — Listing requirements** — Plan the security review, listing assets, and certification steps into the launch timeline.
+- **Jay McBain (Canalys) — Partner ecosystem influence** — Integrations extend the influence of every partner who recommends the tool; brief partner teams, not only customers.
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Integration Selection
+- Phase 2: Integration Design
+- Phase 3: Partner GTM Launch
+- Phase 4: Marketplace Presence
+- Phase 5: Co-Selling
 
 ## Agent routing
 

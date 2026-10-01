@@ -12,10 +12,9 @@ metadata:
   category: automation
   tags: [n8n, automation, workflows, pipelines]
   frameworks:
-    - "Jen Igartua (Go Nimbly) — RevOps automation maturity and orchestration roadmap"
-    - "n8n Workflow Automation Framework"
-    - "iPaaS Integration Patterns"
-    - "HubSpot Academy — CRM Automation"
+    - "n8n docs — Workflows, webhooks, and HTTP Request node"
+    - "Jen Igartua (Go Nimbly) — RevOps automation maturity"
+    - "HubSpot developer docs — API limits and webhooks"
   related_skills: [n8n-toolkit, clay-automation, mcp-setup, api-enrichment, crm-integration]
 ---
 
@@ -38,11 +37,9 @@ This skill covers *when* to use n8n; the toolkit covers *how* to build.
 **Strategy first:** `references/gtm-automation-expert-playbook.md` (Jen Igartua — Pattern 30) before flow build.
 
 ## Authoritative Foundations
-
-- **Jen Igartua (Go Nimbly) — RevOps automation maturity and orchestration roadmap** — RevOps automation maturity and orchestration roadmap
-- **n8n Workflow Automation Framework** — Workflow automation — HTTP nodes, webhooks, and GTM glue between tools.
-- **iPaaS Integration Patterns** — Shapes deliverables for this skill — Clay handles enrichment workflows well.
-- **HubSpot Academy — CRM Automation** — Lifecycle stages, object model, and workflow enrollment patterns.
+- **n8n docs — Workflows, webhooks, and HTTP Request node** — Build GTM glue with webhook triggers, HTTP nodes, and a dedicated error workflow for failed runs.
+- **Jen Igartua (Go Nimbly) — RevOps automation maturity** — Automate stable, well-defined processes first; automating a broken process only makes it fail faster.
+- **HubSpot developer docs — API limits and webhooks** — Batch requests and back off on rate-limit responses when n8n writes to the CRM.
 
 ## When to Use
 

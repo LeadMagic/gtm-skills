@@ -4,9 +4,9 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **Content Distribution Matrix**
-- **Gary Vaynerchuk Content Model**
-- **Ann Handley — Everybody Writes**
+- **Ross Simmonds — Create Once, Distribute Forever** — Spend more effort distributing than creating; atomize one asset into channel-native pieces for every place your audience already is.
+- **Gary Vaynerchuk — Content model** — Turn one pillar piece (a talk, video, or report) into dozens of micro-content pieces sized for each platform.
+- **Ann Handley — Everybody Writes** — Rewrite, don't paste: adapt the voice and hook to each channel instead of cross-posting the same text.
 
 ## Authoritative foundations
 

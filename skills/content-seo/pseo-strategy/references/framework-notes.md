@@ -8,7 +8,7 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 - **Animalz / HubSpot cluster model** — Pillar + cluster internal linking; programmatic pages feed clusters, not replace pillars.
 - **Google Search Central** — Indexability, canonicals, thin-content policies; noindex low-value variants.
 
-**Parent playbook:** `references/seo-strategy-playbook.md` (repo root) · **Cluster skill:** `pillar-pages`
+**Parent playbook:** `references/seo-strategy-playbook.md` · **Cluster skill:** `pillar-pages`
 
 ## pSEO page types (B2B SaaS)
 

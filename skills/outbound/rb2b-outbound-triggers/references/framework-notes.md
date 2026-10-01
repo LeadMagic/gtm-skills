@@ -62,7 +62,7 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 | File                                               | Authority | Use when                                     |
 | -------------------------------------------------- | --------- | -------------------------------------------- |
-| `visitor-id-vendor-comparison.md` (repo root)      | LeadMagic | Comparing RB2B vs Clearbit, 6sense, Warmly   |
-| `visitor-identification-playbook.md` (repo root)   | LeadMagic | Building the full visitor ID program         |
-| `visitor-id-privacy-gtm.md` (repo root)            | LeadMagic | Privacy guardrails for person-level data     |
-| `person-vs-business-identification.md` (repo root) | LeadMagic | When to use person-level vs company-level ID |
+| `visitor-id-vendor-comparison.md`      | LeadMagic | Comparing RB2B vs Clearbit, 6sense, Warmly   |
+| `visitor-identification-playbook.md`   | LeadMagic | Building the full visitor ID program         |
+| `visitor-id-privacy-gtm.md`            | LeadMagic | Privacy guardrails for person-level data     |
+| `person-vs-business-identification.md` | LeadMagic | When to use person-level vs company-level ID |

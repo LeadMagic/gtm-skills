@@ -4,16 +4,10 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **David Spinks — Community-Led Growth**
-- **CMX Community Strategy**
-- **Seth Godin — Tribes**
-
-## Authoritative foundations
-
-- **David Spinks — Community-Led Growth** — Community-Led Growth
-- **CMX Community Strategy** — Shapes deliverables for this skill — Your location and network determine your startup's trajectory more than you
-think.
-- **Seth Godin — Tribes** — Tribes
+- **Brad Feld — Startup Communities (Boulder Thesis)** — Communities must be led by entrepreneurs, take a long-term view, include everyone, and run continuous activities.
+- **David Spinks — The Business of Belonging** — Tie community to a business outcome (support, product, acquisition, success) and measure it.
+- **CMX — SPACES model** — Pick the community's primary value: Support, Product, Acquisition, Contribution, Engagement, or Success.
+- **Seth Godin — Tribes** — People join tribes around a shared idea and a leader; give the community a reason to exist beyond your product.
 
 ## Agent routing
 

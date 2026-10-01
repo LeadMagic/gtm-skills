@@ -86,7 +86,7 @@ Walker argues B2B buyers need **multiple exposures** across channels before in-m
 | Stop over-indexing on last-click ROAS | Use holdout tests + pipeline cohorts |
 | LinkedIn for education, not lead forms | Video + thought leadership → retarget with offer |
 | Google Search for capture only | Demand creation elsewhere funds search efficiency |
-| Dark post engagement matters | Comment strategy on ICP influencer posts; paid B2B creator bundles → `https://github.com/LeadMagic/gtm-skills/blob/main/references/b2b-influencer-measurement.md` |
+| Dark post engagement matters | Comment strategy on ICP influencer posts; paid B2B creator bundles → `references/b2b-influencer-measurement.md` |
 
 ---
 

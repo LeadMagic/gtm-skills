@@ -39,11 +39,11 @@ keep it all clean.
 
 ## Authoritative Foundations
 
-- **Carta — Equity management platform and cap table benchmarks** — Equity management platform and cap table benchmarks
-- **Pulley — Cap table management for startups** — Cap table management for startups
-- **Fred Wilson (Union Square Ventures) — Employee equity** — Employee equity
-- **Andy Rachleff (Wealthfront) — Equity compensation** — Equity compensation
-- **Sam Altman — Employee equity** — Employee equity
+- **Carta** — Equity management platform and cap table benchmarks
+- **Pulley** — Cap table management for startups
+- **Fred Wilson (Union Square Ventures)** — Employee equity
+- **Andy Rachleff (Wealthfront)** — Equity compensation
+- **Sam Altman** — Employee equity
 - **Leo Polovets (Humba Ventures/YC) — Technical founder equity guide** — Startup operating cadence — default alive, talk to users, launch fast.
 
 ## When to Use

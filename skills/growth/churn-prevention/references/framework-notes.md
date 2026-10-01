@@ -22,10 +22,12 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Signal Detection
+- Phase 2: Health Scoring
+- Phase 3: Re-Engagement Playbooks
+- Phase 4: Champion Departure Protocol
 
 ## Key reference tables
 

@@ -41,12 +41,12 @@ marketers operate at team scale.
 
 ## Authoritative Foundations
 
-- **Andrej Karpathy — 'Vibe coding' applied to marketing: describe, generate, iterate** — 'Vibe coding' applied to marketing: describe, generate, iterate
-- **Gary Vaynerchuk — Content at scale: 64 pieces of content per day per platform** — Content at scale: 64 pieces of content per day per platform
-- **Dave Gerhardt (Exit Five) — B2B marketing that doesn't feel like marketing** — B2B marketing that doesn't feel like marketing
-- **Amanda Natividad (SparkToro) — Zero-click content, audience-first AI** — Zero-click content, audience-first AI
-- **Harry Dry (Marketing Examples) — Show, don't tell (visual proof)** — Show, don't tell (visual proof)
-- **Justin Welsh — Content operating system, repurposing lattice** — Content operating system, repurposing lattice
+- **Andrej Karpathy** — 'Vibe coding' applied to marketing: describe, generate, iterate
+- **Gary Vaynerchuk** — Content at scale: 64 pieces of content per day per platform
+- **Dave Gerhardt (Exit Five)** — B2B marketing that doesn't feel like marketing
+- **Amanda Natividad (SparkToro)** — Zero-click content, audience-first AI
+- **Harry Dry (Marketing Examples)** — Show, don't tell (visual proof)
+- **Justin Welsh** — Content operating system, repurposing lattice
 
 ## When to Use
 

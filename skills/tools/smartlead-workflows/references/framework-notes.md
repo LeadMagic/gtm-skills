@@ -4,9 +4,9 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **Smartlead Best Practices**
-- **Eric Nowoslawski Cold Email Infrastructure**
-- **Outreach — Sales Engagement Cadence Design**
+- **Smartlead Help Center** — Connect mailboxes, enable warmup, set per-mailbox limits and rotation, and route replies to the master inbox.
+- **Eric Nowoslawski — Cold email infrastructure** — Cold email infra at scale — 2 inboxes/domain, backup inboxes, Creative Ideas testing.
+- **Google and Yahoo — Bulk sender requirements (2024)** — Authenticate with SPF, DKIM, and DMARC, keep spam complaints below 0.3%, and honor unsubscribes quickly.
 
 ## Deep-dive references
 

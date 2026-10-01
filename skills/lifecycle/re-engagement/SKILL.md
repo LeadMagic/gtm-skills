@@ -1,9 +1,12 @@
 ---
 name: re-engagement
 description: >-
-  Design re-engagement campaigns for dormant leads and inactive customers —
-  win-back sequences, reactivation offers, sunset policies. Triggers on:
-  "re-engagement", "win-back", "reactivation", "dormant leads", "inactive customers".
+  Designs re-engagement for dormant leads and inactive customers: win-back
+  sequences, reactivation offers, and sunset policies that protect
+  deliverability. Use when the user wants to revive a cold database, win back
+  churned or inactive customers, or decide when to stop mailing unengaged
+  contacts. Triggers on: "re-engagement", "win-back", "reactivation", "dormant
+  leads", "inactive customers", "sunset policy".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
@@ -12,9 +15,9 @@ metadata:
   category: lifecycle
   tags: [lifecycle, re-engagement, win-back, reactivation, dormant]
   frameworks:
-    - "Win-Back Campaign Framework"
-    - "Retention Science Methodology"
-    - "Reforge — Lifecycle Marketing"
+    - "Google and Yahoo — Bulk sender requirements (2024)"
+    - "Validity — Sender reputation and list hygiene"
+    - "Patrick Campbell (ProfitWell) — Win-back and involuntary churn"
 ---
 
 # Re-Engagement Campaigns
@@ -27,10 +30,9 @@ requires different messaging than new prospect outreach. This skill covers win-b
 sequences for both prospects and customers.
 
 ## Authoritative Foundations
-
-- **Win-Back Campaign Framework** — Named methodology governing recommendations in this skill's process.
-- **Retention Science Methodology** — Named methodology governing recommendations in this skill's process.
-- **Reforge — Lifecycle Marketing** — Startup operating cadence — default alive, talk to users, launch fast.
+- **Google and Yahoo — Bulk sender requirements (2024)** — Unengaged recipients drive complaints; sunset them before they push spam rates past 0.3%.
+- **Validity — Sender reputation and list hygiene** — Suppress long-inactive addresses and spam traps; re-permission before mailing old lists.
+- **Patrick Campbell (ProfitWell) — Win-back and involuntary churn** — Separate failed-payment recovery from dissatisfied-customer win-back; they need different offers and timing.
 
 ## When to Use
 
@@ -153,7 +155,7 @@ Before delivering, verify:
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-  **Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Engagement, Retention) · `references/lifecycle-metrics-by-stage.md`
+  **Canonical lifecycle:** `references/gtm-lifecycle-stages.md` (Engagement, Retention) · `references/lifecycle-metrics-by-stage.md`
 
 ## Related Skills
 

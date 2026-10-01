@@ -42,12 +42,12 @@ for integration map, MCP setup, and when to choose Plain vs Intercom.
 
 ## Authoritative Foundations
 
-- **Intercom — Fin AI Agent and Resolution Bot** — Fin AI Agent and Resolution Bot
-- **Zendesk — AI Agents and Answer Bot** — AI Agents and Answer Bot
+- **Intercom** — Fin AI Agent and Resolution Bot
+- **Zendesk** — AI Agents and Answer Bot
 - **Plain — API-first headless support and BYOAI via MCP** — Model Context Protocol — tool servers for agent-safe CRM and enrichment access.
-- **Ada — Conversational AI for Support** — Conversational AI for Support
-- **Forethought — AI-First Customer Support** — AI-First Customer Support
-- **Amazon — Working Backwards (deflection reduces cost and improves CSAT)** — Working Backwards (deflection reduces cost and improves CSAT)
+- **Ada** — Conversational AI for Support
+- **Forethought** — AI-First Customer Support
+- **Amazon** — Working Backwards (deflection reduces cost and improves CSAT)
 
 ## When to Use
 

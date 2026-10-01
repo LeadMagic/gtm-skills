@@ -4,7 +4,7 @@
 
 **Sources:** David Sacks — [Craft Ventures](https://www.craftventures.com/) · [SaaStr](https://www.saastr.com/) (All-In podcast, SaaStr appearances) · 💼 [LinkedIn](https://www.linkedin.com/in/davidsacks/) · 𝕏 [@DavidSacks](https://x.com/DavidSacks)
 
-**Canonical expert entry:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` → David Sacks
+**Canonical expert entry:** `references/experts.md` → David Sacks
 
 **Note:** Sacks publishes via essays, SaaStr, and investor letters — not a single book. Pair with **David Skok** (formulas) and **Meritech/Bessemer** (comps).
 
@@ -24,7 +24,7 @@ Burn Multiple = Net Burn ÷ Net New ARR
 
 **Jason Lemkin popularized** burn multiple framing with Sacks on SaaStr — cite both in board decks.
 
-**Repo canonical thresholds:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md` (Burn Multiple row)
+**Repo canonical thresholds:** `references/benchmark-reconciliation.md` (Burn Multiple row)
 
 ---
 
@@ -66,4 +66,4 @@ Burn Multiple = Net Burn ÷ Net New ARR
 
 `saas-metrics-calculator`, `financial-modeling`, `fundraising-strategy`, `gtm-metrics`, `board-meeting-prep`, `gtm-spend-management`
 
-**Cross-links:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-cloud-atlas.md` · Meritech benchmarks
+**Cross-links:** `references/benchmark-reconciliation.md` · `references/bessemer-cloud-atlas.md` · Meritech benchmarks

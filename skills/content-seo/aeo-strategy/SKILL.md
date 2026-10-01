@@ -1,9 +1,13 @@
 ---
 name: aeo-strategy
 description: >-
-  Answer Engine Optimization — optimize content for AI search engines (ChatGPT,
-  Perplexity, Gemini, Claude). Triggers on: "AEO", "answer engine optimization",
-  "AI search", "generative engine optimization", "GEO", "optimize for AI search".
+  Builds an answer engine optimization (AEO/GEO) plan so content gets cited by
+  ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews: answer-first
+  structure, entity coverage, citation-worthy data, and AI-visibility
+  measurement. Use when the user wants to rank in AI search results or get their
+  brand cited by AI assistants. Triggers on: "AEO", "answer engine
+  optimization", "AI search", "generative engine optimization", "GEO", "optimize
+  for AI search", "get cited by ChatGPT".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
@@ -12,10 +16,10 @@ metadata:
   category: content-seo
   tags: [content-seo, AEO, AI-search, answer-engine, generative-search]
   frameworks:
-    - "Google AI Overviews — Optimization for Generative Search"
+    - "Google Search Central — AI features and your website"
     - "Google Search Central — SEO Starter Guide"
-    - "Google Search Generative Experience Guidelines"
-    - "Google Search Central — SEO Starter Guide"
+    - "Aggarwal et al. — GEO (Generative Engine Optimization, 2023)"
+    - "schema.org structured data"
 ---
 
 # Answer Engine Optimization (AEO)
@@ -28,12 +32,10 @@ AEO ensures your content is the source AI engines cite when users ask questions
 in your domain. This skill covers the strategy.
 
 ## Authoritative Foundations
-
-- **Google AI Overviews — Optimization for Generative Search** — Google's guidance for optimizing
-  content to appear in AI-generated summaries and AI Mode results.
-- **Google Search Central — SEO Starter Guide** — SEO Starter Guide
-- **Google Search Generative Experience Guidelines** — Named methodology governing recommendations in this skill's process.
-- **Google Search Central — SEO Starter Guide** — SEO Starter Guide
+- **Google Search Central — AI features and your website** — AI Overviews and AI Mode draw on pages that are indexed and snippet-eligible; there is no special markup, so SEO fundamentals decide inclusion.
+- **Google Search Central — SEO Starter Guide** — Write people-first content with clear headings and descriptive anchors so pages are easy to crawl, understand, and quote.
+- **Aggarwal et al. — GEO (Generative Engine Optimization, 2023)** — In controlled tests, adding citations, statistics, and quotations raised a page's visibility in generative answers; add evidence, not keywords.
+- **schema.org structured data** — Mark up organizations, products, FAQs, and authors so engines can resolve entities and attribute answers to your brand.
 
 ## When to Use
 
@@ -166,7 +168,7 @@ A strong output from this skill includes:
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
 - `references/seo-strategy-playbook.md` — Repo root: §8 AEO / AI search overlap
-- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 4)
+- the `using-gtm-skills` skill — Pattern 25: B2B SEO Stack (step 4)
 
 ## Related Skills
 

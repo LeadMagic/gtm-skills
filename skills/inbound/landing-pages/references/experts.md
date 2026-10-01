@@ -260,7 +260,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Contrast:** **Mark Roberge** = HubSpot sales machine. **Chris Walker** = demand creation / dark social (ungated education) — pair with inbound flywheel, don't conflate (`using-gtm-skills` Pattern 27 + 26).
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/dharmesh-shah-hubspot-inbound.md` (canonical)
+**Artifacts:** `references/dharmesh-shah-hubspot-inbound.md` (canonical)
 
 **Skills:** `content-marketing`, `inbound-triage`, `landing-pages`, `customer-marketing`, `freemium-optimization`, `hubspot-setup`, `gtm-metrics`, `referral-programs`, `website-visitor-identification`, `mql-nurture`
 

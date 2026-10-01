@@ -15,7 +15,10 @@ metadata:
   category: design
   tags: [one-pager, sales, collateral, design, leave-behind]
   related_skills: [sales-enablement, pitch-deck-builder, battlecard-builder]
-  frameworks: [AIDA Framework, 3W Framework, Cialdini Persuasion Principles]
+  frameworks:
+    - "AIDA (Attention, Interest, Desire, Action)"
+    - "Robert Cialdini — Influence"
+    - "Nielsen Norman Group — How users read on the web"
 ---
 
 # One-Pager Builder
@@ -30,10 +33,9 @@ their boss.
 The constraint is the value. One page forces clarity. No room for fluff.
 
 ## Authoritative Foundations
-
-- **AIDA Framework** — Attention, Interest, Desire, Action — email structure for cold outreach.
-- **3W Framework** — Shapes deliverables for this skill — A one-pager is exactly one page.
-- **Cialdini Persuasion Principles** — Influence principles — reciprocity, social proof, authority in copy.
+- **AIDA (Attention, Interest, Desire, Action)** — Order the page from hook to proof to call to action so it reads top-down in under a minute.
+- **Robert Cialdini — Influence** — Influence principles — reciprocity, social proof, authority in copy.
+- **Nielsen Norman Group — How users read on the web** — Readers scan; use headings, short bullets, and one visual so the page works at a glance.
 
 ## When to Use
 

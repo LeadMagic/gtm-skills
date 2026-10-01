@@ -1,9 +1,11 @@
 ---
 name: partnership-strategy
 description: >-
-  Build a partnership program — partner types, recruitment, enablement, co-marketing,
-  revenue share models. Triggers on: "partnership strategy", "partner program",
-  "channel partnerships", "build partnerships".
+  Designs a partner program: partner types, recruitment, enablement,
+  co-marketing, and revenue-share models. Use when the user is starting or
+  restructuring a partner, reseller, or channel program. Triggers on:
+  "partnership strategy", "partner program", "channel partnerships", "build
+  partnerships", "partner-led growth".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
@@ -12,18 +14,10 @@ metadata:
   category: partnerships
   tags: [partnerships, partner-program, channel, co-marketing, alliances]
   frameworks:
-    - "Partnership Ecosystem Framework"
-    - "Crossbeam Partner-Led Growth"
-    - "Crossbeam — Ecosystem-Led Growth"
-    - "Bob Moore — Ecosystem-Led Growth and second-party partner data"
-  related_skills:
-    [
-      partner-programs,
-      co-marketing,
-      integration-partnerships,
-      channel-partnerships,
-      sales-enablement,
-    ]
+    - "Bob Moore — Ecosystem-Led Growth"
+    - "Crossbeam — Account mapping"
+    - "Jay McBain (Canalys) — Partner ecosystem influence"
+  related_skills: [partner-programs, co-marketing, integration-partnerships, sales-enablement]
 ---
 
 # Partnership Strategy
@@ -36,13 +30,9 @@ by motion; this skill avoids universal pipeline or CAC promises and covers the
 operating system needed to test the channel.
 
 ## Authoritative Foundations
-
-- **Partnership Ecosystem Framework** — Named methodology governing recommendations in this skill's process.
-- **Crossbeam Partner-Led Growth** — Named methodology governing recommendations in this skill's process.
-- **Crossbeam — Ecosystem-Led Growth** — Ecosystem-Led Growth
-- **Bob Moore — Ecosystem-Led Growth.** Put partner ecosystem data at the center
-  of account mapping, co-selling, and attribution. Share only approved segments
-  and operationalize overlap around a named customer or prospect outcome.
+- **Bob Moore — Ecosystem-Led Growth** — Put partner ecosystem data at the center of account mapping, co-selling, and attribution; share only approved segments.
+- **Crossbeam — Account mapping** — Find overlapping customers and prospects with each partner to decide who to recruit and where to co-sell.
+- **Jay McBain (Canalys) — Partner ecosystem influence** — Map every partner type that influences the buyer (referral, reseller, integration, services) before designing tiers and incentives.
 
 ## When to Use
 

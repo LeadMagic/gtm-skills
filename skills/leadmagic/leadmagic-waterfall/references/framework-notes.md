@@ -4,11 +4,9 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **DAMA-DMBOK Data Quality Dimensions**
-- **Ziellab 3-Waterfall Architecture**
-- **LeadMagic Public Documentation — B2B Data Enrichment**
-- **Pat Spielmann — Cold to Gold (enrichment before copy)**
-- **Pat Spielmann — Research → Angle → Copy**
+- **LeadMagic docs — Email finder and validation** — Run find and validate as separate steps; only valid results should reach a sending tool.
+- **DAMA-DMBOK — Data quality dimensions** — Score each waterfall step on accuracy, completeness, validity, and timeliness, not coverage alone.
+- **Clay — Waterfall enrichment** — Query providers in sequence and stop at the first validated result to control cost.
 
 ## Deep-dive references
 

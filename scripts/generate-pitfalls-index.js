@@ -104,7 +104,7 @@ for (const skill of skills) {
     ...pitfall,
     detail: pitfall.detail.replace(
       /(?<![A-Za-z0-9_./-])((?:references|templates|scripts|assets)\/[A-Za-z0-9._/-]+)/g,
-      `skills/${skill.category}/${skill.slug}/$1`,
+      (match) => `${match.split('/').pop()} (in the \`${skill.slug}\` skill)`,
     ),
   }));
   byCategory[skill.category].push({
@@ -122,14 +122,14 @@ const lines = [
   '',
   'Agents: load the source skill for full context, fixes, and quality checks — this index is for discovery and cross-skill pattern matching.',
   '',
-  'Master router: `skills/foundation/using-gtm-skills/SKILL.md` · Expert catalog: `references/experts.md`',
+  'Master router: the `using-gtm-skills` skill · Expert catalog: `references/experts.md`',
   '',
 ];
 
 for (const cat of categories) {
   lines.push(`## ${cat}`, '');
   for (const skill of byCategory[cat]) {
-    lines.push(`### [${skill.name}](${skill.path})`, '');
+    lines.push(`### ${skill.name} (\`${skill.slug}\`)`, '');
     for (const p of skill.pitfalls) {
       const detail = p.detail ? ` — ${p.detail}` : '';
       lines.push(`- **${p.title}**${detail}`);

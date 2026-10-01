@@ -21,11 +21,13 @@ Reference tables for `SKILL.md`. Apply named frameworks to justify recommendatio
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Map the Buyer's Decision Process
+- Phase 2: Apply the Transparency Effect
+- Phase 3: Apply Cialdini's 7 Principles
+- Phase 4: Reduce Decision Friction (Kahneman)
+- Phase 5: Build Trust Mechanics
 
 ## Key reference tables
 

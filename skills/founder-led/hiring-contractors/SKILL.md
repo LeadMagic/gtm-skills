@@ -15,9 +15,9 @@ metadata:
   category: founder-led
   tags: [hiring, contractors, freelance, outsourcing, startup]
   frameworks:
-    - "Freelance Talent Management"
-    - "Upwork Enterprise Patterns"
-    - "Paul Graham — Do Things That Do Not Scale"
+    - "IRS — Independent contractor or employee (common-law rules)"
+    - "California AB5 — ABC test"
+    - "Deel — International contractor agreements"
   related_skills: [hiring-agencies, sales-team-building, building-saas, solo-founder-gtm]
 ---
 
@@ -34,10 +34,9 @@ negotiation, and management practices that make contractor relationships
 productive rather than painful.
 
 ## Authoritative Foundations
-
-- **Freelance Talent Management** — Shapes deliverables for this skill — Contractors give you talent without full-time commitment.
-- **Upwork Enterprise Patterns** — Shapes deliverables for this skill — Contractors give you talent without full-time commitment.
-- **Paul Graham — Do Things That Do Not Scale** — Do Things That Do Not Scale
+- **IRS — Independent contractor or employee (common-law rules)** — Classify workers by behavioral control, financial control, and the relationship; misclassification creates tax liability.
+- **California AB5 — ABC test** — California presumes employment unless all three ABC conditions are met; check state rules before engaging a contractor.
+- **Deel — International contractor agreements** — Use localized contracts and compliant payments for cross-border contractors, including IP assignment.
 
 ## When to Use
 

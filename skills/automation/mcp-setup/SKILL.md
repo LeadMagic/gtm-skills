@@ -91,7 +91,7 @@ Never hardcode API keys in repo files. Use environment variables or the agent pl
 Plain account (same permissions as the user). Tools cover thread search, customer lookup,
 help center, draft replies (`addGeneratedReply`), and state changes (assign, label, done)
 with human approval before customer-facing sends. Pair with `headless-support` →
-`skills/customer-success/headless-support/references/byoai-headless-stack.md` when stacking Attio + Plain + agent IDE.
+`references/byoai-headless-stack.md` when stacking Attio + Plain + agent IDE.
 
 ### Phase 4: Add Guardrails
 

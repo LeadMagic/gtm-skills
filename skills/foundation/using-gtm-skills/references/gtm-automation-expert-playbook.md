@@ -5,7 +5,7 @@
 *Workflow design, human+machine division, and automation maturity — distinct from outbound copy/infra experts.*
 
 **Canonical expert:** Jen Igartua (Go Nimbly) — RevOps automation roadmap, agentic GTM, data-first orchestration.
-**Tool playbooks:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/automation-playbook-index.md` (38 playbooks).
+**Tool playbooks:** `references/automation-playbook-index.md` (38 playbooks).
 **Outbound experts (do not duplicate here):** Justin Michael (Sales Borg / Pattern 23), Eric Nowoslawski (infra / Pattern 15c), Pat Spielmann (enrichment copy / Pattern 17).
 
 ---
@@ -109,7 +109,7 @@
 
 ## Cross-links
 
-- `https://github.com/LeadMagic/gtm-skills/blob/main/references/automation-playbook-index.md` — 38 playbooks
-- `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-experts-outbound-index.md` — outbound expert router
+- `references/automation-playbook-index.md` — 38 playbooks
+- `references/gtm-experts-outbound-index.md` — outbound expert router
 - `gtm-ops/gtm-operations/references/gtm-ops-skill-index.md`
 - `foundation/using-gtm-skills` — Pattern 6, 6b, 30

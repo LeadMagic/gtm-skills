@@ -130,8 +130,8 @@ Before delivering, verify:
 - `templates/output-template.md` — copy-paste deliverable structure for the user
 - `scripts/check-output.py` — local checklist validator for required sections
   This skill includes lightweight artifacts the agent can load on demand:
-- `references/elena-verna-plg-growth.md` — growth loops, PQL routing (repo root)
-- `references/kyle-poyar-growth-unhinged.md` — PLG benchmarks (repo root)
+- `references/elena-verna-plg-growth.md` — growth loops, PQL routing
+- `references/kyle-poyar-growth-unhinged.md` — PLG benchmarks
   Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

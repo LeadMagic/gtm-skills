@@ -19,11 +19,10 @@ metadata:
   related_skills: [soc2-compliance, legal-for-founders, security-assessments, vendor-contracts, business-insurance]
   frameworks:
     - "GDPR (EU General Data Protection Regulation 2016/679)"
-    - "CCPA/CPRA (California Consumer Privacy Act / California Privacy Rights Act)"
-    - "ePrivacy Directive (EU Cookie Law)"
-    - "IAPP (International Association of Privacy Professionals)"
+    - "CCPA/CPRA"
+    - "ePrivacy Directive"
     - "NIST Privacy Framework"
-    - "Termly / Iubenda — Privacy compliance tools"
+    - "IAPP"
 ---
 
 # Data Privacy Compliance
@@ -39,13 +38,11 @@ for B2B SaaS: GDPR, CCPA, cookie consent, DPAs, SCCs, and building a privacy
 program that passes enterprise security reviews.
 
 ## Authoritative Foundations
-
 - **GDPR (EU General Data Protection Regulation 2016/679)** — Lawful basis, data minimization, DPA requirements for EU buyers.
-- **CCPA/CPRA (California Consumer Privacy Act / California Privacy Rights Act)** — Shapes deliverables for this skill — Privacy compliance went from "nice to have" to "existential requirement.
-- **ePrivacy Directive (EU Cookie Law)** — Shapes deliverables for this skill — Privacy compliance went from "nice to have" to "existential requirement.
-- **IAPP (International Association of Privacy Professionals)** — Shapes deliverables for this skill — Privacy compliance went from "nice to have" to "existential requirement.
-- **NIST Privacy Framework** — Shapes deliverables for this skill — Privacy compliance went from "nice to have" to "existential requirement.
-- **Termly / Iubenda — Privacy compliance tools** — Privacy compliance tools
+- **CCPA/CPRA** — Honor rights to know, delete, and opt out of sale or sharing; the B2B contact exemption ended January 1, 2023.
+- **ePrivacy Directive** — Get prior consent for non-essential cookies; several EU member states also restrict unsolicited email to individuals.
+- **NIST Privacy Framework** — Structure the privacy program around its Identify, Govern, Control, Communicate, and Protect functions.
+- **IAPP** — Use IAPP resources and certifications (CIPP/E, CIPP/US) to staff the program and to evaluate vendors and counsel.
 
 ## When to Use
 

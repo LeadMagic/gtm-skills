@@ -28,12 +28,12 @@ Tiered ABM plays, gifting, multi-thread orchestration. **Start skill:** `abm-str
 
 | Skill | One-line |
 |---|---|
-| `abm-1-to-1` | Execute Strategic ABM (1-to-1) for 5-15 high-value accounts — custom microsites, executiv… |
-| `abm-1-to-few` | Execute ABM at Scale (1-to-few) for 15-50 clustered accounts — semi-custom campaigns, ind… |
-| `abm-1-to-many` | Execute Programmatic ABM (1-to-many) for 50-200+ accounts — automated personalization, sc… |
-| `abm-strategy` | Design and execute Account-Based Marketing strategy — tier selection, account scoring, ch… |
-| `account-selection` | Select and prioritize target accounts for ABM programs — scoring models, tier assignment,… |
-| `multi-thread-orchestration` | Orchestrate multi-threaded ABM engagement across buying committee members — stakeholder m… |
+| `abm-1-to-1` | Runs strategic 1-to-1 ABM for 5-15 high-value accounts: account plans, custom microsites,… |
+| `abm-1-to-few` | Runs ABM at scale (1-to-few) for 15-50 clustered accounts: industry or persona clusters,… |
+| `abm-1-to-many` | Runs programmatic 1-to-many ABM for 50-200+ accounts: automated personalization, scaled o… |
+| `abm-strategy` | Designs an account-based marketing program: tier selection, account scoring, channel orch… |
+| `account-selection` | Builds and tiers a target account list: fit and intent scoring models, tier assignment, a… |
+| `multi-thread-orchestration` | Orchestrates multi-threaded engagement across a buying committee: stakeholder maps, paral… |
 | `strategic-gifting` | Strategic B2B gifting — John Ruhlin Giftology, Sendoso/Alyce/Reachdesk platforms, buyer g… |
 
 ### Analytics & Measurement (`analytics/`) — 13 skills
@@ -81,12 +81,12 @@ SEO strategy, technical audits, pillars, pSEO, AEO, citations. **Start skill:** 
 
 | Skill | One-line |
 |---|---|
-| `aeo-strategy` | Answer Engine Optimization — optimize content for AI search engines (ChatGPT, Perplexity,… |
-| `citation-harvesting` | Systematically build backlinks through citations, mentions, and digital PR — Qwoted, Muck… |
-| `faq-seo` | Build FAQ pages that capture featured snippets and People Also Ask traffic — question-dri… |
-| `pillar-pages` | Design and build pillar pages with topic clusters — comprehensive hub pages that rank for… |
-| `pseo-strategy` | Programmatic SEO — build scalable, template-driven content pages for long-tail keywords.… |
-| `seo-strategy` | B2B SEO strategy — keyword research, content architecture, technical SEO, link building,… |
+| `aeo-strategy` | Builds an answer engine optimization (AEO/GEO) plan so content gets cited by ChatGPT, Per… |
+| `citation-harvesting` | Builds backlinks and brand citations through digital PR: expert-source platforms (Qwoted,… |
+| `faq-seo` | Builds question-driven FAQ content that wins featured snippets and People Also Ask placem… |
+| `pillar-pages` | Designs pillar pages and topic clusters: hub page outlines, cluster keyword maps, and int… |
+| `pseo-strategy` | Plans programmatic SEO: template-driven pages for long-tail keyword patterns, data source… |
+| `seo-strategy` | Builds a B2B SEO strategy: keyword research by funnel stage, content architecture, techni… |
 | `technical-seo-audit` | Audit a website's technical SEO across crawl access, indexing controls, canonicalization,… |
 
 ### Creative & AI Content (`creative/`) — 12 skills
@@ -128,10 +128,10 @@ Webinars, podcasts, paid social, syndication. **Start skill:** `webinar-strategy
 
 | Skill | One-line |
 |---|---|
-| `content-syndication` | Plan and execute content syndication across paid and organic channels — content atomizati… |
-| `paid-social-strategy` | B2B paid social strategy — LinkedIn, Meta, TikTok ad platform strategy, audience building… |
-| `podcast-gtm` | Use podcast appearances as a GTM channel — booking strategy, interview prep, content repu… |
-| `webinar-strategy` | Plan and execute demand gen webinars — topic selection, speaker sourcing, promotion caden… |
+| `content-syndication` | Plans content syndication across paid and organic channels: content atomization with Ross… |
+| `paid-social-strategy` | Builds a B2B paid social plan across LinkedIn, Meta, and TikTok: platform selection, audi… |
+| `podcast-gtm` | Turns podcast guesting into a GTM channel: show targeting, booking pitches, interview pre… |
+| `webinar-strategy` | Plans demand-gen webinars: topic selection, speaker sourcing, promotion cadence, run-of-s… |
 
 ### Design & Collateral (`design/`) — 7 skills
 
@@ -153,9 +153,9 @@ Conferences, field marketing, event-driven outreach. **Start skill:** `conferenc
 
 | Skill | One-line |
 |---|---|
-| `conference-strategy` | Strategic conference planning — event selection, sponsorship ROI, speaking submissions, b… |
-| `event-driven-outreach` | Outbound sequences triggered by conference/event attendance — pre-event research, on-site… |
-| `field-marketing` | Plan and execute field marketing — regional events, executive dinners, roadshows, custome… |
+| `conference-strategy` | Plans a conference program: event selection, sponsorship ROI, speaking (CFP) submissions,… |
+| `event-driven-outreach` | Builds outbound sequences around conference and event attendance: pre-event research and… |
+| `field-marketing` | Plans field marketing: regional events, executive dinners, roadshows, and customer adviso… |
 
 ### Foundation & ICP (`foundation/`) — 9 skills
 
@@ -183,7 +183,7 @@ Fundraising, hiring, legal, founder sales, solo GTM. **Start skill:** `solo-foun
 | `board-meeting-prep` | Board meeting preparation for B2B SaaS founders. Use when preparing quarterly board meeti… |
 | `brand-kit` | Build a complete brand kit for B2B SaaS — logo design and usage, color palette, typograph… |
 | `building-saas` | Build a SaaS company from idea to scale — product development, architecture decisions, pr… |
-| `business-insurance` | Complete business insurance guide for SaaS founders — Errors & Omissions (E&O/Tech E&O),… |
+| `business-insurance` | Maps the business insurance a SaaS company needs by stage: Tech E&O, cyber liability, D&O… |
 | `co-founder-dynamics` | Complete co-founder playbook for technical founders — finding co-founders, equity splits… |
 | `content-led-growth` | Content-led growth strategy for B2B SaaS founders. Use when building a founder-led conten… |
 | `data-privacy-compliance` | Data privacy compliance for B2B SaaS — GDPR, CCPA/CPRA, ePrivacy Directive, cookie consen… |
@@ -207,7 +207,7 @@ Fundraising, hiring, legal, founder sales, solo GTM. **Start skill:** `solo-foun
 | `job-posting-strategy` | Complete job posting and distribution strategy for B2B SaaS companies — where to post by… |
 | `launch-planning` | Plan product and feature launches across owned, earned, community, partner, and outbound… |
 | `lead-magnets` | Create lead magnets that convert qualified buyers: calculators, checklists, teardown offe… |
-| `legal-for-founders` | Complete legal playbook for SaaS founders — incorporation (Delaware C-Corp vs LLC), IP as… |
+| `legal-for-founders` | Covers founder legal basics with step-by-step checklists: incorporation (Delaware C-Corp… |
 | `partner-programs` | Design partner programs for startups: partner ICP, co-marketing offers, referral mechanic… |
 | `pricing-psychology` | SaaS pricing psychology and tactics for B2B founders. Use when designing pricing tiers, t… |
 | `saas-metrics-calculator` | Calculate and interpret SaaS metrics for founders: MRR, ARR, NRR, GRR, churn, CAC payback… |
@@ -239,7 +239,7 @@ RevOps stack, spend, PM/RACI, campaign governance. **Start skill:** `gtm-operati
 
 | Skill | One-line |
 |---|---|
-| `campaign-governance` | Establish campaign governance — naming conventions, UTM parameters, campaign hierarchy, R… |
+| `campaign-governance` | Sets campaign governance: naming conventions, UTM standards, campaign hierarchy, launch R… |
 | `gtm-operations` | Build a GTM operations / RevOps function — tech stack architecture, process design, data… |
 | `gtm-spend-management` | GTM spend management — Ramp corporate cards, virtual cards per vendor, SaaS vendor roster… |
 | `gtm-tool-cost-model` | GTM tool cost modeling — per-seat licensing, usage-based fees, cloud infra, enrichment cr… |
@@ -279,11 +279,11 @@ MQL nurture, onboarding drips, churn, re-engagement. **Start skill:** `mql-nurtu
 
 | Skill | One-line |
 |---|---|
-| `churn-prediction` | Build churn prediction models — leading indicators, risk scoring, early warning systems,… |
-| `lifecycle-drips` | Design lifecycle drip campaigns — post-purchase, renewal, expansion, milestone-based auto… |
-| `mql-nurture` | Build MQL nurture programs — lead scoring, nurture tracks, email drip sequences, MQL→SQL… |
-| `onboarding-sequences` | Design customer onboarding sequences — time-to-first-value, activation milestones, guided… |
-| `re-engagement` | Design re-engagement campaigns for dormant leads and inactive customers — win-back sequen… |
+| `churn-prediction` | Builds churn prediction: leading indicators, account risk scores, early-warning alerts, a… |
+| `lifecycle-drips` | Designs trigger-based lifecycle email programs for customers: post-purchase, milestone, r… |
+| `mql-nurture` | Builds MQL nurture programs: lead scoring, nurture tracks by persona and stage, email dri… |
+| `onboarding-sequences` | Designs customer onboarding sequences: time-to-first-value targets, activation milestones… |
+| `re-engagement` | Designs re-engagement for dormant leads and inactive customers: win-back sequences, react… |
 
 ### Leadership & Coaching (`management-leadership/`) — 5 skills
 
@@ -320,9 +320,9 @@ Co-marketing, integrations, partner strategy. **Start skill:** `partnership-stra
 
 | Skill | One-line |
 |---|---|
-| `co-marketing` | Execute co-marketing campaigns with partners — joint webinars, co-branded content, shared… |
-| `integration-partnerships` | Build and go-to-market with technology integration partnerships — API/integration GTM, ma… |
-| `partnership-strategy` | Build a partnership program — partner types, recruitment, enablement, co-marketing, reven… |
+| `co-marketing` | Plans co-marketing campaigns with partners: joint webinars, co-branded content, audience… |
+| `integration-partnerships` | Builds go-to-market for technology integration partnerships: partner selection, integrati… |
+| `partnership-strategy` | Designs a partner program: partner types, recruitment, enablement, co-marketing, and reve… |
 
 ### Product-Led Growth (`product-led-growth/`) — 3 skills
 
@@ -364,11 +364,11 @@ Funding, hiring, job change, earnings plays. **Start skill:** `funding-signal-pl
 
 | Skill | One-line |
 |---|---|
-| `earnings-signal-play` | Outbound play triggered by public company earnings calls and SEC filings — strategic prio… |
-| `funding-signal-play` | Trigger-based outbound play when a target account raises funding — signal stacking to cut… |
-| `hiring-signal-play` | Outbound play triggered by specific hiring signals — VP Sales, RevOps, SDR manager, CRO p… |
-| `job-change-play` | Outbound play triggered by contact job changes — champion tracking, new-role outreach, "n… |
-| `product-launch-play` | Outbound play triggered by competitor product launches or target account product launches… |
+| `earnings-signal-play` | Runs an outbound play from public-company earnings calls and SEC filings: strategic prior… |
+| `funding-signal-play` | Runs trigger-based outbound when a target account raises funding: signal stacking to cut… |
+| `hiring-signal-play` | Runs outbound triggered by hiring signals: VP Sales, RevOps, SDR manager, and CRO posting… |
+| `job-change-play` | Runs outbound triggered by contact job changes: champion tracking, new-role outreach, and… |
+| `product-launch-play` | Runs outbound triggered by product launches, either a competitor launch or a target accou… |
 
 ### Sales & RevOps (`sales-revops/`) — 9 skills
 
@@ -397,14 +397,14 @@ Clay, CRM, n8n, analytics, support toolkits; sequencing-toolkit plus Instantly, 
 | `clay-loops-toolkit` | Clay Loops GTM toolkit — recurring signal monitors, trigger-to-action loops, LeadMagic en… |
 | `clay-toolkit` | Clay platform GTM toolkit — table architecture, LeadMagic-first waterfall enrichment, Cla… |
 | `crm-toolkit` | CRM operations anchor — HubSpot, Salesforce, and Attio selection, contacts vs leads objec… |
-| `hubspot-sequences` | Design and optimize HubSpot sequences — enrollment triggers, multi-channel steps, task cr… |
-| `instantly-sequences` | Set up Instantly — unlimited accounts, warmup pool, campaign optimization, unified inbox.… |
+| `hubspot-sequences` | Designs and optimizes HubSpot sequences: enrollment triggers, multi-channel steps, task c… |
+| `instantly-sequences` | Sets up and optimizes Instantly: sending accounts, warmup pool, campaign settings, and th… |
 | `leadmagic-toolkit` | Complete LeadMagic platform toolkit — API reference, CLI workflows, MCP server setup, enr… |
-| `lemlist-setup` | Set up and optimize Lemlist — personalized images/videos, multi-channel sequences, warm-u… |
+| `lemlist-setup` | Sets up and optimizes Lemlist: personalized images and videos, multi-channel sequences, w… |
 | `n8n-toolkit` | Complete n8n GTM toolkit — workflow blueprints for inbound, outbound, signals, CRM sync,… |
-| `outreach-sequences` | Design and manage Outreach sequences — multi-channel cadences, triggers, analytics, team… |
-| `salesloft-cadences` | Build and optimize Salesloft cadences — Rhythm, Conversations, multi-channel orchestratio… |
+| `outreach-sequences` | Designs and manages Outreach sequences: multi-channel cadences, triggers, analytics, and… |
+| `salesloft-cadences` | Builds and optimizes Salesloft cadences: Rhythm, Conversations, multi-channel orchestrati… |
 | `sequencing-toolkit` | Complete outreach sequencing toolkit — Smartlead, Instantly, Salesloft, Outreach, Lemlist… |
-| `smartlead-workflows` | Set up and run Smartlead — unlimited mailboxes, auto-rotation, A/B testing, master inbox,… |
+| `smartlead-workflows` | Sets up and runs Smartlead: mailbox connection and auto-rotation, A/B testing, the master… |
 | `support-toolkit` | Complete customer support tools toolkit — Intercom, Zendesk, Front, Help Scout deep-dive… |
 

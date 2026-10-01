@@ -1,9 +1,11 @@
 ---
 name: smartlead-workflows
 description: >-
-  Set up and run Smartlead — unlimited mailboxes, auto-rotation, A/B testing,
-  master inbox, AI categorization. Triggers on: "Smartlead", "Smartlead setup",
-  "Smartlead campaigns", "unlimited mailboxes".
+  Sets up and runs Smartlead: mailbox connection and auto-rotation, A/B testing,
+  the master inbox, and AI reply categorization. Use when the user is
+  configuring Smartlead, adding mailboxes, or optimizing Smartlead campaigns.
+  Triggers on: "Smartlead", "Smartlead setup", "Smartlead campaigns", "unlimited
+  mailboxes".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
@@ -12,9 +14,9 @@ metadata:
   category: tools
   tags: [smartlead, cold-email, mailboxes, auto-rotation, outbound]
   frameworks:
-    - "Smartlead Best Practices"
-    - "Eric Nowoslawski Cold Email Infrastructure"
-    - "Outreach — Sales Engagement Cadence Design"
+    - "Smartlead Help Center"
+    - "Eric Nowoslawski — Cold email infrastructure"
+    - "Google and Yahoo — Bulk sender requirements (2024)"
 ---
 
 # Smartlead Workflows
@@ -26,10 +28,9 @@ categorization, and a unified master inbox. This skill covers setup from 0 to
 sending at scale.
 
 ## Authoritative Foundations
-
-- **Smartlead Best Practices** — Unlimited mailboxes, master inbox, and agency-scale cold email ops.
-- **Eric Nowoslawski Cold Email Infrastructure** — Cold email infra at scale — 2 inboxes/domain, backup inboxes, Creative Ideas testing.
-- **Outreach — Sales Engagement Cadence Design** — Sequence governance, task-based selling, and CRM-locked cadences.
+- **Smartlead Help Center** — Connect mailboxes, enable warmup, set per-mailbox limits and rotation, and route replies to the master inbox.
+- **Eric Nowoslawski — Cold email infrastructure** — Cold email infra at scale — 2 inboxes/domain, backup inboxes, Creative Ideas testing.
+- **Google and Yahoo — Bulk sender requirements (2024)** — Authenticate with SPF, DKIM, and DMARC, keep spam complaints below 0.3%, and honor unsubscribes quickly.
 
 ## When to Use
 - "Set up Smartlead"
@@ -104,11 +105,11 @@ Before delivering, verify:
 - `scripts/check-output.py` — local checklist validator
 This skill includes lightweight artifacts the agent can load on demand:
 - `references/clay-enrollment-handoff.md` — Clay/loops → Smartlead push + custom variables
-- `../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md` — Eric Nowoslawski agency infra (canonical Smartlead operator)
-- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify-before-send (Pat Spielmann)
-- `../../tools/clay-loops-toolkit/references/leadmagic-waterfall.md` — loop enrich chain before push
-- `../../leadmagic/leadmagic-cli/references/cli-workflow-patterns.md` — `lm integrations smartlead push`
-- `../../../../references/gtm-experts-outbound-index.md` — expert router
+- `references/eric-nowoslawski-outbound.md` — Eric Nowoslawski agency infra (canonical Smartlead operator)
+- `references/pat-spielmann-outbound-copy.md` — verify-before-send (Pat Spielmann)
+- `references/leadmagic-waterfall.md` — loop enrich chain before push
+- `references/cli-workflow-patterns.md` — `lm integrations smartlead push`
+- `references/gtm-experts-outbound-index.md` — expert router
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

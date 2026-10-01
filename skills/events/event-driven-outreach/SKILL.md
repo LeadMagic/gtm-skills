@@ -1,8 +1,10 @@
 ---
 name: event-driven-outreach
 description: >-
-  Outbound sequences triggered by conference/event attendance — pre-event research, 
-  on-site plays, post-event follow-up. Triggers on: "event outreach", "conference 
+  Builds outbound sequences around conference and event attendance: pre-event
+  research and meeting booking, on-site plays, and post-event follow-up. Use
+  when the user is prospecting around a specific conference or trade show, or
+  needs an event follow-up sequence. Triggers on: "event outreach", "conference
   prospecting", "trade show follow-up", "event outbound".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
@@ -12,9 +14,9 @@ metadata:
   category: events
   tags: [events, conferences, outbound, trade-shows, prospecting]
   frameworks:
-    - "Event-Led Growth"
-    - "B2B Event Marketing Framework"
-    - "Bizzabo — Event Experience Framework"
+    - "Josh Braun — Relevance-first outreach"
+    - "Winning by Design — SPICED"
+    - "Forrester (SiriusDecisions) — Demand Waterfall"
   related_skills:
     [
       cold-email-strategy,
@@ -34,10 +36,9 @@ are actively evaluating, and are reachable in a compressed time window. This
 skill covers the pre-event, on-site, and post-event outbound motion.
 
 ## Authoritative Foundations
-
-- **Event-Led Growth** — Named methodology governing recommendations in this skill's process.
-- **B2B Event Marketing Framework** — Named methodology governing recommendations in this skill's process.
-- **Bizzabo — Event Experience Framework** — Event Experience Framework
+- **Josh Braun — Relevance-first outreach** — Lead with the specific event context and a low-pressure question; skip the generic 'will you be at the booth?' pitch.
+- **Winning by Design — SPICED** — Discovery framework — Situation, Pain, Impact, Critical Event, Decision; use it to qualify event conversations before handoff.
+- **Forrester (SiriusDecisions) — Demand Waterfall** — Tag event-sourced and event-influenced leads so follow-up conversion is measured by stage.
 
 ## When to Use
 

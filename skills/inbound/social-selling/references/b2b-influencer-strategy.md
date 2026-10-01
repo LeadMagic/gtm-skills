@@ -2,7 +2,7 @@
 
 # B2B Influencer Strategy — Master Guide
 
-**Canonical playbook** for B2B creator and influencer GTM. Expert source → `https://github.com/LeadMagic/gtm-skills/blob/main/references/aneesh-wishly-b2b-influencer.md` (Aneesh Lal / Wishly Group). Measurement → `https://github.com/LeadMagic/gtm-skills/blob/main/references/b2b-influencer-measurement.md`.
+**Canonical playbook** for B2B creator and influencer GTM. Expert source → `references/aneesh-wishly-b2b-influencer.md` (Aneesh Lal / Wishly Group). Measurement → `references/b2b-influencer-measurement.md`.
 
 ---
 
@@ -167,7 +167,7 @@ Cross-link: `customer-marketing` advocacy ladder · `founder-brand` · `social-s
 - [Netinfluencer — Wishly Group](https://www.netinfluencer.com/how-the-wishly-group-is-transforming-linkedin-creator-economy/)
 - [PartnerStack — Wishly partner spotlight](https://partnerstack.com/articles/partner-spotlight-2025)
 - [Wishly Group](https://wishlygroup.ca/)
-- [Chris Walker — dark social](https://www.refinelabs.com/) → `https://github.com/LeadMagic/gtm-skills/blob/main/references/chris-walker-mental-models.md`
+- [Chris Walker — dark social](https://www.refinelabs.com/) → `references/chris-walker-mental-models.md`
 
 ---
 
@@ -180,6 +180,6 @@ Cross-link: `customer-marketing` advocacy ladder · `founder-brand` · `social-s
 | Measurement | `gtm-metrics`, `campaign-governance`, `attribution` |
 | ABM + creators | `abm-strategy`, `abm-1-to-few` |
 | Gifting layer | `strategic-gifting` |
-| Lifecycle placement | Awareness stage → `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-lifecycle-stages.md` |
+| Lifecycle placement | Awareness stage → `references/gtm-lifecycle-stages.md` |
 
 **Pattern:** `using-gtm-skills` → Pattern 19: B2B Influencer & Creator GTM

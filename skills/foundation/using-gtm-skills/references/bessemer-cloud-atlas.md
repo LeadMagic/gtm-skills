@@ -4,7 +4,7 @@
 
 **Sources:** Bessemer Venture Partners — [Cloud Atlas](https://www.bvp.com/atlas) · [State of the Cloud](https://www.bvp.com/atlas/state-of-the-cloud) · [Anti-Portfolio / benchmarks essays](https://www.bvp.com/atlas) · 💼 [LinkedIn](https://www.linkedin.com/company/bessemer-venture-partners/)
 
-**Canonical expert entry:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` → Bessemer Cloud Atlas (methodology org)
+**Canonical expert entry:** `references/experts.md` → Bessemer Cloud Atlas (methodology org)
 
 **Use when:** Benchmarking SaaS operating metrics, Rule of 40, cloud index comps, or VC-stage efficiency expectations — alongside Meritech (public) and KeyBanc (private).
 
@@ -27,7 +27,7 @@
 Rule of 40 = Revenue Growth Rate % + Profit Margin %
 ```
 
-**Repo note:** Bessemer/Skok **traditional** Rule of 40 is canonical for **private board** packs. Meritech uses a **growth-weighted** variant for public valuation regression — see `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md`.
+**Repo note:** Bessemer/Skok **traditional** Rule of 40 is canonical for **private board** packs. Meritech uses a **growth-weighted** variant for public valuation regression — see `references/benchmark-reconciliation.md`.
 
 | Context | Guidance |
 |---|---|
@@ -67,4 +67,4 @@ Always label **segment** (SMB/mid/enterprise) and **definition** when citing.
 
 `saas-metrics-calculator`, `gtm-metrics`, `financial-modeling`, `fundraising-strategy`, `board-meeting-prep`, `plg-strategy`, `gtm-spend-management`
 
-**Cross-links:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-metrics-reference.md`
+**Cross-links:** `references/meritech-saas-benchmarks.md` · `references/benchmark-reconciliation.md` · `references/saas-metrics-reference.md`

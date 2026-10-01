@@ -1,9 +1,11 @@
 ---
 name: co-marketing
 description: >-
-  Execute co-marketing campaigns with partners — joint webinars, co-branded content,
-  shared audiences, mutual promotion. Triggers on: "co-marketing", "joint marketing",
-  "partner marketing", "co-branded campaign".
+  Plans co-marketing campaigns with partners: joint webinars, co-branded
+  content, audience swaps, and lead-sharing rules. Use when the user is
+  launching a campaign with a partner or needs terms for sharing leads and
+  credit. Triggers on: "co-marketing", "joint marketing", "partner marketing",
+  "co-branded campaign", "joint webinar".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
@@ -12,9 +14,9 @@ metadata:
   category: partnerships
   tags: [partnerships, co-marketing, joint-webinars, co-branded, campaigns]
   frameworks:
-    - "Co-Marketing Playbook"
-    - "Crossbeam Partner-Led Growth"
-    - "Crossbeam — Ecosystem-Led Growth"
+    - "Bob Moore — Ecosystem-Led Growth"
+    - "Crossbeam — Account mapping"
+    - "Jay McBain (Canalys) — Partner ecosystem influence"
   related_skills:
     [
       partnership-strategy,
@@ -35,10 +37,9 @@ This skill covers campaign design, asset creation, promotion coordination,
 and pipeline splitting.
 
 ## Authoritative Foundations
-
-- **Co-Marketing Playbook** — Named methodology governing recommendations in this skill's process.
-- **Crossbeam Partner-Led Growth** — Named methodology governing recommendations in this skill's process.
-- **Crossbeam — Ecosystem-Led Growth** — Ecosystem-Led Growth
+- **Bob Moore — Ecosystem-Led Growth** — Pick co-marketing partners by account overlap and shared customers, and build campaigns around mutual target accounts.
+- **Crossbeam — Account mapping** — Compare CRMs with partners using approved data-sharing rules to find overlapping customers and prospects before planning the campaign.
+- **Jay McBain (Canalys) — Partner ecosystem influence** — Buyers consult many partners and peers before purchase; co-marketing should place your brand where those influences already are.
 
 ## When to Use
 

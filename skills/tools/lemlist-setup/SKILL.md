@@ -1,9 +1,11 @@
 ---
 name: lemlist-setup
 description: >-
-  Set up and optimize Lemlist — personalized images/videos, multi-channel sequences, 
-  warm-up, deliverability. Triggers on: "Lemlist", "Lemlist setup", "Lemlist campaigns",
-  "personalized cold email".
+  Sets up and optimizes Lemlist: personalized images and videos, multi-channel
+  sequences, warmup, and deliverability settings. Use when the user is building
+  Lemlist campaigns or running personalized cold email at scale in Lemlist.
+  Triggers on: "Lemlist", "Lemlist setup", "Lemlist campaigns", "personalized
+  cold email".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
@@ -12,10 +14,9 @@ metadata:
   category: tools
   tags: [lemlist, cold-email, personalization, lemwarm, multi-channel]
   frameworks:
-    - "Lemlist Personalization Framework"
-    - "Guillaume Moubeche — lemlist Outbound"
-    - "ColdIQ Multi-Channel"
-    - "Outreach — Sales Engagement Cadence Design"
+    - "lemlist Help Center"
+    - "Guillaume Moubeche — lemlist outbound"
+    - "Google and Yahoo — Bulk sender requirements (2024)"
 ---
 
 # Lemlist Setup
@@ -27,11 +28,9 @@ lemwarm (automated warmup) and multi-channel capabilities, it's ideal for teams
 that want higher per-email engagement at lower volume.
 
 ## Authoritative Foundations
-
-- **Lemlist Personalization Framework** — Multichannel sequences — email, LinkedIn, calls in one enrollment.
-- **Guillaume Moubeche — lemlist Outbound** — Multichannel sequences — email, LinkedIn, calls in one enrollment.
-- **ColdIQ Multi-Channel** — Named methodology governing recommendations in this skill's process.
-- **Outreach — Sales Engagement Cadence Design** — Sequence governance, task-based selling, and CRM-locked cadences.
+- **lemlist Help Center** — Build multichannel sequences (email, LinkedIn, calls) with conditions, and use lemwarm and custom tracking domains before sending.
+- **Guillaume Moubeche — lemlist outbound** — Multichannel sequences — email, LinkedIn, calls in one enrollment; personalization should earn the reply, not decorate the email.
+- **Google and Yahoo — Bulk sender requirements (2024)** — Authenticate with SPF, DKIM, and DMARC, keep spam complaints below 0.3%, and honor unsubscribes quickly.
 
 ## When to Use
 - "Set up Lemlist"
@@ -103,10 +102,10 @@ Before delivering, verify:
 - `scripts/check-output.py` — local checklist validator
 This skill includes lightweight artifacts the agent can load on demand:
 - `references/clay-enrollment-handoff.md` — Clay → Lemlist variables + problem_hook mapping
-- `../../outbound/cold-email-strategy/references/lemlist-guillaume-outbound.md` — Guillaume Moubeche canonical playbook
-- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify + multichannel (Pat Spielmann)
-- `../../tools/clay-loops-toolkit/references/routing-matrix.md` — signal → campaign map
-- `../../../../references/gtm-experts-outbound-index.md` — expert router
+- `references/lemlist-guillaume-outbound.md` — Guillaume Moubeche canonical playbook
+- `references/pat-spielmann-outbound-copy.md` — verify + multichannel (Pat Spielmann)
+- the `clay-loops-toolkit` skill (routing-matrix.md) — signal → campaign map
+- `references/gtm-experts-outbound-index.md` — expert router
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

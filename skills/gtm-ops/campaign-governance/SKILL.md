@@ -1,9 +1,11 @@
 ---
 name: campaign-governance
 description: >-
-  Establish campaign governance — naming conventions, UTM parameters, campaign
-  hierarchy, ROI measurement, budget tracking. Triggers on: "campaign governance",
-  "UTM strategy", "campaign naming", "marketing ops governance".
+  Sets campaign governance: naming conventions, UTM standards, campaign
+  hierarchy, launch RACI, and ROI and budget tracking. Use when campaign data is
+  inconsistent across tools, the team needs UTM rules, or ownership of a launch
+  is unclear. Triggers on: "campaign governance", "UTM strategy", "campaign
+  naming", "marketing ops governance", "UTM governance".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
@@ -13,12 +15,10 @@ metadata:
   tags: [gtm-ops, campaign-governance, UTM, naming-conventions, marketing-ops, raci, project-management]
   related_skills: [gtm-operations, gtm-spend-management, campaign-analytics, attribution, crm-integration, gtm-metrics, revops-tech-stack]
   frameworks:
-    - "Marketing Ops Governance Framework"
-    - "SiriusDecisions Campaign Hierarchy"
+    - "Google Analytics — Campaign URL (UTM) parameters"
+    - "Salesforce — Campaign hierarchy and campaign influence"
     - "Winning by Design — Revenue Architecture"
-    - "Atlassian Team Playbook — RACI chart"
-    - "PMI — RACI matrix responsibility assignment"
-    - "Aneesh Lal (Wishly Group) — Influencer UTM & landing-page attribution"
+    - "PMI — RACI matrix"
 ---
 
 # Campaign Governance
@@ -31,13 +31,10 @@ This skill builds the governance framework. Marketing budget caps and Ramp
 card policy → `gtm-spend-management`.
 
 ## Authoritative Foundations
-
-- **Marketing Ops Governance Framework** — Named methodology governing recommendations in this skill's process.
-- **SiriusDecisions Campaign Hierarchy** — Named methodology governing recommendations in this skill's process.
+- **Google Analytics — Campaign URL (UTM) parameters** — Standardize utm_source, utm_medium, and utm_campaign values in a shared dictionary; inconsistent casing and synonyms split reporting.
+- **Salesforce — Campaign hierarchy and campaign influence** — Nest campaigns (program → campaign → tactic) so influence and ROI roll up to the program level.
 - **Winning by Design — Revenue Architecture** — Bowtie lifecycle model — align sales, marketing, and CS on stage-based outcomes.
-- **Atlassian Team Playbook — RACI chart** — RACI chart
-- **PMI — RACI matrix responsibility assignment** — RACI matrix responsibility assignment
-- **Aneesh Lal (Wishly Group) — Influencer UTM & landing-page attribution** — Influencer UTM & landing-page attribution
+- **PMI — RACI matrix** — Assign exactly one Accountable owner per launch task and separate Responsible, Consulted, and Informed roles.
 
 ## When to Use
 - "Set up campaign naming conventions"
@@ -97,7 +94,7 @@ Required UTMs for every outbound link:
 ### Phase 5: Campaign Launch RACI
 
 Campaign governance fails when naming and UTMs are "everyone's job." Before
-launch, load `gtm-operations` → `skills/gtm-ops/gtm-operations/templates/raci-matrix-template.md` (Example 1:
+launch, load `gtm-operations` → the `gtm-operations` skill (raci-matrix-template.md) (Example 1:
 Campaign Launch).
 
 | Workstream | Typical Accountable (A) | Why |
@@ -111,7 +108,7 @@ Campaign Launch).
 **GTM rule:** Exactly one **A** per row ([Atlassian RACI](https://www.atlassian.com/team-playbook/plays/raci)).
 RevOps must be **A** or **R** on CRM/UTM rows — not **I**.
 
-Charter template: `gtm-operations` → `skills/gtm-ops/gtm-operations/templates/gtm-project-charter.md`.
+Charter template: `gtm-operations` → the `gtm-operations` skill (gtm-project-charter.md).
 Full launch PM cadence: `gtm-operations` → `gtm-project-management-playbook.md`.
 
 ### Phase 6: Review and Maintenance
@@ -141,7 +138,7 @@ Before delivering, verify:
 2. **UTM chaos.** Mixed case, hyphens, and one-off sources break warehouse joins. Fix: approved source list + UTM builder only (`references/utm-governance.md`).
 3. **Governance without consequences.** Marketers ignore rules if bad data still appears in reports. Fix: exclude non-compliant campaigns from ROI dashboards.
 4. **Marketing spend invisible to finance.** Paid campaigns on personal cards. Fix: Ramp caps per program (`gtm-spend-management`).
-5. **Everyone Responsible, nobody Accountable on launch.** UTMs ship wrong; CRM empty. Fix: RACI before assets (`skills/gtm-ops/gtm-operations/templates/raci-matrix-template.md`).
+5. **Everyone Responsible, nobody Accountable on launch.** UTMs ship wrong; CRM empty. Fix: RACI before assets (the `gtm-operations` skill (raci-matrix-template.md)).
 
 ## Implementation Depth
 
@@ -188,7 +185,7 @@ A strong output from this skill includes:
 - `references/campaign-naming-conventions.md` — Hierarchy + naming pattern
 - `references/utm-governance.md` — UTM dictionary and audit
 - `references/b2b-influencer-measurement.md` — Influencer UTM limits, landing pages, dark social
-- `skills/growth/customer-marketing/templates/b2b-influencer-program-brief.md` — Per-creator UTM + landing page spec
+- the `customer-marketing` skill (b2b-influencer-program-brief.md) — Per-creator UTM + landing page spec
 - `gtm-operations/templates/raci-matrix-template.md` — Campaign launch RACI (Example 1)
 - `gtm-operations/templates/gtm-project-charter.md` — Launch charter
 - `templates/campaign-hierarchy-register.md` — Program/campaign/tactic register

@@ -1,11 +1,13 @@
+<!-- AUTO-GENERATED shared reference: references/gtm-compensation-strategy.md; run npm run regenerate. -->
+
 # GTM Compensation Strategy — Master Playbook
 
-**Canonical home:** `executive-compensation` (strategy + exec gates).  
-**IC bands:** `gtm-role-descriptions/references/comp-benchmarks.md` (H1 2026).  
-**Founder budget / negotiation:** `founder-comp-playbook`.  
+**Canonical home:** `executive-compensation` (strategy + exec gates).
+**IC bands:** `gtm-role-descriptions/references/comp-benchmarks.md` (H1 2026).
+**Founder budget / negotiation:** `founder-comp-playbook`.
 **Reconciliation:** `references/benchmark-reconciliation.md`.
 
-**Audience:** Founders, CROs, RevOps, HR GTM (Stacey Nordwall).  
+**Audience:** Founders, CROs, RevOps, HR GTM (Stacey Nordwall).
 **Scope:** Revenue team comp **design** — not payroll administration, tax filing, or benefits enrollment.
 
 *Market varies by geo, ACV, and funding stage. Bands are directional US B2B SaaS.*
@@ -154,7 +156,7 @@ Consumption examples: Snowflake, Databricks DBU — see `cro-enterprise-strategy
 - Spend caps → `gtm-spend-management/references/spend-by-stage.md`
 - Hire gates → `solo-founder-gtm/references/scale-readiness-gates.md`
 - Band reconciliation → `references/benchmark-reconciliation.md`
-- Pod economics → `references/force-management-playbook.md`
+- Pod economics → `https://github.com/LeadMagic/gtm-skills/blob/main/references/force-management-playbook.md`
 
 ### $0–$2M: keep it simple
 
@@ -241,10 +243,10 @@ Consumption examples: Snowflake, Databricks DBU — see `cro-enterprise-strategy
 | Artifact | Path |
 |---|---|
 | Role × stage matrix | `comp-by-role-stage.md` |
-| Plan design worksheet | `templates/comp-plan-design-worksheet.md` |
-| OTE calculator | `templates/ote-calculator-template.md` |
+| Plan design worksheet | `comp-plan-design-worksheet.md` (in the `executive-compensation` skill) |
+| OTE calculator | `ote-calculator-template.md` (in the `executive-compensation` skill) |
 | IC templates | `gtm-role-descriptions/templates/comp-plan-*.md` |
-| Exec package | `templates/executive-offer-package.md` |
+| Exec package | `executive-offer-package.md` (in the `executive-compensation` skill) |
 | Founder budget | `founder-comp-playbook/references/founder-comp-budget.md` |
 
 **Pattern:** `using-gtm-skills` Pattern 35 (GTM Compensation Strategy)

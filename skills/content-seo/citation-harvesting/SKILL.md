@@ -1,11 +1,12 @@
 ---
 name: citation-harvesting
 description: >-
-  Systematically build backlinks through citations, mentions, and digital PR —
-  Qwoted, Muck Rack, source-blogger outreach, data-driven PR. Triggers on: "citation harvesting",
-  "backlink building", "digital PR", "link building".
-  HARO, source-blogger outreach, data-driven PR. Triggers on: "citation harvesting",
-
+  Builds backlinks and brand citations through digital PR: expert-source
+  platforms (Qwoted, Muck Rack), source-blogger outreach, and data-driven PR
+  assets. Use when the user needs authoritative links or press mentions, wants
+  to answer journalist requests, or is planning a link-building campaign.
+  Triggers on: "citation harvesting", "backlink building", "digital PR", "link
+  building", "get featured in publications".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
@@ -14,10 +15,9 @@ metadata:
   category: content-seo
   tags: [content-seo, citations, backlinks, digital-pr, link-building]
   frameworks:
-    - "Moz Link Building Guide"
+    - "Moz — Beginner's guide to link building"
     - "Google Search Central — SEO Starter Guide"
-    - "Moz Link Building Guide"
-    - "Google Search Central — SEO Starter Guide"
+    - "Google Search Central — Spam policies (link schemes)"
 ---
 
 # Citation Harvesting & Link Building
@@ -30,13 +30,9 @@ earn backlinks from high-authority publications. This skill covers the full
 citation harvesting motion.
 
 ## Authoritative Foundations
-
-- **Moz Link Building Guide** — Authoritative resource covering link building strategy,
-  citation sources, and quality evaluation for B2B link acquisition.
-- **Google Search Central — SEO Starter Guide** — Google's foundational SEO resource
-  covering crawlability, indexing, and ranking best practices.
-- **Moz Link Building Guide** — Named methodology governing recommendations in this skill's process.
-- **Google Search Central — SEO Starter Guide** — SEO Starter Guide
+- **Moz — Beginner's guide to link building** — Prioritize relevant, authoritative referring domains and evaluate each link opportunity for quality before volume.
+- **Google Search Central — SEO Starter Guide** — Earn links with genuinely useful content and expertise; links should be a byproduct of being worth citing.
+- **Google Search Central — Spam policies (link schemes)** — Never buy or trade links for ranking; mark paid or sponsored placements with rel=sponsored.
 
 ## When to Use
 
@@ -45,7 +41,6 @@ citation harvesting motion.
 - "Get featured in publications"
 - "Digital PR for links"
 - "Get cited by journalist sources"
-- "Digital PR for links"
 
 ## Step-by-Step Process
 
@@ -159,7 +154,7 @@ Before delivering, verify:
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
 - `references/seo-strategy-playbook.md` — Repo root: §6 link building, §8 LLM citations
-- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 5)
+- the `using-gtm-skills` skill — Pattern 25: B2B SEO Stack (step 5)
 
 ## Related Skills
 

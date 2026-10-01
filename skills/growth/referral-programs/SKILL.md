@@ -247,7 +247,7 @@ Before delivering, verify:
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
 **Lifecycle (Referral stage):** `references/gtm-lifecycle-stages.md` · `references/lifecycle-skill-index.md` · Pattern 18 in `using-gtm-skills`
-**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Referral) · `references/lifecycle-metrics-by-stage.md` · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md`
+**Canonical lifecycle:** `references/gtm-lifecycle-stages.md` (Referral) · `references/lifecycle-metrics-by-stage.md` · the `gtm-metrics` skill (stage-health-scorecard.md)
 
 ## Related Skills
 

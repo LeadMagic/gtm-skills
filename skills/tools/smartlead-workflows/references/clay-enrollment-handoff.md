@@ -14,7 +14,7 @@ AND icp_score >= threshold
 AND personalization column not empty (why_now OR hook_line)
 ```
 
-Cross-ref: `../../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
+Cross-ref: `references/pat-spielmann-outbound-copy.md`
 
 ## Required Clay Export Fields
 
@@ -46,7 +46,7 @@ From `tools/clay-loops-toolkit` ACTION table:
 2. One signal type → one Smartlead campaign (ColdIQ signal-to-action)
 3. Train AI categorization on INTERESTED / NOT NOW / UNSUBSCRIBE before scale
 
-Load: `../../../tools/clay-loops-toolkit/references/leadmagic-waterfall.md`
+Load: `references/leadmagic-waterfall.md`
 
 ## Eric Nowoslawski Infra (Smartlead-native)
 
@@ -55,7 +55,7 @@ Eric runs largest Smartlead deployments — reference for scale:
 - Unlimited mailboxes: 15-25 mailboxes per campaign rotation
 - 30-50 sends/day/mailbox; open tracking OFF
 - Master inbox for all reply triage
-- Canonical: `../../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md`
+- Canonical: `references/eric-nowoslawski-outbound.md`
 
 ## Post-Enrollment
 

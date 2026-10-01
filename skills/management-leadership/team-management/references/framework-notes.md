@@ -22,11 +22,13 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: 1:1s (The Foundation of Management)
+- Phase 2: Feedback (Continuous, Not Annual)
+- Phase 3: Goal Setting (OKRs)
+- Phase 4: Delegation (Molly Graham — Giving Away Your Legos)
+- Phase 5: Remote Team Management
 
 ## Agent routing
 

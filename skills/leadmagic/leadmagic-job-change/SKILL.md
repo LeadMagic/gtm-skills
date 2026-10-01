@@ -144,10 +144,10 @@ Before delivering, verify:
 - `scripts/check-output.py` — local checklist validator for required sections
 This skill includes lightweight artifacts the agent can load on demand:
 - `references/champion-loop-pattern.md` — scenario matrix + Clay 4-table architecture
-- `../../tools/clay-loops-toolkit/references/loop-catalog.md` — L03 Job Change loop
-- `../../tools/clay-loops-toolkit/references/leadmagic-waterfall.md` — job change enrich chain
-- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify at new email (Pat Spielmann)
-- `../../../../references/gtm-experts-outbound-index.md` — expert router
+- `references/loop-catalog.md` — L03 Job Change loop
+- `references/leadmagic-waterfall.md` — job change enrich chain
+- `references/pat-spielmann-outbound-copy.md` — verify at new email (Pat Spielmann)
+- `references/gtm-experts-outbound-index.md` — expert router
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

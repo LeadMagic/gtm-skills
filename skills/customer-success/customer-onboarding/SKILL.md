@@ -135,7 +135,7 @@ Data Exchange Handoff (required for any customer data):
 ```
 
 Load `references/gtm-data-exchange-playbook.md` before requesting imports.
-Checklist → `deal-desk` → `skills/sales-revops/deal-desk/templates/customer-data-exchange-checklist.md`.
+Checklist → `deal-desk` → the `deal-desk` skill (customer-data-exchange-checklist.md).
 CS must **not** re-request data sales already collected via email.
 
 **Handoff meeting (30 min, Sales + CSM + AE):**
@@ -395,13 +395,13 @@ security timing (if review still open) → `references/security-questionnaire-de
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-**Canonical lifecycle (repo root):**
+**Canonical lifecycle:**
 - `references/activation-playbook.md` — First value event, handoff, audit checklist
 - `references/gtm-lifecycle-stages.md` — Activation row + Bowtie neck
 - `references/lifecycle-metrics-by-stage.md` — TTA, activation rate thresholds
-- `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md` — Weekly activation panel
-- `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md` — Activation R/Y/G
-- `references/gtm-data-exchange-playbook.md` — Customer data exchange SOP (repo root)
+- the `gtm-metrics` skill (lifecycle-monitoring-dashboard.md) — Weekly activation panel
+- the `gtm-metrics` skill (stage-health-scorecard.md) — Activation R/Y/G
+- `references/gtm-data-exchange-playbook.md` — Customer data exchange SOP
 - `references/crisis-management-playbook.md` — Post-incident trust rebuild; activation recovery (Pattern 33)
 - `deal-desk/templates/customer-data-exchange-checklist.md` — Pre/on/post-sale checklist
 

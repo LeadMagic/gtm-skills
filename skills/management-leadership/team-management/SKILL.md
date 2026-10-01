@@ -38,12 +38,12 @@ built the best-managed companies in tech.
 
 ## Authoritative Foundations
 
-- **Andy Grove — High Output Management (1:1s, task-relevant maturity)** — High Output Management (1:1s, task-relevant maturity)
-- **Kim Scott — Radical Candor (care personally, challenge directly)** — Radical Candor (care personally, challenge directly)
-- **John Doerr — Measure What Matters (OKRs)** — Measure What Matters (OKRs)
-- **Molly Graham — Giving Away Your Legos (delegation)** — Giving Away Your Legos (delegation)
-- **Patty McCord — Powerful (Netflix culture, talent density)** — Powerful (Netflix culture, talent density)
-- **Claire Hughes Johnson — Scaling People (Stripe COO)** — Scaling People (Stripe COO)
+- **Andy Grove** — High Output Management (1:1s, task-relevant maturity)
+- **Kim Scott** — Radical Candor (care personally, challenge directly)
+- **John Doerr** — Measure What Matters (OKRs)
+- **Molly Graham** — Giving Away Your Legos (delegation)
+- **Patty McCord** — Powerful (Netflix culture, talent density)
+- **Claire Hughes Johnson** — Scaling People (Stripe COO)
 
 ## When to Use
 

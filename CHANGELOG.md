@@ -1,5 +1,16 @@
 # Changelog
 
+## Self-contained skills and source cleanup — 2026-09-30
+
+- Every installed skill is now self-contained: 114 cross-skill `../../` links and repo-root `skills/...` paths were replaced. Shared knowledge files moved to `references/` and are materialized into each skill that uses them; links to sibling skills name the skill instead of a path.
+- Materialized references keep links local when the target is bundled in the same skill, instead of always rewriting to GitHub URLs.
+- Rewrote Authoritative Foundations for 57 skills that carried generator filler ("Named methodology governing…", "Shapes deliverables for this skill…"), copy-pasted explanations attached to the wrong source, or invented framework names; each now cites real public sources with how they apply. Fixed 107 bullets whose explanation only repeated the source name.
+- Rewrote 41 descriptions to state what the skill produces and when to use it, not only trigger phrases. Fixed the duplicated `citation-harvesting` description and duplicate frameworks in `aeo-strategy`, `citation-harvesting`, and `faq-seo`.
+- Replaced placeholder "Phase 1…5" lists in 43 framework notes with each skill's actual steps; fixed 26 `related_skills` entries pointing to skills that don't exist.
+- Corrected `faq-seo` for Google's August 2023 FAQ rich-result restriction and the IRS worker-classification source in `employment-compliance`.
+- `generate-indexes.js` no longer strips the closing quote from descriptions that end in a quoted trigger; `generate-pitfalls-index.js` no longer emits broken `skills/...` links.
+- `validate-skills.js` now enforces a "Use when" clause, existing `related_skills`, no duplicate frameworks, no foundation filler or name-echo bullets, and no paths that leave the skill folder.
+
 ## Cursor product references — 2026-09-30
 
 Restore Cursor wherever the v0.27.0 rebrand replaced the product name (vibe-coding, vibe-marketing, v0-lander, developer-gtm, headless-support, support-tool-stack, n8n-toolkit, ai-prompts-toolkit, leadmagic-mcp, mcp-setup, and install docs). Drop the duplicate `Jesse` compatibility entry and the `.jesse/skills` install target; Cursor installs through `.agents/skills`.

@@ -3,7 +3,7 @@
 # Lifecycle Metrics by Stage
 
 Metric definitions, formulas, and **R/Y/G thresholds** by lifecycle stage.
-**Canonical stage index:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-lifecycle-stages.md`
+**Canonical stage index:** `references/gtm-lifecycle-stages.md`
 **Dashboard template:** `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md`
 **Calculator:** `saas-metrics-calculator` · **Board stack:** `analytics/gtm-metrics`
 
@@ -55,7 +55,7 @@ Stage-aware benchmarks follow David Skok, ChartMogul/OpenView, and WbD bowtie ec
 
 **Cadence:** Daily stuck review; weekly activation funnel.
 **Skills:** `customer-onboarding`, `onboarding-sequences`, `cs-analytics-dashboards`
-**Deep dive:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/activation-playbook.md`
+**Deep dive:** `references/activation-playbook.md`
 
 ---
 

@@ -4,12 +4,10 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **Marketing Ops Governance Framework**
-- **SiriusDecisions Campaign Hierarchy**
-- **Winning by Design — Revenue Architecture**
-- **Atlassian Team Playbook — RACI chart**
-- **PMI — RACI matrix responsibility assignment**
-- **Aneesh Lal (Wishly Group) — Influencer UTM & landing-page attribution**
+- **Google Analytics — Campaign URL (UTM) parameters** — Standardize utm_source, utm_medium, and utm_campaign values in a shared dictionary; inconsistent casing and synonyms split reporting.
+- **Salesforce — Campaign hierarchy and campaign influence** — Nest campaigns (program → campaign → tactic) so influence and ROI roll up to the program level.
+- **Winning by Design — Revenue Architecture** — Bowtie lifecycle model — align sales, marketing, and CS on stage-based outcomes.
+- **PMI — RACI matrix** — Assign exactly one Accountable owner per launch task and separate Responsible, Consulted, and Informed roles.
 
 ## Deep-dive references
 

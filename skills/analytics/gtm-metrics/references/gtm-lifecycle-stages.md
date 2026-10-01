@@ -4,7 +4,7 @@
 
 **Canonical home** for customer/revenue lifecycle definitions. Skills link here — do not duplicate stage tables in skill bodies.
 
-**Related maps:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/lifecycle-skill-index.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/lifecycle-metrics-by-stage.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/activation-playbook.md` · `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md` · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md`
+**Related maps:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/lifecycle-skill-index.md` · `references/lifecycle-metrics-by-stage.md` · `references/activation-playbook.md` · `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md` · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md`
 
 **Framework alignment:** Winning by Design **Bowtie** (Acquire → Adopt → Expand) · Reforge lifecycle marketing · David Skok unit economics · Sean Ellis PMF (pre-lifecycle)
 
@@ -14,10 +14,10 @@
 
 | Stage | Definition | Primary owner | Key metrics (3–5) | Monitoring cadence | Canonical skill(s) | Artifacts |
 |---|---|---|---|---|---|---|
-| **1. Awareness** | Target buyers know you exist — brand, content, dark social, community, B2B creators | Marketing | Branded search volume; share of voice; content-assisted pipeline %; dark-social influenced opps; ICP creator engagement %; cost per engaged visitor | Weekly pulse; monthly channel review | `content-marketing`, `seo-strategy`, `paid-social-strategy`, `podcast-gtm`, `customer-marketing`, `social-selling` | `https://github.com/LeadMagic/gtm-skills/blob/main/references/chris-walker-mental-models.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/b2b-influencer-strategy.md` · `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md` (Awareness row) |
-| **2. Acquisition** | Known visitors become identifiable leads — capture, qualify, route | Marketing + RevOps | Visitor→lead %; MQL volume; MQL→SQL %; CPL; lead response time (inbound) | Weekly funnel; monthly CAC by channel | `inbound-triage`, `mql-nurture`, `lead-finding`, `attribution` | `lifecycle/mql-nurture` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/lifecycle-metrics-by-stage.md` |
-| **3. Activation** | New customer/user achieves **first value event** (not login) — aha moment, TTV | CS + Product | Activation rate (% hit event ≤7d); median time-to-activation; onboarding completion %; 90-day retention of activated cohort; activation→expansion % | **Daily** stuck-account review; weekly activation funnel | `customer-onboarding`, `onboarding-sequences`, `cs-analytics-dashboards` | **`https://github.com/LeadMagic/gtm-skills/blob/main/references/activation-playbook.md`** · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md` |
-| **4. Engagement** | Activated users adopt core workflow — depth, breadth, habit | Product + CS | DAU/WAU or weekly active accounts; feature adoption %; depth score (actions/account); support ticket ratio; product-qualified lead (PQL) rate (PLG) | Weekly product review; monthly cohort | `cs-playbooks`, `event-analytics`, `freemium-optimization` | `https://github.com/LeadMagic/gtm-skills/blob/main/references/lifecycle-metrics-by-stage.md` · `cs-analytics-dashboards` |
+| **1. Awareness** | Target buyers know you exist — brand, content, dark social, community, B2B creators | Marketing | Branded search volume; share of voice; content-assisted pipeline %; dark-social influenced opps; ICP creator engagement %; cost per engaged visitor | Weekly pulse; monthly channel review | `content-marketing`, `seo-strategy`, `paid-social-strategy`, `podcast-gtm`, `customer-marketing`, `social-selling` | `references/chris-walker-mental-models.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/b2b-influencer-strategy.md` · `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md` (Awareness row) |
+| **2. Acquisition** | Known visitors become identifiable leads — capture, qualify, route | Marketing + RevOps | Visitor→lead %; MQL volume; MQL→SQL %; CPL; lead response time (inbound) | Weekly funnel; monthly CAC by channel | `inbound-triage`, `mql-nurture`, `lead-finding`, `attribution` | `lifecycle/mql-nurture` · `references/lifecycle-metrics-by-stage.md` |
+| **3. Activation** | New customer/user achieves **first value event** (not login) — aha moment, TTV | CS + Product | Activation rate (% hit event ≤7d); median time-to-activation; onboarding completion %; 90-day retention of activated cohort; activation→expansion % | **Daily** stuck-account review; weekly activation funnel | `customer-onboarding`, `onboarding-sequences`, `cs-analytics-dashboards` | **`references/activation-playbook.md`** · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md` |
+| **4. Engagement** | Activated users adopt core workflow — depth, breadth, habit | Product + CS | DAU/WAU or weekly active accounts; feature adoption %; depth score (actions/account); support ticket ratio; product-qualified lead (PQL) rate (PLG) | Weekly product review; monthly cohort | `cs-playbooks`, `event-analytics`, `freemium-optimization` | `references/lifecycle-metrics-by-stage.md` · `cs-analytics-dashboards` |
 | **5. Revenue** | Monetization events — new ARR, expansion, upsell, cross-sell | Sales + CS | New ARR; expansion ARR; net revenue retention (NRR); average expansion deal size; conversion to paid (PLG) | Weekly revenue ops; monthly board metrics | `expansion-selling`, `pipeline-management`, `deal-desk`, `gtm-metrics` | `analytics/gtm-metrics` · `saas-metrics-calculator` |
 | **6. Retention** | Renewals, churn prevention, contraction management | CS + RevOps | Gross revenue retention (GRR); logo churn %; churn risk score distribution; save rate on at-risk; contraction MRR | Weekly health review; monthly NRR/GRR | `churn-prevention`, `churn-prediction`, `qbr-planning`, `cs-playbooks` | `lifecycle/churn-prediction` · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md` |
 | **7. Referral** | Customers advocate — references, case studies, community, WOM | Marketing + CS | NPS / CSAT; referenceable accounts %; case studies published; referral-sourced pipeline %; community engagement index | Monthly advocacy review; quarterly program audit | `referral-programs`, `customer-marketing`, `review-platforms` | `growth/referral-programs` · `customer-marketing` |
@@ -73,12 +73,12 @@ Internal ramp lifecycle — **not** customer lifecycle. Canonical: `revenue-team
 
 | Need | Load first | Then |
 |---|---|---|
-| Define activation event | `https://github.com/LeadMagic/gtm-skills/blob/main/references/activation-playbook.md` | `customer-onboarding`, `onboarding-sequences` |
+| Define activation event | `references/activation-playbook.md` | `customer-onboarding`, `onboarding-sequences` |
 | Weekly lifecycle review | `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md` | `gtm-metrics`, `cs-analytics-dashboards` |
-| R/Y/G board for stages | `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md` | `https://github.com/LeadMagic/gtm-skills/blob/main/references/lifecycle-metrics-by-stage.md` |
+| R/Y/G board for stages | `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md` | `references/lifecycle-metrics-by-stage.md` |
 | Pre-scale PMF | `solo-founder-gtm` → `pmf-signal-checklist.md` | `journey-stage-gates.md` |
 | Scale readiness | `scale-readiness-gates.md` | `gtm-metrics` GTM Index |
-| MQL nurture only | `lifecycle/mql-nurture` | `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-lifecycle-stages.md` (Acquisition row) |
+| MQL nurture only | `lifecycle/mql-nurture` | `references/gtm-lifecycle-stages.md` (Acquisition row) |
 | Churn early warning | `lifecycle/churn-prediction` | `churn-prevention` |
 
 Full lifecycle cluster index → `https://github.com/LeadMagic/gtm-skills/blob/main/references/lifecycle-skill-index.md`.
@@ -88,6 +88,6 @@ Full lifecycle cluster index → `https://github.com/LeadMagic/gtm-skills/blob/m
 ## Maintenance
 
 - **Single source:** Stage definitions live only in this file.
-- **Metrics detail:** Thresholds and formulas → `https://github.com/LeadMagic/gtm-skills/blob/main/references/lifecycle-metrics-by-stage.md`.
-- **Activation depth:** Experiments, anti-patterns, audit → `https://github.com/LeadMagic/gtm-skills/blob/main/references/activation-playbook.md`.
+- **Metrics detail:** Thresholds and formulas → `references/lifecycle-metrics-by-stage.md`.
+- **Activation depth:** Experiments, anti-patterns, audit → `references/activation-playbook.md`.
 - **Regenerate indexes:** `npm run build` after skill path changes.

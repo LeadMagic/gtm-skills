@@ -117,7 +117,7 @@ Use for customer-facing statements. **Legal reviews all Sev 3+ wording.**
 | **Investor email** | Sev 3+ business impact | Replacing monthly update rhythm |
 | **G2 / review reply** | Single negative reviews | Arguing with reviewers |
 
-**Dark social:** Most B2B buyers discuss vendor incidents in Slack and DMs — monitor via CS and sales, not just public mentions. → `https://github.com/LeadMagic/gtm-skills/blob/main/references/chris-walker-mental-models.md`
+**Dark social:** Most B2B buyers discuss vendor incidents in Slack and DMs — monitor via CS and sales, not just public mentions. → `references/chris-walker-mental-models.md`
 
 ---
 
@@ -145,7 +145,7 @@ Use for customer-facing statements. **Legal reviews all Sev 3+ wording.**
 ### Executive departure / layoffs
 
 1. Internal memo first; manager talking points.
-2. Layoffs: Laurie Ruettimann patterns — early week, written summary, HR/legal script → `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-pr-crisis-experts.md`
+2. Layoffs: Laurie Ruettimann patterns — early week, written summary, HR/legal script → `references/saas-pr-crisis-experts.md`
 3. `employment-compliance` + `gtm-role-descriptions/references/hr-gtm-playbook.md` for process.
 
 ### Product failure / AI harming customer
@@ -161,7 +161,7 @@ Use for customer-facing statements. **Legal reviews all Sev 3+ wording.**
 ### Churn wave / NRR collapse (public signal)
 
 1. Treat as Sev 2–3 reputational if G2/LinkedIn narrative forms.
-2. `churn-prevention`, `lifecycle` Retention stage → `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-lifecycle-stages.md`
+2. `churn-prevention`, `lifecycle` Retention stage → `references/gtm-lifecycle-stages.md`
 3. Investor update: honest churn root cause + CS fix plan — never skip the month.
 
 ---
@@ -177,7 +177,7 @@ Use for customer-facing statements. **Legal reviews all Sev 3+ wording.**
 | Onboarding / trust rebuild | `customer-success/customer-onboarding` |
 | Preparedness checklist | `https://github.com/LeadMagic/gtm-skills/blob/main/references/crisis-preparedness-checklist.md` |
 | Statement templates | `skills/management-leadership/gtm-leadership/templates/crisis-*.md` |
-| PR expert voices | `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-pr-crisis-experts.md`, `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` |
+| PR expert voices | `references/saas-pr-crisis-experts.md`, `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` |
 | Benchmark / board context | `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md` |
 
 ---

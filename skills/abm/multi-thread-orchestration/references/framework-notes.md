@@ -18,11 +18,13 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Stakeholder Identification
+- Phase 2: Ghost Node Detection
+- Phase 3: Role-Specific Engagement
+- Phase 4: Parallel Play Design
+- Phase 5: Deal Health Scoring
 
 ## Agent routing
 

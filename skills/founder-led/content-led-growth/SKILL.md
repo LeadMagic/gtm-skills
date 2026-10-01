@@ -13,7 +13,7 @@ metadata:
   author: LeadMagic
   category: founder-led
   tags: [content-marketing, founder-brand, content-strategy, newsletter, social-media, thought-leadership]
-  related_skills: [founder-brand, social-media-strategy, content-marketing, copywriting, blog-writing, newsletter-strategy, podcast-strategy]
+  related_skills: [founder-brand, social-media-strategy, content-marketing, copywriting, podcast-gtm]
   frameworks:
     - "Nathan Barry (ConvertKit) — The art of teaching everything you know"
     - "Dave Gerhardt (Exit Five) — B2B content as brand building"
@@ -298,7 +298,7 @@ Before delivering, verify:
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-- `references/dave-gerhardt-exit-five.md` — Exit Five B2B brand voice (repo root)
+- `references/dave-gerhardt-exit-five.md` — Exit Five B2B brand voice
 
 ## Related Skills
 

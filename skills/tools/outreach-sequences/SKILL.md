@@ -1,9 +1,10 @@
 ---
 name: outreach-sequences
 description: >-
-  Design and manage Outreach sequences — multi-channel cadences, triggers, analytics,
-  team workflows. Triggers on: "Outreach sequences", "Outreach cadence", "Outreach 
-  setup", "Outreach automation".
+  Designs and manages Outreach sequences: multi-channel cadences, triggers,
+  analytics, and team workflows. Use when the user is building or optimizing
+  sequences in Outreach. Triggers on: "Outreach sequences", "Outreach cadence",
+  "Outreach setup", "Outreach automation".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
@@ -12,9 +13,9 @@ metadata:
   category: tools
   tags: [outreach, sequences, cadence, sales-engagement, outbound]
   frameworks:
-    - "Outreach Sequence Best Practices"
-    - "ColdIQ Cadence Design"
-    - "Outreach — Sales Engagement Cadence Design"
+    - "Outreach Support — Sequences and rulesets"
+    - "Google and Yahoo — Bulk sender requirements (2024)"
+    - "The Bridge Group — SDR metrics research"
 ---
 
 # Outreach Sequences
@@ -25,10 +26,9 @@ complex multi-channel, multi-touch cadences with team routing, analytics, and
 compliance controls that simpler tools lack.
 
 ## Authoritative Foundations
-
-- **Outreach Sequence Best Practices** — Sequence governance, task-based selling, and CRM-locked cadences.
-- **ColdIQ Cadence Design** — Named methodology governing recommendations in this skill's process.
-- **Outreach — Sales Engagement Cadence Design** — Sequence governance, task-based selling, and CRM-locked cadences.
+- **Outreach Support — Sequences and rulesets** — Configure sequence settings, rulesets, and task types so reps follow the same cadence and replies auto-exit prospects.
+- **Google and Yahoo — Bulk sender requirements (2024)** — Authenticate with SPF, DKIM, and DMARC, keep spam complaints below 0.3%, and respect per-mailbox volume.
+- **The Bridge Group — SDR metrics research** — Benchmark activity and conversion per rep against published SDR data before judging cadence performance.
 
 ## When to Use
 - "Set up Outreach sequences"
@@ -100,11 +100,11 @@ Before delivering, verify:
 - `scripts/check-output.py` — local checklist validator
 This skill includes lightweight artifacts the agent can load on demand:
 - `references/enrichment-enrollment-gate.md` — verify gate + trigger architecture
-- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify-before-enroll (Pat Spielmann)
-- `../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md` — Clay agency execution (Eric Nowoslawski)
-- `../../tools/clay-toolkit/references/gtm-table-blueprints.md` — clay-toolkit table → CRM upsert
-- `../../tools/n8n-toolkit/references/gtm-flow-catalog.md` — OUT-01 API enrollment
-- `../../../../references/gtm-experts-outbound-index.md` — expert router
+- `references/pat-spielmann-outbound-copy.md` — verify-before-enroll (Pat Spielmann)
+- `references/eric-nowoslawski-outbound.md` — Clay agency execution (Eric Nowoslawski)
+- `references/gtm-table-blueprints.md` — clay-toolkit table → CRM upsert
+- the `n8n-toolkit` skill (gtm-flow-catalog.md) — OUT-01 API enrollment
+- `references/gtm-experts-outbound-index.md` — expert router
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Implementation Depth

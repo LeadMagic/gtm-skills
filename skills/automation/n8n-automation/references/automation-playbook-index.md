@@ -132,7 +132,7 @@ These skills **consume** automation outputs — pair with toolkits above:
 - Outbound expert router: `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-experts-outbound-index.md` (Pat Spielmann, Eric Nowoslawski, Guillaume)
 - Pat Spielmann playbook: `outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
 - Eric Nowoslawski playbook: `outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md`
-- Automation strategy: `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-automation-expert-playbook.md` (Jen Igartua — Pattern 30)
+- Automation strategy: `references/gtm-automation-expert-playbook.md` (Jen Igartua — Pattern 30)
 - Master router: `foundation/using-gtm-skills` → Pattern 6, 6b, 17, 30
 
 **Total indexed playbooks: 38** (12 automation + 15 tools + 6 leadmagic + 5 gtm-ops) + 8 motion consumer skills

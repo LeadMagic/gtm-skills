@@ -45,7 +45,7 @@ complete expansion playbook: triggers, scoring, execution, and measurement.
 - **Marc Benioff** — Land-and-expand enterprise motion
 - **Randy Seidl** — Relationship-led expansion: map stakeholders beyond the
   original champion; score trust before upsell. Load `sales-coaching` →
-  `skills/management-leadership/sales-coaching/references/randy-seidl-relationship-selling.md`. Complements Benioff CRM
+  `references/randy-seidl-relationship-selling.md`. Complements Benioff CRM
   land-expand structure (`crm-toolkit` → land-expand-account-plan).
 - **Snowflake consumption model (Slootman, Degnan).** Land with **paid pilot**
   (low ACV entry); expand via **use cases** tracked in CRM; rep comp on booking
@@ -190,11 +190,11 @@ Before delivering, verify:
 - `references/framework-notes.md` — Bowtie expansion, propensity score, NRR benchmarks
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-- `../../management-leadership/gtm-leadership/references/cro-enterprise-strategy.md` — Snowflake consumption + Databricks workload expansion (Pattern 31)
+- `references/cro-enterprise-strategy.md` — Snowflake consumption + Databricks workload expansion (Pattern 31)
 - `sales-coaching/references/randy-seidl-relationship-selling.md` — Stakeholder trust map for expansion (canonical)
 **Lifecycle (Revenue stage):** `references/gtm-lifecycle-stages.md` · `references/lifecycle-skill-index.md` · Pattern 18 in `using-gtm-skills`  
 **Cross-skill:** `saas-metrics-calculator/references/metric-definitions-exit-weight.md` (NRR exit weight) · `references/saas-metrics-reference.md`
-**Canonical lifecycle (repo root):** `references/gtm-lifecycle-stages.md` (Revenue) · `references/lifecycle-metrics-by-stage.md` · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md`
+**Canonical lifecycle:** `references/gtm-lifecycle-stages.md` (Revenue) · `references/lifecycle-metrics-by-stage.md` · the `gtm-metrics` skill (stage-health-scorecard.md)
 
 ## Related Skills
 

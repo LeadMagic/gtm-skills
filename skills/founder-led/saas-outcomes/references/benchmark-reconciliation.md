@@ -298,7 +298,7 @@ Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/dave-gerhard
 | **David Sacks** — burn multiple primary | **David Skok** — LTV:CAC primary | **Efficiency gates:** burn multiple at fundraise; **unit economics:** LTV:CAC/payback for motion design. Both in board pack. |
 | **KeyBanc private median** ~15% Rule of 40 | **Bessemer aspiration** ≥40% | Median ≠ failure — see Rule of 40 row above. |
 
-Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-cloud-atlas.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/david-sacks-saas-metrics.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md`
+Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-cloud-atlas.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/david-sacks-saas-metrics.md` · `references/meritech-saas-benchmarks.md`
 
 ---
 
@@ -314,7 +314,7 @@ Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-clo
 | **Consumption usage** | **Seat-based MRR** | Hybrid: platform MRR + usage true-up; McMahon/Slootman: track commit vs consumption run-rate |
 | **Earn-out / exit ARR** | **Internal dashboard ARR** | Diligence uses **committed recurring** + definitions in LOI — EBITDA earn-out ≠ MRR earn-out (`negotiating-earn-out.md`) |
 
-**Canonical deep dive:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-mrr-accounting-nuances.md` · bridge template → `skills/founder-led/saas-metrics-calculator/templates/mrr-bridge-template.md`
+**Canonical deep dive:** `references/saas-mrr-accounting-nuances.md` · bridge template → `skills/founder-led/saas-metrics-calculator/templates/mrr-bridge-template.md`
 
 **Footnote — saas-metrics-calculator vs financial-modeling:** Calculator = committed MRR formulas. Financial model revenue row may use **recognized** revenue for P&L — link both in board pack.
 
@@ -337,7 +337,7 @@ Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-clo
 - `executive-compensation/references/comp-by-role-stage.md`
 - `gtm-role-descriptions/references/comp-benchmarks.md`
 - `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-metrics-reference.md`
-- `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-mrr-accounting-nuances.md`
+- `references/saas-mrr-accounting-nuances.md`
 - `https://github.com/LeadMagic/gtm-skills/blob/main/references/bookings-billings-revenue-matrix.md`
 - `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-budget-playbook.md`
 - `saas-outcomes/references/exit-metrics-matrix.md`

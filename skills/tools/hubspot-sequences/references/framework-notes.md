@@ -4,9 +4,9 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **HubSpot Sequences Best Practices**
-- **ColdIQ Multi-Channel Cadence**
-- **Outreach — Sales Engagement Cadence Design**
+- **HubSpot Knowledge Base — Sequences** — Configure enrollment, task steps, and automatic unenrollment on reply or meeting booked; sequences send from each rep's connected inbox.
+- **Google and Yahoo — Bulk sender requirements (2024)** — Authenticate with SPF, DKIM, and DMARC, keep spam complaints below 0.3%, and respect per-inbox daily volume.
+- **Outreach — Sales Engagement Cadence Design** — Sequence governance, task-based selling, and CRM-locked cadences.
 
 ## Deep-dive references
 

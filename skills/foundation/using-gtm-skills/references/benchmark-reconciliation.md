@@ -37,7 +37,7 @@ Last reviewed: 2026-06. Refresh Meritech/KeyBanc annually.
 | **LTV:CAC minimum** | Skok: 3:1 investable | Bootstrap organic: 5–10x common | **≥3:1** minimum VC; **≥4:1** scale; bootstrap **≥3:1** with note organic CAC lower |
 | **LTV:CAC "too high"** | `saas-metrics-reference`: >10x under-invest | — | **>10x** = likely under-investing in growth (not a brag) |
 
-**Canonical formula:** Contribution-margin LTV only — see `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-metrics-reference.md`.
+**Canonical formula:** Contribution-margin LTV only — see `references/saas-metrics-reference.md`.
 
 ---
 
@@ -84,7 +84,7 @@ Last reviewed: 2026-06. Refresh Meritech/KeyBanc annually.
 | **MQL stance** | MQL → SQL when fit | Anti–lead-gen volume | Qualify hard; don't optimize form volume alone |
 | **Paid social** | Supports inbound capture | Education-first LinkedIn | Ungated content + retarget; avoid CPL-only optimization |
 
-Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/dharmesh-shah-hubspot-inbound.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/chris-walker-mental-models.md`
+Refs: `references/dharmesh-shah-hubspot-inbound.md` · `references/chris-walker-mental-models.md`
 
 ---
 
@@ -95,7 +95,7 @@ Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/dharmesh-sha
 | **Joey Gilkey** | Disposition Science (6 outcomes) | Diagnose list/message/rep/follow-up | **Outcome taxonomy** — what happened on the call |
 | **Ryan Reisert** | 4 CRM Activity Buckets | Daily rep prioritization | **Workflow taxonomy** — what to do next |
 
-**These are distinct — do not merge.** Gilkey ≠ Reisert. Cross-link both in `cold-calling`; Pattern 15b loads both. See `https://github.com/LeadMagic/gtm-skills/blob/main/references/cold-calling-experts-index.md`.
+**These are distinct — do not merge.** Gilkey ≠ Reisert. Cross-link both in `cold-calling`; Pattern 15b loads both. See `references/cold-calling-experts-index.md`.
 
 ---
 
@@ -214,7 +214,7 @@ Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/dharmesh-sha
 | **Eric Nowoslawski** (Pattern 15c) | Inbox infra, deliverability economics | n8n enterprise error handling |
 | **Pat Spielmann** (Pattern 17) | Verify-before-send, enrichment copy | MCP agent guardrails |
 
-**Canonical:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-automation-expert-playbook.md` · tool index: `automation-playbook-index.md` (38 playbooks, not 26).
+**Canonical:** `references/gtm-automation-expert-playbook.md` · tool index: `automation-playbook-index.md` (38 playbooks, not 26).
 
 ---
 
@@ -252,7 +252,7 @@ Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/dharmesh-sha
 | **Keenan Gap Selling** — diagnose gap first | **Challenger** — teach reframe | **Gap before teach** — incomplete diagnosis + Challenger insight = happy ears with fancy slides. |
 | **Anthony Iannarino** — discipline + leveling | **Jon Barrows** — tactical drills | Iannarino = habit/accountability; Barrows = call-level skill reps. Pair in coaching. |
 
-Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/brent-adamson-challenger.md` · `anthony-iannarino-sales-discipline.md` · `buyer-indecision` · `transparency-selling`
+Refs: `references/brent-adamson-challenger.md` · `anthony-iannarino-sales-discipline.md` · `buyer-indecision` · `transparency-selling`
 
 ---
 
@@ -264,7 +264,7 @@ Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/brent-adamso
 | **Nick Mehta / Gainsight** — health score + lifecycle stages | **Murphy** — outcome over activity | Health score **inputs** should predict outcome progress — not login vanity alone. |
 | **Wes Bush** — PLG onboarding bowling alley | **Murphy** — appropriate experience | Self-serve **experience** is part of Required Outcome — segment high-touch vs digital-first. |
 
-Ref: `https://github.com/LeadMagic/gtm-skills/blob/main/references/lincoln-murphy-customer-success.md` · Pattern 18
+Ref: `references/lincoln-murphy-customer-success.md` · Pattern 18
 
 ---
 
@@ -275,7 +275,7 @@ Ref: `https://github.com/LeadMagic/gtm-skills/blob/main/references/lincoln-murph
 | **Wes Bush** — freemium ~5%, trial ~17% (historical ProductLed survey) | **Kyle Poyar 2026 Report** — segment-specific medians vary by model | Use **Kyle Poyar** for current benchmark tables; **Wes Bush** for onboarding/maturity design. Always label freemium vs trial vs reverse trial. |
 | **Elena Verna** — PQL routing | **OpenView PLG** — end-user focus | PQL = **activation event + account score**; don't MQL-wrap product signals. |
 
-Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/kyle-poyar-growth-unhinged.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/elena-verna-plg-growth.md`
+Refs: `references/kyle-poyar-growth-unhinged.md` · `references/elena-verna-plg-growth.md`
 
 ---
 
@@ -286,7 +286,7 @@ Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/kyle-poyar-g
 | **Dave Gerhardt (Exit Five)** — human brand, community | **Chris Walker** — demand creation, dark social | Gerhardt = **voice + marketer community**; Walker = **measurement philosophy + frequency**. Run both — not either/or. |
 | **Dharmesh Shah** — inbound capture + lifecycle | **Walker** — anti–lead-gen volume | HubSpot captures; Walker warns against CPL-only optimization. **Qualify hard** on inbound (Pattern 27 + 26). |
 
-Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/dave-gerhardt-exit-five.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/chris-walker-mental-models.md` · Pattern 26/27
+Refs: `references/dave-gerhardt-exit-five.md` · `references/chris-walker-mental-models.md` · Pattern 26/27
 
 ---
 
@@ -298,7 +298,7 @@ Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/dave-gerhard
 | **David Sacks** — burn multiple primary | **David Skok** — LTV:CAC primary | **Efficiency gates:** burn multiple at fundraise; **unit economics:** LTV:CAC/payback for motion design. Both in board pack. |
 | **KeyBanc private median** ~15% Rule of 40 | **Bessemer aspiration** ≥40% | Median ≠ failure — see Rule of 40 row above. |
 
-Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-cloud-atlas.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/david-sacks-saas-metrics.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md`
+Refs: `references/bessemer-cloud-atlas.md` · `references/david-sacks-saas-metrics.md` · `references/meritech-saas-benchmarks.md`
 
 ---
 
@@ -308,13 +308,13 @@ Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-clo
 |---|---|---|
 | **CRM bookings / TCV** at signature | **RevOps committed MRR** (ACV ÷ 12) | **Board ARR, NRR, Magic Number:** committed MRR bridge only — never TCV in sign month as "MRR added" |
 | **Committed MRR × 12** (private) | **Meritech implied ARR** (Q revenue × 4) | **Private ops:** committed. **Public comps:** implied — footnote always; never compare without label |
-| **Billings / cash** (annual prepay) | **Committed MRR** | Prepay ↑ cash, not ↑ monthly MRR beyond ACV/12 — see `https://github.com/LeadMagic/gtm-skills/blob/main/references/bookings-billings-revenue-matrix.md` |
+| **Billings / cash** (annual prepay) | **Committed MRR** | Prepay ↑ cash, not ↑ monthly MRR beyond ACV/12 — see `references/bookings-billings-revenue-matrix.md` |
 | **Recognized revenue** (GAAP) | **Committed MRR** | Finance reports recognition; RevOps reports committed bridge — reconcile monthly; implementation delay creates gap |
 | **Professional services** in TCV | **SaaS ARR** | **Exclude PS from SaaS ARR** in metrics skills unless board explicitly asks for total revenue |
 | **Consumption usage** | **Seat-based MRR** | Hybrid: platform MRR + usage true-up; McMahon/Slootman: track commit vs consumption run-rate |
 | **Earn-out / exit ARR** | **Internal dashboard ARR** | Diligence uses **committed recurring** + definitions in LOI — EBITDA earn-out ≠ MRR earn-out (`negotiating-earn-out.md`) |
 
-**Canonical deep dive:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-mrr-accounting-nuances.md` · bridge template → `skills/founder-led/saas-metrics-calculator/templates/mrr-bridge-template.md`
+**Canonical deep dive:** `references/saas-mrr-accounting-nuances.md` · bridge template → `skills/founder-led/saas-metrics-calculator/templates/mrr-bridge-template.md`
 
 **Footnote — saas-metrics-calculator vs financial-modeling:** Calculator = committed MRR formulas. Financial model revenue row may use **recognized** revenue for P&L — link both in board pack.
 
@@ -327,7 +327,7 @@ Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-clo
 | **Incumbent reverse demo** | Peter Cohan | Displacing vendor — buyer shows current tool in discovery |
 | **Product reverse demo** | Varun Anand / Clay | PLG/hybrid — buyer drives your product UI |
 
-**Never merge** — cite explicitly in `demo-scripts`. Ref: `https://github.com/LeadMagic/gtm-skills/blob/main/references/peter-cohan-great-demo.md` · `reverse-demo-varun.md`
+**Never merge** — cite explicitly in `demo-scripts`. Ref: `references/peter-cohan-great-demo.md` · `reverse-demo-varun.md`
 
 ---
 
@@ -336,10 +336,10 @@ Refs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-clo
 - `executive-compensation/references/gtm-compensation-strategy.md`
 - `executive-compensation/references/comp-by-role-stage.md`
 - `gtm-role-descriptions/references/comp-benchmarks.md`
-- `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-metrics-reference.md`
-- `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-mrr-accounting-nuances.md`
-- `https://github.com/LeadMagic/gtm-skills/blob/main/references/bookings-billings-revenue-matrix.md`
-- `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-budget-playbook.md`
+- `references/saas-metrics-reference.md`
+- `references/saas-mrr-accounting-nuances.md`
+- `references/bookings-billings-revenue-matrix.md`
+- `references/gtm-budget-playbook.md`
 - `saas-outcomes/references/exit-metrics-matrix.md`
 - `saas-outcomes/references/bootstrap-founder-playbook.md`
 - `exiting-company/references/negotiating-earn-out.md`

@@ -14,13 +14,12 @@ metadata:
   author: LeadMagic
   category: design
   tags: [design-system, brand, visual-identity, voice-tone, design-tokens, css-variables, claude-design]
-  related_skills: [claude-design, popular-web-designs, design-system-builder, brand-kit, ui-ux-gtm, effective-ui-design]
+  related_skills: [ui-ux-gtm, landing-pages, brand-kit]
   frameworks:
-    - "Google DESIGN.md Specification"
-    - "Stitch 9-Section Brand Format"
     - "Brad Frost — Atomic Design"
-    - "Nathan Curtis — Design System Monorepo Architecture"
-    - "Dan Mall — Design System Governance"
+    - "W3C Design Tokens Community Group — Format spec"
+    - "Nathan Curtis (EightShapes) — Design system documentation"
+    - "Dan Mall — Design That Scales"
 ---
 
 # Design System for GTM
@@ -35,14 +34,10 @@ complete AI-consumable design system with visual identity, voice/tone,
 templates, and guardrails. Designed to be read by both humans and AI agents.
 
 ## Authoritative Foundations
-
-- **Google DESIGN.md Specification** — Shapes deliverables for this skill — When AI agents generate sales collateral, pitch decks, one-pagers, social
-graphics, and emails, they need a brand system.
-- **Stitch 9-Section Brand Format** — Shapes deliverables for this skill — When AI agents generate sales collateral, pitch decks, one-pagers, social
-graphics, and emails, they need a brand system.
-- **Brad Frost — Atomic Design** — Atomic Design
-- **Nathan Curtis — Design System Monorepo Architecture** — Design System Monorepo Architecture
-- **Dan Mall — Design System Governance** — Design System Governance
+- **Brad Frost — Atomic Design** — Build from tokens and atoms up to templates so every one-pager, deck, and email stays consistent.
+- **W3C Design Tokens Community Group — Format spec** — Store color, type, and spacing as named tokens in a portable format that agents and tools can read.
+- **Nathan Curtis (EightShapes) — Design system documentation** — Document each component's purpose, usage rules, and do/don't examples, not just its appearance.
+- **Dan Mall — Design That Scales** — Treat the system as a product with owners, contribution rules, and a release process.
 
 ## When to Use
 

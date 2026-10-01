@@ -1,9 +1,11 @@
 ---
 name: pillar-pages
 description: >-
-  Design and build pillar pages with topic clusters — comprehensive hub pages that
-  rank for high-intent keywords. Triggers on: "pillar page", "topic cluster", "hub
-  page", "cornerstone content", "SEO pillar".
+  Designs pillar pages and topic clusters: hub page outlines, cluster keyword
+  maps, and internal linking so the hub ranks for high-intent head terms. Use
+  when the user is building cornerstone content, organizing a blog into
+  clusters, or planning a pillar page for a specific topic. Triggers on: "pillar
+  page", "topic cluster", "hub page", "cornerstone content", "SEO pillar".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
@@ -13,9 +15,9 @@ metadata:
   tags: [content-seo, pillar-pages, topic-clusters, cornerstone-content, seo]
   related_skills: [seo-strategy, pseo-strategy, faq-seo, content-marketing]
   frameworks:
-    - "Ahrefs / Backlinko — Content Cluster Model"
+    - "HubSpot — Topic cluster model"
+    - "Ahrefs — Keyword research by parent topic"
     - "Eli Schwartz — Product-Led SEO"
-    - "HubSpot Topic Cluster Model"
     - "Google Search Central — SEO Starter Guide"
 ---
 
@@ -28,11 +30,10 @@ signals to Google that you're the authority on the topic, boosting rankings
 across the entire cluster.
 
 ## Authoritative Foundations
-
-- **Ahrefs / Backlinko — Content Cluster Model** — Content Cluster Model
-- **Eli Schwartz — Product-Led SEO** — Product-Led SEO
-- **HubSpot Topic Cluster Model** — Lifecycle stages, object model, and workflow enrollment patterns.
-- **Google Search Central — SEO Starter Guide** — SEO Starter Guide
+- **HubSpot — Topic cluster model** — Link one broad pillar page to cluster posts on subtopics, and link every cluster post back to the pillar.
+- **Ahrefs — Keyword research by parent topic** — Group keywords by the pages that already rank for them together; one pillar should target one parent topic.
+- **Eli Schwartz — Product-Led SEO** — Build pillars around what users need from the product, not only keyword volume.
+- **Google Search Central — SEO Starter Guide** — Use descriptive internal anchor text and a clear heading hierarchy so the cluster structure is crawlable.
 
 ## When to Use
 - "Build a pillar page"
@@ -156,7 +157,7 @@ A strong output from this skill includes:
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
 - `references/seo-strategy-playbook.md` — Repo root: §3 keyword tiers and cluster structure
-- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 25: B2B SEO Stack (step 2)
+- the `using-gtm-skills` skill — Pattern 25: B2B SEO Stack (step 2)
 
 ## Related Skills
 - seo-strategy, content-marketing, faq-seo, citation-harvesting, landing-pages

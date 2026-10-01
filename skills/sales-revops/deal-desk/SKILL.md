@@ -109,8 +109,8 @@ not price. This is GTM coordination, not infra engineering.
 | Negotiation | DPA + order form in parallel; don't discount to "skip" security |
 | Closed-won | Hand off artifacts + data boundaries to CS |
 
-Full timing playbook → `references/security-questionnaire-deal-guide.md`
-( repo root ). SOC 2 / pen test *implementation* → `soc2-compliance`,
+Full timing playbook → `references/security-questionnaire-deal-guide.md`.
+SOC 2 / pen test *implementation* → `soc2-compliance`,
 `security-assessments`.
 
 **Legal GTM (commercial velocity):** Eunice Buhler (G2 GC) — legal as deal
@@ -172,8 +172,8 @@ framework, and negotiation strategy.
 - `templates/discount-authority.md` — Approval + trade documentation
 - `templates/customer-data-exchange-checklist.md` — Pre/on/post-sale data exchange gates
 - `references/legal-gtm-playbook.md` — Eunice Buhler + Ironclad commercial counsel for sales (Pattern 29)
-- `references/gtm-data-exchange-playbook.md` — Canonical customer data exchange SOP (repo root)
-- `references/security-questionnaire-deal-guide.md` — When security review enters the deal (repo root)
+- `references/gtm-data-exchange-playbook.md` — Canonical customer data exchange SOP
+- `references/security-questionnaire-deal-guide.md` — When security review enters the deal
 
 ## Related Skills
 

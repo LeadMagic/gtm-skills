@@ -60,7 +60,7 @@ more likely to hit quota.
 **tactical Sales Nav layer** (saved searches, filter-specific messages, insight +
 question executive engagement, 15-minute daily alert workflow), load
 `sales-navigator-prospecting` →
-`skills/inbound/sales-navigator-prospecting/references/morgan-ingram-sales-navigator.md`.
+`references/morgan-ingram-sales-navigator.md`.
 This skill covers profile, SSI, and general DM sequencing; Ingram covers intent
 filters and message-variant systems.
 
@@ -75,7 +75,7 @@ playbook → `customer-marketing` → `community-selling-varun.md`.
 SSI metrics to **relationship capital**. His **Three Plays** (self, company/product,
 customer outcome) and **relationship map** discipline apply when LinkedIn builds
 trust for $100K+ deals — not volume DMs. Load `sales-coaching` →
-`skills/management-leadership/sales-coaching/references/randy-seidl-relationship-selling.md`. Pair with **Chris Walker**
+`references/randy-seidl-relationship-selling.md`. Pair with **Chris Walker**
 (demand creation / dark social) for pre-meeting awareness.
 
 **Aneesh Lal (Wishly Group) — B2B creator GTM.** When the motion is **paid
@@ -189,8 +189,8 @@ Social selling playbook with profile optimization checklist, DM sequences
 - `references/aneesh-wishly-b2b-influencer.md` — B2B LinkedIn creator partnerships (Wishly / Aneesh Lal)
 - `references/b2b-influencer-strategy.md` — Program design, ICP creator selection
 - `references/b2b-influencer-measurement.md` — Dark social, influencer ROI, UTM limits
-- `skills/growth/customer-marketing/templates/influencer-partnership-scorecard.md` — Creator evaluation
-- `skills/management-leadership/sales-coaching/references/randy-seidl-relationship-selling.md` — Enterprise relationship map, Three Plays, trust scorecard (canonical)
+- the `customer-marketing` skill (influencer-partnership-scorecard.md) — Creator evaluation
+- `references/randy-seidl-relationship-selling.md` — Enterprise relationship map, Three Plays, trust scorecard (canonical)
 
 ## Related Skills
 

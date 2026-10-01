@@ -4,7 +4,7 @@
 
 **Sources:** Tom Slocum — [thesdlab.com](https://www.thesdlab.com/) · [About — SD Lab](https://www.thesdlab.com/about) · [RevPartners Pit Stop podcast](https://blog.revpartners.io/en/revops-articles/podcast-pit-stop-tom-slocum-on-improving-your-sales-success-through-cold-calling) · [Challenger Inc — 3×3 method](https://challengerinc.com/blog/successful-sdr-todays-buying-journey/) · [SD Lab newsletter — clarity over volume](https://thesdlab.beehiiv.com/p/you-don-t-have-a-starting-point-problem-you-have-a-clarity-problem) · 💼 [LinkedIn](https://www.linkedin.com/in/tomslocum/) · ▶ [LinkedIn — sell the meeting](https://www.linkedin.com/posts/tomslocum_too-many-sdrs-overcomplicate-cold-calls-activity-7249869529302888449-kZvX)
 
-**Canonical expert entry:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` → Tom Slocum
+**Canonical expert entry:** `references/experts.md` → Tom Slocum
 
 **Identity:** Founder **The SD Lab** (sales development consulting). 18+ years from Discover Card cold calls (2007) → Reputation.com SDR scale (3→30 reps) → VP Sales Trainyo. **Not affiliated with Thrive TRM** (executive search software — different domain).
 

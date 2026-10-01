@@ -13,7 +13,7 @@ metadata:
   author: LeadMagic
   category: gtm-ops
   tags: [gtm-ops, revops, tech-stack, tools, audit, integration, consolidation, project-management]
-  related_skills: [gtm-operations, gtm-tool-cost-model, gtm-spend-management, crm-integration, campaign-governance, analytics, gtm-role-descriptions, clay-toolkit, n8n-automation, deal-desk, customer-onboarding, revenue-team-onboarding, data-privacy-compliance, website-visitor-identification, inbound-triage, 1p-tagging-pixels]
+  related_skills: [gtm-operations, gtm-tool-cost-model, gtm-spend-management, crm-integration, campaign-governance, campaign-analytics, gtm-role-descriptions, clay-toolkit, n8n-automation, deal-desk, customer-onboarding, revenue-team-onboarding, data-privacy-compliance, website-visitor-identification, inbound-triage, 1p-tagging-pixels]
   frameworks:
     - "Scott Brinker — MarTech Landscape (chiefmartec.com, 2025)"
     - "Gartner — Revenue Operations Research"
@@ -199,8 +199,8 @@ Rep hygiene → `references/gtm-security-hygiene-basics.md`.
 
 Tool changes are GTM projects — not side quests between tickets.
 
-1. **Charter** — `gtm-operations` → `skills/gtm-ops/gtm-operations/templates/gtm-project-charter.md`
-2. **RACI** — `skills/gtm-ops/gtm-operations/templates/raci-matrix-template.md` Example 2 (CRM Migration) or
+1. **Charter** — `gtm-operations` → the `gtm-operations` skill (gtm-project-charter.md)
+2. **RACI** — the `gtm-operations` skill (raci-matrix-template.md) Example 2 (CRM Migration) or
    Example 4 (Vendor Evaluation); RevOps Lead **Accountable** on mapping,
    integrations, and cutover
 3. **Milestones** — audit complete → sandbox UAT → training → cutover → day-30 adoption
@@ -269,7 +269,7 @@ Before delivering, verify:
 - `scripts/check-output.py`
 - `website-visitor-identification/references/visitor-id-vendor-comparison.md` — Intent/deanonymization vendors
 - `website-visitor-identification/templates/visitor-id-vendor-eval-scorecard.md` — Pilot scorecard
-- `references/gtm-data-exchange-playbook.md` — Customer data exchange SOP (repo root)
+- `references/gtm-data-exchange-playbook.md` — Customer data exchange SOP
 - `gtm-operations/templates/raci-matrix-template.md` — Migration + vendor eval RACI (Examples 2, 4)
 - `gtm-operations/templates/gtm-project-charter.md` — Rollout charter
 - `gtm-operations/references/gtm-project-management-playbook.md` — Tool rollout milestones

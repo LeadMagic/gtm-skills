@@ -13,7 +13,7 @@ metadata:
   author: LeadMagic
   category: founder-led
   tags: [pricing, psychology, monetization, tiers, packaging, anchoring, discounting]
-  related_skills: [pricing-strategy, roi-calculator, pricing-page-builder, deal-desk, sales-enablement]
+  related_skills: [pricing-strategy, roi-calculator, deal-desk, sales-enablement]
   frameworks:
     - "Madhavan Ramanujam (Monetizing Innovation) — Willingness-to-pay research"
     - "Dan Ariely — Predictably Irrational (anchoring, decoy effect, relativity)"

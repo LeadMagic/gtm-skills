@@ -156,8 +156,8 @@ objection battlecards.
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-- `references/brent-adamson-challenger.md` — Challenger reframing (repo root)
-- `references/anthony-iannarino-sales-discipline.md` — Competitive leveling (repo root)
+- `references/brent-adamson-challenger.md` — Challenger reframing
+- `references/anthony-iannarino-sales-discipline.md` — Competitive leveling
 
 ## Related Skills
 

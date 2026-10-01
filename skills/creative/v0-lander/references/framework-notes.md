@@ -18,13 +18,15 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
-- Phase 6
-- Phase 7
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Preparation (Before You Open v0)
+- Phase 2: Generate the Page (Prompt Engineering)
+- Phase 3: Iterate Section by Section
+- Phase 4: Generate Individual Components
+- Phase 5: Polish for Production
+- Phase 6: Export and Deploy
+- Phase 7: Post-Launch Iteration
 
 ## Agent routing
 

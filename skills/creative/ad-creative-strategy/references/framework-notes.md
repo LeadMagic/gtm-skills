@@ -4,9 +4,10 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **Meta Creative Testing Framework**
-- **ARC Ads Creative Methodology**
-- **Ann Handley — Everybody Writes**
+- **The B2B Institute (LinkedIn) — 95:5 rule** — Only about 5% of B2B buyers are in market at any time, so creative must build memory with the other 95% as well as convert the 5%.
+- **Meta — Dynamic creative testing** — Let the platform rotate headlines, images, and copy variants, then promote winners into fixed ads; test one variable family at a time.
+- **LinkedIn Marketing Solutions — Ad creative best practices** — Follow format specs, lead with the value in the first line, and refresh creative before frequency-driven fatigue sets in.
+- **Ann Handley — Everybody Writes** — Write ad copy that is specific, human, and about one idea; cut anything the buyer would skim past.
 
 ## Authoritative foundations
 

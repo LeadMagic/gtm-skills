@@ -28,11 +28,13 @@ programs.
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Partner Type Selection
+- Phase 2: Program Economics
+- Phase 3: Partner Recruitment
+- Phase 4: Partner Enablement
+- Phase 5: Measurement and Optimization
 
 ## Key reference tables
 

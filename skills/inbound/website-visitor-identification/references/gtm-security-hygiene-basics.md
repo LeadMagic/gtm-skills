@@ -106,6 +106,6 @@ Full provisioning checklist → `revenue-team-onboarding` → `skills/management
 | Topic | Skill / doc |
 |---|---|
 | Access provisioning | `revenue-team-onboarding` |
-| Customer data exchange | `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-data-exchange-playbook.md` |
+| Customer data exchange | `references/gtm-data-exchange-playbook.md` |
 | Demo screen share | `demo-scripts` |
 | Enterprise security review | `deal-desk`, `security-questionnaire-deal-guide.md` |

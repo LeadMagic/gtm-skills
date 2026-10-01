@@ -32,10 +32,10 @@ the relationship, compensating fairly, and extracting maximum value.
 
 ## Authoritative Foundations
 
-- **Scott Kupor (Andreessen Horowitz) — Secrets of Sand Hill Road (advisory equity)** — Secrets of Sand Hill Road (advisory equity)
-- **Elad Gil — High Growth Handbook (leveraging advisors)** — High Growth Handbook (leveraging advisors)
-- **First Round Review — High-Impact Advisory Relationships** — High-Impact Advisory Relationships
-- **Jason Lemkin (SaaStr) — When advisors add value vs are dead weight** — When advisors add value vs are dead weight
+- **Scott Kupor (Andreessen Horowitz)** — Secrets of Sand Hill Road (advisory equity)
+- **Elad Gil** — High Growth Handbook (leveraging advisors)
+- **First Round Review** — High-Impact Advisory Relationships
+- **Jason Lemkin (SaaStr)** — When advisors add value vs are dead weight
 
 ## When to Use
 

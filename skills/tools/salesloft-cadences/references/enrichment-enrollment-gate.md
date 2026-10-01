@@ -11,7 +11,7 @@ No contact enters a Salesloft cadence without:
 3. `last_verified` < 90 days
 4. Suppression list check (customer, competitor, unsub)
 
-Cross-ref: `../../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md`
+Cross-ref: `references/pat-spielmann-outbound-copy.md`
 
 ## CRM → Salesloft Flow
 
@@ -47,4 +47,4 @@ Use clay-toolkit for one-time list scrub; clay-loops-toolkit for ongoing signal 
 - Domain send limits aligned with Eric Nowoslawski infra if using connected mailboxes
 - Audit log: who enrolled, verify timestamp, signal source
 
-Cross-ref Eric infra: `../../../outbound/cold-email-strategy/references/eric-nowoslawski-outbound.md`
+Cross-ref Eric infra: `references/eric-nowoslawski-outbound.md`

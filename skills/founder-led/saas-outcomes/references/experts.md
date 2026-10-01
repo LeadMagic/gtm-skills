@@ -1629,7 +1629,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Implied ARR (Q revenue × 4) · **Meritech Rule of 40** (growth weighted 3× vs FCF) · Public Magic Number / payback on reported S&M · ~120 public SaaS index cohort
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md` (canonical) · `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md` (conflict resolution vs KeyBanc, OpenView, SaaS Capital)
+**Artifacts:** `references/meritech-saas-benchmarks.md` (canonical) · `references/benchmark-reconciliation.md` (conflict resolution vs KeyBanc, OpenView, SaaS Capital)
 
 **Skills:** `gtm-metrics`, `saas-metrics-calculator`, `saas-outcomes`, `financial-modeling`, `public-company-gtm-metrics` (Henry Schuck pairing), `fundraising-strategy`, `board-meeting-prep`
 
@@ -1669,7 +1669,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Rule of 40 (growth + margin) · Cloud index comps · Atlas stage playbooks (PLG, vertical, consumption)
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-cloud-atlas.md` (canonical) · `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md`
+**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-cloud-atlas.md` (canonical) · `references/benchmark-reconciliation.md`
 
 **Contrast:** Bessemer = **VC-stage** benchmarks + essays. Meritech = **public** comps table. Skok = formula definitions.
 
@@ -1705,7 +1705,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Investor-grade books · QBO → NetSuite migration path · SaaS-specific KPI reporting
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-tax-founder-awareness.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-mrr-accounting-nuances.md` (handoff)
+**Artifacts:** `references/saas-tax-founder-awareness.md` · `references/saas-mrr-accounting-nuances.md` (handoff)
 
 **Skills:** `financial-modeling`, `saas-metrics-calculator`, `fundraising-strategy`, `exiting-company`, `founder-comp-playbook`
 
@@ -1775,7 +1775,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 **Public Channels**
 - 🔗 [Accounting and tax services for startups](https://a16z.com/accounting-and-tax-services-for-startups/)
 
-**Skills:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-tax-founder-awareness.md`, `fundraising-strategy`
+**Skills:** `references/saas-tax-founder-awareness.md`, `fundraising-strategy`
 
 ---
 
@@ -1863,7 +1863,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Skills:** `customer-marketing`, `social-selling`, `gtm-metrics`, `campaign-governance`, `content-marketing`
 
-**Cross-links:** Chris Walker (dark social) · Varun Anand (creator flywheel) · Morgan J. Ingram (Wishly roster + `sales-navigator-prospecting`) · `strategic-gifting` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-lifecycle-stages.md` (Awareness)
+**Cross-links:** Chris Walker (dark social) · Varun Anand (creator flywheel) · Morgan J. Ingram (Wishly roster + `sales-navigator-prospecting`) · `strategic-gifting` · `references/gtm-lifecycle-stages.md` (Awareness)
 
 ---
 

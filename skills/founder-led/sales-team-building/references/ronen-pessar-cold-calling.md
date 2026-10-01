@@ -107,9 +107,9 @@ Pessar's public post: best clients tried agencies, AI email, LinkedIn automation
 
 ## Cross-Links
 
-- **Buckets (daily workflow):** Ryan Reisert (`https://github.com/LeadMagic/gtm-skills/blob/main/references/ryan-reisert-cold-calling.md`)
+- **Buckets (daily workflow):** Ryan Reisert (`references/ryan-reisert-cold-calling.md`)
 - **Disposition diagnosis:** Joey Gilkey (`https://github.com/LeadMagic/gtm-skills/blob/main/references/joey-gilkey-bucketing.md`)
-- **SDR coaching cadence:** Tom Slocum (`https://github.com/LeadMagic/gtm-skills/blob/main/references/tom-slocum-cold-calling.md`)
+- **SDR coaching cadence:** Tom Slocum (`references/tom-slocum-cold-calling.md`)
 - **Ramp:** `revenue-team-onboarding` — phone certification week 2–4
 
 ---

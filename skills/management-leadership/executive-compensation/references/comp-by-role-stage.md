@@ -1,7 +1,9 @@
+<!-- AUTO-GENERATED shared reference: references/comp-by-role-stage.md; run npm run regenerate. -->
+
 # Compensation by Role & Stage — Matrix
 
-**Canonical bands:** `gtm-role-descriptions/references/comp-benchmarks.md` (H1 2026).  
-**Strategy:** `gtm-compensation-strategy.md`.  
+**Canonical bands:** `gtm-role-descriptions/references/comp-benchmarks.md` (H1 2026).
+**Strategy:** `gtm-compensation-strategy.md`.
 **Reconcile conflicts:** `references/benchmark-reconciliation.md`.
 
 *US B2B SaaS directional ranges. Market varies by geo (SF/NYC +15–25%), ACV, and funding.*
@@ -59,7 +61,7 @@ Exec detail → `executive-comp-benchmarks.md` · `pavilion-cro-comp.md`.
 | $3M–$8M | 20–35% | 40% |
 | $8M–$20M | 25–40% | 45% |
 
-Full model → `founder-comp-playbook/references/founder-comp-budget.md`.  
+Full model → `founder-comp-playbook/references/founder-comp-budget.md`.
 GTM spend (tools + people) → `spend-by-stage.md`.
 
 ---

@@ -128,7 +128,7 @@ Use for customer-facing statements. **Legal reviews all Sev 3+ wording.**
 1. Eng contains + forensics; **do not** delete logs.
 2. Legal + counsel on notification obligations (customers, regulators, contracts).
 3. Customer comms: what data classes *may* be involved, what customers should do, support line.
-4. Trust center update; parallel enterprise deal desk track → `https://github.com/LeadMagic/gtm-skills/blob/main/references/security-questionnaire-deal-guide.md`, `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-data-exchange-playbook.md`, `gtm-security-hygiene-basics.md`.
+4. Trust center update; parallel enterprise deal desk track → `https://github.com/LeadMagic/gtm-skills/blob/main/references/security-questionnaire-deal-guide.md`, `references/gtm-data-exchange-playbook.md`, `gtm-security-hygiene-basics.md`.
 
 ### Outage / downtime
 
@@ -145,7 +145,7 @@ Use for customer-facing statements. **Legal reviews all Sev 3+ wording.**
 ### Executive departure / layoffs
 
 1. Internal memo first; manager talking points.
-2. Layoffs: Laurie Ruettimann patterns — early week, written summary, HR/legal script → `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-pr-crisis-experts.md`
+2. Layoffs: Laurie Ruettimann patterns — early week, written summary, HR/legal script → `references/saas-pr-crisis-experts.md`
 3. `employment-compliance` + `gtm-role-descriptions/references/hr-gtm-playbook.md` for process.
 
 ### Product failure / AI harming customer
@@ -171,13 +171,13 @@ Use for customer-facing statements. **Legal reviews all Sev 3+ wording.**
 | Topic | Reference |
 |---|---|
 | Legal review before statements | `deal-desk/references/legal-gtm-playbook.md` (Pattern 29) |
-| Customer data handling | `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-data-exchange-playbook.md` |
+| Customer data handling | `references/gtm-data-exchange-playbook.md` |
 | Rep security hygiene | `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-security-hygiene-basics.md` |
 | Investor cadence in hard months | `founder-led/investor-updates` |
 | Onboarding / trust rebuild | `customer-success/customer-onboarding` |
-| Preparedness checklist | `https://github.com/LeadMagic/gtm-skills/blob/main/references/crisis-preparedness-checklist.md` |
+| Preparedness checklist | `references/crisis-preparedness-checklist.md` |
 | Statement templates | `skills/management-leadership/gtm-leadership/templates/crisis-*.md` |
-| PR expert voices | `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-pr-crisis-experts.md`, `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` |
+| PR expert voices | `references/saas-pr-crisis-experts.md`, `references/experts.md` |
 | Benchmark / board context | `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md` |
 
 ---

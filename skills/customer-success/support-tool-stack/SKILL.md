@@ -56,11 +56,11 @@ and support philosophy.
 
 ## Authoritative Foundations
 
-- **Intercom — Conversational Support Framework** — Conversational Support Framework
+- **Intercom** — Conversational Support Framework
 - **Plain — API-first headless support and BYOAI via MCP** — Model Context Protocol — tool servers for agent-safe CRM and enrichment access.
-- **Zendesk — Omnichannel CX Maturity Model** — Omnichannel CX Maturity Model
-- **Help Scout — Support-Driven Growth (Bezos: customer obsession)** — Support-Driven Growth (Bezos: customer obsession)
-- **Klaus/Maestro QA — Support Quality Framework** — Support Quality Framework
+- **Zendesk** — Omnichannel CX Maturity Model
+- **Help Scout** — Support-Driven Growth (Bezos: customer obsession)
+- **Klaus/Maestro QA** — Support Quality Framework
 
 ## When to Use
 
@@ -74,7 +74,7 @@ setup", "support tool stack", "migrate support platform", "set up ticketing",
 **API-first stack (often with Attio CRM):** Plain for support infrastructure —
 GraphQL API, embedded headless portal, Slack/email channels, native MCP for
 Cursor/Claude agents. BYOAI instead of vendor AI (Fin). Full pattern:
-`skills/customer-success/headless-support/references/byoai-headless-stack.md`. MCP config: `mcp-setup`.
+`references/byoai-headless-stack.md`. MCP config: `mcp-setup`.
 
 Choose Intercom when you need Messenger + Fin without engineering a custom portal.
 

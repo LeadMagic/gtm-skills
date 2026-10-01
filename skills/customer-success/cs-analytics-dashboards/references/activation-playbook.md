@@ -5,7 +5,7 @@
 **Activation** = the first **value event** that correlates with retention — not account creation, not email verification, not "logged in once."
 
 **Canonical stage index:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-lifecycle-stages.md` (Activation row)
-**Metrics & thresholds:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/lifecycle-metrics-by-stage.md`
+**Metrics & thresholds:** `references/lifecycle-metrics-by-stage.md`
 **Monitoring:** `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md` · `skills/analytics/gtm-metrics/templates/stage-health-scorecard.md`
 
 ---

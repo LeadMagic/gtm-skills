@@ -4,10 +4,9 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **Jen Igartua (Go Nimbly) — RevOps automation maturity and orchestration roadmap**
-- **n8n Workflow Automation Framework**
-- **iPaaS Integration Patterns**
-- **HubSpot Academy — CRM Automation**
+- **n8n docs — Workflows, webhooks, and HTTP Request node** — Build GTM glue with webhook triggers, HTTP nodes, and a dedicated error workflow for failed runs.
+- **Jen Igartua (Go Nimbly) — RevOps automation maturity** — Automate stable, well-defined processes first; automating a broken process only makes it fail faster.
+- **HubSpot developer docs — API limits and webhooks** — Batch requests and back off on rate-limit responses when n8n writes to the CRM.
 
 ## Deep-dive references
 

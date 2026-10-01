@@ -1,3 +1,5 @@
+<!-- AUTO-GENERATED shared reference: references/eric-nowoslawski-outbound.md; run npm run regenerate. -->
+
 # Eric Nowoslawski — Growth Engine X Outbound Playbook
 
 **Sources:** Eric Nowoslawski — [growthenginex.com](https://www.growthenginex.com/) · 💼 [LinkedIn](https://www.linkedin.com/in/outboundphd/) · 𝕏 [@ENowoslawski](https://x.com/ENowoslawski) · ▶ [YouTube](https://www.youtube.com/channel/UC6ef5yDFz7gm8rARwX3HaDw) · [Smartlead case study — 1.5M emails/mo](https://www.smartlead.ai/case-study/case-study-eric-nowoslawski-growth-engine-x) · [GTM Engineer — Winning Cold Outbound Formula](https://thegtmengineer.substack.com/p/the-winning-cold-outbound-formula) · [Alex Berman — Creative Ideas Campaign](https://alexberman.com/creative-ideas-campaign-cold-email-infrastructure) · [LinkedIn — deliverability changes](https://www.linkedin.com/posts/outboundphd_here-are-some-changes-we-saw-with-email-deliverability-activity-7274777906105442306-YDd2) · [LinkedIn — 30 vs 50+ sends/day test](https://www.linkedin.com/posts/outboundphd_i-put-a-commonly-accepted-email-rule-and-activity-7284664261216206849-q43z)

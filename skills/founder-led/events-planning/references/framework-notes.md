@@ -4,23 +4,19 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **B2B Event ROI Framework**
-- **Field Marketing Playbook**
-- **Paul Graham — Do Things That Do Not Scale**
-
-## Authoritative foundations
-
-- **B2B Event ROI Framework** — Shapes deliverables for this skill — Events are the highest-trust channel in B2B.
-- **Field Marketing Playbook** — Shapes deliverables for this skill — Events are the highest-trust channel in B2B.
-- **Paul Graham — Do Things That Do Not Scale** — Do Things That Do Not Scale
+- **Priya Parker — The Art of Gathering** — Start from a specific purpose and a curated guest list; the format follows the purpose, not the venue.
+- **Paul Graham — Do Things That Don't Scale** — Early on, small hand-run events (dinners, meetups) create deeper relationships than large sponsorships.
+- **Forrester (SiriusDecisions) — Demand Waterfall** — Measure events by the pipeline stages they create and accelerate, not by attendance.
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
-- Phase 5
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Event Format Selection
+- Phase 2: Budget Planning
+- Phase 3: Promotion Timeline
+- Phase 4: Attendee-to-Pipeline Conversion
+- Phase 5: Event ROI Formula
 
 ## Agent routing
 

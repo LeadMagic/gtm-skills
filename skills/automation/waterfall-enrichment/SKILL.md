@@ -13,9 +13,9 @@ metadata:
   tags: [waterfall, enrichment, providers, coverage]
   related_skills: [lead-enrichment, clay-automation, email-finding, contact-verification]
   frameworks:
-    - "DAMA-DMBOK Data Quality Dimensions"
-    - "Ziellab 3-Waterfall Architecture"
-    - "HubSpot Academy — CRM Automation"
+    - "DAMA-DMBOK — Data quality dimensions"
+    - "Clay — Waterfall enrichment"
+    - "Google and Yahoo — Bulk sender requirements (2024)"
 ---
 
 # Waterfall Enrichment
@@ -31,10 +31,9 @@ company data, email, and phone — each with independently optimized provider
 ordering and verification integration.
 
 ## Authoritative Foundations
-
-- **DAMA-DMBOK Data Quality Dimensions** — Shapes deliverables for this skill — No single B2B data provider covers more than 60-75% of contacts.
-- **Ziellab 3-Waterfall Architecture** — Shapes deliverables for this skill — No single B2B data provider covers more than 60-75% of contacts.
-- **HubSpot Academy — CRM Automation** — Lifecycle stages, object model, and workflow enrollment patterns.
+- **DAMA-DMBOK — Data quality dimensions** — Score each provider on accuracy, completeness, validity, and timeliness, not coverage alone.
+- **Clay — Waterfall enrichment** — Query providers in sequence and stop at the first validated result to control cost.
+- **Google and Yahoo — Bulk sender requirements (2024)** — Validate every email the waterfall returns; bounces and complaints from bad data damage sender reputation.
 
 ## When to Use
 

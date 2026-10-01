@@ -1,11 +1,13 @@
 ---
 name: earnings-signal-play
 description: >-
-  Outbound play triggered by public company earnings calls and SEC filings —
-  strategic priority mining from 10-K/10-Q sections, Risk Factor to discovery
-  question conversion, MD&A-grounded exec messaging, quarterly cadence.
-  Triggers on: "earnings signal", "earnings play", "public company outbound",
-  "10-K outreach", "earnings call prospecting", "SEC filing signal".
+  Runs an outbound play from public-company earnings calls and SEC filings:
+  strategic priorities mined from 10-K/10-Q sections, Risk Factors turned into
+  discovery questions, MD&A-grounded executive messaging, and a quarterly
+  cadence. Use when prospecting into public companies, or into private companies
+  by borrowing signals from public competitors. Triggers on: "earnings signal",
+  "earnings play", "public company outbound", "10-K outreach", "earnings call
+  prospecting", "SEC filing signal".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:

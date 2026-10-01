@@ -146,7 +146,7 @@ Sources: [Jason Lemkin — Just Do The SOC-2](https://www.saastr.com/just-do-the
 - Integration credentials via scoped roles or secrets vault — not Slack
 - Field mapping doc without unnecessary columns
 
-Template: `deal-desk` → `templates/customer-data-exchange-checklist.md`
+Template: `customer-data-exchange-checklist.md` in the `deal-desk` skill
 Onboarding handoff fields: `customer-onboarding` (Sales-to-CS handoff section)
 
 ---
@@ -155,7 +155,7 @@ Onboarding handoff fields: `customer-onboarding` (Sales-to-CS handoff section)
 
 | Topic | Skill |
 |---|---|
-| Enterprise security review timing | `deal-desk` + `https://github.com/LeadMagic/gtm-skills/blob/main/references/security-questionnaire-deal-guide.md` |
+| Enterprise security review timing | `deal-desk` + `references/security-questionnaire-deal-guide.md` |
 | Onboarding data import | `customer-onboarding` |
 | RevOps data boundaries in stack | `revops-tech-stack`, `gtm-operations` |
 | Rep password / 2FA / phishing | `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-security-hygiene-basics.md` |

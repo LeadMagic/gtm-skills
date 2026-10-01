@@ -176,7 +176,7 @@ dashboard setup.
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-- `../cold-email-strategy/references/eric-nowoslawski-outbound.md` — Sending volume strategy, 1:1 backups (Eric Nowoslawski)
+- `references/eric-nowoslawski-outbound.md` — Sending volume strategy, 1:1 backups (Eric Nowoslawski)
 
 ## Related Skills
 

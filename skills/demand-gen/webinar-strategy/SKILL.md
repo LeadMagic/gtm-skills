@@ -1,9 +1,11 @@
 ---
 name: webinar-strategy
 description: >-
-  Plan and execute demand gen webinars — topic selection, speaker sourcing, promotion
-  cadence, follow-up sequences. Triggers on: "webinar", "webinar strategy", "virtual
-  event", "demand gen webinar", "webinar promotion".
+  Plans demand-gen webinars: topic selection, speaker sourcing, promotion
+  cadence, run-of-show, and post-event follow-up sequences. Use when the user is
+  planning a single webinar or a webinar series intended to generate pipeline.
+  Triggers on: "webinar", "webinar strategy", "virtual event", "demand gen
+  webinar", "webinar promotion".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
@@ -12,9 +14,9 @@ metadata:
   category: demand-gen
   tags: [demand-gen, webinar, virtual-event, content-marketing, lead-gen]
   frameworks:
-    - "TOPO Webinar Framework"
-    - "CEB Challenger Commercial Teaching"
-    - "SiriusDecisions — Demand Waterfall"
+    - "Gartner (CEB) — The Challenger Sale"
+    - "Forrester (SiriusDecisions) — Demand Waterfall"
+    - "ON24 — Webinar benchmarks"
   related_skills:
     [
       content-marketing,
@@ -35,10 +37,9 @@ This skill covers topic selection, speaker sourcing, promotion architecture,
 and post-webinar pipeline conversion.
 
 ## Authoritative Foundations
-
-- **TOPO Webinar Framework** — Named methodology governing recommendations in this skill's process.
-- **CEB Challenger Commercial Teaching** — Teach-tailor-take control — reframe buyer thinking with insight-led conversations.
-- **SiriusDecisions — Demand Waterfall** — Demand Waterfall
+- **Gartner (CEB) — The Challenger Sale** — Teach-tailor-take control — build the webinar around a commercial insight that reframes the buyer's problem.
+- **Forrester (SiriusDecisions) — Demand Waterfall** — Stage attendees from inquiry to MQL and SAL with explicit follow-up SLAs.
+- **ON24 — Webinar benchmarks** — Plan promotion timing, session length, and engagement tools against published webinar benchmark data.
 
 ## When to Use
 
@@ -125,7 +126,7 @@ Before delivering, verify:
 - `templates/output-template.md` — 21-day calendar, run-of-show, post-event pipeline sequence
 - `scripts/check-output.py` — Lightweight deliverable validator
 - `references/chris-walker-mental-models.md` — Repo root: ungated education, 90-day program eval
-- `skills/foundation/using-gtm-skills/SKILL.md` — Pattern 26: Demand Creation
+- the `using-gtm-skills` skill — Pattern 26: Demand Creation
 
 ## Implementation Depth
 

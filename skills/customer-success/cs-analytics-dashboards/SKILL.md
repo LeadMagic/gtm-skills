@@ -36,10 +36,10 @@ Every metric mapped to an action.
 
 ## Authoritative Foundations
 
-- **Gainsight — Customer Health Score Framework** — Customer Health Score Framework
-- **Totango — Customer Success Maturity Model** — Customer Success Maturity Model
-- **Bain & Company — NPS (Net Promoter System, Fred Reichheld)** — NPS (Net Promoter System, Fred Reichheld)
-- **CustomerGauge — Account Experience (B2B NPS)** — Account Experience (B2B NPS)
+- **Gainsight** — Customer Health Score Framework
+- **Totango** — Customer Success Maturity Model
+- **Bain & Company** — NPS (Net Promoter System, Fred Reichheld)
+- **CustomerGauge** — Account Experience (B2B NPS)
 - **David Skok — SaaS Churn Analysis** — SaaS metrics — CAC payback, LTV/CAC, unit economics by stage.
 
 ## When to Use
@@ -313,7 +313,7 @@ Before delivering, verify:
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-**Canonical lifecycle (repo root):** `references/activation-playbook.md` · `references/lifecycle-metrics-by-stage.md` (Activation, Engagement, Retention) · `skills/analytics/gtm-metrics/templates/lifecycle-monitoring-dashboard.md`
+**Canonical lifecycle:** `references/activation-playbook.md` · `references/lifecycle-metrics-by-stage.md` (Activation, Engagement, Retention) · the `gtm-metrics` skill (lifecycle-monitoring-dashboard.md)
 
 ## Related Skills
 

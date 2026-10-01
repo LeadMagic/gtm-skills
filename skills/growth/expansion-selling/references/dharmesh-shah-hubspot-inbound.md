@@ -53,7 +53,7 @@ HubSpot reframed the linear **funnel** (leads in, customers out) as a **flywheel
 - **Funnel mindset:** Optimize top-of-funnel volume; customers are output.
 - **Flywheel mindset:** **Delighted customers reduce friction** for Attract (referrals, reviews, case studies) and Engage (expansion, champions). NRR and advocacy are flywheel fuel — not post-sale afterthoughts.
 
-**Canonical metrics for flywheel health:** NRR, GRR, referral rate, review velocity (G2), time-to-value — see `https://github.com/LeadMagic/gtm-skills/blob/main/references/lifecycle-metrics-by-stage.md` and `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md` for NRR bands.
+**Canonical metrics for flywheel health:** NRR, GRR, referral rate, review velocity (G2), time-to-value — see `references/lifecycle-metrics-by-stage.md` and `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md` for NRR bands.
 
 ### 3. Freemium & Product-Led Entry (HubSpot Model)
 
@@ -112,7 +112,7 @@ Cross-ref: `ai-content-creation`, `hubspot-setup` (Breeze Intelligence), `vibe-m
 | Revenue | Sales handoff, expansion | `pipeline-management`, `expansion-selling` |
 | Retention / Referral | CS, advocacy, reviews | `customer-marketing`, `referral-programs`, `review-platforms` |
 
-Full stage defs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-lifecycle-stages.md` · router: `https://github.com/LeadMagic/gtm-skills/blob/main/references/lifecycle-skill-index.md`
+Full stage defs: `references/gtm-lifecycle-stages.md` · router: `references/lifecycle-skill-index.md`
 
 ---
 
@@ -142,6 +142,6 @@ Full stage defs: `https://github.com/LeadMagic/gtm-skills/blob/main/references/g
 
 - Expert catalog → `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md` (Dharmesh Shah entry)
 - Demand creation contrast → `https://github.com/LeadMagic/gtm-skills/blob/main/references/chris-walker-mental-models.md`
-- SaaS benchmarks (NRR flywheel fuel) → `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md` · `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md`
+- SaaS benchmarks (NRR flywheel fuel) → `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md` · `references/benchmark-reconciliation.md`
 - Master router → `skills/foundation/using-gtm-skills/SKILL.md` (Pattern 27)
 - Pitfalls → `https://github.com/LeadMagic/gtm-skills/blob/main/references/pitfalls-index.md` (inbound section)

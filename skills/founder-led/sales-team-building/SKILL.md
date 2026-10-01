@@ -85,7 +85,7 @@ and operator data.
   cadence (weekly pipeline → monthly GTM scorecard → quarterly territory/quota),
   reporting layers by ARR stage ($1M / $10M / $50M), span of control (6–8 ICs
   per manager), and pod cost ≤35% of ARR at steady-state ramp. See
-  `references/force-management-playbook.md` (repo root) for worksheets.
+  `references/force-management-playbook.md` for worksheets.
 - **Henry Schuck (ZoomInfo) — High-Velocity SDR Model.** Public-operator
   reference for scaling inbound + outbound SDRs with data-driven routing:
   <90-second inbound response, separate inbound/outbound/SWAT SDR motions,
@@ -100,7 +100,7 @@ and operator data.
   ramp targets — not 6–9 month SDR tool onboarding. SDR benchmarks from TPS:
   ~200 accounts/month effective load; reply 5–10% min; OAC 1.5–10%; train
   ROUTE/RUIN/MULTIPLY for phone complement.   Canonical playbook →
-  `../../outbound/cold-email-strategy/references/justin-michael-sales-borg.md`.
+  `references/justin-michael-sales-borg.md`.
 - **Ryan Reisert — CRM Activity Buckets + CallBlitz.** Before scaling phone SDRs,
   implement four contact-level CRM stages and backwards daily workflow. Live call
   coaching via CallBlitz for remote teams. Co-author *Outbound Sales, No Fluff*.
@@ -274,13 +274,13 @@ Before delivering, verify:
 - `references/framework-notes.md` — Named frameworks and reference tables
 - `templates/output-template.md` — Deliverable shell for agent output
 - `scripts/check-output.py` — Lightweight deliverable validator
-- `../../management-leadership/gtm-leadership/references/cro-enterprise-strategy.md` — McMahon hiring/inspection, Snowflake/Databricks GTM models (Pattern 31)
+- `references/cro-enterprise-strategy.md` — McMahon hiring/inspection, Snowflake/Databricks GTM models (Pattern 31)
 - `references/henry-schuck-sdr-model.md` — ZoomInfo SDR:AE scale, data-lake outbound, feeder system
 - `references/tito-bohrt-sdr-science.md` — AltiSales SDR economics (cost per meeting), funnel-inversion benchmarks, assembly-line org, hiring simulations, AI SDR skepticism
-- `references/ryan-reisert-cold-calling.md` — CRM Activity Buckets + CallBlitz (repo root)
-- `references/ronen-pessar-cold-calling.md` — ColdCall-Market Fit install (repo root)
-- `references/tom-slocum-cold-calling.md` — SD Lab SDR coaching (repo root)
-- `../../outbound/cold-email-strategy/references/justin-michael-sales-borg.md` — Sales Borg TQ, SDR benchmarks, bot orchestration (canonical)
+- `references/ryan-reisert-cold-calling.md` — CRM Activity Buckets + CallBlitz
+- `references/ronen-pessar-cold-calling.md` — ColdCall-Market Fit install
+- `references/tom-slocum-cold-calling.md` — SD Lab SDR coaching
+- `references/justin-michael-sales-borg.md` — Sales Borg TQ, SDR benchmarks, bot orchestration (canonical)
 - `references/force-management-playbook.md` — Repo root: alignment cadence, reporting structures, pod economics worksheet
 **Cross-skill artifacts:** `solo-founder-gtm/references/scale-readiness-gates.md`, `solo-founder-gtm/references/when-not-to-scale.md`, `saas-outcomes/references/journey-stage-gates.md`, `gtm-spend-management/references/spend-governance.md`
 

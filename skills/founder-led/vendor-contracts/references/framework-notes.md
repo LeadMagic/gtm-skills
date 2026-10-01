@@ -18,10 +18,12 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Process phases
 
-- Phase 1
-- Phase 2
-- Phase 3
-- Phase 4
+Mirrors `SKILL.md` → Step-by-Step Process:
+
+- Phase 1: Inbound Contracts (Selling to Customers)
+- Phase 2: Contract Negotiation Playbook
+- Phase 3: Outbound Procurement (Buying from Vendors)
+- Phase 4: Contract Management
 
 ## Agent routing
 

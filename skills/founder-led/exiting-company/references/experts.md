@@ -1629,7 +1629,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Implied ARR (Q revenue × 4) · **Meritech Rule of 40** (growth weighted 3× vs FCF) · Public Magic Number / payback on reported S&M · ~120 public SaaS index cohort
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md` (canonical) · `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md` (conflict resolution vs KeyBanc, OpenView, SaaS Capital)
+**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md` (canonical) · `references/benchmark-reconciliation.md` (conflict resolution vs KeyBanc, OpenView, SaaS Capital)
 
 **Skills:** `gtm-metrics`, `saas-metrics-calculator`, `saas-outcomes`, `financial-modeling`, `public-company-gtm-metrics` (Henry Schuck pairing), `fundraising-strategy`, `board-meeting-prep`
 
@@ -1669,7 +1669,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Rule of 40 (growth + margin) · Cloud index comps · Atlas stage playbooks (PLG, vertical, consumption)
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-cloud-atlas.md` (canonical) · `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md`
+**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/bessemer-cloud-atlas.md` (canonical) · `references/benchmark-reconciliation.md`
 
 **Contrast:** Bessemer = **VC-stage** benchmarks + essays. Meritech = **public** comps table. Skok = formula definitions.
 

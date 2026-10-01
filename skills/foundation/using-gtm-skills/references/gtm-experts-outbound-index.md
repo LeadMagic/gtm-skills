@@ -2,7 +2,7 @@
 
 # GTM Experts — Outbound & Discovery Index
 
-Quick router for outbound, discovery, and pipeline experts. Full bios → `https://github.com/LeadMagic/gtm-skills/blob/main/references/experts.md`.
+Quick router for outbound, discovery, and pipeline experts. Full bios → `references/experts.md`.
 
 | Expert | Primary frameworks | Canonical playbook | Lead skills |
 |---|---|---|---|
@@ -19,14 +19,14 @@ Quick router for outbound, discovery, and pipeline experts. Full bios → `https
 | **Ryan Reisert** | CRM Activity Buckets, No Fluff call structure, CallBlitz | `https://github.com/LeadMagic/gtm-skills/blob/main/references/ryan-reisert-cold-calling.md` | `cold-calling`, `multi-channel-outreach`, `sales-team-building` |
 | **Ronen Pessar** | ColdCall-Market Fit, Call Pilot, tonality script | `https://github.com/LeadMagic/gtm-skills/blob/main/references/ronen-pessar-cold-calling.md` | `cold-calling`, `sales-team-building`, `revenue-team-onboarding` |
 | **Tom Slocum** | 3Rs / 3×3, sell-the-meeting, dial blocks | `https://github.com/LeadMagic/gtm-skills/blob/main/references/tom-slocum-cold-calling.md` | `cold-calling`, `sales-coaching`, `revenue-team-onboarding` |
-| **Jeb Blount** | Fanatical Prospecting, Golden Hours, Law of Replacement | `https://github.com/LeadMagic/gtm-skills/blob/main/references/jeb-blount-prospecting.md` | `cold-calling`, `multi-channel-outreach`, `pipeline-management` |
+| **Jeb Blount** | Fanatical Prospecting, Golden Hours, Law of Replacement | `references/jeb-blount-prospecting.md` | `cold-calling`, `multi-channel-outreach`, `pipeline-management` |
 | **Josh Braun** | Problem-first, sort don't sell | — (inline in `cold-email-copywriting`) | `cold-email-copywriting` |
 | **Leslie Venetz** | Earn the Right gate, Profit-Generating Pipeline (9-step), three-channel minimum, buyer-first / anti-Legacy Outbound | `cold-email-strategy/references/leslie-venetz-buyer-first-outbound.md` | `cold-email-strategy`, `cold-email-copywriting`, `founder-sales` |
 | **Eric Nowoslawski** | Infra at scale, Creative Ideas, Crawl Walk Run, unit economics | `cold-email-strategy/references/eric-nowoslawski-outbound.md` | `email-deliverability`, `domain-infrastructure`, `smartlead-workflows`, `instantly-sequences`, `clay-automation` |
 | **Jacco (WbD)** | SPICED discovery | `meeting-prep/references/framework-notes.md` | `meeting-prep`, `pipeline-management` |
 | **Andy Whyte** | MEDDICC qualification | `meeting-prep/references/framework-notes.md` | `meeting-prep`, `pipeline-management` |
 
-**Phone expert router:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/cold-calling-experts-index.md`
+**Phone expert router:** `references/cold-calling-experts-index.md`
 
 ## Recommended Stacks
 
@@ -52,4 +52,4 @@ Quick router for outbound, discovery, and pipeline experts. Full bios → `https
 
 **Account-based outbound / enterprise break-in (ABSD):** Nilsson signal-based account selection → `account-selection` (tier scoring) → SDR+AE+SME 3-email sequence (`abm-strategy` → `lars-nilsson-absd.md`) → `cold-email-strategy` (trigger architecture) → `multi-thread-orchestration` (persona coverage)
 
-**Automation index:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/automation-playbook-index.md` (38 playbooks — includes `tools/` + `leadmagic/`)
+**Automation index:** `references/automation-playbook-index.md` (38 playbooks — includes `tools/` + `leadmagic/`)

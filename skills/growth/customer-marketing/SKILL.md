@@ -33,13 +33,10 @@ metadata:
       gtm-spend-management,
     ]
   frameworks:
-    - "Bain & Company — NPS (Net Promoter System, Fred Reichheld)"
-    - "Gainsight — Customer Advocacy Maturity Model"
-    - "Influitive — Advocate Marketing"
-    - "SaaSquatch — Customer-Led Growth"
-    - "Varun Anand (Clay) — Community Selling & Ecosystem GTM"
-    - "Aneesh Lal (Wishly Group) — B2B Creator Partnerships & Advocacy"
-    - "Dharmesh Shah (HubSpot) — Flywheel Delight & Customer Advocacy"
+    - "Bain & Company — Net Promoter System (Fred Reichheld)"
+    - "Gainsight — Customer success"
+    - "Influitive — Advocate marketing"
+    - "HubSpot — Flywheel"
 ---
 
 # Customer Marketing
@@ -53,14 +50,10 @@ run. The mistake: treating customer marketing as an afterthought (sending a
 program that turns happy customers into your most powerful GTM engine.
 
 ## Authoritative Foundations
-
-- **Bain & Company — NPS (Net Promoter System, Fred Reichheld)** — NPS (Net Promoter System, Fred Reichheld)
-- **Gainsight — Customer Advocacy Maturity Model** — Customer Advocacy Maturity Model
-- **Influitive — Advocate Marketing** — Advocate Marketing
-- **SaaSquatch — Customer-Led Growth** — Customer-Led Growth
-- **Varun Anand (Clay) — Community Selling & Ecosystem GTM** — Waterfall enrichment, Claygent research, and table-based GTM automation.
-- **Aneesh Lal (Wishly Group) — B2B Creator Partnerships & Advocacy** — B2B Creator Partnerships & Advocacy
-- **Dharmesh Shah (HubSpot) — Flywheel Delight & Customer Advocacy** — Lifecycle stages, object model, and workflow enrollment patterns.
+- **Bain & Company — Net Promoter System (Fred Reichheld)** — Route promoters to advocacy asks, and close the loop with detractors before asking anyone for a reference.
+- **Gainsight — Customer success** — Trigger advocacy asks from health scores and outcome milestones, not from the calendar.
+- **Influitive — Advocate marketing** — Give advocates a program of small, rewarding actions (reviews, referrals, references) that build toward bigger asks.
+- **HubSpot — Flywheel** — Delighted customers feed acquisition; design customer marketing so referrals and reviews reduce acquisition cost.
 
 ## When to Use
 
@@ -124,7 +117,7 @@ When incidents threaten advocacy and pipeline trust — load **`references/crisi
 
 **Chris Walker — dark social:** Buyers discuss vendor failures in Slack/DMs — monitor via CS/sales, not just public mentions. → `references/chris-walker-mental-models.md`
 
-**Templates:** `skills/management-leadership/gtm-leadership/templates/crisis-holding-statement.md`, `crisis-faq-for-support.md`  
+**Templates:** the `gtm-leadership` skill (crisis-holding-statement.md), `crisis-faq-for-support.md`  
 **Experts:** `references/saas-pr-crisis-experts.md` (Highwire, Offleash for retained PR)
 
 ### Phase 7: B2B Creator & Influencer Partnerships
@@ -192,7 +185,7 @@ Before delivering, verify:
 - `scripts/check-output.py`
 - `references/crisis-management-playbook.md` — external comms during incidents (Pattern 33)
 - `references/saas-pr-crisis-experts.md` — B2B SaaS PR voices
-- `skills/management-leadership/gtm-leadership/templates/crisis-holding-statement.md` · `crisis-customer-email.md` · `crisis-faq-for-support.md`
+- the `gtm-leadership` skill (crisis-holding-statement.md) · `crisis-customer-email.md` · `crisis-faq-for-support.md`
 - `references/community-selling-varun.md` — Clay ecosystem GTM, Slack-first, community infiltration
 - `references/aneesh-wishly-b2b-influencer.md` — Wishly Group / Aneesh Lal canonical playbook
 - `references/b2b-influencer-strategy.md` — Master B2B influencer guide (program types, ICP selection)

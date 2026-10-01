@@ -14,9 +14,9 @@ metadata:
   category: founder-led
   tags: [events, conferences, webinars, community, field-marketing]
   frameworks:
-    - "B2B Event ROI Framework"
-    - "Field Marketing Playbook"
-    - "Paul Graham — Do Things That Do Not Scale"
+    - "Priya Parker — The Art of Gathering"
+    - "Paul Graham — Do Things That Don't Scale"
+    - "Forrester (SiriusDecisions) — Demand Waterfall"
   related_skills: [marketing-strategy, launch-planning, content-distribution]
 ---
 
@@ -33,10 +33,9 @@ execution, and the attendee-to-pipeline conversion that makes events pay
 for themselves.
 
 ## Authoritative Foundations
-
-- **B2B Event ROI Framework** — Shapes deliverables for this skill — Events are the highest-trust channel in B2B.
-- **Field Marketing Playbook** — Shapes deliverables for this skill — Events are the highest-trust channel in B2B.
-- **Paul Graham — Do Things That Do Not Scale** — Do Things That Do Not Scale
+- **Priya Parker — The Art of Gathering** — Start from a specific purpose and a curated guest list; the format follows the purpose, not the venue.
+- **Paul Graham — Do Things That Don't Scale** — Early on, small hand-run events (dinners, meetups) create deeper relationships than large sponsorships.
+- **Forrester (SiriusDecisions) — Demand Waterfall** — Measure events by the pipeline stages they create and accelerate, not by attendance.
 
 ## When to Use
 

@@ -1,9 +1,11 @@
 ---
 name: hiring-signal-play
 description: >-
-  Outbound play triggered by specific hiring signals — VP Sales, RevOps, SDR
-  manager, CRO postings signal budget and strategy shift. Triggers on: "hiring signal",
-  "job post outbound", "hiring trigger", "new role outreach".
+  Runs outbound triggered by hiring signals: VP Sales, RevOps, SDR manager, and
+  CRO postings that indicate new budget or strategy shifts, with role-specific
+  messaging. Use when the user wants to target companies based on job postings
+  or new leadership hires. Triggers on: "hiring signal", "job post outbound",
+  "hiring trigger", "new role outreach".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:
@@ -12,9 +14,9 @@ metadata:
   category: sales-plays
   tags: [sales-plays, hiring, signals, trigger-based, outbound]
   frameworks:
-    - "Signal-Based Selling"
-    - "ColdIQ Trigger Selling"
     - "Winning by Design — SPICED"
+    - "Lars Nilsson — Account-based sales development (ABSD)"
+    - "LinkedIn Sales Navigator — Account and lead alerts"
 ---
 
 # Hiring Signal Outbound Play
@@ -28,10 +30,9 @@ both the hiring manager (who just got budget) and the new hire (who will build
 their stack).
 
 ## Authoritative Foundations
-
-- **Signal-Based Selling** — Named methodology governing recommendations in this skill's process.
-- **ColdIQ Trigger Selling** — Named methodology governing recommendations in this skill's process.
-- **Winning by Design — SPICED** — Bowtie lifecycle model — align sales, marketing, and CS on stage-based outcomes.
+- **Winning by Design — SPICED** — Discovery framework — Situation, Pain, Impact, Critical Event, Decision; the new hire's mandate is the critical event to anchor on.
+- **Lars Nilsson — Account-based sales development (ABSD)** — Treat hiring as one buying signal among several; stack it with funding, tech changes, or leadership moves before prioritizing.
+- **LinkedIn Sales Navigator — Account and lead alerts** — Monitor saved accounts for hiring and leadership changes so outreach happens within days of the signal.
 
 ## When to Use
 

@@ -38,12 +38,12 @@ unify event data across your stack to build a complete customer picture.
 
 ## Authoritative Foundations
 
-- **Segment — Customer Data Platform (CDP) and event taxonomy** — Customer Data Platform (CDP) and event taxonomy
-- **Amplitude — Behavioral analytics and event design** — Behavioral analytics and event design
-- **Mixpanel — Product analytics and event-based reporting** — Product analytics and event-based reporting
-- **Intercom — Event-driven messaging and automation** — Event-driven messaging and automation
-- **Avo — Event taxonomy and governance** — Event taxonomy and governance
-- **Snowplow — Open-source event pipeline** — Open-source event pipeline
+- **Segment** — Customer Data Platform (CDP) and event taxonomy
+- **Amplitude** — Behavioral analytics and event design
+- **Mixpanel** — Product analytics and event-based reporting
+- **Intercom** — Event-driven messaging and automation
+- **Avo** — Event taxonomy and governance
+- **Snowplow** — Open-source event pipeline
 
 ## When to Use
 

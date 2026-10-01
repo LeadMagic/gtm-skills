@@ -22,12 +22,15 @@ ROOT_REFERENCE = re.compile(r"(?<![A-Za-z0-9_./-])references/([A-Za-z0-9._/-]+\.
 MARKDOWN_LINK = re.compile(r"\]\(([^)]+)\)")
 
 
-def generated_text(relative: str) -> str:
+def generated_text(relative: str, bundled: frozenset[str] = frozenset()) -> str:
+    """Copy a shared reference; links to files bundled in the same skill stay local."""
     source = SHARED / relative
     marker = f"{MARKER_PREFIX}references/{relative}; run npm run regenerate. -->\n\n"
     content = source.read_text(encoding="utf-8")
     content = ROOT_REFERENCE.sub(
-        lambda match: REMOTE_REFERENCE_BASE + match.group(1),
+        lambda match: match.group(0)
+        if match.group(1) in bundled
+        else REMOTE_REFERENCE_BASE + match.group(1),
         content,
     )
 
@@ -37,7 +40,9 @@ def generated_text(relative: str) -> str:
         if not target or re.match(r"^(?:https?:|mailto:|#)", target, re.IGNORECASE):
             return match.group(0)
         resolved = safe_shared((PurePosixPath(relative).parent / target).as_posix())
-        return f"]({REMOTE_REFERENCE_BASE}{resolved})" if resolved else match.group(0)
+        if not resolved or resolved in bundled:
+            return match.group(0)
+        return f"]({REMOTE_REFERENCE_BASE}{resolved})"
 
     content = MARKDOWN_LINK.sub(rewrite_relative_link, content)
     # Generated copies should be portable and pass Git whitespace checks even
@@ -95,9 +100,10 @@ def expected_for_skill(skill_dir: Path) -> dict[Path, str]:
     for path in original_files:
         required.update(referenced_shared(path.read_text(encoding="utf-8", errors="replace")))
     required.difference_update(original_local_refs)
+    bundled = frozenset(required | original_local_refs)
 
     return {
-        skill_dir / "references" / relative: generated_text(relative)
+        skill_dir / "references" / relative: generated_text(relative, bundled)
         for relative in sorted(required)
     }
 

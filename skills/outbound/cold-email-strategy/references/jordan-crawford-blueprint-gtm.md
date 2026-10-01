@@ -1,3 +1,5 @@
+<!-- AUTO-GENERATED shared reference: references/jordan-crawford-blueprint-gtm.md; run npm run regenerate. -->
+
 # Jordan Crawford — Blueprint GTM / Cannonball Playbook
 
 **Sources:** Jordan Crawford — [jordancrawford.com](https://jordancrawford.com/) · [blueprintgtm.com](https://blueprintgtm.com/) · [On the Edge — Substack](https://edge.blueprintgtm.com/) · [Cannonball GTM — Beginner's Guide](https://cannonballgtm.substack.com/p/start-here-the-beginners-guide-to) · [GTMnow — AI Outbound Machine](https://gtmnow.com/gtm-133-build-your-ai-outbound-machine-with-chatgpt-jordan-crawford/) · 💼 [LinkedIn](https://www.linkedin.com/in/jordancrawford/) · 🎙 [Martech Podcast — Cannonball Crash Course](https://martechpod.com/episode/cannonball-gtm-crash-course/)

@@ -125,9 +125,9 @@ By attempt 3: ~93% of conversations happen. By attempt 5: ~98%. Stop at 5; revis
 
 ## Cross-Links
 
-- **Outcome bucketing:** Joey Gilkey Disposition Science (`https://github.com/LeadMagic/gtm-skills/blob/main/references/joey-gilkey-bucketing.md`)
-- **Market-fit discovery:** Ronen Pessar ColdCall-Market Fit (`https://github.com/LeadMagic/gtm-skills/blob/main/references/ronen-pessar-cold-calling.md`)
-- **Rep coaching:** Tom Slocum SD Lab (`https://github.com/LeadMagic/gtm-skills/blob/main/references/tom-slocum-cold-calling.md`)
+- **Outcome bucketing:** Joey Gilkey Disposition Science (`references/joey-gilkey-bucketing.md`)
+- **Market-fit discovery:** Ronen Pessar ColdCall-Market Fit (`references/ronen-pessar-cold-calling.md`)
+- **Rep coaching:** Tom Slocum SD Lab (`references/tom-slocum-cold-calling.md`)
 - **Email complement:** Jason Bay PVP, Jordan Crawford PQS — phone ≠ email skills
 
 ---

@@ -36,6 +36,12 @@ const MIN_FRAMEWORK_NOTES_CHARS = 300;
 const EXPECTED_COMPATIBILITY = STANDARD_COMPATIBILITY;
 const AGENTSKILLS_NAME_PATTERN = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const DECORATION_PHRASE = 'do not cite it as decoration';
+const USE_CLAUSE = /\b(use (this skill )?(when|before|after|in|for|to)|when the user)\b/i;
+const FOUNDATION_FILLER = [
+  "Named methodology governing recommendations in this skill's process",
+  'Shapes deliverables for this skill',
+  'used as the named operating framework for this playbook',
+];
 const EXEMPT_SKILLS = new Set(['using-gtm-skills']);
 
 const REQUIRED_TOP_FIELDS = ['name', 'description', 'license', 'compatibility'];
@@ -266,6 +272,20 @@ function extractLinkTargets(content) {
 
 // A target resolves if it exists relative to the skill dir (skill-local
 // artifact) OR relative to the repo root (shared catalog / full skills/ path).
+/** Relative (../) or repo-root (skills/...) paths that leave the skill directory. */
+function pathsOutsideSkill(content, filePath, skillDir) {
+  const found = [];
+  const skillRoot = path.resolve(skillDir) + path.sep;
+  for (const m of content.matchAll(/(?<![\w/.-])((?:\.\.\/)+[\w./-]+|skills\/[\w-]+\/[\w-]+\/[\w./-]+)/g)) {
+    const raw = m[1];
+    const resolved = raw.startsWith('skills/')
+      ? path.resolve(ROOT, raw)
+      : path.resolve(path.dirname(filePath), raw);
+    if (!resolved.startsWith(skillRoot)) found.push(raw);
+  }
+  return found;
+}
+
 function targetResolves(target, skillDir, filePath = null) {
   const candidates = [];
   if (target.startsWith('skills/')) {
@@ -292,6 +312,7 @@ function targetResolves(target, skillDir, filePath = null) {
 let errors = 0;
 const warnings = 0;
 const skills = walkSkills(SKILLS_DIR);
+const SKILL_NAMES = new Set(skills.map(skill => skill.dir));
 const duplicateNames = [...new Set(
   skills.map(skill => skill.dir).filter((name, index, names) => names.indexOf(name) !== index),
 )];
@@ -359,6 +380,10 @@ for (const skill of skills) {
       console.error(`❌ ${skillId}: description should include trigger/use-case language`);
       errors++; skillErrors++;
     }
+    if (!USE_CLAUSE.test(fm.description)) {
+      console.error(`❌ ${skillId}: description must say when to use the skill ("Use when …"), not only list triggers`);
+      errors++; skillErrors++;
+    }
   }
 
   if (fm.license !== 'MIT') {
@@ -391,6 +416,30 @@ for (const skill of skills) {
   if (frameworks.length < 3) {
     console.error(`❌ ${skillId}: metadata.frameworks must contain at least 3 named frameworks/sources`);
     errors++; skillErrors++;
+  }
+  if (new Set(frameworks).size !== frameworks.length) {
+    console.error(`❌ ${skillId}: metadata.frameworks contains duplicates`);
+    errors++; skillErrors++;
+  }
+  for (const related of extractInlineOrList(fmText, 'related_skills')) {
+    if (!SKILL_NAMES.has(related)) {
+      console.error(`❌ ${skillId}: metadata.related_skills references unknown skill '${related}'`);
+      errors++; skillErrors++;
+    }
+  }
+
+  const foundations = extractSection(content, '## Authoritative Foundations') || '';
+  for (const phrase of FOUNDATION_FILLER) {
+    if (foundations.includes(phrase)) {
+      console.error(`❌ ${skillId}: Authoritative Foundations contains generator filler ('${phrase}')`);
+      errors++; skillErrors++;
+    }
+  }
+  for (const m of foundations.matchAll(/^- \*\*(.+?)\*\* — (.+)$/gm)) {
+    if (m[1].includes(m[2].trim().replace(/\.$/, ''))) {
+      console.error(`❌ ${skillId}: Authoritative Foundations bullet only repeats its name: '${m[1]}'`);
+      errors++; skillErrors++;
+    }
   }
 
   if (body.length < MIN_BODY_CHARS) {
@@ -494,6 +543,10 @@ for (const skill of skills) {
           const relative = path.relative(skillDir, absolute).replace(/\\/g, '/');
           const supportContent = fs.readFileSync(absolute, 'utf8');
           if (supportContent.startsWith('<!-- AUTO-GENERATED shared reference: ')) continue;
+          for (const outside of pathsOutsideSkill(supportContent, absolute, skillDir)) {
+            console.error(`❌ ${skillId}: ${relative} points outside the skill folder ('${outside}'); installed skills must be self-contained`);
+            errors++; skillErrors++;
+          }
           if (!execArtifacts.includes(relative)) {
             console.error(`❌ ${skillId}: Execution Artifacts must list '${relative}'`);
             errors++; skillErrors++;
@@ -550,6 +603,11 @@ for (const skill of skills) {
       console.error(`❌ ${skillId}: questionable/gray-hat pattern found: ${pattern}`);
       errors++; skillErrors++;
     }
+  }
+
+  for (const outside of pathsOutsideSkill(content, skill.path, skillDir)) {
+    console.error(`❌ ${skillId}: SKILL.md points outside the skill folder ('${outside}'); name the sibling skill instead`);
+    errors++; skillErrors++;
   }
 
   for (const target of extractLinkTargets(content)) {

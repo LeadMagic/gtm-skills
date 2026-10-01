@@ -254,11 +254,11 @@ Run `scripts/check-output.py` before delivery.
 
 ## Execution Artifacts
 
-| `../../outbound/cold-calling/references/framework-notes.md` | Phone coaching framework anchors |
-| `templates/output-template.md` | Deliverable structure |
-| `scripts/check-output.py` | Validator |
 | File | Use |
 |---|---|
+| `references/framework-notes.md` | Framework anchors for coaching recommendations |
+| `templates/output-template.md` | Deliverable structure |
+| `scripts/check-output.py` | Validator |
 | `references/reks-diagnostic.md` | REKS layer signals and fixes |
 | `references/deal-review-guide.md` | MEDDICC inspection flow |
 | `references/call-coaching-rubric.md` | Call scoring dimensions |
@@ -266,9 +266,9 @@ Run `scripts/check-output.py` before delivery.
 | `references/founder-coaching.md` | Founder-as-coach by ARR stage |
 | `references/coaching-experts.md` | Expert map (Jacco, Dorsey, Barrows, Bay, Seidl, Slocum, Reisert) |
 | `references/randy-seidl-relationship-selling.md` | Relationship map, Three Plays, trust scorecard |
-| `references/tom-slocum-cold-calling.md` | 3×3, sell-the-meeting, call blocks (repo root) |
-| `references/ryan-reisert-cold-calling.md` | CRM Buckets, CallBlitz live coaching (repo root) |
-| `references/cold-calling-experts-index.md` | Phone expert router (repo root) |
+| `references/tom-slocum-cold-calling.md` | 3×3, sell-the-meeting, call blocks |
+| `references/ryan-reisert-cold-calling.md` | CRM Buckets, CallBlitz live coaching |
+| `references/cold-calling-experts-index.md` | Phone expert router |
 | `templates/1-1-agenda.md` | Weekly 1:1 structure |
 | `templates/reks-diagnostic.md` | Per-rep diagnostic form |
 | `templates/deal-review-scorecard.md` | MEDDICC deal review |
@@ -283,6 +283,7 @@ Run `scripts/check-output.py` before delivery.
 - `sales-enablement` — Collateral coaching references
 - `gtm-leadership` — PIP, fire, Radical Candor
 - `team-management` — OKRs, general 1:1s
+- `cold-calling` — Phone coaching framework anchors and call scripts
 - `cold-calling` — SDR phone motion, dispositions, call structure
 - `revenue-team-onboarding` — Ramp coaching first 90 days
 - `demo-scripts` — Demo coaching content

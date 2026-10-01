@@ -1,9 +1,11 @@
 ---
 name: multi-thread-orchestration
 description: >-
-  Orchestrate multi-threaded ABM engagement across buying committee members —
-  stakeholder mapping, parallel plays, ghost node detection. Triggers on:
-  "multi-thread", "stakeholder map", "buying committee", "deal mapping".
+  Orchestrates multi-threaded engagement across a buying committee: stakeholder
+  maps, parallel plays by role, and detection of missing ("ghost") stakeholders.
+  Use when a deal depends on a single contact, stalls without new stakeholders,
+  or needs a buying-committee map. Triggers on: "multi-thread", "stakeholder
+  map", "buying committee", "deal mapping", "single-threaded deal".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:

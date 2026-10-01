@@ -11,9 +11,9 @@ metadata:
   tags: [yc, y-combinator, startup-school, accelerator, fundraising, demo-day, paul-graham]
   related_skills: [fundraising-strategy, co-founder-dynamics, building-saas, solo-founder-gtm, pitch-deck-builder, first-hires-playbook]
   frameworks:
-    - "Y Combinator Startup School"
-    - "Paul Graham — Do Things That Do Not Scale"
-    - "Michael Seibel — Startup Advice"
+    - "Y Combinator — Startup School"
+    - "Paul Graham — Do Things That Don't Scale"
+    - "Michael Seibel (YC) — Launch early, talk to users"
 ---
 # YC Ecosystem
 
@@ -29,11 +29,9 @@ the entire YC ecosystem: free resources, application strategy, interview prep,
 the YC batch experience, Demo Day playbook, and post-YC growth.
 
 ## Authoritative Foundations
-
-- **Y Combinator Startup School** — Shapes deliverables for this skill — Y Combinator is the most influential startup institution in the world —
-$400B+ combined portfolio value, 4,000+ companie.
-- **Paul Graham — Do Things That Do Not Scale** — Do Things That Do Not Scale
-- **Michael Seibel — Startup Advice** — Startup Advice
+- **Y Combinator — Startup School** — Use YC's free curriculum on idea validation, launching, and fundraising to prepare before applying.
+- **Paul Graham — Do Things That Don't Scale** — Recruit early users by hand and over-serve them before automating acquisition.
+- **Michael Seibel (YC) — Launch early, talk to users** — Launch before you feel ready and iterate on user conversations; YC measures progress, not polish.
 
 ## When to Use
 

@@ -451,7 +451,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Command of the Message® (Value Messaging Framework) · MEDDICC/MEDDPICC · Competitive Displacement · Manager span of control (6–8 ICs) · Alignment cadence (weekly/monthly/quarterly)
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/force-management-playbook.md` — alignment cadence, reporting structures by ARR, pod economics worksheet, unit economics linkage
+**Artifacts:** `references/force-management-playbook.md` — alignment cadence, reporting structures by ARR, pod economics worksheet, unit economics linkage
 
 **Skills:** `sales-enablement`, `sales-team-building`, `pipeline-management`, `meeting-prep`, `sales-coaching`, `objection-handling`, `gtm-leadership`, `gtm-metrics`, `financial-modeling`
 
@@ -642,7 +642,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Teach-Tailor-Take Control · Commercial Teaching Insight · Challenger rep profile · Mobilizer vs Talker stakeholder map
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/brent-adamson-challenger.md` (canonical)
+**Artifacts:** `references/brent-adamson-challenger.md` (canonical)
 
 **Contrast:** **Matthew Dixon** = JOLT + shared Challenger heritage. **Keenan** = gap diagnosis before teaching. **Force Management** = operationalize into Command of the Message.
 
@@ -681,7 +681,7 @@ Each entry: role, domain, key frameworks, **public channels** (LinkedIn, X, YouT
 
 **Key Frameworks:** Great Demo flow · Do Something / Do Again · Cohan **reverse demo** (incumbent walkthrough in discovery) · Discovery-first demo ratio
 
-**Artifacts:** `https://github.com/LeadMagic/gtm-skills/blob/main/references/peter-cohan-great-demo.md` (canonical)
+**Artifacts:** `references/peter-cohan-great-demo.md` (canonical)
 
 **Naming:** **Varun Anand / Clay reverse demo** = prospect-led product session. **Cohan reverse demo** = buyer shows incumbent pain first. Cite both contexts.
 

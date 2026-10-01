@@ -30,8 +30,8 @@ landing page optimization, and the nurture-to-pipeline funnel.
 ## Authoritative Foundations
 
 - **Brian Balfour — Growth Loops** — Growth loops — acquisition/retention loops, not funnel-only thinking.
-- **Dan Martell — SaaS Lead Magnets** — SaaS Lead Magnets
-- **SparkToro — Audience Research** — Audience Research
+- **Dan Martell** — SaaS Lead Magnets
+- **SparkToro** — Audience Research
 
 ## When to Use
 

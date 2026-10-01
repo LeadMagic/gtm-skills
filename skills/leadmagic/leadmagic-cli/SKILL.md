@@ -15,9 +15,9 @@ metadata:
   category: leadmagic
   tags: [leadmagic, cli, automation, enrichment, batch-processing]
   frameworks:
-    - "CLI Design Patterns"
-    - "Enrichment Workflow Automation"
-    - "LeadMagic Public Documentation — B2B Data Enrichment"
+    - "LeadMagic docs — CLI installation and commands"
+    - "LeadMagic docs — Credits"
+    - "Command Line Interface Guidelines (clig.dev)"
   related_skills: [leadmagic-waterfall, leadmagic-integrations, api-enrichment]
 ---
 
@@ -31,12 +31,9 @@ workflows, batch-process CSV files, and push verified contacts to sending
 platforms — all without leaving the terminal.
 
 ## Authoritative Foundations
-
-- **CLI Design Patterns** — Shapes deliverables for this skill — The LeadMagic CLI provides terminal access to email finding, validation, company
-enrichment, and outbound platform integ.
-- **Enrichment Workflow Automation** — Shapes deliverables for this skill — The LeadMagic CLI provides terminal access to email finding, validation, company
-enrichment, and outbound platform integ.
-- **LeadMagic Public Documentation — B2B Data Enrichment** — B2B Data Enrichment
+- **LeadMagic docs — CLI installation and commands** — Install lm-tui, authenticate with `lm login` (browser OAuth), and check `lm --help` rather than pasting API keys into config.
+- **LeadMagic docs — Credits** — Check the credit balance and estimate cost before bulk runs; failed lookups and credit rules are documented per endpoint.
+- **Command Line Interface Guidelines (clig.dev)** — Prefer machine-readable output, meaningful exit codes, and non-interactive flags when scripting the CLI in pipelines.
 
 ## When to Use
 
@@ -151,10 +148,10 @@ Before delivering, verify:
 - `scripts/check-output.py` — local checklist validator for required sections
 This skill includes lightweight artifacts the agent can load on demand:
 - `references/cli-workflow-patterns.md` — source-aware enrichment pipelines (Patterns A–E)
-- `../leadmagic-waterfall/references/waterfall-column-spec.md` — Clay alternative for recurring
-- `../../tools/smartlead-workflows/references/clay-enrollment-handoff.md` — post-CLI sequencer handoff
-- `../../outbound/cold-email-copywriting/references/pat-spielmann-outbound-copy.md` — verify-before-send (Pat Spielmann)
-- `../../../../references/gtm-experts-outbound-index.md` — expert router
+- `references/waterfall-column-spec.md` — Clay alternative for recurring
+- the `smartlead-workflows` skill (clay-enrollment-handoff.md) — post-CLI sequencer handoff
+- `references/pat-spielmann-outbound-copy.md` — verify-before-send (Pat Spielmann)
+- `references/gtm-experts-outbound-index.md` — expert router
 Use the artifacts when the user asks for an implementation-ready deliverable, a repeatable workflow, or a quality check rather than generic advice.
 
 ## Related Skills

@@ -1,10 +1,13 @@
 ---
 name: abm-strategy
 description: >-
-  Design and execute Account-Based Marketing strategy — tier selection, account
-  scoring, channel orchestration, BDR alignment, measurement framework. Triggers
-  on: "ABM strategy", "account based marketing", "ABM playbook", "design ABM",
-  "target accounts", "ABSD", "account based sales development", "Lars Nilsson".
+  Designs an account-based marketing program: tier selection, account scoring,
+  channel orchestration, BDR alignment (account-based sales development), and a
+  measurement framework. Use when the user is launching or redesigning ABM,
+  choosing between 1-to-1, 1-to-few, and 1-to-many, or building a target account
+  program. Triggers on: "ABM strategy", "account based marketing", "ABM
+  playbook", "design ABM", "target accounts", "ABSD", "account based sales
+  development", "Lars Nilsson".
 license: MIT
 compatibility: Claude Code, Codex, GitHub Copilot, Cursor, Gemini CLI, OpenCode, Goose, Hermes, Windsurf, Zed
 metadata:

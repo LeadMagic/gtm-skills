@@ -4,16 +4,9 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **Y Combinator Startup School**
-- **Paul Graham — Do Things That Do Not Scale**
-- **Michael Seibel — Startup Advice**
-
-## Authoritative foundations
-
-- **Y Combinator Startup School** — Shapes deliverables for this skill — Y Combinator is the most influential startup institution in the world —
-$400B+ combined portfolio value, 4,000+ companie.
-- **Paul Graham — Do Things That Do Not Scale** — Do Things That Do Not Scale
-- **Michael Seibel — Startup Advice** — Startup Advice
+- **Y Combinator — Startup School** — Use YC's free curriculum on idea validation, launching, and fundraising to prepare before applying.
+- **Paul Graham — Do Things That Don't Scale** — Recruit early users by hand and over-serve them before automating acquisition.
+- **Michael Seibel (YC) — Launch early, talk to users** — Launch before you feel ready and iterate on user conversations; YC measures progress, not polish.
 
 ## Agent routing
 

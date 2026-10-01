@@ -2,7 +2,7 @@
 
 # Bookings vs Billings vs Revenue — GTM & Finance Matrix
 
-**Canonical home:** `saas-metrics-calculator` (with `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-mrr-accounting-nuances.md`).
+**Canonical home:** `saas-metrics-calculator` (with `references/saas-mrr-accounting-nuances.md`).
 **Audience:** RevOps and founders aligning CRM, billing, and board metrics — **not** accounting advice.
 
 ---
@@ -36,7 +36,7 @@
 - **Audit & due diligence:** GAAP revenue, deferred revenue roll-forward.
 - **Rule of 40 (GAAP):** Growth on **recognized** revenue; margin on GAAP EBITDA/FCF.
 - **Cash planning:** Billings and collections — prepay helps runway without changing monthly MRR.
-- **Public comps:** Meritech implied ARR from **reported revenue** — see `https://github.com/LeadMagic/gtm-skills/blob/main/references/meritech-saas-benchmarks.md`.
+- **Public comps:** Meritech implied ARR from **reported revenue** — see `references/meritech-saas-benchmarks.md`.
 
 ---
 
@@ -113,10 +113,10 @@ Sales asks "did I hit quota?"
 
 ## Cross-References
 
-- MRR variants & ASC 606 summary → `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-mrr-accounting-nuances.md`
-- Metric formulas → `saas-metrics-calculator`, `https://github.com/LeadMagic/gtm-skills/blob/main/references/saas-metrics-reference.md`
-- Benchmark alignment → `https://github.com/LeadMagic/gtm-skills/blob/main/references/benchmark-reconciliation.md`
-- Budget & cash → `https://github.com/LeadMagic/gtm-skills/blob/main/references/gtm-budget-playbook.md`, `financial-modeling`
+- MRR variants & ASC 606 summary → `references/saas-mrr-accounting-nuances.md`
+- Metric formulas → `saas-metrics-calculator`, `references/saas-metrics-reference.md`
+- Benchmark alignment → `references/benchmark-reconciliation.md`
+- Budget & cash → `references/gtm-budget-playbook.md`, `financial-modeling`
 - Exit diligence pack → `exiting-company/references/due-diligence-metrics-pack.md`
 
 ---

@@ -1,3 +1,5 @@
+<!-- AUTO-GENERATED shared reference: references/tito-bohrt-sdr-science.md; run npm run regenerate. -->
+
 # Tito Bohrt — Sales Development as a Science (AltiSales)
 
 **Source:** Tito Bohrt, Founder & CEO, **AltiSales** ("The Sales Mad Scientist"); background in behavioral economics / decision neuroscience (Duke). Named **Best SDR Leader 2018** (Sales Development Conference) and a Sales Hacker Certified Sales Expert. Has publicly stated he has hired and trained 100+ SDRs (including top performers at public companies such as Citrix) and built outbound programs for 90+ teams.
@@ -153,12 +155,12 @@ Use this to temper any `ai-sdr-setup` recommendation: measure **cost per *increm
 | Question | Action |
 |---|---|
 | Build/scale an SDR org, PODs, comp model | Follow `SKILL.md` (`sales-team-building`) step-by-step |
-| "Is our SDR cost model right / cost per meeting / Dear CFO" | This reference → SDR economics section; cross-check `skills/founder-led/gtm-role-descriptions/references/comp-benchmarks.md` |
-| SDR hiring JD + comp + promotion path | `skills/founder-led/gtm-role-descriptions/SKILL.md` |
-| SDR ramp / certification / leading-indicator onboarding | `skills/management-leadership/revenue-team-onboarding/SKILL.md` |
+| "Is our SDR cost model right / cost per meeting / Dear CFO" | This reference → SDR economics section; cross-check `https://github.com/LeadMagic/gtm-skills/blob/main/references/comp-benchmarks.md` |
+| SDR hiring JD + comp + promotion path | the `gtm-role-descriptions` skill |
+| SDR ramp / certification / leading-indicator onboarding | the `revenue-team-onboarding` skill |
 | Public-company SDR scale (data-as-product) | `references/henry-schuck-sdr-model.md` |
-| Phone talk tracks, openers, dial blocks | `skills/outbound/cold-calling/SKILL.md` · `references/cold-calling-experts-index.md` |
-| AI SDR build (measure incremental cost) | `skills/automation/ai-sdr-setup/SKILL.md` |
+| Phone talk tracks, openers, dial blocks | the `cold-calling` skill · `https://github.com/LeadMagic/gtm-skills/blob/main/references/cold-calling-experts-index.md` |
+| AI SDR build (measure incremental cost) | the `ai-sdr-setup` skill |
 
 ---
 

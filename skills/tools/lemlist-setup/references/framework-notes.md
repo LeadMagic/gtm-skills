@@ -4,10 +4,9 @@ Reference index for `SKILL.md`. Apply named frameworks to justify recommendation
 
 ## Primary Frameworks
 
-- **Lemlist Personalization Framework**
-- **Guillaume Moubeche — lemlist Outbound**
-- **ColdIQ Multi-Channel**
-- **Outreach — Sales Engagement Cadence Design**
+- **lemlist Help Center** — Build multichannel sequences (email, LinkedIn, calls) with conditions, and use lemwarm and custom tracking domains before sending.
+- **Guillaume Moubeche — lemlist outbound** — Multichannel sequences — email, LinkedIn, calls in one enrollment; personalization should earn the reply, not decorate the email.
+- **Google and Yahoo — Bulk sender requirements (2024)** — Authenticate with SPF, DKIM, and DMARC, keep spam complaints below 0.3%, and honor unsubscribes quickly.
 
 ## Deep-dive references
 
