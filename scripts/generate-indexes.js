@@ -541,7 +541,7 @@ const marketplace = {
   name: "gtm-skills",
   owner: {
     name: "LeadMagic",
-    email: "team@leadmagic.io",
+    email: "plugins@leadmagic.io",
     url: "https://leadmagic.io",
   },
   description: `${total} production go-to-market skills for AI agents. Artifact-first GTM playbooks across ${categories.length} categories.`,

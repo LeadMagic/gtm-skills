@@ -295,7 +295,7 @@ Deliver the enriched data as two structured tables (Company and Person) with:
 | 1 | Seed Data | Always | domain, name | $0.00 | [#] |
 | 2 | Clearbit Free | Always | basic firmographics | $0.00 | [#] |
 | 3 | Apollo | employee_count IS NULL | employees, revenue, industry | $0.03 | [#] |
-| 4 | LeadMagic | employee_count IS NULL | employees, tech stack | $0.05 | [#] |
+| 4 | LeadMagic | employee_count IS NULL | employees, tech stack | [see leadmagic.io/pricing] | [#] |
 | 5 | Claude | industry IS NULL | description, norm | $0.02 | [#] |
 
 ### Person Waterfall

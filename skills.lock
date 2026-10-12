@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "repository": "LeadMagic/gtm-skills",
-  "generated_at": "2026-10-01T03:14:01+00:00",
+  "generated_at": "2026-10-12T06:34:00+00:00",
   "total_skills": 211,
   "total_files": 1446,
   "file_counts": {
@@ -1612,8 +1612,8 @@
         "lead-enrichment",
         "SKILL.md"
       ],
-      "sha256": "a41a6ac05cd14337b47cb51496dc41890b4d8647243e042d271c6dc72dc2caff",
-      "size_bytes": 21737
+      "sha256": "142287416d2a7283d581f13c03e30ee5105d5e13cbc3ad6522afd773ee9d37f6",
+      "size_bytes": 21758
     },
     "prospecting/lead-finding": {
       "path": [
@@ -1846,8 +1846,8 @@
         "leadmagic-toolkit",
         "SKILL.md"
       ],
-      "sha256": "6866a4b18f73708d8094a0841d73e9891d07e45e4ad7f29a00dd32840995dad7",
-      "size_bytes": 9230
+      "sha256": "bef12186569f18f3a172e9fdf4e2483f476fcf5ceee30b0766948dafe817b6a5",
+      "size_bytes": 9225
     },
     "tools/lemlist-setup": {
       "path": [
@@ -7970,8 +7970,8 @@
       "kind": "templates"
     },
     "skills/prospecting/lead-enrichment/SKILL.md": {
-      "sha256": "a41a6ac05cd14337b47cb51496dc41890b4d8647243e042d271c6dc72dc2caff",
-      "size_bytes": 21737,
+      "sha256": "142287416d2a7283d581f13c03e30ee5105d5e13cbc3ad6522afd773ee9d37f6",
+      "size_bytes": 21758,
       "kind": "entrypoints"
     },
     "skills/prospecting/lead-enrichment/references/framework-notes.md": {
@@ -8830,8 +8830,8 @@
       "kind": "templates"
     },
     "skills/tools/leadmagic-toolkit/SKILL.md": {
-      "sha256": "6866a4b18f73708d8094a0841d73e9891d07e45e4ad7f29a00dd32840995dad7",
-      "size_bytes": 9230,
+      "sha256": "bef12186569f18f3a172e9fdf4e2483f476fcf5ceee30b0766948dafe817b6a5",
+      "size_bytes": 9225,
       "kind": "entrypoints"
     },
     "skills/tools/leadmagic-toolkit/references/framework-notes.md": {
